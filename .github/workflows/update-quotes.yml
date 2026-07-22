@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update-quotes:
@@ -27,6 +28,7 @@ jobs:
         run: node scripts/fetch-quotes.mjs
 
       - name: Commit and push if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -34,6 +36,18 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update live stock quotes"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No quote changes, skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      # A push made with the default GITHUB_TOKEN does not trigger other
+      # workflows (GitHub's loop-prevention rule), so pages.yml wouldn't
+      # otherwise redeploy with the fresh quotes. Dispatching it explicitly
+      # is exempt from that restriction.
+      - name: Trigger Pages redeploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref claude/stock-portfolio-website-2ulin2
