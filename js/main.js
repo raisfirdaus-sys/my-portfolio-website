@@ -642,6 +642,7 @@ async function loadLiveQuotes() {
     renderHeroList();
     renderHoldingCards();
     observeReveals();
+    renderPerformanceStats(data);
 
     if (label) {
       label.textContent = data.updatedAt
@@ -650,7 +651,56 @@ async function loadLiveQuotes() {
     }
   } catch (err) {
     if (label) label.textContent = "Menampilkan harga snapshot terakhir (gagal memuat data live)";
+    const perfUpdated = document.getElementById("perf-updated");
+    if (perfUpdated) perfUpdated.textContent = "Gagal memuat data performa live.";
     console.error("Gagal memuat data/quotes.json:", err);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Portfolio performance (USD) — total value + weighted returns, sourced
+// from the same live quotes.json the price ticker uses.
+// ---------------------------------------------------------------------------
+function fmtUSD(n) {
+  return n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+}
+
+function setPerfValue(id, pct) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (typeof pct !== "number") {
+    el.textContent = "—";
+    el.classList.remove("up", "down");
+    return;
+  }
+  el.textContent = fmtPct(pct, 1);
+  el.classList.toggle("up", pct >= 0);
+  el.classList.toggle("down", pct < 0);
+}
+
+function renderPerformanceStats(data) {
+  const portfolio = data?.portfolio;
+  const totalEl = document.getElementById("perf-total");
+  const ytdLabel = document.getElementById("perf-ytd-label");
+  const updatedEl = document.getElementById("perf-updated");
+
+  if (ytdLabel) ytdLabel.textContent = `Return YTD ${new Date().getFullYear()}`;
+
+  if (!portfolio) {
+    if (updatedEl) updatedEl.textContent = "Menunggu update otomatis pertama untuk data performa.";
+    return;
+  }
+
+  if (totalEl) {
+    totalEl.textContent = typeof portfolio.totalUSD === "number" ? fmtUSD(portfolio.totalUSD) : "—";
+  }
+  setPerfValue("perf-1y", portfolio.oneYearReturnPercent);
+  setPerfValue("perf-ytd", portfolio.ytdReturnPercent);
+
+  if (updatedEl) {
+    updatedEl.textContent = data.updatedAt
+      ? `Dihitung dari harga live 11 saham · Terakhir: ${fmtUpdatedAt(data.updatedAt)}. Beberapa saham (mis. GEV, baru IPO 2024) belum punya riwayat harga 1 tahun penuh, jadi angkanya dihitung sejak data paling awal yang tersedia.`
+      : "Menunggu update otomatis pertama untuk data performa.";
   }
 }
 

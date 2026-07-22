@@ -3,25 +3,47 @@
 // GitHub Actions runner (see .github/workflows/update-quotes.yml), so
 // there's no CORS or API-key concern — the site itself just reads the
 // resulting static JSON file.
+//
+// Each ticker request pulls a full year of daily closes (not just today's
+// quote) so we can derive real 1-year and year-to-date returns instead of
+// making those up. Some holdings (e.g. GEV, spun off in April 2024) don't
+// have a full year of history yet — in that case the "1-year" figure is
+// simply the return since the earliest available close.
 
 const TICKERS = ["MU", "GEV", "MA", "ABBV", "V", "JNJ", "VLO", "PG", "GILD", "MNST", "KO"];
 
 async function fetchQuote(ticker) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1y`;
   const res = await fetch(url, {
     headers: { "User-Agent": "Mozilla/5.0 (compatible; rais-firdaus-portfolio-bot/1.0)" },
   });
   if (!res.ok) throw new Error(`${ticker}: HTTP ${res.status}`);
   const json = await res.json();
-  const meta = json?.chart?.result?.[0]?.meta;
+  const result = json?.chart?.result?.[0];
+  const meta = result?.meta;
   if (!meta || typeof meta.regularMarketPrice !== "number") {
     throw new Error(`${ticker}: unexpected response shape`);
   }
+
   const price = meta.regularMarketPrice;
   const prevClose = meta.previousClose ?? meta.chartPreviousClose;
   const change = prevClose ? price - prevClose : 0;
   const changePercent = prevClose ? (change / prevClose) * 100 : 0;
-  return { price, change, changePercent };
+
+  const timestamps = result.timestamp || [];
+  const closes = result.indicators?.quote?.[0]?.close || [];
+  const series = timestamps
+    .map((t, i) => ({ t, c: closes[i] }))
+    .filter((p) => typeof p.c === "number");
+
+  const oneYearAgoClose = series[0]?.c;
+  const oneYearReturnPercent = oneYearAgoClose ? ((price - oneYearAgoClose) / oneYearAgoClose) * 100 : null;
+
+  const jan1 = Date.UTC(new Date().getUTCFullYear(), 0, 1) / 1000;
+  const ytdStartClose = (series.find((p) => p.t >= jan1) || series[0])?.c;
+  const ytdReturnPercent = ytdStartClose ? ((price - ytdStartClose) / ytdStartClose) * 100 : null;
+
+  return { price, change, changePercent, oneYearReturnPercent, ytdReturnPercent };
 }
 
 async function main() {
@@ -47,7 +69,24 @@ async function main() {
     }
   });
 
-  const output = { updatedAt: new Date().toISOString(), quotes };
+  // Portfolio-level aggregates, weighted by each holding's current price
+  // (the site treats "one unit per ticker" throughout — see HOLDINGS in
+  // js/main.js — so price itself doubles as the position weight).
+  const priced = TICKERS.map((t) => quotes[t]).filter(Boolean);
+  const totalUSD = priced.reduce((sum, q) => sum + q.price, 0);
+  const weightedReturn = (key) => {
+    const withValue = priced.filter((q) => typeof q[key] === "number");
+    if (!withValue.length || !totalUSD) return null;
+    return withValue.reduce((sum, q) => sum + (q.price / totalUSD) * q[key], 0);
+  };
+
+  const portfolio = {
+    totalUSD,
+    oneYearReturnPercent: weightedReturn("oneYearReturnPercent"),
+    ytdReturnPercent: weightedReturn("ytdReturnPercent"),
+  };
+
+  const output = { updatedAt: new Date().toISOString(), quotes, portfolio };
   await fs.writeFile(outPath, JSON.stringify(output, null, 2) + "\n");
   console.log(`Wrote ${Object.keys(quotes).length} quotes to data/quotes.json`);
 }
