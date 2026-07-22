@@ -1,16 +1,60 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-07-22T05:07:35.183Z",
   "quotes": {
-    "MU": { "price": 814.59, "change": 93.88, "changePercent": 13.03 },
-    "GEV": { "price": 661.61, "change": 12.55, "changePercent": 1.93 },
-    "MA": { "price": 556.49, "change": 1.71, "changePercent": 0.31 },
-    "ABBV": { "price": 510.84, "change": 74.83, "changePercent": 17.16 },
-    "V": { "price": 382.39, "change": 24.8, "changePercent": 6.94 },
-    "JNJ": { "price": 320.23, "change": 17.44, "changePercent": 5.76 },
-    "VLO": { "price": 314.47, "change": -1.32, "changePercent": -0.42 },
-    "PG": { "price": 148.12, "change": -3.72, "changePercent": -2.45 },
-    "GILD": { "price": 129.9, "change": -0.07, "changePercent": -0.05 },
-    "MNST": { "price": 89.24, "change": -3.83, "changePercent": -4.12 },
-    "KO": { "price": 63.98, "change": -1.26, "changePercent": -1.93 }
+    "MU": {
+      "price": 970.82,
+      "change": 105.36000000000001,
+      "changePercent": 12.17387285374252
+    },
+    "GEV": {
+      "price": 1078.81,
+      "change": -0.37000000000011823,
+      "changePercent": -0.03428529068367818
+    },
+    "MA": {
+      "price": 538.3,
+      "change": -9.1400000000001,
+      "changePercent": -1.669589361391221
+    },
+    "ABBV": {
+      "price": 256.1,
+      "change": 2.7200000000000273,
+      "changePercent": 1.0734864630199807
+    },
+    "V": {
+      "price": 355.82,
+      "change": -4.75,
+      "changePercent": -1.3173586266189645
+    },
+    "JNJ": {
+      "price": 250.61,
+      "change": 1.7900000000000205,
+      "changePercent": 0.7193955469817621
+    },
+    "VLO": {
+      "price": 314.8,
+      "change": 1.490000000000009,
+      "changePercent": 0.4755673294819856
+    },
+    "PG": {
+      "price": 148.1,
+      "change": -1.0300000000000011,
+      "changePercent": -0.6906725675585068
+    },
+    "GILD": {
+      "price": 130.28,
+      "change": -2.930000000000007,
+      "changePercent": -2.199534569476771
+    },
+    "MNST": {
+      "price": 94.46,
+      "change": -0.9900000000000091,
+      "changePercent": -1.0371922472498785
+    },
+    "KO": {
+      "price": 81.97,
+      "change": -0.15000000000000568,
+      "changePercent": -0.18265952264978771
+    }
   }
 }
