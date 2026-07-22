@@ -1,65 +1,87 @@
 {
-  "updatedAt": "2026-07-22T05:07:35.183Z",
+  "updatedAt": "2026-07-22T05:36:43.619Z",
   "quotes": {
     "MU": {
       "price": 970.82,
-      "change": 105.36000000000001,
-      "changePercent": 12.17387285374252
+      "change": 857.59,
+      "changePercent": 757.3876181224057,
+      "oneYearReturnPercent": 788.8664980311105,
+      "ytdReturnPercent": 207.7864303694299
     },
     "GEV": {
       "price": 1078.81,
-      "change": -0.37000000000011823,
-      "changePercent": -0.03428529068367818
+      "change": 512.9,
+      "changePercent": 90.63278613207048,
+      "oneYearReturnPercent": 96.50813661273386,
+      "ytdReturnPercent": 58.753589784283754
     },
     "MA": {
       "price": 538.3,
-      "change": -9.1400000000001,
-      "changePercent": -1.669589361391221
+      "change": -16.350000000000023,
+      "changePercent": -2.9478049220229017,
+      "oneYearReturnPercent": -3.661681116765516,
+      "ytdReturnPercent": -4.409284653191172
     },
     "ABBV": {
       "price": 256.1,
-      "change": 2.7200000000000273,
-      "changePercent": 1.0734864630199807
+      "change": 71.25000000000003,
+      "changePercent": 38.544766026508,
+      "oneYearReturnPercent": 36.871358647107876,
+      "ytdReturnPercent": 11.682875900149464
     },
     "V": {
       "price": 355.82,
-      "change": -4.75,
-      "changePercent": -1.3173586266189645
+      "change": 4.8799999999999955,
+      "changePercent": 1.3905510913546462,
+      "oneYearReturnPercent": 1.1254518312108797,
+      "ytdReturnPercent": 2.6956790341479233
     },
     "JNJ": {
       "price": 250.61,
-      "change": 1.7900000000000205,
-      "changePercent": 0.7193955469817621
+      "change": 86.25,
+      "changePercent": 52.47627159892918,
+      "oneYearReturnPercent": 49.23480672320831,
+      "ytdReturnPercent": 20.863271098669582
     },
     "VLO": {
       "price": 314.8,
-      "change": 1.490000000000009,
-      "changePercent": 0.4755673294819856
+      "change": 168.52,
+      "changePercent": 115.20371889526935,
+      "oneYearReturnPercent": 116.93887304521414,
+      "ytdReturnPercent": 90.4301038347181
     },
     "PG": {
       "price": 148.1,
-      "change": -1.0300000000000011,
-      "changePercent": -0.6906725675585068
+      "change": -6.930000000000007,
+      "changePercent": -4.47010256079469,
+      "oneYearReturnPercent": -6.455284772245817,
+      "ytdReturnPercent": 4.45024826338313
     },
     "GILD": {
       "price": 130.28,
-      "change": -2.930000000000007,
-      "changePercent": -2.199534569476771
+      "change": 22,
+      "changePercent": 20.317694865164388,
+      "oneYearReturnPercent": 18.253610025676927,
+      "ytdReturnPercent": 7.138159239143564
     },
     "MNST": {
       "price": 94.46,
-      "change": -0.9900000000000091,
-      "changePercent": -1.0371922472498785
+      "change": 35.029999999999994,
+      "changePercent": 58.94329463234056,
+      "oneYearReturnPercent": 58.51652921316155,
+      "ytdReturnPercent": 24.02835538070636
     },
     "KO": {
       "price": 81.97,
-      "change": -0.15000000000000568,
-      "changePercent": -0.18265952264978771
+      "change": 11.900000000000006,
+      "changePercent": 16.983016983016995,
+      "oneYearReturnPercent": 17.671541330375327,
+      "ytdReturnPercent": 18.590851769104418
     }
   },
   "portfolio": {
-    "totalUSD": 4220.07,
-    "oneYearReturnPercent": null,
-    "ytdReturnPercent": null
+    "totalUSD": 4220.070000000001,
+    "oneYearReturnPercent": 221.65096766924134,
+    "ytdReturnPercent": 72.45458449955653
   }
 }
