@@ -25,7 +25,19 @@ async function fetchQuote(ticker) {
     throw new Error(`${ticker}: unexpected response shape`);
   }
 
-  const price = meta.regularMarketPrice;
+  // Yahoo's meta block carries up to three "current price" candidates —
+  // regular session, pre-market, and post-market — each with its own
+  // timestamp. Outside of regular trading hours, regularMarketPrice is
+  // just stale (last session's close), so pick whichever candidate is
+  // actually the most recent rather than always trusting regularMarketPrice.
+  // This is what lets the site's "Today" change reflect a live pre-market
+  // move instead of lagging behind it until the regular session opens.
+  const priceCandidates = [
+    { price: meta.regularMarketPrice, time: meta.regularMarketTime },
+    { price: meta.postMarketPrice, time: meta.postMarketTime },
+    { price: meta.preMarketPrice, time: meta.preMarketTime },
+  ].filter((c) => typeof c.price === "number" && typeof c.time === "number");
+  const price = priceCandidates.reduce((a, b) => (b.time > a.time ? b : a)).price;
 
   const timestamps = result.timestamp || [];
   const closes = result.indicators?.quote?.[0]?.close || [];

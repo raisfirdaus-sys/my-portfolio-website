@@ -2,8 +2,11 @@ name: Update live stock quotes
 
 on:
   schedule:
-    # Every 30 minutes, roughly covering US market hours (weekdays, UTC).
-    - cron: "*/30 13-21 * * 1-5"
+    # Every 30 minutes, covering pre-market through after-hours (roughly
+    # 4am-8pm ET / 8:00-24:00 UTC, weekdays) — not just the 9:30am-4pm ET
+    # regular session, since fetch-quotes.mjs now also picks up pre/post
+    # market price moves and those should show up as they happen too.
+    - cron: "*/30 8-23 * * 1-5"
   workflow_dispatch:
 
 permissions:
