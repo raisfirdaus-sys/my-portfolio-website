@@ -2,8 +2,9 @@ name: Update price chart history
 
 on:
   schedule:
-    # Every 30 minutes, matching the price-quote cadence.
-    - cron: "*/30 * * * *"
+    # Every 30 minutes, offset from :00/:30 (see update-quotes.yml) and
+    # staggered from the other two 30-min jobs so they don't queue together.
+    - cron: "20,50 * * * *"
   workflow_dispatch:
 
 permissions:

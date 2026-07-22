@@ -2,14 +2,15 @@ name: Update live stock quotes
 
 on:
   schedule:
-    # Every 30 minutes, 24/7. Originally restricted to 8:00-23:30 UTC
-    # (pre-market through after-hours on weekdays), but that left a dead
-    # zone from 00:00-08:00 UTC (8pm-4am ET) where quotes.json simply never
-    # refreshed — some brokers (incl. the ones several visitors use for US
-    # stocks) route overnight trades through 24-hour ATS venues, so a real
-    # price move can happen in that window and this needs to catch it
-    # rather than show a stale number until the next official session.
-    - cron: "*/30 * * * *"
+    # Every 30 minutes, 24/7, offset to :06/:36 rather than :00/:30.
+    # GitHub explicitly warns that schedules pinned to the top/bottom of
+    # the hour are more likely to be delayed, since that's when the
+    # largest number of cron-scheduled workflows across all of GitHub fire
+    # at once — offsetting a few minutes avoids that queueing delay.
+    # (Also previously restricted to 8:00-23:30 UTC, which left a dead
+    # zone from 00:00-08:00 UTC / 8pm-4am ET where quotes.json never
+    # refreshed at all — now runs around the clock.)
+    - cron: "6,36 * * * *"
   workflow_dispatch:
 
 permissions:

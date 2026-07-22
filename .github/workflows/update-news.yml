@@ -2,8 +2,10 @@ name: Update stock news
 
 on:
   schedule:
-    # Every 30 minutes, matching the price-quote cadence.
-    - cron: "*/30 * * * *"
+    # Every 30 minutes, offset from :00/:30 (see update-quotes.yml for why)
+    # and staggered a few minutes from that workflow's own offset so the
+    # two don't queue behind each other either.
+    - cron: "12,42 * * * *"
   workflow_dispatch:
 
 permissions:
