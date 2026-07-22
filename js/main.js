@@ -553,6 +553,24 @@ function initReveal() {
     { threshold: 0.4 }
   );
   barFills.forEach((el) => barObserver.observe(el));
+
+  // One-shot "spin in" flourish for the allocation donut and sector radar,
+  // the first time each scrolls into view.
+  const spinTargets = [document.getElementById("donut"), document.getElementById("radar-svg")].filter(
+    Boolean
+  );
+  const spinObserver = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("spin-in");
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.35 }
+  );
+  spinTargets.forEach((el) => spinObserver.observe(el));
 }
 
 // ---------------------------------------------------------------------------

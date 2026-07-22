@@ -653,6 +653,27 @@ p {
   height: 280px;
   border-radius: 50%;
   position: relative;
+  opacity: 0;
+  transform: scale(0.55) rotate(-130deg);
+  transform-origin: center;
+  transition: opacity 1.1s cubic-bezier(0.16, 1, 0.3, 1), transform 1.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.donut.spin-in {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+#radar-svg {
+  opacity: 0;
+  transform: scale(0.55) rotate(-130deg);
+  transform-origin: center;
+  transition: opacity 1.1s cubic-bezier(0.16, 1, 0.3, 1), transform 1.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#radar-svg.spin-in {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
 }
 
 .donut-center {
