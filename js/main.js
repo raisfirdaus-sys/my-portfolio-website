@@ -256,6 +256,113 @@ function renderGrowthBars() {
 }
 
 // ---------------------------------------------------------------------------
+// Portrait stat chips (top 2 projected growth, shown on the philosophy photo)
+// ---------------------------------------------------------------------------
+function renderPortraitStats() {
+  const wrap = document.getElementById("portrait-stats");
+  if (!wrap) return;
+  const top2 = [...HOLDINGS].sort((a, b) => b.growth5y - a.growth5y).slice(0, 2);
+  wrap.innerHTML = top2
+    .map(
+      (h) => `
+      <div class="portrait-stat">
+        <span class="ps-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+        </span>
+        <div>
+          <strong>${h.ticker}</strong>
+          <small>${h.growth5y}% Proyeksi Growth</small>
+        </div>
+      </div>`
+    )
+    .join("");
+}
+
+// ---------------------------------------------------------------------------
+// Sector groups (derived from HOLDINGS by ticker)
+// ---------------------------------------------------------------------------
+const SECTOR_GROUPS = [
+  { name: "Semikonduktor & AI", tickers: ["MU"] },
+  { name: "Energi & Infrastruktur", tickers: ["GEV", "VLO"] },
+  { name: "Pembayaran Digital", tickers: ["MA", "V"] },
+  { name: "Farmasi & Bioteknologi", tickers: ["ABBV", "GILD"] },
+  { name: "Kesehatan Konsumen", tickers: ["JNJ"] },
+  { name: "Consumer Staples & Minuman", tickers: ["PG", "KO", "MNST"] },
+];
+
+function renderSectorList() {
+  const wrap = document.getElementById("sector-list");
+  if (!wrap) return;
+  wrap.innerHTML = SECTOR_GROUPS.map(
+    (g) => `
+    <div class="sector-row">
+      <div>
+        <div class="sr-name">${g.name}</div>
+        <div class="sr-tickers">${g.tickers.join(" · ")}</div>
+      </div>
+      <span class="sr-arrow">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+      </span>
+    </div>`
+  ).join("");
+}
+
+// ---------------------------------------------------------------------------
+// Sector radar chart (11 axes = 11 tickers, two normalized series)
+// ---------------------------------------------------------------------------
+function renderSectorRadar() {
+  const svg = document.getElementById("radar-svg");
+  if (!svg) return;
+
+  const n = HOLDINGS.length;
+  const size = 380;
+  const cx = size / 2;
+  const cy = size / 2;
+  const outerR = 130;
+  const maxWeight = Math.max(...HOLDINGS.map((h) => h.weight));
+  const maxGrowth = Math.max(...HOLDINGS.map((h) => h.growth5y));
+
+  const angleFor = (i) => -Math.PI / 2 + i * ((2 * Math.PI) / n);
+  const pointAt = (i, ratio) => {
+    const a = angleFor(i);
+    return [cx + Math.cos(a) * outerR * ratio, cy + Math.sin(a) * outerR * ratio];
+  };
+
+  let gridCircles = "";
+  [0.25, 0.5, 0.75, 1].forEach((r) => {
+    gridCircles += `<circle cx="${cx}" cy="${cy}" r="${outerR * r}" fill="none" style="stroke:var(--line)" stroke-width="1"/>`;
+  });
+
+  let axisLines = "";
+  let labels = "";
+  HOLDINGS.forEach((h, i) => {
+    const [ax, ay] = pointAt(i, 1);
+    axisLines += `<line x1="${cx}" y1="${cy}" x2="${ax}" y2="${ay}" style="stroke:var(--line)" stroke-width="1"/>`;
+
+    const a = angleFor(i);
+    const lr = outerR + 20;
+    const lx = cx + Math.cos(a) * lr;
+    const ly = cy + Math.sin(a) * lr;
+    let anchor = "middle";
+    if (Math.cos(a) > 0.25) anchor = "start";
+    else if (Math.cos(a) < -0.25) anchor = "end";
+    labels += `<text x="${lx}" y="${ly + 4}" font-size="11" font-weight="700" text-anchor="${anchor}" style="fill:var(--forest-700)">${h.ticker}</text>`;
+  });
+
+  const weightPts = HOLDINGS.map((h, i) => pointAt(i, h.weight / maxWeight).join(",")).join(" ");
+  const growthPts = HOLDINGS.map((h, i) => pointAt(i, h.growth5y / maxGrowth).join(",")).join(" ");
+
+  svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
+  svg.innerHTML = `
+    ${gridCircles}
+    ${axisLines}
+    <polygon points="${weightPts}" style="fill:var(--forest-700);stroke:var(--forest-800)" fill-opacity="0.55" stroke-width="2"/>
+    <polygon points="${growthPts}" style="fill:var(--lime-400);stroke:var(--lime-600)" fill-opacity="0.4" stroke-width="2"/>
+    ${labels}
+  `;
+}
+
+// ---------------------------------------------------------------------------
 // Holding cards
 // ---------------------------------------------------------------------------
 function renderHoldingCards() {
@@ -448,6 +555,9 @@ document.addEventListener("DOMContentLoaded", () => {
   renderGrowthBars();
   renderHoldingCards();
   renderGrowthChart();
+  renderPortraitStats();
+  renderSectorList();
+  renderSectorRadar();
   initPillarTabs();
   initNavToggle();
 
