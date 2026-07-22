@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Rais Firdaus — US Stock Portfolio &amp; Investment Insights</title>
-<meta name="description" content="Portofolio 11 saham AS pilihan Rais Firdaus — alokasi, tesis investasi, dan proyeksi pertumbuhan 5 tahun. Konten edukasi investasi, bukan nasihat keuangan." />
+<meta name="description" content="Rais Firdaus's 11-stock US portfolio — allocation, investment thesis, and 5-year growth projections. Educational investing content, not financial advice." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2312281f'/%3E%3Cpath d='M20 65 L40 40 L55 55 L80 25' stroke='%23c8f169' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=3" />
+<link rel="stylesheet" href="css/style.css?v=4" />
 </head>
 <body>
 
@@ -24,21 +24,21 @@
       </span>
     </a>
     <nav class="nav-links" id="nav-links">
-      <a href="#performance">Performa</a>
-      <a href="#report">Laporan</a>
+      <a href="#performance">Performance</a>
+      <a href="#report">Report</a>
       <a href="#growth">Growth Rate</a>
-      <a href="#sectors">Sektor</a>
-      <a href="#allocation">Alokasi</a>
-      <a href="#philosophy">Filosofi</a>
-      <a href="#holdings">Portofolio</a>
-      <a href="#letter">Surat Investor</a>
-      <a href="#social">Media Sosial</a>
+      <a href="#sectors">Sectors</a>
+      <a href="#allocation">Allocation</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#holdings">Portfolio</a>
+      <a href="#letter">Investor Letter</a>
+      <a href="#social">Social</a>
     </nav>
     <div class="nav-cta">
       <a href="https://raisfirdaus.com" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
-        <span class="long">Kunjungi</span> raisfirdaus.com
+        <span class="long">Visit</span> raisfirdaus.com
       </a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Buka menu">
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -64,29 +64,29 @@
   </svg>
   <div class="container hero-inner">
     <div class="hero-copy">
-      <span class="eyebrow on-dark">Investor Individual · Konten Kreator</span>
-      <h1>Membangun kekayaan lewat <em>compounding</em>, satu keputusan saham pada satu waktu.</h1>
+      <span class="eyebrow on-dark">Individual Investor · Content Creator</span>
+      <h1>Building wealth through <em>compounding</em>, one stock decision at a time.</h1>
       <p>
-        Aku Rais Firdaus — berbagi riset dan jejak portofolio saham AS-ku secara terbuka lewat YouTube, Instagram, X, dan LinkedIn.
-        Halaman ini merangkum <strong>11 saham</strong> yang jadi inti portofolioku saat ini: apa alasannya, seberapa besar alokasinya,
-        dan bagaimana aku melihat prospeknya 5 tahun ke depan.
+        I'm Rais Firdaus — I share my research and US stock portfolio openly on YouTube, Instagram, X, and LinkedIn.
+        This page breaks down the <strong>11 stocks</strong> at the core of my portfolio right now: why I hold them, how
+        they're weighted, and how I see their outlook over the next 5 years.
       </p>
       <div class="hero-actions">
-        <a href="#holdings" class="btn btn-primary">Lihat 11 Saham Pilihanku</a>
-        <a href="#social" class="btn btn-outline">Ikuti Perjalanannya</a>
+        <a href="#holdings" class="btn btn-primary">See My 11 Picks</a>
+        <a href="#social" class="btn btn-outline">Follow the Journey</a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
           <strong id="stat-count">11</strong>
-          <span>Saham Inti Portofolio</span>
+          <span>Core Holdings</span>
         </div>
         <div class="hero-stat">
           <strong>2026–2031</strong>
-          <span>Horizon Investasi</span>
+          <span>Investment Horizon</span>
         </div>
         <div class="hero-stat">
           <strong>100%</strong>
-          <span>Terbuka &amp; Transparan</span>
+          <span>Open &amp; Transparent</span>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@
     <div class="hero-card reveal">
       <div class="hero-card-head">
         <span>Top Holdings</span>
-        <span>berdasarkan bobot portofolio</span>
+        <span>by portfolio weight</span>
       </div>
       <div class="hero-ticker-list" id="hero-ticker-list"></div>
     </div>
@@ -106,18 +106,18 @@
   <div class="ticker-track" id="ticker-track"></div>
 </div>
 <div class="quotes-updated-bar">
-  <span id="quotes-updated">Memuat harga terbaru…</span>
+  <span id="quotes-updated">Loading latest prices…</span>
 </div>
 
 <!-- ============ PERFORMANCE (USD) ============ -->
 <section class="section performance" id="performance">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Performa Portofolio</span>
-      <h2>Ringkasan performa dalam USD</h2>
+      <span class="eyebrow">Portfolio Performance</span>
+      <h2>Performance summary in USD</h2>
       <p>
-        Dihitung otomatis dari harga live 11 saham (asumsi 1 lembar per saham, bukan jumlah kepemilikan
-        sesungguhnya), lalu diperbarui otomatis tiap ~30 menit selama jam bursa AS — sama seperti harga di atas.
+        Calculated automatically from live prices across all 11 stocks (assuming 1 share each, not actual holding size),
+        refreshed automatically roughly every 30 minutes during US market hours — same as the prices above.
       </p>
     </div>
     <div class="perf-grid reveal">
@@ -125,9 +125,9 @@
         <span class="perf-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
         </span>
-        <span class="perf-label">Total Nilai Portofolio</span>
+        <span class="perf-label">Total Portfolio Value</span>
         <strong class="perf-value" id="perf-total">—</strong>
-        <span class="perf-sub">11 saham · USD</span>
+        <span class="perf-sub">11 stocks · USD</span>
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
@@ -135,26 +135,26 @@
         </span>
         <span class="perf-label">Net Assets</span>
         <strong class="perf-value" id="perf-net">—</strong>
-        <span class="perf-sub">tanpa utang/margin = total aset</span>
+        <span class="perf-sub">no debt/margin = total assets</span>
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
         </span>
-        <span class="perf-label">Return 1 Tahun</span>
+        <span class="perf-label">1-Year Return</span>
         <strong class="perf-value" id="perf-1y">—</strong>
-        <span class="perf-sub">rata-rata tertimbang</span>
+        <span class="perf-sub">weighted average</span>
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>
         </span>
-        <span class="perf-label" id="perf-ytd-label">Return YTD</span>
+        <span class="perf-label" id="perf-ytd-label">YTD Return</span>
         <strong class="perf-value" id="perf-ytd">—</strong>
-        <span class="perf-sub">sejak awal tahun</span>
+        <span class="perf-sub">since the start of the year</span>
       </div>
     </div>
-    <p class="disclaimer-note" id="perf-updated" style="max-width:760px">Menghitung performa live…</p>
+    <p class="disclaimer-note" id="perf-updated" style="max-width:760px">Calculating live performance…</p>
   </div>
 </section>
 
@@ -162,24 +162,24 @@
 <section class="section" id="report">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Laporan Kepemilikan</span>
-      <h2>Rincian 11 saham, gaya fund fact-sheet</h2>
+      <span class="eyebrow">Holdings Report</span>
+      <h2>All 11 stocks, fund fact-sheet style</h2>
       <p>
-        Klik simbol saham untuk buka website resmi perusahaannya langsung — cek sendiri produk, laporan keuangan,
-        dan berita terbaru sebelum memutuskan riset lebih lanjut.
+        Click any ticker symbol to open the company's official website — check out the products, financials, and latest
+        news yourself before doing further research.
       </p>
     </div>
     <div class="report-table-wrap reveal">
       <table class="report-table">
         <thead>
           <tr>
-            <th>Simbol</th>
-            <th>Perusahaan</th>
-            <th>Sektor</th>
-            <th class="rp-num">Harga</th>
-            <th class="rp-num">Bobot</th>
-            <th class="rp-num">Hari Ini</th>
-            <th class="rp-num">1 Tahun</th>
+            <th>Symbol</th>
+            <th>Company</th>
+            <th>Sector</th>
+            <th class="rp-num">Price</th>
+            <th class="rp-num">Weight</th>
+            <th class="rp-num">Today</th>
+            <th class="rp-num">1 Year</th>
             <th class="rp-num">YTD</th>
           </tr>
         </thead>
@@ -187,9 +187,9 @@
       </table>
     </div>
     <p class="disclaimer-note" style="max-width:760px">
-      Data harga &amp; return bersumber dari Yahoo Finance, diperbarui otomatis tiap ~30 menit. Sebagian angka 1
-      Tahun/YTD bisa kosong ("—") jika riwayat harganya belum cukup panjang atau datanya sedang tidak wajar — kami
-      sengaja menyembunyikannya daripada menampilkan angka yang salah.
+      Price &amp; return data sourced from Yahoo Finance, refreshed automatically roughly every 30 minutes. Some 1-Year/YTD
+      figures may show as "—" if the price history is too short or the data looks unreliable — we intentionally hide it
+      rather than show a wrong number.
     </p>
   </div>
 </section>
@@ -199,23 +199,23 @@
   <div class="container growth-grid">
     <div class="growth-chart-wrap reveal">
       <div class="growth-chart-legend">
-        <span class="legend-dot"><i style="background:#c8f169"></i> Proyeksi Indeks Portofolio (dasar 100)</span>
+        <span class="legend-dot"><i style="background:#c8f169"></i> Projected Portfolio Index (base 100)</span>
       </div>
-      <svg id="growth-svg" width="100%" height="260" role="img" aria-label="Grafik proyeksi pertumbuhan portofolio 5 tahun"></svg>
+      <svg id="growth-svg" width="100%" height="260" role="img" aria-label="5-year portfolio growth projection chart"></svg>
     </div>
     <div class="growth-copy reveal">
       <span class="eyebrow on-dark">Growth Rate</span>
-      <h2>Ekspektasi pertumbuhan portofolio dalam 5 tahun ke depan</h2>
+      <h2>Expected portfolio growth over the next 5 years</h2>
       <p>
-        Kurva di samping adalah <strong>ilustrasi tesis pribadi</strong>, bukan janji hasil investasi. Aku menyusunnya dari asumsi
-        pertumbuhan gabungan ke-11 sektor yang aku pegang: semikonduktor &amp; AI, infrastruktur energi, pembayaran digital,
-        farmasi, hingga consumer staples yang defensif. Kombinasi sektor pertumbuhan agresif dan sektor stabil ini yang aku
-        harapkan bisa menopang <em>compounding</em> jangka panjang sambil menjaga risiko tetap terkendali.
+        The curve on the left is a <strong>personal illustrative thesis</strong>, not a promise of investment results. I built it
+        from blended growth assumptions across the 11 sectors I hold: semiconductors &amp; AI, energy infrastructure, digital
+        payments, pharma, and defensive consumer staples. This mix of aggressive-growth and stable sectors is what I hope
+        can sustain long-term <em>compounding</em> while keeping risk in check.
       </p>
-      <a href="#allocation" class="btn btn-primary">Lihat Alokasi per Saham</a>
+      <a href="#allocation" class="btn btn-primary">See Allocation by Stock</a>
       <p class="disclaimer-note">
-        Disclaimer: Proyeksi ini bersifat ilustratif untuk tujuan edukasi dan bukan nasihat keuangan (financial advice) atau
-        jaminan kinerja masa depan. Selalu lakukan riset mandiri sebelum mengambil keputusan investasi.
+        Disclaimer: This projection is illustrative, for educational purposes only, and not financial advice or a
+        guarantee of future performance. Always do your own research before making investment decisions.
       </p>
     </div>
   </div>
@@ -225,22 +225,22 @@
 <section class="section" id="sectors">
   <div class="container sectors-grid">
     <div class="radar-card reveal">
-      <svg id="radar-svg" width="100%" height="360" role="img" aria-label="Radar sebaran alokasi dan proyeksi pertumbuhan 11 saham"></svg>
+      <svg id="radar-svg" width="100%" height="360" role="img" aria-label="Radar chart of allocation and growth projection across the 11 holdings"></svg>
       <div class="radar-legend">
-        <span class="legend-dot on-light"><i style="background:var(--forest-700)"></i> Alokasi Portofolio</span>
-        <span class="legend-dot on-light"><i style="background:var(--lime-400)"></i> Proyeksi Growth 5 Tahun</span>
+        <span class="legend-dot on-light"><i style="background:var(--forest-700)"></i> Portfolio Allocation</span>
+        <span class="legend-dot on-light"><i style="background:var(--lime-400)"></i> 5-Year Growth Projection</span>
       </div>
     </div>
     <div class="sector-copy reveal">
-      <span class="eyebrow">Sebaran Sektor</span>
-      <h2 style="margin-top:14px;font-size:clamp(28px,3.8vw,40px)">Proyeksi 11 saham ini merentang di setiap sektor utama</h2>
+      <span class="eyebrow">Sector Spread</span>
+      <h2 style="margin-top:14px;font-size:clamp(28px,3.8vw,40px)">These 11 stocks span every major sector</h2>
       <p style="margin-top:16px;color:var(--ink-600);font-size:16.5px;line-height:1.7">
-        Tiap sumbu di radar mewakili satu saham. Semakin lebar area hijau tua, semakin besar bobot alokasinya sekarang;
-        semakin lebar area hijau muda, semakin besar ekspektasi pertumbuhan 5 tahunnya. Nilai dinormalisasi terhadap
-        saham dengan angka tertinggi di masing-masing kategori agar mudah dibandingkan secara visual.
+        Each axis on the radar represents one stock. The wider the dark-green area, the bigger its current allocation
+        weight; the wider the light-green area, the bigger its expected 5-year growth. Values are normalized against the
+        highest figure in each category so they're easy to compare visually.
       </p>
       <div class="sector-list" id="sector-list"></div>
-      <a href="#holdings" class="btn btn-dark">Lihat Semua Saham</a>
+      <a href="#holdings" class="btn btn-dark">See All Holdings</a>
     </div>
   </div>
 </section>
@@ -249,16 +249,16 @@
 <section class="section" id="allocation">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Alokasi Portofolio</span>
-      <h2>11 saham, satu strategi diversifikasi lintas sektor</h2>
-      <p>Ukuran tiap irisan menunjukkan bobot nilai posisi saat ini terhadap total portofolio 11 saham.</p>
+      <span class="eyebrow">Portfolio Allocation</span>
+      <h2>11 stocks, one cross-sector diversification strategy</h2>
+      <p>Each slice's size reflects its current position value as a share of the total 11-stock portfolio.</p>
     </div>
     <div class="allocation-grid">
       <div class="donut-wrap reveal">
         <div class="donut" id="donut">
           <div class="donut-center">
             <strong id="stat-count-2">11</strong>
-            <span>Saham dalam portofolio inti</span>
+            <span>stocks in the core portfolio</span>
           </div>
         </div>
       </div>
@@ -271,19 +271,19 @@
 <section class="section" style="padding-top:0" id="projection">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Proyeksi 5 Tahun</span>
-      <h2>Seberapa besar potensi pertumbuhan tiap saham?</h2>
+      <span class="eyebrow">5-Year Projection</span>
+      <h2>How much growth potential does each stock have?</h2>
       <p>
-        Panjang bar hijau tua menunjukkan estimasi pertumbuhan kumulatif 5 tahun versi tesis pribadiku per saham (2026–2031) —
-        semakin lebar, semakin besar ekspektasi pertumbuhannya berdasarkan tema industri yang mendasarinya.
+        The length of the dark-green bar shows my personal-thesis estimate of cumulative 5-year growth per stock
+        (2026–2031) — the wider it is, the bigger the expected growth based on that stock's underlying industry theme.
       </p>
     </div>
     <div class="bars-card reveal">
       <div id="growth-bars"></div>
     </div>
     <p class="disclaimer-note" style="margin-top:20px;max-width:760px">
-      Angka proyeksi bersifat ilustratif berdasarkan opini pribadi terhadap tren industri masing-masing perusahaan, bukan
-      target harga resmi, riset analis, maupun nasihat keuangan.
+      Projection figures are illustrative, based on personal opinion about each company's industry trends — not official
+      price targets, analyst research, or financial advice.
     </p>
   </div>
 </section>
@@ -292,7 +292,7 @@
 <section class="section pillars" id="philosophy">
   <div class="container pillars-grid">
     <div class="pillars-photo reveal">
-      <img class="portrait-photo" src="assets/rais-firdaus.jpg" alt="Rais Firdaus, investor individual dan content creator" />
+      <img class="portrait-photo" src="assets/rais-firdaus.jpg" alt="Rais Firdaus, individual investor and content creator" />
       <div class="portrait-scrim" aria-hidden="true"></div>
       <svg class="portrait-lines" viewBox="0 0 400 400" fill="none" aria-hidden="true">
         <path d="M-20 320 C 60 300, 90 340, 140 300 S 220 220, 280 250 S 360 160, 430 190" stroke="#c8f169" stroke-width="2"/>
@@ -300,13 +300,13 @@
       </svg>
       <div class="pillars-photo-inner">
         <h4>Rais Firdaus</h4>
-        <p>Investor Individual &amp; Content Creator<br />Saham AS · Riset Terbuka</p>
+        <p>Individual Investor &amp; Content Creator<br />US Stocks · Open Research</p>
       </div>
       <div class="portrait-stats" id="portrait-stats"></div>
     </div>
     <div class="reveal">
-      <span class="eyebrow on-dark">Filosofi Investasi</span>
-      <h2 style="color:#f8f6ee;margin-top:14px;font-size:clamp(26px,3.6vw,36px)">Empat pilar di balik 11 saham ini</h2>
+      <span class="eyebrow on-dark">Investment Philosophy</span>
+      <h2 style="color:#f8f6ee;margin-top:14px;font-size:clamp(26px,3.6vw,36px)">Four pillars behind these 11 stocks</h2>
       <div class="pillar-tabs" style="margin-top:28px">
         <button class="pillar-tab active" data-target="panel-mission">Mission</button>
         <button class="pillar-tab" data-target="panel-values">Values</button>
@@ -317,38 +317,38 @@
       <div class="pillar-panel active" id="panel-mission">
         <h3>Mission</h3>
         <p>
-          Membuktikan bahwa investor individual di Indonesia bisa membangun portofolio saham AS yang solid lewat riset
-          mandiri, disiplin, dan kesabaran — lalu membagikan prosesnya secara terbuka lewat YouTube, Instagram, X, dan
-          LinkedIn agar lebih banyak orang berani mulai berinvestasi dengan cara yang benar.
+          To prove that an individual investor can build a solid US stock portfolio through independent research,
+          discipline, and patience — then share that process openly on YouTube, Instagram, X, and LinkedIn so more people
+          feel confident starting to invest the right way.
         </p>
       </div>
 
       <div class="pillar-panel" id="panel-values">
         <h3>Values</h3>
         <ul>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Diversifikasi lintas sektor: teknologi, energi, kesehatan, keuangan, dan consumer staples.</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Riset fundamental sebelum ikut tren atau hype pasar.</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Transparansi penuh — termasuk saat posisi sedang merah.</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Horizon jangka panjang, bukan trading harian.</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Cross-sector diversification: technology, energy, healthcare, finance, and consumer staples.</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Fundamental research before chasing trends or market hype.</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Full transparency — including when a position is in the red.</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> A long-term horizon, not day trading.</li>
         </ul>
       </div>
 
       <div class="pillar-panel" id="panel-vision">
         <h3>Vision</h3>
         <p>
-          Dalam 5 tahun ke depan, aku ingin portofolio 11 saham ini tumbuh lewat kombinasi capital gain dan reinvestasi
-          dividen, ditopang oleh dua megatren besar yang aku yakini: percepatan adopsi AI &amp; elektrifikasi (MU, GEV),
-          serta ekonomi digital &amp; kesehatan global yang terus berkembang (MA, V, ABBV, JNJ, GILD) — disangga oleh
-          consumer staples yang stabil (PG, KO, MNST, VLO).
+          Over the next 5 years, I want this 11-stock portfolio to grow through a combination of capital gains and
+          reinvested dividends, backed by two megatrends I believe in: accelerating AI adoption &amp; electrification
+          (MU, GEV), plus an ever-expanding digital economy &amp; global healthcare (MA, V, ABBV, JNJ, GILD) — anchored by
+          stable consumer staples (PG, KO, MNST, VLO).
         </p>
       </div>
 
       <div class="pillar-panel" id="panel-action">
         <h3>Action</h3>
         <p>
-          Strategi eksekusinya: dollar-cost averaging berkala, reinvestasi dividen, evaluasi tesis tiap kuartal saat laporan
-          keuangan rilis, dan rebalancing bila satu sektor mendominasi portofolio secara tidak sehat. Semua update aku
-          dokumentasikan di media sosial agar bisa jadi studi kasus buat yang belajar bareng.
+          My execution strategy: periodic dollar-cost averaging, reinvesting dividends, re-evaluating the thesis every
+          quarter when earnings drop, and rebalancing if any one sector starts to dominate the portfolio unhealthily. I
+          document every update on social media so it can double as a case study for anyone learning alongside me.
         </p>
       </div>
     </div>
@@ -359,9 +359,9 @@
 <section class="section" id="holdings">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Portofolio Inti</span>
-      <h2>11 saham pilihan — sektor, tesis, dan narasi masa depan</h2>
-      <p>Ringkasan kenapa masing-masing saham ini masuk portofolio, dan bagaimana aku melihat arah bisnisnya ke depan.</p>
+      <span class="eyebrow">Core Portfolio</span>
+      <h2>11 hand-picked stocks — sector, thesis, and forward narrative</h2>
+      <p>A summary of why each stock made the portfolio, and how I see its business direction going forward.</p>
     </div>
     <div class="holdings-grid" id="holdings-grid"></div>
   </div>
@@ -371,26 +371,26 @@
 <section class="section letter" id="letter">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Surat Investor</span>
-      <h2>Catatan singkat untuk yang mengikuti perjalanan ini</h2>
+      <span class="eyebrow">Investor Letter</span>
+      <h2>A short note for anyone following this journey</h2>
     </div>
     <div class="letter-card reveal">
       <span class="quote-mark">&ldquo;</span>
       <p>
-        Portofolio ini bukan tentang mencari saham yang naik 10x dalam semalam. Ini tentang memilih 11 perusahaan dengan
-        model bisnis yang aku pahami, berada di jalur pertumbuhan jangka panjang yang masuk akal, lalu memberi waktu
-        pada compounding untuk bekerja.
+        This portfolio isn't about chasing a stock that 10x's overnight. It's about picking 11 companies with business
+        models I understand, sitting on a long-term growth path that makes sense, and then giving compounding the time
+        to work.
       </p>
       <p>
-        Aku terbuka soal alokasi, alasan, dan bahkan posisi yang sedang merah — karena proses belajar justru paling
-        berharga saat semuanya tidak berjalan sempurna. Terima kasih sudah mengikuti lewat YouTube, Instagram, X, atau
-        LinkedIn. Mari belajar dan bertumbuh bersama.
+        I'm open about the allocation, the reasoning, and even the positions that are in the red — because the learning
+        process is most valuable exactly when things aren't going perfectly. Thanks for following along on YouTube,
+        Instagram, X, or LinkedIn. Let's learn and grow together.
       </p>
       <div class="letter-sign">
         <span class="initials">RF</span>
         <div>
           <strong>Rais Firdaus</strong>
-          <span>Investor Individual · raisfirdaus.com</span>
+          <span>Individual Investor · raisfirdaus.com</span>
         </div>
       </div>
     </div>
@@ -398,20 +398,20 @@
 </section>
 
 <!-- ============ SOCIAL ============ -->
-<!-- NOTE: ganti href "#" di bawah dengan tautan akun asli sebelum publish -->
+<!-- NOTE: update the Instagram/X/LinkedIn hrefs below to the real account links -->
 <section class="section" id="social">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Media Sosial</span>
-      <h2>Ikuti riset dan update portofolionya secara langsung</h2>
-      <p>Semua analisis, review laporan keuangan, dan update portofolio aku bagikan lebih dulu di kanal-kanal ini.</p>
+      <span class="eyebrow">Social Media</span>
+      <h2>Follow the research and portfolio updates live</h2>
+      <p>Every analysis, earnings review, and portfolio update gets shared first on these channels.</p>
     </div>
     <div class="social-grid">
-      <a href="#" class="social-card social-youtube reveal">
+      <a href="https://youtube.com/@raisfirdausremix" target="_blank" rel="noopener" class="social-card social-youtube reveal">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12s0-3.2-.4-4.6a2.8 2.8 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2C2 8.8 2 12 2 12s0 3.2.4 4.6a2.8 2.8 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2C22 15.2 22 12 22 12Z" opacity=".18"/><path d="M10 15.5v-7l6 3.5-6 3.5Z"/><path d="M22 12s0-3.2-.4-4.6a2.8 2.8 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2C2 8.8 2 12 2 12s0 3.2.4 4.6a2.8 2.8 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2C22 15.2 22 12 22 12Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
         <div>
           <h4>YouTube</h4>
-          <span>Review laporan keuangan &amp; analisis saham mendalam</span>
+          <span>In-depth earnings reviews &amp; stock analysis</span>
         </div>
         <span class="arrow">→</span>
       </a>
@@ -419,7 +419,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
         <div>
           <h4>Instagram</h4>
-          <span>Snapshot portofolio &amp; insight harian</span>
+          <span>Portfolio snapshots &amp; daily insights</span>
         </div>
         <span class="arrow">→</span>
       </a>
@@ -427,7 +427,7 @@
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.3 3H21l-6.6 7.5L22 21h-6.3l-4.9-6.4L4.9 21H2.2l7-8-8-10h6.4l4.4 5.9L18.3 3Zm-1.1 16h1.7L7 5H5.2l12 14Z"/></svg>
         <div>
           <h4>X (Twitter)</h4>
-          <span>Update cepat pergerakan portofolio</span>
+          <span>Quick portfolio-move updates</span>
         </div>
         <span class="arrow">→</span>
       </a>
@@ -435,7 +435,7 @@
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.1 3.77-2.1 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97V21h-4V9Z"/></svg>
         <div>
           <h4>LinkedIn</h4>
-          <span>Perspektif profesional &amp; jejak karier investasi</span>
+          <span>Professional perspective &amp; investing track record</span>
         </div>
         <span class="arrow">→</span>
       </a>
@@ -448,12 +448,12 @@
   <div class="container">
     <div class="cta-band reveal">
       <div>
-        <h3>Mau belajar riset saham bareng dari nol?</h3>
-        <p>Subscribe YouTube dan ikuti media sosialku untuk update portofolio, review laporan keuangan, dan diskusi seputar investasi saham AS.</p>
+        <h3>Want to learn stock research together from scratch?</h3>
+        <p>Subscribe on YouTube and follow along on social media for portfolio updates, earnings reviews, and discussions about investing in US stocks.</p>
       </div>
       <div class="cta-actions">
-        <a href="#social" class="btn btn-primary">Ikuti Sekarang</a>
-        <a href="https://raisfirdaus.com" target="_blank" rel="noopener" class="btn btn-outline">Kunjungi raisfirdaus.com</a>
+        <a href="#social" class="btn btn-primary">Follow Along</a>
+        <a href="https://raisfirdaus.com" target="_blank" rel="noopener" class="btn btn-outline">Visit raisfirdaus.com</a>
       </div>
     </div>
   </div>
@@ -471,47 +471,47 @@
             <span>US Stock Portfolio</span>
           </span>
         </div>
-        <p>Catatan riset dan portofolio saham AS pribadi. Dibagikan secara terbuka untuk tujuan edukasi lewat YouTube, Instagram, X, dan LinkedIn.</p>
+        <p>Personal US stock research and portfolio notes. Shared openly for educational purposes on YouTube, Instagram, X, and LinkedIn.</p>
       </div>
       <div class="footer-col">
-        <h5>Halaman</h5>
+        <h5>Pages</h5>
         <ul>
           <li><a href="#growth">Growth Rate</a></li>
-          <li><a href="#allocation">Alokasi</a></li>
-          <li><a href="#philosophy">Filosofi</a></li>
-          <li><a href="#holdings">Portofolio</a></li>
+          <li><a href="#allocation">Allocation</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#holdings">Portfolio</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h5>Media Sosial</h5>
+        <h5>Social Media</h5>
         <ul>
-          <li><a href="#social">YouTube</a></li>
+          <li><a href="https://youtube.com/@raisfirdausremix" target="_blank" rel="noopener">YouTube</a></li>
           <li><a href="#social">Instagram</a></li>
           <li><a href="#social">X (Twitter)</a></li>
           <li><a href="#social">LinkedIn</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h5>Lainnya</h5>
+        <h5>More</h5>
         <ul>
           <li><a href="https://raisfirdaus.com" target="_blank" rel="noopener">raisfirdaus.com</a></li>
-          <li><a href="#letter">Surat Investor</a></li>
+          <li><a href="#letter">Investor Letter</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Rais Firdaus. Seluruh hak cipta dilindungi.</span>
-      <span>Dibuat untuk tujuan edukasi &amp; dokumentasi portofolio pribadi.</span>
+      <span>© <span id="year"></span> Rais Firdaus. All rights reserved.</span>
+      <span>Built for educational purposes &amp; personal portfolio documentation.</span>
     </div>
     <p class="footer-legal">
-      Disclaimer: Seluruh konten di halaman ini — termasuk data alokasi, tesis investasi, dan proyeksi pertumbuhan 5 tahun —
-      merupakan opini dan catatan pribadi untuk tujuan edukasi, bukan nasihat keuangan (financial advice), rekomendasi jual/beli,
-      atau jaminan kinerja masa depan. Harga dan performa saham dapat berubah sewaktu-waktu. Selalu lakukan riset mandiri dan/atau
-      konsultasi dengan penasihat keuangan berlisensi sebelum mengambil keputusan investasi.
+      Disclaimer: All content on this page — including allocation data, investment theses, and 5-year growth
+      projections — reflects personal opinions and notes for educational purposes. It is not financial advice, a buy/sell
+      recommendation, or a guarantee of future performance. Stock prices and performance can change at any time. Always
+      do your own research and/or consult a licensed financial advisor before making investment decisions.
     </p>
   </div>
 </footer>
 
-<script src="js/main.js?v=3"></script>
+<script src="js/main.js?v=4"></script>
 </body>
 </html>

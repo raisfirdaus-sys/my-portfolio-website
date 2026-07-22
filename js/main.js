@@ -8,100 +8,100 @@ const HOLDINGS = [
   {
     ticker: "MU",
     name: "Micron Technology Inc",
-    sector: "Semikonduktor & Memori AI",
+    sector: "Semiconductors & AI Memory",
     website: "https://www.micron.com",
     value: 814.59,
     changePct: 13.03,
     growth5y: 85,
     color: "#123524",
     thesis:
-      "Micron ada di jantung rantai pasok chip memori (DRAM & NAND) yang jadi bahan bakar utama pusat data AI generatif. Ketika permintaan komputasi AI naik, kebutuhan memori berkapasitas tinggi ikut naik.",
+      "Micron sits at the heart of the memory-chip (DRAM & NAND) supply chain that fuels generative AI data centers. As AI compute demand rises, so does the need for high-capacity memory.",
     outlook:
-      "Siklus upgrade infrastruktur AI, HBM (High Bandwidth Memory), dan pemulihan harga chip jadi katalis utama yang aku pantau untuk 5 tahun ke depan.",
+      "The AI infrastructure upgrade cycle, HBM (High Bandwidth Memory), and a recovery in chip pricing are the main catalysts I'm watching over the next 5 years.",
   },
   {
     ticker: "GEV",
     name: "GE Vernova Inc.",
-    sector: "Energi & Infrastruktur Grid",
+    sector: "Energy & Grid Infrastructure",
     website: "https://www.gevernova.com",
     value: 661.61,
     changePct: 1.93,
     growth5y: 95,
     color: "#1a4630",
     thesis:
-      "Spin-off dari General Electric ini fokus pada turbin gas, energi terbarukan, dan modernisasi jaringan listrik — persis yang dibutuhkan dunia untuk menopang lonjakan konsumsi listrik dari pusat data AI.",
+      "Spun off from General Electric, this company focuses on gas turbines, renewable energy, and grid modernization — exactly what the world needs to support the surge in electricity demand from AI data centers.",
     outlook:
-      "Aku melihat tema 'electrification & grid buildout' sebagai salah satu megatren dekade ini, dan GEV berada di posisi strategis sebagai pemasok inti.",
+      "I see 'electrification & grid buildout' as one of the megatrends of this decade, and GEV is strategically positioned as a core supplier.",
   },
   {
     ticker: "MA",
     name: "Mastercard Inc",
-    sector: "Pembayaran Digital",
+    sector: "Digital Payments",
     website: "https://www.mastercard.com",
     value: 556.49,
     changePct: 0.31,
     growth5y: 70,
     color: "#1e5238",
     thesis:
-      "Model bisnis toll-booth: setiap transaksi kartu menghasilkan fee, dengan margin tinggi dan biaya modal rendah. Pertumbuhan e-commerce & cashless society jadi tailwind jangka panjang.",
+      "A toll-booth business model: every card transaction generates a fee, with high margins and low capital costs. The growth of e-commerce & the cashless society is a long-term tailwind.",
     outlook:
-      "Ekspansi ke pembayaran lintas negara, tokenisasi, dan negara berkembang (termasuk Indonesia) berpotensi jadi mesin pertumbuhan berikutnya.",
+      "Expansion into cross-border payments, tokenization, and emerging markets (including Indonesia) could become the next growth engine.",
   },
   {
     ticker: "ABBV",
     name: "AbbVie Inc",
-    sector: "Farmasi & Bioteknologi",
+    sector: "Pharmaceuticals & Biotech",
     website: "https://www.abbvie.com",
     value: 510.84,
     changePct: 17.16,
     growth5y: 60,
     color: "#256346",
     thesis:
-      "Setelah menghadapi tantangan paten Humira, AbbVie berhasil mendiversifikasi portofolio obat imunologi (Skyrizi, Rinvoq) dan onkologi yang tumbuh agresif.",
+      "After navigating the Humira patent cliff, AbbVie successfully diversified its portfolio into immunology (Skyrizi, Rinvoq) and oncology drugs that are growing aggressively.",
     outlook:
-      "Pipeline obat baru dan akuisisi strategis jadi fokus utama narasi pertumbuhan farmasi jangka menengah-panjang.",
+      "A new drug pipeline and strategic acquisitions are the main focus of the medium-to-long-term pharma growth story.",
   },
   {
     ticker: "V",
     name: "Visa Inc. Class A",
-    sector: "Pembayaran Digital",
+    sector: "Digital Payments",
     website: "https://www.visa.com",
     value: 382.39,
     changePct: 6.94,
     growth5y: 65,
     color: "#2c7350",
     thesis:
-      "Jaringan pembayaran terbesar di dunia dengan moat yang sangat lebar. Sama seperti Mastercard, Visa diuntungkan oleh pergeseran dari tunai ke digital secara global.",
+      "The world's largest payment network with an extremely wide moat. Like Mastercard, Visa benefits from the global shift from cash to digital.",
     outlook:
-      "Value-added services (fraud protection, data analytics) dan pertumbuhan volume transaksi digital jadi pendorong pendapatan di luar bisnis inti kartu.",
+      "Value-added services (fraud protection, data analytics) and growing digital transaction volume are driving revenue beyond the core card business.",
   },
   {
     ticker: "JNJ",
     name: "Johnson & Johnson",
-    sector: "Kesehatan & Consumer Health",
+    sector: "Healthcare & Consumer Health",
     website: "https://www.jnj.com",
     value: 320.23,
     changePct: 5.76,
     growth5y: 40,
     color: "#347e5c",
     thesis:
-      "Perusahaan kesehatan raksasa dengan diversifikasi luas: farmasi, MedTech, hingga produk konsumen. Dividend Aristocrat yang konsisten menaikkan dividen puluhan tahun berturut-turut.",
+      "A healthcare giant with broad diversification: pharmaceuticals, MedTech, and consumer products. A Dividend Aristocrat that has consistently raised its dividend for decades in a row.",
     outlook:
-      "Fokus pasca-spin-off Kenvue kini murni ke farmasi & MedTech bermargin tinggi — profil defensif yang cocok jadi penyeimbang portofolio.",
+      "Post-Kenvue spin-off, the focus is now purely on high-margin pharma & MedTech — a defensive profile that suits balancing a portfolio.",
   },
   {
     ticker: "VLO",
     name: "Valero Energy Corporation",
-    sector: "Energi & Pengilangan",
+    sector: "Energy & Refining",
     website: "https://www.valero.com",
     value: 314.47,
     changePct: -0.42,
     growth5y: 35,
     color: "#3d8b68",
     thesis:
-      "Salah satu perusahaan pengilangan minyak independen terbesar di AS. Bisnis siklikal, tapi menghasilkan arus kas besar saat margin pengilangan (crack spread) sedang tinggi.",
+      "One of the largest independent oil refining companies in the US. A cyclical business, but one that generates massive cash flow when refining margins (crack spreads) run high.",
     outlook:
-      "Aku melihat VLO sebagai lindung nilai sekaligus eksposur ke permintaan energi global yang masih akan tinggi dalam masa transisi energi.",
+      "I see VLO as both a hedge and an exposure to global energy demand that will remain elevated throughout the energy transition.",
   },
   {
     ticker: "PG",
@@ -113,23 +113,23 @@ const HOLDINGS = [
     growth5y: 30,
     color: "#49a06b",
     thesis:
-      "Produsen kebutuhan rumah tangga sehari-hari (Gillette, Pampers, Tide) dengan brand power kuat dan daya tahan tinggi terhadap resesi. Dividend Aristocrat dengan rekam jejak lebih dari 60 tahun.",
+      "A maker of everyday household staples (Gillette, Pampers, Tide) with strong brand power and high recession resilience. A Dividend Aristocrat with a track record of over 60 years.",
     outlook:
-      "Pertumbuhan stabil single-digit, tapi jadi fondasi 'defensive core' yang menjaga portofolio tetap tenang saat pasar bergejolak.",
+      "Steady single-digit growth, but it forms the 'defensive core' that keeps the portfolio calm when markets turn volatile.",
   },
   {
     ticker: "GILD",
     name: "Gilead Sciences Inc",
-    sector: "Bioteknologi & Farmasi",
+    sector: "Biotechnology & Pharmaceuticals",
     website: "https://www.gilead.com",
     value: 129.9,
     changePct: -0.05,
     growth5y: 55,
     color: "#5cb37e",
     thesis:
-      "Pemimpin pasar dalam pengobatan HIV dan terus memperluas ke onkologi. Arus kas dari waralaba HIV yang mendominasi pasar mendanai riset & akuisisi jangka panjang.",
+      "A market leader in HIV treatment, continuing to expand into oncology. Cash flow from its dominant HIV franchise funds long-term research & acquisitions.",
     outlook:
-      "Pipeline sel-T (cell therapy) dan pengembangan obat pencegahan HIV jangka panjang (long-acting) jadi katalis yang aku ikuti.",
+      "The cell therapy pipeline and development of long-acting HIV prevention drugs are the catalysts I'm tracking.",
   },
   {
     ticker: "MNST",
@@ -141,23 +141,23 @@ const HOLDINGS = [
     growth5y: 50,
     color: "#7ec99a",
     thesis:
-      "Pemain nomor dua global di kategori minuman berenergi dengan margin tinggi dan brand loyalty kuat di kalangan Gen Z & milenial.",
+      "The world's number-two player in the energy drink category, with high margins and strong brand loyalty among Gen Z & millennials.",
     outlook:
-      "Ekspansi geografis (Asia, Amerika Latin) dan lini produk baru (alcohol brands, varian rendah gula) jadi ruang pertumbuhan berikutnya.",
+      "Geographic expansion (Asia, Latin America) and new product lines (alcohol brands, lower-sugar variants) are the next growth avenues.",
   },
   {
     ticker: "KO",
     name: "The Coca-Cola Company",
-    sector: "Consumer Staples & Minuman",
+    sector: "Consumer Staples & Beverages",
     website: "https://www.coca-colacompany.com",
     value: 63.98,
     changePct: -1.93,
     growth5y: 35,
     color: "#a9e0bd",
     thesis:
-      "Salah satu brand paling dikenal di dunia dengan jaringan distribusi masif di lebih dari 200 negara. Model 'asset-light' lewat bottling partners menjaga margin tetap tinggi.",
+      "One of the most recognized brands in the world, with a massive distribution network spanning over 200 countries. An 'asset-light' model via bottling partners keeps margins high.",
     outlook:
-      "Diversifikasi ke luar minuman berkarbonasi (air mineral, teh, kopi) dan harga premium jadi strategi pertumbuhan jangka panjang.",
+      "Diversifying beyond carbonated drinks (bottled water, tea, coffee) and premium pricing form the long-term growth strategy.",
   },
 ];
 
@@ -304,7 +304,7 @@ function renderPortraitStats() {
         </span>
         <div>
           <strong>${h.ticker}</strong>
-          <small>${h.growth5y}% Proyeksi Growth</small>
+          <small>${h.growth5y}% Projected Growth</small>
         </div>
       </div>`
     )
@@ -315,12 +315,12 @@ function renderPortraitStats() {
 // Sector groups (derived from HOLDINGS by ticker)
 // ---------------------------------------------------------------------------
 const SECTOR_GROUPS = [
-  { name: "Semikonduktor & AI", tickers: ["MU"] },
-  { name: "Energi & Infrastruktur", tickers: ["GEV", "VLO"] },
-  { name: "Pembayaran Digital", tickers: ["MA", "V"] },
-  { name: "Farmasi & Bioteknologi", tickers: ["ABBV", "GILD"] },
-  { name: "Kesehatan Konsumen", tickers: ["JNJ"] },
-  { name: "Consumer Staples & Minuman", tickers: ["PG", "KO", "MNST"] },
+  { name: "Semiconductors & AI", tickers: ["MU"] },
+  { name: "Energy & Infrastructure", tickers: ["GEV", "VLO"] },
+  { name: "Digital Payments", tickers: ["MA", "V"] },
+  { name: "Pharmaceuticals & Biotech", tickers: ["ABBV", "GILD"] },
+  { name: "Consumer Healthcare", tickers: ["JNJ"] },
+  { name: "Consumer Staples & Beverages", tickers: ["PG", "KO", "MNST"] },
 ];
 
 function renderSectorList() {
@@ -420,9 +420,9 @@ function renderHoldingCards() {
         </div>
       </div>
       <span class="sector-tag">${h.sector}</span>
-      <span class="thesis-label">Kenapa aku pegang</span>
+      <span class="thesis-label">Why I hold it</span>
       <p>${h.thesis}</p>
-      <span class="thesis-label">Narasi ke depan</span>
+      <span class="thesis-label">Forward narrative</span>
       <p>${h.outlook}</p>
     </div>`;
   }).join("");
@@ -681,16 +681,16 @@ function initReveal() {
 // we don't track here.
 // ---------------------------------------------------------------------------
 function fmtUpdatedAt(iso) {
-  if (!iso) return "belum pernah diperbarui otomatis";
+  if (!iso) return "never auto-updated yet";
   const d = new Date(iso);
   return (
-    d.toLocaleString("id-ID", {
-      timeZone: "Asia/Jakarta",
+    d.toLocaleString("en-US", {
+      timeZone: "UTC",
       day: "2-digit",
       month: "short",
       hour: "2-digit",
       minute: "2-digit",
-    }) + " WIB"
+    }) + " UTC"
   );
 }
 
@@ -720,14 +720,14 @@ async function loadLiveQuotes() {
 
     if (label) {
       label.textContent = data.updatedAt
-        ? `Harga diperbarui otomatis · Terakhir: ${fmtUpdatedAt(data.updatedAt)}`
-        : "Harga awal (snapshot manual) · menunggu update otomatis pertama";
+        ? `Prices auto-updated · Last: ${fmtUpdatedAt(data.updatedAt)}`
+        : "Initial prices (manual snapshot) · waiting for first auto-update";
     }
   } catch (err) {
-    if (label) label.textContent = "Menampilkan harga snapshot terakhir (gagal memuat data live)";
+    if (label) label.textContent = "Showing last snapshot prices (failed to load live data)";
     const perfUpdated = document.getElementById("perf-updated");
-    if (perfUpdated) perfUpdated.textContent = "Gagal memuat data performa live.";
-    console.error("Gagal memuat data/quotes.json:", err);
+    if (perfUpdated) perfUpdated.textContent = "Failed to load live performance data.";
+    console.error("Failed to load data/quotes.json:", err);
   }
 }
 
@@ -805,10 +805,10 @@ function renderPerformanceStats(data) {
   const ytdLabel = document.getElementById("perf-ytd-label");
   const updatedEl = document.getElementById("perf-updated");
 
-  if (ytdLabel) ytdLabel.textContent = `Return YTD ${new Date().getFullYear()}`;
+  if (ytdLabel) ytdLabel.textContent = `YTD Return ${new Date().getFullYear()}`;
 
   if (!portfolio) {
-    if (updatedEl) updatedEl.textContent = "Menunggu update otomatis pertama untuk data performa.";
+    if (updatedEl) updatedEl.textContent = "Waiting for the first auto-update of performance data.";
     return;
   }
 
@@ -843,8 +843,8 @@ function renderPerformanceStats(data) {
 
   if (updatedEl) {
     updatedEl.textContent = data.updatedAt
-      ? `Dihitung dari harga live 11 saham · Terakhir: ${fmtUpdatedAt(data.updatedAt)}. Beberapa saham (mis. GEV, baru IPO 2024) belum punya riwayat harga 1 tahun penuh, jadi angkanya dihitung sejak data paling awal yang tersedia.`
-      : "Menunggu update otomatis pertama untuk data performa.";
+      ? `Calculated from live prices across 11 stocks · Last: ${fmtUpdatedAt(data.updatedAt)}. Some holdings (e.g. GEV, which only IPO'd in 2024) don't yet have a full 1-year price history, so their figure is calculated from the earliest available data.`
+      : "Waiting for the first auto-update of performance data.";
   }
 }
 
