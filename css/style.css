@@ -282,7 +282,9 @@ p {
 /* ---------------- Hero ---------------- */
 .hero {
   position: relative;
-  background: radial-gradient(ellipse at 20% -10%, #234a3b 0%, var(--forest-900) 45%, var(--forest-950) 100%);
+  background:
+    radial-gradient(ellipse at 20% -10%, rgba(35, 74, 59, 0.86) 0%, rgba(18, 40, 31, 0.9) 45%, rgba(13, 31, 23, 0.95) 100%),
+    url("../assets/hero-cover.webp") center 30% / cover no-repeat;
   color: var(--cream-50);
   padding: 180px 0 110px;
   overflow: hidden;
@@ -560,7 +562,8 @@ p {
 .performance {
   background:
     radial-gradient(ellipse 700px 450px at 8% 0%, rgba(200, 241, 105, 0.12), transparent 60%),
-    var(--forest-950);
+    linear-gradient(rgba(13, 31, 23, 0.9), rgba(13, 31, 23, 0.94)),
+    url("../assets/performance-bg.webp") center 25% / cover no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -977,7 +980,8 @@ p {
   background:
     radial-gradient(ellipse 700px 500px at 88% -10%, rgba(200, 241, 105, 0.14), transparent 60%),
     radial-gradient(ellipse 600px 500px at -10% 110%, rgba(201, 154, 62, 0.14), transparent 60%),
-    var(--forest-900);
+    linear-gradient(rgba(18, 40, 31, 0.95), rgba(13, 31, 23, 0.97)),
+    url("../assets/growth-bg.webp") center 30% / cover no-repeat;
   color: var(--cream-50);
   position: relative;
   overflow: hidden;
@@ -1735,12 +1739,15 @@ p {
 }
 
 .letter-card {
-  background: #fff;
+  background:
+    linear-gradient(120deg, rgba(13, 31, 23, 0.9), rgba(18, 40, 31, 0.78)),
+    url("../assets/rais-firdaus.jpg") center 22% / cover no-repeat;
   border-radius: var(--radius-lg);
   padding: 72px 64px;
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--line);
   position: relative;
+  overflow: hidden;
 }
 
 .letter-headline {
@@ -1748,19 +1755,19 @@ p {
   line-height: 1.25;
   font-weight: 800;
   letter-spacing: -0.01em;
-  color: var(--ink-900);
+  color: var(--cream-50);
   font-family: var(--font-display);
 }
 
 .letter-headline em {
   font-style: normal;
-  color: var(--forest-700);
+  color: var(--lime-400);
 }
 
 .letter-sub {
   font-size: 18px;
   line-height: 1.85;
-  color: var(--ink-400);
+  color: rgba(248, 246, 238, 0.78);
   font-family: var(--font-display);
   margin-top: 28px;
   max-width: 640px;
@@ -1777,8 +1784,8 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: var(--forest-900);
-  color: var(--lime-400);
+  background: var(--lime-400);
+  color: var(--forest-950);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1789,11 +1796,12 @@ p {
 .letter-sign strong {
   display: block;
   font-size: 15px;
+  color: var(--cream-50);
 }
 
 .letter-sign span {
   font-size: 12.5px;
-  color: var(--ink-400);
+  color: rgba(248, 246, 238, 0.65);
 }
 
 /* ---------------- Breaking News ---------------- */
