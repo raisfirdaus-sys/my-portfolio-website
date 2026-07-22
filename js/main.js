@@ -332,7 +332,7 @@ function renderSectorList() {
   if (!wrap) return;
   wrap.innerHTML = SECTOR_GROUPS.map(
     (g) => `
-    <div class="sector-row">
+    <a class="sector-row" href="#holdings">
       <div>
         <div class="sr-name">${g.name}</div>
         <div class="sr-tickers">${g.tickers.join(" · ")}</div>
@@ -340,7 +340,7 @@ function renderSectorList() {
       <span class="sr-arrow">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
       </span>
-    </div>`
+    </a>`
   ).join("");
 }
 
@@ -643,6 +643,155 @@ function renderStockScores() {
     .join("");
 
   observeReveals();
+}
+
+// ---------------------------------------------------------------------------
+// Live Price Chart — interactive per-ticker, per-timeframe price history,
+// fetched every 30 minutes by a GitHub Actions cron job into
+// data/charts.json (see scripts/fetch-charts.mjs). "1H" isn't a native
+// Yahoo range, so it's derived here by slicing the last hour out of the
+// "1D" intraday series rather than being fetched separately.
+// ---------------------------------------------------------------------------
+let chartData = null;
+let chartTicker = "MU";
+let chartRange = "1D";
+
+const CHART_RANGES = ["1H", "1D", "5D", "1M", "3M", "YTD", "5Y", "MAX"];
+
+function getChartSeries(ticker, range) {
+  const byTicker = chartData?.series?.[ticker];
+  if (!byTicker) return null;
+  if (range === "1H") {
+    const oneDay = byTicker["1D"];
+    if (!Array.isArray(oneDay) || oneDay.length < 2) return null;
+    const lastT = oneDay[oneDay.length - 1][0];
+    const sliced = oneDay.filter((p) => p[0] >= lastT - 3600);
+    return sliced.length >= 2 ? sliced : oneDay.slice(-12);
+  }
+  return Array.isArray(byTicker[range]) ? byTicker[range] : null;
+}
+
+function buildLinePath(values, w, h, padL, padR, padT, padB) {
+  const maxV = Math.max(...values);
+  const minV = Math.min(...values);
+  const span = maxV - minV || 1;
+  const stepX = values.length > 1 ? (w - padL - padR) / (values.length - 1) : 0;
+  const points = values.map((v, i) => {
+    const x = padL + i * stepX;
+    const y = padT + (h - padT - padB) * (1 - (v - minV) / span);
+    return [x, y];
+  });
+  const linePath = points.map((p, i) => (i === 0 ? `M${p[0]},${p[1]}` : `L${p[0]},${p[1]}`)).join(" ");
+  const areaPath =
+    `M${points[0][0]},${h - padB} ` +
+    points.map((p) => `L${p[0]},${p[1]}`).join(" ") +
+    ` L${points[points.length - 1][0]},${h - padB} Z`;
+  return { linePath, areaPath, minV, maxV };
+}
+
+function renderChartTickerTabs() {
+  const wrap = document.getElementById("chart-ticker-tabs");
+  if (!wrap) return;
+  wrap.innerHTML = HOLDINGS.map(
+    (h) => `<button class="chart-tab ${h.ticker === chartTicker ? "active" : ""}" data-ticker="${h.ticker}">${h.ticker}</button>`
+  ).join("");
+  wrap.querySelectorAll(".chart-tab").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      chartTicker = btn.dataset.ticker;
+      renderChartTickerTabs();
+      renderChartPanel();
+    })
+  );
+}
+
+function renderChartRangeTabs() {
+  const wrap = document.getElementById("chart-range-tabs");
+  if (!wrap) return;
+  wrap.innerHTML = CHART_RANGES.map(
+    (r) => `<button class="range-tab ${r === chartRange ? "active" : ""}" data-range="${r}">${r}</button>`
+  ).join("");
+  wrap.querySelectorAll(".range-tab").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      chartRange = btn.dataset.range;
+      renderChartRangeTabs();
+      renderChartPanel();
+    })
+  );
+}
+
+function renderChartPanel() {
+  const svg = document.getElementById("chart-svg");
+  const priceEl = document.getElementById("chart-price");
+  const changeEl = document.getElementById("chart-change");
+  const updatedEl = document.getElementById("chart-updated");
+  if (!svg) return;
+
+  const holding = HOLDINGS.find((h) => h.ticker === chartTicker);
+  const livePriceLabel = holding
+    ? holding.livePrice
+      ? `$${holding.livePrice.toFixed(2)}`
+      : `$${holding.value.toFixed(2)}`
+    : "—";
+
+  const series = getChartSeries(chartTicker, chartRange);
+
+  if (!series || series.length < 2) {
+    svg.innerHTML = `<text x="320" y="134" text-anchor="middle" font-size="13" style="fill:var(--ink-400)">Chart data for this timeframe isn't available yet — check back after the next refresh.</text>`;
+    if (priceEl) priceEl.textContent = livePriceLabel;
+    if (changeEl) {
+      changeEl.textContent = "—";
+      changeEl.className = "chip";
+    }
+    if (updatedEl) updatedEl.textContent = chartData?.updatedAt ? `Updated ${fmtUpdatedAt(chartData.updatedAt)}` : "";
+    return;
+  }
+
+  const values = series.map((p) => p[1]);
+  const first = values[0];
+  const last = values[values.length - 1];
+  const periodChangePct = first ? ((last - first) / first) * 100 : 0;
+  const positive = periodChangePct >= 0;
+  const color = positive ? "var(--up)" : "var(--down)";
+
+  const w = 640;
+  const h = 260;
+  const { linePath, areaPath, minV, maxV } = buildLinePath(values, w, h, 10, 10, 16, 16);
+
+  svg.innerHTML = `
+    <defs>
+      <linearGradient id="chartAreaFill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" style="stop-color:${color}" stop-opacity="0.3"/>
+        <stop offset="100%" style="stop-color:${color}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <text x="6" y="16" font-size="11" style="fill:var(--ink-400)">$${maxV.toFixed(2)}</text>
+    <text x="6" y="${h - 6}" font-size="11" style="fill:var(--ink-400)">$${minV.toFixed(2)}</text>
+    <path d="${areaPath}" fill="url(#chartAreaFill)"/>
+    <path d="${linePath}" fill="none" style="stroke:${color}" stroke-width="2.5"/>
+  `;
+
+  if (priceEl) priceEl.textContent = livePriceLabel;
+  if (changeEl) {
+    changeEl.textContent = `${fmtPct(periodChangePct, 2)} (${chartRange})`;
+    changeEl.className = `chip ${positive ? "chip-up" : "chip-down"}`;
+  }
+  if (updatedEl) {
+    updatedEl.textContent = chartData?.updatedAt ? `Updated ${fmtUpdatedAt(chartData.updatedAt)}` : "";
+  }
+}
+
+async function loadCharts() {
+  try {
+    const res = await fetch("data/charts.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    chartData = await res.json();
+  } catch (err) {
+    console.error("Failed to load data/charts.json:", err);
+    chartData = null;
+  }
+  renderChartTickerTabs();
+  renderChartRangeTabs();
+  renderChartPanel();
 }
 
 // ---------------------------------------------------------------------------
@@ -1183,4 +1332,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initReportCountUp();
   loadLiveQuotes();
   loadNews();
+  loadCharts();
 });

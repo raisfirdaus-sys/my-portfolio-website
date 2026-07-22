@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=8" />
+<link rel="stylesheet" href="css/style.css?v=9" />
 </head>
 <body>
 
@@ -27,6 +27,7 @@
       <a href="#performance">Performance</a>
       <a href="#report">Report</a>
       <a href="#score">Score</a>
+      <a href="#chart">Chart</a>
       <a href="#growth">Growth Rate</a>
       <a href="#sectors">Sectors</a>
       <a href="#allocation">Allocation</a>
@@ -212,6 +213,31 @@
       </p>
     </div>
     <div class="score-grid" id="score-grid"></div>
+  </div>
+</section>
+
+<!-- ============ LIVE PRICE CHART ============ -->
+<section class="section" id="chart">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Live Price Chart</span>
+      <h2>Track any of the 11 holdings, any timeframe</h2>
+      <p>Pick a stock and a window below — the price history refreshes automatically every 30 minutes.</p>
+    </div>
+
+    <div class="chart-ticker-tabs" id="chart-ticker-tabs"></div>
+
+    <div class="chart-panel reveal">
+      <div class="chart-panel-head">
+        <div class="chart-price-block">
+          <strong id="chart-price">—</strong>
+          <span class="chip" id="chart-change">—</span>
+        </div>
+        <div class="chart-range-tabs" id="chart-range-tabs"></div>
+      </div>
+      <svg class="chart-svg" id="chart-svg" viewBox="0 0 640 260" preserveAspectRatio="none"></svg>
+      <p class="chart-updated" id="chart-updated"></p>
+    </div>
   </div>
 </section>
 
@@ -546,6 +572,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=9"></script>
+<script src="js/main.js?v=10"></script>
 </body>
 </html>
