@@ -56,12 +56,12 @@ async function fetchQuote(ticker) {
   const change = typeof prevClose === "number" ? price - prevClose : 0;
   changePercent = changePercent ?? 0;
 
-  // Same reasoning as the daily-change guard above: a >300% move in a
-  // single year (or YTD) for any of these names is far more likely to be
-  // a bad/stale data point than a real return, so treat it as unknown
-  // (null) rather than let one glitchy holding skew the whole portfolio's
-  // weighted average.
-  const plausibleReturn = (pct) => (pct !== null && Math.abs(pct) <= 300 ? pct : null);
+  // Same reasoning as the daily-change guard above: a >150% move in a
+  // single year (or YTD) for any of these large-cap names is far more
+  // likely to be a bad/stale data point than a real return, so treat it
+  // as unknown (null) rather than let one glitchy holding skew the whole
+  // portfolio's weighted average.
+  const plausibleReturn = (pct) => (pct !== null && Math.abs(pct) <= 150 ? pct : null);
 
   const oneYearAgoClose = series[0]?.c;
   const oneYearReturnPercent = plausibleReturn(pctFrom(oneYearAgoClose));
