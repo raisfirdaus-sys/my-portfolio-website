@@ -531,6 +531,121 @@ function initReportCountUp() {
 }
 
 // ---------------------------------------------------------------------------
+// Stock Score — an original, transparently-computed momentum read per
+// holding (NOT a Wall Street analyst rating — we have no reliable way to
+// source real analyst consensus/target-price data without a fragile,
+// auth-gated Yahoo endpoint, and showing fabricated-looking analyst data
+// would be misleading to retail readers). Built entirely from data this
+// site already fetches: YTD return, 1-year return, and where the live
+// price sits in its 52-week range.
+// ---------------------------------------------------------------------------
+function clamp(v, min, max) {
+  return Math.min(max, Math.max(min, v));
+}
+
+function computeMomentumScore(h) {
+  const livePrice = h.livePrice ?? h.value;
+  const hasRange = typeof h.weekLow52 === "number" && typeof h.weekHigh52 === "number" && h.weekHigh52 > h.weekLow52;
+  const rangePosition = hasRange ? clamp(((livePrice - h.weekLow52) / (h.weekHigh52 - h.weekLow52)) * 100, 0, 100) : null;
+
+  const norm = (v, min, max) => clamp(((v - min) / (max - min)) * 100, 0, 100);
+  const ytdComponent = typeof h.ytdReturnPercent === "number" ? norm(h.ytdReturnPercent, -50, 150) : null;
+  const oneYComponent = typeof h.oneYearReturnPercent === "number" ? norm(h.oneYearReturnPercent, -50, 300) : null;
+
+  const parts = [
+    { v: ytdComponent, w: 0.4 },
+    { v: oneYComponent, w: 0.4 },
+    { v: rangePosition, w: 0.2 },
+  ].filter((p) => p.v !== null);
+
+  if (!parts.length) return null;
+  const totalWeight = parts.reduce((sum, p) => sum + p.w, 0);
+  const score = parts.reduce((sum, p) => sum + p.v * p.w, 0) / totalWeight;
+  return Math.round(clamp(score, 0, 100));
+}
+
+function scoreLabel(score) {
+  if (score === null) return "Awaiting data";
+  if (score >= 75) return "Strong Momentum";
+  if (score >= 55) return "Solid";
+  if (score >= 35) return "Neutral";
+  return "Cooling Off";
+}
+
+function scoreColor(score) {
+  if (score === null) return "var(--ink-400)";
+  if (score >= 75) return "var(--up)";
+  if (score >= 35) return "var(--gold-500)";
+  return "var(--down)";
+}
+
+function renderStockScores() {
+  const wrap = document.getElementById("score-grid");
+  if (!wrap) return;
+  const sorted = [...HOLDINGS].sort((a, b) => b.weight - a.weight);
+
+  wrap.innerHTML = sorted
+    .map((h) => {
+      const score = computeMomentumScore(h);
+      const color = scoreColor(score);
+      const label = scoreLabel(score);
+      const gaugeBg =
+        score === null ? "var(--cream-100)" : `conic-gradient(${color} 0% ${score}%, var(--cream-100) ${score}% 100%)`;
+
+      const priceLabel = h.livePrice ? `$${h.livePrice.toFixed(2)}` : `$${h.value.toFixed(2)}`;
+      const cls = h.changePct >= 0 ? "chip-up" : "chip-down";
+
+      const hasRange = typeof h.weekLow52 === "number" && typeof h.weekHigh52 === "number" && h.weekHigh52 > h.weekLow52;
+      const livePrice = h.livePrice ?? h.value;
+      const rangePct = hasRange ? clamp(((livePrice - h.weekLow52) / (h.weekHigh52 - h.weekLow52)) * 100, 0, 100) : null;
+
+      const rangeHTML = hasRange
+        ? `
+        <div class="score-range">
+          <div class="score-range-track">
+            <div class="score-range-marker" style="left:${rangePct}%"></div>
+          </div>
+          <div class="score-range-labels">
+            <span>$${h.weekLow52.toFixed(2)}</span>
+            <span>52-Week Range</span>
+            <span>$${h.weekHigh52.toFixed(2)}</span>
+          </div>
+        </div>`
+        : `<p class="score-range-na">52-week range not available yet.</p>`;
+
+      return `
+      <div class="score-card reveal">
+        <div class="score-card-top">
+          <a class="score-id" href="${h.website}" target="_blank" rel="noopener">
+            <span class="badge logo-badge">${companyLogoHTML(h)}</span>
+            <div>
+              <strong>${h.ticker}</strong>
+              <span>${h.name}</span>
+            </div>
+          </a>
+          <div class="score-price">
+            <span>${priceLabel}</span>
+            <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
+          </div>
+        </div>
+        <div class="score-gauge-row">
+          <div class="score-gauge" style="background:${gaugeBg}">
+            <div class="score-gauge-inner"><strong>${score === null ? "—" : score}</strong></div>
+          </div>
+          <div class="score-gauge-info">
+            <span class="score-gauge-label" style="color:${color}">${label}</span>
+            <span class="score-gauge-note">Momentum score — YTD &amp; 1-year trend plus 52-week range position</span>
+          </div>
+        </div>
+        ${rangeHTML}
+      </div>`;
+    })
+    .join("");
+
+  observeReveals();
+}
+
+// ---------------------------------------------------------------------------
 // Growth Rate area chart (SVG, illustrative 5-year portfolio index)
 // ---------------------------------------------------------------------------
 function renderGrowthChart() {
@@ -772,6 +887,8 @@ async function loadLiveQuotes() {
         h.livePrice = q.price;
         h.oneYearReturnPercent = q.oneYearReturnPercent ?? null;
         h.ytdReturnPercent = q.ytdReturnPercent ?? null;
+        h.weekLow52 = q.weekLow52 ?? null;
+        h.weekHigh52 = q.weekHigh52 ?? null;
       }
     });
 
@@ -779,6 +896,7 @@ async function loadLiveQuotes() {
     renderHeroList();
     renderHoldingCards();
     renderHoldingsReport();
+    renderStockScores();
     observeReveals();
     renderPerformanceStats(data);
 
@@ -1047,6 +1165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderGrowthBars();
   renderHoldingCards();
   renderHoldingsReport();
+  renderStockScores();
   renderGrowthChart();
   initGrowthChartReveal();
   renderPortraitStats();

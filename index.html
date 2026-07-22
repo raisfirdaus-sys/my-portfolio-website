@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=7" />
+<link rel="stylesheet" href="css/style.css?v=8" />
 </head>
 <body>
 
@@ -26,6 +26,7 @@
     <nav class="nav-links" id="nav-links">
       <a href="#performance">Performance</a>
       <a href="#report">Report</a>
+      <a href="#score">Score</a>
       <a href="#growth">Growth Rate</a>
       <a href="#sectors">Sectors</a>
       <a href="#allocation">Allocation</a>
@@ -195,6 +196,22 @@
       figures may show as "—" if the price history is too short or the data looks unreliable — we intentionally hide it
       rather than show a wrong number.
     </p>
+  </div>
+</section>
+
+<!-- ============ STOCK SCORE ============ -->
+<section class="section" id="score">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Stock Score</span>
+      <h2>An independent momentum read on each position</h2>
+      <p>
+        A score I calculate myself from live price action — year-to-date and 1-year return trend, plus where the price
+        sits in its 52-week range. It's not a Wall Street analyst rating or a buy/sell signal, just a transparent way to
+        see which positions have the wind at their back right now.
+      </p>
+    </div>
+    <div class="score-grid" id="score-grid"></div>
   </div>
 </section>
 
@@ -529,6 +546,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=8"></script>
+<script src="js/main.js?v=9"></script>
 </body>
 </html>

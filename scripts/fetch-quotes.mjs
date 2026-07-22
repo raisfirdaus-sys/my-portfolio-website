@@ -81,7 +81,10 @@ async function fetchQuote(ticker) {
   const ytdStartClose = (series.find((p) => p.t >= jan1) || series[0])?.c;
   const ytdReturnPercent = pctFrom(ytdStartClose);
 
-  return { price, change, changePercent, oneYearReturnPercent, ytdReturnPercent };
+  const weekLow52 = typeof meta.fiftyTwoWeekLow === "number" ? meta.fiftyTwoWeekLow : null;
+  const weekHigh52 = typeof meta.fiftyTwoWeekHigh === "number" ? meta.fiftyTwoWeekHigh : null;
+
+  return { price, change, changePercent, oneYearReturnPercent, ytdReturnPercent, weekLow52, weekHigh52 };
 }
 
 async function main() {
