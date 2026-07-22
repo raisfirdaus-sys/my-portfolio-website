@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Rais Firdaus — US Stock Portfolio
+   Rais Firdaus — Stock Portfolio
    Single source of truth: HOLDINGS. Everything (ticker tape, donut chart,
    growth bars, holding cards) renders from this array.
    ========================================================================== */
@@ -949,17 +949,45 @@ function renderNewsList(items) {
     if (!href) return;
 
     const a = document.createElement("a");
-    a.className = "news-item reveal";
+    a.className = "news-card reveal";
     a.href = href;
     a.target = "_blank";
     a.rel = "noopener";
 
+    // Cover image, like a real news wire — with a branded fallback tile
+    // (never a broken-image icon) if a story has no thumbnail or the image
+    // fails to load.
+    const thumbWrap = document.createElement("span");
+    thumbWrap.className = "news-thumb-wrap";
+
+    const fallback = document.createElement("span");
+    fallback.className = "news-thumb-fallback";
+    fallback.textContent = n.ticker;
+
+    const imgUrl = safeHttpUrl(n.image);
+    if (imgUrl) {
+      const img = document.createElement("img");
+      img.className = "news-thumb";
+      img.src = imgUrl;
+      img.alt = "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      img.onerror = () => {
+        img.remove();
+        fallback.style.display = "flex";
+      };
+      thumbWrap.appendChild(img);
+    } else {
+      fallback.style.display = "flex";
+    }
+    thumbWrap.appendChild(fallback);
+
+    const body = document.createElement("span");
+    body.className = "news-card-body";
+
     const ticker = document.createElement("span");
     ticker.className = "news-ticker";
     ticker.textContent = n.ticker;
-
-    const body = document.createElement("span");
-    body.className = "news-body";
 
     const title = document.createElement("span");
     title.className = "news-title";
@@ -969,16 +997,12 @@ function renderNewsList(items) {
     meta.className = "news-meta";
     meta.textContent = `${n.publisher || "Yahoo Finance"} · ${fmtNewsTime(n.publishedAt)}`;
 
+    body.appendChild(ticker);
     body.appendChild(title);
     body.appendChild(meta);
 
-    const arrow = document.createElement("span");
-    arrow.className = "news-arrow";
-    arrow.textContent = "→";
-
-    a.appendChild(ticker);
+    a.appendChild(thumbWrap);
     a.appendChild(body);
-    a.appendChild(arrow);
     wrap.appendChild(a);
   });
 

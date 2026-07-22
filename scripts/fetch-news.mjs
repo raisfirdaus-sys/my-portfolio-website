@@ -6,6 +6,17 @@
 
 const TICKERS = ["MU", "GEV", "MA", "ABBV", "V", "JNJ", "VLO", "PG", "GILD", "MNST", "KO"];
 
+// Yahoo's search response includes a thumbnail.resolutions[] array (sizes
+// vary per story, not every story has one at all) — prefer the "original"
+// tag when present since that's usually the highest-quality/widest crop,
+// otherwise fall back to whatever resolution is available.
+function pickThumbnail(n) {
+  const resolutions = n?.thumbnail?.resolutions;
+  if (!Array.isArray(resolutions) || !resolutions.length) return null;
+  const preferred = resolutions.find((r) => r.tag === "original") || resolutions[resolutions.length - 1];
+  return typeof preferred?.url === "string" ? preferred.url : null;
+}
+
 async function fetchNewsForTicker(ticker) {
   const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${ticker}&newsCount=6&quotesCount=0`;
   const res = await fetch(url, {
@@ -21,6 +32,7 @@ async function fetchNewsForTicker(ticker) {
       title: n.title,
       publisher: typeof n.publisher === "string" ? n.publisher : "Yahoo Finance",
       link: n.link,
+      image: pickThumbnail(n),
       publishedAt: typeof n.providerPublishTime === "number" ? n.providerPublishTime * 1000 : null,
     }));
 }
