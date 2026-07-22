@@ -178,6 +178,27 @@ function initials(ticker) {
   return ticker.slice(0, 2);
 }
 
+// Real company logo (via Clearbit's public logo API, keyed by the
+// company's own domain — see HOLDINGS[].website), with a graceful
+// fallback to the ticker initials if the logo fails to load. Prevents
+// "MU" reading as Manchester United instead of Micron, etc.
+function companyLogoHTML(h) {
+  let domain = "";
+  try {
+    domain = new URL(h.website).hostname.replace(/^www\./, "");
+  } catch {
+    return `<span class="logo-fallback">${initials(h.ticker)}</span>`;
+  }
+  return `
+    <img
+      class="logo-img"
+      src="https://logo.clearbit.com/${domain}?size=128"
+      alt="${h.name}"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+    />
+    <span class="logo-fallback" style="display:none">${initials(h.ticker)}</span>`;
+}
+
 // ---------------------------------------------------------------------------
 // Ticker tape
 // ---------------------------------------------------------------------------
@@ -206,7 +227,7 @@ function renderHeroList() {
       return `
         <div class="hero-ticker-row">
           <a class="sym" href="${h.website}" target="_blank" rel="noopener">
-            <span class="mini-badge">${initials(h.ticker)}</span>
+            <span class="mini-badge logo-badge">${companyLogoHTML(h)}</span>
             ${h.ticker}
           </a>
           <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
@@ -237,6 +258,7 @@ function renderDonut() {
       (h) => `
       <div class="legend-item">
         <span class="swatch" style="background:${h.color}"></span>
+        <span class="legend-logo logo-badge">${companyLogoHTML(h)}</span>
         <div class="li-body">
           <b>${h.ticker}</b>
           <small>${h.name}</small>
@@ -386,7 +408,7 @@ function renderHoldingCards() {
     <div class="holding-card reveal">
       <div class="holding-top">
         <a class="holding-id" href="${h.website}" target="_blank" rel="noopener">
-          <span class="badge">${initials(h.ticker)}</span>
+          <span class="badge logo-badge">${companyLogoHTML(h)}</span>
           <div>
             <strong>${h.ticker} <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></strong>
             <span>${h.name}</span>
