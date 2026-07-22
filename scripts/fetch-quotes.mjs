@@ -26,15 +26,21 @@ async function fetchQuote(ticker) {
   }
 
   const price = meta.regularMarketPrice;
-  const prevClose = meta.previousClose ?? meta.chartPreviousClose;
-  const change = prevClose ? price - prevClose : 0;
-  const changePercent = prevClose ? (change / prevClose) * 100 : 0;
 
   const timestamps = result.timestamp || [];
   const closes = result.indicators?.quote?.[0]?.close || [];
   const series = timestamps
     .map((t, i) => ({ t, c: closes[i] }))
     .filter((p) => typeof p.c === "number");
+
+  // Note: meta.previousClose / meta.chartPreviousClose refer to the close
+  // just before the *requested range* (i.e. ~1 year ago here), not
+  // yesterday's close — using them for the daily change would be wrong.
+  // The second-to-last point in the daily series is the real previous
+  // close.
+  const prevClose = series.length >= 2 ? series[series.length - 2].c : meta.previousClose ?? meta.chartPreviousClose;
+  const change = prevClose ? price - prevClose : 0;
+  const changePercent = prevClose ? (change / prevClose) * 100 : 0;
 
   const oneYearAgoClose = series[0]?.c;
   const oneYearReturnPercent = oneYearAgoClose ? ((price - oneYearAgoClose) / oneYearAgoClose) * 100 : null;
