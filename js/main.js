@@ -178,10 +178,13 @@ function initials(ticker) {
   return ticker.slice(0, 2);
 }
 
-// Real company logo (via Clearbit's public logo API, keyed by the
-// company's own domain — see HOLDINGS[].website), with a graceful
-// fallback to the ticker initials if the logo fails to load. Prevents
-// "MU" reading as Manchester United instead of Micron, etc.
+// Real company logo, keyed by the company's own domain (see
+// HOLDINGS[].website). Clearbit's logo API is the primary source, but it's
+// on several ad-blocker filter lists (it was originally a tracking/data
+// company), so requests to it silently fail for a chunk of visitors. Falls
+// back to Google's favicon service (rarely blocked) and finally to the
+// ticker initials. Prevents "MU" reading as Manchester United instead of
+// Micron, etc.
 function companyLogoHTML(h) {
   let domain = "";
   try {
@@ -189,12 +192,13 @@ function companyLogoHTML(h) {
   } catch {
     return `<span class="logo-fallback">${initials(h.ticker)}</span>`;
   }
+  const googleFavicon = `https://www.google.com/s2/favicons?sz=128&domain=${domain}`;
   return `
     <img
       class="logo-img"
       src="https://logo.clearbit.com/${domain}?size=128"
       alt="${h.name}"
-      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      onerror="if (!this.dataset.fallback) { this.dataset.fallback = '1'; this.src = '${googleFavicon}'; } else { this.style.display='none'; this.nextElementSibling.style.display='flex'; }"
     />
     <span class="logo-fallback" style="display:none">${initials(h.ticker)}</span>`;
 }

@@ -56,19 +56,18 @@ async function fetchQuote(ticker) {
   const change = typeof prevClose === "number" ? price - prevClose : 0;
   changePercent = changePercent ?? 0;
 
-  // Same reasoning as the daily-change guard above: a >150% move in a
-  // single year (or YTD) for any of these large-cap names is far more
-  // likely to be a bad/stale data point than a real return, so treat it
-  // as unknown (null) rather than let one glitchy holding skew the whole
-  // portfolio's weighted average.
-  const plausibleReturn = (pct) => (pct !== null && Math.abs(pct) <= 150 ? pct : null);
-
+  // Unlike meta.previousClose (which caused the daily-change bug above),
+  // these reference points come straight from the same daily-close series
+  // used for the day-change calculation, so there's no equivalent "wrong
+  // baseline" risk here — a genuinely huge multi-month rally (e.g. MU's
+  // AI-memory-driven run) is a real return, not a data glitch, so it's
+  // trusted as-is rather than capped/nulled.
   const oneYearAgoClose = series[0]?.c;
-  const oneYearReturnPercent = plausibleReturn(pctFrom(oneYearAgoClose));
+  const oneYearReturnPercent = pctFrom(oneYearAgoClose);
 
   const jan1 = Date.UTC(new Date().getUTCFullYear(), 0, 1) / 1000;
   const ytdStartClose = (series.find((p) => p.t >= jan1) || series[0])?.c;
-  const ytdReturnPercent = plausibleReturn(pctFrom(ytdStartClose));
+  const ytdReturnPercent = pctFrom(ytdStartClose);
 
   return { price, change, changePercent, oneYearReturnPercent, ytdReturnPercent };
 }

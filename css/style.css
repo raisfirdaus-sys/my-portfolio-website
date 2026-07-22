@@ -1480,29 +1480,33 @@ p {
 .letter-card {
   background: #fff;
   border-radius: var(--radius-lg);
-  padding: 60px;
+  padding: 72px 64px;
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--line);
   position: relative;
 }
 
-.letter-card .quote-mark {
-  font-family: var(--font-display);
-  font-size: 90px;
-  color: var(--lime-400);
-  line-height: 1;
-  margin-bottom: -20px;
-}
-
-.letter-card p {
-  font-size: 18px;
-  line-height: 1.85;
+.letter-headline {
+  font-size: clamp(28px, 4vw, 46px);
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   color: var(--ink-900);
   font-family: var(--font-display);
 }
 
-.letter-card p + p {
-  margin-top: 20px;
+.letter-headline em {
+  font-style: normal;
+  color: var(--forest-700);
+}
+
+.letter-sub {
+  font-size: 18px;
+  line-height: 1.85;
+  color: var(--ink-400);
+  font-family: var(--font-display);
+  margin-top: 28px;
+  max-width: 640px;
 }
 
 .letter-sign {
@@ -1716,8 +1720,8 @@ footer {
   .holdings-grid { grid-template-columns: 1fr; }
   .social-grid { grid-template-columns: 1fr; }
   .legend-list { grid-template-columns: 1fr; }
-  .letter-card { padding: 32px 24px; }
-  .letter-card p { font-size: 16px; }
+  .letter-card { padding: 36px 24px; }
+  .letter-sub { font-size: 16px; }
   .cta-band { padding: 36px 26px; flex-direction: column; align-items: flex-start; }
   .bar-row { grid-template-columns: 100px 1fr 46px; gap: 10px; }
   .footer-top { grid-template-columns: 1fr; }
