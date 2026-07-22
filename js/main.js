@@ -913,6 +913,104 @@ function renderPerformanceStats(data) {
 }
 
 // ---------------------------------------------------------------------------
+// Breaking news (fetched hourly by a GitHub Actions cron job into
+// data/news.json — see scripts/fetch-news.mjs, which pulls from Yahoo
+// Finance's public news search). Headline text, publisher names, and links
+// all come from third-party sources, so this is built with DOM APIs
+// (textContent / href assignment) rather than innerHTML, and links are
+// validated to be plain http(s) URLs before use — never trust external
+// strings enough to parse them as HTML.
+// ---------------------------------------------------------------------------
+function fmtNewsTime(ms) {
+  if (typeof ms !== "number") return "";
+  const diffMs = Date.now() - ms;
+  const hours = Math.round(diffMs / 3600000);
+  if (hours < 1) return "just now";
+  if (hours < 24) return `${hours}h ago`;
+  return `${Math.round(hours / 24)}d ago`;
+}
+
+function safeHttpUrl(link) {
+  try {
+    const u = new URL(link);
+    return u.protocol === "http:" || u.protocol === "https:" ? u.href : null;
+  } catch {
+    return null;
+  }
+}
+
+function renderNewsList(items) {
+  const wrap = document.getElementById("news-list");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+
+  items.forEach((n) => {
+    const href = safeHttpUrl(n.link);
+    if (!href) return;
+
+    const a = document.createElement("a");
+    a.className = "news-item reveal";
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+
+    const ticker = document.createElement("span");
+    ticker.className = "news-ticker";
+    ticker.textContent = n.ticker;
+
+    const body = document.createElement("span");
+    body.className = "news-body";
+
+    const title = document.createElement("span");
+    title.className = "news-title";
+    title.textContent = n.title;
+
+    const meta = document.createElement("span");
+    meta.className = "news-meta";
+    meta.textContent = `${n.publisher || "Yahoo Finance"} · ${fmtNewsTime(n.publishedAt)}`;
+
+    body.appendChild(title);
+    body.appendChild(meta);
+
+    const arrow = document.createElement("span");
+    arrow.className = "news-arrow";
+    arrow.textContent = "→";
+
+    a.appendChild(ticker);
+    a.appendChild(body);
+    a.appendChild(arrow);
+    wrap.appendChild(a);
+  });
+
+  observeReveals();
+}
+
+async function loadNews() {
+  const wrap = document.getElementById("news-list");
+  const updatedEl = document.getElementById("news-updated");
+  if (!wrap) return;
+  try {
+    const res = await fetch("data/news.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const items = Array.isArray(data.items) ? data.items : [];
+
+    if (!items.length) {
+      wrap.innerHTML = `<p class="news-empty">No recent headlines available right now — check back soon.</p>`;
+    } else {
+      renderNewsList(items);
+    }
+
+    if (updatedEl) {
+      updatedEl.textContent = data.updatedAt ? `Updated ${fmtUpdatedAt(data.updatedAt)}` : "";
+    }
+  } catch (err) {
+    wrap.innerHTML = `<p class="news-empty">Couldn't load the latest headlines right now.</p>`;
+    console.error("Failed to load data/news.json:", err);
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Init
 // ---------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
@@ -941,4 +1039,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initPerfInViewObserver();
   initReportCountUp();
   loadLiveQuotes();
+  loadNews();
 });

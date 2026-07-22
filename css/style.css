@@ -241,11 +241,12 @@ p {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 18px;
 }
 
 .nav-links a {
-  font-size: 14px;
+  font-size: 13.5px;
+  white-space: nowrap;
   color: rgba(248, 246, 238, 0.82);
   font-weight: 500;
   transition: color 0.2s ease;
@@ -258,7 +259,7 @@ p {
 .nav-cta {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 
 .nav-toggle {
@@ -1539,6 +1540,90 @@ p {
   color: var(--ink-400);
 }
 
+/* ---------------- Breaking News ---------------- */
+.news-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #fff;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 26px;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item:hover {
+  background: var(--cream-100);
+}
+
+.news-ticker {
+  flex-shrink: 0;
+  width: 56px;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--forest-700);
+  background: var(--cream-100);
+  border-radius: var(--radius-sm);
+  padding: 6px 0;
+  text-align: center;
+}
+
+.news-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.news-title {
+  font-family: var(--font-display);
+  font-size: 16.5px;
+  color: var(--ink-900);
+  line-height: 1.4;
+}
+
+.news-meta {
+  font-size: 12.5px;
+  color: var(--ink-400);
+}
+
+.news-arrow {
+  flex-shrink: 0;
+  color: var(--ink-400);
+  font-size: 16px;
+}
+
+.news-item:hover .news-arrow {
+  color: var(--forest-700);
+}
+
+.news-empty {
+  padding: 32px 26px;
+  color: var(--ink-400);
+  font-size: 15px;
+}
+
+.news-updated {
+  margin-top: 16px;
+  font-size: 12.5px;
+  color: var(--ink-400);
+}
+
 /* ---------------- Social ---------------- */
 .social-grid {
   display: grid;
@@ -1711,6 +1796,7 @@ footer {
 @media (max-width: 760px) {
   .nav-links { display: none; }
   .nav-toggle { display: flex; }
+  .nav-visit-secondary { display: none; }
   .nav-cta .btn span.long { display: none; }
   .perf-grid { grid-template-columns: 1fr; }
   .section { padding: 64px 0; }

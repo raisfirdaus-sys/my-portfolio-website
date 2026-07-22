@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=5" />
+<link rel="stylesheet" href="css/style.css?v=6" />
 </head>
 <body>
 
@@ -32,13 +32,14 @@
       <a href="#philosophy">Philosophy</a>
       <a href="#holdings">Portfolio</a>
       <a href="#letter">Investor Letter</a>
+      <a href="#news">News</a>
       <a href="#social">Social</a>
     </nav>
     <div class="nav-cta">
       <a href="https://raisfirdaus.com" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
         <span class="long">Visit</span> raisfirdaus.com
       </a>
-      <a href="https://anra.store" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+      <a href="https://anra.store" target="_blank" rel="noopener" class="btn btn-outline btn-sm nav-visit-secondary">
         <span class="long">Visit</span> anra.store
       </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
@@ -398,6 +399,19 @@
   </div>
 </section>
 
+<!-- ============ BREAKING NEWS ============ -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Breaking News</span>
+      <h2>Latest headlines on the 11 stocks I hold</h2>
+      <p>Pulled automatically from Yahoo Finance, Investing.com, Bloomberg, and other financial wires, refreshed hourly — so you can follow what's actually moving these companies.</p>
+    </div>
+    <div class="news-list" id="news-list"></div>
+    <p class="news-updated" id="news-updated"></p>
+  </div>
+</section>
+
 <!-- ============ SOCIAL ============ -->
 <section class="section" id="social">
   <div class="container">
@@ -481,6 +495,7 @@
           <li><a href="#allocation">Allocation</a></li>
           <li><a href="#philosophy">Philosophy</a></li>
           <li><a href="#holdings">Portfolio</a></li>
+          <li><a href="#news">News</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -514,6 +529,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=6"></script>
+<script src="js/main.js?v=7"></script>
 </body>
 </html>
