@@ -447,8 +447,8 @@ function renderGrowthChart() {
 
   const dots = points
     .map(
-      (p) =>
-        `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="#c8f169" stroke="#12281f" stroke-width="2"/>`
+      (p, i) =>
+        `<circle class="gc-dot" style="transition-delay:${300 + i * 130}ms" cx="${p[0]}" cy="${p[1]}" r="4" fill="#c8f169" stroke="#12281f" stroke-width="2"/>`
     )
     .join("");
 
@@ -461,11 +461,40 @@ function renderGrowthChart() {
       </linearGradient>
     </defs>
     ${gridLines}
-    <path d="${areaPath}" fill="url(#areaFill)"/>
-    <path d="${linePath}" fill="none" stroke="#c8f169" stroke-width="2.5"/>
+    <path class="gc-area" d="${areaPath}" fill="url(#areaFill)"/>
+    <path class="gc-line" d="${linePath}" fill="none" stroke="#c8f169" stroke-width="2.5"/>
     ${dots}
     ${xLabels}
   `;
+
+  // Prime the line to render fully hidden (dasharray/dashoffset = full
+  // length) so it can be "drawn" via CSS transition the first time it
+  // scrolls into view — see initGrowthChartReveal().
+  const linePathEl = el.querySelector(".gc-line");
+  if (linePathEl) {
+    const len = linePathEl.getTotalLength();
+    linePathEl.style.strokeDasharray = String(len);
+    linePathEl.style.strokeDashoffset = String(len);
+  }
+}
+
+function initGrowthChartReveal() {
+  const svg = document.getElementById("growth-svg");
+  if (!svg) return;
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const line = svg.querySelector(".gc-line");
+          if (line) line.style.strokeDashoffset = "0";
+          svg.querySelectorAll(".gc-area, .gc-dot").forEach((el) => el.classList.add("in"));
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.35 }
+  );
+  observer.observe(svg);
 }
 
 // ---------------------------------------------------------------------------
@@ -638,6 +667,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderGrowthBars();
   renderHoldingCards();
   renderGrowthChart();
+  initGrowthChartReveal();
   renderPortraitStats();
   renderSectorList();
   renderSectorRadar();
