@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-22T05:42:40.477Z",
+  "updatedAt": "2026-07-22T05:44:18.521Z",
   "quotes": {
     "MU": {
       "price": 970.82,
       "change": 105.3599780273438,
       "changePercent": 12.173870005825941,
       "oneYearReturnPercent": null,
-      "ytdReturnPercent": 207.7864303694299
+      "ytdReturnPercent": null
     },
     "GEV": {
       "price": 1078.81,
@@ -82,6 +82,6 @@
   "portfolio": {
     "totalUSD": 4220.070000000001,
     "oneYearReturnPercent": 40.173557669273876,
-    "ytdReturnPercent": 72.45458449955653
+    "ytdReturnPercent": 24.653665952885532
   }
 }
