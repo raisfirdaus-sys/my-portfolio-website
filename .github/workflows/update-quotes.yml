@@ -1,0 +1,39 @@
+name: Update live stock quotes
+
+on:
+  schedule:
+    # Every 30 minutes, roughly covering US market hours (weekdays, UTC).
+    - cron: "*/30 13-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-quotes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: claude/stock-portfolio-website-2ulin2
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch quotes
+        run: node scripts/fetch-quotes.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/quotes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update live stock quotes"
+            git push
+          else
+            echo "No quote changes, skipping commit."
+          fi

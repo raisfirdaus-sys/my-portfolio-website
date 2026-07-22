@@ -370,6 +370,7 @@ function renderHoldingCards() {
   if (!wrap) return;
   wrap.innerHTML = HOLDINGS.map((h) => {
     const cls = h.changePct >= 0 ? "chip-up" : "chip-down";
+    const priceLabel = h.livePrice ? `$${h.livePrice.toFixed(2)}` : "";
     return `
     <div class="holding-card reveal">
       <div class="holding-top">
@@ -380,7 +381,10 @@ function renderHoldingCards() {
             <span>${h.name}</span>
           </div>
         </div>
-        <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
+        <div class="holding-price">
+          ${priceLabel ? `<span class="hp-price">${priceLabel}</span>` : ""}
+          <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
+        </div>
       </div>
       <span class="sector-tag">${h.sector}</span>
       <span class="thesis-label">Kenapa aku pegang</span>
@@ -512,11 +516,20 @@ function initNavToggle() {
 // ---------------------------------------------------------------------------
 // Scroll reveal + bar fill animation
 // ---------------------------------------------------------------------------
+let revealObserver = null;
+
+// Re-scans for .reveal elements that aren't observed/visible yet. Needed
+// because loadLiveQuotes() re-renders holding cards after the initial
+// reveal pass, which would otherwise leave the fresh nodes stuck invisible.
+function observeReveals() {
+  if (!revealObserver) return;
+  document.querySelectorAll(".reveal:not(.in-view)").forEach((el) => revealObserver.observe(el));
+}
+
 function initReveal() {
-  const revealEls = document.querySelectorAll(".reveal");
   const barFills = document.querySelectorAll(".bar-fill");
 
-  const observer = new IntersectionObserver(
+  revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -526,7 +539,7 @@ function initReveal() {
     },
     { threshold: 0.12 }
   );
-  revealEls.forEach((el) => observer.observe(el));
+  observeReveals();
 
   const barObserver = new IntersectionObserver(
     (entries, obs) => {
@@ -540,6 +553,58 @@ function initReveal() {
     { threshold: 0.4 }
   );
   barFills.forEach((el) => barObserver.observe(el));
+}
+
+// ---------------------------------------------------------------------------
+// Live quotes (fetched periodically by a GitHub Actions cron job into
+// data/quotes.json — see scripts/fetch-quotes.mjs). This only overrides the
+// day-change % (and adds a live price) on top of the static HOLDINGS data;
+// it never changes allocation weights, since those depend on share counts
+// we don't track here.
+// ---------------------------------------------------------------------------
+function fmtUpdatedAt(iso) {
+  if (!iso) return "belum pernah diperbarui otomatis";
+  const d = new Date(iso);
+  return (
+    d.toLocaleString("id-ID", {
+      timeZone: "Asia/Jakarta",
+      day: "2-digit",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+    }) + " WIB"
+  );
+}
+
+async function loadLiveQuotes() {
+  const label = document.getElementById("quotes-updated");
+  try {
+    const res = await fetch("data/quotes.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    HOLDINGS.forEach((h) => {
+      const q = data.quotes?.[h.ticker];
+      if (q && typeof q.changePercent === "number") {
+        h.changePct = q.changePercent;
+        h.livePrice = q.price;
+      }
+    });
+
+    renderTickerTape();
+    renderHeroList();
+    renderHoldingCards();
+    observeReveals();
+
+    if (label) {
+      label.textContent = data.updatedAt
+        ? `Harga diperbarui otomatis · Terakhir: ${fmtUpdatedAt(data.updatedAt)}`
+        : "Harga awal (snapshot manual) · menunggu update otomatis pertama";
+    }
+  } catch (err) {
+    if (label) label.textContent = "Menampilkan harga snapshot terakhir (gagal memuat data live)";
+    console.error("Gagal memuat data/quotes.json:", err);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -566,4 +631,5 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   initReveal();
+  loadLiveQuotes();
 });
