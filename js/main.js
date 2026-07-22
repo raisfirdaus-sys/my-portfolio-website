@@ -443,13 +443,30 @@ function fmtSignedPct(pct) {
   return `<span class="${cls}">${fmtPct(pct, 1)}</span>`;
 }
 
+// Renders a <span> holding both the final formatted value (so the table
+// is correct even before any animation runs) and a data-value/data-kind
+// pair that animateReportCounts() reads to count up from zero the first
+// time the report scrolls into view.
+function reportCountHTML(value, kind) {
+  if (typeof value !== "number") return `<span class="rp-na">—</span>`;
+  const cls = kind === "signed-pct" ? (value >= 0 ? "up" : "down") : "";
+  const formatted = formatReportValue(value, kind);
+  return `<span class="rp-count ${cls}" data-kind="${kind}" data-value="${value}">${formatted}</span>`;
+}
+
+function formatReportValue(v, kind) {
+  if (kind === "usd") return `$${v.toFixed(2)}`;
+  if (kind === "pct-plain") return `${v.toFixed(1)}%`;
+  return fmtPct(v, 1);
+}
+
 function renderHoldingsReport() {
   const wrap = document.getElementById("report-table-body");
   if (!wrap) return;
   const sorted = [...HOLDINGS].sort((a, b) => b.weight - a.weight);
   wrap.innerHTML = sorted
     .map((h) => {
-      const price = h.livePrice ? `$${h.livePrice.toFixed(2)}` : `$${h.value.toFixed(2)}`;
+      const price = h.livePrice ?? h.value;
       return `
       <tr>
         <td>
@@ -460,14 +477,57 @@ function renderHoldingsReport() {
         </td>
         <td class="rp-name">${h.name}</td>
         <td class="rp-sector">${h.sector}</td>
-        <td class="rp-num">${price}</td>
-        <td class="rp-num">${h.weight.toFixed(1)}%</td>
-        <td class="rp-num">${fmtSignedPct(h.changePct)}</td>
-        <td class="rp-num">${fmtSignedPct(h.oneYearReturnPercent)}</td>
-        <td class="rp-num">${fmtSignedPct(h.ytdReturnPercent)}</td>
+        <td class="rp-num">${reportCountHTML(price, "usd")}</td>
+        <td class="rp-num">${reportCountHTML(h.weight, "pct-plain")}</td>
+        <td class="rp-num">${reportCountHTML(h.changePct, "signed-pct")}</td>
+        <td class="rp-num">${reportCountHTML(h.oneYearReturnPercent, "signed-pct")}</td>
+        <td class="rp-num">${reportCountHTML(h.ytdReturnPercent, "signed-pct")}</td>
       </tr>`;
     })
     .join("");
+}
+
+// Counts every numeric cell in the report table up from zero, once, the
+// first time the table scrolls into view — draws the eye to the actual
+// numbers instead of letting them sit as static text.
+function animateReportCounts() {
+  const wrap = document.getElementById("report-table-body");
+  if (!wrap) return;
+  wrap.querySelectorAll(".rp-count").forEach((el, i) => {
+    const kind = el.dataset.kind;
+    const to = parseFloat(el.dataset.value);
+    if (Number.isNaN(to)) return;
+    const duration = 1100;
+    const delay = Math.min(i * 20, 300);
+    setTimeout(() => {
+      const start = performance.now();
+      function tick(now) {
+        const t = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = formatReportValue(to * eased, kind);
+        if (t < 1) requestAnimationFrame(tick);
+        else el.textContent = formatReportValue(to, kind);
+      }
+      requestAnimationFrame(tick);
+    }, delay);
+  });
+}
+
+function initReportCountUp() {
+  const section = document.getElementById("report");
+  if (!section) return;
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateReportCounts();
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+  observer.observe(section);
 }
 
 // ---------------------------------------------------------------------------
@@ -879,5 +939,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initReveal();
   initPerfInViewObserver();
+  initReportCountUp();
   loadLiveQuotes();
 });
