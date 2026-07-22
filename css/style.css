@@ -448,6 +448,22 @@ p {
   gap: 10px;
   font-weight: 700;
   font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.hero-ticker-row .sym:hover {
+  color: var(--lime-400);
+}
+
+.ticker-track a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ticker-track a:hover b {
+  color: var(--lime-400);
 }
 
 .mini-badge {
@@ -572,7 +588,7 @@ p {
 
 .perf-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -619,6 +635,87 @@ p {
 .perf-sub {
   font-size: 11.5px;
   color: rgba(248, 246, 238, 0.4);
+}
+
+/* ---------------- Holdings report table ---------------- */
+.report-table-wrap {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  overflow-x: auto;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+  font-size: 13.5px;
+}
+
+.report-table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-400);
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.report-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.report-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.report-table tbody tr:hover {
+  background: var(--cream-100);
+}
+
+.report-table .rp-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.report-table .rp-name {
+  color: var(--ink-600);
+}
+
+.report-table .rp-sector {
+  color: var(--ink-400);
+  font-size: 12.5px;
+}
+
+.report-table .rp-na {
+  color: var(--ink-400);
+}
+
+.rp-ticker {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 800;
+  color: var(--forest-900);
+  text-decoration: none;
+}
+
+.rp-ticker svg {
+  opacity: 0.45;
+}
+
+.rp-ticker:hover {
+  color: var(--forest-700);
+}
+
+.rp-ticker:hover svg {
+  opacity: 0.8;
 }
 
 .hp-price {
@@ -1243,6 +1340,24 @@ p {
   display: flex;
   align-items: center;
   gap: 12px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.holding-id .ext-icon {
+  opacity: 0;
+  transform: translate(-2px, 1px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  vertical-align: middle;
+}
+
+.holding-id:hover .ext-icon {
+  opacity: 0.6;
+  transform: translate(0, 0);
+}
+
+.holding-id:hover div strong {
+  color: var(--forest-700);
 }
 
 .badge {
@@ -1530,6 +1645,7 @@ footer {
   .social-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .pillars-photo { min-height: 260px; }
+  .perf-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 760px) {

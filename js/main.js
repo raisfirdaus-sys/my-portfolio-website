@@ -9,6 +9,7 @@ const HOLDINGS = [
     ticker: "MU",
     name: "Micron Technology Inc",
     sector: "Semikonduktor & Memori AI",
+    website: "https://www.micron.com",
     value: 814.59,
     changePct: 13.03,
     growth5y: 85,
@@ -22,6 +23,7 @@ const HOLDINGS = [
     ticker: "GEV",
     name: "GE Vernova Inc.",
     sector: "Energi & Infrastruktur Grid",
+    website: "https://www.gevernova.com",
     value: 661.61,
     changePct: 1.93,
     growth5y: 95,
@@ -35,6 +37,7 @@ const HOLDINGS = [
     ticker: "MA",
     name: "Mastercard Inc",
     sector: "Pembayaran Digital",
+    website: "https://www.mastercard.com",
     value: 556.49,
     changePct: 0.31,
     growth5y: 70,
@@ -48,6 +51,7 @@ const HOLDINGS = [
     ticker: "ABBV",
     name: "AbbVie Inc",
     sector: "Farmasi & Bioteknologi",
+    website: "https://www.abbvie.com",
     value: 510.84,
     changePct: 17.16,
     growth5y: 60,
@@ -61,6 +65,7 @@ const HOLDINGS = [
     ticker: "V",
     name: "Visa Inc. Class A",
     sector: "Pembayaran Digital",
+    website: "https://www.visa.com",
     value: 382.39,
     changePct: 6.94,
     growth5y: 65,
@@ -74,6 +79,7 @@ const HOLDINGS = [
     ticker: "JNJ",
     name: "Johnson & Johnson",
     sector: "Kesehatan & Consumer Health",
+    website: "https://www.jnj.com",
     value: 320.23,
     changePct: 5.76,
     growth5y: 40,
@@ -87,6 +93,7 @@ const HOLDINGS = [
     ticker: "VLO",
     name: "Valero Energy Corporation",
     sector: "Energi & Pengilangan",
+    website: "https://www.valero.com",
     value: 314.47,
     changePct: -0.42,
     growth5y: 35,
@@ -100,6 +107,7 @@ const HOLDINGS = [
     ticker: "PG",
     name: "Procter & Gamble Company",
     sector: "Consumer Staples",
+    website: "https://www.pg.com",
     value: 148.12,
     changePct: -2.45,
     growth5y: 30,
@@ -113,6 +121,7 @@ const HOLDINGS = [
     ticker: "GILD",
     name: "Gilead Sciences Inc",
     sector: "Bioteknologi & Farmasi",
+    website: "https://www.gilead.com",
     value: 129.9,
     changePct: -0.05,
     growth5y: 55,
@@ -126,6 +135,7 @@ const HOLDINGS = [
     ticker: "MNST",
     name: "Monster Beverage Corp",
     sector: "Consumer Beverage",
+    website: "https://www.monsterbevcorp.com",
     value: 89.24,
     changePct: -4.12,
     growth5y: 50,
@@ -139,6 +149,7 @@ const HOLDINGS = [
     ticker: "KO",
     name: "The Coca-Cola Company",
     sector: "Consumer Staples & Minuman",
+    website: "https://www.coca-colacompany.com",
     value: 63.98,
     changePct: -1.93,
     growth5y: 35,
@@ -176,7 +187,7 @@ function renderTickerTape() {
   const items = HOLDINGS.map((h) => {
     const cls = h.changePct >= 0 ? "up" : "down";
     const arrow = h.changePct >= 0 ? "▲" : "▼";
-    return `<span><b>${h.ticker}</b> $${h.value.toFixed(2)} <span class="${cls}">${arrow} ${fmtPct(h.changePct, 2)}</span></span>`;
+    return `<span><a href="${h.website}" target="_blank" rel="noopener"><b>${h.ticker}</b></a> $${h.value.toFixed(2)} <span class="${cls}">${arrow} ${fmtPct(h.changePct, 2)}</span></span>`;
   }).join("");
   // duplicate for seamless loop
   track.innerHTML = items + items;
@@ -194,10 +205,10 @@ function renderHeroList() {
       const cls = h.changePct >= 0 ? "chip-up" : "chip-down";
       return `
         <div class="hero-ticker-row">
-          <span class="sym">
+          <a class="sym" href="${h.website}" target="_blank" rel="noopener">
             <span class="mini-badge">${initials(h.ticker)}</span>
             ${h.ticker}
-          </span>
+          </a>
           <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
         </div>`;
     })
@@ -374,13 +385,13 @@ function renderHoldingCards() {
     return `
     <div class="holding-card reveal">
       <div class="holding-top">
-        <div class="holding-id">
+        <a class="holding-id" href="${h.website}" target="_blank" rel="noopener">
           <span class="badge">${initials(h.ticker)}</span>
           <div>
-            <strong>${h.ticker}</strong>
+            <strong>${h.ticker} <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></strong>
             <span>${h.name}</span>
           </div>
-        </div>
+        </a>
         <div class="holding-price">
           ${priceLabel ? `<span class="hp-price">${priceLabel}</span>` : ""}
           <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
@@ -393,6 +404,44 @@ function renderHoldingCards() {
       <p>${h.outlook}</p>
     </div>`;
   }).join("");
+}
+
+// ---------------------------------------------------------------------------
+// Holdings report table — a compact fund-fact-sheet style breakdown
+// (ticker, sector, price, weight, day/1y/YTD return), each ticker linking
+// out to the company's official site.
+// ---------------------------------------------------------------------------
+function fmtSignedPct(pct) {
+  if (typeof pct !== "number") return `<span class="rp-na">—</span>`;
+  const cls = pct >= 0 ? "up" : "down";
+  return `<span class="${cls}">${fmtPct(pct, 1)}</span>`;
+}
+
+function renderHoldingsReport() {
+  const wrap = document.getElementById("report-table-body");
+  if (!wrap) return;
+  const sorted = [...HOLDINGS].sort((a, b) => b.weight - a.weight);
+  wrap.innerHTML = sorted
+    .map((h) => {
+      const price = h.livePrice ? `$${h.livePrice.toFixed(2)}` : `$${h.value.toFixed(2)}`;
+      return `
+      <tr>
+        <td>
+          <a class="rp-ticker" href="${h.website}" target="_blank" rel="noopener">
+            ${h.ticker}
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </a>
+        </td>
+        <td class="rp-name">${h.name}</td>
+        <td class="rp-sector">${h.sector}</td>
+        <td class="rp-num">${price}</td>
+        <td class="rp-num">${h.weight.toFixed(1)}%</td>
+        <td class="rp-num">${fmtSignedPct(h.changePct)}</td>
+        <td class="rp-num">${fmtSignedPct(h.oneYearReturnPercent)}</td>
+        <td class="rp-num">${fmtSignedPct(h.ytdReturnPercent)}</td>
+      </tr>`;
+    })
+    .join("");
 }
 
 // ---------------------------------------------------------------------------
@@ -635,12 +684,15 @@ async function loadLiveQuotes() {
       if (q && typeof q.changePercent === "number") {
         h.changePct = q.changePercent;
         h.livePrice = q.price;
+        h.oneYearReturnPercent = q.oneYearReturnPercent ?? null;
+        h.ytdReturnPercent = q.ytdReturnPercent ?? null;
       }
     });
 
     renderTickerTape();
     renderHeroList();
     renderHoldingCards();
+    renderHoldingsReport();
     observeReveals();
     renderPerformanceStats(data);
 
@@ -673,14 +725,61 @@ function setPerfValue(id, pct) {
     el.classList.remove("up", "down");
     return;
   }
-  el.textContent = fmtPct(pct, 1);
   el.classList.toggle("up", pct >= 0);
   el.classList.toggle("down", pct < 0);
 }
 
+// ---- Count-up animation: plays once, the first time the Performance
+// section is both in view and its data has loaded (whichever comes last).
+let perfInView = false;
+let perfDataReady = false;
+let perfAnimated = false;
+let perfTargets = { total: null, net: null, oneY: null, ytd: null };
+
+function animateCountUp(elId, to, { kind = "usd", duration = 1600 } = {}) {
+  const el = document.getElementById(elId);
+  if (!el || typeof to !== "number") return;
+  const start = performance.now();
+  function tick(now) {
+    const t = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - t, 3);
+    const val = to * eased;
+    el.textContent = kind === "usd" ? fmtUSD(val) : `${val >= 0 ? "+" : ""}${val.toFixed(1)}%`;
+    if (t < 1) requestAnimationFrame(tick);
+    else el.textContent = kind === "usd" ? fmtUSD(to) : fmtPct(to, 1);
+  }
+  requestAnimationFrame(tick);
+}
+
+function maybeAnimatePerf() {
+  if (perfAnimated || !perfInView || !perfDataReady) return;
+  perfAnimated = true;
+  animateCountUp("perf-total", perfTargets.total, { kind: "usd" });
+  animateCountUp("perf-net", perfTargets.net, { kind: "usd" });
+  if (typeof perfTargets.oneY === "number") animateCountUp("perf-1y", perfTargets.oneY, { kind: "pct" });
+  if (typeof perfTargets.ytd === "number") animateCountUp("perf-ytd", perfTargets.ytd, { kind: "pct" });
+}
+
+function initPerfInViewObserver() {
+  const section = document.getElementById("performance");
+  if (!section) return;
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          perfInView = true;
+          maybeAnimatePerf();
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
+  observer.observe(section);
+}
+
 function renderPerformanceStats(data) {
   const portfolio = data?.portfolio;
-  const totalEl = document.getElementById("perf-total");
   const ytdLabel = document.getElementById("perf-ytd-label");
   const updatedEl = document.getElementById("perf-updated");
 
@@ -691,11 +790,34 @@ function renderPerformanceStats(data) {
     return;
   }
 
-  if (totalEl) {
-    totalEl.textContent = typeof portfolio.totalUSD === "number" ? fmtUSD(portfolio.totalUSD) : "—";
-  }
+  perfTargets = {
+    total: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
+    net: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
+    oneY: portfolio.oneYearReturnPercent,
+    ytd: portfolio.ytdReturnPercent,
+  };
   setPerfValue("perf-1y", portfolio.oneYearReturnPercent);
   setPerfValue("perf-ytd", portfolio.ytdReturnPercent);
+  if (typeof portfolio.oneYearReturnPercent !== "number") {
+    const el = document.getElementById("perf-1y");
+    if (el) el.textContent = "—";
+  }
+  if (typeof portfolio.ytdReturnPercent !== "number") {
+    const el = document.getElementById("perf-ytd");
+    if (el) el.textContent = "—";
+  }
+
+  perfDataReady = true;
+  if (perfAnimated) {
+    // A later refresh (30-min cron) after the first animation already
+    // played — just update the numbers directly, no need to re-animate.
+    const totalEl = document.getElementById("perf-total");
+    const netEl = document.getElementById("perf-net");
+    if (totalEl && perfTargets.total !== null) totalEl.textContent = fmtUSD(perfTargets.total);
+    if (netEl && perfTargets.net !== null) netEl.textContent = fmtUSD(perfTargets.net);
+  } else {
+    maybeAnimatePerf();
+  }
 
   if (updatedEl) {
     updatedEl.textContent = data.updatedAt
@@ -716,6 +838,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderDonut();
   renderGrowthBars();
   renderHoldingCards();
+  renderHoldingsReport();
   renderGrowthChart();
   initGrowthChartReveal();
   renderPortraitStats();
@@ -729,5 +852,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   initReveal();
+  initPerfInViewObserver();
   loadLiveQuotes();
 });

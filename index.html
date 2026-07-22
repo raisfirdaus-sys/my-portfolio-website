@@ -25,6 +25,7 @@
     </a>
     <nav class="nav-links" id="nav-links">
       <a href="#performance">Performa</a>
+      <a href="#report">Laporan</a>
       <a href="#growth">Growth Rate</a>
       <a href="#sectors">Sektor</a>
       <a href="#allocation">Alokasi</a>
@@ -130,6 +131,14 @@
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <span class="perf-label">Net Assets</span>
+        <strong class="perf-value" id="perf-net">—</strong>
+        <span class="perf-sub">tanpa utang/margin = total aset</span>
+      </div>
+      <div class="perf-tile">
+        <span class="perf-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
         </span>
         <span class="perf-label">Return 1 Tahun</span>
@@ -146,6 +155,42 @@
       </div>
     </div>
     <p class="disclaimer-note" id="perf-updated" style="max-width:760px">Menghitung performa live…</p>
+  </div>
+</section>
+
+<!-- ============ HOLDINGS REPORT (fact sheet) ============ -->
+<section class="section" id="report">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Laporan Kepemilikan</span>
+      <h2>Rincian 11 saham, gaya fund fact-sheet</h2>
+      <p>
+        Klik simbol saham untuk buka website resmi perusahaannya langsung — cek sendiri produk, laporan keuangan,
+        dan berita terbaru sebelum memutuskan riset lebih lanjut.
+      </p>
+    </div>
+    <div class="report-table-wrap reveal">
+      <table class="report-table">
+        <thead>
+          <tr>
+            <th>Simbol</th>
+            <th>Perusahaan</th>
+            <th>Sektor</th>
+            <th class="rp-num">Harga</th>
+            <th class="rp-num">Bobot</th>
+            <th class="rp-num">Hari Ini</th>
+            <th class="rp-num">1 Tahun</th>
+            <th class="rp-num">YTD</th>
+          </tr>
+        </thead>
+        <tbody id="report-table-body"></tbody>
+      </table>
+    </div>
+    <p class="disclaimer-note" style="max-width:760px">
+      Data harga &amp; return bersumber dari Yahoo Finance, diperbarui otomatis tiap ~30 menit. Sebagian angka 1
+      Tahun/YTD bisa kosong ("—") jika riwayat harganya belum cukup panjang atau datanya sedang tidak wajar — kami
+      sengaja menyembunyikannya daripada menampilkan angka yang salah.
+    </p>
   </div>
 </section>
 
