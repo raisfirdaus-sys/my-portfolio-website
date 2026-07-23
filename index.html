@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=11" />
+<link rel="stylesheet" href="css/style.css?v=12" />
 </head>
 <body>
 
@@ -95,18 +95,20 @@
           <span>Open &amp; Transparent</span>
         </div>
       </div>
-
-      <div class="hero-photo-card" aria-hidden="true">
-        <img src="assets/hero-cover.webp" alt="" loading="lazy" />
-      </div>
     </div>
 
-    <div class="hero-card reveal">
-      <div class="hero-card-head">
-        <span>Top Holdings</span>
-        <span>by portfolio weight</span>
+    <div class="hero-side">
+      <div class="hero-photo-box reveal" aria-hidden="true">
+        <img src="assets/hero-cover.webp" alt="" loading="lazy" />
       </div>
-      <div class="hero-ticker-list" id="hero-ticker-list"></div>
+
+      <div class="hero-card reveal">
+        <div class="hero-card-head">
+          <span>Top Holdings</span>
+          <span>by portfolio weight</span>
+        </div>
+        <div class="hero-ticker-list" id="hero-ticker-list"></div>
+      </div>
     </div>
   </div>
 </section>
@@ -121,17 +123,19 @@
 
 <!-- ============ PERFORMANCE (USD) ============ -->
 <section class="section performance" id="performance">
-  <div class="perf-photo-card" aria-hidden="true">
-    <img src="assets/performance-bg.webp" alt="" loading="lazy" />
-  </div>
   <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Portfolio Performance</span>
-      <h2>Performance summary in USD</h2>
-      <p>
-        Calculated automatically from live prices across all 11 stocks (assuming 1 share each, not actual holding size),
-        refreshed automatically roughly every 30 minutes during US market hours — same as the prices above.
-      </p>
+    <div class="perf-split">
+      <div class="perf-photo-box reveal">
+        <img src="assets/performance-bg.webp" alt="" loading="lazy" />
+      </div>
+      <div class="section-head reveal" style="margin-bottom:0">
+        <span class="eyebrow">Portfolio Performance</span>
+        <h2>Performance summary in USD</h2>
+        <p>
+          Calculated automatically from live prices across all 11 stocks (assuming 1 share each, not actual holding size),
+          refreshed automatically roughly every 30 minutes during US market hours — same as the prices above.
+        </p>
+      </div>
     </div>
     <div class="perf-grid reveal">
       <div class="perf-tile">
@@ -250,30 +254,36 @@
 
 <!-- ============ GROWTH RATE ============ -->
 <section class="section growth" id="growth">
-  <div class="container growth-grid">
-    <div class="growth-chart-wrap reveal">
-      <div class="growth-chart-legend">
-        <span class="legend-dot"><i style="background:#c8f169"></i> Projected Portfolio Index (base 100)</span>
-      </div>
-      <svg id="growth-svg" width="100%" height="260" role="img" aria-label="5-year portfolio growth projection chart"></svg>
-    </div>
-    <div class="growth-copy reveal">
-      <span class="eyebrow on-dark">Growth Rate</span>
-      <h2>Expected portfolio growth over the next 5 years</h2>
-      <p>
-        The curve on the left is a <strong>personal illustrative thesis</strong>, not a promise of investment results. I built it
-        from blended growth assumptions across the 11 sectors I hold: semiconductors &amp; AI, energy infrastructure, digital
-        payments, pharma, and defensive consumer staples. This mix of aggressive-growth and stable sectors is what I hope
-        can sustain long-term <em>compounding</em> while keeping risk in check.
-      </p>
-      <a href="#allocation" class="btn btn-primary">See Allocation by Stock</a>
-      <div class="growth-photo-card" aria-hidden="true">
+  <div class="container">
+    <div class="perf-split">
+      <div class="perf-photo-box reveal">
         <img src="assets/growth-bg.webp" alt="" loading="lazy" />
       </div>
-      <p class="disclaimer-note">
-        Disclaimer: This projection is illustrative, for educational purposes only, and not financial advice or a
-        guarantee of future performance. Always do your own research before making investment decisions.
-      </p>
+      <div class="section-head reveal" style="margin-bottom:0">
+        <span class="eyebrow on-dark">Growth Rate</span>
+        <h2>Expected portfolio growth over the next 5 years</h2>
+        <p>
+          The curve below is a <strong>personal illustrative thesis</strong>, not a promise of investment results. I built it
+          from blended growth assumptions across the 11 sectors I hold: semiconductors &amp; AI, energy infrastructure, digital
+          payments, pharma, and defensive consumer staples. This mix of aggressive-growth and stable sectors is what I hope
+          can sustain long-term <em>compounding</em> while keeping risk in check.
+        </p>
+      </div>
+    </div>
+    <div class="growth-grid">
+      <div class="growth-chart-wrap reveal">
+        <div class="growth-chart-legend">
+          <span class="legend-dot"><i style="background:#c8f169"></i> Projected Portfolio Index (base 100)</span>
+        </div>
+        <svg id="growth-svg" width="100%" height="260" role="img" aria-label="5-year portfolio growth projection chart"></svg>
+      </div>
+      <div class="growth-copy reveal">
+        <a href="#allocation" class="btn btn-primary">See Allocation by Stock</a>
+        <p class="disclaimer-note">
+          Disclaimer: This projection is illustrative, for educational purposes only, and not financial advice or a
+          guarantee of future performance. Always do your own research before making investment decisions.
+        </p>
+      </div>
     </div>
   </div>
 </section>
@@ -432,20 +442,24 @@
       <h2>A short note for anyone following this journey</h2>
     </div>
     <div class="letter-card reveal">
-      <p class="letter-headline">
-        This isn't about chasing a stock that 10x's overnight — it's 11 businesses I understand, a long-term
-        growth path that makes sense, and letting <em>compounding</em> do the work.
-      </p>
-      <p class="letter-sub">
-        I'm open about the allocation, the reasoning, and even the positions that are in the red — because the learning
-        process is most valuable exactly when things aren't going perfectly. Thanks for following along on YouTube,
-        Instagram, X, or LinkedIn. Let's learn and grow together.
-      </p>
-      <div class="letter-sign">
-        <span class="initials"><img src="assets/rais-firdaus.jpg" alt="Rais Firdaus" loading="lazy" /></span>
-        <div>
-          <strong>Rais Firdaus</strong>
-          <span>Individual Investor · raisfirdaus.com</span>
+      <div class="letter-photo-box">
+        <img src="assets/letter-photo.jpg" alt="Rais Firdaus" loading="lazy" />
+      </div>
+      <div class="letter-content">
+        <p class="letter-headline">
+          This isn't about chasing a stock that 10x's overnight — it's 11 businesses I understand, a long-term
+          growth path that makes sense, and letting <em>compounding</em> do the work.
+        </p>
+        <p class="letter-sub">
+          I'm open about the allocation, the reasoning, and even the positions that are in the red — because the learning
+          process is most valuable exactly when things aren't going perfectly. Thanks for following along on YouTube,
+          Instagram, X, or LinkedIn. Let's learn and grow together.
+        </p>
+        <div class="letter-sign">
+          <div>
+            <strong>Rais Firdaus</strong>
+            <span>Individual Investor · raisfirdaus.com</span>
+          </div>
         </div>
       </div>
     </div>
