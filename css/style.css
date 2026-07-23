@@ -288,24 +288,73 @@ p {
   overflow: hidden;
 }
 
-.hero-side {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.hero-photo-box {
+/* ---------------- Unified photo-background box (Finovate-style) ---------------- */
+.photo-hero {
+  position: relative;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  height: 220px;
   box-shadow: var(--shadow-soft);
+  min-height: 420px;
+  display: flex;
+  align-items: center;
 }
 
-.hero-photo-box img {
+.photo-hero-bg {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 0;
   display: block;
+}
+
+.photo-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    100deg,
+    rgba(13, 31, 23, 0.94) 0%,
+    rgba(13, 31, 23, 0.88) 28%,
+    rgba(13, 31, 23, 0.5) 52%,
+    rgba(13, 31, 23, 0.1) 74%,
+    rgba(13, 31, 23, 0) 88%
+  );
+}
+
+.photo-hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 56px;
+  max-width: 620px;
+}
+
+.photo-hero-content .eyebrow {
+  color: var(--lime-300);
+}
+
+.photo-hero-content .eyebrow::before {
+  background: var(--lime-400);
+}
+
+.photo-hero-content h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.8vw, 40px);
+  margin-top: 14px;
+  color: var(--cream-50);
+}
+
+.photo-hero-content p {
+  margin-top: 16px;
+  color: rgba(248, 246, 238, 0.82);
+  font-size: 16.5px;
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+.hero-photo-hero {
+  margin-bottom: 0;
 }
 
 .hero::before {
@@ -585,26 +634,8 @@ p {
   overflow: hidden;
 }
 
-.perf-split {
-  display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
-  gap: 48px;
-  align-items: center;
+.performance .photo-hero {
   margin-bottom: 48px;
-}
-
-.perf-photo-box {
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  height: 320px;
-  box-shadow: var(--shadow-soft);
-}
-
-.perf-photo-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
 }
 
 .performance::after {
@@ -632,7 +663,7 @@ p {
 
 .perf-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
 }
 
@@ -1025,24 +1056,8 @@ p {
   overflow: hidden;
 }
 
-.growth-photo-card {
-  width: 220px;
-  height: 150px;
-  margin-top: 28px;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.6);
-  border: 3px solid rgba(248, 246, 238, 0.15);
-  transform: rotate(-2.5deg);
-  position: relative;
-  z-index: 1;
-}
-
-.growth-photo-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.growth .photo-hero {
+  margin-bottom: 48px;
 }
 
 .growth::after {
@@ -2123,7 +2138,7 @@ footer {
 
 /* ---------------- Responsive ---------------- */
 @media (max-width: 1020px) {
-  .hero-inner, .growth-grid, .allocation-grid, .pillars-grid, .sectors-grid, .perf-split, .letter-card {
+  .hero-inner, .growth-grid, .allocation-grid, .pillars-grid, .sectors-grid, .letter-card {
     grid-template-columns: 1fr;
   }
   .hero-copy p { max-width: 100%; }
@@ -2133,8 +2148,9 @@ footer {
   .score-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .pillars-photo { min-height: 260px; }
-  .perf-grid { grid-template-columns: repeat(2, 1fr); }
-  .hero-photo-box, .perf-photo-box { height: 240px; }
+  .perf-grid { grid-template-columns: repeat(3, 1fr); }
+  .photo-hero { min-height: 340px; }
+  .photo-hero-content { padding: 36px; max-width: 100%; }
   .letter-photo-box { min-height: 260px; }
 }
 
@@ -2143,7 +2159,7 @@ footer {
   .nav-toggle { display: flex; }
   .nav-visit-secondary { display: none; }
   .nav-cta .btn span.long { display: none; }
-  .perf-grid { grid-template-columns: 1fr; }
+  .perf-grid { grid-template-columns: repeat(2, 1fr); }
   .section { padding: 64px 0; }
   .hero { padding: 150px 0 70px; }
   .hero-stats { grid-template-columns: repeat(3, 1fr); gap: 12px; }
@@ -2156,8 +2172,16 @@ footer {
   .chart-panel { padding: 20px 18px; }
   .letter-content { padding: 36px 24px; }
   .letter-photo-box { min-height: 200px; }
-  .perf-photo-box { height: 200px; }
-  .perf-split { gap: 24px; }
+  .photo-hero { min-height: 300px; align-items: flex-end; }
+  .photo-hero-content { padding: 24px 22px 28px; }
+  .photo-hero-scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(13, 31, 23, 0.35) 0%,
+      rgba(13, 31, 23, 0.88) 45%,
+      rgba(13, 31, 23, 0.94) 100%
+    );
+  }
   .letter-sub { font-size: 16px; }
   .cta-band { padding: 36px 26px; flex-direction: column; align-items: flex-start; }
   .bar-row { grid-template-columns: 100px 1fr 46px; gap: 10px; }

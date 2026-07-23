@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=12" />
+<link rel="stylesheet" href="css/style.css?v=13" />
 </head>
 <body>
 
@@ -69,46 +69,44 @@
     </defs>
   </svg>
   <div class="container hero-inner">
-    <div class="hero-copy">
-      <span class="eyebrow on-dark">11 Hand-Picked Stocks · Live &amp; Open</span>
-      <h1>Building wealth through <em>compounding</em>, one stock decision at a time.</h1>
-      <p>
-        I'm Rais Firdaus — I share my research and stock portfolio openly on YouTube, Instagram, X, and LinkedIn.
-        This page breaks down the <strong>11 stocks</strong> at the core of my portfolio right now: why I hold them, how
-        they're weighted, and how I see their outlook over the next 5 years.
-      </p>
-      <div class="hero-actions">
-        <a href="#holdings" class="btn btn-primary">See My 11 Picks</a>
-        <a href="#social" class="btn btn-outline">Follow the Journey</a>
-      </div>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <strong id="stat-count">11</strong>
-          <span>Core Holdings</span>
+    <div class="photo-hero hero-photo-hero reveal">
+      <img src="assets/hero-cover.webp" alt="" class="photo-hero-bg" loading="lazy" />
+      <div class="photo-hero-scrim" aria-hidden="true"></div>
+      <div class="photo-hero-content hero-copy">
+        <span class="eyebrow on-dark">11 Hand-Picked Stocks · Live &amp; Open</span>
+        <h1>Building wealth through <em>compounding</em>, one stock decision at a time.</h1>
+        <p>
+          I'm Rais Firdaus — I share my research and stock portfolio openly on YouTube, Instagram, X, and LinkedIn.
+          This page breaks down the <strong>11 stocks</strong> at the core of my portfolio right now: why I hold them, how
+          they're weighted, and how I see their outlook over the next 5 years.
+        </p>
+        <div class="hero-actions">
+          <a href="#holdings" class="btn btn-primary">See My 11 Picks</a>
+          <a href="#social" class="btn btn-outline">Follow the Journey</a>
         </div>
-        <div class="hero-stat">
-          <strong>2026–2031</strong>
-          <span>Investment Horizon</span>
-        </div>
-        <div class="hero-stat">
-          <strong>100%</strong>
-          <span>Open &amp; Transparent</span>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong id="stat-count">11</strong>
+            <span>Core Holdings</span>
+          </div>
+          <div class="hero-stat">
+            <strong>2026–2031</strong>
+            <span>Investment Horizon</span>
+          </div>
+          <div class="hero-stat">
+            <strong>100%</strong>
+            <span>Open &amp; Transparent</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="hero-side">
-      <div class="hero-photo-box reveal" aria-hidden="true">
-        <img src="assets/hero-cover.webp" alt="" loading="lazy" />
+    <div class="hero-card reveal">
+      <div class="hero-card-head">
+        <span>Top Holdings</span>
+        <span>by portfolio weight</span>
       </div>
-
-      <div class="hero-card reveal">
-        <div class="hero-card-head">
-          <span>Top Holdings</span>
-          <span>by portfolio weight</span>
-        </div>
-        <div class="hero-ticker-list" id="hero-ticker-list"></div>
-      </div>
+      <div class="hero-ticker-list" id="hero-ticker-list"></div>
     </div>
   </div>
 </section>
@@ -124,12 +122,11 @@
 <!-- ============ PERFORMANCE (USD) ============ -->
 <section class="section performance" id="performance">
   <div class="container">
-    <div class="perf-split">
-      <div class="perf-photo-box reveal">
-        <img src="assets/performance-bg.webp" alt="" loading="lazy" />
-      </div>
-      <div class="section-head reveal" style="margin-bottom:0">
-        <span class="eyebrow">Portfolio Performance</span>
+    <div class="photo-hero reveal">
+      <img src="assets/performance-bg.webp" alt="" class="photo-hero-bg" loading="lazy" />
+      <div class="photo-hero-scrim" aria-hidden="true"></div>
+      <div class="photo-hero-content">
+        <span class="eyebrow on-dark">Portfolio Performance</span>
         <h2>Performance summary in USD</h2>
         <p>
           Calculated automatically from live prices across all 11 stocks (assuming 1 share each, not actual holding size),
@@ -156,6 +153,22 @@
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></svg>
+        </span>
+        <span class="perf-label">1 Day Return</span>
+        <strong class="perf-value" id="perf-1d">—</strong>
+        <span class="perf-sub">vs. yesterday's close</span>
+      </div>
+      <div class="perf-tile">
+        <span class="perf-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>
+        </span>
+        <span class="perf-label">1 Month Return</span>
+        <strong class="perf-value" id="perf-1m">—</strong>
+        <span class="perf-sub">trailing 30 days</span>
+      </div>
+      <div class="perf-tile">
+        <span class="perf-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
         </span>
         <span class="perf-label">1-Year Return</span>
@@ -164,7 +177,7 @@
       </div>
       <div class="perf-tile">
         <span class="perf-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>
         </span>
         <span class="perf-label" id="perf-ytd-label">YTD Return</span>
         <strong class="perf-value" id="perf-ytd">—</strong>
@@ -255,11 +268,10 @@
 <!-- ============ GROWTH RATE ============ -->
 <section class="section growth" id="growth">
   <div class="container">
-    <div class="perf-split">
-      <div class="perf-photo-box reveal">
-        <img src="assets/growth-bg.webp" alt="" loading="lazy" />
-      </div>
-      <div class="section-head reveal" style="margin-bottom:0">
+    <div class="photo-hero reveal">
+      <img src="assets/growth-bg.webp" alt="" class="photo-hero-bg" loading="lazy" />
+      <div class="photo-hero-scrim" aria-hidden="true"></div>
+      <div class="photo-hero-content">
         <span class="eyebrow on-dark">Growth Rate</span>
         <h2>Expected portfolio growth over the next 5 years</h2>
         <p>
@@ -596,6 +608,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=11"></script>
+<script src="js/main.js?v=12"></script>
 </body>
 </html>

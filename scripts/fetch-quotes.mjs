@@ -81,10 +81,14 @@ async function fetchQuote(ticker) {
   const ytdStartClose = (series.find((p) => p.t >= jan1) || series[0])?.c;
   const ytdReturnPercent = pctFrom(ytdStartClose);
 
+  const oneMonthAgo = Date.now() / 1000 - 30 * 24 * 60 * 60;
+  const oneMonthAgoClose = (series.find((p) => p.t >= oneMonthAgo) || series[0])?.c;
+  const oneMonthReturnPercent = pctFrom(oneMonthAgoClose);
+
   const weekLow52 = typeof meta.fiftyTwoWeekLow === "number" ? meta.fiftyTwoWeekLow : null;
   const weekHigh52 = typeof meta.fiftyTwoWeekHigh === "number" ? meta.fiftyTwoWeekHigh : null;
 
-  return { price, change, changePercent, oneYearReturnPercent, ytdReturnPercent, weekLow52, weekHigh52 };
+  return { price, change, changePercent, oneMonthReturnPercent, oneYearReturnPercent, ytdReturnPercent, weekLow52, weekHigh52 };
 }
 
 async function main() {
@@ -123,6 +127,8 @@ async function main() {
 
   const portfolio = {
     totalUSD,
+    changePercent: weightedReturn("changePercent"),
+    oneMonthReturnPercent: weightedReturn("oneMonthReturnPercent"),
     oneYearReturnPercent: weightedReturn("oneYearReturnPercent"),
     ytdReturnPercent: weightedReturn("ytdReturnPercent"),
   };

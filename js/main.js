@@ -1101,7 +1101,7 @@ function setPerfValue(id, pct) {
 let perfInView = false;
 let perfDataReady = false;
 let perfAnimated = false;
-let perfTargets = { total: null, net: null, oneY: null, ytd: null };
+let perfTargets = { total: null, net: null, oneD: null, oneM: null, oneY: null, ytd: null };
 
 function animateCountUp(elId, to, { kind = "usd", duration = 1600 } = {}) {
   const el = document.getElementById(elId);
@@ -1123,6 +1123,8 @@ function maybeAnimatePerf() {
   perfAnimated = true;
   animateCountUp("perf-total", perfTargets.total, { kind: "usd" });
   animateCountUp("perf-net", perfTargets.net, { kind: "usd" });
+  if (typeof perfTargets.oneD === "number") animateCountUp("perf-1d", perfTargets.oneD, { kind: "pct" });
+  if (typeof perfTargets.oneM === "number") animateCountUp("perf-1m", perfTargets.oneM, { kind: "pct" });
   if (typeof perfTargets.oneY === "number") animateCountUp("perf-1y", perfTargets.oneY, { kind: "pct" });
   if (typeof perfTargets.ytd === "number") animateCountUp("perf-ytd", perfTargets.ytd, { kind: "pct" });
 }
@@ -1160,19 +1162,26 @@ function renderPerformanceStats(data) {
   perfTargets = {
     total: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
     net: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
+    oneD: portfolio.changePercent,
+    oneM: portfolio.oneMonthReturnPercent,
     oneY: portfolio.oneYearReturnPercent,
     ytd: portfolio.ytdReturnPercent,
   };
+  setPerfValue("perf-1d", portfolio.changePercent);
+  setPerfValue("perf-1m", portfolio.oneMonthReturnPercent);
   setPerfValue("perf-1y", portfolio.oneYearReturnPercent);
   setPerfValue("perf-ytd", portfolio.ytdReturnPercent);
-  if (typeof portfolio.oneYearReturnPercent !== "number") {
-    const el = document.getElementById("perf-1y");
-    if (el) el.textContent = "—";
-  }
-  if (typeof portfolio.ytdReturnPercent !== "number") {
-    const el = document.getElementById("perf-ytd");
-    if (el) el.textContent = "—";
-  }
+  [
+    ["perf-1d", portfolio.changePercent],
+    ["perf-1m", portfolio.oneMonthReturnPercent],
+    ["perf-1y", portfolio.oneYearReturnPercent],
+    ["perf-ytd", portfolio.ytdReturnPercent],
+  ].forEach(([id, val]) => {
+    if (typeof val !== "number") {
+      const el = document.getElementById(id);
+      if (el) el.textContent = "—";
+    }
+  });
 
   perfDataReady = true;
   if (perfAnimated) {
