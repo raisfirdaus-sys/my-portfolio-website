@@ -309,15 +309,14 @@ p {
   align-items: center;
 }
 
-/* Breaks a photo-hero box out of its centered .container so it spans the
-   full viewport width edge-to-edge, same as the hero cover. */
+/* Breaks a photo-hero box out of its centered .container so it spans
+   almost the full viewport width, same as the hero cover — snug to the
+   edges with a small gap (16px), not flush/touching them. */
 .photo-hero-full {
-  width: 100vw;
+  width: calc(100vw - 32px);
   position: relative;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-left: calc(-50vw + 16px);
 }
 
 .photo-hero-bg {
@@ -591,6 +590,7 @@ p {
 
 .hero-inner {
   position: relative;
+  padding: 0 16px;
 }
 
 .hero-copy h1 {
