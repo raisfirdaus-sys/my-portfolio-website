@@ -981,9 +981,19 @@ let revealObserver = null;
 // Re-scans for .reveal elements that aren't observed/visible yet. Needed
 // because loadLiveQuotes() re-renders holding cards after the initial
 // reveal pass, which would otherwise leave the fresh nodes stuck invisible.
+// Siblings under the same parent get a staggered --reveal-i index (capped)
+// so grids/lists cascade in one after another instead of popping in at once.
 function observeReveals() {
   if (!revealObserver) return;
-  document.querySelectorAll(".reveal:not(.in-view)").forEach((el) => revealObserver.observe(el));
+  const pending = document.querySelectorAll(".reveal:not(.in-view)");
+  const counters = new WeakMap();
+  pending.forEach((el) => {
+    const parent = el.parentElement;
+    const i = counters.get(parent) ?? 0;
+    el.style.setProperty("--reveal-i", Math.min(i, 5));
+    counters.set(parent, i + 1);
+    revealObserver.observe(el);
+  });
 }
 
 function initReveal() {
@@ -1031,6 +1041,48 @@ function initReveal() {
     { threshold: 0.35 }
   );
   spinTargets.forEach((el) => spinObserver.observe(el));
+}
+
+// ---------------------------------------------------------------------------
+// Scroll polish: a top progress bar + a subtle parallax drift on the hero
+// photo, both driven off the same rAF-throttled scroll listener.
+// ---------------------------------------------------------------------------
+function initScrollEffects() {
+  const progress = document.getElementById("scroll-progress");
+  const heroImg = document.querySelector(".hero-photo-hero .photo-hero-bg");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let ticking = false;
+
+  function update() {
+    ticking = false;
+    const doc = document.documentElement;
+    const scrollTop = window.scrollY || doc.scrollTop;
+    const max = doc.scrollHeight - doc.clientHeight;
+    if (progress) progress.style.width = `${max > 0 ? Math.min((scrollTop / max) * 100, 100) : 0}%`;
+
+    if (heroImg && !reduceMotion) {
+      const heroBox = heroImg.closest(".hero-photo-hero");
+      const rect = heroBox.getBoundingClientRect();
+      // Only shift while the hero is anywhere near the viewport — no point
+      // computing this once it's scrolled far away.
+      if (rect.bottom > -200 && rect.top < window.innerHeight + 200) {
+        const drift = Math.max(-30, Math.min(30, rect.top * 0.06));
+        heroImg.style.transform = `scale(1.15) translateY(${drift}px)`;
+      }
+    }
+  }
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    },
+    { passive: true }
+  );
+  update();
 }
 
 // ---------------------------------------------------------------------------
@@ -1370,6 +1422,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   initReveal();
+  initScrollEffects();
   initPerfInViewObserver();
   initReportCountUp();
   loadLiveQuotes();
