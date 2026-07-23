@@ -40,14 +40,30 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/quotes.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update live stock quotes"
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
+          if git diff --cached --quiet; then
             echo "No quote changes, skipping commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          git commit -m "Update live stock quotes"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          # This job's push can race update-news.yml/update-charts.yml,
+          # which run on their own schedules against the same branch — if
+          # one of them lands first, a plain push is rejected as
+          # non-fast-forward. Rebase onto the latest and retry rather than
+          # failing outright; safe here since each workflow only ever
+          # touches its own data/*.json file, so there's nothing to
+          # conflict with.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5) — rebasing onto latest and retrying..."
+            git fetch origin claude/stock-portfolio-website-2ulin2
+            git rebase origin/claude/stock-portfolio-website-2ulin2
+          done
+          echo "Push still failing after 5 attempts."
+          exit 1
 
       # A push made with the default GITHUB_TOKEN does not trigger other
       # workflows (GitHub's loop-prevention rule), so pages.yml wouldn't
