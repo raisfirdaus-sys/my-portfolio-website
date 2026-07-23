@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T20:19:30.622Z",
+  "updatedAt": "2026-07-23T21:18:35.390Z",
   "quotes": {
     "MU": {
       "price": 990.21,
@@ -32,12 +32,12 @@
       "weekHigh52": 601.77
     },
     "ABBV": {
-      "price": 256.79,
-      "change": 3.489996948242208,
-      "changePercent": 1.377811648714857,
-      "oneMonthReturnPercent": 9.323513417879772,
-      "oneYearReturnPercent": 34.564794600453304,
-      "ytdReturnPercent": 11.983778611477472,
+      "price": 256.92,
+      "change": 3.6199969482422034,
+      "changePercent": 1.4291341905363162,
+      "oneMonthReturnPercent": 9.37885847315577,
+      "oneYearReturnPercent": 34.63291806047145,
+      "ytdReturnPercent": 12.04047042665521,
       "weekLow52": 187.62,
       "weekHigh52": 261.64
     },
@@ -113,10 +113,10 @@
     }
   },
   "portfolio": {
-    "totalUSD": 4177.169999999999,
-    "changePercent": 1.7602303357555582,
-    "oneMonthReturnPercent": 2.4261295940329606,
-    "oneYearReturnPercent": 217.49452141043372,
-    "ytdReturnPercent": 72.56704733658505
+    "totalUSD": 4177.3,
+    "changePercent": 1.7633749681773263,
+    "oneMonthReturnPercent": 2.429748178165919,
+    "oneYearReturnPercent": 217.49301838571978,
+    "ytdReturnPercent": 72.56864871456155
   }
 }
