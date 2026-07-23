@@ -1092,63 +1092,6 @@ function initReveal() {
 }
 
 // ---------------------------------------------------------------------------
-// Photo-hero corner shape (Hero cover, Performance, Growth): concave
-// "scooped" notches at the top-left and bottom-right corners, normal
-// rounded corners at the other two. Built as an SVG clip-path from each
-// box's actual rendered size (rather than plain CSS border-radius) so the
-// two scooped corners stay proportional instead of skewing, and re-applied
-// on resize since box height is content-driven and width changes across
-// breakpoints.
-// ---------------------------------------------------------------------------
-function applyCornerScoop(box) {
-  const w = box.offsetWidth;
-  const h = box.offsetHeight;
-  if (!w || !h) return;
-
-  const vw = window.innerWidth;
-  const notch = vw <= 760 ? 34 : vw <= 1020 ? 52 : 76;
-  const normal = vw <= 760 ? 16 : vw <= 1020 ? 20 : 26;
-  const n = Math.min(notch, w / 3, h / 3);
-  const r = Math.min(normal, w / 4, h / 4);
-
-  const path = [
-    `M ${n} 0`,
-    `L ${w - r} 0`,
-    `A ${r} ${r} 0 0 1 ${w} ${r}`,
-    `L ${w} ${h - n}`,
-    `A ${n} ${n} 0 0 0 ${w - n} ${h}`,
-    `L ${r} ${h}`,
-    `A ${r} ${r} 0 0 1 0 ${h - r}`,
-    `L 0 ${n}`,
-    `A ${n} ${n} 0 0 0 ${n} 0`,
-    "Z",
-  ].join(" ");
-
-  box.style.clipPath = `path('${path}')`;
-}
-
-function initCornerScoops() {
-  const boxes = Array.from(document.querySelectorAll(".photo-hero"));
-  if (!boxes.length) return;
-  const applyAll = () => boxes.forEach(applyCornerScoop);
-  applyAll();
-
-  let resizeTimer = null;
-  window.addEventListener("resize", () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(applyAll, 150);
-  });
-
-  // Each box's height depends on wrapped text/font metrics, which can
-  // settle after the first paint (web font swap, image aspect ratio) —
-  // ResizeObserver catches those without needing a fixed timeout guess.
-  if (window.ResizeObserver) {
-    const ro = new ResizeObserver(() => applyAll());
-    boxes.forEach((box) => ro.observe(box));
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Scroll polish: a top progress bar + a subtle parallax drift on the hero
 // photo, both driven off the same rAF-throttled scroll listener.
 // ---------------------------------------------------------------------------
@@ -1528,7 +1471,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   initReveal();
-  initCornerScoops();
   initScrollEffects();
   initPerfInViewObserver();
   initReportCountUp();
