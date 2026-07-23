@@ -1092,16 +1092,15 @@ function initReveal() {
 }
 
 // ---------------------------------------------------------------------------
-// Hero cover corner shape: concave "scooped" notches at the top-left and
-// bottom-right corners, normal rounded corners at the other two. Built as
-// an SVG clip-path from the box's actual rendered size (rather than plain
-// CSS border-radius) so the two scooped corners stay proportional instead
-// of skewing, and re-applied on resize since the box's height is content-
-// driven and its width changes across breakpoints.
+// Photo-hero corner shape (Hero cover, Performance, Growth): concave
+// "scooped" notches at the top-left and bottom-right corners, normal
+// rounded corners at the other two. Built as an SVG clip-path from each
+// box's actual rendered size (rather than plain CSS border-radius) so the
+// two scooped corners stay proportional instead of skewing, and re-applied
+// on resize since box height is content-driven and width changes across
+// breakpoints.
 // ---------------------------------------------------------------------------
-function applyHeroCornerScoop() {
-  const box = document.querySelector(".hero-photo-hero");
-  if (!box) return;
+function applyCornerScoop(box) {
   const w = box.offsetWidth;
   const h = box.offsetHeight;
   if (!w || !h) return;
@@ -1128,22 +1127,24 @@ function applyHeroCornerScoop() {
   box.style.clipPath = `path('${path}')`;
 }
 
-function initHeroCornerScoop() {
-  const box = document.querySelector(".hero-photo-hero");
-  if (!box) return;
-  applyHeroCornerScoop();
+function initCornerScoops() {
+  const boxes = Array.from(document.querySelectorAll(".photo-hero"));
+  if (!boxes.length) return;
+  const applyAll = () => boxes.forEach(applyCornerScoop);
+  applyAll();
 
   let resizeTimer = null;
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(applyHeroCornerScoop, 150);
+    resizeTimer = setTimeout(applyAll, 150);
   });
 
-  // The box's height depends on wrapped text/font metrics, which can
+  // Each box's height depends on wrapped text/font metrics, which can
   // settle after the first paint (web font swap, image aspect ratio) —
   // ResizeObserver catches those without needing a fixed timeout guess.
   if (window.ResizeObserver) {
-    new ResizeObserver(() => applyHeroCornerScoop()).observe(box);
+    const ro = new ResizeObserver(() => applyAll());
+    boxes.forEach((box) => ro.observe(box));
   }
 }
 
@@ -1527,7 +1528,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   initReveal();
-  initHeroCornerScoop();
+  initCornerScoops();
   initScrollEffects();
   initPerfInViewObserver();
   initReportCountUp();

@@ -308,6 +308,17 @@ p {
   align-items: center;
 }
 
+/* Breaks a photo-hero box out of its centered .container so it spans the
+   full viewport width edge-to-edge, same as the hero cover. */
+.photo-hero-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 .photo-hero-bg {
   position: absolute;
   inset: 0;
