@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-07-22T23:38:42.267Z",
+  "updatedAt": "2026-07-23T05:13:01.008Z",
   "items": [
+    {
+      "ticker": "MU",
+      "title": "Jim Cramer reveals 4 surging chip stocks he likes best",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/2ff2e7e1-be72-3d46-9283-3a0e93dc9096/jim-cramer-reveals-4-surging.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/A_ZC8E0zXA8xX6RhhvnPIA--~B/aD0yMDExO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/67046711e8b92932a23861d46e1ee336",
+      "publishedAt": 1784779380000
+    },
+    {
+      "ticker": "GEV",
+      "title": "GE Vernova’s AI power trade has one weak link",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/fcba53f7-4ed4-30ae-8938-ab9ffffddd5f/ge-vernova%E2%80%99s-ai-power-trade.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_EOqe3e4gDMKHWOqxswF0Q--~B/aD0xNjY1O3c9MjQ5NjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/2cf584ea526bf8eaa6248d27675041a2",
+      "publishedAt": 1784777580000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Why Did PEGA, ISRG, MCD Stocks Plunge To 52-Week Lows Today?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/46ccc3d7-3251-315b-84ab-283d12818ce8/why-did-pega%2C-isrg%2C-mcd.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/W9FmX7_BJVQgpE4PFCgw2A--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/abad81f46e5b9eaedb46f7649c65fffe",
+      "publishedAt": 1784777466000
+    },
+    {
+      "ticker": "MU",
+      "title": "MU, SNDK, SKHY Stocks Jump: Google's AI Hunger, Elon Musk's Micron Shoutout Send Memory Bulls Charging",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/856e0e06-0b1c-3a35-9569-d9759148c926/mu%2C-sndk%2C-skhy-stocks-jump%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5wmztCI9bT4juO.JKcILmA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/63322fca82b3e403c396e418987f06ce",
+      "publishedAt": 1784773117000
+    },
+    {
+      "ticker": "MU",
+      "title": "Market Chatter: Tesla Received Reasonable-Terms Chip Supply From Micron, Musk Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-tesla-received-reasonable-000108352.html",
+      "image": null,
+      "publishedAt": 1784764868000
+    },
+    {
+      "ticker": "VLO",
+      "title": "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Directly",
+      "publisher": "Oilprice.com",
+      "link": "https://finance.yahoo.com/energy/articles/global-refiners-cutting-oil-traders-000000289.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Fesej_8U7N2b7UyvyKdu6A--~B/aD0zMDA7dz01MzM7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/4461f7223ca897e60617a641ed11e265",
+      "publishedAt": 1784764800000
+    },
     {
       "ticker": "MU",
       "title": "The Ultimate Bull Run for NVIDIA, Micron, and SanDisk May Be Closer Than Investors Think",
@@ -42,6 +90,14 @@
       "publishedAt": 1784754366000
     },
     {
+      "ticker": "JNJ",
+      "title": "Why Johnson & Johnson Is Sending Intuitive Surgical (ISRG) Stock Down Today",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/58149ab1-7425-3c42-b945-9267a9dbaeb8/why-johnson-%26-johnson-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/U2zQfXiwKvlDWKN5q_GFHA--~B/aD04MzY7dz0xMjUzO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/1ed6dc8fb90e48dcdc048b84bb7630f6",
+      "publishedAt": 1784752362000
+    },
+    {
       "ticker": "MU",
       "title": "Super Micro, ServiceNow, GE Vernova, Pegasystems, and More Stocks That Explain Today’s Market",
       "publisher": "Barrons.com",
@@ -56,22 +112,6 @@
       "link": "https://finance.yahoo.com/m/812b99db-fcdc-3eda-8e84-23c4472a8bf6/nuclear-stocks-rally-off-lows.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/GBt6IJA1vjjG4wC8JSOWnw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/c64dbe3ecf220b3042ce3ae835fb2be1",
       "publishedAt": 1784751704000
-    },
-    {
-      "ticker": "MU",
-      "title": "Stocks Slip as Alphabet Gets Ready to Report: Stock Market Today",
-      "publisher": "Kiplinger",
-      "link": "https://finance.yahoo.com/m/a62f48a2-5f12-3809-803f-694e0dff7dd4/stocks-slip-as-alphabet-gets.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WxcqsV1qQONrd35BlaTnzw--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/kiplinger_425/d64cc2dd43fd5ef75412cdd890767ccb",
-      "publishedAt": 1784751259000
-    },
-    {
-      "ticker": "MU",
-      "title": "SanDisk's Bold Pivot From AI Boom Beneficiary to Bust Breaker",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/75d65752-c832-3f13-af39-5df5e28615e3/sandisk%27s-bold-pivot-from-ai.html",
-      "image": null,
-      "publishedAt": 1784751140000
     },
     {
       "ticker": "GEV",
@@ -98,52 +138,12 @@
       "publishedAt": 1784750508000
     },
     {
-      "ticker": "GEV",
-      "title": "Sector Update: Energy Stocks Gain Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195708870.html",
-      "image": null,
-      "publishedAt": 1784750228000
-    },
-    {
-      "ticker": "MU",
-      "title": "A new group of stocks is transforming global equities markets. Meet ‘Memi,’ the $3 trillion sector fueled by AI’s insatiable hunger for memory chips",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/group-stocks-transforming-global-equities-195039352.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AEBM6D9dcUJ6N8fX.dxuLg--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/71f0b5978b2094c6a4f0b03b2d03e4db",
-      "publishedAt": 1784749839000
-    },
-    {
       "ticker": "VLO",
       "title": "Valero vs Cenovus: Which Energy Stock Is the Better Pick Now?",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/energy/articles/valero-vs-cenovus-energy-stock-170900595.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/LsbxT8YPCQB9.REhHmZgtA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4cd5aaccac3036d11adbaad982d1237b",
       "publishedAt": 1784740140000
-    },
-    {
-      "ticker": "V",
-      "title": "JPMorgan CEO cuts to the chase on stock market danger",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/9672ab24-e1d4-3624-81d4-98675ec86d61/jpmorgan-ceo-cuts-to-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EYaiNOeDg3ap4BRx5M_vog--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/9e8e1499ac441b8ea03821e3ada43ccd",
-      "publishedAt": 1784740020000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "J&J MedTech jumps into surgical robot game as OTTAVA secures FDA nod",
-      "publisher": "Medical Device Network",
-      "link": "https://finance.yahoo.com/m/1fbb2828-5b2e-3a98-b9f3-3c5a9558f283/j%26j-medtech-jumps-into.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/71c32TZwgGdhrv1TgODzJQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/medical_device_network_744/fe376c03ced6d58ecf1171fc9e0bb194",
-      "publishedAt": 1784738350000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Will AbbVie's Oncology Franchise Remain Under Pressure in Q2?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvies-oncology-franchise-remain-under-163800593.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/D3ML88PGy1H5kHT9yl7OAw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6c915f5bdd1c7ea850acb1ca1c067326",
-      "publishedAt": 1784738280000
     }
   ]
 }
