@@ -749,7 +749,21 @@ function renderChartPanel() {
   const values = series.map((p) => p[1]);
   const first = values[0];
   const last = values[values.length - 1];
-  const periodChangePct = first ? ((last - first) / first) * 100 : 0;
+
+  // For "1D" specifically, (last - first) / first is the change since
+  // *today's opening tick* — not the same thing as "today's change" (which
+  // is measured against yesterday's close, the number shown everywhere
+  // else on the site: ticker tape, holdings report, stock score). A stock
+  // can be up since the open while still down on the day, so 1D reuses
+  // the authoritative changePct already computed correctly in
+  // fetch-quotes.mjs rather than re-deriving a different, easily-confused
+  // number from the intraday series.
+  const periodChangePct =
+    chartRange === "1D" && holding && typeof holding.changePct === "number"
+      ? holding.changePct
+      : first
+        ? ((last - first) / first) * 100
+        : 0;
   const positive = periodChangePct >= 0;
   const color = positive ? "var(--up)" : "var(--down)";
 

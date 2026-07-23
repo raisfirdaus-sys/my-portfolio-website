@@ -282,12 +282,30 @@ p {
 /* ---------------- Hero ---------------- */
 .hero {
   position: relative;
-  background:
-    radial-gradient(ellipse at 20% -10%, rgba(35, 74, 59, 0.86) 0%, rgba(18, 40, 31, 0.9) 45%, rgba(13, 31, 23, 0.95) 100%),
-    url("../assets/hero-cover.webp") center 30% / cover no-repeat;
+  background: radial-gradient(ellipse at 20% -10%, #234a3b 0%, var(--forest-900) 45%, var(--forest-950) 100%);
   color: var(--cream-50);
   padding: 180px 0 110px;
   overflow: hidden;
+}
+
+.hero-photo-card {
+  width: 220px;
+  height: 150px;
+  margin-top: 40px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.6);
+  border: 3px solid rgba(248, 246, 238, 0.15);
+  transform: rotate(-3deg);
+  position: relative;
+  z-index: 1;
+}
+
+.hero-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .hero::before {
@@ -562,10 +580,30 @@ p {
 .performance {
   background:
     radial-gradient(ellipse 700px 450px at 8% 0%, rgba(200, 241, 105, 0.12), transparent 60%),
-    linear-gradient(rgba(13, 31, 23, 0.9), rgba(13, 31, 23, 0.94)),
-    url("../assets/performance-bg.webp") center 25% / cover no-repeat;
+    var(--forest-950);
   position: relative;
   overflow: hidden;
+}
+
+.perf-photo-card {
+  position: absolute;
+  right: 6%;
+  top: 56px;
+  width: 280px;
+  height: 190px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.6);
+  border: 3px solid rgba(248, 246, 238, 0.15);
+  transform: rotate(2.5deg);
+  z-index: 1;
+}
+
+.perf-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .performance::after {
@@ -980,11 +1018,30 @@ p {
   background:
     radial-gradient(ellipse 700px 500px at 88% -10%, rgba(200, 241, 105, 0.14), transparent 60%),
     radial-gradient(ellipse 600px 500px at -10% 110%, rgba(201, 154, 62, 0.14), transparent 60%),
-    linear-gradient(rgba(18, 40, 31, 0.95), rgba(13, 31, 23, 0.97)),
-    url("../assets/growth-bg.webp") center 30% / cover no-repeat;
+    var(--forest-900);
   color: var(--cream-50);
   position: relative;
   overflow: hidden;
+}
+
+.growth-photo-card {
+  width: 220px;
+  height: 150px;
+  margin-top: 28px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.6);
+  border: 3px solid rgba(248, 246, 238, 0.15);
+  transform: rotate(-2.5deg);
+  position: relative;
+  z-index: 1;
+}
+
+.growth-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .growth::after {
@@ -1739,15 +1796,12 @@ p {
 }
 
 .letter-card {
-  background:
-    linear-gradient(120deg, rgba(13, 31, 23, 0.9), rgba(18, 40, 31, 0.78)),
-    url("../assets/rais-firdaus.jpg") center 22% / cover no-repeat;
+  background: #fff;
   border-radius: var(--radius-lg);
   padding: 72px 64px;
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--line);
   position: relative;
-  overflow: hidden;
 }
 
 .letter-headline {
@@ -1755,19 +1809,19 @@ p {
   line-height: 1.25;
   font-weight: 800;
   letter-spacing: -0.01em;
-  color: var(--cream-50);
+  color: var(--ink-900);
   font-family: var(--font-display);
 }
 
 .letter-headline em {
   font-style: normal;
-  color: var(--lime-400);
+  color: var(--forest-700);
 }
 
 .letter-sub {
   font-size: 18px;
   line-height: 1.85;
-  color: rgba(248, 246, 238, 0.78);
+  color: var(--ink-400);
   font-family: var(--font-display);
   margin-top: 28px;
   max-width: 640px;
@@ -1781,27 +1835,28 @@ p {
 }
 
 .letter-sign .initials {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--lime-400);
-  color: var(--forest-950);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-family: var(--font-display);
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: 0 8px 20px -8px rgba(13, 31, 23, 0.4);
+}
+
+.letter-sign .initials img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .letter-sign strong {
   display: block;
   font-size: 15px;
-  color: var(--cream-50);
 }
 
 .letter-sign span {
   font-size: 12.5px;
-  color: rgba(248, 246, 238, 0.65);
+  color: var(--ink-400);
 }
 
 /* ---------------- Breaking News ---------------- */
