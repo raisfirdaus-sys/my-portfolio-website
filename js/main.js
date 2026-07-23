@@ -219,25 +219,43 @@ function renderTickerTape() {
 }
 
 // ---------------------------------------------------------------------------
-// Hero preview list (top 5 by weight)
+// Hero holdings slider (all 11, sorted by weight, horizontally scrollable)
 // ---------------------------------------------------------------------------
 function renderHeroList() {
-  const el = document.getElementById("hero-ticker-list");
-  if (!el) return;
-  const top = [...HOLDINGS].sort((a, b) => b.weight - a.weight).slice(0, 5);
-  el.innerHTML = top
+  const track = document.getElementById("hero-slider-track");
+  if (!track) return;
+  const sorted = [...HOLDINGS].sort((a, b) => b.weight - a.weight);
+  track.innerHTML = sorted
     .map((h) => {
       const cls = h.changePct >= 0 ? "chip-up" : "chip-down";
       return `
-        <div class="hero-ticker-row">
-          <a class="sym" href="${h.website}" target="_blank" rel="noopener">
+        <a class="hero-slide-card" href="${h.website}" target="_blank" rel="noopener">
+          <div class="hsc-top">
             <span class="mini-badge logo-badge">${companyLogoHTML(h)}</span>
-            ${h.ticker}
-          </a>
-          <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
-        </div>`;
+            <span class="chip ${cls}">${fmtPct(h.changePct, 2)}</span>
+          </div>
+          <div class="hsc-body">
+            <strong>${h.ticker}</strong>
+            <span>${h.sector}</span>
+          </div>
+          <span class="hsc-price">$${h.value.toFixed(2)}</span>
+        </a>`;
     })
     .join("");
+}
+
+function initHeroSlider() {
+  const track = document.getElementById("hero-slider-track");
+  const prevBtn = document.getElementById("hero-slider-prev");
+  const nextBtn = document.getElementById("hero-slider-next");
+  if (!track || !prevBtn || !nextBtn) return;
+  const scrollByCards = (dir) => {
+    const card = track.querySelector(".hero-slide-card");
+    const step = card ? card.getBoundingClientRect().width + 14 : 200;
+    track.scrollBy({ left: dir * step * 2, behavior: "smooth" });
+  };
+  prevBtn.addEventListener("click", () => scrollByCards(-1));
+  nextBtn.addEventListener("click", () => scrollByCards(1));
 }
 
 // ---------------------------------------------------------------------------
@@ -1333,6 +1351,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderTickerTape();
   renderHeroList();
+  initHeroSlider();
   renderDonut();
   renderGrowthBars();
   renderHoldingCards();
