@@ -974,6 +974,54 @@ function initNavToggle() {
 }
 
 // ---------------------------------------------------------------------------
+// Cookie consent — this site has no ads or third-party analytics, so every
+// choice here (Accept/Reject/Save) just records that the visitor has seen
+// the notice; there's nothing else to actually gate.
+// ---------------------------------------------------------------------------
+function initCookieConsent() {
+  const banner = document.getElementById("cookie-banner");
+  const backdrop = document.getElementById("cookie-modal-backdrop");
+  if (!banner || !backdrop) return;
+  const STORAGE_KEY = "cookie-consent";
+
+  function openModal() {
+    backdrop.classList.add("show");
+    backdrop.setAttribute("aria-hidden", "false");
+  }
+  function closeModal() {
+    backdrop.classList.remove("show");
+    backdrop.setAttribute("aria-hidden", "true");
+  }
+  function dismiss(choice) {
+    localStorage.setItem(STORAGE_KEY, choice);
+    banner.classList.remove("show");
+    closeModal();
+  }
+
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    requestAnimationFrame(() => banner.classList.add("show"));
+  }
+
+  document.getElementById("cookie-accept")?.addEventListener("click", () => dismiss("accepted"));
+  document.getElementById("cookie-reject")?.addEventListener("click", () => dismiss("rejected"));
+  document.getElementById("cookie-modal-accept")?.addEventListener("click", () => dismiss("accepted"));
+  document.getElementById("cookie-modal-reject")?.addEventListener("click", () => dismiss("rejected"));
+  document.getElementById("cookie-modal-save")?.addEventListener("click", () => dismiss("accepted"));
+  document.getElementById("cookie-manage")?.addEventListener("click", openModal);
+  document.getElementById("cookie-modal-close")?.addEventListener("click", closeModal);
+  document.getElementById("cookie-reopen")?.addEventListener("click", () => {
+    banner.classList.remove("show");
+    openModal();
+  });
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) closeModal();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && backdrop.classList.contains("show")) closeModal();
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Scroll reveal + bar fill animation
 // ---------------------------------------------------------------------------
 let revealObserver = null;
@@ -1041,6 +1089,62 @@ function initReveal() {
     { threshold: 0.35 }
   );
   spinTargets.forEach((el) => spinObserver.observe(el));
+}
+
+// ---------------------------------------------------------------------------
+// Hero cover corner shape: concave "scooped" notches at the top-left and
+// bottom-right corners, normal rounded corners at the other two. Built as
+// an SVG clip-path from the box's actual rendered size (rather than plain
+// CSS border-radius) so the two scooped corners stay proportional instead
+// of skewing, and re-applied on resize since the box's height is content-
+// driven and its width changes across breakpoints.
+// ---------------------------------------------------------------------------
+function applyHeroCornerScoop() {
+  const box = document.querySelector(".hero-photo-hero");
+  if (!box) return;
+  const w = box.offsetWidth;
+  const h = box.offsetHeight;
+  if (!w || !h) return;
+
+  const vw = window.innerWidth;
+  const notch = vw <= 760 ? 34 : vw <= 1020 ? 52 : 76;
+  const normal = vw <= 760 ? 16 : vw <= 1020 ? 20 : 26;
+  const n = Math.min(notch, w / 3, h / 3);
+  const r = Math.min(normal, w / 4, h / 4);
+
+  const path = [
+    `M ${n} 0`,
+    `L ${w - r} 0`,
+    `A ${r} ${r} 0 0 1 ${w} ${r}`,
+    `L ${w} ${h - n}`,
+    `A ${n} ${n} 0 0 0 ${w - n} ${h}`,
+    `L ${r} ${h}`,
+    `A ${r} ${r} 0 0 1 0 ${h - r}`,
+    `L 0 ${n}`,
+    `A ${n} ${n} 0 0 0 ${n} 0`,
+    "Z",
+  ].join(" ");
+
+  box.style.clipPath = `path('${path}')`;
+}
+
+function initHeroCornerScoop() {
+  const box = document.querySelector(".hero-photo-hero");
+  if (!box) return;
+  applyHeroCornerScoop();
+
+  let resizeTimer = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(applyHeroCornerScoop, 150);
+  });
+
+  // The box's height depends on wrapped text/font metrics, which can
+  // settle after the first paint (web font swap, image aspect ratio) —
+  // ResizeObserver catches those without needing a fixed timeout guess.
+  if (window.ResizeObserver) {
+    new ResizeObserver(() => applyHeroCornerScoop()).observe(box);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -1416,12 +1520,14 @@ document.addEventListener("DOMContentLoaded", () => {
   renderSectorRadar();
   initPillarTabs();
   initNavToggle();
+  initCookieConsent();
 
   document.querySelectorAll(".section-head, .letter-card, .cta-band").forEach((el) =>
     el.classList.add("reveal")
   );
 
   initReveal();
+  initHeroCornerScoop();
   initScrollEffects();
   initPerfInViewObserver();
   initReportCountUp();

@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=16" />
+<link rel="stylesheet" href="css/style.css?v=17" />
 </head>
 <body>
 
@@ -74,12 +74,6 @@
     <div class="photo-hero hero-photo-hero reveal">
       <img src="assets/hero-cover.webp" alt="" class="photo-hero-bg" loading="lazy" />
       <div class="photo-hero-scrim" aria-hidden="true"></div>
-      <svg class="hero-corner-art" viewBox="0 0 260 220" fill="none" aria-hidden="true">
-        <path d="M0 40 C 40 10, 70 70, 110 60 S 180 10, 260 50" stroke="#c8f169" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
-        <path d="M0 90 C 45 60, 80 120, 130 100 S 200 60, 260 105" stroke="#c8f169" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-        <circle cx="110" cy="60" r="4" fill="#c8f169" opacity="0.65"/>
-        <circle cx="0" cy="40" r="5" fill="#c8f169" opacity="0.65"/>
-      </svg>
       <div class="photo-hero-content hero-copy">
         <span class="eyebrow on-dark">11 Hand-Picked Stocks · Live &amp; Open</span>
         <h1>Building wealth through <em>compounding</em>, one stock decision at a time.</h1>
@@ -613,6 +607,7 @@
     <div class="footer-bottom">
       <span>© <span id="year"></span> Rais Firdaus. All rights reserved.</span>
       <span>Built for educational purposes &amp; personal portfolio documentation.</span>
+      <button type="button" class="footer-cookie-link" id="cookie-reopen">Cookie Settings</button>
     </div>
     <p class="footer-legal">
       Disclaimer: All content on this page — including allocation data, investment theses, and 5-year growth
@@ -623,6 +618,44 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=14"></script>
+<!-- ============ COOKIE CONSENT ============ -->
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite">
+  <p>
+    This site uses minimal local storage — mainly to remember this choice and small display preferences. No ads, no
+    third-party tracking.
+  </p>
+  <div class="cookie-banner-actions">
+    <button type="button" class="cookie-link-btn" id="cookie-manage">Manage Preferences</button>
+    <button type="button" class="btn btn-outline-dark btn-sm" id="cookie-reject">Reject All</button>
+    <button type="button" class="btn btn-primary btn-sm" id="cookie-accept">Accept All</button>
+  </div>
+</div>
+
+<div class="cookie-modal-backdrop" id="cookie-modal-backdrop" aria-hidden="true">
+  <div class="cookie-modal" role="dialog" aria-modal="true" aria-labelledby="cookie-modal-title">
+    <div class="cookie-modal-head">
+      <h3 id="cookie-modal-title">Cookie Preferences</h3>
+      <button type="button" class="cookie-modal-close" id="cookie-modal-close" aria-label="Close">&times;</button>
+    </div>
+    <p class="cookie-modal-intro">
+      This is a personal portfolio site — there are no ads and no third-party analytics trackers here. The only thing
+      ever stored in your browser is the preference you set below.
+    </p>
+    <div class="cookie-category">
+      <div class="cookie-category-head">
+        <span>Essential</span>
+        <span class="cookie-toggle-locked">Always Active</span>
+      </div>
+      <p>Remembers that you've seen this notice, so it doesn't pop up again. Required for the site to function.</p>
+    </div>
+    <div class="cookie-modal-actions">
+      <button type="button" class="btn btn-outline-dark" id="cookie-modal-reject">Reject All</button>
+      <button type="button" class="btn btn-outline-dark" id="cookie-modal-save">Save Preferences</button>
+      <button type="button" class="btn btn-primary" id="cookie-modal-accept">Accept All</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js?v=15"></script>
 </body>
 </html>

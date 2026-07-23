@@ -179,6 +179,15 @@ p {
   font-size: 13px;
 }
 
+.btn-outline-dark {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink-900);
+}
+.btn-outline-dark:hover {
+  background: var(--cream-100);
+}
+
 /* ---------------- Navbar ---------------- */
 .navbar {
   position: fixed;
@@ -359,22 +368,15 @@ p {
   align-items: stretch;
   justify-content: space-between;
   min-height: 620px;
-  border-radius: 28px 28px 28px 130px;
+  /* Corner shape (concave scoop top-left/bottom-right, normal round the
+     other two) is applied as an inline clip-path by applyHeroCornerScoop()
+     in main.js, since it needs the box's real rendered pixel size to stay
+     proportional. This border-radius is just the no-JS fallback. */
+  border-radius: var(--radius-lg);
 }
 
 .hero-photo-hero .photo-hero-content {
   padding-bottom: 8px;
-}
-
-.hero-corner-art {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 190px;
-  max-width: 34%;
-  height: auto;
-  z-index: 1;
-  pointer-events: none;
 }
 
 .hero-photo-hero .photo-hero-bg {
@@ -2264,11 +2266,10 @@ footer {
   .photo-hero { min-height: 340px; }
   .photo-hero-content { padding: 36px; max-width: 100%; }
   .letter-photo-box { min-height: 260px; }
-  .hero-photo-hero { min-height: 560px; border-radius: 22px 22px 22px 90px; }
+  .hero-photo-hero { min-height: 560px; }
   .hero-photo-hero .photo-hero-content { padding: 40px 40px 8px; }
   .hero-slider { padding: 0 40px 32px; }
   .hero-slide-card { flex-basis: 136px; }
-  .hero-corner-art { width: 140px; }
 }
 
 @media (max-width: 760px) {
@@ -2299,16 +2300,212 @@ footer {
       rgba(13, 31, 23, 0.94) 100%
     );
   }
-  .hero-photo-hero { min-height: 660px; align-items: stretch; border-radius: 0 0 0 60px; }
+  .hero-photo-hero { min-height: 660px; align-items: stretch; }
   .hero-photo-hero .photo-hero-content { padding: 26px 22px 6px; }
   .hero-slider { padding: 0 22px 24px; }
   .hero-slider-title small { display: block; margin-left: 0; margin-top: 3px; }
   .hero-slide-card { flex-basis: 124px; padding: 13px; gap: 10px; }
-  .hero-corner-art { width: 110px; }
   .letter-sub { font-size: 16px; }
   .cta-band { padding: 36px 26px; flex-direction: column; align-items: flex-start; }
   .bar-row { grid-template-columns: 100px 1fr 46px; gap: 10px; }
   .footer-top { grid-template-columns: 1fr; }
   .radar-card { padding: 20px; }
   .sector-row .sr-name { font-size: 17px; }
+}
+
+/* ---------------- Cookie consent ---------------- */
+.footer-cookie-link {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.75;
+}
+.footer-cookie-link:hover {
+  opacity: 1;
+}
+
+.cookie-banner {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  z-index: 900;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 22px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 20px;
+  justify-content: space-between;
+  transform: translateY(140%);
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.cookie-banner.show {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cookie-banner p {
+  flex: 1 1 320px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-600);
+  margin: 0;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-link-btn {
+  background: none;
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--forest-700);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 4px;
+}
+
+.cookie-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 950;
+  background: rgba(13, 31, 23, 0.55);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.cookie-modal-backdrop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cookie-modal {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 40px 80px -20px rgba(13, 31, 23, 0.5);
+  max-width: 520px;
+  width: 100%;
+  padding: 32px;
+  transform: scale(0.96) translateY(12px);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cookie-modal-backdrop.show .cookie-modal {
+  transform: scale(1) translateY(0);
+}
+
+.cookie-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.cookie-modal-head h3 {
+  font-family: var(--font-display);
+  font-size: 21px;
+  color: var(--forest-950);
+}
+
+.cookie-modal-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink-600);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cookie-modal-close:hover {
+  background: var(--cream-100);
+}
+
+.cookie-modal-intro {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink-600);
+  margin-bottom: 20px;
+}
+
+.cookie-category {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin-bottom: 24px;
+}
+
+.cookie-category-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--forest-950);
+  margin-bottom: 8px;
+}
+
+.cookie-toggle-locked {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--forest-700);
+  background: var(--cream-100);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.cookie-category p {
+  font-size: 12.5px;
+  color: var(--ink-400);
+  line-height: 1.55;
+}
+
+.cookie-modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+  .cookie-banner { left: 12px; right: 12px; bottom: 12px; padding: 18px 20px; }
+  .cookie-banner-actions { width: 100%; justify-content: flex-start; }
+  .cookie-modal { padding: 24px; }
+  .cookie-modal-actions { justify-content: stretch; }
+  .cookie-modal-actions .btn { flex: 1 1 auto; justify-content: center; }
 }
