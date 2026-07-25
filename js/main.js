@@ -1497,8 +1497,13 @@ function setGameQuotePreview(message, kind = "neutral") {
 function tickGamePrices() {
   if (!gameState.positions.length) return;
   gameState.positions.forEach((p) => {
+    // Stepping with price *= (1 + uniform(-s, s)) looks symmetric but isn't:
+    // compounding a "fair" +/-X% swing repeatedly has a built-in downward
+    // drag (the same reason +10% then -10% nets -1%, not 0%). Stepping in
+    // log-space instead (price *= e^step) removes that drag, so this is a
+    // genuinely unbiased random walk rather than one quietly rigged to lose.
     const step = (Math.random() - 0.5) * 2 * GAME_TICK_MAX_STEP_PCT;
-    p.currentPrice = Math.max(0.01, p.currentPrice * (1 + step));
+    p.currentPrice = Math.max(0.01, p.currentPrice * Math.exp(step));
   });
   renderGameStats();
   renderGamePositions();
