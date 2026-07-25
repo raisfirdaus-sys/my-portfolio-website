@@ -205,7 +205,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 24px;
+  padding: 16px 18px;
 }
 
 .brand {
@@ -237,8 +237,9 @@ p {
 }
 
 .brand-text strong {
-  font-size: 15.5px;
+  font-size: 14px;
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .brand-text span {
@@ -251,7 +252,7 @@ p {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 11px;
 }
 
 .nav-links a {
