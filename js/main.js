@@ -1345,32 +1345,44 @@ function renderPerformanceStats(data) {
 // static site with no backend, arbitrary-ticker prices are fetched directly
 // from the browser via Yahoo Finance's chart endpoint, relayed through a
 // free public CORS proxy (Yahoo doesn't set CORS headers itself, so a direct
-// browser fetch would otherwise be blocked). That relay is an unofficial
-// third-party service, so occasional failures/timeouts are expected and
-// handled as a normal, retryable error rather than a crash.
+// browser fetch would otherwise be blocked). Any single free proxy is prone
+// to being slow or down, so several are raced in parallel via Promise.any —
+// whichever responds first (with valid JSON) wins, and the lookup only
+// fails if every one of them does. Still an unofficial best-effort relay,
+// so an occasional failure is handled as a normal, retryable error.
 // ---------------------------------------------------------------------------
 const GAME_START_CASH = 10000;
-const GAME_QUOTE_PROXY = "https://api.allorigins.win/raw?url=";
+const GAME_QUOTE_PROXIES = [
+  (target) => `https://api.allorigins.win/raw?url=${encodeURIComponent(target)}`,
+  (target) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(target)}`,
+  (target) => `https://corsproxy.io/?url=${encodeURIComponent(target)}`,
+  (target) => `https://thingproxy.freeboard.io/fetch/${target}`,
+];
 let gameState = { cash: GAME_START_CASH, positions: [] };
 
 function fmtUSD2(n) {
   return n.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+async function fetchViaProxy(proxyUrl, timeoutMs) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(proxyUrl, { signal: controller.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function fetchGameQuote(ticker) {
   const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=5d`;
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12000);
   let json;
   try {
-    const res = await fetch(`${GAME_QUOTE_PROXY}${encodeURIComponent(yahooUrl)}`, { signal: controller.signal });
-    if (!res.ok) throw new Error("lookup failed");
-    json = await res.json();
-  } catch (err) {
-    if (err.name === "AbortError") throw new Error(`Timed out looking up "${ticker}" — try again.`);
-    throw new Error(`Couldn't fetch "${ticker}" — check the symbol or try again in a moment.`);
-  } finally {
-    clearTimeout(timeout);
+    json = await Promise.any(GAME_QUOTE_PROXIES.map((buildUrl) => fetchViaProxy(buildUrl(yahooUrl), 10000)));
+  } catch {
+    throw new Error(`Couldn't fetch "${ticker}" right now — all price relays are slow/down, try again in a moment.`);
   }
 
   const result = json?.chart?.result?.[0];
