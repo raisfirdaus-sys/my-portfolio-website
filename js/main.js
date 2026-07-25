@@ -1383,25 +1383,63 @@ async function fetchViaProxy(proxyUrl, timeoutMs) {
   }
 }
 
+// Same math as scripts/fetch-quotes.mjs's fetchQuote() (the server-side
+// script behind the 11 core holdings' "Stock Score"), ported to run
+// client-side so the game's arbitrary tickers get a real momentum read
+// too — not fabricated, just computed from the same 1-year daily-close
+// series and 52-week range Yahoo already returns.
+function parseYahooChartQuote(json, ticker) {
+  const result = json?.chart?.result?.[0];
+  const meta = result?.meta;
+  if (!result || !meta || typeof meta.regularMarketPrice !== "number") {
+    throw new Error(`"${ticker}" doesn't look like a valid ticker.`);
+  }
+  const price = meta.regularMarketPrice;
+
+  const timestamps = result.timestamp || [];
+  const closes = result.indicators?.quote?.[0]?.close || [];
+  const series = timestamps.map((t, i) => ({ t, c: closes[i] })).filter((p) => typeof p.c === "number");
+  const pctFrom = (base) => (typeof base === "number" && base ? ((price - base) / base) * 100 : null);
+
+  const oneYearReturnPercent = pctFrom(series[0]?.c);
+  const jan1 = Date.UTC(new Date().getUTCFullYear(), 0, 1) / 1000;
+  const ytdStartClose = (series.find((p) => p.t >= jan1) || series[0])?.c;
+  const ytdReturnPercent = pctFrom(ytdStartClose);
+
+  return {
+    ticker: (meta.symbol || ticker).toUpperCase(),
+    name: meta.shortName || meta.longName || meta.symbol || ticker,
+    price,
+    weekLow52: typeof meta.fiftyTwoWeekLow === "number" ? meta.fiftyTwoWeekLow : null,
+    weekHigh52: typeof meta.fiftyTwoWeekHigh === "number" ? meta.fiftyTwoWeekHigh : null,
+    oneYearReturnPercent,
+    ytdReturnPercent,
+  };
+}
+
 async function fetchGameQuote(ticker) {
-  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=5d`;
+  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=1y`;
   let json;
   try {
     json = await Promise.any(GAME_QUOTE_PROXIES.map((buildUrl) => fetchViaProxy(buildUrl(yahooUrl), 10000)));
   } catch {
     throw new Error(`Couldn't fetch "${ticker}" right now — all price relays are slow/down, try again in a moment.`);
   }
+  return parseYahooChartQuote(json, ticker);
+}
 
-  const result = json?.chart?.result?.[0];
-  const meta = result?.meta;
-  if (!result || !meta || typeof meta.regularMarketPrice !== "number") {
-    throw new Error(`"${ticker}" doesn't look like a valid ticker.`);
-  }
-  return {
-    ticker: (meta.symbol || ticker).toUpperCase(),
-    name: meta.shortName || meta.longName || meta.symbol || ticker,
-    price: meta.regularMarketPrice,
-  };
+// Adapts a game quote/position (price + weekLow52/High52 + YTD/1yr return)
+// into the shape computeMomentumScore() expects from a HOLDINGS entry, so
+// the exact same, already-transparent scoring logic applies to any ticker.
+function gameMomentumScore(q) {
+  return computeMomentumScore({
+    livePrice: q.price ?? q.currentPrice,
+    value: q.price ?? q.currentPrice,
+    weekLow52: q.weekLow52,
+    weekHigh52: q.weekHigh52,
+    ytdReturnPercent: q.ytdReturnPercent,
+    oneYearReturnPercent: q.oneYearReturnPercent,
+  });
 }
 
 function computeGameTotals() {
@@ -1431,7 +1469,7 @@ function renderGamePositions() {
   if (!gameState.positions.length) {
     const row = document.createElement("tr");
     row.className = "game-empty-row";
-    row.innerHTML = `<td colspan="6">No positions yet — buy your first pick above.</td>`;
+    row.innerHTML = `<td colspan="7">No positions yet — buy your first pick above.</td>`;
     body.appendChild(row);
     return;
   }
@@ -1444,6 +1482,19 @@ function renderGamePositions() {
     tickerCell.textContent = p.ticker;
     tickerCell.title = p.name;
     row.appendChild(tickerCell);
+
+    const momentumCell = document.createElement("td");
+    const score = gameMomentumScore(p);
+    if (score !== null) {
+      const badge = document.createElement("span");
+      badge.className = "game-momentum-badge";
+      badge.textContent = `${score} · ${scoreLabel(score)}`;
+      badge.style.color = scoreColor(score);
+      momentumCell.appendChild(badge);
+    } else {
+      momentumCell.textContent = "—";
+    }
+    row.appendChild(momentumCell);
 
     const sharesCell = document.createElement("td");
     sharesCell.className = "rp-num";
@@ -1494,6 +1545,28 @@ function setGameQuotePreview(message, kind = "neutral") {
   el.classList.toggle("down", kind === "down");
 }
 
+// Builds the success-state preview with DOM APIs rather than innerHTML —
+// quote.name comes straight from Yahoo Finance (third-party data), so it's
+// treated the same as the site's breaking-news headlines: never parsed as
+// HTML, even though the odds of anything malicious in a ticker's shortName
+// are low.
+function renderGameQuotePreviewSuccess(quote) {
+  const el = document.getElementById("game-quote-preview");
+  if (!el) return;
+  el.classList.remove("down");
+  el.textContent = "";
+  el.appendChild(document.createTextNode(`${quote.ticker} · ${quote.name} · ${fmtUSD2(quote.price)}`));
+
+  const score = gameMomentumScore(quote);
+  if (score !== null) {
+    el.appendChild(document.createTextNode(" · Momentum "));
+    const badge = document.createElement("strong");
+    badge.textContent = `${score}/100 (${scoreLabel(score)})`;
+    badge.style.color = scoreColor(score);
+    el.appendChild(badge);
+  }
+}
+
 function tickGamePrices() {
   if (!gameState.positions.length) return;
   gameState.positions.forEach((p) => {
@@ -1541,7 +1614,7 @@ function initGame() {
         const quote = await fetchGameQuote(ticker);
         if (myToken !== previewToken) return; // a newer lookup superseded this one
         lastPreview = { ticker, quote };
-        setGameQuotePreview(`${quote.ticker} · ${quote.name} · ${fmtUSD2(quote.price)}`);
+        renderGameQuotePreviewSuccess(quote);
       } catch (err) {
         if (myToken !== previewToken) return;
         setGameQuotePreview(err.message || `Couldn't find "${ticker}".`, "down");
@@ -1583,6 +1656,10 @@ function initGame() {
         existing.shares += shares;
         existing.entryPrice = totalCost / existing.shares;
         existing.currentPrice = quote.price;
+        existing.weekLow52 = quote.weekLow52;
+        existing.weekHigh52 = quote.weekHigh52;
+        existing.ytdReturnPercent = quote.ytdReturnPercent;
+        existing.oneYearReturnPercent = quote.oneYearReturnPercent;
       } else {
         gameState.positions.push({
           ticker: quote.ticker,
@@ -1590,6 +1667,10 @@ function initGame() {
           shares,
           entryPrice: quote.price,
           currentPrice: quote.price,
+          weekLow52: quote.weekLow52,
+          weekHigh52: quote.weekHigh52,
+          ytdReturnPercent: quote.ytdReturnPercent,
+          oneYearReturnPercent: quote.oneYearReturnPercent,
         });
       }
       gameState.cash -= amount;
@@ -1637,7 +1718,12 @@ function initGame() {
     let okCount = 0;
     results.forEach((res, i) => {
       if (res.status === "fulfilled") {
-        gameState.positions[i].currentPrice = res.value.price;
+        const p = gameState.positions[i];
+        p.currentPrice = res.value.price;
+        p.weekLow52 = res.value.weekLow52;
+        p.weekHigh52 = res.value.weekHigh52;
+        p.ytdReturnPercent = res.value.ytdReturnPercent;
+        p.oneYearReturnPercent = res.value.oneYearReturnPercent;
         okCount++;
       }
     });

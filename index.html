@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=24" />
+<link rel="stylesheet" href="css/style.css?v=25" />
 </head>
 <body>
 
@@ -331,6 +331,7 @@
           <thead>
             <tr>
               <th>Ticker</th>
+              <th>Momentum</th>
               <th class="rp-num">Shares</th>
               <th class="rp-num">Entry Price</th>
               <th class="rp-num">Current Price</th>
@@ -340,7 +341,7 @@
           </thead>
           <tbody id="game-positions-body">
             <tr class="game-empty-row">
-              <td colspan="6">No positions yet — buy your first pick above.</td>
+              <td colspan="7">No positions yet — buy your first pick above.</td>
             </tr>
           </tbody>
         </table>
@@ -353,8 +354,11 @@
         Educational simulation only — 100% virtual money, not connected to any brokerage or real account. Your entry
         price is a real quote, but once you own a position it ticks up/down through a simulated random walk every
         few seconds — not a live real-time market feed — so you can practice without waiting on market hours. Hit
-        "Sync Real Price" any time to pull the actual current quote and re-anchor the simulation to it. Progress
-        resets every time you reload the page.
+        "Sync Real Price" any time to pull the actual current quote and re-anchor the simulation to it. The
+        "Momentum" score is real, computed the same way as this site's Stock Score section (YTD/1-year trend + where
+        the price sits in its 52-week range) — it describes current price behavior, it is not a forecast, analyst
+        rating, or prediction of where the stock will be in 5-10 years. Progress resets every time you reload the
+        page.
       </p>
     </div>
   </div>
@@ -747,6 +751,6 @@
   </div>
 </div>
 
-<script src="js/main.js?v=22"></script>
+<script src="js/main.js?v=23"></script>
 </body>
 </html>
