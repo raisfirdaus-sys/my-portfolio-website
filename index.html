@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=21" />
+<link rel="stylesheet" href="css/style.css?v=22" />
 </head>
 <body>
 
@@ -35,6 +35,7 @@
       <a href="#report">Report</a>
       <a href="#score">Score</a>
       <a href="#chart">Chart</a>
+      <a href="#game">Practice Game</a>
       <a href="#growth">Growth Rate</a>
       <a href="#sectors">Sectors</a>
       <a href="#allocation">Allocation</a>
@@ -275,6 +276,78 @@
       </div>
       <svg class="chart-svg" id="chart-svg" viewBox="0 0 640 260" preserveAspectRatio="none"></svg>
       <p class="chart-updated" id="chart-updated"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INVESTMENT SIMULATION GAME ============ -->
+<section class="section game" id="game">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Practice Game</span>
+      <h2>Stock-picking simulation — real prices, play money</h2>
+      <p>
+        Search any US-listed ticker and "buy" it with virtual cash to test your gut feeling before risking real money.
+        Prices are pulled live. Nothing here is saved to an account — reloading the page resets you back to $10,000.
+        Educational sandbox only, not investment advice.
+      </p>
+    </div>
+
+    <div class="game-panel reveal">
+      <div class="game-stats">
+        <div class="game-stat">
+          <span class="game-stat-label">Virtual Cash</span>
+          <strong id="game-cash">$10,000.00</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Positions Value</span>
+          <strong id="game-positions-value">$0.00</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Total Value</span>
+          <strong id="game-total-value">$10,000.00</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Overall P&amp;L</span>
+          <strong id="game-total-pl">$0.00 (0.0%)</strong>
+        </div>
+      </div>
+
+      <form class="game-buy-form" id="game-buy-form">
+        <input type="text" id="game-ticker-input" class="game-input" placeholder="Ticker, e.g. SNDK, LLY, PVX" maxlength="10" autocomplete="off" />
+        <input type="number" id="game-amount-input" class="game-input" placeholder="USD amount" min="1" step="0.01" />
+        <button type="submit" class="btn btn-primary" id="game-buy-btn">Buy</button>
+      </form>
+      <p class="game-feedback" id="game-feedback"></p>
+
+      <div class="game-positions-wrap">
+        <table class="game-positions-table">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th class="rp-num">Shares</th>
+              <th class="rp-num">Entry Price</th>
+              <th class="rp-num">Current Price</th>
+              <th class="rp-num">P&amp;L</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="game-positions-body">
+            <tr class="game-empty-row">
+              <td colspan="6">No positions yet — buy your first pick above.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="game-actions">
+          <button type="button" class="btn btn-outline-dark" id="game-refresh-btn">Refresh Prices</button>
+          <button type="button" class="btn btn-outline-dark" id="game-reset-btn">Reset Game</button>
+        </div>
+      </div>
+      <p class="disclaimer-note">
+        Educational simulation only — 100% virtual money, not connected to any brokerage or real account. Price data
+        is fetched live through a public relay and can occasionally fail or lag for illiquid or newly listed tickers
+        — just hit "Refresh Prices" or try again. Progress resets every time you reload the page.
+      </p>
     </div>
   </div>
 </section>
@@ -666,6 +739,6 @@
   </div>
 </div>
 
-<script src="js/main.js?v=18"></script>
+<script src="js/main.js?v=19"></script>
 </body>
 </html>

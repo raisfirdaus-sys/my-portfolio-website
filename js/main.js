@@ -1339,6 +1339,248 @@ function renderPerformanceStats(data) {
 }
 
 // ---------------------------------------------------------------------------
+// Investment simulation game — practice picking stocks with play money and
+// real (live-fetched) prices. Everything here is in-memory only and resets
+// on page reload by design (no account, no localStorage). Because this is a
+// static site with no backend, arbitrary-ticker prices are fetched directly
+// from the browser via Yahoo Finance's chart endpoint, relayed through a
+// free public CORS proxy (Yahoo doesn't set CORS headers itself, so a direct
+// browser fetch would otherwise be blocked). That relay is an unofficial
+// third-party service, so occasional failures/timeouts are expected and
+// handled as a normal, retryable error rather than a crash.
+// ---------------------------------------------------------------------------
+const GAME_START_CASH = 10000;
+const GAME_QUOTE_PROXY = "https://api.allorigins.win/raw?url=";
+let gameState = { cash: GAME_START_CASH, positions: [] };
+
+function fmtUSD2(n) {
+  return n.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+async function fetchGameQuote(ticker) {
+  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=5d`;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 12000);
+  let json;
+  try {
+    const res = await fetch(`${GAME_QUOTE_PROXY}${encodeURIComponent(yahooUrl)}`, { signal: controller.signal });
+    if (!res.ok) throw new Error("lookup failed");
+    json = await res.json();
+  } catch (err) {
+    if (err.name === "AbortError") throw new Error(`Timed out looking up "${ticker}" — try again.`);
+    throw new Error(`Couldn't fetch "${ticker}" — check the symbol or try again in a moment.`);
+  } finally {
+    clearTimeout(timeout);
+  }
+
+  const result = json?.chart?.result?.[0];
+  const meta = result?.meta;
+  if (!result || !meta || typeof meta.regularMarketPrice !== "number") {
+    throw new Error(`"${ticker}" doesn't look like a valid ticker.`);
+  }
+  return {
+    ticker: (meta.symbol || ticker).toUpperCase(),
+    name: meta.shortName || meta.longName || meta.symbol || ticker,
+    price: meta.regularMarketPrice,
+  };
+}
+
+function computeGameTotals() {
+  const positionsValue = gameState.positions.reduce((sum, p) => sum + p.shares * p.currentPrice, 0);
+  const total = gameState.cash + positionsValue;
+  const pl = total - GAME_START_CASH;
+  const plPct = (pl / GAME_START_CASH) * 100;
+  return { positionsValue, total, pl, plPct };
+}
+
+function renderGameStats() {
+  const { positionsValue, total, pl, plPct } = computeGameTotals();
+  document.getElementById("game-cash").textContent = fmtUSD2(gameState.cash);
+  document.getElementById("game-positions-value").textContent = fmtUSD2(positionsValue);
+  document.getElementById("game-total-value").textContent = fmtUSD2(total);
+  const plEl = document.getElementById("game-total-pl");
+  plEl.textContent = `${pl >= 0 ? "+" : "-"}${fmtUSD2(Math.abs(pl))} (${fmtPct(plPct, 1)})`;
+  plEl.classList.toggle("up", pl >= 0);
+  plEl.classList.toggle("down", pl < 0);
+}
+
+function renderGamePositions() {
+  const body = document.getElementById("game-positions-body");
+  body.innerHTML = "";
+  if (!gameState.positions.length) {
+    const row = document.createElement("tr");
+    row.className = "game-empty-row";
+    row.innerHTML = `<td colspan="6">No positions yet — buy your first pick above.</td>`;
+    body.appendChild(row);
+    return;
+  }
+  gameState.positions.forEach((p) => {
+    const pl = (p.currentPrice - p.entryPrice) * p.shares;
+    const plPct = ((p.currentPrice - p.entryPrice) / p.entryPrice) * 100;
+    const row = document.createElement("tr");
+
+    const tickerCell = document.createElement("td");
+    tickerCell.textContent = p.ticker;
+    tickerCell.title = p.name;
+    row.appendChild(tickerCell);
+
+    const sharesCell = document.createElement("td");
+    sharesCell.className = "rp-num";
+    sharesCell.textContent = p.shares.toFixed(4);
+    row.appendChild(sharesCell);
+
+    const entryCell = document.createElement("td");
+    entryCell.className = "rp-num";
+    entryCell.textContent = fmtUSD2(p.entryPrice);
+    row.appendChild(entryCell);
+
+    const currentCell = document.createElement("td");
+    currentCell.className = "rp-num";
+    currentCell.textContent = fmtUSD2(p.currentPrice);
+    row.appendChild(currentCell);
+
+    const plCell = document.createElement("td");
+    plCell.className = `rp-num ${pl >= 0 ? "up" : "down"}`;
+    plCell.textContent = `${pl >= 0 ? "+" : "-"}${fmtUSD2(Math.abs(pl))} (${fmtPct(plPct, 1)})`;
+    row.appendChild(plCell);
+
+    const actionCell = document.createElement("td");
+    actionCell.className = "rp-num";
+    const sellBtn = document.createElement("button");
+    sellBtn.type = "button";
+    sellBtn.className = "game-sell-btn";
+    sellBtn.textContent = "Sell";
+    sellBtn.dataset.ticker = p.ticker;
+    actionCell.appendChild(sellBtn);
+    row.appendChild(actionCell);
+
+    body.appendChild(row);
+  });
+}
+
+function setGameFeedback(message, kind = "neutral") {
+  const el = document.getElementById("game-feedback");
+  if (!el) return;
+  el.textContent = message;
+  el.classList.toggle("up", kind === "up");
+  el.classList.toggle("down", kind === "down");
+}
+
+function initGame() {
+  const form = document.getElementById("game-buy-form");
+  const tickerInput = document.getElementById("game-ticker-input");
+  const amountInput = document.getElementById("game-amount-input");
+  const buyBtn = document.getElementById("game-buy-btn");
+  const refreshBtn = document.getElementById("game-refresh-btn");
+  const resetBtn = document.getElementById("game-reset-btn");
+  const positionsBody = document.getElementById("game-positions-body");
+  if (!form) return;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const ticker = tickerInput.value.trim().toUpperCase();
+    const amount = parseFloat(amountInput.value);
+
+    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
+      setGameFeedback("Enter a valid ticker symbol first (e.g. SNDK).", "down");
+      return;
+    }
+    if (!(amount > 0)) {
+      setGameFeedback("Enter how many USD you want to invest.", "down");
+      return;
+    }
+    if (amount > gameState.cash) {
+      setGameFeedback(`Not enough virtual cash — you have ${fmtUSD2(gameState.cash)} left.`, "down");
+      return;
+    }
+
+    buyBtn.disabled = true;
+    setGameFeedback(`Looking up ${ticker}…`);
+    try {
+      const quote = await fetchGameQuote(ticker);
+      const shares = amount / quote.price;
+      const existing = gameState.positions.find((p) => p.ticker === quote.ticker);
+      if (existing) {
+        const totalCost = existing.shares * existing.entryPrice + amount;
+        existing.shares += shares;
+        existing.entryPrice = totalCost / existing.shares;
+        existing.currentPrice = quote.price;
+      } else {
+        gameState.positions.push({
+          ticker: quote.ticker,
+          name: quote.name,
+          shares,
+          entryPrice: quote.price,
+          currentPrice: quote.price,
+        });
+      }
+      gameState.cash -= amount;
+      setGameFeedback(`Bought ${shares.toFixed(4)} shares of ${quote.ticker} at ${fmtUSD2(quote.price)}.`, "up");
+      amountInput.value = "";
+      renderGameStats();
+      renderGamePositions();
+    } catch (err) {
+      setGameFeedback(err.message || "Something went wrong — try again.", "down");
+    } finally {
+      buyBtn.disabled = false;
+    }
+  });
+
+  positionsBody?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".game-sell-btn");
+    if (!btn) return;
+    const ticker = btn.dataset.ticker;
+    const idx = gameState.positions.findIndex((p) => p.ticker === ticker);
+    if (idx === -1) return;
+    const p = gameState.positions[idx];
+    const proceeds = p.shares * p.currentPrice;
+    const pl = proceeds - p.shares * p.entryPrice;
+    gameState.cash += proceeds;
+    gameState.positions.splice(idx, 1);
+    setGameFeedback(
+      `Sold ${p.ticker} for ${fmtUSD2(proceeds)} (${pl >= 0 ? "+" : "-"}${fmtUSD2(Math.abs(pl))}).`,
+      pl >= 0 ? "up" : "down"
+    );
+    renderGameStats();
+    renderGamePositions();
+  });
+
+  refreshBtn?.addEventListener("click", async () => {
+    if (!gameState.positions.length) {
+      setGameFeedback("No positions to refresh yet.");
+      return;
+    }
+    refreshBtn.disabled = true;
+    setGameFeedback("Refreshing prices…");
+    const results = await Promise.allSettled(gameState.positions.map((p) => fetchGameQuote(p.ticker)));
+    let okCount = 0;
+    results.forEach((res, i) => {
+      if (res.status === "fulfilled") {
+        gameState.positions[i].currentPrice = res.value.price;
+        okCount++;
+      }
+    });
+    setGameFeedback(`Refreshed ${okCount}/${gameState.positions.length} position${gameState.positions.length === 1 ? "" : "s"}.`);
+    renderGameStats();
+    renderGamePositions();
+    refreshBtn.disabled = false;
+  });
+
+  resetBtn?.addEventListener("click", () => {
+    if (gameState.positions.length && !confirm("Reset the simulation back to $10,000? This clears all your virtual positions.")) {
+      return;
+    }
+    gameState = { cash: GAME_START_CASH, positions: [] };
+    setGameFeedback("Game reset — back to $10,000 virtual cash.");
+    renderGameStats();
+    renderGamePositions();
+  });
+
+  renderGameStats();
+  renderGamePositions();
+}
+
+// ---------------------------------------------------------------------------
 // Breaking news (fetched hourly by a GitHub Actions cron job into
 // data/news.json — see scripts/fetch-news.mjs, which pulls from Yahoo
 // Finance's public news search). Headline text, publisher names, and links
@@ -1492,6 +1734,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initScrollEffects();
   initPerfInViewObserver();
   initReportCountUp();
+  initGame();
   loadLiveQuotes();
   loadNews();
   loadCharts();
