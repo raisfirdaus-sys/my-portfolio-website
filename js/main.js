@@ -1453,7 +1453,13 @@ const gameHistoryCache = new Map();
 
 async function fetchGameHistory(ticker) {
   if (gameHistoryCache.has(ticker)) return gameHistoryCache.get(ticker);
-  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=max`;
+  // range=max returns a mature ticker's ENTIRE trading history (LLY, for
+  // example, has been public since the 1970s) — tens of thousands of daily
+  // points, which free CORS proxies tend to choke on or truncate. The
+  // longest backtest option is 5 years back, and scoring that fairly needs
+  // ~1 extra year of trailing data, so 10y is comfortable headroom without
+  // the oversized payload.
+  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=10y`;
   let json;
   try {
     json = await Promise.any(GAME_QUOTE_PROXIES.map((buildUrl) => fetchViaProxy(buildUrl(yahooUrl), 12000)));
