@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=23" />
+<link rel="stylesheet" href="css/style.css?v=24" />
 </head>
 <body>
 
@@ -288,8 +288,10 @@
       <h2>Stock-picking simulation — real prices, play money</h2>
       <p>
         Search any US-listed ticker and "buy" it with virtual cash to test your gut feeling before risking real money.
-        Prices are pulled live. Nothing here is saved to an account — reloading the page resets you back to $10,000.
-        Educational sandbox only, not investment advice.
+        Your entry price is the real live quote at the moment you buy — after that, prices tick up/down on their own
+        every couple of seconds so you get instant practice reps instead of waiting for the real market to move
+        (handy on weekends/after-hours too). Nothing here is saved to an account — reloading the page resets you back
+        to $10,000. Educational sandbox only, not investment advice.
       </p>
     </div>
 
@@ -321,6 +323,9 @@
       <p class="game-quote-preview" id="game-quote-preview"></p>
       <p class="game-feedback" id="game-feedback"></p>
 
+      <p class="game-live-indicator" id="game-live-indicator" hidden>
+        <span class="game-live-dot" aria-hidden="true"></span> Simulated prices ticking live — updates every few seconds
+      </p>
       <div class="game-positions-wrap">
         <table class="game-positions-table">
           <thead>
@@ -340,14 +345,16 @@
           </tbody>
         </table>
         <div class="game-actions">
-          <button type="button" class="btn btn-outline-dark" id="game-refresh-btn">Refresh Prices</button>
+          <button type="button" class="btn btn-outline-dark" id="game-refresh-btn">Sync Real Price</button>
           <button type="button" class="btn btn-outline-dark" id="game-reset-btn">Reset Game</button>
         </div>
       </div>
       <p class="disclaimer-note">
-        Educational simulation only — 100% virtual money, not connected to any brokerage or real account. Price data
-        is fetched live through a public relay and can occasionally fail or lag for illiquid or newly listed tickers
-        — just hit "Refresh Prices" or try again. Progress resets every time you reload the page.
+        Educational simulation only — 100% virtual money, not connected to any brokerage or real account. Your entry
+        price is a real quote, but once you own a position it ticks up/down through a simulated random walk every
+        few seconds — not a live real-time market feed — so you can practice without waiting on market hours. Hit
+        "Sync Real Price" any time to pull the actual current quote and re-anchor the simulation to it. Progress
+        resets every time you reload the page.
       </p>
     </div>
   </div>
@@ -740,6 +747,6 @@
   </div>
 </div>
 
-<script src="js/main.js?v=21"></script>
+<script src="js/main.js?v=22"></script>
 </body>
 </html>

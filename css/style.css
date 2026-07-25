@@ -1309,6 +1309,33 @@ p {
   margin-bottom: 18px;
 }
 
+.game-live-indicator[hidden] {
+  display: none;
+}
+
+.game-live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--up);
+  margin: 0 0 14px;
+}
+
+.game-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--up);
+  animation: game-live-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes game-live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.7); }
+}
+
 @media (max-width: 760px) {
   .game-stats { grid-template-columns: repeat(2, 1fr); }
 }

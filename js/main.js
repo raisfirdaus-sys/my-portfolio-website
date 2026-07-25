@@ -1352,6 +1352,13 @@ function renderPerformanceStats(data) {
 // so an occasional failure is handled as a normal, retryable error.
 // ---------------------------------------------------------------------------
 const GAME_START_CASH = 10000;
+// Once bought, positions no longer wait on the real market (closed on
+// weekends/after-hours, and polling it repeatedly would hammer the quote
+// relay anyway) — instead each tick nudges the price by a small random
+// +/- step, purely so there's something to react to for practice. It's a
+// deliberately simple, unbiased random walk, not a market model.
+const GAME_TICK_MS = 2500;
+const GAME_TICK_MAX_STEP_PCT = 0.0025;
 const GAME_QUOTE_PROXIES = [
   (target) => `https://api.allorigins.win/raw?url=${encodeURIComponent(target)}`,
   (target) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(target)}`,
@@ -1418,6 +1425,8 @@ function renderGameStats() {
 
 function renderGamePositions() {
   const body = document.getElementById("game-positions-body");
+  const liveIndicator = document.getElementById("game-live-indicator");
+  if (liveIndicator) liveIndicator.hidden = gameState.positions.length === 0;
   body.innerHTML = "";
   if (!gameState.positions.length) {
     const row = document.createElement("tr");
@@ -1483,6 +1492,16 @@ function setGameQuotePreview(message, kind = "neutral") {
   if (!el) return;
   el.textContent = message;
   el.classList.toggle("down", kind === "down");
+}
+
+function tickGamePrices() {
+  if (!gameState.positions.length) return;
+  gameState.positions.forEach((p) => {
+    const step = (Math.random() - 0.5) * 2 * GAME_TICK_MAX_STEP_PCT;
+    p.currentPrice = Math.max(0.01, p.currentPrice * (1 + step));
+  });
+  renderGameStats();
+  renderGamePositions();
 }
 
 function initGame() {
@@ -1604,11 +1623,11 @@ function initGame() {
 
   refreshBtn?.addEventListener("click", async () => {
     if (!gameState.positions.length) {
-      setGameFeedback("No positions to refresh yet.");
+      setGameFeedback("No positions to sync yet.");
       return;
     }
     refreshBtn.disabled = true;
-    setGameFeedback("Refreshing prices…");
+    setGameFeedback("Pulling the real current quote for each position…");
     const results = await Promise.allSettled(gameState.positions.map((p) => fetchGameQuote(p.ticker)));
     let okCount = 0;
     results.forEach((res, i) => {
@@ -1617,7 +1636,9 @@ function initGame() {
         okCount++;
       }
     });
-    setGameFeedback(`Refreshed ${okCount}/${gameState.positions.length} position${gameState.positions.length === 1 ? "" : "s"}.`);
+    setGameFeedback(
+      `Synced ${okCount}/${gameState.positions.length} position${gameState.positions.length === 1 ? "" : "s"} to the real market price — simulation continues from there.`
+    );
     renderGameStats();
     renderGamePositions();
     refreshBtn.disabled = false;
@@ -1639,6 +1660,7 @@ function initGame() {
 
   renderGameStats();
   renderGamePositions();
+  setInterval(tickGamePrices, GAME_TICK_MS);
 }
 
 // ---------------------------------------------------------------------------
