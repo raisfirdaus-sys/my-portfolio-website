@@ -169,6 +169,12 @@ HOLDINGS.forEach((h) => {
   h.weight = (h.value / totalValue) * 100;
 });
 
+// What I originally paid for 1 share of each of the 11 holdings (today's
+// value minus today's dollar move, summed across all positions). This stays
+// fixed — it's the baseline the live "Total Portfolio Value" is compared
+// against to show real profit/loss.
+const INITIAL_CAPITAL_USD = 3776.85;
+
 function fmtPct(n, digits = 1) {
   const sign = n > 0 ? "+" : "";
   return `${sign}${n.toFixed(digits)}%`;
@@ -1219,7 +1225,7 @@ function setPerfValue(id, pct) {
 let perfInView = false;
 let perfDataReady = false;
 let perfAnimated = false;
-let perfTargets = { total: null, net: null, oneD: null, oneM: null, oneY: null, ytd: null };
+let perfTargets = { total: null, oneD: null, oneM: null, oneY: null, ytd: null };
 
 function animateCountUp(elId, to, { kind = "usd", duration = 1600 } = {}) {
   const el = document.getElementById(elId);
@@ -1236,11 +1242,23 @@ function animateCountUp(elId, to, { kind = "usd", duration = 1600 } = {}) {
   requestAnimationFrame(tick);
 }
 
+function renderVsCapital(totalUSD) {
+  const el = document.getElementById("perf-vs-capital");
+  if (!el || typeof totalUSD !== "number") return;
+  const gain = totalUSD - INITIAL_CAPITAL_USD;
+  const gainPct = (gain / INITIAL_CAPITAL_USD) * 100;
+  el.classList.toggle("up", gain >= 0);
+  el.classList.toggle("down", gain < 0);
+  el.textContent = `${gain >= 0 ? "+" : "-"}$${Math.abs(gain).toFixed(2)} (${fmtPct(gainPct, 1)}) vs. initial capital`;
+}
+
 function maybeAnimatePerf() {
   if (perfAnimated || !perfInView || !perfDataReady) return;
   perfAnimated = true;
   animateCountUp("perf-total", perfTargets.total, { kind: "usd" });
-  animateCountUp("perf-net", perfTargets.net, { kind: "usd" });
+  const netEl = document.getElementById("perf-net");
+  if (netEl) netEl.textContent = fmtUSD(INITIAL_CAPITAL_USD);
+  if (typeof perfTargets.total === "number") renderVsCapital(perfTargets.total);
   if (typeof perfTargets.oneD === "number") animateCountUp("perf-1d", perfTargets.oneD, { kind: "pct" });
   if (typeof perfTargets.oneM === "number") animateCountUp("perf-1m", perfTargets.oneM, { kind: "pct" });
   if (typeof perfTargets.oneY === "number") animateCountUp("perf-1y", perfTargets.oneY, { kind: "pct" });
@@ -1279,7 +1297,6 @@ function renderPerformanceStats(data) {
 
   perfTargets = {
     total: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
-    net: typeof portfolio.totalUSD === "number" ? portfolio.totalUSD : null,
     oneD: portfolio.changePercent,
     oneM: portfolio.oneMonthReturnPercent,
     oneY: portfolio.oneYearReturnPercent,
@@ -1308,7 +1325,8 @@ function renderPerformanceStats(data) {
     const totalEl = document.getElementById("perf-total");
     const netEl = document.getElementById("perf-net");
     if (totalEl && perfTargets.total !== null) totalEl.textContent = fmtUSD(perfTargets.total);
-    if (netEl && perfTargets.net !== null) netEl.textContent = fmtUSD(perfTargets.net);
+    if (netEl) netEl.textContent = fmtUSD(INITIAL_CAPITAL_USD);
+    if (typeof perfTargets.total === "number") renderVsCapital(perfTargets.total);
   } else {
     maybeAnimatePerf();
   }
