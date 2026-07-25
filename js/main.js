@@ -1442,6 +1442,176 @@ function gameMomentumScore(q) {
   });
 }
 
+// ---------------------------------------------------------------------------
+// Momentum backtest — a genuine historical check rather than the live
+// simulator: fetches a ticker's full real price history, computes what its
+// Momentum score would have read as of a chosen point in the past using
+// only data available up to that date (no lookahead), and compares that to
+// the real return that actually happened between then and now.
+// ---------------------------------------------------------------------------
+const gameHistoryCache = new Map();
+
+async function fetchGameHistory(ticker) {
+  if (gameHistoryCache.has(ticker)) return gameHistoryCache.get(ticker);
+  const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=max`;
+  let json;
+  try {
+    json = await Promise.any(GAME_QUOTE_PROXIES.map((buildUrl) => fetchViaProxy(buildUrl(yahooUrl), 12000)));
+  } catch {
+    throw new Error(`Couldn't fetch history for "${ticker}" — all price relays are slow/down, try again in a moment.`);
+  }
+  const result = json?.chart?.result?.[0];
+  const meta = result?.meta;
+  if (!result || !meta) throw new Error(`"${ticker}" doesn't look like a valid ticker.`);
+  const timestamps = result.timestamp || [];
+  const closes = result.indicators?.quote?.[0]?.close || [];
+  const series = timestamps.map((t, i) => ({ t, c: closes[i] })).filter((p) => typeof p.c === "number");
+  if (series.length < 30) throw new Error(`Not enough price history for "${ticker}" to backtest.`);
+  const data = {
+    ticker: (meta.symbol || ticker).toUpperCase(),
+    name: meta.shortName || meta.longName || meta.symbol || ticker,
+    series,
+  };
+  gameHistoryCache.set(ticker, data);
+  return data;
+}
+
+function computeHistoricalMomentum(series, idx) {
+  const price = series[idx].c;
+  const t = series[idx].t;
+
+  const oneYearBeforeT = t - 365 * 86400;
+  const windowStart = series.findIndex((p) => p.t >= oneYearBeforeT);
+  const window = windowStart === -1 ? series.slice(0, idx + 1) : series.slice(windowStart, idx + 1);
+  if (window.length < 20) return null; // not enough trailing history for a fair read
+
+  const weekLow52 = Math.min(...window.map((p) => p.c));
+  const weekHigh52 = Math.max(...window.map((p) => p.c));
+  const pctFrom = (base) => (typeof base === "number" && base ? ((price - base) / base) * 100 : null);
+  const oneYearReturnPercent = pctFrom(window[0].c);
+
+  const evalYear = new Date(t * 1000).getUTCFullYear();
+  const jan1 = Date.UTC(evalYear, 0, 1) / 1000;
+  const ytdStart = window.find((p) => p.t >= jan1) || window[0];
+  const ytdReturnPercent = pctFrom(ytdStart.c);
+
+  const score = computeMomentumScore({
+    livePrice: price,
+    value: price,
+    weekLow52,
+    weekHigh52,
+    ytdReturnPercent,
+    oneYearReturnPercent,
+  });
+  return score === null ? null : { score, price };
+}
+
+async function runGameBacktest(ticker, yearsAgo) {
+  const history = await fetchGameHistory(ticker);
+  const series = history.series;
+  const now = series[series.length - 1].t;
+  const targetT = now - yearsAgo * 365 * 86400;
+
+  let evalIdx = -1;
+  for (let i = 0; i < series.length; i++) {
+    if (series[i].t <= targetT) evalIdx = i;
+    else break;
+  }
+  if (evalIdx === -1) {
+    throw new Error(`"${history.ticker}" doesn't have price history going back ${yearsAgo} year${yearsAgo === 1 ? "" : "s"}.`);
+  }
+
+  const momentum = computeHistoricalMomentum(series, evalIdx);
+  if (!momentum) {
+    throw new Error(`Not enough trailing history before that date to score "${history.ticker}" fairly.`);
+  }
+
+  const priceNow = series[series.length - 1].c;
+  const actualReturnPercent = ((priceNow - momentum.price) / momentum.price) * 100;
+
+  return {
+    ticker: history.ticker,
+    name: history.name,
+    dateThen: new Date(series[evalIdx].t * 1000),
+    score: momentum.score,
+    priceThen: momentum.price,
+    priceNow,
+    actualReturnPercent,
+  };
+}
+
+function renderBacktestResult(result, yearsAgo) {
+  const resultBox = document.getElementById("game-backtest-result");
+  const captionEl = document.getElementById("game-backtest-caption");
+  if (!resultBox) return;
+  resultBox.hidden = false;
+
+  const momentumEl = document.getElementById("bt-momentum");
+  momentumEl.textContent = `${result.score}/100 (${scoreLabel(result.score)})`;
+  momentumEl.style.color = scoreColor(result.score);
+
+  document.getElementById("bt-price-then").textContent = fmtUSD2(result.priceThen);
+  document.getElementById("bt-price-now").textContent = fmtUSD2(result.priceNow);
+
+  const returnEl = document.getElementById("bt-return");
+  returnEl.textContent = `${result.actualReturnPercent >= 0 ? "+" : ""}${result.actualReturnPercent.toFixed(1)}%`;
+  returnEl.classList.toggle("up", result.actualReturnPercent >= 0);
+  returnEl.classList.toggle("down", result.actualReturnPercent < 0);
+
+  if (captionEl) {
+    const dateLabel = result.dateThen.toISOString().slice(0, 10);
+    captionEl.classList.remove("down");
+    captionEl.textContent = `${result.ticker} · ${result.name} — evaluated as of ${dateLabel} (${yearsAgo} year${
+      yearsAgo === 1 ? "" : "s"
+    } ago), using only data available through that date.`;
+  }
+}
+
+function initGameBacktest() {
+  const form = document.getElementById("game-backtest-form");
+  const tickerInput = document.getElementById("game-backtest-ticker");
+  const rangeTabs = document.getElementById("game-backtest-range-tabs");
+  const btn = document.getElementById("game-backtest-btn");
+  const resultBox = document.getElementById("game-backtest-result");
+  const feedbackEl = document.getElementById("game-backtest-feedback");
+  const captionEl = document.getElementById("game-backtest-caption");
+  if (!form) return;
+
+  let selectedYears = 1;
+  rangeTabs?.addEventListener("click", (e) => {
+    const tab = e.target.closest(".range-tab");
+    if (!tab) return;
+    rangeTabs.querySelectorAll(".range-tab").forEach((t) => t.classList.remove("active"));
+    tab.classList.add("active");
+    selectedYears = parseInt(tab.dataset.years, 10);
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const ticker = tickerInput.value.trim().toUpperCase();
+    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
+      feedbackEl.textContent = "Enter a valid ticker symbol first (e.g. AAPL).";
+      feedbackEl.classList.add("down");
+      return;
+    }
+    btn.disabled = true;
+    feedbackEl.classList.remove("down");
+    feedbackEl.textContent = `Pulling ${ticker}'s real price history…`;
+    if (captionEl) captionEl.textContent = "";
+    resultBox.hidden = true;
+    try {
+      const result = await runGameBacktest(ticker, selectedYears);
+      feedbackEl.textContent = "";
+      renderBacktestResult(result, selectedYears);
+    } catch (err) {
+      feedbackEl.textContent = err.message || "Something went wrong — try again.";
+      feedbackEl.classList.add("down");
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+
 function computeGameTotals() {
   const positionsValue = gameState.positions.reduce((sum, p) => sum + p.shares * p.currentPrice, 0);
   const total = gameState.cash + positionsValue;
@@ -1909,6 +2079,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initPerfInViewObserver();
   initReportCountUp();
   initGame();
+  initGameBacktest();
   loadLiveQuotes();
   loadNews();
   loadCharts();

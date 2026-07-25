@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=25" />
+<link rel="stylesheet" href="css/style.css?v=26" />
 </head>
 <body>
 
@@ -360,6 +360,45 @@
         rating, or prediction of where the stock will be in 5-10 years. Progress resets every time you reload the
         page.
       </p>
+    </div>
+
+    <div class="game-backtest-panel game-panel reveal">
+      <h3 class="game-backtest-title">Momentum Backtest — does it actually predict returns?</h3>
+      <p class="game-backtest-intro">
+        Pick a ticker and a point in the past. I'll compute what its Momentum score would have read back then —
+        using only price data available up to that date, no peeking at what happened after — then show the real
+        return that actually occurred since. This is exploratory, not proof of a strategy: one stock and one time
+        window is not a statistically robust sample, and past results never guarantee future ones.
+      </p>
+      <form class="game-buy-form" id="game-backtest-form">
+        <input type="text" id="game-backtest-ticker" class="game-input" placeholder="Ticker, e.g. AAPL, MU, LLY" maxlength="10" autocomplete="off" />
+        <div class="game-backtest-range-tabs" id="game-backtest-range-tabs">
+          <button type="button" class="range-tab active" data-years="1">1 Year Ago</button>
+          <button type="button" class="range-tab" data-years="3">3 Years Ago</button>
+          <button type="button" class="range-tab" data-years="5">5 Years Ago</button>
+        </div>
+        <button type="submit" class="btn btn-primary" id="game-backtest-btn">Run Backtest</button>
+      </form>
+      <p class="game-feedback" id="game-backtest-feedback"></p>
+      <p class="game-feedback" id="game-backtest-caption"></p>
+      <div class="game-stats" id="game-backtest-result" hidden>
+        <div class="game-stat">
+          <span class="game-stat-label">Momentum Then</span>
+          <strong id="bt-momentum">—</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Price Then</span>
+          <strong id="bt-price-then">—</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Price Now</span>
+          <strong id="bt-price-now">—</strong>
+        </div>
+        <div class="game-stat">
+          <span class="game-stat-label">Actual Return Since</span>
+          <strong id="bt-return">—</strong>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -751,6 +790,6 @@
   </div>
 </div>
 
-<script src="js/main.js?v=23"></script>
+<script src="js/main.js?v=24"></script>
 </body>
 </html>
