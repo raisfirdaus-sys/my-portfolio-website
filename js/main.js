@@ -1583,6 +1583,11 @@ function initGameBacktest() {
   const captionEl = document.getElementById("game-backtest-caption");
   if (!form) return;
 
+  // Same live-preview pattern as the buy form — confirms which company a
+  // ticker actually resolves to (e.g. ARM vs AMR, PSX vs PVX) before
+  // spending a fetch on the heavier 10-year history for the real backtest.
+  attachGameTickerPreview(tickerInput, "game-backtest-preview");
+
   let selectedYears = 1;
   rangeTabs?.addEventListener("click", (e) => {
     const tab = e.target.closest(".range-tab");
@@ -1714,8 +1719,8 @@ function setGameFeedback(message, kind = "neutral") {
   el.classList.toggle("down", kind === "down");
 }
 
-function setGameQuotePreview(message, kind = "neutral") {
-  const el = document.getElementById("game-quote-preview");
+function setGameQuotePreview(elId, message, kind = "neutral") {
+  const el = document.getElementById(elId);
   if (!el) return;
   el.textContent = message;
   el.classList.toggle("down", kind === "down");
@@ -1726,8 +1731,8 @@ function setGameQuotePreview(message, kind = "neutral") {
 // treated the same as the site's breaking-news headlines: never parsed as
 // HTML, even though the odds of anything malicious in a ticker's shortName
 // are low.
-function renderGameQuotePreviewSuccess(quote) {
-  const el = document.getElementById("game-quote-preview");
+function renderGameQuotePreviewSuccess(elId, quote) {
+  const el = document.getElementById(elId);
   if (!el) return;
   el.classList.remove("down");
   el.textContent = "";
@@ -1741,6 +1746,36 @@ function renderGameQuotePreviewSuccess(quote) {
     badge.style.color = scoreColor(score);
     el.appendChild(badge);
   }
+}
+
+// Debounced ticker -> quote preview, shared by the buy form and the
+// backtest form: shows the resolved company name (and today's momentum)
+// as soon as a valid-looking ticker is typed, so a mistyped/confused
+// symbol (ARM vs AMR, PSX vs PVX) is obvious before committing to it.
+function attachGameTickerPreview(inputEl, previewElId, onResolved) {
+  let timer = null;
+  let token = 0;
+  inputEl.addEventListener("input", () => {
+    const ticker = inputEl.value.trim().toUpperCase();
+    clearTimeout(timer);
+    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
+      setGameQuotePreview(previewElId, "");
+      return;
+    }
+    timer = setTimeout(async () => {
+      const myToken = ++token;
+      setGameQuotePreview(previewElId, `Looking up ${ticker}…`);
+      try {
+        const quote = await fetchGameQuote(ticker);
+        if (myToken !== token) return; // a newer lookup superseded this one
+        renderGameQuotePreviewSuccess(previewElId, quote);
+        onResolved?.(ticker, quote);
+      } catch (err) {
+        if (myToken !== token) return;
+        setGameQuotePreview(previewElId, err.message || `Couldn't find "${ticker}".`, "down");
+      }
+    }, 500);
+  });
 }
 
 function tickGamePrices() {
@@ -1772,33 +1807,10 @@ function initGame() {
   // up (debounced) so the user sees the price/name before committing to a
   // buy amount — same fetch also gets cached and reused by the Buy handler
   // below so we don't hit the price relay twice for one purchase.
-  let previewTimer = null;
-  let previewToken = 0;
   let lastPreview = null; // { ticker, quote }
-
-  function schedulePreview() {
-    const ticker = tickerInput.value.trim().toUpperCase();
-    clearTimeout(previewTimer);
-    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
-      setGameQuotePreview("");
-      return;
-    }
-    previewTimer = setTimeout(async () => {
-      const myToken = ++previewToken;
-      setGameQuotePreview(`Looking up ${ticker}…`);
-      try {
-        const quote = await fetchGameQuote(ticker);
-        if (myToken !== previewToken) return; // a newer lookup superseded this one
-        lastPreview = { ticker, quote };
-        renderGameQuotePreviewSuccess(quote);
-      } catch (err) {
-        if (myToken !== previewToken) return;
-        setGameQuotePreview(err.message || `Couldn't find "${ticker}".`, "down");
-      }
-    }, 500);
-  }
-
-  tickerInput.addEventListener("input", schedulePreview);
+  attachGameTickerPreview(tickerInput, "game-quote-preview", (ticker, quote) => {
+    lastPreview = { ticker, quote };
+  });
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -1854,7 +1866,7 @@ function initGame() {
       tickerInput.value = "";
       amountInput.value = "";
       lastPreview = null;
-      setGameQuotePreview("");
+      setGameQuotePreview("game-quote-preview", "");
       renderGameStats();
       renderGamePositions();
     } catch (err) {
@@ -1919,7 +1931,7 @@ function initGame() {
     tickerInput.value = "";
     amountInput.value = "";
     lastPreview = null;
-    setGameQuotePreview("");
+    setGameQuotePreview("game-quote-preview", "");
     setGameFeedback("Game reset — back to $10,000 virtual cash.");
     renderGameStats();
     renderGamePositions();
