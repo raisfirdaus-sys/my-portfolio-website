@@ -1466,6 +1466,13 @@ function setGameFeedback(message, kind = "neutral") {
   el.classList.toggle("down", kind === "down");
 }
 
+function setGameQuotePreview(message, kind = "neutral") {
+  const el = document.getElementById("game-quote-preview");
+  if (!el) return;
+  el.textContent = message;
+  el.classList.toggle("down", kind === "down");
+}
+
 function initGame() {
   const form = document.getElementById("game-buy-form");
   const tickerInput = document.getElementById("game-ticker-input");
@@ -1475,6 +1482,38 @@ function initGame() {
   const resetBtn = document.getElementById("game-reset-btn");
   const positionsBody = document.getElementById("game-positions-body");
   if (!form) return;
+
+  // Live quote preview: as soon as a valid-looking ticker is typed, look it
+  // up (debounced) so the user sees the price/name before committing to a
+  // buy amount — same fetch also gets cached and reused by the Buy handler
+  // below so we don't hit the price relay twice for one purchase.
+  let previewTimer = null;
+  let previewToken = 0;
+  let lastPreview = null; // { ticker, quote }
+
+  function schedulePreview() {
+    const ticker = tickerInput.value.trim().toUpperCase();
+    clearTimeout(previewTimer);
+    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
+      setGameQuotePreview("");
+      return;
+    }
+    previewTimer = setTimeout(async () => {
+      const myToken = ++previewToken;
+      setGameQuotePreview(`Looking up ${ticker}…`);
+      try {
+        const quote = await fetchGameQuote(ticker);
+        if (myToken !== previewToken) return; // a newer lookup superseded this one
+        lastPreview = { ticker, quote };
+        setGameQuotePreview(`${quote.ticker} · ${quote.name} · ${fmtUSD2(quote.price)}`);
+      } catch (err) {
+        if (myToken !== previewToken) return;
+        setGameQuotePreview(err.message || `Couldn't find "${ticker}".`, "down");
+      }
+    }, 500);
+  }
+
+  tickerInput.addEventListener("input", schedulePreview);
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -1497,7 +1536,10 @@ function initGame() {
     buyBtn.disabled = true;
     setGameFeedback(`Looking up ${ticker}…`);
     try {
-      const quote = await fetchGameQuote(ticker);
+      // Reuse the preview's quote if it's fresh and for the same ticker,
+      // otherwise fetch fresh (e.g. user submitted before the preview
+      // finished, or edited the amount long after the preview loaded).
+      const quote = lastPreview?.ticker === ticker ? lastPreview.quote : await fetchGameQuote(ticker);
       const shares = amount / quote.price;
       const existing = gameState.positions.find((p) => p.ticker === quote.ticker);
       if (existing) {
@@ -1516,7 +1558,10 @@ function initGame() {
       }
       gameState.cash -= amount;
       setGameFeedback(`Bought ${shares.toFixed(4)} shares of ${quote.ticker} at ${fmtUSD2(quote.price)}.`, "up");
+      tickerInput.value = "";
       amountInput.value = "";
+      lastPreview = null;
+      setGameQuotePreview("");
       renderGameStats();
       renderGamePositions();
     } catch (err) {
@@ -1571,6 +1616,10 @@ function initGame() {
       return;
     }
     gameState = { cash: GAME_START_CASH, positions: [] };
+    tickerInput.value = "";
+    amountInput.value = "";
+    lastPreview = null;
+    setGameQuotePreview("");
     setGameFeedback("Game reset — back to $10,000 virtual cash.");
     renderGameStats();
     renderGamePositions();

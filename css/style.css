@@ -1222,6 +1222,16 @@ p {
   flex: 0 0 auto;
 }
 
+.game-quote-preview {
+  min-height: 18px;
+  font-size: 13.5px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--forest-700);
+}
+
+.game-quote-preview.down { color: var(--ink-400); font-weight: 400; }
+
 .game-feedback {
   min-height: 18px;
   font-size: 13px;
