@@ -1160,6 +1160,10 @@ p {
   background: #fff;
 }
 
+.game-stats[hidden] {
+  display: none;
+}
+
 .game-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
