@@ -47,24 +47,20 @@ async function fetchQuote(ticker) {
 
   const pctFrom = (base) => (typeof base === "number" && base ? ((price - base) / base) * 100 : null);
 
-  // Note: meta.previousClose / meta.chartPreviousClose refer to the close
-  // just before the *requested range* (i.e. ~1 year ago here), not
-  // yesterday's close — using them directly for the daily change would be
-  // wrong. The second-to-last point in the daily series is normally the
-  // real previous close; a >40% single-day move on any of these large-cap
-  // names almost certainly means that point is a data glitch (stale/
-  // duplicate entry), so fall back to whichever candidate looks saner
-  // rather than publish an absurd number.
-  let prevClose = series.length >= 2 ? series[series.length - 2].c : null;
+  // meta.previousClose is Yahoo's own "prior trading session close" field —
+  // it's computed server-side alongside regularMarketPrice, so it's always
+  // aligned with the live `price` picked above. The daily close series,
+  // by contrast, can lag by a day right after the market closes (Yahoo
+  // sometimes takes a while to backfill "today"'s candle into the
+  // historical array), which silently makes series[length-2] resolve to
+  // an intraday price from *today* instead of yesterday's real close —
+  // this previously produced changePercent values that were wrong in both
+  // magnitude and sign (e.g. showing a stock up when it was actually down)
+  // without ever exceeding the old ">40% = glitch" safety threshold, so it
+  // went uncaught. Trust meta.previousClose first; only fall back to the
+  // series (or chartPreviousClose) when meta doesn't have it.
+  let prevClose = meta.previousClose ?? (series.length >= 2 ? series[series.length - 2].c : null) ?? meta.chartPreviousClose ?? null;
   let changePercent = pctFrom(prevClose);
-  if (changePercent === null || Math.abs(changePercent) > 40) {
-    const metaPrev = meta.previousClose ?? meta.chartPreviousClose;
-    const metaPct = pctFrom(metaPrev);
-    if (metaPct !== null && Math.abs(metaPct) < Math.abs(changePercent ?? Infinity)) {
-      prevClose = metaPrev;
-      changePercent = metaPct;
-    }
-  }
   const change = typeof prevClose === "number" ? price - prevClose : 0;
   changePercent = changePercent ?? 0;
 
