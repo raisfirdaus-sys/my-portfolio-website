@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-25T23:56:15.783Z",
+  "updatedAt": "2026-07-26T01:19:22.505Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "The $2 Million Retirement Mistake: Confusing Yield With Income You Can Actually Spend",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/46b85b5b-cdf2-33a4-a81d-4a2113cdda51/the-%242-million-retirement.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Tai3UPuIswGKYGxyAt84HQ--~B/aD0xMDcyO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/599e61ad46f1220f4bb2ee19d3a2b81b",
+      "publishedAt": 1785023295000
+    },
     {
       "ticker": "ABBV",
       "title": "Claiming Social Security at 62 vs. Building a Dividend Bridge: Which Leaves You Richer at 75?",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/ge-vernova-gev-176-billion-065504214.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/xK0wQXu3XLLCAjanEfPZxQ--~B/aD00MDUwO3c9NjA3NTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/ab6f878f3081ddfbe3cd231ff6eb130e",
       "publishedAt": 1784962504000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa (V) Just Completed Greater China’s First AI Powered B2B Agentic Payment",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/visa-v-just-completed-greater-042128355.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/jPzwWEXpk3MJSpDfdxbAaw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e",
-      "publishedAt": 1784953288000
     }
   ]
 }
