@@ -1,13 +1,69 @@
 {
-  "updatedAt": "2026-07-28T01:10:59.357Z",
+  "updatedAt": "2026-07-28T08:02:38.572Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "J&J reaches sweeping talc deal that could end decade of litigation",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-announces-5-5-224738908.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6ZIZU0GVHdGZ8M5xrfwwIw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/08ab82cd71af1c77402a60c1d7945d2f",
+      "publishedAt": 1785223476000
+    },
+    {
+      "ticker": "MA",
+      "title": "Tech Earnings, Fed Rate Decision: What to Watch This Week",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/e3e23f39-427c-3f5c-81a1-a1015a38e692/tech-earnings%2C-fed-rate.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YpAXPLhloh9UWyF7pQVvFw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/dbf9d6103b66b87cc85d94f451ad45a6",
+      "publishedAt": 1785220602000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson offers $5.5 billion to settle talc lawsuits",
+      "publisher": "CBS News",
+      "link": "https://finance.yahoo.com/m/4a008da2-e599-360e-a820-f7128d071f9c/johnson-%26-johnson-offers-%245.5.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/H8rT5q4MBABIjOpjClez9w--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/cbs_news_897/18b0f424c52b8d56570fee2d6977dc3c",
+      "publishedAt": 1785220380000
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron (MU) Faces New China Memory Pressure As CXMT IPO Tests AI Lead",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-faces-china-memory-051008031.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/43YSaYMlfc7g2PSRhZeGNQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0785c424fa1e5e9879f6d16dc716a131",
+      "publishedAt": 1785215408000
+    },
+    {
+      "ticker": "MU",
+      "title": "AI Memory Stocks on Rocky Ground: 3 Reasons SK Hynix Fell 13%",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/0f8c60ab-625c-363f-9a12-4feb1c468b96/ai-memory-stocks-on-rocky.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ThlK85XAb37v0teM2Yco_A--~B/aD0yODgwO3c9NTEyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/576e2bab55821a275a1cee3a4d1f2571",
+      "publishedAt": 1785213335000
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron Has Surged Nearly 700% Over the Past Year -- Here Is What the Valuation Says About Its Next Move",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/73063e8c-e9ba-35eb-abf2-ae8235848a00/micron-has-surged-nearly-700%25.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aMfN63khb4hdn4LeO6W0ZQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/245ded5a8ad5980aa55263661e390840",
+      "publishedAt": 1785212400000
+    },
     {
       "ticker": "MU",
       "title": "Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla Sell Off",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/f6a0377f-20ac-3aa0-a98d-a97312e14871/dow-jones-futures%3A-u.s.-iran.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/4WfxCi9gw5G1l9k1XkSg7g--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/55ca4252bd7c66820fc61ce444908e68",
-      "publishedAt": 1785199913000
+      "publishedAt": 1785204719000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson Agrees to Pay $5.5 Billion to Settle Talc Lawsuits",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/7388e918-8d2e-3adb-86ac-7aa6720b443e/johnson-%26-johnson-agrees-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.EYG97jeJngf4v5ut3VyGQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/33140329c7dd1a3196c16fd5e9b8fbfa",
+      "publishedAt": 1785202140000
     },
     {
       "ticker": "JNJ",
@@ -24,14 +80,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/visa-mastercard-earnings-quarterly-estimates-234800337.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/djzyxVfaX2id44ZboAix6Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/de608bcb90a2c53b7051f77adf399ff0",
       "publishedAt": 1785196080000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson Agrees to Pay Up to $5.5 Billion to Settle Talc Lawsuits",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/7388e918-8d2e-3adb-86ac-7aa6720b443e/johnson-%26-johnson-agrees-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Rulp7dTDnsGVy3VQRLkSgA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/8cfb3158675c547887f0c2ab70c5f717",
-      "publishedAt": 1785195540000
     },
     {
       "ticker": "MU",
@@ -74,14 +122,6 @@
       "publishedAt": 1785193500000
     },
     {
-      "ticker": "MU",
-      "title": "Rambus Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/2d6abd74-b90a-3699-9640-7c8af545d025/rambus-q2-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Fjp7944WQMjqeypA_pj6vQ--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/6c100acda2ce1ba07346e8c106f55037",
-      "publishedAt": 1785193406000
-    },
-    {
       "ticker": "JNJ",
       "title": "Johnson & Johnson Announces a Proposed Resolution of Ovarian Talc Litigation",
       "publisher": "Business Wire",
@@ -98,52 +138,12 @@
       "publishedAt": 1785189742000
     },
     {
-      "ticker": "JNJ",
-      "title": "Kymera Appoints Terence Rooney as Chief Medical Officer",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/kymera-appoints-terence-rooney-chief-213437311.html",
-      "image": null,
-      "publishedAt": 1785188077000
-    },
-    {
-      "ticker": "MU",
-      "title": "Stock Market Today, July 27: Dow Rises on Oil Retreat, and Sandisk Plunges 11% on Memory Weakness",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/8fa8b745-fd5c-3c9e-a968-fbdfd5d58125/stock-market-today%2C-july-27%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lHX5f9_WA.772MqtOZyaHg--~B/aD0yMDA7dz0yMDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/44108f481967b6b8d31e96d1e24908fa",
-      "publishedAt": 1785187496000
-    },
-    {
-      "ticker": "MU",
-      "title": "Prediction: Micron Stock Will Be Worth This Much by Late 2027 (Hint: The Time to Buy Is Now)",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/d973bc3d-a936-3635-8cbe-8c8a86783f2f/prediction%3A-micron-stock-will.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ouPqZnp7YWr4RzQ6jlh1JQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9e8b3dadd76df928e7f4c4aea86c6a05",
-      "publishedAt": 1785187200000
-    },
-    {
       "ticker": "V",
       "title": "Boeing & Ford earnings, July consumer confidence: What to Watch",
       "publisher": "Yahoo Finance Video",
       "link": "https://finance.yahoo.com/video/boeing--ford-earnings-july-consumer-confidence-what-to-watch-211454833.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/qBrD8bGZVwJwEE70U3HbkA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/wtw-consumer-confidence_9419.png",
       "publishedAt": 1785186894000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Raised Its Outlook. Is It the Better Healthcare Stock to Own After Earnings?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-raised-outlook-205741396.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AaLa3rH7bR_A92XXlLhkZw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/f9ccf3c88c7274582ef19e20143427c2",
-      "publishedAt": 1785185861000
-    },
-    {
-      "ticker": "MA",
-      "title": "Update: Wall Street Wavers as Oil Slides; Fed Decision, Major Earnings in Focus",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-wavers-oil-slides-204759546.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eYNqcCgn3G_qEuDD8GI7aw--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/2475a8618428bf41d7b045240805a142",
-      "publishedAt": 1785185279000
     }
   ]
 }
