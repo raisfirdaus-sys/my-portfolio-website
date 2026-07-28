@@ -48,33 +48,35 @@ async function fetchQuote(ticker) {
 
   const pctFrom = (base) => (typeof base === "number" && base ? ((price - base) / base) * 100 : null);
 
-  // Naively taking series[length-2] as "yesterday's close" breaks whenever
-  // Yahoo has (or hasn't) already backfilled *today*'s daily candle into
-  // the series by the time we fetch — which varies run to run right around
-  // the close. If today's candle IS already in the series, length-2 is
-  // correct; if it ISN'T yet, length-2 is actually the day *before*
-  // yesterday, and the real previous close is length-1. Trusting
-  // meta.previousClose instead doesn't reliably avoid this either, since
-  // it comes from the same backend and can lag the same way. So instead of
-  // guessing, check directly whether the series' last bar is from the same
-  // trading session as the live price we picked above: daily bars are
-  // timestamped near that session's open, while post-market prices can sit
-  // past midnight UTC on the *same* US trading day, so comparing raw UTC
-  // calendar dates would misfire right around that boundary. A gap under
-  // ~20 hours only happens within one trading session; the next daily bar
-  // (or a weekend/holiday gap) is always well over that. This was
-  // previously wrong in both magnitude and sign (e.g. showing a stock up
-  // when it had actually closed down) without ever tripping the old
-  // ">40% = glitch" safety net, since the error was much smaller than that.
-  const lastBarTime = series.length ? series[series.length - 1].t : null;
-  const seriesIncludesToday = lastBarTime !== null && latestCandidate.time - lastBarTime < 20 * 3600;
-  let prevClose = seriesIncludesToday
-    ? series.length >= 2
-      ? series[series.length - 2].c
-      : null
-    : series.length >= 1
-      ? series[series.length - 1].c
-      : null;
+  // Naively counting back from the end of the series (e.g. "length-2 is
+  // yesterday") breaks in two different ways depending on whether today's
+  // candle has been backfilled into the series yet by fetch time, and a
+  // fixed "gap in hours" heuristic to distinguish those cases turned out to
+  // have its own failure mode: over a weekend, Yahoo's meta block just
+  // carries Friday's stale close forward, so a run on the actual next
+  // trading day can end up comparing today's session against the wrong
+  // reference point instead of the last real trading day. Sidestep all of
+  // that by asking the only question that actually matters — "what was the
+  // close on the last trading day *before* today, in the exchange's own
+  // calendar?" — using real calendar dates (America/New_York, where the
+  // NYSE/Nasdaq trading day boundary actually falls) rather than a raw
+  // elapsed-hours proxy. This naturally skips weekends/holidays and doesn't
+  // care whether today's own candle is already in the series or not. This
+  // was previously wrong in both magnitude and sign (e.g. showing a stock
+  // up when it had actually closed down, or comparing against a stale
+  // multi-day-old close right after a weekend) without ever tripping the
+  // original ">40% = glitch" safety net, since the errors were smaller than
+  // that threshold.
+  const nyDateFormatter = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" });
+  const nyDate = (epochSeconds) => nyDateFormatter.format(new Date(epochSeconds * 1000));
+  const todayNy = nyDate(latestCandidate.time);
+  let prevClose = null;
+  for (let i = series.length - 1; i >= 0; i--) {
+    if (nyDate(series[i].t) < todayNy) {
+      prevClose = series[i].c;
+      break;
+    }
+  }
   prevClose = prevClose ?? meta.previousClose ?? meta.chartPreviousClose ?? null;
   let changePercent = pctFrom(prevClose);
   const change = typeof prevClose === "number" ? price - prevClose : 0;
