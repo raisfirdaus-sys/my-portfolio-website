@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-28T01:05:31.250Z",
+  "updatedAt": "2026-07-28T01:09:37.251Z",
   "quotes": {
     "MU": {
       "price": 900.2,
-      "change": -90.0100219726562,
-      "changePercent": -9.089993029291088,
+      "change": -20.750012207031205,
+      "changePercent": -2.2531094991034717,
       "oneMonthReturnPercent": -21.399135846919258,
       "oneYearReturnPercent": 709.1685393258427,
       "ytdReturnPercent": 185.39723596399,
@@ -13,8 +13,8 @@
     },
     "GEV": {
       "price": 996.57,
-      "change": -34.61994140624995,
-      "changePercent": -3.3572807507255344,
+      "change": -18.17999999999995,
+      "changePercent": -1.7915742793791525,
       "oneMonthReturnPercent": -9.608983939125052,
       "oneYearReturnPercent": 53.872408566710405,
       "ytdReturnPercent": 46.651463159707156,
@@ -23,8 +23,8 @@
     },
     "MA": {
       "price": 551.71,
-      "change": 21.420021972656286,
-      "changePercent": 4.03930356223926,
+      "change": 12.050026855468786,
+      "changePercent": 2.2328924610166627,
       "oneMonthReturnPercent": 8.254843446816764,
       "oneYearReturnPercent": -2.9158211520078985,
       "ytdReturnPercent": -2.027951766695325,
@@ -33,8 +33,8 @@
     },
     "ABBV": {
       "price": 256.91,
-      "change": -0.010013427734349989,
-      "changePercent": -0.003897488405342363,
+      "change": -2.449985351562475,
+      "changePercent": -0.9446273480627783,
       "oneMonthReturnPercent": 1.0223752374529542,
       "oneYearReturnPercent": 36.2773149679636,
       "ytdReturnPercent": 12.036109517795389,
@@ -43,8 +43,8 @@
     },
     "V": {
       "price": 362.53,
-      "change": 10.929993896484348,
-      "changePercent": 3.108644398961249,
+      "change": 6.790009765624973,
+      "changePercent": 1.9087001607976255,
       "oneMonthReturnPercent": 6.111519530669734,
       "oneYearReturnPercent": 1.9861025557859826,
       "ytdReturnPercent": 4.632298691050656,
@@ -53,8 +53,8 @@
     },
     "JNJ": {
       "price": 265.95,
-      "change": 6.680010986328114,
-      "changePercent": 2.576469035903674,
+      "change": 2.5500061035156136,
+      "changePercent": 0.9681116790449739,
       "oneMonthReturnPercent": 2.8780279112288016,
       "oneYearReturnPercent": 59.99879560034274,
       "ytdReturnPercent": 28.261390003156983,
@@ -63,8 +63,8 @@
     },
     "VLO": {
       "price": 304.93,
-      "change": -0.3300097656249932,
-      "changePercent": -0.10810776225761466,
+      "change": 2.430000000000007,
+      "changePercent": 0.8033057851239691,
       "oneMonthReturnPercent": 14.497593727074864,
       "oneYearReturnPercent": 110.65975820379965,
       "ytdReturnPercent": 84.45950305692689,
@@ -73,8 +73,8 @@
     },
     "PG": {
       "price": 148.63,
-      "change": 1.6599987792968705,
-      "changePercent": 1.1294813672921387,
+      "change": 1.2199963378906205,
+      "changePercent": 0.8276211298977203,
       "oneMonthReturnPercent": 0.12125500536087372,
       "oneYearReturnPercent": -5.397492570433382,
       "ytdReturnPercent": 4.824040509025218,
@@ -83,8 +83,8 @@
     },
     "GILD": {
       "price": 130.52,
-      "change": -0.34000061035155227,
-      "changePercent": -0.25982011979652764,
+      "change": 1.2100024414062602,
+      "changePercent": 0.9357377343217227,
       "oneMonthReturnPercent": 3.316708705940451,
       "oneYearReturnPercent": 15.473769273283128,
       "ytdReturnPercent": 7.33552766267285,
@@ -93,8 +93,8 @@
     },
     "MNST": {
       "price": 95.33,
-      "change": 1.7700024414062483,
-      "changePercent": 1.8918367759658716,
+      "change": 1.840002136230467,
+      "changePercent": 1.9681272631021511,
       "oneMonthReturnPercent": -2.365833064408376,
       "oneYearReturnPercent": 58.32918360662177,
       "ytdReturnPercent": 25.170687258551112,
@@ -103,8 +103,8 @@
     },
     "KO": {
       "price": 84.07,
-      "change": 2.9000018310546807,
-      "changePercent": 3.572750888842803,
+      "change": 1.8199999999999932,
+      "changePercent": 2.2127659574468,
       "oneMonthReturnPercent": 1.718086446346241,
       "oneYearReturnPercent": 23.468944810644434,
       "ytdReturnPercent": 21.62904609282186,
@@ -114,7 +114,7 @@
   },
   "portfolio": {
     "totalUSD": 4097.349999999999,
-    "changePercent": -1.6857621592907996,
+    "changePercent": -0.2468132905338467,
     "oneMonthReturnPercent": -3.966220495298401,
     "oneYearReturnPercent": 185.23279837795062,
     "ytdReturnPercent": 62.528561630954435
