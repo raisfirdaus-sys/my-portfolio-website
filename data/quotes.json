@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T07:32:02.694Z",
+  "updatedAt": "2026-07-29T08:27:07.613Z",
   "quotes": {
     "MU": {
       "price": 820.53,
@@ -110,13 +110,43 @@
       "ytdReturnPercent": 27.705434740256763,
       "weekLow52": 65.35,
       "weekHigh52": 90.22
+    },
+    "LLY": {
+      "price": 1220.66,
+      "change": 23.129970703125082,
+      "changePercent": 1.931473126958307,
+      "oneMonthReturnPercent": -0.7537057642398337,
+      "oneYearReturnPercent": 59.99213322887612,
+      "ytdReturnPercent": 12.986413468727484,
+      "weekLow52": 623.78,
+      "weekHigh52": 1249.45
+    },
+    "AAPL": {
+      "price": 340.08,
+      "change": 3.169996337890609,
+      "changePercent": 0.9409030018205788,
+      "oneMonthReturnPercent": 20.70703903875799,
+      "oneYearReturnPercent": 60.96937242516516,
+      "ytdReturnPercent": 25.486139900923998,
+      "weekLow52": 201.5,
+      "weekHigh52": 342.89
+    },
+    "PEP": {
+      "price": 142.86,
+      "change": 3.070006713867201,
+      "changePercent": 2.196156278213189,
+      "oneMonthReturnPercent": 3.014138696986498,
+      "oneYearReturnPercent": -0.7158241670842087,
+      "ytdReturnPercent": 0.4429475436867833,
+      "weekLow52": 133.73,
+      "weekHigh52": 171.48
     }
   },
   "portfolio": {
-    "totalUSD": 3991.27,
-    "changePercent": -2.3868501117615337,
-    "oneMonthReturnPercent": -5.365977531397431,
-    "oneYearReturnPercent": 158.9397829040668,
-    "ytdReturnPercent": 53.40575651096893
+    "totalUSD": 3632.0800000000004,
+    "changePercent": 1.7496421058140261,
+    "oneMonthReturnPercent": 5.0561249283410685,
+    "oneYearReturnPercent": 36.005534164505306,
+    "ytdReturnPercent": 12.545221644145826
   }
 }
