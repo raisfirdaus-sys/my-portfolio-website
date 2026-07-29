@@ -7,7 +7,7 @@
 // the last hour out of the "1D" (intraday) series rather than fetched
 // separately.
 
-const TICKERS = ["MU", "GEV", "MA", "ABBV", "V", "JNJ", "VLO", "PG", "GILD", "MNST", "KO"];
+const TICKERS = ["LLY", "MA", "ABBV", "V", "JNJ", "AAPL", "PG", "PEP", "GILD", "MNST", "KO"];
 
 const RANGE_SPECS = [
   { key: "1D", range: "1d", interval: "5m" },

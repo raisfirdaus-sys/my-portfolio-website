@@ -6,11 +6,11 @@
 //
 // Each ticker request pulls a full year of daily closes (not just today's
 // quote) so we can derive real 1-year and year-to-date returns instead of
-// making those up. Some holdings (e.g. GEV, spun off in April 2024) don't
-// have a full year of history yet — in that case the "1-year" figure is
-// simply the return since the earliest available close.
+// making those up. If a holding ever lacks a full year of history (e.g. a
+// recent IPO/spin-off), the "1-year" figure simply falls back to the return
+// since the earliest available close.
 
-const TICKERS = ["MU", "GEV", "MA", "ABBV", "V", "JNJ", "VLO", "PG", "GILD", "MNST", "KO"];
+const TICKERS = ["LLY", "MA", "ABBV", "V", "JNJ", "AAPL", "PG", "PEP", "GILD", "MNST", "KO"];
 
 async function fetchQuote(ticker) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1y`;

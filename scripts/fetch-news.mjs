@@ -4,7 +4,7 @@
 // GitHub Actions runner (see .github/workflows/update-news.yml) — the site
 // itself just reads the resulting static JSON file.
 
-const TICKERS = ["MU", "GEV", "MA", "ABBV", "V", "JNJ", "VLO", "PG", "GILD", "MNST", "KO"];
+const TICKERS = ["LLY", "MA", "ABBV", "V", "JNJ", "AAPL", "PG", "PEP", "GILD", "MNST", "KO"];
 
 // Yahoo's search response includes a thumbnail.resolutions[] array (sizes
 // vary per story, not every story has one at all) — prefer the "original"

@@ -6,42 +6,28 @@
 
 const HOLDINGS = [
   {
-    ticker: "MU",
-    name: "Micron Technology Inc",
-    sector: "Semiconductors & AI Memory",
-    website: "https://www.micron.com",
-    value: 814.59,
-    changePct: 13.03,
-    growth5y: 85,
+    ticker: "LLY",
+    name: "Eli Lilly and Company",
+    sector: "Pharmaceuticals & GLP-1 Therapeutics",
+    website: "https://www.lilly.com",
+    value: 1132.86,
+    changePct: 1.2,
+    growth5y: 90,
     color: "#123524",
     thesis:
-      "Micron sits at the heart of the memory-chip (DRAM & NAND) supply chain that fuels generative AI data centers. As AI compute demand rises, so does the need for high-capacity memory.",
+      "Eli Lilly is the clear leader in the GLP-1 weight-loss and diabetes drug category (Mounjaro, Zepbound), a market still in its early innings globally. A deep pipeline in obesity, Alzheimer's, and oncology backs up the growth story beyond today's blockbuster drugs.",
     outlook:
-      "The AI infrastructure upgrade cycle, HBM (High Bandwidth Memory), and a recovery in chip pricing are the main catalysts I'm watching over the next 5 years.",
-  },
-  {
-    ticker: "GEV",
-    name: "GE Vernova Inc.",
-    sector: "Energy & Grid Infrastructure",
-    website: "https://www.gevernova.com",
-    value: 661.61,
-    changePct: 1.93,
-    growth5y: 95,
-    color: "#1a4630",
-    thesis:
-      "Spun off from General Electric, this company focuses on gas turbines, renewable energy, and grid modernization — exactly what the world needs to support the surge in electricity demand from AI data centers.",
-    outlook:
-      "I see 'electrification & grid buildout' as one of the megatrends of this decade, and GEV is strategically positioned as a core supplier.",
+      "Expanding manufacturing capacity to meet GLP-1 demand and new indications for existing drugs are the catalysts I'm tracking most closely over the next 5 years.",
   },
   {
     ticker: "MA",
     name: "Mastercard Inc",
     sector: "Digital Payments",
     website: "https://www.mastercard.com",
-    value: 556.49,
-    changePct: 0.31,
+    value: 580.94,
+    changePct: 4.72,
     growth5y: 70,
-    color: "#1e5238",
+    color: "#1a4630",
     thesis:
       "A toll-booth business model: every card transaction generates a fee, with high margins and low capital costs. The growth of e-commerce & the cashless society is a long-term tailwind.",
     outlook:
@@ -52,10 +38,10 @@ const HOLDINGS = [
     name: "AbbVie Inc",
     sector: "Pharmaceuticals & Biotech",
     website: "https://www.abbvie.com",
-    value: 510.84,
-    changePct: 17.16,
+    value: 527.56,
+    changePct: 21,
     growth5y: 60,
-    color: "#256346",
+    color: "#1e5238",
     thesis:
       "After navigating the Humira patent cliff, AbbVie successfully diversified its portfolio into immunology (Skyrizi, Rinvoq) and oncology drugs that are growing aggressively.",
     outlook:
@@ -66,10 +52,10 @@ const HOLDINGS = [
     name: "Visa Inc. Class A",
     sector: "Digital Payments",
     website: "https://www.visa.com",
-    value: 382.39,
-    changePct: 6.94,
+    value: 390.72,
+    changePct: 9.26,
     growth5y: 65,
-    color: "#2c7350",
+    color: "#256346",
     thesis:
       "The world's largest payment network with an extremely wide moat. Like Mastercard, Visa benefits from the global shift from cash to digital.",
     outlook:
@@ -80,50 +66,64 @@ const HOLDINGS = [
     name: "Johnson & Johnson",
     sector: "Healthcare & Consumer Health",
     website: "https://www.jnj.com",
-    value: 320.23,
-    changePct: 5.76,
+    value: 341.44,
+    changePct: 12.76,
     growth5y: 40,
-    color: "#347e5c",
+    color: "#2c7350",
     thesis:
       "A healthcare giant with broad diversification: pharmaceuticals, MedTech, and consumer products. A Dividend Aristocrat that has consistently raised its dividend for decades in a row.",
     outlook:
       "Post-Kenvue spin-off, the focus is now purely on high-margin pharma & MedTech — a defensive profile that suits balancing a portfolio.",
   },
   {
-    ticker: "VLO",
-    name: "Valero Energy Corporation",
-    sector: "Energy & Refining",
-    website: "https://www.valero.com",
-    value: 314.47,
-    changePct: -0.42,
-    growth5y: 35,
-    color: "#3d8b68",
+    ticker: "AAPL",
+    name: "Apple Inc",
+    sector: "Technology & Consumer Electronics",
+    website: "https://www.apple.com",
+    value: 340.71,
+    changePct: 0.84,
+    growth5y: 75,
+    color: "#347e5c",
     thesis:
-      "One of the largest independent oil refining companies in the US. A cyclical business, but one that generates massive cash flow when refining margins (crack spreads) run high.",
+      "Apple's ecosystem — iPhone, Services, and a massive installed base — gives it exceptional pricing power and one of the stickiest customer bases in tech. Services revenue (App Store, subscriptions) keeps growing as a high-margin, recurring layer on top of hardware sales.",
     outlook:
-      "I see VLO as both a hedge and an exposure to global energy demand that will remain elevated throughout the energy transition.",
+      "On-device AI features across the iPhone/Mac lineup and continued Services growth are the catalysts I'm watching over the next 5 years.",
   },
   {
     ticker: "PG",
     name: "Procter & Gamble Company",
     sector: "Consumer Staples",
     website: "https://www.pg.com",
-    value: 148.12,
-    changePct: -2.45,
+    value: 149.15,
+    changePct: -1.77,
     growth5y: 30,
-    color: "#49a06b",
+    color: "#3d8b68",
     thesis:
       "A maker of everyday household staples (Gillette, Pampers, Tide) with strong brand power and high recession resilience. A Dividend Aristocrat with a track record of over 60 years.",
     outlook:
       "Steady single-digit growth, but it forms the 'defensive core' that keeps the portfolio calm when markets turn volatile.",
   },
   {
+    ticker: "PEP",
+    name: "PepsiCo Inc",
+    sector: "Consumer Staples & Snacks/Beverages",
+    website: "https://www.pepsico.com",
+    value: 143.25,
+    changePct: 1.91,
+    growth5y: 40,
+    color: "#49a06b",
+    thesis:
+      "PepsiCo's dual snacks-and-beverages business (Frito-Lay, Gatorade, Pepsi) gives it more category diversification than a pure soda company, with strong brand loyalty across both segments. A Dividend Aristocrat with decades of consistent dividend growth.",
+    outlook:
+      "Portfolio shifts toward healthier snacks and beverages, plus international expansion, are the long-term growth levers I'm watching.",
+  },
+  {
     ticker: "GILD",
     name: "Gilead Sciences Inc",
     sector: "Biotechnology & Pharmaceuticals",
     website: "https://www.gilead.com",
-    value: 129.9,
-    changePct: -0.05,
+    value: 134.66,
+    changePct: 3.61,
     growth5y: 55,
     color: "#5cb37e",
     thesis:
@@ -136,8 +136,8 @@ const HOLDINGS = [
     name: "Monster Beverage Corp",
     sector: "Consumer Beverage",
     website: "https://www.monsterbevcorp.com",
-    value: 89.24,
-    changePct: -4.12,
+    value: 94.84,
+    changePct: 0.15,
     growth5y: 50,
     color: "#7ec99a",
     thesis:
@@ -150,8 +150,8 @@ const HOLDINGS = [
     name: "The Coca-Cola Company",
     sector: "Consumer Staples & Beverages",
     website: "https://www.coca-colacompany.com",
-    value: 63.98,
-    changePct: -1.93,
+    value: 68.88,
+    changePct: 5.58,
     growth5y: 35,
     color: "#a9e0bd",
     thesis:
@@ -173,7 +173,7 @@ HOLDINGS.forEach((h) => {
 // value minus today's dollar move, summed across all positions). This stays
 // fixed — it's the baseline the live "Total Portfolio Value" is compared
 // against to show real profit/loss.
-const INITIAL_CAPITAL_USD = 3776.85;
+const INITIAL_CAPITAL_USD = 3690.77;
 
 function fmtPct(n, digits = 1) {
   const sign = n > 0 ? "+" : "";
@@ -343,12 +343,11 @@ function renderPortraitStats() {
 // Sector groups (derived from HOLDINGS by ticker)
 // ---------------------------------------------------------------------------
 const SECTOR_GROUPS = [
-  { name: "Semiconductors & AI", tickers: ["MU"] },
-  { name: "Energy & Infrastructure", tickers: ["GEV", "VLO"] },
+  { name: "Technology & Consumer Electronics", tickers: ["AAPL"] },
   { name: "Digital Payments", tickers: ["MA", "V"] },
-  { name: "Pharmaceuticals & Biotech", tickers: ["ABBV", "GILD"] },
+  { name: "Pharmaceuticals & Biotech", tickers: ["LLY", "ABBV", "GILD"] },
   { name: "Consumer Healthcare", tickers: ["JNJ"] },
-  { name: "Consumer Staples & Beverages", tickers: ["PG", "KO", "MNST"] },
+  { name: "Consumer Staples & Beverages", tickers: ["PG", "KO", "MNST", "PEP"] },
 ];
 
 function renderSectorList() {
@@ -677,7 +676,7 @@ function renderStockScores() {
 // "1D" intraday series rather than being fetched separately.
 // ---------------------------------------------------------------------------
 let chartData = null;
-let chartTicker = "MU";
+let chartTicker = "LLY";
 let chartRange = "1D";
 
 const CHART_RANGES = ["1H", "1D", "5D", "1M", "3M", "YTD", "5Y", "MAX"];
@@ -1333,7 +1332,7 @@ function renderPerformanceStats(data) {
 
   if (updatedEl) {
     updatedEl.textContent = data.updatedAt
-      ? `Calculated from live prices across 11 stocks · Last: ${fmtUpdatedAt(data.updatedAt)}. Some holdings (e.g. GEV, which only IPO'd in 2024) don't yet have a full 1-year price history, so their figure is calculated from the earliest available data.`
+      ? `Calculated from live prices across 11 stocks · Last: ${fmtUpdatedAt(data.updatedAt)}.`
       : "Waiting for the first auto-update of performance data.";
   }
 }
