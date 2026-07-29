@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-07-29T15:28:05.821Z",
+  "updatedAt": "2026-07-29T16:07:29.052Z",
   "items": [
+    {
+      "ticker": "AAPL",
+      "title": "Ford Just Delivered Bad News for Tesla Investors",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/afd82510-7a9f-3e37-a587-4e729bf0a4d1/ford-just-delivered-bad-news.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Oyn3Ottoae9H2iuxEPtXrQ--~B/aD04NDQ7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/16116c9a5d03b5eca546fcb7940312fb",
+      "publishedAt": 1785340200000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple says UK App Store proposal amounts to price regulation",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/articles/apple-says-uk-app-store-154808227.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4FgmwIlXIwgv3Vii5gL1zw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/0c10025e45f0877ce4ba5db5b199ef30",
+      "publishedAt": 1785340088000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca Cola Insider Sold Shares Worth $6,788,624, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-insider-sold-shares-153738595.html",
+      "image": null,
+      "publishedAt": 1785339458000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Boston Scientific Cuts Outlook Amid Weak Demand for Watchman Heart Device",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/boston-scientific-cuts-outlook-amid-152702729.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hH.Oer.ak__lOfVs431wRQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/3c96472349e25119e148a6930f7f7e2d",
+      "publishedAt": 1785338822000
+    },
+    {
+      "ticker": "V",
+      "title": "Stock Market Today: Dow Dives 800 Points As Fed Rate Call Looms; GE HealthCare Soars (Live Coverage)",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-dow-dives.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4F2KlpyN2.z_xMg7GeO9vw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/03b916790bccce30a0a9197c739463f7",
+      "publishedAt": 1785338422000
+    },
+    {
+      "ticker": "PG",
+      "title": "Procter & Gamble Executive Chairman Jon Moeller to Retire",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-executive-chairman-jon-151825753.html",
+      "image": null,
+      "publishedAt": 1785338305000
+    },
     {
       "ticker": "V",
       "title": "The new AI trade: Visa, Shopify, and more",
@@ -18,6 +66,14 @@
       "publishedAt": 1785337170000
     },
     {
+      "ticker": "GILD",
+      "title": "Gilead to Report Q2 Earnings: How Should You Play the Stock Now?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/gilead-report-q2-earnings-play-145600559.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/RTGo4pt.TK_E0ckeUDNmXA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6f5ec5179112ff02b207f8fd4685c071",
+      "publishedAt": 1785336960000
+    },
+    {
       "ticker": "AAPL",
       "title": "Apple's New Leasing Plan Just Launched -- Here's the Stock That Could Be the Biggest Winner",
       "publisher": "Motley Fool",
@@ -32,6 +88,22 @@
       "link": "https://finance.yahoo.com/m/1f3155bf-7447-3eef-bb54-29848da45447/tim-cook-will-host-his-last.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/eoMbM.SwQh7lIH8kA1YNgA--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/17df8c95d434e6bfa721e1ca2d721367",
       "publishedAt": 1785336062000
+    },
+    {
+      "ticker": "PG",
+      "title": "Kenvue's Brand Strength and Growth Drivers Shape Its Future Outlook",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/kenvues-brand-strength-growth-drivers-143800667.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/NdWFtilA3Sg14JDRTBq66A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2866fb9ec2bc73fc116e751457a731f2",
+      "publishedAt": 1785335880000
+    },
+    {
+      "ticker": "PG",
+      "title": "Is Kenvue Stock Attractive After Margin Gains and Deal Uncertainty",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kenvue-stock-attractive-margin-gains-143700521.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jd2m438Ufg7ow5Xw.24yGg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5d53490d96d857e2597369efd142a916",
+      "publishedAt": 1785335820000
     },
     {
       "ticker": "V",
@@ -58,92 +130,20 @@
       "publishedAt": 1785335292000
     },
     {
-      "ticker": "V",
-      "title": "Stock Market Today: Dow Dives 600 Points As Oil Spikes, Fed Decision Looms; Seagate Outperforms (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-dow-dives.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4F2KlpyN2.z_xMg7GeO9vw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/03b916790bccce30a0a9197c739463f7",
-      "publishedAt": 1785335158000
-    },
-    {
-      "ticker": "PG",
-      "title": "P&G CFO on Q4 earnings: Consumers are 'responding to innovation'",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/pg-cfo-on-q4-earnings-consumers-are-responding-to-innovation-141925879.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.fCguxSOmNWbQCmecTzfUg--~B/aD0zMDc4O3c9NTQ3MjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/210f3d94-9081-40a5-a600-893e6ca2da5f_19e88043a7c39aa3c5a13e988ba072d48d1dd95aa2c3fab179f57ef5b55081c0.jpg",
-      "publishedAt": 1785334765000
-    },
-    {
-      "ticker": "KO",
-      "title": "BofA Securities Raises Price Target on Coca-Cola to $100 From $95, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-raises-price-target-141441827.html",
-      "image": null,
-      "publishedAt": 1785334481000
-    },
-    {
-      "ticker": "V",
-      "title": "UBS Adjusts Price Target on Visa to $420 From $410, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-visa-141300609.html",
-      "image": null,
-      "publishedAt": 1785334380000
-    },
-    {
-      "ticker": "PG",
-      "title": "Procter & Gamble shares fall after quarterly revenue misses estimates",
-      "publisher": "Proactive",
-      "link": "https://finance.yahoo.com/m/1e5b03b0-2231-370d-909a-07bc26fea07f/procter-%26-gamble-shares-fall.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eJLl6Gg14iWu4BbmrxQflA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/proactive_us_504/6fa4bc4efb37c0c658373f45558bd441",
-      "publishedAt": 1785334260000
-    },
-    {
-      "ticker": "PG",
-      "title": "Procter & Gamble Misses Fourth-Quarter Revenue Views, Says Higher Costs Could Hit Fiscal 2027 Earnings",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-misses-fourth-quarter-141026072.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/U4mTiejd_MjIGlRRoq.J_Q--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/0d11b3865ba1ef3235498e64155545e0",
-      "publishedAt": 1785334226000
-    },
-    {
-      "ticker": "V",
-      "title": "BofA Securities Lifts Visa Price Target to $430 From $410, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-lifts-visa-price-140650275.html",
-      "image": null,
-      "publishedAt": 1785334010000
-    },
-    {
-      "ticker": "MA",
-      "title": "Bernstein Lowers Price Target On Circle Stock",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/c3bf30dc-ca77-3b57-bc3a-093f1994fa18/bernstein-lowers-price-target.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8HPkm4e5G5gPfao5jOrdnQ--~B/aD02MDA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptoprowl_304/5a5975904663e36c4fb4611cf26e240c",
-      "publishedAt": 1785333960000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Analysts Estimate Cytek Biosciences, Inc. (CTKB) to Report a Decline in Earnings: What to Look Out for",
+      "ticker": "PEP",
+      "title": "PepsiCo's Global Growth and Brand Strategy Shape Its 2026 Outlook",
       "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-cytek-biosciences-inc-140034000.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aMCT_Lh5K9xNn9.QUdX03w--~B/aD01ODc7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/17a4db66bb13bdabcbf848550a6ea15a",
-      "publishedAt": 1785333634000
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsicos-global-growth-brand-strategy-142700886.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/BzFSgZhorolJPIg_tnprjw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/94c0837ea9da6deb62281b5d5d41e8ad",
+      "publishedAt": 1785335220000
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly (LLY) Earnings Expected to Grow: Should You Buy?",
+      "ticker": "PEP",
+      "title": "Is PepsiCo Stock Attractive After Q2 Earnings and Margin Pressure",
       "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-earnings-expected-140026778.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wbCMwMtKIoXj_iQA0ego4g--~B/aD01MDY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1154d43aaeb65735a640003549116295",
-      "publishedAt": 1785333626000
-    },
-    {
-      "ticker": "KO",
-      "title": "KO Q2 Earnings Call Highlights Broader Growth and Raised Outlook",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ko-q2-earnings-call-highlights-140000985.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/5qKaX7h6rX3X7AdNi5sLsA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/620c947649b5dd3d93ee6e3e17bfae15",
-      "publishedAt": 1785333600000
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-stock-attractive-q2-earnings-142700880.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/12JorjzGW2_gzYFWDV3EiQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7ac0477ca0c0af636d21c2bee1fc419b",
+      "publishedAt": 1785335220000
     }
   ]
 }
