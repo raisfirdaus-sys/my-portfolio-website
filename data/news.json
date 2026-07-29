@@ -1,6 +1,110 @@
 {
-  "updatedAt": "2026-07-29T18:59:15.220Z",
+  "updatedAt": "2026-07-29T20:16:19.808Z",
   "items": [
+    {
+      "ticker": "AAPL",
+      "title": "Apple options trades: What's a covered call and how does it work?",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/apple-options-trades-whats-covered-201000242.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wyPmYWvfNmKkHZ641rzxyw--~B/aD0xODI5O3c9MzI1MTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/1c58913b-dc28-41ad-9b37-c51145435b71_faf54853ecffc6b6d00b216eeacbb14ae7d87291b0e474fa6bcec07c81283750.jpg",
+      "publishedAt": 1785355800000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Qualcomm forecasts weak quarterly profit, expects Apple revenue drop to accelerate",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-forecasts-weak-quarterly-profit-200152315.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/74Ojx5SyuZZaDKykOF2vFw--~B/aD01NzA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/0fe2042c6a9b95f242a4061da5f52236",
+      "publishedAt": 1785355312000
+    },
+    {
+      "ticker": "V",
+      "title": "Sector Update: Financial Stocks Decline Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195034998.html",
+      "image": null,
+      "publishedAt": 1785354634000
+    },
+    {
+      "ticker": "PG",
+      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194238414.html",
+      "image": null,
+      "publishedAt": 1785354158000
+    },
+    {
+      "ticker": "V",
+      "title": "Stock Market Today: Nasdaq Tumbles As Fed's Warsh Notes Two Trends; Meta Losing Gains (Live Coverage)",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-nasdaq.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4F2KlpyN2.z_xMg7GeO9vw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/03b916790bccce30a0a9197c739463f7",
+      "publishedAt": 1785353927000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola Dominated the Summer's Biggest Sporting Event. Here's Why the Dividend Stock Is a Buy in August.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a4e807ca-fb1a-319e-b9b5-1e1c7b299ee7/coca-cola-dominated-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Pk2ntvvzPjLLcec8oo_Y2g--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/dd556718afd16bfb56655df8193375ec",
+      "publishedAt": 1785353428000
+    },
+    {
+      "ticker": "LLY",
+      "title": "Hims & Hers Stock Plunges After FTC Sues Over Alleged Privacy Violations",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/2148eaa0-260d-3e4e-9998-5f11f9e8b5ab/hims-%26-hers-stock-plunges.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CExl_QkCg6.gZuj724aIHg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/fc34261ebb8a5152f977306e4cf2ed11",
+      "publishedAt": 1785353280000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Anika Therapeutics, Inc. Q2 2026 Earnings Call Summary",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/m/2a3b4463-afa1-308f-bcbb-3ca4549781cb/anika-therapeutics%2C-inc.-q2.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2ZAs2IdgfwiMHZZ4RNy3FQ--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moby_896/7884352ec248be8cce5a4f1eece8a7c8",
+      "publishedAt": 1785352595000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa's Implied Q4 Exit Rate Bodes Well for 2027 Guidance, UBS Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-apos-implied-q4-exit-191055276.html",
+      "image": null,
+      "publishedAt": 1785352255000
+    },
+    {
+      "ticker": "PG",
+      "title": "Procter & Gamble (PG) Appoints Shailesh Jejurikar As Chairman As Jon Moeller Retires",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pg-appoints-shailesh-191019866.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FPM8Qjj9yNq_eAFvUJ2z1w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/b0df2a1110b34430640e65661a1ab5f9",
+      "publishedAt": 1785352219000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple (AAPL) Stock Looks Above Fair Value On Cash Flow, Near Fair Value On Earnings",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-stock-looks-above-190838911.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fBnY8upz5XxbZDDWlufZ9w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/69084628647944e382f8e555f97913e8",
+      "publishedAt": 1785352118000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Berkshire Stock Slips Despite UBS Raising Target to $877,848",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-stock-slips-despite-ubs-190241240.html",
+      "image": null,
+      "publishedAt": 1785351761000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "This $3 Million Portfolio Pays $18,000 a Month From Three Income Buckets",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4201abb6-24fd-38f9-9232-942b8ce08df5/this-%243-million-portfolio.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/QxY_mPo8A8_ZqIql0.NF5w--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/f8d5ab03bd1929524a8537ba1f90758a",
+      "publishedAt": 1785351462000
+    },
     {
       "ticker": "V",
       "title": "Visa Stock Rises 1.5% as Earnings Beat Meets 2,600 Job Cuts",
@@ -8,14 +112,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-rises-1-5-185049859.html",
       "image": null,
       "publishedAt": 1785351049000
-    },
-    {
-      "ticker": "V",
-      "title": "Stock Market Today: Nasdaq, Dow Pare Losses As Fed Stands Pat On Key Rate; Meta Wobbles (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-nasdaq%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4F2KlpyN2.z_xMg7GeO9vw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/03b916790bccce30a0a9197c739463f7",
-      "publishedAt": 1785350221000
     },
     {
       "ticker": "AAPL",
@@ -42,108 +138,12 @@
       "publishedAt": 1785349177000
     },
     {
-      "ticker": "LLY",
-      "title": "The Real Price of AbbVie Stock Is Cheaper Than You Think",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/bf2946f4-3d2e-32f0-b5b5-372c5e4bb1ca/the-real-price-of-abbvie.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/UK.pKLIsbuZxbon.4Az0Gw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f32250d44f592b9d1ed623b4067b2431",
-      "publishedAt": 1785348670000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca-Cola's Latest Quarter Shows Where Demand Is Holding Up",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-colas-latest-quarter-shows-180350446.html",
-      "image": null,
-      "publishedAt": 1785348230000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa CEO discloses dynamic investment plan during earnings call",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/78515902-8f2a-3b91-945c-6cabc074d8b6/visa-ceo-discloses-dynamic.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/idWCzeEjieLN3iXK4CQtZw--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/8c959a5cf1ccbee561da81886f839c75",
-      "publishedAt": 1785348218000
-    },
-    {
       "ticker": "PG",
-      "title": "Equities Lower Intraday Ahead of Fed Decision, Major Tech Earnings",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/equities-lower-intraday-ahead-fed-180032148.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eYNqcCgn3G_qEuDD8GI7aw--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/2475a8618428bf41d7b045240805a142",
-      "publishedAt": 1785348032000
-    },
-    {
-      "ticker": "V",
-      "title": "V, SNOW Stocks Hit Fresh 52-Week Highs Today – What’s Got Investors Buzzing?",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/00644dd6-1671-3a15-ad46-b4d8c71093d3/v%2C-snow-stocks-hit-fresh.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YCbtfQoeu5YBpVAJ7RbpfA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/b7dc574cc1d1c9901d84e6e18f108169",
-      "publishedAt": 1785347808000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Better Buy Amid the Tech Crown Shift : Apple vs. Nvidia",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7a3341ad-55c4-34a3-9c04-6b6e843cf582/better-buy-amid-the-tech.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pAirCeC_bOxM4_5vs.pWcw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e72f1b43cfff68970d3ce33da3c2871d",
-      "publishedAt": 1785347400000
-    },
-    {
-      "ticker": "PG",
-      "title": "Procter & Gamble Q4 Earnings Beat on Productivity, Sales Miss Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-q4-earnings-beat-174800411.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HD2kfRVE8LP1fz1OOG.4VA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7f3667ffb0901a87f0646d99fc0299de",
-      "publishedAt": 1785347280000
-    },
-    {
-      "ticker": "V",
-      "title": "Sector Update: Financial Stocks Decline Wednesday Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-wednesday-174420942.html",
-      "image": null,
-      "publishedAt": 1785347060000
-    },
-    {
-      "ticker": "PG",
-      "title": "Sector Update: Consumer Stocks Advance Wednesday Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-wednesday-173515494.html",
-      "image": null,
-      "publishedAt": 1785346515000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Is a Caterpillar Stock Split Inevitable?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/25acfd7d-2bb3-398e-ab02-4d86f6d6abb0/is-a-caterpillar-stock-split.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/y6m2UPOoU4zc3dAbB0fmYg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/46665f2ec635315f2d9f7daf32fda57f",
-      "publishedAt": 1785346380000
-    },
-    {
-      "ticker": "V",
-      "title": "3 Dividend Stocks to Buy for a Lifetime of Passive Income",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/c35a12cb-c0f1-31a3-8843-ea5ec2615d09/3-dividend-stocks-to-buy-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/oDhX5sB4A.w5YR_u9EMQkg--~B/aD04Mjg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/fc55e37a18b8cd6cab320d64bed84174",
-      "publishedAt": 1785345600000
-    },
-    {
-      "ticker": "MNST",
-      "title": "Vita Coco Rides the Shift Toward Everyday Hydration and Premium Growth",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/vita-coco-rides-shift-toward-171100447.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eZdJzp0S6lh1OSfB.VRPrw--~B/aD00MTU7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/95d8918eeab7588ff269d99a027fad1b",
-      "publishedAt": 1785345060000
-    },
-    {
-      "ticker": "MNST",
-      "title": "Is COCO Stock Worth Buying After Its 2026 Earnings Outlook Upgrade?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coco-stock-worth-buying-2026-170700400.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eZdJzp0S6lh1OSfB.VRPrw--~B/aD00MTU7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/95d8918eeab7588ff269d99a027fad1b",
-      "publishedAt": 1785344820000
+      "title": "Procter & Gamble Earnings Beat Estimates. This Warning Sends the Stock Lower.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/e6a0bec8-1f10-30b9-8b17-3df973ab8914/procter-%26-gamble-earnings.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/RtxUWnwuLf4snUV2RHZG0w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/4e87777370627896e6f12812b83aabc4",
+      "publishedAt": 1785348840000
     }
   ]
 }
