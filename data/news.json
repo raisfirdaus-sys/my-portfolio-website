@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-07-29T08:27:13.397Z",
+  "updatedAt": "2026-07-29T09:39:01.430Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Citigroup Adjusts Price Target on Visa to $440 From $400, Maintains Buy Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-visa-092330981.html",
+      "image": null,
+      "publishedAt": 1785317010000
+    },
+    {
+      "ticker": "V",
+      "title": "Evercore ISI Adjusts Price Target on Visa to $370 From $350, Maintains In Line Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-price-target-092324488.html",
+      "image": null,
+      "publishedAt": 1785317004000
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly Is Acquiring AtaiBeckley for $2.8 Billion. Cathie Wood Thinks Another Psychedelic Drug Stock Is an Even Better Bet.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/70cb9124-eb61-344d-b750-e8494674d0fd/eli-lilly-is-acquiring.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sZBDp7KRrTldHXgBRgjmnw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2c5a116d5316481188e6ac66b0fa215a",
+      "publishedAt": 1785316800000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Stock May Be Mispriced On Its 172% Run",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-stock-may-mispriced-091028517.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tWVhDwEErhILAVhl9pkulg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd",
+      "publishedAt": 1785316228000
+    },
+    {
+      "ticker": "MNST",
+      "title": "Should You Buy This Monster Growth Stock Before Its 2-for-1 Stock Split Takes Effect on Aug. 11?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6b93196b-5664-3f9a-b3a9-874310ca1787/should-you-buy-this-monster.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dCSYFQrymZQUAs09JFoxqA--~B/aD0xMDkxO3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/240c8e950a1d10c77a342a23bb49b8a6",
+      "publishedAt": 1785313680000
+    },
     {
       "ticker": "MA",
       "title": "Tech Earnings, Fed Meeting: What to Watch the Rest of the Week",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/c2d39088-c6d5-3d65-8d21-2fc3c3af8c89/cramer-sees-echoes-of-dot-com.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Kxb.lM0HfQtua4BthjpUjg--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/cc4a1b492d807a16d0991a233e579f47",
       "publishedAt": 1785286868000
-    },
-    {
-      "ticker": "V",
-      "title": "Analyst Report: Visa Inc.",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/ad91e783-1819-3ee7-aff5-58fada94509c/analyst-report%3A-visa-inc..html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-      "publishedAt": 1785285127000
-    },
-    {
-      "ticker": "KO",
-      "title": "Hated Hydration Breaks Allow Coke To Take FIFA Victory Lap",
-      "publisher": "MediaPost",
-      "link": "https://finance.yahoo.com/m/3fcceb65-e218-3d86-9df2-4da2fe2185ea/hated-hydration-breaks-allow.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/p_VrxY2K2NWSmVoiUJz49w--~B/aD0xMjU7dz0yMDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mediapost_446/29064e9bca809677b54fcb96aba75ac3",
-      "publishedAt": 1785284226000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard (MA) Launches Scam Program And Expands Stablecoin Payment Infrastructure",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-launches-scam-program-001655872.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MS7.mT0nYIxOGyj8UQ77NA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/689e99a8f21cc823d1bf075c38345f1e",
-      "publishedAt": 1785284215000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Q3 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/4926811f-119b-35da-a004-c7a7075691a6/visa-q3-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/R2TokbJdeOXFdY0_FmmFrw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/2b7986366ea2090668c5c623c3cbb78f",
-      "publishedAt": 1785283437000
-    },
-    {
-      "ticker": "V",
-      "title": "X, Visa Launch Payments App For U.S. Subscribers",
-      "publisher": "MediaPost",
-      "link": "https://finance.yahoo.com/m/ec3c7a25-16d7-31cc-a831-bee5766ab874/x%2C-visa-launch-payments-app.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YFpfmrkzFXI615jw9A7hew--~B/aD0xMjU7dz0yMDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mediapost_446/53d215cdf6ae013f48565752020ba828",
-      "publishedAt": 1785283260000
     }
   ]
 }
