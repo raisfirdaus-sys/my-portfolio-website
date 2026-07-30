@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-30T07:34:49.883Z",
+  "updatedAt": "2026-07-30T09:00:10.278Z",
   "items": [
+    {
+      "ticker": "AAPL",
+      "title": "Bayerische Motoren Werke Aktiengesellschaft Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/3540bfb2-0c54-38e8-af69-91c053ad604f/bayerische-motoren-werke.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/JuKQFqvtvrD8hRLs_uIqjA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/9fcd6124dcdbb19030863953e760b215",
+      "publishedAt": 1785398638000
+    },
+    {
+      "ticker": "PEP",
+      "title": "Zacks Earnings Trends Highlights: MU, GOOGL, SPCX, PG, CAG and PEP",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-mu-074100750.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/VoxwhmWCJKTUZyS4Myz08Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0ac112d5c16fc98d5217d000d65874d4",
+      "publishedAt": 1785397260000
+    },
     {
       "ticker": "GILD",
       "title": "Gilead (GILD) Stock Stays Cheap On Its 130% Five Year Run",
@@ -16,6 +32,14 @@
       "link": "https://finance.yahoo.com/m/3d102875-e67f-3c12-8fd6-6e594d7cfb84/procter-%26-gamble-q4-earnings.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/bIKfbuzkmaQ25qBD8hgUog--~B/aD0xMjAwO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/marketbeat_955/9125ce611714f29d0627488c4dd004b6",
       "publishedAt": 1785395039000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple Earnings Are Almost Here. Why Tim Cook’s Last Call as CEO Matters More Than Ever.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/ad1107a2-392e-3c8e-a238-60664975114e/apple-earnings-are-almost.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/cDdC83qKO30og9cHas1DbA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/50bd76a8326c13345a1b8d7131fcf27b",
+      "publishedAt": 1785393621000
     },
     {
       "ticker": "GILD",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/f2deb665-ec98-3314-9e32-00b6537d5734/why-coca-cola-stock-was-so.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/1B1AvKiewaFzFBqDoWTqTw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d6b3055b579d9dc9baf9ef586946ef7a",
       "publishedAt": 1785366350000
-    },
-    {
-      "ticker": "V",
-      "title": "GBank Financial Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/46e14db4-5ff0-3062-835c-4765233890b6/gbank-financial-q2-earnings.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/13B0El2bcFkcTV9XUGXl6w--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/6c626e3a980998541acd967ce7e88315",
-      "publishedAt": 1785366245000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "QCOM Stock Drops Nearly 8% After Hours — Qualcomm’s Q3 Earnings Miss, Weak Q4 Outlook Overshadows Revenue Beat",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/a30e358b-80a9-3a6a-bebf-97633be05baf/qcom-stock-drops-nearly-8%25.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BbgnJMXyiojCIx0sEKbCtA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/1c3cba9d6175464f7c5b021877e4f839",
-      "publishedAt": 1785364868000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Senators Warn Apple Not to Buy Memory Chips From Chinese Firms",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/articles/senators-warn-apple-not-buy-223631097.html",
-      "image": null,
-      "publishedAt": 1785364591000
     }
   ]
 }
