@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-07-30T04:41:54.540Z",
+  "updatedAt": "2026-07-30T06:08:10.394Z",
   "items": [
+    {
+      "ticker": "GILD",
+      "title": "Gilead Sciences (GILD) Following Trodelvy Progress And A Fair Value Debate",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-gild-following-trodelvy-042711760.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/XkVvF8SSVaq7J0vruaJ2fQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/34a971ca153ed4a9b10f7d789bca1b9d",
+      "publishedAt": 1785385631000
+    },
     {
       "ticker": "AAPL",
       "title": "Jensen Huang's Bullish Call on the AI Market Can Make Nvidia a $5 Trillion Company Again",
@@ -42,6 +50,14 @@
       "publishedAt": 1785373397000
     },
     {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson (JNJ) Seeks $5.5 Billion Talc Lawsuit Settlement",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-seeks-5-001503367.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wxHG3472blIF9Fx2sAPuCg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7",
+      "publishedAt": 1785370503000
+    },
+    {
       "ticker": "AAPL",
       "title": "Qualcomm Q3 Earnings Call Highlights",
       "publisher": "MarketBeat",
@@ -64,6 +80,14 @@
       "link": "https://finance.yahoo.com/m/a9e56e7e-38fd-354d-bcff-751e2d9f4b4b/analyst-report%3A-incyte.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
       "publishedAt": 1785369238000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson Gets Option to Acquire Sail Biomedicines for $2.58 Billion",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-gets-option-acquire-234722150.html",
+      "image": null,
+      "publishedAt": 1785368842000
     },
     {
       "ticker": "PEP",
@@ -114,36 +138,12 @@
       "publishedAt": 1785363960000
     },
     {
-      "ticker": "LLY",
-      "title": "How Much Eli Lilly (LLY) Are You Really Betting On?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/11651051-7585-3508-88ca-cd420020e831/how-much-eli-lilly-%28lly%29-are.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qk3OCBofIzVoWR3bvKvkwQ--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58",
-      "publishedAt": 1785361416000
-    },
-    {
-      "ticker": "LLY",
-      "title": "Meet the Stock That's Obliterating Eli Lilly, Johnson & Johnson, and AbbVie Right Now",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/eb30adb0-62ac-3c7d-bd20-8902b2de9c94/meet-the-stock-that%27s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yPy8Qpswe2Ln7YeWfdbuMg--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/362c66c7139a8d01bc42a9b4e2a41b97",
-      "publishedAt": 1785360000000
-    },
-    {
-      "ticker": "PG",
-      "title": "The Procter & Gamble Company Q4 2026 Earnings Call Summary",
-      "publisher": "Moby",
-      "link": "https://finance.yahoo.com/m/8869120a-5205-3f87-8250-f93da6f36243/the-procter-%26-gamble-company.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EA252XfgM4qOvcsK8wWPBg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moby_896/8b4ac6bfd0cbf3de8ac8d958b160cb97",
-      "publishedAt": 1785359420000
-    },
-    {
-      "ticker": "PG",
-      "title": "Procter & Gamble Co (PG) Q4 2026 Earnings Call Highlights: Navigating Growth Amidst Margin ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-co-pg-q4-210330723.html",
-      "image": null,
-      "publishedAt": 1785359010000
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson Comes to Strategic Agreement with Sail Biomedicines",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/fdc4462c-fb40-34d3-8691-fbf30ab7902c/johnson-%26-johnson-comes-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T6aZl6u1eURN0Jy7QD6LXA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7ab6a035088c246d0a0b8d46a53a5a9d",
+      "publishedAt": 1785363180000
     }
   ]
 }
