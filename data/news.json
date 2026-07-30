@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-07-30T03:16:58.916Z",
+  "updatedAt": "2026-07-30T04:41:54.540Z",
   "items": [
+    {
+      "ticker": "AAPL",
+      "title": "Jensen Huang's Bullish Call on the AI Market Can Make Nvidia a $5 Trillion Company Again",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/9b68c2d9-9e3c-367f-987c-6943eac597a8/jensen-huang%27s-bullish-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/BLfJLmsk7YONZY9_ji39OA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/fa2edc8ad0f82147030906b66c6e271e",
+      "publishedAt": 1785385200000
+    },
+    {
+      "ticker": "V",
+      "title": "Will Visa's (V) Job Cuts and Stablecoin Platform Launch Change Its Core Investment Narrative?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visas-v-job-cuts-stablecoin-031820306.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jPzwWEXpk3MJSpDfdxbAaw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e",
+      "publishedAt": 1785381500000
+    },
+    {
+      "ticker": "KO",
+      "title": "Why Did KO, MDLZ, TGT Stocks Hit 52-Week Highs Today?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/3ddcde45-b3f5-37a6-abd9-7f15034aaa31/why-did-ko%2C-mdlz%2C-tgt-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.5bWxaVPKzHdJ6gY9ZEU2Q--~B/aD04NTI7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/addc0dbaeead06a8b7f28cb3275e2dda",
+      "publishedAt": 1785380940000
+    },
     {
       "ticker": "AAPL",
       "title": "Bank of America doubles down on Apple stock ahead of earnings",
@@ -16,14 +40,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-co-ko-q2-010317086.html",
       "image": null,
       "publishedAt": 1785373397000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Seeks $5.5 Billion Talc Lawsuit Settlement",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-seeks-5-001503367.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wxHG3472blIF9Fx2sAPuCg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7",
-      "publishedAt": 1785370503000
     },
     {
       "ticker": "AAPL",
@@ -48,14 +64,6 @@
       "link": "https://finance.yahoo.com/m/a9e56e7e-38fd-354d-bcff-751e2d9f4b4b/analyst-report%3A-incyte.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
       "publishedAt": 1785369238000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson Gets Option to Acquire Sail Biomedicines for $2.58 Billion",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-gets-option-acquire-234722150.html",
-      "image": null,
-      "publishedAt": 1785368842000
     },
     {
       "ticker": "PEP",
@@ -106,30 +114,6 @@
       "publishedAt": 1785363960000
     },
     {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson Comes to Strategic Agreement with Sail Biomedicines",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/fdc4462c-fb40-34d3-8691-fbf30ab7902c/johnson-%26-johnson-comes-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T6aZl6u1eURN0Jy7QD6LXA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7ab6a035088c246d0a0b8d46a53a5a9d",
-      "publishedAt": 1785363180000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Big Tech earnings meet IPO buzz: What to watch Thursday",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/big-tech-earnings-meet-ipo-220000114.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KkQxaTGoYmaVPuBTIXQ3dA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/wtw730_1341.png",
-      "publishedAt": 1785362400000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Sail Biomedicines Announces Strategic Collaboration to Develop New Class of Medicines for In Vivo CAR-T",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/healthcare/articles/sail-biomedicines-announces-strategic-collaboration-214500823.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9pKp5igqGewQm60iRF3qQg--~B/aD00NDY7dz0xMjEyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/5ba1bb632e224155481062013e6b35b2",
-      "publishedAt": 1785361500000
-    },
-    {
       "ticker": "LLY",
       "title": "How Much Eli Lilly (LLY) Are You Really Betting On?",
       "publisher": "Trefis",
@@ -138,12 +122,28 @@
       "publishedAt": 1785361416000
     },
     {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson Completes Acquisition of Firefly Bio, Inc. to Advance Next-Generation Oncology Innovation",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-completes-acquisition-firefly-214200370.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/a8Wbm8oW_LtHYetFke9iAg--~B/aD0yMjQ7dz0yNDA0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/33006deebc489642b8eb6f07302a745f",
-      "publishedAt": 1785361320000
+      "ticker": "LLY",
+      "title": "Meet the Stock That's Obliterating Eli Lilly, Johnson & Johnson, and AbbVie Right Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/eb30adb0-62ac-3c7d-bd20-8902b2de9c94/meet-the-stock-that%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/yPy8Qpswe2Ln7YeWfdbuMg--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/362c66c7139a8d01bc42a9b4e2a41b97",
+      "publishedAt": 1785360000000
+    },
+    {
+      "ticker": "PG",
+      "title": "The Procter & Gamble Company Q4 2026 Earnings Call Summary",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/m/8869120a-5205-3f87-8250-f93da6f36243/the-procter-%26-gamble-company.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/EA252XfgM4qOvcsK8wWPBg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moby_896/8b4ac6bfd0cbf3de8ac8d958b160cb97",
+      "publishedAt": 1785359420000
+    },
+    {
+      "ticker": "PG",
+      "title": "Procter & Gamble Co (PG) Q4 2026 Earnings Call Highlights: Navigating Growth Amidst Margin ...",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-co-pg-q4-210330723.html",
+      "image": null,
+      "publishedAt": 1785359010000
     }
   ]
 }
