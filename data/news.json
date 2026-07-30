@@ -1,77 +1,37 @@
 {
-  "updatedAt": "2026-07-30T16:01:47.254Z",
+  "updatedAt": "2026-07-30T20:42:51.835Z",
   "items": [
     {
-      "ticker": "MA",
-      "title": "Mastercard Second-Quarter Results Top Street Estimates",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-second-quarter-results-top-153623377.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/g8jwhTH3t5AnKvIN0eK.BQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/cb010255d6add597d9029ba396df1cb3",
-      "publishedAt": 1785425783000
+      "ticker": "AAPL",
+      "title": "Apple revenue, profits beat expectations on iPhone, Mac sales",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-revenue-profits-beat-expectations-203104726.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8eyfq2JQXSre5w5Gmr8E5g--~B/aD01MDg7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/cbeb35c9c59b41457c7e2fb12b598901",
+      "publishedAt": 1785443464000
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly Expands Collaboration With Resilience to Boost KwikPen Production",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-expands-collaboration-resilience-151007691.html",
+      "ticker": "AAPL",
+      "title": "Will Apple’s New Klarna-Powered Leasing Shift Its Ecosystem Monetization Narrative for AAPL?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-klarna-powered-leasing-shift-200851142.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fBnY8upz5XxbZDDWlufZ9w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/69084628647944e382f8e555f97913e8",
+      "publishedAt": 1785442131000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Contineum Therapeutics Reports Second-Quarter 2026 Financial Results; Affirms Key Clinical Development Milestones",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/healthcare/articles/contineum-therapeutics-reports-second-quarter-200500999.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tax5L_gnnaA83kKynvIFyg--~B/aD02NjM7dz0xODc1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/2fac95e26d59a7bfd48fc7abcc3bcf04",
+      "publishedAt": 1785441900000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Qualcomm's Data Center Bet Meets Harsh Reality",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomms-data-center-bet-meets-200448265.html",
       "image": null,
-      "publishedAt": 1785424207000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Apple stock is at a record — how to cushion gains ahead of earnings: AlphaSpace Options Playbook",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/apple-stock-is-at-a-record--how-to-cushion-gains-ahead-of-earnings-alphaspace-options-playbook-150631136.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gFlfF0Bh3ns84zMT4Gvu6g--~B/aD0yMzU2O3c9MzUzNTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-07/e33b0ed4-01cb-43e9-9da5-ebe070e95970",
-      "publishedAt": 1785423991000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "EU regulatory roundup: AbbVie, Pfizer & BioNTech and Incyte net approvals",
-      "publisher": "Pharmaceutical Technology",
-      "link": "https://finance.yahoo.com/m/77cefb14-1a18-3d83-86e7-7d0b305ad0f3/eu-regulatory-roundup%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8cmmZExN0.q10f6gpGVNpw--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pharmaceutical_technology_376/39837dd6aaf60ce20bca18a81b6eed8f",
-      "publishedAt": 1785423940000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "New 'Apple Upgrade' Program Might Be a Talking Point Today. What to Know.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/875e5178-879c-3d1a-8b2a-c92740cc6498/new-%27apple-upgrade%27-program.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_kc6REYMS1JrAuV5bYtjfA--~B/aD02NTt3PTMyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e",
-      "publishedAt": 1785423873000
-    },
-    {
-      "ticker": "PG",
-      "title": "Publicis Is Winning the AI Advertising Race, and Its Stock Still Looks Cheap",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/d9a56603-eea9-3ad4-9b00-43f50bd7fb48/publicis-is-winning-the-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9tY_09AY6uztBNXVal0OUw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/694420ad75a939e19491b0d472d231be",
-      "publishedAt": 1785422820000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "TSMC Stock Gains On Report Of Developing 'EMIB-Like' Chips To Counter Intel's AI Threat",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/9a7bc3d9-fc8d-341f-bffb-21fbc1deb687/tsmc-stock-gains-on-report-of.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lvziBalXrIvVV1DbVPRhEQ--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/c9296b5fe5affb03b90bf0a70d612c5f",
-      "publishedAt": 1785422811000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Stock Market Today: Dow, Nasdaq Rebound Sharply; Fortinet Up, Meta Slammed After Earnings (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/826969c6-014c-37f9-9ed7-da1bab782e05/stock-market-today%3A-dow%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yFYixt4zfmpEGBBg4OOySw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/c17b5b65818a93054b26ab66c9c27269",
-      "publishedAt": 1785422267000
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Prediction: Apple Will Become a $5 Trillion Company on July 30",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e3e37341-da98-356e-b512-089d7cc77439/prediction%3A-apple-will-become.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/di7bFdZ4w9yEjZUrOojlLQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2abcd509faf1a392f78ecd77a5d454c7",
-      "publishedAt": 1785422100000
+      "publishedAt": 1785441888000
     },
     {
       "ticker": "AAPL",
@@ -79,23 +39,71 @@
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/71ff9641-db40-3281-9864-a1385b54dc3f/apple-earnings%3A-what-to.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/imr4cvBhWUyMWaoqQELKsg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/627f99e8bba202e242e0a03b27bcf535",
-      "publishedAt": 1785421980000
+      "publishedAt": 1785441638000
     },
     {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson's Rybrevant Faspro Secures FDA Priority Review for Head, Neck Cancer Treatment",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-apos-rybrevant-faspro-143024605.html",
+      "ticker": "AAPL",
+      "title": "Stock Market Today: Nasdaq Rebounds As Chips Leap; Oil Down As Gaming Stock Plunges (Live Coverage)",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/826969c6-014c-37f9-9ed7-da1bab782e05/stock-market-today%3A-nasdaq.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ofw7nlXDhvR2WHaLoqsfGQ--~B/aD0yMTA1O3c9Mzc0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ibd.com/34a991df71ea99aafb51b648df5ddebc",
+      "publishedAt": 1785441602000
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Qualcomm Stock Falls 3.1% as Nine Analysts Cut Targets",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-falls-3-1-195735279.html",
       "image": null,
-      "publishedAt": 1785421824000
+      "publishedAt": 1785441455000
     },
     {
       "ticker": "MA",
-      "title": "Analyst Report: Mastercard Incorporated",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/63afa4bb-314b-366a-8be8-ff741fb53b49/analyst-report%3A-mastercard.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-      "publishedAt": 1785421221000
+      "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-195214924.html",
+      "image": null,
+      "publishedAt": 1785441134000
+    },
+    {
+      "ticker": "PG",
+      "title": "P&G Stock Falls 1.8% as $1 Billion Cost Hit Looms",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-g-stock-falls-1-195132308.html",
+      "image": null,
+      "publishedAt": 1785441092000
+    },
+    {
+      "ticker": "LLY",
+      "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194608510.html",
+      "image": null,
+      "publishedAt": 1785440768000
+    },
+    {
+      "ticker": "V",
+      "title": "This Value Investor Favors Global Stocks With Low Valuations, Dividends",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/9edc01d5-c3c7-32ff-9f0a-056d8b5fd68d/this-value-investor-favors.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/M_2yhQJOYu7jmKRgjRSrvg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/69b0960c669611d5aa13561a4dbe71c3",
+      "publishedAt": 1785436620000
+    },
+    {
+      "ticker": "V",
+      "title": "Elon Musk aims at Venmo with one bold perk",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/207925d1-1aa1-357e-b70a-e083b6f31f2a/elon-musk-aims-at-venmo-with.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.9inRyVoZxAXFToHaClpXw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/2e37c6808de68c865c5353ed4e24a631",
+      "publishedAt": 1785436380000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard’s Earnings Beat Shows It’s Much More Than a Card Company",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/f2449616-d98e-3e59-869f-d707578877af/mastercard%E2%80%99s-earnings-beat.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2O.QBYMJyFK0MlLCtsj69w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d0ecd6a39f2ff6a53854b7b5a6871aa4",
+      "publishedAt": 1785436200000
     },
     {
       "ticker": "JNJ",
@@ -103,47 +111,39 @@
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/a94817ef-1fdd-3d60-bbcb-05b65b0ba021/bristol-myers-stock-rises..html",
       "image": "https://s.yimg.com/uu/api/res/1.2/DPKGYD0khThhircrR.4o_A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/da0aa645234abcac6829d038c81ab124",
-      "publishedAt": 1785420660000
+      "publishedAt": 1785436020000
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly (LLY) Joins Illumina’s Billion Cell Atlas For AI Drug Discovery",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-joins-illumina-140733174.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GmLrvk6yzLfNFw9tRzPaYg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/5eef176f2a2dc130a63fafe4bd1968dd",
-      "publishedAt": 1785420453000
+      "ticker": "V",
+      "title": "Market Update: CTSH, F, INCY, SBUX, SWKS, V, QRVO, SOFI",
+      "publisher": "Argus Research",
+      "link": "https://finance.yahoo.com/m/ab299276-7eb1-346e-aa08-2d45693c3a1d/market-update%3A-ctsh%2C-f%2C-incy%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
+      "publishedAt": 1785435883000
     },
     {
-      "ticker": "ABBV",
-      "title": "What To Expect From AbbVie’s (ABBV) Q2 Earnings",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/healthcare/articles/expect-abbvie-abbv-q2-earnings-140502094.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lf52qs1zYTmbpV3zIo5guA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/621a415265c388bc8e9eb8ecaf0fb0a8",
-      "publishedAt": 1785420302000
+      "ticker": "V",
+      "title": "Analyst Report: Visa Inc",
+      "publisher": "Argus Research",
+      "link": "https://finance.yahoo.com/m/68657f53-dab6-3ac4-8c36-83d1cb844d19/analyst-report%3A-visa-inc.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
+      "publishedAt": 1785435883000
     },
     {
-      "ticker": "MA",
-      "title": "Mastercard Stock Rises as Earnings Get Boost From Growth in Payments Network",
+      "ticker": "PG",
+      "title": "Publicis Is Winning the AI Advertising Race, and Its Stock Still Looks Cheap",
       "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/f2449616-d98e-3e59-869f-d707578877af/mastercard-stock-rises-as.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2O.QBYMJyFK0MlLCtsj69w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d0ecd6a39f2ff6a53854b7b5a6871aa4",
-      "publishedAt": 1785420240000
-    },
-    {
-      "ticker": "MNST",
-      "title": "Monster Beverage (MNST) Earnings Expected to Grow: Should You Buy?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-mnst-earnings-expected-140034946.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Fs_R4sd8jCoOMib958Znmg--~B/aD02MDM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
-      "publishedAt": 1785420034000
+      "link": "https://finance.yahoo.com/m/d9a56603-eea9-3ad4-9b00-43f50bd7fb48/publicis-is-winning-the-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9tY_09AY6uztBNXVal0OUw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/694420ad75a939e19491b0d472d231be",
+      "publishedAt": 1785435360000
     },
     {
       "ticker": "MA",
-      "title": "MasterCard (MA) Reports Q2 Earnings: What Key Metrics Have to Say",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-reports-q2-earnings-140002661.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XxozWWpdDFgGg6m0CzltLg--~B/aD02MDI7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
-      "publishedAt": 1785420002000
+      "title": "Sector Update: Financial Stocks Advance Thursday Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-thursday-174309107.html",
+      "image": null,
+      "publishedAt": 1785433389000
     }
   ]
 }
