@@ -1376,8 +1376,151 @@ p {
   margin-top: 4px;
 }
 
+.analyzer-result[hidden] {
+  display: none;
+}
+
+.analyzer-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.analyzer-id {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.analyzer-id strong {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--ink-900);
+}
+
+.analyzer-id span {
+  font-size: 13px;
+  color: var(--ink-400);
+}
+
+.analyzer-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.analyzer-price strong {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--ink-900);
+  font-variant-numeric: tabular-nums;
+}
+
+.analyzer-result .score-gauge-row {
+  margin-top: 18px;
+}
+
+.analyzer-result .score-range {
+  margin-top: 18px;
+}
+
+.analyzer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.analyzer-card {
+  background: var(--cream-100);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+}
+
+.analyzer-card h4 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  color: var(--ink-900);
+  margin: 0 0 12px;
+}
+
+.analyzer-card ul {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.analyzer-card li {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-600);
+}
+
+.analyzer-sr-price {
+  text-align: center;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-400);
+  margin: 10px 0;
+}
+
+.analyzer-sr h5 {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-400);
+  margin: 0 0 8px;
+}
+
+.analyzer-sr-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+}
+
+.analyzer-sr-row:last-child {
+  border-bottom: none;
+}
+
+.analyzer-sr-label {
+  color: var(--ink-400);
+  flex: 1 1 auto;
+}
+
+.analyzer-sr-value {
+  font-weight: 700;
+  color: var(--ink-900);
+  font-variant-numeric: tabular-nums;
+}
+
+.analyzer-sr-dist {
+  font-size: 11.5px;
+  color: var(--ink-400);
+  white-space: nowrap;
+}
+
+.analyzer-sr-empty {
+  font-size: 12.5px;
+  color: var(--ink-400);
+  margin: 0;
+}
+
 @media (max-width: 760px) {
   .game-stats { grid-template-columns: repeat(2, 1fr); }
+  .analyzer-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------------- Growth Rate section (dark) ---------------- */

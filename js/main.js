@@ -1387,18 +1387,53 @@ async function fetchViaProxy(proxyUrl, timeoutMs) {
 // client-side so the game's arbitrary tickers get a real momentum read
 // too — not fabricated, just computed from the same 1-year daily-close
 // series and 52-week range Yahoo already returns.
+const NY_DATE_FORMATTER = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" });
+function nyDateOf(epochSeconds) {
+  return NY_DATE_FORMATTER.format(new Date(epochSeconds * 1000));
+}
+
 function parseYahooChartQuote(json, ticker) {
   const result = json?.chart?.result?.[0];
   const meta = result?.meta;
   if (!result || !meta || typeof meta.regularMarketPrice !== "number") {
     throw new Error(`"${ticker}" doesn't look like a valid ticker.`);
   }
-  const price = meta.regularMarketPrice;
+
+  // Same "most recent of regular/post/pre-market" candidate pick as
+  // scripts/fetch-quotes.mjs, so a ticker typed into the game/analyzer gets
+  // the same live-price accuracy as the 11 core holdings instead of
+  // silently lagging on a stale regularMarketPrice outside trading hours.
+  const priceCandidates = [
+    { price: meta.regularMarketPrice, time: meta.regularMarketTime },
+    { price: meta.postMarketPrice, time: meta.postMarketTime },
+    { price: meta.preMarketPrice, time: meta.preMarketTime },
+  ].filter((c) => typeof c.price === "number" && typeof c.time === "number");
+  const latestCandidate = priceCandidates.length
+    ? priceCandidates.reduce((a, b) => (b.time > a.time ? b : a))
+    : { price: meta.regularMarketPrice, time: meta.regularMarketTime };
+  const price = latestCandidate.price;
 
   const timestamps = result.timestamp || [];
   const closes = result.indicators?.quote?.[0]?.close || [];
   const series = timestamps.map((t, i) => ({ t, c: closes[i] })).filter((p) => typeof p.c === "number");
   const pctFrom = (base) => (typeof base === "number" && base ? ((price - base) / base) * 100 : null);
+
+  // Same calendar-date-in-the-exchange's-own-timezone previous-close logic
+  // as fetch-quotes.mjs — naively trusting meta.previousClose (or counting
+  // back a fixed number of series entries) breaks across weekends.
+  let prevClose = null;
+  if (typeof latestCandidate.time === "number") {
+    const todayNy = nyDateOf(latestCandidate.time);
+    for (let i = series.length - 1; i >= 0; i--) {
+      if (nyDateOf(series[i].t) < todayNy) {
+        prevClose = series[i].c;
+        break;
+      }
+    }
+  }
+  prevClose = prevClose ?? meta.previousClose ?? meta.chartPreviousClose ?? null;
+  const changePercent = pctFrom(prevClose) ?? 0;
+  const change = typeof prevClose === "number" ? price - prevClose : 0;
 
   const oneYearReturnPercent = pctFrom(series[0]?.c);
   const jan1 = Date.UTC(new Date().getUTCFullYear(), 0, 1) / 1000;
@@ -1409,10 +1444,13 @@ function parseYahooChartQuote(json, ticker) {
     ticker: (meta.symbol || ticker).toUpperCase(),
     name: meta.shortName || meta.longName || meta.symbol || ticker,
     price,
+    change,
+    changePercent,
     weekLow52: typeof meta.fiftyTwoWeekLow === "number" ? meta.fiftyTwoWeekLow : null,
     weekHigh52: typeof meta.fiftyTwoWeekHigh === "number" ? meta.fiftyTwoWeekHigh : null,
     oneYearReturnPercent,
     ytdReturnPercent,
+    series,
   };
 }
 
@@ -1613,6 +1651,213 @@ function initGameBacktest() {
       const result = await runGameBacktest(ticker, selectedYears);
       feedbackEl.textContent = "";
       renderBacktestResult(result, selectedYears);
+    } catch (err) {
+      feedbackEl.textContent = err.message || "Something went wrong — try again.";
+      feedbackEl.classList.add("down");
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Stock Analyzer — scout any US ticker with a live quote plus a genuinely
+// computed technical read: 52-week range position, YTD/1-year trend, the
+// same Momentum score used everywhere else on the site, and support/
+// resistance levels derived from real historical closes (3-month, 6-month,
+// and official 52-week extremes). Everything here is arithmetic on real
+// data, not a fabricated "AI confidence" narrative.
+// ---------------------------------------------------------------------------
+function computeSupportResistance(series, price, weekLow52, weekHigh52) {
+  const now = series.length ? series[series.length - 1].t : Math.floor(Date.now() / 1000);
+  const windowSince = (days) => series.filter((p) => p.t >= now - days * 86400);
+
+  const levels = [];
+  const addLevel = (label, value) => {
+    if (typeof value === "number" && isFinite(value)) levels.push({ label, value });
+  };
+
+  const threeMo = windowSince(91);
+  if (threeMo.length) {
+    addLevel("3-Month Low", Math.min(...threeMo.map((p) => p.c)));
+    addLevel("3-Month High", Math.max(...threeMo.map((p) => p.c)));
+  }
+  const sixMo = windowSince(182);
+  if (sixMo.length) {
+    addLevel("6-Month Low", Math.min(...sixMo.map((p) => p.c)));
+    addLevel("6-Month High", Math.max(...sixMo.map((p) => p.c)));
+  }
+  addLevel("52-Week Low", weekLow52);
+  addLevel("52-Week High", weekHigh52);
+
+  // The 3-month high and 52-week high are frequently the exact same print —
+  // de-dupe near-identical levels so the same price doesn't show up twice.
+  const seenValues = [];
+  const distinctLevels = levels.filter((lvl) => {
+    const isDup = seenValues.some((v) => Math.abs(v - lvl.value) / lvl.value < 0.002);
+    if (isDup) return false;
+    seenValues.push(lvl.value);
+    return true;
+  });
+
+  const resistances = distinctLevels.filter((l) => l.value > price * 1.001).sort((a, b) => a.value - b.value);
+  const supports = distinctLevels.filter((l) => l.value < price * 0.999).sort((a, b) => b.value - a.value);
+  return { resistances, supports };
+}
+
+function buildTechnicalReadBullets(q, score) {
+  const bullets = [];
+  const hasRange = typeof q.weekLow52 === "number" && typeof q.weekHigh52 === "number" && q.weekHigh52 > q.weekLow52;
+
+  if (hasRange) {
+    const rangePct = clamp(((q.price - q.weekLow52) / (q.weekHigh52 - q.weekLow52)) * 100, 0, 100);
+    const fromHigh = ((q.weekHigh52 - q.price) / q.weekHigh52) * 100;
+    const fromLow = ((q.price - q.weekLow52) / q.weekLow52) * 100;
+    if (rangePct >= 97) {
+      bullets.push(`Trading within 3% of its 52-week high of ${fmtUSD2(q.weekHigh52)}.`);
+    } else if (rangePct <= 3) {
+      bullets.push(`Trading within 3% of its 52-week low of ${fmtUSD2(q.weekLow52)}.`);
+    } else {
+      bullets.push(
+        `Sits in the ${rangePct >= 50 ? "upper" : "lower"} half of its 52-week range — ${fromHigh.toFixed(1)}% below the high (${fmtUSD2(
+          q.weekHigh52
+        )}) and ${fromLow.toFixed(1)}% above the low (${fmtUSD2(q.weekLow52)}).`
+      );
+    }
+  }
+
+  if (typeof q.changePercent === "number") {
+    bullets.push(`${q.changePercent >= 0 ? "Up" : "Down"} ${Math.abs(q.changePercent).toFixed(2)}% today.`);
+  }
+  if (typeof q.ytdReturnPercent === "number") {
+    bullets.push(`${q.ytdReturnPercent >= 0 ? "Up" : "Down"} ${Math.abs(q.ytdReturnPercent).toFixed(1)}% year-to-date.`);
+  }
+  if (typeof q.oneYearReturnPercent === "number") {
+    bullets.push(
+      `${q.oneYearReturnPercent >= 0 ? "Up" : "Down"} ${Math.abs(q.oneYearReturnPercent).toFixed(1)}% over the trailing 12 months.`
+    );
+  }
+  if (score !== null) {
+    bullets.push(
+      `Momentum score: ${score}/100 (${scoreLabel(score)}) — the same YTD/1-year/range-position read used across this site. It describes current price behavior, not a forecast.`
+    );
+  }
+  return bullets;
+}
+
+function renderAnalyzerSrColumn(elId, title, levels, price, isResistance) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  el.innerHTML = "";
+
+  const heading = document.createElement("h5");
+  heading.textContent = title;
+  el.appendChild(heading);
+
+  if (!levels.length) {
+    const p = document.createElement("p");
+    p.className = "analyzer-sr-empty";
+    p.textContent = isResistance
+      ? "No resistance overhead across the windows checked — currently at/near a fresh high."
+      : "No support below across the windows checked — currently at/near a fresh low.";
+    el.appendChild(p);
+    return;
+  }
+
+  levels.slice(0, 2).forEach((lvl) => {
+    const distPct = isResistance ? ((lvl.value - price) / price) * 100 : ((price - lvl.value) / price) * 100;
+    const row = document.createElement("div");
+    row.className = "analyzer-sr-row";
+
+    const labelEl = document.createElement("span");
+    labelEl.className = "analyzer-sr-label";
+    labelEl.textContent = lvl.label;
+    const valueEl = document.createElement("span");
+    valueEl.className = "analyzer-sr-value";
+    valueEl.textContent = fmtUSD2(lvl.value);
+    const distEl = document.createElement("span");
+    distEl.className = "analyzer-sr-dist";
+    distEl.textContent = `${distPct.toFixed(1)}% away`;
+
+    row.append(labelEl, valueEl, distEl);
+    el.appendChild(row);
+  });
+}
+
+function renderAnalyzerResult(q) {
+  const wrap = document.getElementById("analyzer-result");
+  if (!wrap) return;
+  wrap.hidden = false;
+
+  document.getElementById("analyzer-ticker-out").textContent = q.ticker;
+  document.getElementById("analyzer-name-out").textContent = q.name;
+  document.getElementById("analyzer-price-out").textContent = fmtUSD2(q.price);
+
+  const changeEl = document.getElementById("analyzer-change-out");
+  changeEl.className = `chip ${q.changePercent >= 0 ? "chip-up" : "chip-down"}`;
+  changeEl.textContent = `${q.change >= 0 ? "+" : "-"}${fmtUSD2(Math.abs(q.change))} (${fmtPct(q.changePercent, 2)})`;
+
+  const score = gameMomentumScore(q);
+  const color = scoreColor(score);
+  document.getElementById("analyzer-score-out").textContent = score === null ? "—" : score;
+  document.getElementById("analyzer-gauge").style.background =
+    score === null ? "var(--cream-100)" : `conic-gradient(${color} 0% ${score}%, var(--cream-100) ${score}% 100%)`;
+  const labelEl = document.getElementById("analyzer-label-out");
+  labelEl.textContent = scoreLabel(score);
+  labelEl.style.color = color;
+
+  const hasRange = typeof q.weekLow52 === "number" && typeof q.weekHigh52 === "number" && q.weekHigh52 > q.weekLow52;
+  const rangeWrap = document.getElementById("analyzer-range-wrap");
+  if (hasRange) {
+    rangeWrap.hidden = false;
+    const rangePct = clamp(((q.price - q.weekLow52) / (q.weekHigh52 - q.weekLow52)) * 100, 0, 100);
+    document.getElementById("analyzer-range-marker").style.left = `${rangePct}%`;
+    document.getElementById("analyzer-range-low").textContent = fmtUSD2(q.weekLow52);
+    document.getElementById("analyzer-range-high").textContent = fmtUSD2(q.weekHigh52);
+  } else {
+    rangeWrap.hidden = true;
+  }
+
+  const bulletsEl = document.getElementById("analyzer-bullets");
+  bulletsEl.innerHTML = "";
+  buildTechnicalReadBullets(q, score).forEach((text) => {
+    const li = document.createElement("li");
+    li.textContent = text;
+    bulletsEl.appendChild(li);
+  });
+
+  const sr = computeSupportResistance(q.series || [], q.price, q.weekLow52, q.weekHigh52);
+  document.getElementById("analyzer-sr-price").textContent = `Current price: ${fmtUSD2(q.price)}`;
+  renderAnalyzerSrColumn("analyzer-resistance", "Resistance", sr.resistances, q.price, true);
+  renderAnalyzerSrColumn("analyzer-support", "Support", sr.supports, q.price, false);
+}
+
+function initStockAnalyzer() {
+  const form = document.getElementById("analyzer-form");
+  const tickerInput = document.getElementById("analyzer-ticker");
+  const btn = document.getElementById("analyzer-btn");
+  const feedbackEl = document.getElementById("analyzer-feedback");
+  const resultBox = document.getElementById("analyzer-result");
+  if (!form) return;
+
+  attachGameTickerPreview(tickerInput, "analyzer-preview");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const ticker = tickerInput.value.trim().toUpperCase();
+    if (!/^[A-Z][A-Z.\-]{0,9}$/.test(ticker)) {
+      feedbackEl.textContent = "Enter a valid ticker symbol first (e.g. AAPL).";
+      feedbackEl.classList.add("down");
+      return;
+    }
+    btn.disabled = true;
+    feedbackEl.classList.remove("down");
+    feedbackEl.textContent = `Pulling ${ticker}'s live price…`;
+    resultBox.hidden = true;
+    try {
+      const quote = await fetchGameQuote(ticker);
+      feedbackEl.textContent = "";
+      renderAnalyzerResult(quote);
     } catch (err) {
       feedbackEl.textContent = err.message || "Something went wrong — try again.";
       feedbackEl.classList.add("down");
@@ -2097,6 +2342,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initReportCountUp();
   initGame();
   initGameBacktest();
+  initStockAnalyzer();
   loadLiveQuotes();
   loadNews();
   loadCharts();

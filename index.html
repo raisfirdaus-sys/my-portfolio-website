@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css?v=28" />
+<link rel="stylesheet" href="css/style.css?v=29" />
 </head>
 <body>
 
@@ -397,6 +397,68 @@
         <div class="game-stat">
           <span class="game-stat-label">Actual Return Since</span>
           <strong id="bt-return">—</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-backtest-panel game-panel reveal">
+      <h3 class="game-backtest-title">Stock Analyzer — scout any US ticker with live data</h3>
+      <p class="game-backtest-intro">
+        Type any US-listed ticker to pull its real live price plus a data-driven read: where it sits in its 52-week
+        range, its today/YTD/1-year trend, the same Momentum score used across this site, and support &amp;
+        resistance levels computed from its real price history (3-month, 6-month, and 52-week extremes). This is a
+        transparent readout of current price behavior — not a prediction, analyst rating, or trading signal.
+      </p>
+      <form class="game-buy-form" id="analyzer-form">
+        <input type="text" id="analyzer-ticker" class="game-input" placeholder="Ticker, e.g. NVDA, TSLA, AAPL" maxlength="10" autocomplete="off" />
+        <button type="submit" class="btn btn-primary" id="analyzer-btn">Analyze</button>
+      </form>
+      <p class="game-quote-preview" id="analyzer-preview"></p>
+      <p class="game-feedback" id="analyzer-feedback"></p>
+
+      <div class="analyzer-result" id="analyzer-result" hidden>
+        <div class="analyzer-header">
+          <div class="analyzer-id">
+            <strong id="analyzer-ticker-out">—</strong>
+            <span id="analyzer-name-out"></span>
+          </div>
+          <div class="analyzer-price">
+            <strong id="analyzer-price-out">—</strong>
+            <span class="chip" id="analyzer-change-out"></span>
+          </div>
+        </div>
+
+        <div class="score-gauge-row">
+          <div class="score-gauge" id="analyzer-gauge">
+            <div class="score-gauge-inner"><strong id="analyzer-score-out">—</strong></div>
+          </div>
+          <div class="score-gauge-info">
+            <span class="score-gauge-label" id="analyzer-label-out">—</span>
+            <span class="score-gauge-note">Momentum score — YTD &amp; 1-year trend plus 52-week range position</span>
+          </div>
+        </div>
+        <div class="score-range" id="analyzer-range-wrap" hidden>
+          <div class="score-range-track">
+            <div class="score-range-marker" id="analyzer-range-marker" style="left:0%"></div>
+          </div>
+          <div class="score-range-labels">
+            <span id="analyzer-range-low">—</span>
+            <span>52-Week Range</span>
+            <span id="analyzer-range-high">—</span>
+          </div>
+        </div>
+
+        <div class="analyzer-grid">
+          <div class="analyzer-card">
+            <h4>Technical Read</h4>
+            <ul id="analyzer-bullets"></ul>
+          </div>
+          <div class="analyzer-card">
+            <h4>Support &amp; Resistance</h4>
+            <div class="analyzer-sr" id="analyzer-resistance"></div>
+            <p class="analyzer-sr-price" id="analyzer-sr-price"></p>
+            <div class="analyzer-sr" id="analyzer-support"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -789,6 +851,6 @@
   </div>
 </div>
 
-<script src="js/main.js?v=27"></script>
+<script src="js/main.js?v=28"></script>
 </body>
 </html>
