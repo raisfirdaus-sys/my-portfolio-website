@@ -6,25 +6,25 @@
 
 const HOLDINGS = [
   {
-    ticker: "LLY",
-    name: "Eli Lilly and Company",
-    sector: "Pharmaceuticals & GLP-1 Therapeutics",
-    website: "https://www.lilly.com",
-    value: 1132.86,
-    changePct: 1.2,
-    growth5y: 90,
+    ticker: "DDOG",
+    name: "Datadog Inc",
+    sector: "Cloud Monitoring & Observability",
+    website: "https://www.datadoghq.com",
+    value: 1110.6,
+    changePct: 0.45,
+    growth5y: 85,
     color: "#123524",
     thesis:
-      "Eli Lilly is the clear leader in the GLP-1 weight-loss and diabetes drug category (Mounjaro, Zepbound), a market still in its early innings globally. A deep pipeline in obesity, Alzheimer's, and oncology backs up the growth story beyond today's blockbuster drugs.",
+      "Datadog is a leading cloud monitoring and observability platform that DevOps and engineering teams rely on to keep modern, distributed applications running. As more of the world's software moves to the cloud and AI-driven workloads multiply, demand for real-time visibility into performance and infrastructure keeps expanding.",
     outlook:
-      "Expanding manufacturing capacity to meet GLP-1 demand and new indications for existing drugs are the catalysts I'm tracking most closely over the next 5 years.",
+      "New AI-observability products and deeper integration across security, logs, and infrastructure monitoring are the growth levers I'm watching over the next 5 years.",
   },
   {
     ticker: "MA",
     name: "Mastercard Inc",
     sector: "Digital Payments",
     website: "https://www.mastercard.com",
-    value: 580.94,
+    value: 597.49,
     changePct: 4.72,
     growth5y: 70,
     color: "#1a4630",
@@ -38,7 +38,7 @@ const HOLDINGS = [
     name: "AbbVie Inc",
     sector: "Pharmaceuticals & Biotech",
     website: "https://www.abbvie.com",
-    value: 527.56,
+    value: 506.14,
     changePct: 21,
     growth5y: 60,
     color: "#1e5238",
@@ -52,7 +52,7 @@ const HOLDINGS = [
     name: "Visa Inc. Class A",
     sector: "Digital Payments",
     website: "https://www.visa.com",
-    value: 390.72,
+    value: 398.71,
     changePct: 9.26,
     growth5y: 65,
     color: "#256346",
@@ -62,56 +62,42 @@ const HOLDINGS = [
       "Value-added services (fraud protection, data analytics) and growing digital transaction volume are driving revenue beyond the core card business.",
   },
   {
+    ticker: "AMZN",
+    name: "Amazon.com Inc",
+    sector: "E-Commerce & Cloud Computing",
+    website: "https://www.amazon.com",
+    value: 351.03,
+    changePct: 8.23,
+    growth5y: 80,
+    color: "#2c7350",
+    thesis:
+      "Amazon combines the world's largest e-commerce marketplace with AWS, the leading cloud computing platform that quietly generates the bulk of the company's operating profit. This dual engine of retail scale and high-margin cloud infrastructure gives it a wide moat few competitors can match.",
+    outlook:
+      "AWS's expansion into generative AI infrastructure, plus advertising revenue growth and logistics efficiency, are the catalysts I'm tracking most closely over the next 5 years.",
+  },
+  {
     ticker: "JNJ",
     name: "Johnson & Johnson",
     sector: "Healthcare & Consumer Health",
     website: "https://www.jnj.com",
-    value: 341.44,
+    value: 330.18,
     changePct: 12.76,
     growth5y: 40,
-    color: "#2c7350",
+    color: "#347e5c",
     thesis:
       "A healthcare giant with broad diversification: pharmaceuticals, MedTech, and consumer products. A Dividend Aristocrat that has consistently raised its dividend for decades in a row.",
     outlook:
       "Post-Kenvue spin-off, the focus is now purely on high-margin pharma & MedTech — a defensive profile that suits balancing a portfolio.",
   },
   {
-    ticker: "AAPL",
-    name: "Apple Inc",
-    sector: "Technology & Consumer Electronics",
-    website: "https://www.apple.com",
-    value: 340.71,
-    changePct: 0.84,
-    growth5y: 75,
-    color: "#347e5c",
-    thesis:
-      "Apple's ecosystem — iPhone, Services, and a massive installed base — gives it exceptional pricing power and one of the stickiest customer bases in tech. Services revenue (App Store, subscriptions) keeps growing as a high-margin, recurring layer on top of hardware sales.",
-    outlook:
-      "On-device AI features across the iPhone/Mac lineup and continued Services growth are the catalysts I'm watching over the next 5 years.",
-  },
-  {
-    ticker: "PG",
-    name: "Procter & Gamble Company",
-    sector: "Consumer Staples",
-    website: "https://www.pg.com",
-    value: 149.15,
-    changePct: -1.77,
-    growth5y: 30,
-    color: "#3d8b68",
-    thesis:
-      "A maker of everyday household staples (Gillette, Pampers, Tide) with strong brand power and high recession resilience. A Dividend Aristocrat with a track record of over 60 years.",
-    outlook:
-      "Steady single-digit growth, but it forms the 'defensive core' that keeps the portfolio calm when markets turn volatile.",
-  },
-  {
     ticker: "PEP",
     name: "PepsiCo Inc",
     sector: "Consumer Staples & Snacks/Beverages",
     website: "https://www.pepsico.com",
-    value: 143.25,
+    value: 152.03,
     changePct: 1.91,
     growth5y: 40,
-    color: "#49a06b",
+    color: "#3d8b68",
     thesis:
       "PepsiCo's dual snacks-and-beverages business (Frito-Lay, Gatorade, Pepsi) gives it more category diversification than a pure soda company, with strong brand loyalty across both segments. A Dividend Aristocrat with decades of consistent dividend growth.",
     outlook:
@@ -122,42 +108,56 @@ const HOLDINGS = [
     name: "Gilead Sciences Inc",
     sector: "Biotechnology & Pharmaceuticals",
     website: "https://www.gilead.com",
-    value: 134.66,
+    value: 132.0,
     changePct: 3.61,
     growth5y: 55,
-    color: "#5cb37e",
+    color: "#49a06b",
     thesis:
       "A market leader in HIV treatment, continuing to expand into oncology. Cash flow from its dominant HIV franchise funds long-term research & acquisitions.",
     outlook:
       "The cell therapy pipeline and development of long-acting HIV prevention drugs are the catalysts I'm tracking.",
   },
   {
-    ticker: "MNST",
-    name: "Monster Beverage Corp",
-    sector: "Consumer Beverage",
-    website: "https://www.monsterbevcorp.com",
-    value: 94.84,
-    changePct: 0.15,
-    growth5y: 50,
-    color: "#7ec99a",
+    ticker: "SBUX",
+    name: "Starbucks Corporation",
+    sector: "Restaurants & Consumer Retail",
+    website: "https://www.starbucks.com",
+    value: 106.46,
+    changePct: 2.25,
+    growth5y: 45,
+    color: "#5cb37e",
     thesis:
-      "The world's number-two player in the energy drink category, with high margins and strong brand loyalty among Gen Z & millennials.",
+      "Starbucks remains the dominant global coffeehouse brand, with a loyalty program and mobile-ordering ecosystem that drives repeat, high-frequency purchases. Its scale gives it pricing power and a distribution footprint competitors struggle to replicate.",
     outlook:
-      "Geographic expansion (Asia, Latin America) and new product lines (alcohol brands, lower-sugar variants) are the next growth avenues.",
+      "A turnaround plan focused on store experience, menu simplification, and international growth (especially China) is the story I'm watching over the next 5 years.",
   },
   {
     ticker: "KO",
     name: "The Coca-Cola Company",
     sector: "Consumer Staples & Beverages",
     website: "https://www.coca-colacompany.com",
-    value: 68.88,
+    value: 95.27,
     changePct: 5.58,
     growth5y: 35,
-    color: "#a9e0bd",
+    color: "#7ec99a",
     thesis:
       "One of the most recognized brands in the world, with a massive distribution network spanning over 200 countries. An 'asset-light' model via bottling partners keeps margins high.",
     outlook:
       "Diversifying beyond carbonated drinks (bottled water, tea, coffee) and premium pricing form the long-term growth strategy.",
+  },
+  {
+    ticker: "MNST",
+    name: "Monster Beverage Corp",
+    sector: "Consumer Beverage",
+    website: "https://www.monsterbevcorp.com",
+    value: 94.12,
+    changePct: 0.15,
+    growth5y: 50,
+    color: "#a9e0bd",
+    thesis:
+      "The world's number-two player in the energy drink category, with high margins and strong brand loyalty among Gen Z & millennials.",
+    outlook:
+      "Geographic expansion (Asia, Latin America) and new product lines (alcohol brands, lower-sugar variants) are the next growth avenues.",
   },
 ];
 
@@ -173,7 +173,7 @@ HOLDINGS.forEach((h) => {
 // value minus today's dollar move, summed across all positions). This stays
 // fixed — it's the baseline the live "Total Portfolio Value" is compared
 // against to show real profit/loss.
-const INITIAL_CAPITAL_USD = 3690.77;
+const INITIAL_CAPITAL_USD = 3653.78;
 
 function fmtPct(n, digits = 1) {
   const sign = n > 0 ? "+" : "";
@@ -343,11 +343,12 @@ function renderPortraitStats() {
 // Sector groups (derived from HOLDINGS by ticker)
 // ---------------------------------------------------------------------------
 const SECTOR_GROUPS = [
-  { name: "Technology & Consumer Electronics", tickers: ["AAPL"] },
+  { name: "Cloud & Software", tickers: ["DDOG"] },
   { name: "Digital Payments", tickers: ["MA", "V"] },
-  { name: "Pharmaceuticals & Biotech", tickers: ["LLY", "ABBV", "GILD"] },
+  { name: "Pharmaceuticals & Biotech", tickers: ["ABBV", "GILD"] },
   { name: "Consumer Healthcare", tickers: ["JNJ"] },
-  { name: "Consumer Staples & Beverages", tickers: ["PG", "KO", "MNST", "PEP"] },
+  { name: "E-Commerce & Consumer Discretionary", tickers: ["AMZN", "SBUX"] },
+  { name: "Consumer Staples & Beverages", tickers: ["KO", "MNST", "PEP"] },
 ];
 
 function renderSectorList() {
@@ -676,7 +677,7 @@ function renderStockScores() {
 // "1D" intraday series rather than being fetched separately.
 // ---------------------------------------------------------------------------
 let chartData = null;
-let chartTicker = "LLY";
+let chartTicker = "DDOG";
 let chartRange = "1D";
 
 const CHART_RANGES = ["1H", "1D", "5D", "1M", "3M", "YTD", "5Y", "MAX"];
@@ -2283,6 +2284,78 @@ function renderNewsList(items) {
   observeReveals();
 }
 
+function renderYoutubeGrid(videos) {
+  const wrap = document.getElementById("youtube-grid");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+
+  videos.forEach((v) => {
+    const href = safeHttpUrl(v.url);
+    if (!href) return;
+
+    const a = document.createElement("a");
+    a.className = "youtube-card reveal";
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+
+    const thumbWrap = document.createElement("span");
+    thumbWrap.className = "youtube-thumb-wrap";
+
+    const imgUrl = safeHttpUrl(v.thumbnail);
+    if (imgUrl) {
+      const img = document.createElement("img");
+      img.className = "youtube-thumb";
+      img.src = imgUrl;
+      img.alt = "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      thumbWrap.appendChild(img);
+    }
+
+    const playBadge = document.createElement("span");
+    playBadge.className = "youtube-play-badge";
+    playBadge.innerHTML =
+      '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7L8 5Z"/></svg>';
+    thumbWrap.appendChild(playBadge);
+
+    const title = document.createElement("span");
+    title.className = "youtube-title";
+    title.textContent = v.title;
+
+    a.appendChild(thumbWrap);
+    a.appendChild(title);
+    wrap.appendChild(a);
+  });
+
+  observeReveals();
+}
+
+async function loadYoutube() {
+  const wrap = document.getElementById("youtube-grid");
+  const updatedEl = document.getElementById("youtube-updated");
+  if (!wrap) return;
+  try {
+    const res = await fetch("data/youtube.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const videos = Array.isArray(data.videos) ? data.videos : [];
+
+    if (!videos.length) {
+      wrap.innerHTML = `<p class="news-empty">No videos available right now — check back soon.</p>`;
+    } else {
+      renderYoutubeGrid(videos);
+    }
+
+    if (updatedEl) {
+      updatedEl.textContent = data.updatedAt ? `Updated ${fmtUpdatedAt(data.updatedAt)}` : "";
+    }
+  } catch (err) {
+    wrap.innerHTML = `<p class="news-empty">Couldn't load the latest videos right now.</p>`;
+    console.error("Failed to load data/youtube.json:", err);
+  }
+}
+
 async function loadNews() {
   const wrap = document.getElementById("news-list");
   const updatedEl = document.getElementById("news-updated");
@@ -2346,4 +2419,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadLiveQuotes();
   loadNews();
   loadCharts();
+  loadYoutube();
 });
