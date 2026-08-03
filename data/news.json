@@ -1,13 +1,93 @@
 {
-  "updatedAt": "2026-08-03T20:21:52.007Z",
+  "updatedAt": "2026-08-03T21:46:52.606Z",
   "items": [
     {
       "ticker": "AMZN",
-      "title": "Amazon Stock Breaks Out To $3 Trillion Milestone. Why Cloud Giants Are Rallying.",
+      "title": "A ‘Magnificent’ Monday",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/2be11400-2429-3a09-88c4-beffc4a35b37/a-%E2%80%98magnificent%E2%80%99-monday.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+      "publishedAt": 1785793011000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Top Tech Analyst Says Hyperscalers Are the Clear AI Winners, but Beaten-Down Software Offers Value",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/3f57b970-461f-3fe6-a628-4363698f788b/top-tech-analyst-says.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3rOHDAVnbIxZFO6XqzM.Qg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/7a776fe69f407d532cce03e59f7a1fe9",
+      "publishedAt": 1785791492000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Dow Jones Futures: Trump Sparks Stock Market Rally; Palantir Soars On Earnings With SpaceX On Deck",
       "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/785c1696-3240-3321-91cf-8af3784ee3b7/amazon-stock-breaks-out-to-%243.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/oVnkOnVRxsdITYSjKKALwQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/b28ceea82fad460eeb4891b9c77a68ee",
-      "publishedAt": 1785787441000
+      "link": "https://finance.yahoo.com/m/da473528-e61d-3587-a918-4ff481114351/dow-jones-futures%3A-trump.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/M3IqPiRFGifr9E.iLpq8ow--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/940bfb7ff3b5d5fe9f59a57c0bd92b82",
+      "publishedAt": 1785791407000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie's Growth Now Leans On A Single Molecule",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/26302ea1-ef54-34b9-9f68-df0f33b273af/abbvie%27s-growth-now-leans-on.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ocwLc1M0nYq.TsoL_tH_Ug--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/c6c05c07d7845d83bcaf78625bacd071",
+      "publishedAt": 1785791142000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Stock Market Today: Dow Rises To Record As Amazon Jumps; This Cathie Wood Trade Nets $2.9 Mil (Live Coverage)",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/cdc87a38-f6bc-3590-b126-efc5dcd8debd/stock-market-today%3A-dow-rises.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vrdhYc6lj0pGZWozFsgSxA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/c97fad2f7b99a536aff317ab3613d9ca",
+      "publishedAt": 1785790885000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Update: US Equity Indexes Jump as Communication Services Rally While Crude Oil Slides With Treasury Yields",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-communication-210103672.html",
+      "image": null,
+      "publishedAt": 1785790863000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The 3 ETFs That Hold the Most Magnificent 7 — and How They're Performing in a Tougher 2026",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/2b4e6d4e-87a3-3507-9a57-51d80af38077/the-3-etfs-that-hold-the-most.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4e4VtsqxyE20iyPcNZk4lg--~B/aD03NjM7dz0xMzczO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/indexuniverse.com/1c096f8fb3c532ecdb75e715d3e72b40",
+      "publishedAt": 1785790737000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Why Palantir is the 'best' publicly traded tech company",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/why-palantir-best-publicly-traded-204416015.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7iEOhpk1aOqIBL3m3saRHw--~B/aD0zMTUwO3c9NDcyNDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/5fab06dc-926c-4dd7-83a8-09bc55d555da",
+      "publishedAt": 1785789856000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "2 Cash-Producing Stocks for Long-Term Investors and 1 We Question",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-long-203722285.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/a1M1x7_yruOEBwhewbwnlw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/bd1313f1c49ebe10dc63cd81aa5ab5c2",
+      "publishedAt": 1785789442000
+    },
+    {
+      "ticker": "MA",
+      "title": "Visa’s Latest Deal Signals New Era in Fighting Digital Scams",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/29f459bf-31be-3f59-b5ac-77d0deeee2f5/visa%E2%80%99s-latest-deal-signals.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/t8CWQB1zdG20llb7w1d9Lg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d7804b920f346f8602d70358bb6c2bb5",
+      "publishedAt": 1785789060000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola absorbs margin hit for expansion in key market",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/723bdb31-c9bf-3c0f-a250-deeb3255d445/coca-cola-absorbs-margin-hit.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/NtNY_IvKSZcvIWp65Pg1Ug--~B/aD0yNTMzO3c9MzgwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/980878c63d5810c328010aac8a8ea466",
+      "publishedAt": 1785788580000
     },
     {
       "ticker": "V",
@@ -18,52 +98,12 @@
       "publishedAt": 1785786924000
     },
     {
-      "ticker": "AMZN",
-      "title": "Why Microsoft, Amazon, & other Big Tech stocks are soaring post-earnings",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/why-microsoft-amazon-other-big-195257279.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QKT7xnAlJG2H.BV559UryQ--~B/aD00NjA4O3c9ODE5MjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/a417d4b2-c0be-4f88-8e13-3d0f10e75cc4_9d037b07d793eed186c8dca99cc6d6660c072568cbf025c216b0f8d9c8f6df46.jpg",
-      "publishedAt": 1785786777000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Why Amazon Looks Better Than Microsoft After Each Jumped 15% Post Earnings",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/f723d41a-1ed3-3e42-a636-a6200b62ac8b/why-amazon-looks-better-than.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/E0a9J6Pmn_.hktKfstz5IQ--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/294ef4522b3f5f7eaffb4d275ff9fac4",
-      "publishedAt": 1785786554000
-    },
-    {
       "ticker": "PEP",
       "title": "Coca-Cola Stock Keeps Pace With The Market Without Following It",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/52939dd9-71bb-3ebc-8dda-82c9f89006cc/coca-cola-stock-keeps-pace.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/c5XsChz7MfeLFCTgwMXlag--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/0c1e6b2367ecc2f06b278fcc4b7d2e55",
       "publishedAt": 1785786384000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Stock Market Today: Nasdaq Jumps 2%, Chevron Falls As Trump Lashes Out; This Viking Tops Entry (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/cdc87a38-f6bc-3590-b126-efc5dcd8debd/stock-market-today%3A-nasdaq.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_igfWKViuyE1F8bAwmjLzA--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/f928a7c00293a4d23dc82f73fca165fa",
-      "publishedAt": 1785786020000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "A ‘Magnificent’ Monday",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/2be11400-2429-3a09-88c4-beffc4a35b37/a-%E2%80%98magnificent%E2%80%99-monday.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
-      "publishedAt": 1785785667000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Jim Cramer and Tom Lee Share a Bullish Call That Could Shape Investors’ Next Move",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/cc3b3375-ba63-3287-a659-8388fa042944/jim-cramer-and-tom-lee-share.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gUUuwu9SVKzkMEZW2.xMrw--~B/aD0yODgwO3c9NTEyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/63016200468bb1c2441dd4f28bc3b790",
-      "publishedAt": 1785785420000
     },
     {
       "ticker": "V",
@@ -99,51 +139,11 @@
     },
     {
       "ticker": "MA",
-      "title": "Visa’s Latest Deal Signals New Era in Fighting Digital Scams",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/29f459bf-31be-3f59-b5ac-77d0deeee2f5/visa%E2%80%99s-latest-deal-signals.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/t8CWQB1zdG20llb7w1d9Lg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d7804b920f346f8602d70358bb6c2bb5",
-      "publishedAt": 1785780540000
-    },
-    {
-      "ticker": "MA",
       "title": "Why Circle Internet Stock Is Slumping Today Even After a Fresh Buy Rating",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/b8d9a955-fb5e-357c-8db0-8bdbce426d65/why-circle-internet-stock-is.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Dcp.Kf.xawVm0ynq5H.E5A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/6d70bc16ec580da13c1efb39c1318d99",
       "publishedAt": 1785780000000
-    },
-    {
-      "ticker": "V",
-      "title": "Sector Update: Financial Stocks Advance Monday Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-monday-174425791.html",
-      "image": null,
-      "publishedAt": 1785779065000
-    },
-    {
-      "ticker": "PEP",
-      "title": "7-Eleven launches 7-Select Soda line in 3 flavors at $1.99",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/1daa0276-a3cd-3630-83df-e903d51e94e5/7-eleven-launches-7-select.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tetKotMvNlrWphWg770ieg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/8c620a4708783d99b0b382405897255e",
-      "publishedAt": 1785778226000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Are These 5 Pharma Stocks Set to Surpass Q2 Earnings Forecasts?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/5-pharma-stocks-set-surpass-173000188.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Re9bQuT_rbJC1ggLu.iXPA--~B/aD0yNjI7dz01Mzg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ffdaec239f7db91ee7817a6a6f858f9d",
-      "publishedAt": 1785778200000
-    },
-    {
-      "ticker": "KO",
-      "title": "Analyst Report: Coca-Cola FEMSA, S.A.B. de C.V.",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/9cdd7ff4-483c-3d9f-9ffa-4bc6c60a71cd/analyst-report%3A-coca-cola.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-      "publishedAt": 1785777707000
     }
   ]
 }
