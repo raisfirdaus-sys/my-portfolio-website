@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-04T09:17:49.844Z",
+  "updatedAt": "2026-08-04T10:40:16.566Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures coast higher as earnings roll in, Palantir stock soars",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-4-dow-sp-500-nasdaq-100140227.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/PLXydghzidLkCldW7ykRyQ--~B/aD0yNjY2O3c9Mzk5ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-07/47a3116e-bdd6-4abc-92dc-096da86b8561",
+      "publishedAt": 1785837700000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "UBRELVY® (ubrogepant) Recommended for Reimbursement by Canada's Drug Agency (CDA-AMC) for Acute Migraine Treatment",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/healthcare/articles/ubrelvy-ubrogepant-recommended-reimbursement-canadas-100100815.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DnS3UN95vArM1AZj1TIdtQ--~B/aD03MDt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/cnwgroup.com/b4ac0ebd5873617368d0ba6fa9b8abd0",
+      "publishedAt": 1785837660000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "3 Stocks to Buy as AI Infrastructure Continues to Surge",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b2e5a559-f53b-30c7-b5d2-0cd5fe0182a4/3-stocks-to-buy-as-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/1T88MZzIGeRMg1OuKnV.Bg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9282fa396f48ff2e42b1987d963db325",
+      "publishedAt": 1785837000000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard completes BVNK acquisition to boost stablecoin infrastructure",
+      "publisher": "Electronic Payments",
+      "link": "https://finance.yahoo.com/m/478fcb10-8063-3082-a5f3-68667b42aea0/mastercard-completes-bvnk.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pAOk8jvqt2niDU.u6tImvg--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/7ecae89cc31b3ba55c2c416d7f48d394",
+      "publishedAt": 1785835982000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "D'YAVOL Spirits Debuts in United Kingdom with Exclusive Launch Event Hosted by Aryan Khan in London",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/dyavol-spirits-debuts-united-kingdom-093000631.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CtqXEm_W9a4rH6hxPl8jNQ--~B/aD00MDA7dz0zMjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/72c5cc2c60164be6fb7e604b6e548e92",
+      "publishedAt": 1785835800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Superblocks, AWS sign multi-year deal for enterprise AI on Bedrock",
+      "publisher": "Verdict",
+      "link": "https://finance.yahoo.com/m/d415a5de-cb97-3b84-8148-a8ea73b691f8/superblocks%2C-aws-sign.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.HDbRqSUmAwjqS8AOewKJg--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/verdict_626/3665169013382559813acbccfb239fea",
+      "publishedAt": 1785835376000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Microsoft vs. Amazon: Which Stock Does Wall Street Think Is the Better Buy?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e4ae9174-c07d-3680-b7a0-3bb63b96afea/microsoft-vs.-amazon%3A-which.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FQXSyb8IxCwkuwq8HYCpxQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b6aa1a2cd3cfe57e0ef73594fd55342c",
+      "publishedAt": 1785835200000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "President Capital Management Adjusts PT on Amazon.com to $379 From $345, Maintains Buy Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/president-capital-management-adjusts-pt-091703543.html",
+      "image": null,
+      "publishedAt": 1785835023000
+    },
     {
       "ticker": "MNST",
       "title": "3 High-Flying Stocks with Solid Fundamentals",
@@ -8,22 +72,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/3-high-flying-stocks-solid-090122653.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/U1zy7OphmMy70KX.HcJ35w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/51a92047ef1026394738e7c52f905266",
       "publishedAt": 1785834082000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Paid $50 Billion for OpenAI. Microsoft (MSFT) Opened the Door but Kept the Keys",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-paid-50-billion-083135459.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/f_FiEM1y8uXX6Ac5pkjs4g--~B/aD02Mjk7dz05NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/e3a58b6f338e589ccf256d87d10d0922",
-      "publishedAt": 1785832295000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Most stock markets gain, while oil prices edge up after plunge",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-mixed-seoul-stabilises-oil-025545782.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4sDGGvScO6QDsbkIgNfT4g--~B/aD01MDA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/52397b1651fa7c9d176fece35f55274f",
-      "publishedAt": 1785831406000
     },
     {
       "ticker": "MNST",
@@ -34,36 +82,12 @@
       "publishedAt": 1785831085000
     },
     {
-      "ticker": "AMZN",
-      "title": "Is Amazon.com (AMZN) A Bargain Following Its Latest Lawsuit And AI Fueled Rally?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-bargain-following-081023998.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hsVjZ4ukG2SIP4a4o0eS8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156",
-      "publishedAt": 1785831023000
-    },
-    {
       "ticker": "MA",
       "title": "Mastercard (MA) Launches A Richer Citi AAdvantage Executive World Legend Card",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-launches-richer-citi-080931963.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/MS7.mT0nYIxOGyj8UQ77NA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/689e99a8f21cc823d1bf075c38345f1e",
       "publishedAt": 1785830971000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/c3067477-d83b-3a77-ad6d-1829b3be1238/amazon-and-microsoft-ace-wall.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HkU7cNsbOYkmaB8qlEuiKg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/61cb43afc2dde3a20e75b61afd729050",
-      "publishedAt": 1785829222000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Palantir's ‘Rule Of 40’ Score Hit 155% — Here's The Math And Why It Matters For Software Valuations",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/dc1c300c-a288-332e-90a2-ca2a24e00af5/palantir%27s-%E2%80%98rule-of-40%E2%80%99-score.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nvQPyRnFZVOPL0VAq17gzw--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d25fb6c31d461b1697681e0c9205accd",
-      "publishedAt": 1785828073000
     },
     {
       "ticker": "DDOG",
@@ -88,14 +112,6 @@
       "link": "https://finance.yahoo.com/m/d3f93891-f8de-34f3-b145-44e20e0e7386/more-biotech-m%26a-is-coming%2C.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/IcKglJPLVqGSoMLVryaKoQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/57d1556fddb82bb50a30822eb087c600",
       "publishedAt": 1785821400000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "D'YAVOL Spirits Debuts in United Kingdom with Exclusive Launch Event Hosted by Aryan Khan in London",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/dyavol-spirits-debuts-united-kingdom-050000242.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CtqXEm_W9a4rH6hxPl8jNQ--~B/aD00MDA7dz0zMjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/72c5cc2c60164be6fb7e604b6e548e92",
-      "publishedAt": 1785819600000
     },
     {
       "ticker": "V",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/john-hussmans-top-q2-2026-000117416.html",
       "image": null,
       "publishedAt": 1785801677000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "$49 Billion In Payouts, A Lagging Stock: The Pfizer Trade-Off",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/a348ab57-1644-3813-a306-9561d3b7e848/%2449-billion-in-payouts%2C-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Jfo.Z923P3sZTLqrnLnmLg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/74f1d690cd42e176bfd25c37f45f409a",
-      "publishedAt": 1785798877000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie's Growth Now Leans On A Single Molecule",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/26302ea1-ef54-34b9-9f68-df0f33b273af/abbvie%27s-growth-now-leans-on.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ocwLc1M0nYq.TsoL_tH_Ug--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/c6c05c07d7845d83bcaf78625bacd071",
-      "publishedAt": 1785791142000
     }
   ]
 }
