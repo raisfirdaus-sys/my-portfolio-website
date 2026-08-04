@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-04T08:07:48.691Z",
+  "updatedAt": "2026-08-04T09:17:49.844Z",
   "items": [
+    {
+      "ticker": "MNST",
+      "title": "3 High-Flying Stocks with Solid Fundamentals",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-high-flying-stocks-solid-090122653.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/U1zy7OphmMy70KX.HcJ35w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/51a92047ef1026394738e7c52f905266",
+      "publishedAt": 1785834082000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon (AMZN) Paid $50 Billion for OpenAI. Microsoft (MSFT) Opened the Door but Kept the Keys",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-paid-50-billion-083135459.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/f_FiEM1y8uXX6Ac5pkjs4g--~B/aD02Mjk7dz05NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/e3a58b6f338e589ccf256d87d10d0922",
+      "publishedAt": 1785832295000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Most stock markets gain, while oil prices edge up after plunge",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-mixed-seoul-stabilises-oil-025545782.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4sDGGvScO6QDsbkIgNfT4g--~B/aD01MDA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/52397b1651fa7c9d176fece35f55274f",
+      "publishedAt": 1785831406000
+    },
+    {
+      "ticker": "MNST",
+      "title": "Monster Beverage (MNST) Heads Into Q2 Earnings, Is The Valuation Already Too Rich?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-mnst-heads-q2-081125513.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ik1tB78TO5dz2uuhhCiIbg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/e64702ba3f730f91c9f71446820f0022",
+      "publishedAt": 1785831085000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Is Amazon.com (AMZN) A Bargain Following Its Latest Lawsuit And AI Fueled Rally?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-bargain-following-081023998.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hsVjZ4ukG2SIP4a4o0eS8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156",
+      "publishedAt": 1785831023000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard (MA) Launches A Richer Citi AAdvantage Executive World Legend Card",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-launches-richer-citi-080931963.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MS7.mT0nYIxOGyj8UQ77NA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/689e99a8f21cc823d1bf075c38345f1e",
+      "publishedAt": 1785830971000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
@@ -11,19 +59,19 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Most stock markets gain, while oil prices edge up after latest plunge",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-mixed-seoul-stabilises-oil-025545782.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vFj0ALW4qtnVTIbMGGS1.A--~B/aD01MDA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/fd49db48f6449e26f8be5fac7c1feb52",
-      "publishedAt": 1785828446000
-    },
-    {
-      "ticker": "AMZN",
       "title": "Palantir's ‘Rule Of 40’ Score Hit 155% — Here's The Math And Why It Matters For Software Valuations",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/dc1c300c-a288-332e-90a2-ca2a24e00af5/palantir%27s-%E2%80%98rule-of-40%E2%80%99-score.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/nvQPyRnFZVOPL0VAq17gzw--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d25fb6c31d461b1697681e0c9205accd",
       "publishedAt": 1785828073000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "SpaceX Earnings, Jobs Numbers: What to Watch This Week",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/d718987a-dcd1-387e-aa1c-45b0cc65f7cc/spacex-earnings%2C-jobs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5Fr2HgE0U1lD9HEpRdsTeA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/e7bad82902c7d8fd27e52f3be787ed43",
+      "publishedAt": 1785826027000
     },
     {
       "ticker": "V",
@@ -50,14 +98,6 @@
       "publishedAt": 1785819600000
     },
     {
-      "ticker": "AMZN",
-      "title": "Jeff Bezos Plans to Sell $4.07 Billion Worth of Amazon Stock as Shares Shoot Up Over 20% After Earnings: Jim Cramer Calls it 'Buzzkill'",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-plans-sell-4-040442726.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/skbGPBr6nFcjbyQso4xkbw--~B/aD01NzU7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/fc28712786b21cd427f3958d045d11e3",
-      "publishedAt": 1785816282000
-    },
-    {
       "ticker": "V",
       "title": "Yes Please: Visa is Official Payment Partner for the Maroon 5 Asia 2027 Tour",
       "publisher": "PR Newswire",
@@ -72,14 +112,6 @@
       "link": "https://finance.yahoo.com/m/77cb6da4-3125-3a11-98b4-f893345ff03d/medicare-now-takes-%24202.90-a.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/NtJnib8OKuKt2a8D.7aK1w--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/884f2b4baeb17b2c0eeba2084f62b1b7",
       "publishedAt": 1785814558000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "AMZN Stock Dips Overnight After Breaching $3 Trillion Market Cap: Retail Gets Buzzing About Bezos’ Share Sale",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/bd00c0fc-c673-38a4-9a77-cf0e0c6e36c5/amzn-stock-dips-overnight.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Uq.7J0Dg.qT686c_fv8tLA--~B/aD04MzE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/e8c25cc9cb9963925ef7bee7d15ce486",
-      "publishedAt": 1785810081000
     },
     {
       "ticker": "MA",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/m/26302ea1-ef54-34b9-9f68-df0f33b273af/abbvie%27s-growth-now-leans-on.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/ocwLc1M0nYq.TsoL_tH_Ug--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/c6c05c07d7845d83bcaf78625bacd071",
       "publishedAt": 1785791142000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Stock Market Today: Dow Rises To Record As Amazon Jumps; This Cathie Wood Trade Nets $2.9 Mil (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/cdc87a38-f6bc-3590-b126-efc5dcd8debd/stock-market-today%3A-dow-rises.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vrdhYc6lj0pGZWozFsgSxA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/c97fad2f7b99a536aff317ab3613d9ca",
-      "publishedAt": 1785790885000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Top Research Reports for Amazon, Marvell & Starbucks",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-amazon-marvell-205100607.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1bNLYwqFSXH7iwqsKDUjfA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/825eb4a496122eaea7a3728967e9c264",
-      "publishedAt": 1785790260000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Why Palantir is the 'best' publicly traded tech company",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/why-palantir-best-publicly-traded-204416015.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/7iEOhpk1aOqIBL3m3saRHw--~B/aD0zMTUwO3c9NDcyNDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/5fab06dc-926c-4dd7-83a8-09bc55d555da",
-      "publishedAt": 1785789856000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "2 Cash-Producing Stocks for Long-Term Investors and 1 We Question",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-long-203722285.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/a1M1x7_yruOEBwhewbwnlw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/bd1313f1c49ebe10dc63cd81aa5ab5c2",
-      "publishedAt": 1785789442000
     }
   ]
 }
