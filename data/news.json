@@ -1,21 +1,93 @@
 {
-  "updatedAt": "2026-08-04T13:33:06.582Z",
+  "updatedAt": "2026-08-04T15:05:30.945Z",
   "items": [
     {
-      "ticker": "AMZN",
-      "title": "Costco (COST) Pushes Further Into GLP 1 Weight Loss Prescriptions",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/costco-cost-pushes-further-glp-131155938.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AudS6yY0_Qk0dYJDd4Eh_w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/88c2685383099feb946a31ff17628e6c",
-      "publishedAt": 1785849115000
+      "ticker": "ABBV",
+      "title": "Merck, Pfizer Lift Full-Year Sales Outlooks Following Second-Quarter Beats",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/merck-pfizer-lift-full-sales-145653290.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9NGbV3d8bmfjBdmw0kC_kg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/a9e560796fb7d27244aee8d495d8603b",
+      "publishedAt": 1785855413000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-hubspot-okta-workday-datadog-144522144.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6DGDQGW1UL4D2_lIHbBPww--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/1d7ae95b68dabfb36c5383cabf9c37d2",
+      "publishedAt": 1785854722000
     },
     {
       "ticker": "AMZN",
-      "title": "Stock Market Today: Dow Rallies As Caterpillar, Palantir Soar On Earnings; SpaceX Earnings Next (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/9e9492e8-dc43-3309-bb2e-9b428195c126/stock-market-today%3A-dow.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HDjemjYlp7Z5vRwiz3dW9Q--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/8e3f0f90c622d76c522be98b9f3975ee",
-      "publishedAt": 1785848622000
+      "title": "Webull Expands AI Investing Ecosystem With New Developer Tools, AI Connectors",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/webull-expands-ai-investing-ecosystem-144248859.html",
+      "image": null,
+      "publishedAt": 1785854568000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Market Chatter: Amazon Sued by New Jersey AG for Alleged Antitrust Violations",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-sued-jersey-143857087.html",
+      "image": null,
+      "publishedAt": 1785854337000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Meet the Most Profitable Company in America Right Now (It’s Not Apple or Microsoft)",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/2cfdf721-9553-3276-9f63-0e7229122473/meet-the-most-profitable.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5DyCHXU26mb9VWmcPlVTvg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/534581a77400f4fd0f333ba5a8ce44be",
+      "publishedAt": 1785854325000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "New Jersey AG sues Amazon over driver pay, conditions",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/economy/policy/articles/jersey-ag-sues-amazon-over-143408691.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aJV8jU5DLNReX8xZQyrU_g--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/42d8cda06a38d7fc1a2394372a0ffc37",
+      "publishedAt": 1785854048000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Shares Fall After Bezos Files to Sell $4.07 Billion in Stock",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-shares-fall-bezos-files-143324857.html",
+      "image": null,
+      "publishedAt": 1785854004000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Microsoft Price Prediction: After a 25% Three-Day Rally, Here’s Where The Stock is Headed",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/02adc220-2730-3394-9091-7dcf2f2edc6d/microsoft-price-prediction%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/j9d7gY4lsVQMYgszti_X0A--~B/aD0xMDg2O3c9MTQ0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/29d3c772bec0ab4f044af179853ec3e0",
+      "publishedAt": 1785853841000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie Unit Says FDA Accepts BOTOX Cosmetic Application for Masseter Muscle Prominence",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-unit-says-fda-accepts-142800828.html",
+      "image": null,
+      "publishedAt": 1785853680000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa (V) Is Buying BioCatch To Take On AI Driven Payments Fraud",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-v-buying-biocatch-ai-141244909.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jPzwWEXpk3MJSpDfdxbAaw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e",
+      "publishedAt": 1785852764000
+    },
+    {
+      "ticker": "KO",
+      "title": "Are Consumer Staples Stocks Lagging  Coca-Cola (KO) This Year?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/consumer-staples-stocks-lagging-coca-134002507.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ksLAzii1aL14haHFbPC1Rg--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f",
+      "publishedAt": 1785850802000
     },
     {
       "ticker": "KO",
@@ -32,38 +104,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-executive-vice-president-124500987.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/RS734WWA5.5fsywaKaS08Q--~B/aD0zOTc7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/4330501a682f2e324c20eed94acbb01f",
       "publishedAt": 1785847500000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Bezos Plans to Sell $4 Billion After $3 Trillion Milestone",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bezos-plans-sell-4-billion-124110158.html",
-      "image": null,
-      "publishedAt": 1785847270000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The AI Economy Welcomes Its Latest $3 Trillion Club Member",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/1affea8a-8432-3160-ac24-b2bbd5807e4e/the-ai-economy-welcomes-its.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/743uz3EpM_IMTjfkZszf.g--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/f9339a20009d38813082e1117566e76d",
-      "publishedAt": 1785847200000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Update: Market Chatter: Anthropic Signs $10 Billion Computing Deal With New Cloud Startup Volta",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-signs-10-123628835.html",
-      "image": null,
-      "publishedAt": 1785846988000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Why the \"Magnificent Seven\" Trade Is Starting to Fracture, and Where You Should Invest Instead",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b2d4e50a-b766-3f7f-8b2a-8a636c223442/why-the-%22magnificent-seven%22.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DuAVLL_DqIRhpGeL48tnCQ--~B/aD03MTE7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f6815cc290a34b3ff18a0a18dbfe6e20",
-      "publishedAt": 1785846900000
     },
     {
       "ticker": "DDOG",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/small-business/articles/thredd-pliant-expand-partnership-launch-120000925.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/vjjqU1CCpthlHG4Xxs5azw--~B/aD0yNzA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/a6bec23405a8ca410827d672d0b3d830",
       "publishedAt": 1785844800000
-    },
-    {
-      "ticker": "V",
-      "title": "New Visa Data Shows FIFA World Cup 2026™ Drove Spending Surges of Up to 24.6% in Toronto and Vancouver",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/economy/articles/visa-data-shows-fifa-world-120000437.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/b9YiN7F0acPQam_4SeaLaA--~B/aD02MjI7dz0xOTIwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/f1ceb9d15b64d80d0f08aef9e2768190",
-      "publishedAt": 1785844800000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Rani Therapeutics Appoints Michelle Gilson to Board of Directors",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/rani-therapeutics-appoints-michelle-gilson-120000554.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6c.9k76NaJX3AFqaTl2nFQ--~B/aD0zMjE7dz02NDQ7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/6174b5cad30205135893e4a63f769d20",
-      "publishedAt": 1785844800000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Canaccord Genuity Adjusts Price Target on Datadog to $295 From $250, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canaccord-genuity-adjusts-price-target-115852858.html",
-      "image": null,
-      "publishedAt": 1785844732000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Stocks Rise Pre-Bell Ahead of Latest Round of Earnings; Investors Gauge Uncertainty Over Potential US-Iran Deal",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-ahead-115802769.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/r.wn6rH_aNspgJ8Fhiw8VA--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/8685121785649cec3dbcdbbd25333a86",
-      "publishedAt": 1785844682000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Guggenheim Adjusts Price Target on AbbVie to $288 From $261, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/guggenheim-adjusts-price-target-abbvie-115737858.html",
-      "image": null,
-      "publishedAt": 1785844657000
     }
   ]
 }
