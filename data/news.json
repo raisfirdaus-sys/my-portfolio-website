@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-04T22:08:55.837Z",
+  "updatedAt": "2026-08-04T23:32:29.382Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Arista forecasts upbeat quarterly revenue on AI-driven networking demand",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/articles/arista-forecasts-upbeat-quarterly-revenue-221420916.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OdhORdOr1DWPJiGLHKDUYw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/e78c50a58cb335630b2c7524c242d1d9",
+      "publishedAt": 1785881660000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Wins FDA Review For BOTOX Cosmetic In Jawline Treatment Push",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-wins-fda-review-221142016.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tWVhDwEErhILAVhl9pkulg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd",
+      "publishedAt": 1785881502000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead's High-Profile HIV Drug Beat, But That's Not What Grabbed Attention",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/fa8f126d-6057-3efb-99fc-cdd3f0086587/gilead%27s-high-profile-hiv.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fyTFfDMNOI9J9heDPJvTtw--~B/aD01NzI7dz0xMDEyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/7ce26b4b87cc5cc7683c1900afb4c75b",
+      "publishedAt": 1785881277000
+    },
     {
       "ticker": "PEP",
       "title": "Suja Defies Grocery Slowdown With Double-Digit Sales Growth in Q2",
@@ -8,6 +32,22 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/suja-defies-grocery-slowdown-double-213813418.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/F7UsOrbuQLAe2vhgWADN5A--~B/aD0xOTg3O3c9MTMxNzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/exec_edge_220/3f5c557984cb216c97506fad7d3a6f41",
       "publishedAt": 1785879493000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "AMD Stock Slides After Solid  Earnings Report",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/a6d2c627-33f4-3a19-8794-fd0716f99926/amd-stock-slides-after-solid-.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Y7vheGd84.NdD_yqHihOtw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/3ef2e9022528a9001cb939e0c1682853",
+      "publishedAt": 1785879120000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead Sciences (GILD) Reports Q2 Loss, Beats Revenue Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-gild-reports-q2-211502615.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Tw87WEC1wh0JNb8.IBuFMA--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/03fca48475577988aa4e0db94f484b4e",
+      "publishedAt": 1785878102000
     },
     {
       "ticker": "GILD",
@@ -58,28 +98,20 @@
       "publishedAt": 1785876060000
     },
     {
+      "ticker": "AMZN",
+      "title": "Pinterest Stock Falls Despite Earnings Beat",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/e9f798b4-1bcb-36d8-a24e-bfb0dc88a9e8/pinterest-stock-falls-despite.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6SHDC17Ji3WP_KhtT8PZ1A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/3af24c552c6b7d7017f5820d09aa1b69",
+      "publishedAt": 1785876000000
+    },
+    {
       "ticker": "GILD",
       "title": "Gilead Sciences Swings to Loss on R&D Costs as HIV-Drug Sales Lift Revenue",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/c31adac7-4988-3ebe-9e8f-9f5fea5b7cee/gilead-sciences-swings-to.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/HbH4vFuJKJLFHyJ9.rxfIQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/3a13f936d9c5630fbb8b4398772c8f37",
       "publishedAt": 1785875460000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead Sciences Q2 Swings To Adjusted Loss, Revenue Rises",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-q2-swings-adjusted-200958253.html",
-      "image": null,
-      "publishedAt": 1785874198000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead: Q2 Earnings Snapshot",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-q2-earnings-snapshot-200852949.html",
-      "image": null,
-      "publishedAt": 1785874132000
     },
     {
       "ticker": "AMZN",
@@ -106,44 +138,12 @@
       "publishedAt": 1785873900000
     },
     {
-      "ticker": "AMZN",
-      "title": "The Unusual Cash Offer Sitting In IBM Stock",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/a9e095e6-0dd8-390d-9a01-561c95fd191d/the-unusual-cash-offer.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nwLj38TZhCOWhD_6xKbjUA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/52ee2b7a567abc95c129daaacc8acd53",
-      "publishedAt": 1785873582000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Cathie Wood Invests $32.2 Million in Surging Tech Stocks",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-32-2-195712605.html",
-      "image": null,
-      "publishedAt": 1785873432000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon's Bid to Block Perplexity's Comet Agent Rejected by Ninth Circuit",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-apos-bid-block-perplexity-195501744.html",
-      "image": null,
-      "publishedAt": 1785873301000
-    },
-    {
       "ticker": "ABBV",
       "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194408227.html",
       "image": null,
       "publishedAt": 1785872648000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks Revives Fan Favorite as Traffic Slips",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-revives-fan-favorite-traffic-193121315.html",
-      "image": null,
-      "publishedAt": 1785871881000
     }
   ]
 }
