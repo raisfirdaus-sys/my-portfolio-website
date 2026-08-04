@@ -1,13 +1,69 @@
 {
-  "updatedAt": "2026-08-04T10:40:16.566Z",
+  "updatedAt": "2026-08-04T12:08:56.288Z",
   "items": [
     {
+      "ticker": "ABBV",
+      "title": "Allergan Aesthetics Announces U.S. FDA Acceptance of Supplemental Biologics License Application for BOTOX® Cosmetic for Masseter Muscle Prominence",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/allergan-aesthetics-announces-u-fda-120000293.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zJ41BG7Y23g6gljLWbJGJA--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/e1e38f98dfb5e07bcfcc4952ae3c886b",
+      "publishedAt": 1785844800000
+    },
+    {
       "ticker": "AMZN",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures coast higher as earnings roll in, Palantir stock soars",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-4-dow-sp-500-nasdaq-100140227.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PLXydghzidLkCldW7ykRyQ--~B/aD0yNjY2O3c9Mzk5ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-07/47a3116e-bdd6-4abc-92dc-096da86b8561",
-      "publishedAt": 1785837700000
+      "title": "Google exec warns AI spending could trigger a painful revenue gap",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-exec-warns-ai-spending-115557174.html",
+      "image": null,
+      "publishedAt": 1785844557000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Thunder Signs Strategic Collaboration Agreement with Amazon Web Services to Deliver AI-Powered Contact Center Solutions",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/thunder-signs-strategic-collaboration-agreement-113500353.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Pv2XTotkvE3j.IptrM9EJA--~B/aD0yNDE7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/34ffe043950ad4232a4c8672b4b9c0b9",
+      "publishedAt": 1785843300000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/e509e1e9-c7c3-3d46-85f8-2389ed497a68/dow-hits-record%2C-palantir.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2EHMuheqjVfi9RzO2bP0VA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/12ebec3d03963a89c4c5b2a07ab81d7c",
+      "publishedAt": 1785843072000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a5c71259-d2a6-344b-849a-ae86f1d912e0/amazon-and-microsoft-gained-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/K5nYnYSGU.8lSzk0FuOnkg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6c8bf0cf3110b9f9aee56f9ca0a51aa5",
+      "publishedAt": 1785843000000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Oil edges higher, stocks gain as investors eye political risks",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-mixed-seoul-stabilises-oil-025545782.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nIE1_OxyOtcu_CvIOQ.61Q--~B/aD01MDA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/9d40b3848f7e717d6c821acf5bec32a9",
+      "publishedAt": 1785842453000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "COHR, LITE, POET, AAOI, MRVL Stocks Gain On Trump’s Reported China Ban On Data Center Import Parts",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/f4b741b1-26af-375c-b2df-9cdf19d24b27/cohr%2C-lite%2C-poet%2C-aaoi%2C-mrvl.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.I43UCTwv6ab.cFyU9bvVQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d3bca2f2b94aa7c1024c4004978a1a7c",
+      "publishedAt": 1785842297000
+    },
+    {
+      "ticker": "V",
+      "title": "Stock Markets Had a Perfect Summer’s Day, Now the Heat Is On",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/4f31bca4-d7b5-396c-832f-e96847ea0204/stock-markets-had-a-perfect.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HSZQL6vA5TxWUSYTP9hhRg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d6eb6bf5a6aa760ef48b602ab5d016c5",
+      "publishedAt": 1785840600000
     },
     {
       "ticker": "ABBV",
@@ -18,52 +74,12 @@
       "publishedAt": 1785837660000
     },
     {
-      "ticker": "AMZN",
-      "title": "3 Stocks to Buy as AI Infrastructure Continues to Surge",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b2e5a559-f53b-30c7-b5d2-0cd5fe0182a4/3-stocks-to-buy-as-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1T88MZzIGeRMg1OuKnV.Bg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9282fa396f48ff2e42b1987d963db325",
-      "publishedAt": 1785837000000
-    },
-    {
       "ticker": "MA",
       "title": "Mastercard completes BVNK acquisition to boost stablecoin infrastructure",
       "publisher": "Electronic Payments",
       "link": "https://finance.yahoo.com/m/478fcb10-8063-3082-a5f3-68667b42aea0/mastercard-completes-bvnk.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/pAOk8jvqt2niDU.u6tImvg--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/7ecae89cc31b3ba55c2c416d7f48d394",
       "publishedAt": 1785835982000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "D'YAVOL Spirits Debuts in United Kingdom with Exclusive Launch Event Hosted by Aryan Khan in London",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/dyavol-spirits-debuts-united-kingdom-093000631.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CtqXEm_W9a4rH6hxPl8jNQ--~B/aD00MDA7dz0zMjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/72c5cc2c60164be6fb7e604b6e548e92",
-      "publishedAt": 1785835800000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Superblocks, AWS sign multi-year deal for enterprise AI on Bedrock",
-      "publisher": "Verdict",
-      "link": "https://finance.yahoo.com/m/d415a5de-cb97-3b84-8148-a8ea73b691f8/superblocks%2C-aws-sign.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.HDbRqSUmAwjqS8AOewKJg--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/verdict_626/3665169013382559813acbccfb239fea",
-      "publishedAt": 1785835376000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Microsoft vs. Amazon: Which Stock Does Wall Street Think Is the Better Buy?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e4ae9174-c07d-3680-b7a0-3bb63b96afea/microsoft-vs.-amazon%3A-which.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/FQXSyb8IxCwkuwq8HYCpxQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b6aa1a2cd3cfe57e0ef73594fd55342c",
-      "publishedAt": 1785835200000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "President Capital Management Adjusts PT on Amazon.com to $379 From $345, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/president-capital-management-adjusts-pt-091703543.html",
-      "image": null,
-      "publishedAt": 1785835023000
     },
     {
       "ticker": "MNST",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/77cb6da4-3125-3a11-98b4-f893345ff03d/medicare-now-takes-%24202.90-a.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/NtJnib8OKuKt2a8D.7aK1w--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/884f2b4baeb17b2c0eeba2084f62b1b7",
       "publishedAt": 1785814558000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard Completes BVNK Acquisition: The Network Becomes the Bridge",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-completes-bvnk-acquisition-network-003557322.html",
-      "image": null,
-      "publishedAt": 1785803757000
-    },
-    {
-      "ticker": "PEP",
-      "title": "John Hussman's Top Q2 2026 Move: Exiting Corcept Therapeutics Inc at a -1.1% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/john-hussmans-top-q2-2026-000117416.html",
-      "image": null,
-      "publishedAt": 1785801677000
     }
   ]
 }
