@@ -1,13 +1,77 @@
 {
-  "updatedAt": "2026-08-05T11:08:29.396Z",
+  "updatedAt": "2026-08-05T12:32:57.501Z",
   "items": [
     {
+      "ticker": "ABBV",
+      "title": "Baron Capital Exits Apogee Therapeutics (APGE) Following AbbVie Buyout",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/healthcare/articles/baron-capital-exits-apogee-therapeutics-121725067.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OjCLtELq.imaSG80.sCFHQ--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/8794f09c9816edad5c220656fe5dc2c2",
+      "publishedAt": 1785932245000
+    },
+    {
+      "ticker": "GILD",
+      "title": "The Bull Case For Gilead Sciences (GILD) Could Change Following Deeper 2026 Losses Amid HIV, Oncology Growth",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/bull-case-gilead-sciences-gild-121401067.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/XkVvF8SSVaq7J0vruaJ2fQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/34a971ca153ed4a9b10f7d789bca1b9d",
+      "publishedAt": 1785932041000
+    },
+    {
       "ticker": "AMZN",
-      "title": "NiSource Announces Second Quarter Results",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-announces-second-quarter-results-103000419.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/djYH0sT6NCY9i2BRsB3Z8A--~B/aD0zMjA7dz0xOTUxO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/e8433bcafdcf15c0ee2089cd5fc65a29",
-      "publishedAt": 1785925800000
+      "title": "Amazon’s AWS CEO Just Sent Shivers Down the Spines of AI Bears. Supply is Mostly ‘Spoken For’ Through 2028.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/6b014923-8f73-31bb-a83d-4d156c15d849/amazon%E2%80%99s-aws-ceo-just-sent.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7Ko6PUsNGSYZ5VBlMJraiw--~B/aD03ODQ7dz0xMTY4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/e061ddb31fa43662c3b350bcd85b809f",
+      "publishedAt": 1785931878000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Kraft Heinz Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/918f5182-4d2e-335a-8310-dade123ef654/kraft-heinz-q2-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dbjy6T_QWpMrw8aZ4sdfDg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c0aeac81c609dfabf4caf27a2f589de8",
+      "publishedAt": 1785931446000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "A New Biopharma Roadmap: Zifo's SiEE Basel Event Puts Data Before AI Hype",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/biopharma-roadmap-zifos-siee-basel-120000876.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ik9nxh_mcwCRnWNqjIZ0RQ--~B/aD0yNjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/0589bb1028f3e09c6f640ed03fd30bc9",
+      "publishedAt": 1785931200000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Brian Niccol’s Turnaround Is Working, and Starbucks Has Rewarded Long-Term Believers",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/720eca73-a66a-3320-a229-dd7f32c9beec/brian-niccol%E2%80%99s-turnaround-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6eSiFncPluFPN_c06STCWA--~B/aD03NTI7dz0xNDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/fb6cfd58ca40b77db304defee02cb48b",
+      "publishedAt": 1785930322000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Stocks mostly rise tracking earnings, US-Iran hopes",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FSGd_A4ukNk4TK4XhPso5Q--~B/aD01MDM7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/76cdd669c25c09e4ebbddfc0eeff583f",
+      "publishedAt": 1785930033000
+    },
+    {
+      "ticker": "MA",
+      "title": "Circle jumps 7% in premarket trade after Q2 bank charter, in-line earnings",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/circle-jumps-7-premarket-trade-111503986.html",
+      "image": null,
+      "publishedAt": 1785928503000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Got $500? 2 Magnificent AI Stocks to Buy Hand Over Fist Before the Anthropic IPO",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/72f39bf3-bd58-309e-8150-959636fa9a24/got-%24500%3F-2-magnificent-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Xf_kMfwlUf.NLEHJScg4uA--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0b3be2e9b821e7e24031534ce2133695",
+      "publishedAt": 1785928260000
     },
     {
       "ticker": "MA",
@@ -15,7 +79,15 @@
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/8bf38b81-5be4-3ccb-9d36-e0448e84a12f/circle-internet-stock-rises.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/r_mjrAVDMbtCPfoiPMLXBQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/ff0ec88eb78aed8ae827f6c6f8916379",
-      "publishedAt": 1785925500000
+      "publishedAt": 1785927240000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "NiSource Announces Second Quarter Results",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-announces-second-quarter-results-103000419.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/djYH0sT6NCY9i2BRsB3Z8A--~B/aD0zMjA7dz0xOTUxO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/e8433bcafdcf15c0ee2089cd5fc65a29",
+      "publishedAt": 1785925800000
     },
     {
       "ticker": "V",
@@ -34,44 +106,12 @@
       "publishedAt": 1785924780000
     },
     {
-      "ticker": "AMZN",
-      "title": "Andy Jassy Just Delivered Incredible News for Amazon Stock Investors",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/64ef51f8-8329-32d6-af4a-924e3a3d381f/andy-jassy-just-delivered.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ng1rooSVCP8afbvHZ9FIyQ--~B/aD04MDU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/36e8e5ac7faa66201f3ea417a9b47db4",
-      "publishedAt": 1785923400000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "New Strong Buy Stocks for August 5th",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-august-5th-094500213.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.zBTWnHVTymVn4FSF0snEw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
-      "publishedAt": 1785923100000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Just Landed a Big Win in the Race Against Tesla and Waymo",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7de41d04-eda6-36c1-8814-2aafedcbb168/amazon-just-landed-a-big-win.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/5w61EkqDfHSAj2BOQ_Jv1w--~B/aD0xMDY2O3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/88d7e185b03540be88aa23b7b81dd5a5",
-      "publishedAt": 1785922500000
-    },
-    {
       "ticker": "JNJ",
       "title": "Dividends vs. an Annuity: Which Turns $675,000 Into More Monthly Income for Life?",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/bc8583b9-94af-3843-ba24-aed9409cfb09/dividends-vs.-an-annuity%3A.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/To.KyGHIw6xxe7b6p9IGDg--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a66be7ad451f93ec6db56e021ab06f04",
       "publishedAt": 1785921004000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Corporate America got billions of dollars in tariff refunds. Where’s your cut?",
-      "publisher": "CNN Business",
-      "link": "https://finance.yahoo.com/m/82ebee2d-b620-3bb9-bce9-3f01104558cb/corporate-america-got.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rZYYyeBqz8WVHOHeH4cOBg--~B/aD01NDA7dz05NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnn_business_articles_218/8ea8b43efe02dddb0abcd4e966cb69a8",
-      "publishedAt": 1785920425000
     },
     {
       "ticker": "SBUX",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-could-10-061022775.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/wxHG3472blIF9Fx2sAPuCg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7",
       "publishedAt": 1785910222000
-    },
-    {
-      "ticker": "MA",
-      "title": "Fiserv-Mastercard Deal Comes As Investors Brace For Q2 Earnings: FISV Retail Sentiment Softens",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/01023588-7ba9-32c1-ab57-b45366376797/fiserv-mastercard-deal-comes.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pILi0pJxFXHx8cWH6sgTNg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/31b934a6b5a3e6564d6c27afb60360d1",
-      "publishedAt": 1785907277000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead Sciences Inc (GILD) (Q2 2026) Earnings Call Highlights: PrEP Sales Double to $1B, HIV ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-inc-gild-q2-050606099.html",
-      "image": null,
-      "publishedAt": 1785906366000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard elevates premium travel with Asia Pacific's first Taste by Priceless dining club at Hong Kong International Airport",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/mastercard-elevates-premium-travel-asia-033400707.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HmmPVvLY8t3hmSqe.D.9KQ--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/221978e063ffb0f3118f0bca13d783a7",
-      "publishedAt": 1785900840000
-    },
-    {
-      "ticker": "PEP",
-      "title": "Convenience store giant takes on Coca-Cola and Pepsi",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/2eb9631b-2426-3e16-9e6e-147de4766510/convenience-store-giant-takes.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.ZOcdVKXW7EUZW9dIndB6Q--~B/aD0zMzcyO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/39329d08a0ffe778f9afe2a6da5af660",
-      "publishedAt": 1785899820000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Why Did DELL, S, DDOG Stocks Surge To 52-Week Highs Today?",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/0a4a9535-b234-3541-8976-aa653714148d/why-did-dell%2C-s%2C-ddog-stocks.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/X41eSgY7BiNKkrjmeMHj_w--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/f782994bbff93132aaf16eeaab361d98",
-      "publishedAt": 1785898636000
     }
   ]
 }
