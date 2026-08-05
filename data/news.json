@@ -1,13 +1,69 @@
 {
-  "updatedAt": "2026-08-05T08:14:04.387Z",
+  "updatedAt": "2026-08-05T09:38:17.519Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "Dividends vs. an Annuity: Which Turns $675,000 Into More Monthly Income for Life?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/bc8583b9-94af-3843-ba24-aed9409cfb09/dividends-vs.-an-annuity%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/To.KyGHIw6xxe7b6p9IGDg--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a66be7ad451f93ec6db56e021ab06f04",
+      "publishedAt": 1785921004000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Michael Burry Exits MSFT, Closes ORCL Short Position – Why He Changed His Tech Trades?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a4085c8b-f1ef-3804-863b-7d1491993ee2/michael-burry-exits-msft%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pq9juXHIo.hKsrAZFb4T3w--~B/aD04NzE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/a7f71426633005faf70e39da631e68eb",
+      "publishedAt": 1785920119000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/us-ban-chinese-optical-parts-082307752.html",
+      "image": null,
+      "publishedAt": 1785918187000
+    },
     {
       "ticker": "AMZN",
       "title": "Tech back in fashion as Asian markets extend rebound",
       "publisher": "AFP",
       "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_C62xnM5j6I8TEVypVA8EQ--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/1147cb6bd1a34b3870d3f0a74c55c686",
-      "publishedAt": 1785914788000
+      "image": "https://s.yimg.com/uu/api/res/1.2/_bWinvBBe1Q8DHPuUO3EaQ--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/eda9fa4909a3f72654a0fc971167d9c3",
+      "publishedAt": 1785917754000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Market Chatter: Starbucks  Korea Headquarters Raided Over 'Tank Day' Marketing Campaign",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-starbucks-korea-headquarters-081234649.html",
+      "image": null,
+      "publishedAt": 1785917554000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html",
+      "image": null,
+      "publishedAt": 1785915463000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola HBC Net Profit Rises on Higher Volumes",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/2f2bf7b4-0fc2-311f-948c-fab638b17569/coca-cola-hbc-net-profit.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sG7kwlweNkWYaF0Ms4lgkA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/8dfa7cbd1a54d33a3bb4fc1fc4751e96",
+      "publishedAt": 1785915240000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Jobs Report, Berkshire Earnings: What to Watch the Rest of the Week",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/c31ac7a7-6d9c-35e0-9a7a-e5affc7945d3/jobs-report%2C-berkshire.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aenDIEd9tdNzDKOOQyytYg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/cf6a54be63658dfd69d6c7ba035c59ea",
+      "publishedAt": 1785914316000
     },
     {
       "ticker": "JNJ",
@@ -58,14 +114,6 @@
       "publishedAt": 1785900840000
     },
     {
-      "ticker": "AMZN",
-      "title": "Hyperscaler Rally: 4 Stocks to Buy Before It's Too Late",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/871cdbfe-5634-3429-89d9-55be9ae83846/hyperscaler-rally%3A-4-stocks.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PV1cvlOQnloULlLA7JNEcQ--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/3430c27fe1cef0660b35adb58a06e1d8",
-      "publishedAt": 1785900000000
-    },
-    {
       "ticker": "PEP",
       "title": "Convenience store giant takes on Coca-Cola and Pepsi",
       "publisher": "TheStreet",
@@ -82,14 +130,6 @@
       "publishedAt": 1785898636000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon.com vs. Carnival: Which Consumer Stock Is a Better Buy in 2026, the E-Commerce Leader or the Cruise Provider in the Rebounding Travel Sector?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/930a4e69-054a-3fcb-94d4-55de11fa2256/amazon.com-vs.-carnival%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VNOS_b3GWU7.Gt_FNTyN9g--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/8fa0c8eb2501e80818d02673e4472105",
-      "publishedAt": 1785894421000
-    },
-    {
       "ticker": "GILD",
       "title": "CORRECTING and REPLACING Gilead Sciences Announces Second Quarter 2026 Financial Results",
       "publisher": "Business Wire",
@@ -98,52 +138,12 @@
       "publishedAt": 1785894060000
     },
     {
-      "ticker": "AMZN",
-      "title": "Ross Gerber Invokes the Tortoise and the Hare to Explain Difference Between Investing and Betting Amid AI Fund Collapse: 'It Is About Understanding Risk'",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-invokes-tortoise-hare-013104313.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/kIwhFjgr1ZQNzCgUU_5qVQ--~B/aD02ODE7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/1cc92f22de4b5e47dd23d27e94afddd0",
-      "publishedAt": 1785893464000
-    },
-    {
       "ticker": "MA",
       "title": "Stablecorp CEO went from 'ridiculed' to running half of Canada's stablecoin market",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/8bcb39e8-3f80-3e2f-ab6b-a54c0d1c93ff/stablecorp-ceo-went-from.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/0fgG5kgSLKQl65qphanFFw--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/1f7e82b5292130655f458d99d6f98a9d",
       "publishedAt": 1785891552000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca Cola (KO) Stock Sees Fair Value Lift After Q2 Beat And Higher Guidance",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-sees-001915413.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IthlBp5bmsUrF42IaFLMrw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/74f98c15d287910ca9954ef2279ac5c0",
-      "publishedAt": 1785889155000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead Sciences Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/99e9a617-8d14-345a-a29c-9db2103ae9f6/gilead-sciences-q2-earnings.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GvSJT0LRZjETSRHnLuJvrg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/f4d50043a6ad9be86acba5b5bc857621",
-      "publishedAt": 1785888265000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "How Much Do You Really Need Invested to Replace a $100,000 Salary With Dividends?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/7fdc663a-472e-3293-ad0f-92033c5771b3/how-much-do-you-really-need.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/LAr94gIuFHPU6Lv0KsHgmw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d981dd810eaeb413015369ebbce09ae6",
-      "publishedAt": 1785887008000
-    },
-    {
-      "ticker": "KO",
-      "title": "Is Coca Cola (KO) Fully Valued Following Its Poland And Baltic Leadership Change?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-fully-valued-231620707.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IthlBp5bmsUrF42IaFLMrw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/74f98c15d287910ca9954ef2279ac5c0",
-      "publishedAt": 1785885380000
     }
   ]
 }
