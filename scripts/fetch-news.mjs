@@ -1,10 +1,10 @@
-// Fetches recent news headlines for each of the 11 holdings from Yahoo
+// Fetches recent news headlines for each of the 12 holdings from Yahoo
 // Finance's public search endpoint (the same one yfinance-style tools use
 // for ticker.news) and writes data/news.json. Runs server-side inside the
 // GitHub Actions runner (see .github/workflows/update-news.yml) — the site
 // itself just reads the resulting static JSON file.
 
-const TICKERS = ["DDOG", "MA", "ABBV", "V", "AMZN", "JNJ", "PEP", "GILD", "SBUX", "KO", "MNST"];
+const TICKERS = ["MA", "PLTR", "MSFT", "ABBV", "V", "GOOGL", "AMZN", "JNJ", "DDOG", "GILD", "SBUX", "KO"];
 
 // Yahoo's search response includes a thumbnail.resolutions[] array (sizes
 // vary per story, not every story has one at all) — prefer the "original"

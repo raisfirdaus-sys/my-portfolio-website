@@ -6,42 +6,56 @@
 
 const HOLDINGS = [
   {
-    ticker: "DDOG",
-    name: "Datadog Inc",
-    sector: "Cloud Monitoring & Observability",
-    website: "https://www.datadoghq.com",
-    value: 1110.6,
-    changePct: 0.45,
-    growth5y: 85,
-    color: "#123524",
-    thesis:
-      "Datadog is a leading cloud monitoring and observability platform that DevOps and engineering teams rely on to keep modern, distributed applications running. As more of the world's software moves to the cloud and AI-driven workloads multiply, demand for real-time visibility into performance and infrastructure keeps expanding.",
-    outlook:
-      "New AI-observability products and deeper integration across security, logs, and infrastructure monitoring are the growth levers I'm watching over the next 5 years.",
-  },
-  {
     ticker: "MA",
     name: "Mastercard Inc",
     sector: "Digital Payments",
     website: "https://www.mastercard.com",
-    value: 597.49,
-    changePct: 4.72,
+    value: 591.22,
+    changePct: 0.16,
     growth5y: 70,
-    color: "#1a4630",
+    color: "#123524",
     thesis:
       "A toll-booth business model: every card transaction generates a fee, with high margins and low capital costs. The growth of e-commerce & the cashless society is a long-term tailwind.",
     outlook:
       "Expansion into cross-border payments, tokenization, and emerging markets (including Indonesia) could become the next growth engine.",
   },
   {
+    ticker: "PLTR",
+    name: "Palantir Technologies Inc",
+    sector: "Data Analytics & AI Software",
+    website: "https://www.palantir.com",
+    value: 538.04,
+    changePct: 0,
+    growth5y: 90,
+    color: "#234634",
+    thesis:
+      "Palantir's Foundry and AIP platforms turn messy enterprise and government data into decision-ready software, a depth of security and integration few competitors can replicate. Its shift from government-heavy revenue toward fast-growing commercial customers is what turned the stock from a niche defense play into a broader AI story.",
+    outlook:
+      "Commercial customer growth, AIP adoption pace, and further defense & government contract wins are the catalysts I'm watching most closely.",
+  },
+  {
+    ticker: "MSFT",
+    name: "Microsoft Corporation",
+    sector: "Cloud Computing & Enterprise Software",
+    website: "https://www.microsoft.com",
+    value: 497.59,
+    changePct: -0.98,
+    growth5y: 75,
+    color: "#335745",
+    thesis:
+      "Microsoft pairs the dominant enterprise productivity suite (Office, Windows, Teams) with Azure, the world's #2 cloud platform, giving it both a defensive moat and a high-growth engine in one company. Its early, deep OpenAI partnership put Copilot AI features across nearly every product line before most competitors had a real answer.",
+    outlook:
+      "Azure's AI-workload growth, Copilot monetization across the Microsoft 365 suite, and continued enterprise cloud migration are the catalysts I'm watching over the next 5 years.",
+  },
+  {
     ticker: "ABBV",
     name: "AbbVie Inc",
     sector: "Pharmaceuticals & Biotech",
     website: "https://www.abbvie.com",
-    value: 506.14,
-    changePct: 21,
+    value: 489.42,
+    changePct: -0.11,
     growth5y: 60,
-    color: "#1e5238",
+    color: "#446855",
     thesis:
       "After navigating the Humira patent cliff, AbbVie successfully diversified its portfolio into immunology (Skyrizi, Rinvoq) and oncology drugs that are growing aggressively.",
     outlook:
@@ -52,24 +66,38 @@ const HOLDINGS = [
     name: "Visa Inc. Class A",
     sector: "Digital Payments",
     website: "https://www.visa.com",
-    value: 398.71,
-    changePct: 9.26,
+    value: 396.24,
+    changePct: 0.63,
     growth5y: 65,
-    color: "#256346",
+    color: "#547965",
     thesis:
       "The world's largest payment network with an extremely wide moat. Like Mastercard, Visa benefits from the global shift from cash to digital.",
     outlook:
       "Value-added services (fraud protection, data analytics) and growing digital transaction volume are driving revenue beyond the core card business.",
   },
   {
+    ticker: "GOOGL",
+    name: "Alphabet Inc Class A",
+    sector: "Internet Search & Cloud Computing",
+    website: "https://abc.xyz",
+    value: 379.68,
+    changePct: 0.52,
+    growth5y: 70,
+    color: "#658a76",
+    thesis:
+      "Alphabet still owns the world's dominant search and digital-advertising engine, and Google Cloud has grown into a real third pillar alongside AWS and Azure. Its Gemini AI models and in-house TPU chips give it a rare combination of AI research depth and the infrastructure to deploy it at scale.",
+    outlook:
+      "Gemini's integration across Search, Workspace, and Cloud, plus continued Waymo and YouTube growth, are the long-term catalysts I'm tracking.",
+  },
+  {
     ticker: "AMZN",
     name: "Amazon.com Inc",
     sector: "E-Commerce & Cloud Computing",
     website: "https://www.amazon.com",
-    value: 351.03,
-    changePct: 8.23,
+    value: 351.68,
+    changePct: -2.36,
     growth5y: 80,
-    color: "#2c7350",
+    color: "#759b86",
     thesis:
       "Amazon combines the world's largest e-commerce marketplace with AWS, the leading cloud computing platform that quietly generates the bulk of the company's operating profit. This dual engine of retail scale and high-margin cloud infrastructure gives it a wide moat few competitors can match.",
     outlook:
@@ -80,38 +108,38 @@ const HOLDINGS = [
     name: "Johnson & Johnson",
     sector: "Healthcare & Consumer Health",
     website: "https://www.jnj.com",
-    value: 330.18,
-    changePct: 12.76,
+    value: 322.77,
+    changePct: -0.65,
     growth5y: 40,
-    color: "#347e5c",
+    color: "#86ac97",
     thesis:
       "A healthcare giant with broad diversification: pharmaceuticals, MedTech, and consumer products. A Dividend Aristocrat that has consistently raised its dividend for decades in a row.",
     outlook:
       "Post-Kenvue spin-off, the focus is now purely on high-margin pharma & MedTech — a defensive profile that suits balancing a portfolio.",
   },
   {
-    ticker: "PEP",
-    name: "PepsiCo Inc",
-    sector: "Consumer Staples & Snacks/Beverages",
-    website: "https://www.pepsico.com",
-    value: 152.03,
-    changePct: 1.91,
-    growth5y: 40,
-    color: "#3d8b68",
+    ticker: "DDOG",
+    name: "Datadog Inc",
+    sector: "Cloud Monitoring & Observability",
+    website: "https://www.datadoghq.com",
+    value: 299.38,
+    changePct: 0,
+    growth5y: 85,
+    color: "#96bda7",
     thesis:
-      "PepsiCo's dual snacks-and-beverages business (Frito-Lay, Gatorade, Pepsi) gives it more category diversification than a pure soda company, with strong brand loyalty across both segments. A Dividend Aristocrat with decades of consistent dividend growth.",
+      "Datadog is a leading cloud monitoring and observability platform that DevOps and engineering teams rely on to keep modern, distributed applications running. As more of the world's software moves to the cloud and AI-driven workloads multiply, demand for real-time visibility into performance and infrastructure keeps expanding.",
     outlook:
-      "Portfolio shifts toward healthier snacks and beverages, plus international expansion, are the long-term growth levers I'm watching.",
+      "New AI-observability products and deeper integration across security, logs, and infrastructure monitoring are the growth levers I'm watching over the next 5 years.",
   },
   {
     ticker: "GILD",
     name: "Gilead Sciences Inc",
     sector: "Biotechnology & Pharmaceuticals",
     website: "https://www.gilead.com",
-    value: 132.0,
-    changePct: 3.61,
+    value: 130.98,
+    changePct: -0.15,
     growth5y: 55,
-    color: "#49a06b",
+    color: "#a7ceb7",
     thesis:
       "A market leader in HIV treatment, continuing to expand into oncology. Cash flow from its dominant HIV franchise funds long-term research & acquisitions.",
     outlook:
@@ -122,10 +150,10 @@ const HOLDINGS = [
     name: "Starbucks Corporation",
     sector: "Restaurants & Consumer Retail",
     website: "https://www.starbucks.com",
-    value: 106.46,
-    changePct: 2.25,
+    value: 103.67,
+    changePct: 0.22,
     growth5y: 45,
-    color: "#5cb37e",
+    color: "#b7dfc8",
     thesis:
       "Starbucks remains the dominant global coffeehouse brand, with a loyalty program and mobile-ordering ecosystem that drives repeat, high-frequency purchases. Its scale gives it pricing power and a distribution footprint competitors struggle to replicate.",
     outlook:
@@ -136,28 +164,14 @@ const HOLDINGS = [
     name: "The Coca-Cola Company",
     sector: "Consumer Staples & Beverages",
     website: "https://www.coca-colacompany.com",
-    value: 95.27,
-    changePct: 5.58,
+    value: 93.07,
+    changePct: -0.79,
     growth5y: 35,
-    color: "#7ec99a",
+    color: "#c8f0d8",
     thesis:
       "One of the most recognized brands in the world, with a massive distribution network spanning over 200 countries. An 'asset-light' model via bottling partners keeps margins high.",
     outlook:
       "Diversifying beyond carbonated drinks (bottled water, tea, coffee) and premium pricing form the long-term growth strategy.",
-  },
-  {
-    ticker: "MNST",
-    name: "Monster Beverage Corp",
-    sector: "Consumer Beverage",
-    website: "https://www.monsterbevcorp.com",
-    value: 94.12,
-    changePct: 0.15,
-    growth5y: 50,
-    color: "#a9e0bd",
-    thesis:
-      "The world's number-two player in the energy drink category, with high margins and strong brand loyalty among Gen Z & millennials.",
-    outlook:
-      "Geographic expansion (Asia, Latin America) and new product lines (alcohol brands, lower-sugar variants) are the next growth avenues.",
   },
 ];
 
@@ -169,11 +183,13 @@ HOLDINGS.forEach((h) => {
   h.weight = (h.value / totalValue) * 100;
 });
 
-// What I originally paid for 1 share of each of the 11 holdings (today's
-// value minus today's dollar move, summed across all positions). This stays
-// fixed — it's the baseline the live "Total Portfolio Value" is compared
-// against to show real profit/loss.
-const INITIAL_CAPITAL_USD = 3653.78;
+// What I actually have invested right now across the 12 holdings (cost
+// basis of currently-held shares, straight from the broker — not a running
+// total of every historical deposit, since positions get bought and sold
+// repeatedly). This stays fixed until the next portfolio update — it's the
+// baseline the live "Total Portfolio Value" is compared against to show
+// real profit/loss.
+const INITIAL_CAPITAL_USD = 4027.76;
 
 function fmtPct(n, digits = 1) {
   const sign = n > 0 ? "+" : "";
@@ -225,7 +241,7 @@ function renderTickerTape() {
 }
 
 // ---------------------------------------------------------------------------
-// Hero holdings slider (all 11, sorted by weight, horizontally scrollable)
+// Hero holdings slider (all holdings, sorted by weight, horizontally scrollable)
 // ---------------------------------------------------------------------------
 function renderHeroList() {
   const track = document.getElementById("hero-slider-track");
@@ -343,12 +359,13 @@ function renderPortraitStats() {
 // Sector groups (derived from HOLDINGS by ticker)
 // ---------------------------------------------------------------------------
 const SECTOR_GROUPS = [
-  { name: "Cloud & Software", tickers: ["DDOG"] },
+  { name: "Cloud & Software", tickers: ["DDOG", "MSFT"] },
+  { name: "Internet & AI Platforms", tickers: ["GOOGL", "PLTR"] },
   { name: "Digital Payments", tickers: ["MA", "V"] },
   { name: "Pharmaceuticals & Biotech", tickers: ["ABBV", "GILD"] },
   { name: "Consumer Healthcare", tickers: ["JNJ"] },
   { name: "E-Commerce & Consumer Discretionary", tickers: ["AMZN", "SBUX"] },
-  { name: "Consumer Staples & Beverages", tickers: ["KO", "MNST", "PEP"] },
+  { name: "Consumer Staples & Beverages", tickers: ["KO"] },
 ];
 
 function renderSectorList() {
@@ -369,7 +386,7 @@ function renderSectorList() {
 }
 
 // ---------------------------------------------------------------------------
-// Sector radar chart (11 axes = 11 tickers, two normalized series)
+// Sector radar chart (one axis per ticker, two normalized series)
 // ---------------------------------------------------------------------------
 function renderSectorRadar() {
   const svg = document.getElementById("radar-svg");
@@ -677,7 +694,7 @@ function renderStockScores() {
 // "1D" intraday series rather than being fetched separately.
 // ---------------------------------------------------------------------------
 let chartData = null;
-let chartTicker = "DDOG";
+let chartTicker = "MA";
 let chartRange = "1D";
 
 const CHART_RANGES = ["1H", "1D", "5D", "1M", "3M", "YTD", "5Y", "MAX"];
@@ -1333,7 +1350,7 @@ function renderPerformanceStats(data) {
 
   if (updatedEl) {
     updatedEl.textContent = data.updatedAt
-      ? `Calculated from live prices across 11 stocks · Last: ${fmtUpdatedAt(data.updatedAt)}.`
+      ? `Calculated from live prices across ${HOLDINGS.length} stocks · Last: ${fmtUpdatedAt(data.updatedAt)}.`
       : "Waiting for the first auto-update of performance data.";
   }
 }
@@ -1384,7 +1401,7 @@ async function fetchViaProxy(proxyUrl, timeoutMs) {
 }
 
 // Same math as scripts/fetch-quotes.mjs's fetchQuote() (the server-side
-// script behind the 11 core holdings' "Stock Score"), ported to run
+// script behind the core holdings' "Stock Score"), ported to run
 // client-side so the game's arbitrary tickers get a real momentum read
 // too — not fabricated, just computed from the same 1-year daily-close
 // series and 52-week range Yahoo already returns.
@@ -1402,7 +1419,7 @@ function parseYahooChartQuote(json, ticker) {
 
   // Same "most recent of regular/post/pre-market" candidate pick as
   // scripts/fetch-quotes.mjs, so a ticker typed into the game/analyzer gets
-  // the same live-price accuracy as the 11 core holdings instead of
+  // the same live-price accuracy as the core holdings instead of
   // silently lagging on a stale regularMarketPrice outside trading hours.
   const priceCandidates = [
     { price: meta.regularMarketPrice, time: meta.regularMarketTime },
@@ -2386,6 +2403,8 @@ async function loadNews() {
 // ---------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("stat-count").textContent = HOLDINGS.length;
+  const statCount2 = document.getElementById("stat-count-2");
+  if (statCount2) statCount2.textContent = HOLDINGS.length;
   document.getElementById("year").textContent = new Date().getFullYear();
 
   renderTickerTape();

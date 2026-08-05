@@ -1,4 +1,4 @@
-// Fetches multi-timeframe price history for each of the 11 holdings from
+// Fetches multi-timeframe price history for each of the 12 holdings from
 // Yahoo Finance's public chart endpoint (the same one fetch-quotes.mjs
 // already uses successfully) and writes data/charts.json. Runs server-side
 // inside the GitHub Actions runner (see .github/workflows/update-charts.yml).
@@ -7,7 +7,7 @@
 // the last hour out of the "1D" (intraday) series rather than fetched
 // separately.
 
-const TICKERS = ["DDOG", "MA", "ABBV", "V", "AMZN", "JNJ", "PEP", "GILD", "SBUX", "KO", "MNST"];
+const TICKERS = ["MA", "PLTR", "MSFT", "ABBV", "V", "GOOGL", "AMZN", "JNJ", "DDOG", "GILD", "SBUX", "KO"];
 
 const RANGE_SPECS = [
   { key: "1D", range: "1d", interval: "5m" },
