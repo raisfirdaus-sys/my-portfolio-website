@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-05T14:27:56.202Z",
+  "updatedAt": "2026-08-05T15:26:10.456Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Uber stock drops as bookings guidance disappoints; CEO bets on robotaxi push to grow overall business",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/article/uber-stock-drops-as-bookings-guidance-disappoints-ceo-bets-on-robotaxi-push-to-grow-overall-business-150729446.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rFxh_EknP31ULgwmkhAoVA--~B/aD0yODEyO3c9NDIxODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/a4140a22-2838-4023-a316-721a5c2fb2a4",
+      "publishedAt": 1785942449000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Amazon's Zoox to start paid robotaxi rides in Vegas next week",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/articles/amazons-zoox-start-paid-robotaxi-150625162.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/huW5sACXgYnc8HN1hAlc5Q--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/e6021d6e29ab926b9240ee93b085a4e4",
+      "publishedAt": 1785942385000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Stock Jumps 30% as AI Revenue Forecast Soars",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-stock-jumps-30-ai-150200662.html",
+      "image": null,
+      "publishedAt": 1785942120000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "SpaceX Has Already Lost AI Race",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/291c17e4-b129-38fe-8cf0-ae088b084cf9/spacex-has-already-lost-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_HqZS.7iRXdan22Jo5U0xg--~B/aD0xMjAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/cb5c69dfb549ab367dbd0240bb59f2e2",
+      "publishedAt": 1785941634000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "HSBC Adjusts Palantir Technologies Price Target to $162 From $151",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-palantir-technologies-price-145211320.html",
+      "image": null,
+      "publishedAt": 1785941531000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Booking vs. Carvana: Which Consumer Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/765afb83-4421-3b43-ac88-ff80bfeb8418/booking-vs.-carvana%3A-which.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kJIZUgjXqOIZiuw02hjcUg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/f7a65c96d166faf21aac2b3268722093",
+      "publishedAt": 1785940764000
+    },
+    {
+      "ticker": "V",
+      "title": "BeInCrypto Stage Brings Together Global Leaders at Rio Innovation Week 2026",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/3ccc62a1-46da-315f-8f2f-7e2749d2b53f/beincrypto-stage-brings.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/F0oQjW8vX_Y0vPI1MwfXWA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/beincrypto_us_662/16fbf8d94322751e17acffad91d07f3b",
+      "publishedAt": 1785940653000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Veteran analyst rethinks Palantir stock after earnings",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/38e42fac-37b0-3091-b59d-9ded82151731/veteran-analyst-rethinks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OJsiaP8dejQMAI8CVg8znQ--~B/aD0yNTU2O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/040dacab597ab5119a046af70c58d5b2",
+      "publishedAt": 1785940620000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Bill Ackman Poured $2 Billion Into a Stock His Peers Were Fleeing",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/6c830a4c-1cbd-3627-9455-059e2ee20bb2/why-bill-ackman-poured-%242.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/D9KOAEgeDr6zc.SL56o5Dg--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/4fc283e0f60633ecb058372d03bbcf26",
+      "publishedAt": 1785940201000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The 9th Circuit’s Browser Analogy Leaves a Liability Vacuum",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/9th-circuit-browser-analogy-leaves-142824841.html",
+      "image": null,
+      "publishedAt": 1785940104000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Crushes Earnings in Q2. Is the Stock Heading Back to $200?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/4cbf3326-5444-3d70-810d-0c4b9726d5a6/palantir-crushes-earnings-in.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/t4I84j9iHWSjo6dVk021Rw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d8a292c1a3518be15def1b907ac06df6",
+      "publishedAt": 1785939893000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Apple's Buyback Is Retiring Less Stock Just As The Memory Bill Grows",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/2d1ddebb-f90b-3a3d-9c4e-e00285a80ff1/apple%27s-buyback-is-retiring.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9Li7sZdQ26RUffLLAotPpQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f9b1b44322f3fe94699cfbe3b3dc3e3b",
+      "publishedAt": 1785939421000
+    },
     {
       "ticker": "GILD",
       "title": "Leerink Partners Adjusts Price Target on Gilead Sciences to $130 From $126",
@@ -18,12 +114,12 @@
       "publishedAt": 1785939031000
     },
     {
-      "ticker": "PLTR",
-      "title": "Stocks mostly rise tracking earnings, US-Iran hopes",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0aNXH4yDQX1VNH9RLBqddg--~B/aD01MDM7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/d8185ad0e90b0e4e35f5a21b03296ad8",
-      "publishedAt": 1785938889000
+      "ticker": "MSFT",
+      "title": "Nebius Surges 310% in a Year: Should You Buy, Hold or Sell?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-surges-310-buy-hold-140800071.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mYQcKrBErD723LN8P5V9xQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d87cc8e5693753ce8e232e0a527e4885",
+      "publishedAt": 1785938880000
     },
     {
       "ticker": "MSFT",
@@ -42,108 +138,12 @@
       "publishedAt": 1785938426000
     },
     {
-      "ticker": "MA",
-      "title": "Mastercard Is in Millions of Portfolios. Last Quarter, Elite Investors Were Quietly Buying Its Rival",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/3fd35e80-8a27-3405-aa09-effdad311302/mastercard-is-in-millions-of.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Y_78vHzTVNIHPx.elQEXLw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/905a68279bd0b67864c84a0f390e1a52",
-      "publishedAt": 1785938303000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Arista Networks Stock Surges as Earnings Prove AI Demand Is Real",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/b6e106e5-4e33-3ce2-9439-8b5e5685ecc0/arista-networks-stock-surges.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/s2B1uCnXkL1XosT9M6BLFA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/7502a9f45fbc225bdccccd0dbf3ad4df",
-      "publishedAt": 1785938160000
-    },
-    {
-      "ticker": "MA",
-      "title": "Circle Internet Group Posts Mixed Financial Results",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/b8cd1315-1f06-3581-8c72-6aab6e6ba2cd/circle-internet-group-posts.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AG8CikW4ZWpx2r8mRUffHA--~B/aD02MDA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptoprowl_304/1a51d9936e082effa1af903d105d96b9",
-      "publishedAt": 1785938040000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "US court overturns Amazon injunction against Perplexity AI",
-      "publisher": "Retail Insight Network",
-      "link": "https://finance.yahoo.com/m/5bcf5573-f407-3c4a-aa69-28ff16ed1fe8/us-court-overturns-amazon.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GMXDmw2yUozPvlwGJppbqw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/0381746e173ff5552a043b095efad44c",
-      "publishedAt": 1785937804000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Blackstone pitches $36 billion debt deal for Anthropic AI chips",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/87233a5f-7d02-3932-b0dc-ee50df5cda77/blackstone-pitches-%2436.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/J7VZO0U5CZBytirl19QAlw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/276eb2d232ea6348fa22d076c647e554",
-      "publishedAt": 1785937477000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence (AI) Investors Cheering",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/53fa9a13-532f-3d72-82d6-d0fec6df36ef/12-words-from-amazon-ceo-andy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HzYWT3hCDskCNsd4QcOwJg--~B/aD04MDU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c33e6889f8a4454dafe99cbf09957cfb",
-      "publishedAt": 1785936900000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Brand Behind AEO's Stock Rally Isn't the One On The Sign",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/bff7bca3-d288-314d-9aaa-710dd5b9ef8f/the-brand-behind-aeo%27s-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HQgy4UaXM5L7XdxZGYUNvA--~B/aD04ODQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/95ba5b514895efb5fd369a4b0efddd11",
-      "publishedAt": 1785936144000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "This SpaceX number is spooking already skittish investors",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QOknVD6.OfgjQ7IixaLkPw--~B/aD0zMjY0O3c9NDg5NjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/bd6e99e4-3779-4c09-b06d-a0fdfbb84820",
-      "publishedAt": 1785935304000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Channelscaler Brings AI-Powered Partner Relationship Management to Microsoft Marketplace",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/channelscaler-brings-ai-powered-partner-130400281.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/N0dNrJKjx3PBeAc0UPeDjQ--~B/aD0zMTE7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/05996e9a20f3c36e4d5ccc43c8885a2c",
-      "publishedAt": 1785935040000
-    },
-    {
       "ticker": "PLTR",
-      "title": "KODE OS Achieves FedRAMP® High Authorization Through Palantir FedStart",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/kode-os-achieves-fedramp-high-130000657.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/K06JbFWIUmBas3pzZmN_WA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/9a18eb32326181ae851c98a9b4e73f3a",
-      "publishedAt": 1785934800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/markets/options/articles/kurv-launches-kurv-equity-option-130000825.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rLOHzewiHnkmt9yrVKucnw--~B/aD0yODU7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/38982cad021ab0cda3b999c5a15e260e",
-      "publishedAt": 1785934800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "VEIR Announces Key Leadership Appointments as it Prepares to Scale Superconducting Power Delivery for Data Centers",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/articles/veir-announces-key-leadership-appointments-130000033.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fy9sh73fr38PV0_x58R5Hw--~B/aD0yNTc7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/1bf40369851e1226d62a45e6af01f407",
-      "publishedAt": 1785934800000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "DoorDash Gets FAA Green Light for Commercial Drone Deliveries",
-      "publisher": "Sourcing Journal",
-      "link": "https://finance.yahoo.com/m/d1e42cc3-cceb-3196-99dd-e5e558f86f3c/doordash-gets-faa-green-light.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rrcyZb.gVUSeaoRDFFzZnA--~B/aD0xMDgwO3c9MTIwODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/sourcing_journal_735/0ef01d91e83c3441704cc5dbf4d55e04",
-      "publishedAt": 1785934800000
+      "title": "Palantir Soars on Blowout Q2 Results: ETFs to Benefit",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-soars-blowout-q2-results-140000585.html",
+      "image": null,
+      "publishedAt": 1785938400000
     }
   ]
 }
