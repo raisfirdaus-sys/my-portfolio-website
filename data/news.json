@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-05T09:38:17.519Z",
+  "updatedAt": "2026-08-05T11:08:29.396Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "NiSource Announces Second Quarter Results",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-announces-second-quarter-results-103000419.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/djYH0sT6NCY9i2BRsB3Z8A--~B/aD0zMjA7dz0xOTUxO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/e8433bcafdcf15c0ee2089cd5fc65a29",
+      "publishedAt": 1785925800000
+    },
+    {
+      "ticker": "MA",
+      "title": "Circle Internet Stock Rises on Earnings as Profit Overcomes Crypto Slump",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/8bf38b81-5be4-3ccb-9d36-e0448e84a12f/circle-internet-stock-rises.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/r_mjrAVDMbtCPfoiPMLXBQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/ff0ec88eb78aed8ae827f6c6f8916379",
+      "publishedAt": 1785925500000
+    },
+    {
+      "ticker": "V",
+      "title": "Western Union and Rain launch Stablecard tied to USDPT",
+      "publisher": "Electronic Payments",
+      "link": "https://finance.yahoo.com/m/42ad12a3-c616-3951-944c-adfe97298c0e/western-union-and-rain-launch.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fwEJf2uuZnsnezfPgp.ZEQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/74e20f0169e2ea4ed567c8af862fc660",
+      "publishedAt": 1785924948000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "AMD Stock Slides After Solid  Earnings. The Chip Maker Has a Bigger Problem.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/a6d2c627-33f4-3a19-8794-fd0716f99926/amd-stock-slides-after-solid-.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Y7vheGd84.NdD_yqHihOtw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/3ef2e9022528a9001cb939e0c1682853",
+      "publishedAt": 1785924780000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Andy Jassy Just Delivered Incredible News for Amazon Stock Investors",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/64ef51f8-8329-32d6-af4a-924e3a3d381f/andy-jassy-just-delivered.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ng1rooSVCP8afbvHZ9FIyQ--~B/aD04MDU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/36e8e5ac7faa66201f3ea417a9b47db4",
+      "publishedAt": 1785923400000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "New Strong Buy Stocks for August 5th",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-august-5th-094500213.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.zBTWnHVTymVn4FSF0snEw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964",
+      "publishedAt": 1785923100000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Just Landed a Big Win in the Race Against Tesla and Waymo",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7de41d04-eda6-36c1-8814-2aafedcbb168/amazon-just-landed-a-big-win.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5w61EkqDfHSAj2BOQ_Jv1w--~B/aD0xMDY2O3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/88d7e185b03540be88aa23b7b81dd5a5",
+      "publishedAt": 1785922500000
+    },
     {
       "ticker": "JNJ",
       "title": "Dividends vs. an Annuity: Which Turns $675,000 Into More Monthly Income for Life?",
@@ -11,27 +67,11 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Michael Burry Exits MSFT, Closes ORCL Short Position – Why He Changed His Tech Trades?",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/a4085c8b-f1ef-3804-863b-7d1491993ee2/michael-burry-exits-msft%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pq9juXHIo.hKsrAZFb4T3w--~B/aD04NzE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/a7f71426633005faf70e39da631e68eb",
-      "publishedAt": 1785920119000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/us-ban-chinese-optical-parts-082307752.html",
-      "image": null,
-      "publishedAt": 1785918187000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Tech back in fashion as Asian markets extend rebound",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_bWinvBBe1Q8DHPuUO3EaQ--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/eda9fa4909a3f72654a0fc971167d9c3",
-      "publishedAt": 1785917754000
+      "title": "Corporate America got billions of dollars in tariff refunds. Where’s your cut?",
+      "publisher": "CNN Business",
+      "link": "https://finance.yahoo.com/m/82ebee2d-b620-3bb9-bce9-3f01104558cb/corporate-america-got.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rZYYyeBqz8WVHOHeH4cOBg--~B/aD01NDA7dz05NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnn_business_articles_218/8ea8b43efe02dddb0abcd4e966cb69a8",
+      "publishedAt": 1785920425000
     },
     {
       "ticker": "SBUX",
@@ -40,14 +80,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-starbucks-korea-headquarters-081234649.html",
       "image": null,
       "publishedAt": 1785917554000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html",
-      "image": null,
-      "publishedAt": 1785915463000
     },
     {
       "ticker": "KO",
@@ -74,14 +106,6 @@
       "publishedAt": 1785910222000
     },
     {
-      "ticker": "AMZN",
-      "title": "Think Tech Is Spending Too Much? There’s Trillions More to Come.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/2e0c54b6-b4ac-3e1f-803a-ce721bfb389d/think-tech-is-spending-too.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DoIy_7tofRA5LWiFxMbxGw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/97f4d48b96f68d28af98892d3db16fee",
-      "publishedAt": 1785909600000
-    },
-    {
       "ticker": "MA",
       "title": "Fiserv-Mastercard Deal Comes As Investors Brace For Q2 Earnings: FISV Retail Sentiment Softens",
       "publisher": "Stocktwits",
@@ -96,14 +120,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-inc-gild-q2-050606099.html",
       "image": null,
       "publishedAt": 1785906366000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Niagen Bioscience Inc (NAGE) (Q2 2026) Earnings Call Highlights: E-Commerce Surge and China ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/healthcare/articles/niagen-bioscience-inc-nage-q2-050456498.html",
-      "image": null,
-      "publishedAt": 1785906296000
     },
     {
       "ticker": "MA",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/0a4a9535-b234-3541-8976-aa653714148d/why-did-dell%2C-s%2C-ddog-stocks.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/X41eSgY7BiNKkrjmeMHj_w--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/f782994bbff93132aaf16eeaab361d98",
       "publishedAt": 1785898636000
-    },
-    {
-      "ticker": "GILD",
-      "title": "CORRECTING and REPLACING Gilead Sciences Announces Second Quarter 2026 Financial Results",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-announces-second-quarter-200100563.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iL7uQUP43iE0F4FjYzh9EA--~B/aD01NzY7dz0xNzI4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/57f230b34b2e4448040933aff8657b3d",
-      "publishedAt": 1785894060000
-    },
-    {
-      "ticker": "MA",
-      "title": "Stablecorp CEO went from 'ridiculed' to running half of Canada's stablecoin market",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/8bcb39e8-3f80-3e2f-ab6b-a54c0d1c93ff/stablecorp-ceo-went-from.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0fgG5kgSLKQl65qphanFFw--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/1f7e82b5292130655f458d99d6f98a9d",
-      "publishedAt": 1785891552000
     }
   ]
 }
