@@ -6,6 +6,20 @@
 
 const HOLDINGS = [
   {
+    ticker: "PLTR",
+    name: "Palantir Technologies Inc",
+    sector: "Data Analytics & AI Software",
+    website: "https://www.palantir.com",
+    value: 645.24,
+    changePct: -0.83,
+    growth5y: 90,
+    color: "#123524",
+    thesis:
+      "Palantir's Foundry and AIP platforms turn messy enterprise and government data into decision-ready software, a depth of security and integration few competitors can replicate. Its shift from government-heavy revenue toward fast-growing commercial customers is what turned the stock from a niche defense play into a broader AI story.",
+    outlook:
+      "Commercial customer growth, AIP adoption pace, and further defense & government contract wins are the catalysts I'm watching most closely.",
+  },
+  {
     ticker: "MA",
     name: "Mastercard Inc",
     sector: "Digital Payments",
@@ -13,25 +27,11 @@ const HOLDINGS = [
     value: 591.22,
     changePct: 0.16,
     growth5y: 70,
-    color: "#123524",
+    color: "#234634",
     thesis:
       "A toll-booth business model: every card transaction generates a fee, with high margins and low capital costs. The growth of e-commerce & the cashless society is a long-term tailwind.",
     outlook:
       "Expansion into cross-border payments, tokenization, and emerging markets (including Indonesia) could become the next growth engine.",
-  },
-  {
-    ticker: "PLTR",
-    name: "Palantir Technologies Inc",
-    sector: "Data Analytics & AI Software",
-    website: "https://www.palantir.com",
-    value: 538.04,
-    changePct: 0,
-    growth5y: 90,
-    color: "#234634",
-    thesis:
-      "Palantir's Foundry and AIP platforms turn messy enterprise and government data into decision-ready software, a depth of security and integration few competitors can replicate. Its shift from government-heavy revenue toward fast-growing commercial customers is what turned the stock from a niche defense play into a broader AI story.",
-    outlook:
-      "Commercial customer growth, AIP adoption pace, and further defense & government contract wins are the catalysts I'm watching most closely.",
   },
   {
     ticker: "MSFT",
