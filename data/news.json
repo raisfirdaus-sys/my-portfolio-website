@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-05T12:32:57.501Z",
+  "updatedAt": "2026-08-05T13:08:51.271Z",
   "items": [
+    {
+      "ticker": "GILD",
+      "title": "RBC Capital Adjusts Gilead Sciences Price Target to $123 From $120, Maintains Sector Perform Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-capital-adjusts-gilead-sciences-123618431.html",
+      "image": null,
+      "publishedAt": 1785933378000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Who Might Buy Snap If Its Founders Ever Decide to Sell",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/0903ba0b-3bb1-319a-938d-cc4a1760ba3a/who-might-buy-snap-if-its.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3mBBSuJEu7JmDlAF7jL2PQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/225e316bd4673c0d52a48ed488528d56",
+      "publishedAt": 1785932732000
+    },
     {
       "ticker": "ABBV",
       "title": "Baron Capital Exits Apogee Therapeutics (APGE) Following AbbVie Buyout",
@@ -26,7 +42,7 @@
       "publishedAt": 1785931878000
     },
     {
-      "ticker": "AMZN",
+      "ticker": "KO",
       "title": "Kraft Heinz Q2 Earnings Call Highlights",
       "publisher": "MarketBeat",
       "link": "https://finance.yahoo.com/m/918f5182-4d2e-335a-8310-dade123ef654/kraft-heinz-q2-earnings-call.html",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/2f2bf7b4-0fc2-311f-948c-fab638b17569/coca-cola-hbc-net-profit.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/sG7kwlweNkWYaF0Ms4lgkA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/8dfa7cbd1a54d33a3bb4fc1fc4751e96",
       "publishedAt": 1785915240000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Jobs Report, Berkshire Earnings: What to Watch the Rest of the Week",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/c31ac7a7-6d9c-35e0-9a7a-e5affc7945d3/jobs-report%2C-berkshire.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aenDIEd9tdNzDKOOQyytYg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/cf6a54be63658dfd69d6c7ba035c59ea",
-      "publishedAt": 1785914316000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Could Be 10% Overvalued Following Leadership Change",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-could-10-061022775.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wxHG3472blIF9Fx2sAPuCg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7",
-      "publishedAt": 1785910222000
     }
   ]
 }
