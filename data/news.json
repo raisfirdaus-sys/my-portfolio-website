@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-05T04:33:20.294Z",
+  "updatedAt": "2026-08-05T06:03:11.803Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "Fiserv-Mastercard Deal Comes As Investors Brace For Q2 Earnings: FISV Retail Sentiment Softens",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/01023588-7ba9-32c1-ab57-b45366376797/fiserv-mastercard-deal-comes.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pILi0pJxFXHx8cWH6sgTNg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/31b934a6b5a3e6564d6c27afb60360d1",
+      "publishedAt": 1785907277000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead Sciences Inc (GILD) (Q2 2026) Earnings Call Highlights: PrEP Sales Double to $1B, HIV ...",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/healthcare/articles/gilead-sciences-inc-gild-q2-050606099.html",
+      "image": null,
+      "publishedAt": 1785906366000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Niagen Bioscience Inc (NAGE) (Q2 2026) Earnings Call Highlights: E-Commerce Surge and China ...",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/healthcare/articles/niagen-bioscience-inc-nage-q2-050456498.html",
+      "image": null,
+      "publishedAt": 1785906296000
+    },
     {
       "ticker": "MA",
       "title": "Mastercard elevates premium travel with Asia Pacific's first Taste by Priceless dining club at Hong Kong International Airport",
@@ -74,14 +98,6 @@
       "publishedAt": 1785892800000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Faces New Rules After Court Lets Perplexity AI Shop Its Platform",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-faces-rules-court-011028516.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hsVjZ4ukG2SIP4a4o0eS8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156",
-      "publishedAt": 1785892228000
-    },
-    {
       "ticker": "MA",
       "title": "Stablecorp CEO went from 'ridiculed' to running half of Canada's stablecoin market",
       "publisher": "TheStreet",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/compared-estimates-gilead-gild-q2-230001312.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/64vRzkiY9LXGPrpW4r2GRQ--~B/aD00Njc7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b95cfdd8768bc3c4620e666dbcb0b248",
       "publishedAt": 1785884401000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie (ABBV) Wins FDA Review For BOTOX Cosmetic In Jawline Treatment Push",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-wins-fda-review-221142016.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tWVhDwEErhILAVhl9pkulg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd",
-      "publishedAt": 1785881502000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead's High-Profile HIV Drug Beat, But That's Not What Grabbed Attention",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/fa8f126d-6057-3efb-99fc-cdd3f0086587/gilead%27s-high-profile-hiv.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fyTFfDMNOI9J9heDPJvTtw--~B/aD01NzI7dz0xMDEyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/7ce26b4b87cc5cc7683c1900afb4c75b",
-      "publishedAt": 1785881277000
     }
   ]
 }
