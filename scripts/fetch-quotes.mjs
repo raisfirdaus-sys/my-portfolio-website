@@ -12,6 +12,26 @@
 
 const TICKERS = ["MA", "PLTR", "MSFT", "ABBV", "V", "GOOGL", "AMZN", "JNJ", "DDOG", "GILD", "SBUX", "KO"];
 
+// Real share count currently held for each ticker (source of truth: broker
+// screenshots as of the last manual portfolio update — keep in sync with
+// the `shares` field on each HOLDINGS entry in js/main.js). This is what
+// lets the portfolio totals below match the actual brokerage account
+// instead of the "1 share of everything" simplification this used to be.
+const SHARES = {
+  MA: 1.033704517,
+  PLTR: 4,
+  MSFT: 1.020412387,
+  ABBV: 2,
+  V: 1.077276398,
+  GOOGL: 1,
+  AMZN: 1.268422079,
+  JNJ: 1.276856691,
+  DDOG: 1.038768015,
+  GILD: 1,
+  SBUX: 1,
+  KO: 1.08,
+};
+
 async function fetchQuote(ticker) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1y`;
   const res = await fetch(url, {
@@ -128,15 +148,18 @@ async function main() {
     }
   });
 
-  // Portfolio-level aggregates, weighted by each holding's current price
-  // (the site treats "one unit per ticker" throughout — see HOLDINGS in
-  // js/main.js — so price itself doubles as the position weight).
-  const priced = TICKERS.map((t) => quotes[t]).filter(Boolean);
-  const totalUSD = priced.reduce((sum, q) => sum + q.price, 0);
+  // Portfolio-level aggregates, dollar-weighted by each holding's actual
+  // position size (shares * price) — matches how a real brokerage totals
+  // and weights a portfolio, so this lines up with the real account total
+  // and gain% shown in the broker app instead of an abstract "1 share of
+  // everything" figure.
+  const priced = TICKERS.map((t) => ({ shares: SHARES[t] ?? 1, ...quotes[t] })).filter((q) => q.price);
+  const totalUSD = priced.reduce((sum, q) => sum + q.shares * q.price, 0);
   const weightedReturn = (key) => {
     const withValue = priced.filter((q) => typeof q[key] === "number");
-    if (!withValue.length || !totalUSD) return null;
-    return withValue.reduce((sum, q) => sum + (q.price / totalUSD) * q[key], 0);
+    const weightSum = withValue.reduce((sum, q) => sum + q.shares * q.price, 0);
+    if (!withValue.length || !weightSum) return null;
+    return withValue.reduce((sum, q) => sum + ((q.shares * q.price) / weightSum) * q[key], 0);
   };
 
   const portfolio = {
