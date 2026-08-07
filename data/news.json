@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-07T22:08:28.456Z",
+  "updatedAt": "2026-08-07T23:51:47.465Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "The 4% Rule vs. a Dividend Paycheck: Which Makes $1.25 Million Last Longer?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/3aceacf6-78af-3a99-b649-b03e587d85d3/the-4%25-rule-vs.-a-dividend.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Tc6PjN3vXY2At6rlH6D4Qg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/0fe63ba1eb467c4a48359a91495619f4",
+      "publishedAt": 1786143956000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/y8BYsgkxJ39FljEbKgx4zA--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/19395382c197e31176c51858f53f8e4b",
+      "publishedAt": 1786140033000
+    },
     {
       "ticker": "MA",
       "title": "PYPL Showered Owners With Cash. The Stock Still Lagged The Market",
@@ -8,6 +24,14 @@
       "link": "https://finance.yahoo.com/m/3d2f1bad-3b8f-34c4-ba1c-592bea53227e/pypl-showered-owners-with.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/j_Usf4.DEVtJGz1a6vxgnw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/e2fa35a85aed51f0984ed41f3df035ed",
       "publishedAt": 1786138307000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Michael Kratsios Says Some Companies Blame AI for Layoffs Because 'It Plays Better in the Press'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/michael-kratsios-says-companies-blame-213030325.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ePdNTsZK5A8vkksadphDig--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/831894bae05b79878219b914a39860e4",
+      "publishedAt": 1786138230000
     },
     {
       "ticker": "GOOGL",
@@ -58,7 +82,7 @@
       "publishedAt": 1786136701000
     },
     {
-      "ticker": "DDOG",
+      "ticker": "PLTR",
       "title": "A Volatile Week for Tech Revealed New Stock Narratives—and 1 Bargain",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/a25b582f-1b54-3eb0-aff1-04998e15ce34/a-volatile-week-for-tech.html",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-insider-sold-shares-worth-204027570.html",
       "image": null,
       "publishedAt": 1786135227000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Stock Market Today: Nasdaq Leaps As Fed Rate-Hike Odds Sink; Biotech Jumps 20%, Sezzle Fizzles Out",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/f31b7dd5-5905-3ff6-bb6f-3918f4e33295/stock-market-today%3A-nasdaq.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AbO6fEw2ufDPYsqlVsuigA--~B/aD01NzI7dz0xMDEyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/e782351d28363e0a32c6fffae91f2471",
-      "publishedAt": 1786135096000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "US Equity Indexes Rise This Week as Technology Mega-Caps Advance, Hormuz Reopening Deal in Works",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202151681.html",
-      "image": null,
-      "publishedAt": 1786134111000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "OpenAI developing $300+ AI speaker to challenge Amazon Alexa",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/openai-developing-300-ai-speaker-202000842.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/c2LBqymGWYaSaw0mtXzZfw--~B/aD0yMjA5O3c9MzkyODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/fe541c86-8b3c-4585-bab3-07bdc2adbbda_c5f583d0752e1adab006ff502dad2e05c532469912c1bdc0ab50fd373ead5866.jpg",
-      "publishedAt": 1786134000000
     }
   ]
 }
