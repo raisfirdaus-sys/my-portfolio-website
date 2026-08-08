@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-08T04:20:12.670Z",
+  "updatedAt": "2026-08-08T07:35:54.863Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/cc598d3a-20a6-3c76-a4b5-89d6722026ad/alphabet-just-posted-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ifg3FakBc0Cx6r_WobRYrg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d805416cf38258a2c709f7309c5202e8",
+      "publishedAt": 1786166400000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Dynatrace Q1 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/e39f69ad-6d0c-32f6-beb5-d4f9c51cfcf9/dynatrace-q1-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8hEfncCc2KOF0ewCOAnVUg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/947360d82a243830e3b79d5ae85d49f5",
+      "publishedAt": 1786165428000
+    },
+    {
+      "ticker": "MA",
+      "title": "Circle Internet Group (CRCL) Launches Arc As Its Growth Story Moves Beyond USDC",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-group-crcl-launches-041923139.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+      "publishedAt": 1786162763000
+    },
     {
       "ticker": "MSFT",
       "title": "7 Reasons Pershing Square (PS) Looks Pricey After Ackman Spotlighted AI Holdings",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/3aceacf6-78af-3a99-b649-b03e587d85d3/the-4%25-rule-vs.-a-dividend.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Tc6PjN3vXY2At6rlH6D4Qg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/0fe63ba1eb467c4a48359a91495619f4",
       "publishedAt": 1786143956000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/FQ_FkAHOShdTm73Eztcqng--~B/aD00Mjg7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c5a402adb4ab61f1462450d2ecc95c62",
-      "publishedAt": 1786142520000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/y8BYsgkxJ39FljEbKgx4zA--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/19395382c197e31176c51858f53f8e4b",
-      "publishedAt": 1786140033000
-    },
-    {
-      "ticker": "MA",
-      "title": "PYPL Showered Owners With Cash. The Stock Still Lagged The Market",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/3d2f1bad-3b8f-34c4-ba1c-592bea53227e/pypl-showered-owners-with.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/j_Usf4.DEVtJGz1a6vxgnw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/e2fa35a85aed51f0984ed41f3df035ed",
-      "publishedAt": 1786138307000
     }
   ]
 }
