@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-08T09:23:04.676Z",
+  "updatedAt": "2026-08-08T11:04:30.797Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Amazon's Stock Just Soared 15%. Here's Why Now Is Just the Beginning.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/00362cfb-a09f-3fa3-a786-aa5e4b17f5a4/amazon%27s-stock-just-soared.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/1KgIZmbKgmvSZvNUYlQPTQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/49c707749042e5c065b321ea080e4d10",
+      "publishedAt": 1786180800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Bull of the Day: Amazon.com (AMZN)",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amazon-com-amzn-083000400.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fDGRx90YxL6cwxxETQcwMw--~B/aD00MTE7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/34ad0b0a0d6278f2de9ff43d15f2e8a2",
+      "publishedAt": 1786177800000
+    },
     {
       "ticker": "MA",
       "title": "How Investors Are Reacting To Fiserv (FISV) Weaker Guidance Amid Portfolio Shift And Activist Pressure",
@@ -8,6 +24,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-fiserv-fisv-weaker-081328470.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/7oPdesv5TtnJItGWXf7sIA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/edc76601bf06da78dd7f352aac49ce4d",
       "publishedAt": 1786176808000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How Chevron became the AI darling of Big Oil",
+      "publisher": "Fortune",
+      "link": "https://finance.yahoo.com/technology/ai/articles/chevron-became-ai-darling-big-071100687.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HdyDCVnk6HNefvoUoUwuBg--~B/aD0xMDgwO3c9MTYxOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/38e3ff0d370ce4a74529c9869a1c3fec",
+      "publishedAt": 1786173060000
     },
     {
       "ticker": "GOOGL",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/42dec74e-b7ef-3e51-9345-3e958f41d695/starbucks-%28sbux%29-q3-2026.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
       "publishedAt": 1786147128000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e015cb16-af70-3c52-afba-3439fa6e9191/microsoft-%28msft%29-q4-2026.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
-      "publishedAt": 1786147127000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Banks Lead a Bonus Boom",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/21db85d0-dc39-3ca0-9331-40f1ecb69685/banks-lead-a-bonus-boom.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0oty8m_EIy.hLLqd2rJOag--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/a1d3218d06ae8aaa0b1c9ea770bfae81",
-      "publishedAt": 1786146360000
-    },
-    {
-      "ticker": "KO",
-      "title": "Analyst Report: Monster Beverage Corporation",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/6a236037-9868-3e77-a371-6b5bdd1d2ae8/analyst-report%3A-monster.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-      "publishedAt": 1786144817000
     }
   ]
 }
