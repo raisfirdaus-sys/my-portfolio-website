@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-08T14:08:41.406Z",
+  "updatedAt": "2026-08-08T15:50:06.259Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "AI is Hollowing Out Tech Sector Jobs: Oracle and Microsoft Help Push Layoff Rate to 20-Year High",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/2699e37b-4cb2-3f85-b306-ee92c611697d/ai-is-hollowing-out-tech.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FIxDKIIyA5N02SrH8o7Shw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/a7320ae38e3e452fa9ccf2abe777bd2a",
+      "publishedAt": 1786203516000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google shutting down a popular feature after 10 years",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/5de4ba54-639b-3bc4-85e0-6d9826fbb682/google-shutting-down-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Lqups8FS6ikE.wQCVUYtAQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/efff288e78ca95cdbf8df112082619e1",
+      "publishedAt": 1786203180000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The Industry Builds Its Own Regulator",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/industry-builds-own-regulator-145730765.html",
+      "image": null,
+      "publishedAt": 1786201050000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Jeff Bezos' Amazon Just Raised Its AI Spending to $220 Billion for 2026. Here's What That Capex Hike Means for Investors.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/325fa4d6-496c-32ba-8768-a5dbe0071c26/jeff-bezos%27-amazon-just.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aFQhHhAViNZP4cDnsxRJ6w--~B/aD02Njg7dz05NTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/fe1c1c93bfdb986588598f25850c1d03",
+      "publishedAt": 1786199700000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "eBay Slid This Past Month: Why a Leading Analyst Expects 32% Growth Ahead Anyway",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/27841ea2-ca80-3157-a946-a5404fb30d1e/ebay-slid-this-past-month%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/i.1JDIiPKc8SCWrpD59WmQ--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c003ea31c86caacdf6dc77311c5e7b79",
+      "publishedAt": 1786199459000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/45c294a4-903e-3084-886a-427304d6d54c/stock-market-week-ahead%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2CsLySVN49ZpimpBuNLGeg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/be208ee60f5140c251d3b9e7e01885b5",
+      "publishedAt": 1786198855000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/fd341601-b0e7-365c-a9b3-ce6a0243d761/berkshire-hathaway%2C-under-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uQfjkCNdKjr4v53K6zd80w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/55653541cf29b420ccc3f3f68a55f0d2",
+      "publishedAt": 1786198200000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Key HIV stat over 70% leaves BofA siding with Gilead",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/b043a138-cbc7-3772-9c0b-f7dd98d53920/key-hiv-stat-over-70%25-leaves.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/05IwVAQzfE9bLSgHJaRZPw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/81b71ca1f79ff18a496e807176e4ce91",
+      "publishedAt": 1786198020000
+    },
     {
       "ticker": "GOOGL",
       "title": "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
@@ -11,11 +75,11 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend its Cash Pile",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/fd341601-b0e7-365c-a9b3-ce6a0243d761/berkshire-hathaway%2C-under-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uQfjkCNdKjr4v53K6zd80w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/55653541cf29b420ccc3f3f68a55f0d2",
-      "publishedAt": 1786194300000
+      "title": "Berkshire’s profit doubles as equity holdings surge; buys back $4.5 bln shares",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-profit-doubles-equity-holdings-123853601.html",
+      "image": null,
+      "publishedAt": 1786192733000
     },
     {
       "ticker": "GOOGL",
@@ -80,70 +144,6 @@
       "link": "https://finance.yahoo.com/m/e39f69ad-6d0c-32f6-beb5-d4f9c51cfcf9/dynatrace-q1-earnings-call.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/8hEfncCc2KOF0ewCOAnVUg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/947360d82a243830e3b79d5ae85d49f5",
       "publishedAt": 1786165428000
-    },
-    {
-      "ticker": "MA",
-      "title": "Circle Internet Group (CRCL) Launches Arc As Its Growth Story Moves Beyond USDC",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-group-crcl-launches-041923139.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
-      "publishedAt": 1786162763000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "7 Reasons Pershing Square (PS) Looks Pricey After Ackman Spotlighted AI Holdings",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/7-reasons-pershing-square-ps-031928456.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6aUxsyZINKOU9.9KrHnBOA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-      "publishedAt": 1786159168000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How a 52-Year-Old Can Turn $425,000 Into a Monthly Paycheck Machine by 62",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/3563745b-13a9-3e7b-b488-d8c19de53722/how-a-52-year-old-can-turn.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/bg99W_E2ZI03HWguv8jfiA--~B/aD02MzY7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c70451da7613ffe85f1ed3fc9d44b859",
-      "publishedAt": 1786154776000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon behind massive private gas plant for new data centers",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/energy/articles/amazon-behind-massive-private-gas-210211828.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/esnEDuD1KpTRyQltvoh3Sw--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/467b354dbc82b87d4460a79db019bdd8",
-      "publishedAt": 1786154488000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "The Portfolio Blueprint for Building $50,000 a Month in Dividend Income",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/1ddd9803-9e3a-3dc7-b3c2-f640ff87aabb/the-portfolio-blueprint-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NjTk6HuWC2i2psguXehZZw--~B/aD02ODI7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/8b87ce7d624cf8cd24c83eefc4478da1",
-      "publishedAt": 1786152926000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard (MA) Q2 2026 Earnings Call Transcript",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/389c0db8-8564-3f0d-bfb8-4d62bfa333e8/mastercard-%28ma%29-q2-2026.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
-      "publishedAt": 1786152619000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Q2 2026 Earnings Call Transcript",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/22ba3cc7-bcee-32bd-a985-c896990947ac/amazon-%28amzn%29-q2-2026.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
-      "publishedAt": 1786152619000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "PLTY Holders Left $60,000 on a $10,000 Position While Chasing Monthly Distributions",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/e20fa65f-e8cc-3980-9570-bcb976024c52/plty-holders-left-%2460%2C000-on.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8fmf0mlsAQb0_fAQKbxvUQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/cde5a2b0f4975a3a5be7210dea3bbac4",
-      "publishedAt": 1786151141000
     }
   ]
 }
