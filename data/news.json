@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-08T19:45:23.127Z",
+  "updatedAt": "2026-08-08T21:49:22.476Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "How Much Do You Need Invested to Out-Earn the Average Social Security Check With Dividends?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/1bc6464f-d680-354d-a5f2-d7632d904ee9/how-much-do-you-need-invested.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_mEMxCytRNOqrnYLx1UnNA--~B/aD0xMDAyO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8e7a23bf5060ee913e78598ac9e1b218",
+      "publishedAt": 1786225028000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/g2_mg575ViI8K4GruDHCHQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/67ac92a32c5f9073ba3559a3e119b22a",
+      "publishedAt": 1786223718000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "NiSource Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/b79cdb83-7c67-3ba5-87d9-78ae787740ce/nisource-q2-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IYXUOkmEIMEi2feXVEk.AA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/1ccc83a37a3a42f0ad804e5c7c8fab97",
+      "publishedAt": 1786223032000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/872c89e4-4d33-3c3f-94d6-0c5c5c570d52/microsoft-shows-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aIxqNnFlc36g9c89rkDjDg--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1344521cb4ef7eb7c422ff0baa2e9aab",
+      "publishedAt": 1786222862000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3cUIfkCqh0b6N2bDeoxo3A--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/9acb7c00e0b826add3430717957e8def",
+      "publishedAt": 1786221754000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Can Starbucks (SBUX) Justify Its Valuation As Earnings And Guidance Move Higher?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-justify-valuation-earnings-201140598.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/niPG_UO8fEkTdnPt2Rc3EA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0e7bd54c1332a34f72a24505fcbc3093",
+      "publishedAt": 1786219900000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "SentinelOne (S) Deepens AWS Ties As Growth Accelerates",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/sentinelone-deepens-aws-ties-growth-200954951.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kEsTdwIwvbiaf1qrz9mUQg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/84c7631926174c0063fc11aab5b720ba",
+      "publishedAt": 1786219794000
+    },
     {
       "ticker": "MSFT",
       "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
@@ -82,68 +138,12 @@
       "publishedAt": 1786203516000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Google shutting down a popular feature after 10 years",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/5de4ba54-639b-3bc4-85e0-6d9826fbb682/google-shutting-down-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lqups8FS6ikE.wQCVUYtAQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/efff288e78ca95cdbf8df112082619e1",
-      "publishedAt": 1786203180000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Industry Builds Its Own Regulator",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/industry-builds-own-regulator-145730765.html",
-      "image": null,
-      "publishedAt": 1786201050000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Jeff Bezos' Amazon Just Raised Its AI Spending to $220 Billion for 2026. Here's What That Capex Hike Means for Investors.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/325fa4d6-496c-32ba-8768-a5dbe0071c26/jeff-bezos%27-amazon-just.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aFQhHhAViNZP4cDnsxRJ6w--~B/aD02Njg7dz05NTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/fe1c1c93bfdb986588598f25850c1d03",
-      "publishedAt": 1786199700000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "eBay Slid This Past Month: Why a Leading Analyst Expects 32% Growth Ahead Anyway",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/27841ea2-ca80-3157-a946-a5404fb30d1e/ebay-slid-this-past-month%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/i.1JDIiPKc8SCWrpD59WmQ--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c003ea31c86caacdf6dc77311c5e7b79",
-      "publishedAt": 1786199459000
-    },
-    {
       "ticker": "PLTR",
-      "title": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/45c294a4-903e-3084-886a-427304d6d54c/stock-market-week-ahead%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2CsLySVN49ZpimpBuNLGeg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/be208ee60f5140c251d3b9e7e01885b5",
-      "publishedAt": 1786198855000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/fd341601-b0e7-365c-a9b3-ce6a0243d761/berkshire-hathaway%2C-under-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uQfjkCNdKjr4v53K6zd80w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/55653541cf29b420ccc3f3f68a55f0d2",
-      "publishedAt": 1786198200000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Key HIV stat over 70% leaves BofA siding with Gilead",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/b043a138-cbc7-3772-9c0b-f7dd98d53920/key-hiv-stat-over-70%25-leaves.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/05IwVAQzfE9bLSgHJaRZPw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/81b71ca1f79ff18a496e807176e4ce91",
-      "publishedAt": 1786198020000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zZnvPzRmQX92mpUT70LHIg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/60db304efdc88fa55e8cacefa22c9a60",
-      "publishedAt": 1786190421000
+      "title": "Wall Street Can't Agree on Palantir. Here's What Investors Should Do Next",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/22e5ce7d-9f85-3c4a-b4c4-777868dcd926/wall-street-can%27t-agree-on.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T70.f7COCTtgR9Ftd6JkJQ--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/5c98e3c0eea4738348fe5aad65db3d21",
+      "publishedAt": 1786203002000
     }
   ]
 }
