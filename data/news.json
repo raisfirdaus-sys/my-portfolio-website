@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-08T15:50:06.259Z",
+  "updatedAt": "2026-08-08T17:51:01.037Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/7b032238-6687-3e4c-96bb-7acf78247a53/vgt-puts-39-cents-of-every.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DPEy1aKpY1paDVea4YtwRw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8c350fbe20970cce1916fd3dce882a04",
+      "publishedAt": 1786208451000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Even Without Alphabet and Amazon, the S&P 500 Just Posted Its Biggest Earnings Beat Ever",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/618f8d06-9ec6-3968-9335-747fb9910bf9/even-without-alphabet-and.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/cQn7ByNC8ZZ37fRshQYkCw--~B/aD0xMDk5O3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/c7dfbe1036b5694987d2799488daeb0e",
+      "publishedAt": 1786207123000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Competition Is Heating Up, but Here's Why Intuitive Surgical Might Still Be the Smartest Bet in MedTech",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a1939a62-432e-3324-a1b2-ff6edfe74500/competition-is-heating-up%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OGVE1va8_FAoxX8PgKnymQ--~B/aD04MDA7dz0xMDY3O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8e5eb783eb2048b089fd0da61942ea9c",
+      "publishedAt": 1786206900000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/eafbc3e2-79ea-3403-87ec-6c34482ba20d/berkshire-hathaway-just-did.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xysAvyFlByr9SayTQvXwEQ--~B/aD0xNDA4O3c9MTQwODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/03bfb3ffd13be62e96ef6d148b622e2f",
+      "publishedAt": 1786206425000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Why PG, JNJ, and KO Could Surprise Investors Next Year",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/ab389814-8783-3508-b964-1428049184e2/why-pg%2C-jnj%2C-and-ko-could.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/N3qUL2vrgOiCym_dVGeZVA--~B/aD0xNjk5O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/f9447b8e7ad20bba61db6aff58bf92c3",
+      "publishedAt": 1786204853000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/102578f4-6350-3478-8de0-12bb628e8028/alphabet-ceo-sundar-pichai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bYrLbg_GM1McHB.4hr4Zcg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b4d646f0b9529af35154d35764262ef1",
+      "publishedAt": 1786204200000
+    },
     {
       "ticker": "MSFT",
       "title": "AI is Hollowing Out Tech Sector Jobs: Oracle and Microsoft Help Push Layoff Rate to 20-Year High",
@@ -74,15 +122,7 @@
       "publishedAt": 1786195772000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Berkshire’s profit doubles as equity holdings surge; buys back $4.5 bln shares",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-profit-doubles-equity-holdings-123853601.html",
-      "image": null,
-      "publishedAt": 1786192733000
-    },
-    {
-      "ticker": "GOOGL",
+      "ticker": "AMZN",
       "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/00362cfb-a09f-3fa3-a786-aa5e4b17f5a4/amazon%27s-stock-just-soared.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/1KgIZmbKgmvSZvNUYlQPTQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/49c707749042e5c065b321ea080e4d10",
       "publishedAt": 1786180800000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Bull of the Day: Amazon.com (AMZN)",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amazon-com-amzn-083000400.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fDGRx90YxL6cwxxETQcwMw--~B/aD00MTE7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/34ad0b0a0d6278f2de9ff43d15f2e8a2",
-      "publishedAt": 1786177800000
-    },
-    {
-      "ticker": "MA",
-      "title": "How Investors Are Reacting To Fiserv (FISV) Weaker Guidance Amid Portfolio Shift And Activist Pressure",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-fiserv-fisv-weaker-081328470.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/7oPdesv5TtnJItGWXf7sIA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/edc76601bf06da78dd7f352aac49ce4d",
-      "publishedAt": 1786176808000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Chevron became the AI darling of Big Oil",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/technology/ai/articles/chevron-became-ai-darling-big-071100687.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HdyDCVnk6HNefvoUoUwuBg--~B/aD0xMDgwO3c9MTYxOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/38e3ff0d370ce4a74529c9869a1c3fec",
-      "publishedAt": 1786173060000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/cc598d3a-20a6-3c76-a4b5-89d6722026ad/alphabet-just-posted-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Ifg3FakBc0Cx6r_WobRYrg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d805416cf38258a2c709f7309c5202e8",
-      "publishedAt": 1786166400000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Dynatrace Q1 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/e39f69ad-6d0c-32f6-beb5-d4f9c51cfcf9/dynatrace-q1-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8hEfncCc2KOF0ewCOAnVUg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/947360d82a243830e3b79d5ae85d49f5",
-      "publishedAt": 1786165428000
     }
   ]
 }
