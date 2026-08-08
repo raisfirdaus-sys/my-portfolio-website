@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-08T12:01:50.345Z",
+  "updatedAt": "2026-08-08T14:08:41.406Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
+      "publisher": "Associated Press",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaways-ceo-greg-abel-132932802.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6jhIFYZIoasTbe0d5jLuKg--~B/aD01NDY0O3c9ODE5MjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/a86408a6b6825a5df3a4c61b95962e25",
+      "publishedAt": 1786195772000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend its Cash Pile",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/fd341601-b0e7-365c-a9b3-ce6a0243d761/berkshire-hathaway%2C-under-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uQfjkCNdKjr4v53K6zd80w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/55653541cf29b420ccc3f3f68a55f0d2",
+      "publishedAt": 1786194300000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zZnvPzRmQX92mpUT70LHIg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/60db304efdc88fa55e8cacefa22c9a60",
+      "publishedAt": 1786190421000
+    },
     {
       "ticker": "PLTR",
       "title": "Palantir (PLTR) Posted Record 93% Growth, Here’s Why Analysts Think It Won’t Last",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/e20fa65f-e8cc-3980-9570-bcb976024c52/plty-holders-left-%2460%2C000-on.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/8fmf0mlsAQb0_fAQKbxvUQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/cde5a2b0f4975a3a5be7210dea3bbac4",
       "publishedAt": 1786151141000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Osisko Metals (TSX:OM) Is Up 20.8% After Reporting Deepening 2026 Losses Has The Bull Case Changed?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/osisko-metals-tsx-om-20-001723721.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hHa1.rnFIozE8uk1FxFmIg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7a92075e7c274cfc915511d1e9d413e3",
-      "publishedAt": 1786148243000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog’s largest customer renews deal but cuts usage",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/0f7136f7-7526-30cb-b1ee-8af42ce2473b/datadog%E2%80%99s-largest-customer.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/adna0hz2SfYmp5N1pzQxyA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/abc114b0f2d8a3daf7d059cebaabcea1",
-      "publishedAt": 1786148220000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Black Hills Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/a4bd022b-1245-3c3f-84b5-3685a7982857/black-hills-q2-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/U04ShiwO1K1UZEUlpWotnQ--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/086582f29db918058f607a21b79c3969",
-      "publishedAt": 1786147449000
     }
   ]
 }
