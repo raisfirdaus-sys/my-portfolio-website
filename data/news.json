@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-09T14:10:08.054Z",
+  "updatedAt": "2026-08-09T15:53:02.850Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e67223ba-0efe-3cec-995f-64194fc96f0f/microsoft-sits-12%25-below-its.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0NG6lGPg65iuRq12NG0xrg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c0b03043229905b201a30db93f5c2e6b",
+      "publishedAt": 1786286580000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir vs. Salesforce: Two Visions of Enterprise AI, One Clear Winner",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/a29600b2-2d3d-35fc-bab5-89b50f677304/palantir-vs.-salesforce%3A-two.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/01o3JNMa.cQiAB83fYm7pA--~B/aD0zMzM7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/21d3bc6530b049ee9f58260174232127",
+      "publishedAt": 1786285841000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Jeff Bezos breaks his own Amazon record",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/6df7a5ef-d648-3f43-be6a-5b1393891eaf/jeff-bezos-breaks-his-own.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Q0aTYLG0r8g8dmjtWpmrUA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/33fd6202bba7e0e3a6d44833eac48e1d",
+      "publishedAt": 1786284420000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola (KO) Just Pulled Back. Here’s Why Retirees Are Buying the Dip in August",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/30d09e4c-b2c0-37ff-92bb-81254b9032c6/coca-cola-%28ko%29-just-pulled.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/m1AFLqF.yjfh2fkidaWzRw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/1d2eb5708b12ef1cc8615d0cf5c88574",
+      "publishedAt": 1786284013000
+    },
     {
       "ticker": "JNJ",
       "title": "Johnson & Johnson Has Increased Its Dividend for 64 Consecutive Years. Here's How Much $10,000 Invested in the Dividend King Pays Annually.",
@@ -98,14 +130,6 @@
       "publishedAt": 1786265400000
     },
     {
-      "ticker": "AMZN",
-      "title": "My 3 Favorite Value Stocks to Buy Right Now",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/779cbbc8-3eb8-3951-88ea-9f4a39f07a00/my-3-favorite-value-stocks-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hwoOqqb0SN.RJBWbxh4qrA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/bc1a8a7f13bd871610a4bebd1f5c8e80",
-      "publishedAt": 1786264500000
-    },
-    {
       "ticker": "MSFT",
       "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
       "publisher": "Simply Wall St.",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html",
       "image": null,
       "publishedAt": 1786259300000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a6f7a491-4673-3d8e-9246-5f4d79cf4a63/how-many-of-the-largest.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vFRKpR1ViVZD7Z63d38AqA--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/ca9db08f0e413188191b547b6c454465",
-      "publishedAt": 1786258200000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6b21651d-17ed-317c-b542-dbfee8a34153/jeff-bezos%27-amazon-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/q8KdS4EgQuMs75c7JCwCgw--~B/aD02Njg7dz05NTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/20e8664d64e08ecc3dd7b1607502b799",
-      "publishedAt": 1786257300000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Is the Worst Finally Over for Palantir Stock?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6a77dfa4-b2bd-3155-9460-5346e0af6bb6/is-the-worst-finally-over-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JxCj_XujsYFXiwehjXs_dw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d6935cbf3bf07afc50bce2502d621428",
-      "publishedAt": 1786254600000
     }
   ]
 }
