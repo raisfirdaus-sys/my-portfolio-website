@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-09T10:00:26.930Z",
+  "updatedAt": "2026-08-09T11:48:26.096Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mj0QJxjPUmqdDkIwD_nDtg--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/cd9906b7-88c3-4edf-9c8d-27e4ed1ab468",
+      "publishedAt": 1786275329000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia CEO Jensen Huang Told Investors in Seoul to \"Buy at a Discount\" During the Recent AI Stock Sell-Off. Here's Whether His Call Has Paid Off.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/9d082304-567f-3d20-8f7b-7eebe4f3bfaa/nvidia-ceo-jensen-huang-told.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/veLy.RrU4FQweLn6Zxy8Pg--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6f8803d7954824b9bbab17ed670114ce",
+      "publishedAt": 1786274100000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Texas Pacific Land Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/d0f89ead-912f-3dc7-9dae-28be0f0048c3/texas-pacific-land-q2.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/cO4g9PwVQ.8L8R8J4F8Gyg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/adbc2b834a0d79bd16332b3dc96927af",
+      "publishedAt": 1786273432000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How Much Do You Need Invested by 50 to Retire on Dividends at 60?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/fcc8ae59-251d-3e37-bfda-0712004cf99c/how-much-do-you-need-invested.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/H4qp0NEphnkDyqZjiWBrbw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/da487b4fba4e4230d95fe42b8c3b2146",
+      "publishedAt": 1786271486000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/micron-mu-secures-strategic-auto-101757418.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OpcJksxy5pAZZ_I0OiDt1g--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/5df3c69e767d027c9d5f585f2b9df631",
+      "publishedAt": 1786270677000
+    },
     {
       "ticker": "MSFT",
       "title": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
@@ -8,6 +48,14 @@
       "link": "https://finance.yahoo.com/m/876b70c7-c057-34b4-ba6a-335ad22db5ca/this-trillion-dollar-ai-stock.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/4a4oRG_PGpIMkyS5rxWcSA--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c96122a195fcdf2e7bf414ca3c804ef7",
       "publishedAt": 1786267500000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "USA Today Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/14471fd8-5397-374c-b568-029fdc2ace9e/usa-today-q2-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZOGdUaDOfquaYpKk8pLpKA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/a3493e401cfd9f44b1fb84a7dffbd12a",
+      "publishedAt": 1786266234000
     },
     {
       "ticker": "KO",
@@ -58,14 +106,6 @@
       "publishedAt": 1786257300000
     },
     {
-      "ticker": "AMZN",
-      "title": "SK Telecom Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/3eb255c6-b77e-34f7-8a11-1392c5dcaff3/sk-telecom-q2-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ofgKY_VCFKAavr1cqDZYSg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/aa88e4101c12edda989ae51f4223d63b",
-      "publishedAt": 1786255430000
-    },
-    {
       "ticker": "PLTR",
       "title": "Is the Worst Finally Over for Palantir Stock?",
       "publisher": "Motley Fool",
@@ -74,7 +114,7 @@
       "publishedAt": 1786254600000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/93659181-189b-3db7-8dd1-ff97c0f72945/moonshot-ai%27s-2.8-trillion.html",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/d9842468-693d-34ce-92ca-7e62e77e6e1b/palantir-is-worth-%24413.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/rQ0lt1kU3j58Izbm0WUT_A--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a6610a8b3cea63da3996f7723cacdde6",
       "publishedAt": 1786238880000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "What Does Oracle (ORCL) Gain From Bringing New AI Models Into Its Apps?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/does-oracle-orcl-gain-bringing-001941124.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/h5Sl8vD9y_csxX46X7BeKw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/10232bfeaa28288a2e6f936e1c871a73",
-      "publishedAt": 1786234781000
-    },
-    {
-      "ticker": "V",
-      "title": "Great disappointment will follow the Great Wealth Transfer as baby boomers pass on just a fraction of their fortune to millennials and Gen Xers",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/economy/articles/great-disappointment-great-wealth-transfer-230109389.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9ce_5zADRfhe3IQs5poVyw--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/e75af46ec4cc16e8e095a3c936cd391d",
-      "publishedAt": 1786230069000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "How Much Do You Need Invested to Out-Earn the Average Social Security Check With Dividends?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/1bc6464f-d680-354d-a5f2-d7632d904ee9/how-much-do-you-need-invested.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_mEMxCytRNOqrnYLx1UnNA--~B/aD0xMDAyO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8e7a23bf5060ee913e78598ac9e1b218",
-      "publishedAt": 1786225028000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/g2_mg575ViI8K4GruDHCHQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/67ac92a32c5f9073ba3559a3e119b22a",
-      "publishedAt": 1786223718000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/872c89e4-4d33-3c3f-94d6-0c5c5c570d52/microsoft-shows-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aIxqNnFlc36g9c89rkDjDg--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1344521cb4ef7eb7c422ff0baa2e9aab",
-      "publishedAt": 1786222862000
     }
   ]
 }
