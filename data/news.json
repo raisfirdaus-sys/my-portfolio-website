@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-10T05:11:43.999Z",
+  "updatedAt": "2026-08-10T10:02:04.875Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Bernstein Adjusts Price Target on Microsoft to $660 From $647, Maintains Outperform Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-microsoft-091259428.html",
+      "image": null,
+      "publishedAt": 1786353179000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Mobile Wallet Market Report, Till 2035 Now Available — Forecasts Growth from $15.65B to $177.31B, Profiles Apple, Google, PayPal, and 15 Other Key Players",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/mobile-wallet-market-report-till-081200111.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Z0bCXmz_NLGEeTz3J0h6iA--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/5411ed4433b3c454b6194ce3b8c17334",
+      "publishedAt": 1786349520000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway Digs Into Cash Pile",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/8136fe86-52ae-37f4-9701-8a246afd36a6/berkshire-hathaway-digs-into.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8",
+      "publishedAt": 1786349249000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Sovereign AI Infrastructure Market Till 2040 Now Available — Forecasts Growth from $24.8B to $301.6B, Profiles NVIDIA, Microsoft, AWS, and 15 Other Key Players",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/sovereign-ai-infrastructure-market-till-080500128.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8DF_CnWIcqlaAD9g6Amslg--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/2fa2c0de66a026c29fbb2a36c1ef53b3",
+      "publishedAt": 1786349100000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Can Microsoft Out-AI OpenAI And Anthropic? SemiAnalysis Says Yes,  Points To $100B-Per-GW Inference Opportunity",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/afb28941-dabc-3b05-b338-148a8ce1ff71/can-microsoft-out-ai-openai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IcOElQSLqokG_ENsVYDWQA--~B/aD04NTI7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/12e5c9f2834b7e6f90066250fb35a962",
+      "publishedAt": 1786346539000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-cites-data-point-053551712.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vD2FKQ4pIB3hAYPRiA.x7g--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/ca1d8f9cc7dfe5252861b3a88d724b10",
+      "publishedAt": 1786340151000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "LegalZoom.com (LZ) Could Be 32% Undervalued Following Copilot Launch And Guidance Cut",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-lz-could-32-051041491.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tBaSnVjf_e_xG_Ru362rkw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+      "publishedAt": 1786338641000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/c99f769f-e6bd-3f7a-8a2c-6e160b6aba07/apple%E2%80%99s-foldable-phone%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/lfxJaFI5x4IDDLZlgZZ6Fw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/3f445a75ddbb9e739ea347a0db8df807",
+      "publishedAt": 1786337919000
+    },
     {
       "ticker": "PLTR",
       "title": "Why Palantir Stock Skyrocketed This Past Week",
@@ -58,14 +122,6 @@
       "publishedAt": 1786324162000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Tencent AI Spending Key After Magnificent 7 Rout",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/tencent-ai-spending-key-magnificent-004806894.html",
-      "image": null,
-      "publishedAt": 1786322886000
-    },
-    {
       "ticker": "AMZN",
       "title": "Airbnb vs. McDonald's: Which Consumer Stock Is a Better Buy in 2026?",
       "publisher": "Motley Fool",
@@ -88,62 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-233322850.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/lf52qs1zYTmbpV3zIo5guA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/621a415265c388bc8e9eb8ecaf0fb0a8",
       "publishedAt": 1786318402000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Taylor Farms Pulls Salsa and Guacamole Over Salmonella Concerns",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/healthcare/articles/taylor-farms-pulls-salsa-guacamole-222513483.html",
-      "image": null,
-      "publishedAt": 1786314313000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/5a8805e9-6253-33ce-8cfb-37c45b33cdba/berkshire-earnings-were.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3N5aDeyQ6IdCpkdgEGCbhg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/c9832e07573d81e3a9d5731f6232fd58",
-      "publishedAt": 1786314060000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/1c01d697-2ae8-3aa3-bce0-8aa57239eb96/alphabet%27s-cloud-computing.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GhA.g1lM3GOFhah0oKODXw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9ada170667729b1de132446972cc3670",
-      "publishedAt": 1786309500000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ups-completed-amazon-volume-pullback-205917884.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iwO7uCuMxdlfo.O_eelkPA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/e4f0c9cac9ca53a5fe87c6d6fdc6681c",
-      "publishedAt": 1786309157000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "BofA, JPMorgan, Oppenheimer Name Their 3 Favorite AI Stocks, One Has a $255 Target",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/b92a6633-7779-3e83-b7a7-75a90e97d673/bofa%2C-jpmorgan%2C-oppenheimer.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/D.Z2jrFVPE3TcM27BxZmdQ--~B/aD0yODgwO3c9NTEyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/35988ae8cbc31e6f09b1aa3265662fd1",
-      "publishedAt": 1786308800000
-    },
-    {
-      "ticker": "KO",
-      "title": "This Dividend Stock's Moat Is as Wide as It Gets. 3 Reasons to Buy and Hold Forever.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0a4b871d-ec65-310c-86a6-028c0ca93ab2/this-dividend-stock%27s-moat-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/5o0j47Uz4mqXrVr.I5AFcg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2cdadea722d0a99b605e6708a36bb100",
-      "publishedAt": 1786304100000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/881e9ace-2abc-33e2-a360-4054e99b0779/amazon%27s-%2486-2-in-1-laptop.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gIxuenfF8z9Rb.SiaIxwAQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/08e9e5e896ee38b3f27df2bdb2c13e5f",
-      "publishedAt": 1786302900000
     }
   ]
 }
