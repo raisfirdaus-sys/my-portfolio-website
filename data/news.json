@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-10T23:59:25.635Z",
+  "updatedAt": "2026-08-11T04:51:46.265Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "How a 65-Year-Old Turned a $950,000 401(k) Rollover Into a $4,500 Monthly Paycheck Without Buying an Annuity",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/e8ebbbeb-090e-3a0a-a4cc-94ca2b8c2157/how-a-65-year-old-turned-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nPmVENtSDQsApZHfaWVQJw--~B/aD05OTA7dz0xNzYwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/81a58ae9105c5011955095b326c39edc",
+      "publishedAt": 1786417828000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Is FedEx (FDX) Using Robotics To Sharpen Its Cost Edge Or Just Keep Pace With Rivals?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/fedex-fdx-using-robotics-sharpen-020851023.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8ShffkiE5qoy4UxeM1zN6A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41e2b1a1a7a56c6738857499fdb333b2",
+      "publishedAt": 1786414131000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/8edb4f71-ec17-31b7-b263-bc566a40aab3/dow-jones-futures%3A-trump.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WAuaz6qrZ4OYu_AuKxC0vQ--~B/aD02MDA7dz0xMDY1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/f84dddde254e978a0083114ec56c1e2b",
+      "publishedAt": 1786414114000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia's CEO just sent strong signal to stock market investors",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/ebf34e1e-18df-3ad7-ac98-bc4b8d412bd1/nvidia%27s-ceo-just-sent-strong.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/cu2ooX2n8AEswbiRGabisA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/a853ae6d72f7082ffe6a1925e014c912",
+      "publishedAt": 1786412820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "HPQ Pays You More Cash Than Most Of The Market",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/495cb2bc-9343-339a-aed9-9455a5ceaa54/hpq-pays-you-more-cash-than.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9Li7sZdQ26RUffLLAotPpQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f9b1b44322f3fe94699cfbe3b3dc3e3b",
+      "publishedAt": 1786412014000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir (PLTR) Q2 2026 Earnings Call Transcript",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7e344c07-0444-397e-8098-2041bcaedb48/palantir-%28pltr%29-q2-2026.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
+      "publishedAt": 1786411780000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "What Johnson & Johnson (JNJ)'s OTTAVA FDA Win and Talc Deal Shift Mean For Shareholders",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-ottava-fda-002047054.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wxHG3472blIF9Fx2sAPuCg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7",
+      "publishedAt": 1786407647000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Magnite Sees CTV Growth Hit 36% as Sports and SMB Ad Demand Expands",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/e9b8239a-d119-34af-8239-6c63251a1a09/magnite-sees-ctv-growth-hit.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.CEYuBGldN8BaIHni44ztw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/7ee3e9826d8ec0e77f29d0fda5d82c1d",
+      "publishedAt": 1786406650000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Review & Preview: The S&P 500 Pulls Back",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/b6d1875f-428a-320d-9fab-2a853585c293/review-%26-preview%3A-the-s%26p-500.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_kc6REYMS1JrAuV5bYtjfA--~B/aD02NTt3PTMyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e",
+      "publishedAt": 1786406100000
+    },
+    {
+      "ticker": "KO",
+      "title": "Analyst Report: Monster Beverage Corporation",
+      "publisher": "Morningstar Research",
+      "link": "https://finance.yahoo.com/m/cb5f8c21-87e5-3dea-85e5-8d31bded402b/analyst-report%3A-monster.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
+      "publishedAt": 1786403788000
+    },
     {
       "ticker": "PLTR",
       "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus",
@@ -24,14 +104,6 @@
       "link": "https://finance.yahoo.com/m/09530683-8be1-3daa-8194-70c07de4681f/what-analysts-really-pressed.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/qk3OCBofIzVoWR3bvKvkwQ--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58",
       "publishedAt": 1786402912000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/8edb4f71-ec17-31b7-b263-bc566a40aab3/dow-jones-futures%3A-surging.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WAuaz6qrZ4OYu_AuKxC0vQ--~B/aD02MDA7dz0xMDY1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/f84dddde254e978a0083114ec56c1e2b",
-      "publishedAt": 1786402481000
     },
     {
       "ticker": "MSFT",
@@ -66,84 +138,12 @@
       "publishedAt": 1786401181000
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock Runs One Of The Market's Biggest Cash-Return Machines",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/b0c5ff4c-eae9-3398-b55b-1652688ca825/microsoft-stock-runs-one-of.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KGoz45wAnLHRLjPKC.FYng--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/bd184572a49f11019e9dabea502f5bc2",
-      "publishedAt": 1786400355000
-    },
-    {
       "ticker": "GOOGL",
-      "title": "The loneliness epidemic is growing — can FeedIRL help solve it?",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/loneliness-epidemic-growing-feedirl-help-220000359.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vy6shgFGk9kWKxpvGgr3Tw--~B/aD0zODAyO3c9NTcwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/55ecf4bc-09f2-4b23-8a12-9359cdcc1508",
-      "publishedAt": 1786399200000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/8c73d494-790d-31c5-8ed0-6a580450a83f/airbnb-is-starting-to-think.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/StqJNRHW4E_ygUpbHynriA--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8126d0429df02ab185552b07ebe1069e",
-      "publishedAt": 1786398600000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon, IBD Stock Of The Day, Rides Cloud Momentum To $3 Trillion Milestone",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/4d7170cc-68b3-3e83-9582-c1a94e676cc3/amazon%2C-ibd-stock-of-the-day%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EoLRcOL6oL1LDz6frq3SJw--~B/aD00MzA7dz04MTY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/513d823744b4b01a30352c23dbadd9a0",
-      "publishedAt": 1786398445000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/6cead002-01bf-3b2f-8d3f-c0385d7e97eb/same-100-stocks%2C-different.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KPhl17hnxB3Z1R0XR9DsvA--~B/aD0xNjAwO3c9MzIwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/7f01b43017776fcd5713679636e6f779",
-      "publishedAt": 1786398318000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "The IRS Just Gave 65-Year-Olds a New $6,000 Deduction. These 3 ETFs Turn the Tax Break Into Monthly Income",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/80914f3b-36b5-3a06-a4ca-38025638b0f7/the-irs-just-gave.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T0qN1bTNExIlPEm1lkhqyA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/860866925dd84b3f06f420eda1703aa7",
-      "publishedAt": 1786397725000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "BRKB Stock: Investors Are Starting To Look Past Warren Buffett",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/5ebb195c-b876-345a-b9a3-70c8e003edd3/brkb-stock%3A-investors-are.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/B2.gvO3Daja7FsHVgN7TVw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/59c6882d0a4d2758a4049eb314e5b066",
-      "publishedAt": 1786396335000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog Insider Sold Shares Worth $4,696,931, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-insider-sold-shares-worth-205635827.html",
+      "title": "Google’s AI Team Tells Job Seekers Its HR Filters Are Unreliable",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-ai-team-tells-job-222929935.html",
       "image": null,
-      "publishedAt": 1786395395000
-    },
-    {
-      "ticker": "MA",
-      "title": "What Wall Street Pushed MA To Explain",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/f493aa9b-fead-3b15-8d22-3cc77bf9f2c9/what-wall-street-pushed-ma-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/j_Usf4.DEVtJGz1a6vxgnw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/e2fa35a85aed51f0984ed41f3df035ed",
-      "publishedAt": 1786395324000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson vs Abbott Laboratories: Which Healthcare Giant Offers the More Compelling Growth Story After Earnings?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-vs-abbott-laboratories-204959195.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QJhvAJlRONCdlrJ8RaycCw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/8b4f8f18dabae8e04006be71641b541a",
-      "publishedAt": 1786394999000
+      "publishedAt": 1786400969000
     }
   ]
 }
