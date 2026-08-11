@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-11T04:51:46.265Z",
+  "updatedAt": "2026-08-11T08:33:36.871Z",
   "items": [
+    {
+      "ticker": "DDOG",
+      "title": "US Stock Market Today: S&P 500 Futures Edge Higher As Rate Hike Fears Ease",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081147026.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gnGTQ_q9KCdl7Xvx_ppB0g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0fe4d5d105492213ce106a92b49639d4",
+      "publishedAt": 1786435907000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Dynatrace Says AI Workloads Fuel Observability Demand, Consumption Growth",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/885168ed-0ea2-32e4-a0a6-e2c9739a1a10/dynatrace-says-ai-workloads.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8hEfncCc2KOF0ewCOAnVUg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/947360d82a243830e3b79d5ae85d49f5",
+      "publishedAt": 1786435332000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Technologies Insider Sold Shares Worth $5,449,544, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-insider-sold-shares-075434142.html",
+      "image": null,
+      "publishedAt": 1786434874000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "INTC Stock Gains Overnight: Chipmaker Raising Share Sale To Over $20B?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/8afdb7dc-d35c-39bd-ba8c-995c2af714a6/intc-stock-gains-overnight%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gvQ4Ie8dloKD1JCna4vCjA--~B/aD04Nzk7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/ce3d0c65a84737fd8ccace33752b7cdd",
+      "publishedAt": 1786429997000
+    },
+    {
+      "ticker": "MA",
+      "title": "Cloudflare Wants to Control the Identity and Money Layer for Agent Commerce",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/cloudflare-wants-control-identity-money-061021630.html",
+      "image": null,
+      "publishedAt": 1786428621000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "CoreWeave Earnings Will Test Its Speedrun to AI Hyperscale",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/48aa52e4-83ba-370f-a920-f4f43486ddba/coreweave-earnings-will-test.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/88Qhj2hyI3pRtHyhfu2O9Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/6d77d5640df72d7c25cf3d672d7d44c9",
+      "publishedAt": 1786428000000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/b5bc04ba-932c-3e19-ae92-e01dc7a6e98c/12-nasdaq-stocks-doubled-in.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/yjw1sbenC_8jFKUtMg5KGw--~B/aD0yODgwO3c9NTEyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/53d216379fa497dd6d4ea195559fdfb6",
+      "publishedAt": 1786425900000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Jim Cramer Picks CoreWeave (CRWV) as the Better Buy Over IREN",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-picks-coreweave-crwv-050443784.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tak3wMpuXBTxJSxoMu1s0A--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c",
+      "publishedAt": 1786424683000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Anthropic, OpenAI Said To Be Racing For Public Markets: Reports Of Pre-IPO Moves Tell Very Different Stories",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/75005240-618d-3c82-af77-a2e9c7bbb619/anthropic%2C-openai-said-to-be.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2vxaJlCw2Cnflq9ucUC_Qw--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d4af1d270c42a60689d4084dc279485f",
+      "publishedAt": 1786424504000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "AMZN Stock to Close Above $300 by August End? Crypto Punters Bet on the Possibility Following Amazon's Impressive Q2 Performance",
+      "publisher": "Benzinga Prediction Markets",
+      "link": "https://finance.yahoo.com/m/6e22dffd-70a0-3383-8ec1-834b7bd95dac/amzn-stock-to-close-above.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/RvGyJIvhfz2lrz5xfX5sRA--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_prediction_markets_613/a691a9b22e215b074ed187cd5322d568",
+      "publishedAt": 1786422985000
+    },
     {
       "ticker": "JNJ",
       "title": "How a 65-Year-Old Turned a $950,000 401(k) Rollover Into a $4,500 Monthly Paycheck Without Buying an Annuity",
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/m/e9b8239a-d119-34af-8239-6c63251a1a09/magnite-sees-ctv-growth-hit.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/.CEYuBGldN8BaIHni44ztw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/7ee3e9826d8ec0e77f29d0fda5d82c1d",
       "publishedAt": 1786406650000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Review & Preview: The S&P 500 Pulls Back",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/b6d1875f-428a-320d-9fab-2a853585c293/review-%26-preview%3A-the-s%26p-500.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_kc6REYMS1JrAuV5bYtjfA--~B/aD02NTt3PTMyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e",
-      "publishedAt": 1786406100000
-    },
-    {
-      "ticker": "KO",
-      "title": "Analyst Report: Monster Beverage Corporation",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/cb5f8c21-87e5-3dea-85e5-8d31bded402b/analyst-report%3A-monster.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-      "publishedAt": 1786403788000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/d9ee0b71-eca1-3e14-9fc7-1ae9433fcf86/s%26p500%2C-nasdaq%2C-dow-futures.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zX6dlW.IitAMLN3lAJL4rw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/4b1cfd1cebb08709ce989ad97de7d87f",
-      "publishedAt": 1786402965000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Market Chatter: Meta Platforms, Other Tech Firms Face Thousands of Social Media Addiction Lawsuits",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/market-chatter-meta-platforms-other-230210744.html",
-      "image": null,
-      "publishedAt": 1786402930000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "What Analysts Really Pressed LLY On This Quarter",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/09530683-8be1-3daa-8194-70c07de4681f/what-analysts-really-pressed.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qk3OCBofIzVoWR3bvKvkwQ--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58",
-      "publishedAt": 1786402912000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Amazon Stock And The Profit Signal Everyone Is Chasing",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/132d2af7-a340-3034-aa90-a0cbdf1c198c/amazon-stock-and-the-profit.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hqucRPWP2GZ8xHHG63sx.A--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/fde660fb434ac898c77ca80f42e9e8f4",
-      "publishedAt": 1786402077000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "CRM Stock Has Bounced From This Price Before. Now What?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/93f41d28-4e9b-3cd7-a20a-73fb4575d37e/crm-stock-has-bounced-from.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JhJkR3qoMsb20heJWAuUaA--~B/aD0xOTIwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/282b2de041f61e72e2e65f389df3ed54",
-      "publishedAt": 1786401548000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson vs. Medtronic: Which Healthcare Stock Is Better Positioned After Earnings?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-vs-medtronic-healthcare-223657921.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T88dQ9if4yJ60v21l_sgvQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/59fe7bc4cb7379b8caecd6f09fabc66e",
-      "publishedAt": 1786401417000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon.com vs. Chewy: Which Consumer Stock Is a Better Buy in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/913dd7ba-d6b2-35d9-b3fd-b244ba446bd6/amazon.com-vs.-chewy%3A-which.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/FK8Ll_W.yHU4aamBO2HWcQ--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/bb9fb85ff96c96d3b730b6ff74e8b6fa",
-      "publishedAt": 1786401181000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google’s AI Team Tells Job Seekers Its HR Filters Are Unreliable",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/google-ai-team-tells-job-222929935.html",
-      "image": null,
-      "publishedAt": 1786400969000
     }
   ]
 }
