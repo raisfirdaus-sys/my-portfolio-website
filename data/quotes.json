@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T05:19:51.407Z",
+  "updatedAt": "2026-08-13T09:44:07.900Z",
   "quotes": {
     "MU": {
       "price": 820.53,
@@ -33,8 +33,8 @@
     },
     "ABBV": {
       "price": 248.76,
-      "change": 0.7899987792968659,
-      "changePercent": 0.3185864319909148,
+      "change": -1.329996337890634,
+      "changePercent": -0.5318070923931351,
       "oneMonthReturnPercent": 1.6259503393051484,
       "oneYearReturnPercent": 23.47247654378697,
       "ytdReturnPercent": 8.481968797037005,
@@ -204,7 +204,7 @@
   },
   "portfolio": {
     "totalUSD": 4253.85287618301,
-    "changePercent": -0.9230238381483679,
+    "changePercent": -1.0224837392230828,
     "oneMonthReturnPercent": 8.755407517311001,
     "oneYearReturnPercent": 18.464172143978455,
     "ytdReturnPercent": 12.61601406153114
