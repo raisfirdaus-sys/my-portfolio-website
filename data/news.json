@@ -1,13 +1,77 @@
 {
-  "updatedAt": "2026-08-15T11:51:17.868Z",
+  "updatedAt": "2026-08-15T13:44:17.510Z",
   "items": [
     {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Stock May Trade At A Premium Despite Cash Flow Upside",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-stock-may-trade-130901202.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
+      "publishedAt": 1786799341000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The 5 Biggest Risks Americans Don’t Think About Behind the Data Center Boom",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/f62db4ed-6fcd-3546-8145-639dbd7b1490/the-5-biggest-risks-americans.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dseCrjuwD2xf5Bf6oagSMA--~B/aD0xNjAwO3c9Mjg0NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/4e5801942adf37b47805b32793ceff8e.jpg",
+      "publishedAt": 1786798800000
+    },
+    {
       "ticker": "GOOGL",
-      "title": "Sundar Pichai's Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders.",
+      "title": "The AI Platforms Are Real. The People Who Built Them Are Leaving.",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/785e4378-40b3-3fcd-bec4-2494302c1ded/sundar-pichai%27s-alphabet.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XCcNe3hLCkVdnTtcVyq5uA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c21c83a88dea174dc2d78885abe24394.png",
-      "publishedAt": 1786791900000
+      "link": "https://finance.yahoo.com/m/68dfb30a-cd2d-3843-a2d4-f1ec4e3a6428/the-ai-platforms-are-real..html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HbZE9NY3gNY9Wew4d.EWpg--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e54679b15c8dc693e6e01bb4fee4eb13.jpg",
+      "publishedAt": 1786798800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Counts the Ka-Ching With SpaceX Returns",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/m/e0f13fd9-5a92-302f-beea-1bb017e48878/alphabet-counts-the-ka-ching.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_QdBgFoZW1H26v2.2oyQTg--~B/aD0xMTUyO3c9OTI4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moby_896/4fb37d6a9d9dfd526b2e22341ba5f771.jpg",
+      "publishedAt": 1786797000000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "SCHG vs QQQ vs VUG: We Compared the Three Biggest Growth ETFs and One Is the Clear Winner for the Next Decade",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/52cd3998-c529-3980-8053-228676001fcf/schg-vs-qqq-vs-vug%3A-we.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/l9nkQEQ_A7z2_U18CYfAJw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3bf531c9ce1499e87b74aa2052b25dc4.jpg",
+      "publishedAt": 1786796231000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Is Berkshire Hathaway’s New Favorite Stock After Buying 48 Million Shares",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/a42e77f0-609a-3cca-a90b-e1aae1f792a0/alphabet-is-berkshire.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/M._w4JGTaAX9Ucbil7MLuw--~B/aD0xNjUzO3c9MjQ3OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/9c8922133c8351a6c259997fb5eeb8b5.jpg",
+      "publishedAt": 1786795551000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "AI compute is 'critical infrastructure' like railroads & steel: Hut 8 CEO",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/ai-compute-critical-infrastructure-railroads-120000243.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Gt2G6sQkPHQF858uGSkNiQ--~B/aD04MDg1O3c9MTIxMjc7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-08/bdfa6a35-016e-4a23-91d8-c6fbe4578df6",
+      "publishedAt": 1786795200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/8e67a047-6590-3e0c-83b5-cd7e950cd595/alphabet-vs.-oracle%3A-which-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aGqpiFWugJdKvCYKmPEXog--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8c30b0c668727b9f3a97a9e8599332b3.jpg",
+      "publishedAt": 1786794480000
+    },
+    {
+      "ticker": "MA",
+      "title": "Breakfast News: Mastercard's CEO Speaks",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6ab31d7d-2d9c-33b3-a508-9fceb9f4a81a/breakfast-news%3A-mastercard%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9.lrgE4_T33WFJgfEYOg4Q--~B/aD0xNjE7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/7aaa87deab92997d4d0687e000f35e7c.png",
+      "publishedAt": 1786794300000
     },
     {
       "ticker": "MSFT",
@@ -34,14 +98,6 @@
       "publishedAt": 1786788000000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Nvidia Stock Investors Just Got Good News From SpaceX. Wall Street Says It's Time to Buy.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/51758d4b-9c3f-3191-954f-0d824629ac1f/nvidia-stock-investors-just.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AnPkszX7nQE4Vbz95_0SKA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f37130b8590ffc47a33301d31b8b77e6.png",
-      "publishedAt": 1786784880000
-    },
-    {
       "ticker": "PLTR",
       "title": "Up Over 35% Since Aug. 3, Is it Too Late to Buy Palantir Stock?",
       "publisher": "Motley Fool",
@@ -56,14 +112,6 @@
       "link": "https://finance.yahoo.com/m/a2580210-667b-387e-a6a1-6b73075ac275/elon-musk-admits-he.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/YrpAFPMf26UEfamFTr1IFw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4e9c69b83d840bf1e9d7a72eeddfe49d.jpg",
       "publishedAt": 1786771200000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Commvault Systems (CVLT) Is Up 8.7% After Shelf Filing and Google Threat Intelligence Integration",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/commvault-systems-cvlt-8-7-031844966.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AteaAjd5GU7lUW.7r_FC3g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/36ca5b522ba2e0a30acf16e5282f313b.jpg",
-      "publishedAt": 1786763924000
     },
     {
       "ticker": "KO",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/robert-karrs-second-quarter-2026-020310060.html",
       "image": null,
       "publishedAt": 1786759390000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "‘Big Short’ investor warns AI boom has quiet weak spot",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/92c5d27a-03f8-3904-844d-255352a5ef32/%E2%80%98big-short%E2%80%99-investor-warns-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/H2R.xfsunt66zAadtbrHeA--~B/aD0yNTU2O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/6c77252dacab2c8644f41611ec49ad88.jpg",
-      "publishedAt": 1786759380000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bill Gates's Top Second Quarter 2026 Move: Trims Berkshire Hathaway Inc at a -3.57% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-gatess-top-second-quarter-020121493.html",
-      "image": null,
-      "publishedAt": 1786759281000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "The Top 5 Analyst Questions From Datadog’s Q2 Earnings Call",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-datadog-012500839.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hjQffPFn8RydgP.0qwSK_Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/bd1313f1c49ebe10dc63cd81aa5ab5c2.jpg",
-      "publishedAt": 1786757100000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/pershing-square-holdings-ltd-lse-010734806.html",
-      "image": null,
-      "publishedAt": 1786756054000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Can Abbott Laboratories (ABT)’s Lingo Partnership With Alphabet (GOOG) Unlock a New Era of AI-Powered Health?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbott-laboratories-abt-lingo-partnership-010526256.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/l5vZeXAVXARtBvhepG4wVA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/d8ccf302d7c67e9b92027f75d528e57e.jpg",
-      "publishedAt": 1786755926000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Can MacroGenics (MGNX) Turn Gilead Sciences (GILD)’s $10M Milestone Into a Major Pipeline Catalyst?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/macrogenics-mgnx-turn-gilead-sciences-005003929.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Mre3vqbNdHaDyeCAcMtTFg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/4b9ae3e820991409356264f5ee1180f1.jpg",
-      "publishedAt": 1786755003000
     }
   ]
 }
