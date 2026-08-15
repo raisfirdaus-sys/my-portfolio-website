@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-15T13:44:17.510Z",
+  "updatedAt": "2026-08-15T14:56:16.962Z",
   "items": [
+    {
+      "ticker": "DDOG",
+      "title": "Pittsburgh closes loophole in long-standing ban on sidewalk parking",
+      "publisher": "USA TODAY",
+      "link": "https://finance.yahoo.com/m/f1310223-2b77-3bd3-9c1b-4b4b278ddf1f/pittsburgh-closes-loophole-in.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/KWmgo8o0NEViunPrDSMu5Q--~B/aD01Mjg7dz00Nzg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/usa_today_news_641/2d54768a24d1d09d7102669b4faf8581.png",
+      "publishedAt": 1786804999000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Granite Ridge Resources’s Q2 Earnings Call: Our Top 5 Analyst Questions",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/granite-ridge-resources-q2-earnings-143700117.html",
+      "image": null,
+      "publishedAt": 1786804620000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/52daecb0-af0b-3ab1-a8d2-98a818521b67/nvidia-is-looking-to-own.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8PJsvyZa6McxtXFaGq66cw--~B/aD0xNjAwO3c9Mjg0NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2783bb9888d9898472cd518d11fcd1d1.jpg",
+      "publishedAt": 1786804562000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "SpaceX vs. Micron: Which High-Growth Titan Is the Better Buy?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/39a5709b-8cad-3807-866e-7980d0caf157/spacex-vs.-micron%3A-which.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/f.cZ1TqF8H9S4Unf6KbrBQ--~B/aD04MjA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/cdf00c7e7a8777bd85c5e7770b35aec7.jpg",
+      "publishedAt": 1786804500000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Little Italy Days returns for four days of food and music",
+      "publisher": "USA TODAY",
+      "link": "https://finance.yahoo.com/m/ce3e65ff-a548-317d-a434-a75461b270c2/little-italy-days-returns-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Uln7N7Zh4IKefjMe.rJ5Jg--~B/aD0xMDEwO3c9MTIwNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/usa_today_news_641/ba40ffaabe2ce2f9aabc028833b11ddb.jpg",
+      "publishedAt": 1786804465000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
+      "publisher": "Moneywise",
+      "link": "https://finance.yahoo.com/real-estate/articles/elon-musks-100m-sq-ft-143000261.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nAWP1aRForBOcksIzAlR2g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moneywise_327/c8f79e5635712aebc18fe81240467cae.jpg",
+      "publishedAt": 1786804200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett named these 3 stocks as favorites for a reason",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/727e95dd-c39b-303c-a6a0-8393ab523203/warren-buffett-named-these-3.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9xTsEo9leMPtCqTcxQTULA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/4ff4d6864d98ee9383bd9db79dadcd07.jpg",
+      "publishedAt": 1786802640000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9f7a7ac7-0c70-3bd9-963c-24c0fe9ad6f9/nvidia%E2%80%99s-secret-%2421-billion.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vPmyhmOwafnRzZH69MgUug--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/062ac1c532fed8f28de38a4982008034.jpg",
+      "publishedAt": 1786801308000
+    },
     {
       "ticker": "ABBV",
       "title": "AbbVie (ABBV) Stock May Trade At A Premium Despite Cash Flow Upside",
@@ -24,6 +88,14 @@
       "link": "https://finance.yahoo.com/m/68dfb30a-cd2d-3843-a2d4-f1ec4e3a6428/the-ai-platforms-are-real..html",
       "image": "https://s.yimg.com/uu/api/res/1.2/HbZE9NY3gNY9Wew4d.EWpg--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e54679b15c8dc693e6e01bb4fee4eb13.jpg",
       "publishedAt": 1786798800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The Rich and Famous Who Can’t Get Into Miami’s Most Exclusive Country Club",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/6bbb6bda-c1e2-397f-a85f-4f21661c60b8/the-rich-and-famous-who-can%E2%80%99t.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ys_n5TWVGfvxq8cEJE0IOw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/aee5e0e624a3d828f4c92d74f70a4659.jpg",
+      "publishedAt": 1786798260000
     },
     {
       "ticker": "GOOGL",
@@ -58,14 +130,6 @@
       "publishedAt": 1786795200000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/8e67a047-6590-3e0c-83b5-cd7e950cd595/alphabet-vs.-oracle%3A-which-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aGqpiFWugJdKvCYKmPEXog--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8c30b0c668727b9f3a97a9e8599332b3.jpg",
-      "publishedAt": 1786794480000
-    },
-    {
       "ticker": "MA",
       "title": "Breakfast News: Mastercard's CEO Speaks",
       "publisher": "Motley Fool",
@@ -80,70 +144,6 @@
       "link": "https://finance.yahoo.com/m/937892ea-0787-3208-9ba8-470167c729f1/3-cloud-computing-stocks-to.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/1H2YBXz8OOxyqkt9lQosoA--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/94b90e19878f8100e5e1b86438f18e51",
       "publishedAt": 1786791626000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca-Cola FEMSA (NYSE:KOF) Stock Sees Modest Fair Value Cut As Analysts Weigh Growth Risks",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-femsa-nyse-kof-101213557.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/bSmtGfcygP4NFSKLP1r3ag--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/75fc45fcae0fdb7335be0900b81256df.jpg",
-      "publishedAt": 1786788733000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Jeff Bezos Is Selling $4 Billion of His Amazon Stock. Should You Follow Suit?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/1e837b01-7239-3879-94a2-b9c380f9c41b/jeff-bezos-is-selling-%244.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/c.99VD6qv3yrYdXKmjQQlg--~B/aD02Njg7dz05NTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e19c12400c234382bad0436dfbbe3eb8.jpg",
-      "publishedAt": 1786788000000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Up Over 35% Since Aug. 3, Is it Too Late to Buy Palantir Stock?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/ae3be51f-0495-3c3c-b715-00291653746f/up-over-35%25-since-aug.-3%2C-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/7c_orvw7yzEq.uul5HMXMA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/5c043e1c0e84b7f45ac2ca4c6695feda.png",
-      "publishedAt": 1786784700000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Elon Musk Admits He Underestimated Anthropic's AI -- Why Amazon Investors Should Care",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a2580210-667b-387e-a6a1-6b73075ac275/elon-musk-admits-he.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YrpAFPMf26UEfamFTr1IFw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4e9c69b83d840bf1e9d7a72eeddfe49d.jpg",
-      "publishedAt": 1786771200000
-    },
-    {
-      "ticker": "KO",
-      "title": "Foods & Inns Ltd (BOM:507552) (Q1 2027) Earnings Call Highlights: Navigating Export ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/foods-inns-ltd-bom-507552-030315725.html",
-      "image": null,
-      "publishedAt": 1786762995000
-    },
-    {
-      "ticker": "V",
-      "title": "ValueAct Capital's Top Q2 2026 Move: Rocket Companies Inc at a 3.76% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/valueact-capitals-top-q2-2026-020731016.html",
-      "image": null,
-      "publishedAt": 1786759651000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Ray Dalio's Top Q2 2026 Move: State Street SPDR S&P 500 ETF Trust at a 2.93% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ray-dalios-top-q2-2026-020555830.html",
-      "image": null,
-      "publishedAt": 1786759555000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Robert Karr's Second Quarter 2026 Move: Exiting Wix.com Ltd at a -6.67% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/robert-karrs-second-quarter-2026-020310060.html",
-      "image": null,
-      "publishedAt": 1786759390000
     }
   ]
 }
