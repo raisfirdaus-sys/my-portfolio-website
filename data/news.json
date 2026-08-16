@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-16T16:58:29.338Z",
+  "updatedAt": "2026-08-16T17:50:58.758Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/3c9f9a5f-fa7a-3c51-a4f7-2f0ed9e0b1a4/satya-nadella%27s-microsoft.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jkttODZ5BlXpQluyV5kTbQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/78a5825772c56606e440a24ee03c3b13.png",
+      "publishedAt": 1786901820000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "APIC delivers 55% EBITDA growth in the first half of 2026, reaching USD 44 million",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apic-delivers-55-ebitda-growth-173400146.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/EQW1gJmmiz2M0hb4K5pZhw--~B/aD0yNDg7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/b640db2c4b0c4ef6e1ec5cdda0b8293f.jpg",
+      "publishedAt": 1786901640000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Stanley Druckenmiller builds $120 million bet on major tech stock",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/113bd21d-84e5-3d98-9ec5-1e0359b3b18f/stanley-druckenmiller-builds.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FPvZ1fQGcypQ6.UfUrGv4A--~B/aD0yNTYxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/9d661d30fa6611c88e2a9ed3aaf96146.jpg",
+      "publishedAt": 1786901580000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "2 Small-Cap Stocks with Competitive Advantages and 1 We Ignore",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-small-cap-stocks-competitive-173300342.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9tM3EOfCqynlymfIMu9IXg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/8463d1c16c6655f2b5a7f4556e577aea.jpg",
+      "publishedAt": 1786901580000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "The Government of Canada and Ontario Investing $1 Billion to Help Non-Development Charge Municipalities Build More Homes",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/real-estate/articles/government-canada-ontario-investing-1-173000779.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ur5w7XX6r0uPlrdjBYlsyw--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cnwgroup.com/f7416da6ea15035800dd80d7fc21fb30.png",
+      "publishedAt": 1786901400000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "3 Russell 2000 Stocks We Steer Clear Of",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-steer-172500324.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nXA39w5pz_ESG2IJJzixmw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/209667ede4c07a729de56c46addac88f.jpg",
+      "publishedAt": 1786901100000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Elon Musk’s SpaceX Holdings Revealed. (Hint: It’s A Lot.)",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/043682f6-c63c-35a3-8af8-285d97e08b3e/elon-musk%E2%80%99s-spacex-holdings.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Wu5hThvP14LwDLcDX1ufgQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/5e07a17450b517f8f14a2ad4f556f049.jpg",
+      "publishedAt": 1786898760000
+    },
+    {
+      "ticker": "V",
+      "title": "More Than 30% of Americans 80 and Older Still Carry Mortgage Debt. The Number Climbs to 41% for Those 65 to 79, Visa Says",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/real-estate/articles/more-30-americans-80-older-163153780.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/PjEwkqirU8voUv1qCey8Uw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/29bf2c1c17f5738914fda9e2355ef39b.jpg",
+      "publishedAt": 1786897913000
+    },
     {
       "ticker": "MSFT",
       "title": "3 Unprofitable Stocks with Open Questions",
@@ -80,70 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/ai-fueled-market-party-wall-123000539.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/prpx96SEbTdeYE69.GFwzQ--~B/aD0xNzgyO3c9MjAxMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/509840bc17679d4e8e7e5df704f406f4.jpg",
       "publishedAt": 1786883400000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "20 reasons why Wendy's may be doomed",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tQP1sbaqsm8xG2lefv0koA--~B/aD0zMjQ3O3c9NDc0MDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/70043bf8-3fca-40ba-9365-07c5bd3c58aa",
-      "publishedAt": 1786883400000
-    },
-    {
-      "ticker": "MA",
-      "title": "Visa (V) Drew Fresh Interest From Bill Ackman’s Pershing Square",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-drew-fresh-interest-120853703.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/S7MQEEXBIeGh5oNdkHunaA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e.jpg",
-      "publishedAt": 1786882133000
-    },
-    {
-      "ticker": "KO",
-      "title": "This Dividend King Has Raised Its Payout for 64 Straight Years -- And It's Outperforming the \"Magnificent Seven\" This Year",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/435c657d-f257-3986-9c6a-0d72b688cf94/this-dividend-king-has-raised.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hUICVTP9yGQ7Jt33fQKjzA--~B/aD04MDE7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/31515e51e16c3aaeb6ae96b5b402af4e.jpg",
-      "publishedAt": 1786880100000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Peter Thiel’s Second-Biggest Bet is Not a Tech Stock Anymore",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/326a796a-8f30-3462-92ce-71e10f6286fb/peter-thiel%E2%80%99s-second-biggest.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/OQuN7MIi5zq_rAWcsgZiHQ--~B/aD0xMDgwO3c9MTkyMTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/2e2a553fd59dd600194688d941f84f9b.png",
-      "publishedAt": 1786879479000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Plug Power Tested a Backup Power System With Microsoft. Here's Why the CEO Says That's Not a Real Pivot Yet.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/24c737a6-dc04-3f28-b765-be6a57117d26/plug-power-tested-a-backup.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Q_QX4gB0FNKLPZ7UTm9diA--~B/aD04OTk7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a01240b7027158de759c2294d0f9fe37.jpg",
-      "publishedAt": 1786878840000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "5 Dividend Aristocrats to Buy for Lifelong Income in August",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/885e3ccf-c0b7-30b1-b973-2457d5e930ce/5-dividend-aristocrats-to-buy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/leWLvu08UMS4hFeL7IOBjg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/f6497acff0d6023692d5c86a464b9605",
-      "publishedAt": 1786878021000
-    },
-    {
-      "ticker": "KO",
-      "title": "3 Reasons This Top Warren Buffett Dividend Stock Is a Passive Income Investor's Dream",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7176bbfd-9af3-3f0e-b99a-62661e7650ae/3-reasons-this-top-warren.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/jxZ8NoFGw4ikshIK4Mjt8g--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/fb4985568e906c85aa27e58fe8ecfc09.png",
-      "publishedAt": 1786875300000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "NiSource (NI): A Costly Quarter Masks A Bigger Bet",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-ni-costly-quarter-masks-100126971.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1YfhVBjialEY8acK0Vy8FQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/90f38886f04e26b67dca12c7e6ba0890.jpg",
-      "publishedAt": 1786874486000
     }
   ]
 }
