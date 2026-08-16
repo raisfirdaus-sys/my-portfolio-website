@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-16T14:57:19.366Z",
+  "updatedAt": "2026-08-16T15:53:35.821Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Peter Thiel invests $118 million in surging big tech stock",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/20855af4-e292-3043-8e9d-091619cd1a44/peter-thiel-invests-%24118.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ql8d2FqoABC2LfHKAOVPZw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b9715c9f10322f8545c1e87cd794a348.jpg",
+      "publishedAt": 1786893420000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/news/spending-is-leading-to-earnings-wall-street-strategists-see-payoff-from-big-techs-ai-investment-151610093.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HchBm_is5fwVkrHmnghcxQ--~B/aD0zMzkyO3c9NTA4ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/91bd5574-a8f7-4997-898c-29fb0354bb0e",
+      "publishedAt": 1786893370000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Neuroscience Is Becoming AbbVie's Quiet Powerhouse -- and Management Now Sees $12.7 Billion in Sales This Year",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a749a821-3e9b-30b8-8eec-78335ef5036c/neuroscience-is-becoming.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WMclPx3.qBFuGLE9DMvJPA--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/33d4f0401c33f98de1b9bb1a0b0a11ca.jpg",
+      "publishedAt": 1786892580000
+    },
     {
       "ticker": "GOOGL",
       "title": "Google is using a $29 gadget to tighten its grip on Android users",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-ni-costly-quarter-masks-100126971.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/1YfhVBjialEY8acK0Vy8FQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/90f38886f04e26b67dca12c7e6ba0890.jpg",
       "publishedAt": 1786874486000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Open-Weight AI Won’t Crimp Demand for Picks and Shovels",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/01d98123-8ba9-3986-af52-fe8e79bac896/open-weight-ai-won%E2%80%99t-crimp.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yU7dgk5V5NQHGMw3FnAzeg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/ac11f4210ee14b0c60bfe4398f666584.jpg",
-      "publishedAt": 1786872600000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Here's What a $10,000 Palantir Investment Could Be Worth by 2028",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/9f324266-d565-3502-af2e-4f133ecb8402/here%27s-what-a-%2410%2C000.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XBKMSMXk7_aOfQwT9AJ_jQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d00f10b2f23c7f8b30cba42a08f663be.jpg",
-      "publishedAt": 1786864800000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Intuit, MongoDB, Cloudflare, Palantir Technologies, and The Trade Desk Shares Are Soaring, What You Need To Know",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-mongodb-cloudflare-palantir-technologies-062900428.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZtZQERUc78GlmfJDWxGvDQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/fd3c1b187889860f41acd4c8b23378fc.jpg",
-      "publishedAt": 1786861740000
     }
   ]
 }
