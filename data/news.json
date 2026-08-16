@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-16T13:46:05.594Z",
+  "updatedAt": "2026-08-16T14:57:19.366Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Google is using a $29 gadget to tighten its grip on Android users",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/05a4423e-e899-3da9-8c66-73c67989711b/google-is-using-a-%2429-gadget.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CPANzAcCl7MbQpBaEBAK1Q--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/d1232b8d770498eeedfc1e65f4089e70.jpg",
+      "publishedAt": 1786889220000
+    },
+    {
+      "ticker": "KO",
+      "title": "There's No Denying Altria Group Has a High Yield, But This Stock Could Be an Even Better Buy for Dividend Investors Looking for Reliable Passive Income",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/fee4d72e-af89-3d75-8d66-3c42851b3724/there%27s-no-denying-altria.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Pol8hew1ELR6d2SVKXtnjA--~B/aD04MDA7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d6291621020c89d7e61ae73ee7bff9b0.jpg",
+      "publishedAt": 1786887300000
+    },
     {
       "ticker": "MSFT",
       "title": "SpaceX is Planning to Spend Up to $500 Billion on Data Centers. Here’s Why Elon Musk is Pushing All-In",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-mongodb-cloudflare-palantir-technologies-062900428.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/ZtZQERUc78GlmfJDWxGvDQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/fd3c1b187889860f41acd4c8b23378fc.jpg",
       "publishedAt": 1786861740000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Stock Gets Fair Value Bump As AWS AI Demand Lifts Analyst Views",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-stock-gets-fair-061049757.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
-      "publishedAt": 1786860649000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon vs. Microsoft: Which Cloud Computing Behemoth Is the Better Artificial Intelligence (AI) Buy Today?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/54ed399c-8884-399d-a6e4-ba45d43e7d4f/amazon-vs.-microsoft%3A-which.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fF4YwHQhT5vyvG3tQVhDRA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2310248a3c01187ca796ae4ba4451aa0.jpg",
-      "publishedAt": 1786854000000
     }
   ]
 }
