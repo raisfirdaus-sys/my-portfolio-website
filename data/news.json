@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-08-17T20:55:49.769Z",
+  "updatedAt": "2026-08-17T21:57:29.250Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/1aec5e50-83ad-33cf-b22b-7f6081b0fc3e/financial-advisors-love.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qDDcrx7Zy9OqD78syqy7IA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/b0bdb56e3e81f8ee0e8d006047f197d4.jpg",
+      "publishedAt": 1787002920000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Why Isn't Eli Lilly Stock Trading At The Top Of Its Peer Group?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/f4a7d110-5b6e-3026-a353-804d3ea7fc1a/why-isn%27t-eli-lilly-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rIw9SlZDFIzBWYBarYDM0A--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/74f1d690cd42e176bfd25c37f45f409a.jpg",
+      "publishedAt": 1787002178000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How Heavy AI Spending Can Pay Off for Amazon and Meta",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/fa8d80bf-8dca-303e-b153-8392c8151aeb/how-heavy-ai-spending-can-pay.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9KpYXgG4l7FjwJtq2tufgg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/8500bf3d84c42e4f62c08c2d5a7b422e.jpg",
+      "publishedAt": 1787001360000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Stocks to Watch Recap: Alibaba, L3Harris, Diana Shipping, BHP",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/33ff8e66-9257-302b-bd2c-fb8c53ace832/stocks-to-watch-recap%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/c1vJ.pFSMA4tplBvT6.B_w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/57c1a48aa97bfc416871916e3dd86730.jpg",
+      "publishedAt": 1787001300000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Alexa+ assistance is the way consumers 'actually want to shop': VP",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/amazon-alexa-assistance-way-consumers-211500608.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/QFblv9MemrkCuUCA6wXe.A--~B/aD0xODczO3c9MzMzMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/aaf38970-927e-4461-98c6-fb795e586c16_de9ab740d4dbf0afe924800b0af3cc93237f73ae11c3659bd702f4adefc20e76.jpg",
+      "publishedAt": 1787001300000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Update: US Equity Indexes Slide After Trump's Threats to Bomb Oman Lifts Crude Oil, 30-Year Treasury Yield Touches 19-Year High",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-trump-211106690.html",
+      "image": null,
+      "publishedAt": 1787001066000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Anthropic Projects $200 Billion of Revenue by 2028",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-projects-200-billion-revenue-205306475.html",
+      "image": null,
+      "publishedAt": 1786999986000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Sandisk, Micron, Coherent, Boeing, Apple, Amazon, and More Stocks That Explain Today’s Market",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/e16a2ee6-9fad-362d-ac29-c796aa9fd1b0/sandisk%2C-micron%2C-coherent%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/UQPEWbwBR0SJb2PMLshoxA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/0a2aecbe28a52f5aafa36167e7646454.jpg",
+      "publishedAt": 1786999920000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks' Unicorn Frappuccino drives record North America sales weekend",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/article/starbucks-unicorn-frappuccino-drives-record-north-america-sales-weekend-205035071.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9JhHLyDL7WYLiWt.nnXLrQ--~B/aD0xMTA2O3c9MTAzNDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/screenshot-2026-08-17-at-20227-pm_4024.png",
+      "publishedAt": 1786999835000
+    },
     {
       "ticker": "MA",
       "title": "Visa Stock Slips After Ackman Reveals New Payment Bet",
@@ -27,35 +99,19 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet Eyes First Australian Dollar Bond Sale",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-eyes-first-australian-dollar-202414977.html",
-      "image": null,
-      "publishedAt": 1786998254000
+      "title": "Here Are Big Tech’s Big SpaceX Investors",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/61399292-acf9-3999-a4d9-1dae7bcae59b/here-are-big-tech%E2%80%99s-big.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jkn9T4OzOLPXTy9sjs6myw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9a86d79177f45c8b047adc4096b45215.jpg",
+      "publishedAt": 1786999146000
     },
     {
       "ticker": "GOOGL",
-      "title": "SpaceX Stock Tests Resistance, Attempts To Retake Debut Price",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/6429e906-0d6c-3df4-8fa6-67fc8502769d/spacex-stock-tests.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ldtCSHfyttNRpDJV1c18pQ--~B/aD01NzI7dz0xMDEyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/1e242217d237f37d8fde7d17c2c712ae.jpg",
-      "publishedAt": 1786998162000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Warren Buffett's Portfolio Is Looking Even More Like The Dow Jones Index. This Is Why.",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/349b667c-e06c-3ea5-bfe1-285faefb9d07/warren-buffett%27s-portfolio-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ptfoBVKSlN7.OP0BH6nWEw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/02b26c978afbb40d3c148bd83142df54.jpg",
-      "publishedAt": 1786998043000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "US Equity Markets End Lower Amid Rise in Crude Oil Prices Following Trump's Threat to Attack Oman",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201950619.html",
-      "image": null,
-      "publishedAt": 1786997990000
+      "title": "Mexico Explores Ways to Regulate Social Media Among Children",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/articles/mexico-explores-ways-regulate-social-202941529.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Do.9G7LKHp3oJ0VUmEKPWQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/5d61a7841a1b540ecebd2e88c746efef.jpg",
+      "publishedAt": 1786998581000
     },
     {
       "ticker": "PLTR",
@@ -64,14 +120,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-pours-27-million-200518494.html",
       "image": null,
       "publishedAt": 1786997118000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Disclosed",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/39bcf7b6-6f3a-3fec-beef-45673cbe3d5b/nvidia%2C-alphabet%2C-peter.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0s0mlER23Y8GaSdXBnES.A--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/2e6d2c6f0584a931028b00b36f4f162f.jpg",
-      "publishedAt": 1786997049000
     },
     {
       "ticker": "AMZN",
@@ -90,60 +138,12 @@
       "publishedAt": 1786996844000
     },
     {
-      "ticker": "AMZN",
-      "title": "Update: US Equity Indexes Decline, Crude Oil Jumps After Trump Threatens to Bomb Oman",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/articles/us-equity-indexes-decline-crude-195613628.html",
-      "image": null,
-      "publishedAt": 1786996573000
-    },
-    {
       "ticker": "SBUX",
       "title": "1 Profitable Stock Worth Your Attention and 2 We Turn Down",
       "publisher": "StockStory",
       "link": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-worth-attention-195020495.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/yiRNBrZUijxYC8Jv4WzEqg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/6ba15e88b9e705b13607f60227d84762.jpg",
       "publishedAt": 1786996220000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Why Microsoft Stock Dropped Today",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/847540f4-c060-3d4d-a346-fa9a6a338920/why-microsoft-stock-dropped.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/geJA5YlGl_2J6wQ_8SHKsA--~B/aD04OTQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9237a211924bd58c1d17a27f469cb4c5.jpg",
-      "publishedAt": 1786996132000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/15946f1b-5059-386c-95a0-501f152f5f6d/amazon%27s-stake-in-anthropic.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eQzkyuk1AVh4gWKRedDEqA--~B/aD04NzU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6d7f96d36caf8508265ec3d05a145c14.jpg",
-      "publishedAt": 1786996080000
-    },
-    {
-      "ticker": "KO",
-      "title": "If You Invest $100 a Month in SCHD, Here's the Passive Income It Could Deliver in 20 Years",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/3a772f82-6405-3752-b0d4-0ece1c2f19da/if-you-invest-%24100-a-month-in.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/OgKc3nKOCDIeMkkafO5biQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e6ff2b77c3505c7d4d25a127e80f3b27.jpg",
-      "publishedAt": 1786995333000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Market Chatter: US High-Grade Bond Sales Set August Record as AI Spending Fuels Borrowing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-us-high-grade-192810770.html",
-      "image": null,
-      "publishedAt": 1786994890000
-    },
-    {
-      "ticker": "KO",
-      "title": "Warren Buffett Is Still Making Big Bets at Berkshire",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/e5e49776-ce78-3f18-bae0-ea4d0dc733ba/warren-buffett-is-still.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VCk5LzQk5WRTOybBviIKKQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/6fd52c780f96c5fca7a0d7e7b5fa31db.jpg",
-      "publishedAt": 1786994640000
     }
   ]
 }
