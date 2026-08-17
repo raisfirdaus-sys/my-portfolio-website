@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-16T23:50:11.973Z",
+  "updatedAt": "2026-08-17T03:29:21.292Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Piles $17 Billion More into Google: Why Is Michael Burry Worried?",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/b875d902-bebe-327f-b547-4d840c3f4ec9/berkshire-piles-%2417-billion.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mRIHW_AHbU_Tsjtd0eOXhQ--~B/aD0yODgwO3c9NTEyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/9c107a361e9d3605aca66d3e653269e4.jpg",
+      "publishedAt": 1786932987000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "GOOGL Is Already Borrowing Billions For AI – Now It’s Reportedly Eyeing Australia’s Bond Market",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/ce32efeb-059f-3768-90c3-e0601a835fb5/googl-is-already-borrowing.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/QMBJB9WcvYtCh8EVF7ecXw--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/5b9fc3266edb85892b516f777dd2a20e",
+      "publishedAt": 1786930852000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa’s Agentic Ready Program Moves Issuer-Layer Readiness From Theory to Production",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-agentic-ready-program-moves-011957911.html",
+      "image": null,
+      "publishedAt": 1786929597000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/93b5e971-d837-3356-b514-5408ea104fe5/why-big-tech%E2%80%99s-ai-spending-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pByQuow_jvnpAgF3ftqoCg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/846b8f9ce6754a6ba6b4ea71e564f9ec.png",
+      "publishedAt": 1786928400000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "This Software Stock Just Produced a Rule of 40 Score Nearly as High as Palantir's, and Its Valuation Is Much More Attractive",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/95340ac7-971b-3822-b5ea-d1593fef82ae/this-software-stock-just.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/deejO.yghpLhKOAaFUMYdw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/44e318a89814fcd087ebb3e27c08b9bc.jpg",
+      "publishedAt": 1786927800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Reddit just landed in the big leagues",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/2213d7b5-69f1-3921-a77b-034c113384f8/reddit-just-landed-in-the-big.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2X.lq0QexEEWm2P94aThjg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/2271948d8c78d2c0ca39caa2bfed8417.jpg",
+      "publishedAt": 1786927020000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard CEO: Cybersecurity Is Our Fastest-Growing Business",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d8146598-66b2-3c46-8912-ef88a2c758a2/mastercard-ceo%3A-cybersecurity.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DxVSOj2v6vO8jJ0AJyuWAQ--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a88c052bd8134bf4c722e89e2cda8da4.jpg",
+      "publishedAt": 1786926877000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "The Trade Desk’s Woes & A New AI Doughnut?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/2eaca2a4-86e2-3dc8-8238-671b0922d37d/the-trade-desk%E2%80%99s-woes-%26-a-new.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AP5KvcERFa5fq1LIxlEEtg--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/7efe9db7961c998e833b70cae8afec20.jpg",
+      "publishedAt": 1786924154000
+    },
     {
       "ticker": "MSFT",
       "title": "Elon Musk and Jensen Huang’s New Partnership Could Create the Next Era of Technology",
@@ -18,36 +82,12 @@
       "publishedAt": 1786919220000
     },
     {
-      "ticker": "GOOGL",
-      "title": "What Is Alphabet (GOOGL) Betting On With Gemini 3.7 Flash?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-betting-gemini-3-220907115.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DsPfvV2m9a9oeBhgaVCYNg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1fc7d8c4b041b0aaed5c1d373b17b5b4.jpg",
-      "publishedAt": 1786918147000
-    },
-    {
       "ticker": "MSFT",
       "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/e954887e-a87a-3b91-9c93-576e1bc88425/billionaire-investor-david.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/IvpLFUXNebzNsY5JoZoJ3Q--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/814b6ac5816e4a61c081dede58fc3060.jpg",
       "publishedAt": 1786916631000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/10f9c072-d535-3524-b053-f1808575ffd6/1-jaw-dropping-metric-that.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iPxPKtAPjmg9aN45BTwrUA--~B/aD0xMDA2O3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/5c59c7f20cebc3c28286e6726479bd61.jpg",
-      "publishedAt": 1786915560000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/technology/ai/articles/stripe-reportedly-acquire-ai-gateway-205704570.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/klX6L7qoUBmxBocXJTVNSw--~B/aD03ODE7dz0xMzkwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_finance_785/67abfda78a70d00597c37109f4bf6308.jpg",
-      "publishedAt": 1786913824000
     },
     {
       "ticker": "GILD",
@@ -58,12 +98,12 @@
       "publishedAt": 1786913100000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Apple may finally have a $2,000 reason to enter foldables",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/58146bc1-3641-3c5b-bb0c-e43e69e502b4/apple-may-finally-have-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/xrEUQA2yJ9ORtelcf4revQ--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/1257902b1a16c08cc946602cedb51f3b.jpg",
-      "publishedAt": 1786910820000
+      "ticker": "MSFT",
+      "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/a952e4c2-948c-3e8f-8250-874a4b254090/2-major-catalysts-are-lifting.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vFScAhyYFC2JwRhQ2gT69g--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/ac3288324a2ac3f2fff832e265843d6d.jpg",
+      "publishedAt": 1786908602000
     },
     {
       "ticker": "MSFT",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/a0346fa3-6172-33c4-a45b-75fbb919ccc7/as-oracle-deepens-its.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/av3qUl9NTj_rUb8eNy_K3Q--~B/aD04MzY7dz0xMjU0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/e6270eaced21baa42d87300c42cfa807.jpg",
       "publishedAt": 1786896902000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "3 Unprofitable Stocks with Open Questions",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-open-questions-161300304.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6yRHpPub3V70qhc5pvVJ.w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/8b8aa47a91c1b447d02015ba1c717e2f.jpg",
-      "publishedAt": 1786896780000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Peter Thiel invests $118 million in surging big tech stock",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/20855af4-e292-3043-8e9d-091619cd1a44/peter-thiel-invests-%24118.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ql8d2FqoABC2LfHKAOVPZw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b9715c9f10322f8545c1e87cd794a348.jpg",
-      "publishedAt": 1786893420000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/news/spending-is-leading-to-earnings-wall-street-strategists-see-payoff-from-big-techs-ai-investment-151610093.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HchBm_is5fwVkrHmnghcxQ--~B/aD0zMzkyO3c9NTA4ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/91bd5574-a8f7-4997-898c-29fb0354bb0e",
-      "publishedAt": 1786893370000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Neuroscience Is Becoming AbbVie's Quiet Powerhouse -- and Management Now Sees $12.7 Billion in Sales This Year",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a749a821-3e9b-30b8-8eec-78335ef5036c/neuroscience-is-becoming.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WMclPx3.qBFuGLE9DMvJPA--~B/aD03Mzg7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/33d4f0401c33f98de1b9bb1a0b0a11ca.jpg",
-      "publishedAt": 1786892580000
-    },
-    {
-      "ticker": "KO",
-      "title": "There's No Denying Altria Group Has a High Yield, But This Stock Could Be an Even Better Buy for Dividend Investors Looking for Reliable Passive Income",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/fee4d72e-af89-3d75-8d66-3c42851b3724/there%27s-no-denying-altria.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Pol8hew1ELR6d2SVKXtnjA--~B/aD04MDA7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d6291621020c89d7e61ae73ee7bff9b0.jpg",
-      "publishedAt": 1786887300000
     }
   ]
 }
