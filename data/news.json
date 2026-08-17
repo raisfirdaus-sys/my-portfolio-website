@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-17T11:02:35.942Z",
+  "updatedAt": "2026-08-17T11:56:46.194Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Who’s Really The King of Custom Silicon, Broadcom or Marvell Technology?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/41b40676-2341-36eb-95e6-eb7940379058/who%E2%80%99s-really-the-king-of.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/P21VKqGt60oGJrS8i1Cqrw--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3762d40ae956cc767afbcb6aa7123d82.jpg",
+      "publishedAt": 1786965439000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The Global Market for Computing and AI for Data Centers Report 2026–2040: Evaluating GPUs, Custom ASICs, Arm vs x86, and Strategies of Nvidia, AMD, Google, and AWS",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/global-market-computing-ai-data-111600912.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/iogELng_NEvmVlKg85874A--~B/aD01ODt3PTQ4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/93d5b27580f67db722dd7c112e43e8bc.jpg",
+      "publishedAt": 1786965360000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway adds $17 billion to Alphabet stake in Q2 2026",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/971db99f-3812-330c-b9a5-7b2628ae7d76/berkshire-hathaway-adds-%2417.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4yuP5DKx8XtYMgri.tlPsw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/ef1f6622223d9f2ac3a7f69d18c89864.jpg",
+      "publishedAt": 1786965069000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Two Squeezed Hyperscalers: Does Meta or Amazon Have The Bigger Cash Flow Problem?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/17da82db-f83c-3350-a0a8-1da49cb7aa15/two-squeezed-hyperscalers%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/X_t4J40ZnEJGbR9Q9gCbvg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/f63aa54d33d7c4c34b7e262c59a169a4.png",
+      "publishedAt": 1786965035000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "3 Stocks the Smart Money Is Quietly Buying in August",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/c3145305-c20a-3c8f-b077-f3481716699e/3-stocks-the-smart-money-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9n8G_CSdT7xdhUDEUKAPPg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/2583b796df756bbd6a90be67e560d2a8",
+      "publishedAt": 1786964434000
+    },
     {
       "ticker": "MSFT",
       "title": "Could Microsoft spin off Xbox? Why it might be worth billions",
@@ -10,12 +50,20 @@
       "publishedAt": 1786964400000
     },
     {
-      "ticker": "AMZN",
+      "ticker": "GOOGL",
       "title": "Google, Amazon, and Meta All Just Raised Capex Guidance Again. This Boring Industrial Wins No Matter Whose AI Infrastructure Is Best.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/a07c15ff-a212-3983-9043-c5fc5ee311aa/google%2C-amazon%2C-and-meta-all.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/rrpJ03s8AOrKuaeNWHbOjA--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/318be3a824b8638ae986020a8fa96d1a.jpg",
       "publishedAt": 1786963800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Rothschild upgrades Apple to Buy as foldable iPhone and AI strategy drive optimism",
+      "publisher": "InvestorsHub",
+      "link": "https://finance.yahoo.com/m/f7eda4f3-d1de-3c0c-9c6c-1fbc651356df/rothschild-upgrades-apple-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7rr4IhIf1sb5GWfUb5Vlaw--~B/aD02NTk7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/investorshub_458/f50dd168726d64999c669a439b766afb.png",
+      "publishedAt": 1786962934000
     },
     {
       "ticker": "JNJ",
@@ -50,22 +98,6 @@
       "publishedAt": 1786960941000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Following Bluefors and Oxford Instruments' Expansion of Millikelvin Dilution Refrigerators, New Study Maps Growth Vectors in Quantum Cryogenic Infrastructure",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/following-bluefors-oxford-instruments-expansion-100200323.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iogELng_NEvmVlKg85874A--~B/aD01ODt3PTQ4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/93d5b27580f67db722dd7c112e43e8bc.jpg",
-      "publishedAt": 1786960920000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why indie games are the next big tech investment: Gaming CEO",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/why-indie-games-next-big-100000670.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1nuONRPLVcwYSYHTjzyjwA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/pp-thumbnail-peterlevin2-0812_2738.png",
-      "publishedAt": 1786960800000
-    },
-    {
       "ticker": "GILD",
       "title": "Cancer & Antibody Conjugates Patent Landscape Report: Evaluating 3,761 Patent Families, Linker-Payload Technologies, and Strategies of Roche, Daiichi Sankyo, Gilead, and AstraZeneca",
       "publisher": "GlobeNewswire",
@@ -74,7 +106,7 @@
       "publishedAt": 1786960740000
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "AMZN",
       "title": "Behind Peace Talks, Iran Hard-Liners Prepare for a Longer, Costlier U.S. War",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/25f188ab-db72-3a6b-aae4-ad444085ddf9/behind-peace-talks%2C-iran.html",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/m/b67c4141-cae5-3c03-98c0-58d343731488/amazon-restores-binding.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/2upTIbOws38uDr3eE5KdsQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/f899c635c46dcbce928e6b6ec7c25327.jpg",
       "publishedAt": 1786959155000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "AI Is Driving Up Treasury Yields: ‘It Just Touches Everything’",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/economy/policy/articles/ai-driving-treasury-yields-just-093000747.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NWI5ncrk2Hj.fpoHZkRWIQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/732c5b27ac788fa81f236e638fd39d1e.jpg",
-      "publishedAt": 1786959000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5bd7778d-3d92-3e02-ac8b-af11458cbc43/billionaire-stanley.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.l0MAMZ7AY2vxfIDG6mFDQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8873c3facb6118d71363ee80398ad3f6.jpg",
-      "publishedAt": 1786958760000
-    },
-    {
-      "ticker": "V",
-      "title": "President Capital Adjusts Price Target on Visa to $474 From $411, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/president-capital-adjusts-price-target-092342502.html",
-      "image": null,
-      "publishedAt": 1786958622000
-    },
-    {
-      "ticker": "MA",
-      "title": "President Capital Adjusts Price Target on Mastercard to $729 From $693, Maintains Buy Rating",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/president-capital-adjusts-price-target-092312985.html",
-      "image": null,
-      "publishedAt": 1786958592000
     }
   ]
 }
