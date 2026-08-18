@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-18T19:17:00.201Z",
+  "updatedAt": "2026-08-18T20:01:43.719Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Visa Stock Jumps as Revenue Climbs 14% to $11.6 Billion",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-jumps-revenue-climbs-195927191.html",
+      "image": null,
+      "publishedAt": 1787083167000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-193526211.html",
+      "image": null,
+      "publishedAt": 1787081726000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Q2 Earnings Roundup: Microsoft (NASDAQ:MSFT) And The Rest Of The Automation Software Segment",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-microsoft-nasdaq-191733756.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qdoGv3.2DzscIMBcOJeNPg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/11e4a48eb0cddd10a89b2d44525d12ef.jpg",
+      "publishedAt": 1787080653000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "These Telltale Signs Cue Microsoft Investors Despite Earnings Surge; Is Microsoft A Sell Now?",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/b7ed9635-6bc3-32bc-afc7-5e98c2451501/these-telltale-signs-cue.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fB_4yM7LvabOU_nAh6R05g--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/8df6f76095e6b4e0fad13afec88c2050.jpg",
+      "publishedAt": 1787080296000
+    },
+    {
+      "ticker": "KO",
+      "title": "Bad Daddy’s Completes Transition to Coca-Cola",
+      "publisher": "FSR",
+      "link": "https://finance.yahoo.com/m/cbf13fae-4a46-3528-8548-d95958480e83/bad-daddy%E2%80%99s-completes.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/GiAzhTaFL9rhY1WdcmECSw--~B/aD0yMzE7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/fsr_455/3d8c9d9ff1d35831a757a6008dc023a6.png",
+      "publishedAt": 1787080039000
+    },
     {
       "ticker": "PLTR",
       "title": "Better Buy: Palantir at 108 Times Forward Earnings or Tesla at 190 Times?",
@@ -34,6 +74,30 @@
       "publishedAt": 1787078220000
     },
     {
+      "ticker": "GOOGL",
+      "title": "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/54238455-1a1d-349f-b75b-e2328d80e713/convertible-bonds-are-the-new.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/a9S04o801txkWbGIqu9VbQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/5159d8dcbf9baa38cb399218725ec1eb.jpg",
+      "publishedAt": 1787077440000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Is Gilead's Expanding HIV Portfolio a Growth Catalyst?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/gileads-expanding-hiv-portfolio-growth-182400321.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gK9OEYQIg4JNAlUOQ33CMg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/79b7ecb3a59852f0816e6eb69c31b2fe.jpg",
+      "publishedAt": 1787077440000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What IREN's Microsoft Delivery Means for Its $9.7 Billion AI Pivot",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/irens-microsoft-delivery-means-9-181800132.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mNT64H5J9XVPb5aq8fIp.g--~B/aD01Nzg7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6e5d0cbd3c51fd498f83f2eb27b7c615.jpg",
+      "publishedAt": 1787077080000
+    },
+    {
       "ticker": "MSFT",
       "title": "Is MasTec’s (MTZ) New 5.850% Bond Deal Rewriting Its Balance Sheet Risk‑Reward Story?",
       "publisher": "Simply Wall St.",
@@ -58,14 +122,6 @@
       "publishedAt": 1787076395000
     },
     {
-      "ticker": "MSFT",
-      "title": "Techs Stocks Fall On War, Macro Woes. Is Anthropic Revenue Projection Also A Factor?",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/2a43df95-882d-3a22-9c7a-fe6198ff54b1/techs-stocks-fall-on-war%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iqR3w4aX6Jh1FQg_001CNQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ibd.com/fb5fd17c827cb7ce870bc3b26dcb3e50.jpg",
-      "publishedAt": 1787075672000
-    },
-    {
       "ticker": "GOOGL",
       "title": "What Does The S&P 500 Earnings Boom Say About The Stock Market?",
       "publisher": "Investor's Business Daily",
@@ -88,62 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-173201461.html",
       "image": null,
       "publishedAt": 1787074321000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Anthropic targets $10B+ credit facility ahead of planned public debut - Bloomberg",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-targets-10b-credit-facility-173031496.html",
-      "image": null,
-      "publishedAt": 1787074231000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "--Anthropic Credit Facility Set to Top $10 Billion Target Ahead of IPO, Bloomberg Reports",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-credit-facility-set-top-172802749.html",
-      "image": null,
-      "publishedAt": 1787074082000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/708bbb24-ed2d-3e71-b744-94e87d710f6c/gorilla-technology-rises-3%25.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QyRnUfH2yYDdrusblcC7XA--~B/aD0xNjAwO3c9MjgwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/dcef7b27886e8a7d5d7e9111aa48beb7.jpg",
-      "publishedAt": 1787073965000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Extract Profit From Starbucks Stock Swings With This Long Strangle Option Trade",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/add2bf3a-9890-3fa8-938a-44487f3e722b/extract-profit-from-starbucks.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/o8ciM3tWDF8ETfpMzuyJWA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/2b70baddcf524d505c2a87fe9482ea09.jpg",
-      "publishedAt": 1787073886000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Is This The Next CoreWeave Or Nebius Group? A Crusoe IPO Looms",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/0c1f16f3-f194-3c26-b4d5-05eeea6fc988/is-this-the-next-coreweave-or.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DHhsjrp.kPeB6y.LwvlzUg--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/819ecf1385c68630a974c3bfb29460a0.jpg",
-      "publishedAt": 1787073347000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Vertosoft Announces Strategic Partnership With Datadog to Deliver Next-Generation Monitoring Solutions to Government",
-      "publisher": "ACCESS Newswire",
-      "link": "https://finance.yahoo.com/technology/articles/vertosoft-announces-strategic-partnership-datadog-171500526.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JaEayeTmR5C.tzc7rzBeGQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/accesswire.ca/c1872e268423d9a165e3242cf4e7967c.png",
-      "publishedAt": 1787073300000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft is Consolidating and Will Be More Expensive Soon, So I Keep Buying",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/c2b82038-5501-37cd-824d-a83b47347ddf/microsoft-is-consolidating.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/n7l_cSakbkGgu3UlmQ0nhg--~B/aD0xMDg2O3c9MTQ0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/29d3c772bec0ab4f044af179853ec3e0.png",
-      "publishedAt": 1787071809000
     }
   ]
 }
