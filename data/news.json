@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-08-17T23:54:57.086Z",
+  "updatedAt": "2026-08-18T03:12:22.069Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "5-star analyst sets alarming SpaceX stock price target",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/5d935cf8-8ba7-35d3-aa5f-f44744ab8b4a/5-star-analyst-sets-alarming.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/g0zqr.LrFPGOKX8VHwMHgg--~B/aD0yNTYxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/43b47effccc97351b3ecac3d3f2eeb3f.jpg",
+      "publishedAt": 1787022420000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Morgan Stanley resets Amazon stock price target after earnings",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/489c6d2e-12b0-32c6-860e-2859c779b307/morgan-stanley-resets-amazon.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kmCmo0pRwmhF2wkzC5z_bg--~B/aD0yNTU1O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/390fa827431130c38ac3ccd58d9bcc50.jpg",
+      "publishedAt": 1787020380000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Upland Software, The Trade Desk, and SoundHound AI Shares Are Falling, What You Need To Know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/upland-software-trade-desk-soundhound-015820312.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/G3eXZS9hTisHJjMyz1D_eg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/faee6ecf688cfc9aa99f62bcb325e118.jpg",
+      "publishedAt": 1787018300000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Rapid7, ServiceNow, and monday.com Shares Are Falling, What You Need To Know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rapid7-servicenow-monday-com-shares-015020414.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5arFvRjeju3G_KbNoDo2pg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/a2833a194993942c2627bcbb1f56e310.jpg",
+      "publishedAt": 1787017820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Health Catalyst, GitLab, Elastic, and Marqeta Shares Plummet, What You Need To Know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/health-catalyst-gitlab-elastic-marqeta-014220126.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ps705VuAPBqYV1u8BMl9iw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/814457ef24852010d0ffb300343f065d.jpg",
+      "publishedAt": 1787017340000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Does Take-Two’s Shift To Modest Profit Guidance Reframe The Bull Case For TTWO?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-two-shift-modest-profit-010748760.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pZ0cFDxz3p.jYIu3_UcrHA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f03d17bfb9bd39baa89c6655dcfb03d3.jpg",
+      "publishedAt": 1787015268000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Cloudways Bets That Enterprises Will Pay to Rehabilitate the Agent Every Hyperscaler Banned",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/cloudways-bets-enterprises-pay-rehabilitate-001904217.html",
+      "image": null,
+      "publishedAt": 1787012344000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Kicks Off Aussie Dollar Bond Sale as AI Spending Soars",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-kicks-off-aussie-dollar-235127381.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gSiGbuWeyxJSOHhEadcXEw--~B/aD0xMzc3O3c9MjAxMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/56c6f41ac032e879173e0a93e805888f.jpg",
+      "publishedAt": 1787010687000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Q2 Earnings Season Standout Performers: PLTR, MSFT",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-season-standout-performers-232900437.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/539YRRcyvRqVK2_Ci9vaZw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d325e443265f81b37d14d0c390b4cefa.jpg",
+      "publishedAt": 1787009340000
+    },
     {
       "ticker": "GOOGL",
       "title": "Berkshire Hathaway (BRK.A) Makes First Net Stock Move In 14 Quarters",
@@ -27,6 +99,14 @@
     },
     {
       "ticker": "GOOGL",
+      "title": "Meta Stares Down Trillion-Dollar Threat as Landmark Social Media Trial Begins",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/articles/meta-stares-down-trillion-dollar-214328015.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/N8MgD5g8G7Ni6pQmnrzTjQ--~B/aD00MzI7dz0xNTMwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_holding_pen_162/a813506209666cfa521f7cfeaa111607.jpg",
+      "publishedAt": 1787003008000
+    },
+    {
+      "ticker": "GOOGL",
       "title": "Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/1aec5e50-83ad-33cf-b22b-7f6081b0fc3e/financial-advisors-love.html",
@@ -42,20 +122,12 @@
       "publishedAt": 1787002178000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AMZN",
       "title": "How Heavy AI Spending Can Pay Off for Amazon and Meta",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/fa8d80bf-8dca-303e-b153-8392c8151aeb/how-heavy-ai-spending-can-pay.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/9KpYXgG4l7FjwJtq2tufgg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/8500bf3d84c42e4f62c08c2d5a7b422e.jpg",
       "publishedAt": 1787001360000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Stocks to Watch Recap: Alibaba, L3Harris, Diana Shipping, BHP",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/33ff8e66-9257-302b-bd2c-fb8c53ace832/stocks-to-watch-recap%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/c1vJ.pFSMA4tplBvT6.B_w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/57c1a48aa97bfc416871916e3dd86730.jpg",
-      "publishedAt": 1787001300000
     },
     {
       "ticker": "AMZN",
@@ -72,78 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-trump-211106690.html",
       "image": null,
       "publishedAt": 1787001066000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Anthropic Projects $200 Billion of Revenue by 2028",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-projects-200-billion-revenue-205306475.html",
-      "image": null,
-      "publishedAt": 1786999986000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Sandisk, Micron, Coherent, Boeing, Apple, Amazon, and More Stocks That Explain Today’s Market",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/e16a2ee6-9fad-362d-ac29-c796aa9fd1b0/sandisk%2C-micron%2C-coherent%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/UQPEWbwBR0SJb2PMLshoxA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/0a2aecbe28a52f5aafa36167e7646454.jpg",
-      "publishedAt": 1786999920000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks' Unicorn Frappuccino drives record North America sales weekend",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/article/starbucks-unicorn-frappuccino-drives-record-north-america-sales-weekend-205035071.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9JhHLyDL7WYLiWt.nnXLrQ--~B/aD0xMTA2O3c9MTAzNDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/screenshot-2026-08-17-at-20227-pm_4024.png",
-      "publishedAt": 1786999835000
-    },
-    {
-      "ticker": "MA",
-      "title": "Visa Stock Slips After Ackman Reveals New Payment Bet",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-slips-ackman-reveals-204441833.html",
-      "image": null,
-      "publishedAt": 1786999481000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Stock Market Today: Dow Falls As This Key Yield Hits 19-Year High; Warren Buffett Stock Falls (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/7654dd66-1194-303a-af9a-35b802d06b78/stock-market-today%3A-dow-falls.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/N8b_t94sI.VlMQeL9MpHrQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/67ad590aa7ed16f6cc4a4bd4cdfcd09f.jpg",
-      "publishedAt": 1786999314000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "How major US stock indexes fared Monday 8/17/2026",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-204110116.html",
-      "image": null,
-      "publishedAt": 1786999270000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Here Are Big Tech’s Big SpaceX Investors",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/61399292-acf9-3999-a4d9-1dae7bcae59b/here-are-big-tech%E2%80%99s-big.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/jkn9T4OzOLPXTy9sjs6myw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9a86d79177f45c8b047adc4096b45215.jpg",
-      "publishedAt": 1786999146000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Stocks Struggle as Long-Term Yields Rise: Stock Market Today",
-      "publisher": "Kiplinger",
-      "link": "https://finance.yahoo.com/m/083e5929-2b28-3aa9-9127-3e8114382b54/stocks-struggle-as-long-term.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QvIjSw5TCxHGKxKULfZb3g--~B/aD04NTA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/kiplinger_425/4e2920220cc1fc3de521c44e2b01ad2f.jpg",
-      "publishedAt": 1786997331000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Cathie Wood Pours $27 Million Into Major AI Stock",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-pours-27-million-200518494.html",
-      "image": null,
-      "publishedAt": 1786997118000
     }
   ]
 }
