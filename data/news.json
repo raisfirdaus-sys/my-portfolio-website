@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-18T22:59:03.092Z",
+  "updatedAt": "2026-08-18T23:54:57.541Z",
   "items": [
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks Just Landed the Biggest Weekend in the Company's History. You Won't Believe What Drove It.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/c3a7749a-f489-3be4-a541-fbff47d569f2/starbucks-just-landed-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DgduRGRh0G01kecM5trZMQ--~B/aD0xMTczO3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/9e0a3f410d404da0a4538fb4a6bef02f.jpg",
+      "publishedAt": 1787096825000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "STORY REMOVED: US--Amazon Drone Delivery Expansion",
+      "publisher": "Associated Press",
+      "link": "https://finance.yahoo.com/technology/articles/amazon-set-expand-drone-delivery-233008163.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jEHlGHdT186ekByS_mcOxA--~B/aD01NDQ4O3c9ODY0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/cde4478b8f78d1e44eb9d586639bb442.jpg",
+      "publishedAt": 1787095808000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard (MA) Stock Gets Fair Value Bump After Q2 Driven Analyst Target Increases",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-stock-gets-fair-231540376.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/k7uLZ3QsYL9ptcaQ6dqDMQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/689e99a8f21cc823d1bf075c38345f1e.jpg",
+      "publishedAt": 1787094940000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "How Investors Are Reacting To Berkshire Hathaway (BRK.A) Q2 Surge And Greg Abel’s Bold Equity Bets",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-berkshire-hathaway-brk-231459647.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nA_1F68AUqdZwl_JPiiPcg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/68bc84512dd242df54712b90bf389fa0.jpg",
+      "publishedAt": 1787094899000
+    },
     {
       "ticker": "AMZN",
       "title": "TEAMSTERS, ALLIES RELEASE REPORT ON AMAZON VIOLATIONS OF NEW YORK WARN ACT",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/wedbush-message-amd-investors-google-205547063.html",
       "image": null,
       "publishedAt": 1787086547000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock Defies Tech Selloff as Azure Growth Holds the Line",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-defies-tech-selloff-205301064.html",
-      "image": null,
-      "publishedAt": 1787086381000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet Stock Holds Firm as Cloud Revenue Explodes 82%",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-holds-firm-cloud-205213480.html",
-      "image": null,
-      "publishedAt": 1787086333000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Faces Fresh China Blow Over Windows",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/microsoft-faces-fresh-china-blow-204842615.html",
-      "image": null,
-      "publishedAt": 1787086122000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Vanguard Handed 53 Funds a Fee Cut This Year and Skipped the VGT ETF Entirely",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/52264197-3f91-3f53-89c5-8eeae7e95655/vanguard-handed-53-funds-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/azL_QBu8_rkYIlZDBgIyVw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/53fde22767d71dc2ef0428b18d643412.jpg",
-      "publishedAt": 1787085922000
     }
   ]
 }
