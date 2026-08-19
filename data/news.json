@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-08-19T19:14:22.594Z",
+  "updatedAt": "2026-08-19T20:56:11.127Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Software Companies' Second-Quarter Beat Rate Accelerates Sequentially, RBC Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/software-companies-apos-second-quarter-203412309.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ACqoX9SDncQq.TUsjT05Fw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/aa4387a309a7ccf404b9a0a2e4280c3e.jpg",
+      "publishedAt": 1787171652000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "U.S. Markets Prepare For AI Compute Derivatives Tied To TSMC, Nvidia GPU Prices",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/642b6381-df48-3594-a5ee-3051d399c3b8/u.s.-markets-prepare-for-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/77uzr..MfDaIR6xNfgLEZA--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/73ce9b1ccceef19cbebc580d8be29c19.jpg",
+      "publishedAt": 1787171054000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Stock Jumps On Google Deal, Broadcom Slides",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/077c9064-9b1b-3eaa-8900-3164d7bdf606/marvell-stock-jumps-on-google.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fiWapQ1kVElxVjZeu1Us_Q--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/54117bcb5f12b02cde1654b47713aa65.jpg",
+      "publishedAt": 1787170843000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Walmart Earnings: The Biggest And Most Influential Retail Report Looms",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/4636436b-031c-3a60-8074-bdf83b8f6b03/walmart-earnings%3A-the-biggest.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2lFIjF6gzMc9OvsCNPngKg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/92b898961384ed8ad880c4e3b48f70e5.jpg",
+      "publishedAt": 1787170689000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Why China’s Unitree IPO Surge Is Good News for Tesla",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/6f7254c2-f5d6-3b99-a092-0078481a7e29/why-china%E2%80%99s-unitree-ipo-surge.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Ns1O3ihWq.1bzEor95ZGRA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2ddd941b4f750d1b2a8e0eeed82fd73c.jpg",
+      "publishedAt": 1787170620000
+    },
+    {
+      "ticker": "V",
+      "title": "REPAY Joins Visa Platform Connect, Granting ISO and ISV Clients Next-Generation Payment Infrastructure",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/articles/repay-joins-visa-platform-connect-201500563.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Anw.prVJYQGOC1gcH0Ti1Q--~B/aD0yMDg7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/8d5393e45b949b487ef6eb874c4595d6.jpg",
+      "publishedAt": 1787170500000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "A Big Risk In Coca-Cola Stock Is What Its Earnings Step-Up Is Made Of",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/8dd72e65-b1fe-3e4e-b68c-07cb62fec594/a-big-risk-in-coca-cola-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YnlINzrmHBgiGFQ1p58u5w--~B/aD0xMjgwO3c9MTI4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/a8681acc9852e84963941d1c03f5e86f.png",
+      "publishedAt": 1787170389000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Johnson & Johnson Stock Runs On A Calendar The Market Does Not Set",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/247369ea-4243-3fd4-84b0-59de578ee274/johnson-%26-johnson-stock-runs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ffBijilLu6TyRHhiCI63GA--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58.jpg",
+      "publishedAt": 1787170096000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Prime Air maybe coming to a city near you",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/amazon-prime-air-maybe-coming-200757375.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DEDfyII9WdSAnbXy.pnmoQ--~B/aD0yODAxO3c9NDIwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/531fb806-b372-49f2-8afc-6a8fd3680758",
+      "publishedAt": 1787170077000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "IBM Stock Is Out Of Favor, But The Margin Commitment Never Came Down",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/2189075a-2441-3fa3-8b08-90f05a6dcd70/ibm-stock-is-out-of-favor%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0tUFJwgmHvPWjlpw2NelBA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/52ee2b7a567abc95c129daaacc8acd53.jpg",
+      "publishedAt": 1787169667000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Eagle Point Backs $1.3B Loan for Anthropic-Anchored Texas Data Center",
+      "publisher": "Benzinga Private Markets",
+      "link": "https://finance.yahoo.com/m/6b169766-fbeb-3b16-9679-216b91f01eab/eagle-point-backs-%241.3b-loan.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hd.8QClojEUFNoIFSpCXYQ--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_private_markets_129/da19e419e95f0b0fa5a16ac279902367.jpg",
+      "publishedAt": 1787169172000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194639070.html",
+      "image": null,
+      "publishedAt": 1787168799000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Is AbbVie Stock About To Break Out Again?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/c39ac9dd-0aa1-3c80-a7d7-b2510204ec70/is-abbvie-stock-about-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zMNo0OIKw.i7kvomCPKzDQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f32250d44f592b9d1ed623b4067b2431.jpg",
+      "publishedAt": 1787168452000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Stock Rises 10% on Google Warrant Deal",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-rises-10-google-191520066.html",
+      "image": null,
+      "publishedAt": 1787166920000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "OpenAI Unveils Safety Tool Compatible With Zero Data Retention",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/openai-unveils-safety-tool-compatible-190912493.html",
+      "image": null,
+      "publishedAt": 1787166552000
+    },
     {
       "ticker": "MSFT",
       "title": "Marvell Technology Shares Jump on AI Chip Deal With Google",
@@ -18,132 +138,12 @@
       "publishedAt": 1787165580000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Wall St rises as yields ease, Moderna lifts healthcare stocks",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-steady-tech-104804699.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/c3j1Z2E2mllZ6Rg_RMhqbA--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/c98f826d0f16b2ef7606c7ee7c1552a6.jpg",
-      "publishedAt": 1787165177000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/b78f4b05-b90e-31d4-ae1a-a9edd21f2cba/moderna%2C-merck%2C-micron%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/M6mV22tU7hWhTF39EKV7Mw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/df08f3da8dd8358a03fd841d483851f3.jpg",
-      "publishedAt": 1787164620000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Walmart Earnings: The Biggest And Most Influential Retail Report Looms",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/4636436b-031c-3a60-8074-bdf83b8f6b03/walmart-earnings%3A-the-biggest.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2lFIjF6gzMc9OvsCNPngKg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/92b898961384ed8ad880c4e3b48f70e5.jpg",
-      "publishedAt": 1787164504000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Unitree of It All: Why China IPO Surge Is Good News for Tesla",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/6f7254c2-f5d6-3b99-a092-0078481a7e29/the-unitree-of-it-all%3A-why.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Ns1O3ihWq.1bzEor95ZGRA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2ddd941b4f750d1b2a8e0eeed82fd73c.jpg",
-      "publishedAt": 1787164380000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon to Bring Drone Delivery to 500 Cities, AI Be Damned",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/15034023-2862-3356-9e22-c4568464e286/amazon-to-bring-drone.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CLBbD._D5TsMnoX4LVwCKg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/1a58d524e63f00c1258be3de23c09b48.jpg",
-      "publishedAt": 1787164020000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft China Is Moving On From Windows",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/microsoft-china-moving-windows-181221506.html",
-      "image": null,
-      "publishedAt": 1787163141000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Is Palantir Technologies (PLTR) Overvalued As Revenue Growth And 2026 Outlook Jump?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-overvalued-revenue-181218430.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
-      "publishedAt": 1787163138000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Strong Q2 2026 Earnings and Buybacks Will Impact Allstate (ALL) Investors",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-q2-2026-earnings-buybacks-181035157.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/B1gT0GwX66tNnURTnfUFuA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8c956cb8fea99efb4fd2c4fd4c2a7954.jpg",
-      "publishedAt": 1787163035000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Could Nvidia Be the Next Big Tech Stock to Join Berkshire Hathaway's Portfolio?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/39cd03ec-8396-36aa-92b5-e953beb19bf5/could-nvidia-be-the-next-big.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/i8wgAJwbGUVWvmvq8Gn3dA--~B/aD04ODY7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d8ac21f3d8b8f63a2acae452fbf5ff03.jpg",
-      "publishedAt": 1787162943000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Stock Climbs as Enterprise AI Demand Keeps Growing",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-stock-climbs-enterprise-ai-180745091.html",
-      "image": null,
-      "publishedAt": 1787162865000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet's $12.2 Billion Marvell Option Reshapes Its AI Chip Strategy",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabets-12-2-billion-marvell-180351828.html",
-      "image": null,
-      "publishedAt": 1787162631000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Broadcom Falls 2% as Google Adds Marvell to Its AI Chip Bench",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-falls-2-google-adds-180130465.html",
-      "image": null,
-      "publishedAt": 1787162490000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Apple stock stands out among Magnificent Seven on low AI spending",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/694851d7-40d9-350b-aa7c-2b05a5d085f3/apple-stock-stands-out-among.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IPSQfecNds0gXlB7N8hIMg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/3ba476047d8e6d02897fab6a1fbdea72.jpg",
-      "publishedAt": 1787162019000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Google Just Paid $10 Million for Spirit Airlines Data. Inside the Race to Feed AI Models.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/de614d62-8b07-3e0c-ae2d-7a6a391abcaf/google-just-paid-%2410-million.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_RZvMXGae0EMz0XfB3MjcQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/2db9597c323c65945b8601d3ca083979.jpg",
-      "publishedAt": 1787161860000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Stock Rises as AWS Growth Reclaims Attention",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-rises-aws-growth-174624803.html",
-      "image": null,
-      "publishedAt": 1787161584000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock Rises as $678 Billion Backlog Supports AI Spending",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-rises-678-billion-174044835.html",
-      "image": null,
-      "publishedAt": 1787161244000
+      "ticker": "JNJ",
+      "title": "Can Yutrepia's Strong Growth Drive Liquidia's PAH Expansion?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/yutrepias-strong-growth-drive-liquidias-184000558.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dE03dCcrFhf4qbtlcH8nNQ--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b5aeac1c53d022d48463312844fb1baf.jpg",
+      "publishedAt": 1787164800000
     }
   ]
 }
