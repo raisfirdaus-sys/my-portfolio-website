@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-18T23:54:57.541Z",
+  "updatedAt": "2026-08-19T03:15:23.575Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Apple Shares Jump Tuesday While the Nasdaq Plummets: Here’s Why It Led Magnificent 7 Stocks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/2a9515af-b68a-3da5-97a0-094878d67642/apple-shares-jump-tuesday.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5ZbDFqgtqn.6yvuafv62bA--~B/aD0xNjAwO3c9Mjg0NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2e25736410fb6986016218763e38ba6f.jpg",
+      "publishedAt": 1787107965000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "OpenAI's Revenue Growth Reportedly Slows As Anthropic Pulls Ahead  – Which AI Stocks Could Feel The Ripple Effects?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/3cc5f2a4-788a-353f-864f-da027f83a977/openai%27s-revenue-growth.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/eJJDr60SwVYu8GlGRt76FQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/25feeb6251b236125e42ee1ecdb3273e",
+      "publishedAt": 1787105637000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Google Cloud Grew 82% Last Quarter. Azure Grew 43% and AWS Grew 37%.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1e686ed3-ff87-32b5-be4a-ee839ae718e0/google-cloud-grew-82%25-last.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Pe4tgNFGXR0SZONNLFIhYg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/47dcb66ac72779fcb15293c6b1bc83de.jpg",
+      "publishedAt": 1787103961000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson’s Dividend Looks Well Positioned for the Long Term",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-dividend-looks-well-013103856.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Vvj8GFHbW8SvPg3baR57BQ--~B/aD01NDkwO3c9ODIyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/7570f952461ee2865dbfa209bc572816.jpg",
+      "publishedAt": 1787103063000
+    },
+    {
+      "ticker": "KO",
+      "title": "Why Did Coca-Cola (KO) Stock Climb Today?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-did-coca-cola-ko-011632436.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/i8hf4cHmLZCx.I_eWCY_mw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/74f98c15d287910ca9954ef2279ac5c0.jpg",
+      "publishedAt": 1787102192000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "ZoomInfo Technologies (GTM) Is Down 6.5% After Goodwill Hit, Copilot Tie-Up And Guidance Hike",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zoominfo-technologies-gtm-down-6-011447352.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xKZCHxTsm6kriz0lkhqQFw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ee047812921f935c11e8b8a18a28c857.jpg",
+      "publishedAt": 1787102087000
+    },
     {
       "ticker": "SBUX",
       "title": "Starbucks Just Landed the Biggest Weekend in the Company's History. You Won't Believe What Drove It.",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/cc924a20-687e-34b1-9939-b16c8f532cd3/prediction%3A-microsoft-will-be.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/YWLDBMGIlcB4zjaxw9ATTQ--~B/aD04OTQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a26773164c30b118bb3679def47c15b6.jpg",
       "publishedAt": 1787088721000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Tesla Just Landed a Major Win for Long-Delayed Semi",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-just-landed-major-win-212212407.html",
-      "image": null,
-      "publishedAt": 1787088132000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Bank of America Has a Stark Warning on AI Spending",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bank-america-stark-warning-ai-210907473.html",
-      "image": null,
-      "publishedAt": 1787087347000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Berkshire Boosts Alphabet Stake 83% as Buffett Makes Major AI Bet",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/berkshire-boosts-alphabet-stake-83-210009667.html",
-      "image": null,
-      "publishedAt": 1787086809000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AI Could Make Big Oil Even Bigger",
-      "publisher": "Oilprice.com",
-      "link": "https://finance.yahoo.com/energy/articles/ai-could-big-oil-even-210000645.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EIjm4WblU6XhOlkSZpFGGQ--~B/aD0yOTg7dz01Mjk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/ddd09982ff5454e6f06435754e8484bc.jpg",
-      "publishedAt": 1787086800000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Hedge Funds Split on Amazon After a Big Q2 Rotation",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-split-amazon-big-205740668.html",
-      "image": null,
-      "publishedAt": 1787086660000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Wedbush Has a Message for AMD Investors After Google Move",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/wedbush-message-amd-investors-google-205547063.html",
-      "image": null,
-      "publishedAt": 1787086547000
     }
   ]
 }
