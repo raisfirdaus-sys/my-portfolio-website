@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-19T20:56:11.127Z",
+  "updatedAt": "2026-08-19T21:58:47.686Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Makes Major Move for Shoppers",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-makes-major-move-shoppers-215603266.html",
+      "image": null,
+      "publishedAt": 1787176563000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f6a7330b-1765-3d7b-b063-3e008718de86/billionaire-stanley.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/eoqh9k_wSoFnwGY3KyYQjQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a8d87af47a32468cb6500b2f39eb65ac.jpg",
+      "publishedAt": 1787176320000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "VUG’s 0.03% Fee Hides the Real Cost: 63% of Your Money Sits in Just Ten Stocks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/e5e7ef1a-7507-3d09-99c0-1b1b3b655507/vug%E2%80%99s-0.03%25-fee-hides-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3ny1yG5LECdD.oa8QnrNQw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c8d7303e8cf181cb48a10a9d40f2882d.jpg",
+      "publishedAt": 1787174128000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Technology (MRVL) Expands Google AI Partnership: What Investors Need to Know",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-expands-google-211507897.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/LOYd.IzVyvQjTQktJanzFA--~B/aD01MDQ7dz04NTU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/343169061918dbea73cb5e17c81267d0.jpg",
+      "publishedAt": 1787174107000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Alphabet Stock Surged When Its AI Spending Found Customers",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/46f8fa17-303a-343f-a3b9-950a7371d812/alphabet-stock-surged-when.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tU_g7CbKOyZZDQ63kg8ITA--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/5a42bac006b4b44b0a6da7b76ba60c19.jpg",
+      "publishedAt": 1787173101000
+    },
+    {
+      "ticker": "V",
+      "title": "Repay to Join Visa Platform Connect Through Reseller Agreement",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/repay-join-visa-platform-connect-205627418.html",
+      "image": null,
+      "publishedAt": 1787172987000
+    },
     {
       "ticker": "PLTR",
       "title": "Software Companies' Second-Quarter Beat Rate Accelerates Sequentially, RBC Says",
@@ -82,22 +130,6 @@
       "publishedAt": 1787169667000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Eagle Point Backs $1.3B Loan for Anthropic-Anchored Texas Data Center",
-      "publisher": "Benzinga Private Markets",
-      "link": "https://finance.yahoo.com/m/6b169766-fbeb-3b16-9679-216b91f01eab/eagle-point-backs-%241.3b-loan.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hd.8QClojEUFNoIFSpCXYQ--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_private_markets_129/da19e419e95f0b0fa5a16ac279902367.jpg",
-      "publishedAt": 1787169172000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194639070.html",
-      "image": null,
-      "publishedAt": 1787168799000
-    },
-    {
       "ticker": "ABBV",
       "title": "Is AbbVie Stock About To Break Out Again?",
       "publisher": "Trefis",
@@ -106,44 +138,12 @@
       "publishedAt": 1787168452000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Marvell Stock Rises 10% on Google Warrant Deal",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-rises-10-google-191520066.html",
-      "image": null,
-      "publishedAt": 1787166920000
-    },
-    {
       "ticker": "MSFT",
       "title": "OpenAI Unveils Safety Tool Compatible With Zero Data Retention",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/technology/ai/articles/openai-unveils-safety-tool-compatible-190912493.html",
       "image": null,
       "publishedAt": 1787166552000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Marvell Technology Shares Jump on AI Chip Deal With Google",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-shares-jump-ai-185544352.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HXCd4Q3PywZp_L5iYzq_Ug--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/864340d747a4694f07a45faa27fa888d.jpg",
-      "publishedAt": 1787165744000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Prediction: This Will Be Amazon's Stock Price by the End of 2026",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/18d735af-51c0-3316-8906-4a655394a504/prediction%3A-this-will-be.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BgChllCI7ljeQL_J7_eLww--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0b1c06d410d0d392bac99d77ab497c39.png",
-      "publishedAt": 1787165580000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Can Yutrepia's Strong Growth Drive Liquidia's PAH Expansion?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/yutrepias-strong-growth-drive-liquidias-184000558.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/dE03dCcrFhf4qbtlcH8nNQ--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b5aeac1c53d022d48463312844fb1baf.jpg",
-      "publishedAt": 1787164800000
     }
   ]
 }
