@@ -1,9 +1,89 @@
 {
-  "updatedAt": "2026-08-19T17:03:25.188Z",
+  "updatedAt": "2026-08-19T17:57:01.712Z",
   "items": [
     {
+      "ticker": "AMZN",
+      "title": "Amazon Stock Rises as AWS Growth Reclaims Attention",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-rises-aws-growth-174624803.html",
+      "image": null,
+      "publishedAt": 1787161584000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Stock Rises as $678 Billion Backlog Supports AI Spending",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-rises-678-billion-174044835.html",
+      "image": null,
+      "publishedAt": 1787161244000
+    },
+    {
       "ticker": "GOOGL",
-      "title": "Marvell Stock Jumps On Google Chip, Investment Deal",
+      "title": "2 Reasons to Buy Warren Buffett's Favorite Artificial Intelligence (AI) Stock and Never Sell",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/c7a5dfbd-b11d-30c8-b7d4-06e624e2c7e6/2-reasons-to-buy-warren.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/G8OOfdo_c1.X6LpKY6jBBA--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b8f6a667c53be0336bbb35c934697303.png",
+      "publishedAt": 1787161200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia Stalls as Google's $12.2 Billion Custom-Chip Push Expands",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stalls-googles-12-2-173648919.html",
+      "image": null,
+      "publishedAt": 1787161008000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon drone delivery is expanding. See in which cities, when",
+      "publisher": "USA TODAY",
+      "link": "https://finance.yahoo.com/m/c946b304-2092-3462-8b49-b0a0b3361f18/amazon-drone-delivery-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Dr5A.VImaeQRvcTbfGbK0g--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/usa_today_money_325/7e538fc64a31aa436f334af26fb3d182.jpg",
+      "publishedAt": 1787160952000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "AMD Stock Tumbles Nearly 4% as Custom AI Chips Gain Ground",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-tumbles-nearly-4-173526864.html",
+      "image": null,
+      "publishedAt": 1787160926000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Sector Update: Tech Stocks Decline Wednesday Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-wednesday-173218653.html",
+      "image": null,
+      "publishedAt": 1787160738000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Meridian Credit Union Wins Silver Stevie® Award for AI-Powered Business Transformation",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/technology/ai/articles/meridian-credit-union-wins-silver-172900925.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MSX1zqmjQSmoAfJCM90i7A--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnwgroup.com/704bac8b7a2236ae8eb03dc82d24019b.jpg",
+      "publishedAt": 1787160540000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Nvidia Trying to Connect Firms With Its GPUs to Data Centers in Nordics",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/market-chatter-nvidia-trying-connect-171310142.html",
+      "image": null,
+      "publishedAt": 1787159590000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Advanced Micro Devices (AMD) Raises $5b For AI As Its Valuation Debate Heats Up",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-raises-170958547.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Q406MQhTgZSeq92GiSWlIw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a882d53b581ebe737458ea1484ce4133.jpg",
+      "publishedAt": 1787159398000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Stock Jumps On Google Deal, Broadcom Slides",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/077c9064-9b1b-3eaa-8900-3164d7bdf606/marvell-stock-jumps-on-google.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/fiWapQ1kVElxVjZeu1Us_Q--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/54117bcb5f12b02cde1654b47713aa65.jpg",
@@ -34,12 +114,12 @@
       "publishedAt": 1787157156000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Why Broadcom Stock Crashed Today",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a1b3def4-f25b-3720-a7bb-ed3668c9839d/why-broadcom-stock-crashed.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gaxav22BGI1zIBFJuS24ug--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1f6affd12afa172ff94a47480fe76834.png",
-      "publishedAt": 1787156342000
+      "ticker": "AMZN",
+      "title": "Jeff Bezos Sailed on His $500 Million Yacht to His $55 Million Venice Wedding —Bernie Sanders Says After Paying 5% Wealth Tax He'd Still Have $240 Billion 'Left Over'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/edd7e4de-abca-322f-a749-b2747673261a/jeff-bezos-sailed-on-his-%24500.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/UszIsgMg23at1wX2S9LYsg--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/6c85bbdd0618ec4625730e7822c2a6dc.jpg",
+      "publishedAt": 1787157072000
     },
     {
       "ticker": "MSFT",
@@ -50,12 +130,12 @@
       "publishedAt": 1787156071000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Dow Jones Tech Titan Alphabet Offers New Buy Point, But These Key Flaws Remain",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/86ea92d6-90dd-3cb3-bc15-0188c722772c/dow-jones-tech-titan-alphabet.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/w6xrAIjx1YZjL4.lOKDlOw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/4382a7ec560275ff989c27bc4fdc9b8a.jpg",
-      "publishedAt": 1787155851000
+      "ticker": "SBUX",
+      "title": "McDonald's Stock Down 19% in 6 Months: Is This a Buying Opportunity?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-stock-down-19-6-160700198.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_.UxMTrNDS9siH3g6suMTw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/11a6ac160f53cf251887b517179de2ba.jpg",
+      "publishedAt": 1787155620000
     },
     {
       "ticker": "MSFT",
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/media-advertising/articles/mattel-brick-shop-celebrates-25-160000536.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/lPy3WL.5DZGnbhg8vDct2A--~B/aD00ODA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/a719d8c9255eba2f914025409becfbbf.jpg",
       "publishedAt": 1787155200000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "If Walmart doesn't raise its outlook, the stock will fall: CFRA Research",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/walmart-doesnt-raise-outlook-stock-155212028.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/thL6dQYILGbAX4inuJY2iw--~B/aD0yNjg5O3c9NDc4MTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/1d8e0da9-7023-4ec4-9ca8-8f664bf6f3e7_b0955518c32fa0f4819914a3cf03c74ada09c932bec28d43973ff047ec6ef7c8.jpg",
-      "publishedAt": 1787154732000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Top Midday Stories: Treasury Lifts Buyback Cap on Long-Dated Securities; Moderna, Merck Say Melanoma Vaccine Meets Primary Endpoint in Trial",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-treasury-lifts-154119161.html",
-      "image": null,
-      "publishedAt": 1787154079000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Can Starbucks' Solid Comps Growth Support Stronger FY26 Earnings?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-solid-comps-growth-support-153500249.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QhUxb3U8SLentlgjfQL7pw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/99ba349c4eac0255aadbb1fbcc06cd96.jpg",
-      "publishedAt": 1787153700000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Insiders Are Buying Intel (INTC) and Opendoor (OPEN)",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/insiders-buying-intel-intc-opendoor-153115587.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zLqxr7GzT5viGK0i4IZz0Q--~B/aD01MDA7dz03NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/e2ba6de6454304fc7896895c5897ae45.jpg",
-      "publishedAt": 1787153475000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Prediction: Microsoft’s AI Boom Is Bigger Than Investors Realize",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/41e00ce2-5d9f-3d52-8bf4-84b03cf4bfd6/prediction%3A-microsoft%E2%80%99s-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3FQTaEw4HzggqLELRh2yVQ--~B/aD03ODQ7dz0xMTY4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/e061ddb31fa43662c3b350bcd85b809f.jpg",
-      "publishedAt": 1787153453000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Mercury Systems' 2027, 2028 Outlook Conservative, RBC Says",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mercury-systems-apos-2027-2028-152653937.html",
-      "image": null,
-      "publishedAt": 1787153213000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Google Just Paid $10 Million for Spirit Airlines Data. Inside the Race to Feed AI Models.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/de614d62-8b07-3e0c-ae2d-7a6a391abcaf/google-just-paid-%2410-million.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/O40QI7U9LsCJWhUYnHutWg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/f24dc2a69642e25e13a0d72be8aaebb9.jpg",
-      "publishedAt": 1787152920000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Marvell Jumps 12% on New Google AI Chip Deal",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-jumps-12-google-ai-151522606.html",
-      "image": null,
-      "publishedAt": 1787152522000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nasdaq Overcomes a Chip Slide. The Mag 7 Is Roaring Back.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/0a0e1296-76c9-3eb8-acf9-e14282fc38a4/nasdaq-overcomes-a-chip.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3seIyMYRD0699UBVb3FN8A--~B/aD02NTt3PTMyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
-      "publishedAt": 1787152475000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Worried About a Market Crash? These 3 Stocks Beat the S&P 500 in 2008 and 2022",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/ba04f47c-2e4a-34a2-844e-3eb793ad7b34/worried-about-a-market-crash%3F.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1CT0B4Fy8GiPxO565t06iw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/81a426bedc693a5561b5f7c1362daf8e.jpg",
-      "publishedAt": 1787152018000
     }
   ]
 }
