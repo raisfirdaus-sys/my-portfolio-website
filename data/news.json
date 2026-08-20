@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-08-20T05:16:13.179Z",
+  "updatedAt": "2026-08-20T07:59:55.057Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Technologies Insider Sold Shares Worth $2,788,463, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-insider-sold-shares-074014841.html",
+      "image": null,
+      "publishedAt": 1787211614000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Lands ‘White Whale’ Google, Raises Stakes Ahead Of Q2 Report: Analyst Says TPU Deal ‘Greatly Expands’ MRVL’s Long-Term AI Opportunity",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/e56478df-d48d-3b49-b295-dd7b612d6e86/marvell-lands-%E2%80%98white-whale%E2%80%99.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4RiuO9wd2APWgtpOj8XXyw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/32e527ec8b2810463443a8930413ad2b",
+      "publishedAt": 1787210619000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Does Gilead (GILD) Pairing With Nucleai Reveal a Deeper Shift in Its Oncology Strategy?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/does-gilead-gild-pairing-nucleai-071228359.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/N2kSsbjdDQvgjeHTxUqGbw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/34a971ca153ed4a9b10f7d789bca1b9d.jpg",
+      "publishedAt": 1787209948000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "ABG Teams Up with Luzern eCommerce to Give its Brands Better Access to European Markets",
+      "publisher": "Sourcing Journal",
+      "link": "https://finance.yahoo.com/m/c4a67545-cfa2-3792-b6fe-b91fd2069718/abg-teams-up-with-luzern.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_LSf8VxbesqVhG_XNzpY4g--~B/aD04NDY7dz0xMzE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/sourcing_journal_735/a3e4d03a5ecd7e4090333f7371eb601c.png",
+      "publishedAt": 1787209200000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "S&P 500 Could Hit 8,000 Soon, Morningstar Says — CRM, NOW, WDAY And MSFT Lead The August Rebound",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/c1e5029d-ccf8-3c95-ad71-90b356c61d81/s%26p-500-could-hit-8%2C000-soon%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hUIJUna1WXyP97g_KC4nzQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/59b609d91e1759c197b1127cd20e9122.jpg",
+      "publishedAt": 1787208769000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Preferreds Offer 6.5% Yields or More After Bond Market Selloff",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/b6db27ee-44fc-36ec-8da9-76398bd43a2f/preferreds-offer-6.5%25-yields.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qw.0gtvzP64s9hTwsahLcQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/849cb1cc09d11672243f72ddc383ea8b.jpg",
+      "publishedAt": 1787207400000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Nebius Increases Debt Raise Plan To $5B: Neocloud Operator Reportedly Bids For Decart AI Buyout Eyed by Anthropic",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/6040a864-20a4-35cb-a888-a664ec7ae97b/nebius-increases-debt-raise.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2FhNCMtrzm5Tkgod_q74cA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/d4abf9e52125c2a53dc149ba9037aba7",
+      "publishedAt": 1787204846000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Regeneron (REGN) Is Up 5.4% After FDA Approves Pasatru For Ultra-Rare FOP Therapy",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/why-regeneron-regn-5-4-051056760.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/W7wNccZYx_ndhdNfW3xnHw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a52f4d4b48157c0b8b51190845e3ba14.jpg",
+      "publishedAt": 1787202656000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Revisiting Former Stock Picks Microsoft, Kingstone, Cadre Holdings",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/7c3bb9f9-d3bb-3e43-ad47-214fdbfce2cf/revisiting-former-stock-picks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2RPSKYB_FYk_SHtyrBJKtw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/eec18fc78acd26f3b7d95a8dfb0b2034.jpg",
+      "publishedAt": 1787200320000
+    },
     {
       "ticker": "GOOGL",
       "title": "Why Marvell Stock Surged Today",
@@ -72,78 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-shares-plummet-know-233402382.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/9dZ5gq5fjEMRnQU1cVhn9Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/d8e71fcf83a5154bb9a363113758de33.jpg",
       "publishedAt": 1787182442000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Will AWS’s AI Surge and $220 Billion Capex Plan Change Amazon.com’s (AMZN) Narrative",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/aws-ai-surge-220-billion-231635450.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
-      "publishedAt": 1787181395000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon isn’t giving up on Jeff Bezos’ drone deliveries dream—and after 13 years of turbulence, the momentum is finally shifting",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-isn-t-giving-jeff-223855751.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/UJl1tuu1qEBjFnrYp3oSdQ--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/45ac5feead60e59ff705dc45740c9125.jpg",
-      "publishedAt": 1787179135000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Tech & Energy Fuel S&P 500 Growth Engine",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tech-energy-fuel-p-500-222700075.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/V5ExU7Y38KVQhDDKYy1LtQ--~B/aD00NjQ7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/68c9409b72fd9a7aad93bc9653422406.jpg",
-      "publishedAt": 1787178420000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "The Dealmaking 3: Madden’s AI Persona Engine, Boehly’s $75B AI Bet & Pac-12 Free on YouTube",
-      "publisher": "CorpGov.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/dealmaking-3-madden-ai-persona-221754847.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qm1xvKzm3CJaDbnGCOryWw--~B/aD0xNTk4O3c9MjIxMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/corpgov_com_597/4b4117d0dd6aa9b76da0a3cfc736566b.png",
-      "publishedAt": 1787177874000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Adds Grok 4.6 to Bedrock",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-adds-grok-4-6-215824526.html",
-      "image": null,
-      "publishedAt": 1787176704000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Stock Jumps as Investors Favor 54% Margins",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-jumps-investors-favor-215740162.html",
-      "image": null,
-      "publishedAt": 1787176660000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "VUG’s 0.03% Fee Hides the Real Cost: 63% of Your Money Sits in Just Ten Stocks",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/e5e7ef1a-7507-3d09-99c0-1b1b3b655507/vug%E2%80%99s-0.03%25-fee-hides-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3ny1yG5LECdD.oa8QnrNQw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c8d7303e8cf181cb48a10a9d40f2882d.jpg",
-      "publishedAt": 1787174128000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Alphabet Stock Surged When Its AI Spending Found Customers",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/46f8fa17-303a-343f-a3b9-950a7371d812/alphabet-stock-surged-when.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tU_g7CbKOyZZDQ63kg8ITA--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/5a42bac006b4b44b0a6da7b76ba60c19.jpg",
-      "publishedAt": 1787173101000
-    },
-    {
-      "ticker": "V",
-      "title": "Repay to Join Visa Platform Connect Through Reseller Agreement",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/repay-join-visa-platform-connect-205627418.html",
-      "image": null,
-      "publishedAt": 1787172987000
     }
   ]
 }
