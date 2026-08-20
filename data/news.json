@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-19T23:54:47.928Z",
+  "updatedAt": "2026-08-20T03:14:17.943Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "GOOGL Stock Heads For Third Week In Red: YouTube Reportedly Plans Mega Creator Push To Take On Netflix",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/704136a9-1610-39c3-afeb-c5526ac475d0/googl-stock-heads-for-third.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rwjFRuqOz0vL57I_Mpp5eg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/451c1d756a471b9fe3d5eea3e50ec95f.jpg",
+      "publishedAt": 1787192620000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Big Tech Is on Pace to Spend $735 Billion on AI Data Centers in 2026. These 3 Industrial Stocks Collect the Checks.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/92bd639e-3780-3e20-a195-62dc22759a32/big-tech-is-on-pace-to-spend.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vQQ.fWNWgjjUPqUQBgk5jg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e31c36821358a61a3839655de6fdfaf5.jpg",
+      "publishedAt": 1787188800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Walmart makes key move to compete with Amazon",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/6a309a34-1fef-3a39-a940-1fd3c7307f34/walmart-makes-key-move-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zWXKbqk2721RR2SxfpUjjQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/4dd676eb27f2ae9084b40fecaf334568.jpg",
+      "publishedAt": 1787184180000
+    },
+    {
+      "ticker": "MA",
+      "title": "The Options Market Puts PayPal Stock Between The High Forties And The High Seventies",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/3bc229f4-61dc-3605-8ba4-c5cbb01aaff9/the-options-market-puts.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/lVtnNDK4rylj4M1IOUKwxw--~B/aD0xNDQwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/2b4b63e49ef11f24c23518723666d661.jpg",
+      "publishedAt": 1787183963000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Makes Alexa+ Free on All Fire TV Devices — AI Agent Pricing Race to Zero",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-makes-alexa-free-fire-235630385.html",
+      "image": null,
+      "publishedAt": 1787183790000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "What Could Power The Next Rally In McDonald's Stock",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/354d06c5-ee53-344a-92d5-459756f7275a/what-could-power-the-next.html",
+      "image": null,
+      "publishedAt": 1787183502000
+    },
     {
       "ticker": "DDOG",
       "title": "Rapid7, Tenable, CrowdStrike, Twilio, and Datadog Shares Plummet, What You Need To Know",
@@ -24,6 +72,14 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/aws-ai-surge-220-billion-231635450.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
       "publishedAt": 1787181395000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon isn’t giving up on Jeff Bezos’ drone deliveries dream—and after 13 years of turbulence, the momentum is finally shifting",
+      "publisher": "Fortune",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-isn-t-giving-jeff-223855751.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/UJl1tuu1qEBjFnrYp3oSdQ--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/45ac5feead60e59ff705dc45740c9125.jpg",
+      "publishedAt": 1787179135000
     },
     {
       "ticker": "GOOGL",
@@ -50,22 +106,6 @@
       "publishedAt": 1787177642000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Why Broadcom (AVGO) Stock Is Trading Lower Today",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-avgo-stock-trading-220602333.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CpBBx8Rz2lpG5lXejqX5VQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/c33d5012ea1701a7be34c00d3064b11a.jpg",
-      "publishedAt": 1787177162000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Broadcom Gets Fresh Google Warning",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-gets-fresh-google-warning-220417060.html",
-      "image": null,
-      "publishedAt": 1787177057000
-    },
-    {
       "ticker": "AMZN",
       "title": "Amazon Adds Grok 4.6 to Bedrock",
       "publisher": "GuruFocus.com",
@@ -80,14 +120,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-jumps-investors-favor-215740162.html",
       "image": null,
       "publishedAt": 1787176660000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Makes Major Move for Shoppers",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-makes-major-move-shoppers-215603266.html",
-      "image": null,
-      "publishedAt": 1787176563000
     },
     {
       "ticker": "MSFT",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/technology/articles/repay-join-visa-platform-connect-205627418.html",
       "image": null,
       "publishedAt": 1787172987000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Software Companies' Second-Quarter Beat Rate Accelerates Sequentially, RBC Says",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/software-companies-apos-second-quarter-203412309.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ACqoX9SDncQq.TUsjT05Fw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/aa4387a309a7ccf404b9a0a2e4280c3e.jpg",
-      "publishedAt": 1787171652000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "U.S. Markets Prepare For AI Compute Derivatives Tied To TSMC, Nvidia GPU Prices",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/642b6381-df48-3594-a5ee-3051d399c3b8/u.s.-markets-prepare-for-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/77uzr..MfDaIR6xNfgLEZA--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/73ce9b1ccceef19cbebc580d8be29c19.jpg",
-      "publishedAt": 1787171054000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Walmart Earnings: The Biggest And Most Influential Retail Report Looms",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/4636436b-031c-3a60-8074-bdf83b8f6b03/walmart-earnings%3A-the-biggest.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2lFIjF6gzMc9OvsCNPngKg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/92b898961384ed8ad880c4e3b48f70e5.jpg",
-      "publishedAt": 1787170689000
-    },
-    {
-      "ticker": "V",
-      "title": "REPAY Joins Visa Platform Connect, Granting ISO and ISV Clients Next-Generation Payment Infrastructure",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/articles/repay-joins-visa-platform-connect-201500563.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Anw.prVJYQGOC1gcH0Ti1Q--~B/aD0yMDg7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/8d5393e45b949b487ef6eb874c4595d6.jpg",
-      "publishedAt": 1787170500000
     }
   ]
 }
