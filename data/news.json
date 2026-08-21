@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-08-21T11:37:25.286Z",
+  "updatedAt": "2026-08-21T11:59:02.293Z",
   "items": [
     {
-      "ticker": "MSFT",
-      "title": "APF and TMGOC co-originate $120m for dual-branded hotel in New Orleans",
-      "publisher": "Hotel Management Network",
-      "link": "https://finance.yahoo.com/m/91b745a4-3572-3fe0-82a3-03f1b6b54741/apf-and-tmgoc-co-originate.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/owZIACZty4gKU4pXivN56Q--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hotel_management_network_805/0f633d2fb3228bdc2107b7d6a136e548.jpg",
-      "publishedAt": 1787312198000
+      "ticker": "PLTR",
+      "title": "Palantir and Snowflake Provide the Backbone of Agentic AI but Which Is Better?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/299de2dd-c255-3d41-9b99-3c7cea1c7e98/palantir-and-snowflake.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/S4JzSv8irDFk4Ps5tbwRxw--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/6593933ded0ad92ffa4f9f4cfdcc6f46",
+      "publishedAt": 1787312707000
     },
     {
-      "ticker": "MSFT",
-      "title": "Wealth Enhancement buys Servo Wealth advisory unit",
-      "publisher": "Private Banker International",
-      "link": "https://finance.yahoo.com/m/73bed4d7-e9b5-3350-b24d-0a2464de6eb3/wealth-enhancement-buys-servo.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vHNXDz1rlDktDZRnllMZcw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/private_banker_international_938/e8ce3b053a4035d4d6b1ebb48c9eaf3c.jpg",
-      "publishedAt": 1787312166000
+      "ticker": "ABBV",
+      "title": "AbbVie to Present New Data at WCLC 2026 Showcasing Innovation Across Lung Cancer Pipeline",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-present-data-wclc-2026-114500303.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZWWO0O6gGBzz2QVAHmch_A--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/a6f4da84bcbd3733717f8bec0934ad5b.png",
+      "publishedAt": 1787312700000
     },
     {
       "ticker": "PLTR",
@@ -23,31 +23,47 @@
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures-rise-after.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/YajajjqVgdWILXl1nCpKtQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/7c872b1c86aed6df221369cd0dda7c4d.jpg",
-      "publishedAt": 1787312073000
+      "publishedAt": 1787312588000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Here’s Why I’m Buying More Broadcom as Spiking Treasury Yields Rock AI Stocks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/599a2688-fcc8-3383-a2b4-ab581a71ae4e/here%E2%80%99s-why-i%E2%80%99m-buying-more.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/EIBLZO0GKwGCJDaMkQONYw--~B/aD04NjY7dz0xODM4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/449ccbdbe959e04c02c3094edfe26724.png",
+      "publishedAt": 1787312533000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "3 Unpopular Stocks That Deserve Some Love",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-deserve-love-113947623.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MNao610aLzsWty9sHS1T9Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/505e6caa27801246653a7a82f4734425.jpg",
+      "publishedAt": 1787312387000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Should You Buy Datadog Stock Right Now?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6d2883f2-fab9-3d0e-9d9c-5ef2187c0987/should-you-buy-datadog-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T4q3bx5IINcJD37_FpBZUw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d923f3f051c91ed0eeedc0aca2fa7e41.png",
+      "publishedAt": 1787312100000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "2 Cash-Producing Stocks to Target This Week and 1 We Turn Down",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-113147184.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kP8gl0PZH_GTyBu8fcJTyw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/1d7ae95b68dabfb36c5383cabf9c37d2.jpg",
+      "publishedAt": 1787311907000
     },
     {
       "ticker": "MSFT",
-      "title": "Foresight Evaluates Expansion into New Technology Markets, Including AI-Based Technologies, Cybersecurity and Data Centers",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/foresight-evaluates-expansion-technology-markets-113200486.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0Yo.8rDElQC.15JXmohopw--~B/aD00ODt3PTI4MjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/f035c45f58ca6434bb1247888274822f.png",
-      "publishedAt": 1787311920000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AFRC releases annual oversight report on HKICPA",
-      "publisher": "The Accountant",
-      "link": "https://finance.yahoo.com/m/62c44c98-3f47-3aae-92d2-3c3de1896632/afrc-releases-annual.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/M_4NCe7kWjvhQHAK51770w--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_accountant_923/76bd798d34aa9928f0bafbcb35a0e4de.jpg",
-      "publishedAt": 1787311914000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Auction result of Treasury Bonds - RIKB 38 0215 - RIKS 29 0917",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/markets/currencies/articles/auction-result-treasury-bonds-rikb-113000854.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0wzkaIOn_maNSSfBDm2.Eg--~B/aD00OTA7dz0xODU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/33e44f87156ff86b05a9c14c179bd8fd.jpg",
-      "publishedAt": 1787311800000
+      "title": "S&P Global (SPGI) Deepens Microsoft AI Tie Up, Is It Fully Priced?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-deepens-microsoft-101635061.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wU7QgH.tR05LqRxb2ZPz5Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/806534bdda192677d191c936464cc6ec.jpg",
+      "publishedAt": 1787307395000
     },
     {
       "ticker": "GOOGL",
@@ -66,6 +82,14 @@
       "publishedAt": 1787305200000
     },
     {
+      "ticker": "MSFT",
+      "title": "Nebius (NBIS) Raises $5B Convertible Bond As AI Compute Demand Surges",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nebius-nbis-raises-5b-convertible-093337551.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AToSzraUWhaYdK9tM7fV6Q--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/5786f8c71c314f7987a27ae78a612d6d.jpg",
+      "publishedAt": 1787304817000
+    },
+    {
       "ticker": "GOOGL",
       "title": "Warren Buffett's Successor, Greg Abel, Is Transforming Berkshire Hathaway With This $43 Billion Investment (and I'm Not Talking About Alphabet)",
       "publisher": "Motley Fool",
@@ -80,6 +104,14 @@
       "link": "https://finance.yahoo.com/technology/articles/market-chatter-google-ordered-india-092027123.html",
       "image": null,
       "publishedAt": 1787304027000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "This 2.7% ‘Dividend’ ETF Quietly Holds 28% Big Tech. Here’s Who Should Own It Anyway",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/fa126626-6214-3dfe-800c-879409af1eb5/this-2.7%25-%E2%80%98dividend%E2%80%99-etf.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/y90_hASPDj2Uyi7dOUTIJQ--~B/aD0xODEwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/0b43bbf47401d8f870782a429fc6ef34.jpg",
+      "publishedAt": 1787302207000
     },
     {
       "ticker": "PLTR",
@@ -98,15 +130,7 @@
       "publishedAt": 1787300760000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Market Chatter: Meta Platforms, Google, Snap See Teen Dismiss Lawsuit Ahead of October Trial",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-platforms-google-081148927.html",
-      "image": null,
-      "publishedAt": 1787299908000
-    },
-    {
-      "ticker": "GOOGL",
+      "ticker": "MSFT",
       "title": "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
       "publisher": "Bloomberg",
       "link": "https://finance.yahoo.com/markets/stocks/articles/memory-stocks-struggle-momentum-smart-080700264.html",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-insider-sold-shares-worth-075401212.html",
       "image": null,
       "publishedAt": 1787298841000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Zacks Analyst Blog Highlights Dell, Celestica, Lumentum and Vertiv",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-dell-070900789.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/v9XeGn5oKw4KyhR24rFsBA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c1cd358e97afad5e5afc22d86c6e3093.jpg",
-      "publishedAt": 1787296140000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon, Uber, DoorDash, and Walmart are taking the delivery wars to the skies",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/technology/articles/amazon-uber-doordash-walmart-taking-070300525.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tpDhN05aUR26oZz.z1.hJg--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/a5942d04b2297db0146b1455ea1744f9.jpg",
-      "publishedAt": 1787295780000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Billionaire Jeff Bezos once asked Warren Buffett why so few people copy his strategy—now he’s backing $7 billion Liverpool FC",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-jeff-bezos-once-asked-070000687.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/K7nJNLA8sv1AM.iPAavzjA--~B/aD0xMzI5O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/55c4b63b19f178f582ff9b66aa1b9292.jpg",
-      "publishedAt": 1787295600000
     }
   ]
 }
