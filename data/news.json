@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T22:37:46.804Z",
+  "updatedAt": "2026-08-21T22:58:04.142Z",
   "items": [
     {
       "ticker": "V",
@@ -66,6 +66,14 @@
       "publishedAt": 1787348097000
     },
     {
+      "ticker": "MSFT",
+      "title": "Bernie Sanders Warns AI Billionaires Could ‘Obliterate’ Jobs and ‘Destroy the Environment,’ Calls for Data Center Moratorium",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/13d9c4e7-5f1a-3a9a-ac21-95ab9db5060e/bernie-sanders-warns-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/47NAutTNZUjaHIPlqBHiJg--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/0df6bcb21b92f5a1c178cf3c8f426fd9.jpg",
+      "publishedAt": 1787347831000
+    },
+    {
       "ticker": "GOOGL",
       "title": "Anthropic hires ex-Google chip chief as AI lab pushes into hardware - Bloomberg",
       "publisher": "Investing.com",
@@ -128,14 +136,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/deepseek-creates-headache-ai-stocks-201711619.html",
       "image": null,
       "publishedAt": 1787343431000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Goldman Sachs Sees Nvidia Setup Few Expect",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html",
-      "image": null,
-      "publishedAt": 1787343423000
     },
     {
       "ticker": "JNJ",
