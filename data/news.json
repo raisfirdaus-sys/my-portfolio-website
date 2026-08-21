@@ -1,29 +1,85 @@
 {
-  "updatedAt": "2026-08-21T19:53:59.946Z",
+  "updatedAt": "2026-08-21T20:37:18.857Z",
   "items": [
     {
       "ticker": "GOOGL",
-      "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+      "title": "DeepSeek Creates New Headache for AI Stocks",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/deepseek-creates-headache-ai-stocks-201711619.html",
+      "image": null,
+      "publishedAt": 1787343431000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Wedbush Says Marvell Just Changed Its AI Story",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/wedbush-says-marvell-just-changed-201708452.html",
+      "image": null,
+      "publishedAt": 1787343428000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Goldman Sachs Sees Nvidia Setup Few Expect",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html",
+      "image": null,
+      "publishedAt": 1787343423000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Just Won One of Its Biggest AI Customers",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-just-won-one-biggest-201645664.html",
+      "image": null,
+      "publishedAt": 1787343405000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-betting-big-own-201414728.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/NgviwDAkTbwV9fgu2h9DFw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ae3cb2a93ad8e5ddf6f94148e71f74b9.jpg",
+      "publishedAt": 1787343254000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Rises as $678 Billion Backlog Defies Yield Pressure",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-rises-678-billion-backlog-200956172.html",
+      "image": null,
+      "publishedAt": 1787342996000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/nvidia-earnings-deck-next-week-200251512.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/lTCRwBs__ML.nrQQVMmL2Q--~B/aD0zNjAwO3c9NjQwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/11735c30-91bf-11f1-b7f2-8ded4782cfdd_205474548f7a84f60ad4a9b40c8d50fa2c2fed669a36543980d1ac9528418c5b.jpg",
+      "publishedAt": 1787342571000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Rises as Waymo Secures Another Robotaxi Market",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/articles/alphabet-rises-waymo-secures-another-200045385.html",
+      "image": null,
+      "publishedAt": 1787342445000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "WMT Brings Tap-To-Pay To US Stores — Walmart Adding Google Pay To Its Checkout Options, Apple Pay Also Reportedly In The Mix",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a891c118-88de-394e-b1e2-80d463d069d3/wmt-brings-tap-to-pay-to-us.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wDV.xOrU3QdoYfpdIFAMAw--~B/aD04MDc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/5a9320915d74eff7579205dad1ddfe4f.jpg",
+      "publishedAt": 1787342037000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
       "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194245037.html",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194840460.html",
       "image": null,
-      "publishedAt": 1787341365000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Walmart Finally Gives In on Apple Pay and Google Pay",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/media-advertising/articles/walmart-finally-gives-apple-pay-194228259.html",
-      "image": null,
-      "publishedAt": 1787341348000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Marvell Stock Plunges After Two-Day Surge Despite Google AI Chip Catalyst",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-stock-plunges-two-day-194034770.html",
-      "image": null,
-      "publishedAt": 1787341234000
+      "publishedAt": 1787341720000
     },
     {
       "ticker": "PLTR",
@@ -40,14 +96,6 @@
       "link": "https://finance.yahoo.com/m/fb9d44bd-5fa0-3fbc-9c2e-6dd7732910f2/elon-musk%3A-%E2%80%9Cstarlink-now-has.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/QSBirKZHzvlCmxeE1gKOIA--~B/aD0xNzA2O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/f86bb5742b516d3f4d370f6c01e3b219.jpg",
       "publishedAt": 1787340612000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Sector Update: Tech",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-192114098.html",
-      "image": null,
-      "publishedAt": 1787340074000
     },
     {
       "ticker": "PLTR",
@@ -90,60 +138,12 @@
       "publishedAt": 1787338527000
     },
     {
-      "ticker": "MSFT",
-      "title": "Is Microsoft a Screaming Buy Under $500 Per Share?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5f80281e-b114-34ac-bb02-b515e4599ca0/is-microsoft-a-screaming-buy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WnS_Ny8j6mDr_1J2ytqwdA--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2de581845e53d11314fb49027709830f.jpg",
-      "publishedAt": 1787338320000
-    },
-    {
       "ticker": "ABBV",
       "title": "Lilly's Multiple Assumes Less Growth Than You Think",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/2dc50e36-fa9e-3b3c-95fe-457169f7ec52/lilly%27s-multiple-assumes-less.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/ffBijilLu6TyRHhiCI63GA--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58.jpg",
       "publishedAt": 1787337656000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock Gets Cheaper Only If The Forecast Arrives",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/51981666-fad5-3560-834f-d1fef4721335/microsoft-stock-gets-cheaper.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/xc0hpT8NzwpzURO17wULxA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f5bbfd947ebcc09b4a540f522b416137.jpg",
-      "publishedAt": 1787337028000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Amazon Stock: Cloud Takes The Spotlight While The Store Pays The Toll",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/ab2dc88d-82c3-3bf6-abdc-fd6b0e580bf3/amazon-stock%3A-cloud-takes-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uVtHpqn8tplmIJ7WrptWsA--~B/aD04ODQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/95ba5b514895efb5fd369a4b0efddd11.jpg",
-      "publishedAt": 1787336690000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Cathie Wood's Ark Invest Held $1.16 Billion of Tesla Stock as of the End of the Second Quarter, Even as It Trails Every Other \"Magnificent Seven\" Stock in 2026. Is Her Conviction Still Justified?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a2238ab7-cce1-3d78-aa83-7bd38cd9cb85/cathie-wood%27s-ark-invest-held.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QdDfaTXm.SaDRFnJ88kCeA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/bdc77d76e5df9f534017316cefc6e7dd.jpg",
-      "publishedAt": 1787336160000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/5aac802f-9dad-378f-9928-b3ce7f81bbc9/michael-burry-says-the-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/5IRZrwxc0nGGNhTHNOgYLA--~B/aD0xNzQzO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/42b1a74e613a76b65a709f21cdf8417d.jpg",
-      "publishedAt": 1787335847000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Intuitive Surgical Stock Has Fallen While Its Operating Margin Keeps Widening",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/aeb4e501-5a8e-38b4-8df8-fcd744319dfa/intuitive-surgical-stock-has.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rIw9SlZDFIzBWYBarYDM0A--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/74f1d690cd42e176bfd25c37f45f409a.jpg",
-      "publishedAt": 1787335281000
     }
   ]
 }
