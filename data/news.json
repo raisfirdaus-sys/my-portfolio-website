@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-21T13:07:30.172Z",
+  "updatedAt": "2026-08-21T13:55:42.498Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "QQQ Cut Its Fee After 26 Years. On $250,000, the VGT ETF Still Saves You $225 Every Year",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/0798cb83-6356-319c-8dab-a5bb7188edf4/qqq-cut-its-fee-after-26.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/l9nkQEQ_A7z2_U18CYfAJw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3bf531c9ce1499e87b74aa2052b25dc4.jpg",
+      "publishedAt": 1787318729000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
+      "publisher": "Benzinga Prediction Markets",
+      "link": "https://finance.yahoo.com/m/30764859-3224-31df-8598-d7fc40e1cb0a/amazon-backed-anthropic-needs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/LxW0mWTCWUE8ufgqCgISrw--~B/aD02NjY7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_prediction_markets_613/a03fbb16dd4a67a9c3d2d7df6b35ce15.jpg",
+      "publishedAt": 1787318461000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Spent $115.9 Billion on AI. What Did Shareholders Get?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/b175119a-3472-3c3a-962e-c3bdbad977a9/microsoft-spent-%24115.9.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.Sjh8M_.hXiC_CO9kxhkFA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/d1715da5f795272432068ed0c23e4417.jpg",
+      "publishedAt": 1787318390000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/biogen-biib-higher-earnings-guidance-131337483.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Jl41QlssKCV0dTzIN_E6Dg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305.jpg",
+      "publishedAt": 1787318017000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Meta (META) Quietly Became A Major AI Customer While Building Its Own API Business",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/meta-meta-quietly-became-major-131235971.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nCAI77amckTuvVDu_618MQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fba9687e0054b528b01bdfa6c56cd20c.jpg",
+      "publishedAt": 1787317955000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Wall Street Is Bullish on These 3 Tech Giants. Here’s Where I’d Put My Money",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/795e7bb9-8ebb-3db2-8507-3d842479e991/wall-street-is-bullish-on.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dcxh8i07jDHjHBzCFgoWyw--~B/aD0xNzA5O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/b3c965d12227c8238bfac19f415aef37.jpg",
+      "publishedAt": 1787317220000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Advertising's Agentic Playbook",
+      "publisher": "MediaPost",
+      "link": "https://finance.yahoo.com/m/9ab4ac51-74f5-368a-b550-8cc03ffb5baa/microsoft-advertising%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/soXrYpnOiQRZp_69GTLzOQ--~B/aD0xMjU7dz0yMDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mediapost_446/2bd36b9fee5bfd3cb17145a7495ab266.png",
+      "publishedAt": 1787317200000
+    },
     {
       "ticker": "GOOGL",
       "title": "Tesla, Waymo, Uber Granted Las Vegas Robotaxi Permits",
@@ -8,6 +64,14 @@
       "link": "https://finance.yahoo.com/m/43426290-3ecd-317e-a8fb-d8f722aaf64a/tesla%2C-waymo%2C-uber-granted.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/xLzXfEZZ9LMMLyDAP7WZuQ--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/053b4788b2c6213c5f3aafd3feced9b3.jpg",
       "publishedAt": 1787316961000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Chamath Palihapitiya: AI Has “Literally Zero” To Do With Big Company Earnings, as Nvidia Sits On A 945% Five Year Run",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/fac96d7e-3263-3fc5-91dd-0bfdf325b35e/chamath-palihapitiya%3A-ai-has.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HpH668Uuf6dE4NrY2.1r5Q--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/95a39c2dc6335b4a1157f79639ec1f6c.png",
+      "publishedAt": 1787316940000
     },
     {
       "ticker": "MSFT",
@@ -26,7 +90,7 @@
       "publishedAt": 1787316589000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "This Week In Cloud AI - Cloudera Anywhere Cloud Revolutionizes AI Deployment and Governance",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/technology/ai/articles/week-cloud-ai-cloudera-anywhere-123737740.html",
@@ -42,20 +106,28 @@
       "publishedAt": 1787315700000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Quantum X Labs Announces Additional Advancement in Quantum Error Correction Using NVIDIA CUDA-Q with New Results on Google’s Dataset",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/quantum-x-labs-announces-additional-123200022.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gIaJOCmqo0HW9Iwwz8tN8w--~B/aD00Mjt3PTIzNzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/2b2a2a7b9b34b5130e3cef4b36000ce0.png",
-      "publishedAt": 1787315520000
-    },
-    {
       "ticker": "KO",
       "title": "5 Incredible Dividend Aristocrats Are Quietly Crushing the S&P 500 in 2026",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/62527315-27e1-3123-ac44-780c4997f2ca/5-incredible-dividend.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tBsgRyNt59UoEH_eqFqg5w--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/fac00c2982555a7e5f4d3b542245f32b.jpg",
       "publishedAt": 1787315431000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Here's How Much You'd Have If You Invested $1000 in Amazon a Decade Ago",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002385.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0gEBdOv_8hd55bpg70OnFg--~B/aD01ODg7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94.jpg",
+      "publishedAt": 1787315402000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Merck vs. J&J: Which Healthcare Giant Should Investors Choose?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/merck-vs-j-j-healthcare-122700673.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dkRxlxCL2bwcfEu0jmuI6g--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/00ec4a55c0f0d99f7e816f5da7894e0c.jpg",
+      "publishedAt": 1787315220000
     },
     {
       "ticker": "AMZN",
@@ -66,84 +138,12 @@
       "publishedAt": 1787314948000
     },
     {
-      "ticker": "AMZN",
-      "title": "Bonds, Cryptos, Moderna Play Havoc With Markets. 2 Reasons for More Chaos.",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/c2addf02-c4aa-3488-8228-f37392d94c73/bonds%2C-cryptos%2C-moderna-play.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/igjDsG6ER57jluDnBI9ZkQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/c3706ba4c18dbda2145573963a681772.jpg",
-      "publishedAt": 1787314200000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Eli Lilly Tops Buy Point",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KuvLt8EjtRMjjjPmzlxAiw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/60db304efdc88fa55e8cacefa22c9a60.jpg",
-      "publishedAt": 1787313621000
-    },
-    {
       "ticker": "PLTR",
       "title": "Dow Jones Futures Rise After Bearish Market Signal; Bitcoin Keeps Surging",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures-rise-after.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/YajajjqVgdWILXl1nCpKtQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/7c872b1c86aed6df221369cd0dda7c4d.jpg",
       "publishedAt": 1787312929000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir and Snowflake Provide the Backbone of Agentic AI but Which Is Better?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/299de2dd-c255-3d41-9b99-3c7cea1c7e98/palantir-and-snowflake.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/S4JzSv8irDFk4Ps5tbwRxw--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/6593933ded0ad92ffa4f9f4cfdcc6f46",
-      "publishedAt": 1787312707000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie to Present New Data at WCLC 2026 Showcasing Innovation Across Lung Cancer Pipeline",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-present-data-wclc-2026-114500303.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZWWO0O6gGBzz2QVAHmch_A--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/a6f4da84bcbd3733717f8bec0934ad5b.png",
-      "publishedAt": 1787312700000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Here’s Why I’m Buying More Broadcom as Spiking Treasury Yields Rock AI Stocks",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/599a2688-fcc8-3383-a2b4-ab581a71ae4e/here%E2%80%99s-why-i%E2%80%99m-buying-more.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EIBLZO0GKwGCJDaMkQONYw--~B/aD04NjY7dz0xODM4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/449ccbdbe959e04c02c3094edfe26724.png",
-      "publishedAt": 1787312533000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "3 Unpopular Stocks That Deserve Some Love",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-deserve-love-113947623.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MNao610aLzsWty9sHS1T9Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/505e6caa27801246653a7a82f4734425.jpg",
-      "publishedAt": 1787312387000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Should You Buy Datadog Stock Right Now?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6d2883f2-fab9-3d0e-9d9c-5ef2187c0987/should-you-buy-datadog-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T4q3bx5IINcJD37_FpBZUw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d923f3f051c91ed0eeedc0aca2fa7e41.png",
-      "publishedAt": 1787312100000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Walmart Is Playing the Long Game by Lowering Prices",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/50e34f30-86c1-3286-b490-aec7e326fb35/walmart-is-playing-the-long.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3NBkpUL39NucFuWeMTwmdA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/169e929722bd08dcb52d6c923ef192b8.jpg",
-      "publishedAt": 1787310840000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "S&P Global (SPGI) Deepens Microsoft AI Tie Up, Is It Fully Priced?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-deepens-microsoft-101635061.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wU7QgH.tR05LqRxb2ZPz5Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/806534bdda192677d191c936464cc6ec.jpg",
-      "publishedAt": 1787307395000
     }
   ]
 }
