@@ -1,16 +1,112 @@
 {
-  "updatedAt": "2026-08-21T14:50:40.082Z",
+  "updatedAt": "2026-08-21T15:45:23.111Z",
   "items": [
     {
       "ticker": "GOOGL",
-      "title": "Google is about to make a major change to every Pixel device",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/3e227dde-27e1-304a-8c37-c4430377c73f/google-is-about-to-make-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MSS2qbB2_yJIvO4PTRV0Cw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/01c2c92d9028236e1ecea1bdce9861a7.jpg",
-      "publishedAt": 1787323020000
+      "title": "Update: Market Chatter: Meta Platforms, Google, Snap See Teen Dismiss Lawsuit Ahead of October Trial",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-platforms-google-153221403.html",
+      "image": null,
+      "publishedAt": 1787326341000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "AMD Lost SpaceX to Nvidia. Is Its AI Challenge Already Falling Apart?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/1f01ee41-0a8d-3981-b847-a5826b263563/amd-lost-spacex-to-nvidia.-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/KMMI7whoRt5_eH7Dgdc9IQ--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d267a7eead9d746f11fb821f27f43302.png",
+      "publishedAt": 1787326237000
     },
     {
       "ticker": "GOOGL",
+      "title": "Tesla Rallies 4% on Europe Semi Launch and Las Vegas Robotaxi Permits, Uber Ticks Up",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/2b04db3e-627a-3f43-9c9d-db6bb20a936a/tesla-rallies-4%25-on-europe.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bAE0RERbs_XYV5Red1z4JQ--~B/aD0xMDYwO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/140ba60c0ae90840cad283c99c047d85.jpg",
+      "publishedAt": 1787326055000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Faces a 12% Earnings Swing After Its 196% Rally",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-faces-12-earnings-swing-152518208.html",
+      "image": null,
+      "publishedAt": 1787325918000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Moody's Analytics Starts Platform Push Under New Leadership, RBC Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/moody-apos-analytics-starts-platform-152511586.html",
+      "image": null,
+      "publishedAt": 1787325911000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Marvell Technology Seen Benefiting From Scaling AI Data Center Builds, Oppenheimer Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/marvell-technology-seen-benefiting-scaling-152332505.html",
+      "image": null,
+      "publishedAt": 1787325812000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "SpaceX's Biggest Investors Revealed After Stock Lockup",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-biggest-investors-revealed-stock-151048606.html",
+      "image": null,
+      "publishedAt": 1787325048000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "What Is Amazon.com (AMZN) Planning With Prime Air In 500 U.S. Cities?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-planning-prime-151009124.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
+      "publishedAt": 1787325009000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Google AI Chip Deal Could Unlock a Major Growth Opportunity",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-google-ai-chip-deal-150720165.html",
+      "image": null,
+      "publishedAt": 1787324840000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Sam's Club adds Everyday Dose coffee brand, challenging Starbucks",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/7057f2d6-cb43-3830-8fdd-fb2698f1d8d2/sam%27s-club-adds-everyday-dose.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tHJ.aWzxOQghQN2z8epYDQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/842fa88481e0ce8132e32054b216f32e.jpg",
+      "publishedAt": 1787324820000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell’s $12.2 Billion Google Deal Changes the Bull Case for MRVL Stock",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/7bf520bb-3d70-3521-baba-4913c6af42fc/marvell%E2%80%99s-%2412.2-billion.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6Fx8pewkRADBG0HF.Bc73Q--~B/aD01NTM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/b400bfd05b26992c837b1d7d4f30acfc.jpg",
+      "publishedAt": 1787324456000
+    },
+    {
+      "ticker": "KO",
+      "title": "Looking to Generate Passive Income From Stocks? 3 Magnificent High-Yield Dividend Stocks to Buy Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a4d7a3e5-cc7a-35d8-a2bc-076259326808/looking-to-generate-passive.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xabRM_E8lHrrJKCcuHkagw--~B/aD02MDM7dz0xMjAxO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0c57ad1d033b848f2cf90cd6c6373644.jpg",
+      "publishedAt": 1787322900000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Rocket Lab CEO Says $8 Billion Iridium Deal Won’t Take on Elon Musk’s Starlink — Don’t Intend to 'Directly Compete,’ But Plans Something That 'Hasn’t Been Seen Before’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/articles/rocket-lab-ceo-says-8-143028569.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Toq1hkUKUufeRSKpnOrK3w--~B/aD01Nzc7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/f921ee05cb60094d7065ca3a6ea104ad.jpg",
+      "publishedAt": 1787322628000
+    },
+    {
+      "ticker": "GILD",
       "title": "Making Drugs With AI: Biopharma Giants Gear Up For New Arena",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/3caea815-1ecb-3700-8bff-b519550c9760/making-drugs-with-ai%3A.html",
@@ -48,102 +144,6 @@
       "link": "https://finance.yahoo.com/video/amazon-drones-over-skies-140951380.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/yi9DqigZTO1yjRVQBAkG3g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/2fa504d3-3f9a-40e6-8835-79349bcd355e/main/1280x720/35s424ms/match/image.jpg",
       "publishedAt": 1787321391000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The Billionaire Investor Who Predicted Black Monday Was Recently Making Moves Around His Top 4 AI Stock Holdings",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/db8422cf-3e2b-3651-b637-e4eef18a9155/the-billionaire-investor-who.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9ZLlc_YZgSHr3qD.LSMlfQ--~B/aD0xMDUwO3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/846eb3aeb5184eb31a530baaeaa435ea.jpg",
-      "publishedAt": 1787321100000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Could Palantir Stock Double Again? The Bull and Bear Cases.",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/ff818c47-cdd1-3593-8eb1-4777c089c74f/could-palantir-stock-double.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yvARN0zTwwqc_oBG9zzIeQ--~B/aD0xOTIwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8d1bc14b9a9148b650a594cf7925e031.jpg",
-      "publishedAt": 1787320821000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The Trillion-Dollar AI Capex Gap: Why Too Much Hardware Could Be Nvidia’s Trap and Microsoft’s Opportunity",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/trillion-dollar-ai-capex-gap-140007152.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2VpSwHH4UWYm8_mCqLQAGg--~B/aD0zMDI0O3c9NDAzMjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/6e05024de04e2f40c1093571a18bf29f.jpg",
-      "publishedAt": 1787320807000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Sunforce Solar Named No. 460 on the 2026 Inc. 5000 List",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/small-business/articles/sunforce-solar-named-no-460-140000459.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Hm5fF0K5vHbD4K8x_UczDg--~B/aD03NTg7dz0yMDQ4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/6e303283d929b9077f45e78d0bf096e0.png",
-      "publishedAt": 1787320800000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "A TikTok mom's $2,000 kindergarten back-to-school haul went viral — but the U.S. average is already $885 per child",
-      "publisher": "Moneywise",
-      "link": "https://finance.yahoo.com/small-business/articles/tiktok-moms-2-000-kindergarten-140000340.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/sq5Fq4YcJLBwD.hDvLOMRw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moneywise_327/56c032f131b973c33bfb439f12a4f19e.jpg",
-      "publishedAt": 1787320800000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Sundar Pichai Says Alphabet's AI Products Now Reach Over 2.5 Billion Monthly Users Through AI Overviews. Here's What That Scale Means for Investors.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a148b094-63a8-3369-993e-c625f494839a/sundar-pichai-says-alphabet%27s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/FNPbIQZ.x4JPPkGH_PZgwQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/de007d3489aca63be5ac88e6d45b7aee.jpg",
-      "publishedAt": 1787320200000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Modine shares climb after Hunterbrook highlights data centre cooling opportunity",
-      "publisher": "InvestorsHub",
-      "link": "https://finance.yahoo.com/m/ad72cf1d-d028-35e0-81a6-9195327e1108/modine-shares-climb-after.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tjqVx2hnPFCDEu3G.OqNIA--~B/aD02NTk7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/investorshub_458/641e61369baa2aa62f0fe5096696a843.png",
-      "publishedAt": 1787319062000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Is Amazon (AMZN) a Buy as Wall Street Analysts Look Optimistic?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-buy-wall-street-133003287.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pJJgq7KwZmbXCl12NIIkIw--~B/aD00Njc7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b95cfdd8768bc3c4620e666dbcb0b248.jpg",
-      "publishedAt": 1787319003000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "QQQ Cut Its Fee After 26 Years. On $250,000, the VGT ETF Still Saves You $225 Every Year",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/0798cb83-6356-319c-8dab-a5bb7188edf4/qqq-cut-its-fee-after-26.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/l9nkQEQ_A7z2_U18CYfAJw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3bf531c9ce1499e87b74aa2052b25dc4.jpg",
-      "publishedAt": 1787318729000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
-      "publisher": "Benzinga Prediction Markets",
-      "link": "https://finance.yahoo.com/m/30764859-3224-31df-8598-d7fc40e1cb0a/amazon-backed-anthropic-needs.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/LxW0mWTCWUE8ufgqCgISrw--~B/aD02NjY7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_prediction_markets_613/a03fbb16dd4a67a9c3d2d7df6b35ce15.jpg",
-      "publishedAt": 1787318461000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Tesla, Waymo, Uber Granted Las Vegas Robotaxi Permits",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/43426290-3ecd-317e-a8fb-d8f722aaf64a/tesla%2C-waymo%2C-uber-granted.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/xLzXfEZZ9LMMLyDAP7WZuQ--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/053b4788b2c6213c5f3aafd3feced9b3.jpg",
-      "publishedAt": 1787316961000
-    },
-    {
-      "ticker": "KO",
-      "title": "5 Incredible Dividend Aristocrats Are Quietly Crushing the S&P 500 in 2026",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/62527315-27e1-3123-ac44-780c4997f2ca/5-incredible-dividend.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tBsgRyNt59UoEH_eqFqg5w--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/fac00c2982555a7e5f4d3b542245f32b.jpg",
-      "publishedAt": 1787315431000
     }
   ]
 }
