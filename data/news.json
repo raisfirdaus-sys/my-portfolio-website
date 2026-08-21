@@ -1,13 +1,85 @@
 {
-  "updatedAt": "2026-08-21T15:45:23.111Z",
+  "updatedAt": "2026-08-21T16:48:32.250Z",
   "items": [
     {
+      "ticker": "AMZN",
+      "title": "The Hidden Tax Cost of JEPI’s Monthly Income Machine",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/78e55249-d196-3556-98aa-b62a3d820ab8/the-hidden-tax-cost-of-jepi%E2%80%99s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_DXahUL1CVUMykW_DsLm4w--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/e99d166c3285c6ef5a1494d210fd7695.jpg",
+      "publishedAt": 1787329831000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Bloom Energy vs. Palantir: Which \"Story Stock\" Actually Has More Room to Run?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/ea80aae9-6b98-3041-be96-1847772afb6c/bloom-energy-vs.-palantir%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Oonppee0vbrFm096SSTJXg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6a8995d662ddcae600ff1a92090c962d.jpg",
+      "publishedAt": 1787329500000
+    },
+    {
       "ticker": "GOOGL",
-      "title": "Update: Market Chatter: Meta Platforms, Google, Snap See Teen Dismiss Lawsuit Ahead of October Trial",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-platforms-google-153221403.html",
+      "title": "Marvell Stock Flashes Strong Signal Before Earnings",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-flashes-strong-signal-162453158.html",
       "image": null,
-      "publishedAt": 1787326341000
+      "publishedAt": 1787329493000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom vs. Marvell: Broadcom Stock Is Still the Better Buy After Alphabet's Announcement",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/31b74df5-8b36-3ec1-aded-76084c07a2f3/broadcom-vs.-marvell%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/J4lV.6OU.ME.Z.08I.kuyg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/731d5baa611a8b4c89df2038318f8533.png",
+      "publishedAt": 1787328780000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Presented New Lung Cancer Clinical Data At WCLC 2026",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-presented-lung-cancer-161113450.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
+      "publishedAt": 1787328673000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Wall St rises in broad rebound; yields push markets towards weekly declines",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-sharp-101936269.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/seitFTBrJ6jy_qLaL_0dNg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/f199bbe16a681d5934049bc16a4563ca.jpg",
+      "publishedAt": 1787328612000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Marvell Sinks 6% as Google Warrant Dilution Overtakes the Deal Rally; Broadcom Ticks Up",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/91de7cf6-2f67-3ad8-a0f0-b5a39a672b26/marvell-sinks-6%25-as-google.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Z4scX_qN7SVB36Jtr3APwg--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/221b775789a9330df46bf8b928a896c7.jpg",
+      "publishedAt": 1787328369000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Prediction: Apple Is Quietly Setting Up for a Huge 2026",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/5dfca9a2-78a0-32e9-b06a-def2972dda34/prediction%3A-apple-is-quietly.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5ZbDFqgtqn.6yvuafv62bA--~B/aD0xNjAwO3c9Mjg0NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2e25736410fb6986016218763e38ba6f.jpg",
+      "publishedAt": 1787328002000
+    },
+    {
+      "ticker": "MA",
+      "title": "Warren Buffett's Berkshire Hathaway Bought This Dividend Stock for a Reason. Here's Why Greg Abel Won't Sell.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/8d39109e-e938-3aa3-9bee-c2829dd63c8a/warren-buffett%27s-berkshire.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DzXGBpslGPLILZMTIKHRFQ--~B/aD03ODg7dz0xMTg4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f689021aabe0b9764eb09c6a801c3353.png",
+      "publishedAt": 1787327940000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Co-Founder Peter Thiel's Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/5677fe2d-b128-3b82-84a7-5fc0fbae12b2/palantir-co-founder-peter.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/t4Hcf2s7nMLLtMe23KxlVA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/eac26f61301dee31b8cfba4bdd679b34.jpg",
+      "publishedAt": 1787326860000
     },
     {
       "ticker": "MSFT",
@@ -16,22 +88,6 @@
       "link": "https://finance.yahoo.com/m/1f01ee41-0a8d-3981-b847-a5826b263563/amd-lost-spacex-to-nvidia.-is.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/KMMI7whoRt5_eH7Dgdc9IQ--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d267a7eead9d746f11fb821f27f43302.png",
       "publishedAt": 1787326237000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Tesla Rallies 4% on Europe Semi Launch and Las Vegas Robotaxi Permits, Uber Ticks Up",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/2b04db3e-627a-3f43-9c9d-db6bb20a936a/tesla-rallies-4%25-on-europe.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/bAE0RERbs_XYV5Red1z4JQ--~B/aD0xMDYwO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/140ba60c0ae90840cad283c99c047d85.jpg",
-      "publishedAt": 1787326055000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Marvell Faces a 12% Earnings Swing After Its 196% Rally",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-faces-12-earnings-swing-152518208.html",
-      "image": null,
-      "publishedAt": 1787325918000
     },
     {
       "ticker": "MSFT",
@@ -50,12 +106,12 @@
       "publishedAt": 1787325812000
     },
     {
-      "ticker": "GOOGL",
-      "title": "SpaceX's Biggest Investors Revealed After Stock Lockup",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-biggest-investors-revealed-stock-151048606.html",
-      "image": null,
-      "publishedAt": 1787325048000
+      "ticker": "MSFT",
+      "title": "Is Apple Stock's 33.54X PE Still Worth it? Buy, Sell, or Hold?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-33-54x-pe-151800436.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/By.0YRzVhqMaeorsX6fZmA--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4559ba18e310a117276bf6dedbe00edd.jpg",
+      "publishedAt": 1787325480000
     },
     {
       "ticker": "AMZN",
@@ -66,28 +122,12 @@
       "publishedAt": 1787325009000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Marvell Google AI Chip Deal Could Unlock a Major Growth Opportunity",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-google-ai-chip-deal-150720165.html",
-      "image": null,
-      "publishedAt": 1787324840000
-    },
-    {
       "ticker": "SBUX",
       "title": "Sam's Club adds Everyday Dose coffee brand, challenging Starbucks",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/7057f2d6-cb43-3830-8fdd-fb2698f1d8d2/sam%27s-club-adds-everyday-dose.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tHJ.aWzxOQghQN2z8epYDQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/842fa88481e0ce8132e32054b216f32e.jpg",
       "publishedAt": 1787324820000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Marvell’s $12.2 Billion Google Deal Changes the Bull Case for MRVL Stock",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/7bf520bb-3d70-3521-baba-4913c6af42fc/marvell%E2%80%99s-%2412.2-billion.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6Fx8pewkRADBG0HF.Bc73Q--~B/aD01NTM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/b400bfd05b26992c837b1d7d4f30acfc.jpg",
-      "publishedAt": 1787324456000
     },
     {
       "ticker": "KO",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/technology/articles/rocket-lab-ceo-says-8-143028569.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Toq1hkUKUufeRSKpnOrK3w--~B/aD01Nzc7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/f921ee05cb60094d7065ca3a6ea104ad.jpg",
       "publishedAt": 1787322628000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Making Drugs With AI: Biopharma Giants Gear Up For New Arena",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/3caea815-1ecb-3700-8bff-b519550c9760/making-drugs-with-ai%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DvyHll09E9GCeoEivyr84g--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/397836beeb8b698b29d8a1c1b1091631.jpg",
-      "publishedAt": 1787322526000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "IREN Jumps 6% but Then Gives Up Gains as Microsoft Accepts Horizon 1; TeraWulf Ticks Up, Cipher Digital Drops 5%",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/4687d97b-58b2-3242-af63-bd00e5b940fe/iren-jumps-6%25-but-then-gives.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QIa9VAz7sc4Ch5Gqf5cDfQ--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
-      "publishedAt": 1787322009000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/hyperscale-data-center-market-surges-141500721.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tOer.ECDJLzEeOfreyiwsw--~B/aD0yMjk7dz02Njk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/d4c3eb630bf83da5a3947696840b275d.jpg",
-      "publishedAt": 1787321700000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AI Technology Investment Accelerates Across Industries as Strategic Deployment Defines Q2 2026",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-technology-investment-accelerates-across-141100441.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JggX90.wJSgqHGyg5WlsQQ--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/66d771f4f9f9a9f175d731f55ce880b7.png",
-      "publishedAt": 1787321460000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Are Amazon drones about to take over the skies?",
-      "publisher": "Reuters Videos",
-      "link": "https://finance.yahoo.com/video/amazon-drones-over-skies-140951380.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yi9DqigZTO1yjRVQBAkG3g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/2fa504d3-3f9a-40e6-8835-79349bcd355e/main/1280x720/35s424ms/match/image.jpg",
-      "publishedAt": 1787321391000
     }
   ]
 }
