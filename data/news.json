@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-21T20:37:18.857Z",
+  "updatedAt": "2026-08-21T20:57:36.183Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-advanced-micro-204025825.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AeWn7gBKOY63VCbycHlXOg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc.jpg",
+      "publishedAt": 1787344825000
+    },
     {
       "ticker": "GOOGL",
       "title": "DeepSeek Creates New Headache for AI Stocks",
@@ -130,20 +138,12 @@
       "publishedAt": 1787338798000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AMZN",
       "title": "Take-Two Stock's Next Leg Sits In A Guide That Has Not Moved",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/f3bcd58e-3dfa-3db0-9549-10336be8a6d5/take-two-stock%27s-next-leg.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tU_g7CbKOyZZDQ63kg8ITA--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/5a42bac006b4b44b0a6da7b76ba60c19.jpg",
       "publishedAt": 1787338527000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Lilly's Multiple Assumes Less Growth Than You Think",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/2dc50e36-fa9e-3b3c-95fe-457169f7ec52/lilly%27s-multiple-assumes-less.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ffBijilLu6TyRHhiCI63GA--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58.jpg",
-      "publishedAt": 1787337656000
     }
   ]
 }
