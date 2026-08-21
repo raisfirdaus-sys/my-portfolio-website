@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-21T21:57:12.556Z",
+  "updatedAt": "2026-08-21T22:37:46.804Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Market Chatter: Hims & Hers Health Faces Nearly $75,000 Bill From Card Disputes",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/market-chatter-hims-hers-health-222751195.html",
+      "image": null,
+      "publishedAt": 1787351271000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Q2 Earnings Roundup: Expedia (NASDAQ:EXPE) And The Rest Of The Consumer Internet Segment",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-expedia-nasdaq-221947445.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/swfB3k9WJqWXN0vCxCbSyw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/3d4e5300f7fef7f270333a932d8abd93.jpg",
+      "publishedAt": 1787350787000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/4bbbca5e-6c1c-32ff-a245-7fd42e99ed0f/morgan-stanley-resets-nvidia.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CjkT5pwfwV9g2AWXIMqomg--~B/aD0yNjAxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/67cd151230d5102c3bbea683f5f6e7ef.jpg",
+      "publishedAt": 1787350620000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom (AVGO) Is Down 6.2% After Google Expands AI Chip Ties With Marvell - What's Changed",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-down-6-2-221237826.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HZKznnDQBIutkZTEshaCuQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/dfc5c49a1ab838a9c236bef742ffecf1.jpg",
+      "publishedAt": 1787350357000
+    },
+    {
+      "ticker": "V",
+      "title": "OBOOK Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/803003a7-8bb1-3810-be65-a97244c27760/obook-q2-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/O7NaJ016q.rsunrWfYlmdA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/285e7acbf1a990b211beb42e6fdb5f85.png",
+      "publishedAt": 1787349737000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a574904e-70cd-35f1-b2ba-39f9c930ed9f/warren-buffett-successor-greg.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/r2y_vfiYAz2mcopZVTIW1A--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/786ef52a6ce291cf1c380775faeb9941.png",
+      "publishedAt": 1787349181000
+    },
     {
       "ticker": "GOOGL",
       "title": "Why Is Tesla Stock Up Today?",
@@ -8,6 +56,14 @@
       "link": "https://finance.yahoo.com/m/5a0bf949-d207-3a8f-9d9f-f9c30fbd93b8/why-is-tesla-stock-up-today%3F.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/jLRRLShwYS6IWRsv01fxDA--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/52695136bc64c92fba1d744c84da0c52.jpg",
       "publishedAt": 1787348793000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The Toughest Questions HD Faced On Its Latest Call",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/6109a30b-1cd8-3ea1-9a2e-6be06ff59811/the-toughest-questions-hd.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7KLbPkHiyut9.l9fVf7A0w--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/faf8a0c6bfeef3257266f056aa5e762a.jpg",
+      "publishedAt": 1787348097000
     },
     {
       "ticker": "GOOGL",
@@ -32,22 +88,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-stock-fair-211042043.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/PFpKPUnGmKdlYP44P7Ls3A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/32b804abf710039ebb272cbf2c979023.jpg",
       "publishedAt": 1787346642000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Northern Discovery Metals Announces Marketing Program",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/northern-discovery-metals-announces-marketing-210000007.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.CSvRAZU7qexGHB0Iaye6A--~B/aD00NjI7dz0xMjk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/35794659096811a8a6a35fef08852774.jpg",
-      "publishedAt": 1787346000000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet (GOOGL): Google’s AI Boss Just Stepped Back. Is DeepMind Falling Apart?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-google-ai-boss-205228358.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/RS4mKkjV_V5E66aEgcgkuw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ddded06c9301164bc21c334085fab02f.jpg",
-      "publishedAt": 1787345548000
     },
     {
       "ticker": "MSFT",
@@ -98,52 +138,12 @@
       "publishedAt": 1787343423000
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Just Won One of Its Biggest AI Customers",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-just-won-one-biggest-201645664.html",
-      "image": null,
-      "publishedAt": 1787343405000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT)’s Betting Big on Its Own AI Chips. Is It Already Too Late?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-betting-big-own-201414728.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NgviwDAkTbwV9fgu2h9DFw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ae3cb2a93ad8e5ddf6f94148e71f74b9.jpg",
-      "publishedAt": 1787343254000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/nvidia-earnings-deck-next-week-200251512.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lTCRwBs__ML.nrQQVMmL2Q--~B/aD0zNjAwO3c9NjQwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/11735c30-91bf-11f1-b7f2-8ded4782cfdd_205474548f7a84f60ad4a9b40c8d50fa2c2fed669a36543980d1ac9528418c5b.jpg",
-      "publishedAt": 1787342571000
-    },
-    {
       "ticker": "JNJ",
       "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194840460.html",
       "image": null,
       "publishedAt": 1787341720000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Elon Musk: “Starlink Now Has 11k Satellites in Orbit.” Amazon Hasn’t Even Cracked 1,000.",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/fb9d44bd-5fa0-3fbc-9c2e-6dd7732910f2/elon-musk%3A-%E2%80%9Cstarlink-now-has.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QSBirKZHzvlCmxeE1gKOIA--~B/aD0xNzA2O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/f86bb5742b516d3f4d370f6c01e3b219.jpg",
-      "publishedAt": 1787340612000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Stock Clears Buy Zone But Could Offer Alternative Entry",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/f9848c02-9b88-3cc0-b4b1-482a54bfbfe5/palantir-stock-clears-buy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/F2y8SIiZxElAZ3NB2C6SSg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/039dae1f1d66e79c8e25182c81503428.jpg",
-      "publishedAt": 1787339775000
     }
   ]
 }
