@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-21T21:35:54.756Z",
+  "updatedAt": "2026-08-21T21:57:12.556Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Why Is Tesla Stock Up Today?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/5a0bf949-d207-3a8f-9d9f-f9c30fbd93b8/why-is-tesla-stock-up-today%3F.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jLRRLShwYS6IWRsv01fxDA--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/52695136bc64c92fba1d744c84da0c52.jpg",
+      "publishedAt": 1787348793000
+    },
     {
       "ticker": "GOOGL",
       "title": "Anthropic hires ex-Google chip chief as AI lab pushes into hardware - Bloomberg",
@@ -58,12 +66,12 @@
       "publishedAt": 1787344825000
     },
     {
-      "ticker": "PLTR",
-      "title": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/X0mQntFqVUzwJkkDQv.ZLg--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/61fe390fad87bddd862927d41084d952.jpg",
-      "publishedAt": 1787344811000
+      "ticker": "AMZN",
+      "title": "Q3 Earnings Preview: High Expectations, Positive Revisions, and Broad-Based Growth",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-preview-high-expectations-203800936.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5md8NmcIU8nW_mVTCpuXqw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/83b2d8d6e887582ab2a4b75afc22f2d9.jpg",
+      "publishedAt": 1787344680000
     },
     {
       "ticker": "MA",
@@ -74,7 +82,7 @@
       "publishedAt": 1787344440000
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "AMZN",
       "title": "DeepSeek Creates New Headache for AI Stocks",
       "publisher": "GuruFocus.com",
       "link": "https://finance.yahoo.com/technology/ai/articles/deepseek-creates-headache-ai-stocks-201711619.html",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/f9848c02-9b88-3cc0-b4b1-482a54bfbfe5/palantir-stock-clears-buy.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/F2y8SIiZxElAZ3NB2C6SSg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/039dae1f1d66e79c8e25182c81503428.jpg",
       "publishedAt": 1787339775000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks sold a lot of Unicorn drinks last weekend",
-      "publisher": "Nation's Restaurant News",
-      "link": "https://finance.yahoo.com/m/32d071d4-a672-3721-b0cc-1fc3a33a2a65/starbucks-sold-a-lot-of.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VwV.lfl5JjMIyPgTuftMIw--~B/aD00MjM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/nation_s_restaurant_news_250/e6c7caca2f004dfdf6ca69344ca24298.jpg",
-      "publishedAt": 1787339295000
     }
   ]
 }
