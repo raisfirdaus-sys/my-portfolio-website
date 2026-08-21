@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-21T18:52:43.282Z",
+  "updatedAt": "2026-08-21T19:34:21.205Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Sector Update: Tech",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-192114098.html",
+      "image": null,
+      "publishedAt": 1787340074000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Stock Clears Buy Zone But Could Offer Alternative Entry",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/f9848c02-9b88-3cc0-b4b1-482a54bfbfe5/palantir-stock-clears-buy.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/F2y8SIiZxElAZ3NB2C6SSg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/039dae1f1d66e79c8e25182c81503428.jpg",
+      "publishedAt": 1787339775000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Marvell Quarterly Results Poised for Upside Led by AI, Customer Wins, Oppenheimer Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/marvell-quarterly-results-poised-upside-190123875.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HXCd4Q3PywZp_L5iYzq_Ug--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/864340d747a4694f07a45faa27fa888d.jpg",
+      "publishedAt": 1787338883000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Slips as Walmart Raises a Fresh Consumer Warning",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-slips-walmart-raises-fresh-185958464.html",
+      "image": null,
+      "publishedAt": 1787338798000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Take-Two Stock's Next Leg Sits In A Guide That Has Not Moved",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/f3bcd58e-3dfa-3db0-9549-10336be8a6d5/take-two-stock%27s-next-leg.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tU_g7CbKOyZZDQ63kg8ITA--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/5a42bac006b4b44b0a6da7b76ba60c19.jpg",
+      "publishedAt": 1787338527000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Is Microsoft a Screaming Buy Under $500 Per Share?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/5f80281e-b114-34ac-bb02-b515e4599ca0/is-microsoft-a-screaming-buy.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WnS_Ny8j6mDr_1J2ytqwdA--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2de581845e53d11314fb49027709830f.jpg",
+      "publishedAt": 1787338320000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Lilly's Multiple Assumes Less Growth Than You Think",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/2dc50e36-fa9e-3b3c-95fe-457169f7ec52/lilly%27s-multiple-assumes-less.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ffBijilLu6TyRHhiCI63GA--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58.jpg",
+      "publishedAt": 1787337656000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Stock Gets Cheaper Only If The Forecast Arrives",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/51981666-fad5-3560-834f-d1fef4721335/microsoft-stock-gets-cheaper.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xc0hpT8NzwpzURO17wULxA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f5bbfd947ebcc09b4a540f522b416137.jpg",
+      "publishedAt": 1787337028000
+    },
     {
       "ticker": "MSFT",
       "title": "Amazon Stock: Cloud Takes The Spotlight While The Store Pays The Toll",
@@ -26,7 +90,7 @@
       "publishedAt": 1787335847000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "What Adobe Stock's Low Earnings Multiple Is Actually Priced On",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/5d008601-4574-3044-abfd-3058074f3bf3/what-adobe-stock%27s-low.html",
@@ -42,12 +106,12 @@
       "publishedAt": 1787335281000
     },
     {
-      "ticker": "GOOGL",
-      "title": "MS Global Franchise Portfolio's Bold Q2 2026 Move: Exits Zoetis Inc, a -2.6% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ms-global-franchise-portfolios-bold-180047857.html",
-      "image": null,
-      "publishedAt": 1787335247000
+      "ticker": "AMZN",
+      "title": "Zohran Mamdani Sues NYC Council Over $10,000 School Aide Bonus: ‘Political Process’ Can’t Replace Collective Bargaining",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/fe0d5e47-7eb0-3a84-9c6c-0adbb11b46c7/zohran-mamdani-sues-nyc.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.CKFToM5aZKbuZ10gzvV3A--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/b6a8737dccdf7aa504665f1370e40232.jpg",
+      "publishedAt": 1787335267000
     },
     {
       "ticker": "ABBV",
@@ -58,36 +122,12 @@
       "publishedAt": 1787334529000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Tesla Robotaxi, Alphabet's Waymo, Uber's Aviari Approved to Operate in Nevada by State Regulator",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/tesla-robotaxi-alphabet-apos-waymo-174759747.html",
-      "image": null,
-      "publishedAt": 1787334479000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Jensen Huang Thinks This Chip Stock Could Hit $1 Trillion. Google Just Gave Him Ammunition",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-thinks-chip-stock-174546833.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yqkH1cPFCFZ2kvPs05x6qA--~B/aD0xMDI0O3c9MTAyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/74bbfd2ca4660372822b2c93f2367fd3.jpg",
-      "publishedAt": 1787334346000
-    },
-    {
       "ticker": "JNJ",
       "title": "Sector Update: Healthcare Stocks Advance in Afternoon Trading",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-174323348.html",
       "image": null,
       "publishedAt": 1787334203000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Zoom Stock Is Priced Three Separate Ways At Once",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/1469d525-1d57-3ed6-b593-d1521f13ab3a/zoom-stock-is-priced-three.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VDtw0ATI2i_GesJrlOnyuA--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/6fd61a3fd309a828c74619277f264657.jpg",
-      "publishedAt": 1787333702000
     },
     {
       "ticker": "SBUX",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/82f7675c-88f1-3e0b-94f6-34c78b397d98/even-the-calm-reading-on.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/5HEtZmorqSXOj6Yz07mD6Q--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/aec1911f7df19eee11f9c07efd02521d.jpg",
       "publishedAt": 1787333237000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Hyperscalers Will Spend $750 Billion on AI This Year. Cummins Sells the Backup Power.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/90695156-8fe3-3030-a9c5-daa21184f6d8/hyperscalers-will-spend-%24750.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9Ud0ZUFb.RB_ULKe4fJP_w--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/663a9a51a58760b45b55208d957af47d.jpg",
-      "publishedAt": 1787333100000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/1a3b1b78-5fc3-34a6-b24b-b0839c3bbe03/palantir-climbs-4%25-through.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/yvARN0zTwwqc_oBG9zzIeQ--~B/aD0xOTIwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8d1bc14b9a9148b650a594cf7925e031.jpg",
-      "publishedAt": 1787332205000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Sector Update: Healthcare",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-171004536.html",
-      "image": null,
-      "publishedAt": 1787332204000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks Is Up 25% This Year While Dutch Bros Lags. Is the Gap Justified?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/25b204c9-865c-374a-8701-cd192c649b77/starbucks-is-up-25%25-this-year.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QHcWpM7Ie1sV4Ogf.SCjcQ--~B/aD05MzA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/859e9d15354e0e56c9cc744b1f6f1d34.jpg",
-      "publishedAt": 1787331900000
-    },
-    {
-      "ticker": "MA",
-      "title": "PayPal Agentic Payments: Can They Reshape the Future of Commerce?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-agentic-payments-reshape-future-164500935.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ps7oFH34gjGCcwC11FBngw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0972ed26da02b91851ed074b35adf13e.jpg",
-      "publishedAt": 1787330700000
     }
   ]
 }
