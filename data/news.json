@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-22T15:54:25.313Z",
+  "updatedAt": "2026-08-22T16:37:39.847Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "How a 53-Year-Old Can Turn $465,000 Into a Monthly Paycheck Machine by 63",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/6a9952ca-f524-3df0-8713-d8784a907c21/how-a-53-year-old-can-turn.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fBTCrhNZ.yopbxpMefxjKQ--~B/aD03OTE7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3a8a904420ed5f964f487f0b42c7e61e.jpg",
+      "publishedAt": 1787414391000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Alphabet, Meta, and Microsoft Are Hiding $3 Trillion in Debt On the AI Boom’s Hidden Ledger",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/a13d97ec-fd25-3c1b-8cd8-fc0568f4c53d/alphabet%2C-meta%2C-and-microsoft.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vYZ.L1RqJSSdNuwGusxgEg--~B/aD0xMDAxO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/78589badc56b7021feb21b00b771359d.jpg",
+      "publishedAt": 1787413960000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Could Own 7% of Marvell — But Here’s What Google Has to Do to Get It",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/405e73d4-1960-37a9-9afc-220a5360b4ed/alphabet-could-own-7%25-of.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jDEI.Yar8oNDR22UsFhnRQ--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/9ac2d3422348e28b9d3fe79607f72124.jpg",
+      "publishedAt": 1787413727000
+    },
     {
       "ticker": "AMZN",
       "title": "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
@@ -114,36 +138,12 @@
       "publishedAt": 1787374800000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Google Is Getting Paid in Marvell Stock Warrants for Buying Marvell's Chips",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/3ad24f96-2e76-3779-be68-5287ce12ba09/google-is-getting-paid-in.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uPnD2ZjSrFaWje0DddBTPg--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/61b47800d0786bf06339873c6393de46.jpg",
-      "publishedAt": 1787370421000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Berkshire Hathaway (BRK.A) Stock Still Looks Cheap Relative To Fair Value",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-stock-still-021108039.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nA_1F68AUqdZwl_JPiiPcg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/68bc84512dd242df54712b90bf389fa0.jpg",
-      "publishedAt": 1787364668000
-    },
-    {
       "ticker": "AMZN",
       "title": "Exclusive: Amazon quietly hiked prices on Echo, Fire TV, Kindle, and eero overnight to offset ‘significant increases’ in memory costs",
       "publisher": "Fortune",
       "link": "https://finance.yahoo.com/technology/articles/exclusive-amazon-quietly-hiked-prices-235035811.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/ES2pbvGk4U_poHPj6Ps2fw--~B/aD0xMzY2O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/f71ab8ea5f4b27ef10e5123c977a81ea.jpg",
       "publishedAt": 1787356235000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/6d239e08-64d1-30c3-adf3-1ce7d0e7c046/microsoft-vs.-broadcom%3A-one.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/X2Iwtm9qmRAMYggIi5Zdvw--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/bc247c7d783ef717bd9c3975fcb4842e.jpg",
-      "publishedAt": 1787353202000
     }
   ]
 }
