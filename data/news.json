@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-22T11:55:01.445Z",
+  "updatedAt": "2026-08-22T12:57:51.638Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Anthropic market debut could break SpaceX IPO record: media",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-market-debut-could-break-124722679.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wX1cz4.ODwnLVb5a7AdCFg--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/9969d8a72cdd47e6cf58524e5454bf84.jpg",
+      "publishedAt": 1787402842000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog (DDOG) Rides The AI And Cloud Narrative, Is The Stock Fully Valued?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-rides-ai-cloud-120904504.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fsx96dp0y5PlixCTB_7dKQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a85abebab4ccc2a0f756a19627f97b6e.jpg",
+      "publishedAt": 1787400544000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir, Freeport Clear Buy Points, Lead Five Stocks To Watch",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/9057af07-60ab-3c1c-b640-407251f6e2fc/palantir%2C-freeport-clear-buy.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bewR2yyZ0AFRxRW1jcllQA--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/c0c5a2c46c1cc91816545d5d58284377.jpg",
+      "publishedAt": 1787400019000
+    },
     {
       "ticker": "MSFT",
       "title": "3 AI Stocks Built for the Next Decade",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/803003a7-8bb1-3810-be65-a97244c27760/obook-q2-earnings-call.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/O7NaJ016q.rsunrWfYlmdA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/285e7acbf1a990b211beb42e6fdb5f85.png",
       "publishedAt": 1787349737000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Toughest Questions HD Faced On Its Latest Call",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/6109a30b-1cd8-3ea1-9a2e-6be06ff59811/the-toughest-questions-hd.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/7KLbPkHiyut9.l9fVf7A0w--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/faf8a0c6bfeef3257266f056aa5e762a.jpg",
-      "publishedAt": 1787348097000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bernie Sanders Warns AI Billionaires Could ‘Obliterate’ Jobs and ‘Destroy the Environment,’ Calls for Data Center Moratorium",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/m/13d9c4e7-5f1a-3a9a-ac21-95ab9db5060e/bernie-sanders-warns-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/47NAutTNZUjaHIPlqBHiJg--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/0df6bcb21b92f5a1c178cf3c8f426fd9.jpg",
-      "publishedAt": 1787347831000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Anthropic hires ex-Google chip chief as AI lab pushes into hardware - Bloomberg",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-hires-ex-google-chip-211528852.html",
-      "image": null,
-      "publishedAt": 1787346928000
     }
   ]
 }
