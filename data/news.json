@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-22T12:57:51.638Z",
+  "updatedAt": "2026-08-22T13:41:22.408Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "D.E. Shaw Just Disclosed a $912 Million SpaceX Stake and a 58% Broadcom Cut in the Same Quarter",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9cb0dbb4-8963-3f7f-ad5a-beeae6969c1e/d.e.-shaw-just-disclosed-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/V2zkYwPg6D.VflInMb78ow--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/9bdfb55abb95e7b1b7f8eaec8dad2fb2.jpg",
+      "publishedAt": 1787403645000
+    },
+    {
+      "ticker": "KO",
+      "title": "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d30bac14-0c93-37f7-b756-b1790edd35b9/forget-high-yield-traps%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6LuyegLRh.qubNDXsEnlJg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c12f84eb025f842d39f9660c5e3cecb2.png",
+      "publishedAt": 1787403540000
+    },
     {
       "ticker": "MSFT",
       "title": "Anthropic market debut could break SpaceX IPO record: media",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-expedia-nasdaq-221947445.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/swfB3k9WJqWXN0vCxCbSyw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/3d4e5300f7fef7f270333a932d8abd93.jpg",
       "publishedAt": 1787350787000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/4bbbca5e-6c1c-32ff-a245-7fd42e99ed0f/morgan-stanley-resets-nvidia.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CjkT5pwfwV9g2AWXIMqomg--~B/aD0yNjAxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/67cd151230d5102c3bbea683f5f6e7ef.jpg",
-      "publishedAt": 1787350620000
-    },
-    {
-      "ticker": "V",
-      "title": "OBOOK Q2 Earnings Call Highlights",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/803003a7-8bb1-3810-be65-a97244c27760/obook-q2-earnings-call.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/O7NaJ016q.rsunrWfYlmdA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/285e7acbf1a990b211beb42e6fdb5f85.png",
-      "publishedAt": 1787349737000
     }
   ]
 }
