@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-23T15:55:09.090Z",
+  "updatedAt": "2026-08-23T16:39:35.453Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/5a241fc4-1169-3e4c-b6ef-b07d8dbf47ee/the-%241.7-trillion-job.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ah6UIlU4GZtALF.6pf5t5w--~B/aD0yNTYwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/33f30ea6b95a29e993c1928cd4f72023.jpg",
+      "publishedAt": 1787501862000
+    },
     {
       "ticker": "GOOGL",
       "title": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/158484a0-bfd5-3828-b965-441ae440747e/4-low-cost-etfs-every.html",
       "image": null,
       "publishedAt": 1787482829000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia Reportedly Warns Top Customers of 15% Price Hikes on AI Servers",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/233d7487-7431-3180-8c72-f80ec9adb8d0/nvidia-reportedly-warns-top.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IPpJO351r_WcaHtVGyprXw--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/5c315608dc46cbd3c3edbec50b90d6bc.jpg",
-      "publishedAt": 1787480904000
     }
   ]
 }
