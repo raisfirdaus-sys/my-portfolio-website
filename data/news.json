@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-23T19:31:42.883Z",
+  "updatedAt": "2026-08-23T19:52:55.753Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/edf16a55-11a1-3a0b-a793-dafd22126c54/this-company-has-raised-its.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HqnYEEh8x3jvCqltVYp9gA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/96c1edfd7c3b01f24ac6be8fef92938a.jpg",
+      "publishedAt": 1787513280000
+    },
     {
       "ticker": "GOOGL",
       "title": "Verizon Communications (VZ) Rolls Out New Wireless Plans With AI Perks And Upgrades",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/88a16066-0d45-3dd4-b0d5-1183ce7aeb41/the-portfolio-blueprint-for.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/N2FpPxQg9se309RsLxGTQw--~B/aD02ODI7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/8b87ce7d624cf8cd24c83eefc4478da1.jpg",
       "publishedAt": 1787485989000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock Dropped 30% From Its All-Time High: 2 Reasons It Could Double by 2030",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/2040187f-ad4d-342f-b286-5cabe5fd231b/microsoft-stock-dropped-30%25.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/P2EO8_p6CM42yZMh1hrJ7g--~B/aD04OTQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2f24df5355297691792461c97926893e.jpg",
-      "publishedAt": 1787485440000
     }
   ]
 }
