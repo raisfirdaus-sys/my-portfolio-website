@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-23T15:33:59.829Z",
+  "updatedAt": "2026-08-23T15:55:09.090Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/0e59a5e5-ab84-3ef9-be37-eb9e8ef6de5d/berkshire-ceo-greg-abel-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Re71XdZwtigCno8nzu16ww--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/96c2fce0698da7d5cd0657ada116f1ef.png",
+      "publishedAt": 1787499300000
+    },
     {
       "ticker": "KO",
       "title": "Jim Cramer holds back support for surging beverage stock",
@@ -8,6 +16,14 @@
       "link": "https://finance.yahoo.com/m/1db8bbd0-f76d-3dd0-ad3b-c31d4ad408d5/jim-cramer-holds-back-support.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/xHI2PeQESsdxZBUj.cC7sg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/24c07e764d76fe4b7ebcc7f82ef92369.jpg",
       "publishedAt": 1787498160000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "How to Build $6,600 a Month in Dividend Income From Three Income Buckets",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/7821f2c3-8875-31f4-b556-a4ab2d6ae1dc/how-to-build-%246%2C600-a-month.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/29MwiO_ZNwl77r8BvQ4ltA--~B/aD04NDQ7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a0edcc38b39ea522e54a973f790f57a0.jpg",
+      "publishedAt": 1787497581000
     },
     {
       "ticker": "MSFT",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/233d7487-7431-3180-8c72-f80ec9adb8d0/nvidia-reportedly-warns-top.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/IPpJO351r_WcaHtVGyprXw--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/5c315608dc46cbd3c3edbec50b90d6bc.jpg",
       "publishedAt": 1787480904000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Billionaire David Tepper Has 16% of His $7.5 Billion Appaloosa Portfolio in Amazon Stock. Is It Still a Buy?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e2cb05c7-a625-32ec-91c2-21f7facb0319/billionaire-david-tepper-has.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NHhMqoZpcEbKiGDULoSA2g--~B/aD04MTQ7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6624d3a9e01fc176d08aaa80cccf9d31.jpg",
-      "publishedAt": 1787480520000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/aws-lagging-microsoft-azure-google-084105975.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/sg2cspR_yi6FJUARdek3fw--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/912573c6f9ee1d138f17f4bc114d18ed.jpg",
-      "publishedAt": 1787474465000
     }
   ]
 }
