@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-23T07:44:16.442Z",
+  "updatedAt": "2026-08-23T08:45:20.544Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/dc477381-6af1-3359-81ed-6aa09b1c78ae/3-tech-compounders-fit-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9P00G4ew_WlLm8Frc33ZLQ--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9791405a1b11b7df5461066c83fffbd6.png",
+      "publishedAt": 1787474100000
+    },
+    {
+      "ticker": "KO",
+      "title": "1 Overlooked Dividend King With a 63-Year Winning Streak Worth Buying Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/62bb36e5-3a0a-3670-a066-03fe541d9f72/1-overlooked-dividend-king.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SotGVlVCeKupAxKGuoAoRA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/95761538bcfa119f65353e9d3b2542ef.jpg",
+      "publishedAt": 1787472900000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet and Amazon Are Cheaper Than the S&P 500. What's Going On?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e5931769-c1d2-33e0-ba6e-1c29c7ebb436/alphabet-and-amazon-are.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tPjAIyUHZt2eyiWFZODiJg--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9f8c49b8cceb6c4c1de1224bce9cf507.jpg",
+      "publishedAt": 1787472300000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
@@ -82,22 +106,6 @@
       "publishedAt": 1787428562000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Does Greg Abel Know Something Wall Street Doesn't? New Berkshire Hathaway CEO Doubles Down On a Legacy Department Store Stock With a 3.3% Dividend Yield",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/dc9ca545-bb05-35a1-8c77-893ffc26c8a1/does-greg-abel-know-something.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tCEz.FzUOpYZxRb0fR8ndg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/7d3daa0e489155f715e07cbdade23e78.png",
-      "publishedAt": 1787428380000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/272f6940-9152-3566-9839-0fe415bedad5/third-point-starts-to-raise.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eXKzMwBcI8dyOjEg_Wi8iw--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/6db059d55a8b33591184c4073c0de681.jpg",
-      "publishedAt": 1787427002000
-    },
-    {
       "ticker": "MSFT",
       "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
       "publisher": "Reuters",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/a6434137-d738-3803-ab31-a65cc0756a5f/microsoft-has-something.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/x07jrQmTt65R.OESodckcQ--~B/aD03MjA7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/488057af4aea60be04b281b5dcd14b08.jpg",
       "publishedAt": 1787418029000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "AI’s Absurd Spending Boom? Hyperscalers Are Spending 102% of Cloud Revenue on Capex",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/5e3d3153-2958-390a-a18c-89976740cdda/ai%E2%80%99s-absurd-spending-boom%3F.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/m.YnKdTmmUhGJA9gf_PXWg--~B/aD0xMDAxO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/46a98b0520c46357b4fd183d04b432cb.jpg",
-      "publishedAt": 1787416029000
     }
   ]
 }
