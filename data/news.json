@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-23T08:45:20.544Z",
+  "updatedAt": "2026-08-23T09:39:38.928Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/aws-lagging-microsoft-azure-google-084105975.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sg2cspR_yi6FJUARdek3fw--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/912573c6f9ee1d138f17f4bc114d18ed.jpg",
+      "publishedAt": 1787474465000
+    },
     {
       "ticker": "GOOGL",
       "title": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
@@ -98,28 +106,12 @@
       "publishedAt": 1787429040000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Is Alphabet’s Search Risk Really Priced In? Stress-Testing Rosenblatt’s $410 Thesis",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-search-risk-really-priced-195602365.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MRPBEPTDYim8D7I6Het9uw--~B/aD0zODQwO3c9NTc2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/6469679c78d003445a578485413f37fc.jpg",
-      "publishedAt": 1787428562000
-    },
-    {
       "ticker": "MSFT",
       "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
       "publisher": "Reuters",
       "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-customers-notified-ai-related-192053530.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/lHVlldZAuq9b2v4jbqHYVw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/81ad7325221a6acc6ead9f225fb37bfc.jpg",
       "publishedAt": 1787426453000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon's Custom Chip Business Crossed a $25 Billion Run Rate: Time to Load Up on Shares?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/61dccfd3-ef54-3d15-b919-8665a929f303/amazon%27s-custom-chip-business.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Ea5oSeZntrvDI5hYRlcTqw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/db7c824dd9477911349ed484a833aa2a.png",
-      "publishedAt": 1787424780000
     },
     {
       "ticker": "MSFT",
@@ -138,12 +130,20 @@
       "publishedAt": 1787418487000
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Has Something Nvidia Doesn’t and Here’s Why it Matters",
+      "ticker": "JNJ",
+      "title": "How a 53-Year-Old Can Turn $465,000 Into a Monthly Paycheck Machine by 63",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/a6434137-d738-3803-ab31-a65cc0756a5f/microsoft-has-something.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/x07jrQmTt65R.OESodckcQ--~B/aD03MjA7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/488057af4aea60be04b281b5dcd14b08.jpg",
-      "publishedAt": 1787418029000
+      "link": "https://finance.yahoo.com/m/6a9952ca-f524-3df0-8713-d8784a907c21/how-a-53-year-old-can-turn.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fBTCrhNZ.yopbxpMefxjKQ--~B/aD03OTE7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3a8a904420ed5f964f487f0b42c7e61e.jpg",
+      "publishedAt": 1787414391000
+    },
+    {
+      "ticker": "KO",
+      "title": "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d30bac14-0c93-37f7-b756-b1790edd35b9/forget-high-yield-traps%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6LuyegLRh.qubNDXsEnlJg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c12f84eb025f842d39f9660c5e3cecb2.png",
+      "publishedAt": 1787403540000
     }
   ]
 }
