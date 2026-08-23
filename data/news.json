@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-23T10:56:39.305Z",
+  "updatedAt": "2026-08-23T11:32:23.738Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia's Q2 earnings to test resurgent AI trade",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gtJW_6Yt.GlFvIiAZnJELg--~B/aD00MjY0O3c9NjQwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2026-08/11735c30-91bf-11f1-b7f2-8ded4782cfdd",
+      "publishedAt": 1787484302000
+    },
+    {
+      "ticker": "KO",
+      "title": "3 Dividend Stocks to Buy Before August Ends and Hold for Life",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/f8bae8a6-fb29-3263-84ab-ba8c81dbfc7a/3-dividend-stocks-to-buy.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mHNF83jQzUZsrgorH0PBKA--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/5a3a0a80a54c01823bc21eb7e33b1ebb",
+      "publishedAt": 1787482858000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "4 Low-Cost ETFs Every Investor Should Own",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/158484a0-bfd5-3828-b965-441ae440747e/4-low-cost-etfs-every.html",
+      "image": null,
+      "publishedAt": 1787482829000
+    },
     {
       "ticker": "MSFT",
       "title": "Nvidia Reportedly Warns Top Customers of 15% Price Hikes on AI Servers",
@@ -106,20 +130,12 @@
       "publishedAt": 1787433807000
     },
     {
-      "ticker": "MSFT",
-      "title": "Nvidia customers face over 15% server price hikes as memory costs soar - report",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-customers-face-over-15-211744754.html",
-      "image": null,
-      "publishedAt": 1787433464000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-customers-notified-ai-related-192053530.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lHVlldZAuq9b2v4jbqHYVw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/81ad7325221a6acc6ead9f225fb37bfc.jpg",
-      "publishedAt": 1787426453000
+      "ticker": "MA",
+      "title": "Trump’s Stock Disclosure Shows More Than 1,000 Trades in June",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/trump-stock-disclosure-shows-more-193105313.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MXGTXNpU0PWrGEXRPOCXFQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/06107961cb4faee04578d98c1c4be7cb.jpg",
+      "publishedAt": 1787427065000
     },
     {
       "ticker": "MA",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-backs-standards-agentic-170807925.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/S7MQEEXBIeGh5oNdkHunaA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e.jpg",
       "publishedAt": 1787418487000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "How a 53-Year-Old Can Turn $465,000 Into a Monthly Paycheck Machine by 63",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/6a9952ca-f524-3df0-8713-d8784a907c21/how-a-53-year-old-can-turn.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fBTCrhNZ.yopbxpMefxjKQ--~B/aD03OTE7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/3a8a904420ed5f964f487f0b42c7e61e.jpg",
-      "publishedAt": 1787414391000
-    },
-    {
-      "ticker": "KO",
-      "title": "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/d30bac14-0c93-37f7-b756-b1790edd35b9/forget-high-yield-traps%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6LuyegLRh.qubNDXsEnlJg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c12f84eb025f842d39f9660c5e3cecb2.png",
-      "publishedAt": 1787403540000
     }
   ]
 }
