@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-24T11:40:39.731Z",
+  "updatedAt": "2026-08-24T12:01:05.757Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Visa Jumps Toward Record High as Spending Defies Walmart's Warning",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-jumps-toward-record-high-115040325.html",
+      "image": null,
+      "publishedAt": 1787572240000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "X-Energy's TRISO-X Unit Advances Construction of Fuel Fabrication Facility in Tennessee",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/x-energy-apos-triso-x-115036159.html",
+      "image": null,
+      "publishedAt": 1787572236000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard Jumps as Cross-Border Growth Crushes Consumer Fears",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-jumps-cross-border-growth-114933663.html",
+      "image": null,
+      "publishedAt": 1787572173000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet’s (GOOG) Sustainable Growth Outlook Appears Stronger Than Expectations",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-sustainable-growth-outlook-114703202.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/QcWBLnxstGZnlaKoCB4TyQ--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6409e61fe6e177c1ebb9125c47486f11.jpg",
+      "publishedAt": 1787572023000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Could Be Worth More Than Tesla and SpaceX Combined by 2030. Here's the Math.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/599d0862-98ee-3e53-a56c-383ad17c506d/amazon-could-be-worth-more.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7T4fyNYo.6fTPlUcW06_uQ--~B/aD03Nzk7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4a5c3d87c1fbf321d84a6ebeefc65b33.jpg",
+      "publishedAt": 1787571420000
+    },
     {
       "ticker": "MA",
       "title": "Trump June stock disclosure: 1,000+ trades worth up to $263M",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/video/olipop-beating-big-soda-own-100000930.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/EksxkTwWAQ2Pa0UTx0Poeg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/pp-thumbnail-bengoodwin1-0819_1332.png",
       "publishedAt": 1787565600000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The One Line in Anthropic's S-1 That Amazon Investors Should Read First",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/327fbf96-0cc7-3c6b-9421-72d67726fa55/the-one-line-in-anthropic%27s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VvpBw46GPFP5UyDT_U75Ag--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c747cdee3d359a834349d90d310b9d76.png",
-      "publishedAt": 1787565000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Anthropic's Claude Models Resume Normal System Operations After Elevated Errors on Requests",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-apos-claude-models-resume-092415490.html",
-      "image": null,
-      "publishedAt": 1787563455000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The Zacks Analyst Blog Highlights Apple, Alphabet, Microsoft and Amazon",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-092400354.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IbEB5SHiJS.f2SttGKUkUw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ed882329f9e0d46b7a79e76e0886eca4.jpg",
-      "publishedAt": 1787563440000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Market Chatter: Nvidia AI Server Prices Set to Rise Over 15% Caused by Memory Costs",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-ai-server-085849345.html",
-      "image": null,
-      "publishedAt": 1787561929000
-    },
-    {
-      "ticker": "MA",
-      "title": "ICYMI: Trump’s Stock Trades",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/b264e087-2755-32c5-aef8-9348a1eeccb5/icymi%3A-trump%E2%80%99s-stock-trades.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YGeB9O_Eb21P2ve_VHG5Qg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
-      "publishedAt": 1787559417000
     }
   ]
 }
