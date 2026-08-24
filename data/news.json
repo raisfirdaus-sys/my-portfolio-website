@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-24T09:28:26.124Z",
+  "updatedAt": "2026-08-24T10:20:52.371Z",
   "items": [
+    {
+      "ticker": "KO",
+      "title": "How Olipop is beating big soda at its own game: Fmr CEO",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/olipop-beating-big-soda-own-100000930.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/EksxkTwWAQ2Pa0UTx0Poeg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/pp-thumbnail-bengoodwin1-0819_1332.png",
+      "publishedAt": 1787565600000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The One Line in Anthropic's S-1 That Amazon Investors Should Read First",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/327fbf96-0cc7-3c6b-9421-72d67726fa55/the-one-line-in-anthropic%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/VvpBw46GPFP5UyDT_U75Ag--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c747cdee3d359a834349d90d310b9d76.png",
+      "publishedAt": 1787565000000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Anthropic's Claude Models Resume Normal System Operations After Elevated Errors on Requests",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-apos-claude-models-resume-092415490.html",
+      "image": null,
+      "publishedAt": 1787563455000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The Zacks Analyst Blog Highlights Apple, Alphabet, Microsoft and Amazon",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-092400354.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IbEB5SHiJS.f2SttGKUkUw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ed882329f9e0d46b7a79e76e0886eca4.jpg",
+      "publishedAt": 1787563440000
+    },
     {
       "ticker": "MSFT",
       "title": "Market Chatter: Nvidia AI Server Prices Set to Rise Over 15% Caused by Memory Costs",
@@ -66,28 +98,12 @@
       "publishedAt": 1787545789000
     },
     {
-      "ticker": "AMZN",
-      "title": "WMT Stock Heads For Fourth Month In Red: Walmart Reportedly Bets On Under-$25 Fashion Line To Take On Amazon",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/2fb623d1-97da-31bf-8af3-7ec53598b55a/wmt-stock-heads-for-fourth.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/5HF25RS.tlrnWd0evP9tIg--~B/aD04NTI7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/8c3b72fefc538482a7cdcb4aa1f55d13.jpg",
-      "publishedAt": 1787542452000
-    },
-    {
       "ticker": "MSFT",
       "title": "NVDA Stock Comes Off Rough Week: AI Darling Reportedly Plans Major Price Hike As Q2 Earnings Loom",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/c66e4301-d366-3fbf-9012-696e534eef16/nvda-stock-comes-off-rough.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/OxZKEJ5p_lajbYwSntmmUQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/f55caa28949f1d3910b06d5b44ba4aae.jpg",
       "publishedAt": 1787541657000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Elon Musk just got into another airline disagreement",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/c706a7b7-3576-3f0a-bdf4-b1c41be2a392/elon-musk-just-got-into.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8kY9jt5J8H8P1WZNAIy7ug--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/eceab3e51d3174c2235d8224610d3665.jpg",
-      "publishedAt": 1787540820000
     },
     {
       "ticker": "GOOGL",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-fall-8-10-015142456.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/jUqOm.aXsKYrfT2zQ0w9pQ--~B/aD01Nzk7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/99f720e11538de8f0d17a397d8100584.jpg",
       "publishedAt": 1787536302000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie’s Humira Replacement Strategy Is Working, But Could Growth Be Too Concentrated?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-humira-replacement-strategy-working-010120760.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/iPZhMm53aflQqniSHmLciA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/c554ad8e2af773e2e2a8438bfe2291ee.jpg",
-      "publishedAt": 1787533280000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Pfizer vs. Johnson & Johnson: Which Pharma Giant Is Better Prepared for Its Patent Cliff?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-johnson-johnson-pharma-004627834.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/97E6.H_Wf7Iz66yHWawp5w--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/2599eaa3ebd7014f60b50968b758cbd7.jpg",
-      "publishedAt": 1787532387000
     }
   ]
 }
