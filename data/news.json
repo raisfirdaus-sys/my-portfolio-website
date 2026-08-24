@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-24T01:55:09.136Z",
+  "updatedAt": "2026-08-24T03:14:10.143Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom Has Seen Its Biggest Customer Drop a Key Chip Before. History Says What the Stock Did Next.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b84c59b0-bcda-30b2-9bc2-7ac95d682250/broadcom-has-seen-its-biggest.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5JhUWTg_owyhRJny3mraiQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4aa4cb39178df9f51b0c00090adb76c3.png",
+      "publishedAt": 1787539561000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Bill Gates' Foundation Holds Berkshire Hathaway as Its Top Stock, a Signal of Its Preference for Steady Compounders Over Flashy Tech",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/22cd380b-6af5-3052-99a4-34b3765575af/bill-gates%27-foundation-holds.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/puBxOPPpQlSafVrQpLjevw--~B/aD04MDA7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f0e8cc2c8f0029a0328d0009e58b28bb.jpg",
+      "publishedAt": 1787538900000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Anthropic makes quiet move Nvidia investors must consider",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/1e8db1c9-a0e8-31c2-8ab1-28d5af0a023a/anthropic-makes-quiet-move.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kxXFgruiD0wM3_VFrX_yig--~B/aD0yNTYxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b0abc2687e10ec378cc407216499a473.jpg",
+      "publishedAt": 1787538780000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Peter Thiel’s Fund Shows the Next Big AI Bet Is Power, Not Chips",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/fe212758-9ff7-35f5-8df5-01d283e94ff6/peter-thiel%E2%80%99s-fund-shows-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/R7mwZInO2mvqLBou5sN0tQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/beincrypto_us_662/fac9730a5e68bd1b9abcb7e51cf40032.jpg",
+      "publishedAt": 1787537235000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alibaba shares fall 8% after $10 billion Hong Kong share sale",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-fall-8-10-015142456.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jUqOm.aXsKYrfT2zQ0w9pQ--~B/aD01Nzk7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/99f720e11538de8f0d17a397d8100584.jpg",
+      "publishedAt": 1787536302000
+    },
     {
       "ticker": "ABBV",
       "title": "AbbVie’s Humira Replacement Strategy Is Working, But Could Growth Be Too Concentrated?",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/8322ee48-a104-33a7-8879-f0513fedd10a/oracle-vs.-amazon%3A-which-is.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/gHsmrs.gedUPQtfUXkD9wg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b1704a27f073bc265bcc634e7de8620b.png",
       "publishedAt": 1787515980000
-    },
-    {
-      "ticker": "MA",
-      "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/0bdecc4d-5be8-387f-9213-1c44c41ccecf/after-buying-circle-through-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PXGnV.ONWPyvSqRXiVlEtQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/beincrypto_us_662/c0304d9185145cdceb1e0b2be9e0eb04.jpg",
-      "publishedAt": 1787515221000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Hugging Face exploring sale valuing it at $13 billion, Business Insider says",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/technology/ai/articles/hugging-face-exploring-sale-valuing-200012818.html",
-      "image": null,
-      "publishedAt": 1787515212000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead’s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9wvD.q6telDnj1C4PfyoMQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/11c0338c5011aa20a9d44b77386b4a12.jpg",
-      "publishedAt": 1787515067000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Pfizer vs. Gilead: Which Drugmaker Has the Stronger Growth Story?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-gilead-drugmaker-stronger-195408536.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Qo2VfuNys9T4fhBY.jWVXA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/1f6bf11ec73fb18d603d5489db1ef2d2.jpg",
-      "publishedAt": 1787514848000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/edf16a55-11a1-3a0b-a793-dafd22126c54/this-company-has-raised-its.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HqnYEEh8x3jvCqltVYp9gA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/96c1edfd7c3b01f24ac6be8fef92938a.jpg",
-      "publishedAt": 1787513280000
     }
   ]
 }
