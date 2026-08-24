@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-24T21:41:13.215Z",
+  "updatedAt": "2026-08-24T22:01:16.800Z",
   "items": [
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola's stock buybacks: What its latest program means for investors",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/a8cf80bf-2235-31b6-bac1-9a8552134295/coca-cola%27s-stock-buybacks%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CitGgVxIrzWvVmsVboV79Q--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/fda536c909699e28c41cd2568d6c889d.jpg",
+      "publishedAt": 1787608385000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Alibaba Dilutes Shares To Feed Its AI Spending Spree",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/m/5e2838cd-2072-3f00-a0d1-4d5069b29c98/alibaba-dilutes-shares-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.wm5SVRaZIHfvmoJBlczAw--~B/aD0xMTUyO3c9OTI4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/moby_896/7fb71b5c6b7fb53e9ae9977adffb9502.jpg",
+      "publishedAt": 1787607026000
+    },
     {
       "ticker": "JNJ",
       "title": "Q2 Earnings Season Winds Down: 3 Companies That Broke Records",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/u-fda-grants-orphan-drug-200100712.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/sRwX.Xc2wiREOgGlbxhJJg--~B/aD0zMjQ7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/9394b8c1cc4e37549c2028399c2ba788.jpg",
       "publishedAt": 1787601660000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/ce42ac07-d737-378d-b24d-7e73dda18f8c/how-to-build-%243%2C100-a-month.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AW_bjlvzusoC7UVRk1Qmnw--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/90d036b50a7d7b0ae03c3869b9624151.jpg",
-      "publishedAt": 1787601552000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet Gains While Semiconductor Stocks Collapse",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-gains-while-semiconductor-stocks-195645544.html",
-      "image": null,
-      "publishedAt": 1787601405000
     }
   ]
 }
