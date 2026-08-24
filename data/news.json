@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-24T22:01:16.800Z",
+  "updatedAt": "2026-08-24T22:40:54.245Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Hugging Face Explores $13 Billion Sale a Month After a Rogue OpenAI Agent Hacked It",
+      "publisher": "decrypt",
+      "link": "https://finance.yahoo.com/m/5a8975c9-476a-3780-b9ec-1f77d012964e/hugging-face-explores-%2413.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Y8MzwzQ3L0vnfS0oN4StAw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/decrypt_157/2ae7b9693327b3aa8072c4467bad8e22.jpg",
+      "publishedAt": 1787609764000
+    },
+    {
+      "ticker": "MA",
+      "title": "What Does Mastercard (MA) Naming Yasemin Bedir To EEMEA Mean For Investors?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-mastercard-ma-naming-yasemin-220939907.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/k7uLZ3QsYL9ptcaQ6dqDMQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/689e99a8f21cc823d1bf075c38345f1e.jpg",
+      "publishedAt": 1787609379000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia customers face 15% AI price shock",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/8ecd9c7c-d0d3-3915-b790-ac5c864936cc/nvidia-customers-face-15%25-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/928aFXb5RcZB7__VuANIEw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/9a3479e16ab92cbaa3a6a112cbb54e98.jpg",
+      "publishedAt": 1787608980000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Get Paid 12% A Year To Hold NFLX Stock You Already Own",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/f1dc67da-f8d2-3916-ae1b-f2974964a03a/get-paid-12%25-a-year-to-hold.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mG939KfZQPWukPa5Jm2hSQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/932fd2461e75819041c24c3b45fd42c3.jpg",
+      "publishedAt": 1787608609000
+    },
     {
       "ticker": "KO",
       "title": "Coca-Cola's stock buybacks: What its latest program means for investors",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/m/1cd0bb2a-f448-30f1-a5be-1c63dfc94ad0/coinbase-debuts-tokenized.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/fIkYEtqpI.TR5KPtYpXWPw--~B/aD02MDA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptoprowl_304/dfb85abc702267838a45bce335d1fe43.jpg",
       "publishedAt": 1787602560000
-    },
-    {
-      "ticker": "V",
-      "title": "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/2c940ff6-3b52-3cd2-ad00-4ef38f45111f/warren-buffett%27s-favorite.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XMemwepW2sOHqaXDiupeLQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/ea66135f47501e54e3a6ea90ecbb4d0b.jpg",
-      "publishedAt": 1787602045000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa to Participate in Upcoming Investor Conference",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-participate-upcoming-investor-conference-200500644.html",
-      "image": null,
-      "publishedAt": 1787601900000
-    },
-    {
-      "ticker": "GILD",
-      "title": "GILD Stock Garners Retail Attention On Trodelvy EU Approval Ahead Of August 27 HIV FDA Verdict",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/338a3453-f562-3df9-9ee8-3b178f3bd434/gild-stock-garners-retail.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qq6wF0jgegHCkDAhkmjD0A--~B/aD03NTA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/25c7c51738f0958bd35bcced119cf190.jpg",
-      "publishedAt": 1787601876000
-    },
-    {
-      "ticker": "GILD",
-      "title": "U.S. FDA Grants Orphan Drug Designation to Gamgertamig for the Treatment of Pemphigus",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/u-fda-grants-orphan-drug-200100712.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/sRwX.Xc2wiREOgGlbxhJJg--~B/aD0zMjQ7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/9394b8c1cc4e37549c2028399c2ba788.jpg",
-      "publishedAt": 1787601660000
     }
   ]
 }
