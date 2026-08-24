@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T22:40:54.245Z",
+  "updatedAt": "2026-08-24T23:01:21.915Z",
   "items": [
     {
       "ticker": "GOOGL",
@@ -107,6 +107,14 @@
     },
     {
       "ticker": "GOOGL",
+      "title": "Google plans to move all Pixel manufacturing out of China by 2027: report",
+      "publisher": "Fox Business",
+      "link": "https://finance.yahoo.com/m/bd7e8533-d2ff-3664-b36a-b387a2ba8fa1/google-plans-to-move-all.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.IWrTpGTRVPCGTYdV4W40Q--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/fox_business_text_367/858b7de755d191a1c62d854937e472aa.png",
+      "publishedAt": 1787603216000
+    },
+    {
+      "ticker": "GOOGL",
       "title": "Coinbase Enters the Tokenized Stock Wars",
       "publisher": "Bankless",
       "link": "https://finance.yahoo.com/m/5e3ee3e1-197a-31d4-8a07-b40d562e3d9f/coinbase-enters-the-tokenized.html",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/why-hims-hers-health-hims-201736983.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/u0QkDOtXcpazWWK92v5M0A--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/90ede227cc34f3d33dd9e6320cdab7be.jpg",
       "publishedAt": 1787602656000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Coinbase Debuts Tokenized Stocks On Base Network",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/1cd0bb2a-f448-30f1-a5be-1c63dfc94ad0/coinbase-debuts-tokenized.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fIkYEtqpI.TR5KPtYpXWPw--~B/aD02MDA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptoprowl_304/dfb85abc702267838a45bce335d1fe43.jpg",
-      "publishedAt": 1787602560000
     }
   ]
 }
