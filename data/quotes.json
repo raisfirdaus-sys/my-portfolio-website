@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:01:26.121Z",
+  "updatedAt": "2026-08-24T18:54:48.799Z",
   "quotes": {
     "MU": {
       "price": 820.53,
@@ -22,42 +22,42 @@
       "weekHigh52": 1195.94
     },
     "MA": {
-      "price": 596.27,
-      "change": 15.639995117187482,
-      "changePercent": 2.693625025517597,
-      "oneMonthReturnPercent": 8.076702661303514,
-      "oneYearReturnPercent": 0.5158338386071266,
-      "ytdReturnPercent": 5.884963477320645,
+      "price": 597.25,
+      "change": 16.6199951171875,
+      "changePercent": 2.8624072089663852,
+      "oneMonthReturnPercent": 8.254332205986426,
+      "oneYearReturnPercent": 0.6810367117381525,
+      "ytdReturnPercent": 6.058990787444878,
       "weekLow52": 464.52,
       "weekHigh52": 601.62
     },
     "ABBV": {
-      "price": 264.895,
-      "change": -0.06499145507814319,
-      "changePercent": -0.024528780636363347,
-      "oneMonthReturnPercent": 3.1080908583040445,
-      "oneYearReturnPercent": 27.629484994004915,
-      "ytdReturnPercent": 15.518295242366605,
+      "price": 264.68,
+      "change": -0.2799914550781182,
+      "changePercent": -0.10567310692474435,
+      "oneMonthReturnPercent": 3.024403965253844,
+      "oneYearReturnPercent": 27.525895499021214,
+      "ytdReturnPercent": 15.424535701880352,
       "weekLow52": 190.75,
       "weekHigh52": 267.47
     },
     "V": {
-      "price": 380.375,
-      "change": 9.334991455078125,
-      "changePercent": 2.515898889633606,
-      "oneMonthReturnPercent": 4.922351606981609,
-      "oneYearReturnPercent": 9.046210656847943,
-      "ytdReturnPercent": 9.782667957433581,
+      "price": 380.805,
+      "change": 9.764991455078132,
+      "changePercent": 2.631789356994876,
+      "oneMonthReturnPercent": 5.04096248096387,
+      "oneYearReturnPercent": 9.169483402381811,
+      "ytdReturnPercent": 9.906773240960883,
       "weekLow52": 293.89,
       "weekHigh52": 381.95
     },
     "JNJ": {
-      "price": 272.455,
-      "change": 2.215009765624984,
-      "changePercent": 0.8196454431869761,
-      "oneMonthReturnPercent": 2.445943784317207,
-      "oneYearReturnPercent": 52.7128492839462,
-      "ytdReturnPercent": 31.39859753077697,
+      "price": 272.883,
+      "change": 2.6430097656249814,
+      "changePercent": 0.9780231872169398,
+      "oneMonthReturnPercent": 2.60687628304062,
+      "oneYearReturnPercent": 52.95274614578954,
+      "ytdReturnPercent": 31.60501180008079,
       "weekLow52": 173.33,
       "weekHigh52": 276.47
     },
@@ -82,12 +82,12 @@
       "weekHigh52": 167.25
     },
     "GILD": {
-      "price": 146.68,
-      "change": 0.5600048828125068,
-      "changePercent": 0.38325000104426893,
-      "oneMonthReturnPercent": 12.381240575050109,
-      "oneYearReturnPercent": 28.497589171513273,
-      "ytdReturnPercent": 20.625001513644293,
+      "price": 146.411,
+      "change": 0.29100488281250136,
+      "changePercent": 0.19915473072601525,
+      "oneMonthReturnPercent": 12.17514189960227,
+      "oneYearReturnPercent": 28.261934334540694,
+      "ytdReturnPercent": 20.403784405605222,
       "weekLow52": 108.46,
       "weekHigh52": 157.29
     },
@@ -102,12 +102,12 @@
       "weekHigh52": 100.34
     },
     "KO": {
-      "price": 91.945,
-      "change": 0.8450015258788994,
-      "changePercent": 0.9275538309903927,
-      "oneMonthReturnPercent": 9.367194402000932,
-      "oneYearReturnPercent": 33.38894471627628,
-      "ytdReturnPercent": 33.02227480676229,
+      "price": 91.665,
+      "change": 0.5650015258789125,
+      "changePercent": 0.6201992704087842,
+      "oneMonthReturnPercent": 9.03413861394765,
+      "oneYearReturnPercent": 32.98273552033788,
+      "ytdReturnPercent": 32.61718223026665,
       "weekLow52": 65.35,
       "weekHigh52": 92.49
     },
@@ -142,32 +142,32 @@
       "weekHigh52": 171.48
     },
     "DDOG": {
-      "price": 228.23,
-      "change": -7.38999511718751,
-      "changePercent": -3.1364040702539002,
-      "oneMonthReturnPercent": -9.38219667795092,
-      "oneYearReturnPercent": 77.77690553005688,
-      "ytdReturnPercent": 70.61373455228738,
+      "price": 228.63,
+      "change": -6.9899951171875045,
+      "changePercent": -2.966639191088589,
+      "oneMonthReturnPercent": -9.223378287166097,
+      "oneYearReturnPercent": 78.08848052989049,
+      "ytdReturnPercent": 70.91275524992098,
       "weekLow52": 98.01,
       "weekHigh52": 292.72
     },
     "AMZN": {
-      "price": 262.29,
-      "change": 3.6599951171875205,
-      "changePercent": 1.415147139963863,
-      "oneMonthReturnPercent": 13.35407783044142,
-      "oneYearReturnPercent": 15.069753966254215,
-      "ytdReturnPercent": 15.801324503311267,
+      "price": 261.97,
+      "change": 3.3399951171875273,
+      "changePercent": 1.2914182632061226,
+      "oneMonthReturnPercent": 13.215783176029358,
+      "oneYearReturnPercent": 14.929366146401376,
+      "ytdReturnPercent": 15.660044150110386,
       "weekLow52": 196,
       "weekHigh52": 287.2
     },
     "SBUX": {
-      "price": 107.415,
-      "change": 0.33499816894531875,
-      "changePercent": 0.3128484901166341,
-      "oneMonthReturnPercent": 3.6324152616448067,
-      "oneYearReturnPercent": 25.17772177612951,
-      "ytdReturnPercent": 27.920684099640606,
+      "price": 107.41,
+      "change": 0.3299981689453091,
+      "changePercent": 0.3081790841449211,
+      "oneMonthReturnPercent": 3.6275913350394977,
+      "oneYearReturnPercent": 25.17189494925354,
+      "ytdReturnPercent": 27.91472959216493,
       "weekLow52": 77.99,
       "weekHigh52": 110.51
     },
@@ -182,31 +182,31 @@
       "weekHigh52": 207.52
     },
     "MSFT": {
-      "price": 488.13,
-      "change": 4.8900097656249955,
-      "changePercent": 1.0119215843981173,
-      "oneMonthReturnPercent": 25.451038895676238,
-      "oneYearReturnPercent": -3.19874855297807,
-      "ytdReturnPercent": 3.211823377210658,
+      "price": 487.83,
+      "change": 4.590009765624984,
+      "changePercent": 0.9498406295800964,
+      "oneMonthReturnPercent": 25.373937894572627,
+      "oneYearReturnPercent": -3.2582416704551918,
+      "ytdReturnPercent": 3.1483903839236973,
       "weekLow52": 349.2,
       "weekHigh52": 553.72
     },
     "GOOGL": {
-      "price": 348.65,
-      "change": 3.8299926757812273,
-      "changePercent": 1.1107222882748962,
-      "oneMonthReturnPercent": 6.764454497352414,
-      "oneYearReturnPercent": 67.22624145713856,
-      "ytdReturnPercent": 10.629860939968532,
+      "price": 348.33,
+      "change": 3.509992675781234,
+      "changePercent": 1.0179202486011625,
+      "oneMonthReturnPercent": 6.666463315826092,
+      "oneYearReturnPercent": 67.07275688158634,
+      "ytdReturnPercent": 10.528321988295538,
       "weekLow52": 205.28,
       "weekHigh52": 408.61
     }
   },
   "portfolio": {
-    "totalUSD": 4383.963941617914,
-    "changePercent": 0.6442545190385545,
-    "oneMonthReturnPercent": 12.486094766638155,
-    "oneYearReturnPercent": 23.201100130969976,
-    "ytdReturnPercent": 15.395219396567631
+    "totalUSD": 4384.363783984083,
+    "changePercent": 0.654115486089757,
+    "oneMonthReturnPercent": 12.487394107428102,
+    "oneYearReturnPercent": 23.212591792404563,
+    "ytdReturnPercent": 15.413996793698555
   }
 }
