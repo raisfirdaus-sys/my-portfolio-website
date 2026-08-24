@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-24T08:24:15.092Z",
+  "updatedAt": "2026-08-24T09:28:26.124Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Nvidia AI Server Prices Set to Rise Over 15% Caused by Memory Costs",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-ai-server-085849345.html",
+      "image": null,
+      "publishedAt": 1787561929000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "From $100 billion to $27 billion: What happened to Shein?",
+      "publisher": "Reuters Videos",
+      "link": "https://finance.yahoo.com/video/100-billion-27-billion-happened-084823951.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0EYTBNvqmIoxaC_Xce4U_g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/ee1e588a-9d5a-4fb3-a292-378fa500c1a3/main/1280x720/46s103ms/match/image.jpg",
+      "publishedAt": 1787561303000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Market Chatter: Amazon's Zoox Launches Driverless Robotaxi Rides in San Francisco, Las Vegas",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/market-chatter-amazon-apos-zoox-084106126.html",
+      "image": null,
+      "publishedAt": 1787560866000
+    },
+    {
+      "ticker": "MA",
+      "title": "ICYMI: Trump’s Stock Trades",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/b264e087-2755-32c5-aef8-9348a1eeccb5/icymi%3A-trump%E2%80%99s-stock-trades.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YGeB9O_Eb21P2ve_VHG5Qg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
+      "publishedAt": 1787559417000
+    },
     {
       "ticker": "MSFT",
       "title": "I've Covered Semiconductors for Years. Nvidia Is My No. 1 Pick Heading Into 2027.",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-johnson-johnson-pharma-004627834.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/97E6.H_Wf7Iz66yHWawp5w--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/2599eaa3ebd7014f60b50968b758cbd7.jpg",
       "publishedAt": 1787532387000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "UPS Stopped Carrying 2 Million Amazon Packages a Day. Amazon Still Has to Move Them.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0ca4598a-4d1a-3950-a4e1-d5abe29f3114/ups-stopped-carrying-2.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lad7d3Zs78arl52rGPlaEw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d445e11a613d0be9f0f1d53d38220783.jpg",
-      "publishedAt": 1787531641000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead’s Core Business Is Accelerating, But Will Its $11 Billion Pipeline Bet Pay Off?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-core-business-accelerating-11-001115346.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9wvD.q6telDnj1C4PfyoMQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/11c0338c5011aa20a9d44b77386b4a12.jpg",
-      "publishedAt": 1787530275000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Novo Nordisk Expands Its AI Push With AWS, But Can It Accelerate Drug Discovery?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-expands-ai-push-234353024.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hA3NK7dhR5cDYIz40QjtKw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/8ee01456c2860ad756980e44c064cbb6.jpg",
-      "publishedAt": 1787528633000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "The AI Debt Boom Is Helping Push Everyone’s Cost of Capital Higher",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/d2c15831-3f79-3b6a-ab94-5dd255c6d6e5/the-ai-debt-boom-is-helping.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3FQTaEw4HzggqLELRh2yVQ--~B/aD03ODQ7dz0xMTY4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/e061ddb31fa43662c3b350bcd85b809f.jpg",
-      "publishedAt": 1787527097000
     }
   ]
 }
