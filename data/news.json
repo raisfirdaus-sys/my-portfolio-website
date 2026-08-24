@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-24T18:56:29.115Z",
+  "updatedAt": "2026-08-24T19:40:23.852Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "Stablecoin card spending triples to $1 billion",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/stablecoin-card-spending-triples-1-193000825.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/._NsUBcGyWFEUxYzjm7MDQ--~B/aD0yNTYzO3c9NDU1NzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/10017640-a3ed-11eb-a9af-0ddc52fa1e21_1d9dae8cfd26c7f2087fde216934e92f82720f245730dcb00bed3a8e7c4e0dc0.jpg",
+      "publishedAt": 1787599800000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson Rises 1.3% as Investors Seek Stability",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-rises-1-3-191853863.html",
+      "image": null,
+      "publishedAt": 1787599133000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa Charges Toward New All-Time Closing High",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/782e8e69-9081-30cd-9ea3-f59502ffc8f3/visa-charges-toward-new.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YGeB9O_Eb21P2ve_VHG5Qg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
+      "publishedAt": 1787599079000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia Makes Aggressive Move Ahead of Earnings",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-makes-aggressive-move-ahead-191307970.html",
+      "image": null,
+      "publishedAt": 1787598787000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/15d12751-3f31-3776-9f36-bf7cecf62fab/stanley-druckenmiller-and.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ynRPbQGsmDiqDmRCXmxXdA--~B/aD0yNTYxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/0a7215c690b3c9020bf8e8b55e802a52.jpg",
+      "publishedAt": 1787598780000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Will LQDA's Differentiated PAH Approach Drive Growth?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/lqdas-differentiated-pah-approach-drive-184500176.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZD6kogPC11B7uXnAeqGucA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9ba18c9e2c8fffeabdd247f567de5466.jpg",
+      "publishedAt": 1787597100000
+    },
     {
       "ticker": "GOOGL",
       "title": "Verizon Turns to Google for Its Next AI Push",
@@ -90,60 +138,12 @@
       "publishedAt": 1787595625000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Broadcom Drops Nearly 2% as Custom-Chip Competition Tightens",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/broadcom-drops-nearly-2-custom-181638758.html",
-      "image": null,
-      "publishedAt": 1787595398000
-    },
-    {
       "ticker": "MA",
       "title": "NACD Announces Finalists for 2026 Directorship 100 B. Kenneth West Lifetime Achievement Award and Directors of the Year",
       "publisher": "PR Newswire",
       "link": "https://finance.yahoo.com/small-business/articles/nacd-announces-finalists-2026-directorship-181500688.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Ibh99REj9npd8zWOoWSQIA--~B/aD0xOTQ7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/b42117c76b3bf74ecff701afb8736e48.jpg",
       "publishedAt": 1787595300000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Wells Fargo strongly resets Marvell stock target before earnings",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/f07edd9c-f30a-3eee-9ebe-cd6941d19fc1/wells-fargo-strongly-resets.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QFeizVYTd5FS_eIA0X4PcA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/4972783db2f9893a5c028f59d8d1088b.jpg",
-      "publishedAt": 1787595240000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "PLTR vs. PATH: Which AI-Driven Software Stock is the Better Buy?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/ai/articles/pltr-vs-path-ai-driven-180200462.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WuCw_B66IHm0vtqfbW_0nQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7e65418edbf7491f843b8e0de38cb899.jpg",
-      "publishedAt": 1787594520000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca-Cola Just Won a Key Consumer Battle",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-just-won-key-175756255.html",
-      "image": null,
-      "publishedAt": 1787594276000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Pinterest's $4B AWS Deal Expands AI Ambitions and Spending Exposure",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/ai/articles/pinterests-4b-aws-deal-expands-175500687.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/u7Iq.3sXnUo2KEcSJvsT8w--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/597f942ef4b77595457a5b9d2de6f444.jpg",
-      "publishedAt": 1787594100000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Nebius Group Falls 4% as $5B Convertible Settles, Datadog Drops 3%, Cloudflare Slips",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/0c334c91-8f01-3820-a11e-0389dff3ac86/nebius-group-falls-4%25-as-%245b.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/l1wvEfphfkX38jDT.NUkjw--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/e1486861c59cdac511655ea7d59b1e4b.jpg",
-      "publishedAt": 1787593388000
     }
   ]
 }
