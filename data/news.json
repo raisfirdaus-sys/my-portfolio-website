@@ -1,13 +1,21 @@
 {
-  "updatedAt": "2026-08-25T01:49:36.787Z",
+  "updatedAt": "2026-08-25T03:10:09.271Z",
   "items": [
     {
-      "ticker": "JNJ",
-      "title": "Does Louisiana’s US$10 Million Talc Verdict Shift the Legal Risk Bull Case For Johnson & Johnson (JNJ)?",
+      "ticker": "AMZN",
+      "title": "The Premium On WMT Stock Vs What Its Peers Deliver",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/738cca70-ff7b-3388-9412-17c901c5e6e7/the-premium-on-wmt-stock-vs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HPi1h0V5K8H3g0flbgvodw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/8df05062153ac607859d85aca23acb22.jpg",
+      "publishedAt": 1787624186000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Is AbbVie (ABBV) Quietly Rebalancing Its Growth Story Around Oncology Innovation?",
       "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/does-louisiana-us-10-million-011035581.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XpMxuzns_riARaMcbrT.IQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7.jpg",
-      "publishedAt": 1787620235000
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-quietly-rebalancing-growth-020903994.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
+      "publishedAt": 1787623743000
     },
     {
       "ticker": "MA",
@@ -15,7 +23,15 @@
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/a28a6eae-87d9-3229-b7dc-430baf4250e1/dow-jones-futures%3A-trump%2C.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/musOSbb8T1CY6bFyOicy5w--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/940bfb7ff3b5d5fe9f59a57c0bd92b82.jpg",
-      "publishedAt": 1787619871000
+      "publishedAt": 1787622252000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Does Louisiana’s US$10 Million Talc Verdict Shift the Legal Risk Bull Case For Johnson & Johnson (JNJ)?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/does-louisiana-us-10-million-011035581.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/XpMxuzns_riARaMcbrT.IQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7.jpg",
+      "publishedAt": 1787620235000
     },
     {
       "ticker": "MA",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/fda-approves-imaavy-nipocalimab-aahu-231200917.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/wm2Jtm0JJ56cB5.cGST9uQ--~B/aD0yNjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/5d72b267bd38f1f7e5eb9ddf277a72fc.jpg",
       "publishedAt": 1787613120000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "AMZN Stock Climbs As Amazon Reportedly Plans Automation Initiative To Use AI And Robotics For Delivery Stations",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/157a0cce-2def-3f91-9036-48fa2ad24709/amzn-stock-climbs-as-amazon.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Xu09m_TjgRqdcnHBLo1xJA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/3db5d8582404249efabb4a012f5e6311.jpg",
-      "publishedAt": 1787611828000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Hugging Face Explores $13 Billion Sale a Month After a Rogue OpenAI Agent Hacked It",
-      "publisher": "decrypt",
-      "link": "https://finance.yahoo.com/m/5a8975c9-476a-3780-b9ec-1f77d012964e/hugging-face-explores-%2413.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Y8MzwzQ3L0vnfS0oN4StAw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/decrypt_157/2ae7b9693327b3aa8072c4467bad8e22.jpg",
-      "publishedAt": 1787609764000
     }
   ]
 }
