@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T22:42:00.415Z",
+  "updatedAt": "2026-08-25T23:03:13.680Z",
   "items": [
     {
       "ticker": "GOOGL",
@@ -16,6 +16,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-poised-another-220800295.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/8WTOEv5uTvl0TThxRq4oZw--~B/aD00MzI7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5e84daa71ccc676ebde64e6af8b5fcbc.jpg",
       "publishedAt": 1787695680000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "AI Trade at Risk From US Voter Ire Over Buildout, Barclays Says",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-trade-risk-us-voter-212412748.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/B4bcK4YsdkzqFCc20rpZKg--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/5c9a77421c8a57dfb0eab4a2b786e58f.jpg",
+      "publishedAt": 1787693052000
     },
     {
       "ticker": "AMZN",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/metas-next-ai-bet-could-195838334.html",
       "image": null,
       "publishedAt": 1787687918000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "S&P 100 Is Quietly Sending a Powerful Signal",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-100-quietly-sending-powerful-195321128.html",
-      "image": null,
-      "publishedAt": 1787687601000
     }
   ]
 }
