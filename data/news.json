@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-25T07:05:37.905Z",
+  "updatedAt": "2026-08-25T07:55:23.553Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "1 High-Flying Stock to Own for Decades and 2 Facing Challenges",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/1-high-flying-stock-own-075044982.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZvA23LneXl0oQm4.hXFNyA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/b2ff2b0d27f6a3b84a07d34e3ee9bce4.jpg",
+      "publishedAt": 1787644244000
+    },
+    {
+      "ticker": "MA",
+      "title": "Equinor Begins Supplying Gas to Troll A Platform From Phase 3 Project",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/equinor-begins-supplying-gas-troll-074934181.html",
+      "image": null,
+      "publishedAt": 1787644174000
+    },
+    {
+      "ticker": "MA",
+      "title": "--WM Keeps Quarterly Dividend of $0.945 per Share; Payable Sept. 25 to Shareholders of Record on Sept. 11",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wm-keeps-quarterly-dividend-0-074911433.html",
+      "image": null,
+      "publishedAt": 1787644151000
+    },
+    {
+      "ticker": "MA",
+      "title": "Correction: Tuya Q2 Earnings Flat, Revenue Increases",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/correction-tuya-q2-earnings-flat-074631494.html",
+      "image": null,
+      "publishedAt": 1787643991000
+    },
+    {
+      "ticker": "MA",
+      "title": "Willis Lease Finance Insider Sold Shares Worth $2,535,677, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-insider-sold-074612905.html",
+      "image": null,
+      "publishedAt": 1787643972000
+    },
+    {
+      "ticker": "MA",
+      "title": "McEwen Mining COO William Shaver to Retire",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/mcewen-mining-coo-william-shaver-074536019.html",
+      "image": null,
+      "publishedAt": 1787643936000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "SBUX Stock Has Rallied Nearly 28% This Year: Why Baird Still Sees 15% Upside For Starbucks?",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/8bbe70bc-61e7-3434-a1e7-1759684304ec/sbux-stock-has-rallied-nearly.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Qui5SHWgu148XmDS5jkt5g--~B/aD05NjE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/862fa3ca3ae6ba1b4e4494d5f713846e",
+      "publishedAt": 1787641176000
+    },
     {
       "ticker": "GOOGL",
       "title": "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First.",
@@ -18,7 +74,7 @@
       "publishedAt": 1787630127000
     },
     {
-      "ticker": "MA",
+      "ticker": "V",
       "title": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
       "publisher": "Benzinga",
       "link": "https://finance.yahoo.com/markets/stocks/articles/trump-snapped-spacex-shares-11-033507082.html",
@@ -26,7 +82,7 @@
       "publishedAt": 1787628907000
     },
     {
-      "ticker": "MA",
+      "ticker": "V",
       "title": "Cathie Wood Says Analysts Can’t ‘Fathom’ Circle, Calls CRCL a 'Prime Beneficiary’ of Payments Disruption",
       "publisher": "Benzinga",
       "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-says-analysts-t-033057280.html",
@@ -58,14 +114,6 @@
       "publishedAt": 1787623743000
     },
     {
-      "ticker": "MA",
-      "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/a28a6eae-87d9-3229-b7dc-430baf4250e1/dow-jones-futures%3A-trump%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/musOSbb8T1CY6bFyOicy5w--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/940bfb7ff3b5d5fe9f59a57c0bd92b82.jpg",
-      "publishedAt": 1787622252000
-    },
-    {
       "ticker": "JNJ",
       "title": "Does Louisiana’s US$10 Million Talc Verdict Shift the Legal Risk Bull Case For Johnson & Johnson (JNJ)?",
       "publisher": "Simply Wall St.",
@@ -74,7 +122,7 @@
       "publishedAt": 1787620235000
     },
     {
-      "ticker": "MA",
+      "ticker": "V",
       "title": "Will PYPL Stock's Multiple Catch Up?",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/64c01a28-056c-3bd0-bb32-b647ed1adcd6/will-pypl-stock%27s-multiple.html",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/121aa013-1a30-3b50-a6cd-e338b745afbb/alibaba%E2%80%99s-%2410.2-billion-ai.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/mMzJnbJadcJD1qewHi6vqA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/019a3262b5ae0fde57e1127d0fdb95cb.jpg",
       "publishedAt": 1787616180000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AGNTCon + MCPCon Japan to Convene Builders Advancing Production-Ready Agentic AI",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/agntcon-mcpcon-japan-convene-builders-000000620.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gCp_DDmwANbqxpmgZqsmWA--~B/aD0xNDE7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/7cb8a35bab67a777afe6307f9c7cfa22.jpg",
-      "publishedAt": 1787616000000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Joins MAS-Led BLOOM Initiative to Connect Traditional Payments and Stablecoin Networks",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/visa-joins-mas-led-bloom-000000318.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/mpmrx6EzOyQgqVf9tSxRQA--~B/aD00MDA7dz0yNjc7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/b0db65afe010e5e8936f2d3811ad66e9.jpg",
-      "publishedAt": 1787616000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Zohran Mamdani Is Turning His Fire on Amazon",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/51f9b8f7-fd79-3412-93c5-73d6c39ece49/zohran-mamdani-is-turning-his.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/X543AtfWS0EuHMKPjUuT.A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/0c8aa8164aec6ee443cd395cf0509a8c.jpg",
-      "publishedAt": 1787616000000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "AI Cloud Provider Lambda in Talks for $3 Billion Pre-IPO Round",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-cloud-provider-lambda-talks-234205946.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/O4Ip5xCxqHSL_GRSrXl1iw--~B/aD0xNDY3O3c9MjIwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/5cf2470b6789fea096bc44ec56121cbb.jpg",
-      "publishedAt": 1787614925000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Eli Lilly Stock Raised Its Forecast, So Why Is The Market Shrugging?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/9fd1568c-6fc5-3e65-b582-08ae76ba947e/eli-lilly-stock-raised-its.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ffBijilLu6TyRHhiCI63GA--~B/aD04NTc7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b47bbcc638d091add82c1ea366f7ee58.jpg",
-      "publishedAt": 1787614548000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/c6f0d62a-6fd3-3845-bd9b-8b4ad3c85f4b/is-meta-stock-actually-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/TLQTkbGE.q9qiS0NhwerMQ--~B/aD04MTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/b06b683d5d2915a4494ac5d31c8a87d6.jpg",
-      "publishedAt": 1787614119000
     }
   ]
 }
