@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-25T11:39:20.464Z",
+  "updatedAt": "2026-08-25T12:01:43.425Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Jim Cramer says data center backlash favors big tech hyperscalers",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/90da6747-ede7-3bea-8f8b-07dc86ee26bc/jim-cramer-says-data-center.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rZe2l.UUWya_uB1epOx1pg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/fe2c82cf5a09572b4e17c294187a24ed.jpg",
+      "publishedAt": 1787658048000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Is Broadcom in Trouble Now That Alphabet Is Getting Chips From Marvell Too?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/fbb4194b-f471-3168-b81d-ab56b747e5bd/is-broadcom-in-trouble-now.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dJyykxd86gq8AlpLuJXLhw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f7de16b2bed56e34ff48d8eb582a8647.jpg",
+      "publishedAt": 1787657700000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Meta’s Hatch Agent Platform and Watermelon Model Signal a Consumer AI Monetization Push",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/meta-hatch-agent-platform-watermelon-113350203.html",
+      "image": null,
+      "publishedAt": 1787657630000
+    },
+    {
+      "ticker": "KO",
+      "title": "Menu Transformation: Beverages Move from Add-Ons to Restaurant Growth Drivers",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/menu-transformation-beverages-move-add-113000034.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gKTkR8wAb2kZ.koERan0mg--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/b032a9845a7f016a405ff07d24ceefc8.jpg",
+      "publishedAt": 1787657400000
+    },
     {
       "ticker": "MSFT",
       "title": "NIQ Global Intelligence Partners With OpenAI Deployment Company to Further Extend AI Product Suite",
@@ -90,7 +122,7 @@
       "publishedAt": 1787650962000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "India AI Data Center Firm Orders 9,000 Nvidia Vera Rubin Systems",
       "publisher": "Bloomberg",
       "link": "https://finance.yahoo.com/technology/ai/articles/india-ai-data-center-firm-orders-9000-nvidia-vera-rubin-systems-094222289.html",
@@ -98,7 +130,7 @@
       "publishedAt": 1787650942000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "Forget Nvidia. This ETF Could Be the Next Big Winner From the AI Boom",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/d38d47a7-1ec2-3d00-9298-65faf6d30b45/forget-nvidia.-this-etf-could.html",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/m/6ee4afa3-6e33-3822-a177-5fe63ebb72c8/where-is-retail-drone.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tEBvAmpVQ1Ocpt6JJ6UGxQ--~B/aD04MzI7dz0xNDEwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/154db01c891a891a7dc67dc3053ce906.jpg",
       "publishedAt": 1787650719000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Andy Jassy Believes AWS Can Hit $1 Trillion in Revenue. Here's When the Math Says It Might Happen.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6ef9108a-6a66-3bb5-ab06-82a8bfa53cc3/andy-jassy-believes-aws-can.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ypIzIwPmgdgQGj5r5P__wA--~B/aD04MDU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/7cde7465be01e8b38014ef5a25b6c25f.jpg",
-      "publishedAt": 1787650500000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "The data center era that's reshaping America",
-      "publisher": "Axios",
-      "link": "https://finance.yahoo.com/m/b0911060-c5e6-38b2-a142-9a4af9b5f81a/the-data-center-era-that%27s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9a2iu9f2cx6q_XylhkrS3w--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/axios_527/ea09ac4f2b3816c9de84b182024b7cb5.jpg",
-      "publishedAt": 1787650205000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "5 Billionaire Money Managers Dumped Palantir in the Second Quarter. This Is the AI Applications Stock They're Buying Hand Over Fist Instead.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/bbcdb43a-de52-306c-ad2b-d45823e42138/5-billionaire-money-managers.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BqzmkqC.IRUZ5ZZxr5KcOg--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/10fc5591a57628724487e7a89264ff52.jpg",
-      "publishedAt": 1787649960000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Bull of the Day: Palantir Technologies (PLTR)",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bull-day-palantir-technologies-pltr-083000678.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AB_0g_jVtJUZgLc0PNCJOg--~B/aD00Mzc7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4e56b6e17ea7f4fead21aba41a086a5a.jpg",
-      "publishedAt": 1787646600000
     }
   ]
 }
