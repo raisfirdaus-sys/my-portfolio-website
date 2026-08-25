@@ -1,6 +1,142 @@
 {
-  "updatedAt": "2026-08-25T12:01:43.425Z",
+  "updatedAt": "2026-08-25T13:08:22.545Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Linux Foundation Welcomes TRACE to Advance Verifiable Runtime Evidence for AI Workloads",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/linux-foundation-welcomes-trace-advance-130000633.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gdmHnktuJ08GbuOV27ZIpw--~B/aD0xMzI7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/3a3c18c708f31b83f3896fe807710575.jpg",
+      "publishedAt": 1787662800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Cambium Appoints Peter Coats as Chief Financial Officer",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/small-business/articles/cambium-appoints-peter-coats-chief-130000278.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6QZ8QDLAwFnJ1oHIHLFR0g--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/e718514b090a453ab553dfbf7c816071.png",
+      "publishedAt": 1787662800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "SandboxAQ Accelerates Fortune 500 Catalyst Discovery with AQCat, Now Generally Available in AWS Marketplace",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/sandboxaq-accelerates-fortune-500-catalyst-130000920.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/EiYQoH48sMPDzEfnK0FCUg--~B/aD02Mjt3PTM5NzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/95e66634b7029c1a2253c26e2d10dd10.jpg",
+      "publishedAt": 1787662800000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Chomps Hits 65,000+ Retail Locations as Demand for Convenient Protein Grows",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/small-business/articles/chomps-hits-65-000-retail-130000985.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/UsludQtqRDJef_jCXTGKBw--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/89db0bf22febead26ebfe3ad5122292b.jpg",
+      "publishedAt": 1787662800000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir highlighted as Zacks Bull and GoPro Bear of the Day",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-highlighted-zacks-bull-gopro-125000763.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/VRMVrxmBwrJw6D570Lyc.w--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/78974b6eca6139cc76e41dcd7982491c.jpg",
+      "publishedAt": 1787662200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett Continues to Load Up on Alphabet, and This 1 Number Is the Big Reason Why",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/8ca35aa6-81e9-3c11-96f0-45d5948a5790/warren-buffett-continues-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zGmgjpea9nFeLfLlPaaS1w--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1105e54c20a57d016fd63df254d1a407.jpg",
+      "publishedAt": 1787662200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "DocuSign Integrates Agreement Management Platform With Google Cloud's Gemini Enterprise for Legal",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/docusign-integrates-agreement-management-platform-124611483.html",
+      "image": null,
+      "publishedAt": 1787661971000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Moody's Brings Credit Data to Google Cloud's Financial AI Platform",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/moody-apos-brings-credit-data-123911425.html",
+      "image": null,
+      "publishedAt": 1787661551000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Latest News In Cloud AI - AI Becomes Core to Enterprise Innovation and Growth",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/latest-news-cloud-ai-ai-123732820.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_r3ZKc4SC7RNhf6IqZgDbA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/df4b73b911e0bdb53cb26c5cad04a925.jpg",
+      "publishedAt": 1787661452000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Rezolve AI's Distributed Database Platform Selected for Google Cloud",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/rezolve-ai-apos-distributed-database-123347485.html",
+      "image": null,
+      "publishedAt": 1787661227000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "3 Growth Stocks with All-Star Potential",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-star-potential-123044409.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5GSHwqesF8708AwyeDx0GQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/24f1ce460a304ef1a440e4edeacad2ba.jpg",
+      "publishedAt": 1787661044000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "With Four New Legal AI Partnerships and Integrations, Everlaw Establishes Itself as the Evidence Layer for Litigation and Investigations",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/four-legal-ai-partnerships-integrations-123000349.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Mu5KkHr4avmUyubqY6ipGw--~B/aD0zMjA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/08fe17d847b4039b07cde5ceb467f6b9.jpg",
+      "publishedAt": 1787661000000
+    },
+    {
+      "ticker": "MA",
+      "title": "Visa and Mastercard stocks close at record highs in August 2026",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/0e5da080-baba-33fa-9f44-8a3cbbad3253/visa-and-mastercard-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/QkyLpH8zp3RskexfV9dG4g--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/5b75e5020da364334f9eff97a88aabad.jpg",
+      "publishedAt": 1787660932000
+    },
+    {
+      "ticker": "V",
+      "title": "payabl. integrates Visa RDR to resolve disputes before chargebacks",
+      "publisher": "Electronic Payments",
+      "link": "https://finance.yahoo.com/m/d5291c7f-59fc-3c9e-bfd6-916ced05d682/payabl.-integrates-visa-rdr.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IDsD3Oi6QI9ZzM6_Js40vw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/3cc0a7e3c2cac1431682317417aa3843.jpg",
+      "publishedAt": 1787660592000
+    },
+    {
+      "ticker": "V",
+      "title": "Hims & Hers Shares Tumble on Visa Dispute Crackdown",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hims-hers-shares-tumble-visa-121741092.html",
+      "image": null,
+      "publishedAt": 1787660261000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "How Much Do You Really Need Invested to Replace a $120,000 Salary With Dividends?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4f584ce3-a54e-3e01-a956-a55b0ac79f5e/how-much-do-you-really-need.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/smS6xGtB8CzW9qwGyZR61A--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d981dd810eaeb413015369ebbce09ae6.jpg",
+      "publishedAt": 1787659371000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Arcitecta Launches Active Data Management Solution for Universities Facing Microsoft 365 Education Storage Policy Changes",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/articles/arcitecta-launches-active-data-management-120000724.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3d0ncMblWBMHmPrcwRNRzA--~B/aD0yNzA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/ae39da6662fea25f23b798e9fa431339.jpg",
+      "publishedAt": 1787659200000
+    },
     {
       "ticker": "MSFT",
       "title": "Jim Cramer says data center backlash favors big tech hyperscalers",
@@ -8,142 +144,6 @@
       "link": "https://finance.yahoo.com/m/90da6747-ede7-3bea-8f8b-07dc86ee26bc/jim-cramer-says-data-center.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/rZe2l.UUWya_uB1epOx1pg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/fe2c82cf5a09572b4e17c294187a24ed.jpg",
       "publishedAt": 1787658048000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Is Broadcom in Trouble Now That Alphabet Is Getting Chips From Marvell Too?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/fbb4194b-f471-3168-b81d-ab56b747e5bd/is-broadcom-in-trouble-now.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/dJyykxd86gq8AlpLuJXLhw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f7de16b2bed56e34ff48d8eb582a8647.jpg",
-      "publishedAt": 1787657700000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Meta’s Hatch Agent Platform and Watermelon Model Signal a Consumer AI Monetization Push",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/meta-hatch-agent-platform-watermelon-113350203.html",
-      "image": null,
-      "publishedAt": 1787657630000
-    },
-    {
-      "ticker": "KO",
-      "title": "Menu Transformation: Beverages Move from Add-Ons to Restaurant Growth Drivers",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/menu-transformation-beverages-move-add-113000034.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gKTkR8wAb2kZ.koERan0mg--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/b032a9845a7f016a405ff07d24ceefc8.jpg",
-      "publishedAt": 1787657400000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "NIQ Global Intelligence Partners With OpenAI Deployment Company to Further Extend AI Product Suite",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/niq-global-intelligence-partners-openai-112021244.html",
-      "image": null,
-      "publishedAt": 1787656821000
-    },
-    {
-      "ticker": "GILD",
-      "title": "3 Unprofitable Stocks with Questionable Fundamentals",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-questionable-fundamentals-111044571.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/kQ.x4.jJL0YsK97MRAH7WQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/9cdc923be9daca7ea592dcd6b154d712.jpg",
-      "publishedAt": 1787656244000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "3 Cloud Stocks to Buy Heading Into September",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/d09db567-b011-3973-b69d-401724caa56f/3-cloud-stocks-to-buy-heading.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JR0EYGiiLoA4ky7ORHIMvA--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/d24f2c60f553714c96ef7fab3d0e5a80",
-      "publishedAt": 1787655618000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "5 Dividend Aristocrats Boomers Should Own for Life",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/d8c9647a-7d4d-3dd1-858f-4509db1410ea/5-dividend-aristocrats.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/j.HGI404M8_IiZWyErYAUQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/05e6fdfa1475a996d11d675e7508d164",
-      "publishedAt": 1787655615000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Becomes an Official Partner of the Toronto Blue Jays",
-      "publisher": "CNW Group",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-becomes-official-partner-toronto-110000926.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/F8re9WDzT4WcCQmzfprqew--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnwgroup.com/125e44e954f31c47fafae0c61fc93611.jpg",
-      "publishedAt": 1787655600000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Parabilis Medicines Appoints Accomplished Drug Development Leader Craig L. Tendler, M.D., to Board of Directors",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/parabilis-medicines-appoints-accomplished-drug-110000304.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/OPCaqd7IEu8K0Fq3psKleQ--~B/aD0zNjA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/a025ff7122dd805883ec03717f648120.png",
-      "publishedAt": 1787655600000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Most Investors Overlook MSFT's AI Moat. I Think That's a Mistake.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/9a7bd6c3-1dcc-34a0-82d1-38474c1e25a4/most-investors-overlook.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/xOoQZk0BexkDH85XErRA8A--~B/aD04OTQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c5404eef087b3666d87d7c6eb91798e2.jpg",
-      "publishedAt": 1787654100000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Solvonis CEO: 'Strong tailwinds' for CNS as £1.3m fuels drug pipeline",
-      "publisher": "Proactive",
-      "link": "https://finance.yahoo.com/video/solvonis-ceo-strong-tailwinds-cns-095730491.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/U8ia9ylMgpDo64j2NbLQdA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/proactive_video_751/b1cf6854a9f511d20a89a2ebc3ba273b.jpg",
-      "publishedAt": 1787651850000
-    },
-    {
-      "ticker": "KO",
-      "title": "Monster Run: This Consumer Stock Turned $1,000 Into $1M Over 22 Years",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/6b867af6-4c59-324e-aea3-69dbea565910/monster-run%3A-this-consumer.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nbiIScSZ17xstCEjm5uogQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/1a695cdd4c304b50674b8ed7101ee274.jpg",
-      "publishedAt": 1787651676000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Coinbase’s Tokenized Stocks Are Live on Base. The SEC’s Framework Isn’t.",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-tokenized-stocks-live-sec-094525267.html",
-      "image": null,
-      "publishedAt": 1787651125000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca-Cola's new CEO can boast about something that billionaire Mag 7 members Elon Musk and Mark Zuckerberg can't",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/article/coca-colas-new-ceo-can-boast-about-something-that-billionaire-mag-7-members-elon-musk-and-mark-zuckerberg-cant-094242694.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zgbROW96WMfANOu9aZ6rYw--~B/aD0zNDIyO3c9NTEzMzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-08/e21d4ea1-1a47-4d72-a1b5-b03a462ce0b5",
-      "publishedAt": 1787650962000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "India AI Data Center Firm Orders 9,000 Nvidia Vera Rubin Systems",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/technology/ai/articles/india-ai-data-center-firm-orders-9000-nvidia-vera-rubin-systems-094222289.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Agio3cRHlL8HYos9SGpqpQ--~B/aD0xOTk5O3c9MTM0NTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/a90564916a448a97f1fdb5300cb5af8b.jpg",
-      "publishedAt": 1787650942000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Forget Nvidia. This ETF Could Be the Next Big Winner From the AI Boom",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/d38d47a7-1ec2-3d00-9298-65faf6d30b45/forget-nvidia.-this-etf-could.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AcQaWkx9ZKXHLtQso3INhQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/68732a10f758fc809a92ddb010e5dfa8.jpg",
-      "publishedAt": 1787650800000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Where is retail drone delivery heading?",
-      "publisher": "Retail Insight Network",
-      "link": "https://finance.yahoo.com/m/6ee4afa3-6e33-3822-a177-5fe63ebb72c8/where-is-retail-drone.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tEBvAmpVQ1Ocpt6JJ6UGxQ--~B/aD04MzI7dz0xNDEwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/154db01c891a891a7dc67dc3053ce906.jpg",
-      "publishedAt": 1787650719000
     }
   ]
 }
