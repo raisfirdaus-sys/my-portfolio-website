@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-25T21:59:03.415Z",
+  "updatedAt": "2026-08-25T22:42:00.415Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Investors Are Still Underestimating Google Cloud",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f28e67f7-3e50-30de-adc7-8e3e86b4065f/alphabet-investors-are-still.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wyvZljNsCa2s2IEa4mmKew--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/894646361a5babbe58367176a843915c.jpg",
+      "publishedAt": 1787696640000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-poised-another-220800295.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8WTOEv5uTvl0TThxRq4oZw--~B/aD00MzI7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5e84daa71ccc676ebde64e6af8b5fcbc.jpg",
+      "publishedAt": 1787695680000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon Insider Sold Shares Worth $5,180,213, According to a Recent SEC Filing",
@@ -114,28 +130,12 @@
       "publishedAt": 1787688000000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Moody's Pushes Deeper Into AI With Google",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/moodys-pushes-deeper-ai-google-195848899.html",
-      "image": null,
-      "publishedAt": 1787687928000
-    },
-    {
       "ticker": "MSFT",
       "title": "Meta's Next AI Bet Could Arrive Sooner Than Expected",
       "publisher": "GuruFocus.com",
       "link": "https://finance.yahoo.com/technology/ai/articles/metas-next-ai-bet-could-195838334.html",
       "image": null,
       "publishedAt": 1787687918000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google May Be Sitting on a $200 Billion AI Opportunity",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/google-may-sitting-200-billion-195833515.html",
-      "image": null,
-      "publishedAt": 1787687913000
     },
     {
       "ticker": "MSFT",
