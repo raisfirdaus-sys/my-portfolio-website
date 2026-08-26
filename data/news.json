@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-26T09:54:02.247Z",
+  "updatedAt": "2026-08-26T10:49:25.529Z",
   "items": [
+    {
+      "ticker": "ABBV",
+      "title": "Billionaire Ken Griffin Increased His Stake in This Dividend King by 547% in Q2. Wall Street Thinks It's Still a Buy.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/ca89abf4-e9de-3535-a8a3-cb91ac7d3029/billionaire-ken-griffin.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xW9d9gTWB5ewPBjPchTHAQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d01da6d300638b811c44503e9505ca46.jpg",
+      "publishedAt": 1787740800000
+    },
+    {
+      "ticker": "V",
+      "title": "Bluefin and Visa launch unified card-present payment acceptance offering",
+      "publisher": "Electronic Payments",
+      "link": "https://finance.yahoo.com/m/469f922b-0e50-32ea-9a9c-0ccd7cf1a383/bluefin-and-visa-launch.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3mHMF6ABj1d6SNxX6P.btw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/369043435814533fc1d9d5971fa556df.jpg",
+      "publishedAt": 1787739834000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/nvidia-earnings-could-reveal-its-fastest-growing-business-isnt-chips-chart-of-the-day-100000332.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5JjK5z7gvR1zd0XKO4Ah7g--~B/aD0yNzQ0O3c9NDg3OTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/e6acb0b9-5ebe-4509-b56a-fb9891f0645b_883388b6219eec3ce5ca0266f2e85560c46eae5b742b32ede8f7b2f507b4def8.jpg",
+      "publishedAt": 1787738400000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Market Chatter: Amazon.com Plans Canada Expansion Despite Escalating Tariff Pressures",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/economy/policy/articles/market-chatter-amazon-com-plans-095804505.html",
+      "image": null,
+      "publishedAt": 1787738284000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "3 Overlooked Autonomous Vehicle Stocks Investors Should Jump On",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/fa0a1b37-d55d-38ff-8ce8-0efe81353d92/3-overlooked-autonomous.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_iIkUD1kzczSjkfvcLRkMw--~B/aD05NTg7dz0xMTMwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9fbb4a654b72f4dd441f356d53ead635.png",
+      "publishedAt": 1787737800000
+    },
     {
       "ticker": "MSFT",
       "title": "Bill Ackman's Pershing Square Made Microsoft Its Largest AI Holding by Selling Alphabet. Here's the Thesis Behind the Switch.",
@@ -50,14 +90,6 @@
       "publishedAt": 1787735008000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Alphabet, Apple, and Meta Platforms Were Top Billionaire Investor Buys in Q2. Should Retail Investors Follow Suit?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0bc44a9d-7074-375c-a4ba-d4d4aef7c2ef/alphabet%2C-apple%2C-and-meta.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lgZTde0yziM3Ifg4nY5CaQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f2489fa066978c6aaffe08a5168075bd.jpg",
-      "publishedAt": 1787734920000
-    },
-    {
       "ticker": "KO",
       "title": "2 Dividend Stocks to Buy and Hold for Long-Term Safety and Income",
       "publisher": "Motley Fool",
@@ -82,30 +114,6 @@
       "publishedAt": 1787732820000
     },
     {
-      "ticker": "MSFT",
-      "title": "Market Chatter: SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-softbank-considering-20-081355496.html",
-      "image": null,
-      "publishedAt": 1787732035000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon to Shut Down Mechanical Turk on Sept. 30",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/amazon-shut-down-mechanical-turk-080616664.html",
-      "image": null,
-      "publishedAt": 1787731576000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "From OpenAI To Google To Amazon: Nvidia’s Biggest Customers Are Becoming Its Biggest Rivals — The Custom Silicon Race Explained",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/f28acf4a-a552-3d26-9a77-2f387edc236b/from-openai-to-google-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/K30qMfTONQbJlbyxtmybNA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/4bdc76b2413aceabe9678c2cf6bc1751",
-      "publishedAt": 1787729738000
-    },
-    {
       "ticker": "PLTR",
       "title": "Why Is Palantir (PLTR) In Focus After Thiel Turned To AI Power Assets?",
       "publisher": "Simply Wall St.",
@@ -119,14 +127,6 @@
       "publisher": "PR Newswire",
       "link": "https://finance.yahoo.com/markets/crypto/articles/karty-llc-receives-visa-fintech-070000406.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tHT5nl.wdEbj0P8wv3qSrg--~B/aD0yNjY7dz0zOTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/dea48c78e22559d978ba46a4360343f0.jpg",
-      "publishedAt": 1787727600000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia’s Paradox: Stellar Earnings and a Sliding Stock",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/fa303cac-07c3-3871-8606-fa43d89d5825/nvidia%E2%80%99s-paradox%3A-stellar.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eu1WNdgRMdlzNKDJHQNyBw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/5c5f18561e84028f7ae41df5496aff99.jpg",
       "publishedAt": 1787727600000
     },
     {
