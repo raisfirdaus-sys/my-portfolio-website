@@ -1,12 +1,92 @@
 {
-  "updatedAt": "2026-08-25T23:56:57.721Z",
+  "updatedAt": "2026-08-26T01:55:43.787Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "2 Monster Stocks to Hold for the Next 10 Years",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/4e1a2d98-3b4c-31af-b501-ab857f4f2d16/2-monster-stocks-to-hold-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.9wTWyP0vxeGQekYI.hIsA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/de1a2b1c5d5d996b903ab524e64bb678.jpg",
+      "publishedAt": 1787707500000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How Investors May Respond To Kroger (KR) Linking Prescriptions With Instacart-Powered Online Grocery Delivery",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-kroger-kr-010754643.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rfgHQNfdN4A9Ysw50q.HAQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/3d17282617dddc4b711d8151bca35d83.jpg",
+      "publishedAt": 1787706474000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Uber Technologies (UBER) Is Up 7.6% After Dubai Apollo Go Tie-Up - Has The Bull Case Changed?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-7-6-010722210.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aBahESD.2wiCgfmZkI732g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cfa0f05cef7298ff8df3db38405f2803.jpg",
+      "publishedAt": 1787706442000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/technology/ai/articles/robotics-startup-generalist-reaches-3b-004059300.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0Xk974wn9H46b0KeyloOyw--~B/aD0zNTA4O3c9NDk2MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/47fd8dcc22b110eb0218b4a89fc0a76c.jpg",
+      "publishedAt": 1787704859000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks cuts more jobs as $2 billion turnaround expands",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/730e2963-411e-3d69-a143-f992c6c9ebf8/starbucks-cuts-more-jobs-as.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/X5ixp09v7xD7Aa1hOELKQQ--~B/aD0yNTI2O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/641fe8ce49c7a5cd72e01b03e66c2b92.jpg",
+      "publishedAt": 1787704620000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Paul Graham Reveals His ‘Secret’ Startup Success Metric: ‘What’s Their Growth Rate?’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/small-business/articles/paul-graham-reveals-secret-startup-003028028.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZbgD61aZ5rMhQXuUtdRh1w--~B/aD03MjA7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/c7c3cee1c13e6b2ca2a03631a7b7f3cd.jpg",
+      "publishedAt": 1787704228000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Access Advance Launches Exploration Phase for an AV1/AV2 Device and Software Patent Pool, Invites Participation of Potential Licensors",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/articles/access-advance-launches-exploration-phase-000000827.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CM2p1xD_mEEL8JaLd9nC4Q--~B/aD0yNTM7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/bd22db1ae4082a3dec2bd8edf42fd0e5.jpg",
+      "publishedAt": 1787702400000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Talen Energy (TLN) is Down 23% This Year. But Mizuho Expects a Rebound",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/energy/articles/talen-energy-tln-down-23-235400612.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/C2gsPNatw1pMBUbgXxw5gg--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/26ad3d6597228d4df119c0a796f9dbc9.jpg",
+      "publishedAt": 1787702040000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "How Large Does Your Portfolio Need to Be to Generate $16,500 a Month?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/cae14b33-d1a4-3c3b-928f-bf6401589c41/how-large-does-your-portfolio.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/N2FpPxQg9se309RsLxGTQw--~B/aD02ODI7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/8b87ce7d624cf8cd24c83eefc4478da1.jpg",
+      "publishedAt": 1787701790000
+    },
     {
       "ticker": "MSFT",
       "title": "Use This Zacks Tool to Find Strong Cloud Stocks",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/technology/articles/zacks-tool-strong-cloud-stocks-231400702.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/NI_uIbea5PSuFL1JGKYSJg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/493c3feda6e0e15fef3a8f66cc933696.jpg",
+      "publishedAt": 1787699640000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks Union Calls for Boycott in Latest Test of Company Turnaround",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/87c9bb8d-49a4-3f3b-af27-7336c6e5a35a/starbucks-union-calls-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/y9GLnfXMb_86DS0nmNK8.w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/e986b0d131e71bdaa10def4fd7fd68c0.jpg",
       "publishedAt": 1787699640000
     },
     {
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-insider-sold-shares-worth-211019233.html",
       "image": null,
       "publishedAt": 1787692219000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Stock Still Looks Undervalued On Cash Flow And Earnings",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-stock-still-looks-210712633.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
-      "publishedAt": 1787692032000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Why Is IREN (IREN) Drawing Attention After Its AI Cloud Milestones?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/why-iren-iren-drawing-attention-210642708.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gKuahD55IKV4hzzuuCBp4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0fe4d5d105492213ce106a92b49639d4.jpg",
-      "publishedAt": 1787692002000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Did Starbucks' Limited-Time Drink Surge and New Fiber Bar Partnership Just Shift Its (SBUX) Turnaround Story?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/did-starbucks-limited-time-drink-210616230.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/P8lY_QQ0hCFaiqx2Im23oA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0e7bd54c1332a34f72a24505fcbc3093.jpg",
-      "publishedAt": 1787691976000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "OpenAI’s Data-Center Chief Has Reportedly Left — Executive Exodus Grows Ahead Of Planned IPO",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/5647af85-2830-3ea4-b742-767369ecec6b/openai%E2%80%99s-data-center-chief.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YImmkcwbKE8RybLDNa79Rw--~B/aD04NTI7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/5fce36a5db0d77412c069fa14fb2c7dc",
-      "publishedAt": 1787691777000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Insider Sold Shares Worth $1,647,810, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-insider-sold-shares-worth-205747324.html",
-      "image": null,
-      "publishedAt": 1787691467000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Stock Picks That Billionaires Love",
-      "publisher": "Kiplinger",
-      "link": "https://finance.yahoo.com/m/4f24afa9-d27d-3d90-966a-1d328e30c957/stock-picks-that-billionaires.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/OPIv12T4pDpy8Iyd4r3IBg--~B/aD04MDI7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/kiplinger_425/50613018ed79353496881a97a3778436.jpg",
-      "publishedAt": 1787690981000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Cathie Wood's Biggest Buy Last Week Was SpaceX. She Sold Almost Exactly That Much Palantir the Same Day.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/c3b8eeee-44f6-3ff6-9581-95227834769a/cathie-wood%27s-biggest-buy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4d4r8QKptfLURB3hUt9.SA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/141d6000de007c153bae36d67fc45aa5.jpg",
-      "publishedAt": 1787690821000
-    },
-    {
-      "ticker": "KO",
-      "title": "Are dividends an overlooked path to long-term wealth?",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/dividends-overlooked-path-long-term-203355382.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eKQ1Hs5q6Dl3i09xFf33TQ--~B/aD0zMDc4O3c9NTQ3MjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/00abfbc0-1c3c-11ed-a7bd-874250c9d894_e753cb8b470e6dd9b0e0c88e9aca47da592de79ff90218d0899c374277047b57.jpg",
-      "publishedAt": 1787690035000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why Rezolve AI Stock Rocketed Higher Today",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7db0c898-35a9-3551-bb88-df15abab7503/why-rezolve-ai-stock-rocketed.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/G63USC9HzAsuT0_932pxDA--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f6922b484e54c78a3b28cbe4a32b72c8.jpg",
-      "publishedAt": 1787688986000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "The story that Nvidia's margins, balance sheet tell going into Q2 earnings",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/story-nvidias-margins-balance-sheet-200000914.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NCJUTDGmf74xlInIYsWbDQ--~B/aD00NzE0O3c9ODM4MTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/f5ca9ec2-58a6-43ac-b178-fb950ba0e697_970721dac3cca00bece55f30f20d693bc33a8e24ce11333025c085c9c8e7a930.jpg",
-      "publishedAt": 1787688000000
     }
   ]
 }
