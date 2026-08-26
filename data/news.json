@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-26T11:41:32.083Z",
+  "updatedAt": "2026-08-26T12:03:13.872Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Is Nvidia's AI data center dominance slipping as the market expands?",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/nvidias-ai-data-center-dominance-120000341.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kjJRAgsBcOmkXrPBxinFVQ--~B/aD0xNjg4O3c9MzAwMTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/101e1e9d-f87e-4678-9e61-82c1e6873199_a196da2824d9cfd0fb3a42918abb11f6207013e8850b6b4352ffa0cb95c54bc1.jpg",
+      "publishedAt": 1787745600000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Does OpenAI Face A Netscape Moment? How That Could Boost Google Stock.",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/fed45db5-8a81-329b-8ed0-94124b9d6465/does-openai-face-a-netscape.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZGh3EDZ0dteYI5nTqEZmug--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/921fca0fed67c44d5c91125e7f2a1a75.jpg",
+      "publishedAt": 1787744720000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Stuart Therapeutics, Inc. Appoints Dave LeCause as Senior Commercial Advisor",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/healthcare/articles/stuart-therapeutics-inc-appoints-dave-114500902.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4g7Zj0.7HKlv224TGeBVGQ--~B/aD00ODA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/5b76a09ec5076b3697b8fc4715a6157f.jpg",
+      "publishedAt": 1787744700000
+    },
+    {
+      "ticker": "KO",
+      "title": "The 30-Year U.S. Treasury Bond Now Has a Higher Yield Than Ford and Coca-Cola. Is It Now the Best Asset for Passive Income?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7a6e9041-a4a8-3c42-9ba1-8ca7be39a5bd/the-30-year-u.s.-treasury.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/aXXhvt9dqK0gLdHCMgpIlw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2852da3a3229af0417a720979bcb1239.jpg",
+      "publishedAt": 1787744700000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "3 Nasdaq 100 Stocks Worth Your Attention",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-nasdaq-100-stocks-worth-113913639.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mGLoGk8lwI8AUMQEhVoe6w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/dcf057c27655d03a050775ca9f19c022.jpg",
+      "publishedAt": 1787744353000
+    },
     {
       "ticker": "MSFT",
       "title": "Zoom Communications Third-Quarter Earnings Outlook Misses Street Views; Shares Down Pre-Bell",
@@ -74,6 +114,14 @@
       "publishedAt": 1787739060000
     },
     {
+      "ticker": "PLTR",
+      "title": "Salesforce, Intuit, ServiceNow, Palantir, and More Stocks That Explain Today’s Market",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/cca03820-a665-3555-8f42-1379277d10e1/salesforce%2C-intuit%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9pjKuv6VcjEltGLsFVwVDw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/0cf5a6a89f6da4c990857fc557950227.jpg",
+      "publishedAt": 1787738640000
+    },
+    {
       "ticker": "MSFT",
       "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
       "publisher": "Yahoo Finance",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/fa0a1b37-d55d-38ff-8ce8-0efe81353d92/3-overlooked-autonomous.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/_iIkUD1kzczSjkfvcLRkMw--~B/aD05NTg7dz0xMTMwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9fbb4a654b72f4dd441f356d53ead635.png",
       "publishedAt": 1787737800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bill Ackman's Pershing Square Made Microsoft Its Largest AI Holding by Selling Alphabet. Here's the Thesis Behind the Switch.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/384e3861-20ee-3ec5-a7b8-77bd87dc6485/bill-ackman%27s-pershing-square.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/j2yTWbSBj.l0AYWms2XAUQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/cc32cc45657012b5afa5e3c0b6e498b5.jpg",
-      "publishedAt": 1787736900000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Is Leaving Investors Flying Blind on Its AI Businesses",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/6522e012-120c-3e35-96ea-fcea6d98750a/microsoft-is-leaving.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/AL26fLMlcm9fjeaAi4fuRA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/0b1b3bd8a9630581a643dd5a2f23558c.jpg",
-      "publishedAt": 1787736600000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Zacks Investment Ideas feature highlights: SpaceX, Zoom, Salesforce, Amazon, Alphabet and SK Telecom",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-092700516.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MTTdQiSEyFKgByPYX8pOIQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ecce6792fa253aab7199bcceb922c964.jpg",
-      "publishedAt": 1787736420000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Warren Buffett's Successor, Greg Abel, Has 30% of Berkshire's $358 Billion Portfolio Invested in 2 Preeminent AI Stocks",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/2b968aa0-a3c4-365a-92c0-e19b38a3edbd/warren-buffett%27s-successor%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Sm5EzJBkETu12I11.mYccQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4f28aba91e79fad42f85b5f8a451e3bb.jpg",
-      "publishedAt": 1787736360000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft, HUMAIN Enter Into Long-Term AI Collaboration in Saudi Arabia",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-humain-enter-long-term-090328504.html",
-      "image": null,
-      "publishedAt": 1787735008000
-    },
-    {
-      "ticker": "KO",
-      "title": "2 Dividend Stocks to Buy and Hold for Long-Term Safety and Income",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/10789ee8-66b9-3a98-a639-c6fb7d41be42/2-dividend-stocks-to-buy-and.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/o5AfMlqRQtrxOQqBlzg8lg--~B/aD04ODI7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4d8c1059975c23cabdd2b654b4c561a7.jpg",
-      "publishedAt": 1787734200000
     }
   ]
 }
