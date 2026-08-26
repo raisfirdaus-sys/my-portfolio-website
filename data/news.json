@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-26T07:56:05.493Z",
+  "updatedAt": "2026-08-26T08:58:39.055Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Moonshot AI in Talks With US Tech Giants Over Revenue-Sharing Deals on Kimi K3 Model",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-moonshot-ai-talks-084828888.html",
+      "image": null,
+      "publishedAt": 1787734108000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft and HUMAIN announce long-term strategic collaboration to enable AI transformation in Saudi Arabia and beyond",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-humain-announce-long-term-082700727.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZwOiG.uPpupj51ixIybmCA--~B/aD0yNTg7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/a8c1c1741905bfe2bfc792a003e6bb48.jpg",
+      "publishedAt": 1787732820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-softbank-considering-20-081355496.html",
+      "image": null,
+      "publishedAt": 1787732035000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon to Shut Down Mechanical Turk on Sept. 30",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/amazon-shut-down-mechanical-turk-080616664.html",
+      "image": null,
+      "publishedAt": 1787731576000
+    },
     {
       "ticker": "GOOGL",
       "title": "From OpenAI To Google To Amazon: Nvidia’s Biggest Customers Are Becoming Its Biggest Rivals — The Custom Silicon Race Explained",
@@ -18,12 +50,28 @@
       "publishedAt": 1787728141000
     },
     {
+      "ticker": "MSFT",
+      "title": "Nvidia’s Paradox: Stellar Earnings and a Sliding Stock",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/fa303cac-07c3-3871-8606-fa43d89d5825/nvidia%E2%80%99s-paradox%3A-stellar.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/eu1WNdgRMdlzNKDJHQNyBw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/5c5f18561e84028f7ae41df5496aff99.jpg",
+      "publishedAt": 1787727600000
+    },
+    {
       "ticker": "V",
       "title": "KARTY LLC Receives the Visa FinTech Innovation Award Following its Qatar Launch",
       "publisher": "PR Newswire",
       "link": "https://finance.yahoo.com/markets/crypto/articles/karty-llc-receives-visa-fintech-070000406.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/tHT5nl.wdEbj0P8wv3qSrg--~B/aD0yNjY7dz0zOTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/dea48c78e22559d978ba46a4360343f0.jpg",
       "publishedAt": 1787727600000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia Reports Earnings Today. Will Wall Street’s High Bar Spoil the Surge?",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/629327c0-6204-3c50-8f32-7223bc624ba0/nvidia-reports-earnings.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/92lZWTzvQ3PtbIBs8dy2Ig--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/36c7f21a2534fe262c6bc5a2e63f86a1.jpg",
+      "publishedAt": 1787726241000
     },
     {
       "ticker": "AMZN",
@@ -66,52 +114,12 @@
       "publishedAt": 1787714369000
     },
     {
-      "ticker": "GOOGL",
-      "title": "The AI accountability problem is getting bigger",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/e072c562-8ad8-3b0a-869d-3117d036d262/the-ai-accountability-problem.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PM3DoYwn3PfU6yR4hTljrw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b4b45d1c5468cf5fad1c782bc6cfe31d.jpg",
-      "publishedAt": 1787712420000
-    },
-    {
       "ticker": "PLTR",
       "title": "Peter Thiel Has Steadily Sold Down His Palantir Stake for Years Yet Remains Its Largest Individual Shareholder. Here's What His Selling Pattern Signals for Investors.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/b9d047fc-456b-3412-b0c6-d9a782b89556/peter-thiel-has-steadily-sold.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/m2fVaYheATCAKs6ONrVR1Q--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d9ab8539af9494b5dc17c47890049333.png",
       "publishedAt": 1787711700000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet Spends About 60 Cents of Every Technical Infrastructure Dollar on Servers. Nvidia's Biggest Customers Were Just Told Prices Are Going Up More Than 15%.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/1e33c03c-cab0-343b-b35c-3d54c00a62d0/alphabet-spends-about-60.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Pe4tgNFGXR0SZONNLFIhYg--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/47dcb66ac72779fcb15293c6b1bc83de.jpg",
-      "publishedAt": 1787711581000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "2 Monster Stocks to Hold for the Next 10 Years",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/4e1a2d98-3b4c-31af-b501-ab857f4f2d16/2-monster-stocks-to-hold-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.9wTWyP0vxeGQekYI.hIsA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/de1a2b1c5d5d996b903ab524e64bb678.jpg",
-      "publishedAt": 1787707500000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Investors May Respond To Kroger (KR) Linking Prescriptions With Instacart-Powered Online Grocery Delivery",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-kroger-kr-010754643.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rfgHQNfdN4A9Ysw50q.HAQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/3d17282617dddc4b711d8151bca35d83.jpg",
-      "publishedAt": 1787706474000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Uber Technologies (UBER) Is Up 7.6% After Dubai Apollo Go Tie-Up - Has The Bull Case Changed?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-7-6-010722210.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aBahESD.2wiCgfmZkI732g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cfa0f05cef7298ff8df3db38405f2803.jpg",
-      "publishedAt": 1787706442000
     },
     {
       "ticker": "SBUX",
@@ -122,14 +130,6 @@
       "publishedAt": 1787704620000
     },
     {
-      "ticker": "AMZN",
-      "title": "Paul Graham Reveals His ‘Secret’ Startup Success Metric: ‘What’s Their Growth Rate?’",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/small-business/articles/paul-graham-reveals-secret-startup-003028028.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZbgD61aZ5rMhQXuUtdRh1w--~B/aD03MjA7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/c7c3cee1c13e6b2ca2a03631a7b7f3cd.jpg",
-      "publishedAt": 1787704228000
-    },
-    {
       "ticker": "JNJ",
       "title": "How Large Does Your Portfolio Need to Be to Generate $16,500 a Month?",
       "publisher": "24/7 Wall St.",
@@ -138,11 +138,11 @@
       "publishedAt": 1787701790000
     },
     {
-      "ticker": "MSFT",
-      "title": "Use This Zacks Tool to Find Strong Cloud Stocks",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/articles/zacks-tool-strong-cloud-stocks-231400702.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NI_uIbea5PSuFL1JGKYSJg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/493c3feda6e0e15fef3a8f66cc933696.jpg",
+      "ticker": "SBUX",
+      "title": "Starbucks Union Calls for Boycott in Latest Test of Company Turnaround",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/87c9bb8d-49a4-3f3b-af27-7336c6e5a35a/starbucks-union-calls-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/y9GLnfXMb_86DS0nmNK8.w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/e986b0d131e71bdaa10def4fd7fd68c0.jpg",
       "publishedAt": 1787699640000
     }
   ]
