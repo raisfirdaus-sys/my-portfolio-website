@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-26T10:49:25.529Z",
+  "updatedAt": "2026-08-26T11:41:32.083Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Zoom Communications Third-Quarter Earnings Outlook Misses Street Views; Shares Down Pre-Bell",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zoom-communications-third-quarter-earnings-111315697.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AvgENDbDtMe.myKSN41b0A--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/845da4270ad197e3af31ba0e279cf9cf.jpg",
+      "publishedAt": 1787742795000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon shutting down Mechanical Turk platform on Sept. 30, 2026",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/ef1ad132-fc83-3d3d-965c-50353784fb7b/amazon-shutting-down.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0jGRW.ecZQ_ICLQMvCHNpw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/794cf2817d70dd459093dceff8233a1e.jpg",
+      "publishedAt": 1787742551000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Why Rezolve AI (RZLV) Is Up 20.8% After Google Adopted Its Tech For Web3 Blockchain Data",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-rezolve-ai-rzlv-20-110733596.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
+      "publishedAt": 1787742453000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "New York Mayor Faces Off Against Amazon",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/e98599a4-0b48-39e1-8412-a4d11163b8c7/new-york-mayor-faces-off.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uJQvGWbajznTrHwJ9L.njw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/aa7e025ef01930be88f2779569e74af1.jpg",
+      "publishedAt": 1787742420000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "5 Blue-Chip Dividend Stocks to Buy Before August Ends",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/d8cb5615-2999-3347-af0d-fdb59265da2c/5-blue-chip-dividend-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/lAYgebXS3bIxOQBH8QNj3Q--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/0a8b3e8bc7bdf002d26e5493b8f73a50",
+      "publishedAt": 1787742039000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Billionaire David Tepper Sold Every Single Share of UnitedHealth in Q2. Here's Whether He Made a Costly Mistake.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f8033a06-9cc9-3800-9856-22361a9d0b27/billionaire-david-tepper-sold.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ta_pj3ksN0VIn5S_H5Yvyg--~B/aD04OTU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/52560b6d938fa7465ea28c959a7e871e.jpg",
+      "publishedAt": 1787741400000
+    },
     {
       "ticker": "ABBV",
       "title": "Billionaire Ken Griffin Increased His Stake in This Dividend King by 547% in Q2. Wall Street Thinks It's Still a Buy.",
@@ -16,6 +64,14 @@
       "link": "https://finance.yahoo.com/m/469f922b-0e50-32ea-9a9c-0ccd7cf1a383/bluefin-and-visa-launch.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/3mHMF6ABj1d6SNxX6P.btw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/369043435814533fc1d9d5971fa556df.jpg",
       "publishedAt": 1787739834000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The $1.5 Trillion Question Nvidia’s Earnings Can’t Answer",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/85a43c85-c54f-3719-96ff-eb1b1f0da222/the-%241.5-trillion-question.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FyRZhJDZgU_wPhTRWFt_hg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/6782c052332c91970d876d6336312955.jpg",
+      "publishedAt": 1787739060000
     },
     {
       "ticker": "MSFT",
@@ -74,14 +130,6 @@
       "publishedAt": 1787736360000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Rezolve AI (RZLV) Following Google Cloud Win Is The Stock A Bargain Or Priced In",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/rezolve-ai-rzlv-following-google-091012594.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
-      "publishedAt": 1787735412000
-    },
-    {
       "ticker": "MSFT",
       "title": "Microsoft, HUMAIN Enter Into Long-Term AI Collaboration in Saudi Arabia",
       "publisher": "MT Newswires",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/10789ee8-66b9-3a98-a639-c6fb7d41be42/2-dividend-stocks-to-buy-and.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/o5AfMlqRQtrxOQqBlzg8lg--~B/aD04ODI7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4d8c1059975c23cabdd2b654b4c561a7.jpg",
       "publishedAt": 1787734200000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Market Chatter: Moonshot AI in Talks With US Tech Giants Over Revenue-Sharing Deals on Kimi K3 Model",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-moonshot-ai-talks-084828888.html",
-      "image": null,
-      "publishedAt": 1787734108000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft and HUMAIN announce long-term strategic collaboration to enable AI transformation in Saudi Arabia and beyond",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-humain-announce-long-term-082700727.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZwOiG.uPpupj51ixIybmCA--~B/aD0yNTg7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/a8c1c1741905bfe2bfc792a003e6bb48.jpg",
-      "publishedAt": 1787732820000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Why Is Palantir (PLTR) In Focus After Thiel Turned To AI Power Assets?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/why-palantir-pltr-focus-thiel-070901257.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
-      "publishedAt": 1787728141000
-    },
-    {
-      "ticker": "V",
-      "title": "KARTY LLC Receives the Visa FinTech Innovation Award Following its Qatar Launch",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/karty-llc-receives-visa-fintech-070000406.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tHT5nl.wdEbj0P8wv3qSrg--~B/aD0yNjY7dz0zOTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/dea48c78e22559d978ba46a4360343f0.jpg",
-      "publishedAt": 1787727600000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Peter Thiel Has Steadily Sold Down His Palantir Stake for Years Yet Remains Its Largest Individual Shareholder. Here's What His Selling Pattern Signals for Investors.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b9d047fc-456b-3412-b0c6-d9a782b89556/peter-thiel-has-steadily-sold.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/m2fVaYheATCAKs6ONrVR1Q--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d9ab8539af9494b5dc17c47890049333.png",
-      "publishedAt": 1787711700000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks cuts more jobs as $2 billion turnaround expands",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/730e2963-411e-3d69-a143-f992c6c9ebf8/starbucks-cuts-more-jobs-as.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/X5ixp09v7xD7Aa1hOELKQQ--~B/aD0yNTI2O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/641fe8ce49c7a5cd72e01b03e66c2b92.jpg",
-      "publishedAt": 1787704620000
     }
   ]
 }
