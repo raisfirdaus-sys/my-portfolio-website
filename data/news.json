@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-29T15:17:59.568Z",
+  "updatedAt": "2026-08-29T18:49:58.713Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "Mastercard CEO: AI Shopping Agents, Machine-to-Machine Payments, and the New Infrastructure of Commerce",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/695eb6bf-678c-35f0-ba15-4add3b10833e/mastercard-ceo%3A-ai-shopping.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HHhYH4sbdD_bySeGJg3Rqg--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/f04f4c1d73b546e478db3a03ad0dc713.jpg",
+      "publishedAt": 1788027636000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon.com (AMZN) Triples AI Chip Orders As Robotaxi Supplier Network Expands",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-triples-ai-180950072.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
+      "publishedAt": 1788026990000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7853ae3e-90b0-3c87-beb6-73923871567d/abbvie-vs.-johnson-%26-johnson%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ooxOj2cZFcsD1QDbOeoaMw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/a6005da75497ce68031f2b5b4889e83c.png",
+      "publishedAt": 1788025261000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "A Judge Just Called This Pentagon AI Ban Illegal. Why Palantir Could Rally",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/43847225-2f1a-3a1a-a478-0137aefe4a54/a-judge-just-called-this.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Uaqh72H51cb9Y9EnsVRSnA--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/e1d23446a8f569c98fe1d741d0228ff7.jpg",
+      "publishedAt": 1788020427000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Elastic (ESTC) Is Up 16.3% After AI-Fueled Q1 Beat And Higher 2027 Revenue Guidance – Has The Bull Case Changed?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-16-3-ai-161452465.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gKuahD55IKV4hzzuuCBp4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0fe4d5d105492213ce106a92b49639d4.jpg",
+      "publishedAt": 1788020092000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "The Next Palantir? 100 Federal Agencies Already Use Cloudflare, and It’s Cleared For More",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/0e0a6003-063d-3cbd-9d8e-0d5f611ca467/the-next-palantir%3F-100.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/recNf96NpPqDhYiVqUHS.A--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/375afa8102af3ef20bad4be991a9b92b.jpg",
+      "publishedAt": 1788017744000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Meta Continues to Trade Jobs for AI: Robots Are “Coming For Us All”",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/64fb8a2e-004f-320b-9143-889fe789860d/meta-continues-to-trade-jobs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uAOcCbRHFhEZcflrw74lKQ--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/f848f2b8e43fcb5f0b3dc1c98f489038.jpg",
+      "publishedAt": 1788017512000
+    },
     {
       "ticker": "MSFT",
       "title": "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why.",
@@ -88,62 +144,6 @@
       "link": "https://finance.yahoo.com/m/3c5cb884-7ad8-38f6-90ea-39c7ef76d664/coca-cola%27s-dividend-yield.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/weXR.lYto7f27adRRY8YHw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/35e43e710f617f2d304275a67c403931.jpg",
       "publishedAt": 1787992441000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "SpaceX vs. Alphabet: Which Is the Best Artificial Intelligence (AI) Stock to Buy Now?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6803a446-108b-303b-be1c-a71aa59db9e4/spacex-vs.-alphabet%3A-which-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8PwhMTLjjtRDAvEiWMc62Q--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/782e9b4d89803322178587f767533fbc.jpg",
-      "publishedAt": 1787991600000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Stock Looks Reasonable On Its 82% Three Year Run",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-looks-081144750.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XpMxuzns_riARaMcbrT.IQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7.jpg",
-      "publishedAt": 1787991104000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "How networking became the critical layer of AI",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/networking-became-critical-layer-ai-071654651.html",
-      "image": null,
-      "publishedAt": 1787987814000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Taps Sail Biomedicines in Bid for CAR-T Edge Over Bristol Myers Squibb",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-taps-sail-022805825.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KHiUZAmJjcHGn9P.R3vU0w--~B/aD04NTQ7dz0xMjc5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/aa495d824e749ea68217878a12abca3c.jpg",
-      "publishedAt": 1787970485000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Expert ranks top 5 U.S. tech companies to recruit from",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/expert-ranks-top-5-u-020011183.html",
-      "image": null,
-      "publishedAt": 1787968811000
-    },
-    {
-      "ticker": "V",
-      "title": "Is Visa’s AI Cybersecurity and New Markets Push Reshaping the Investment Case for Visa (V)?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/visa-ai-cybersecurity-markets-push-010747642.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/S7MQEEXBIeGh5oNdkHunaA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ce005faf0fa52260b570b412e5c6a96e.jpg",
-      "publishedAt": 1787965667000
-    },
-    {
-      "ticker": "MA",
-      "title": "Bill Ackman Just Bought Visa, Mastercard, and S&P Global Stock. Each One Collects a Toll on Somebody Else's Sale.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0f3e3cb1-df1a-3d70-ae8b-a8ae5795afa5/bill-ackman-just-bought-visa%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/RTUi_aNFI4rXLJrT6lGy.g--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c645caa76cb67475f69b25e6c50fc029.jpg",
-      "publishedAt": 1787964841000
     }
   ]
 }
