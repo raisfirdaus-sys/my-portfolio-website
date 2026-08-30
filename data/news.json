@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-30T00:16:36.941Z",
+  "updatedAt": "2026-08-30T05:47:11.316Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Why MercadoLibre (MELI) Is Back In The Spotlight",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mercadolibre-meli-back-spotlight-030937075.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hjGP2eEtabN2oE8tfDmFlw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/08917be7a95653c6c5ea7608ea29ad59.jpg",
+      "publishedAt": 1788059377000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Morgan Stanley delivers candid verdict after Elastic’s stunning earnings",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/41b31abb-a33d-3653-bebd-0a122ccb1eec/morgan-stanley-delivers.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fiXovrPFwAGRrn_4KEAYGQ--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/bb2276a65d9d80fb74ad6b50caef98b7.jpg",
+      "publishedAt": 1788055380000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "SK Hynix CEO Warns Memory Shortage Will Persist Through 2030 as Chipmaker Builds $4 Billion Indiana Fab",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/articles/sk-hynix-ceo-warns-memory-013049149.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5MR1wOq0BaeGEGdJPvYHJA--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/1829c3cf0e280b5e54208241f40008bf.jpg",
+      "publishedAt": 1788053449000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon.com vs. MercadoLibre: A Look at Which E-Commerce Stock Is a Better Investment in 2026",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/99068047-5654-316a-a01e-04ccfe3f32c1/amazon.com-vs.-mercadolibre%3A.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.DEFlPwb4mXPu6dRoWjzGw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/0342bf768ad93c9de21ceb1dda145d76.png",
+      "publishedAt": 1788052223000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Is AbbVie (ABBV) Undervalued As It Expands Skyrizi In Crohns Disease?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-undervalued-expands-skyrizi-010750765.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
+      "publishedAt": 1788052070000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon's $200 Ring doorbell camera keeps packages safe on your porch",
@@ -32,6 +72,14 @@
       "link": "https://finance.yahoo.com/m/e236082e-3143-33e8-b038-0a95c21a101c/abbvie-vs.-eli-lilly-and%3A.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/aAnpiteZrG2cfA6_b7crCg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1c1aefc0787053027d428c725e185484.png",
       "publishedAt": 1788032101000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Oracle vs. Microsoft: Big Tech’s AI Cloud Battle Has a New Underdog",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/415f7c53-9cdd-3c22-a795-c30a7c384907/oracle-vs.-microsoft%3A-big.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/n3ySHbCvUDbc.f_8OrYELg--~B/aD05MTE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/72969cd8320775c6cf8814d5d2c8f685.jpg",
+      "publishedAt": 1788028202000
     },
     {
       "ticker": "MA",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/0e0a6003-063d-3cbd-9d8e-0d5f611ca467/the-next-palantir%3F-100.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/recNf96NpPqDhYiVqUHS.A--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/375afa8102af3ef20bad4be991a9b92b.jpg",
       "publishedAt": 1788017744000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Meta Continues to Trade Jobs for AI: Robots Are “Coming For Us All”",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/64fb8a2e-004f-320b-9143-889fe789860d/meta-continues-to-trade-jobs.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uAOcCbRHFhEZcflrw74lKQ--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/f848f2b8e43fcb5f0b3dc1c98f489038.jpg",
-      "publishedAt": 1788017512000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/831da3a3-5d14-38fa-bc94-3465a673af4e/chevron%27s-microsoft-data.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/psaAAylWQ0_dvOIDklp2FA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4a3630ce2201df563f3f1fb319f35830.png",
-      "publishedAt": 1788015900000
-    },
-    {
-      "ticker": "V",
-      "title": "Is Visa Stock Underperforming the Dow?",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/27e2f683-b91a-38dd-a1b0-535cbc272f7a/is-visa-stock-underperforming.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2MTrB6WNdTp2qosdFghD5Q--~B/aD04MzY7dz0xMjU0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/875c63c6c4c121280fd060fd72bad65b.jpg",
-      "publishedAt": 1788015450000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "VUG vs. VOOG Is Not a Fee Fight | How the Cheaper Vanguard Growth ETF Is Losing",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/8848dbc6-78a6-3876-841c-e831990388aa/vug-vs.-voog-is-not-a-fee.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Rdoxj1tdDdLWdnAgtu_51Q--~B/aD0xNjU3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/66f7ad0885a45c8c831a3c2179db46ca.jpg",
-      "publishedAt": 1788011598000
-    },
-    {
-      "ticker": "KO",
-      "title": "Coca-Cola Just Hit an All-Time High After Surpassing $90 a Share. History Says This Is What Happens Next.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/410d9dff-2653-3d57-9ae2-d9216839dc8a/coca-cola-just-hit-an.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/veqZCCnkeUdKS8ZxhgwrkQ--~B/aD04MDA7dz0xMDY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/4e1e280cd24f2511638969510f1ee510.jpg",
-      "publishedAt": 1788010500000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "EXCLUSIVE: Claude Revenue Surges 1,000% as Anthropic Gains on ChatGPT",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-claude-revenue-surges-1-133046476.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/rx1k7mxJb6C0X0L0zqjI9Q--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/3d99e03e298195abd52273fe7808827d.jpg",
-      "publishedAt": 1788010246000
     }
   ]
 }
