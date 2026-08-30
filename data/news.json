@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-30T11:50:23.707Z",
+  "updatedAt": "2026-08-30T16:37:48.100Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/6de56dd3-dbe4-3d29-b8d7-5d288c721035/the-s%26p-500-keeps-hitting.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/J8CetAqG_7GObRNiO02ThQ--~B/aD0xMDM5O3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/36eecf54cca8308e5a2a3582607e451b.jpg",
+      "publishedAt": 1788101700000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/302d2d71-e4b9-3b21-bfd4-db0b911518b1/amazon-has-badly.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/yMN8HyIEPtRos7eHN8eVhg--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/aa5701870d36f45b6f1ec99d2d0ecac0.jpg",
+      "publishedAt": 1788100500000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "How a 79-Year-Old Widow Built a $6,100 Monthly Paycheck Around O, JNJ, and PFF",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/8eb3474c-7eb5-328c-9f8b-8b7f40c71f82/how-a-79-year-old-widow-built.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FA3Z5Wh70_hqp37Na0ajGA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/b57c983c2d2217fbe8cb1757f6f006e3.jpg",
+      "publishedAt": 1788097018000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/5851be5e-4456-36df-acc2-e391c82c51f8/dow-jones-futures-due-amid.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Y_tdoyLIsLAfNtx_6oZMeA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/1ce802cf395fdace943c9de2dc2ce842.jpg",
+      "publishedAt": 1788096510000
+    },
     {
       "ticker": "AMZN",
       "title": "Is This the Single Best Reason to Buy Amazon Stock Right Now?",
@@ -34,6 +66,14 @@
       "publishedAt": 1788079800000
     },
     {
+      "ticker": "KO",
+      "title": "Is Coca-Cola Stock Outperforming the Nasdaq?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/fc9420ce-10f0-3a6a-a80c-bc996b774eb3/is-coca-cola-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/rLacT9zDvfvbL7AJhzmCXw--~B/aD04NTY7dz0xMjI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/b49309482024484d3154e898b9676a97.jpg",
+      "publishedAt": 1788079039000
+    },
+    {
       "ticker": "MSFT",
       "title": "Nvidia's Earnings Reveal a New Buyer Class Outgrowing Microsoft, Google and Amazon",
       "publisher": "Motley Fool",
@@ -48,6 +88,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-courts-democrats-081418471.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
       "publishedAt": 1788077658000
+    },
+    {
+      "ticker": "MA",
+      "title": "Is Mastercard Incorporated Stock Underperforming the S&P 500?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/df9854e4-6497-3424-93fc-933cb00e7347/is-mastercard-incorporated.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/KbjStzCqt0xH_6DyXYifyA--~B/aD04MzY7dz0xMjU0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/c52bc93fbd9e58a872b8912f1156146a.jpg",
+      "publishedAt": 1788073406000
     },
     {
       "ticker": "AMZN",
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-undervalued-expands-skyrizi-010750765.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
       "publishedAt": 1788052070000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon's $200 Ring doorbell camera keeps packages safe on your porch",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/c6bdf642-bbdf-3000-b719-e8fda3904fef/amazon%27s-%24200-ring-doorbell.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wivHCxws7EMwZzOkawlELg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/5f05f0598a3dd4b6f9c478f45d363fe6.jpg",
-      "publishedAt": 1788047100000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Billionaire Stanley Druckenmiller Sold Broadcom and Bought These Artificial Intelligence (AI) Giants Instead",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b5379027-2805-3c8f-a53f-c4763263327e/billionaire-stanley.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/guT6kkJRnRruT73AUYEB5Q--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c13c0611bad542363b345f636c18a31f.jpg",
-      "publishedAt": 1788034800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Should Stronger Analyst Focus On Earnings Power In Astera Labs’ AI Story (ALAB) Require Action From Investors?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stronger-analyst-focus-earnings-power-201323308.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/otG1EL.4cGC_HyynlaSirA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1d618ff9ab875bb9b8cc70f749d1f2d0.jpg",
-      "publishedAt": 1788034403000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e236082e-3143-33e8-b038-0a95c21a101c/abbvie-vs.-eli-lilly-and%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/aAnpiteZrG2cfA6_b7crCg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1c1aefc0787053027d428c725e185484.png",
-      "publishedAt": 1788032101000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Oracle vs. Microsoft: Big Tech’s AI Cloud Battle Has a New Underdog",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/415f7c53-9cdd-3c22-a795-c30a7c384907/oracle-vs.-microsoft%3A-big.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/n3ySHbCvUDbc.f_8OrYELg--~B/aD05MTE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/72969cd8320775c6cf8814d5d2c8f685.jpg",
-      "publishedAt": 1788028202000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard CEO: AI Shopping Agents, Machine-to-Machine Payments, and the New Infrastructure of Commerce",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/695eb6bf-678c-35f0-ba15-4add3b10833e/mastercard-ceo%3A-ai-shopping.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HHhYH4sbdD_bySeGJg3Rqg--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/f04f4c1d73b546e478db3a03ad0dc713.jpg",
-      "publishedAt": 1788027636000
     }
   ]
 }
