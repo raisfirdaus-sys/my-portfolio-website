@@ -1,109 +1,21 @@
 {
-  "updatedAt": "2026-09-01T13:27:58.385Z",
+  "updatedAt": "2026-09-01T17:26:23.945Z",
   "items": [
     {
-      "ticker": "MSFT",
-      "title": "Laurel Now Available in the Microsoft Marketplace",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/laurel-now-available-microsoft-marketplace-131600667.html",
-      "image": null,
-      "publishedAt": 1788268560000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Fervo Energy signs record 396 MW geothermal deal with Google",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/6be633c0-8922-3c76-b0dc-f9f61a0bac30/fervo-energy-signs-record-396.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/mUL1lsAR8H3Tge255JQepQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/a3501c314560f76e144d90a740a72cf0.jpg",
-      "publishedAt": 1788268540000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Medtronic Raises Full-Year Outlook Following Fiscal First-Quarter Beat",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/medtronic-raises-full-outlook-following-130907056.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8yLMJSCZYXjgO59V9gvebg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/03b3f1406c6c69eace1e00955b38aeab.jpg",
-      "publishedAt": 1788268147000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The Zacks Analyst Blog Highlights Microsoft, Intel, Bank of America, AMREP and United Bancorp",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-microsoft-130800963.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/539YRRcyvRqVK2_Ci9vaZw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d325e443265f81b37d14d0c390b4cefa.jpg",
-      "publishedAt": 1788268080000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Why Procter & Gamble’s Quieter Dividend Outpaces Johnson & Johnson’s Growth Story",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/feb2c5e8-3690-3692-b540-9a3b3d47b5f7/why-procter-%26-gamble%E2%80%99s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/W6FftHxXgcQIKT.F9hweOQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/1932e594e5235277a729b9ecb8030a8d",
-      "publishedAt": 1788267916000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "The Zacks Analyst Blog Highlights Broadcom, Nvidia, Palantir, Fortinet and Quanta Services",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-broadcom-130400276.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YJm4vm3ngy_hdp_n_v.98w--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/11c57bc89878c9157e259fddcb0b1629.jpg",
-      "publishedAt": 1788267840000
-    },
-    {
-      "ticker": "V",
-      "title": "Wildfire Appoints Mike Grillo as Senior Vice President of Data and Consumer Insights",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/articles/wildfire-appoints-mike-grillo-senior-130100548.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/70D8zDShLbPBO42ZmkseXQ--~B/aD0zOTM7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/932c7836548e16779f67a82943ef08ee.jpg",
-      "publishedAt": 1788267660000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Norbert Health Raises $14 Million Series A to Power Autonomous Robotic Nursing Assistants",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/norbert-health-raises-14-million-130100146.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/eX3t.BynB1elm777Zi4EEQ--~B/aD0yMDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/a45e3b4f49f9e2664c484c5a1d8d8ae5.jpg",
-      "publishedAt": 1788267660000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Backstory Names Sam Branson Head of Partnerships to Accelerate Growth Through Strategic Alliances",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/backstory-names-sam-branson-head-130000671.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZB1rscGYU6Cd8DZ6gUVT0A--~B/aD0xNTYwO3c9OTM0NzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/business-wire.com/88a4c71abd05604d90414569790c1276.jpg",
-      "publishedAt": 1788267600000
-    },
-    {
       "ticker": "AMZN",
-      "title": "Update: US Equity Futures Fall Pre-Bell Tuesday as Global Bond Yields, Oil Prices Rise",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-fall-pre-125351451.html",
-      "image": null,
-      "publishedAt": 1788267231000
+      "title": "Amazon vs. Shopify: Which Consumer Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/c54f1eb9-8bd6-3e4d-a11d-c9b4f959a4d7/amazon-vs.-shopify%3A-which.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Fu4VzMYh8KyGUyXXO3v6Og--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/464e1ae7311cbacdad796d04904b9f4e.png",
+      "publishedAt": 1788281352000
     },
     {
-      "ticker": "AMZN",
-      "title": "Stock Market Today: Dow Falls As Oil Prices, Treasury Yields Jump; Nvidia, Micron Shares Slide (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-dow-falls.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2EypFxTaQQXQWTY.6q39MQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/87c39a949f97ed3e7beb2b2a786c1d3d.jpg",
-      "publishedAt": 1788267027000
-    },
-    {
-      "ticker": "MA",
-      "title": "ChargebackX Returns November 9-10 With Two Days of Virtual Programming and In-Person Evenings in New York and Berlin",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/chargebackx-returns-november-9-10-124900693.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9m9qjgjt8SBuXxvHss6z2A--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/b3969610fa1f85b9df70a6b8056c4eac.png",
-      "publishedAt": 1788266940000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "FRVO Stock Soars Pre-Market After Largest Ever Deal With Google – A Look At The Key Highlights",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/b26340ee-f691-32aa-8691-05569e617ae9/frvo-stock-soars-pre-market.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_VU7KDhqH2YpuvvlG1S9bA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/ebc30941095e4c96998d5bf36d0b45f1",
-      "publishedAt": 1788266912000
+      "ticker": "KO",
+      "title": "3 Ways Warren Buffett Utilizes Patience Over Profit When Investing",
+      "publisher": "MoneyLion",
+      "link": "https://finance.yahoo.com/m/2ef332ce-6d4b-3e2c-a273-b1044228475e/3-ways-warren-buffett.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jVcQA3P.3nQvTVKSjwQRTg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/moneylion_953/da6fda1353c556e39ba35b8d5f5bf045.jpg",
+      "publishedAt": 1788281141000
     },
     {
       "ticker": "AMZN",
@@ -111,39 +23,127 @@
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/332ee051-850f-359b-a059-92fb2d8c7b66/amazon-stock-extends-losses.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/QxmrByurknS2xY5pFnlWTw--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/72452e5d8c4c75905705c218fd754635.jpg",
-      "publishedAt": 1788266871000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "5 Top Goldman Sachs Stock Picks Pay Big Dividends (One Yields Over 6%)",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/aadb1559-cc23-3189-8a46-7f704d660ed3/5-top-goldman-sachs-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1sYqPc2IsEq4vbV20wCT8A--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/03d871c743df078728962ff7da62a29e.jpg",
-      "publishedAt": 1788266628000
+      "publishedAt": 1788280050000
     },
     {
       "ticker": "GOOGL",
-      "title": "Update: Fervo Signs 396 Megawatt Power Purchase Agreement With Google",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/energy/articles/fervo-signs-396-megawatt-power-124257205.html",
-      "image": null,
-      "publishedAt": 1788266577000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "S&P 500 biggest August 2026 winners: Moderna, software stocks",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/320f2665-f8c8-36ba-8a65-09ec048551b5/s%26p-500-biggest-august-2026.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IVu2DAnM8tZOFhbcFlYEzQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/40c2814240c2a6523956aba700d86856.jpg",
-      "publishedAt": 1788266273000
+      "title": "Tesla Cybercab Hype Is Out of Control—but Can It Save the Stock?",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/8fd387a4-d1cd-3362-9057-587a32af840a/tesla-cybercab-hype-is-out-of.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/LbFWTphb5nako3X_JEQvxA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/29df518948232e19bbd513b67cd5ec5c.jpg",
+      "publishedAt": 1788279780000
     },
     {
       "ticker": "MSFT",
-      "title": "This Week In Cloud AI - AI-Driven Optical Networks Reshape Global Market Dynamics",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/week-cloud-ai-ai-driven-123732221.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_r3ZKc4SC7RNhf6IqZgDbA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/df4b73b911e0bdb53cb26c5cad04a925.jpg",
-      "publishedAt": 1788266252000
+      "title": "Apple Stock Did Great During Cook’s Time as CEO—But So Did the Mag 7",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/e601ea86-d74b-3fd4-945a-15239a98fb68/apple-stock-did-great-during.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0bWGP1J9ZAgrRG_Iz2uReg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/4eed6336cef13556435e36c23fdbddae.jpg",
+      "publishedAt": 1788279240000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Market Chatter: Micron Proposes High Performance Bonuses Amid Strike Plans at Taiwan Plant",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-micron-proposes-high-160607573.html",
+      "image": null,
+      "publishedAt": 1788278767000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Prediction: Microsoft Stock Will Double on This Date",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/5fa4fcce-3f57-3925-99a8-22fd627669b3/prediction%3A-microsoft-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/fY4.zdKuFerakbuspfkSaA--~B/aD05OTk7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/32e0e3604ca64517231f464bcf7ca959.jpg",
+      "publishedAt": 1788278437000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead (GILD) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gilead-gild-upgraded-strong-buy-160004207.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/C_V_KdMWr7r9VCjEP8gtRg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/03fca48475577988aa4e0db94f484b4e.jpg",
+      "publishedAt": 1788278404000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Luminize Named No. 731 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America's Fastest-Growing Private Companies",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/small-business/articles/luminize-named-no-731-2026-160000225.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8knF.igR6HKyDwH7wve.PQ--~B/aD0yMzE7dz0xNTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/f905bc39c5b83085524575e692bd3817.jpg",
+      "publishedAt": 1788278400000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Sundar Pichai Says Alphabet's AI Overviews Now Reach 2.5 Billion Monthly Users as Ad Revenue Hit $82 Billion. Does That Scale Justify Spending Up to $205 Billion on AI Infrastructure This Year?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/0943603c-597f-3a26-83d7-8f1f2697de91/sundar-pichai-says-alphabet%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ax5ArzCwoLusk4RgHRgs2A--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/786ffa21e0c5b9bd76dd4ec3f4c3dc0d.png",
+      "publishedAt": 1788278220000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Meta Platforms' Teen Harm Settlement Clears Overhang, Engagement Concerns Remain, Wedbush Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-apos-teen-harm-155637906.html",
+      "image": null,
+      "publishedAt": 1788278197000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Rezolve AI revenue jumps nearly 20-fold in H1, but losses widen and shares slide",
+      "publisher": "Proactive",
+      "link": "https://finance.yahoo.com/m/bb816f2a-0886-3e28-9996-a4b814459cbf/rezolve-ai-revenue-jumps.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/UN3HRUrnPSXod_JsYc9ljA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/proactive_us_504/a2e87d0a3e2bade324948eaeb82af8b8.jpg",
+      "publishedAt": 1788278040000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Higher Bond Yields Are Here to Stay. 3 Things Make That Clear.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/a344d8e1-481c-34e8-a8d2-365e2651fad4/higher-bond-yields-are-here.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ktMX2tluaBb4TSi.wm5dSw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/644cb9417baf65b4238dcdf2a523ad1e.jpg",
+      "publishedAt": 1788278040000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Top Midday Stories: Anthropic Reportedly Agrees to $35 Billion Computing Deal With Lambda; GoPro to Merge With Starman Optical",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-anthropic-reportedly-155033765.html",
+      "image": null,
+      "publishedAt": 1788277833000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Can Starbucks' $1.8B Debt Paydown Reinforce Financial Flexibility?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-1-8b-debt-paydown-155000031.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9Si.z7N_z1y2DQf6sbG31g--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/825eb4a496122eaea7a3728967e9c264.jpg",
+      "publishedAt": 1788277800000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "IREN's CapEx Plan Accelerates: Can Funding Keep Up With Expansion?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/irens-capex-plan-accelerates-funding-154700814.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WOoPBlPZcIPGYXkCjJ0.xQ--~B/aD02MjU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0e4184fbbb4bd6d414018818b3c21310.jpg",
+      "publishedAt": 1788277620000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Big Tech Spent Over $1 Trillion on AI. The Bill Does Not Arrive Until It Depreciates.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/c42673a2-6a91-35f6-905a-c0e71a28304b/big-tech-spent-over-%241.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/TYo78bjsWDpjkBmBGx594Q--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/04d3942d2d482f600e7114d00f7e9f25",
+      "publishedAt": 1788277307000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "A Wave of Weight-Loss Drugs Is Quietly Creating a Multi-Billion-Dollar Opportunity That Aesthetic Medicine Is Racing to Capture",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/healthcare/articles/wave-weight-loss-drugs-quietly-153700169.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/cxuhJOd.OZb5D8aeiNyp1A--~B/aD04Mzt3PTM5OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/cnwgroup.com/578e136f0a7393d82832699830b81364.jpg",
+      "publishedAt": 1788277020000
     }
   ]
 }
