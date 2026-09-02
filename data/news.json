@@ -1,8 +1,128 @@
 {
-  "updatedAt": "2026-09-02T05:02:48.723Z",
+  "updatedAt": "2026-09-02T09:33:27.476Z",
   "items": [
     {
+      "ticker": "MSFT",
+      "title": "Market Chatter: OpenAI's Astra Model Raises Security Concerns Over Hidden AI Reasoning",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-openai-apos-astra-092852787.html",
+      "image": null,
+      "publishedAt": 1788341332000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft's Edge Remains Exempt From Gatekeeper Designation in European Court Ruling",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/microsoft-apos-edge-remains-exempt-091350508.html",
+      "image": null,
+      "publishedAt": 1788340430000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Unit Zoox Expands Autonomous Testing to Houston, San Diego",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/amazon-unit-zoox-expands-autonomous-090222518.html",
+      "image": null,
+      "publishedAt": 1788339742000
+    },
+    {
       "ticker": "GOOGL",
+      "title": "Fervo Energy signs 396MW geothermal PPA with Google in Utah",
+      "publisher": "Power Technology",
+      "link": "https://finance.yahoo.com/m/9ac21dc1-86b6-3832-8852-7f536720cdde/fervo-energy-signs-396mw.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/XCd2HkqCYK2FjG24Y7hBBQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/power_technology_866/d16fd2f5521d25db1c73a99c6efb2b26.jpg",
+      "publishedAt": 1788338884000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Update: Fervo Signs 396 Megawatt Power Purchase Agreement With Google",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/fervo-signs-396-megawatt-power-082257606.html",
+      "image": null,
+      "publishedAt": 1788337377000
+    },
+    {
+      "ticker": "KO",
+      "title": "Market Chatter: PepsiCo, Coca-Cola, Unilever Products Seized in Illicit Indian Relabeling Operation",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-pepsico-coca-cola-081512201.html",
+      "image": null,
+      "publishedAt": 1788336912000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Is Now a Good Time to Buy Amazon Stock?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1a3be354-1299-334d-a747-8371c1e9de22/is-now-a-good-time-to-buy.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/t5KpH0JWzCD_lojhC2ry6Q--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8dbee33ef2df84917f1d8cf2c3644944.png",
+      "publishedAt": 1788336900000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Tech Stocks Rule The Market, Even As Their Revenue Trails Consumer And Banking Giants",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/01d1a1d1-7a00-3f0c-b3f9-e1813db83d1c/why-tech-stocks-rule-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/J2ATY9ZWIpxXvYQ68lhCHw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/2163259cfc8129547adbb82f899db9c9.jpg",
+      "publishedAt": 1788335590000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon-Backed Anthropic Unveils Claude Fable 5.1, Mythos 5.1",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-backed-anthropic-unveils-claude-074128922.html",
+      "image": null,
+      "publishedAt": 1788334888000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Goldman Sachs Adds 3 European Stocks to Conviction List",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/5ea8e806-763c-3796-bc76-46a678338f57/goldman-sachs-adds-3-european.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WOHQ3lzJtLYL.VUItnFNUw--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/1c02a1328f988ff3d2b37774f1397d8c.jpg",
+      "publishedAt": 1788334777000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Euromonitor Introduces Passport Intelligence Through Microsoft 365 Copilot",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/euromonitor-introduces-passport-intelligence-microsoft-073000700.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IB3KTCKWgYSgoeI9_ijEcg--~B/aD01MTI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/65f16b9be2fbc80e4e6a08bae2a51ea3.jpg",
+      "publishedAt": 1788334200000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola (KO) Faces Supply Chain Scrutiny, Is The Stock Already Fully Valued?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-faces-supply-070524576.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/i8hf4cHmLZCx.I_eWCY_mw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/74f98c15d287910ca9954ef2279ac5c0.jpg",
+      "publishedAt": 1788332724000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Snowflake Stock’s 46% AI Rally Faces an Earnings Test",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/fe95bb11-35de-33ab-b88d-f850fdba6e29/snowflake-stock%E2%80%99s-46%25-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qNb3twyccDqZgXT9r9GDNQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/652d8e5a617814866c7af652f702fd65.jpg",
+      "publishedAt": 1788332400000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Chinese AI Models Now Up to 90% Cheaper than US Rivals, Threatening Economics of the US-led AI Boom",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-models-now-90-060000442.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0W9lUY3LDrQPQHOhv9g19g--~B/aD02MDY7dz0yMTI2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/globenewswire.com/80b84b5ddeb0ccadd4a5f9f6664b834a.png",
+      "publishedAt": 1788328800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "RZLV Stock Stares At Worst Week Since June Despite 21X Revenue Jump: Retail Keeps The Faith",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/129a67f9-29d5-3827-b0a2-63de30636453/rzlv-stock-stares-at-worst.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bPnHr9AWjgNSNFxbW3t0hA--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/c4a992bed9a18b92ad2535e171220b4c",
+      "publishedAt": 1788328089000
+    },
+    {
+      "ticker": "AMZN",
       "title": "Why The Trade Desk Stock Lost 24% in August",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/631d469d-6e62-372c-ab7d-f133b0432ab3/why-the-trade-desk-stock-lost.html",
@@ -10,7 +130,7 @@
       "publishedAt": 1788323700000
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "AMZN",
       "title": "Billionaire David Tepper just dumped a red-hot AI stock",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/cde61bcc-96d0-384d-a3ac-72ed482cd66c/billionaire-david-tepper-just.html",
@@ -24,126 +144,6 @@
       "link": "https://finance.yahoo.com/small-business/articles/ocbc-visa-doxa-deploy-singapores-023000581.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/5t59NGkG89bKehlNl37QUA--~B/aD0yNjY7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/3edfcc25e89443404df19d98b5312bce.jpg",
       "publishedAt": 1788316200000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Does Johnson & Johnson (JNJ) Talc Verdict Add To Its Legal Risk?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/healthcare/articles/does-johnson-johnson-jnj-talc-021051392.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/XpMxuzns_riARaMcbrT.IQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7.jpg",
-      "publishedAt": 1788315051000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Is Priced for Perfection. These 2 Defense Stocks Are Priced for Pessimism.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/496f6068-70b4-33d6-bf1a-b6de3296e329/palantir-is-priced-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pu7q7hEThWIoeWrJ3RuYKQ--~B/aD02NDY7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9737ba63336bb3d53ba71ae95c1e27d0.jpg",
-      "publishedAt": 1788313800000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why Fervo Energy Stock Skyrocketed Today",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e54ce487-c4eb-3535-917b-a3642c863798/why-fervo-energy-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Ds56ecZt9S.YfV299ruYuA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/912424744c837a44b81b918242ea03e0.jpg",
-      "publishedAt": 1788313523000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Strategy's CEO Says Bitcoin Buys Come Down to Capital Costs, Not Price",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/fa7c5e99-a664-3ace-bddc-3cb35459373c/strategy%27s-ceo-says-bitcoin.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8S6t6mGEvWXzk.k0k1rBvw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/beincrypto_us_662/4d6e91a0b9cc24fb5e7552c7bdca63ef.png",
-      "publishedAt": 1788313191000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The 3 Best Artificial Intelligence (AI) Stocks for September",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/198aba06-2e8e-3886-82a6-a0e47cd11e3a/the-3-best-artificial.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZQGVqFFwQADy4jRxAgFi9Q--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e1c9e8e1f810f5817aff15e70051d94c.jpg",
-      "publishedAt": 1788312420000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fund Interest Climbs",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/jJRC.q9MpXtT8zhQ8XFfmg--~B/aD01NTg7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/17eac8f583cca5a906a0120108e265c5.jpg",
-      "publishedAt": 1788309615000
-    },
-    {
-      "ticker": "KO",
-      "title": "Soda giant makes another warehouse change, cuts 105 jobs",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/eeffbbdd-6ba4-327b-8ee2-319f9867d941/soda-giant-makes-another.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/TKyQVj0wb4I4QbT5Xs_tHA--~B/aD0yNTYxO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/ab84aef0da60b2f9599bda506dee9389.jpg",
-      "publishedAt": 1788309420000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Launches Enhanced A2A Protect Innovations to Help Financial Institutions Stop Fraud Before Money Leaves Accounts",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/visa-launches-enhanced-a2a-protect-003000736.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MJbqiBaB9Tg7wIRaWygxOQ--~B/aD0xMzA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/4339bce6ced2e4e5b86d60d9295aa801.jpg",
-      "publishedAt": 1788309000000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Technologies's Karp Joins Ex-Ukraine Defense Minister's New Venture",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/palantir-technologies-apos-karp-joins-001409500.html",
-      "image": null,
-      "publishedAt": 1788308049000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Not Nvidia. Not OpenAI. This Artificial Intelligence (AI) Stock Will Be the Ultimate Winner.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/12b1e618-3ae5-3963-938b-79645f49cf63/not-nvidia.-not-openai.-this.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hnPuT0d9K1blCHh5d9Hp9A--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/aaf3514c7c06bf3137dd5cb3122e5446.png",
-      "publishedAt": 1788304440000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "AMAZON TEAMSTERS AT DJT6 TO LAUNCH UNFAIR LABOR PRACTICE STRIKE",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/small-business/articles/amazon-teamsters-djt6-launch-unfair-222800527.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/N15kPUQO6GxTqy_CLOvcZw--~B/aD00MDA7dz0zMjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/061c303c4f6bc25f5ffb094b4495dbf7.jpg",
-      "publishedAt": 1788301680000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-models-become-commoditized-palantir-220151115.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Z55EVuanGrfnuz4by4kJKw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3d1efb550ce7ab62ca0e575728ebf4f2.jpg",
-      "publishedAt": 1788300111000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia Could Soon Trail Only Amazon in Tech Revenue. Why I Favor NVDA Stock Here.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/04830b18-bd9a-3874-9efa-b263549c83c8/nvidia-could-soon-trail-only.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Ef1GlC6xIR3crd7WL3Syxg--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/65d3898372b4655254095bf8c6c45b10.jpg",
-      "publishedAt": 1788299713000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Rises As Market Takes a Dip: Key Facts",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-rises-market-214502046.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SCIO3o.AM.W7gQtGBplQ8w--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209.jpg",
-      "publishedAt": 1788299102000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Technologies To Deliver Eight TITAN Systems To US Army",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/palantir-technologies-deliver-eight-titan-212351204.html",
-      "image": null,
-      "publishedAt": 1788297831000
     }
   ]
 }
