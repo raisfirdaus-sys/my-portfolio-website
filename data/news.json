@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-02T23:17:11.345Z",
+  "updatedAt": "2026-09-03T01:25:46.442Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Jim Cramer explains Palantir, Salesforce rebound",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/2f2535b2-21d3-3418-8d4b-017d756bf46a/jim-cramer-explains-palantir%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YDYP92Vdex0I_3GM8dzYZA--~B/aD0xOTcyO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/fc76411d20b460d2d93d7a6e4c5e46d5.jpg",
+      "publishedAt": 1788398220000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Bank of America resets Microsoft stock price target for 2026",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/41b70511-e22b-318f-9d42-1ecdec47f50c/bank-of-america-resets.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/FDWK.lwKaAZ26O1jms2YYw--~B/aD0yODA0O3c9Mzc2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/73ceadd0856a4e38659b0439fd04d06d.jpg",
+      "publishedAt": 1788395820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "US Stock Futures Rangebound After S&P 500, Dow Snap Three-Day Losing Streak As Oil Steadies — MSFT, DELL, UBER, ASTS, AVGO In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/700a1403-7c58-3851-af10-3eec336f2c6f/us-stock-futures-rangebound.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sqzRUfGaQvfUjdde9RPPPw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/c1eb087110838621abb3d35d3389db73",
+      "publishedAt": 1788394370000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "DOJ Antitrust Unit Adds Eight Retailers to Beef Pricing Investigation",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/economy/policy/articles/doj-antitrust-unit-adds-eight-235309040.html",
+      "image": null,
+      "publishedAt": 1788393189000
+    },
+    {
+      "ticker": "V",
+      "title": "2 Dow Jones Stocks Worth Investigating and 1 We Question",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-dow-jones-stocks-worth-234023025.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kP8gl0PZH_GTyBu8fcJTyw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/1d7ae95b68dabfb36c5383cabf9c37d2.jpg",
+      "publishedAt": 1788392423000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir CEO Reportedly Says France's Digital Sovereignty Drive 'Backfiring'",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/palantir-ceo-reportedly-says-france-231419887.html",
+      "image": null,
+      "publishedAt": 1788390859000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "What Is Fervo Energy (FRVO) Really Gaining From Its 3 GW Geothermal Deal?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-really-gaining-230842089.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2o4Ia4Jg4NPKRbVKsB5BbA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8127573fd47b26241f7e3bc3ebfa472d.jpg",
+      "publishedAt": 1788390522000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom Q3 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/495f8fe8-7371-350e-a640-ed5b28dee4c2/broadcom-q3-earnings-call.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bmyzodcWTeBEzfpPFI8Yhw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/47317fc3d4c9dcab7008e0ff320e65ed.png",
+      "publishedAt": 1788390198000
+    },
     {
       "ticker": "GOOGL",
       "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
@@ -8,6 +72,14 @@
       "link": "https://finance.yahoo.com/small-business/articles/builders-stage-agenda-revealed-practical-140000029.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/u1ZjUSVJtO9ZykQS0nLZPA--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/ffe92890c362e96da72bfd9a0a30f772.jpg",
       "publishedAt": 1788390060000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/b8a20cb5-159d-3779-bcf0-db7c734956ec/broadcom-third-quarter-profit.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uHhD9C2fhE3_eN6CAjff1Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/d63e78272f40274f219c518a3fdb74cd.jpg",
+      "publishedAt": 1788388980000
     },
     {
       "ticker": "MSFT",
@@ -58,14 +130,6 @@
       "publishedAt": 1788385421000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Google spared from ad-business breakup, but judge orders changes to how it operates",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/media-advertising/articles/google-spared-ad-business-breakup-213834660.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KnAivoIV_4QrlwOs5jXbig--~B/aD0yNjY2O3c9NDAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/f5a3093d25612232240317e3d09c4d7e.jpg",
-      "publishedAt": 1788385114000
-    },
-    {
       "ticker": "MSFT",
       "title": "Microsoft To Transition To Two Reporting Segments In 2027, Affirms Q1 Revenue Outlook",
       "publisher": "MT Newswires",
@@ -74,76 +138,12 @@
       "publishedAt": 1788384943000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Judge Rejects DOJ Request to Break Up Google’s Ad Business",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/dfb35c9f-1d98-379a-ac29-c0a19cac68a5/judge-rejects-doj-request-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/6DSxOVtjegXrMgJ3m8AKyw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7e19f6d3b2512d16901557b25c034a47.jpg",
-      "publishedAt": 1788384900000
-    },
-    {
       "ticker": "MSFT",
       "title": "Microsoft is touting a water claim critics say misses the point",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/b1277824-dac7-3c9a-981d-ab91fc4c0610/microsoft-is-touting-a-water.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/WS4wjtryjaDkfwbTFkdx4A--~B/aD0yODgwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/e188add4935e105d5bfb29e02f11e80c.jpg",
       "publishedAt": 1788384780000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Broadcom’s Outlook Shows Surging AI Chip Sales",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/58a6f508-b17a-37c1-90fd-729e1cd92db3/broadcom%E2%80%99s-outlook-shows.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fbt2NoYSkks6UA5y_mPd6g--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/349568cbece9345b0ca2bddc27351553.jpg",
-      "publishedAt": 1788384660000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft to Change Reporting Structure to Reflect Effects of AI",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/4297ff14-ff82-3199-b15f-2922f2775486/microsoft-to-change-reporting.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/L6nMGs86GEWTsFKxOcKS6w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/148e1af5cdf0883244844474f532fd26.jpg",
-      "publishedAt": 1788384060000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Steve Ballmer banned, Clippers fined $30M over Kawhi Leonard scandal",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/steve-ballmer-banned-clippers-fined-211000131.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/EWug.Va6qPqOCkWSSDqD2w--~B/aD0yMDAwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2026-05/9be9c2f0-4acf-11f1-baff-488046458e4d",
-      "publishedAt": 1788383400000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Amgen Stock Signals Its Confidence. The Market Agrees.",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/958c0921-ed38-36a7-92d6-c72836186a8d/amgen-stock-signals-its.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zMNo0OIKw.i7kvomCPKzDQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/f32250d44f592b9d1ed623b4067b2431.jpg",
-      "publishedAt": 1788382536000
-    },
-    {
-      "ticker": "V",
-      "title": "3 Mega-Cap Stocks to Consider Right Now",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-mega-cap-stocks-consider-204423738.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/g1gZtaDX7XGRhiSdxQmKvw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/891ef11d9a55cdf7f81719b10aca516e.jpg",
-      "publishedAt": 1788381863000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Snowflake Earnings Show a Company Riding the AI Wave",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/fe95bb11-35de-33ab-b88d-f850fdba6e29/snowflake-earnings-show-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qNb3twyccDqZgXT9r9GDNQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/652d8e5a617814866c7af652f702fd65.jpg",
-      "publishedAt": 1788381360000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Shares Sink Despite $192 Million Army Contract",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-shares-sink-despite-192-203219324.html",
-      "image": null,
-      "publishedAt": 1788381139000
     }
   ]
 }
