@@ -1,21 +1,141 @@
 {
-  "updatedAt": "2026-09-04T06:31:05.551Z",
+  "updatedAt": "2026-09-04T11:43:10.203Z",
   "items": [
     {
-      "ticker": "MSFT",
-      "title": "MSFT Stock Heads For Weekly Drop: CEO Satya Nadella Says Azure Customers Are Already Using OpenAI’s New Astra AI Model",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/4fb0e6c0-3f9b-32c3-ab0b-ea61b92d4abe/msft-stock-heads-for-weekly.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lxLqeP_6LjpscRT2z0ql5A--~B/aD05MDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/5a74f9b5bf0270d90be0a47640948664",
-      "publishedAt": 1788501310000
+      "ticker": "GOOGL",
+      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Dell Hits New Highs",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/KuvLt8EjtRMjjjPmzlxAiw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/60db304efdc88fa55e8cacefa22c9a60.jpg",
+      "publishedAt": 1788521001000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Tesla Officially Launches Cybercab Robotaxis. Here's What To Look For.",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/ac70a980-561d-380d-aa13-2c3c0038032a/tesla-officially-launches.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/P9Q9P7XgRvMQYlv_6qPu3g--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/9b1c9602dc3ea227cba939902623bcce.jpg",
+      "publishedAt": 1788520955000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Not Nvidia. Not Palantir. This AI Stock Could Have the Most Upside.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1f66d9e5-71b3-3d00-8c48-f7fd98fd9b32/not-nvidia.-not-palantir..html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/f_nnTpAvn4lLgSy15ShJ_Q--~B/aD03MTY7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6dc2824499a360c0e2460f15a798b2d4.jpg",
+      "publishedAt": 1788520800000
     },
     {
       "ticker": "MSFT",
-      "title": "Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-opposes-federal-ai-043718141.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QzyMgnnDP.ah5Iw84wUndg--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/185bf1443fd6254f2dc1398cb6725e61.jpg",
-      "publishedAt": 1788496638000
+      "title": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/dd97f557-8162-348b-8996-795ae7092089/dow-jones-futures-fall%2C-techs.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Jg6uhOzDSp5z1TQ1C8iX_w--~B/aD0xMDQwO3c9MTc4NjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ibd.com/79cca63236658abcd16dad7aa84cd98c.jpg",
+      "publishedAt": 1788520753000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "AVGO Stock’s 27% Selloff Is Sending A Signal – But Morningstar Sees AI Demand Getting Stronger Through 2030",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/dd371627-1dbb-3667-a3dd-5357d712173e/avgo-stock%E2%80%99s-27%25-selloff-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sG5xVxu9lENf7R24EMxVpQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/ef7a4f0ab07687d58f5cca8ad1b0d85d",
+      "publishedAt": 1788519539000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "AMC Stock Jumps After Attack on ‘Inexcusable’ and ‘Vile’ Robinhood Practices",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/d9209df9-b64c-31f2-af66-c2be26b6683c/amc-stock-jumps-after-attack.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qPEphLMqf8Z8OTctiXtuDA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/c80587fa584dcb79848d612cee5a3260.jpg",
+      "publishedAt": 1788518820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Microsoft-Backed OpenAI Agents Hijacked German Website, Researchers Say",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-104138832.html",
+      "image": null,
+      "publishedAt": 1788518498000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Update: Market Chatter: Nvidia Increases Equity Investments to $99 Billion",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-increases-equity-102704254.html",
+      "image": null,
+      "publishedAt": 1788517624000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Nvidia Increases Equity Investments to $99 Billion",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-increases-equity-093603355.html",
+      "image": null,
+      "publishedAt": 1788514563000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks Refreshed Its Menu. Chai Fans Are Losing Their Minds.",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/27ceca10-b8c1-3dcb-9e9a-171d2e347ad2/starbucks-refreshed-its-menu..html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/o1KvzS0TPN1yZcZ8s.1jqQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/758dc0b150dc0db49f5bbfff4017d6a8.jpg",
+      "publishedAt": 1788514200000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Stifel Adjusts Price Target on Microsoft to $530 From $450, Keeps Hold Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-adjusts-price-target-microsoft-092454968.html",
+      "image": null,
+      "publishedAt": 1788513894000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Where Will Palantir Stock Be in 1 Year?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/64271ba1-a5b3-39ab-8381-5e1165ed8932/where-will-palantir-stock-be.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/853HPhhMIJ4N2BwZS1L.og--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d948a1f878d92f4231e118343df0777b.jpg",
+      "publishedAt": 1788512700000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Billionaire Peter Thiel Buys an AI Stock Up 560% in 10 Years (Hint: Not Nvidia)",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e872d4aa-1d49-38f9-a1e8-a5d808bdbf5d/palantir-billionaire-peter.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ZQ7bWU3NzXEIeD1cBndBeA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/aad3426db82d7cc16602648907bcf8fd.jpg",
+      "publishedAt": 1788512640000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/11ad69f3-6c95-391b-bc60-eaf8821f3c8d/nasdaq-futures-edge-higher-as.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/H61NjUksxn01PcCbqavTJg--~B/aD03Nzk7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/510ee7e7eb25261d154e0e2cbfa0fceb",
+      "publishedAt": 1788511629000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Reports Positive Phase 3 Results For Etentamig In Multiple Myeloma",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-reports-positive-phase-081932831.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bSHc1AyNdi7s5fgYvIx5iw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4451284b0632c6e74466a63400764edd.jpg",
+      "publishedAt": 1788509972000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What We’ve Learned Since 9/11",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/12c60116-0511-3789-9a39-d0430917d932/what-we%E2%80%99ve-learned-since-9%2F11.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0OhQ9wk.ZBfXQ1hMcNMREQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/89b23cf3fd472f049c2675f3aedbc336.jpg",
+      "publishedAt": 1788504300000
+    },
+    {
+      "ticker": "MA",
+      "title": "Paycode Appoints Colin Digby as Chief Revenue Officer",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/paycode-appoints-colin-digby-chief-064100397.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/eoxCzJqZhvZtegyrik0sAA--~B/aD0xMDE7dz0yODY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/3899dfc1bef1543623bc7af3e6c6fc94.jpg",
+      "publishedAt": 1788504060000
     },
     {
       "ticker": "JNJ",
@@ -24,126 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-cheap-louisiana-043659642.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/XpMxuzns_riARaMcbrT.IQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4e8319e0e61499a110aef17faa48c1a7.jpg",
       "publishedAt": 1788496619000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "OpenAI Declares “AGI Era” With Astra Launch. Anthropic’s Fable 5.1 More Than Doubled Its Predecessor’s Science Score. MSFT and AMZN Both Win, but One Has A Slight Edge",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-declares-agi-era-astra-041130711.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WCp2YeOh8pOkhIkk9WA0gQ--~B/aD0xMDI0O3c9MTAyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/ec7cf2e22121acef150d71922be57d4d.jpg",
-      "publishedAt": 1788495090000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google’s New Energy Project Gives Eos Energy a Key Technology Validation",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/energy/articles/google-energy-project-gives-eos-040016014.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nWQ58X8JwhhoDrR1qWCaJw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ace0760e210413a4e0eeaa3876ea0ad1.jpg",
-      "publishedAt": 1788494416000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-benchmarks-mostly-rise-tech-032035804.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/e9BD0ZYY7U4r7xKoOekhqA--~B/aD0zNzM4O3c9NTYwNzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/98200b04986b2715cc271b4a640788bb.jpg",
-      "publishedAt": 1788492035000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Opinion: TSMC Is a Better Buy Than Any of the \"Magnificent Seven\" Stocks Right Now",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/ef0ead48-ff82-303d-84b9-ddec48879a35/opinion%3A-tsmc-is-a-better-buy.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/p3doZA5rVgs03Bh3NQDAdw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/ff5e6d0ab4df13db6e3ad7c3fc2a11f0.png",
-      "publishedAt": 1788492000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Better Consumer Stock for 2026: Amazon.com vs. Walt Disney",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5f27718a-b70b-3c51-bd7a-53cc5873314c/better-consumer-stock-for.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.DEFlPwb4mXPu6dRoWjzGw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/0342bf768ad93c9de21ceb1dda145d76.png",
-      "publishedAt": 1788491864000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/3c08272f-bc32-356a-a445-db4f7e506a98/palantir-stock-posts-best-day.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/LGB0KwjrTl1Kx_YWEl78GA--~B/aD05NjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/25e95d0aeed1d52d9828e6c2a577916f",
-      "publishedAt": 1788491749000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Dow Jones Futures Await Jobs Report After Bullish Market Move; Tesla Cybercabs Hit The Road",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/dd97f557-8162-348b-8996-795ae7092089/dow-jones-futures-await-jobs.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Jg6uhOzDSp5z1TQ1C8iX_w--~B/aD0xMDQwO3c9MTc4NjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ibd.com/79cca63236658abcd16dad7aa84cd98c.jpg",
-      "publishedAt": 1788491338000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft drops $101.9 billion surprise as AI reshapes company",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/094a0c72-a7cf-38e1-98a2-9d19840818ba/microsoft-drops-%24101.9.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/l2c4ofOmIbQSo52UVsUSsg--~B/aD0yNTU5O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/8d893bccd78b6a66637ef7ef4523b9e7.jpg",
-      "publishedAt": 1788489180000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie (ABBV)’s Blood Cancer Success Adds Weight to its Pipeline Story",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-blood-cancer-success-012434988.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZOL891fooR.VC15i7gEtVw--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/b9858e794fd965f23db83dc51e2f0b95.jpg",
-      "publishedAt": 1788485074000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "SiriusXM: Deutsche Bank Sees Significant Upside From Digital Audio",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/siriusxm-deutsche-bank-sees-significant-011533519.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/lpKjlnkgdx6Tn9aVUTbU4g--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/9afa5a667fd081e11c1ccee9c84ee24c.jpg",
-      "publishedAt": 1788484533000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/does-palantir-technologies-pltr-winning-010624105.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GnPdIlyt7b9oqiDghGtm4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72.jpg",
-      "publishedAt": 1788483984000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-marvell-mrvl-signal-patience-002103876.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PFpKPUnGmKdlYP44P7Ls3A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/32b804abf710039ebb272cbf2c979023.jpg",
-      "publishedAt": 1788481263000
-    },
-    {
-      "ticker": "KO",
-      "title": "PepsiCo vs. Coca-Cola: Which Stock Has the Edge?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-vs-coca-cola-stock-001700359.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/9B3hs49PH6zB3D_DceNSBA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/323e31c6d3c1f466c1f488416d2b9542.jpg",
-      "publishedAt": 1788481020000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google Just Won the Right to Keep Its Ad Tech Tools. They Live in the One Business It Has That Is Shrinking.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/9d46ea88-4873-3f40-a87c-ae9bb99ee3d2/google-just-won-the-right-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/uPnD2ZjSrFaWje0DddBTPg--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/61b47800d0786bf06339873c6393de46.jpg",
-      "publishedAt": 1788480721000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Review & Preview: Manifesting Steady Rates",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/afd8050b-0f37-3fee-9cd2-1be9d0e436c6/review-%26-preview%3A-manifesting.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3seIyMYRD0699UBVb3FN8A--~B/aD02NTt3PTMyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
-      "publishedAt": 1788479700000
     }
   ]
 }
