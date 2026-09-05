@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-05T10:54:39.822Z",
+  "updatedAt": "2026-09-05T13:50:59.779Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "What Berkshire Hathaway (BRK.A)'s Tech Tilt and Taylor Morrison Deal Means For Shareholders",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-tech-tilt-130531062.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nA_1F68AUqdZwl_JPiiPcg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/68bc84512dd242df54712b90bf389fa0.jpg",
+      "publishedAt": 1788613531000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-jumped-7-7-expanded-123838463.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/D4rTMtlMilwbtMy65Jl6uw--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/1ff6b7fecb40946a6b0937648ae250a9.jpg",
+      "publishedAt": 1788611918000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Jim Cramer has a blunt message for Amazon stock investors",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/bf544d90-ddb5-382f-91d3-b9ff573c0eb6/jim-cramer-has-a-blunt.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/nqA_gg3xsQvQewRgP21nJA--~B/aD0yMTgxO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b6da898f78fd9b1f476c0afa8dbeb473.jpg",
+      "publishedAt": 1788606180000
+    },
     {
       "ticker": "AMZN",
       "title": "Jim Cramer Says “Own It, Don’t Trade It” as CVS Health Gains Momentum",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/ai-hiring-boom-could-turn-010734269.html",
       "image": null,
       "publishedAt": 1788570454000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Barnes & Noble tops 720 stores in major revival",
-      "publisher": "USA TODAY",
-      "link": "https://finance.yahoo.com/m/dcb59b7b-41b8-3838-bc05-0cca75f83fbc/barnes-%26-noble-tops-720.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2_9mJEWk.TdcOV__NPguFw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/usa_today_money_325/90299760e9f75e7c1051a1ee6727a530.jpg",
-      "publishedAt": 1788564975000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/chronoscale-says-plans-50-mw-231034421.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GBaY8P5c7kxjkZ66fAbvDg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/589922bc8f40052d398071e487aaf73c.jpg",
-      "publishedAt": 1788563434000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/aws-plans-2-million-more-230419284.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/bl44vt8C8.EcTXGf5cd2zA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/3cdfc6984f75eb9c4dba5deb13ce85cf.jpg",
-      "publishedAt": 1788563059000
     }
   ]
 }
