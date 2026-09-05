@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-04T23:17:46.551Z",
+  "updatedAt": "2026-09-05T01:22:27.372Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Barnes & Noble tops 720 stores in major revival",
+      "publisher": "USA TODAY",
+      "link": "https://finance.yahoo.com/m/dcb59b7b-41b8-3838-bc05-0cca75f83fbc/barnes-%26-noble-tops-720.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2_9mJEWk.TdcOV__NPguFw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/usa_today_money_325/90299760e9f75e7c1051a1ee6727a530.jpg",
+      "publishedAt": 1788564975000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/chronoscale-says-plans-50-mw-231034421.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/GBaY8P5c7kxjkZ66fAbvDg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/589922bc8f40052d398071e487aaf73c.jpg",
+      "publishedAt": 1788563434000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-reveal-ai-cloud-230555807.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_r3ZKc4SC7RNhf6IqZgDbA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/df4b73b911e0bdb53cb26c5cad04a925.jpg",
+      "publishedAt": 1788563155000
+    },
     {
       "ticker": "AMZN",
       "title": "AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?",
@@ -117,33 +141,9 @@
       "ticker": "MSFT",
       "title": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied Intelligence",
       "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/midea-smart-master-ifa-2026-210000183.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WyoUhLCgA0jY.NIeYG.qZQ--~B/aD0yNjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/a3a092411b520d30a93e1c3eaf03fbac.jpg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/midea-smart-master-ifa-2026-210000808.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/V3z.1Q2zQ6O5b4r28LHj5A--~B/aD0yNjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/e13b81d3cad5e328b287ae34065e6702.jpg",
       "publishedAt": 1788555600000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/64f13108-e2e0-3872-9691-3d148d5fa88d/stock-market-today%3A-dow-sinks.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/_TyryYmenkJPSL3.gQx6fw--~B/aD02MDA7dz0xMDY1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/f84dddde254e978a0083114ec56c1e2b.jpg",
-      "publishedAt": 1788555337000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Elon Musk Touts a ‘Storm’ of Tesla Cybercabs in Austin, Says They Offer Better ‘Operational Efficiency’ Than Waymo",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/technology/articles/elon-musk-touts-storm-tesla-203024849.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HHkqr6xDSGpbGaf5vuqQ2w--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/ad5a79101591c1fb075168247124fb67.jpg",
-      "publishedAt": 1788553824000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Why IBM, Microsoft Back Move for Quantum Policy Czar",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/20f45949-656b-316b-ae10-8ddbf6e869ef/why-ibm%2C-microsoft-back-move.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4QQ9fdJklPhpkJoSj5gmFA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/fd156da8db6a19c898c6286988db868f.jpg",
-      "publishedAt": 1788553260000
     }
   ]
 }
