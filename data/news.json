@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-05T16:48:22.664Z",
+  "updatedAt": "2026-09-05T19:00:44.231Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Costco kills member perk that saved customers money",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/e4eea58b-c579-34a8-9c1a-3ea1d9508dc6/costco-kills-member-perk-that.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0eq_rbYk_RtHklWhyV0gEA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/c393f69f6934b18be8155a6d184fea2b.jpg",
+      "publishedAt": 1788632447000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "AI’s Next Winners? Investor Bets on Snowflake, CrowdStrike and Palantir",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-next-winners-investor-bets-170009073.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/DX04oHuALbcy31GkF69x5Q--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/9ec8a80b58b9d43c1b471db2ecaa4d7a.jpg",
+      "publishedAt": 1788627609000
+    },
     {
       "ticker": "GOOGL",
       "title": "Why Gabelli’s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/6fe623cf-a6e6-3402-8647-1d047bd8c73a/what-move-will-spacex-stock.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/bDfZ2M239jb.b73_.rgj4Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a0338cf24b3ae1e3bc78bc599de88948.jpg",
       "publishedAt": 1788596581000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "CEO Brian Niccol Just Announced Incredible News for Starbucks Investors",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/16923fdd-9fb4-3916-882e-238816c22feb/ceo-brian-niccol-just.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/nSTeuzgqICiB3FTajSxxyw--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a2f876439ca77c1a288ba84540daf1c2.png",
-      "publishedAt": 1788591901000
-    },
-    {
-      "ticker": "KO",
-      "title": "Here's How Many Shares of Coca-Cola You'd Need for $40,000 in Yearly Dividends",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/fc5cbf0d-31b9-34ae-8c2a-0d996855676c/here%27s-how-many-shares-of.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/kxUBet.bJwSfaZEEfJYQ4g--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/2ef1c91692c641ad4ecd02ce0f85a028.png",
-      "publishedAt": 1788591000000
     }
   ]
 }
