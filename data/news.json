@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-06T00:52:42.468Z",
+  "updatedAt": "2026-09-06T05:53:32.782Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6f575e10-71ea-326c-a34d-c9afdcd99a70/michael-burry-says-palantir%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/pS_SJmpYeep7gAfL0ogW4g--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/ab5ca7ad256e0c9c3d3ebc15b026951c.jpg",
+      "publishedAt": 1788666361000
+    },
     {
       "ticker": "GOOGL",
       "title": "CrowdStrike (CRWD) Unveiled A Broad AI Security Platform Push",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/bf544d90-ddb5-382f-91d3-b9ff573c0eb6/jim-cramer-has-a-blunt.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/nqA_gg3xsQvQewRgP21nJA--~B/aD0yMTgxO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/b6da898f78fd9b1f476c0afa8dbeb473.jpg",
       "publishedAt": 1788606180000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Jim Cramer Says “Own It, Don’t Trade It” as CVS Health Gains Momentum",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-own-don-103206104.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lk2r1ddJu1W1QRTJ.of0CQ--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c.png",
-      "publishedAt": 1788604326000
     }
   ]
 }
