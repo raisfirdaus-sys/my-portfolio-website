@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-07T21:28:11.266Z",
+  "updatedAt": "2026-09-07T23:44:39.926Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f48c4382-1c9a-37c5-b3c8-e5ee16462003/warren-buffett-told-cnbc-%27i.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/csFfiPKlOKyNUCK0CQyhew--~B/aD05MzI7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a77643b5b513a7c236d84f0dd43729d7.png",
+      "publishedAt": 1788820500000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/505161b0-0ca6-3135-a3a8-4ebf665d4e56/scene-of-fatal-amazon-plane.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T8Y4IAIxqvqNr5.nR5RRPA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/01051f76e8fdf0bbeca8d66d28851050.jpg",
+      "publishedAt": 1788819540000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+      "image": null,
+      "publishedAt": 1788818335000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
+      "image": null,
+      "publishedAt": 1788818055000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google's AI Slashes Contrail Warming 40% in a Real-World Test",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/googles-ai-slashes-contrail-warming-215343560.html",
+      "image": null,
+      "publishedAt": 1788818023000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
+      "image": null,
+      "publishedAt": 1788817561000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/cc50f22d-ae9e-3ea1-acbe-a7655fca135c/how-a-64-year-old%E2%80%99s-%241.2.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/uI8IRshyc_4L_x1F0vTXeQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/0b147ef1cc7e282148603bfc7c8a3d16",
+      "publishedAt": 1788816321000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia CEO Says Human-Level AI Is Here. He Sells the Chips.",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/f7537bdd-c748-3014-9fd1-bae37cc99e97/nvidia-ceo-says-human-level.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/mi9KO8KyBd5MLSZq9u5iEw--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/8067a6d80c9a77cf1bd8afe08af239fd.jpg",
+      "publishedAt": 1788816203000
+    },
     {
       "ticker": "AMZN",
       "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
@@ -50,14 +114,6 @@
       "publishedAt": 1788808840000
     },
     {
-      "ticker": "AMZN",
-      "title": "Fatal Amazon Plane Crash Delays Hundreds of Miami Flights",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/505161b0-0ca6-3135-a3a8-4ebf665d4e56/fatal-amazon-plane-crash.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T8Y4IAIxqvqNr5.nR5RRPA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/01051f76e8fdf0bbeca8d66d28851050.jpg",
-      "publishedAt": 1788808200000
-    },
-    {
       "ticker": "GOOGL",
       "title": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
       "publisher": "Motley Fool",
@@ -88,62 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumps-25-million-172403799.html",
       "image": null,
       "publishedAt": 1788801843000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-surged-51-august-rest-172023418.html",
-      "image": null,
-      "publishedAt": 1788801623000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/30dc26cd-e15d-337c-9aed-1c4419614f0f/why-does-amazon-trade-at-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QcgjtW76.f2NYr466jBSaA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0a30ed734c18ffa4978f276beef8d144.jpg",
-      "publishedAt": 1788799320000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/84884597-f699-310d-93e9-13af363891ef/the-real-satellite-race-isn%E2%80%99t.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/S7X1mtblVsVavxRHklx7KQ--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/0b0d1213ef664d758aaa9b4a542ae81a.jpg",
-      "publishedAt": 1788799264000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/17b950f0-e724-3ddb-8563-e1aab504a628/iren%E2%80%99s-ai-pricing-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/mHLsqQa5vol5KgpIpYm4gQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/6a751b9af9a980766ad9183882b175df",
-      "publishedAt": 1788798954000
-    },
-    {
-      "ticker": "GILD",
-      "title": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/a31a6756-6bc2-3912-923d-2587e9bd377c/ibb-just-beat-the-s%26p-500-by.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KnJ..hmBRhBPTn7T4.2OjA--~B/aD0xNjAwO3c9Mjc2NTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2735f2220d54d5fc5123c2555af0ab20.jpg",
-      "publishedAt": 1788798125000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/ddb3fc6a-20c2-35ed-85d7-512904789898/microsoft-is-close-to-a-new.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.Sjh8M_.hXiC_CO9kxhkFA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/d1715da5f795272432068ed0c23e4417.jpg",
-      "publishedAt": 1788795950000
-    },
-    {
-      "ticker": "KO",
-      "title": "Up 26% in 2026, Is Coca-Cola a Buy Near an All-Time High?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/766f95f6-1f6f-31c4-a7fb-b1db4d6fbcc0/up-26%25-in-2026%2C-is-coca-cola.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vAudarENDF_t9DP1Lojz5A--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/21c7d8a23f548fc0c409acf72df80c27.jpg",
-      "publishedAt": 1788795420000
     }
   ]
 }
