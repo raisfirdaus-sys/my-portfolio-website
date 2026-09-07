@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-07T00:58:51.895Z",
+  "updatedAt": "2026-09-07T06:02:40.229Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/pentagon-doubled-down-anthropic-blacklist-034421098.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/f0CJjlxnrBFhYVllxLScpA--~B/aD00MjY7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/7f9ef0ed464138faad1e79d4686d9f99.jpg",
+      "publishedAt": 1788752661000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Prime Air Boeing 767 Crashes While Landing at Miami Airport, Killing 5: Amazon Says 'Heartbroken' by Accident",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/e05be7d6-1679-3e46-bb21-053d62a9e121/prime-air-boeing-767-crashes.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/RFrxT__Poi4n.u_RQqumBA--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/ceddcc60b56b11344158bc323fe9cba8.jpg",
+      "publishedAt": 1788748771000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google-backed Indian space startup raises $100 million in latest funding round",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/articles/google-backed-indian-space-startup-013250812.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zMWbVqx4Q4qMzQgsJo0FkA--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/c1089f9af8a7a57780a1f61f5528075f.jpg",
+      "publishedAt": 1788744770000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-alex-karp-real-ai-013013347.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/RCk6nC.GGU6.pUlbWcle3A--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/1fc06e840dbac0fe94631faf029c1ebd.jpg",
+      "publishedAt": 1788744613000
+    },
     {
       "ticker": "MSFT",
       "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
@@ -66,14 +98,6 @@
       "publishedAt": 1788726065000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon.com (AMZN) Deepens Its Foothold In Autonomous Mobility And AI Policy",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-deepens-foothold-200934233.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Xf5IM.UBB9BX9aB2kcCxjA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/eb1b720f52f53b83d71833696a788156.jpg",
-      "publishedAt": 1788725374000
-    },
-    {
       "ticker": "MSFT",
       "title": "The Inheritance That Went Backward: They Gave Mom the Stock They’d Someday Inherit and Eighteen Months Later It Came Back With Thirty Years of Capital Gains Wiped Off the Books",
       "publisher": "24/7 Wall St.",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/first-dedicated-agentic-commerce-summit-153354520.html",
       "image": null,
       "publishedAt": 1788708834000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/352a6b6e-1e01-3254-a5c5-576f01ee6b4b/will-alphabet-break-warren.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/RrlwazdzRfwMVE0SjOHocw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/3e62e6e948fab7fafdf97acbfb07fc0f.jpg",
-      "publishedAt": 1788707700000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Michael Burry sends a strong warning to Palantir stock investors",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/885d4142-e723-30a5-b107-a181783c18cc/michael-burry-sends-a-strong.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CpmeGBXAyfQyuez2sYr4NA--~B/aD0yMzMzO3c9MzUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/70d0036647642b3e973fea3e13ddd2f2.jpg",
-      "publishedAt": 1788705420000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google Unveils Gemini 3.8 Flash and Fairwind Program: How to Play GOOGL Stock Here",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/17a883df-df66-32e5-ae50-9cb5662a4aee/google-unveils-gemini-3.8.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zEUMvHSHrexN_4xe1LoGQA--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/1e2479f4257cd273a18d6e63fdd6213f.jpg",
-      "publishedAt": 1788703202000
     }
   ]
 }
