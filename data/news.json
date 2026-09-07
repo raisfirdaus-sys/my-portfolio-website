@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-07T17:53:51.680Z",
+  "updatedAt": "2026-09-07T21:28:11.266Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7a601ed6-c135-366a-b53a-b2101597d145/is-amazon-stock-at-%24255-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vr4OcZ2mClyHkKY5UyTyUw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/e9289b500048f6229287d2d3897db094.png",
+      "publishedAt": 1788815100000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Scooter’s Has a Role to Play in the Drive-Thru Coffee Rush",
+      "publisher": "QSR",
+      "link": "https://finance.yahoo.com/m/6d422e25-5c33-3c93-b6b4-06186ff1fd5d/scooter%E2%80%99s-has-a-role-to-play.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xHLsJ2XxvyeJC4ZqlsMMHA--~B/aD03MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/qsr_204/ed164dc9c5824110c7e59ad07cced481.jpg",
+      "publishedAt": 1788814796000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Burry’s Palantir Warning Is Back. Accenture Shows What Investors Should Check",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/burry-palantir-warning-back-accenture-204332089.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/JlvuI5WbfDJbKKC6SIuVNA--~B/aD0xMzQ0O3c9MjAxNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/ce7c9749adc9a10a60c020ca3a35ea0d.jpg",
+      "publishedAt": 1788813812000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+      "image": null,
+      "publishedAt": 1788809212000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-moving-money-palantir-192133259.html",
+      "image": null,
+      "publishedAt": 1788808893000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Has a $1,000 Problem With Its Next Xbox",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/technology/articles/microsoft-1-000-problem-next-192040075.html",
+      "image": null,
+      "publishedAt": 1788808840000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Fatal Amazon Plane Crash Delays Hundreds of Miami Flights",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/505161b0-0ca6-3135-a3a8-4ebf665d4e56/fatal-amazon-plane-crash.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T8Y4IAIxqvqNr5.nR5RRPA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/01051f76e8fdf0bbeca8d66d28851050.jpg",
+      "publishedAt": 1788808200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/ce137593-6a28-35d3-a628-7ba830f21bee/berkshire-hathaway-owns-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tvrQb.DnBZjJRc5AAxZQ5w--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/88c590b6a5fa1541a89feebf44e363ad.jpg",
+      "publishedAt": 1788807000000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Apple’s new CEO faces a staggering $14 billion iPhone test",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/b1d43f60-76c6-3272-b943-1ab9dc6671d3/apple%E2%80%99s-new-ceo-faces-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6rlSnaPFQgPU86j8GfDp_Q--~B/aD0yNTU5O3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/1615a483f04f4fba6aba469ad91d5221.jpg",
+      "publishedAt": 1788805020000
+    },
     {
       "ticker": "GOOGL",
       "title": "Google-Backed Pixxel Raises $100 Million in India's Biggest Space-Tech Round",
@@ -72,78 +144,6 @@
       "link": "https://finance.yahoo.com/m/766f95f6-1f6f-31c4-a7fb-b1db4d6fbcc0/up-26%25-in-2026%2C-is-coca-cola.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/vAudarENDF_t9DP1Lojz5A--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/21c7d8a23f548fc0c409acf72df80c27.jpg",
       "publishedAt": 1788795420000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/wUMY.TTjL0vjch2Jvd.Zmg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d43cb7b76527c97c59494165d3dffeae.jpg",
-      "publishedAt": 1788794400000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bernie Sanders Wants to Ban Superintelligence. What It Means for Microsoft and Amazon",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bernie-sanders-wants-ban-superintelligence-145733495.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/O8JEnfZOgx9DzQIgveNNVg--~B/aD0xMDAwO3c9OTQzO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/2031124c6f26e3e754d1b26e2535745c.jpg",
-      "publishedAt": 1788793053000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Fatal Amazon Boeing Plane Crash at Miami Airport: What We Know",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/505161b0-0ca6-3135-a3a8-4ebf665d4e56/fatal-amazon-boeing-plane.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T8Y4IAIxqvqNr5.nR5RRPA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/01051f76e8fdf0bbeca8d66d28851050.jpg",
-      "publishedAt": 1788792480000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "CRWV Stock Takes a 13% Hit in 3 Months: Time to Buy, Hold or Bail Out?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/crwv-stock-takes-13-hit-144200522.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/IVNhwBbBxvxtH5.Fa8ORHg--~B/aD0yMTM7dz02MTk7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2837924ad535fc83888525772c33d307.jpg",
-      "publishedAt": 1788792120000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/2f52e95e-5a7f-3e45-bd92-4324d9283ee5/amd-is-behind-the-ai-chip.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KMMI7whoRt5_eH7Dgdc9IQ--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/d267a7eead9d746f11fb821f27f43302.png",
-      "publishedAt": 1788792057000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/a4164323-174a-336a-8e7d-e2f3d98fd5db/microsoft-stock-is-building-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.Sjh8M_.hXiC_CO9kxhkFA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/d1715da5f795272432068ed0c23e4417.jpg",
-      "publishedAt": 1788790519000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Lilly vs. J&J: Betting on Breakout Growth or Built-In Stability?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/lilly-vs-j-j-betting-140300650.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/D26E47vJDCzowk64zIRMgQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3ecb7b8f4826ee26a884371aa5efe958.jpg",
-      "publishedAt": 1788789780000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-buy-now-ahead-140000662.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ZuAMSQ7NJ1xWYonictdQcA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a0bd482cda546e26ca4e03711c238c35.jpg",
-      "publishedAt": 1788789600000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Apple Just Made a Move Most Investors Overlooked. This Is Why I Keep Buying The Stock",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/0d7ed414-7847-37db-8854-50f9faf062da/apple-just-made-a-move-most.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Fm9KUesHCXpov3oxlExU4A--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/10877e24b31afa394f4f22b5997740fa",
-      "publishedAt": 1788789095000
     }
   ]
 }
