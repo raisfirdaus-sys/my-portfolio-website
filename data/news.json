@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-06T23:08:01.801Z",
+  "updatedAt": "2026-09-07T00:58:51.895Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/articles/microsoft-msft-outlook-openai-chatgpt-002934990.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/NgviwDAkTbwV9fgu2h9DFw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ae3cb2a93ad8e5ddf6f94148e71f74b9.jpg",
+      "publishedAt": 1788740974000
+    },
+    {
+      "ticker": "MA",
+      "title": "The Fintech Integration Wave: Neobanks Connecting to Stablecoin Rails",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/fintech-integration-wave-neobanks-connecting-231920640.html",
+      "image": null,
+      "publishedAt": 1788736760000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Cargo Plane Overshoots Runway in Miami, Killing Five People",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/78bbe4ac-ff4e-377a-bb9c-f49097c00322/amazon-cargo-plane-overshoots.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/2sCSi5ISlq865f59NRbO2g--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/c79c6e213593b59b4ee6b65ebd272623.jpg",
+      "publishedAt": 1788734220000
+    },
     {
       "ticker": "GOOGL",
       "title": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
@@ -8,14 +32,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-first-ever-ahead-223147950.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/AeWn7gBKOY63VCbycHlXOg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc.jpg",
       "publishedAt": 1788733907000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Cargo Plane Overshoots Runway in Miami, Killing Five People",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/78bbe4ac-ff4e-377a-bb9c-f49097c00322/amazon-cargo-plane-overshoots.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/HxUG5ZeU9onQ99TYpaiTaA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/33d9403dcb3436b3624ecfebd7cb2a60.jpg",
-      "publishedAt": 1788731880000
     },
     {
       "ticker": "AMZN",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/17a883df-df66-32e5-ae50-9cb5662a4aee/google-unveils-gemini-3.8.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/zEUMvHSHrexN_4xe1LoGQA--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/1e2479f4257cd273a18d6e63fdd6213f.jpg",
       "publishedAt": 1788703202000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Should You Buy Snowflake Stock After Its Recent Surge? The Answer Might Shock You.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/710d6b02-c257-3386-9c08-f213a09d14c3/should-you-buy-snowflake.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/fr.diImcsWTpMs6tReesrw--~B/aD05ODA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/836d53cbcee4fd9bf67b4eace5056817.jpg",
-      "publishedAt": 1788699900000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The Agent Production Gap: When 171% ROI Isn’t Enough to Ship",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/agent-production-gap-171-roi-123605791.html",
-      "image": null,
-      "publishedAt": 1788698165000
     }
   ]
 }
