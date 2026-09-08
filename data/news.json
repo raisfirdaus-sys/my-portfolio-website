@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-08T04:28:43.619Z",
+  "updatedAt": "2026-09-08T09:04:35.269Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Market Chatter: Amazon Prime Air Cargo Plane Crashes at Miami Airport, Killing at Least 5",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-prime-air-085622742.html",
+      "image": null,
+      "publishedAt": 1788857782000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Market Chatter: Anthropic Ends Talks to Acquire AI Startup Decart",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-ends-talks-085601395.html",
+      "image": null,
+      "publishedAt": 1788857761000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Assessment of the Pulmonary Arterial Hypertension (PAH) Market 2026-2036 Featuring United Therapeutics, Mochida Pharmaceutical, Johnson & Johnson, Merck, and Gossamer Bio",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/assessment-pulmonary-arterial-hypertension-pah-083100559.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/iogELng_NEvmVlKg85874A--~B/aD01ODt3PTQ4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/93d5b27580f67db722dd7c112e43e8bc.jpg",
+      "publishedAt": 1788856260000
+    },
+    {
+      "ticker": "KO",
+      "title": "Warren Buffett's Hand-Picked Successor, Greg Abel, has 68% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for September.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/30bb4d0e-5816-384f-8dee-c45f715c6f32/warren-buffett%27s-hand-picked.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/s99h.9b_GpKAmXcH4dBRXg--~B/aD05MjQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d88a493cd90f580653a0fd77fd9b6bc9.jpg",
+      "publishedAt": 1788856200000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Assessment of the Rheumatoid Arthritis Market 2026-2036 Featuring Rise Therapeutics, Taiho Pharmaceutical, Abbvie, Eli Lilly/Incyte, and AstraZeneca",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/assessment-rheumatoid-arthritis-market-2026-080800686.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/iogELng_NEvmVlKg85874A--~B/aD01ODt3PTQ4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/93d5b27580f67db722dd7c112e43e8bc.jpg",
+      "publishedAt": 1788854880000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Greg Abel Has 53.6% of Berkshire Hathaway's Stock Invested in These 4 Top Stocks",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b725a576-a10a-3d76-a000-09cdba14fc75/greg-abel-has-53.6%25-of.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/C6EY3YRY6.LmcMAvjPW6sw--~B/aD04MDA7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c5a53e386ea5b65e6ea54c0a8c681a52.jpg",
+      "publishedAt": 1788852300000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon's 39% AWS Operating Margin the Single Best Reason to Buy the Stock in September",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1a0b2e6f-9873-34f3-ad0f-ccf7e05626ef/amazon%27s-39%25-aws-operating.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/HCjO7i6d.i4xSIQ.wQJTfw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1f983feeacead3c1b27a6ae2b862fbb7.png",
+      "publishedAt": 1788844800000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Local Data Center Fights Are Reshaping the Midterms—Here’s How",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/ac4fe3d9-c8b3-319d-8e86-5f8de545375d/local-data-center-fights-are.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_uS4CL6IxS51jk9w0bw3ww--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/7ab5cdca73e0df61d9e8bb5bad3f30b9.jpg",
+      "publishedAt": 1788843600000
+    },
     {
       "ticker": "AMZN",
       "title": "Comcast Technology Solutions Selected by A+E Global Media™ for Premium Content Distribution",
@@ -42,14 +106,6 @@
       "publishedAt": 1788820500000
     },
     {
-      "ticker": "AMZN",
-      "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/505161b0-0ca6-3135-a3a8-4ebf665d4e56/scene-of-fatal-amazon-plane.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/T8Y4IAIxqvqNr5.nR5RRPA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/01051f76e8fdf0bbeca8d66d28851050.jpg",
-      "publishedAt": 1788820260000
-    },
-    {
       "ticker": "PLTR",
       "title": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
       "publisher": "GuruFocus.com",
@@ -58,28 +114,12 @@
       "publishedAt": 1788818335000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
-      "image": null,
-      "publishedAt": 1788818055000
-    },
-    {
       "ticker": "GOOGL",
       "title": "Google's AI Slashes Contrail Warming 40% in a Real-World Test",
       "publisher": "GuruFocus.com",
       "link": "https://finance.yahoo.com/technology/ai/articles/googles-ai-slashes-contrail-warming-215343560.html",
       "image": null,
       "publishedAt": 1788818023000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
-      "image": null,
-      "publishedAt": 1788817561000
     },
     {
       "ticker": "MSFT",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/6d422e25-5c33-3c93-b6b4-06186ff1fd5d/scooter%E2%80%99s-has-a-role-to-play.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/xHLsJ2XxvyeJC4ZqlsMMHA--~B/aD03MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/qsr_204/ed164dc9c5824110c7e59ad07cced481.jpg",
       "publishedAt": 1788814796000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Burry’s Palantir Warning Is Back. Accenture Shows What Investors Should Check",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/burry-palantir-warning-back-accenture-204332089.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JlvuI5WbfDJbKKC6SIuVNA--~B/aD0xMzQ0O3c9MjAxNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/ce7c9749adc9a10a60c020ca3a35ea0d.jpg",
-      "publishedAt": 1788813812000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
-      "image": null,
-      "publishedAt": 1788809212000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-moving-money-palantir-192133259.html",
-      "image": null,
-      "publishedAt": 1788808893000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Has a $1,000 Problem With Its Next Xbox",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/microsoft-1-000-problem-next-192040075.html",
-      "image": null,
-      "publishedAt": 1788808840000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/ce137593-6a28-35d3-a628-7ba830f21bee/berkshire-hathaway-owns-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tvrQb.DnBZjJRc5AAxZQ5w--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/88c590b6a5fa1541a89feebf44e363ad.jpg",
-      "publishedAt": 1788807000000
     }
   ]
 }
