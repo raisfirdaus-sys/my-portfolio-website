@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-10T04:41:08.145Z",
+  "updatedAt": "2026-09-10T09:11:33.757Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Customers Set New Standard for AI at AIPCon 11",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-customers-set-standard-ai-085900355.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/O6DTBSux5Jf9iYew7sf.Iw--~B/aD01MjU7dz0yMTkxO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/db38a08ef95523fc99acdccda950652a.jpg",
+      "publishedAt": 1789030740000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard, Visa, Ant International Collaborate on Framework for Agentic Commerce",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/mastercard-visa-ant-international-collaborate-085054374.html",
+      "image": null,
+      "publishedAt": 1789030254000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Microsoft-Backed OpenAI's Rogue Agents Found on At Least 10 Additional Sites",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-083356618.html",
+      "image": null,
+      "publishedAt": 1789029236000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "A University’s Distaste for Hedge Funds Created This New ETF. It’s Still Risky.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/ca980ab1-e34e-302f-bc78-4b0e71874f1a/a-university%E2%80%99s-distaste-for.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6Osd7fEVAOvCbx8JA8Zhmg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/80971542791cf3dc62ddc2d3449fc4c7.jpg",
+      "publishedAt": 1789027200000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nokia Launches Cognitive Operations Platform",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nokia-launches-cognitive-operations-platform-075814873.html",
+      "image": null,
+      "publishedAt": 1789027094000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nokia launches AI and edge platform to help mining and construction industries, public safety, and defense organizations run safer, more resilient field operations",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nokia-launches-ai-edge-platform-070000964.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/s.OIIDRkCAGbzONEDA.CcA--~B/aD0zNDt3PTE1MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/6025ecf6f5855ce159aa6831e9dcf2f7.png",
+      "publishedAt": 1789023600000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Phillips 66 and Tyson Foods have been highlighted as Zacks Bull and Bear of the Day",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-tyson-foods-highlighted-065600743.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jRES0WSQ_IcrxXNaJyZK2Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/297e46fdf3a8eb158eacb7ef05b47a98.jpg",
+      "publishedAt": 1789023360000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Tec-Do Organized MARS2 Workshop at ECCV 2026 to Advance Multimodal Reasoning for Agentic Commerce",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/tec-organized-mars2-workshop-eccv-063000720.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/M0GvkFiPpe9UHWAt9avHCw--~B/aD0xMDg2O3c9MTQ0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/c3a7c718037da688c190edced339626c.png",
+      "publishedAt": 1789021800000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "META Vs GOOGL: Cathie Wood’s ARK Makes A Nearly $56M Mega-Cap Tech Rotation",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/f00023e4-6bbd-377a-9fc0-70b6d1f89b81/meta-vs-googl%3A-cathie-wood%E2%80%99s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T0kv68x.9BkboW9NPXCF.A--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/ba27be69c24d999ec9e879de85e4a65f.jpg",
+      "publishedAt": 1789020760000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "SWMR Stock In Focus: Drone Software Provider Swarmer To Buy Ukrainian Defense Firm In $224M Deal",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/9946801d-f9c5-333e-9c59-06c5c9f3b2e0/swmr-stock-in-focus%3A-drone.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/y9g3EvNO1X82aSX9rGdT5A--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/1de50a2b0c996523a3b0b7956648c8e7",
+      "publishedAt": 1789020134000
+    },
     {
       "ticker": "AMZN",
       "title": "Miami Crash Puts Focus on Houston Astros Owner’s Cargo-Jet Business",
@@ -37,8 +117,8 @@
       "ticker": "KO",
       "title": "Coca-Cola CEO Braun Targets Growth With Digital, Consumer Insights and Innovation",
       "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ceo-braun-targets-020215514.html",
-      "image": "https://media.zenfs.com/en/marketbeat_955/374e1515ce50b0a582e4ff38f275d4aa.png",
+      "link": "https://finance.yahoo.com/m/373523bb-cbec-35aa-b855-d5a2ccd094b2/coca-cola-ceo-braun-targets.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zVE5qat_C9v1HNfAmJybHg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/374e1515ce50b0a582e4ff38f275d4aa.png",
       "publishedAt": 1789005735000
     },
     {
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/m/2416e148-4658-3446-bd45-7007907bbbb2/should-you-get-paid-to-wait.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/JyShqHMwMQU1rbeLr_NeXQ--~B/aD05ODk7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/81affd71630ba53e0d4e3fd0d3341494.jpg",
       "publishedAt": 1789002915000
-    },
-    {
-      "ticker": "MA",
-      "title": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ant-international-mastercard-visa-initiate-010000783.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/U6tJ18P9crnLqab6zv2jPg--~B/aD0yMzA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/dfc480b36775f99c9597334e18e62117.jpg",
-      "publishedAt": 1789002000000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the ‘Biggest Threat’",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-warns-10-15-003013222.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ja2sCA9WXlmu.bSCZctyjg--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/e6f20751478a8b6a607940a4888871cd.jpg",
-      "publishedAt": 1789000213000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "My First Impressions of the New Folding iPhone Duo",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/8b691017-8d3f-30ed-a8ec-b8632888c587/my-first-impressions-of-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/R95o4o3f.Y_xmjF.AUg6WQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/fa5e595103155916a831f17588fc6b4d.jpg",
-      "publishedAt": 1789000020000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Amazon Elects Cybersecurity Veteran Kevin Mandia to Board",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/amazon-elects-cybersecurity-veteran-kevin-231256055.html",
-      "image": null,
-      "publishedAt": 1788995576000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Could Icotyde Become Johnson & Johnson’s Next Blockbuster in China?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/could-icotyde-become-johnson-johnson-230536711.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BmjbkP66gcTF7SQbJ_Cutw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/59fe7bc4cb7379b8caecd6f09fabc66e.jpg",
-      "publishedAt": 1788995136000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Jim Cramer Compares Palantir (PLTR) to an NFL Wide Receiver",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-compares-palantir-pltr-230017699.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lk2r1ddJu1W1QRTJ.of0CQ--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c.png",
-      "publishedAt": 1788994817000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "HIVE joins Google, Microsoft, and Amazon in new Canada data center pledge",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/8d26dbb8-a63e-3c24-9ff4-6450254c9702/hive-joins-google%2C-microsoft%2C.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VTOWn_GJ.F2xJb2kRBRGZg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/792fa6404082c09e8e7fd83e737e9704.jpg",
-      "publishedAt": 1788994424000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Star AI Researcher Is Leaving Meta",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/94cdf5fd-feaa-3c1f-aef0-30178124328f/star-ai-researcher-is-leaving.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WhUvyDNA.IEU5dlpl2pqlw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/76fff72fe31dff27686683a5352fa054.jpg",
-      "publishedAt": 1788992460000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Do Amazon and Alphabet's Combined $420 Billion in Capital Expenditures Make Sense?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0dd833d5-f5dc-31b3-a807-573dd02f50c8/do-amazon-and-alphabet%27s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/41PSGNZgpoRyi2er8PptNA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/aec9ba336b905a8438b78d285ca5d7ce.jpg",
-      "publishedAt": 1788992400000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Forget VUG. Vanguard’s Value Fund Is Beating Its Growth Twin by 11 Points This Year, With None of the Magnificent Seven",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/ea106c59-4974-3bde-b9a1-d31ad4db7af6/forget-vug.-vanguard%E2%80%99s-value.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/z6XpHwbLJhmVLLz4gsZdEw--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/770be120fff685c5f7314670aab4aa01",
-      "publishedAt": 1788992126000
     }
   ]
 }
