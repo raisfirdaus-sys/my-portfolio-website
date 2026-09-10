@@ -1,53 +1,93 @@
 {
-  "updatedAt": "2026-09-10T00:10:50.367Z",
+  "updatedAt": "2026-09-10T04:41:08.145Z",
   "items": [
     {
-      "ticker": "KO",
-      "title": "OpenAI pushes for mandatory national AI safety requirements",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/m/aee1d567-8741-328f-8ee5-719663158c92/openai-pushes-for-mandatory.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/__oHdcxIBak6MhPKUSHDCw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/c7331302a82e23f9815c45d8ead776d6.jpg",
-      "publishedAt": 1788998650000
+      "ticker": "AMZN",
+      "title": "Miami Crash Puts Focus on Houston Astros Owner’s Cargo-Jet Business",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/6500b308-e54b-3bde-a081-e3dc6fdeccfc/miami-crash-puts-focus-on.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AKt59mnwyk3Ac2d5L07Ufw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/b7f7cd2980d346f5be268913e2ca78af.jpg",
+      "publishedAt": 1789013280000
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead Sciences Eyes HIV, Oncology Catalysts as Pipeline Enters Execution Mode",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/be88a8c4-1f1f-3822-a6ef-dd3b1d30e7bd/gilead-sciences-eyes-hiv%2C.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/4HWYyGnoNbTOhFAz15WXVg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/f4d50043a6ad9be86acba5b5bc857621.jpg",
+      "publishedAt": 1789012923000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Amgen's Forward Multiple Looks Cheap Until You Price The Margins It Assumes",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/38463edb-ab19-3feb-aa95-62450e663f01/amgen%27s-forward-multiple.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/GoAkvRisnZRtshnEK4X_Hw--~B/aD04NTE7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/04f4ea7540d81a51220c415100c2ae02.jpg",
+      "publishedAt": 1789007538000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard Launches Wallet Pay to Scale Digital Wallets Worldwide",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-launches-wallet-pay-scale-021500557.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/l7hPIleSU.j0uamDsmlJRQ--~B/aD00ODA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/1d04860c64c91554a0ee45a01bf87ed7.jpg",
+      "publishedAt": 1789006500000
     },
     {
       "ticker": "KO",
-      "title": "Kroger and Albertsons make key moves to take on Amazon, Walmart",
+      "title": "Coca-Cola CEO Braun Targets Growth With Digital, Consumer Insights and Innovation",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ceo-braun-targets-020215514.html",
+      "image": "https://media.zenfs.com/en/marketbeat_955/374e1515ce50b0a582e4ff38f275d4aa.png",
+      "publishedAt": 1789005735000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Dips In UiPath Stock Have Mostly Kept Falling, Will This One Too?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/65cabf97-1167-3cb6-be9d-0905a9e17cb5/dips-in-uipath-stock-have.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5HEtZmorqSXOj6Yz07mD6Q--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/aec1911f7df19eee11f9c07efd02521d.jpg",
+      "publishedAt": 1789004588000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Qualcomm’s $60 billion deal reveals what comes after smartphones",
       "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/6e89ac1a-2b87-3db1-8286-d3d39aa26989/kroger-and-albertsons-make.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/B40g8kE7K1x_JI6h9BPsXQ--~B/aD0xMDgwO3c9MTkxOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/98ae28730cd7684ae3bf35fbeca3f951.jpg",
-      "publishedAt": 1788998580000
+      "link": "https://finance.yahoo.com/m/4567a8de-231c-37a4-b0f4-aa6157fd39dc/qualcomm%E2%80%99s-%2460-billion-deal.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SCBq_VzXTJZfsB82iNtSTA--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/ac796fd0517d6a007ad81be1fc8d7ba0.jpg",
+      "publishedAt": 1789004220000
     },
     {
-      "ticker": "KO",
-      "title": "Ralph Lauren opens fur-free New York Fashion Week",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/m/61274bfb-4a06-3a4e-aab1-9827260ecb33/ralph-lauren-opens-fur-free.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NGeg2L4Bi9haHDB7z5OFHg--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/d542fb33d9d56b4854a076bd491e0301.jpg",
-      "publishedAt": 1788998529000
+      "ticker": "MSFT",
+      "title": "Should You Get Paid To Wait For Palo Alto Networks To Slow Down?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/2416e148-4658-3446-bd45-7007907bbbb2/should-you-get-paid-to-wait.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/JyShqHMwMQU1rbeLr_NeXQ--~B/aD05ODk7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/81affd71630ba53e0d4e3fd0d3341494.jpg",
+      "publishedAt": 1789002915000
     },
     {
-      "ticker": "KO",
-      "title": "FGR secures Pacific Urethanes production order for mining fire-retardant application",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/fgr-secures-pacific-urethanes-production-000000090.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/DPpzWxX5bKOFYMrskZuzCg--~B/aD05ODt3PTM5ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/81b968a6a6c6cd91d1ea831b62c49ae7.jpg",
-      "publishedAt": 1788998400000
+      "ticker": "MA",
+      "title": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ant-international-mastercard-visa-initiate-010000783.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/U6tJ18P9crnLqab6zv2jPg--~B/aD0yMzA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/dfc480b36775f99c9597334e18e62117.jpg",
+      "publishedAt": 1789002000000
     },
     {
-      "ticker": "KO",
-      "title": "Sandbox VR Continues to Expand Across Australia with a New Melbourne Venue, Opening September 14",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/sandbox-vr-continues-expand-across-000000299.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/JipHznAlF_mr7fdYuVF5Hw--~B/aD02MTt3PTM5NzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/e9f3ae80f89f974993563f449d51e7f8.jpg",
-      "publishedAt": 1788998400000
+      "ticker": "GOOGL",
+      "title": "Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the ‘Biggest Threat’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-warns-10-15-003013222.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ja2sCA9WXlmu.bSCZctyjg--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/e6f20751478a8b6a607940a4888871cd.jpg",
+      "publishedAt": 1789000213000
     },
     {
-      "ticker": "KO",
-      "title": "Straits Financial Services Pte Ltd Successfully Participates in First Trades of SGX McCloskey FOB Australia Hard Coking Coal Futures",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/straits-financial-services-pte-ltd-000000927.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/R6Qsj2VC_7FfTe40_OVM8A--~B/aD0xNjt3PTE2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/c8049b48bc5a82c1d04c61080c5a993f.png",
-      "publishedAt": 1788998400000
+      "ticker": "GOOGL",
+      "title": "My First Impressions of the New Folding iPhone Duo",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/8b691017-8d3f-30ed-a8ec-b8632888c587/my-first-impressions-of-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/R95o4o3f.Y_xmjF.AUg6WQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/fa5e595103155916a831f17588fc6b4d.jpg",
+      "publishedAt": 1789000020000
     },
     {
       "ticker": "GOOGL",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/ea106c59-4974-3bde-b9a1-d31ad4db7af6/forget-vug.-vanguard%E2%80%99s-value.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/z6XpHwbLJhmVLLz4gsZdEw--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/770be120fff685c5f7314670aab4aa01",
       "publishedAt": 1788992126000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "S&P 500, Dow, Nasdaq End Lower As Oil Crosses $101, Yields Pop Following Bessent’s Expanded Buyback Plan — AAPL, META, AMZN, CRM In Focus",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/59c7e40c-3fdd-3c12-a091-40ac1b4c32d6/s%26p-500%2C-dow%2C-nasdaq-end.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/0m3EW1euCS0wSQeVpduMxQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/4b1cfd1cebb08709ce989ad97de7d87f.jpg",
-      "publishedAt": 1788991309000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Multi-Category Presence Key To AI Visibility For Fintech Brands",
-      "publisher": "MediaPost",
-      "link": "https://finance.yahoo.com/m/c8f49f6e-19f8-3717-a260-aea367490ba3/multi-category-presence-key.html",
-      "image": null,
-      "publishedAt": 1788991064000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Paying Off the House With Your 401(k) Feels Smart but Can Cost Six Figures. These 3 ETFs Are Why You Keep the Money Invested",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/b1d10d05-7783-3bf2-9d67-2032b530bd31/paying-off-the-house-with.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/O1gEFbGT8NeLtlSL0.6Nhg--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2769e5d616ec27b0ece2799a017105af.jpg",
-      "publishedAt": 1788990929000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-sees-more-significant-214504623.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/cub22.ktb5Fk2l4Lo4u2pg--~B/aD00Njk7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/737ffb82e07dc8bffb77e72d153c91f2.jpg",
-      "publishedAt": 1788990304000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Stock Market Today, Sept. 9: Meta Surges Over 6.5% on Muse AI Agent Launch",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/d622c48d-2b5b-380a-bab7-002416ec8311/stock-market-today%2C-sept.-9%3A.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MHAmIyZXCgBRHKXC41AvoQ--~B/aD03MTQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/6e1465e3a2bb101fe7b16704415e84a6.png",
-      "publishedAt": 1788989729000
     }
   ]
 }
