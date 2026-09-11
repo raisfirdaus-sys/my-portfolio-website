@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-11T00:05:58.448Z",
+  "updatedAt": "2026-09-11T04:32:02.686Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "Ant International's Agentic Mobile Protocol Rolls Out Globally with Wallets and Acquirers; Initiating Collaboration on KYA Interoperability Framework with Mastercard and Visa",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ant-internationals-agentic-mobile-protocol-032600234.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hBNUtyf_0vKA6Gl2KUou_A--~B/aD0zNjA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/312494bfe3c5ecc11fbd2b460687c870.jpg",
+      "publishedAt": 1789097160000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "GOOGLE & MITTI LABS PARTNER TO ELIMINATE METHANE AND SCALE CLIMATE-SMART AG PRACTICES ACROSS INDIA'S RICE FIELDS",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-mitti-labs-partner-eliminate-030000944.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_2qPsqvhdn2XWqopJl1ebA--~B/aD0yMjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/ee922393b93a2c2e777f9ce647dd40ed.jpg",
+      "publishedAt": 1789095600000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Dan Ives Says Software Stocks Just Got Their Clearest Buy Signal Yet",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/f5ef6f41-ea6a-363a-aaea-40d14b096800/dan-ives-says-software-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WOHQ3lzJtLYL.VUItnFNUw--~B/aD0xMzMyO3c9MjM2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/1c02a1328f988ff3d2b37774f1397d8c.jpg",
+      "publishedAt": 1789089739000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon’s Aviation Network Faces a Sobering Test after the Miami Crash",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-aviation-network-faces-sobering-010809550.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hsOGuNXwCXw_AOXDbAIBAw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/226ed9ed0936942adb97f3d56073e411.jpg",
+      "publishedAt": 1789088889000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Is Really Behind CrowdStrike Stock's Doubling?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/cd94543d-8c5f-3c60-940f-c4c97109074f/what-is-really-behind.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/7sJDHEhw2dMd7WXL9aRAyw--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/eb3f02f45b9d2f78bb7fa293d70ebcdf.jpg",
+      "publishedAt": 1789088812000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard CFO Sees Resilient Spending Fueling Growth in Services, Stablecoins and UAE Deal",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/cdbdee2f-27f6-397a-b7ff-38e43b3a9fbf/mastercard-cfo-sees-resilient.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qwCKXMExBP0sNEegOVrxzQ--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/f2dce9667fcc6f7b75a2460bd84ad9cf.png",
+      "publishedAt": 1789088526000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "The Robotaxi Race is Spreading, Can Amazon and Alphabet Turn More Cities into Revenue?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/articles/robotaxi-race-spreading-amazon-alphabet-005740664.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/6l2RGXAW6aAdoW2iNXA4Lg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7c8bfe8c9a9bd1fa550a1e221e70896c.jpg",
+      "publishedAt": 1789088260000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Pinterest Stock Halved In A Rising Market, So How Low Could A Crash Take It?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/83a90742-f63e-3de7-966e-095dce002159/pinterest-stock-halved-in-a.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/CQuVyHfSaNWRss0fLPrL9w--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/10c2890c16ecee8e2a801b3a46ab1981.jpg",
+      "publishedAt": 1789087545000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Dell enters the S&P 100 index after monstrous three-year rally",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/91e6b60e-3e01-3cd2-92b6-104d9ff1d57c/dell-enters-the-s%26p-100-index.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SQcARkRB23LyaK.ZxKzGDA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/d168a38f4a8c74a0b0bc0293625cb4e1.jpg",
+      "publishedAt": 1789084980000
+    },
     {
       "ticker": "MSFT",
       "title": "Microsoft Eyes Massive Data Center Push To Triple Computing Power And Solve Capacity Bottlenecks, Says Report",
@@ -72,78 +144,6 @@
       "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-plans-more-214500367.html",
       "image": null,
       "publishedAt": 1789076700000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia stock edges higher on Microsoft data center expansion report",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-edges-higher-microsoft-213655977.html",
-      "image": null,
-      "publishedAt": 1789076215000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "NTSB Says Amazon Boeing Pilots Appeared to Consider Aborting Landing Before Deadly Miami Crash",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/m/c1c1bf58-226d-34d3-a5fd-65e2bfe19496/ntsb-says-amazon-boeing.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1nn8CxRSA5_rkptSgCUuZw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/benzinga_79/7ae837d2a26addcf2d6d6289643199e0.jpg",
-      "publishedAt": 1789075813000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "People Inc. CEO on AI-hungry Google: 'They don't share anything with us'",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/people-inc-ceo-on-ai-hungry-google-they-dont-share-anything-with-us-210526796.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2RAzjrjn2hzxqhT3vjRi0w--~B/aD0zOTk0O3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-09/76d6f45a-60e1-4c97-b116-47cec62d0c74",
-      "publishedAt": 1789074326000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Oracle Tops First-Quarter Expectations as Cloud Infrastructure Revenue More Than Doubles",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/oracle-tops-first-quarter-expectations-210351667.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zVp6MDbmmkMLJHZnaprihQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/e32b7c5339f6731812c1365fc2c5db1b.jpg",
-      "publishedAt": 1789074231000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "People Inc. CEO on rebranding, AI challenges",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/people-inc-ceo-rebranding-ai-205700002.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2RAzjrjn2hzxqhT3vjRi0w--~B/aD0zOTk0O3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-09/76d6f45a-60e1-4c97-b116-47cec62d0c74",
-      "publishedAt": 1789073820000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Why Wall Street Is Buying Navan’s Post-Earnings Selloff",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/1a00c46e-a976-310b-8821-1644cc9ad2ac/why-wall-street-is-buying.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/KgS9MgcAkiCZzJquYCu7hQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/22d4c24fe84351de4dfe68b71c91675f.jpg",
-      "publishedAt": 1789073460000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog Insider Sold Shares Worth $18,602,602, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-insider-sold-shares-worth-203842200.html",
-      "image": null,
-      "publishedAt": 1789072722000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Oracle earnings: Do concentration risks fall on Oracle or the big AI firms?",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/oracle-earnings-concentration-risks-fall-203751982.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/a2JmRFI4KupqXXXaDplt5A--~B/aD0xNzgyO3c9MzE2ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/1dfcde80-e079-11ee-b73f-9a84e19e3e40_795dbccbf725eb41ed4f5d1599bffc20c1bd793735d507f921957e5161fa9e3f.jpg_4b93ff655e61f6f9e9bd9c99152230d52fa521473f3cbf50a512210fb03e6487.jpg",
-      "publishedAt": 1789072671000
-    },
-    {
-      "ticker": "MA",
-      "title": "The Merchant Onboarding Gap: When Three Identity Standards Compete, the Merchant Pays the Integration Cost",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/merchant-onboarding-gap-three-identity-201832965.html",
-      "image": null,
-      "publishedAt": 1789071512000
     }
   ]
 }
