@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-10T21:54:03.507Z",
+  "updatedAt": "2026-09-11T00:05:58.448Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Eyes Massive Data Center Push To Triple Computing Power And Solve Capacity Bottlenecks, Says Report",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/8246d2ab-4e1e-3842-af9f-5d5cbf12924c/microsoft-eyes-massive-data.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ffaQr6X2X5GCiAFWDE_OcQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/cdf6169c504d5016660249f787b4e6a5.jpg",
+      "publishedAt": 1789083026000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard (MA) Partners With Flowcart. Can In-Chat Payments Deliver Profitable Growth?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-partners-flowcart-chat-231841366.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/YkQhsDdWUILAAdPpfADOVw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/fafd086710ca661f16635865366d426c.jpg",
+      "publishedAt": 1789082321000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Popular women's clothing chain closes 177 stores",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/d8441b86-b5ae-3a4c-af56-badffc3c1547/popular-women%27s-clothing.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/gDVTNdZ61mfj2DvzRp4vAA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/59cf32720804103ea875ab4506ff7d31.jpg",
+      "publishedAt": 1789082220000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Trump's $5,000 Dividend Plan Faces Bipartisan Pushback",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/economy/policy/articles/trump-apos-5-000-dividend-230924745.html",
+      "image": null,
+      "publishedAt": 1789081764000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/fd30059a-deb6-3743-b60b-bea000bb1fb2/palantir-technologies.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/GbjJNN4DnDgL9nWLwc3Tdg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/9f0e5c83e5882644ba44b0e3cb2ff35e.jpg",
+      "publishedAt": 1789081391000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Remain Bullish on AI Beneficiaries Like Bloom Energy",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/remain-bullish-ai-beneficiaries-bloom-225000093.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/qnHF9tNllz5SPxJdZF8DyA--~B/aD0zMjI7dz00ODU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0acb5ba160b8bc42460d7dbf2c0de716.jpg",
+      "publishedAt": 1789080600000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Axon beats Palantir by 36 Roundtable 100 spots",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/532c5f5f-51c0-3bd5-a045-ffaadfaeb1f8/axon-beats-palantir-by-36.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/l4RU3KGtd1164PjstK4xyg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/ebcf79f28214f5502312bce5de152b13.jpg",
+      "publishedAt": 1789078086000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-explains-why-nvidia-215159365.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/62ts21w_9kEaXXfzi63jew--~B/aD0xMjg4O3c9MTk4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/a3fb3583c0bb295e3097f19b030f8db7.jpg",
+      "publishedAt": 1789077119000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Market Chatter: Microsoft Plans to More Than Triple Data Center Capacity",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-plans-more-214500367.html",
+      "image": null,
+      "publishedAt": 1789076700000
+    },
     {
       "ticker": "MSFT",
       "title": "Nvidia stock edges higher on Microsoft data center expansion report",
@@ -8,6 +80,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-edges-higher-microsoft-213655977.html",
       "image": null,
       "publishedAt": 1789076215000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "NTSB Says Amazon Boeing Pilots Appeared to Consider Aborting Landing Before Deadly Miami Crash",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/c1c1bf58-226d-34d3-a5fd-65e2bfe19496/ntsb-says-amazon-boeing.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/1nn8CxRSA5_rkptSgCUuZw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/benzinga_79/7ae837d2a26addcf2d6d6289643199e0.jpg",
+      "publishedAt": 1789075813000
     },
     {
       "ticker": "GOOGL",
@@ -26,7 +106,7 @@
       "publishedAt": 1789074231000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "GOOGL",
       "title": "People Inc. CEO on rebranding, AI challenges",
       "publisher": "Yahoo Finance Video",
       "link": "https://finance.yahoo.com/video/people-inc-ceo-rebranding-ai-205700002.html",
@@ -58,92 +138,12 @@
       "publishedAt": 1789072671000
     },
     {
-      "ticker": "AMZN",
-      "title": "Not Amazon, Not Shopify. No Other Company Has Done What MercadoLibre Just Did",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e651bb3f-3fe2-3efc-b8c2-c8853994e527/not-amazon%2C-not-shopify.-no.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/TLv21djyYkk1gsFXfJ39SA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/348df5322a09ce8e63d32ff9e2d863cf.jpg",
-      "publishedAt": 1789072501000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "SpaceX Trades at 98 Times Sales. Here's What Amazon's Multiple Looked Like at the Same Stage.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/f62570c7-2bc1-3306-beda-a59455baefd7/spacex-trades-at-98-times.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/2xM9yEExIWaXoNAovh6KcQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/539680efa264855d460e1b42e561118a.jpg",
-      "publishedAt": 1789071900000
-    },
-    {
       "ticker": "MA",
       "title": "The Merchant Onboarding Gap: When Three Identity Standards Compete, the Merchant Pays the Integration Cost",
       "publisher": "Forkast News",
       "link": "https://finance.yahoo.com/technology/ai/articles/merchant-onboarding-gap-three-identity-201832965.html",
       "image": null,
       "publishedAt": 1789071512000
-    },
-    {
-      "ticker": "MA",
-      "title": "Is Visa Stock Expensive, Or Just Waiting On Its Margin?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/fa4705b4-2aa2-3aca-84fc-64ebf5fbc7ff/is-visa-stock-expensive%2C-or.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/h.u46mImzI57OqMs32OqIQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/trefis_142/e2fa35a85aed51f0984ed41f3df035ed.jpg",
-      "publishedAt": 1789071058000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Insider Sold Shares Worth $687,691, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-insider-sold-shares-worth-200959212.html",
-      "image": null,
-      "publishedAt": 1789070999000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html",
-      "image": null,
-      "publishedAt": 1789070145000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Nvidia Is One of the Most Profitable Businesses in the World. Here's Why the Stock Is Worth $311 a Share Right Now -- 39% More Than Its Share Price.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/65d7b9b5-81a5-32ef-8a07-28a84fd81125/nvidia-is-one-of-the-most.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/pd9Juz5ADMRRJIcVbEsHgg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6725dcfe400caf46a15f5871dc278fd0.jpg",
-      "publishedAt": 1789069800000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Michael Burry Dumps Nvidia and Palantir Put Options in Fresh Risk Warning",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/options/articles/michael-burry-dumps-nvidia-palantir-194635018.html",
-      "image": null,
-      "publishedAt": 1789069595000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194557109.html",
-      "image": null,
-      "publishedAt": 1789069557000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Brian Niccol Doubles Down on Starbucks Comeback",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/brian-niccol-doubles-down-starbucks-194036752.html",
-      "image": null,
-      "publishedAt": 1789069236000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Sector Update: Consumer",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-192301971.html",
-      "image": null,
-      "publishedAt": 1789068181000
     }
   ]
 }
