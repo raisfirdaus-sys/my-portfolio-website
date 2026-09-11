@@ -1,13 +1,101 @@
 {
-  "updatedAt": "2026-09-11T04:32:02.686Z",
+  "updatedAt": "2026-09-11T09:06:46.945Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "The Zacks Analyst Blog Highlights D-Wave Quantum, Rigetti, IBM, Alphabet and Amazon",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-d-090200430.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Gqyc44b85mByY4O2OAid.g--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9507176d9255e9dd39381c57df9d94b3.jpg",
+      "publishedAt": 1789117320000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft-Backed OpenAI Halts Pro Subscriptions Due to Astra Demand",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-backed-openai-halts-pro-085624475.html",
+      "image": null,
+      "publishedAt": 1789116984000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "OpenAI Expands Government AI Access, Cyber Defense Support",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/ai/articles/openai-expands-government-ai-access-084215845.html",
+      "image": null,
+      "publishedAt": 1789116135000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Andy Jassy Just Made a Move That Should Excite Micron and Broadcom Investors",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/13e5a130-b14a-364d-ab7b-3d134557330c/andy-jassy-just-made-a-move.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Trv9DAnPGG7cqwEsyiqqFA--~B/aD04MDU7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/88160997bd35e9e638858c3a58309e86.jpg",
+      "publishedAt": 1789114980000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The Private LTE/5G Network Market - 4th Edition Now Available — See Why Nokia, AWS, and Microsoft Are Making Radically Different Bets as the Market Races Toward $12 Billion",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/private-lte-5g-network-market-080800571.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/iogELng_NEvmVlKg85874A--~B/aD01ODt3PTQ4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/93d5b27580f67db722dd7c112e43e8bc.jpg",
+      "publishedAt": 1789114080000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Avid and Google Cloud Expand Strategic Partnership to Deliver Browser-Based Media Composer and Agentic Creative Workflows",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/avid-google-cloud-expand-strategic-080000904.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3WvED5PAdpYYhULhpBYV6g--~B/aD0yMjU7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/5041e2fcb756f0fc56eecdf2be914720.jpg",
+      "publishedAt": 1789113600000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Alex Karp Set Palantir a 134% Growth Target for the Whole Company. Here's What It Would Take to Hit It.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/48a85fed-ac85-3fc9-8dff-93e7b69fe353/alex-karp-set-palantir-a-134%25.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Z0xGmMDDujW2Uv_2ZjdhQQ--~B/aD04Njc7dz0xMzAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b7fc2e75c08c902d891f450d0ae5d927.jpg",
+      "publishedAt": 1789111741000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "PLTR Stock Wins Whether We’re In An AI Bubble Or Not? Wall Street Analyst Explains Why",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/caa030ff-c0a5-3586-999b-e2ea32e9ee37/pltr-stock-wins-whether-we%E2%80%99re.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/LGB0KwjrTl1Kx_YWEl78GA--~B/aD05NjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/25e95d0aeed1d52d9828e6c2a577916f",
+      "publishedAt": 1789107067000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway Has a New Top Holding, and It Dominates Its Market",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/8ab3eb48-823c-3695-a4f7-6348e00c69ce/berkshire-hathaway-has-a-new.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/jrdFaxXFlmQn7J7tIRkBvA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/cf6cd0572bfbeeb9f9051bd2963f713e.jpg",
+      "publishedAt": 1789104900000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Triples Its NVIDIA GPU Orders to 3 Million Chips as AI Demand Surges",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-triples-nvidia-gpu-orders-050739503.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/OXLGr0AvwbH_kokld3ZTrQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7efe2fd7da893ca97a9bb2743c4a5482.jpg",
+      "publishedAt": 1789103259000
+    },
     {
       "ticker": "MA",
       "title": "Ant International's Agentic Mobile Protocol Rolls Out Globally with Wallets and Acquirers; Initiating Collaboration on KYA Interoperability Framework with Mastercard and Visa",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ant-internationals-agentic-mobile-protocol-032600234.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hBNUtyf_0vKA6Gl2KUou_A--~B/aD0zNjA7dz00ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business-wire.com/312494bfe3c5ecc11fbd2b460687c870.jpg",
-      "publishedAt": 1789097160000
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ant-internationals-agentic-mobile-protocol-045600024.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/wdCe2mxAhK0fa.CbR9TK3A--~B/aD0zMDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/5b57d12e1e4a75e5424595de55d9e897.jpg",
+      "publishedAt": 1789102560000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google Raises Its Investments in Finland to Support AI Infrastructure Growth",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-raises-investments-finland-support-033020422.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/sjrA_8wSEXvwD41UJ.14dw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/benzinga_79/a37ab37d8dd7d5abdd89be22e9dc6c4d.jpg",
+      "publishedAt": 1789097420000
     },
     {
       "ticker": "GOOGL",
@@ -56,94 +144,6 @@
       "link": "https://finance.yahoo.com/technology/articles/robotaxi-race-spreading-amazon-alphabet-005740664.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/6l2RGXAW6aAdoW2iNXA4Lg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7c8bfe8c9a9bd1fa550a1e221e70896c.jpg",
       "publishedAt": 1789088260000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Pinterest Stock Halved In A Rising Market, So How Low Could A Crash Take It?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/83a90742-f63e-3de7-966e-095dce002159/pinterest-stock-halved-in-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/CQuVyHfSaNWRss0fLPrL9w--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/10c2890c16ecee8e2a801b3a46ab1981.jpg",
-      "publishedAt": 1789087545000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Dell enters the S&P 100 index after monstrous three-year rally",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/91e6b60e-3e01-3cd2-92b6-104d9ff1d57c/dell-enters-the-s%26p-100-index.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/SQcARkRB23LyaK.ZxKzGDA--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/d168a38f4a8c74a0b0bc0293625cb4e1.jpg",
-      "publishedAt": 1789084980000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Eyes Massive Data Center Push To Triple Computing Power And Solve Capacity Bottlenecks, Says Report",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/8246d2ab-4e1e-3842-af9f-5d5cbf12924c/microsoft-eyes-massive-data.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ffaQr6X2X5GCiAFWDE_OcQ--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/cdf6169c504d5016660249f787b4e6a5.jpg",
-      "publishedAt": 1789083026000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard (MA) Partners With Flowcart. Can In-Chat Payments Deliver Profitable Growth?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-partners-flowcart-chat-231841366.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/YkQhsDdWUILAAdPpfADOVw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/fafd086710ca661f16635865366d426c.jpg",
-      "publishedAt": 1789082321000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Popular women's clothing chain closes 177 stores",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/d8441b86-b5ae-3a4c-af56-badffc3c1547/popular-women%27s-clothing.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/gDVTNdZ61mfj2DvzRp4vAA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/59cf32720804103ea875ab4506ff7d31.jpg",
-      "publishedAt": 1789082220000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Trump's $5,000 Dividend Plan Faces Bipartisan Pushback",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/economy/policy/articles/trump-apos-5-000-dividend-230924745.html",
-      "image": null,
-      "publishedAt": 1789081764000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/fd30059a-deb6-3743-b60b-bea000bb1fb2/palantir-technologies.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/GbjJNN4DnDgL9nWLwc3Tdg--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/9f0e5c83e5882644ba44b0e3cb2ff35e.jpg",
-      "publishedAt": 1789081391000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Remain Bullish on AI Beneficiaries Like Bloom Energy",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/ai/articles/remain-bullish-ai-beneficiaries-bloom-225000093.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qnHF9tNllz5SPxJdZF8DyA--~B/aD0zMjI7dz00ODU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0acb5ba160b8bc42460d7dbf2c0de716.jpg",
-      "publishedAt": 1789080600000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Axon beats Palantir by 36 Roundtable 100 spots",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/532c5f5f-51c0-3bd5-a045-ffaadfaeb1f8/axon-beats-palantir-by-36.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/l4RU3KGtd1164PjstK4xyg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/ebcf79f28214f5502312bce5de152b13.jpg",
-      "publishedAt": 1789078086000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-explains-why-nvidia-215159365.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/62ts21w_9kEaXXfzi63jew--~B/aD0xMjg4O3c9MTk4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_finance_785/a3fb3583c0bb295e3097f19b030f8db7.jpg",
-      "publishedAt": 1789077119000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Market Chatter: Microsoft Plans to More Than Triple Data Center Capacity",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-plans-more-214500367.html",
-      "image": null,
-      "publishedAt": 1789076700000
     }
   ]
 }
