@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-12T18:44:05.931Z",
+  "updatedAt": "2026-09-12T21:25:20.250Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e61254d9-56d2-3272-8d44-3050272e6898/nvidia-vs.-amd%3A-elon-musk.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/VKCSaSuGNkdjmj9bNdKgeA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1968859925c624b95e9e7e88618011ab.png",
+      "publishedAt": 1789248000000
+    },
+    {
+      "ticker": "MA",
+      "title": "300 Million People Will Delegate Shopping to AI Agents by 2030 – Teen Adoption Runs Nearly Double the Adult Rate",
+      "publisher": "Forkast News",
+      "link": "https://finance.yahoo.com/technology/ai/articles/300-million-people-delegate-shopping-202654060.html",
+      "image": null,
+      "publishedAt": 1789244814000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/c3ec876a-6501-3000-8f8c-ccd6b7e9f7ce/zscaler-conference%3A-ai.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.cP.4UM9ojQuKIpCJ9FX7g--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/2bdf37e9616f0f8cc6917fea110a4b3e.png",
+      "publishedAt": 1789243321000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "J&J Is In Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/25654044-5cdb-328d-b829-54fb3d1c75af/j%26j-is-in-talks-to-sell-its.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Oxrk83BbLEG84b2HdRca1A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/20feb59600638918948d6b3d97726be5.jpg",
+      "publishedAt": 1789242000000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1b044c3d-e233-30b0-bef8-5a841dbcd8fb/google%27s-historic-396-mw.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/.kV04YU1.jEZtxHAHJOWYQ--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b6e8bcce009dafc063b59658a97c8665.jpg",
+      "publishedAt": 1789239900000
+    },
     {
       "ticker": "AMZN",
       "title": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
@@ -82,12 +122,12 @@
       "publishedAt": 1789220229000
     },
     {
-      "ticker": "AMZN",
-      "title": "Prediction: Owning 100 Shares of Amazon Stock Will Turn $25,000 Into $50,000 by 2030",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/01b087b2-03e5-30ca-a28d-6056f72964ae/prediction%3A-owning-100-shares.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/MN63KfNyDhELCcVUCKKZnw--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/5c03818888cdf7bd63ff65adbd89f5e7.png",
-      "publishedAt": 1789213920000
+      "ticker": "GOOGL",
+      "title": "Why Cathie Wood Is Selling Google and Buying More Meta Platforms Stock",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/9907c980-e196-35a1-b1f5-931f7397d136/why-cathie-wood-is-selling.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/hpgFG8YnjhPwxsHJEEwCBg--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/4a3a59542d6c271071336468fb27ae7a.jpg",
+      "publishedAt": 1789216984000
     },
     {
       "ticker": "JNJ",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/m/22655d07-22d6-3264-a0e7-b2b803fd7ef6/the-%24760-billion-ai-risk-that.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/8kKlEkUPHABBUcxMWT06wg--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/91a70f4ddb0435cf2663f7baa2e7c2d2.jpg",
       "publishedAt": 1789212180000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Jim Cramer on Why Marvell (MRVL) Plunged",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-why-marvell-mrvl-110613884.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lk2r1ddJu1W1QRTJ.of0CQ--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c.png",
-      "publishedAt": 1789211173000
-    },
-    {
-      "ticker": "V",
-      "title": "MoneyGram Launched a Visa Card That Spends USDC. Ripple’s Former Partner Chose Circle",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/1c0de815-3a9b-3f35-ab10-3a459df04529/moneygram-launched-a-visa.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/UCLok71QgdBIBoTu2plKOQ--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/961c5954fd7691b10fa256848a79fd3c.jpg",
-      "publishedAt": 1789211054000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "CP Group leader tells of modernizing Boca’s Innovation Campus: ‘It became a place’",
-      "publisher": "South Florida Sun Sentinel",
-      "link": "https://finance.yahoo.com/m/dad0fb3f-fcfe-34c9-9d81-a5df43106956/cp-group-leader-tells-of.html",
-      "image": null,
-      "publishedAt": 1789210800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Jim Cramer Wondered Whether Microsoft Corporation (NASDAQ:MSFT) Isn’t “That” Dependent On AI",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-wondered-whether-microsoft-105632101.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lk2r1ddJu1W1QRTJ.of0CQ--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c.png",
-      "publishedAt": 1789210592000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Jim Cramer Discussed Taking The Long View For Chevron Corporation (NYSE:CVX)",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/energy/articles/jim-cramer-discussed-taking-long-104953141.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Lk2r1ddJu1W1QRTJ.of0CQ--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3fe61364b95991c98978f250ba7bea2c.png",
-      "publishedAt": 1789210193000
     }
   ]
 }
