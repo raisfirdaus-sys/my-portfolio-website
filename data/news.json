@@ -1,8 +1,32 @@
 {
-  "updatedAt": "2026-09-12T21:25:20.250Z",
+  "updatedAt": "2026-09-12T23:19:20.987Z",
   "items": [
     {
-      "ticker": "AMZN",
+      "ticker": "DDOG",
+      "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-create-own-monitoring-225626156.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/BSgMuuxSJQf5VQb1nDfcqA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/17c3108472ab8ca1d6a190e8ddd07f26.jpg",
+      "publishedAt": 1789253786000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "How Much Does a 61-Year-Old Need Invested to Collect $8,600 a Month for Life?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/dde13ea6-2e60-363d-b99d-3ee9492f6c6b/how-much-does-a-61-year-old.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/29MwiO_ZNwl77r8BvQ4ltA--~B/aD04NDQ7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a0edcc38b39ea522e54a973f790f57a0.jpg",
+      "publishedAt": 1789253637000
+    },
+    {
+      "ticker": "MA",
+      "title": "Agentic commerce: Is Payments the winner this time?",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-payments-winner-time-213309351.html",
+      "image": null,
+      "publishedAt": 1789248789000
+    },
+    {
+      "ticker": "MSFT",
       "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/e61254d9-56d2-3272-8d44-3050272e6898/nvidia-vs.-amd%3A-elon-musk.html",
@@ -27,7 +51,7 @@
     },
     {
       "ticker": "JNJ",
-      "title": "J&J Is In Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/25654044-5cdb-328d-b829-54fb3d1c75af/j%26j-is-in-talks-to-sell-its.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/Oxrk83BbLEG84b2HdRca1A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/20feb59600638918948d6b3d97726be5.jpg",
@@ -120,30 +144,6 @@
       "link": "https://finance.yahoo.com/m/d74c7582-77f7-36be-baa0-2fe95eed15ba/qualcomm-lost-apple%E2%80%99s-modem.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/.Ree7WvEwYj1NJNU5eAAqw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/074a153741fb4f11882056e61201c515.jpg",
       "publishedAt": 1789220229000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why Cathie Wood Is Selling Google and Buying More Meta Platforms Stock",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/9907c980-e196-35a1-b1f5-931f7397d136/why-cathie-wood-is-selling.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/hpgFG8YnjhPwxsHJEEwCBg--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/4a3a59542d6c271071336468fb27ae7a.jpg",
-      "publishedAt": 1789216984000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "How Much Do You Really Need Invested in Dividend Stocks to Replace a $25,000 Income?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/0975de4d-b5ba-3a9c-9e30-4da91f8c5084/how-much-do-you-really-need.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/tBsgRyNt59UoEH_eqFqg5w--~B/aD04NDM7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/fac00c2982555a7e5f4d3b542245f32b.jpg",
-      "publishedAt": 1789213831000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "The $760 Billion AI Risk That Nobody Is Talking About. But Should.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/22655d07-22d6-3264-a0e7-b2b803fd7ef6/the-%24760-billion-ai-risk-that.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/8kKlEkUPHABBUcxMWT06wg--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/91a70f4ddb0435cf2663f7baa2e7c2d2.jpg",
-      "publishedAt": 1789212180000
     }
   ]
 }
