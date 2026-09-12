@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-12T00:37:07.497Z",
+  "updatedAt": "2026-09-12T04:59:35.615Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "David Tepper makes surprising double bet on AI's biggest bottleneck",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/96d346f7-2a8d-32ca-a900-7076955c9d7d/david-tepper-makes-surprising.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/KQW6sLMV4OeEu_34ttMiNg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/693b497bbad58dc76dc5b7c1192e4a0f.jpg",
+      "publishedAt": 1789174980000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir (PLTR)’s CEO Bets his Own Money on Ukraine’s Ousted Tech-Warfare Architect",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-ceo-bets-own-005236786.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MkD.W0CKuqDT0t2vjhg.tw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/b168408a88514fcb89d1b29d1dfb3bac.jpg",
+      "publishedAt": 1789174356000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Stock Is Flat So Far in 2026. Is a Rally Coming to End the Year?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-flat-far-2026-003400272.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/0df286de247c03fa24510ec8e2591b96.jpg",
+      "publishedAt": 1789173240000
+    },
     {
       "ticker": "PLTR",
       "title": "Veteran analyst resets Palantir price target for rest of 2026",
@@ -8,6 +32,14 @@
       "link": "https://finance.yahoo.com/m/1cbe5fc4-9e5d-3129-9cd7-9c353d0c30fb/veteran-analyst-resets.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/YgtSSSAtm57VH8aiAhaR4g--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/e5602cc8cc02f5db26e6d45f51d21b17.jpg",
       "publishedAt": 1789171380000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "The Woman Fixing a Microsoft Mess With Brutal Honesty",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/1e56cd25-2227-3feb-9696-11bc06e5cba9/the-woman-fixing-a-microsoft.html",
+      "image": "https://media.zenfs.com/en/wsj.com/9a36ea17d13d2e5b8f160fe46946baca.jpg",
+      "publishedAt": 1789171200000
     },
     {
       "ticker": "JNJ",
@@ -19,6 +51,14 @@
     },
     {
       "ticker": "MSFT",
+      "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-microsoft-nvidia-top-list-232000660.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/e31f9ddb30e9f2cdc42246b66bbf7018.jpg",
+      "publishedAt": 1789168800000
+    },
+    {
+      "ticker": "GOOGL",
       "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/a9bf2e69-d0ca-32ca-8588-c037da584394/apple%2C-microsoft%2C-and-nvidia.html",
@@ -37,8 +77,8 @@
       "ticker": "MSFT",
       "title": "S&P 500, Dow Break Past Four-Day Loss To End Higher As Investors Eye Fed Meeting Next Week — DELL, HPE, EL, WMT In Focus",
       "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/e32f6917-9db1-3546-90cf-dee3ca9ff621/s%26p-500%2C-dow-break-past.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/s5GuYVEy7VDxN2X76QlC.w--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/f73d1aee50d672cdeda7fcb439be72b9",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-break-past-231055529.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/f73d1aee50d672cdeda7fcb439be72b9",
       "publishedAt": 1789168255000
     },
     {
@@ -61,8 +101,8 @@
       "ticker": "MSFT",
       "title": "How a 66-Year-Old’s $800,000 in JEPQ and QQQI Pays $8,200 a Month, and the IRS Only Sees Half of It",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/e1dab3f6-9a9d-3754-a5bf-bdf9108568fe/how-a-66-year-old%E2%80%99s-%24800%2C000.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/z_a5x_SX3CPsJ05mxgGPgQ--~B/aD0xNzExO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/9acfbc5587104245161dc22bedc930dc.jpg",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/66-old-800-000-jepq-214535054.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/9acfbc5587104245161dc22bedc930dc.jpg",
       "publishedAt": 1789163135000
     },
     {
@@ -85,6 +125,14 @@
       "ticker": "MSFT",
       "title": "How Far Could Take-Two Stock Fall In A Market Shock, With Grand Theft Auto VI Still To Come?",
       "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/far-could-two-stock-fall-211743965.html",
+      "image": "https://media.zenfs.com/en/trefis_142/6c26ed98b7cdac0f2f776a3692796371.jpg",
+      "publishedAt": 1789161463000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "How Far Could Take-Two Stock Fall In A Market Shock, With Grand Theft Auto VI Still To Come?",
+      "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/3a28bfdc-0470-3a25-82db-fd85e2a3634d/how-far-could-take-two-stock.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/4.eTOg1JZ1OaAXbDB8zwnw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/6c26ed98b7cdac0f2f776a3692796371.jpg",
       "publishedAt": 1789161463000
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/media-advertising/articles/binge-watching-binge-shopping-come-211557647.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/vV1fk_g4uynvoy9qLFeY.Q--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/beace02fed1b2226566d02d0a663c93e.jpg",
       "publishedAt": 1789161357000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Gains as S&P Flags Its $100 Billion Debt Spree",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-gains-p-flags-100-211224228.html",
-      "image": null,
-      "publishedAt": 1789161144000
-    },
-    {
-      "ticker": "MA",
-      "title": "Visa Stock Rises as AI Alliance Forms, Trades 13.06% Below GF Value",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/visa-stock-rises-ai-alliance-211132983.html",
-      "image": null,
-      "publishedAt": 1789161092000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Gains After Signing 10 Enforceable School-AI Guardrails",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-gains-signing-10-enforceable-211130848.html",
-      "image": null,
-      "publishedAt": 1789161090000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Chinese AI Upstart Raises Stakes for U.S. Tech Giants",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-upstart-raises-stakes-211059608.html",
-      "image": null,
-      "publishedAt": 1789161059000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "OpenAI Rethinks Its Next Big Move",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-rethinks-next-big-move-211052878.html",
-      "image": null,
-      "publishedAt": 1789161052000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Oracle's AI Cloud Growth Lifts CoreWeave, Nebius and IREN",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/oracles-ai-cloud-growth-lifts-211041374.html",
-      "image": null,
-      "publishedAt": 1789161041000
     }
   ]
 }
