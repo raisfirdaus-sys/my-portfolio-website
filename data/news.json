@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-12T04:59:35.615Z",
+  "updatedAt": "2026-09-12T09:15:36.097Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Palantir and Nvidia Are Building a Sovereign AI Stack. Who Captures More of the Economics?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/WwDOpBqJKRmz5Ig3gSA3Xg--~B/aD0yMTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/a079136e941b43293f25b66228839740.jpg",
+      "publishedAt": 1789203125000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Meta May Overtake Google Search in Ad Revenue This Year, Bernstein Says",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/media-advertising/articles/meta-may-overtake-google-search-084633342.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/40Z8HUQAs0V6lTyTF3D1bQ--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/a93e4050f6c1b0b67c0997b182d214fa.jpg",
+      "publishedAt": 1789202793000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "2 Outstanding Dividend Stocks to Buy and Hold for 10 Years",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/0a1debdd-60e1-396c-b2ec-1dca07a8994d/2-outstanding-dividend-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/AGXFkjmjEpuJ6QrskkmkqQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/8c7dc7a897e07aa7a4a8ff38b00d55d4.png",
+      "publishedAt": 1789197602000
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Why Did Billionaire Israel \"Izzy\" Englander More Than Double His Stake in AbbVie Stock and Start a Position in SpaceX Stock?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/fc0e73b3-f2e1-319a-8016-57686bc4b0ac/why-did-billionaire-israel.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zYEEM3AbszmUagMmdEulMQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/81e0a09391837e5a364f83f2fba7c186.jpg",
+      "publishedAt": 1789194000000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Michael Burry Is Staying Short Nvidia, Palantir, and Tesla, Warning of a Possible \"1987-Type Fall\" for AI Stocks. Should Investors Take the Bet Seriously?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f826923c-2137-31af-ba47-7dbd53851f43/michael-burry-is-staying.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/xZ.YIUDlsWBoElIC4Ff5Mg--~B/aD04Nzg7dz0xMTk5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/c06071736139d5e9e2597d5e58068609.jpg",
+      "publishedAt": 1789192200000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "3 Ways to Invest in Anthropic Pre-IPO",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/ad4898b0-5513-3bd2-a4ea-faab1846d640/3-ways-to-invest-in-anthropic.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/M3UPT.BE3WQ000BqvN.M4A--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f8736efc32240aca54cabf96ec905248.jpg",
+      "publishedAt": 1789190400000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Signs ‘Iron-Clad’ AI Safety Deal — Schools Can Seek Damages if Student Data Is Misused",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/21cec9c5-3573-34da-a4b8-8bac7e3498d1/microsoft-signs-%E2%80%98iron-clad%E2%80%99.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/_vju02QeSBEjc7KSur2OEQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/benzinga_79/22336b634243ef88eaa9a8540a953dce.jpg",
+      "publishedAt": 1789180205000
+    },
     {
       "ticker": "GOOGL",
       "title": "David Tepper makes surprising double bet on AI's biggest bottleneck",
@@ -21,8 +77,8 @@
       "ticker": "MSFT",
       "title": "Microsoft Stock Is Flat So Far in 2026. Is a Rally Coming to End the Year?",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-flat-far-2026-003400272.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/0df286de247c03fa24510ec8e2591b96.jpg",
+      "link": "https://finance.yahoo.com/m/f443cad5-688f-3070-966e-96e33c2e62f8/microsoft-stock-is-flat-so.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/q0WvXBqhaeO5rNfip15HFA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0df286de247c03fa24510ec8e2591b96.jpg",
       "publishedAt": 1789173240000
     },
     {
@@ -38,7 +94,7 @@
       "title": "The Woman Fixing a Microsoft Mess With Brutal Honesty",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/1e56cd25-2227-3feb-9696-11bc06e5cba9/the-woman-fixing-a-microsoft.html",
-      "image": "https://media.zenfs.com/en/wsj.com/9a36ea17d13d2e5b8f160fe46946baca.jpg",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3tzkfZ0r0I8_JxaaKYW.cQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9a36ea17d13d2e5b8f160fe46946baca.jpg",
       "publishedAt": 1789171200000
     },
     {
@@ -51,14 +107,6 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-microsoft-nvidia-top-list-232000660.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/e31f9ddb30e9f2cdc42246b66bbf7018.jpg",
-      "publishedAt": 1789168800000
-    },
-    {
-      "ticker": "GOOGL",
       "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/a9bf2e69-d0ca-32ca-8588-c037da584394/apple%2C-microsoft%2C-and-nvidia.html",
@@ -77,8 +125,8 @@
       "ticker": "MSFT",
       "title": "S&P 500, Dow Break Past Four-Day Loss To End Higher As Investors Eye Fed Meeting Next Week — DELL, HPE, EL, WMT In Focus",
       "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-break-past-231055529.html",
-      "image": "https://media.zenfs.com/en/stocktwits_383/f73d1aee50d672cdeda7fcb439be72b9",
+      "link": "https://finance.yahoo.com/m/e32f6917-9db1-3546-90cf-dee3ca9ff621/s%26p-500%2C-dow-break-past.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/s5GuYVEy7VDxN2X76QlC.w--~B/aD04NTQ7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/f73d1aee50d672cdeda7fcb439be72b9",
       "publishedAt": 1789168255000
     },
     {
@@ -96,54 +144,6 @@
       "link": "https://finance.yahoo.com/m/1c7b3ce6-d490-3f23-8746-12b06950a588/what-are-you-really-paying.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/QGrle2HXm5pQP290QWFNpQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/2c6894e9b1f31fd3ead7fb164f67793e.jpg",
       "publishedAt": 1789163262000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How a 66-Year-Old’s $800,000 in JEPQ and QQQI Pays $8,200 a Month, and the IRS Only Sees Half of It",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/66-old-800-000-jepq-214535054.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/9acfbc5587104245161dc22bedc930dc.jpg",
-      "publishedAt": 1789163135000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet Inc. (GOOG) Outperforms Broader Market: What You Need to Know",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-outperforms-broader-214502479.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/FvxSQP286PeoHb6yh4tlBw--~B/aD01NjU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4f1a8d86cead9f96536efb147945dcc9.jpg",
-      "publishedAt": 1789163102000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet (GOOGL) Beats Stock Market Upswing: What Investors Need to Know",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-beats-stock-market-214502350.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/jJ3wNA6KzB2ynYr.NBgL6g--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43.jpg",
-      "publishedAt": 1789163102000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Far Could Take-Two Stock Fall In A Market Shock, With Grand Theft Auto VI Still To Come?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/far-could-two-stock-fall-211743965.html",
-      "image": "https://media.zenfs.com/en/trefis_142/6c26ed98b7cdac0f2f776a3692796371.jpg",
-      "publishedAt": 1789161463000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "How Far Could Take-Two Stock Fall In A Market Shock, With Grand Theft Auto VI Still To Come?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/3a28bfdc-0470-3a25-82db-fd85e2a3634d/how-far-could-take-two-stock.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/4.eTOg1JZ1OaAXbDB8zwnw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trefis_142/6c26ed98b7cdac0f2f776a3692796371.jpg",
-      "publishedAt": 1789161463000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Binge watching and binge shopping come together: Amazon lets Prime viewers buy what characters wear and use, or the next closest thing",
-      "publisher": "Fortune",
-      "link": "https://finance.yahoo.com/media-advertising/articles/binge-watching-binge-shopping-come-211557647.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vV1fk_g4uynvoy9qLFeY.Q--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/beace02fed1b2226566d02d0a663c93e.jpg",
-      "publishedAt": 1789161357000
     }
   ]
 }
