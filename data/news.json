@@ -1,6 +1,142 @@
 {
-  "updatedAt": "2026-09-13T06:45:03.120Z",
+  "updatedAt": "2026-09-13T12:41:50.244Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/8ec4d29a-62e2-3ae0-b781-1337a83e3a35/sundar-pichai-says-alphabet%27s.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/JfxEv7J2IN8zOaMwOYjrxA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/fbd268df50c9c6fc217593ae52464789.jpg",
+      "publishedAt": 1789302180000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Stock: Is Now the Right Time to Buy or Should You Hold Off?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/be90b7a8-e1f5-3056-9278-4e0c70deb405/microsoft-stock%3A-is-now-the.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/8Q_gYdWHqbKySkrfFzoMNg--~B/aD02Mzc7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9e911697acd3c359ae3c6eff00f3f804.jpg",
+      "publishedAt": 1789300260000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/10852b27-3043-34cb-ac09-abdfb5a40220/she-gave-the-grandkids-cash.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/vg7jEXjjY7GYrOLMfQArlA--~B/aD0xMDI0O3c9MTUzNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/83610cdda5d1da098a3948a477120f83.jpg",
+      "publishedAt": 1789299844000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom’s Anthropic Ramp Puts Google’s TPU Business in a Different Light",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-anthropic-ramp-puts-google-113804111.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/V0wncEbTSaEZOf10VuIeeA--~B/aD0zMjQwO3c9NDg2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c.jpg",
+      "publishedAt": 1789299484000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/articles/amazon-zoox-enters-san-francisco-112558972.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/BHK4hTjH0LkhZdhpXE3z6w--~B/aD0xMjgxO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/4fd5f9660ddf808ee8915bf26873abe6.jpg",
+      "publishedAt": 1789298758000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "SpaceX Says a Mystery AI Customer Adds $1.11 Billion a Month. Google Shows How Fast Compute Is Growing",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/spacex-says-mystery-ai-customer-104230984.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/V0wncEbTSaEZOf10VuIeeA--~B/aD0zMjQwO3c9NDg2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c.jpg",
+      "publishedAt": 1789296150000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Is Superintelligence On The Horizon? Safety Fears Grip Industry Leaders As They Push For A Slowdown",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/superintelligence-horizon-safety-fears-grip-104052728.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/5Rk3jP2qxFcgj0TipXzxAg--~B/aD0xMjgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/03e185273057e2e57d20662a76d8a57e.jpg",
+      "publishedAt": 1789296052000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nvidia May Put $10 Billion Into Anthropic’s $2 Trillion IPO. Amazon Already Has Much More Riding on It",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-may-put-10-billion-103618397.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/b25bPjBN5s2buVLb7htL1A--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/4beabd482637ec7f5549a99b77c1d1cd.jpg",
+      "publishedAt": 1789295778000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Should You Buy Costco Stock Right Now With $2,000 and Hold for 5 Years?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/501d90e4-b0d8-3133-aada-6194e5ee108b/should-you-buy-costco-stock.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/Q8yAaOuXNVcshlkxEf1_7Q--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/54ac6cccbc8039beeb598ed9af2ff256.png",
+      "publishedAt": 1789295700000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Xi pushes China’s open-source AI vision at BRICS summit",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/m/c9e2fa95-c6cf-3153-aa22-e6b9635477b2/xi-pushes-china%E2%80%99s-open-source.html",
+      "image": null,
+      "publishedAt": 1789295231000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "C3.ai (AI) Just Posted Its Most Promising Quarter In Years",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/c3-ai-ai-just-posted-102417897.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/c14dadc9b03ee60dfb06ea54297846ef.jpg",
+      "publishedAt": 1789295057000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "French AI boom exposes Europe’s funding gap as startups turn to U.S.",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/french-ai-boom-exposes-europe-102055012.html",
+      "image": null,
+      "publishedAt": 1789294855000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "NFL’s Sunday Ticket Is Getting Smaller. It Isn’t Getting Cheaper.",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/7063a08e-917a-3693-a9b4-01f3bb5d5bd8/nfl%E2%80%99s-sunday-ticket-is.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/dXsb5HZZRXrfyy6RJ6AG9w--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/41f9a9492f866f4919a62c6f50505f96.jpg",
+      "publishedAt": 1789291800000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog Conference: CEO Says AI and Enterprise Growth Are Accelerating",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/848754b4-ff13-3a6f-9b01-f1b3315c9a78/datadog-conference%3A-ceo-says.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
+      "publishedAt": 1789290118000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Can Alphabet Overtake Nvidia in 2027?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b7f39e7f-b92b-36d4-bcab-8bd4ea1e16aa/can-alphabet-overtake-nvidia.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/0Ij4UPQQtu3CZhyHCApjpw--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/bbcc01d2b2984b24675d36b52900fecf.jpg",
+      "publishedAt": 1789289100000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "3 Unstoppable Dow Stocks Worth Buying Right Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/5d8db425-5cc6-3217-9771-df5857947245/3-unstoppable-dow-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9PJZSr6rHPH6dLohNmXLXA--~B/aD04NDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/87c3a3b6ca7525a60beae2dc421f5473.jpg",
+      "publishedAt": 1789287720000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Investing $20,000 in Apple Stock 10 Years Ago Paid Off More Than Investing the Same Amount in Amazon. Here's the Better Buy for the Next Decade.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/c78987a1-2705-38b0-959c-24626e4a7fd0/investing-%2420%2C000-in-apple.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/MA95zil7ir2Q55.tknao.w--~B/aD04MDA7dz0xMjI4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f69e4bfc331fb4705e6d1e600205f652.jpg",
+      "publishedAt": 1789286700000
+    },
     {
       "ticker": "DDOG",
       "title": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
@@ -8,142 +144,6 @@
       "link": "https://finance.yahoo.com/m/c16e4f5a-5e76-35bd-9d36-3fc1ac4f20ae/datadog-eyes-ai-powered.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
       "publishedAt": 1789272116000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Louis Navellier is buying 3 headline-making stocks, including Google",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/6d4da608-f67a-3160-ac23-4fcf5edb3285/louis-navellier-is-buying-3.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/zs6vHEEWerCJhEtMirwIHw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/dd293cc387fd0ee1316a8b060c09a22a.jpg",
-      "publishedAt": 1789266780000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-create-own-monitoring-225626156.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BSgMuuxSJQf5VQb1nDfcqA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/17c3108472ab8ca1d6a190e8ddd07f26.jpg",
-      "publishedAt": 1789253786000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "How Much Does a 61-Year-Old Need Invested to Collect $8,600 a Month for Life?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/dde13ea6-2e60-363d-b99d-3ee9492f6c6b/how-much-does-a-61-year-old.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/29MwiO_ZNwl77r8BvQ4ltA--~B/aD04NDQ7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a0edcc38b39ea522e54a973f790f57a0.jpg",
-      "publishedAt": 1789253637000
-    },
-    {
-      "ticker": "MA",
-      "title": "Agentic commerce: Is Payments the winner this time?",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-payments-winner-time-213309351.html",
-      "image": null,
-      "publishedAt": 1789248789000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e61254d9-56d2-3272-8d44-3050272e6898/nvidia-vs.-amd%3A-elon-musk.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/VKCSaSuGNkdjmj9bNdKgeA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1968859925c624b95e9e7e88618011ab.png",
-      "publishedAt": 1789248000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-amd-elon-musk-212000632.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/1968859925c624b95e9e7e88618011ab.png",
-      "publishedAt": 1789248000000
-    },
-    {
-      "ticker": "MA",
-      "title": "300 Million People Will Delegate Shopping to AI Agents by 2030 – Teen Adoption Runs Nearly Double the Adult Rate",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/300-million-people-delegate-shopping-202654060.html",
-      "image": null,
-      "publishedAt": 1789244814000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/c3ec876a-6501-3000-8f8c-ccd6b7e9f7ce/zscaler-conference%3A-ai.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.cP.4UM9ojQuKIpCJ9FX7g--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/2bdf37e9616f0f8cc6917fea110a4b3e.png",
-      "publishedAt": 1789243321000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/25654044-5cdb-328d-b829-54fb3d1c75af/j%26j-is-in-talks-to-sell-its.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/Oxrk83BbLEG84b2HdRca1A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/20feb59600638918948d6b3d97726be5.jpg",
-      "publishedAt": 1789242000000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/1b044c3d-e233-30b0-bef8-5a841dbcd8fb/google%27s-historic-396-mw.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/.kV04YU1.jEZtxHAHJOWYQ--~B/aD03ODc7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b6e8bcce009dafc063b59658a97c8665.jpg",
-      "publishedAt": 1789239900000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google Just Dropped a Bombshell on AI Spending — Alphabet’s $200 Billion AI Bet Is Starting to Pay Off Big",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/0f70958d-f1a3-339a-8976-b3c0d39df1f5/google-just-dropped-a.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/1_USrI6CCVFqEgNhvDDGig--~B/aD0xMjAwO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/da6488d906225fdd04cead51e14850a3.jpg",
-      "publishedAt": 1789239377000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/media-advertising/articles/sirius-xm-ceo-highlights-cash-160158796.html",
-      "image": "https://media.zenfs.com/en/marketbeat_955/2b3a0dea4d7cdc09d3d793996b49caf8.png",
-      "publishedAt": 1789228918000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir's Growth Has Kept Accelerating, but Can the Rally Continue?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/fd139d06-77d3-3032-a830-e19b8356c514/palantir%27s-growth-has-kept.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/vKsudA9ovEzDwzs9LoVSPg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b9eac00c15c87cb9ebd7c412bff9fb88.png",
-      "publishedAt": 1789228500000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/909f9bc5-e3c3-32a6-8a37-941842531427/anthropic%E2%80%99s-prisoner%E2%80%99s.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/qYuYH6yy.GxHZIWoQNukbQ--~B/aD05NzQ7dz0xMzk2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/f92df2600ec9668ab683f327a41cce47.jpg",
-      "publishedAt": 1789228374000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-prisoner-dilemma-dario-amodei-155254071.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/f92df2600ec9668ab683f327a41cce47.jpg",
-      "publishedAt": 1789228374000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Price Prediction: The Stock’s Path Toward $300 Looks Clearer",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-price-prediction-stock-path-153052887.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/9d66356cb1d0794bb1e9c841c5003986.jpg",
-      "publishedAt": 1789227052000
-    },
-    {
-      "ticker": "KO",
-      "title": "Pepsi has a convenience-store problem that's not Coca-Cola",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/0839b4de-756c-30ae-b80d-5f3d24d1bee1/pepsi-has-a-convenience-store.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/NnZBxv0L0BG05.ir8sDHvA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/3f3ef0e671790bbd050bea10485035f3.jpg",
-      "publishedAt": 1789225620000
     }
   ]
 }
