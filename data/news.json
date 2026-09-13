@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-13T01:24:04.937Z",
+  "updatedAt": "2026-09-13T06:45:03.120Z",
   "items": [
+    {
+      "ticker": "DDOG",
+      "title": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/c16e4f5a-5e76-35bd-9d36-3fc1ac4f20ae/datadog-eyes-ai-powered.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
+      "publishedAt": 1789272116000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Louis Navellier is buying 3 headline-making stocks, including Google",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/6d4da608-f67a-3160-ac23-4fcf5edb3285/louis-navellier-is-buying-3.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/zs6vHEEWerCJhEtMirwIHw--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/dd293cc387fd0ee1316a8b060c09a22a.jpg",
+      "publishedAt": 1789266780000
+    },
     {
       "ticker": "DDOG",
       "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
@@ -31,6 +47,14 @@
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/e61254d9-56d2-3272-8d44-3050272e6898/nvidia-vs.-amd%3A-elon-musk.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/VKCSaSuGNkdjmj9bNdKgeA--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1968859925c624b95e9e7e88618011ab.png",
+      "publishedAt": 1789248000000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-amd-elon-musk-212000632.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/1968859925c624b95e9e7e88618011ab.png",
       "publishedAt": 1789248000000
     },
     {
@@ -77,8 +101,8 @@
       "ticker": "AMZN",
       "title": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
       "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/b0822a02-9ec8-3ce1-bb1e-f9b2b354900c/sirius-xm-ceo-highlights-cash.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/7usB.NGYZSgcAyDdYciquQ--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/2b3a0dea4d7cdc09d3d793996b49caf8.png",
+      "link": "https://finance.yahoo.com/media-advertising/articles/sirius-xm-ceo-highlights-cash-160158796.html",
+      "image": "https://media.zenfs.com/en/marketbeat_955/2b3a0dea4d7cdc09d3d793996b49caf8.png",
       "publishedAt": 1789228918000
     },
     {
@@ -99,10 +123,18 @@
     },
     {
       "ticker": "AMZN",
+      "title": "Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-prisoner-dilemma-dario-amodei-155254071.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/f92df2600ec9668ab683f327a41cce47.jpg",
+      "publishedAt": 1789228374000
+    },
+    {
+      "ticker": "AMZN",
       "title": "Amazon Price Prediction: The Stock’s Path Toward $300 Looks Clearer",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/6ee37818-4d76-3b04-9248-b9a935b4aec7/amazon-price-prediction%3A-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/d1SZnOXhrr5tQ572NxOGFA--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/9d66356cb1d0794bb1e9c841c5003986.jpg",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-price-prediction-stock-path-153052887.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/9d66356cb1d0794bb1e9c841c5003986.jpg",
       "publishedAt": 1789227052000
     },
     {
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/m/0839b4de-756c-30ae-b80d-5f3d24d1bee1/pepsi-has-a-convenience-store.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/NnZBxv0L0BG05.ir8sDHvA--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/3f3ef0e671790bbd050bea10485035f3.jpg",
       "publishedAt": 1789225620000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "The Closest Thing to Set-It-and-Forget-It Income: 5 Dividend Kings for Retirees Who Want Peace of Mind",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/41fc6742-2087-39e3-b301-bb01a92a16dd/the-closest-thing-to.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/L1cUgtFyph5.kZNyIiI8eg--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/1c108e08e6d7ce693a51bc4779ee7aad.jpg",
-      "publishedAt": 1789224625000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "‘The Oil of the Next 50 Years’ — Trump Touts AI Data Centers Delivering Wealth and Investment to Communities",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/53b6a042-b345-3233-ad6f-1e0323403132/%E2%80%98the-oil-of-the-next-50.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/QIa9VAz7sc4Ch5Gqf5cDfQ--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
-      "publishedAt": 1789224241000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/bf40ccf8-d5e7-36a0-967a-da120f4a5768/%242.3-billion-in-daily.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/WXA5fp3Za6f3jD3pQNtERA--~B/aD0xMDI0O3c9MTAyNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/27d527982dd22c3b14cfbeec80ec810b.jpg",
-      "publishedAt": 1789223656000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks CEO: “The Shine Is Back.” Should You Buy After the Stock’s 30% Jump?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/e3ea1658-f047-38f1-8ff9-0c81bff44728/starbucks-ceo%3A-%E2%80%9Cthe-shine-is.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/ljyxIU2wAJ7yOjNaVfgQlg--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/4b52c809f1c432918ba34ef94cfb5adb",
-      "publishedAt": 1789222510000
     }
   ]
 }
