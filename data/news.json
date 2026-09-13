@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-13T21:24:50.404Z",
+  "updatedAt": "2026-09-13T23:28:48.469Z",
   "items": [
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola vs. Pepsi: Five Years, Two Completely Different Outcomes",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4938f491-98f2-39e1-b916-56c5320595ce/coca-cola-vs.-pepsi%3A-five.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/SJ9yXiM8tAun_ZCKoxn01Q--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/2647f292493415f9a2503b35c899b90e.jpg",
+      "publishedAt": 1789333851000
+    },
     {
       "ticker": "MSFT",
       "title": "Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid",
@@ -30,7 +38,7 @@
       "title": "Starbucks’ $1 Billion Bet on Cozy Stores Faces a Margin Test",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-1-billion-bet-cozy-190035733.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/e6aba15bacb1ea34549a77e745639223.jpg",
+      "image": "https://s.yimg.com/uu/api/res/1.2/kPngYl6rAJonoZ4ekxB1qw--~B/aD02NDA7dz05NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/e6aba15bacb1ea34549a77e745639223.jpg",
       "publishedAt": 1789326035000
     },
     {
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/c16e4f5a-5e76-35bd-9d36-3fc1ac4f20ae/datadog-eyes-ai-powered.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
       "publishedAt": 1789272116000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-create-own-monitoring-225626156.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/BSgMuuxSJQf5VQb1nDfcqA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/17c3108472ab8ca1d6a190e8ddd07f26.jpg",
-      "publishedAt": 1789253786000
     }
   ]
 }
