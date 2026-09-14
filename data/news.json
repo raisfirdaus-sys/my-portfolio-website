@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-13T23:28:48.469Z",
+  "updatedAt": "2026-09-14T01:37:24.168Z",
   "items": [
+    {
+      "ticker": "MA",
+      "title": "AI agents to start spending your money with Visa, Mastercard",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/16140ef8-eb0e-3983-93db-b75fd3612d4e/ai-agents-to-start-spending.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/tlp3dZ_hWtojndcwlKxdVQ--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/078e85fde42c2b9d64c37259b70cb4c1.jpg",
+      "publishedAt": 1789347780000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon and 2 Other AI Stocks to Buy With $5,000",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6003531b-8c10-39e7-bb3f-3ff2ea02a7e0/amazon-and-2-other-ai-stocks.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/ILdFhoGn8WB9OL8BU0SE9w--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/70e69b03b7b5859693fbf8541c7170eb.png",
+      "publishedAt": 1789346761000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Pauses Operations With 21 Air After Miami Crash",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/d37d5a31-5a2c-3413-a0b0-19d7ce6ef6ed/amazon-pauses-operations-with.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/9.kT29nCgs70_Qj4qKhRQQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/891a8f2f31c1eb7b268c1ce552c1dbb2.jpg",
+      "publishedAt": 1789346100000
+    },
     {
       "ticker": "KO",
       "title": "Coca-Cola vs. Pepsi: Five Years, Two Completely Different Outcomes",
@@ -90,22 +114,6 @@
       "publishedAt": 1789313769000
     },
     {
-      "ticker": "AMZN",
-      "title": "UPS Cut Amazon Volumes on Purpose. The Margin Data Says It Worked.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/45cb8bb0-1e62-33ed-9d33-89018914dba3/ups-cut-amazon-volumes-on.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/cw1aSS_5V..Gcn9K7vKrMA--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/b329fe4d51b54bf74993c2931e3479d4.jpg",
-      "publishedAt": 1789311780000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Alibaba and Amazon Face the Same AI Spending Question: How Quickly Does Capacity Become Cash?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alibaba-amazon-face-same-ai-140837189.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/M9bRNSNdB67aM5T6bGpwlQ--~B/aD0yMTc2O3c9Mzg3MjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/89f2124e05c9b583b4142daea2594a29.jpg",
-      "publishedAt": 1789308517000
-    },
-    {
       "ticker": "MSFT",
       "title": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
       "publisher": "Motley Fool",
@@ -136,14 +144,6 @@
       "link": "https://finance.yahoo.com/m/848754b4-ff13-3a6f-9b01-f1b3315c9a78/datadog-conference%3A-ceo-says.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
       "publishedAt": 1789290118000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/c16e4f5a-5e76-35bd-9d36-3fc1ac4f20ae/datadog-eyes-ai-powered.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/PkHNWg91so0xTHMeaRcg3Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/c16d3e927307dbb0f9fcfdd9825ffe22.png",
-      "publishedAt": 1789272116000
     }
   ]
 }
