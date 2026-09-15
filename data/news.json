@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-09-14T22:44:15.963Z",
+  "updatedAt": "2026-09-15T01:24:06.154Z",
   "items": [
+    {
+      "ticker": "AMZN",
+      "title": "AMAZON TEAMSTERS RALLY FOR DELIVERY PROTECTION ACT",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/small-business/articles/amazon-teamsters-rally-delivery-protection-230500185.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/bK.cTbl70x.jOL0X4Venpw--~B/aD00MDA7dz0zMjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/7f8607107447047499357e001eea01d7.jpg",
+      "publishedAt": 1789427100000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/bce0c7c7-b0ee-3152-a73b-9ed20219664e/microsoft-just-made-a-move.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/VYkAfuXQrOK6zJvrsqVN5Q--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/7764e281cca867e6fcbad34b226ad072.jpg",
+      "publishedAt": 1789426897000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The Gulf’s AI Nightmare Came Courtesy of an Iranian Drone",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/06d71b1e-17ed-3541-b91d-f920b5810530/the-gulf%E2%80%99s-ai-nightmare-came.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/T0vfp9Aw.CMAUGYKPePewQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/3623c8f3b7d765f350462da740da249e.jpg",
+      "publishedAt": 1789426800000
+    },
     {
       "ticker": "GOOGL",
       "title": "'We owe it to humanity to try': Anthropic's CEO Just Called For Global AI Slowdown. Elon Musk, Sam Altman, and Google’s AI Chief Agree.",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/technology/ai/articles/owe-humanity-try-anthropics-ceo-221601409.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/3b6cd4a36c917162a260d4fd57ac3acb.jpg",
+      "link": "https://finance.yahoo.com/m/1a16f13b-4108-33a8-a906-4ae705e27321/%27we-owe-it-to-humanity-to.html",
+      "image": "https://s.yimg.com/uu/api/res/1.2/q.DmjW93nVNBfnd3vWcKZg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/3b6cd4a36c917162a260d4fd57ac3acb.jpg",
       "publishedAt": 1789424161000
     },
     {
@@ -14,7 +38,7 @@
       "title": "Gilead Sciences (GILD) Gains As Market Dips: What You Should Know",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/gilead-sciences-gild-gains-market-220003218.html",
-      "image": "https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba.jpg",
+      "image": "https://s.yimg.com/uu/api/res/1.2/3fYT1Ldg4f.9UnQWJqvHhA--~B/aD03NDU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba.jpg",
       "publishedAt": 1789423203000
     },
     {
@@ -54,7 +78,7 @@
       "title": "AbbVie (ABBV) Advances While Market Declines: Some Information for Investors",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-advances-while-market-214504484.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3fYT1Ldg4f.9UnQWJqvHhA--~B/aD03NDU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba.jpg",
+      "image": "https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba.jpg",
       "publishedAt": 1789422304000
     },
     {
@@ -114,36 +138,12 @@
       "publishedAt": 1789421085000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AMZN",
       "title": "Amazon and Microsoft Can Buy GPUs. But U.S. Construction Is Short 439,000 Workers",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/technology/ai/articles/amazon-microsoft-buy-gpus-u-212115814.html",
       "image": "https://s.yimg.com/uu/api/res/1.2/.y.nb0P9lDLOtR2ffAVphQ--~B/aD04ODg7dz0yMDQ4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7a8fa17cbfdde67e94291356f39994c0.jpg",
       "publishedAt": 1789420875000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "SCHD’s 0.06% Fee Hides the Real Cost: March’s 31% Reshuffle Sold Two Top-10 Holdings Out From Under Holders",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/e9d13ecb-0749-3aa4-915a-588150ac4c27/schd%E2%80%99s-0.06%25-fee-hides-the.html",
-      "image": "https://s.yimg.com/uu/api/res/1.2/3ny1yG5LECdD.oa8QnrNQw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/c8d7303e8cf181cb48a10a9d40f2882d.jpg",
-      "publishedAt": 1789419924000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Maryland Seeks To Reinstate Digital Ad Tax",
-      "publisher": "MediaPost",
-      "link": "https://finance.yahoo.com/media-advertising/articles/maryland-seeks-reinstate-digital-ad-210454125.html",
-      "image": null,
-      "publishedAt": 1789419894000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Contineum Therapeutics Says Phase 2 Major Depressive Disorder Study Fails to Meet Primary Efficacy Endpoint",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/contineum-therapeutics-says-phase-2-205241993.html",
-      "image": null,
-      "publishedAt": 1789419161000
     }
   ]
 }
