@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-15T23:09:45.383Z",
+  "updatedAt": "2026-09-16T01:23:32.140Z",
   "items": [
+    {
+      "ticker": "ABBV",
+      "title": "Merck Stock: Is The $70 Billion Pipeline Worth the Premium?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/merck-stock-70-billion-pipeline-004433851.html",
+      "image": "https://media.zenfs.com/en/trefis_142/b2c54801160ab3ac53aaad0a42b294c0.jpg",
+      "publishedAt": 1789519473000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "LEGN’s New CEO From Novartis Paves Way For Buyout Speculation",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/healthcare/articles/legn-ceo-novartis-paves-way-234024660.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/8966f247617086131619b24676bcc8f0",
+      "publishedAt": 1789515624000
+    },
     {
       "ticker": "GOOGL",
       "title": "Workday (WDAY) Names Sarah Kennedy Ellis CMO As AI Marketing Takes Center Stage",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/m/8af6acb0-32f5-3a96-97ee-647dd408ed1b/stock-market-today%3A-dow-dives.html",
       "image": "https://media.zenfs.com/en/ibd.com/f55f4c03473a5b6add3bf8a43300ca88.jpg",
       "publishedAt": 1789504690000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Nvidia, Coinbase, Skyworks, Axon, Tesla, Applied Aerospace, and More Stocks That Explain Today’s Market",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/a0c5d9c9-6c07-3d72-aefd-0455b97955f1/nvidia%2C-coinbase%2C-skyworks%2C.html",
-      "image": "https://media.zenfs.com/en/Barrons.com/f3ec36c2105f1df4fdd134f88b3038a6.jpg",
-      "publishedAt": 1789504080000
-    },
-    {
-      "ticker": "KO",
-      "title": "UBS Sees One Defensive Winner in Shaky Market",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-sees-one-defensive-winner-202211675.html",
-      "image": null,
-      "publishedAt": 1789503731000
     }
   ]
 }
