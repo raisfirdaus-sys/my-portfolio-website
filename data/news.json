@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-17T01:40:29.389Z",
+  "updatedAt": "2026-09-17T06:39:15.488Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "TTD Stock In Focus: Morningstar Sees Market Share Shrinking As Amazon, Google And Meta Ramp Up Ad Competition",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/media-advertising/articles/ttd-stock-focus-morningstar-sees-060913864.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/0f0851b505d543905f99f90abf848df3",
+      "publishedAt": 1789625353000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Does Microsoft (MSFT) Gain From Using AI In Nuclear Reactor Licensing?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/does-microsoft-msft-gain-using-051447713.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/2fb89ed01f3911d46e18d848163ce4ef.jpg",
+      "publishedAt": 1789622087000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "The World Isn’t Ready for an Anthropic IPO",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/e005700f-d461-3697-ac4f-ea5a4f5a61c3/the-world-isn%E2%80%99t-ready-for-an.html",
+      "image": "https://media.zenfs.com/en/Barrons.com/6b12504cd0336ba851e5900a47ff6249.jpg",
+      "publishedAt": 1789621260000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cmg-stock-ticks-ai-food-034047576.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/dbff4747f479d13d796c6aee9aa7f626.jpg",
+      "publishedAt": 1789616447000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Deal Sends Generac Stock Skyrocketing Late",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/69240845-89cb-3d1b-92bb-16c0aeb6eb48/amazon-deal-sends-generac.html",
+      "image": "https://media.zenfs.com/en/ibd.com/566d82673044a9c50e9303d75e7e2e9e.jpg",
+      "publishedAt": 1789612005000
+    },
     {
       "ticker": "PLTR",
       "title": "Nebius Group (NBIS) Is Down 12.9% After Becoming Palantir’s Preferred Sovereign AI Cloud Partner – Has The Bull Case Changed?",
@@ -82,14 +122,6 @@
       "publishedAt": 1789596780000
     },
     {
-      "ticker": "AMZN",
-      "title": "UPS (UPS) Stock Could Be 40% Undervalued Despite Strike Threats",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ups-ups-stock-could-40-221218411.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/2c6f9176caea1f7c0aefe27751bc1bc3.jpg",
-      "publishedAt": 1789596738000
-    },
-    {
       "ticker": "PLTR",
       "title": "Palantir Technologies (PLTR) Tightens Rules On External Generative AI Models",
       "publisher": "Simply Wall St.",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/technology/articles/waymo-expands-robotaxi-battle-las-220027456.html",
       "image": "https://media.zenfs.com/en/benzinga_79/fd7629f69b458b30fde69dc573341a7b.jpg",
       "publishedAt": 1789596027000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google should appoint antitrust compliance officer, US judge says in ad tech case",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/media-advertising/articles/google-appoint-antitrust-compliance-officer-215630226.html",
-      "image": "https://media.zenfs.com/en/reuters.com/93bfc4d4ea13ef8adb83394c848d99b4.jpg",
-      "publishedAt": 1789595790000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "The E-Commerce Stocks to Buy Before the Holiday Quarter",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/e-commerce-stocks-buy-holiday-214601104.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/bbfad045f665116e66a228c91268ed6c.jpg",
-      "publishedAt": 1789595161000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Why the Market Dipped But Palantir Technologies Inc. (PLTR) Gained Today",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-palantir-technologies-214506855.html",
-      "image": "https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0.jpg",
-      "publishedAt": 1789595106000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Anthropic IPO Underwriter Says AI Spending Won't Slow: Can He Be Neutral?",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-underwriter-says-ai-214112519.html",
-      "image": "https://media.zenfs.com/en/beincrypto_us_662/2a569199b0ab622e37aef9376ebe6c57.jpg",
-      "publishedAt": 1789594872000
     }
   ]
 }
