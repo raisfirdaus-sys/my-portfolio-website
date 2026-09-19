@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T20:34:52.768Z",
+  "updatedAt": "2026-09-19T22:28:32.274Z",
   "items": [
     {
       "ticker": "PLTR",
@@ -42,6 +42,14 @@
       "publishedAt": 1789843800000
     },
     {
+      "ticker": "MSFT",
+      "title": "AI Made Execution Easier. It Also Changed the Founder’s Most Important Job.",
+      "publisher": "Entrepreneur",
+      "link": "https://finance.yahoo.com/small-business/articles/ai-made-execution-easier-changed-183000456.html",
+      "image": "https://media.zenfs.com/en/entrepreneur_869/5e27b22d7160fb06708e53cff8f06a29.jpg",
+      "publishedAt": 1789842600000
+    },
+    {
       "ticker": "AMZN",
       "title": "$949 million fraud verdict costs CVS a business in Chapter 11",
       "publisher": "TheStreet",
@@ -80,6 +88,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-watched-alphabets-stock-145000584.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/309ce40fb169f3d65ac47e776bb94299.jpg",
       "publishedAt": 1789829400000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/1-microsoft-deal-iren-delivering-142734921.html",
+      "image": "https://media.zenfs.com/en/barchart_com_477/48711142162b134f8f7680caf42599f6.jpg",
+      "publishedAt": 1789828054000
     },
     {
       "ticker": "SBUX",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/markets/article/gm-brings-back-apple-carplay-as-buyers-demand-it-121047213.html",
       "image": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/80c1c9d0-6b45-11e9-bda5-a7effed0840e_098b88b55b949cbd304124d6ede0bee9908ef648c6868e79515b24e1836d3a70.jpg",
       "publishedAt": 1789819847000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bill Ackman's Pershing Square IPO Breaks Out",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/668dae51-f83f-3d46-9de7-940582aa36f3/bill-ackman%27s-pershing-square.html",
-      "image": "https://media.zenfs.com/en/ibd.com/096e75ae6ac9f8461d2663fff3853ab3.jpg",
-      "publishedAt": 1789819259000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Warren Buffett found the most boring way to bet on AI",
-      "publisher": "CNN Business",
-      "link": "https://finance.yahoo.com/energy/articles/warren-buffett-found-most-boring-103030993.html",
-      "image": "https://media.zenfs.com/en/cnn_business_articles_218/b8283f4e333d0d5f685830486751abac.jpg",
-      "publishedAt": 1789813830000
     }
   ]
 }
