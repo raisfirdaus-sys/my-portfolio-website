@@ -1,13 +1,21 @@
 {
-  "updatedAt": "2026-09-20T00:22:14.395Z",
+  "updatedAt": "2026-09-20T05:23:00.954Z",
   "items": [
     {
+      "ticker": "GILD",
+      "title": "Why Is Gilead Sciences (GILD) Widening Lenacapavir Access Across 120 Countries?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/why-gilead-sciences-gild-widening-041753752.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/e05ce36b3fb1d030a708a3c357de9802.jpg",
+      "publishedAt": 1789877873000
+    },
+    {
       "ticker": "MSFT",
-      "title": "AI risk debate: Existential threat or dangerous tool?",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-risk-debate-existential-threat-233038715.html",
-      "image": null,
-      "publishedAt": 1789860638000
+      "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nokia-oyj-hlse-nokia-speed-031933816.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/3c6ff8aabba9d6021dd61ad640943b86.jpg",
+      "publishedAt": 1789874373000
     },
     {
       "ticker": "GOOGL",
@@ -82,6 +90,14 @@
       "publishedAt": 1789842538000
     },
     {
+      "ticker": "KO",
+      "title": "Monster Beverage Is Up 17% in 2026, But Is MNST Stock Actually Cheap at These Levels?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-17-2026-mnst-175849652.html",
+      "image": "https://media.zenfs.com/en/tikr_258/61f7043db41c55bc75180362ada7dedb",
+      "publishedAt": 1789840729000
+    },
+    {
       "ticker": "AMZN",
       "title": "Bank of America resets Amazon stock forecast on delivery plan",
       "publisher": "TheStreet",
@@ -90,12 +106,28 @@
       "publishedAt": 1789836420000
     },
     {
+      "ticker": "V",
+      "title": "Visa Has Quietly Gained 6% in 2026 While the Market Got Distracted: Is V Stock Still a Buy?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-quietly-gained-6-2026-153820474.html",
+      "image": "https://media.zenfs.com/en/tikr_258/2dda13226ee893c071378f65df191e6d",
+      "publishedAt": 1789832300000
+    },
+    {
       "ticker": "AMZN",
       "title": "Amazon cargo delivery company files for Chapter 11 bankruptcy",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/small-business/articles/amazon-cargo-delivery-company-files-153300197.html",
       "image": "https://media.zenfs.com/en/thestreet_881/4d4f8c881dbf120f557b2660f0436eb7.jpg",
       "publishedAt": 1789831980000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Inside the 200-Basis-Point Margin Gap Marvell Isn’t Talking About on Earnings Calls",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/inside-200-basis-point-margin-152419324.html",
+      "image": "https://media.zenfs.com/en/tikr_258/eb1d902c9b347c85ac88b2b11d81d10a",
+      "publishedAt": 1789831459000
     },
     {
       "ticker": "MSFT",
@@ -112,38 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-watched-alphabets-stock-145000584.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/309ce40fb169f3d65ac47e776bb94299.jpg",
       "publishedAt": 1789829400000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/technology/ai/articles/1-microsoft-deal-iren-delivering-142734921.html",
-      "image": "https://media.zenfs.com/en/barchart_com_477/48711142162b134f8f7680caf42599f6.jpg",
-      "publishedAt": 1789828054000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks rival closes more cafes, exits key market",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/small-business/articles/starbucks-rival-closes-more-cafes-141700953.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/8fc2c1885d15997017d9f879292d80c2.jpg",
-      "publishedAt": 1789827420000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "What Will $5,000 Invested in Palantir Stock Be Worth in 5 Years?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-000-invested-palantir-stock-130027090.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/4a6b511be1f4f643e100896a230ca8ed.jpg",
-      "publishedAt": 1789822827000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "GM brings back Apple CarPlay as buyers demand it",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/gm-brings-back-apple-carplay-as-buyers-demand-it-121047213.html",
-      "image": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/80c1c9d0-6b45-11e9-bda5-a7effed0840e_098b88b55b949cbd304124d6ede0bee9908ef648c6868e79515b24e1836d3a70.jpg",
-      "publishedAt": 1789819847000
     }
   ]
 }
