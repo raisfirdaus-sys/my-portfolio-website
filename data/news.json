@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-20T10:04:45.434Z",
+  "updatedAt": "2026-09-20T14:11:28.479Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Berkshire Hathaway's Favorite Artificial Intelligence (AI) Stock Looks Like a Genius Buy Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaways-favorite-artificial-intelligence-131100376.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/7aa71d01f18972398b5422263bc49880.jpg",
+      "publishedAt": 1789909860000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Billionaire David Tepper Has 40% of His Fund in Just 3 AI Stocks. Are They Still Buys?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-david-tepper-40-fund-130200371.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/b1f310abe70a44697fd9136ef3522d67.jpg",
+      "publishedAt": 1789909320000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Why You Should Avoid Palantir and Buy These 2 Defense Stocks Instead",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-avoid-palantir-buy-2-124200288.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/47457c8b2c184fda264f6881ddd35b54.jpg",
+      "publishedAt": 1789908120000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola’s $10B Buildout Fuels Industrial Demand",
+      "publisher": "CRE Daily",
+      "link": "https://finance.yahoo.com/real-estate/articles/coca-cola-10b-buildout-fuels-115042368.html",
+      "image": "https://media.zenfs.com/en/cre_daily_340/2c1509b8feca5ac74a8702fa4b16b2a3",
+      "publishedAt": 1789905042000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "FedEx Lease Rollover Raises Industrial CMBS Refi Risk",
+      "publisher": "CRE Daily",
+      "link": "https://finance.yahoo.com/real-estate/articles/fedex-lease-rollover-raises-industrial-114601022.html",
+      "image": "https://media.zenfs.com/en/cre_daily_340/44fd224e49600eaf407a837b6e2f7239",
+      "publishedAt": 1789904761000
+    },
+    {
+      "ticker": "KO",
+      "title": "Prediction: Here's What a $15,000 Investment in Coca-Cola (KO) Stock Could Be Worth in 5 Years",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-heres-15-000-investment-110500879.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/7bb44218016d9f5eb5ee4489df1849c4.jpg",
+      "publishedAt": 1789902300000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Prediction: Here's What a $5,000 Investment in Amazon (AMZN) Stock Could Be Worth by 2036.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-heres-5-000-investment-105200570.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/7f214a6496cc83d377584818b60700e7.jpg",
+      "publishedAt": 1789901520000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett Steps Down as Berkshire's Chair — Son Howard Takes to Succeed: 'Father Time Always Wins' (UPDATED)",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-steps-down-berkshires-104508734.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/a03f66ef1158be338e5b1d70f27001c1.jpg",
+      "publishedAt": 1789901108000
+    },
+    {
+      "ticker": "KO",
+      "title": "History Says This Is the Amount of Yearly Dividend Income a $25,000 Investment in Coca-Cola Stock Could Generate By 2036.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/history-says-amount-yearly-dividend-103500833.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/0ebb4f5c364bd70f25e4e1b3aabf46b5.png",
+      "publishedAt": 1789900500000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Ross Gerber Says He Found ‘Secret’ Lot With Hundreds of Waymo Robotaxis: ‘Something Crazy Is About to Happen’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ross-gerber-says-found-secret-094509032.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/204e119b95dcefcbeaf7b679e55fcf46.jpg",
+      "publishedAt": 1789897509000
+    },
     {
       "ticker": "GOOGL",
       "title": "Prediction: Anthropic's IPO Will Be a Big Winner for Alphabet and Amazon Investors",
@@ -34,14 +114,6 @@
       "publishedAt": 1789874373000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-forms-alliance-build-230932870.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/e6251d5b66a3d9915d9c3c1b9b27c900.jpg",
-      "publishedAt": 1789859372000
-    },
-    {
       "ticker": "MSFT",
       "title": "DGRW Pays Dividends Every Month. Its Biggest Stocks Look Nothing Like a High-Yield ETF",
       "publisher": "24/7 Wall St.",
@@ -66,84 +138,12 @@
       "publishedAt": 1789848621000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Three Frontier Labs Are Building a FINRA-Style Safety Body. History Suggests It Won’t Be a Brake.",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/three-frontier-labs-building-finra-194134029.html",
-      "image": null,
-      "publishedAt": 1789846894000
-    },
-    {
       "ticker": "ABBV",
       "title": "AbbVie's Migraine Franchise Scored a Big Win. Is This Dividend King a No-Brainer Buy Right Now?",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/healthcare/articles/abbvies-migraine-franchise-scored-big-192000630.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/a9ea8fc784e2415a60ff53d0f74ab32d.png",
       "publishedAt": 1789845600000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Forget Buying All Seven: The \"Magnificent Seven\" Stock Most Likely to Double by 2028",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-buying-seven-magnificent-seven-185000912.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/bbac7bfbd758ca70fe4f7cb51702a7ed.jpg",
-      "publishedAt": 1789843800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "AI Made Execution Easier. It Also Changed the Founder’s Most Important Job.",
-      "publisher": "Entrepreneur",
-      "link": "https://finance.yahoo.com/small-business/articles/ai-made-execution-easier-changed-183000456.html",
-      "image": "https://media.zenfs.com/en/entrepreneur_869/5e27b22d7160fb06708e53cff8f06a29.jpg",
-      "publishedAt": 1789842600000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "$949 million fraud verdict costs CVS a business in Chapter 11",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/healthcare/articles/cvs-division-completes-chapter-11-150700440.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/f3672a01d7a342c3243374944b92591b.jpg",
-      "publishedAt": 1789842538000
-    },
-    {
-      "ticker": "KO",
-      "title": "Monster Beverage Is Up 17% in 2026, But Is MNST Stock Actually Cheap at These Levels?",
-      "publisher": "TIKR",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-17-2026-mnst-175849652.html",
-      "image": "https://media.zenfs.com/en/tikr_258/61f7043db41c55bc75180362ada7dedb",
-      "publishedAt": 1789840729000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Bank of America resets Amazon stock forecast on delivery plan",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-resets-amazon-stock-164700300.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/8010352d09702acbc5daf962d634c528.jpg",
-      "publishedAt": 1789836420000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Has Quietly Gained 6% in 2026 While the Market Got Distracted: Is V Stock Still a Buy?",
-      "publisher": "TIKR",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-quietly-gained-6-2026-153820474.html",
-      "image": "https://media.zenfs.com/en/tikr_258/2dda13226ee893c071378f65df191e6d",
-      "publishedAt": 1789832300000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon cargo delivery company files for Chapter 11 bankruptcy",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/small-business/articles/amazon-cargo-delivery-company-files-153300197.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/4d4f8c881dbf120f557b2660f0436eb7.jpg",
-      "publishedAt": 1789831980000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Inside the 200-Basis-Point Margin Gap Marvell Isn’t Talking About on Earnings Calls",
-      "publisher": "TIKR",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/inside-200-basis-point-margin-152419324.html",
-      "image": "https://media.zenfs.com/en/tikr_258/eb1d902c9b347c85ac88b2b11d81d10a",
-      "publishedAt": 1789831459000
     }
   ]
 }
