@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-21T00:28:51.810Z",
+  "updatedAt": "2026-09-21T05:27:00.545Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Visa, MOONTON Games extend collaboration with new three-year partnership for Mobile Legends: Bang Bang's M Series-the world's most watched mobile esports tournament",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/visa-moonton-games-extend-collaboration-033000527.html",
+      "image": "https://media.zenfs.com/en/prnewswire.com/0d4e2a8824c78795f5a49f975c2b4df6.jpg",
+      "publishedAt": 1789961400000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Waymo is bringing driverless taxis to a fourth country",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/ai/articles/waymo-bringing-driverless-taxis-fourth-030700608.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/0fca55b6e44045d8b8d4a8d4c0119d8e.jpg",
+      "publishedAt": 1789960020000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Michael Burry Warns Hyperscalers Are Hiding $3 Trillion In AI Liabilities — And Wall Street Isn’t Looking: ‘When The Music’s Over…’",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/technology/ai/articles/michael-burry-warns-hyperscalers-hiding-024617848.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/1ee149676711629c546bb8f14d17a4a8",
+      "publishedAt": 1789958777000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "What Does Alphabet (GOOGL) Face In This New AI Safety Lawsuit?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/does-alphabet-googl-face-ai-021459890.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/469c3bd184f0e63e1a342b17de1569a4.jpg",
+      "publishedAt": 1789956899000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Nvidia's Jensen Huang Beats Zuckerberg, Bezos for Trump's AI Favor as Stock Climbs",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidias-jensen-huang-beats-zuckerberg-020726073.html",
+      "image": "https://media.zenfs.com/en/beincrypto_us_662/e568428b2b79d498ccea900fe7f78261.jpg",
+      "publishedAt": 1789956446000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Neocloud Boom: Comparing Nebius, CoreWeave, & IREN",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/neocloud-boom-comparing-nebius-coreweave-020300874.html",
+      "image": "https://media.zenfs.com/en/zacks.com/01ceae97485fcba786d22f2b4df1d991.jpg",
+      "publishedAt": 1789956180000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "BofA cuts to the chase on AI data center demand",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/ai/articles/bofa-cuts-chase-ai-data-013700947.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/1d0a10f74113fe52b8dfef83c94fcd9c.jpg",
+      "publishedAt": 1789954620000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Technologies (PLTR) Unveils Alliance Push Across AI Supply Chains And Cyber Defense",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-unveils-alliance-011200856.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/43e1667cb7476cb45f84db58a8de8d48.jpg",
+      "publishedAt": 1789953120000
+    },
     {
       "ticker": "PLTR",
       "title": "Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?",
@@ -58,52 +122,12 @@
       "publishedAt": 1789940100000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-expects-213034571.html",
-      "image": "https://media.zenfs.com/en/benzinga_79/15eb87dff154368d2ac05fd352f5f5dd.jpg",
-      "publishedAt": 1789939834000
-    },
-    {
       "ticker": "AMZN",
       "title": "Amazon (AMZN) Taps the UK Bond Market for the First Time to Help Fund its AI Buildout",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-taps-uk-bond-212711015.html",
       "image": "https://media.zenfs.com/en/insidermonkey.com/90e386a06858d8b4751ec77797010aed.jpg",
       "publishedAt": 1789939631000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon (AMZN) Sued Again, This Time over How it Treats Pregnant Warehouse Workers",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/amazon-amzn-sued-again-time-212413687.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/794847399863380ef5af0a4d5f80eb12.jpg",
-      "publishedAt": 1789939453000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Investigators Dig into Landing Speed and Runway Safety After Amazon (AMZN)’s Fatal Miami Crash",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/investigators-dig-landing-speed-runway-211829213.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/226ed9ed0936942adb97f3d56073e411.jpg",
-      "publishedAt": 1789939109000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "10 Years Later: 5 Low-Risk Stocks for the Next Year",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/10-years-later-5-low-210123046.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/483708944c6dc1584c11880e8150b416.jpg",
-      "publishedAt": 1789938083000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Streaming’s Biggest Rivals Just Became Allies in Washington",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/media-advertising/articles/streaming-biggest-rivals-just-became-202114144.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/e4567211eeda6295dc8b3ea1641bde61.jpg",
-      "publishedAt": 1789935674000
     },
     {
       "ticker": "MSFT",
@@ -114,36 +138,12 @@
       "publishedAt": 1789934982000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon has some good news for its employees on minimum wage",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/economy/policy/articles/amazon-good-news-employees-minimum-200700480.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/be81381d92af2efeda84e70a3a257591.jpg",
-      "publishedAt": 1789934820000
-    },
-    {
       "ticker": "MSFT",
       "title": "Better Artificial Intelligence Stock: Advanced Micro Devices vs. SK Hynix",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/markets/stocks/articles/better-artificial-intelligence-stock-advanced-192828810.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/470277c333061d051105b57eb74e9761.png",
       "publishedAt": 1789932508000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/energy/articles/own-constellation-nuclear-fleet-not-185000512.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/9721f9abc933b2c7eddbb3304d889c11.png",
-      "publishedAt": 1789930200000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Prediction: Micron Will Earn More Profit Than Microsoft in Fiscal 2027",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-earn-more-profit-173701623.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/9a4e3610bc7b02ced68dffacc7eeab13.jpg",
-      "publishedAt": 1789925821000
     }
   ]
 }
