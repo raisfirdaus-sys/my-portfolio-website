@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-20T22:23:54.110Z",
+  "updatedAt": "2026-09-21T00:28:51.810Z",
   "items": [
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-nearly-doubled-revenue-stock-231201200.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/ab5ca7ad256e0c9c3d3ebc15b026951c.jpg",
+      "publishedAt": 1789945921000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet (GOOGL)’s Google Bets on Finland’s Cold Weather and Nuclear Power for its Next AI Buildout",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-google-bets-finland-230634716.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/ddded06c9301164bc21c334085fab02f.jpg",
+      "publishedAt": 1789945594000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks (SBUX)’s New Chai Recipe has its Most Loyal Customers Revolting",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-chai-recipe-most-225540524.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/d57183572e4f1c140cd1ab9e0fb9ea8c.jpg",
+      "publishedAt": 1789944940000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-built-2-4-222900517.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/afd088967b7f39180f5e3d647741dba2.jpg",
+      "publishedAt": 1789943340000
+    },
     {
       "ticker": "SBUX",
       "title": "Two Years In, Starbucks (SBUX)’s CEO Niccol has Won Back Customers. Now Wall Street Wants Margins",
@@ -24,6 +56,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/ultimate-dividend-growth-stock-buy-213500253.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/4621b4bf4a39939da39dfd7a100fc1ad.jpg",
       "publishedAt": 1789940100000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-expects-213034571.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/15eb87dff154368d2ac05fd352f5f5dd.jpg",
+      "publishedAt": 1789939834000
     },
     {
       "ticker": "AMZN",
@@ -104,46 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-earn-more-profit-173701623.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/9a4e3610bc7b02ced68dffacc7eeab13.jpg",
       "publishedAt": 1789925821000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-dumps-alphabet-172300077.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/a29e301b4a006e2987a79532ec27d9ae.jpg",
-      "publishedAt": 1789924980000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "The AI Agent Wars Just Got Personal: Google’s CC vs. Meta’s Muse",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ai-agent-wars-just-got-161457832.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/b4cfc199a7cfb98bb33a5f667db9756d.jpg",
-      "publishedAt": 1789920897000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Why Morgan Stanley likes Gilead's HIV prevention play",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/healthcare/articles/why-morgan-stanley-likes-gileads-160300486.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/3c10e102b9567a986edab1335351277f.jpg",
-      "publishedAt": 1789920180000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
-      "publisher": "decrypt",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/visa-moves-close-meme-coin-160103474.html",
-      "image": "https://media.zenfs.com/en/decrypt_157/ef1d6f9916033af3bf21ac79237d2c24.jpg",
-      "publishedAt": 1789920063000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "OpenAI Just Beat Google, Meta, and Amazon To This Key Milestone. Is It Bullish for AI Stocks.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-just-beat-google-meta-144001378.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/3b6cd4a36c917162a260d4fd57ac3acb.jpg",
-      "publishedAt": 1789915201000
     }
   ]
 }
