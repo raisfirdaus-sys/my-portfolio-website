@@ -1,0 +1,7786 @@
+{
+  "meta": {
+    "matchday": "2026-09-20",
+    "oddsSource": "Transcribed manually from SBOBET board screenshots (09/20). Odds are a snapshot and go stale fast - re-enter live prices before using any output.",
+    "statSource": "SEED ESTIMATES ONLY. Per-match season averages are placeholder baselines so the engine runs out of the box. Replace every number with real data from WhoScored / FBref / Understat before trusting any probability.",
+    "disclaimer": "Educational statistical model. No model predicts football reliably. Negative expected value is the default outcome of betting.",
+    "slates": {
+      "1": "20 Sept 2026 - papan Desimal (screenshot pertama)",
+      "2": "19-20 Sept 2026 - kupon yang Anda kirim lewat teks",
+      "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - papan format INDO, dikonversi ke Desimal",
+      "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats."
+    }
+  },
+  "leagues": [
+    {
+      "id": "ligue1",
+      "name": "Ligue 1 Prancis",
+      "avgGoalsPerMatch": 2.75,
+      "hfaAttack": 1.12,
+      "rhoFT": -0.055,
+      "rhoHT": -0.08,
+      "firstHalfShare": 0.435
+    },
+    {
+      "id": "seriea",
+      "name": "Serie A Italia",
+      "avgGoalsPerMatch": 2.65,
+      "hfaAttack": 1.11,
+      "rhoFT": -0.06,
+      "rhoHT": -0.085,
+      "firstHalfShare": 0.43
+    },
+    {
+      "id": "bundesliga",
+      "name": "Bundesliga Jerman",
+      "avgGoalsPerMatch": 3.15,
+      "hfaAttack": 1.13,
+      "rhoFT": -0.045,
+      "rhoHT": -0.07,
+      "firstHalfShare": 0.445
+    },
+    {
+      "id": "laliga",
+      "name": "La Liga Spanyol",
+      "avgGoalsPerMatch": 2.5,
+      "hfaAttack": 1.12,
+      "rhoFT": -0.062,
+      "rhoHT": -0.088,
+      "firstHalfShare": 0.428
+    },
+    {
+      "id": "championship",
+      "name": "Championship Inggris",
+      "avgGoalsPerMatch": 2.6,
+      "hfaAttack": 1.15,
+      "rhoFT": -0.058,
+      "rhoHT": -0.082,
+      "firstHalfShare": 0.44
+    },
+    {
+      "id": "epl",
+      "name": "Liga Utama Inggris",
+      "avgGoalsPerMatch": 2.85,
+      "hfaAttack": 1.11,
+      "rhoFT": -0.05,
+      "rhoHT": -0.075,
+      "firstHalfShare": 0.44
+    },
+    {
+      "id": "eflcup",
+      "name": "EFL Cup (Piala Liga Inggris)",
+      "avgGoalsPerMatch": 3.0,
+      "hfaAttack": 1.1,
+      "rhoFT": -0.045,
+      "rhoHT": -0.07,
+      "firstHalfShare": 0.445
+    },
+    {
+      "id": "unl-a",
+      "name": "UEFA Nations League A",
+      "avgGoalsPerMatch": 2.8,
+      "hfaAttack": 1.09,
+      "rhoFT": -0.055,
+      "rhoHT": -0.08,
+      "firstHalfShare": 0.43
+    },
+    {
+      "id": "unl-b",
+      "name": "UEFA Nations League B",
+      "avgGoalsPerMatch": 2.7,
+      "hfaAttack": 1.1,
+      "rhoFT": -0.058,
+      "rhoHT": -0.082,
+      "firstHalfShare": 0.43
+    },
+    {
+      "id": "unl-c",
+      "name": "UEFA Nations League C",
+      "avgGoalsPerMatch": 2.75,
+      "hfaAttack": 1.1,
+      "rhoFT": -0.058,
+      "rhoHT": -0.082,
+      "firstHalfShare": 0.432
+    },
+    {
+      "id": "unl-d",
+      "name": "UEFA Nations League D",
+      "avgGoalsPerMatch": 2.6,
+      "hfaAttack": 1.1,
+      "rhoFT": -0.06,
+      "rhoHT": -0.085,
+      "firstHalfShare": 0.43
+    }
+  ],
+  "teams": {
+    "auxerre": {
+      "name": "Auxerre",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 1.0,
+      "xgA": 1.62,
+      "xA": 0.82,
+      "goals": 0.8,
+      "shots": 10.2,
+      "sot": 3.2,
+      "bigMiss": 0.6,
+      "fouls": 13.8,
+      "tackles": 18.1,
+      "yellow": 2.4,
+      "red": 0.12
+    },
+    "brest": {
+      "name": "Brest",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 1.32,
+      "xgA": 1.4,
+      "xA": 1.08,
+      "goals": 1.4,
+      "shots": 12.0,
+      "sot": 4.0,
+      "bigMiss": 1.0,
+      "fouls": 12.4,
+      "tackles": 16.8,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "nice": {
+      "name": "Nice",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 1.45,
+      "xgA": 1.3,
+      "xA": 1.18,
+      "goals": 1.4,
+      "shots": 13.1,
+      "sot": 4.4,
+      "bigMiss": 1.2,
+      "fouls": 11.8,
+      "tackles": 16.2,
+      "yellow": 1.9,
+      "red": 0.1
+    },
+    "lille": {
+      "name": "Lille",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 1.62,
+      "xgA": 1.15,
+      "xA": 1.3,
+      "goals": 1.8,
+      "shots": 14.2,
+      "sot": 5.0,
+      "bigMiss": 1.2,
+      "fouls": 11.2,
+      "tackles": 15.6,
+      "yellow": 1.8,
+      "red": 0.06
+    },
+    "marseille": {
+      "name": "Marseille",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 1.7,
+      "xgA": 1.22,
+      "xA": 1.36,
+      "goals": 1.8,
+      "shots": 14.8,
+      "sot": 5.2,
+      "bigMiss": 1.4,
+      "fouls": 12.0,
+      "tackles": 16.0,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "psg": {
+      "name": "Paris Saint Germain",
+      "league": "ligue1",
+      "matches": 5,
+      "xgF": 2.32,
+      "xgA": 0.82,
+      "xA": 1.9,
+      "goals": 2.6,
+      "shots": 18.4,
+      "sot": 6.8,
+      "bigMiss": 2.0,
+      "fouls": 10.4,
+      "tackles": 14.2,
+      "yellow": 1.6,
+      "red": 0.06
+    },
+    "juventus": {
+      "name": "Juventus",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 1.62,
+      "xgA": 0.98,
+      "xA": 1.28,
+      "goals": 1.6,
+      "shots": 13.8,
+      "sot": 4.8,
+      "bigMiss": 1.2,
+      "fouls": 13.0,
+      "tackles": 17.4,
+      "yellow": 2.1,
+      "red": 0.08
+    },
+    "atalanta": {
+      "name": "Atalanta",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 1.7,
+      "xgA": 1.15,
+      "xA": 1.34,
+      "goals": 1.6,
+      "shots": 15.2,
+      "sot": 5.1,
+      "bigMiss": 1.6,
+      "fouls": 13.6,
+      "tackles": 19.2,
+      "yellow": 2.4,
+      "red": 0.1
+    },
+    "acmilan": {
+      "name": "AC Milan",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 1.85,
+      "xgA": 0.95,
+      "xA": 1.48,
+      "goals": 2.0,
+      "shots": 15.6,
+      "sot": 5.6,
+      "bigMiss": 1.4,
+      "fouls": 12.2,
+      "tackles": 16.6,
+      "yellow": 2.0,
+      "red": 0.06
+    },
+    "lecce": {
+      "name": "Lecce",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 0.85,
+      "xgA": 1.8,
+      "xA": 0.68,
+      "goals": 0.6,
+      "shots": 8.8,
+      "sot": 2.8,
+      "bigMiss": 0.4,
+      "fouls": 14.4,
+      "tackles": 19.8,
+      "yellow": 2.8,
+      "red": 0.16
+    },
+    "leverkusen": {
+      "name": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "matches": 5,
+      "xgF": 1.88,
+      "xgA": 1.28,
+      "xA": 1.52,
+      "goals": 2.0,
+      "shots": 15.4,
+      "sot": 5.4,
+      "bigMiss": 1.4,
+      "fouls": 11.4,
+      "tackles": 15.8,
+      "yellow": 1.8,
+      "red": 0.06
+    },
+    "leipzig": {
+      "name": "RB Leipzig",
+      "league": "bundesliga",
+      "matches": 5,
+      "xgF": 1.72,
+      "xgA": 1.35,
+      "xA": 1.4,
+      "goals": 1.8,
+      "shots": 14.6,
+      "sot": 5.0,
+      "bigMiss": 1.3,
+      "fouls": 12.0,
+      "tackles": 16.4,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "wolves": {
+      "name": "Wolverhampton Wanderers",
+      "league": "championship",
+      "matches": 5,
+      "xgF": 1.52,
+      "xgA": 1.18,
+      "xA": 1.22,
+      "goals": 1.6,
+      "shots": 13.4,
+      "sot": 4.5,
+      "bigMiss": 1.1,
+      "fouls": 11.6,
+      "tackles": 17.0,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "wba": {
+      "name": "West Bromwich Albion",
+      "league": "championship",
+      "matches": 5,
+      "xgF": 1.22,
+      "xgA": 1.32,
+      "xA": 0.98,
+      "goals": 1.2,
+      "shots": 11.4,
+      "sot": 3.7,
+      "bigMiss": 0.8,
+      "fouls": 12.2,
+      "tackles": 18.2,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "villarreal": {
+      "name": "Villarreal",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.62,
+      "xgA": 1.1,
+      "xA": 1.3,
+      "goals": 1.8,
+      "shots": 14.0,
+      "sot": 4.8,
+      "bigMiss": 1.2,
+      "fouls": 12.6,
+      "tackles": 16.8,
+      "yellow": 2.3,
+      "red": 0.08
+    },
+    "levante": {
+      "name": "Levante",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 0.92,
+      "xgA": 1.72,
+      "xA": 0.74,
+      "goals": 0.8,
+      "shots": 9.4,
+      "sot": 2.9,
+      "bigMiss": 0.5,
+      "fouls": 14.8,
+      "tackles": 20.2,
+      "yellow": 3.0,
+      "red": 0.18
+    },
+    "atletico": {
+      "name": "Atletico Madrid",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.68,
+      "xgA": 0.88,
+      "xA": 1.34,
+      "goals": 1.6,
+      "shots": 14.2,
+      "sot": 5.0,
+      "bigMiss": 1.4,
+      "fouls": 13.2,
+      "tackles": 18.0,
+      "yellow": 2.5,
+      "red": 0.1
+    },
+    "realmadrid": {
+      "name": "Real Madrid",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 2.05,
+      "xgA": 0.95,
+      "xA": 1.62,
+      "goals": 2.2,
+      "shots": 16.2,
+      "sot": 5.9,
+      "bigMiss": 1.7,
+      "fouls": 11.8,
+      "tackles": 15.4,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "tottenham": {
+      "name": "Tottenham Hotspur",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.72,
+      "xgA": 1.15,
+      "xA": 1.38,
+      "goals": 1.8,
+      "shots": 14.4,
+      "sot": 5.0,
+      "bigMiss": 1.3,
+      "fouls": 11.0,
+      "tackles": 16.4,
+      "yellow": 1.8,
+      "red": 0.08
+    },
+    "astonvilla": {
+      "name": "Aston Villa",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.38,
+      "xgA": 1.32,
+      "xA": 1.1,
+      "goals": 1.2,
+      "shots": 12.6,
+      "sot": 4.2,
+      "bigMiss": 1.0,
+      "fouls": 11.8,
+      "tackles": 17.2,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "brighton": {
+      "name": "Brighton & Hove Albion",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.55,
+      "xgA": 1.42,
+      "xA": 1.26,
+      "goals": 1.6,
+      "shots": 13.8,
+      "sot": 4.6,
+      "bigMiss": 1.2,
+      "fouls": 10.8,
+      "tackles": 16.0,
+      "yellow": 1.9,
+      "red": 0.1
+    },
+    "arsenal": {
+      "name": "Arsenal",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.95,
+      "xgA": 0.92,
+      "xA": 1.58,
+      "goals": 2.0,
+      "shots": 15.8,
+      "sot": 5.6,
+      "bigMiss": 1.5,
+      "fouls": 10.6,
+      "tackles": 15.2,
+      "yellow": 1.9,
+      "red": 0.06
+    },
+    "newcastle": {
+      "name": "Newcastle United",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.68,
+      "xgA": 1.18,
+      "xA": 1.34,
+      "goals": 1.6,
+      "shots": 14.0,
+      "sot": 4.8,
+      "bigMiss": 1.2,
+      "fouls": 11.4,
+      "tackles": 16.8,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "everton": {
+      "name": "Everton",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.25,
+      "xgA": 1.3,
+      "xA": 1.0,
+      "goals": 1.2,
+      "shots": 11.8,
+      "sot": 3.9,
+      "bigMiss": 0.9,
+      "fouls": 12.0,
+      "tackles": 18.0,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "nottingham": {
+      "name": "Nottingham Forest",
+      "league": "epl",
+      "matches": 5,
+      "xgF": 1.42,
+      "xgA": 1.28,
+      "xA": 1.14,
+      "goals": 1.4,
+      "shots": 12.8,
+      "sot": 4.3,
+      "bigMiss": 1.0,
+      "fouls": 12.4,
+      "tackles": 17.6,
+      "yellow": 2.1,
+      "red": 0.1
+    },
+    "hullcity": {
+      "name": "Hull City",
+      "league": "championship",
+      "matches": 5,
+      "xgF": 1.05,
+      "xgA": 1.55,
+      "xA": 0.84,
+      "goals": 1.0,
+      "shots": 10.4,
+      "sot": 3.2,
+      "bigMiss": 0.6,
+      "fouls": 13.2,
+      "tackles": 18.6,
+      "yellow": 2.4,
+      "red": 0.12
+    },
+    "coventry": {
+      "name": "Coventry City",
+      "league": "championship",
+      "matches": 5,
+      "xgF": 1.48,
+      "xgA": 1.2,
+      "xA": 1.18,
+      "goals": 1.6,
+      "shots": 13.0,
+      "sot": 4.4,
+      "bigMiss": 1.1,
+      "fouls": 11.8,
+      "tackles": 17.2,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "ipswich": {
+      "name": "Ipswich Town",
+      "league": "championship",
+      "matches": 5,
+      "xgF": 1.3,
+      "xgA": 1.28,
+      "xA": 1.04,
+      "goals": 1.2,
+      "shots": 12.0,
+      "sot": 4.0,
+      "bigMiss": 0.9,
+      "fouls": 12.6,
+      "tackles": 18.0,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "roma": {
+      "name": "AS Roma",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 1.55,
+      "xgA": 1.02,
+      "xA": 1.24,
+      "goals": 1.4,
+      "shots": 13.4,
+      "sot": 4.6,
+      "bigMiss": 1.2,
+      "fouls": 13.4,
+      "tackles": 18.2,
+      "yellow": 2.4,
+      "red": 0.1
+    },
+    "inter": {
+      "name": "Inter Milan",
+      "league": "seriea",
+      "matches": 5,
+      "xgF": 2.05,
+      "xgA": 0.92,
+      "xA": 1.66,
+      "goals": 2.2,
+      "shots": 16.8,
+      "sot": 6.0,
+      "bigMiss": 1.6,
+      "fouls": 12.0,
+      "tackles": 16.2,
+      "yellow": 2.0,
+      "red": 0.08
+    },
+    "frankfurt": {
+      "name": "Eintracht Frankfurt",
+      "league": "bundesliga",
+      "matches": 5,
+      "xgF": 1.72,
+      "xgA": 1.48,
+      "xA": 1.38,
+      "goals": 1.8,
+      "shots": 14.2,
+      "sot": 5.0,
+      "bigMiss": 1.3,
+      "fouls": 12.4,
+      "tackles": 16.8,
+      "yellow": 2.1,
+      "red": 0.1
+    },
+    "freiburg": {
+      "name": "SC Freiburg",
+      "league": "bundesliga",
+      "matches": 5,
+      "xgF": 1.48,
+      "xgA": 1.55,
+      "xA": 1.18,
+      "goals": 1.4,
+      "shots": 12.8,
+      "sot": 4.3,
+      "bigMiss": 1.0,
+      "fouls": 12.8,
+      "tackles": 17.4,
+      "yellow": 2.2,
+      "red": 0.1
+    },
+    "osasuna": {
+      "name": "Osasuna",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.12,
+      "xgA": 1.38,
+      "xA": 0.9,
+      "goals": 1.0,
+      "shots": 10.8,
+      "sot": 3.4,
+      "bigMiss": 0.7,
+      "fouls": 14.2,
+      "tackles": 19.4,
+      "yellow": 2.8,
+      "red": 0.14
+    },
+    "rayo": {
+      "name": "Rayo Vallecano",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.15,
+      "xgA": 1.35,
+      "xA": 0.92,
+      "goals": 1.2,
+      "shots": 11.2,
+      "sot": 3.6,
+      "bigMiss": 0.8,
+      "fouls": 13.8,
+      "tackles": 19.0,
+      "yellow": 2.7,
+      "red": 0.14
+    },
+    "bilbao": {
+      "name": "Athletic Bilbao",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.5,
+      "xgA": 1.05,
+      "xA": 1.2,
+      "goals": 1.4,
+      "shots": 13.2,
+      "sot": 4.5,
+      "bigMiss": 1.1,
+      "fouls": 13.0,
+      "tackles": 18.4,
+      "yellow": 2.4,
+      "red": 0.1
+    },
+    "alaves": {
+      "name": "Alaves",
+      "league": "laliga",
+      "matches": 5,
+      "xgF": 1.0,
+      "xgA": 1.48,
+      "xA": 0.8,
+      "goals": 1.0,
+      "shots": 10.0,
+      "sot": 3.1,
+      "bigMiss": 0.6,
+      "fouls": 14.0,
+      "tackles": 19.6,
+      "yellow": 2.6,
+      "red": 0.14
+    },
+    "leeds": {
+      "name": "Leeds United",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "brentford": {
+      "name": "Brentford",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "chelsea": {
+      "name": "Chelsea",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bournemouth": {
+      "name": "Bournemouth AFC",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "fulham": {
+      "name": "Fulham",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sunderland": {
+      "name": "Sunderland",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "manutd": {
+      "name": "Manchester United",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "crystalpalace": {
+      "name": "Crystal Palace",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "mancity": {
+      "name": "Manchester City",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "parma": {
+      "name": "Parma Calcio",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "fiorentina": {
+      "name": "Fiorentina",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "frosinone": {
+      "name": "Frosinone",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "como": {
+      "name": "Como",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lazio": {
+      "name": "Lazio",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "monza": {
+      "name": "Monza",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bologna": {
+      "name": "Bologna",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sassuolo": {
+      "name": "Sassuolo",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "cagliari": {
+      "name": "Cagliari",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "venezia": {
+      "name": "Venezia",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "torino": {
+      "name": "Torino",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "udinese": {
+      "name": "Udinese",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "genoa": {
+      "name": "Genoa",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "dortmund": {
+      "name": "Borussia Dortmund",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "werder": {
+      "name": "Werder Bremen",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "hoffenheim": {
+      "name": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "hamburg": {
+      "name": "Hamburger SV",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "augsburg": {
+      "name": "Augsburg",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bayern": {
+      "name": "Bayern Munchen",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "mainz": {
+      "name": "FSV Mainz 05",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "unionberlin": {
+      "name": "Union Berlin",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "elversberg": {
+      "name": "SV Elversberg",
+      "league": "bundesliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "malaga": {
+      "name": "Malaga CF",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "espanyol": {
+      "name": "RCD Espanyol",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "barcelona": {
+      "name": "Barcelona",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "getafe": {
+      "name": "Getafe",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "elche": {
+      "name": "Elche CF",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "celta": {
+      "name": "Celta Vigo",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "realsociedad": {
+      "name": "Real Sociedad",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "deportivo": {
+      "name": "RC Deportivo A Coruna",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "betis": {
+      "name": "Real Betis",
+      "league": "laliga",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "netherlands": {
+      "name": "Belanda",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "germany": {
+      "name": "Jerman",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "norway": {
+      "name": "Norwegia",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "denmark": {
+      "name": "Denmark",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "portugal": {
+      "name": "Portugal",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "wales": {
+      "name": "Wales",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "serbia": {
+      "name": "Serbia",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "greece": {
+      "name": "Yunani",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "italy": {
+      "name": "Italia",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "belgium": {
+      "name": "Belgia",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "turkey": {
+      "name": "Turki",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "france": {
+      "name": "Prancis",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "georgia": {
+      "name": "Georgia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "nireland": {
+      "name": "Irlandia Utara",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "hungary": {
+      "name": "Hongaria",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "ukraine": {
+      "name": "Ukraina",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "poland": {
+      "name": "Polandia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bosnia": {
+      "name": "Bosnia dan Herzegovina",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sweden": {
+      "name": "Swedia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "romania": {
+      "name": "Rumania",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "austria": {
+      "name": "Austria",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "israel": {
+      "name": "Israel",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "kosovo": {
+      "name": "Kosovo",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "ireland": {
+      "name": "Republik Irlandia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "andorra": {
+      "name": "Andorra",
+      "league": "unl-d",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "malta": {
+      "name": "Malta",
+      "league": "unl-d",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "liechtenstein": {
+      "name": "Liechtenstein",
+      "league": "unl-d",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lithuania": {
+      "name": "Lituania",
+      "league": "unl-d",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "czechia": {
+      "name": "Ceko",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "croatia": {
+      "name": "Kroasia",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "england": {
+      "name": "Inggris",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "spain": {
+      "name": "Spanyol",
+      "league": "unl-a",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "slovenia": {
+      "name": "Slovenia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "scotland": {
+      "name": "Skotlandia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "nmacedonia": {
+      "name": "Republic of North Macedonia",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "switzerland": {
+      "name": "Swiss",
+      "league": "unl-b",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sanmarino": {
+      "name": "San Marino",
+      "league": "unl-c",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "finland": {
+      "name": "Finlandia",
+      "league": "unl-c",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bulgaria": {
+      "name": "Bulgaria",
+      "league": "unl-c",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "luxembourg": {
+      "name": "Luxembourg",
+      "league": "unl-c",
+      "national": true,
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "liverpool": {
+      "name": "Liverpool",
+      "league": "epl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "napoli": {
+      "name": "Napoli",
+      "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    }
+  },
+  "fixtures": [
+    {
+      "id": "aux-bre",
+      "league": "ligue1",
+      "kickoff": "21:00",
+      "home": "auxerre",
+      "away": "brest",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.72,
+            "X": 3.26,
+            "2": 2.31
+          },
+          "oe": {
+            "odd": 1.96,
+            "even": 1.9
+          },
+          "ah": [
+            {
+              "line": 0,
+              "h": 2.08,
+              "a": 1.78
+            },
+            {
+              "line": 0.25,
+              "h": 1.77,
+              "a": 2.09
+            },
+            {
+              "line": -0.25,
+              "h": 2.42,
+              "a": 1.56
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.96,
+              "u": 1.88
+            },
+            {
+              "line": 2.5,
+              "o": 1.76,
+              "u": 2.08
+            },
+            {
+              "line": 3.0,
+              "o": 2.31,
+              "u": 1.6
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.15,
+            "X": 2.2,
+            "2": 2.82
+          },
+          "ah": [
+            {
+              "line": 0,
+              "h": 2.04,
+              "a": 1.8
+            },
+            {
+              "line": 0.25,
+              "h": 1.56,
+              "a": 2.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.74,
+              "u": 2.11
+            },
+            {
+              "line": 1.25,
+              "o": 2.21,
+              "u": 1.66
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "nic-lil",
+      "league": "ligue1",
+      "kickoff": "23:15",
+      "home": "nice",
+      "away": "lille",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.3,
+            "X": 3.2,
+            "2": 2.04
+          },
+          "oe": {
+            "odd": 1.95,
+            "even": 1.91
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.83,
+              "a": 2.03
+            },
+            {
+              "line": 0.25,
+              "h": 2.12,
+              "a": 1.75
+            },
+            {
+              "line": 0.75,
+              "h": 1.58,
+              "a": 2.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.93,
+              "u": 1.91
+            },
+            {
+              "line": 2.75,
+              "o": 2.16,
+              "u": 1.7
+            },
+            {
+              "line": 2.25,
+              "o": 1.69,
+              "u": 2.17
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.85,
+            "X": 2.15,
+            "2": 2.49
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.73,
+              "a": 2.12
+            },
+            {
+              "line": 0,
+              "h": 2.44,
+              "a": 1.53
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.87,
+              "u": 1.97
+            },
+            {
+              "line": 1.25,
+              "o": 2.35,
+              "u": 1.58
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "mar-psg",
+      "league": "ligue1",
+      "kickoff": "02:45",
+      "home": "marseille",
+      "away": "psg",
+      "markets": {
+        "ft": {
+          "oe": {
+            "odd": 1.93,
+            "even": 1.93
+          },
+          "ah": [
+            {
+              "line": 1.5,
+              "h": 1.87,
+              "a": 1.99
+            },
+            {
+              "line": 1.25,
+              "h": 2.09,
+              "a": 1.77
+            },
+            {
+              "line": 1.75,
+              "h": 1.66,
+              "a": 2.25
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 1.97,
+              "u": 1.87
+            },
+            {
+              "line": 3.25,
+              "o": 1.74,
+              "u": 2.11
+            },
+            {
+              "line": 3.75,
+              "o": 2.21,
+              "u": 1.66
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 5.09,
+            "X": 2.71,
+            "2": 1.78
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 2.07,
+              "a": 1.77
+            },
+            {
+              "line": 0.75,
+              "h": 1.72,
+              "a": 2.13
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.03,
+              "u": 1.81
+            },
+            {
+              "line": 1.25,
+              "o": 1.68,
+              "u": 2.19
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "juv-ata",
+      "league": "seriea",
+      "kickoff": "23:59",
+      "home": "juventus",
+      "away": "atalanta",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.69,
+            "X": 3.49,
+            "2": 4.4
+          },
+          "oe": {
+            "odd": 1.94,
+            "even": 1.92
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.92,
+              "a": 1.94
+            },
+            {
+              "line": -0.5,
+              "h": 1.68,
+              "a": 2.21
+            },
+            {
+              "line": -1.0,
+              "h": 2.26,
+              "a": 1.65
+            },
+            {
+              "line": -1.25,
+              "h": 2.61,
+              "a": 1.48
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.91,
+              "u": 1.93
+            },
+            {
+              "line": 2.75,
+              "o": 2.12,
+              "u": 1.73
+            },
+            {
+              "line": 2.25,
+              "o": 1.6,
+              "u": 2.31
+            },
+            {
+              "line": 3.0,
+              "o": 2.56,
+              "u": 1.48
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.22,
+            "X": 2.19,
+            "2": 4.57
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.81,
+              "a": 2.03
+            },
+            {
+              "line": -0.5,
+              "h": 2.2,
+              "a": 1.67
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.82,
+              "u": 2.02
+            },
+            {
+              "line": 0.75,
+              "o": 1.52,
+              "u": 2.47
+            },
+            {
+              "line": 1.25,
+              "o": 2.29,
+              "u": 1.61
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "mil-lec",
+      "league": "seriea",
+      "kickoff": "02:45",
+      "home": "acmilan",
+      "away": "lecce",
+      "markets": {
+        "ft": {
+          "oe": {
+            "odd": 1.93,
+            "even": 1.93
+          },
+          "ah": [
+            {
+              "line": -1.75,
+              "h": 2.03,
+              "a": 1.83
+            },
+            {
+              "line": -1.5,
+              "h": 1.81,
+              "a": 2.05
+            },
+            {
+              "line": -2.0,
+              "h": 2.35,
+              "a": 1.6
+            },
+            {
+              "line": -1.25,
+              "h": 1.6,
+              "a": 2.35
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.05,
+              "u": 1.79
+            },
+            {
+              "line": 2.75,
+              "o": 1.79,
+              "u": 2.05
+            },
+            {
+              "line": 2.5,
+              "o": 1.61,
+              "u": 2.29
+            },
+            {
+              "line": 3.25,
+              "o": 2.33,
+              "u": 1.59
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.65,
+            "X": 2.58,
+            "2": 7.49
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.99,
+              "a": 1.85
+            },
+            {
+              "line": -0.5,
+              "h": 1.64,
+              "a": 2.25
+            },
+            {
+              "line": -1.0,
+              "h": 2.53,
+              "a": 1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.04,
+              "u": 1.8
+            },
+            {
+              "line": 1.0,
+              "o": 1.59,
+              "u": 2.33
+            },
+            {
+              "line": 1.5,
+              "o": 2.47,
+              "u": 1.52
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "lev-rbl",
+      "league": "bundesliga",
+      "kickoff": "21:30",
+      "home": "leverkusen",
+      "away": "leipzig",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.01,
+            "X": 3.69,
+            "2": 2.97
+          },
+          "oe": {
+            "odd": 1.96,
+            "even": 1.9
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 2.0,
+              "a": 1.86
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 1.85,
+              "u": 1.99
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.43,
+            "X": 2.51,
+            "2": 3.16
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.06,
+              "a": 1.78
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 1.97,
+              "u": 1.87
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "wol-wba",
+      "league": "championship",
+      "kickoff": "19:00",
+      "home": "wolves",
+      "away": "wba",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.75,
+            "X": 3.55,
+            "2": 3.67
+          },
+          "oe": {
+            "odd": 1.94,
+            "even": 1.92
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.81,
+              "a": 2.03
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.9,
+              "u": 1.92
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.27,
+            "X": 2.35,
+            "2": 3.92
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.93,
+              "a": 1.89
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.8,
+              "u": 2.02
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "vil-lvt",
+      "league": "laliga",
+      "kickoff": "21:00",
+      "home": "villarreal",
+      "away": "levante",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.62,
+              "a": 2.3
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9,
+              "u": 1.94
+            }
+          ]
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.85,
+              "a": 1.98
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.83,
+              "u": 2.0
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "atm-rma",
+      "league": "laliga",
+      "kickoff": "02:00",
+      "home": "atletico",
+      "away": "realmadrid",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.92,
+              "a": 1.92
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.0,
+              "u": 1.84
+            }
+          ]
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.88,
+              "a": 1.95
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.12,
+              "u": 1.71
+            }
+          ]
+        }
+      },
+      "slate": 1
+    },
+    {
+      "id": "tot-avl",
+      "league": "epl",
+      "kickoff": "19/09 19:30",
+      "home": "tottenham",
+      "away": "astonvilla",
+      "slate": 2,
+      "markets": {
+        "1h": {
+          "ou": [
+            {
+              "line": 1.25,
+              "u": 1.67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bha-ars",
+      "league": "epl",
+      "kickoff": "19/09 22:00",
+      "home": "brighton",
+      "away": "arsenal",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "ou": [
+            {
+              "line": 2.5
+            }
+          ],
+          "ah": [
+            {
+              "line": 0.5
+            }
+          ]
+        },
+        "1h": {
+          "ou": [
+            {
+              "line": 1.25,
+              "u": 1.64
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "new-hul",
+      "league": "eflcup",
+      "kickoff": "19/09 22:00",
+      "home": "newcastle",
+      "away": "hullcity",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.53
+          }
+        }
+      }
+    },
+    {
+      "id": "nfo-cov",
+      "league": "eflcup",
+      "kickoff": "20/09 00:30",
+      "home": "nottingham",
+      "away": "coventry",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.58
+          },
+          "ou": [
+            {
+              "line": 2.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eve-ips",
+      "league": "eflcup",
+      "kickoff": "19/09 22:00",
+      "home": "everton",
+      "away": "ipswich",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.0,
+              "a": 1.58
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rom-int",
+      "league": "seriea",
+      "kickoff": "19/09 23:59",
+      "home": "roma",
+      "away": "inter",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sge-scf",
+      "league": "bundesliga",
+      "kickoff": "19/09 21:30",
+      "home": "frankfurt",
+      "away": "freiburg",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.5,
+              "a": 1.59
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "osa-ray",
+      "league": "laliga",
+      "kickoff": "19/09 20:00",
+      "home": "osasuna",
+      "away": "rayo",
+      "slate": 2,
+      "markets": {
+        "1h": {
+          "ou": [
+            {
+              "line": 1.0,
+              "u": 1.84
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ath-ala",
+      "league": "laliga",
+      "kickoff": "19/09 21:00",
+      "home": "bilbao",
+      "away": "alaves",
+      "slate": 2,
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.0,
+              "a": 1.72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ars-lee",
+      "league": "epl",
+      "kickoff": "10/10",
+      "home": "arsenal",
+      "away": "leeds",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.33,
+            "X": 4.57,
+            "2": 7.3
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 1.8333,
+              "a": 2.07,
+              "indoH": -1.2,
+              "indoA": 1.07
+            },
+            {
+              "line": -1.5,
+              "h": 2.09,
+              "a": 1.813,
+              "indoH": 1.09,
+              "indoA": -1.23
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.8621,
+              "u": 2.02,
+              "indoO": -1.16,
+              "indoU": 1.02
+            },
+            {
+              "line": 3.0,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.78,
+            "X": 2.46,
+            "2": 6.5
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.7812,
+              "a": 2.11,
+              "indoH": -1.28,
+              "indoA": 1.11
+            },
+            {
+              "line": -0.75,
+              "h": 2.21,
+              "a": 1.7042,
+              "indoH": 1.21,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.16,
+              "u": 1.7407,
+              "indoO": 1.16,
+              "indoU": -1.35
+            },
+            {
+              "line": 1.0,
+              "o": 1.7042,
+              "u": 2.21,
+              "indoO": -1.42,
+              "indoU": 1.21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "avl-bre",
+      "league": "epl",
+      "kickoff": "10/10",
+      "home": "astonvilla",
+      "away": "brentford",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.55,
+            "X": 3.31,
+            "2": 2.45
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9901,
+              "a": 1.9174,
+              "indoH": -1.01,
+              "indoA": -1.09
+            },
+            {
+              "line": 0.25,
+              "h": 1.7042,
+              "a": 2.25,
+              "indoH": -1.42,
+              "indoA": 1.25
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9346,
+              "u": 1.9524,
+              "indoO": -1.07,
+              "indoU": -1.05
+            },
+            {
+              "line": 2.5,
+              "o": 1.7246,
+              "u": 2.19,
+              "indoO": -1.38,
+              "indoU": 1.19
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.0,
+            "X": 2.22,
+            "2": 2.95
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9524,
+              "a": 1.9346,
+              "indoH": -1.05,
+              "indoA": -1.07
+            },
+            {
+              "line": 0.25,
+              "h": 1.4808,
+              "a": 2.66,
+              "indoH": -2.08,
+              "indoA": 1.66
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            },
+            {
+              "line": 1.0,
+              "o": 1.7246,
+              "u": 2.19,
+              "indoO": -1.38,
+              "indoU": 1.19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "che-bou",
+      "league": "epl",
+      "kickoff": "10/10",
+      "home": "chelsea",
+      "away": "bournemouth",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.8,
+            "X": 3.83,
+            "2": 3.52
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 2.05,
+              "a": 1.8547,
+              "indoH": 1.05,
+              "indoA": -1.17
+            },
+            {
+              "line": -0.5,
+              "h": 1.8,
+              "a": 2.11,
+              "indoH": -1.25,
+              "indoA": 1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.8621,
+              "u": 2.02,
+              "indoO": -1.16,
+              "indoU": 1.02
+            },
+            {
+              "line": 3.5,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.38,
+            "X": 2.44,
+            "2": 3.41
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9346,
+              "a": 1.9524,
+              "indoH": -1.07,
+              "indoA": -1.05
+            },
+            {
+              "line": -0.5,
+              "h": 2.38,
+              "a": 1.6024,
+              "indoH": 1.38,
+              "indoA": -1.66
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.07,
+              "u": 1.813,
+              "indoO": 1.07,
+              "indoU": -1.23
+            },
+            {
+              "line": 1.25,
+              "o": 1.7246,
+              "u": 2.19,
+              "indoO": -1.38,
+              "indoU": 1.19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ips-ful",
+      "league": "epl",
+      "kickoff": "10/10",
+      "home": "ipswich",
+      "away": "fulham",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.55,
+            "X": 3.27,
+            "2": 2.47
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9804,
+              "a": 1.9259,
+              "indoH": -1.02,
+              "indoA": -1.08
+            },
+            {
+              "line": 0.25,
+              "h": 1.6803,
+              "a": 2.28,
+              "indoH": -1.47,
+              "indoA": 1.28
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9804,
+              "u": 1.9009,
+              "indoO": -1.02,
+              "indoU": -1.11
+            },
+            {
+              "line": 2.5,
+              "o": 1.7519,
+              "u": 2.14,
+              "indoO": -1.33,
+              "indoU": 1.14
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.0,
+            "X": 2.22,
+            "2": 2.95
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9615,
+              "a": 1.9259,
+              "indoH": -1.04,
+              "indoA": -1.08
+            },
+            {
+              "line": 0.25,
+              "h": 1.4717,
+              "a": 2.69,
+              "indoH": -2.12,
+              "indoA": 1.69
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            },
+            {
+              "line": 1.0,
+              "o": 1.7407,
+              "u": 2.16,
+              "indoO": -1.35,
+              "indoU": 1.16
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun-bha",
+      "league": "epl",
+      "kickoff": "10/10",
+      "home": "sunderland",
+      "away": "brighton",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.75,
+            "X": 3.22,
+            "2": 2.34
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.11,
+              "a": 1.8,
+              "indoH": 1.11,
+              "indoA": -1.25
+            },
+            {
+              "line": 0.25,
+              "h": 1.7634,
+              "a": 2.16,
+              "indoH": -1.31,
+              "indoA": 1.16
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.9009,
+              "u": 1.9804,
+              "indoO": -1.11,
+              "indoU": -1.02
+            },
+            {
+              "line": 2.75,
+              "o": 2.13,
+              "u": 1.7634,
+              "indoO": 1.13,
+              "indoU": -1.31
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.21,
+            "X": 2.15,
+            "2": 2.9
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.05,
+              "a": 1.8333,
+              "indoH": 1.05,
+              "indoA": -1.2
+            },
+            {
+              "line": 0.25,
+              "h": 1.5525,
+              "a": 2.49,
+              "indoH": -1.81,
+              "indoA": 1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            },
+            {
+              "line": 1.25,
+              "o": 2.31,
+              "u": 1.641,
+              "indoO": 1.31,
+              "indoU": -1.56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mun-tot",
+      "league": "epl",
+      "kickoff": "10/11",
+      "home": "manutd",
+      "away": "tottenham",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.69,
+            "X": 3.87,
+            "2": 3.96
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.9615,
+              "a": 1.9434,
+              "indoH": -1.04,
+              "indoA": -1.06
+            },
+            {
+              "line": -1.0,
+              "h": 2.29,
+              "a": 1.6711,
+              "indoH": 1.29,
+              "indoA": -1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.8264,
+              "u": 2.06,
+              "indoO": -1.21,
+              "indoU": 1.06
+            },
+            {
+              "line": 3.25,
+              "o": 2.13,
+              "u": 1.7634,
+              "indoO": 1.13,
+              "indoU": -1.31
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.28,
+            "X": 2.37,
+            "2": 3.82
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.8333,
+              "a": 2.05,
+              "indoH": -1.2,
+              "indoA": 1.05
+            },
+            {
+              "line": -0.5,
+              "h": 2.28,
+              "a": 1.6623,
+              "indoH": 1.28,
+              "indoA": -1.51
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            },
+            {
+              "line": 1.5,
+              "o": 2.33,
+              "u": 1.6329,
+              "indoO": 1.33,
+              "indoU": -1.58
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cry-nfo",
+      "league": "epl",
+      "kickoff": "10/11",
+      "home": "crystalpalace",
+      "away": "nottingham",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.58,
+            "X": 3.11,
+            "2": 2.55
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9615,
+              "a": 1.9434,
+              "indoH": -1.04,
+              "indoA": -1.06
+            },
+            {
+              "line": 0.25,
+              "h": 1.6623,
+              "a": 2.31,
+              "indoH": -1.51,
+              "indoA": 1.31
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 2.04,
+              "u": 1.8403,
+              "indoO": 1.04,
+              "indoU": -1.19
+            },
+            {
+              "line": 2.25,
+              "o": 1.7937,
+              "u": 2.09,
+              "indoO": -1.26,
+              "indoU": 1.09
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.14,
+            "X": 2.09,
+            "2": 3.08
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9615,
+              "a": 1.9259,
+              "indoH": -1.04,
+              "indoA": -1.08
+            },
+            {
+              "line": 0.25,
+              "h": 1.5,
+              "a": 2.61,
+              "indoH": -2.0,
+              "indoA": 1.61
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": 1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 0.75,
+              "o": 1.6211,
+              "u": 2.35,
+              "indoO": -1.61,
+              "indoU": 1.35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hul-eve",
+      "league": "epl",
+      "kickoff": "10/11",
+      "home": "hullcity",
+      "away": "everton",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.23,
+            "X": 3.1,
+            "2": 2.13
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 2.05,
+              "a": 1.8547,
+              "indoH": 1.05,
+              "indoA": -1.17
+            },
+            {
+              "line": 0.5,
+              "h": 1.7812,
+              "a": 2.13,
+              "indoH": -1.28,
+              "indoA": 1.13
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8772,
+              "u": 2.01,
+              "indoO": -1.14,
+              "indoU": 1.01
+            },
+            {
+              "line": 2.5,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.98,
+            "X": 2.07,
+            "2": 2.58
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7042,
+              "a": 2.21,
+              "indoH": -1.42,
+              "indoA": 1.21
+            },
+            {
+              "line": 0.0,
+              "h": 2.49,
+              "a": 1.5525,
+              "indoH": 1.49,
+              "indoA": -1.81
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 0.75,
+              "o": 1.641,
+              "u": 2.31,
+              "indoO": -1.56,
+              "indoU": 1.31
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "liv-mci",
+      "league": "epl",
+      "kickoff": "10/11",
+      "home": "liverpool",
+      "away": "mancity",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.74,
+            "X": 3.45,
+            "2": 2.23
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8621,
+              "a": 2.04,
+              "indoH": -1.16,
+              "indoA": 1.04
+            },
+            {
+              "line": 0.0,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": 1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 2.75,
+              "o": 1.7519,
+              "u": 2.14,
+              "indoO": -1.33,
+              "indoU": 1.14
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.23,
+            "X": 2.31,
+            "2": 2.63
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.17,
+              "a": 1.7353,
+              "indoH": 1.17,
+              "indoA": -1.36
+            },
+            {
+              "line": 0.25,
+              "h": 1.6623,
+              "a": 2.28,
+              "indoH": -1.51,
+              "indoA": 1.28
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.9901,
+              "u": 1.8929,
+              "indoO": -1.01,
+              "indoU": -1.12
+            },
+            {
+              "line": 1.0,
+              "o": 1.6135,
+              "u": 2.36,
+              "indoO": -1.63,
+              "indoU": 1.36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cov-new",
+      "league": "epl",
+      "kickoff": "10/13",
+      "home": "coventry",
+      "away": "newcastle",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.08,
+            "X": 3.37,
+            "2": 2.08
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 2.04,
+              "a": 1.8621,
+              "indoH": 1.04,
+              "indoA": -1.16
+            },
+            {
+              "line": 0.5,
+              "h": 1.8264,
+              "a": 2.08,
+              "indoH": -1.21,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.8621,
+              "u": 2.02,
+              "indoO": -1.16,
+              "indoU": 1.02
+            },
+            {
+              "line": 3.0,
+              "o": 2.16,
+              "u": 1.7407,
+              "indoO": 1.16,
+              "indoU": -1.35
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.47,
+            "X": 2.27,
+            "2": 2.54
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7353,
+              "a": 2.17,
+              "indoH": -1.36,
+              "indoA": 1.17
+            },
+            {
+              "line": 0.0,
+              "h": 2.31,
+              "a": 1.641,
+              "indoH": 1.31,
+              "indoA": -1.56
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.11,
+              "u": 1.7812,
+              "indoO": 1.11,
+              "indoU": -1.28
+            },
+            {
+              "line": 1.0,
+              "o": 1.6803,
+              "u": 2.25,
+              "indoO": -1.47,
+              "indoU": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gen-fio",
+      "league": "seriea",
+      "kickoff": "10/10",
+      "home": "genoa",
+      "away": "fiorentina",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.98,
+            "X": 3.17,
+            "2": 2.22
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8772,
+              "a": 2.03,
+              "indoH": -1.14,
+              "indoA": 1.03
+            },
+            {
+              "line": 0.0,
+              "h": 2.26,
+              "a": 1.6944,
+              "indoH": 1.26,
+              "indoA": -1.44
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8264,
+              "u": 2.06,
+              "indoO": -1.21,
+              "indoU": 1.06
+            },
+            {
+              "line": 2.5,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.54,
+            "X": 2.08,
+            "2": 2.78
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.21,
+              "a": 1.7042,
+              "indoH": 1.21,
+              "indoA": -1.42
+            },
+            {
+              "line": 0.25,
+              "h": 1.6135,
+              "a": 2.36,
+              "indoH": -1.63,
+              "indoA": 1.36
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            },
+            {
+              "line": 0.75,
+              "o": 1.6024,
+              "u": 2.38,
+              "indoO": -1.66,
+              "indoU": 1.38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "int-par",
+      "league": "seriea",
+      "kickoff": "10/10",
+      "home": "inter",
+      "away": "parma",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.13,
+            "X": 7.4,
+            "2": 12.0
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -2.25,
+              "h": 1.8772,
+              "a": 2.03,
+              "indoH": -1.14,
+              "indoA": 1.03
+            },
+            {
+              "line": -2.5,
+              "h": 2.07,
+              "a": 1.8333,
+              "indoH": 1.07,
+              "indoA": -1.2
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 1.8547,
+              "u": 2.03,
+              "indoO": -1.17,
+              "indoU": 1.03
+            },
+            {
+              "line": 3.75,
+              "o": 2.11,
+              "u": 1.7812,
+              "indoO": 1.11,
+              "indoU": -1.28
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.43,
+            "X": 3.22,
+            "2": 9.0
+          },
+          "ah": [
+            {
+              "line": -1.0,
+              "h": 1.9434,
+              "a": 1.9434,
+              "indoH": -1.06,
+              "indoA": -1.06
+            },
+            {
+              "line": -0.75,
+              "h": 1.6024,
+              "a": 2.38,
+              "indoH": -1.66,
+              "indoA": 1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 1.9615,
+              "u": 1.9259,
+              "indoO": -1.04,
+              "indoU": -1.08
+            },
+            {
+              "line": 1.75,
+              "o": 2.29,
+              "u": 1.6536,
+              "indoO": 1.29,
+              "indoU": -1.53
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nap-fro",
+      "league": "seriea",
+      "kickoff": "10/11",
+      "home": "napoli",
+      "away": "frosinone",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.42,
+            "X": 4.35,
+            "2": 5.9
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 2.01,
+              "a": 1.8929,
+              "indoH": 1.01,
+              "indoA": -1.12
+            },
+            {
+              "line": -1.0,
+              "h": 1.7519,
+              "a": 2.17,
+              "indoH": -1.33,
+              "indoA": 1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.7634,
+              "u": 2.13,
+              "indoO": -1.31,
+              "indoU": 1.13
+            },
+            {
+              "line": 3.0,
+              "o": 1.9709,
+              "u": 1.9174,
+              "indoO": -1.03,
+              "indoU": -1.09
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.98,
+            "X": 2.36,
+            "2": 5.2
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.9804,
+              "a": 1.9009,
+              "indoH": -1.02,
+              "indoA": -1.11
+            },
+            {
+              "line": -0.25,
+              "h": 1.5814,
+              "a": 2.42,
+              "indoH": -1.72,
+              "indoA": 1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 1.0,
+              "o": 1.6329,
+              "u": 2.33,
+              "indoO": -1.58,
+              "indoU": 1.33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "com-rom",
+      "league": "seriea",
+      "kickoff": "10/11",
+      "home": "como",
+      "away": "roma",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.52,
+            "X": 3.3,
+            "2": 2.49
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9615,
+              "a": 1.9434,
+              "indoH": -1.04,
+              "indoA": -1.06
+            },
+            {
+              "line": -0.25,
+              "h": 2.28,
+              "a": 1.6803,
+              "indoH": 1.28,
+              "indoA": -1.47
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9174,
+              "u": 1.9709,
+              "indoO": -1.09,
+              "indoU": -1.03
+            },
+            {
+              "line": 2.5,
+              "o": 1.7353,
+              "u": 2.17,
+              "indoO": -1.36,
+              "indoU": 1.17
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.94,
+            "X": 2.2,
+            "2": 3.05
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9009,
+              "a": 1.9804,
+              "indoH": -1.11,
+              "indoA": -1.02
+            },
+            {
+              "line": -0.25,
+              "h": 2.53,
+              "a": 1.5319,
+              "indoH": 1.53,
+              "indoA": -1.88
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7812,
+              "u": 2.11,
+              "indoO": -1.28,
+              "indoU": 1.11
+            },
+            {
+              "line": 1.25,
+              "o": 2.21,
+              "u": 1.7042,
+              "indoO": 1.21,
+              "indoU": -1.42
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "laz-mon",
+      "league": "seriea",
+      "kickoff": "10/11",
+      "home": "lazio",
+      "away": "monza",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.72,
+            "X": 3.42,
+            "2": 4.41
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.9709,
+              "a": 1.9346,
+              "indoH": -1.03,
+              "indoA": -1.07
+            },
+            {
+              "line": -0.5,
+              "h": 1.7246,
+              "a": 2.21,
+              "indoH": -1.38,
+              "indoA": 1.21
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 2.06,
+              "u": 1.8264,
+              "indoO": 1.06,
+              "indoU": -1.21
+            },
+            {
+              "line": 2.25,
+              "o": 1.7752,
+              "u": 2.12,
+              "indoO": -1.29,
+              "indoU": 1.12
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.29,
+            "X": 2.09,
+            "2": 4.8
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.885,
+              "a": 2.0,
+              "indoH": -1.13,
+              "indoA": -1.0
+            },
+            {
+              "line": -0.5,
+              "h": 2.29,
+              "a": 1.6536,
+              "indoH": 1.29,
+              "indoA": -1.53
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 0.75,
+              "o": 1.6329,
+              "u": 2.33,
+              "indoO": -1.58,
+              "indoU": 1.33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lec-bol",
+      "league": "seriea",
+      "kickoff": "10/11",
+      "home": "lecce",
+      "away": "bologna",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.41,
+            "X": 3.14,
+            "2": 2.04
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.8621,
+              "a": 2.04,
+              "indoH": -1.16,
+              "indoA": 1.04
+            },
+            {
+              "line": 0.25,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8264,
+              "u": 2.06,
+              "indoO": -1.21,
+              "indoU": 1.06
+            },
+            {
+              "line": 2.5,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.78,
+            "X": 2.1,
+            "2": 2.63
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7407,
+              "a": 2.16,
+              "indoH": -1.35,
+              "indoA": 1.16
+            },
+            {
+              "line": 0.0,
+              "h": 2.38,
+              "a": 1.6024,
+              "indoH": 1.38,
+              "indoA": -1.66
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            },
+            {
+              "line": 0.75,
+              "o": 1.6135,
+              "u": 2.36,
+              "indoO": -1.63,
+              "indoU": 1.36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sas-mil",
+      "league": "seriea",
+      "kickoff": "10/11",
+      "home": "sassuolo",
+      "away": "acmilan",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.71,
+            "X": 3.34,
+            "2": 1.88
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 2.02,
+              "a": 1.885,
+              "indoH": 1.02,
+              "indoA": -1.13
+            },
+            {
+              "line": 0.75,
+              "h": 1.7752,
+              "a": 2.14,
+              "indoH": -1.29,
+              "indoA": 1.14
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.8772,
+              "u": 2.01,
+              "indoO": -1.14,
+              "indoU": 1.01
+            },
+            {
+              "line": 2.75,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.86,
+            "X": 2.17,
+            "2": 2.49
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8403,
+              "a": 2.04,
+              "indoH": -1.19,
+              "indoA": 1.04
+            },
+            {
+              "line": 0.5,
+              "h": 1.5525,
+              "a": 2.49,
+              "indoH": -1.81,
+              "indoA": 1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.05,
+              "u": 1.8333,
+              "indoO": 1.05,
+              "indoU": -1.2
+            },
+            {
+              "line": 1.25,
+              "o": 2.29,
+              "u": 1.6536,
+              "indoO": 1.29,
+              "indoU": -1.53
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cag-juv",
+      "league": "seriea",
+      "kickoff": "10/12",
+      "home": "cagliari",
+      "away": "juventus",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 5.6,
+            "X": 3.71,
+            "2": 1.53
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": 1.0,
+              "h": 1.8772,
+              "a": 2.03,
+              "indoH": -1.14,
+              "indoA": 1.03
+            },
+            {
+              "line": 0.75,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8333,
+              "u": 2.05,
+              "indoO": -1.2,
+              "indoU": 1.05
+            },
+            {
+              "line": 2.5,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 5.3,
+            "X": 2.13,
+            "2": 2.16
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.7407,
+              "a": 2.16,
+              "indoH": -1.35,
+              "indoA": 1.16
+            },
+            {
+              "line": 0.25,
+              "h": 2.17,
+              "a": 1.7353,
+              "indoH": 1.17,
+              "indoA": -1.36
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            },
+            {
+              "line": 0.75,
+              "o": 1.6135,
+              "u": null,
+              "indoO": -1.63,
+              "indoU": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ata-ven",
+      "league": "seriea",
+      "kickoff": "10/13",
+      "home": "atalanta",
+      "away": "venezia",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.6,
+            "X": 3.89,
+            "2": 4.54
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.8403,
+              "a": 2.06,
+              "indoH": -1.19,
+              "indoA": 1.06
+            },
+            {
+              "line": -1.0,
+              "h": 2.12,
+              "a": 1.7937,
+              "indoH": 1.12,
+              "indoA": -1.26
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            },
+            {
+              "line": 2.75,
+              "o": 1.8264,
+              "u": 2.08,
+              "indoO": -1.21,
+              "indoU": 1.08
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.14,
+            "X": 2.32,
+            "2": 4.45
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 2.14,
+              "a": 1.7519,
+              "indoH": 1.14,
+              "indoA": -1.33
+            },
+            {
+              "line": -0.25,
+              "h": 1.7519,
+              "a": 2.14,
+              "indoH": -1.33,
+              "indoA": 1.14
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 1.0,
+              "o": 1.6329,
+              "u": 2.33,
+              "indoO": -1.58,
+              "indoU": 1.33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tor-udi",
+      "league": "seriea",
+      "kickoff": "10/13",
+      "home": "torino",
+      "away": "udinese",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.25,
+            "X": 3.14,
+            "2": 2.95
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9709,
+              "a": 1.8772,
+              "indoH": -1.03,
+              "indoA": -1.14
+            },
+            {
+              "line": 0.0,
+              "h": 1.6944,
+              "a": 2.26,
+              "indoH": -1.44,
+              "indoA": 1.26
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8621,
+              "u": 2.02,
+              "indoO": -1.16,
+              "indoU": 1.02
+            },
+            {
+              "line": 2.5,
+              "o": 2.11,
+              "u": 1.8,
+              "indoO": 1.11,
+              "indoU": -1.25
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.8,
+            "X": 2.07,
+            "2": 3.56
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7042,
+              "a": 2.21,
+              "indoH": -1.42,
+              "indoA": 1.21
+            },
+            {
+              "line": -0.25,
+              "h": 2.36,
+              "a": 1.6135,
+              "indoH": 1.36,
+              "indoA": -1.63
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.06,
+              "u": 1.8264,
+              "indoO": 1.06,
+              "indoU": -1.21
+            },
+            {
+              "line": 0.75,
+              "o": 1.6211,
+              "u": 2.35,
+              "indoO": -1.61,
+              "indoU": 1.35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bvb-wer",
+      "league": "bundesliga",
+      "kickoff": "10/10",
+      "home": "dortmund",
+      "away": "werder",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.35,
+            "X": 5.0,
+            "2": 6.0
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -1.5,
+              "h": 2.0,
+              "a": 1.9009,
+              "indoH": 1.0,
+              "indoA": -1.11
+            },
+            {
+              "line": -1.25,
+              "h": 1.7407,
+              "a": 2.19,
+              "indoH": -1.35,
+              "indoA": 1.19
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 2.02,
+              "u": 1.8621,
+              "indoO": 1.02,
+              "indoU": -1.16
+            },
+            {
+              "line": 3.25,
+              "o": 1.8,
+              "u": 2.11,
+              "indoO": -1.25,
+              "indoU": 1.11
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.81,
+            "X": 2.66,
+            "2": 5.1
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.813,
+              "a": 2.07,
+              "indoH": -1.23,
+              "indoA": 1.07
+            },
+            {
+              "line": -0.75,
+              "h": 2.12,
+              "a": 1.7752,
+              "indoH": 1.12,
+              "indoA": -1.29
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 1.25,
+              "o": 1.7246,
+              "u": 2.19,
+              "indoO": -1.38,
+              "indoU": 1.19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hof-ham",
+      "league": "bundesliga",
+      "kickoff": "10/10",
+      "home": "hoffenheim",
+      "away": "hamburg",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.36,
+            "X": 4.86,
+            "2": 6.1
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -1.5,
+              "h": 2.05,
+              "a": 1.8547,
+              "indoH": 1.05,
+              "indoA": -1.17
+            },
+            {
+              "line": -1.25,
+              "h": 1.7937,
+              "a": 2.12,
+              "indoH": -1.26,
+              "indoA": 1.12
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": -1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 3.25,
+              "o": 1.7407,
+              "u": 2.16,
+              "indoO": -1.35,
+              "indoU": 1.16
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.75,
+            "X": 2.77,
+            "2": 5.3
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.7519,
+              "a": 2.14,
+              "indoH": -1.33,
+              "indoA": 1.14
+            },
+            {
+              "line": -0.75,
+              "h": 2.19,
+              "a": 1.7246,
+              "indoH": 1.19,
+              "indoA": -1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.06,
+              "u": 1.8264,
+              "indoO": 1.06,
+              "indoU": -1.21
+            },
+            {
+              "line": 1.25,
+              "o": 1.7143,
+              "u": 2.2,
+              "indoO": -1.4,
+              "indoU": 1.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "aug-bay",
+      "league": "bundesliga",
+      "kickoff": "10/10",
+      "home": "augsburg",
+      "away": "bayern",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 7.7,
+            "X": 6.5,
+            "2": 1.22
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": 2.0,
+              "h": 2.12,
+              "a": 1.7937,
+              "indoH": 1.12,
+              "indoA": -1.26
+            },
+            {
+              "line": 2.25,
+              "h": 1.8264,
+              "a": 2.08,
+              "indoH": -1.21,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 4.5,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": -1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 4.25,
+              "o": 1.7143,
+              "u": 2.2,
+              "indoO": -1.4,
+              "indoU": 1.2
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 6.2,
+            "X": 3.4,
+            "2": 1.49
+          },
+          "ah": [
+            {
+              "line": 1.0,
+              "h": 1.8547,
+              "a": 2.03,
+              "indoH": -1.17,
+              "indoA": 1.03
+            },
+            {
+              "line": 0.75,
+              "h": 2.26,
+              "a": 1.6711,
+              "indoH": 1.26,
+              "indoA": -1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 2.07,
+              "u": 1.813,
+              "indoO": 1.07,
+              "indoU": -1.23
+            },
+            {
+              "line": 2.0,
+              "o": 2.12,
+              "u": 1.7752,
+              "indoO": 1.12,
+              "indoU": -1.29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mai-lev",
+      "league": "bundesliga",
+      "kickoff": "10/10",
+      "home": "mainz",
+      "away": "leverkusen",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.76,
+            "X": 3.61,
+            "2": 2.16
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8264,
+              "a": 2.08,
+              "indoH": -1.21,
+              "indoA": 1.08
+            },
+            {
+              "line": 0.0,
+              "h": 2.2,
+              "a": 1.7353,
+              "indoH": 1.2,
+              "indoA": -1.36
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": -1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 3.0,
+              "o": 1.7353,
+              "u": 2.17,
+              "indoO": -1.36,
+              "indoU": 1.17
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.06,
+            "X": 2.42,
+            "2": 2.62
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.11,
+              "a": 1.7812,
+              "indoH": 1.11,
+              "indoA": -1.28
+            },
+            {
+              "line": 0.25,
+              "h": 1.6623,
+              "a": 2.28,
+              "indoH": -1.51,
+              "indoA": 1.28
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.813,
+              "u": 2.07,
+              "indoO": -1.23,
+              "indoU": 1.07
+            },
+            {
+              "line": 1.5,
+              "o": 2.25,
+              "u": 1.6803,
+              "indoO": 1.25,
+              "indoU": -1.47
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "uni-elv",
+      "league": "bundesliga",
+      "kickoff": "10/10",
+      "home": "unionberlin",
+      "away": "elversberg",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.21,
+            "X": 3.46,
+            "2": 2.77
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9901,
+              "a": 1.8929,
+              "indoH": -1.01,
+              "indoA": -1.12
+            },
+            {
+              "line": 0.0,
+              "h": 1.7519,
+              "a": null,
+              "indoH": -1.33,
+              "indoA": null
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.04,
+              "u": 1.9009,
+              "indoO": 1.04,
+              "indoU": -1.11
+            },
+            {
+              "line": 2.75,
+              "o": 1.7634,
+              "u": null,
+              "indoO": -1.31,
+              "indoU": null
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.68,
+            "X": 2.31,
+            "2": 3.16
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7752,
+              "a": 2.12,
+              "indoH": -1.29,
+              "indoA": 1.12
+            },
+            {
+              "line": -0.25,
+              "h": 2.25,
+              "a": null,
+              "indoH": 1.25,
+              "indoA": null
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.04,
+              "u": 1.8403,
+              "indoO": 1.04,
+              "indoU": -1.19
+            },
+            {
+              "line": 1.0,
+              "o": 1.641,
+              "u": null,
+              "indoO": -1.56,
+              "indoU": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mal-esp",
+      "league": "laliga",
+      "kickoff": "10/10",
+      "home": "malaga",
+      "away": "espanyol",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.39,
+            "X": 3.11,
+            "2": 2.77
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.813,
+              "a": 2.09,
+              "indoH": -1.23,
+              "indoA": 1.09
+            },
+            {
+              "line": -0.25,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8547,
+              "u": 2.03,
+              "indoO": -1.17,
+              "indoU": 1.03
+            },
+            {
+              "line": 2.5,
+              "o": 2.14,
+              "u": 1.7519,
+              "indoO": 1.14,
+              "indoU": -1.33
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.01,
+            "X": 2.04,
+            "2": 3.33
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.8333,
+              "a": 2.05,
+              "indoH": -1.2,
+              "indoA": 1.05
+            },
+            {
+              "line": -0.25,
+              "h": 2.49,
+              "a": 1.5525,
+              "indoH": 1.49,
+              "indoA": -1.81
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.11,
+              "u": 1.7812,
+              "indoO": 1.11,
+              "indoU": -1.28
+            },
+            {
+              "line": 0.75,
+              "o": 1.6803,
+              "u": 2.25,
+              "indoO": -1.47,
+              "indoU": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ray-ath",
+      "league": "laliga",
+      "kickoff": "10/10",
+      "home": "rayo",
+      "away": "bilbao",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.91,
+            "X": 3.21,
+            "2": 2.24
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8547,
+              "a": 2.05,
+              "indoH": -1.17,
+              "indoA": 1.05
+            },
+            {
+              "line": 0.0,
+              "h": 2.21,
+              "a": 1.7246,
+              "indoH": 1.21,
+              "indoA": -1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.9434,
+              "u": 1.9434,
+              "indoO": -1.06,
+              "indoU": -1.06
+            },
+            {
+              "line": 2.75,
+              "o": 2.21,
+              "u": 1.7042,
+              "indoO": 1.21,
+              "indoU": -1.42
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.42,
+            "X": 2.13,
+            "2": 2.78
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.17,
+              "a": 1.7353,
+              "indoH": 1.17,
+              "indoA": -1.36
+            },
+            {
+              "line": 0.25,
+              "h": 1.641,
+              "a": 2.31,
+              "indoH": -1.56,
+              "indoA": 1.31
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.9524,
+              "u": 1.9346,
+              "indoO": -1.05,
+              "indoU": -1.07
+            },
+            {
+              "line": 0.75,
+              "o": 1.5618,
+              "u": 2.47,
+              "indoO": -1.78,
+              "indoU": 1.47
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ala-atm",
+      "league": "laliga",
+      "kickoff": "10/10",
+      "home": "alaves",
+      "away": "atletico",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.53,
+            "X": 3.31,
+            "2": 1.94
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.9615,
+              "a": 1.9434,
+              "indoH": -1.04,
+              "indoA": -1.06
+            },
+            {
+              "line": 0.25,
+              "h": 2.21,
+              "a": 1.7246,
+              "indoH": 1.21,
+              "indoA": -1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.9174,
+              "u": 1.9709,
+              "indoO": -1.09,
+              "indoU": -1.03
+            },
+            {
+              "line": 2.75,
+              "o": 2.16,
+              "u": 1.7407,
+              "indoO": 1.16,
+              "indoU": -1.35
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 4.02,
+            "X": 2.17,
+            "2": 2.42
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8264,
+              "a": 2.06,
+              "indoH": -1.21,
+              "indoA": 1.06
+            },
+            {
+              "line": 0.0,
+              "h": 2.61,
+              "a": 1.5,
+              "indoH": 1.61,
+              "indoA": -2.0
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.8929,
+              "u": 1.9901,
+              "indoO": -1.12,
+              "indoU": -1.01
+            },
+            {
+              "line": 1.25,
+              "o": 2.29,
+              "u": 1.6536,
+              "indoO": 1.29,
+              "indoU": -1.53
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bar-get",
+      "league": "laliga",
+      "kickoff": "10/11",
+      "home": "barcelona",
+      "away": "getafe",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.05,
+            "X": 9.6,
+            "2": 21.0
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -3.0,
+              "h": 1.8333,
+              "a": 2.07,
+              "indoH": -1.2,
+              "indoA": 1.07
+            },
+            {
+              "line": -3.25,
+              "h": 2.13,
+              "a": 1.7812,
+              "indoH": 1.13,
+              "indoA": -1.28
+            }
+          ],
+          "ou": [
+            {
+              "line": 4.0,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            },
+            {
+              "line": 4.25,
+              "o": 2.11,
+              "u": 1.7812,
+              "indoO": 1.11,
+              "indoU": -1.28
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.26,
+            "X": 4.04,
+            "2": 12.0
+          },
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 1.8333,
+              "a": 2.05,
+              "indoH": -1.2,
+              "indoA": 1.05
+            },
+            {
+              "line": -1.5,
+              "h": 2.21,
+              "a": 1.7042,
+              "indoH": 1.21,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 2.0,
+              "u": 1.885,
+              "indoO": -1.0,
+              "indoU": -1.13
+            },
+            {
+              "line": 1.5,
+              "o": 1.6803,
+              "u": 2.25,
+              "indoO": -1.47,
+              "indoU": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rma-vil",
+      "league": "laliga",
+      "kickoff": "10/11",
+      "home": "realmadrid",
+      "away": "villarreal",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.24,
+            "X": 5.9,
+            "2": 7.8
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          },
+          "ah": [
+            {
+              "line": -1.75,
+              "h": 1.7634,
+              "a": 2.16,
+              "indoH": -1.31,
+              "indoA": 1.16
+            },
+            {
+              "line": -2.0,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.75,
+              "o": 1.9524,
+              "u": 1.9346,
+              "indoO": -1.05,
+              "indoU": -1.07
+            },
+            {
+              "line": 3.5,
+              "o": 1.7353,
+              "u": 2.17,
+              "indoO": -1.36,
+              "indoU": 1.17
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.58,
+            "X": 3.08,
+            "2": 6.0
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.7937,
+              "a": 2.09,
+              "indoH": -1.26,
+              "indoA": 1.09
+            },
+            {
+              "line": -1.0,
+              "h": 2.28,
+              "a": 1.6623,
+              "indoH": 1.28,
+              "indoA": -1.51
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 2.08,
+              "u": 1.8,
+              "indoO": 1.08,
+              "indoU": -1.25
+            },
+            {
+              "line": 1.5,
+              "o": 1.7812,
+              "u": 2.11,
+              "indoO": -1.28,
+              "indoU": 1.11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "elc-cel",
+      "league": "laliga",
+      "kickoff": "10/11",
+      "home": "elche",
+      "away": "celta",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.77,
+            "X": 3.13,
+            "2": 2.37
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.11,
+              "a": 1.8,
+              "indoH": 1.11,
+              "indoA": -1.25
+            },
+            {
+              "line": 0.25,
+              "h": 1.7519,
+              "a": 2.17,
+              "indoH": -1.33,
+              "indoA": 1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8333,
+              "u": 2.05,
+              "indoO": -1.2,
+              "indoU": 1.05
+            },
+            {
+              "line": 2.5,
+              "o": 2.11,
+              "u": 1.7812,
+              "indoO": 1.11,
+              "indoU": -1.28
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.4,
+            "X": 2.03,
+            "2": 2.98
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.08,
+              "a": 1.8,
+              "indoH": 1.08,
+              "indoA": -1.25
+            },
+            {
+              "line": 0.25,
+              "h": 1.5814,
+              "a": 2.42,
+              "indoH": -1.72,
+              "indoA": 1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 2.12,
+              "u": 1.7752,
+              "indoO": 1.12,
+              "indoU": -1.29
+            },
+            {
+              "line": 0.75,
+              "o": 1.6803,
+              "u": 2.25,
+              "indoO": -1.47,
+              "indoU": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rso-dep",
+      "league": "laliga",
+      "kickoff": "10/11",
+      "home": "realsociedad",
+      "away": "deportivo",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.92,
+            "X": 3.27,
+            "2": 3.64
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.9259,
+              "a": 1.9804,
+              "indoH": -1.08,
+              "indoA": -1.02
+            },
+            {
+              "line": -0.75,
+              "h": 2.17,
+              "a": 1.7519,
+              "indoH": 1.17,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.9346,
+              "u": 1.9524,
+              "indoO": -1.07,
+              "indoU": -1.05
+            },
+            {
+              "line": 2.75,
+              "o": 2.19,
+              "u": 1.7246,
+              "indoO": 1.19,
+              "indoU": -1.38
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.4,
+            "X": 2.16,
+            "2": 4.11
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.04,
+              "a": 1.8403,
+              "indoH": 1.04,
+              "indoA": -1.19
+            },
+            {
+              "line": 0.0,
+              "h": 1.4808,
+              "a": 2.66,
+              "indoH": -2.08,
+              "indoA": 1.66
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.9174,
+              "u": 1.9709,
+              "indoO": -1.09,
+              "indoU": -1.03
+            },
+            {
+              "line": 1.25,
+              "o": 2.38,
+              "u": 1.6024,
+              "indoO": 1.38,
+              "indoU": -1.66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bet-osa",
+      "league": "laliga",
+      "kickoff": "10/12",
+      "home": "betis",
+      "away": "osasuna",
+      "slate": 3,
+      "oddsFormatSource": "indo",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.53,
+            "X": 3.91,
+            "2": 5.2
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          },
+          "ah": [
+            {
+              "line": -1.0,
+              "h": 2.0,
+              "a": 1.9009,
+              "indoH": 1.0,
+              "indoA": -1.11
+            },
+            {
+              "line": -0.75,
+              "h": 1.7519,
+              "a": null,
+              "indoH": -1.33,
+              "indoA": null
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9709,
+              "u": 1.9174,
+              "indoO": -1.03,
+              "indoU": -1.09
+            },
+            {
+              "line": 2.5,
+              "o": 1.7246,
+              "u": null,
+              "indoO": -1.38,
+              "indoU": null
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.11,
+            "X": 2.28,
+            "2": 4.78
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 2.11,
+              "a": 1.7812,
+              "indoH": 1.11,
+              "indoA": -1.28
+            },
+            {
+              "line": -0.25,
+              "h": 1.7353,
+              "a": 2.19,
+              "indoH": -1.36,
+              "indoA": 1.19
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7353,
+              "u": 2.17,
+              "indoO": -1.36,
+              "indoU": 1.17
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ned-ger",
+      "league": "unl-a",
+      "kickoff": "09/25",
+      "home": "netherlands",
+      "away": "germany",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.26,
+            "X": 3.42,
+            "2": 2.59
+          },
+          "oe": {
+            "odd": 1.8929,
+            "even": 1.8547
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7143,
+              "a": 1.9709,
+              "indoH": -1.4,
+              "indoA": -1.03
+            },
+            {
+              "line": -0.25,
+              "h": 1.9804,
+              "a": 1.7042,
+              "indoH": -1.02,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.7634,
+              "u": 1.9009,
+              "indoO": -1.31,
+              "indoU": -1.11
+            },
+            {
+              "line": 3.25,
+              "o": 2.02,
+              "u": 1.641,
+              "indoO": 1.02,
+              "indoU": -1.56
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.67,
+            "X": 2.4,
+            "2": 3.03
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7143,
+              "a": 1.9709,
+              "indoH": -1.4,
+              "indoA": -1.03
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.8,
+              "u": 1.8621,
+              "indoO": -1.25,
+              "indoU": -1.16
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nor-den",
+      "league": "unl-a",
+      "kickoff": "09/25",
+      "home": "norway",
+      "away": "denmark",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.71,
+            "X": 3.47,
+            "2": 3.98
+          },
+          "oe": {
+            "odd": 1.885,
+            "even": 1.8621
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.9615,
+              "a": 1.7246,
+              "indoH": -1.04,
+              "indoA": -1.38
+            },
+            {
+              "line": -0.5,
+              "h": 1.6536,
+              "a": 2.03,
+              "indoH": -1.53,
+              "indoA": 1.03
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9009,
+              "u": 1.7634,
+              "indoO": -1.11,
+              "indoU": -1.31
+            },
+            {
+              "line": 2.5,
+              "o": 1.6024,
+              "u": 2.06,
+              "indoO": -1.66,
+              "indoU": 1.06
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.28,
+            "X": 2.29,
+            "2": 4.03
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.8621,
+              "a": 1.8264,
+              "indoH": -1.16,
+              "indoA": -1.21
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.5814,
+              "u": 2.08,
+              "indoO": -1.72,
+              "indoU": 1.08
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "por-wal",
+      "league": "unl-a",
+      "kickoff": "09/25",
+      "home": "portugal",
+      "away": "wales",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.2,
+            "X": 5.5,
+            "2": 9.0
+          },
+          "oe": {
+            "odd": 1.8772,
+            "even": 1.8772
+          },
+          "ah": [
+            {
+              "line": -1.75,
+              "h": 1.7812,
+              "a": 1.9009,
+              "indoH": -1.28,
+              "indoA": -1.11
+            },
+            {
+              "line": -1.5,
+              "h": 1.6024,
+              "a": 2.08,
+              "indoH": -1.66,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.8403,
+              "u": 1.8264,
+              "indoO": -1.19,
+              "indoU": -1.21
+            },
+            {
+              "line": 2.75,
+              "o": 1.641,
+              "u": 2.02,
+              "indoO": -1.56,
+              "indoU": 1.02
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.59,
+            "X": 2.7,
+            "2": 7.9
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.8264,
+              "a": 1.8621,
+              "indoH": -1.21,
+              "indoA": -1.16
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.885,
+              "u": 1.7812,
+              "indoO": -1.13,
+              "indoU": -1.28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "srb-gre",
+      "league": "unl-a",
+      "kickoff": "09/25",
+      "home": "serbia",
+      "away": "greece",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.55,
+            "X": 3.02,
+            "2": 2.51
+          },
+          "oe": {
+            "odd": 1.9009,
+            "even": 1.8403
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.8547,
+              "a": 1.8333,
+              "indoH": -1.17,
+              "indoA": -1.2
+            },
+            {
+              "line": 0.25,
+              "h": 1.5714,
+              "a": 2.12,
+              "indoH": -1.75,
+              "indoA": 1.12
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.8,
+              "u": 1.8621,
+              "indoO": -1.25,
+              "indoU": -1.16
+            },
+            {
+              "line": 2.5,
+              "o": 2.03,
+              "u": 1.6329,
+              "indoO": 1.03,
+              "indoU": -1.58
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.19,
+            "X": 2.0,
+            "2": 3.24
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.8333,
+              "a": 1.8547,
+              "indoH": -1.2,
+              "indoA": -1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 0.75,
+              "o": 1.6024,
+              "u": 2.06,
+              "indoO": -1.66,
+              "indoU": 1.06
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ita-bel",
+      "league": "unl-a",
+      "kickoff": "09/26",
+      "home": "italy",
+      "away": "belgium",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.13,
+            "X": 3.15,
+            "2": 2.98
+          },
+          "oe": {
+            "odd": 1.8929,
+            "even": 1.8547
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.7937,
+              "a": 1.8929,
+              "indoH": -1.26,
+              "indoA": -1.12
+            },
+            {
+              "line": -0.5,
+              "h": 2.04,
+              "a": 1.641,
+              "indoH": 1.04,
+              "indoA": -1.56
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.7407,
+              "u": 1.9259,
+              "indoO": -1.35,
+              "indoU": -1.08
+            },
+            {
+              "line": 2.75,
+              "o": 1.9615,
+              "u": 1.7042,
+              "indoO": -1.04,
+              "indoU": -1.42
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.7,
+            "X": 2.2,
+            "2": 3.36
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.6211,
+              "a": 2.06,
+              "indoH": -1.61,
+              "indoA": 1.06
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.6711,
+              "u": 1.9901,
+              "indoO": -1.49,
+              "indoU": -1.01
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tur-fra",
+      "league": "unl-a",
+      "kickoff": "09/26",
+      "home": "turkey",
+      "away": "france",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 5.6,
+            "X": 4.35,
+            "2": 1.4
+          },
+          "oe": {
+            "odd": 1.8772,
+            "even": 1.8772
+          },
+          "ah": [
+            {
+              "line": 1.25,
+              "h": 1.7519,
+              "a": 1.9346,
+              "indoH": -1.33,
+              "indoA": -1.07
+            },
+            {
+              "line": 1.0,
+              "h": 2.06,
+              "a": 1.6211,
+              "indoH": 1.06,
+              "indoA": -1.61
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.9434,
+              "u": 1.7246,
+              "indoO": -1.06,
+              "indoU": -1.38
+            },
+            {
+              "line": 3.0,
+              "o": 1.6803,
+              "u": 1.9804,
+              "indoO": -1.47,
+              "indoU": -1.02
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 4.46,
+            "X": 2.52,
+            "2": 2.0
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.7519,
+              "a": 1.9346,
+              "indoH": -1.33,
+              "indoA": -1.07
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.7143,
+              "u": 1.9524,
+              "indoO": -1.4,
+              "indoU": -1.05
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cze-cro",
+      "league": "unl-a",
+      "kickoff": "09/27",
+      "home": "czechia",
+      "away": "croatia",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.92,
+            "X": 3.16,
+            "2": 2.16
+          },
+          "oe": {
+            "odd": 1.8929,
+            "even": 1.8547
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8547,
+              "a": 1.8333,
+              "indoH": -1.17,
+              "indoA": -1.2
+            },
+            {
+              "line": 0.5,
+              "h": 1.6211,
+              "a": 2.06,
+              "indoH": -1.61,
+              "indoA": 1.06
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.7407,
+              "u": 1.9259,
+              "indoO": -1.35,
+              "indoU": -1.08
+            },
+            {
+              "line": 2.75,
+              "o": 1.9524,
+              "u": 1.7143,
+              "indoO": -1.05,
+              "indoU": -1.4
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.4,
+            "X": 2.21,
+            "2": 2.66
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.5714,
+              "a": 2.12,
+              "indoH": -1.75,
+              "indoA": 1.12
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.6623,
+              "u": 2.0,
+              "indoO": -1.51,
+              "indoU": 1.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eng-esp",
+      "league": "unl-a",
+      "kickoff": "09/27",
+      "home": "england",
+      "away": "spain",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.67,
+            "X": 3.14,
+            "2": 2.33
+          },
+          "oe": {
+            "odd": 1.9009,
+            "even": 1.8403
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9709,
+              "a": 1.7143,
+              "indoH": -1.03,
+              "indoA": -1.4
+            },
+            {
+              "line": 0.25,
+              "h": 1.641,
+              "a": 2.04,
+              "indoH": -1.56,
+              "indoA": 1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.8264,
+              "u": 1.8403,
+              "indoO": -1.21,
+              "indoU": -1.19
+            },
+            {
+              "line": 2.25,
+              "o": 1.5618,
+              "u": 2.11,
+              "indoO": -1.78,
+              "indoU": 1.11
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.19,
+            "X": 2.18,
+            "2": 2.85
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9615,
+              "a": 1.7246,
+              "indoH": -1.04,
+              "indoA": -1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7042,
+              "u": 1.9615,
+              "indoO": -1.42,
+              "indoU": -1.04
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "geo-nir",
+      "league": "unl-b",
+      "kickoff": "09/25",
+      "home": "georgia",
+      "away": "nireland",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.83,
+            "X": 3.24,
+            "2": 3.74
+          },
+          "oe": {
+            "odd": 1.8929,
+            "even": 1.8547
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.7752,
+              "a": 1.9174,
+              "indoH": -1.29,
+              "indoA": -1.09
+            },
+            {
+              "line": -0.75,
+              "h": 2.06,
+              "a": 1.6211,
+              "indoH": 1.06,
+              "indoA": -1.61
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.6944,
+              "u": 1.9709,
+              "indoO": -1.44,
+              "indoU": -1.03
+            },
+            {
+              "line": 2.5,
+              "o": 1.9901,
+              "u": 1.6711,
+              "indoO": -1.01,
+              "indoU": -1.49
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.41,
+            "X": 2.09,
+            "2": 4.36
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9259,
+              "a": 1.7634,
+              "indoH": -1.08,
+              "indoA": -1.31
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.9524,
+              "u": 1.7143,
+              "indoO": -1.05,
+              "indoU": -1.4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hun-ukr",
+      "league": "unl-b",
+      "kickoff": "09/26",
+      "home": "hungary",
+      "away": "ukraine",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.19,
+            "X": 3.04,
+            "2": 2.98
+          },
+          "oe": {
+            "odd": 1.9009,
+            "even": 1.8403
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.8403,
+              "a": 1.8403,
+              "indoH": -1.19,
+              "indoA": -1.19
+            },
+            {
+              "line": -0.5,
+              "h": 2.08,
+              "a": 1.6024,
+              "indoH": 1.08,
+              "indoA": -1.66
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.7407,
+              "u": 1.9259,
+              "indoO": -1.35,
+              "indoU": -1.08
+            },
+            {
+              "line": 2.5,
+              "o": 1.9901,
+              "u": 1.6711,
+              "indoO": -1.01,
+              "indoU": -1.49
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.74,
+            "X": 2.07,
+            "2": 3.65
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.5618,
+              "a": 2.13,
+              "indoH": -1.78,
+              "indoA": 1.13
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.9434,
+              "u": 1.7246,
+              "indoO": -1.06,
+              "indoU": -1.38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pol-bih",
+      "league": "unl-b",
+      "kickoff": "09/26",
+      "home": "poland",
+      "away": "bosnia",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.58,
+            "X": 3.56,
+            "2": 4.76
+          },
+          "oe": {
+            "odd": 1.885,
+            "even": 1.8621
+          },
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.7519,
+              "a": 1.9346,
+              "indoH": -1.33,
+              "indoA": -1.07
+            },
+            {
+              "line": -1.0,
+              "h": 2.04,
+              "a": 1.641,
+              "indoH": 1.04,
+              "indoA": -1.56
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.8547,
+              "u": 1.813,
+              "indoO": -1.17,
+              "indoU": -1.23
+            },
+            {
+              "line": 2.25,
+              "o": 1.5917,
+              "u": 2.07,
+              "indoO": -1.69,
+              "indoU": 1.07
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.15,
+            "X": 2.21,
+            "2": 4.89
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.7143,
+              "a": 1.9709,
+              "indoH": -1.4,
+              "indoA": -1.03
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7812,
+              "u": 1.885,
+              "indoO": -1.28,
+              "indoU": -1.13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "swe-rou",
+      "league": "unl-b",
+      "kickoff": "09/26",
+      "home": "sweden",
+      "away": "romania",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.44,
+            "X": 4.07,
+            "2": 5.4
+          },
+          "oe": {
+            "odd": 1.8772,
+            "even": 1.8772
+          },
+          "ah": [
+            {
+              "line": -1.0,
+              "h": 1.7246,
+              "a": 1.9615,
+              "indoH": -1.38,
+              "indoA": -1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.9434,
+              "u": 1.7246,
+              "indoO": -1.06,
+              "indoU": -1.38
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.04,
+            "X": 2.38,
+            "2": 4.73
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.9615,
+              "a": 1.7246,
+              "indoH": -1.04,
+              "indoA": -1.38
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.9259,
+              "u": 1.7407,
+              "indoO": -1.08,
+              "indoU": -1.35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "aut-isr",
+      "league": "unl-b",
+      "kickoff": "09/25",
+      "home": "austria",
+      "away": "israel",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 1.36,
+            "X": 4.43,
+            "2": 6.1
+          },
+          "oe": {
+            "odd": 1.8772,
+            "even": 1.8772
+          },
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 1.8,
+              "a": 1.885,
+              "indoH": -1.25,
+              "indoA": -1.13
+            },
+            {
+              "line": -1.5,
+              "h": 2.02,
+              "a": 1.6623,
+              "indoH": 1.02,
+              "indoA": -1.51
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.7634,
+              "u": 1.9009,
+              "indoO": -1.31,
+              "indoU": -1.11
+            },
+            {
+              "line": 3.25,
+              "o": 2.01,
+              "u": 1.6536,
+              "indoO": 1.01,
+              "indoU": -1.53
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 1.86,
+            "X": 2.53,
+            "2": 5.3
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.7812,
+              "a": 1.9009,
+              "indoH": -1.28,
+              "indoA": -1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.7937,
+              "u": 1.8772,
+              "indoO": -1.26,
+              "indoU": -1.14
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kos-irl",
+      "league": "unl-b",
+      "kickoff": "09/25",
+      "home": "kosovo",
+      "away": "ireland",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.34,
+            "X": 2.94,
+            "2": 2.82
+          },
+          "oe": {
+            "odd": 1.9174,
+            "even": 1.8333
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.6623,
+              "a": 2.02,
+              "indoH": -1.51,
+              "indoA": 1.02
+            },
+            {
+              "line": -0.25,
+              "h": 2.03,
+              "a": 1.6536,
+              "indoH": 1.03,
+              "indoA": -1.53
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 2.0,
+              "u": 1.6623,
+              "indoO": 1.0,
+              "indoU": -1.51
+            },
+            {
+              "line": 2.0,
+              "o": 1.7143,
+              "u": 1.9524,
+              "indoO": -1.4,
+              "indoU": -1.05
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.05,
+            "X": 1.98,
+            "2": 3.45
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7143,
+              "a": 1.9709,
+              "indoH": -1.4,
+              "indoA": -1.03
+            }
+          ],
+          "ou": [
+            {
+              "line": 0.75,
+              "o": 1.641,
+              "u": 2.02,
+              "indoO": -1.56,
+              "indoU": 1.02
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "svn-sco",
+      "league": "unl-b",
+      "kickoff": "09/26",
+      "home": "slovenia",
+      "away": "scotland",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.43,
+            "X": 2.98,
+            "2": 2.66
+          },
+          "oe": {
+            "odd": 1.9009,
+            "even": 1.8403
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7519,
+              "a": 1.9346,
+              "indoH": -1.33,
+              "indoA": -1.07
+            },
+            {
+              "line": -0.25,
+              "h": 2.09,
+              "a": 1.5917,
+              "indoH": 1.09,
+              "indoA": -1.69
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.9259,
+              "u": 1.7407,
+              "indoO": -1.08,
+              "indoU": -1.35
+            },
+            {
+              "line": 2.0,
+              "o": 1.5814,
+              "u": 2.08,
+              "indoO": -1.72,
+              "indoU": 1.08
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 3.23,
+            "X": 1.97,
+            "2": 3.28
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.8333,
+              "a": 1.8547,
+              "indoH": -1.2,
+              "indoA": -1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 0.75,
+              "o": 1.641,
+              "u": 2.02,
+              "indoO": -1.56,
+              "indoU": 1.02
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mkd-sui",
+      "league": "unl-b",
+      "kickoff": "09/27",
+      "home": "nmacedonia",
+      "away": "switzerland",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 6.7,
+            "X": 4.31,
+            "2": 1.34
+          },
+          "oe": {
+            "odd": 1.885,
+            "even": 1.8621
+          },
+          "ah": [
+            {
+              "line": 1.25,
+              "h": 1.8772,
+              "a": 1.813,
+              "indoH": -1.14,
+              "indoA": -1.23
+            },
+            {
+              "line": 1.5,
+              "h": 1.6623,
+              "a": 2.02,
+              "indoH": -1.51,
+              "indoA": 1.02
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.8621,
+              "u": 1.8,
+              "indoO": -1.16,
+              "indoU": -1.25
+            },
+            {
+              "line": 2.5,
+              "o": 1.6211,
+              "u": 2.04,
+              "indoO": -1.61,
+              "indoU": 1.04
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 5.4,
+            "X": 2.34,
+            "2": 1.96
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.8,
+              "a": 1.885,
+              "indoH": -1.25,
+              "indoA": -1.13
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.6623,
+              "u": 2.0,
+              "indoO": -1.51,
+              "indoU": 1.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smr-fin",
+      "league": "unl-c",
+      "kickoff": "09/26",
+      "home": "sanmarino",
+      "away": "finland",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 17.0,
+            "X": 6.7,
+            "2": 1.07
+          },
+          "oe": {
+            "odd": 1.8772,
+            "even": 1.8772
+          },
+          "ah": [
+            {
+              "line": 2.5,
+              "h": 1.7246,
+              "a": 1.9434,
+              "indoH": -1.38,
+              "indoA": -1.06
+            },
+            {
+              "line": 2.25,
+              "h": 1.9615,
+              "a": 1.7042,
+              "indoH": -1.04,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.7634,
+              "u": 1.885,
+              "indoO": -1.31,
+              "indoU": -1.13
+            },
+            {
+              "line": 3.25,
+              "o": 2.02,
+              "u": 1.6211,
+              "indoO": 1.02,
+              "indoU": -1.61
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 11.5,
+            "X": 3.02,
+            "2": 1.38
+          },
+          "ah": [
+            {
+              "line": 1.0,
+              "h": 1.8772,
+              "a": 1.7937,
+              "indoH": -1.14,
+              "indoA": -1.26
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.8,
+              "u": 1.8403,
+              "indoO": -1.25,
+              "indoU": -1.19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bul-lux",
+      "league": "unl-c",
+      "kickoff": "09/26",
+      "home": "bulgaria",
+      "away": "luxembourg",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 2.23,
+            "X": 2.85,
+            "2": 2.91
+          },
+          "oe": {
+            "odd": 1.9009,
+            "even": 1.8403
+          },
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 2.12,
+              "a": 1.5525,
+              "indoH": 1.12,
+              "indoA": -1.81
+            },
+            {
+              "line": -0.25,
+              "h": 1.885,
+              "a": null,
+              "indoH": -1.13,
+              "indoA": null
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.0,
+              "o": 1.6944,
+              "u": 1.9524,
+              "indoO": -1.44,
+              "indoU": -1.05
+            },
+            {
+              "line": 2.25,
+              "o": 1.9804,
+              "u": null,
+              "indoO": -1.02,
+              "indoU": null
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 2.59,
+            "X": 1.96,
+            "2": 4.04
+          },
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.09,
+              "a": 1.5714,
+              "indoH": 1.09,
+              "indoA": -1.75
+            }
+          ],
+          "ou": [
+            {
+              "line": 0.75,
+              "o": 1.641,
+              "u": 2.0,
+              "indoO": -1.56,
+              "indoU": 1.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "and-mlt",
+      "league": "unl-d",
+      "kickoff": "09/24",
+      "home": "andorra",
+      "away": "malta",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 3.11,
+            "X": 2.72,
+            "2": 2.21
+          },
+          "oe": {
+            "odd": 1.9259,
+            "even": 1.8264
+          },
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7519,
+              "a": 1.9174,
+              "indoH": -1.33,
+              "indoA": -1.09
+            },
+            {
+              "line": 0.0,
+              "h": 2.16,
+              "a": 1.5208,
+              "indoH": 1.16,
+              "indoA": -1.92
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 1.7752,
+              "u": 1.8772,
+              "indoO": -1.29,
+              "indoU": -1.14
+            },
+            {
+              "line": 2.0,
+              "o": 2.07,
+              "u": 1.5714,
+              "indoO": 1.07,
+              "indoU": -1.75
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 4.08,
+            "X": 1.78,
+            "2": 2.99
+          },
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.16,
+              "a": 1.5208,
+              "indoH": 1.16,
+              "indoA": -1.92
+            }
+          ],
+          "ou": [
+            {
+              "line": 0.75,
+              "o": 1.9524,
+              "u": 1.6944,
+              "indoO": -1.05,
+              "indoU": -1.44
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lie-ltu",
+      "league": "unl-d",
+      "kickoff": "09/25",
+      "home": "liechtenstein",
+      "away": "lithuania",
+      "slate": 4,
+      "oddsFormatSource": "indo",
+      "competition": "UEFA Nations League",
+      "markets": {
+        "ft": {
+          "x12": {
+            "1": 7.9,
+            "X": 4.35,
+            "2": 1.27
+          },
+          "oe": {
+            "odd": 1.885,
+            "even": 1.8621
+          },
+          "ah": [
+            {
+              "line": 1.5,
+              "h": 1.7519,
+              "a": 1.9174,
+              "indoH": -1.33,
+              "indoA": -1.09
+            },
+            {
+              "line": 1.25,
+              "h": 1.9901,
+              "a": 1.6711,
+              "indoH": -1.01,
+              "indoA": -1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.25,
+              "o": 1.7042,
+              "u": 1.9434,
+              "indoO": -1.42,
+              "indoU": -1.06
+            },
+            {
+              "line": 2.5,
+              "o": 1.9804,
+              "u": 1.6623,
+              "indoO": -1.02,
+              "indoU": -1.51
+            }
+          ]
+        },
+        "1h": {
+          "x12": {
+            "1": 8.0,
+            "X": 2.24,
+            "2": 1.75
+          },
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.9901,
+              "a": 1.6711,
+              "indoH": -1.01,
+              "indoA": -1.49
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.9259,
+              "u": 1.7246,
+              "indoO": -1.08,
+              "indoU": -1.38
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "verifiedSlip": {
+    "note": "Parlay 9 leg yang sudah settle (ID 526461885). Bukti nyata drag garis kuartal: odds tercetak 73.149, cair 506.96 dari stake 100 = efektif 5.07x.",
+    "ticketOdds": 73.149,
+    "stake": 100,
+    "payout": 506.96,
+    "legs": [
+      {
+        "match": "Manchester City vs Sunderland",
+        "pick": "Over 2.50",
+        "odds": 1.53,
+        "result": "Won",
+        "score": "5:3"
+      },
+      {
+        "match": "Marseille vs Paris Saint Germain",
+        "pick": "Marseille +1.75",
+        "odds": 1.66,
+        "result": "Won",
+        "score": "1:2"
+      },
+      {
+        "match": "Bournemouth vs Liverpool",
+        "pick": "Bournemouth +0.75",
+        "odds": 1.53,
+        "result": "Half Lose",
+        "score": "0:1"
+      },
+      {
+        "match": "Villarreal vs Levante",
+        "pick": "Villarreal -0.75",
+        "odds": 1.62,
+        "result": "Won",
+        "score": "3:1"
+      },
+      {
+        "match": "Leeds United vs Crystal Palace",
+        "pick": "Under 3.00",
+        "odds": 1.68,
+        "result": "Won",
+        "score": "0:0"
+      },
+      {
+        "match": "Fulham vs Manchester United",
+        "pick": "1H Under 1.50",
+        "odds": 1.58,
+        "result": "Won",
+        "score": "1H 0:0"
+      },
+      {
+        "match": "Fiorentina vs Napoli",
+        "pick": "1H Under 1.25",
+        "odds": 1.6,
+        "result": "Half Won",
+        "score": "1H 0:1"
+      },
+      {
+        "match": "Juventus vs Atalanta",
+        "pick": "Over 2.25",
+        "odds": 1.6,
+        "result": "Half Lose",
+        "score": "2:0"
+      },
+      {
+        "match": "Atletico Madrid vs Real Madrid",
+        "pick": "1H Under 1.50",
+        "odds": 1.71,
+        "result": "Won",
+        "score": "1H 0:0"
+      }
+    ]
+  },
+  "couponReview": {
+    "note": "Kupon 19-20 Sept yang Anda kirim. Engine menilai ulang tiap pilihan. Skor akhir belum saya masukkan - isi sendiri di form kalau mau auto-grading.",
+    "picks": [
+      {
+        "fixtureId": "tot-avl",
+        "half": "1h",
+        "kind": "ou",
+        "line": 1.25,
+        "side": "under",
+        "odds": 1.67,
+        "label": "HT Under 1.25"
+      },
+      {
+        "fixtureId": "bha-ars",
+        "half": "1h",
+        "kind": "ou",
+        "line": 1.25,
+        "side": "under",
+        "odds": 1.64,
+        "label": "HT Under 1.25",
+        "userFlag": "regret"
+      },
+      {
+        "fixtureId": "new-hul",
+        "half": "ft",
+        "kind": "x12",
+        "line": null,
+        "side": "1",
+        "odds": 1.53,
+        "label": "Newcastle Menang"
+      },
+      {
+        "fixtureId": "nfo-cov",
+        "half": "ft",
+        "kind": "x12",
+        "line": null,
+        "side": "1",
+        "odds": 1.58,
+        "label": "Nottingham Forest Menang",
+        "userFlag": "regret"
+      },
+      {
+        "fixtureId": "eve-ips",
+        "half": "ft",
+        "kind": "ah",
+        "line": -1.0,
+        "side": "away",
+        "odds": 1.58,
+        "label": "Ipswich +1.00"
+      },
+      {
+        "fixtureId": "rom-int",
+        "half": "ft",
+        "kind": "ou",
+        "line": 2.5,
+        "side": "over",
+        "odds": 1.63,
+        "label": "Over 2.50"
+      },
+      {
+        "fixtureId": "sge-scf",
+        "half": "ft",
+        "kind": "ah",
+        "line": -0.5,
+        "side": "away",
+        "odds": 1.59,
+        "label": "Freiburg +0.50"
+      },
+      {
+        "fixtureId": "osa-ray",
+        "half": "1h",
+        "kind": "ou",
+        "line": 1.0,
+        "side": "under",
+        "odds": 1.84,
+        "label": "HT Under 1.00"
+      },
+      {
+        "fixtureId": "ath-ala",
+        "half": "ft",
+        "kind": "ah",
+        "line": -1.0,
+        "side": "away",
+        "odds": 1.72,
+        "label": "Alaves +1.00"
+      }
+    ],
+    "alternatives": [
+      {
+        "fixtureId": "nfo-cov",
+        "half": "ft",
+        "kind": "ou",
+        "line": 2.5,
+        "side": "under",
+        "label": "Under 2.50 (alternatif yang Anda sebut)"
+      },
+      {
+        "fixtureId": "bha-ars",
+        "half": "ft",
+        "kind": "ou",
+        "line": 2.5,
+        "side": "over",
+        "label": "Over 2.50 (alternatif yang Anda sebut)"
+      },
+      {
+        "fixtureId": "bha-ars",
+        "half": "ft",
+        "kind": "ah",
+        "line": 0.5,
+        "side": "home",
+        "label": "Brighton +0.50 (alternatif yang Anda sebut)"
+      }
+    ]
+  }
+}
