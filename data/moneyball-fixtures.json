@@ -10025,6 +10025,320 @@
         "side": "home",
         "label": "Brighton +0.50 (alternatif yang Anda sebut)"
       }
+    ],
+    "gradedAlternatives": [
+      {
+        "fixtureId": "bha-ars",
+        "label": "Brighton +0.50",
+        "kind": "ah",
+        "line": 0.5,
+        "side": "home",
+        "half": "ft",
+        "score": "3:0",
+        "verdict": "win",
+        "note": "Brighton menang 3-0, jadi +0.50 menang penuh."
+      },
+      {
+        "fixtureId": "bha-ars",
+        "label": "Over 2.50",
+        "kind": "ou",
+        "line": 2.5,
+        "side": "over",
+        "half": "ft",
+        "score": "3:0",
+        "verdict": "win",
+        "note": "Total 3 gol > 2.50, menang penuh."
+      },
+      {
+        "fixtureId": "bha-ars",
+        "label": "Brighton +0.75 (odds tidak diketahui)",
+        "kind": "ah",
+        "line": 0.75,
+        "side": "home",
+        "half": "ft",
+        "score": "3:0",
+        "verdict": "win",
+        "note": "Menang penuh. Harga yang ditawarkan tidak bisa dipulihkan."
+      },
+      {
+        "fixtureId": "nfo-cov",
+        "label": "Under 2.50",
+        "kind": "ou",
+        "line": 2.5,
+        "side": "under",
+        "half": "ft",
+        "score": "0:1",
+        "verdict": "win",
+        "note": "Total 1 gol < 2.50, menang penuh."
+      },
+      {
+        "fixtureId": "nfo-cov",
+        "label": "Coventry Menang (odds tidak diketahui)",
+        "kind": "x12",
+        "line": null,
+        "side": "2",
+        "half": "ft",
+        "score": "0:1",
+        "verdict": "win",
+        "note": "Coventry menang 1-0 tandang. Harga yang ditawarkan tidak bisa dipulihkan."
+      }
     ]
-  }
+  },
+  "coupons": [
+    {
+      "id": "526461885",
+      "label": "Kupon 1 - MENANG (19/09, 9 leg)",
+      "stake": 100,
+      "ticketOdds": 73.149,
+      "netProfit": 506.96,
+      "grossReturn": 606.96,
+      "legs": [
+        {
+          "match": "Manchester City vs Sunderland",
+          "fixtureId": null,
+          "pick": "Over 2.50",
+          "kind": "ou",
+          "line": 2.5,
+          "side": "over",
+          "half": "ft",
+          "odds": 1.53,
+          "score": "5:3",
+          "score1h": "3:2",
+          "outcome": "win"
+        },
+        {
+          "match": "Marseille vs Paris Saint Germain",
+          "fixtureId": "mar-psg",
+          "pick": "Marseille +1.75",
+          "kind": "ah",
+          "line": 1.75,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.66,
+          "score": "1:2",
+          "score1h": "0:0",
+          "outcome": "win"
+        },
+        {
+          "match": "Bournemouth vs Liverpool",
+          "fixtureId": null,
+          "pick": "Bournemouth +0.75",
+          "kind": "ah",
+          "line": 0.75,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.53,
+          "score": "0:1",
+          "score1h": "0:0",
+          "outcome": "halfLose"
+        },
+        {
+          "match": "Villarreal vs Levante",
+          "fixtureId": "vil-lvt",
+          "pick": "Villarreal -0.75",
+          "kind": "ah",
+          "line": -0.75,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.62,
+          "score": "3:1",
+          "score1h": "1:1",
+          "outcome": "win"
+        },
+        {
+          "match": "Leeds United vs Crystal Palace",
+          "fixtureId": null,
+          "pick": "Under 3.00",
+          "kind": "ou",
+          "line": 3.0,
+          "side": "under",
+          "half": "ft",
+          "odds": 1.68,
+          "score": "0:0",
+          "score1h": "0:0",
+          "outcome": "win"
+        },
+        {
+          "match": "Fulham vs Manchester United",
+          "fixtureId": null,
+          "pick": "HT Under 1.50",
+          "kind": "ou",
+          "line": 1.5,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.58,
+          "score": "1:1",
+          "score1h": "0:0",
+          "outcome": "win"
+        },
+        {
+          "match": "Fiorentina vs Napoli",
+          "fixtureId": null,
+          "pick": "HT Under 1.25",
+          "kind": "ou",
+          "line": 1.25,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.6,
+          "score": "1:1",
+          "score1h": "0:1",
+          "outcome": "halfWin"
+        },
+        {
+          "match": "Juventus vs Atalanta",
+          "fixtureId": "juv-ata",
+          "pick": "Over 2.25",
+          "kind": "ou",
+          "line": 2.25,
+          "side": "over",
+          "half": "ft",
+          "odds": 1.6,
+          "score": "2:0",
+          "score1h": "1:0",
+          "outcome": "halfLose"
+        },
+        {
+          "match": "Atletico Madrid vs Real Madrid",
+          "fixtureId": "atm-rma",
+          "pick": "HT Under 1.50",
+          "kind": "ou",
+          "line": 1.5,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.71,
+          "score": "2:1",
+          "score1h": "0:0",
+          "outcome": "win"
+        }
+      ]
+    },
+    {
+      "id": "kupon-2",
+      "label": "Kupon 2 - KALAH (19-20/09, 9 leg: 7 menang, 2 kalah)",
+      "stake": null,
+      "ticketOdds": null,
+      "netProfit": null,
+      "grossReturn": 0,
+      "note": "Odds untuk dua leg yang kalah tidak diketahui - papannya tidak diarsipkan dan catatan Anda hilang. Skor dua leg itu Anda beri, jadi tetap bisa dinilai.",
+      "legs": [
+        {
+          "match": "Tottenham Hotspur vs Aston Villa",
+          "fixtureId": "tot-avl",
+          "pick": "HT Under 1.25",
+          "kind": "ou",
+          "line": 1.25,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.67,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Brighton & Hove Albion vs Arsenal",
+          "fixtureId": "bha-ars",
+          "pick": "HT Under 1.25",
+          "kind": "ou",
+          "line": 1.25,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.64,
+          "score": "3:0",
+          "score1h": "2:0",
+          "outcome": "lose"
+        },
+        {
+          "match": "Newcastle United vs Hull City",
+          "fixtureId": "new-hul",
+          "pick": "Newcastle Menang",
+          "kind": "x12",
+          "line": null,
+          "side": "1",
+          "half": "ft",
+          "odds": 1.53,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Nottingham Forest vs Coventry City",
+          "fixtureId": "nfo-cov",
+          "pick": "Nottingham Forest Menang",
+          "kind": "x12",
+          "line": null,
+          "side": "1",
+          "half": "ft",
+          "odds": 1.58,
+          "score": "0:1",
+          "score1h": null,
+          "outcome": "lose"
+        },
+        {
+          "match": "Everton vs Ipswich Town",
+          "fixtureId": "eve-ips",
+          "pick": "Ipswich +1.00",
+          "kind": "ah",
+          "line": -1.0,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.58,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "AS Roma vs Inter Milan",
+          "fixtureId": "rom-int",
+          "pick": "Over 2.50",
+          "kind": "ou",
+          "line": 2.5,
+          "side": "over",
+          "half": "ft",
+          "odds": 1.63,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Eintracht Frankfurt vs SC Freiburg",
+          "fixtureId": "sge-scf",
+          "pick": "Freiburg +0.50",
+          "kind": "ah",
+          "line": -0.5,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.59,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Osasuna vs Rayo Vallecano",
+          "fixtureId": "osa-ray",
+          "pick": "HT Under 1.00",
+          "kind": "ou",
+          "line": 1.0,
+          "side": "under",
+          "half": "1h",
+          "odds": 1.84,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Athletic Bilbao vs Alaves",
+          "fixtureId": "ath-ala",
+          "pick": "Alaves +1.00",
+          "kind": "ah",
+          "line": -1.0,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.72,
+          "score": null,
+          "score1h": null,
+          "outcome": "win"
+        }
+      ]
+    }
+  ]
 }
