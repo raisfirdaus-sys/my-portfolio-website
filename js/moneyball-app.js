@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}
+    legs: [], overrides: {}, tilt: {}
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -80,7 +80,8 @@
   function analyse(fx) {
     return E.analyseFixture(fx, teamsView(), DATA.leagues, {
       marketWeight: slateHasUserStats() ? STATE.marketWeight : 1,
-      calibration: CALIB
+      calibration: CALIB,
+      tilt: STATE.tilt[fx.id] || 0
     });
   }
   function slateFixtures(s) {
@@ -318,6 +319,7 @@
           : '.');
     }
 
+    renderTilt(a);
     renderCross(a);
     renderStatCompare(a);
     renderHeat(a);
@@ -410,6 +412,48 @@
     $('mc-stats-table').appendChild(t);
   }
 
+
+
+  /* --------------------------------------------- the user's own read ---- */
+  function saveTilt() {
+    try { localStorage.setItem('mb-tilt', JSON.stringify(STATE.tilt)); } catch (err) {}
+  }
+
+  function renderTilt(a) {
+    var slider = $('tilt'), out = $('tilt-val'), note = $('tilt-note');
+    if (!slider) return;
+    var t = STATE.tilt[a.fixture.id] || 0;
+    slider.value = String(Math.round(t * 100));
+
+    var side = t > 0 ? a.home.name : a.away.name;
+    out.textContent = t === 0
+      ? 'netral \u2014 ikut harga bandar'
+      : (t > 0 ? '+' : '') + (t * 100).toFixed(0) + '%  condong ke ' + side;
+
+    /* market view versus the view after the adjustment, side by side */
+    var base = E.analyseFixture(a.fixture, teamsView(), DATA.leagues,
+      { marketWeight: slateHasUserStats() ? STATE.marketWeight : 1, calibration: CALIB, tilt: 0 });
+    var b = base.outright, o = a.outright;
+
+    var html = '<strong>Ini tempat pengetahuan bola Anda masuk.</strong> Model tidak tahu soal ' +
+      'ganti pelatih, skuad penuh bintang, atau tim yang sedang terluka harga dirinya. ' +
+      'Geser slider kalau Anda menilai satu tim lebih kuat daripada yang dihargai bandar, ' +
+      'dan seluruh halaman &mdash; tiap pasar, EV, sampai pembangun parlay &mdash; ikut berubah.';
+    if (t !== 0) {
+      html += '<br /><span class="fig">Pasar:</span> ' + a.home.name + ' ' + pct(b.home, 0) +
+        ' / seri ' + pct(b.draw, 0) + ' / ' + a.away.name + ' ' + pct(b.away, 0) +
+        ' &nbsp;&rarr;&nbsp; <span class="fig">Setelah penilaian Anda:</span> ' +
+        a.home.name + ' ' + pct(o.home, 0) + ' / seri ' + pct(o.draw, 0) + ' / ' +
+        a.away.name + ' ' + pct(o.away, 0) +
+        '<br />Gol harapan ' + base.lambdas.home.toFixed(2) + '\u2013' + base.lambdas.away.toFixed(2) +
+        ' &rarr; <span class="fig">' + a.lambdas.home.toFixed(2) + '\u2013' + a.lambdas.away.toFixed(2) +
+        '</span>. Tabel di bawah sekarang diurutkan menurut EV, karena Anda sudah memberi model ' +
+        'informasi yang tidak ada di harga.';
+    } else {
+      html += '<br />Selama nol, EV di bawah hanyalah margin bandar dan tabel diurutkan menurut bayar-penuh.';
+    }
+    note.innerHTML = html;
+  }
 
   /* ------------------------------------------------- BT cross-check ----- */
   function renderCross(a) {
@@ -990,15 +1034,33 @@
         'Inilah yang memotong slip Anda dari 73x jadi 6.07x. Ganti ke garis setengah kalau ada.',
         'bad');
     }
+    var tiltedLegs = STATE.legs.filter(function (L) {
+      return Math.abs(STATE.tilt[L.pick.fixtureId] || 0) > 0.001;
+    }).length;
+
     if (sim.ev > 0.02 && !slateHasUserStats()) {
       var fake = el('div', 'kpi');
       fake.style.cssText = 'border-left:4px solid var(--critical)';
-      fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
-        '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
-        '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri, ' +
-        'jadi angka positif ini keluar dari data contoh yang saya karang agar alat bisa jalan. ' +
-        'Bandar tidak menawarkan edge sebesar ini kepada siapa pun. Abaikan kolom EV sampai ' +
-        'Anda mengisi xG asli; yang tetap benar cuma margin, jenis garis dan peluang bayar penuh.</div>';
+      if (tiltedLegs) {
+        /* Not fabricated - but not evidence either. The edge is the user's
+           own read, priced back to them. Saying "this EV is not real" would
+           be wrong; saying nothing would let a personal opinion masquerade as
+           a measurement. */
+        fake.innerHTML = '<div class="cap">EV ini milik Anda, bukan bukti</div>' +
+          '<div class="val">' + signPct(sim.ev, 1) + '</div>' +
+          '<div class="note">Angka positif ini datang dari penilaian Anda sendiri di ' +
+          tiltedLegs + ' laga, bukan dari data. Alat ini cuma menghitung konsekuensi ' +
+          'pendapat Anda secara konsisten &mdash; ia tidak memverifikasinya. Kalau bacaan Anda ' +
+          'tepat, tiket ini memang lebih baik daripada versi pasar. Kalau meleset, tiket ini ' +
+          'lebih buruk, dan seluruh EV di atas ikut meleset sebesar kesalahan itu. ' +
+          'Geser slider ke nol untuk melihat harga bandar apa adanya.</div>';
+      } else {
+        fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
+          '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
+          '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri ' +
+          'dan tidak ada penilaian yang Anda masukkan, jadi angka positif ini keluar dari data ' +
+          'contoh bawaan. Bandar tidak menawarkan edge sebesar ini kepada siapa pun.</div>';
+      }
       kpis.appendChild(fake);
     }
 
@@ -1433,6 +1495,19 @@
       STATE.marketWeight = parseInt(e.target.value, 10) / 100;
       renderReality(); renderFixtures(); renderMatchCentre(); renderParlay();
     });
+    $('tilt').addEventListener('input', function (e) {
+      var fx = currentFixture(); if (!fx) return;
+      var v = parseInt(e.target.value, 10) / 100;
+      if (v === 0) delete STATE.tilt[fx.id]; else STATE.tilt[fx.id] = v;
+      saveTilt();
+      renderFixtures(); renderMatchCentre(); buildParlay();
+    });
+    $('tilt-reset').addEventListener('click', function () {
+      var fx = currentFixture(); if (!fx) return;
+      delete STATE.tilt[fx.id];
+      saveTilt();
+      renderFixtures(); renderMatchCentre(); buildParlay();
+    });
     $('p-build').addEventListener('click', buildParlay);
     $('p-clear').addEventListener('click', function () { STATE.legs = []; renderParlay(); });
     $('p-stake').addEventListener('change', renderParlay);
@@ -1444,6 +1519,17 @@
       var t = localStorage.getItem('mb-theme');
       if (t) document.documentElement.setAttribute('data-theme', t);
     } catch (err) {}
+
+    /* Judgements are work: losing them on a refresh would make the control
+       not worth using. Browser storage can be unavailable or throw, so every
+       read and write is guarded and the page renders fine without it. */
+    try {
+      var saved = localStorage.getItem('mb-tilt');
+      if (saved) {
+        var parsed = JSON.parse(saved);
+        if (parsed && typeof parsed === 'object') STATE.tilt = parsed;
+      }
+    } catch (err) { STATE.tilt = {}; }
 
     // default to the newest slate that has fixtures
     var avail = Object.keys(DATA.meta.slates || {}).map(Number)
