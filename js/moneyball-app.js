@@ -2520,10 +2520,34 @@
   }
 
   /* ============================================================ CHROME == */
+  /* Slate keys are insertion order, not calendar order, so sorting by key
+     put 24-27 Sept to the right of 10-13 Okt. The fixtures cannot settle it
+     either: `kickoff` holds "21:00" in one slate, "19/09 19:30" in another
+     and "10/10" in a third. So each slate carries its own start date, and
+     the label is parsed only as a fallback for a slate added without one. */
+  var ID_MONTHS = { jan:1, feb:2, mar:3, apr:4, mei:5, jun:6, jul:7, agu:8,
+                    sep:9, okt:10, nov:11, des:12 };
+  function slateStart(k, label) {
+    var explicit = (DATA.meta.slateStart || {})[String(k)];
+    if (explicit) return explicit;
+    /* "10-13 Okt 2026" or "20 Sept 2026" -> take the first day. */
+    var m = /(\d{1,2})(?:\s*[-\u2013]\s*\d{1,2})?\s+([A-Za-z]{3})[a-z]*\.?\s+(\d{4})/.exec(label || '');
+    if (m) {
+      var mo = ID_MONTHS[m[2].toLowerCase()];
+      if (mo) {
+        return m[3] + '-' + ('0' + mo).slice(-2) + '-' + ('0' + m[1]).slice(-2);
+      }
+    }
+    return '9999-' + ('00' + k).slice(-3);   // unknown dates sort last, stably
+  }
+
   function renderSlateChips() {
     var box = $('slate-chips'); box.innerHTML = '';
     var slates = DATA.meta.slates || {};
-    Object.keys(slates).sort().forEach(function (k) {
+    Object.keys(slates).sort(function (a, b) {
+      var sa = slateStart(a, slates[a]), sb = slateStart(b, slates[b]);
+      return sa < sb ? -1 : sa > sb ? 1 : (Number(a) - Number(b));
+    }).forEach(function (k) {
       var n = parseInt(k, 10);
       if (!slateFixtures(n).length) return;
       /* The stored name carries its own explanation - "(Pasar Awal, setelah
@@ -2639,10 +2663,16 @@
       }
     } catch (err) { STATE.tilt = {}; }
 
-    // default to the newest slate that has fixtures
-    var avail = Object.keys(DATA.meta.slates || {}).map(Number)
-      .filter(function (n) { return slateFixtures(n).length; }).sort(function (a, b) { return b - a; });
-    if (avail.length) STATE.slate = avail[0];
+    /* Land on the newest slate that has fixtures - by start date, so this
+       can never disagree with the order the chips are drawn in. */
+    var slatesMeta = DATA.meta.slates || {};
+    var avail = Object.keys(slatesMeta)
+      .filter(function (k) { return slateFixtures(Number(k)).length; })
+      .sort(function (a, b) {
+        var sa = slateStart(a, slatesMeta[a]), sb = slateStart(b, slatesMeta[b]);
+        return sa < sb ? 1 : sa > sb ? -1 : (Number(b) - Number(a));
+      });
+    if (avail.length) STATE.slate = Number(avail[0]);
 
     renderAll();
     renderSlip();
