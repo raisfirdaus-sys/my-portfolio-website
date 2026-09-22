@@ -1301,7 +1301,14 @@
       g.rows.forEach(function (r, i) {
         var l = r.leg;
         var verdict = '\u2014', vcolor = 'var(--text-muted)';
-        if (r.pick) {
+        /* On a pre-registered ticket with no entered statistics, EV is the
+           bookmaker's margin with a minus sign - every leg would print
+           AVOID, including the nine this tool just recommended. Report why
+           the leg was chosen instead: how often it pays full odds. */
+        if (l.cleanWinAtPrediction != null) {
+          verdict = 'dipilih \u00b7 bayar penuh ' + pct(l.cleanWinAtPrediction, 1);
+          vcolor = 'var(--hl-edge)';
+        } else if (r.pick) {
           if (r.pick.ev <= -0.04) { verdict = 'HINDARI'; vcolor = 'var(--critical)'; }
           else if (r.pick.ev >= 0.015) { verdict = 'NILAI'; vcolor = 'var(--good)'; }
           else { verdict = 'netral'; vcolor = 'var(--text-secondary)'; }
@@ -1336,13 +1343,18 @@
           '<td style="font-weight:600;color:' +
             (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)'
              : r.outcome === 'push' ? 'var(--text-secondary)' : 'var(--warning)') + '">' +
-            (OUTCOME_LABEL[r.outcome] || '?') + '</td>' +
+            (OUTCOME_LABEL[r.outcome] || (pending ? 'belum main' : '?')) + '</td>' +
           '<td class="num"' + (l.pModelAtPrediction != null
               ? ' title="Dibekukan pada ' + (g.coupon.registeredAt || 'saat prediksi') +
                 ', sebelum pertandingan. Tidak dihitung ulang."' : '') + '>' +
             (l.pModelAtPrediction != null ? pct(l.pModelAtPrediction, 1)
              : r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
-          '<td class="num">' + (r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +
+          '<td class="num"' +
+            (l.vigAtPrediction != null
+              ? ' style="color:var(--text-muted)" title="Ini margin bandar, bukan vonis. Tanpa statistik yang Anda isi, model dipasang pada harga ini juga, jadi EV tiap leg = minus marginnya."'
+              : '') + '>' +
+            (l.vigAtPrediction != null ? '\u2212' + pct(l.vigAtPrediction, 1) + ' margin'
+             : r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +
           '<td style="color:' + vcolor + ';font-weight:600;font-size:12px">' + verdict + '</td></tr>';
       });
       html += '</tbody>';
