@@ -113,5 +113,47 @@ console.log('  half-line parlay  expected return ' + sim.expectedReturn.toFixed(
 console.log('  quarter parlay    expected return ' + simq.expectedReturn.toFixed(4) + ', P(profit) ' + (simq.pProfit*100).toFixed(2) + '%');
 console.log('  quarter drag vs printed: ' + (simq.drag*100).toFixed(2) + '%');
 
+console.log('\n== 12. Bulk paste import (one response, many teams) ==');
+// Sportmonks nests the number two levels down: value.all.count. An earlier
+// version unwrapped "count" but not "all", so every team came back empty and
+// the paste box reported "no statistics in this JSON" on a perfectly good
+// response.
+function smTeam(id, name, rows) {
+  return { id: id, name: name, statistics: [{ details: rows.map(function (r) {
+    return { type: { name: r[0] }, value: { all: { count: r[1] } } };
+  }) }] };
+}
+const bulk = JSON.stringify({ data: [
+  smTeam(83, 'Barcelona', [
+    ['Matches Played', 8], ['Goals', 18], ['Expected Goals', 17.6],
+    ['Expected Goals Against', 6.4], ['Shots Total', 140], ['Shots On Target', 56],
+    ['Fouls', 88], ['Tackles', 132], ['Yellowcards', 14], ['Redcards', 1]
+  ]),
+  smTeam(496, 'Galatasaray SK', [
+    ['Matches Played', 8], ['Goals', 12], ['Expected Goals', 10.4],
+    ['Expected Goals Against', 11.2], ['Shots Total', 98], ['Shots On Target', 36],
+    ['Fouls', 104], ['Tackles', 148], ['Yellowcards', 22], ['Redcards', 2]
+  ])
+]});
+const many = E.parseManyTeams(bulk);
+eq('two teams read from one response', many && many.teams ? many.teams.length : 0, 2);
+const bar = many.teams.filter(t => t.name === 'Barcelona')[0];
+eq('value.all.count unwrapped (matches)', bar.stats.matches, 8);
+eq('totals divided into per-match xG', bar.stats.xgF, 2.2, 0.01);
+eq('per-match shots', bar.stats.shots, 17.5, 0.01);
+eq('nothing missing for a full row', bar.missing.length, 0);
+
+// Name matching has to survive club suffixes on either side.
+eq('Galatasaray -> Galatasaray SK',
+   (E.matchTeamName('Galatasaray', many.teams) || {}).name, 'Galatasaray SK');
+eq('Barcelona -> Barcelona',
+   (E.matchTeamName('Barcelona', many.teams) || {}).name, 'Barcelona');
+eq('a team absent from the response matches nothing',
+   E.matchTeamName('Real Madrid', many.teams), null);
+
+eq('junk is rejected, not guessed at', E.parseManyTeams('not json'), null);
+const bare = E.parseManyTeams(JSON.stringify({ data: [{ id: 1, name: 'Some Club' }] }));
+eq('a response without statistics reports why', !!(bare && bare.error), true);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);
