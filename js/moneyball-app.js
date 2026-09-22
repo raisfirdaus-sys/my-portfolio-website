@@ -70,9 +70,16 @@
       CALIB = E.calibrateOffset(slateFixtures(STATE.slate), teamsView(), DATA.leagues);
     } catch (err) { CALIB = null; }
   }
+  /* One basis for the whole page. The value board used STATE.marketWeight
+     while the parlay builder forced a full market anchor, so the same match
+     was being priced two different ways on one screen: Villarreal +2.00 read
+     72.2% on the board and 53.2% in the ticket. Whichever number is right,
+     showing both without saying so is worse than either. Placeholder seeds
+     are not information, so when nobody has entered statistics the anchor is
+     full, everywhere. */
   function analyse(fx) {
     return E.analyseFixture(fx, teamsView(), DATA.leagues, {
-      marketWeight: STATE.marketWeight,
+      marketWeight: slateHasUserStats() ? STATE.marketWeight : 1,
       calibration: CALIB
     });
   }
@@ -275,7 +282,19 @@
     $('mw-val').textContent = (STATE.marketWeight * 100).toFixed(0) + '% pasar / ' +
       (100 - STATE.marketWeight * 100).toFixed(0) + '% statistik';
     var note = $('mw-note');
-    if (a.statsMissing) {
+    var mwInput = $('mw');
+    var userStats = slateHasUserStats();
+    mwInput.disabled = !userStats;
+    mwInput.style.opacity = userStats ? '1' : '0.4';
+    if (!userStats) {
+      $('mw-val').textContent = '100% pasar (terkunci)';
+      note.innerHTML = '<strong>Slider ini mati sampai Anda mengisi statistik.</strong> ' +
+        'Tanpa xG asli, satu-satunya sumber informasi yang jujur adalah harga bandar, ' +
+        'jadi seluruh halaman &mdash; Papan Nilai maupun Pembangun Parlay &mdash; memakai ' +
+        'probabilitas pasar dan EV nol. Angka contoh bawaan bukan informasi; menggesernya ' +
+        'ke arah model hanya menghasilkan edge yang saya karang. Isi xG di form di bawah ' +
+        'dan slider ini hidup.';
+    } else if (a.statsMissing) {
       note.innerHTML = '<strong>Statistik tim belum diisi.</strong> Model dipaksa 100% mengikuti pasar, ' +
         'jadi EV nol di mana-mana &mdash; itu jawaban yang benar, bukan kegagalan. ' +
         'Isi xG di form di bawah supaya model punya pendapat sendiri.';
@@ -582,7 +601,9 @@
     tb.innerHTML = '<thead><tr>' +
       '<th style="width:26px"></th><th>Pilihan</th><th>Pasar</th><th>Garis</th>' +
       '<th style="text-align:right">Odds</th><th style="text-align:right">Odds adil</th>' +
-      '<th style="text-align:right">Prob. model</th><th style="text-align:right">Vig</th>' +
+      '<th style="text-align:right" title="Peluang hasil apa pun yang bukan kalah, termasuk seri dan setengah-menang">Prob. model</th>' +
+      '<th style="text-align:right" title="Peluang leg ini membayar ODDS PENUH. Seri tidak dihitung, setengah-menang dihitung separuh. INI yang dipakai untuk memilih leg parlay.">Bayar penuh</th>' +
+      '<th style="text-align:right">Vig</th>' +
       '<th style="text-align:right">EV</th><th>Keyakinan</th><th>Mix</th>' +
       '<th style="text-align:right">Kelly/4</th><th></th></tr></thead>';
     var body = el('tbody');
@@ -618,6 +639,23 @@
       tr.appendChild(el('td', 'num', fmtOdds(p.odds)));
       tr.appendChild(el('td', 'num', fmtOdds(p.fairOdds)));
       tr.appendChild(el('td', 'num', pct(p.pModel, 1)));
+
+      /* The number that actually decides parlay selection. Showing raw
+         probability alone let a whole line read 72% while paying full odds
+         only 42% of the time, with the rest sitting in pushes. */
+      var cclean = el('td', 'num');
+      var gap = p.pModel - p.cleanWin;
+      cclean.textContent = pct(p.cleanWin, 1);
+      if (gap > 0.03) {
+        cclean.style.color = 'var(--critical)';
+        cclean.style.fontWeight = '700';
+        cclean.title = 'Turun ' + (gap * 100).toFixed(1) + ' poin dari probabilitas mentah: ' +
+          pct(p.pushRisk, 1) + ' berakhir seri' +
+          (p.halfRisk > 0.001 ? ' dan ' + pct(p.halfRisk, 1) + ' setengah-hasil' : '') +
+          '. Di parlay, leg seri mengalikan tiket dengan 1.0, jadi odds leg ini hangus.';
+      }
+      tr.appendChild(cclean);
+
       tr.appendChild(el('td', 'num', p.vig != null ? pct(p.vig, 2) : '—'));
 
       var cev = el('td', 'num ev', signPct(p.ev, 2));
@@ -744,18 +782,9 @@
   }
 
   function analysesForSlate() {
-    /* Seed statistics are placeholders, not information. If nobody has typed
-       real numbers for this slate, any disagreement with the market is
-       fabricated, so the parlay is priced at the market's own probabilities:
-       a full anchor. The resulting EV is then the compounded margin, which is
-       the true cost of the ticket, instead of an invented +42% edge. */
-    var mw = slateHasUserStats() ? STATE.marketWeight : 1;
     var an = [];
     slateFixtures(STATE.slate).forEach(function (f) {
-      try {
-        an.push(E.analyseFixture(f, teamsView(), DATA.leagues,
-          { marketWeight: mw, calibration: CALIB }));
-      } catch (err) {}
+      try { an.push(analyse(f)); } catch (err) {}
     });
     return an;
   }
@@ -798,7 +827,23 @@
       : '';
 
     if (!STATE.legs.length) {
-      list.appendChild(el('div', 'panel-body', 'Belum ada leg. Tekan "Susun parlay", atau tambahkan sendiri dari Papan Nilai.'));
+      var empty = el('div', 'panel-body');
+      var bar = parseFloat($('p-minprob').value) || 0.5;
+      var blocked = E.pickParlayLegs.lastBlocked || 0;
+      empty.innerHTML =
+        '<div class="notice bad" style="margin:0"><h3>Tidak ada satu pun leg yang memenuhi syarat</h3>' +
+        '<p>Anda meminta leg yang membayar <strong>odds penuh</strong> minimal <span class="fig">' +
+        pct(bar, 0) + '</span> dari waktu. Di jadwal ini tidak ada yang mencapainya' +
+        (blocked ? ', dan ' + blocked + ' pilihan lain sudah dibuang lebih dulu karena odds di bawah 1.50 ' +
+          '(tidak muncul di menu Mix Parlay)' : '') + '.</p>' +
+        '<p>Itu jawaban yang benar, bukan kegagalan alat. Pasar yang likuid memang tidak menjual ' +
+        'leg murah yang menang 55% dari waktu &mdash; kalau ada, bandar sudah memperbaiki harganya. ' +
+        'Turunkan ambang ke sekitar <span class="fig">0.50&ndash;0.52</span> dan lihat berapa harga ' +
+        'sebenarnya, atau pilih jadwal lain.</p>' +
+        '<p><strong>Catatan:</strong> ambang ini mengukur peluang <em>bayar penuh</em>, bukan ' +
+        'probabilitas mentah. Garis bulat sering terlihat berprobabilitas 56% padahal cuma 32% ' +
+        'bayar penuh, karena sisanya seri &mdash; dan leg seri mengalikan tiket dengan 1.0.</p></div>';
+      list.appendChild(empty);
       return;
     }
 
