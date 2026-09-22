@@ -2250,11 +2250,50 @@
        'Yang bisa diukur: berapa besar biayanya, leg mana paling murah, dan berapa banyak yang ' +
        'hilang ke garis kuartal.']
     ];
-    items.forEach(function (it) {
+    /* This list describes what the engine CAN do. Read on a page where no
+       statistics have been entered, it reads like a description of what it
+       IS doing - and steps 1 to 6 all speak of xG the site does not have.
+       Say plainly which steps are running right now. */
+    var statFed = [1, 2, 3, 4, 5, 6];   // the steps that need entered statistics
+    var fedCount = 0, totalTeams = 0;
+    Object.keys(DATA.teams).forEach(function (k) {
+      totalTeams++;
+      if (statOrigin(k) === 'user') fedCount++;
+    });
+    var liveFixtures = DATA.fixtures.filter(function (f) {
+      return statOrigin(f.home) === 'user' && statOrigin(f.away) === 'user';
+    }).length;
+
+    var state = el('div', 'notice' + (liveFixtures ? ' ok' : ''));
+    state.innerHTML = liveFixtures
+      ? '<h3>Sedang hidup: seluruh 12 langkah, di ' + liveFixtures + ' laga</h3>' +
+        '<p>' + fedCount + ' dari ' + totalTeams + ' tim sudah punya statistik Anda. ' +
+        'Di laga yang KEDUA timnya terisi, langkah 1&ndash;6 benar-benar berjalan. ' +
+        'Di laga lain, langkah 1&ndash;6 tetap menganggur dan angkanya masih datang dari harga bandar.</p>'
+      : '<h3>Yang sedang hidup sekarang: langkah 7 sampai 12 saja</h3>' +
+        '<p><strong>Langkah 1&ndash;6 menganggur.</strong> Semuanya butuh statistik tim, dan belum ada ' +
+        'satu laga pun yang kedua timnya terisi. Jadi tidak ada xG, tembakan, tekel atau kartu ' +
+        'yang dipakai &mdash; walau tulisannya ada di bawah.</p>' +
+        '<p>Yang dipakai: rata-rata gol dibongkar dari <strong>harga bandar sendiri</strong> ' +
+        '(langkah 8), lalu diubah jadi sebaran skor (langkah 7) dan diselesaikan per jenis garis ' +
+        '(langkah 9&ndash;10). Artinya <strong>probabilitas yang Anda lihat adalah harga bandar ' +
+        'setelah margin dibuang</strong>, bukan tebakan model yang berdiri sendiri.</p>' +
+        '<p>Itu tetap berguna &mdash; langkah 9 sampai 12 yang mengukur jenis garis, margin dan ' +
+        'biaya panjang tiket. Tapi jangan bayangkan ada xG di baliknya, karena tidak ada.</p>';
+    box.appendChild(state);
+
+    items.forEach(function (it, i) {
       var d = el('details', 'method');
-      var s = el('summary'); s.innerHTML = it[0];
+      var sm = el('summary');
+      var idle = !liveFixtures && statFed.indexOf(i + 1) >= 0;
+      sm.innerHTML = it[0] + (idle
+        ? ' <span style="font-size:10px;font-weight:700;letter-spacing:.04em;' +
+          'color:var(--text-muted);border:1px solid var(--border-strong);border-radius:3px;' +
+          'padding:1px 5px;margin-left:6px">MENGANGGUR</span>'
+        : '');
       var b = el('div'); b.innerHTML = it[1];
-      d.appendChild(s); d.appendChild(b);
+      if (idle) d.style.opacity = '0.62';
+      d.appendChild(sm); d.appendChild(b);
       box.appendChild(d);
     });
     var src = el('p', 'stat-note');
