@@ -155,5 +155,38 @@ eq('junk is rejected, not guessed at', E.parseManyTeams('not json'), null);
 const bare = E.parseManyTeams(JSON.stringify({ data: [{ id: 1, name: 'Some Club' }] }));
 eq('a response without statistics reports why', !!(bare && bare.error), true);
 
+console.log('\n== 13. Labels that wrapped onto two lines ==');
+// UEFA draws "Matches played" inside a narrow circle, so a copy of the page
+// arrives with the label split across lines. Matching it as a literal string
+// found nothing, and the import refused a paste that was perfectly complete.
+const wrapped = [
+  'FC Barcelona', 'Key stats',
+  '6', 'Matches', 'played',
+  '14', 'Goals',
+  '5', 'Goals', 'conceded',
+  '22', 'Total attempts',
+  '9', 'Attempts on', 'target',
+  '8', 'Attempts off', 'target',
+  '5', 'Attempts', 'blocked',
+  '6', 'Tackles',
+  '11', 'Fouls committed',
+  '9', 'Yellow cards',
+  '1', 'Red cards'
+].join('\n');
+const wp = E.parseTeamStats(wrapped);
+eq('wrapped "Matches played" is found', wp && wp.matches, 6);
+eq('wrapped "Goals conceded" does not swallow "Goals"', wp.goals, 14 / 6, 0.01);
+eq('wrapped "Attempts on target" per match', wp.sot, 1.5, 0.01);
+// This sample carries no "Attempts conceded" rows, so xGA genuinely cannot
+// be computed - and that is exactly what should be reported, not a zero.
+eq('only xGA reported missing', wp._missing.join(','), 'xgA');
+eq('xGA left null rather than invented', wp.xgA, null);
+
+// The same page on one line per stat must still work.
+const flatPage = 'FC Barcelona\nKey stats\n6\nMatches played\n14\nGoals\n5\nGoals conceded\n' +
+  '22\nTotal attempts\n9\nAttempts on target\n8\nAttempts off target\n5\nAttempts blocked\n' +
+  '6\nTackles\n11\nFouls committed\n9\nYellow cards\n1\nRed cards';
+eq('unwrapped page still parses', E.parseTeamStats(flatPage).matches, 6);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);

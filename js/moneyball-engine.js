@@ -412,7 +412,12 @@
   /** Pull a labelled number out of pasted page text. */
   function grabStat(text, labels) {
     for (var i = 0; i < labels.length; i++) {
-      var label = labels[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      /* The page wraps a long label inside a narrow circle, so a copy can
+         arrive as "Matches\nplayed" or "Goals\nconceded". Match any run of
+         whitespace between the words, newline included, or none of those
+         labels is ever found. */
+      var label = labels[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                           .replace(/\s+/g, '\\s+');
       /* UEFA renders the number before its label, but other sources put it
          after, so try both and take whichever matches. Also handles the
          "5/7" form used for completed-out-of-attempted pairs. */
