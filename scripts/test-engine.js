@@ -188,5 +188,34 @@ const flatPage = 'FC Barcelona\nKey stats\n6\nMatches played\n14\nGoals\n5\nGoal
   '6\nTackles\n11\nFouls committed\n9\nYellow cards\n1\nRed cards';
 eq('unwrapped page still parses', E.parseTeamStats(flatPage).matches, 6);
 
+console.log('\n== 14. UEFA page with no "Matches played" anywhere ==');
+// The real copy of a UEFA club stats page never contains the words "Matches
+// played": that number lives inside a donut whose text does not come along.
+// What does arrive is the win/draw/loss record, and on a competition page
+// those three sum to the matches played.
+const donut = 'Key stats 1 0 0 Won Drawn Lost 5 Goals 1 Goals conceded ' +
+  '22 Total attempts 9 Attempts on target 8 Attempts off target 5 Attempts blocked ' +
+  '6 Tackles 11 Fouls committed 1 Yellow cards 0 Red cards';
+const dp = E.parseTeamStats(donut);
+eq('match count derived from W+D+L', dp && dp.matches, 1);
+eq('and it says where that came from', dp._matchesFromRecord, true);
+eq('goals still per match', dp.goals, 5, 0.01);
+
+// Several matches, and the other shape where each number sits by its label.
+const perLabel = '3 Won 2 Drawn 1 Lost 12 Goals 6 Goals conceded 60 Total attempts ' +
+  '24 Attempts on target 18 Attempts off target 12 Attempts blocked 30 Tackles ' +
+  '60 Fouls committed 12 Yellow cards 0 Red cards';
+const pl = E.parseTeamStats(perLabel);
+eq('W+D+L across six matches', pl && pl.matches, 6);
+eq('goals averaged over six', pl.goals, 2, 0.01);
+
+// An explicit "Matches played" must still win over the derived figure.
+const explicit = '9 Matches played 1 0 0 Won Drawn Lost 18 Goals 9 Goals conceded ' +
+  '90 Total attempts 36 Attempts on target 27 Attempts off target 18 Attempts blocked ' +
+  '45 Tackles 90 Fouls committed 18 Yellow cards 0 Red cards';
+const ex = E.parseTeamStats(explicit);
+eq('printed match count beats the derived one', ex.matches, 9);
+eq('and is not flagged as derived', !!ex._matchesFromRecord, false);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);

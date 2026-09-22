@@ -1783,7 +1783,10 @@
         STATE.importMsg[key] = {
           color: 'var(--good)',
           html: 'Terisi dari ' + parsed.matches + ' pertandingan' +
-            (parsed._matchesFromCaller ? ' (angka laga dari kotak, bukan dari halaman)' : '') + '.' +
+            (parsed._matchesFromCaller ? ' (angka laga dari kotak, bukan dari halaman)'
+              : parsed._matchesFromRecord ? ' (dihitung dari menang+seri+kalah, karena UEFA '
+                + 'menggambar jumlah laganya di dalam lingkaran yang tidak ikut tersalin)'
+              : '') + '.' +
             (parsed._estimated.xgF
               ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
               : '') + thin + miss
