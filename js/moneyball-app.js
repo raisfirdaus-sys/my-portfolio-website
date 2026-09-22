@@ -990,6 +990,179 @@
     note.appendChild(n1);
   }
 
+
+  /* ------------------------------------------------ calibration ledger -- */
+  var OUTCOME_LABEL = { win: 'Menang', halfWin: 'Setengah menang', push: 'Seri (kembali)',
+                        halfLose: 'Setengah kalah', lose: 'Kalah' };
+
+  function renderCalibration() {
+    var host = $('calib-coupons'), sum = $('calib-summary');
+    if (!host || !sum) return;
+    host.innerHTML = ''; sum.innerHTML = '';
+    if (!DATA.coupons || !DATA.coupons.length) return;
+
+    /* analyse every fixture once, at the default anchor, so grading does not
+       shift when the user drags the market-weight slider */
+    var byId = {};
+    DATA.fixtures.forEach(function (fx) {
+      try {
+        byId[fx.id] = E.analyseFixture(fx, teamsView(), DATA.leagues,
+          { marketWeight: 0.35, calibration: CALIB });
+      } catch (err) {}
+    });
+
+    var grades = DATA.coupons.map(function (c) { return E.gradeCoupon(c, byId); });
+    var rep = E.calibrationReport(grades);
+
+    if (rep) {
+      var box = el('div', 'notice' + (rep.significant ? '' : ' bad'));
+      box.innerHTML = '<h3>Skor Brier atas ' + rep.n + ' leg yang punya probabilitas model</h3>' +
+        '<p>Brier model <span class="fig">' + rep.brier.toFixed(4) + '</span> ' +
+        'melawan <span class="fig">' + rep.brierBaseline.toFixed(4) + '</span> untuk model yang ' +
+        'selalu menjawab 50%. Makin kecil makin baik, jadi skill score <span class="fig">' +
+        (rep.skill * 100).toFixed(1) + '%</span>.</p>' +
+        '<p><strong>' + (rep.significant
+          ? 'Sampel sudah cukup untuk mulai dipercaya.'
+          : 'Ini BUKAN bukti. ' + rep.n + ' leg terlalu sedikit &mdash; butuh 50 ke atas sebelum angka ini berarti apa pun.') +
+        '</strong> Dan ada masalah kedua yang lebih serius: kupon di buku ini dipilih ' +
+        'berdasarkan hasilnya. Satu kupon menang, satu kalah. Leg di kupon yang menang ' +
+        'otomatis hampir semuanya mendarat, jadi kolom "kenyataan" di tabel bawah pasti ' +
+        'terlihat lebih tinggi daripada kolom "klaim". Itu bias seleksi, bukan model yang bagus. ' +
+        'Supaya angkanya jujur, kupon harus dicatat SEBELUM pertandingan, menang atau kalah.</p>';
+      sum.appendChild(box);
+
+      var tb = el('table', 'mb');
+      var html = '<thead><tr><th>Bucket probabilitas</th><th style="text-align:right">Leg</th>' +
+        '<th style="text-align:right">Rata-rata klaim model</th>' +
+        '<th style="text-align:right">Rata-rata kenyataan</th><th>Selisih</th></tr></thead><tbody>';
+      rep.buckets.forEach(function (b) {
+        if (!b.n) return;
+        var diff = b.meanActual - b.meanP;
+        html += '<tr><td>' + (b.lo * 100).toFixed(0) + '\u2013' + (b.hi * 100).toFixed(0) + '%</td>' +
+          '<td class="num">' + b.n + '</td>' +
+          '<td class="num">' + pct(b.meanP, 1) + '</td>' +
+          '<td class="num">' + pct(b.meanActual, 1) + '</td>' +
+          '<td class="num" style="color:' + (Math.abs(diff) < 0.08 ? 'var(--good)' : 'var(--text-secondary)') +
+          '">' + signPct(diff, 1) + '</td></tr>';
+      });
+      html += '</tbody>';
+      tb.innerHTML = html;
+      var sc = el('div', 'table-scroll'); sc.appendChild(tb);
+      sum.appendChild(sc);
+    }
+
+    grades.forEach(function (g) {
+      var panel = el('div');
+      panel.style.cssText = 'border-top:1px solid var(--border)';
+      var head = el('div', 'panel-head');
+      head.style.background = 'var(--chrome-2)';
+      head.innerHTML = g.coupon.label +
+        '<span class="sub">' + g.wins + ' menang, ' + g.halves + ' setengah, ' +
+        g.losses + ' kalah' +
+        (g.grossMultiple != null ? ' \u00b7 pengali tiket ' + g.grossMultiple.toFixed(4) + 'x' : '') +
+        (g.brier != null ? ' \u00b7 Brier ' + g.brier.toFixed(4) : '') + '</span>';
+      panel.appendChild(head);
+
+      var tb = el('table', 'mb');
+      var html = '<thead><tr><th style="width:26px">#</th><th>Pertandingan</th><th>Pilihan</th>' +
+        '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
+        '<th style="text-align:right">Prob. model</th><th style="text-align:right">EV model</th>' +
+        '<th>Vonis model</th></tr></thead><tbody>';
+      g.rows.forEach(function (r, i) {
+        var l = r.leg;
+        var verdict = '\u2014', vcolor = 'var(--text-muted)';
+        if (r.pick) {
+          if (r.pick.ev <= -0.04) { verdict = 'HINDARI'; vcolor = 'var(--critical)'; }
+          else if (r.pick.ev >= 0.015) { verdict = 'NILAI'; vcolor = 'var(--good)'; }
+          else { verdict = 'netral'; vcolor = 'var(--text-secondary)'; }
+        } else if (r.pModel != null) {
+          verdict = r.pModel < 0.5 ? 'prob. di bawah 50%' : 'prob. di atas 50%';
+          vcolor = r.pModel < 0.5 ? 'var(--critical)' : 'var(--text-secondary)';
+        }
+        var lost = r.outcome === 'lose';
+        html += '<tr' + (lost ? ' class="tier-avoid"' : '') + '>' +
+          '<td class="num">' + (i + 1) + '</td>' +
+          '<td>' + l.match + '</td><td>' + l.pick + '</td>' +
+          '<td class="num">' + (l.odds ? l.odds.toFixed(2) : '\u2014') + '</td>' +
+          '<td class="num">' + (l.score || '\u2014') +
+            (l.score1h ? ' <span style="color:var(--text-muted)">(BB1 ' + l.score1h + ')</span>' : '') + '</td>' +
+          '<td style="font-weight:600;color:' +
+            (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)' : 'var(--warning)') + '">' +
+            (OUTCOME_LABEL[r.outcome] || '?') + '</td>' +
+          '<td class="num">' + (r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
+          '<td class="num">' + (r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +
+          '<td style="color:' + vcolor + ';font-weight:600;font-size:12px">' + verdict + '</td></tr>';
+      });
+      html += '</tbody>';
+      tb.innerHTML = html;
+      var sc2 = el('div', 'table-scroll'); sc2.appendChild(tb);
+      panel.appendChild(sc2);
+
+      if (g.coupon.note) {
+        var n = el('div', 'panel-body');
+        n.innerHTML = '<p class="stat-note">' + g.coupon.note + '</p>';
+        panel.appendChild(n);
+      }
+      host.appendChild(panel);
+    });
+
+    /* the alternatives the user says he should have taken, graded */
+    var alts = (DATA.couponReview || {}).gradedAlternatives;
+    if (alts && alts.length) {
+      var ap = el('div');
+      ap.style.cssText = 'border-top:1px solid var(--border)';
+      var ah2 = el('div', 'panel-head');
+      ah2.style.background = 'var(--chrome-2)';
+      ah2.innerHTML = 'Alternatif yang seharusnya diambil, dinilai dari skor nyata' +
+        '<span class="sub">Harga yang ditawarkan tidak bisa dipulihkan, jadi kolom odds adalah ODDS ADIL MENURUT MODEL</span>';
+      ap.appendChild(ah2);
+      var tb2 = el('table', 'mb');
+      var h2 = '<thead><tr><th>Pertandingan</th><th>Alternatif</th><th>Skor</th><th>Hasil</th>' +
+        '<th style="text-align:right">Prob. model</th><th style="text-align:right">Odds adil model</th>' +
+        '<th>Catatan</th></tr></thead><tbody>';
+      alts.forEach(function (alt) {
+        var a = byId[alt.fixtureId];
+        var pm = null, fair = null;
+        if (a) {
+          var M = alt.half === '1h' ? a.matrixHT : a.matrixFT;
+          var fn2;
+          if (alt.kind === 'ah') fn2 = function (i, j) { return E.settleAH(i, j, alt.line, alt.side); };
+          else if (alt.kind === 'ou') fn2 = function (i, j) { return E.settleOU(i, j, alt.line, alt.side); };
+          else fn2 = function (i, j) {
+            var rr = i > j ? '1' : i < j ? '2' : 'X';
+            return rr === alt.side ? 1 : -1;
+          };
+          var b2 = E.evaluateBet(M, fn2);
+          if (b2.w > 0) { pm = b2.w / (b2.w + b2.l); fair = 1 + b2.l / b2.w; }
+        }
+        var settled = E.settleFromScore({
+          kind: alt.kind, line: alt.line, side: alt.side, half: alt.half,
+          score: alt.score, score1h: alt.score1h || alt.score
+        });
+        h2 += '<tr><td>' + (a ? a.home.name + ' v ' + a.away.name : alt.fixtureId) + '</td>' +
+          '<td>' + alt.label + '</td><td class="num">' + (alt.score || '\u2014') + '</td>' +
+          '<td style="font-weight:600;color:' +
+            (settled === 'win' ? 'var(--good)' : 'var(--critical)') + '">' +
+            (OUTCOME_LABEL[settled] || '?') + '</td>' +
+          '<td class="num">' + (pm != null ? pct(pm, 1) : '\u2014') + '</td>' +
+          '<td class="num">' + (fair != null ? fair.toFixed(2) : '\u2014') + '</td>' +
+          '<td style="font-size:12px;color:var(--text-secondary)">' + (alt.note || '') + '</td></tr>';
+      });
+      h2 += '</tbody>';
+      tb2.innerHTML = h2;
+      var sc3 = el('div', 'table-scroll'); sc3.appendChild(tb2);
+      ap.appendChild(sc3);
+      var warn2 = el('div', 'panel-body');
+      warn2.innerHTML = '<p class="stat-note"><strong>Kolom odds adil bukan harga yang ditawarkan bandar.</strong> ' +
+        'Papan Pasar Awal tidak diarsipkan di mana pun yang bisa saya baca, dan catatan Anda sudah hilang, ' +
+        'jadi harga aslinya tidak bisa dipulihkan. Yang di kolom itu adalah nilai wajar menurut model &mdash; ' +
+        'jawaban untuk "seharusnya berapa", bukan "ditawarkan berapa". Dan model itu berjalan di atas ' +
+        'statistik contoh, bukan xG asli, jadi anggap ilustratif.</p>';
+      ap.appendChild(warn2);
+      host.appendChild(ap);
+    }
+  }
+
   /* ======================================================= METHODOLOGY == */
   function renderMethod() {
     var box = $('method'); box.innerHTML = '';
@@ -1130,6 +1303,7 @@
 
     renderAll();
     renderSlip();
+    renderCalibration();
     renderMethod();
     buildParlay();
   }

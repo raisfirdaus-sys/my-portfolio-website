@@ -900,6 +900,145 @@
     };
   }
 
+
+  /* ================================================ CALIBRATION ========
+     "Are you accurate?" is not a question to answer with a claim. It is a
+     measurement. These helpers grade real settled coupons against what the
+     model said beforehand, and score the result.
+
+     The metric is the Brier score: mean((p - outcome)^2), lower is better.
+     A model that always says 50% scores 0.25 on any sequence. Beating 0.25
+     means the probabilities carry information; losing to it means they are
+     worse than a shrug. Half-win and half-lose count as an outcome of 0.75
+     and 0.25 respectively, since a quarter line really does settle at half
+     stake on each side.
+
+     With 18 legs nothing here is statistically significant. The point is the
+     method and the ledger: every coupon added makes the number mean more,
+     and the number is allowed to be unflattering.
+     ===================================================================== */
+  var OUTCOME_VALUE = { win: 1, halfWin: 0.75, push: 0.5, halfLose: 0.25, lose: 0 };
+
+  /** Settle a leg from a recorded score, independent of what anyone claimed. */
+  function settleFromScore(leg) {
+    var raw = leg.half === '1h' ? leg.score1h : leg.score;
+    if (!raw || typeof raw !== 'string' || raw.indexOf(':') < 0) return null;
+    var parts = raw.split(':');
+    var gh = parseInt(parts[0], 10), ga = parseInt(parts[1], 10);
+    if (!isFinite(gh) || !isFinite(ga)) return null;
+    var net;
+    if (leg.kind === 'ah')      net = settleAH(gh, ga, leg.line, leg.side);
+    else if (leg.kind === 'ou') net = settleOU(gh, ga, leg.line, leg.side);
+    else if (leg.kind === 'x12') {
+      var r = gh > ga ? '1' : gh < ga ? '2' : 'X';
+      net = r === leg.side ? 1 : -1;
+    } else if (leg.kind === 'oe') {
+      var isOdd = ((gh + ga) % 2) === 1;
+      net = (leg.side === 'odd') === isOdd ? 1 : -1;
+    } else return null;
+    return net === 1 ? 'win' : net === 0.5 ? 'halfWin' : net === 0 ? 'push'
+         : net === -0.5 ? 'halfLose' : 'lose';
+  }
+
+  /**
+   * Grade one coupon. For each leg: what the model's probability was, what
+   * actually happened, and whether the two agree. A leg whose fixture is not
+   * in the dataset still grades on the recorded outcome, it just carries no
+   * model probability and is excluded from the Brier score.
+   */
+  function gradeCoupon(coupon, analysesById) {
+    var rows = coupon.legs.map(function (leg) {
+      var derived = settleFromScore(leg);
+      var outcome = derived || leg.outcome || null;
+      var mismatch = !!(derived && leg.outcome && derived !== leg.outcome);
+
+      var pModel = null, pMarket = null, modelPick = null;
+      var a = leg.fixtureId ? analysesById[leg.fixtureId] : null;
+      if (a) {
+        var match = a.picks.filter(function (pk) {
+          return pk.kind === leg.kind && pk.half === leg.half && pk.side === leg.side &&
+                 (leg.line == null ? pk.line == null : Math.abs(pk.line - leg.line) < 1e-9);
+        })[0];
+        if (match) {
+          pModel = match.pModel;
+          pMarket = match.pFairMarket;
+          modelPick = match;
+        }
+      }
+      return {
+        leg: leg, outcome: outcome, derivedFromScore: !!derived,
+        outcomeMismatch: mismatch,
+        value: outcome ? OUTCOME_VALUE[outcome] : null,
+        pModel: pModel, pMarket: pMarket, pick: modelPick,
+        legMultiplier: outcome && leg.odds ? legMultiplier(outcome, leg.odds) : null
+      };
+    });
+
+    var mult = 1, known = 0;
+    rows.forEach(function (r) {
+      if (r.legMultiplier != null) { mult *= r.legMultiplier; known++; }
+    });
+
+    var scored = rows.filter(function (r) { return r.pModel != null && r.value != null; });
+    var brier = null, brierMarket = null, brierBaseline = null;
+    if (scored.length) {
+      brier = scored.reduce(function (x, r) {
+        return x + Math.pow(r.pModel - r.value, 2);
+      }, 0) / scored.length;
+      var withMkt = scored.filter(function (r) { return r.pMarket != null; });
+      if (withMkt.length) {
+        brierMarket = withMkt.reduce(function (x, r) {
+          return x + Math.pow(r.pMarket - r.value, 2);
+        }, 0) / withMkt.length;
+      }
+      brierBaseline = scored.reduce(function (x, r) {
+        return x + Math.pow(0.5 - r.value, 2);
+      }, 0) / scored.length;
+    }
+
+    return {
+      coupon: coupon, rows: rows,
+      legsKnown: known, legsTotal: rows.length,
+      grossMultiple: known === rows.length ? mult : null,
+      scoredLegs: scored.length,
+      brier: brier, brierMarket: brierMarket, brierBaseline: brierBaseline,
+      beatsCoinFlip: brier != null && brierBaseline != null ? brier < brierBaseline : null,
+      wins: rows.filter(function (r) { return r.outcome === 'win'; }).length,
+      halves: rows.filter(function (r) {
+        return r.outcome === 'halfWin' || r.outcome === 'halfLose';
+      }).length,
+      losses: rows.filter(function (r) { return r.outcome === 'lose'; }).length
+    };
+  }
+
+  /** Aggregate calibration across coupons, bucketed by stated probability. */
+  function calibrationReport(grades) {
+    var all = [];
+    grades.forEach(function (g) {
+      g.rows.forEach(function (r) {
+        if (r.pModel != null && r.value != null) all.push(r);
+      });
+    });
+    if (!all.length) return null;
+    var buckets = [[0, 0.45], [0.45, 0.55], [0.55, 0.65], [0.65, 1.01]].map(function (b) {
+      var inB = all.filter(function (r) { return r.pModel >= b[0] && r.pModel < b[1]; });
+      return {
+        lo: b[0], hi: b[1], n: inB.length,
+        meanP: inB.length ? inB.reduce(function (x, r) { return x + r.pModel; }, 0) / inB.length : null,
+        meanActual: inB.length ? inB.reduce(function (x, r) { return x + r.value; }, 0) / inB.length : null
+      };
+    });
+    var brier = all.reduce(function (x, r) { return x + Math.pow(r.pModel - r.value, 2); }, 0) / all.length;
+    var baseline = all.reduce(function (x, r) { return x + Math.pow(0.5 - r.value, 2); }, 0) / all.length;
+    return {
+      n: all.length, brier: brier, brierBaseline: baseline,
+      skill: baseline > 0 ? 1 - brier / baseline : null,
+      buckets: buckets,
+      /* Anything under about 50 graded legs is a story, not a statistic. */
+      significant: all.length >= 50
+    };
+  }
+
   /* ============================================ PARLAY LEG SELECTOR ====
      Building a parlay is a different problem from finding a value bet.
      Multiplying odds multiplies the vig too, so leg choice is dominated by
@@ -984,6 +1123,8 @@
     simulateParlay: simulateParlay, legMultiplier: legMultiplier,
     legExpectedMultiplier: legExpectedMultiplier,
     pickParlayLegs: pickParlayLegs, toSimLegs: toSimLegs,
+    settleFromScore: settleFromScore, gradeCoupon: gradeCoupon,
+    calibrationReport: calibrationReport, OUTCOME_VALUE: OUTCOME_VALUE,
     ratingBase: ratingBase, btProb: btProb, calibrateOffset: calibrateOffset,
     crossCheck: crossCheck, compoundingArithmetic: compoundingArithmetic,
     MIX_PARLAY_MIN_ODDS: MIX_PARLAY_MIN_ODDS, mixParlayEligible: mixParlayEligible
