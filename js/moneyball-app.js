@@ -9,7 +9,7 @@
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
     legs: [], overrides: {}, tilt: {}, scores: {},
-    api: { preset: 'sportmonks', token: '', url: '', search: '', ids: {} }
+    api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -485,13 +485,14 @@
       label: 'Sportmonks v3',
       url: 'https://api.sportmonks.com/v3/football/teams/{ID}?api_token={TOKEN}&include=statistics.details.type',
       search: 'https://api.sportmonks.com/v3/football/teams/search/{NAME}?api_token={TOKEN}',
+      bulk: 'https://api.sportmonks.com/v3/football/teams/search/{NAME}?api_token={TOKEN}&include=statistics.details.type',
       hint: 'URL ini sama persis dengan yang muncul di API Playground Sportmonks. ' +
-            'Tombol "Ambil semua" mencari id tiap tim dari namanya lebih dulu, jadi Anda tidak perlu ' +
-            'menyalin id satu per satu.'
+            'Tombol "Ambil semua" hanya bekerja kalau penyedia mengizinkan panggilan dari halaman web; ' +
+            'Sportmonks tidak, jadi pakai kotak tempel massal di atas.'
     },
     custom: {
       label: 'URL sendiri',
-      url: '', search: '',
+      url: '', search: '', bulk: '',
       hint: 'Tempel URL lengkap apa pun. Tulis {TOKEN} di tempat kunci API, {ID} di tempat id tim, ' +
             'dan {NAME} di URL pencarian kalau penyedia Anda punya.'
     }
@@ -556,6 +557,189 @@
       });
   }
 
+  /* ------------------------------------------------ bulk paste import ---
+     The button above calls the provider from this page. Most football APIs
+     refuse that: they send no Access-Control-Allow-Origin header, so the
+     browser blocks the response before any code sees it and every team comes
+     back as a bare "Failed to fetch" - which says nothing about the token,
+     the quota or the league.
+
+     The address bar is not subject to that rule. So the reliable route is:
+     open one request in a tab, copy the whole response, paste it once here.
+     One response can carry many teams, and pastes accumulate, so filling a
+     slate is a handful of copies rather than thirty-six.
+     -------------------------------------------------------------------- */
+  function applyBulkPaste(text, out) {
+    var parsed;
+    try { parsed = E.parseManyTeams(text); } catch (e) { parsed = null; }
+    if (!parsed) {
+      out.innerHTML = '<div class="notice bad"><h3>Itu bukan JSON</h3>' +
+        '<p>Yang tertempel tidak bisa dibaca sebagai JSON. Pastikan seluruh isi tab tersalin ' +
+        '(Ctrl+A lalu Ctrl+C di tab yang menampilkan respons), bukan cuma sebagian.</p></div>';
+      return;
+    }
+    if (parsed.error) {
+      out.innerHTML = '<div class="notice bad"><h3>JSON terbaca, tapi tidak ada statistik di dalamnya</h3>' +
+        '<p>' + parsed.error + ' Paling sering karena <code>include=statistics.details.type</code> ' +
+        'hilang dari URL, atau liga itu di luar paket Anda sehingga yang kembali hanya nama tim.</p></div>';
+      return;
+    }
+
+    /* Match against every team the site knows, not just this slate: one
+       response often carries teams from several of them. */
+    var keys = Object.keys(DATA.teams);
+    var filled = [], skipped = [], missed = [];
+    keys.forEach(function (key) {
+      if (statOrigin(key) === 'user') { skipped.push(team(key).name); return; }
+      var hit = E.matchTeamName(team(key).name, parsed.teams);
+      if (!hit) { missed.push(key); return; }
+      STATE.overrides[key] = STATE.overrides[key] || {};
+      ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+        .forEach(function (f) { if (hit.stats[f] != null) STATE.overrides[key][f] = hit.stats[f]; });
+      filled.push({ key: key, name: team(key).name, api: hit.name, stats: hit.stats, missing: hit.missing });
+    });
+    if (filled.length) saveOverrides();
+
+    /* Which fixtures in the current slate now have BOTH sides filled - that
+       is the only thing that switches a fixture off market-only pricing. */
+    var ready = slateFixtures(STATE.slate).filter(function (f) {
+      return statOrigin(f.home) === 'user' && statOrigin(f.away) === 'user';
+    });
+    var slateKeys = {};
+    slateFixtures(STATE.slate).forEach(function (f) { slateKeys[f.home] = 1; slateKeys[f.away] = 1; });
+    var stillMissing = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
+
+    var html = '<div class="notice ' + (filled.length ? 'ok' : '') + '">' +
+      '<h3>' + parsed.teams.length + ' tim ada di tempelan, ' + filled.length + ' terpakai</h3>' +
+      '<p>' + ready.length + ' dari ' + slateFixtures(STATE.slate).length +
+      ' laga di jadwal ini sekarang dinilai oleh model, bukan oleh harga bandar.' +
+      (stillMissing.length
+        ? ' Masih kosong: <strong>' + stillMissing.map(function (k) { return team(k).name; }).join(', ') +
+          '</strong> &mdash; tempel respons lain untuk mengisinya.'
+        : ' Semua tim di jadwal ini sudah terisi.') +
+      '</p>' +
+      (skipped.length ? '<p class="stat-note">Tidak ditimpa karena sudah Anda isi sendiri: ' +
+        skipped.join(', ') + '.</p>' : '') +
+      '</div>';
+
+    if (filled.length) {
+      html += '<div style="max-height:240px;overflow:auto;font-family:var(--mono);font-size:11px;' +
+        'background:var(--surface-3);padding:9px;border-radius:4px;margin-top:8px">' +
+        filled.map(function (r) {
+          return r.name + ' &larr; ' + r.api + ' &nbsp; ' + r.stats.matches + ' laga, xG ' +
+            (r.stats.xgF != null ? r.stats.xgF : '?') + ', xGA ' +
+            (r.stats.xgA != null ? r.stats.xgA : '?') +
+            (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warn)">hilang: ' +
+              r.missing.join(', ') + '</span>' : '');
+        }).join('<br>') + '</div>';
+    } else {
+      html += '<div class="notice"><h3>Tidak ada nama yang cocok</h3>' +
+        '<p>Nama tim di respons: ' + parsed.teams.slice(0, 25).map(function (t) {
+          return t.name;
+        }).join(', ') + (parsed.teams.length > 25 ? ', …' : '') + '. ' +
+        'Tidak satu pun cocok dengan tim di jadwal. Kalau menurut Anda seharusnya cocok, ' +
+        'kirim daftar itu ke Claude supaya pencocokan namanya diperbaiki.</p></div>';
+    }
+
+    /* renderAll rebuilds this panel, so render first and re-attach after. */
+    renderAll();
+    var fresh = $('api-bulk-out');
+    if (fresh) fresh.innerHTML = html;
+    else out.innerHTML = html;
+  }
+
+  function renderBulkPaste(host, presetKey) {
+    var wrap = el('div', 'notice');
+    wrap.style.marginTop = '10px';
+    wrap.innerHTML = '<h3>Cara cepat: buka satu URL, salin, tempel sekali</h3>' +
+      '<p>Browser tidak boleh memanggil Sportmonks langsung dari halaman ini &mdash; itu aturan ' +
+      '<strong>CORS</strong>, bukan soal token atau kuota, dan hasilnya selalu pesan ' +
+      '<em>Failed to fetch</em>. Membuka URL yang sama di tab baru tidak kena aturan itu. ' +
+      'Jadi: klik tautan di bawah, <strong>Ctrl+A lalu Ctrl+C</strong> di tab yang terbuka, ' +
+      'kembali ke sini, tempel. Satu respons bisa berisi banyak tim, dan tempelan berikutnya ' +
+      'menambah &mdash; tidak menghapus yang sudah masuk.</p>';
+    host.appendChild(wrap);
+
+    var bulkWrap = el('div', 'field');
+    var bl = el('label', null, 'URL massal (pakai {TOKEN}, dan {NAME} kalau perlu nama tim)');
+    bl.setAttribute('for', 'api-bulk');
+    var bulkIn = el('input');
+    bulkIn.id = 'api-bulk';
+    if (!STATE.api.bulk) {
+      STATE.api.bulk = API_PRESETS[presetKey].bulk || '';
+      saveApi();
+    }
+    bulkIn.value = STATE.api.bulk;
+    bulkIn.style.fontSize = '12px';
+    bulkWrap.appendChild(bl); bulkWrap.appendChild(bulkIn);
+    host.appendChild(bulkWrap);
+
+    var linkRow = el('div', 'btn-row');
+    var nameIn = el('input');
+    nameIn.placeholder = 'nama tim untuk {NAME}';
+    nameIn.style.cssText = 'width:190px;padding:6px 8px;border:1px solid var(--border-strong);' +
+      'border-radius:4px;background:var(--surface-1);color:var(--text-primary);font-size:12px';
+    var openLink = el('a', 'btn sm', 'Buka URL di tab baru');
+    openLink.target = '_blank';
+    openLink.rel = 'noopener noreferrer';
+    var linkNote = el('span');
+    linkNote.style.cssText = 'font-size:12px;color:var(--text-muted)';
+
+    function refreshLink() {
+      var token = (($('api-token') && $('api-token').value) || STATE.api.token || '').trim();
+      var url = (bulkIn.value || '').trim();
+      if (!token || !url) {
+        openLink.removeAttribute('href');
+        openLink.style.opacity = '0.45';
+        linkNote.textContent = !token ? 'Isi token dulu.' : 'Isi URL massal dulu.';
+        return;
+      }
+      openLink.href = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
+                         .replace(/\{NAME\}/g, encodeURIComponent((nameIn.value || '').trim()));
+      openLink.style.opacity = '1';
+      linkNote.textContent = 'Tautan ini memuat token Anda — jangan dibagikan atau di-screenshot.';
+    }
+    bulkIn.addEventListener('input', function () { STATE.api.bulk = bulkIn.value.trim(); saveApi(); refreshLink(); });
+    nameIn.addEventListener('input', refreshLink);
+    var tokenNode = $('api-token');
+    if (tokenNode) tokenNode.addEventListener('input', refreshLink);
+    refreshLink();
+
+    linkRow.appendChild(nameIn);
+    linkRow.appendChild(openLink);
+    linkRow.appendChild(linkNote);
+    host.appendChild(linkRow);
+
+    var ta = el('textarea');
+    ta.id = 'api-bulk-text';
+    ta.rows = 5;
+    ta.placeholder = 'Tempel seluruh JSON di sini, lalu tekan tombol di bawah.';
+    ta.style.cssText = 'width:100%;margin-top:9px;padding:8px;border:1px solid var(--border-strong);' +
+      'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
+      'font-family:var(--mono);font-size:11px;min-width:0';
+    host.appendChild(ta);
+
+    var applyRow = el('div', 'btn-row');
+    var applyBtn = el('button', 'btn', 'Isi semua tim dari tempelan ini');
+    applyBtn.type = 'button';
+    applyBtn.addEventListener('click', function () {
+      var out = $('api-bulk-out');
+      var text = (ta.value || '').trim();
+      if (!text) {
+        out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Kotaknya masih kosong.</p>';
+        return;
+      }
+      applyBulkPaste(text, out);
+    });
+    applyRow.appendChild(applyBtn);
+    host.appendChild(applyRow);
+
+    var bulkOut = el('div');
+    bulkOut.id = 'api-bulk-out';
+    bulkOut.style.marginTop = '10px';
+    host.appendChild(bulkOut);
+  }
+
   var API_ABORT = false;
 
   function apiFetchAll(btn) {
@@ -596,7 +780,7 @@
     out.appendChild(stop);
     out.appendChild(log);
 
-    var ok = 0, fail = 0, rawSample = null;
+    var ok = 0, fail = 0, rawSample = null, corsHit = false;
     function line(text, color) {
       var d = el('div', null, text);
       if (color) d.style.color = color;
@@ -611,6 +795,12 @@
         var summary = el('div', 'notice ' + (fail ? '' : 'ok'));
         summary.innerHTML = '<h3>' + (API_ABORT ? 'Dihentikan' : 'Selesai') + ': ' + ok +
           ' berhasil, ' + fail + ' gagal</h3>' +
+          (corsHit && !ok
+            ? '<p><strong>Ini CORS, bukan token dan bukan kuota.</strong> "Failed to fetch" berarti ' +
+              'browser menolak membaca jawaban sebelum kode ini sempat melihatnya, karena penyedia ' +
+              'tidak mengirim izin lintas-domain. Token Anda tidak terpakai, jadi kuota tidak berkurang. ' +
+              'Pakai kotak <strong>tempel massal</strong> di atas: buka URL-nya di tab baru, salin, tempel sekali.</p>'
+            : '') +
           (rawSample
             ? '<p>Ada respons yang tidak bisa dipetakan. Contohnya di bawah &mdash; salin dan kirim ke Claude ' +
               'supaya pemetaannya ditulis untuk bentuk ini.</p><pre style="max-height:200px;overflow:auto;' +
@@ -637,7 +827,9 @@
         .catch(function (err) {
           fail++;
           if (err && err.raw && !rawSample) rawSample = err.raw;
-          line('    gagal \u2014 ' + (err.message || err), 'var(--critical)');
+          var msg = String((err && err.message) || err);
+          if (/failed to fetch|networkerror|load failed/i.test(msg)) corsHit = true;
+          line('    gagal \u2014 ' + msg, 'var(--critical)');
         })
         .then(function () { setTimeout(function () { step(i + 1); }, API_DELAY_MS); });
     }
@@ -717,6 +909,8 @@
     var hint = el('p', 'stat-note', API_PRESETS[presetKey].hint);
     host.appendChild(hint);
 
+    renderBulkPaste(host, presetKey);
+
     var slateKeys = {};
     slateFixtures(STATE.slate).forEach(function (f) { slateKeys[f.home] = 1; slateKeys[f.away] = 1; });
     var pending = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
@@ -739,6 +933,7 @@
       STATE.api.preset = sel.value;
       STATE.api.url = API_PRESETS[sel.value].url;
       STATE.api.search = API_PRESETS[sel.value].search || '';
+      STATE.api.bulk = API_PRESETS[sel.value].bulk || '';
       saveApi(); renderApiPanel();
     });
     tokenIn.addEventListener('change', function () { STATE.api.token = tokenIn.value.trim(); saveApi(); });
@@ -2033,7 +2228,7 @@
         if (parsedAp && typeof parsedAp === 'object') {
           STATE.api = { preset: parsedAp.preset || 'sportmonks', token: parsedAp.token || '',
                         url: parsedAp.url || '', search: parsedAp.search || '',
-                        ids: parsedAp.ids || {} };
+                        bulk: parsedAp.bulk || '', ids: parsedAp.ids || {} };
         }
       }
     } catch (err) {}

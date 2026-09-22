@@ -471,7 +471,7 @@
     }
     if (v && typeof v === 'object') {
       /* {value: 12}, {total: 12}, {count: 12}, {all: {count: 12}} */
-      var keys = ['value', 'total', 'count', 'average', 'amount'];
+      var keys = ['value', 'total', 'count', 'average', 'amount', 'all'];
       for (var i = 0; i < keys.length; i++) {
         if (v[keys[i]] != null) {
           var n2 = numericish(v[keys[i]]);
@@ -565,6 +565,89 @@
       if (out[k] == null) out._missing.push(k);
     });
     return out;
+  }
+
+
+  /* ------------------------------------------- multi-team JSON import ---
+     A browser cannot call most football APIs directly: they do not send
+     Access-Control-Allow-Origin, so the fetch fails with a bare "Failed to
+     fetch" no matter how correct the token is. Opening the same URL in a tab
+     works fine, because the address bar is not subject to CORS.
+
+     So the practical route is one bulk request, opened in a tab, copied once
+     and pasted here - a list endpoint returning every team with its
+     statistics attached. This walks such a response, pulls each team's name
+     and statistics, and hands back a map keyed by name for the caller to
+     match against its own fixtures.
+     ----------------------------------------------------------------- */
+  function parseManyTeams(text) {
+    var json;
+    try { json = JSON.parse(text); } catch (e) { return null; }
+
+    var teams = [];
+    function walk(node, depth) {
+      if (!node || typeof node !== 'object' || depth > 8) return;
+      if (Array.isArray(node)) {
+        node.forEach(function (n) { walk(n, depth + 1); });
+        return;
+      }
+      /* A team entry is an object with a name and something statistics-like
+         hanging off it. Anything else is a container to descend through. */
+      var hasName = typeof node.name === 'string' && node.name.length > 1;
+      var statsHolder = node.statistics || node.details || node.stats;
+      if (hasName && statsHolder) {
+        var found = {};
+        collectFromJSON(statsHolder, found, 0);
+        if (Object.keys(found).length >= 3) {
+          teams.push({ name: node.name, id: node.id != null ? String(node.id) : null, raw: found });
+          return;   // do not descend into a team we have already taken
+        }
+      }
+      for (var k in node) {
+        if (Object.prototype.hasOwnProperty.call(node, k)) walk(node[k], depth + 1);
+      }
+    }
+    walk(json, 0);
+    if (!teams.length) return { error: 'Tidak ada tim dengan statistik yang dikenali di JSON ini.' };
+
+    return {
+      teams: teams.map(function (t) {
+        var f = t.raw;
+        var m = f.matches;
+        var perMatch = m && m > 1;
+        function per(v) {
+          if (v == null) return null;
+          return perMatch ? Math.round((v / m) * 100) / 100 : Math.round(v * 100) / 100;
+        }
+        var missing = [];
+        var stats = {
+          matches: m || 1, goals: per(f.goals), xgF: per(f.xgF), xgA: per(f.xgA),
+          xA: per(f.xA), shots: per(f.shots), sot: per(f.sot), bigMiss: per(f.bigMiss),
+          fouls: per(f.fouls), tackles: per(f.tackles), yellow: per(f.yellow), red: per(f.red)
+        };
+        ['goals','xgF','xgA','shots','sot','fouls','tackles'].forEach(function (k) {
+          if (stats[k] == null) missing.push(k);
+        });
+        return { name: t.name, id: t.id, stats: stats, missing: missing };
+      })
+    };
+  }
+
+  /** Loose name match: exact first, then normalised, then containment. */
+  function matchTeamName(target, candidates) {
+    function norm(x) {
+      return String(x || '').toLowerCase()
+        .replace(/\b(fc|afc|cf|sc|ac|as|ss|ssc|club|cd|rc|sv|vfb|fk|bk|if)\b/g, '')
+        .replace(/[^a-z0-9]+/g, '');
+    }
+    var t = norm(target);
+    var exact = candidates.filter(function (c) { return norm(c.name) === t; })[0];
+    if (exact) return exact;
+    var partial = candidates.filter(function (c) {
+      var n = norm(c.name);
+      return n && t && (n.indexOf(t) === 0 || t.indexOf(n) === 0);
+    })[0];
+    return partial || null;
   }
 
   function parseTeamStats(text) {
@@ -1463,6 +1546,7 @@
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
     parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
     parseStatsJSON: parseStatsJSON, STAT_PATTERNS: STAT_PATTERNS,
+    parseManyTeams: parseManyTeams, matchTeamName: matchTeamName,
     XG_PER_SHOT: XG_PER_SHOT,
     analyseFixture: analyseFixture, outrightProbs: outrightProbs,
     impliedLambdas: impliedLambdas, marketTargets: marketTargets, fitError: fitError,
