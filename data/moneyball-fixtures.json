@@ -10,6 +10,13 @@
       "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - Inggris, Spanyol, Italia, Jerman, Prancis. Papan format INDO, dikonversi ke Desimal.",
       "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats.",
       "6": "14-15 Okt 2026 - Liga Champions UEFA (Pasar Awal, format INDO)"
+    },
+    "slateStart": {
+      "1": "2026-09-20",
+      "2": "2026-09-19",
+      "3": "2026-10-10",
+      "4": "2026-09-24",
+      "6": "2026-10-14"
     }
   },
   "leagues": [
