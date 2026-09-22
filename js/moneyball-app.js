@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}
+    legs: [], overrides: {}, tilt: {}, scores: {}
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -1217,7 +1217,29 @@
       } catch (err) {}
     });
 
-    var grades = DATA.coupons.map(function (c) { return E.gradeCoupon(c, byId); });
+    /* A pre-registered coupon carries no results yet. Scores typed here are
+       merged in before grading, so the ledger updates as matches finish
+       without waiting on a redeploy. The stored model probability is the one
+       frozen at prediction time and is never recomputed. */
+    var grades = DATA.coupons.map(function (c) {
+      var merged = c;
+      if (c.status === 'pending') {
+        merged = {};
+        for (var k in c) merged[k] = c[k];
+        merged.legs = c.legs.map(function (leg, i) {
+          var key = c.id + '|' + i;
+          var typed = STATE.scores[key];
+          if (!typed) return leg;
+          var copy = {};
+          for (var k2 in leg) copy[k2] = leg[k2];
+          if (typed.score) copy.score = typed.score;
+          if (typed.score1h) copy.score1h = typed.score1h;
+          copy.outcome = null;   // always derive from the score
+          return copy;
+        });
+      }
+      return E.gradeCoupon(merged, byId);
+    });
     var rep = E.calibrationReport(grades);
 
     if (rep) {
@@ -1275,6 +1297,7 @@
         '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
         '<th style="text-align:right">Prob. model</th><th style="text-align:right">EV model</th>' +
         '<th>Vonis model</th></tr></thead><tbody>';
+      var pending = g.coupon.status === 'pending';
       g.rows.forEach(function (r, i) {
         var l = r.leg;
         var verdict = '\u2014', vcolor = 'var(--text-muted)';
@@ -1291,16 +1314,34 @@
           '<td class="num">' + (i + 1) + '</td>' +
           '<td>' + l.match + '</td><td>' + l.pick + '</td>' +
           '<td class="num">' + (l.odds ? l.odds.toFixed(2) : '\u2014') + '</td>' +
-          '<td class="num"' + (l.scoreNote ? ' title="' + l.scoreNote.replace(/"/g, '&quot;') + '"' : '') + '>' +
+          (pending
+            ? '<td class="num"><input class="score-in" data-c="' + g.coupon.id + '" data-i="' + i +
+              '" data-f="score" value="' + (l.score || '') + '" placeholder="1:1" ' +
+              'style="width:56px;padding:2px 4px;font-family:var(--mono);font-size:12px;' +
+              'border:1px solid var(--border-strong);border-radius:3px;background:var(--surface-1);' +
+              'color:var(--text-primary)" />' +
+              (l.half === '1h'
+                ? ' <input class="score-in" data-c="' + g.coupon.id + '" data-i="' + i +
+                  '" data-f="score1h" value="' + (l.score1h || '') + '" placeholder="BB1 0:0" ' +
+                  'title="Skor babak pertama - leg ini diselesaikan dari sini" ' +
+                  'style="width:62px;padding:2px 4px;font-family:var(--mono);font-size:12px;' +
+                  'border:1px solid var(--border-strong);border-radius:3px;background:var(--surface-1);' +
+                  'color:var(--text-primary)" />'
+                : '') + '</td>'
+            : '<td class="num"' + (l.scoreNote ? ' title="' + l.scoreNote.replace(/"/g, '&quot;') + '"' : '') + '>' +
             (l.score || '\u2014') +
             (l.score1h ? ' <span style="color:var(--text-muted)">(BB1 ' + l.score1h + ')</span>' : '') +
             (r.outcomeMismatch ? ' <span style="color:var(--critical)" title="Hasil yang dicatat bertentangan dengan skor. Engine memakai skor.">&#9888;</span>' : '') +
-            '</td>' +
+            '</td>') +
           '<td style="font-weight:600;color:' +
             (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)'
              : r.outcome === 'push' ? 'var(--text-secondary)' : 'var(--warning)') + '">' +
             (OUTCOME_LABEL[r.outcome] || '?') + '</td>' +
-          '<td class="num">' + (r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
+          '<td class="num"' + (l.pModelAtPrediction != null
+              ? ' title="Dibekukan pada ' + (g.coupon.registeredAt || 'saat prediksi') +
+                ', sebelum pertandingan. Tidak dihitung ulang."' : '') + '>' +
+            (l.pModelAtPrediction != null ? pct(l.pModelAtPrediction, 1)
+             : r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
           '<td class="num">' + (r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +
           '<td style="color:' + vcolor + ';font-weight:600;font-size:12px">' + verdict + '</td></tr>';
       });
@@ -1315,6 +1356,18 @@
         panel.appendChild(n);
       }
       host.appendChild(panel);
+    });
+
+    host.querySelectorAll('.score-in').forEach(function (inp) {
+      inp.addEventListener('change', function () {
+        var key = inp.getAttribute('data-c') + '|' + inp.getAttribute('data-i');
+        STATE.scores[key] = STATE.scores[key] || {};
+        var v = inp.value.trim();
+        if (v) STATE.scores[key][inp.getAttribute('data-f')] = v;
+        else delete STATE.scores[key][inp.getAttribute('data-f')];
+        try { localStorage.setItem('mb-scores', JSON.stringify(STATE.scores)); } catch (e) {}
+        renderCalibration();
+      });
     });
 
     /* the alternatives the user says he should have taken, graded */
@@ -1523,6 +1576,14 @@
     /* Judgements are work: losing them on a refresh would make the control
        not worth using. Browser storage can be unavailable or throw, so every
        read and write is guarded and the page renders fine without it. */
+    try {
+      var sc = localStorage.getItem('mb-scores');
+      if (sc) {
+        var parsedSc = JSON.parse(sc);
+        if (parsedSc && typeof parsedSc === 'object') STATE.scores = parsedSc;
+      }
+    } catch (err) { STATE.scores = {}; }
+
     try {
       var saved = localStorage.getItem('mb-tilt');
       if (saved) {
