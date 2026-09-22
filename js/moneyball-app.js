@@ -1526,10 +1526,17 @@
         var miss = parsed._missing.length
           ? ' Tidak ditemukan: ' + parsed._missing.join(', ') + ' \u2014 isi tangan kalau ada.'
           : '';
+        /* A competition page early in the season can report a single match.
+           One match is a coin toss dressed as a statistic, so say so where
+           the number lands rather than letting it look like evidence. */
+        var thin = parsed.matches < 4
+          ? ' <strong>Baru ' + parsed.matches + ' laga</strong> \u2014 terlalu sedikit untuk ' +
+            'dipercaya sendirian; model tetap condong ke harga pasar.'
+          : '';
         msg.innerHTML = 'Terisi dari ' + parsed.matches + ' pertandingan.' +
           (parsed._estimated.xgF
             ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
-            : '') + miss;
+            : '') + thin + miss;
         renderAll();
       });
       btnRow.appendChild(imp); btnRow.appendChild(msg);
