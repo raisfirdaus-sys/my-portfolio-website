@@ -554,12 +554,24 @@
         v.pFairMarket = dv.probs[0];
       }
 
-      /* Leg efficiency: how much true probability you get per unit of
-         margin paid, discounted for quarter-line payout drag. Used to rank
-         parlay legs when the model has no independent information. */
-      var pRef = v.pFairMarket != null ? v.pFairMarket : v.pModel;
+      /* Leg efficiency, for ranking parlay legs.
+         The first version of this multiplied the probability by a flat
+         constant per line type. That was too crude, and two real settled
+         coupons showed why: across 18 legs, half lines returned 100% of
+         their printed odds, whole lines 88% and quarter lines 64%. The
+         leakage is structural, not bad luck - a push pays 1.0x and wipes the
+         leg's odds entirely, a half-lose pays 0.5x, and in a parlay both
+         silently delete the payout you were counting on.
+         So rank by the probability mass that actually pays FULL odds, giving
+         half-wins half credit and pushes and half-loses none, then discount
+         by the margin paid. A whole line with 42% push risk now scores far
+         below one with 15%, which a flat constant could never express. */
       var vigCost = v.vig != null ? v.vig : 0.06;
-      v.efficiency = pRef * (1 - vigCost * 2.2) * lineSafety(kind, line);
+      var cleanWin = (bet.dist.win || 0) + 0.5 * (bet.dist.halfWin || 0);
+      v.cleanWin = cleanWin;
+      v.pushRisk = (bet.dist.push || 0);
+      v.halfRisk = (bet.dist.halfWin || 0) + (bet.dist.halfLose || 0);
+      v.efficiency = cleanWin * (1 - vigCost * 2.2);
 
       v.id = fx.id + '|' + half + '|' + kind + '|' + (line == null ? side : line + '|' + side);
       v.fixtureId = fx.id;

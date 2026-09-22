@@ -106,9 +106,7 @@
   function renderReality() {
     var box = $('reality');
     box.innerHTML = '';
-    var fxs = slateFixtures(STATE.slate);
-    var an = [];
-    fxs.forEach(function (f) { try { an.push(analyse(f)); } catch (err) {} });
+    var an = analysesForSlate();
     if (!an.length) { box.textContent = 'Tidak ada pertandingan di jadwal ini.'; return; }
 
     // average two-way margin actually on offer in this slate
@@ -746,12 +744,28 @@
   }
 
   function analysesForSlate() {
+    /* Seed statistics are placeholders, not information. If nobody has typed
+       real numbers for this slate, any disagreement with the market is
+       fabricated, so the parlay is priced at the market's own probabilities:
+       a full anchor. The resulting EV is then the compounded margin, which is
+       the true cost of the ticket, instead of an invented +42% edge. */
+    var mw = slateHasUserStats() ? STATE.marketWeight : 1;
     var an = [];
     slateFixtures(STATE.slate).forEach(function (f) {
-      try { an.push(analyse(f)); } catch (err) {}
+      try {
+        an.push(E.analyseFixture(f, teamsView(), DATA.leagues,
+          { marketWeight: mw, calibration: CALIB }));
+      } catch (err) {}
     });
     return an;
   }
+  /** Has a human actually typed statistics for anything in this slate? */
+  function slateHasUserStats() {
+    return slateFixtures(STATE.slate).some(function (f) {
+      return statOrigin(f.home) === 'user' || statOrigin(f.away) === 'user';
+    });
+  }
+
   function parlayOpts(an) {
     return {
       legs: parseInt($('p-legs').value, 10) || 9,
@@ -759,7 +773,12 @@
       minProb: parseFloat($('p-minprob').value) || 0.5,
       maxProb: parseFloat($('p-maxprob').value) || 0.9,
       kinds: $('p-kinds').value.split(','),
-      useEV: an.some(function (a) { return !a.statsMissing; })
+      /* Selecting on expected value is only honest when the numbers behind
+         that value came from a person. Ranking by EV over placeholder seeds
+         makes the selector hunt for edges I invented, which is how a ticket
+         ends up advertised at +42% EV. With seeds, rank on what is actually
+         knowable instead: full-payout probability net of margin. */
+      useEV: slateHasUserStats()
     };
   }
   function buildParlay() {
@@ -858,11 +877,23 @@
         'Inilah yang memotong slip Anda dari 73x jadi 6.07x. Ganti ke garis setengah kalau ada.',
         'bad');
     }
+    if (sim.ev > 0.02 && !slateHasUserStats()) {
+      var fake = el('div', 'kpi');
+      fake.style.cssText = 'border-left:4px solid var(--critical)';
+      fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
+        '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
+        '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri, ' +
+        'jadi angka positif ini keluar dari data contoh yang saya karang agar alat bisa jalan. ' +
+        'Bandar tidak menawarkan edge sebesar ini kepada siapa pun. Abaikan kolom EV sampai ' +
+        'Anda mengisi xG asli; yang tetap benar cuma margin, jenis garis dan peluang bayar penuh.</div>';
+      kpis.appendChild(fake);
+    }
+
     var why = el('div', 'kpi');
     why.innerHTML = '<div class="cap">Arti stabilo biru muda</div>' +
       '<div class="note">' + (hasEV
         ? 'Model punya statistik asli untuk jadwal ini, jadi baris yang distabilo adalah yang nilai harapannya positif, dan yang <strong>dilingkari</strong> adalah EV tertinggi.'
-        : 'Statistik tim belum diisi, jadi tidak ada EV untuk dikejar. Yang <strong>dilingkari</strong> adalah leg termurah untuk dipegang: probabilitas tertinggi per satuan margin bandar, tanpa garis kuartal. Itu satu-satunya keunggulan yang nyata sebelum Anda isi xG.') +
+        : 'Statistik tim belum Anda isi, jadi tidak ada EV yang layak dikejar. Yang <strong>dilingkari</strong> adalah leg dengan peluang <strong>bayar penuh</strong> tertinggi setelah dipotong margin bandar &mdash; bukan probabilitas mentah. Bedanya besar: garis bulat bisa berprobabilitas 56% tapi cuma 32% bayar penuh karena sisanya seri, dan leg seri mengalikan tiket dengan 1.0. Aturan ini datang dari dua kupon nyata Anda: garis setengah mengembalikan 100% odds tercetak, bulat 88%, kuartal 64%.') +
       '</div>';
     kpis.appendChild(why);
 
