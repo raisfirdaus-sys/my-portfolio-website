@@ -806,7 +806,11 @@
        the best expected value. Without it, EV is zero everywhere, so the
        honest criterion is the leg that is cheapest to hold: highest
        probability per unit of margin paid, with no quarter-line drag. */
-    var hasEV = STATE.legs.some(function (L) { return L.pick.ev > 0.015; });
+    /* Only call it an expected-value pick when a person supplied the numbers
+       behind that value. A positive EV over placeholder seeds is not a
+       reason to change how the ticket is ranked or described. */
+    var userStats = slateHasUserStats();
+    var hasEV = userStats && STATE.legs.some(function (L) { return L.pick.ev > 0.015; });
     var bestIdx = 0, bestScore = -Infinity;
     STATE.legs.forEach(function (L, i) {
       var sc = hasEV ? L.pick.ev : L.pick.efficiency;
@@ -892,7 +896,7 @@
     var why = el('div', 'kpi');
     why.innerHTML = '<div class="cap">Arti stabilo biru muda</div>' +
       '<div class="note">' + (hasEV
-        ? 'Model punya statistik asli untuk jadwal ini, jadi baris yang distabilo adalah yang nilai harapannya positif, dan yang <strong>dilingkari</strong> adalah EV tertinggi.'
+        ? 'Anda sudah mengisi statistik untuk jadwal ini, jadi baris yang distabilo adalah yang nilai harapannya positif, dan yang <strong>dilingkari</strong> adalah EV tertinggi.'
         : 'Statistik tim belum Anda isi, jadi tidak ada EV yang layak dikejar. Yang <strong>dilingkari</strong> adalah leg dengan peluang <strong>bayar penuh</strong> tertinggi setelah dipotong margin bandar &mdash; bukan probabilitas mentah. Bedanya besar: garis bulat bisa berprobabilitas 56% tapi cuma 32% bayar penuh karena sisanya seri, dan leg seri mengalikan tiket dengan 1.0. Aturan ini datang dari dua kupon nyata Anda: garis setengah mengembalikan 100% odds tercetak, bulat 88%, kuartal 64%.') +
       '</div>';
     kpis.appendChild(why);
