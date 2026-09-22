@@ -8,7 +8,8 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}
+    legs: [], overrides: {}, tilt: {}, scores: {},
+    api: { preset: 'sportmonks', token: '', url: '', ids: {} }
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -327,6 +328,7 @@
     }
 
     renderTilt(a);
+    renderApiPanel();
     renderCross(a);
     renderStatCompare(a);
     renderHeat(a);
@@ -464,6 +466,184 @@
       html += '<br />Selama nol, EV di bawah hanyalah margin bandar dan tabel diurutkan menurut bayar-penuh.';
     }
     note.innerHTML = html;
+  }
+
+
+  /* ------------------------------------------------------ API source ----
+     This page is served from GitHub Pages, so anything committed to the
+     repository is public. An API token therefore never goes in the source:
+     it is typed here and kept in the browser's own storage, on this machine
+     only. The fetch runs in the browser too, which is the only way it can
+     run at all - whoever built this cannot reach the network.
+
+     The endpoint is editable rather than hard-coded because provider URLs
+     differ and change. Paste the example request from the provider's own
+     console, put {TOKEN} where the key goes, and the page substitutes it.
+     ----------------------------------------------------------------- */
+  var API_PRESETS = {
+    sportmonks: {
+      label: 'Sportmonks v3',
+      url: 'https://api.sportmonks.com/v3/football/teams/{ID}?api_token={TOKEN}&include=statistics.details.type',
+      hint: 'Ambil URL contoh dari tombol "Run your first request" di Sportmonks, lalu ganti tokennya dengan {TOKEN}. {ID} diganti id tim.'
+    },
+    custom: {
+      label: 'URL sendiri',
+      url: '',
+      hint: 'Tempel URL lengkap apa pun. Tulis {TOKEN} di tempat kunci API, dan {ID} di tempat id tim kalau ada.'
+    }
+  };
+
+  function renderApiPanel() {
+    var host = $('api-panel');
+    if (!host) return;
+    host.innerHTML = '';
+
+    var warn = el('div', 'notice bad');
+    warn.innerHTML = '<h3>Token API tidak pernah masuk ke repo</h3>' +
+      '<p>Halaman ini disajikan GitHub Pages, jadi apa pun yang ada di kode sumbernya bisa dibaca siapa saja. ' +
+      'Token yang Anda ketik di sini disimpan di <strong>localStorage browser ini saja</strong>, tidak pernah ' +
+      'dikirim ke mana pun kecuali ke penyedia API-nya sendiri, dan tidak pernah ikut ter-commit.</p>' +
+      '<p><strong>Kalau token Anda pernah terlihat orang lain &mdash; di chat, screenshot, atau layar yang dibagikan &mdash; ' +
+      'hapus dan buat baru di halaman API Tokens penyedia Anda sebelum memakainya di sini.</strong></p>';
+    host.appendChild(warn);
+
+    var grid = el('div', 'form-grid');
+    function field(id, label, value, type) {
+      var f = el('div', 'field');
+      var l = el('label', null, label); l.setAttribute('for', id);
+      var i = el('input');
+      i.id = id; i.type = type || 'text'; i.value = value || '';
+      f.appendChild(l); f.appendChild(i);
+      grid.appendChild(f);
+      return i;
+    }
+    var presetKey = STATE.api.preset || 'sportmonks';
+
+    var fp = el('div', 'field');
+    var lp = el('label', null, 'Penyedia'); lp.setAttribute('for', 'api-preset');
+    var sel = el('select'); sel.id = 'api-preset';
+    Object.keys(API_PRESETS).forEach(function (k) {
+      var o = el('option', null, API_PRESETS[k].label);
+      o.value = k; if (k === presetKey) o.selected = true;
+      sel.appendChild(o);
+    });
+    fp.appendChild(lp); fp.appendChild(sel);
+    grid.appendChild(fp);
+
+    var tokenIn = field('api-token', 'Token API', STATE.api.token, 'password');
+    host.appendChild(grid);
+
+    var urlWrap = el('div', 'field');
+    urlWrap.style.marginTop = '9px';
+    var ul = el('label', null, 'URL permintaan'); ul.setAttribute('for', 'api-url');
+    var urlIn = el('input');
+    urlIn.id = 'api-url';
+    /* Show AND store the preset default. Rendering it into the field without
+       committing it to state meant the button reported "URL belum diisi"
+       while a URL was plainly visible above it. */
+    if (!STATE.api.url) { STATE.api.url = API_PRESETS[presetKey].url; saveApi(); }
+    urlIn.value = STATE.api.url;
+    urlIn.style.fontSize = '12px';
+    urlWrap.appendChild(ul); urlWrap.appendChild(urlIn);
+    host.appendChild(urlWrap);
+
+    var hint = el('p', 'stat-note', API_PRESETS[presetKey].hint);
+    host.appendChild(hint);
+
+    sel.addEventListener('change', function () {
+      STATE.api.preset = sel.value;
+      STATE.api.url = API_PRESETS[sel.value].url;
+      saveApi(); renderApiPanel();
+    });
+    tokenIn.addEventListener('change', function () { STATE.api.token = tokenIn.value.trim(); saveApi(); });
+    urlIn.addEventListener('change', function () { STATE.api.url = urlIn.value.trim(); saveApi(); });
+
+    var fx = currentFixture();
+    if (!fx) return;
+    var row = el('div', 'btn-row');
+    [fx.home, fx.away].forEach(function (key) {
+      var idField = el('input');
+      idField.placeholder = 'id tim ' + team(key).name;
+      idField.value = (STATE.api.ids && STATE.api.ids[key]) || '';
+      idField.style.cssText = 'width:130px;padding:6px 8px;border:1px solid var(--border-strong);' +
+        'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
+        'font-family:var(--mono);font-size:12px';
+      idField.addEventListener('change', function () {
+        STATE.api.ids = STATE.api.ids || {};
+        STATE.api.ids[key] = idField.value.trim();
+        saveApi();
+      });
+      var btn = el('button', 'btn sm', 'Ambil ' + team(key).name);
+      btn.type = 'button';
+      btn.addEventListener('click', function () { apiFetch(key, idField.value.trim(), btn); });
+      row.appendChild(idField); row.appendChild(btn);
+    });
+    host.appendChild(row);
+    var out = el('div'); out.id = 'api-out'; out.style.marginTop = '10px';
+    host.appendChild(out);
+  }
+
+  function saveApi() {
+    try { localStorage.setItem('mb-api', JSON.stringify(STATE.api)); } catch (err) {}
+  }
+
+  function apiFetch(teamKey, id, btn) {
+    var out = $('api-out');
+    var tokenEl = $('api-token'), urlEl = $('api-url');
+    var token = ((tokenEl && tokenEl.value) || STATE.api.token || '').trim();
+    var url = ((urlEl && urlEl.value) || STATE.api.url || '').trim();
+    if (!token) { out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Token belum diisi.</p>'; return; }
+    if (!url) { out.innerHTML = '<p class="stat-note" style="color:var(--critical)">URL belum diisi.</p>'; return; }
+    var full = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
+                  .replace(/\{ID\}/g, encodeURIComponent(id || ''));
+    btn.disabled = true;
+    var label = btn.textContent;
+    btn.textContent = 'Mengambil...';
+    out.innerHTML = '<p class="stat-note">Memanggil penyedia dari browser Anda...</p>';
+
+    fetch(full, { headers: { 'Accept': 'application/json' } })
+      .then(function (r) {
+        return r.text().then(function (t) { return { ok: r.ok, status: r.status, text: t }; });
+      })
+      .then(function (res) {
+        var parsed = null;
+        try { parsed = E.parseTeamStats(res.text); } catch (e) {}
+        if (!res.ok) {
+          out.innerHTML = '<div class="notice bad"><h3>Penyedia menolak: HTTP ' + res.status + '</h3>' +
+            '<p>Paling sering: token salah, atau liga ini tidak termasuk paket gratis Anda. ' +
+            'Respons mentahnya di bawah &mdash; kirim ke Claude kalau perlu dibaca.</p></div>' +
+            '<pre style="max-height:180px;overflow:auto;background:var(--surface-3);padding:9px;' +
+            'border-radius:4px;font-size:11px;white-space:pre-wrap">' +
+            res.text.slice(0, 1500).replace(/</g, '&lt;') + '</pre>';
+          return;
+        }
+        if (parsed && !parsed.error && parsed._missing && parsed._missing.length < 6) {
+          STATE.overrides[teamKey] = STATE.overrides[teamKey] || {};
+          ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+            .forEach(function (f) { if (parsed[f] != null) STATE.overrides[teamKey][f] = parsed[f]; });
+          saveOverrides();
+          out.innerHTML = '<div class="notice ok"><h3>' + team(teamKey).name + ' terisi dari API</h3>' +
+            '<p>' + parsed.matches + ' pertandingan. ' +
+            (parsed._missing.length ? 'Tidak ditemukan: ' + parsed._missing.join(', ') + '.' : 'Semua field terisi.') +
+            '</p></div>';
+          renderAll();
+        } else {
+          out.innerHTML = '<div class="notice"><h3>Respons masuk, tapi belum bisa dipetakan</h3>' +
+            '<p>' + ((parsed && parsed.error) || 'Field statistik yang dikenali terlalu sedikit.') +
+            ' Salin JSON di bawah dan kirim ke Claude &mdash; pemetaannya akan ditulis persis untuk bentuk ini.</p></div>' +
+            '<pre style="max-height:220px;overflow:auto;background:var(--surface-3);padding:9px;' +
+            'border-radius:4px;font-size:11px;white-space:pre-wrap">' +
+            res.text.slice(0, 2500).replace(/</g, '&lt;') + '</pre>';
+        }
+      })
+      .catch(function (err) {
+        out.innerHTML = '<div class="notice bad"><h3>Panggilan gagal</h3>' +
+          '<p>' + String(err.message || err) + '</p>' +
+          '<p>Kalau pesannya soal CORS, penyedia itu memang tidak mengizinkan panggilan langsung dari ' +
+          'halaman web. Jalan keluarnya: buka URL-nya di tab baru, salin JSON-nya, lalu tempel di kotak ' +
+          '<em>Input Statistik</em> di bawah &mdash; hasilnya sama persis.</p></div>';
+      })
+      .then(function () { btn.disabled = false; btn.textContent = label; });
   }
 
   /* ------------------------------------------------- BT cross-check ----- */
@@ -1660,6 +1840,17 @@
     /* Judgements are work: losing them on a refresh would make the control
        not worth using. Browser storage can be unavailable or throw, so every
        read and write is guarded and the page renders fine without it. */
+    try {
+      var ap = localStorage.getItem('mb-api');
+      if (ap) {
+        var parsedAp = JSON.parse(ap);
+        if (parsedAp && typeof parsedAp === 'object') {
+          STATE.api = { preset: parsedAp.preset || 'sportmonks', token: parsedAp.token || '',
+                        url: parsedAp.url || '', ids: parsedAp.ids || {} };
+        }
+      }
+    } catch (err) {}
+
     try {
       var ov = localStorage.getItem('mb-overrides');
       if (ov) {

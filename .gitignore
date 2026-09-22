@@ -1,0 +1,10 @@
+# Secrets must never reach this repository. GitHub Pages serves every file
+# here publicly, so an API token committed once is a token to revoke.
+# The Moneyball page keeps its token in the browser's localStorage instead,
+# entered by the person using it and never written to disk here.
+*.token
+*.secret
+.env
+.env.*
+secrets.json
+api-keys.json
