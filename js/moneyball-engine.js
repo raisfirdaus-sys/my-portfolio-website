@@ -655,7 +655,8 @@
     return partial || null;
   }
 
-  function parseTeamStats(text) {
+  function parseTeamStats(text, opts) {
+    opts = opts || {};
     if (!text || typeof text !== 'string') return null;
     var trimmed = text.trim();
     /* A pasted API response is JSON; a pasted page is not. */
@@ -666,7 +667,22 @@
     var t = text.replace(/\u00a0/g, ' ');
 
     var matches = grabStat(t, ['Matches played', 'Laga dimainkan', 'Pertandingan dimainkan']);
-    if (!matches || matches < 1) return { error: 'Jumlah pertandingan tidak ditemukan. Pastikan bagian "Matches played" ikut tersalin.' };
+    /* Every number on the page is a season total, so nothing can be turned
+       into a per-match average without this one figure. Pages differ in how
+       they draw it - inside a donut, split across lines, sometimes as an
+       image - so when it cannot be read, take it from the caller rather
+       than refusing a paste that is otherwise complete. */
+    var matchesFromCaller = false;
+    if (!matches || matches < 1) {
+      var fb = parseFloat(opts.matchesFallback);
+      if (isFinite(fb) && fb >= 1) { matches = fb; matchesFromCaller = true; }
+    }
+    if (!matches || matches < 1) {
+      return { error: 'Jumlah laga tidak terbaca dari halaman ini. ' +
+        'Ketik angkanya di kotak LAGA DIMAINKAN, lalu tekan Impor lagi.',
+        needsMatches: true,
+        sample: String(text).replace(/\s+/g, ' ').trim().slice(0, 240) };
+    }
 
     var goals      = grabStat(t, ['Goals']);
     var conceded   = grabStat(t, ['Goals conceded']);
@@ -696,6 +712,7 @@
 
     var out = {
       matches: matches,
+      _matchesFromCaller: matchesFromCaller,
       goals: per(goals),
       xgF: per(xgF),
       xgA: per(xgA),
