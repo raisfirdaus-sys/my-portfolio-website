@@ -1056,9 +1056,10 @@
       panel.style.cssText = 'border-top:1px solid var(--border)';
       var head = el('div', 'panel-head');
       head.style.background = 'var(--chrome-2)';
+      var pushes = g.rows.filter(function (r) { return r.outcome === 'push'; }).length;
       head.innerHTML = g.coupon.label +
         '<span class="sub">' + g.wins + ' menang, ' + g.halves + ' setengah, ' +
-        g.losses + ' kalah' +
+        (pushes ? pushes + ' seri, ' : '') + g.losses + ' kalah' +
         (g.grossMultiple != null ? ' \u00b7 pengali tiket ' + g.grossMultiple.toFixed(4) + 'x' : '') +
         (g.brier != null ? ' \u00b7 Brier ' + g.brier.toFixed(4) : '') + '</span>';
       panel.appendChild(head);
@@ -1084,10 +1085,14 @@
           '<td class="num">' + (i + 1) + '</td>' +
           '<td>' + l.match + '</td><td>' + l.pick + '</td>' +
           '<td class="num">' + (l.odds ? l.odds.toFixed(2) : '\u2014') + '</td>' +
-          '<td class="num">' + (l.score || '\u2014') +
-            (l.score1h ? ' <span style="color:var(--text-muted)">(BB1 ' + l.score1h + ')</span>' : '') + '</td>' +
+          '<td class="num"' + (l.scoreNote ? ' title="' + l.scoreNote.replace(/"/g, '&quot;') + '"' : '') + '>' +
+            (l.score || '\u2014') +
+            (l.score1h ? ' <span style="color:var(--text-muted)">(BB1 ' + l.score1h + ')</span>' : '') +
+            (r.outcomeMismatch ? ' <span style="color:var(--critical)" title="Hasil yang dicatat bertentangan dengan skor. Engine memakai skor.">&#9888;</span>' : '') +
+            '</td>' +
           '<td style="font-weight:600;color:' +
-            (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)' : 'var(--warning)') + '">' +
+            (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)'
+             : r.outcome === 'push' ? 'var(--text-secondary)' : 'var(--warning)') + '">' +
             (OUTCOME_LABEL[r.outcome] || '?') + '</td>' +
           '<td class="num">' + (r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
           '<td class="num">' + (r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +

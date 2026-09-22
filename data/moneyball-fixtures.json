@@ -10214,12 +10214,12 @@
     },
     {
       "id": "kupon-2",
-      "label": "Kupon 2 - KALAH (19-20/09, 9 leg: 7 menang, 2 kalah)",
+      "label": "Kupon 2 - KALAH (19-20/09, 9 leg: 6 menang, 1 seri, 2 kalah)",
       "stake": null,
       "ticketOdds": null,
       "netProfit": null,
       "grossReturn": 0,
-      "note": "Odds untuk dua leg yang kalah tidak diketahui - papannya tidak diarsipkan dan catatan Anda hilang. Skor dua leg itu Anda beri, jadi tetap bisa dinilai.",
+      "note": "Odds untuk dua leg yang kalah tidak diketahui - papannya tidak diarsipkan dan catatan Anda hilang. Skor diisi seiring Anda mengingatnya; tiap skor yang masuk diselesaikan ulang oleh engine, dan kalau hasil yang diklaim bertentangan dengan skor, barisnya ditandai.",
       "legs": [
         {
           "match": "Tottenham Hotspur vs Aston Villa",
@@ -10321,9 +10321,10 @@
           "side": "under",
           "half": "1h",
           "odds": 1.84,
-          "score": null,
-          "score1h": null,
-          "outcome": "win"
+          "score": "1:1",
+          "score1h": "1:0",
+          "outcome": "push",
+          "scoreNote": "Ante Budimir 16' (babak 1), Sergio Camello 50' (babak 2). Under 1.00 di garis bulat dengan 1 gol = stake kembali."
         },
         {
           "match": "Athletic Bilbao vs Alaves",
