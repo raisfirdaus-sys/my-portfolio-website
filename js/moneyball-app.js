@@ -229,12 +229,17 @@
      crest is a generated monogram unless that team carries a `logo` URL the
      operator has the right to use. Colour is derived from the team key, so
      it is stable across reloads and never two teams sharing a row. */
-  function crestHTML(key) {
-    var t = team(key);
-    if (t.logo) {
-      return '<img class="crest" src="' + String(t.logo).replace(/"/g, '&quot;') +
-             '" alt="" loading="lazy" />';
-    }
+  /* A crest is drawn by the reader's browser, never committed here.
+       1. logo   - set by the operator, or captured from their own API
+                   response, so the right to use it is theirs
+       2. flag   - national teams; a flag is not a club trademark
+       3. domain - Clearbit by the club's own domain, with Google's favicon
+                   service behind it (Clearbit sits on several ad-blocker
+                   lists and silently fails for some readers)
+       4. monogram - two letters on a colour derived from the team key, so
+                   the column is never blank and never shifts. */
+  function monogramHTML(key, hidden) {
+    var t = effStats(key) || team(key);
     var words = String(t.name || key).replace(/[^A-Za-z0-9 ]/g, ' ').split(/\s+/)
       .filter(function (w) { return w.length; });
     var mono = (words.length > 1
@@ -242,8 +247,35 @@
       : (words[0] || '?').slice(0, 2)).toUpperCase();
     var h = 0;
     for (var i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) % 360;
-    return '<i class="crest" style="background:hsl(' + h + ',48%,34%)" aria-hidden="true">' +
-           mono + '</i>';
+    return '<i class="crest crest-mono" aria-hidden="true" style="' +
+      (hidden ? 'display:none;' : '') + 'background:hsl(' + h + ',48%,34%)">' +
+      mono + '</i>';
+  }
+
+  function crestHTML(key) {
+    var t = effStats(key) || team(key);
+    var src = null, second = null;
+    if (t.logo) {
+      src = String(t.logo);
+    } else if (t.flag) {
+      src = 'https://flagcdn.com/w40/' + encodeURIComponent(t.flag) + '.png';
+    } else if (t.domain) {
+      src = 'https://logo.clearbit.com/' + encodeURIComponent(t.domain) + '?size=128';
+      second = 'https://www.google.com/s2/favicons?sz=128&domain=' +
+        encodeURIComponent(t.domain);
+    }
+    if (!src) return monogramHTML(key, false);
+
+    var showMono = "this.style.display='none';" +
+                   "this.nextElementSibling.style.display='inline-flex';";
+    var onerr = second
+      ? "if(!this.dataset.f){this.dataset.f='1';this.src='" + second + "';}else{" + showMono + "}"
+      : showMono;
+
+    return '<img class="crest crest-img" src="' + src.replace(/"/g, '&quot;') +
+           '" alt="' + String(t.name || key).replace(/"/g, '&quot;') +
+           '" loading="lazy" onerror="' + onerr + '" />' +
+           monogramHTML(key, true);
   }
 
   /* One market cell: the line above, the two prices below, right-aligned so
@@ -833,6 +865,9 @@
       STATE.overrides[key] = STATE.overrides[key] || {};
       ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
         .forEach(function (f) { if (hit.stats[f] != null) STATE.overrides[key][f] = hit.stats[f]; });
+      /* A crest that came with the operator's own response beats anything
+         guessed from a domain, so keep it. */
+      if (hit.logo) STATE.overrides[key].logo = hit.logo;
       filled.push({ key: key, name: team(key).name, api: hit.name, stats: hit.stats, missing: hit.missing });
     });
     if (filled.length) saveOverrides();
@@ -2478,7 +2513,10 @@
     Object.keys(slates).sort().forEach(function (k) {
       var n = parseInt(k, 10);
       if (!slateFixtures(n).length) return;
-      var label = slates[k].split(' - ')[0];
+      /* The stored name carries its own explanation - "(Pasar Awal, setelah
+         international break)" - which is useful as a tooltip and far too
+         long for a chip on a phone. Keep the date, drop the aside. */
+      var label = slates[k].split(' - ')[0].replace(/\s*\([^)]*\)\s*$/, '').trim();
       var c = el('button', 'chip', label);
       c.type = 'button';
       c.title = slates[k];

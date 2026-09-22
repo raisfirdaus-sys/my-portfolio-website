@@ -137,7 +137,8 @@
       "fouls": 13.8,
       "tackles": 18.1,
       "yellow": 2.4,
-      "red": 0.12
+      "red": 0.12,
+      "domain": "aja.fr"
     },
     "brest": {
       "name": "Brest",
@@ -153,7 +154,8 @@
       "fouls": 12.4,
       "tackles": 16.8,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "sb29.bzh"
     },
     "nice": {
       "name": "Nice",
@@ -169,7 +171,8 @@
       "fouls": 11.8,
       "tackles": 16.2,
       "yellow": 1.9,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "ogcnice.com"
     },
     "lille": {
       "name": "Lille",
@@ -185,7 +188,8 @@
       "fouls": 11.2,
       "tackles": 15.6,
       "yellow": 1.8,
-      "red": 0.06
+      "red": 0.06,
+      "domain": "losc.fr"
     },
     "marseille": {
       "name": "Marseille",
@@ -201,7 +205,8 @@
       "fouls": 12,
       "tackles": 16,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "om.fr"
     },
     "psg": {
       "name": "Paris Saint Germain",
@@ -217,7 +222,8 @@
       "fouls": 10.4,
       "tackles": 14.2,
       "yellow": 1.6,
-      "red": 0.06
+      "red": 0.06,
+      "domain": "psg.fr"
     },
     "juventus": {
       "name": "Juventus",
@@ -233,7 +239,8 @@
       "fouls": 13,
       "tackles": 17.4,
       "yellow": 2.1,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "juventus.com"
     },
     "atalanta": {
       "name": "Atalanta",
@@ -249,7 +256,8 @@
       "fouls": 13.6,
       "tackles": 19.2,
       "yellow": 2.4,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "atalanta.it"
     },
     "acmilan": {
       "name": "AC Milan",
@@ -265,7 +273,8 @@
       "fouls": 12.2,
       "tackles": 16.6,
       "yellow": 2,
-      "red": 0.06
+      "red": 0.06,
+      "domain": "acmilan.com"
     },
     "lecce": {
       "name": "Lecce",
@@ -281,7 +290,8 @@
       "fouls": 14.4,
       "tackles": 19.8,
       "yellow": 2.8,
-      "red": 0.16
+      "red": 0.16,
+      "domain": "uslecce.it"
     },
     "leverkusen": {
       "name": "Bayer Leverkusen",
@@ -297,7 +307,8 @@
       "fouls": 11.4,
       "tackles": 15.8,
       "yellow": 1.8,
-      "red": 0.06
+      "red": 0.06,
+      "domain": "bayer04.de"
     },
     "leipzig": {
       "name": "RB Leipzig",
@@ -313,7 +324,8 @@
       "fouls": 12,
       "tackles": 16.4,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "rbleipzig.com"
     },
     "wolves": {
       "name": "Wolverhampton Wanderers",
@@ -329,7 +341,8 @@
       "fouls": 11.6,
       "tackles": 17,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "wolves.co.uk"
     },
     "wba": {
       "name": "West Bromwich Albion",
@@ -345,7 +358,8 @@
       "fouls": 12.2,
       "tackles": 18.2,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "wba.co.uk"
     },
     "villarreal": {
       "name": "Villarreal",
@@ -361,7 +375,8 @@
       "fouls": 12.6,
       "tackles": 16.8,
       "yellow": 2.3,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "villarrealcf.es"
     },
     "levante": {
       "name": "Levante",
@@ -377,7 +392,8 @@
       "fouls": 14.8,
       "tackles": 20.2,
       "yellow": 3,
-      "red": 0.18
+      "red": 0.18,
+      "domain": "levanteud.com"
     },
     "atletico": {
       "name": "Atletico Madrid",
@@ -393,7 +409,8 @@
       "fouls": 13.2,
       "tackles": 18,
       "yellow": 2.5,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "atleticodemadrid.com"
     },
     "realmadrid": {
       "name": "Real Madrid",
@@ -409,7 +426,8 @@
       "fouls": 11.8,
       "tackles": 15.4,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "realmadrid.com"
     },
     "tottenham": {
       "name": "Tottenham Hotspur",
@@ -425,7 +443,8 @@
       "fouls": 11,
       "tackles": 16.4,
       "yellow": 1.8,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "tottenhamhotspur.com"
     },
     "astonvilla": {
       "name": "Aston Villa",
@@ -441,7 +460,8 @@
       "fouls": 11.8,
       "tackles": 17.2,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "avfc.co.uk"
     },
     "brighton": {
       "name": "Brighton & Hove Albion",
@@ -457,7 +477,8 @@
       "fouls": 10.8,
       "tackles": 16,
       "yellow": 1.9,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "brightonandhovealbion.com"
     },
     "arsenal": {
       "name": "Arsenal",
@@ -473,7 +494,8 @@
       "fouls": 10.6,
       "tackles": 15.2,
       "yellow": 1.9,
-      "red": 0.06
+      "red": 0.06,
+      "domain": "arsenal.com"
     },
     "newcastle": {
       "name": "Newcastle United",
@@ -489,7 +511,8 @@
       "fouls": 11.4,
       "tackles": 16.8,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "nufc.co.uk"
     },
     "everton": {
       "name": "Everton",
@@ -505,7 +528,8 @@
       "fouls": 12,
       "tackles": 18,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "evertonfc.com"
     },
     "nottingham": {
       "name": "Nottingham Forest",
@@ -521,7 +545,8 @@
       "fouls": 12.4,
       "tackles": 17.6,
       "yellow": 2.1,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "nottinghamforest.co.uk"
     },
     "hullcity": {
       "name": "Hull City",
@@ -537,7 +562,8 @@
       "fouls": 13.2,
       "tackles": 18.6,
       "yellow": 2.4,
-      "red": 0.12
+      "red": 0.12,
+      "domain": "hullcitytigers.com"
     },
     "coventry": {
       "name": "Coventry City",
@@ -553,7 +579,8 @@
       "fouls": 11.8,
       "tackles": 17.2,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "ccfc.co.uk"
     },
     "ipswich": {
       "name": "Ipswich Town",
@@ -569,7 +596,8 @@
       "fouls": 12.6,
       "tackles": 18,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "itfc.co.uk"
     },
     "roma": {
       "name": "AS Roma",
@@ -585,7 +613,8 @@
       "fouls": 13.4,
       "tackles": 18.2,
       "yellow": 2.4,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "asroma.com"
     },
     "inter": {
       "name": "Inter Milan",
@@ -601,7 +630,8 @@
       "fouls": 12,
       "tackles": 16.2,
       "yellow": 2,
-      "red": 0.08
+      "red": 0.08,
+      "domain": "inter.it"
     },
     "frankfurt": {
       "name": "Eintracht Frankfurt",
@@ -617,7 +647,8 @@
       "fouls": 12.4,
       "tackles": 16.8,
       "yellow": 2.1,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "eintracht.de"
     },
     "freiburg": {
       "name": "SC Freiburg",
@@ -633,7 +664,8 @@
       "fouls": 12.8,
       "tackles": 17.4,
       "yellow": 2.2,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "scfreiburg.com"
     },
     "osasuna": {
       "name": "Osasuna",
@@ -649,7 +681,8 @@
       "fouls": 14.2,
       "tackles": 19.4,
       "yellow": 2.8,
-      "red": 0.14
+      "red": 0.14,
+      "domain": "osasuna.es"
     },
     "rayo": {
       "name": "Rayo Vallecano",
@@ -665,7 +698,8 @@
       "fouls": 13.8,
       "tackles": 19,
       "yellow": 2.7,
-      "red": 0.14
+      "red": 0.14,
+      "domain": "rayovallecano.es"
     },
     "bilbao": {
       "name": "Athletic Bilbao",
@@ -681,7 +715,8 @@
       "fouls": 13,
       "tackles": 18.4,
       "yellow": 2.4,
-      "red": 0.1
+      "red": 0.1,
+      "domain": "athletic-club.eus"
     },
     "alaves": {
       "name": "Alaves",
@@ -697,7 +732,8 @@
       "fouls": 14,
       "tackles": 19.6,
       "yellow": 2.6,
-      "red": 0.14
+      "red": 0.14,
+      "domain": "deportivoalaves.com"
     },
     "leeds": {
       "name": "Leeds United",
@@ -714,7 +750,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "leedsunited.com"
     },
     "brentford": {
       "name": "Brentford",
@@ -731,7 +768,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "brentfordfc.com"
     },
     "chelsea": {
       "name": "Chelsea",
@@ -748,7 +786,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "chelseafc.com"
     },
     "bournemouth": {
       "name": "Bournemouth AFC",
@@ -765,7 +804,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "afcb.co.uk"
     },
     "fulham": {
       "name": "Fulham",
@@ -782,7 +822,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fulhamfc.com"
     },
     "sunderland": {
       "name": "Sunderland",
@@ -799,7 +840,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "safc.com"
     },
     "manutd": {
       "name": "Manchester United",
@@ -816,7 +858,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "manutd.com"
     },
     "crystalpalace": {
       "name": "Crystal Palace",
@@ -833,7 +876,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "cpfc.co.uk"
     },
     "mancity": {
       "name": "Manchester City",
@@ -850,7 +894,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "mancity.com"
     },
     "parma": {
       "name": "Parma Calcio",
@@ -867,7 +912,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "parmacalcio1913.com"
     },
     "fiorentina": {
       "name": "Fiorentina",
@@ -884,7 +930,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "acffiorentina.com"
     },
     "frosinone": {
       "name": "Frosinone",
@@ -901,7 +948,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "frosinonecalcio.com"
     },
     "como": {
       "name": "Como",
@@ -918,7 +966,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "comofootball.com"
     },
     "lazio": {
       "name": "Lazio",
@@ -935,7 +984,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sslazio.it"
     },
     "monza": {
       "name": "Monza",
@@ -952,7 +1002,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "acmonza.com"
     },
     "bologna": {
       "name": "Bologna",
@@ -969,7 +1020,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "bolognafc.it"
     },
     "sassuolo": {
       "name": "Sassuolo",
@@ -986,7 +1038,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sassuolocalcio.it"
     },
     "cagliari": {
       "name": "Cagliari",
@@ -1003,7 +1056,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "cagliaricalcio.com"
     },
     "venezia": {
       "name": "Venezia",
@@ -1020,7 +1074,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "veneziafc.it"
     },
     "torino": {
       "name": "Torino",
@@ -1037,7 +1092,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "torinofc.it"
     },
     "udinese": {
       "name": "Udinese",
@@ -1054,7 +1110,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "udinese.com"
     },
     "genoa": {
       "name": "Genoa",
@@ -1071,7 +1128,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "genoacfc.it"
     },
     "dortmund": {
       "name": "Borussia Dortmund",
@@ -1088,7 +1146,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "bvb.de"
     },
     "werder": {
       "name": "Werder Bremen",
@@ -1105,7 +1164,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "werder.de"
     },
     "hoffenheim": {
       "name": "TSG Hoffenheim",
@@ -1122,7 +1182,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "tsg-hoffenheim.de"
     },
     "hamburg": {
       "name": "Hamburger SV",
@@ -1139,7 +1200,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "hsv.de"
     },
     "augsburg": {
       "name": "Augsburg",
@@ -1156,7 +1218,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fcaugsburg.de"
     },
     "bayern": {
       "name": "Bayern Munchen",
@@ -1173,7 +1236,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fcbayern.com"
     },
     "mainz": {
       "name": "FSV Mainz 05",
@@ -1190,7 +1254,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "mainz05.de"
     },
     "unionberlin": {
       "name": "Union Berlin",
@@ -1207,7 +1272,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fc-union-berlin.de"
     },
     "elversberg": {
       "name": "SV Elversberg",
@@ -1224,7 +1290,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sv-elversberg.de"
     },
     "malaga": {
       "name": "Malaga CF",
@@ -1241,7 +1308,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "malagacf.com"
     },
     "espanyol": {
       "name": "RCD Espanyol",
@@ -1258,7 +1326,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "rcdespanyol.com"
     },
     "barcelona": {
       "name": "Barcelona",
@@ -1275,7 +1344,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fcbarcelona.com"
     },
     "getafe": {
       "name": "Getafe",
@@ -1292,7 +1362,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "getafecf.com"
     },
     "elche": {
       "name": "Elche CF",
@@ -1309,7 +1380,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "elchecf.es"
     },
     "celta": {
       "name": "Celta Vigo",
@@ -1326,7 +1398,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "rccelta.es"
     },
     "realsociedad": {
       "name": "Real Sociedad",
@@ -1343,7 +1416,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "realsociedad.eus"
     },
     "deportivo": {
       "name": "RC Deportivo A Coruna",
@@ -1360,7 +1434,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "rcdeportivo.es"
     },
     "betis": {
       "name": "Real Betis",
@@ -1377,7 +1452,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "realbetisbalompie.es"
     },
     "netherlands": {
       "name": "Belanda",
@@ -1395,7 +1471,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "nl"
     },
     "germany": {
       "name": "Jerman",
@@ -1413,7 +1490,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "de"
     },
     "norway": {
       "name": "Norwegia",
@@ -1431,7 +1509,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "no"
     },
     "denmark": {
       "name": "Denmark",
@@ -1449,7 +1528,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "dk"
     },
     "portugal": {
       "name": "Portugal",
@@ -1467,7 +1547,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "pt"
     },
     "wales": {
       "name": "Wales",
@@ -1485,7 +1566,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "gb-wls"
     },
     "serbia": {
       "name": "Serbia",
@@ -1503,7 +1585,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "rs"
     },
     "greece": {
       "name": "Yunani",
@@ -1521,7 +1604,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "gr"
     },
     "italy": {
       "name": "Italia",
@@ -1539,7 +1623,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "it"
     },
     "belgium": {
       "name": "Belgia",
@@ -1557,7 +1642,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "be"
     },
     "turkey": {
       "name": "Turki",
@@ -1575,7 +1661,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "tr"
     },
     "france": {
       "name": "Prancis",
@@ -1593,7 +1680,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "fr"
     },
     "georgia": {
       "name": "Georgia",
@@ -1611,7 +1699,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ge"
     },
     "nireland": {
       "name": "Irlandia Utara",
@@ -1629,7 +1718,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "gb-nir"
     },
     "hungary": {
       "name": "Hongaria",
@@ -1647,7 +1737,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "hu"
     },
     "ukraine": {
       "name": "Ukraina",
@@ -1665,7 +1756,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ua"
     },
     "poland": {
       "name": "Polandia",
@@ -1683,7 +1775,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "pl"
     },
     "bosnia": {
       "name": "Bosnia dan Herzegovina",
@@ -1701,7 +1794,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ba"
     },
     "sweden": {
       "name": "Swedia",
@@ -1719,7 +1813,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "se"
     },
     "romania": {
       "name": "Rumania",
@@ -1737,7 +1832,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ro"
     },
     "austria": {
       "name": "Austria",
@@ -1755,7 +1851,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "at"
     },
     "israel": {
       "name": "Israel",
@@ -1773,7 +1870,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "il"
     },
     "kosovo": {
       "name": "Kosovo",
@@ -1791,7 +1889,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "xk"
     },
     "ireland": {
       "name": "Republik Irlandia",
@@ -1809,7 +1908,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ie"
     },
     "andorra": {
       "name": "Andorra",
@@ -1827,7 +1927,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ad"
     },
     "malta": {
       "name": "Malta",
@@ -1845,7 +1946,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "mt"
     },
     "liechtenstein": {
       "name": "Liechtenstein",
@@ -1863,7 +1965,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "li"
     },
     "lithuania": {
       "name": "Lituania",
@@ -1881,7 +1984,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "lt"
     },
     "czechia": {
       "name": "Ceko",
@@ -1899,7 +2003,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "cz"
     },
     "croatia": {
       "name": "Kroasia",
@@ -1917,7 +2022,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "hr"
     },
     "england": {
       "name": "Inggris",
@@ -1935,7 +2041,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "gb-eng"
     },
     "spain": {
       "name": "Spanyol",
@@ -1953,7 +2060,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "es"
     },
     "slovenia": {
       "name": "Slovenia",
@@ -1971,7 +2079,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "si"
     },
     "scotland": {
       "name": "Skotlandia",
@@ -1989,7 +2098,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "gb-sct"
     },
     "nmacedonia": {
       "name": "Republic of North Macedonia",
@@ -2007,7 +2117,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "mk"
     },
     "switzerland": {
       "name": "Swiss",
@@ -2025,7 +2136,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "ch"
     },
     "sanmarino": {
       "name": "San Marino",
@@ -2043,7 +2155,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "sm"
     },
     "finland": {
       "name": "Finlandia",
@@ -2061,7 +2174,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "fi"
     },
     "bulgaria": {
       "name": "Bulgaria",
@@ -2079,7 +2193,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "bg"
     },
     "luxembourg": {
       "name": "Luxembourg",
@@ -2097,7 +2212,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "flag": "lu"
     },
     "liverpool": {
       "name": "Liverpool",
@@ -2114,7 +2230,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "liverpoolfc.com"
     },
     "napoli": {
       "name": "Napoli",
@@ -2131,7 +2248,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sscnapoli.it"
     },
     "lens": {
       "name": "Lens",
@@ -2148,7 +2266,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "rclens.fr"
     },
     "lyon": {
       "name": "Lyon",
@@ -2165,7 +2284,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "ol.fr"
     },
     "lehavre": {
       "name": "Le Havre",
@@ -2182,7 +2302,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "hac-foot.com"
     },
     "angers": {
       "name": "Angers",
@@ -2199,7 +2320,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "angers-sco.fr"
     },
     "lorient": {
       "name": "Lorient",
@@ -2216,7 +2338,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fclorient.bzh"
     },
     "parisfc": {
       "name": "Paris FC",
@@ -2233,7 +2356,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "parisfc.fr"
     },
     "monaco": {
       "name": "AS Monaco",
@@ -2250,7 +2374,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "asmonaco.com"
     },
     "toulouse": {
       "name": "Toulouse",
@@ -2267,7 +2392,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "toulousefc.com"
     },
     "lemans": {
       "name": "Le Mans",
@@ -2284,7 +2410,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "lemansfc.fr"
     },
     "strasbourg": {
       "name": "Strasbourg",
@@ -2301,7 +2428,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "rcstrasbourgalsace.fr"
     },
     "rennes": {
       "name": "Rennes",
@@ -2318,7 +2446,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "staderennais.com"
     },
     "troyes": {
       "name": "Troyes",
@@ -2335,7 +2464,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "estac.fr"
     },
     "sportinglisbon": {
       "name": "Sporting Lisbon",
@@ -2352,7 +2482,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sporting.pt"
     },
     "sabah": {
       "name": "Sabah FK",
@@ -2369,7 +2500,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "sabahfc.az"
     },
     "slaviapraha": {
       "name": "Slavia Praha",
@@ -2386,7 +2518,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "slavia.cz"
     },
     "clubbrugge": {
       "name": "Club Brugge",
@@ -2403,7 +2536,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "clubbrugge.be"
     },
     "galatasaray": {
       "name": "Galatasaray",
@@ -2420,7 +2554,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "galatasaray.org"
     },
     "psv": {
       "name": "PSV Eindhoven",
@@ -2437,7 +2572,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "psv.nl"
     },
     "viking": {
       "name": "Viking",
@@ -2454,7 +2590,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "viking-fk.no"
     },
     "feyenoord": {
       "name": "Feyenoord",
@@ -2471,7 +2608,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "feyenoord.com"
     },
     "lasklinz": {
       "name": "LASK Linz",
@@ -2488,7 +2626,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "lask.at"
     },
     "fenerbahce": {
       "name": "Fenerbahce",
@@ -2505,7 +2644,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fenerbahce.org"
     },
     "shakhtar": {
       "name": "Shakhtar Donetsk",
@@ -2522,7 +2662,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "shakhtar.com"
     },
     "aekathens": {
       "name": "AEK Athens",
@@ -2539,7 +2680,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "aekfc.gr"
     },
     "bodoglimt": {
       "name": "Bodo Glimt",
@@ -2556,7 +2698,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "glimt.no"
     },
     "porto": {
       "name": "Porto",
@@ -2573,7 +2716,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "fcporto.pt"
     },
     "slovanbratislava": {
       "name": "Slovan Bratislava",
@@ -2590,7 +2734,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "skslovan.com"
     },
     "stuttgart": {
       "name": "VfB Stuttgart",
@@ -2607,7 +2752,8 @@
       "fouls": null,
       "tackles": null,
       "yellow": null,
-      "red": null
+      "red": null,
+      "domain": "vfb.de"
     }
   },
   "fixtures": [

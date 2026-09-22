@@ -604,7 +604,12 @@
         var found = {};
         collectFromJSON(statsHolder, found, 0);
         if (Object.keys(found).length >= 3) {
-          teams.push({ name: node.name, id: node.id != null ? String(node.id) : null, raw: found });
+          /* Providers ship a crest URL beside the team: it is part of the
+             response the operator already pays for, so it is the one image
+             source they plainly have the right to use. */
+          var img = node.image_path || node.image || node.logo || node.logo_path || null;
+          teams.push({ name: node.name, id: node.id != null ? String(node.id) : null,
+                       logo: typeof img === 'string' ? img : null, raw: found });
           return;   // do not descend into a team we have already taken
         }
       }
@@ -633,7 +638,7 @@
         ['goals','xgF','xgA','shots','sot','fouls','tackles'].forEach(function (k) {
           if (stats[k] == null) missing.push(k);
         });
-        return { name: t.name, id: t.id, stats: stats, missing: missing };
+        return { name: t.name, id: t.id, logo: t.logo, stats: stats, missing: missing };
       })
     };
   }
