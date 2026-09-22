@@ -166,8 +166,53 @@
       p.innerHTML = r[0] + ': <span class="fig">' + r[1] + '</span> &mdash; ' + r[2];
       box.appendChild(p);
     });
-    /* The single most dangerous state this tool can be in: showing a
-       positive edge that came out of placeholder numbers. Say it outright. */
+    /* The single most dangerous state this tool can be in: advertising a
+       positive edge that rests on numbers too thin to carry it. The first
+       version only caught the all-placeholder case, so entering four teams
+       with ONE match each switched the warning off and left "EV +29.1%"
+       standing on a nine-leg parlay - a claim no nine-leg parlay can
+       honestly make. Three ways the edge can be untrustworthy, and any one
+       of them is enough. */
+    var thinLegs = [], farLegs = [];
+    chosen.forEach(function (c) {
+      var a2 = c.analysis || c;
+      if (!a2 || !a2.fixture) return;
+      [a2.fixture.home, a2.fixture.away].forEach(function (k) {
+        var t = effStats(k);
+        if (statOrigin(k) === 'user' && t && t.matches != null && t.matches < 4 &&
+            thinLegs.indexOf(k) < 0) thinLegs.push(k);
+      });
+      if (a2.divergence > 0.25) farLegs.push(a2.fixture.id);
+    });
+
+    if (sim && sim.ev > 0 && (thinLegs.length || farLegs.length) &&
+        !(origins.user === 0 && origins.seed > 0)) {
+      var warnThin = el('p');
+      warnThin.style.cssText = 'margin-top:8px;padding:9px 11px;border-radius:5px;' +
+        'background:var(--surface-3);border-left:4px solid var(--critical)';
+      warnThin.innerHTML = '<strong>EV positif di atas belum bisa dipercaya.</strong> ' +
+        (thinLegs.length
+          ? 'Ada <strong>' + thinLegs.length + ' tim</strong> di tiket ini yang datanya baru ' +
+            '<strong>kurang dari 4 laga</strong> (' +
+            thinLegs.slice(0, 4).map(function (k) { return team(k).name; }).join(', ') +
+            (thinLegs.length > 4 ? ', &hellip;' : '') + '). '
+          : '') +
+        (farLegs.length
+          ? '<strong>' + farLegs.length + ' laga</strong> di tiket ini modelnya berbeda lebih dari ' +
+            '25% dari harga bandar, yang berarti inputnya yang meragukan, bukan bandarnya. '
+          : '') +
+        (thinLegs.length
+          ? 'Sampel sekecil itu membuat satu pertandingan bagus terlihat seperti keunggulan permanen. '
+          : 'Selisih sebesar itu hampir selalu berarti angka yang masuk masih angka contoh, bukan ' +
+            'pengukuran. ') +
+        '<strong>Tidak ada parlay ' + nLegs + ' leg yang benar-benar ber-EV positif</strong> ' +
+        '&mdash; kalau angka ini mengatakan sebaliknya, yang salah angkanya. ' +
+        (thinLegs.length
+          ? 'Tambah jumlah laga tiap tim sampai 4&ndash;5, lalu baca ulang.'
+          : 'Isi statistik asli untuk laga-laga itu, lalu baca ulang.');
+      box.appendChild(warnThin);
+    }
+
     if (sim && sim.ev > 0 && origins.user === 0 && origins.seed > 0) {
       var warn = el('p');
       warn.style.cssText = 'margin-top:8px;padding:9px 11px;border-radius:5px;' +
