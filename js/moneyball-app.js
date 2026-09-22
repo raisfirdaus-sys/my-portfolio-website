@@ -569,15 +569,77 @@
      One response can carry many teams, and pastes accumulate, so filling a
      slate is a handful of copies rather than thirty-six.
      -------------------------------------------------------------------- */
-  function applyBulkPaste(text, out) {
-    var parsed;
-    try { parsed = E.parseManyTeams(text); } catch (e) { parsed = null; }
-    if (!parsed) {
-      out.innerHTML = '<div class="notice bad"><h3>Itu bukan JSON</h3>' +
-        '<p>Yang tertempel tidak bisa dibaca sebagai JSON. Pastikan seluruh isi tab tersalin ' +
-        '(Ctrl+A lalu Ctrl+C di tab yang menampilkan respons), bukan cuma sebagian.</p></div>';
+  /* A pasted statistics PAGE carries the club's name in its own heading, so
+     the box does not need to be told which team it belongs to. Earliest
+     mention wins, with the longer name breaking a tie - that keeps "Inter
+     Milan" from being read as a page about Milan. */
+  function teamKeyFromPageText(text) {
+    var head = String(text).slice(0, 6000).toLowerCase();
+    var bestKey = null, bestAt = Infinity, bestLen = 0;
+    Object.keys(DATA.teams).forEach(function (k) {
+      var n = String(team(k).name || '').toLowerCase();
+      if (n.length < 4) return;
+      var at = head.indexOf(n);
+      if (at < 0) return;
+      if (at < bestAt || (at === bestAt && n.length > bestLen)) {
+        bestKey = k; bestAt = at; bestLen = n.length;
+      }
+    });
+    return bestKey;
+  }
+
+  /* One box, two kinds of paste. An API response is JSON and can carry many
+     teams; a statistics page is not JSON and carries exactly one. Deciding
+     here rather than asking the user which box to use removes the step that
+     went wrong most often. */
+  function applyPastedPage(text, out) {
+    var key = teamKeyFromPageText(text);
+    if (!key) {
+      out.innerHTML = '<div class="notice bad"><h3>Tim-nya tidak terbaca dari halaman ini</h3>' +
+        '<p>Yang tertempel bukan JSON, jadi saya coba baca sebagai halaman statistik &mdash; ' +
+        'tapi tidak ada nama tim yang saya kenal di dalamnya. Pastikan seluruh halaman tersalin ' +
+        '(Ctrl+A lalu Ctrl+C), termasuk judul di bagian atas.</p></div>';
       return;
     }
+    var parsed = null;
+    try { parsed = E.parseTeamStats(text); } catch (e) {}
+    if (!parsed || parsed.error || !parsed.matches) {
+      out.innerHTML = '<div class="notice bad"><h3>Halaman ' + team(key).name +
+        ' terbaca, tapi angkanya tidak</h3><p>' +
+        ((parsed && parsed.error) || 'Bagian "Matches played" tidak ketemu.') +
+        ' Pastikan yang disalin adalah tab <strong>Stats</strong>, seluruh halaman.</p></div>';
+      return;
+    }
+    STATE.overrides[key] = STATE.overrides[key] || {};
+    ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+      .forEach(function (f) { if (parsed[f] != null) STATE.overrides[key][f] = parsed[f]; });
+    saveOverrides();
+
+    var miss = parsed._missing || [];
+    var html = '<div class="notice ok"><h3>' + team(key).name + ' terisi dari halaman statistik</h3>' +
+      '<p>' + parsed.matches + ' laga. xG ' + (parsed.xgF != null ? parsed.xgF : '?') +
+      ', xGA ' + (parsed.xgA != null ? parsed.xgA : '?') + ' per laga.' +
+      (miss.length ? ' Tidak ada di halaman itu: ' + miss.join(', ') + '.' : ' Semua field terisi.') +
+      '</p>' +
+      (parsed.matches < 4
+        ? '<p class="stat-note" style="color:var(--warn)">Baru ' + parsed.matches +
+          ' laga &mdash; terlalu sedikit untuk dipercaya sendirian. Model akan tetap ' +
+          'condong ke harga pasar sampai angkanya bertambah.</p>'
+        : '') +
+      '</div>';
+    renderAll();
+    var fresh = $('api-bulk-out');
+    if (fresh) fresh.innerHTML = html; else out.innerHTML = html;
+  }
+
+  function applyBulkPaste(text, out) {
+    var trimmed = String(text).trim();
+    var looksJson = trimmed.charAt(0) === '{' || trimmed.charAt(0) === '[';
+    if (!looksJson) { applyPastedPage(trimmed, out); return; }
+
+    var parsed;
+    try { parsed = E.parseManyTeams(trimmed); } catch (e) { parsed = null; }
+    if (!parsed) { applyPastedPage(trimmed, out); return; }
     if (parsed.error) {
       out.innerHTML = '<div class="notice bad"><h3>JSON terbaca, tapi tidak ada statistik di dalamnya</h3>' +
         '<p>' + parsed.error + ' Paling sering karena <code>include=statistics.details.type</code> ' +
@@ -726,14 +788,15 @@
     var ta = el('textarea');
     ta.id = 'api-bulk-text';
     ta.rows = 5;
-    ta.placeholder = 'Tempel seluruh JSON di sini, lalu tekan tombol di bawah.';
+    ta.placeholder = 'Tempel di sini: respons JSON dari API, ATAU seluruh halaman statistik '
+      + '(UEFA / FBref / Understat). Keduanya diterima \u2014 tekan tombol di bawah.';
     ta.style.cssText = 'width:100%;margin-top:9px;padding:8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
       'font-family:var(--mono);font-size:11px;min-width:0';
     host.appendChild(ta);
 
     var applyRow = el('div', 'btn-row');
-    var applyBtn = el('button', 'btn', 'Isi semua tim dari tempelan ini');
+    var applyBtn = el('button', 'btn', 'Isi dari tempelan ini');
     applyBtn.type = 'button';
     applyBtn.addEventListener('click', function () {
       var out = $('api-bulk-out');
