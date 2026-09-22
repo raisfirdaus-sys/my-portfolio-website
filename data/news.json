@@ -1,29 +1,133 @@
 {
-  "updatedAt": "2026-09-21T21:01:14.174Z",
+  "updatedAt": "2026-09-22T00:03:18.387Z",
   "items": [
     {
       "ticker": "GOOGL",
-      "title": "Google, Apple's new job postings go viral",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/google-apples-job-postings-viral-204740368.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/8293faa504054aa6003065a3e871275b.jpg",
-      "publishedAt": 1790023660000
+      "title": "Google, Georgia Power Have Deal to Support Nuclear Power Plant Uprates",
+      "publisher": "POWER Magazine",
+      "link": "https://finance.yahoo.com/energy/articles/google-georgia-power-deal-support-234944806.html",
+      "image": "https://media.zenfs.com/en/power_magazine_984/174151fb0451e1a6fcd2a80912710cc2.png",
+      "publishedAt": 1790034584000
     },
     {
-      "ticker": "SBUX",
-      "title": "Starbucks rival closes more cafes, exits key market",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/small-business/articles/starbucks-rival-closes-more-cafes-141700953.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/bc36b704b25d838731c12f5d3faf37e3.jpg",
-      "publishedAt": 1790023156000
+      "ticker": "PLTR",
+      "title": "A Closer Look at the 'Big 3' Investing Styles",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/closer-look-big-3-investing-234400324.html",
+      "image": "https://media.zenfs.com/en/zacks.com/15adc7e292b48fc1e18cee23d9367fc3.jpg",
+      "publishedAt": 1790034240000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson May Offload Its Orthopedics Unit for $20 Billion -- and Investors Shouldn't Miss What That Could Signal",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-may-offload-orthopedics-233500062.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/ede15e578088b2f7b9012c476e652a96.jpg",
+      "publishedAt": 1790033700000
     },
     {
       "ticker": "GOOGL",
-      "title": "Stock Market Today: Dow Up, Nasdaq Roars To Record As Micron Does This; AMD Hits New High (Live Coverage)",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/b7ca9b65-19fd-32e7-bad5-f53a1ee49def/stock-market-today%3A-dow-up%2C.html",
-      "image": "https://media.zenfs.com/en/ibd.com/56054201d67d46ea1b47247b2435552c.jpg",
-      "publishedAt": 1790022710000
+      "title": "Here Are Morgan Stanley's New Top Stock Picks For The Next 12-Months",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanleys-top-stock-picks-231838142.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/29afc2e22f187506fc23dd2842611c2f.jpg",
+      "publishedAt": 1790032718000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Dell Joined the S&P 100 This Week. Its Largest Outside Holder Kept Selling.",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dell-joined-p-100-week-231746803.html",
+      "image": "https://media.zenfs.com/en/tikr_258/07be30bc287c824ad7b61f3471fff2a7",
+      "publishedAt": 1790032666000
+    },
+    {
+      "ticker": "MA",
+      "title": "Circle Just Launched Arc With BlackRock and Visa. Here’s What It Means for the Stock in 2026",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/circle-just-launched-arc-blackrock-230525839.html",
+      "image": "https://media.zenfs.com/en/tikr_258/2b5407169a0af328f5c32ae09d8146b9",
+      "publishedAt": 1790031925000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "IDB Group Convenes Heads of State and Technology Leaders to Advance AI Agenda",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/idb-group-convenes-heads-state-224600966.html",
+      "image": "https://media.zenfs.com/en/globenewswire.com/c2c8210213a13920ec2ad31d1fdd6678.jpg",
+      "publishedAt": 1790030760000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "SCHD’s 0.06% Fee Hides $413,350 in Decade-Long Underperformance on a $500,000 Position",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/schd-0-06-fee-hides-222529959.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/1d3e7395a9c72489ef9860e212bce08c.jpg",
+      "publishedAt": 1790029529000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "3 U.S. Growth Stocks Facing The Biggest AI Spending Test Right Now",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/3-u-growth-stocks-facing-221805235.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/99d4ba75253c5d07ec2a7d5d7371c0e7.jpg",
+      "publishedAt": 1790029085000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club —  AMD, ARM, META, AMZN, PSKY In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-ends-nearly-3-higher-220454998.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/2f5671490c3822979c0602b54482e89c.jpg",
+      "publishedAt": 1790028294000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon (AMZN) Laps the Stock Market: Here's Why",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-laps-stock-market-214505872.html",
+      "image": "https://media.zenfs.com/en/zacks.com/3cb5117fc22f5e37890d1860dcd61f9f.jpg",
+      "publishedAt": 1790027105000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) Laps the Stock Market: Here's Why",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-laps-stock-market-214503698.html",
+      "image": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg",
+      "publishedAt": 1790027103000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola (KO) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-falls-214501030.html",
+      "image": "https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2.jpg",
+      "publishedAt": 1790027101000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Stock Market Today, Sept. 21: Meta Surges on Excitement Over Muse Personal AI Agent",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-21-214356870.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/7220bf09d6d2a2f9a02b1a899dc30f01.png",
+      "publishedAt": 1790027036000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Amazon kicks out Meta's Muse in split over AI shopping",
+      "publisher": "Axios Media",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-kicks-metas-muse-split-213337096.html",
+      "image": "https://media.zenfs.com/en/axios_media_949/2a772e542c0f5d24a4f0e1f735656e0b.gif",
+      "publishedAt": 1790026417000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Amazon kicks out Meta's Muse in split over AI shopping",
+      "publisher": "Axios",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-kicks-metas-muse-split-213337410.html",
+      "image": "https://media.zenfs.com/en/axios_527/2a772e542c0f5d24a4f0e1f735656e0b.gif",
+      "publishedAt": 1790026417000
     },
     {
       "ticker": "AMZN",
@@ -31,119 +135,15 @@
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/9ec0e47d-c463-38a4-9fb3-f9f3cbb5fa08/private-equity-firms-buy.html",
       "image": "https://media.zenfs.com/en/wsj.com/d28c5325485833c8c46893a78f618cfd.jpg",
-      "publishedAt": 1790021700000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Is Dollar General’s (DG) Hallmark Holiday Tie-Up a Small Test of a Bigger Brand Strategy?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-dg-hallmark-holiday-201255009.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/c03a4de11112c4a6c297c272eaa03455.jpg",
-      "publishedAt": 1790021575000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Takes Wearable AI Deeper Into Logistics",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-takes-wearable-ai-deeper-195640618.html",
-      "image": null,
-      "publishedAt": 1790020600000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "How Far Could Zoom Communications Stock Fall In A Real Market Shock?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/far-could-zoom-communications-stock-195415457.html",
-      "image": "https://media.zenfs.com/en/trefis_142/023b1e4ae3d76e9ee7db8b3cc10f6629.jpg",
-      "publishedAt": 1790020455000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195206814.html",
-      "image": null,
-      "publishedAt": 1790020326000
+      "publishedAt": 1790026380000
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Climbs as CEO Sends Blunt Message to AI Industry",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-climbs-ceo-sends-blunt-194844767.html",
-      "image": null,
-      "publishedAt": 1790020124000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "META Stock Set For Best Day In 13 Months On Muse Popularity As Amazon Moves to Block It",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-set-best-day-194532740.html",
-      "image": "https://media.zenfs.com/en/stocktwits_383/11cf245aab0ec792162277e4e5daf5b1",
-      "publishedAt": 1790019932000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "How Much Do You Really Need Invested to Replace a $200,000 Salary With Dividends?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/much-really-invested-replace-200-194048650.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/e68b4faeca19e8ff0612ee25d85727b5.jpg",
-      "publishedAt": 1790019648000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Cathie Wood Makes a Big AI Bet and Cuts Bitcoin Exposure",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-makes-big-ai-192343518.html",
-      "image": null,
-      "publishedAt": 1790018623000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft's Nadella Is Joining Trump and Xi and Tech Giants Are Coming Too",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/microsofts-nadella-joining-trump-xi-192151216.html",
-      "image": null,
-      "publishedAt": 1790018511000
-    },
-    {
-      "ticker": "MA",
-      "title": "2 Wide-Moat Stocks Trading Less Than 10% Below Their 52-Week Highs: Can They Double a $10,000 Investment in 5 Years?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-wide-moat-stocks-trading-192000284.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/c47543f265d1d36c1907e76384adecf0.png",
-      "publishedAt": 1790018400000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Stock Gets a Bullish Options Signal as Shares Jump 2.7%",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/options/articles/palantir-stock-gets-bullish-options-191655049.html",
-      "image": null,
-      "publishedAt": 1790018215000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stays Flat as Hyderabad Adds AI Capacity Without Water Cooling",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-stays-flat-hyderabad-adds-191137236.html",
-      "image": null,
-      "publishedAt": 1790017897000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "CoreWeave vs. D-Wave Quantum: Is the AI Giant or the Quantum Computer Upstart the Better Stock Investment?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-vs-d-wave-quantum-191103148.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/470277c333061d051105b57eb74e9761.png",
-      "publishedAt": 1790017863000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "J&J Gains as Caplyta Opens a Mania Expansion Path",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/healthcare/articles/j-j-gains-caplyta-opens-190709130.html",
-      "image": null,
-      "publishedAt": 1790017629000
+      "title": "Palantir's Alex Karp says AI's biggest names may never IPO — the play is telling Washington 'nationalize us, please'",
+      "publisher": "Moneywise",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantirs-alex-karp-says-ais-213000729.html",
+      "image": "https://media.zenfs.com/en/moneywise_327/e002c1a5ce1b7af1de7e6e8916452e65.jpg",
+      "publishedAt": 1790026200000
     }
   ]
 }
