@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {},
+    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {},
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -601,13 +601,18 @@
         '(Ctrl+A lalu Ctrl+C), termasuk judul di bagian atas.</p></div>';
       return;
     }
+    var known = (STATE.overrides[key] && STATE.overrides[key].matches) ||
+                (DATA.teams[key] && DATA.teams[key].matches);
     var parsed = null;
-    try { parsed = E.parseTeamStats(text); } catch (e) {}
+    try { parsed = E.parseTeamStats(text, { matchesFallback: known }); } catch (e) {}
     if (!parsed || parsed.error || !parsed.matches) {
       out.innerHTML = '<div class="notice bad"><h3>Halaman ' + team(key).name +
-        ' terbaca, tapi angkanya tidak</h3><p>' +
-        ((parsed && parsed.error) || 'Bagian "Matches played" tidak ketemu.') +
-        ' Pastikan yang disalin adalah tab <strong>Stats</strong>, seluruh halaman.</p></div>';
+        ' terbaca, tapi jumlah laganya tidak</h3><p>' +
+        ((parsed && parsed.error) || 'Jumlah laga tidak ketemu.') + '</p>' +
+        (parsed && parsed.sample
+          ? '<p class="stat-note">Yang saya baca dari tempelan itu: <code>' +
+            parsed.sample.replace(/</g, '&lt;') + '</code></p>'
+          : '') + '</div>';
       return;
     }
     STATE.overrides[key] = STATE.overrides[key] || {};
@@ -617,7 +622,8 @@
 
     var miss = parsed._missing || [];
     var html = '<div class="notice ok"><h3>' + team(key).name + ' terisi dari halaman statistik</h3>' +
-      '<p>' + parsed.matches + ' laga. xG ' + (parsed.xgF != null ? parsed.xgF : '?') +
+      '<p>' + parsed.matches + ' laga' +
+      (parsed._matchesFromCaller ? ' (angka ini dari kotak, bukan dari halaman)' : '') + '. xG ' + (parsed.xgF != null ? parsed.xgF : '?') +
       ', xGA ' + (parsed.xgA != null ? parsed.xgA : '?') + ' per laga.' +
       (miss.length ? ' Tidak ada di halaman itu: ' + miss.join(', ') + '.' : ' Semua field terisi.') +
       '</p>' +
@@ -1496,6 +1502,12 @@
       var ta = el('textarea');
       ta.rows = 3;
       ta.placeholder = 'Blok seluruh halaman statistik, Ctrl+C, tempel di sini lalu tekan Impor.';
+      /* Editing any stat field re-renders this whole form. Without keeping
+         the pasted text, typing the match count would silently throw away
+         the page just pasted - which is the exact order the error message
+         above asks for. */
+      ta.value = STATE.paste[key] || '';
+      ta.addEventListener('input', function () { STATE.paste[key] = ta.value; });
       ta.style.cssText = 'width:100%;padding:7px 9px;border:1px solid var(--border-strong);' +
         'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
         'font-family:var(--mono);font-size:12px;resize:vertical';
@@ -1504,15 +1516,32 @@
       var imp = el('button', 'btn sm', 'Impor untuk ' + team(key).name);
       imp.type = 'button';
       var msg = el('span');
+      msg.id = 'imp-msg-' + key;
       msg.style.cssText = 'font-size:12px;color:var(--text-secondary)';
+      /* A successful import calls renderAll, which rebuilds this form and
+         takes the message with it - so the one case worth reporting was the
+         one that never appeared. Keep it in state and redraw it here. */
+      var keptMsg = STATE.importMsg[key];
+      if (keptMsg) { msg.style.color = keptMsg.color; msg.innerHTML = keptMsg.html; }
       imp.addEventListener('click', function () {
+        /* The page's own match count is unreadable on some layouts, so fall
+           back to whatever is typed in this team's "laga dimainkan" box. */
+        var mEl = $('sf-' + key + '-matches');
         var parsed;
-        try { parsed = E.parseTeamStats(ta.value); }
+        try { parsed = E.parseTeamStats(ta.value, { matchesFallback: mEl && mEl.value }); }
         catch (err) { parsed = { error: err.message }; }
         if (!parsed) { msg.textContent = 'Tidak ada teks untuk dibaca.'; return; }
         if (parsed.error) {
-          msg.style.color = 'var(--critical)';
-          msg.textContent = parsed.error;
+          STATE.importMsg[key] = {
+            color: 'var(--critical)',
+            html: parsed.error +
+              (parsed.sample
+                ? '<br><span style="color:var(--text-muted)">Yang saya baca dari tempelan itu: ' +
+                  '<code>' + parsed.sample.replace(/</g, '&lt;') + '</code></span>'
+                : '')
+          };
+          msg.style.color = STATE.importMsg[key].color;
+          msg.innerHTML = STATE.importMsg[key].html;
           return;
         }
         STATE.overrides[key] = STATE.overrides[key] || {};
@@ -1533,10 +1562,24 @@
           ? ' <strong>Baru ' + parsed.matches + ' laga</strong> \u2014 terlalu sedikit untuk ' +
             'dipercaya sendirian; model tetap condong ke harga pasar.'
           : '';
+<<<<<<< HEAD
+        delete STATE.paste[key];
+        STATE.importMsg[key] = {
+          color: 'var(--good)',
+          html: 'Terisi dari ' + parsed.matches + ' pertandingan' +
+            (parsed._matchesFromCaller ? ' (angka laga dari kotak, bukan dari halaman)' : '') + '.' +
+            (parsed._estimated.xgF
+              ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
+              : '') + thin + miss
+        };
+        msg.style.color = STATE.importMsg[key].color;
+        msg.innerHTML = STATE.importMsg[key].html;
+=======
         msg.innerHTML = 'Terisi dari ' + parsed.matches + ' pertandingan.' +
           (parsed._estimated.xgF
             ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
             : '') + thin + miss;
+>>>>>>> origin/claude/stock-portfolio-website-2ulin2
         renderAll();
       });
       btnRow.appendChild(imp); btnRow.appendChild(msg);
@@ -1550,6 +1593,8 @@
     reset.addEventListener('click', function () {
       delete STATE.overrides[a.fixture.home];
       delete STATE.overrides[a.fixture.away];
+      delete STATE.importMsg[a.fixture.home];
+      delete STATE.importMsg[a.fixture.away];
       saveOverrides();
       renderAll();
     });
