@@ -393,9 +393,17 @@
         pick.innerHTML = '<span class="lbl">' + a.best.label + '</span><br />' +
           '<span class="meta">' + fmtOdds(a.best.odds) + ' · bayar penuh ' +
           pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
+      } else if (a && a.statsMissing) {
+        pick.innerHTML = '<span class="meta">ikut harga bandar</span>';
+      } else if (a && a.divergence > 0.25) {
+        /* The guard fired: the model disagrees with the market by more than
+           a quarter. On that much disagreement the inputs are the likely
+           culprit, not the market, so no leg is promoted. Saying only
+           "tidak ada" made that look like a fault. */
+        pick.innerHTML = '<span class="meta">model beda <strong>' +
+          pct(a.divergence, 0) + '</strong> dari pasar<br />terlalu jauh \u2014 tidak ada yang dipilih</span>';
       } else {
-        pick.innerHTML = '<span class="meta">' +
-          (a && a.statsMissing ? 'ikut harga bandar' : 'tidak ada') + '</span>';
+        pick.innerHTML = '<span class="meta">tidak ada yang layak</span>';
       }
       row.appendChild(pick);
 
@@ -772,7 +780,7 @@
       (miss.length ? ' Tidak ada di halaman itu: ' + miss.join(', ') + '.' : ' Semua field terisi.') +
       '</p>' +
       (parsed.matches < 4
-        ? '<p class="stat-note" style="color:var(--warn)">Baru ' + parsed.matches +
+        ? '<p class="stat-note" style="color:var(--warning)">Baru ' + parsed.matches +
           ' laga &mdash; terlalu sedikit untuk dipercaya sendirian. Model akan tetap ' +
           'condong ke harga pasar sampai angkanya bertambah.</p>'
         : '') +
@@ -844,7 +852,7 @@
           return r.name + ' &larr; ' + r.api + ' &nbsp; ' + r.stats.matches + ' laga, xG ' +
             (r.stats.xgF != null ? r.stats.xgF : '?') + ', xGA ' +
             (r.stats.xgA != null ? r.stats.xgA : '?') +
-            (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warn)">hilang: ' +
+            (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warning)">hilang: ' +
               r.missing.join(', ') + '</span>' : '');
         }).join('<br>') + '</div>';
     } else {
@@ -1099,6 +1107,26 @@
 
   function renderValueTable(a) {
     var box = $('mc-value'); box.innerHTML = '';
+
+    /* When the engine has already refused to promote any leg, the table
+       below still lists rows with large positive EV. Left unexplained that
+       reads as a page full of opportunities - the opposite of what the
+       board just said. Say it once, at the top, before the numbers. */
+    if (!a.statsMissing && a.divergence > 0.25) {
+      var warn = el('div', 'notice bad');
+      warn.style.marginBottom = '10px';
+      warn.innerHTML = '<h3>Angka EV di bawah ini jangan dipercaya dulu</h3>' +
+        '<p>Model berbeda <strong>' + pct(a.divergence, 0) + '</strong> dari harga bandar. ' +
+        'Pada selisih sebesar itu yang salah hampir selalu <strong>input model</strong>, ' +
+        'bukan harga bandar &mdash; bandar melihat skuad, cedera dan kabar tim, model ini ' +
+        'hanya melihat angka yang Anda masukkan.</p>' +
+        '<p>Karena itu tidak ada satu pun baris yang dipromosikan jadi pilihan utama, dan ' +
+        'EV positif di sini ditandai kuning, bukan hijau. EV +70% bukan berarti peluang ' +
+        'menang; itu berarti <strong>datanya masih terlalu tipis</strong>. Tambah jumlah laga ' +
+        'sampai selisihnya turun di bawah 25%, baru angkanya layak dibaca.</p>';
+      box.appendChild(warn);
+    }
+
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr>' +
       '<th style="width:26px"></th><th>Pilihan</th><th>Pasar</th><th>Garis</th>' +
@@ -1178,7 +1206,21 @@
       tr.appendChild(el('td', 'num', p.vig != null ? pct(p.vig, 2) : '—'));
 
       var cev = el('td', 'num ev', signPct(p.ev, 2));
-      if (p.ev > 0.015) cev.style.color = 'var(--good)';
+      /* Green says "take this". It must not appear on an EV the engine
+         itself refuses to stand behind: when the model sits more than a
+         quarter away from the market, or this row was marked implausible,
+         the number is a symptom of bad inputs, not an edge. Colouring it by
+         size alone contradicted the board above, which had already said no
+         leg was worth promoting. */
+      var untrusted = (a.divergence > 0.25) || p.implausible || (p.trust != null && p.trust < 0.5);
+      if (p.ev > 0.015 && !untrusted) cev.style.color = 'var(--good)';
+      else if (p.ev > 0.015 && untrusted) {
+        cev.style.color = 'var(--warning)';
+        cev.title = 'EV ini besar karena model tidak sepakat dengan pasar sejauh ' +
+          pct(a.divergence, 0) + '. Pada selisih sebesar itu yang salah hampir selalu ' +
+          'input model, bukan harga bandar \u2014 jadi angka ini bukan peluang, ' +
+          'melainkan tanda datanya masih terlalu tipis.';
+      }
       else if (byEff) {
         cev.style.color = 'var(--text-muted)';
         cev.title = 'Tanpa statistik Anda, model dipasang pada harga ini juga, ' +
@@ -1292,7 +1334,7 @@
         var other = key === a.fixture.home ? a.fixture.away : a.fixture.home;
         var bothReady = ready && statOrigin(other) === 'user';
         STATE.editMsg[key] = {
-          color: ready ? 'var(--good)' : 'var(--warn)',
+          color: ready ? 'var(--good)' : 'var(--warning)',
           html: filled + ' angka tersimpan untuk ' + team(key).name + '. ' +
             (bothReady
               ? '<strong>Kedua tim laga ini terisi</strong> \u2014 model sekarang yang menilai, bukan harga bandar.'
