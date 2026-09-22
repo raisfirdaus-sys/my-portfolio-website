@@ -8,7 +8,9 @@
       "1": "20 Sept 2026 - papan Desimal (screenshot pertama)",
       "2": "19-20 Sept 2026 - kupon yang Anda kirim lewat teks",
       "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - papan format INDO, dikonversi ke Desimal",
-      "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats."
+      "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats.",
+      "5": "10-12 Okt 2026 - Ligue 1 Prancis (Pasar Awal, format INDO)",
+      "6": "14-15 Okt 2026 - Liga Champions UEFA (Pasar Awal, format INDO)"
     }
   },
   "leagues": [
@@ -110,6 +112,15 @@
       "rhoFT": -0.06,
       "rhoHT": -0.085,
       "firstHalfShare": 0.43
+    },
+    {
+      "id": "ucl",
+      "name": "Liga Champions UEFA",
+      "avgGoalsPerMatch": 3.05,
+      "hfaAttack": 1.1,
+      "rhoFT": -0.048,
+      "rhoHT": -0.072,
+      "firstHalfShare": 0.438
     }
   ],
   "teams": {
@@ -2109,6 +2120,482 @@
     "napoli": {
       "name": "Napoli",
       "league": "seriea",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lens": {
+      "name": "Lens",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lyon": {
+      "name": "Lyon",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lehavre": {
+      "name": "Le Havre",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "angers": {
+      "name": "Angers",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lorient": {
+      "name": "Lorient",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "parisfc": {
+      "name": "Paris FC",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "monaco": {
+      "name": "AS Monaco",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "toulouse": {
+      "name": "Toulouse",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lemans": {
+      "name": "Le Mans",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "strasbourg": {
+      "name": "Strasbourg",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "rennes": {
+      "name": "Rennes",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "troyes": {
+      "name": "Troyes",
+      "league": "ligue1",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sportinglisbon": {
+      "name": "Sporting Lisbon",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "sabah": {
+      "name": "Sabah FK",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "slaviapraha": {
+      "name": "Slavia Praha",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "clubbrugge": {
+      "name": "Club Brugge",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "galatasaray": {
+      "name": "Galatasaray",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "psv": {
+      "name": "PSV Eindhoven",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "viking": {
+      "name": "Viking",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "feyenoord": {
+      "name": "Feyenoord",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "lasklinz": {
+      "name": "LASK Linz",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "fenerbahce": {
+      "name": "Fenerbahce",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "shakhtar": {
+      "name": "Shakhtar Donetsk",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "aekathens": {
+      "name": "AEK Athens",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "bodoglimt": {
+      "name": "Bodo Glimt",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "porto": {
+      "name": "Porto",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "slovanbratislava": {
+      "name": "Slovan Bratislava",
+      "league": "ucl",
+      "statsMissing": true,
+      "matches": 0,
+      "xgF": null,
+      "xgA": null,
+      "xA": null,
+      "goals": null,
+      "shots": null,
+      "sot": null,
+      "bigMiss": null,
+      "fouls": null,
+      "tackles": null,
+      "yellow": null,
+      "red": null
+    },
+    "stuttgart": {
+      "name": "VfB Stuttgart",
+      "league": "ucl",
       "statsMissing": true,
       "matches": 0,
       "xgF": null,
@@ -7596,6 +8083,1763 @@
           ]
         }
       }
+    },
+    {
+      "id": "len-lyo",
+      "league": "ligue1",
+      "kickoff": "10/10",
+      "home": "lens",
+      "away": "lyon",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9524,
+              "a": 1.9524,
+              "indoH": -1.05,
+              "indoA": -1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.9346,
+              "u": 1.9524,
+              "indoO": -1.07,
+              "indoU": -1.05
+            }
+          ],
+          "x12": {
+            "1": 2.12,
+            "X": 3.52,
+            "2": 2.88
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.21,
+              "a": 1.7042,
+              "indoH": 1.21,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.9615,
+              "u": 1.9259,
+              "indoO": -1.04,
+              "indoU": -1.08
+            }
+          ],
+          "x12": {
+            "1": 2.56,
+            "X": 2.37,
+            "2": 3.23
+          }
+        }
+      }
+    },
+    {
+      "id": "lil-hav",
+      "league": "ligue1",
+      "kickoff": "10/10",
+      "home": "lille",
+      "away": "lehavre",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 1.9804,
+              "a": 1.9259,
+              "indoH": -1.02,
+              "indoA": -1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9615,
+              "u": 1.9259,
+              "indoO": -1.04,
+              "indoU": -1.08
+            }
+          ],
+          "x12": {
+            "1": 1.39,
+            "X": 4.31,
+            "2": 6.7
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.9346,
+              "a": 1.9524,
+              "indoH": -1.07,
+              "indoA": -1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7407,
+              "u": 2.16,
+              "indoO": -1.35,
+              "indoU": 1.16
+            }
+          ],
+          "x12": {
+            "1": 1.93,
+            "X": 2.33,
+            "2": 5.7
+          }
+        }
+      }
+    },
+    {
+      "id": "bre-ang",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "brest",
+      "away": "angers",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.9524,
+              "a": 1.9524,
+              "indoH": -1.05,
+              "indoA": -1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            }
+          ],
+          "x12": {
+            "1": 1.95,
+            "X": 3.29,
+            "2": 3.51
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.08,
+              "a": 1.8,
+              "indoH": 1.08,
+              "indoA": -1.25
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.8547,
+              "u": 2.03,
+              "indoO": -1.17,
+              "indoU": 1.03
+            }
+          ],
+          "x12": {
+            "1": 2.46,
+            "X": 2.18,
+            "2": 3.88
+          }
+        }
+      }
+    },
+    {
+      "id": "lor-pfc",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "lorient",
+      "away": "parisfc",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8621,
+              "a": 2.04,
+              "indoH": -1.16,
+              "indoA": 1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.5,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            }
+          ],
+          "x12": {
+            "1": 2.84,
+            "X": 3.25,
+            "2": 2.26
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 2.14,
+              "a": 1.7519,
+              "indoH": 1.14,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.8547,
+              "u": 2.03,
+              "indoO": -1.17,
+              "indoU": 1.03
+            }
+          ],
+          "x12": {
+            "1": 3.34,
+            "X": 2.16,
+            "2": 2.77
+          }
+        }
+      }
+    },
+    {
+      "id": "mon-tou",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "monaco",
+      "away": "toulouse",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 2.0,
+              "a": 1.9009,
+              "indoH": -1.0,
+              "indoA": -1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.885,
+              "u": 2.0,
+              "indoO": -1.13,
+              "indoU": -1.0
+            }
+          ],
+          "x12": {
+            "1": 1.71,
+            "X": 3.68,
+            "2": 4.08
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9434,
+              "a": 1.9434,
+              "indoH": -1.06,
+              "indoA": -1.06
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.12,
+              "u": 1.7752,
+              "indoO": 1.12,
+              "indoU": -1.29
+            }
+          ],
+          "x12": {
+            "1": 2.26,
+            "X": 2.31,
+            "2": 4.06
+          }
+        }
+      }
+    },
+    {
+      "id": "psg-lmn",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "psg",
+      "away": "lemans",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -2.75,
+              "h": 2.06,
+              "a": 1.8403,
+              "indoH": 1.06,
+              "indoA": -1.19
+            }
+          ],
+          "ou": [
+            {
+              "line": 4.0,
+              "o": 1.9346,
+              "u": 1.9524,
+              "indoO": -1.07,
+              "indoU": -1.05
+            }
+          ],
+          "x12": {
+            "1": 1.1,
+            "X": 8.4,
+            "2": 13.0
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 2.03,
+              "a": 1.8547,
+              "indoH": 1.03,
+              "indoA": -1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            }
+          ],
+          "x12": {
+            "1": 1.33,
+            "X": 3.67,
+            "2": 10.5
+          }
+        }
+      }
+    },
+    {
+      "id": "nic-str",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "nice",
+      "away": "strasbourg",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.0,
+              "a": 1.9009,
+              "indoH": -1.0,
+              "indoA": -1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9804,
+              "u": 1.9009,
+              "indoO": -1.02,
+              "indoU": -1.11
+            }
+          ],
+          "x12": {
+            "1": 2.2,
+            "X": 3.32,
+            "2": 2.88
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7042,
+              "a": 2.21,
+              "indoH": -1.42,
+              "indoA": 1.21
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.7353,
+              "u": 2.17,
+              "indoO": -1.36,
+              "indoU": 1.17
+            }
+          ],
+          "x12": {
+            "1": 2.65,
+            "X": 2.24,
+            "2": 3.37
+          }
+        }
+      }
+    },
+    {
+      "id": "ren-aux",
+      "league": "ligue1",
+      "kickoff": "10/11",
+      "home": "rennes",
+      "away": "auxerre",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.25,
+              "h": 1.9009,
+              "a": 2.0,
+              "indoH": -1.11,
+              "indoA": -1.0
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            }
+          ],
+          "x12": {
+            "1": 1.38,
+            "X": 4.62,
+            "2": 6.2
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 1.885,
+              "a": 2.0,
+              "indoH": -1.13,
+              "indoA": -1.0
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.8333,
+              "u": 2.05,
+              "indoO": -1.2,
+              "indoU": 1.05
+            }
+          ],
+          "x12": {
+            "1": 1.88,
+            "X": 2.56,
+            "2": 5.0
+          }
+        }
+      }
+    },
+    {
+      "id": "tro-mar",
+      "league": "ligue1",
+      "kickoff": "10/12",
+      "home": "troyes",
+      "away": "marseille",
+      "slate": 5,
+      "oddsFormatSource": "indo",
+      "competition": "Ligue 1 Prancis",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.9524,
+              "a": 1.9524,
+              "indoH": -1.05,
+              "indoA": -1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 2.02,
+              "u": 1.8621,
+              "indoO": 1.02,
+              "indoU": -1.16
+            }
+          ],
+          "x12": {
+            "1": 3.34,
+            "X": 3.47,
+            "2": 1.95
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7812,
+              "a": 2.11,
+              "indoH": -1.28,
+              "indoA": 1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.03,
+              "u": 1.8547,
+              "indoO": 1.03,
+              "indoU": -1.17
+            }
+          ],
+          "x12": {
+            "1": 3.51,
+            "X": 2.34,
+            "2": 2.44
+          }
+        }
+      }
+    },
+    {
+      "id": "len-spo",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "lens",
+      "away": "sportinglisbon",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7519,
+              "a": 2.14,
+              "indoH": -1.33,
+              "indoA": 1.14
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.9259,
+              "u": 1.9434,
+              "indoO": -1.08,
+              "indoU": -1.06
+            }
+          ],
+          "x12": {
+            "1": 2.26,
+            "X": 3.48,
+            "2": 2.69
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7812,
+              "a": 2.08,
+              "indoH": -1.28,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.9804,
+              "u": 1.885,
+              "indoO": -1.02,
+              "indoU": -1.13
+            }
+          ],
+          "x12": {
+            "1": 2.68,
+            "X": 2.35,
+            "2": 3.1
+          }
+        }
+      }
+    },
+    {
+      "id": "sab-slv",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "sabah",
+      "away": "slaviapraha",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.8772,
+              "a": 2.01,
+              "indoH": -1.14,
+              "indoA": 1.01
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.8264,
+              "u": 2.04,
+              "indoO": -1.21,
+              "indoU": 1.04
+            }
+          ],
+          "x12": {
+            "1": 3.22,
+            "X": 3.42,
+            "2": 2.01
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7812,
+              "a": 2.08,
+              "indoH": -1.28,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.05,
+              "u": 1.813,
+              "indoO": 1.05,
+              "indoU": -1.23
+            }
+          ],
+          "x12": {
+            "1": 3.57,
+            "X": 2.32,
+            "2": 2.44
+          }
+        }
+      }
+    },
+    {
+      "id": "ars-lil",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "arsenal",
+      "away": "lille",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.75,
+              "h": 2.05,
+              "a": 1.8333,
+              "indoH": 1.05,
+              "indoA": -1.2
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.9615,
+              "u": 1.9009,
+              "indoO": -1.04,
+              "indoU": -1.11
+            }
+          ],
+          "x12": {
+            "1": 1.26,
+            "X": 5.2,
+            "2": 8.2
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 1.9524,
+              "a": 1.9174,
+              "indoH": -1.05,
+              "indoA": -1.09
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.01,
+              "u": 1.8547,
+              "indoO": 1.01,
+              "indoU": -1.17
+            }
+          ],
+          "x12": {
+            "1": 1.62,
+            "X": 2.66,
+            "2": 7.8
+          }
+        }
+      }
+    },
+    {
+      "id": "atm-mun",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "atletico",
+      "away": "manutd",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9524,
+              "a": 1.9346,
+              "indoH": -1.05,
+              "indoA": -1.07
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.9804,
+              "u": 1.885,
+              "indoO": -1.02,
+              "indoU": -1.13
+            }
+          ],
+          "x12": {
+            "1": 2.13,
+            "X": 3.62,
+            "2": 2.81
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7143,
+              "a": 2.17,
+              "indoH": -1.4,
+              "indoA": 1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.8621,
+              "u": 2.0,
+              "indoO": -1.16,
+              "indoU": -1.0
+            }
+          ],
+          "x12": {
+            "1": 2.54,
+            "X": 2.43,
+            "2": 3.17
+          }
+        }
+      }
+    },
+    {
+      "id": "int-brg",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "inter",
+      "away": "clubbrugge",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -1.5,
+              "h": 1.813,
+              "a": 2.07,
+              "indoH": -1.23,
+              "indoA": 1.07
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.0,
+              "o": 1.8547,
+              "u": 2.01,
+              "indoO": -1.17,
+              "indoU": 1.01
+            }
+          ],
+          "x12": {
+            "1": 1.26,
+            "X": 5.3,
+            "2": 8.2
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 2.01,
+              "a": 1.8547,
+              "indoH": 1.01,
+              "indoA": -1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 1.8621,
+              "u": 2.0,
+              "indoO": -1.16,
+              "indoU": -1.0
+            }
+          ],
+          "x12": {
+            "1": 1.66,
+            "X": 2.71,
+            "2": 6.6
+          }
+        }
+      }
+    },
+    {
+      "id": "gal-bar",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "galatasaray",
+      "away": "barcelona",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 1.5,
+              "h": 2.17,
+              "a": 1.7353,
+              "indoH": 1.17,
+              "indoA": -1.36
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.75,
+              "o": 1.7353,
+              "u": 2.14,
+              "indoO": -1.36,
+              "indoU": 1.14
+            }
+          ],
+          "x12": {
+            "1": 6.8,
+            "X": 5.8,
+            "2": 1.27
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.75,
+              "h": 1.885,
+              "a": 1.9804,
+              "indoH": -1.13,
+              "indoA": -1.02
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.75,
+              "o": 2.07,
+              "u": 1.7937,
+              "indoO": 1.07,
+              "indoU": -1.26
+            }
+          ],
+          "x12": {
+            "1": 5.4,
+            "X": 2.99,
+            "2": 1.66
+          }
+        }
+      }
+    },
+    {
+      "id": "rbl-psv",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "leipzig",
+      "away": "psv",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.5,
+              "h": 2.04,
+              "a": 1.8403,
+              "indoH": 1.04,
+              "indoA": -1.19
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.7246,
+              "u": 2.16,
+              "indoO": -1.38,
+              "indoU": 1.16
+            }
+          ],
+          "x12": {
+            "1": 2.04,
+            "X": 3.73,
+            "2": 2.91
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.12,
+              "a": 1.7519,
+              "indoH": 1.12,
+              "indoA": -1.33
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.01,
+              "u": 1.8547,
+              "indoO": 1.01,
+              "indoU": -1.17
+            }
+          ],
+          "x12": {
+            "1": 2.42,
+            "X": 2.56,
+            "2": 3.14
+          }
+        }
+      }
+    },
+    {
+      "id": "vik-bay",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "viking",
+      "away": "bayern",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 2.75,
+              "h": 1.9346,
+              "a": 1.9524,
+              "indoH": -1.07,
+              "indoA": -1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 4.25,
+              "o": 1.8264,
+              "u": 2.04,
+              "indoO": -1.21,
+              "indoU": 1.04
+            }
+          ],
+          "x12": {
+            "1": 13.0,
+            "X": 8.8,
+            "2": 1.1
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 1.25,
+              "h": 1.8264,
+              "a": 2.04,
+              "indoH": -1.21,
+              "indoA": 1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.0,
+              "o": 2.19,
+              "u": 1.7042,
+              "indoO": 1.19,
+              "indoU": -1.42
+            }
+          ],
+          "x12": {
+            "1": 8.8,
+            "X": 3.72,
+            "2": 1.35
+          }
+        }
+      }
+    },
+    {
+      "id": "vil-nap",
+      "league": "ucl",
+      "kickoff": "10/14",
+      "home": "villarreal",
+      "away": "napoli",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9804,
+              "a": 1.9009,
+              "indoH": -1.02,
+              "indoA": -1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9259,
+              "u": 1.9434,
+              "indoO": -1.08,
+              "indoU": -1.06
+            }
+          ],
+          "x12": {
+            "1": 2.19,
+            "X": 3.35,
+            "2": 2.89
+          },
+          "oe": {
+            "odd": 1.9709,
+            "even": 1.9346
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.7143,
+              "a": 2.17,
+              "indoH": -1.4,
+              "indoA": 1.17
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.16,
+              "u": 1.7246,
+              "indoO": 1.16,
+              "indoU": -1.38
+            }
+          ],
+          "x12": {
+            "1": 2.67,
+            "X": 2.24,
+            "2": 3.32
+          }
+        }
+      }
+    },
+    {
+      "id": "fey-com",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "feyenoord",
+      "away": "como",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.9804,
+              "a": 1.9009,
+              "indoH": -1.02,
+              "indoA": -1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.8772,
+              "u": 1.9901,
+              "indoO": -1.14,
+              "indoU": -1.01
+            }
+          ],
+          "x12": {
+            "1": 3.14,
+            "X": 3.67,
+            "2": 1.96
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.8264,
+              "a": 2.04,
+              "indoH": -1.21,
+              "indoA": 1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.12,
+              "u": 1.7519,
+              "indoO": 1.12,
+              "indoU": -1.33
+            }
+          ],
+          "x12": {
+            "1": 3.4,
+            "X": 2.49,
+            "2": 2.34
+          }
+        }
+      }
+    },
+    {
+      "id": "las-liv",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "lasklinz",
+      "away": "liverpool",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 1.75,
+              "h": 2.04,
+              "a": 1.8403,
+              "indoH": 1.04,
+              "indoA": -1.19
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 2.0,
+              "u": 1.8621,
+              "indoO": 1.0,
+              "indoU": -1.16
+            }
+          ],
+          "x12": {
+            "1": 8.6,
+            "X": 5.8,
+            "2": 1.22
+          },
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.75,
+              "h": 2.05,
+              "a": 1.813,
+              "indoH": 1.05,
+              "indoA": -1.23
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.06,
+              "u": 1.8,
+              "indoO": 1.06,
+              "indoU": -1.25
+            }
+          ],
+          "x12": {
+            "1": 7.4,
+            "X": 2.94,
+            "2": 1.54
+          }
+        }
+      }
+    },
+    {
+      "id": "rom-rma",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "roma",
+      "away": "realmadrid",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.8621,
+              "a": 2.02,
+              "indoH": -1.16,
+              "indoA": 1.02
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.7634,
+              "u": 2.11,
+              "indoO": -1.31,
+              "indoU": 1.11
+            }
+          ],
+          "x12": {
+            "1": 2.97,
+            "X": 3.71,
+            "2": 2.02
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7812,
+              "a": 2.08,
+              "indoH": -1.28,
+              "indoA": 1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.06,
+              "u": 1.8,
+              "indoO": 1.06,
+              "indoU": -1.25
+            }
+          ],
+          "x12": {
+            "1": 3.25,
+            "X": 2.53,
+            "2": 2.39
+          }
+        }
+      }
+    },
+    {
+      "id": "avl-fen",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "astonvilla",
+      "away": "fenerbahce",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.75,
+              "h": 2.02,
+              "a": 1.8621,
+              "indoH": 1.02,
+              "indoA": -1.16
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.8264,
+              "u": 2.04,
+              "indoO": -1.21,
+              "indoU": 1.04
+            }
+          ],
+          "x12": {
+            "1": 1.73,
+            "X": 3.68,
+            "2": 3.94
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.9434,
+              "a": 1.9259,
+              "indoH": -1.06,
+              "indoA": -1.08
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.08,
+              "u": 1.7812,
+              "indoO": 1.08,
+              "indoU": -1.28
+            }
+          ],
+          "x12": {
+            "1": 2.27,
+            "X": 2.32,
+            "2": 4.0
+          }
+        }
+      }
+    },
+    {
+      "id": "shk-aek",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "shakhtar",
+      "away": "aekathens",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9709,
+              "a": 1.9174,
+              "indoH": -1.03,
+              "indoA": -1.09
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 2.04,
+              "u": 1.8264,
+              "indoO": 1.04,
+              "indoU": -1.21
+            }
+          ],
+          "x12": {
+            "1": 2.56,
+            "X": 3.23,
+            "2": 2.49
+          },
+          "oe": {
+            "odd": 1.9804,
+            "even": 1.9259
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.0,
+              "h": 1.9709,
+              "a": 1.8929,
+              "indoH": -1.03,
+              "indoA": -1.12
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.0,
+              "o": 1.813,
+              "u": 2.05,
+              "indoO": -1.23,
+              "indoU": 1.05
+            }
+          ],
+          "x12": {
+            "1": 3.07,
+            "X": 2.18,
+            "2": 2.96
+          }
+        }
+      }
+    },
+    {
+      "id": "bod-bvb",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "bodoglimt",
+      "away": "dortmund",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": 0.5,
+              "h": 1.8403,
+              "a": 2.04,
+              "indoH": -1.19,
+              "indoA": 1.04
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.7407,
+              "u": 2.13,
+              "indoO": -1.35,
+              "indoU": 1.13
+            }
+          ],
+          "x12": {
+            "1": 2.92,
+            "X": 3.71,
+            "2": 2.04
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 0.25,
+              "h": 1.7634,
+              "a": 2.11,
+              "indoH": -1.31,
+              "indoA": 1.11
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.03,
+              "u": 1.8333,
+              "indoO": 1.03,
+              "indoU": -1.2
+            }
+          ],
+          "x12": {
+            "1": 3.18,
+            "X": 2.55,
+            "2": 2.41
+          }
+        }
+      }
+    },
+    {
+      "id": "mci-psg",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "mancity",
+      "away": "psg",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.8929,
+              "a": 1.9901,
+              "indoH": -1.12,
+              "indoA": -1.01
+            }
+          ],
+          "ou": [
+            {
+              "line": 3.5,
+              "o": 2.04,
+              "u": 1.8264,
+              "indoO": 1.04,
+              "indoU": -1.21
+            }
+          ],
+          "x12": {
+            "1": 2.05,
+            "X": 3.74,
+            "2": 2.88
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.14,
+              "a": 1.7353,
+              "indoH": 1.14,
+              "indoA": -1.36
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.5,
+              "o": 2.06,
+              "u": 1.8,
+              "indoO": 1.06,
+              "indoU": -1.25
+            }
+          ],
+          "x12": {
+            "1": 2.46,
+            "X": 2.52,
+            "2": 3.13
+          }
+        }
+      }
+    },
+    {
+      "id": "bet-por",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "betis",
+      "away": "porto",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 1.8333,
+              "a": 2.05,
+              "indoH": -1.2,
+              "indoA": 1.05
+            }
+          ],
+          "ou": [
+            {
+              "line": 2.75,
+              "o": 1.9009,
+              "u": 1.9615,
+              "indoO": -1.11,
+              "indoU": -1.04
+            }
+          ],
+          "x12": {
+            "1": 2.01,
+            "X": 3.43,
+            "2": 3.19
+          },
+          "oe": {
+            "odd": 1.9615,
+            "even": 1.9434
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": -0.25,
+              "h": 2.19,
+              "a": 1.7042,
+              "indoH": 1.19,
+              "indoA": -1.42
+            }
+          ],
+          "ou": [
+            {
+              "line": 1.25,
+              "o": 2.13,
+              "u": 1.7407,
+              "indoO": 1.13,
+              "indoU": -1.35
+            }
+          ],
+          "x12": {
+            "1": 2.57,
+            "X": 2.26,
+            "2": 3.43
+          }
+        }
+      }
+    },
+    {
+      "id": "slo-stu",
+      "league": "ucl",
+      "kickoff": "10/15",
+      "home": "slovanbratislava",
+      "away": "stuttgart",
+      "slate": 6,
+      "oddsFormatSource": "indo",
+      "competition": "Liga Champions UEFA",
+      "markets": {
+        "ft": {
+          "ah": [],
+          "ou": [
+            {
+              "line": 3.25,
+              "o": 1.8547,
+              "u": 2.01,
+              "indoO": -1.17,
+              "indoU": 1.01
+            }
+          ],
+          "oe": {
+            "odd": 1.9524,
+            "even": 1.9524
+          }
+        },
+        "1h": {
+          "ah": [
+            {
+              "line": 1.5,
+              "h": 2.06,
+              "a": 1.8,
+              "indoH": 1.06,
+              "indoA": -1.25
+            }
+          ],
+          "ou": []
+        }
+      },
+      "note": "Baris handicap penuh-waktu terpotong di screenshot dan overround-nya mustahil (-0.9%), jadi dibuang daripada ditebak. Total dan handicap babak 1 tetap dipakai."
     }
   ],
   "verifiedSlip": {
