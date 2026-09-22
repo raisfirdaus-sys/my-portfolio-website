@@ -798,7 +798,23 @@
       : '';
 
     if (!STATE.legs.length) {
-      list.appendChild(el('div', 'panel-body', 'Belum ada leg. Tekan "Susun parlay", atau tambahkan sendiri dari Papan Nilai.'));
+      var empty = el('div', 'panel-body');
+      var bar = parseFloat($('p-minprob').value) || 0.5;
+      var blocked = E.pickParlayLegs.lastBlocked || 0;
+      empty.innerHTML =
+        '<div class="notice bad" style="margin:0"><h3>Tidak ada satu pun leg yang memenuhi syarat</h3>' +
+        '<p>Anda meminta leg yang membayar <strong>odds penuh</strong> minimal <span class="fig">' +
+        pct(bar, 0) + '</span> dari waktu. Di jadwal ini tidak ada yang mencapainya' +
+        (blocked ? ', dan ' + blocked + ' pilihan lain sudah dibuang lebih dulu karena odds di bawah 1.50 ' +
+          '(tidak muncul di menu Mix Parlay)' : '') + '.</p>' +
+        '<p>Itu jawaban yang benar, bukan kegagalan alat. Pasar yang likuid memang tidak menjual ' +
+        'leg murah yang menang 55% dari waktu &mdash; kalau ada, bandar sudah memperbaiki harganya. ' +
+        'Turunkan ambang ke sekitar <span class="fig">0.50&ndash;0.52</span> dan lihat berapa harga ' +
+        'sebenarnya, atau pilih jadwal lain.</p>' +
+        '<p><strong>Catatan:</strong> ambang ini mengukur peluang <em>bayar penuh</em>, bukan ' +
+        'probabilitas mentah. Garis bulat sering terlihat berprobabilitas 56% padahal cuma 32% ' +
+        'bayar penuh, karena sisanya seri &mdash; dan leg seri mengalikan tiket dengan 1.0.</p></div>';
+      list.appendChild(empty);
       return;
     }
 

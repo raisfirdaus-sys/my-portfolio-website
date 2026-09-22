@@ -1091,7 +1091,16 @@
         if (kinds.indexOf(p.kind) < 0) return;
         if (!allowQuarter && p.lineType === 'quarter') return;
         if (!mixParlayEligible(p, minOdds)) { blocked++; return; }
-        var prob = p.pFairMarket != null ? p.pFairMarket : p.pModel;
+        /* Filter on the same quantity the ranking uses: the probability of
+           being paid FULL odds. Filtering on raw probability while ranking on
+           full payout pulled the two apart, and raising the threshold then
+           did the opposite of what it should - a whole line counts its push
+           mass as "not a loss", so it clears a high raw bar while paying out
+           far less often. At a 0.55 raw bar the Champions League pool
+           collapsed to four legs, three of them whole lines carrying 28-42%
+           push risk: exactly the legs this metric exists to reject. */
+        var prob = p.cleanWin != null ? p.cleanWin
+                 : (p.pFairMarket != null ? p.pFairMarket : p.pModel);
         if (prob < minProb || prob > maxProb) return;
         pool.push({
           pick: p, analysis: a, prob: prob,
