@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/moneyball.css?v=a3fd1f7-194734" />
+<link rel="stylesheet" href="css/moneyball.css?v=667a004-195452" />
 </head>
 <body>
 
@@ -51,73 +51,11 @@
     <div class="board-scroll"><div class="board" id="board"></div></div>
   </section>
 
-
-  <!-- =================== honest headline =================== -->
-  <div id="reality" class="notice bad" role="status"></div>
-
-  <!-- =================== auto parlay =================== -->
-  <section class="panel">
-    <div class="panel-head">
-      Pembangun Parlay
-      <span class="sub" id="parlay-sub">Leg distabilo biru muda = paling efisien menurut model</span>
-    </div>
-    <div class="panel-body">
-      <div class="form-grid" style="margin-bottom:12px">
-        <div class="field">
-          <label for="p-legs">Jumlah leg</label>
-          <input id="p-legs" type="number" min="1" max="14" step="1" value="9" />
-        </div>
-        <div class="field">
-          <label for="p-minprob" title="Peluang leg membayar ODDS PENUH. Seri dan setengah-hasil tidak dihitung.">Min. bayar penuh</label>
-          <input id="p-minprob" type="number" min="0.3" max="0.95" step="0.01" value="0.50" />
-        </div>
-        <div class="field">
-          <label for="p-maxprob" title="Batas atas peluang bayar penuh - leg terlalu pendek harganya tidak sepadan.">Maks. bayar penuh</label>
-          <input id="p-maxprob" type="number" min="0.4" max="0.99" step="0.01" value="0.90" />
-        </div>
-        <div class="field">
-          <label for="p-stake">Stake (Rp)</label>
-          <input id="p-stake" type="number" min="1000" step="1000" value="100000" />
-        </div>
-        <div class="field">
-          <label for="p-quarter">Garis kuartal</label>
-          <select id="p-quarter">
-            <option value="0">Tolak (disarankan)</option>
-            <option value="1">Izinkan</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="p-kinds">Pasar</label>
-          <select id="p-kinds">
-            <option value="ah,ou">Handicap + O/U</option>
-            <option value="ah">Handicap saja</option>
-            <option value="ou">Over/Under saja</option>
-            <option value="ah,ou,x12">Tambah 1X2 (vig tinggi)</option>
-          </select>
-        </div>
-      </div>
-      <div class="btn-row">
-        <button class="btn" id="p-build" type="button">Susun parlay</button>
-        <button class="btn ghost" id="p-clear" type="button">Kosongkan</button>
-        <span id="p-count" style="font-size:12px;color:var(--text-muted)"></span>
-      </div>
-      <div class="tray" style="margin-top:13px">
-        <div style="border:1px solid var(--border);border-radius:6px;overflow:hidden">
-          <div id="p-legs-list"></div>
-        </div>
-        <div id="p-kpis"></div>
-      </div>
-      <div id="p-ladder" style="margin-top:13px"></div>
-    </div>
-  </section>
-
-  <!-- =================== fixtures + match centre =================== -->
-  <div class="grid-2">
-    <section class="panel">
-      <div class="panel-head">Pertandingan <span class="sub" id="fx-count"></span></div>
-      <div class="fx-list" id="fx-list"></div>
-    </section>
-
+  <!-- =================== match centre =================== -->
+  <!-- The narrow fixture list that used to sit here duplicated the wide
+       board above it row for row, while taking half the width away from the
+       match centre. The board is the way in now. -->
+  <div id="mc-block">
     <div>
       <section class="panel">
         <div class="panel-head">
@@ -203,6 +141,67 @@
     </div>
   </div>
 
+
+  <!-- =================== honest headline =================== -->
+  <div id="reality" class="notice bad" role="status"></div>
+
+  <!-- =================== auto parlay =================== -->
+  <section class="panel">
+    <div class="panel-head">
+      Pembangun Parlay
+      <span class="sub" id="parlay-sub">Leg distabilo biru muda = paling efisien menurut model</span>
+    </div>
+    <div class="panel-body">
+      <div class="form-grid" style="margin-bottom:12px">
+        <div class="field">
+          <label for="p-legs">Jumlah leg</label>
+          <input id="p-legs" type="number" min="1" max="14" step="1" value="9" />
+        </div>
+        <div class="field">
+          <label for="p-minprob" title="Peluang leg membayar ODDS PENUH. Seri dan setengah-hasil tidak dihitung.">Min. bayar penuh</label>
+          <input id="p-minprob" type="number" min="0.3" max="0.95" step="0.01" value="0.50" />
+        </div>
+        <div class="field">
+          <label for="p-maxprob" title="Batas atas peluang bayar penuh - leg terlalu pendek harganya tidak sepadan.">Maks. bayar penuh</label>
+          <input id="p-maxprob" type="number" min="0.4" max="0.99" step="0.01" value="0.90" />
+        </div>
+        <div class="field">
+          <label for="p-stake">Stake (Rp)</label>
+          <input id="p-stake" type="number" min="1000" step="1000" value="100000" />
+        </div>
+        <div class="field">
+          <label for="p-quarter">Garis kuartal</label>
+          <select id="p-quarter">
+            <option value="0">Tolak (disarankan)</option>
+            <option value="1">Izinkan</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="p-kinds">Pasar</label>
+          <select id="p-kinds">
+            <option value="ah,ou">Handicap + O/U</option>
+            <option value="ah">Handicap saja</option>
+            <option value="ou">Over/Under saja</option>
+            <option value="ah,ou,x12">Tambah 1X2 (vig tinggi)</option>
+          </select>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="p-build" type="button">Susun parlay</button>
+        <button class="btn ghost" id="p-clear" type="button">Kosongkan</button>
+        <span id="p-count" style="font-size:12px;color:var(--text-muted)"></span>
+      </div>
+      <div class="tray" style="margin-top:13px">
+        <div style="border:1px solid var(--border);border-radius:6px;overflow:hidden">
+          <div id="p-legs-list"></div>
+        </div>
+        <div id="p-kpis"></div>
+      </div>
+      <div id="p-ladder" style="margin-top:13px"></div>
+    </div>
+  </section>
+
+
   <!-- =================== calibration ledger =================== -->
   <section class="panel">
     <div class="panel-head">
@@ -234,7 +233,7 @@
 
 <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
 
-<script src="js/moneyball-engine.js?v=a3fd1f7-194734"></script>
-<script src="js/moneyball-app.js?v=a3fd1f7-194734"></script>
+<script src="js/moneyball-engine.js?v=667a004-195452"></script>
+<script src="js/moneyball-app.js?v=667a004-195452"></script>
 </body>
 </html>

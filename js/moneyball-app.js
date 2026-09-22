@@ -193,10 +193,14 @@
   }
 
   /* ==================================================== FIXTURE LIST ==== */
+  /* Kept for the narrow list, which the wide board replaced. It renders
+     only if that list is present, so restoring the markup is enough to
+     bring it back. */
   function renderFixtures() {
-    var list = $('fx-list'); list.innerHTML = '';
+    var list = $('fx-list'); if (!list) return;
+    list.innerHTML = '';
     var fxs = slateFixtures(STATE.slate);
-    $('fx-count').textContent = fxs.length + ' laga';
+    var cnt = $('fx-count'); if (cnt) cnt.textContent = fxs.length + ' laga';
     var lastLeague = null;
     fxs.forEach(function (fx) {
       if (fx.league !== lastLeague) {
@@ -402,6 +406,15 @@
         }
         STATE.fixtureId = fx.id;
         renderAll();
+        /* The board can be long enough that the match centre below it is off
+           screen, so a click would look like nothing happened. Bring it into
+           view - honouring a reader who has asked for less motion. */
+        var target = $('mc-block');
+        if (target && target.scrollIntoView) {
+          var still = window.matchMedia &&
+            window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          target.scrollIntoView({ behavior: still ? 'auto' : 'smooth', block: 'start' });
+        }
       });
       host.appendChild(row);
     });
