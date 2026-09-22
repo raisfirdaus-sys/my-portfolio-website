@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {},
+    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, boardAll: false,
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -221,6 +221,175 @@
       });
       list.appendChild(btn);
     });
+  }
+
+  /* ====================================================== WIDE BOARD ==== */
+  /* Club crests are trademarks. Shipping real ones on a page meant to be
+     sold is the owner's risk to take, not mine to take for them - so a
+     crest is a generated monogram unless that team carries a `logo` URL the
+     operator has the right to use. Colour is derived from the team key, so
+     it is stable across reloads and never two teams sharing a row. */
+  function crestHTML(key) {
+    var t = team(key);
+    if (t.logo) {
+      return '<img class="crest" src="' + String(t.logo).replace(/"/g, '&quot;') +
+             '" alt="" loading="lazy" />';
+    }
+    var words = String(t.name || key).replace(/[^A-Za-z0-9 ]/g, ' ').split(/\s+/)
+      .filter(function (w) { return w.length; });
+    var mono = (words.length > 1
+      ? words[0].charAt(0) + words[1].charAt(0)
+      : (words[0] || '?').slice(0, 2)).toUpperCase();
+    var h = 0;
+    for (var i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) % 360;
+    return '<i class="crest" style="background:hsl(' + h + ',48%,34%)" aria-hidden="true">' +
+           mono + '</i>';
+  }
+
+  /* One market cell: the line above, the two prices below, right-aligned so
+     a column of digits can be scanned down the page. */
+  function marketCell(line, a, b, la, lb) {
+    if (a == null && b == null) return '<span class="board-cell num">&mdash;</span>';
+    return '<span class="board-cell num">' +
+      (line != null ? '<span class="line">' + line + '</span><br />' : '') +
+      (la || '') + '<b>' + (a != null ? fmtOdds(a) : '&mdash;') + '</b>' +
+      ' &middot; ' + (lb || '') + '<b>' + (b != null ? fmtOdds(b) : '&mdash;') + '</b>' +
+      '</span>';
+  }
+
+  /* The main line is the one closest to level for a handicap, and the one
+     the book lists first for totals - that is the price everything else on
+     the board is quoted around. */
+  function mainAH(fx) {
+    var rows = (((fx.markets || {}).ft || {}).ah) || [];
+    if (!rows.length) return null;
+    return rows.slice().sort(function (x, y) {
+      return Math.abs(x.line) - Math.abs(y.line);
+    })[0];
+  }
+  function mainOU(fx) {
+    var rows = (((fx.markets || {}).ft || {}).ou) || [];
+    return rows.length ? rows[0] : null;
+  }
+
+  function boardFixtures() {
+    return STATE.boardAll
+      ? DATA.fixtures.slice()
+      : slateFixtures(STATE.slate);
+  }
+
+  function renderBoard() {
+    var host = $('board'); if (!host) return;
+    host.innerHTML = '';
+    var fxs = boardFixtures();
+
+    var cnt = $('board-count');
+    if (cnt) {
+      cnt.textContent = fxs.length + ' laga' +
+        (STATE.boardAll ? ' — semua jadwal' : '');
+    }
+
+    var head = el('div', 'board-head');
+    head.innerHTML = '<span>Waktu</span><span>Pertandingan</span>' +
+      '<span class="num">Handicap</span><span class="num">Atas / Bawah</span>' +
+      '<span class="num">1 &middot; X &middot; 2</span><span>Pilihan model</span>';
+    host.appendChild(head);
+
+    var lastLeague = null, lastSlate = null;
+    fxs.forEach(function (fx) {
+      var groupKey = STATE.boardAll ? (fx.slate || 1) + '|' + fx.league : fx.league;
+      if (groupKey !== lastLeague) {
+        lastLeague = groupKey;
+        var lg = league(fx.league);
+        var label = (lg ? lg.name : fx.league);
+        if (STATE.boardAll && (fx.slate || 1) !== lastSlate) {
+          lastSlate = fx.slate || 1;
+          var sl = (DATA.meta.slates || {})[String(lastSlate)] || '';
+          label = (sl.split(' - ')[0] || ('Jadwal ' + lastSlate)) + ' · ' + label;
+        }
+        host.appendChild(el('div', 'board-group', label));
+      }
+
+      var a = null; try { a = analyse(fx); } catch (err) {}
+      var ah = mainAH(fx), ou = mainOU(fx);
+      var x12 = (((fx.markets || {}).ft || {}).x12) || {};
+
+      var row = el('button', 'board-row');
+      row.type = 'button';
+      row.setAttribute('aria-current', fx.id === STATE.fixtureId ? 'true' : 'false');
+
+      var time = el('span', 'board-time');
+      time.innerHTML = (fx.date ? fx.date + '<br />' : '') + (fx.kickoff || '');
+      row.appendChild(time);
+
+      var teams = el('span', 'board-teams');
+      teams.innerHTML =
+        '<span class="board-team">' + crestHTML(fx.home) + '<span>' + team(fx.home).name + '</span></span>' +
+        '<span class="board-team">' + crestHTML(fx.away) + '<span>' + team(fx.away).name + '</span></span>';
+      row.appendChild(teams);
+
+      var ahCell = el('span');
+      ahCell.innerHTML = ah
+        ? marketCell((ah.line > 0 ? '+' : '') + ah.line, ah.h, ah.a)
+        : '<span class="board-cell num">&mdash;</span>';
+      row.appendChild(ahCell);
+
+      var ouCell = el('span');
+      ouCell.innerHTML = ou
+        ? marketCell(ou.line, ou.o, ou.u, 'A ', 'B ')
+        : '<span class="board-cell num">&mdash;</span>';
+      row.appendChild(ouCell);
+
+      var x12Cell = el('span', 'board-cell num');
+      x12Cell.innerHTML = (x12['1'] != null)
+        ? '<b>' + fmtOdds(x12['1']) + '</b> &middot; <b>' + fmtOdds(x12.X) +
+          '</b> &middot; <b>' + fmtOdds(x12['2']) + '</b>'
+        : '&mdash;';
+      row.appendChild(x12Cell);
+
+      /* The highlight is the whole point of the page: the leg the model
+         would take, in light blue, exactly as on the value board. */
+      var pick = el('span', 'board-pick');
+      if (a && a.best) {
+        var cw = (a.best.dist ? (a.best.dist.win || 0) + 0.5 * (a.best.dist.halfWin || 0)
+                              : a.best.pModel) || 0;
+        pick.classList.add('hl');
+        pick.innerHTML = '<span class="lbl">' + a.best.label + '</span><br />' +
+          '<span class="meta">' + fmtOdds(a.best.odds) + ' · bayar penuh ' +
+          pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
+      } else {
+        pick.innerHTML = '<span class="meta">' +
+          (a && a.statsMissing ? 'ikut harga bandar' : 'tidak ada') + '</span>';
+      }
+      row.appendChild(pick);
+
+      row.addEventListener('click', function () {
+        if ((fx.slate || 1) !== STATE.slate) {
+          STATE.slate = fx.slate || 1;
+          STATE.legs = [];
+        }
+        STATE.fixtureId = fx.id;
+        renderAll();
+      });
+      host.appendChild(row);
+    });
+  }
+
+  function renderBoardTools() {
+    var host = $('board-tools'); if (!host) return;
+    host.innerHTML = '';
+    [['Jadwal ini', false], ['Semua ' + DATA.fixtures.length + ' laga', true]]
+      .forEach(function (opt) {
+        var b = el('button', 'chip', opt[0]);
+        b.type = 'button';
+        b.setAttribute('aria-pressed', !!STATE.boardAll === opt[1] ? 'true' : 'false');
+        b.addEventListener('click', function () {
+          STATE.boardAll = opt[1];
+          renderBoardTools();
+          renderBoard();
+        });
+        host.appendChild(b);
+      });
   }
 
   /* ==================================================== MATCH CENTRE ==== */
@@ -2327,6 +2496,8 @@
     refreshCalibration();
     renderSlateChips();
     renderReality();
+    renderBoardTools();
+    renderBoard();
     renderFixtures();
     renderMatchCentre();
     renderParlay();
@@ -2340,7 +2511,7 @@
       DATA.fixtures.length + ' laga';
 
     $('odds-format').addEventListener('change', function (e) {
-      STATE.format = e.target.value; renderMatchCentre(); renderParlay();
+      STATE.format = e.target.value; renderBoard(); renderMatchCentre(); renderParlay();
     });
     $('theme-toggle').addEventListener('click', function () {
       var cur = document.documentElement.getAttribute('data-theme');
