@@ -57,7 +57,7 @@
     var base = DATA.teams[key];
     if (!base) return 'none';
     var ov = STATE.overrides[key];
-    var userFilled = ov && ['xgF', 'xgA', 'xA', 'goals', 'shots'].some(function (f) {
+    var userFilled = ov && ['xgF', 'xgA', 'goals', 'shots'].some(function (f) {
       return ov[f] != null;
     });
     if (userFilled) return 'user';
@@ -422,6 +422,10 @@
 
 
   /* --------------------------------------------- the user's own read ---- */
+  function saveOverrides() {
+    try { localStorage.setItem('mb-overrides', JSON.stringify(STATE.overrides)); } catch (err) {}
+  }
+
   function saveTilt() {
     try { localStorage.setItem('mb-tilt', JSON.stringify(STATE.tilt)); } catch (err) {}
   }
@@ -834,6 +838,7 @@
           STATE.overrides[key] = STATE.overrides[key] || {};
           var v = inp.value === '' ? null : parseFloat(inp.value);
           STATE.overrides[key][f[0]] = v;
+          saveOverrides();
           renderAll();
         });
         fd.appendChild(lb); fd.appendChild(inp);
@@ -841,12 +846,67 @@
       });
       box.appendChild(grid);
     });
+    /* Paste-and-parse, so a page of statistics does not have to be retyped
+       field by field. */
+    [a.fixture.home, a.fixture.away].forEach(function (key, idx) {
+      var wrap = el('div');
+      wrap.style.cssText = 'margin-top:' + (idx ? '10px' : '14px') +
+        ';padding-top:10px;border-top:1px dashed var(--border)';
+      var lb = el('label');
+      lb.style.cssText = 'display:block;font-size:10px;font-weight:700;text-transform:uppercase;' +
+        'letter-spacing:.05em;color:var(--text-muted);margin-bottom:4px';
+      lb.textContent = 'Tempel halaman statistik ' + team(key).name + ' (UEFA / FBref / Understat)';
+      var ta = el('textarea');
+      ta.rows = 3;
+      ta.placeholder = 'Blok seluruh halaman statistik, Ctrl+C, tempel di sini lalu tekan Impor.';
+      ta.style.cssText = 'width:100%;padding:7px 9px;border:1px solid var(--border-strong);' +
+        'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
+        'font-family:var(--mono);font-size:12px;resize:vertical';
+      var btnRow = el('div', 'btn-row');
+      btnRow.style.marginTop = '7px';
+      var imp = el('button', 'btn sm', 'Impor untuk ' + team(key).name);
+      imp.type = 'button';
+      var msg = el('span');
+      msg.style.cssText = 'font-size:12px;color:var(--text-secondary)';
+      imp.addEventListener('click', function () {
+        var parsed;
+        try { parsed = E.parseTeamStats(ta.value); }
+        catch (err) { parsed = { error: err.message }; }
+        if (!parsed) { msg.textContent = 'Tidak ada teks untuk dibaca.'; return; }
+        if (parsed.error) {
+          msg.style.color = 'var(--critical)';
+          msg.textContent = parsed.error;
+          return;
+        }
+        STATE.overrides[key] = STATE.overrides[key] || {};
+        ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+          .forEach(function (f) {
+            if (parsed[f] != null) STATE.overrides[key][f] = parsed[f];
+          });
+        STATE.overrides[key]._xgEstimated = !!(parsed._estimated && parsed._estimated.xgF);
+        saveOverrides();
+        msg.style.color = 'var(--good)';
+        var miss = parsed._missing.length
+          ? ' Tidak ditemukan: ' + parsed._missing.join(', ') + ' \u2014 isi tangan kalau ada.'
+          : '';
+        msg.innerHTML = 'Terisi dari ' + parsed.matches + ' pertandingan.' +
+          (parsed._estimated.xgF
+            ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
+            : '') + miss;
+        renderAll();
+      });
+      btnRow.appendChild(imp); btnRow.appendChild(msg);
+      wrap.appendChild(lb); wrap.appendChild(ta); wrap.appendChild(btnRow);
+      box.appendChild(wrap);
+    });
+
     var row = el('div', 'btn-row');
     var reset = el('button', 'btn ghost', 'Kembalikan nilai awal');
     reset.type = 'button';
     reset.addEventListener('click', function () {
       delete STATE.overrides[a.fixture.home];
       delete STATE.overrides[a.fixture.away];
+      saveOverrides();
       renderAll();
     });
     row.appendChild(reset);
@@ -1600,6 +1660,14 @@
     /* Judgements are work: losing them on a refresh would make the control
        not worth using. Browser storage can be unavailable or throw, so every
        read and write is guarded and the page renders fine without it. */
+    try {
+      var ov = localStorage.getItem('mb-overrides');
+      if (ov) {
+        var parsedOv = JSON.parse(ov);
+        if (parsedOv && typeof parsedOv === 'object') STATE.overrides = parsedOv;
+      }
+    } catch (err) { STATE.overrides = {}; }
+
     try {
       var sc = localStorage.getItem('mb-scores');
       if (sc) {

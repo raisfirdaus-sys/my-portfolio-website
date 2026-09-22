@@ -30,7 +30,13 @@
     return Math.exp(-lambda + k * Math.log(lambda) - LOGF[k]);
   }
   function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
-  function safeDiv(a, b, fallback) { return (b && isFinite(b) && b !== 0) ? a / b : fallback; }
+  function safeDiv(a, b, fallback) {
+    /* Guards the numerator as well. A null xA was dividing to 0 rather than
+       falling back, so a team with no xA recorded scored as if it created
+       nothing - penalised for missing data instead of treated as unknown. */
+    if (a == null || !isFinite(a)) return fallback;
+    return (b && isFinite(b) && b !== 0) ? a / b : fallback;
+  }
   function round(v, d) { var m = Math.pow(10, d == null ? 2 : d); return Math.round(v * m) / m; }
 
   /* ------------------------------------------------------ model constants -- */
@@ -372,6 +378,116 @@
     if (anyNeg && maxAbs <= 1) return 'malay';
     if (!anyNeg && maxAbs <= 1) return 'hk';
     return 'indo';
+  }
+
+
+  /* ============================================ STAT IMPORT ============
+     UEFA's club statistics page is the most accessible public source for
+     Champions League teams, but it does NOT publish expected goals, and xG
+     is this model's single most important input. What it does publish is a
+     full shot profile, and xG can be approximated from that.
+
+     The approximation is crude and labelled as such wherever it is used. A
+     shot on target is worth roughly 0.185 xG on average across European
+     football, one off target about 0.05, a blocked attempt about 0.04. Those
+     are population averages: they know nothing about where the shot was
+     taken from, who took it, or what the goalkeeper was doing. A team that
+     shoots from distance all evening will have its xG overstated by this
+     formula, and one that walks the ball in will have it understated.
+
+     Use it when nothing better is available. Understat and FBref publish
+     real xG; when you have those numbers, type them in and this estimate
+     should be discarded.
+     ===================================================================== */
+  var XG_PER_SHOT = { onTarget: 0.185, offTarget: 0.050, blocked: 0.040 };
+
+  function estimateXG(onTarget, offTarget, blocked) {
+    var t = 0;
+    if (isFinite(onTarget))  t += XG_PER_SHOT.onTarget  * onTarget;
+    if (isFinite(offTarget)) t += XG_PER_SHOT.offTarget * offTarget;
+    if (isFinite(blocked))   t += XG_PER_SHOT.blocked   * blocked;
+    return t > 0 ? t : null;
+  }
+
+  /** Pull a labelled number out of pasted page text. */
+  function grabStat(text, labels) {
+    for (var i = 0; i < labels.length; i++) {
+      var label = labels[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      /* UEFA renders the number before its label, but other sources put it
+         after, so try both and take whichever matches. Also handles the
+         "5/7" form used for completed-out-of-attempted pairs. */
+      /* The label must END there: a bare "Tackles" query otherwise matches
+         "5 Tackles won" and reads the won count as the total. */
+      var before = new RegExp('(\\d+(?:[.,]\\d+)?)(?:\\s*/\\s*\\d+)?\\s*\\n?\\s*' + label + '(?![A-Za-z])', 'i');
+      var after  = new RegExp(label + '\\s*:?\\s*\\n?\\s*(\\d+(?:[.,]\\d+)?)', 'i');
+      var m = text.match(before) || text.match(after);
+      if (m) {
+        var v = parseFloat(m[1].replace(',', '.'));
+        if (isFinite(v)) return v;
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Parse a UEFA club statistics page pasted as plain text into the fields
+   * this model uses. Everything is converted to a PER MATCH average, because
+   * that is what the model expects and the page reports season totals.
+   */
+  function parseTeamStats(text) {
+    if (!text || typeof text !== 'string') return null;
+    var t = text.replace(/\u00a0/g, ' ');
+
+    var matches = grabStat(t, ['Matches played', 'Laga dimainkan', 'Pertandingan dimainkan']);
+    if (!matches || matches < 1) return { error: 'Jumlah pertandingan tidak ditemukan. Pastikan bagian "Matches played" ikut tersalin.' };
+
+    var goals      = grabStat(t, ['Goals']);
+    var conceded   = grabStat(t, ['Goals conceded']);
+    var onTarget   = grabStat(t, ['Attempts on target']);
+    var offTarget  = grabStat(t, ['Attempts off target']);
+    var blocked    = grabStat(t, ['Attempts blocked']);
+    var total      = grabStat(t, ['Total attempts', 'Total']);
+    var concOn     = grabStat(t, ['Attempts conceded on target']);
+    var concOff    = grabStat(t, ['Attempts conceded off target']);
+    /* total tackles, not the won/lost split beneath it */
+    var tackles    = grabStat(t, ['Tackles']);
+    var fouls      = grabStat(t, ['Fouls committed']);
+    var yellow     = grabStat(t, ['Yellow cards']);
+    var red        = grabStat(t, ['Red cards']);
+    var assists    = grabStat(t, ['Assists']);
+
+    if (total == null && onTarget != null && offTarget != null) {
+      total = onTarget + offTarget + (blocked || 0);
+    }
+
+    var xgF = estimateXG(onTarget, offTarget, blocked);
+    /* Only on- and off-target are published for the opponent, so a blocked
+       count is missing from the conceded side and xGA is slightly understated. */
+    var xgA = estimateXG(concOn, concOff, null);
+
+    function per(v) { return v == null ? null : Math.round((v / matches) * 100) / 100; }
+
+    var out = {
+      matches: matches,
+      goals: per(goals),
+      xgF: per(xgF),
+      xgA: per(xgA),
+      xA: null,                 // not published anywhere on the page
+      shots: per(total),
+      sot: per(onTarget),
+      bigMiss: null,            // "clear chances" is a different measure
+      fouls: per(fouls),
+      tackles: per(tackles),
+      yellow: per(yellow),
+      red: per(red),
+      _assists: per(assists),
+      _estimated: { xgF: xgF != null, xgA: xgA != null },
+      _missing: []
+    };
+    ['goals', 'xgF', 'xgA', 'shots', 'sot', 'fouls', 'tackles', 'yellow', 'red'].forEach(function (k) {
+      if (out[k] == null) out._missing.push(k);
+    });
+    return out;
   }
 
   /* ============================================ MARKET ANCHORING ========
@@ -1206,6 +1322,8 @@
     settleAH: settleAH, settleOU: settleOU, sublines: sublines,
     value: value, devig: devig, lineType: lineType,
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
+    parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
+    XG_PER_SHOT: XG_PER_SHOT,
     analyseFixture: analyseFixture, outrightProbs: outrightProbs,
     impliedLambdas: impliedLambdas, marketTargets: marketTargets, fitError: fitError,
     totalGoalsDist: totalGoalsDist, fmtLine: fmtLine,
