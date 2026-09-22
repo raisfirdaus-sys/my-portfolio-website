@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, boardAll: false,
+    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false,
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -542,7 +542,6 @@
     }
 
     renderTilt(a);
-    renderApiPanel();
     renderCross(a);
     renderStatCompare(a);
     renderHeat(a);
@@ -694,82 +693,13 @@
      differ and change. Paste the example request from the provider's own
      console, put {TOKEN} where the key goes, and the page substitutes it.
      ----------------------------------------------------------------- */
-  var API_PRESETS = {
-    sportmonks: {
-      label: 'Sportmonks v3',
-      url: 'https://api.sportmonks.com/v3/football/teams/{ID}?api_token={TOKEN}&include=statistics.details.type',
-      search: 'https://api.sportmonks.com/v3/football/teams/search/{NAME}?api_token={TOKEN}',
-      bulk: 'https://api.sportmonks.com/v3/football/teams/search/{NAME}?api_token={TOKEN}&include=statistics.details.type',
-      hint: 'URL ini sama persis dengan yang muncul di API Playground Sportmonks. ' +
-            'Tombol "Ambil semua" hanya bekerja kalau penyedia mengizinkan panggilan dari halaman web; ' +
-            'Sportmonks tidak, jadi pakai kotak tempel massal di atas.'
-    },
-    custom: {
-      label: 'URL sendiri',
-      url: '', search: '', bulk: '',
-      hint: 'Tempel URL lengkap apa pun. Tulis {TOKEN} di tempat kunci API, {ID} di tempat id tim, ' +
-            'dan {NAME} di URL pencarian kalau penyedia Anda punya.'
-    }
-  };
 
   /* Free API plans are usually metered per hour, and a slate of eighteen
      fixtures is thirty-six teams - up to seventy-two calls once id lookups
      are counted. Pace the requests, cache every id that resolves, and skip
      teams that already carry entered statistics, so a second run costs
      almost nothing. */
-  var API_DELAY_MS = 350;
 
-  function apiResolveId(teamKey, token, searchUrl) {
-    STATE.api.ids = STATE.api.ids || {};
-    var cached = STATE.api.ids[teamKey];
-    if (cached) return Promise.resolve(cached);
-    if (!searchUrl) return Promise.reject(new Error('URL pencarian kosong'));
-    var name = team(teamKey).name;
-    var url = searchUrl.replace(/\{TOKEN\}/g, encodeURIComponent(token))
-                       .replace(/\{NAME\}/g, encodeURIComponent(name));
-    return fetch(url, { headers: { Accept: 'application/json' } })
-      .then(function (r) { return r.json(); })
-      .then(function (j) {
-        var list = (j && j.data) || [];
-        if (!Array.isArray(list) || !list.length) throw new Error('tidak ditemukan');
-        /* Prefer an exact name match before the first result: a search for
-           "Lens" should not silently settle for "Lens B". */
-        var exact = list.filter(function (t) {
-          return t && t.name && t.name.toLowerCase() === name.toLowerCase();
-        })[0];
-        var pick = exact || list[0];
-        if (!pick || pick.id == null) throw new Error('tanpa id');
-        STATE.api.ids[teamKey] = String(pick.id);
-        saveApi();
-        return String(pick.id);
-      });
-  }
-
-  function apiFetchTeam(teamKey, token, url, id) {
-    var full = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
-                  .replace(/\{ID\}/g, encodeURIComponent(id));
-    return fetch(full, { headers: { Accept: 'application/json' } })
-      .then(function (r) {
-        return r.text().then(function (t) {
-          if (!r.ok) throw new Error('HTTP ' + r.status + ' \u2014 ' + t.slice(0, 120));
-          return t;
-        });
-      })
-      .then(function (text) {
-        var parsed = E.parseTeamStats(text);
-        if (!parsed || parsed.error) throw new Error((parsed && parsed.error) || 'tak terbaca');
-        if (parsed._missing && parsed._missing.length > 5) {
-          var err = new Error('field statistik terlalu sedikit');
-          err.raw = text;
-          throw err;
-        }
-        STATE.overrides[teamKey] = STATE.overrides[teamKey] || {};
-        ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
-          .forEach(function (f) { if (parsed[f] != null) STATE.overrides[teamKey][f] = parsed[f]; });
-        saveOverrides();
-        return parsed;
-      });
-  }
 
   /* ------------------------------------------------ bulk paste import ---
      The button above calls the provider from this page. Most football APIs
@@ -933,87 +863,27 @@
     else out.innerHTML = html;
   }
 
-  function renderBulkPaste(host, presetKey) {
+  /* The statistics box, with the API panel it used to live in taken out.
+     No token, no endpoint, no fetch: a browser cannot call these providers
+     directly anyway (no Access-Control-Allow-Origin), and the free plan did
+     not carry these leagues. What is left is the part that always worked -
+     paste a page or a response, and let it fill whatever it recognises. */
+  function renderBulkPaste(host) {
     var wrap = el('div', 'notice');
-    wrap.style.marginTop = '10px';
-    wrap.innerHTML = '<h3>Cara cepat: buka satu URL, salin, tempel sekali</h3>' +
-      '<p>Browser tidak boleh memanggil Sportmonks langsung dari halaman ini &mdash; itu aturan ' +
-      '<strong>CORS</strong>, bukan soal token atau kuota, dan hasilnya selalu pesan ' +
-      '<em>Failed to fetch</em>. Membuka URL yang sama di tab baru tidak kena aturan itu. ' +
-      'Jadi: klik tautan di bawah, <strong>Ctrl+A lalu Ctrl+C</strong> di tab yang terbuka, ' +
-      'kembali ke sini, tempel. Satu respons bisa berisi banyak tim, dan tempelan berikutnya ' +
-      'menambah &mdash; tidak menghapus yang sudah masuk.</p>';
+    wrap.style.marginTop = '4px';
+    wrap.innerHTML = '<h3>Isi banyak tim sekaligus</h3>' +
+      '<p>Salin seluruh halaman statistik (UEFA, FBref, Understat) atau tempel respons JSON ' +
+      'dari penyedia data Anda. Satu tempelan bisa mengisi banyak tim, dan tempelan berikutnya ' +
+      '<strong>menambah</strong> &mdash; tidak menghapus yang sudah masuk. Tim yang sudah Anda ' +
+      'isi tangan tidak ditimpa.</p>';
     host.appendChild(wrap);
-
-    var bulkWrap = el('div', 'field');
-    var bl = el('label', null, 'URL massal (pakai {TOKEN}, dan {NAME} kalau perlu nama tim)');
-    bl.setAttribute('for', 'api-bulk');
-    var bulkIn = el('input');
-    bulkIn.id = 'api-bulk';
-    if (!STATE.api.bulk) {
-      STATE.api.bulk = API_PRESETS[presetKey].bulk || '';
-      saveApi();
-    }
-    bulkIn.value = STATE.api.bulk;
-    bulkIn.style.fontSize = '12px';
-    bulkWrap.appendChild(bl); bulkWrap.appendChild(bulkIn);
-    host.appendChild(bulkWrap);
-
-    var linkRow = el('div', 'btn-row');
-    var nameIn = el('input');
-    nameIn.placeholder = 'nama tim untuk {NAME}';
-    nameIn.style.cssText = 'width:190px;padding:6px 8px;border:1px solid var(--border-strong);' +
-      'border-radius:4px;background:var(--surface-1);color:var(--text-primary);font-size:12px';
-    /* A real <a href> would put the whole URL - token and all - in the
-       browser's status bar the moment the pointer touches it, and into any
-       screenshot taken while it is there. A button that opens the tab from
-       script shows nothing: the address is only ever assembled at click. */
-    var openLink = el('button', 'btn sm', 'Buka URL di tab baru');
-    openLink.type = 'button';
-    var linkNote = el('span');
-    linkNote.style.cssText = 'font-size:12px;color:var(--text-muted)';
-
-    function bulkTarget() {
-      var token = (($('api-token') && $('api-token').value) || STATE.api.token || '').trim();
-      var url = (bulkIn.value || '').trim();
-      if (!token || !url) return null;
-      return url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
-                .replace(/\{NAME\}/g, encodeURIComponent((nameIn.value || '').trim()));
-    }
-
-    function refreshLink() {
-      var token = (($('api-token') && $('api-token').value) || STATE.api.token || '').trim();
-      var url = (bulkIn.value || '').trim();
-      var ready = !!(token && url);
-      openLink.disabled = !ready;
-      openLink.style.opacity = ready ? '1' : '0.45';
-      linkNote.textContent = !token ? 'Isi token dulu.'
-        : !url ? 'Isi URL massal dulu.'
-        : 'Tab yang terbuka memuat token di bilah alamat \u2014 jangan di-screenshot.';
-    }
-
-    openLink.addEventListener('click', function () {
-      var target = bulkTarget();
-      if (!target) return;
-      window.open(target, '_blank', 'noopener,noreferrer');
-    });
-    bulkIn.addEventListener('input', function () { STATE.api.bulk = bulkIn.value.trim(); saveApi(); refreshLink(); });
-    nameIn.addEventListener('input', refreshLink);
-    var tokenNode = $('api-token');
-    if (tokenNode) tokenNode.addEventListener('input', refreshLink);
-    refreshLink();
-
-    linkRow.appendChild(nameIn);
-    linkRow.appendChild(openLink);
-    linkRow.appendChild(linkNote);
-    host.appendChild(linkRow);
 
     var ta = el('textarea');
     ta.id = 'api-bulk-text';
-    ta.rows = 5;
-    ta.placeholder = 'Tempel di sini: respons JSON dari API, ATAU seluruh halaman statistik '
-      + '(UEFA / FBref / Understat). Keduanya diterima \u2014 tekan tombol di bawah.';
-    ta.style.cssText = 'width:100%;margin-top:9px;padding:8px;border:1px solid var(--border-strong);' +
+    ta.rows = 4;
+    ta.placeholder = 'Tempel di sini: seluruh halaman statistik (Ctrl+A, Ctrl+C), ATAU respons JSON. ' +
+      'Keduanya diterima \u2014 tekan tombol di bawah.';
+    ta.style.cssText = 'width:100%;margin-top:8px;padding:8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
       'font-family:var(--mono);font-size:11px;min-width:0';
     host.appendChild(ta);
@@ -1039,292 +909,9 @@
     host.appendChild(bulkOut);
   }
 
-  var API_ABORT = false;
 
-  function apiFetchAll(btn) {
-    var out = $('api-out');
-    var tokenEl = $('api-token'), urlEl = $('api-url'), searchEl = $('api-search');
-    var token = ((tokenEl && tokenEl.value) || '').trim();
-    var url = ((urlEl && urlEl.value) || '').trim();
-    var searchUrl = ((searchEl && searchEl.value) || '').trim();
-    if (!token || !url) {
-      out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Token atau URL belum diisi.</p>';
-      return;
-    }
 
-    var keys = {};
-    slateFixtures(STATE.slate).forEach(function (f) { keys[f.home] = 1; keys[f.away] = 1; });
-    var list = Object.keys(keys).filter(function (k) { return statOrigin(k) !== 'user'; });
-    if (!list.length) {
-      out.innerHTML = '<div class="notice ok"><h3>Semua tim di jadwal ini sudah punya data Anda</h3>' +
-        '<p>Tidak ada yang perlu diambil. Pakai "Kembalikan nilai awal" di satu laga kalau ingin mengambil ulang.</p></div>';
-      return;
-    }
 
-    API_ABORT = false;
-    btn.disabled = true;
-    var stop = el('button', 'btn sm ghost', 'Hentikan');
-    stop.type = 'button';
-    stop.addEventListener('click', function () { API_ABORT = true; });
-
-    var log = el('div');
-    log.style.cssText = 'max-height:240px;overflow:auto;font-family:var(--mono);font-size:11px;' +
-      'background:var(--surface-3);padding:9px;border-radius:4px;margin-top:8px';
-    out.innerHTML = '';
-    var head = el('div', 'notice');
-    head.innerHTML = '<h3>Mengambil ' + list.length + ' tim</h3>' +
-      '<p>Setiap tim butuh dua panggilan: cari id, lalu ambil statistik. Jeda ' + API_DELAY_MS +
-      'ms supaya kuota paket gratis tidak langsung habis. Tim yang sudah Anda isi dilewati.</p>';
-    out.appendChild(head);
-    out.appendChild(stop);
-    out.appendChild(log);
-
-    var ok = 0, fail = 0, rawSample = null, corsHit = false;
-    function line(text, color) {
-      var d = el('div', null, text);
-      if (color) d.style.color = color;
-      log.appendChild(d);
-      log.scrollTop = log.scrollHeight;
-    }
-
-    function step(i) {
-      if (API_ABORT || i >= list.length) {
-        btn.disabled = false;
-        stop.remove();
-        var summary = el('div', 'notice ' + (fail ? '' : 'ok'));
-        summary.innerHTML = '<h3>' + (API_ABORT ? 'Dihentikan' : 'Selesai') + ': ' + ok +
-          ' berhasil, ' + fail + ' gagal</h3>' +
-          (corsHit && !ok
-            ? '<p><strong>Ini CORS, bukan token dan bukan kuota.</strong> "Failed to fetch" berarti ' +
-              'browser menolak membaca jawaban sebelum kode ini sempat melihatnya, karena penyedia ' +
-              'tidak mengirim izin lintas-domain. Token Anda tidak terpakai, jadi kuota tidak berkurang. ' +
-              'Pakai kotak <strong>tempel massal</strong> di atas: buka URL-nya di tab baru, salin, tempel sekali.</p>'
-            : '') +
-          (rawSample
-            ? '<p>Ada respons yang tidak bisa dipetakan. Contohnya di bawah &mdash; salin dan kirim ke Claude ' +
-              'supaya pemetaannya ditulis untuk bentuk ini.</p><pre style="max-height:200px;overflow:auto;' +
-              'font-size:11px;white-space:pre-wrap">' + rawSample.slice(0, 2000).replace(/</g, '&lt;') + '</pre>'
-            : '<p>Laga yang KEDUA timnya berhasil terisi sekarang memakai model, bukan lagi harga bandar.</p>');
-        /* renderAll rebuilds the API panel, which would wipe this summary
-           along with it. Render first, then re-attach to the fresh node. */
-        renderAll();
-        var fresh = $('api-out');
-        if (fresh) { fresh.innerHTML = ''; fresh.appendChild(summary); }
-        return;
-      }
-      var key = list[i];
-      var name = team(key).name;
-      line('[' + (i + 1) + '/' + list.length + '] ' + name + ' \u2026');
-      apiResolveId(key, token, searchUrl)
-        .then(function (id) { return apiFetchTeam(key, token, url, id); })
-        .then(function (parsed) {
-          ok++;
-          line('    ok \u2014 ' + parsed.matches + ' laga, xG ' +
-            (parsed.xgF != null ? parsed.xgF : '?') + ', xGA ' +
-            (parsed.xgA != null ? parsed.xgA : '?'), 'var(--good)');
-        })
-        .catch(function (err) {
-          fail++;
-          if (err && err.raw && !rawSample) rawSample = err.raw;
-          var msg = String((err && err.message) || err);
-          if (/failed to fetch|networkerror|load failed/i.test(msg)) corsHit = true;
-          line('    gagal \u2014 ' + msg, 'var(--critical)');
-        })
-        .then(function () { setTimeout(function () { step(i + 1); }, API_DELAY_MS); });
-    }
-    step(0);
-  }
-
-  function renderApiPanel() {
-    var host = $('api-panel');
-    if (!host) return;
-    host.innerHTML = '';
-
-    var warn = el('div', 'notice bad');
-    warn.innerHTML = '<h3>Token API tidak pernah masuk ke repo</h3>' +
-      '<p>Halaman ini disajikan GitHub Pages, jadi apa pun yang ada di kode sumbernya bisa dibaca siapa saja. ' +
-      'Token yang Anda ketik di sini disimpan di <strong>localStorage browser ini saja</strong>, tidak pernah ' +
-      'dikirim ke mana pun kecuali ke penyedia API-nya sendiri, dan tidak pernah ikut ter-commit.</p>' +
-      '<p><strong>Kalau token Anda pernah terlihat orang lain &mdash; di chat, screenshot, atau layar yang dibagikan &mdash; ' +
-      'hapus dan buat baru di halaman API Tokens penyedia Anda sebelum memakainya di sini.</strong></p>';
-    host.appendChild(warn);
-
-    var grid = el('div', 'form-grid');
-    function field(id, label, value, type) {
-      var f = el('div', 'field');
-      var l = el('label', null, label); l.setAttribute('for', id);
-      var i = el('input');
-      i.id = id; i.type = type || 'text'; i.value = value || '';
-      f.appendChild(l); f.appendChild(i);
-      grid.appendChild(f);
-      return i;
-    }
-    var presetKey = STATE.api.preset || 'sportmonks';
-
-    var fp = el('div', 'field');
-    var lp = el('label', null, 'Penyedia'); lp.setAttribute('for', 'api-preset');
-    var sel = el('select'); sel.id = 'api-preset';
-    Object.keys(API_PRESETS).forEach(function (k) {
-      var o = el('option', null, API_PRESETS[k].label);
-      o.value = k; if (k === presetKey) o.selected = true;
-      sel.appendChild(o);
-    });
-    fp.appendChild(lp); fp.appendChild(sel);
-    grid.appendChild(fp);
-
-    var tokenIn = field('api-token', 'Token API', STATE.api.token, 'password');
-    host.appendChild(grid);
-
-    var urlWrap = el('div', 'field');
-    urlWrap.style.marginTop = '9px';
-    var ul = el('label', null, 'URL permintaan'); ul.setAttribute('for', 'api-url');
-    var urlIn = el('input');
-    urlIn.id = 'api-url';
-    /* Show AND store the preset default. Rendering it into the field without
-       committing it to state meant the button reported "URL belum diisi"
-       while a URL was plainly visible above it. */
-    if (!STATE.api.url) { STATE.api.url = API_PRESETS[presetKey].url; saveApi(); }
-    urlIn.value = STATE.api.url;
-    urlIn.style.fontSize = '12px';
-    urlWrap.appendChild(ul); urlWrap.appendChild(urlIn);
-    host.appendChild(urlWrap);
-
-    var searchWrap = el('div', 'field');
-    searchWrap.style.marginTop = '9px';
-    var sl = el('label', null, 'URL pencarian id tim (pakai {NAME})');
-    sl.setAttribute('for', 'api-search');
-    var searchIn = el('input');
-    searchIn.id = 'api-search';
-    if (!STATE.api.search) {
-      STATE.api.search = API_PRESETS[presetKey].search || '';
-      saveApi();
-    }
-    searchIn.value = STATE.api.search;
-    searchIn.style.fontSize = '12px';
-    searchWrap.appendChild(sl); searchWrap.appendChild(searchIn);
-    host.appendChild(searchWrap);
-    searchIn.addEventListener('change', function () { STATE.api.search = searchIn.value.trim(); saveApi(); });
-
-    var hint = el('p', 'stat-note', API_PRESETS[presetKey].hint);
-    host.appendChild(hint);
-
-    renderBulkPaste(host, presetKey);
-
-    var slateKeys = {};
-    slateFixtures(STATE.slate).forEach(function (f) { slateKeys[f.home] = 1; slateKeys[f.away] = 1; });
-    var pending = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
-    var allRow = el('div', 'btn-row');
-    var allBtn = el('btn', 'btn');
-    allBtn = el('button', 'btn', 'Ambil SEMUA \u2014 ' + pending.length + ' tim di jadwal ini');
-    allBtn.type = 'button';
-    allBtn.disabled = !pending.length;
-    allBtn.addEventListener('click', function () { apiFetchAll(allBtn); });
-    allRow.appendChild(allBtn);
-    var allNote = el('span');
-    allNote.style.cssText = 'font-size:12px;color:var(--text-muted)';
-    allNote.textContent = pending.length
-      ? 'Cari id + ambil statistik, otomatis, satu per satu dengan jeda.'
-      : 'Semua tim di jadwal ini sudah punya data Anda.';
-    allRow.appendChild(allNote);
-    host.appendChild(allRow);
-
-    sel.addEventListener('change', function () {
-      STATE.api.preset = sel.value;
-      STATE.api.url = API_PRESETS[sel.value].url;
-      STATE.api.search = API_PRESETS[sel.value].search || '';
-      STATE.api.bulk = API_PRESETS[sel.value].bulk || '';
-      saveApi(); renderApiPanel();
-    });
-    tokenIn.addEventListener('change', function () { STATE.api.token = tokenIn.value.trim(); saveApi(); });
-    urlIn.addEventListener('change', function () { STATE.api.url = urlIn.value.trim(); saveApi(); });
-
-    var fx = currentFixture();
-    if (!fx) return;
-    var row = el('div', 'btn-row');
-    [fx.home, fx.away].forEach(function (key) {
-      var idField = el('input');
-      idField.placeholder = 'id tim ' + team(key).name;
-      idField.value = (STATE.api.ids && STATE.api.ids[key]) || '';
-      idField.style.cssText = 'width:130px;padding:6px 8px;border:1px solid var(--border-strong);' +
-        'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
-        'font-family:var(--mono);font-size:12px';
-      idField.addEventListener('change', function () {
-        STATE.api.ids = STATE.api.ids || {};
-        STATE.api.ids[key] = idField.value.trim();
-        saveApi();
-      });
-      var btn = el('button', 'btn sm', 'Ambil ' + team(key).name);
-      btn.type = 'button';
-      btn.addEventListener('click', function () { apiFetch(key, idField.value.trim(), btn); });
-      row.appendChild(idField); row.appendChild(btn);
-    });
-    host.appendChild(row);
-    var out = el('div'); out.id = 'api-out'; out.style.marginTop = '10px';
-    host.appendChild(out);
-  }
-
-  function saveApi() {
-    try { localStorage.setItem('mb-api', JSON.stringify(STATE.api)); } catch (err) {}
-  }
-
-  function apiFetch(teamKey, id, btn) {
-    var out = $('api-out');
-    var tokenEl = $('api-token'), urlEl = $('api-url');
-    var token = ((tokenEl && tokenEl.value) || STATE.api.token || '').trim();
-    var url = ((urlEl && urlEl.value) || STATE.api.url || '').trim();
-    if (!token) { out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Token belum diisi.</p>'; return; }
-    if (!url) { out.innerHTML = '<p class="stat-note" style="color:var(--critical)">URL belum diisi.</p>'; return; }
-    var full = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
-                  .replace(/\{ID\}/g, encodeURIComponent(id || ''));
-    btn.disabled = true;
-    var label = btn.textContent;
-    btn.textContent = 'Mengambil...';
-    out.innerHTML = '<p class="stat-note">Memanggil penyedia dari browser Anda...</p>';
-
-    fetch(full, { headers: { 'Accept': 'application/json' } })
-      .then(function (r) {
-        return r.text().then(function (t) { return { ok: r.ok, status: r.status, text: t }; });
-      })
-      .then(function (res) {
-        var parsed = null;
-        try { parsed = E.parseTeamStats(res.text); } catch (e) {}
-        if (!res.ok) {
-          out.innerHTML = '<div class="notice bad"><h3>Penyedia menolak: HTTP ' + res.status + '</h3>' +
-            '<p>Paling sering: token salah, atau liga ini tidak termasuk paket gratis Anda. ' +
-            'Respons mentahnya di bawah &mdash; kirim ke Claude kalau perlu dibaca.</p></div>' +
-            '<pre style="max-height:180px;overflow:auto;background:var(--surface-3);padding:9px;' +
-            'border-radius:4px;font-size:11px;white-space:pre-wrap">' +
-            res.text.slice(0, 1500).replace(/</g, '&lt;') + '</pre>';
-          return;
-        }
-        if (parsed && !parsed.error && parsed._missing && parsed._missing.length < 6) {
-          STATE.overrides[teamKey] = STATE.overrides[teamKey] || {};
-          ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
-            .forEach(function (f) { if (parsed[f] != null) STATE.overrides[teamKey][f] = parsed[f]; });
-          saveOverrides();
-          out.innerHTML = '<div class="notice ok"><h3>' + team(teamKey).name + ' terisi dari API</h3>' +
-            '<p>' + parsed.matches + ' pertandingan. ' +
-            (parsed._missing.length ? 'Tidak ditemukan: ' + parsed._missing.join(', ') + '.' : 'Semua field terisi.') +
-            '</p></div>';
-          renderAll();
-        } else {
-          out.innerHTML = '<div class="notice"><h3>Respons masuk, tapi belum bisa dipetakan</h3>' +
-            '<p>' + ((parsed && parsed.error) || 'Field statistik yang dikenali terlalu sedikit.') +
-            ' Salin JSON di bawah dan kirim ke Claude &mdash; pemetaannya akan ditulis persis untuk bentuk ini.</p></div>' +
-            '<pre style="max-height:220px;overflow:auto;background:var(--surface-3);padding:9px;' +
-            'border-radius:4px;font-size:11px;white-space:pre-wrap">' +
-            res.text.slice(0, 2500).replace(/</g, '&lt;') + '</pre>';
-        }
-      })
-      .catch(function (err) {
-        out.innerHTML = '<div class="notice bad"><h3>Panggilan gagal</h3>' +
-          '<p>' + String(err.message || err) + '</p>' +
-          '<p>Kalau pesannya soal CORS, penyedia itu memang tidak mengizinkan panggilan langsung dari ' +
-          'halaman web. Jalan keluarnya: buka URL-nya di tab baru, salin JSON-nya, lalu tempel di kotak ' +
-          '<em>Input Statistik</em> di bawah &mdash; hasilnya sama persis.</p></div>';
-      })
-      .then(function () { btn.disabled = false; btn.textContent = label; });
-  }
 
   /* ------------------------------------------------- BT cross-check ----- */
   function renderCross(a) {
@@ -1686,6 +1273,36 @@
         ['tackles', 'Tekel', 0.1], ['yellow', 'Kartu kuning', 0.1],
         ['red', 'Kartu merah', 0.01]
       ];
+      /* Read every box for this team and commit them together. Typing used
+         to redraw the whole page on each field, which stole focus mid-entry
+         - so a value is now kept as it is typed, and applied on Enter or on
+         the button beside the last field. */
+      function commit() {
+        STATE.overrides[key] = STATE.overrides[key] || {};
+        var filled = 0;
+        fields.forEach(function (f) {
+          var node = $('sf-' + key + '-' + f[0]);
+          if (!node) return;
+          var v = node.value === '' ? null : parseFloat(node.value);
+          STATE.overrides[key][f[0]] = (v != null && isFinite(v)) ? v : null;
+          if (STATE.overrides[key][f[0]] != null) filled++;
+        });
+        saveOverrides();
+        var ready = statOrigin(key) === 'user';
+        var other = key === a.fixture.home ? a.fixture.away : a.fixture.home;
+        var bothReady = ready && statOrigin(other) === 'user';
+        STATE.editMsg[key] = {
+          color: ready ? 'var(--good)' : 'var(--warn)',
+          html: filled + ' angka tersimpan untuk ' + team(key).name + '. ' +
+            (bothReady
+              ? '<strong>Kedua tim laga ini terisi</strong> \u2014 model sekarang yang menilai, bukan harga bandar.'
+              : ready
+                ? 'Masih perlu <strong>' + team(other).name + '</strong> supaya laga ini dinilai model.'
+                : 'Belum cukup: xG dibuat dan xG dikebobolan harus terisi.')
+        };
+        renderAll();
+      }
+
       fields.forEach(function (f) {
         var fd = el('div', 'field');
         var id = 'sf-' + key + '-' + f[0];
@@ -1693,18 +1310,41 @@
         var inp = el('input');
         inp.id = id; inp.type = 'number'; inp.step = String(f[2]); inp.min = '0';
         inp.value = t[f[0]] == null ? '' : t[f[0]];
-        inp.placeholder = '—';
+        inp.placeholder = '\u2014';
+        /* Keep the value without redrawing, so the next box stays reachable. */
         inp.addEventListener('change', function () {
           STATE.overrides[key] = STATE.overrides[key] || {};
           var v = inp.value === '' ? null : parseFloat(inp.value);
-          STATE.overrides[key][f[0]] = v;
+          STATE.overrides[key][f[0]] = (v != null && isFinite(v)) ? v : null;
           saveOverrides();
-          renderAll();
+        });
+        inp.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') { e.preventDefault(); commit(); }
         });
         fd.appendChild(lb); fd.appendChild(inp);
         grid.appendChild(fd);
       });
+
+      /* Sits in the grid beside the last field, so it reads as the end of
+         the row rather than as a separate control. */
+      var applyCell = el('div', 'field');
+      var spacer = el('label', null, '\u00a0');
+      var apply = el('button', 'btn sm', 'Buat perubahan');
+      apply.type = 'button';
+      apply.style.width = '100%';
+      apply.title = 'Terapkan angka yang Anda ketik (atau tekan Enter di kotak mana pun)';
+      apply.addEventListener('click', commit);
+      applyCell.appendChild(spacer); applyCell.appendChild(apply);
+      grid.appendChild(applyCell);
+
       box.appendChild(grid);
+
+      var done = el('div');
+      done.id = 'edit-msg-' + key;
+      done.style.cssText = 'font-size:12px;margin-top:6px';
+      var kept = STATE.editMsg[key];
+      if (kept) { done.style.color = kept.color; done.innerHTML = kept.html; }
+      box.appendChild(done);
     });
     /* Paste-and-parse, so a page of statistics does not have to be retyped
        field by field. */
@@ -1780,6 +1420,7 @@
             'dipercaya sendirian; model tetap condong ke harga pasar.'
           : '';
         delete STATE.paste[key];
+        delete STATE.editMsg[key];
         STATE.importMsg[key] = {
           color: 'var(--good)',
           html: 'Terisi dari ' + parsed.matches + ' pertandingan' +
@@ -1800,6 +1441,12 @@
       box.appendChild(wrap);
     });
 
+    /* One box that fills many teams, at the end of the per-team boxes. */
+    var bulk = el('div');
+    bulk.style.cssText = 'margin-top:14px;padding-top:10px;border-top:1px dashed var(--border)';
+    renderBulkPaste(bulk);
+    box.appendChild(bulk);
+
     var row = el('div', 'btn-row');
     var reset = el('button', 'btn ghost', 'Kembalikan nilai awal');
     reset.type = 'button';
@@ -1808,6 +1455,8 @@
       delete STATE.overrides[a.fixture.away];
       delete STATE.importMsg[a.fixture.home];
       delete STATE.importMsg[a.fixture.away];
+      delete STATE.editMsg[a.fixture.home];
+      delete STATE.editMsg[a.fixture.away];
       saveOverrides();
       renderAll();
     });
@@ -2573,7 +2222,6 @@
   function renderAll() {
     refreshCalibration();
     renderSlateChips();
-    applyAdminMode();
     renderReality();
     renderBoardTools();
     renderBoard();
@@ -2593,30 +2241,7 @@
      it does is keep a stranger from stumbling into a token field, and keep
      the page looking like a finished product. The token itself was never in
      the repository and still is not. */
-  var ADMIN_KEY = 'mb-admin';
 
-  function adminOn() {
-    try {
-      var q = new RegExp('[?&]admin=([^&]*)').exec(location.search);
-      if (q) {
-        var want = q[1] !== '0' && q[1] !== 'false';
-        localStorage.setItem(ADMIN_KEY, want ? '1' : '0');
-        return want;
-      }
-      return localStorage.getItem(ADMIN_KEY) === '1';
-    } catch (err) {
-      return /[?&]admin=1/.test(location.search);
-    }
-  }
-
-  function applyAdminMode() {
-    var on = adminOn();
-    ['api-section', 'stat-section'].forEach(function (id) {
-      var n = $(id);
-      if (n) n.hidden = !on;
-    });
-    return on;
-  }
 
   /* ================================================= STALE BUILD ====== */
   /* GitHub Pages serves HTML with its own max-age, so a plain URL can hand
@@ -2694,21 +2319,13 @@
       if (t) document.documentElement.setAttribute('data-theme', t);
     } catch (err) {}
 
-    /* Judgements are work: losing them on a refresh would make the control
+    /* The API panel was removed: its token, endpoints and fetch buttons are
+       gone, so there is nothing left to restore. Whatever a browser still
+       holds from an older build is simply ignored.
+
+       Judgements are work: losing them on a refresh would make the control
        not worth using. Browser storage can be unavailable or throw, so every
        read and write is guarded and the page renders fine without it. */
-    try {
-      var ap = localStorage.getItem('mb-api');
-      if (ap) {
-        var parsedAp = JSON.parse(ap);
-        if (parsedAp && typeof parsedAp === 'object') {
-          STATE.api = { preset: parsedAp.preset || 'sportmonks', token: parsedAp.token || '',
-                        url: parsedAp.url || '', search: parsedAp.search || '',
-                        bulk: parsedAp.bulk || '', ids: parsedAp.ids || {} };
-        }
-      }
-    } catch (err) {}
-
     try {
       var ov = localStorage.getItem('mb-overrides');
       if (ov) {
