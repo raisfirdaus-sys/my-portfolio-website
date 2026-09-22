@@ -9,7 +9,7 @@
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
     legs: [], overrides: {}, tilt: {}, scores: {},
-    api: { preset: 'sportmonks', token: '', url: '', ids: {} }
+    api: { preset: 'sportmonks', token: '', url: '', search: '', ids: {} }
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -484,14 +484,165 @@
     sportmonks: {
       label: 'Sportmonks v3',
       url: 'https://api.sportmonks.com/v3/football/teams/{ID}?api_token={TOKEN}&include=statistics.details.type',
-      hint: 'Ambil URL contoh dari tombol "Run your first request" di Sportmonks, lalu ganti tokennya dengan {TOKEN}. {ID} diganti id tim.'
+      search: 'https://api.sportmonks.com/v3/football/teams/search/{NAME}?api_token={TOKEN}',
+      hint: 'URL ini sama persis dengan yang muncul di API Playground Sportmonks. ' +
+            'Tombol "Ambil semua" mencari id tiap tim dari namanya lebih dulu, jadi Anda tidak perlu ' +
+            'menyalin id satu per satu.'
     },
     custom: {
       label: 'URL sendiri',
-      url: '',
-      hint: 'Tempel URL lengkap apa pun. Tulis {TOKEN} di tempat kunci API, dan {ID} di tempat id tim kalau ada.'
+      url: '', search: '',
+      hint: 'Tempel URL lengkap apa pun. Tulis {TOKEN} di tempat kunci API, {ID} di tempat id tim, ' +
+            'dan {NAME} di URL pencarian kalau penyedia Anda punya.'
     }
   };
+
+  /* Free API plans are usually metered per hour, and a slate of eighteen
+     fixtures is thirty-six teams - up to seventy-two calls once id lookups
+     are counted. Pace the requests, cache every id that resolves, and skip
+     teams that already carry entered statistics, so a second run costs
+     almost nothing. */
+  var API_DELAY_MS = 350;
+
+  function apiResolveId(teamKey, token, searchUrl) {
+    STATE.api.ids = STATE.api.ids || {};
+    var cached = STATE.api.ids[teamKey];
+    if (cached) return Promise.resolve(cached);
+    if (!searchUrl) return Promise.reject(new Error('URL pencarian kosong'));
+    var name = team(teamKey).name;
+    var url = searchUrl.replace(/\{TOKEN\}/g, encodeURIComponent(token))
+                       .replace(/\{NAME\}/g, encodeURIComponent(name));
+    return fetch(url, { headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var list = (j && j.data) || [];
+        if (!Array.isArray(list) || !list.length) throw new Error('tidak ditemukan');
+        /* Prefer an exact name match before the first result: a search for
+           "Lens" should not silently settle for "Lens B". */
+        var exact = list.filter(function (t) {
+          return t && t.name && t.name.toLowerCase() === name.toLowerCase();
+        })[0];
+        var pick = exact || list[0];
+        if (!pick || pick.id == null) throw new Error('tanpa id');
+        STATE.api.ids[teamKey] = String(pick.id);
+        saveApi();
+        return String(pick.id);
+      });
+  }
+
+  function apiFetchTeam(teamKey, token, url, id) {
+    var full = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
+                  .replace(/\{ID\}/g, encodeURIComponent(id));
+    return fetch(full, { headers: { Accept: 'application/json' } })
+      .then(function (r) {
+        return r.text().then(function (t) {
+          if (!r.ok) throw new Error('HTTP ' + r.status + ' \u2014 ' + t.slice(0, 120));
+          return t;
+        });
+      })
+      .then(function (text) {
+        var parsed = E.parseTeamStats(text);
+        if (!parsed || parsed.error) throw new Error((parsed && parsed.error) || 'tak terbaca');
+        if (parsed._missing && parsed._missing.length > 5) {
+          var err = new Error('field statistik terlalu sedikit');
+          err.raw = text;
+          throw err;
+        }
+        STATE.overrides[teamKey] = STATE.overrides[teamKey] || {};
+        ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+          .forEach(function (f) { if (parsed[f] != null) STATE.overrides[teamKey][f] = parsed[f]; });
+        saveOverrides();
+        return parsed;
+      });
+  }
+
+  var API_ABORT = false;
+
+  function apiFetchAll(btn) {
+    var out = $('api-out');
+    var tokenEl = $('api-token'), urlEl = $('api-url'), searchEl = $('api-search');
+    var token = ((tokenEl && tokenEl.value) || '').trim();
+    var url = ((urlEl && urlEl.value) || '').trim();
+    var searchUrl = ((searchEl && searchEl.value) || '').trim();
+    if (!token || !url) {
+      out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Token atau URL belum diisi.</p>';
+      return;
+    }
+
+    var keys = {};
+    slateFixtures(STATE.slate).forEach(function (f) { keys[f.home] = 1; keys[f.away] = 1; });
+    var list = Object.keys(keys).filter(function (k) { return statOrigin(k) !== 'user'; });
+    if (!list.length) {
+      out.innerHTML = '<div class="notice ok"><h3>Semua tim di jadwal ini sudah punya data Anda</h3>' +
+        '<p>Tidak ada yang perlu diambil. Pakai "Kembalikan nilai awal" di satu laga kalau ingin mengambil ulang.</p></div>';
+      return;
+    }
+
+    API_ABORT = false;
+    btn.disabled = true;
+    var stop = el('button', 'btn sm ghost', 'Hentikan');
+    stop.type = 'button';
+    stop.addEventListener('click', function () { API_ABORT = true; });
+
+    var log = el('div');
+    log.style.cssText = 'max-height:240px;overflow:auto;font-family:var(--mono);font-size:11px;' +
+      'background:var(--surface-3);padding:9px;border-radius:4px;margin-top:8px';
+    out.innerHTML = '';
+    var head = el('div', 'notice');
+    head.innerHTML = '<h3>Mengambil ' + list.length + ' tim</h3>' +
+      '<p>Setiap tim butuh dua panggilan: cari id, lalu ambil statistik. Jeda ' + API_DELAY_MS +
+      'ms supaya kuota paket gratis tidak langsung habis. Tim yang sudah Anda isi dilewati.</p>';
+    out.appendChild(head);
+    out.appendChild(stop);
+    out.appendChild(log);
+
+    var ok = 0, fail = 0, rawSample = null;
+    function line(text, color) {
+      var d = el('div', null, text);
+      if (color) d.style.color = color;
+      log.appendChild(d);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function step(i) {
+      if (API_ABORT || i >= list.length) {
+        btn.disabled = false;
+        stop.remove();
+        var summary = el('div', 'notice ' + (fail ? '' : 'ok'));
+        summary.innerHTML = '<h3>' + (API_ABORT ? 'Dihentikan' : 'Selesai') + ': ' + ok +
+          ' berhasil, ' + fail + ' gagal</h3>' +
+          (rawSample
+            ? '<p>Ada respons yang tidak bisa dipetakan. Contohnya di bawah &mdash; salin dan kirim ke Claude ' +
+              'supaya pemetaannya ditulis untuk bentuk ini.</p><pre style="max-height:200px;overflow:auto;' +
+              'font-size:11px;white-space:pre-wrap">' + rawSample.slice(0, 2000).replace(/</g, '&lt;') + '</pre>'
+            : '<p>Laga yang KEDUA timnya berhasil terisi sekarang memakai model, bukan lagi harga bandar.</p>');
+        /* renderAll rebuilds the API panel, which would wipe this summary
+           along with it. Render first, then re-attach to the fresh node. */
+        renderAll();
+        var fresh = $('api-out');
+        if (fresh) { fresh.innerHTML = ''; fresh.appendChild(summary); }
+        return;
+      }
+      var key = list[i];
+      var name = team(key).name;
+      line('[' + (i + 1) + '/' + list.length + '] ' + name + ' \u2026');
+      apiResolveId(key, token, searchUrl)
+        .then(function (id) { return apiFetchTeam(key, token, url, id); })
+        .then(function (parsed) {
+          ok++;
+          line('    ok \u2014 ' + parsed.matches + ' laga, xG ' +
+            (parsed.xgF != null ? parsed.xgF : '?') + ', xGA ' +
+            (parsed.xgA != null ? parsed.xgA : '?'), 'var(--good)');
+        })
+        .catch(function (err) {
+          fail++;
+          if (err && err.raw && !rawSample) rawSample = err.raw;
+          line('    gagal \u2014 ' + (err.message || err), 'var(--critical)');
+        })
+        .then(function () { setTimeout(function () { step(i + 1); }, API_DELAY_MS); });
+    }
+    step(0);
+  }
 
   function renderApiPanel() {
     var host = $('api-panel');
@@ -547,12 +698,47 @@
     urlWrap.appendChild(ul); urlWrap.appendChild(urlIn);
     host.appendChild(urlWrap);
 
+    var searchWrap = el('div', 'field');
+    searchWrap.style.marginTop = '9px';
+    var sl = el('label', null, 'URL pencarian id tim (pakai {NAME})');
+    sl.setAttribute('for', 'api-search');
+    var searchIn = el('input');
+    searchIn.id = 'api-search';
+    if (!STATE.api.search) {
+      STATE.api.search = API_PRESETS[presetKey].search || '';
+      saveApi();
+    }
+    searchIn.value = STATE.api.search;
+    searchIn.style.fontSize = '12px';
+    searchWrap.appendChild(sl); searchWrap.appendChild(searchIn);
+    host.appendChild(searchWrap);
+    searchIn.addEventListener('change', function () { STATE.api.search = searchIn.value.trim(); saveApi(); });
+
     var hint = el('p', 'stat-note', API_PRESETS[presetKey].hint);
     host.appendChild(hint);
+
+    var slateKeys = {};
+    slateFixtures(STATE.slate).forEach(function (f) { slateKeys[f.home] = 1; slateKeys[f.away] = 1; });
+    var pending = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
+    var allRow = el('div', 'btn-row');
+    var allBtn = el('btn', 'btn');
+    allBtn = el('button', 'btn', 'Ambil SEMUA \u2014 ' + pending.length + ' tim di jadwal ini');
+    allBtn.type = 'button';
+    allBtn.disabled = !pending.length;
+    allBtn.addEventListener('click', function () { apiFetchAll(allBtn); });
+    allRow.appendChild(allBtn);
+    var allNote = el('span');
+    allNote.style.cssText = 'font-size:12px;color:var(--text-muted)';
+    allNote.textContent = pending.length
+      ? 'Cari id + ambil statistik, otomatis, satu per satu dengan jeda.'
+      : 'Semua tim di jadwal ini sudah punya data Anda.';
+    allRow.appendChild(allNote);
+    host.appendChild(allRow);
 
     sel.addEventListener('change', function () {
       STATE.api.preset = sel.value;
       STATE.api.url = API_PRESETS[sel.value].url;
+      STATE.api.search = API_PRESETS[sel.value].search || '';
       saveApi(); renderApiPanel();
     });
     tokenIn.addEventListener('change', function () { STATE.api.token = tokenIn.value.trim(); saveApi(); });
@@ -1846,7 +2032,8 @@
         var parsedAp = JSON.parse(ap);
         if (parsedAp && typeof parsedAp === 'object') {
           STATE.api = { preset: parsedAp.preset || 'sportmonks', token: parsedAp.token || '',
-                        url: parsedAp.url || '', ids: parsedAp.ids || {} };
+                        url: parsedAp.url || '', search: parsedAp.search || '',
+                        ids: parsedAp.ids || {} };
         }
       }
     } catch (err) {}
