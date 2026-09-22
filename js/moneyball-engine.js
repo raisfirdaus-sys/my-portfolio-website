@@ -677,6 +677,23 @@
        they draw it - inside a donut, split across lines, sometimes as an
        image - so when it cannot be read, take it from the caller rather
        than refusing a paste that is otherwise complete. */
+    /* UEFA draws the match count inside a donut whose text does not come
+       along when the page is copied: what arrives is "Key stats 1 0 0 Won
+       Drawn Lost", with no "Matches played" anywhere. But won + drawn +
+       lost IS the match count on a competition page, so derive it. Two
+       shapes are seen: the three numbers grouped ahead of the three labels,
+       and each number beside its own label. */
+    var matchesFromRecord = false;
+    if (!matches || matches < 1) {
+      var rec =
+        /(\d+)\s+(\d+)\s+(\d+)\s+Won\s+Drawn\s+Lost/i.exec(t) ||
+        /(\d+)\s*Won\s+(\d+)\s*Drawn\s+(\d+)\s*Lost/i.exec(t);
+      if (rec) {
+        var sum = parseInt(rec[1], 10) + parseInt(rec[2], 10) + parseInt(rec[3], 10);
+        if (isFinite(sum) && sum > 0) { matches = sum; matchesFromRecord = true; }
+      }
+    }
+
     var matchesFromCaller = false;
     if (!matches || matches < 1) {
       var fb = parseFloat(opts.matchesFallback);
@@ -718,6 +735,7 @@
     var out = {
       matches: matches,
       _matchesFromCaller: matchesFromCaller,
+      _matchesFromRecord: matchesFromRecord,
       goals: per(goals),
       xgF: per(xgF),
       xgA: per(xgA),
