@@ -7,9 +7,8 @@
     "slates": {
       "1": "20 Sept 2026 - papan Desimal (screenshot pertama)",
       "2": "19-20 Sept 2026 - kupon yang Anda kirim lewat teks",
-      "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - papan format INDO, dikonversi ke Desimal",
+      "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - Inggris, Spanyol, Italia, Jerman, Prancis. Papan format INDO, dikonversi ke Desimal.",
       "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats.",
-      "5": "10-12 Okt 2026 - Ligue 1 Prancis (Pasar Awal, format INDO)",
       "6": "14-15 Okt 2026 - Liga Champions UEFA (Pasar Awal, format INDO)"
     }
   },
@@ -8090,7 +8089,7 @@
       "kickoff": "10/10",
       "home": "lens",
       "away": "lyon",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8156,7 +8155,7 @@
       "kickoff": "10/10",
       "home": "lille",
       "away": "lehavre",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8222,7 +8221,7 @@
       "kickoff": "10/11",
       "home": "brest",
       "away": "angers",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8288,7 +8287,7 @@
       "kickoff": "10/11",
       "home": "lorient",
       "away": "parisfc",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8354,7 +8353,7 @@
       "kickoff": "10/11",
       "home": "monaco",
       "away": "toulouse",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8420,7 +8419,7 @@
       "kickoff": "10/11",
       "home": "psg",
       "away": "lemans",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8486,7 +8485,7 @@
       "kickoff": "10/11",
       "home": "nice",
       "away": "strasbourg",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8552,7 +8551,7 @@
       "kickoff": "10/11",
       "home": "rennes",
       "away": "auxerre",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
@@ -8618,7 +8617,7 @@
       "kickoff": "10/12",
       "home": "troyes",
       "away": "marseille",
-      "slate": 5,
+      "slate": 3,
       "oddsFormatSource": "indo",
       "competition": "Ligue 1 Prancis",
       "markets": {
