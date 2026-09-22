@@ -393,9 +393,17 @@
         pick.innerHTML = '<span class="lbl">' + a.best.label + '</span><br />' +
           '<span class="meta">' + fmtOdds(a.best.odds) + ' · bayar penuh ' +
           pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
+      } else if (a && a.statsMissing) {
+        pick.innerHTML = '<span class="meta">ikut harga bandar</span>';
+      } else if (a && a.divergence > 0.25) {
+        /* The guard fired: the model disagrees with the market by more than
+           a quarter. On that much disagreement the inputs are the likely
+           culprit, not the market, so no leg is promoted. Saying only
+           "tidak ada" made that look like a fault. */
+        pick.innerHTML = '<span class="meta">model beda <strong>' +
+          pct(a.divergence, 0) + '</strong> dari pasar<br />terlalu jauh \u2014 tidak ada yang dipilih</span>';
       } else {
-        pick.innerHTML = '<span class="meta">' +
-          (a && a.statsMissing ? 'ikut harga bandar' : 'tidak ada') + '</span>';
+        pick.innerHTML = '<span class="meta">tidak ada yang layak</span>';
       }
       row.appendChild(pick);
 
