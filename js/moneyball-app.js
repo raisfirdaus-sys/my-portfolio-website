@@ -679,26 +679,39 @@
     nameIn.placeholder = 'nama tim untuk {NAME}';
     nameIn.style.cssText = 'width:190px;padding:6px 8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);font-size:12px';
-    var openLink = el('a', 'btn sm', 'Buka URL di tab baru');
-    openLink.target = '_blank';
-    openLink.rel = 'noopener noreferrer';
+    /* A real <a href> would put the whole URL - token and all - in the
+       browser's status bar the moment the pointer touches it, and into any
+       screenshot taken while it is there. A button that opens the tab from
+       script shows nothing: the address is only ever assembled at click. */
+    var openLink = el('button', 'btn sm', 'Buka URL di tab baru');
+    openLink.type = 'button';
     var linkNote = el('span');
     linkNote.style.cssText = 'font-size:12px;color:var(--text-muted)';
+
+    function bulkTarget() {
+      var token = (($('api-token') && $('api-token').value) || STATE.api.token || '').trim();
+      var url = (bulkIn.value || '').trim();
+      if (!token || !url) return null;
+      return url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
+                .replace(/\{NAME\}/g, encodeURIComponent((nameIn.value || '').trim()));
+    }
 
     function refreshLink() {
       var token = (($('api-token') && $('api-token').value) || STATE.api.token || '').trim();
       var url = (bulkIn.value || '').trim();
-      if (!token || !url) {
-        openLink.removeAttribute('href');
-        openLink.style.opacity = '0.45';
-        linkNote.textContent = !token ? 'Isi token dulu.' : 'Isi URL massal dulu.';
-        return;
-      }
-      openLink.href = url.replace(/\{TOKEN\}/g, encodeURIComponent(token))
-                         .replace(/\{NAME\}/g, encodeURIComponent((nameIn.value || '').trim()));
-      openLink.style.opacity = '1';
-      linkNote.textContent = 'Tautan ini memuat token Anda — jangan dibagikan atau di-screenshot.';
+      var ready = !!(token && url);
+      openLink.disabled = !ready;
+      openLink.style.opacity = ready ? '1' : '0.45';
+      linkNote.textContent = !token ? 'Isi token dulu.'
+        : !url ? 'Isi URL massal dulu.'
+        : 'Tab yang terbuka memuat token di bilah alamat \u2014 jangan di-screenshot.';
     }
+
+    openLink.addEventListener('click', function () {
+      var target = bulkTarget();
+      if (!target) return;
+      window.open(target, '_blank', 'noopener,noreferrer');
+    });
     bulkIn.addEventListener('input', function () { STATE.api.bulk = bulkIn.value.trim(); saveApi(); refreshLink(); });
     nameIn.addEventListener('input', refreshLink);
     var tokenNode = $('api-token');
