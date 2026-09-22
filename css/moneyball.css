@@ -346,3 +346,7 @@ details.method code { font-family: var(--mono); font-size: 12px; background: var
   .statbar-name { font-size: 10px; }
   .kpi .val { font-size: 18px; }
 }
+
+
+/* neutral rows must not inherit a stale tier colour */
+tr.tier-neutral { box-shadow: none; }

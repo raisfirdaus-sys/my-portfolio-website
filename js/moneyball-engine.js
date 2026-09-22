@@ -290,7 +290,7 @@
       confidence: confidence, tier: tier,
       divergence: div, trust: trust, implausible: implausible,
       crossAgree: crossState, crossPenalty: crossPenalty,
-      lineType: lineType(ctx.line == null ? 0.5 : ctx.line),
+      lineType: ctx.line == null ? null : lineType(ctx.line),
       dist: bet.dist
     };
   }
@@ -603,9 +603,17 @@
           if (x3) {
             var last = picks[picks.length - 1];
             if (last && last.side === row[0] && last.half === half && last.kind === 'x12') {
-              last.vig = x3.overround / 3;   // per-outcome share of a 3-way margin
+              /* The margin on a three-way market is its full overround, not
+                 a third of it. Under proportional de-vigging every outcome is
+                 marked up by the same factor, so a punter backing one of them
+                 pays the whole overround - exactly as in a two-way market.
+                 Dividing by three made a 12.59% first-half 1X2 display as
+                 4.20% and look cheaper than the 10.48% handicap beside it,
+                 which inverted the comparison the whole board is for. */
+              last.vig = x3.overround;
               last.pFairMarket = x3.probs[row[3]];
-              last.efficiency = last.pFairMarket * (1 - (x3.overround / 3) * 2.2);
+              last.cleanWin = last.dist.win || last.pFairMarket;
+              last.efficiency = last.pFairMarket * (1 - x3.overround * 2.2);
             }
           }
         });
@@ -616,7 +624,20 @@
       }
     });
 
-    picks.sort(function (a, b) { return b.ev - a.ev || b.confidence - a.confidence; });
+    /* How to rank, and what "best" means, depends on whether expected value
+       carries any information here. Under a full market anchor the model was
+       fitted to these very prices, so EV is just the bookmaker's margin with
+       a minus sign: every row is negative, nothing ever clears the value
+       tier, and the board highlights nothing while the parlay builder
+       happily selects legs. Two criteria on one screen again.
+       So: with real information, rank by EV. Without it, rank by the same
+       full-payout efficiency the parlay selector uses, and mark the best of
+       those. One function, both paths. */
+    var rankByEV = mw < 0.999 && !statsMissing;
+    picks.sort(rankByEV
+      ? function (a, b) { return b.ev - a.ev || b.confidence - a.confidence; }
+      : function (a, b) { return (b.efficiency || 0) - (a.efficiency || 0); });
+    picks.forEach(function (p) { p.rankedBy = rankByEV ? 'ev' : 'efficiency'; });
 
     return {
       fixture: fx, league: league, home: home, away: away,
@@ -636,7 +657,24 @@
       outright1h: outrightProbs(mHT),
       totals: totalGoalsDist(mFT),
       picks: picks,
-      best: picks.filter(function (p) { return p.tier === 'prime' || p.tier === 'value'; })[0] || null,
+      rankedBy: rankByEV ? 'ev' : 'efficiency',
+      /* With no information of our own, the best available leg is the one
+         that keeps most of its printed odds after margin - not one with a
+         positive expected value, because none exists. */
+      best: rankByEV
+        ? (picks.filter(function (p) { return p.tier === 'prime' || p.tier === 'value'; })[0] || null)
+        /* Availability decides, not market type. Excluding 1X2 by kind meant
+           it never entered the comparison even where it was the better buy;
+           the efficiency metric already charges it for its margin, so let
+           the number rule. */
+        /* Odd/even is excluded, not by market snobbery but because Poisson
+           makes it ~50/50 whatever the teams are: no amount of real xG will
+           ever give it an edge, so it can be cheap but never good, and
+           circling it would send you to the one market where the model is
+           permanently blind. Everything else competes on the number. */
+        : (picks.filter(function (p) {
+             return p.kind !== 'oe' && mixParlayEligible(p);
+           })[0] || null),
       suspects: picks.filter(function (p) { return p.tier === 'suspect'; }).length,
       dataQuality: matches
     };

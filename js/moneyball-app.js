@@ -608,8 +608,25 @@
       '<th style="text-align:right">Kelly/4</th><th></th></tr></thead>';
     var body = el('tbody');
     var top = a.best;
-    a.picks.forEach(function (p) {
-      var tr = el('tr', 'tier-' + p.tier);
+    var byEff = a.rankedBy === 'efficiency';
+
+    /* Under a full market anchor every EV is the margin with a minus sign,
+       so colouring rows by EV painted the entire board red and highlighted
+       nothing - which reads as "everything here is terrible" when it only
+       means "you are paying the usual margin". When ranking by efficiency,
+       colour by that instead: the circled pick, then the rest neutral,
+       with red reserved for legs that really are expensive or leaky. */
+    a.picks.forEach(function (p, idx) {
+      var cls;
+      if (byEff) {
+        var leaky = (p.pModel - p.cleanWin) > 0.08;
+        var pricey = p.vig != null && p.vig > 0.09;
+        cls = (top && p.id === top.id) ? 'tier-prime'
+            : (leaky || pricey) ? 'tier-avoid' : 'tier-neutral';
+      } else {
+        cls = 'tier-' + p.tier;
+      }
+      var tr = el('tr', cls);
       if (top && p.id === top.id) tr.classList.add('is-top');
       var c0 = el('td');
       if (top && p.id === top.id) {
@@ -660,6 +677,12 @@
 
       var cev = el('td', 'num ev', signPct(p.ev, 2));
       if (p.ev > 0.015) cev.style.color = 'var(--good)';
+      else if (byEff) {
+        cev.style.color = 'var(--text-muted)';
+        cev.title = 'Tanpa statistik Anda, model dipasang pada harga ini juga, ' +
+          'jadi EV di sini hanyalah margin bandar dengan tanda minus. Bukan penilaian ' +
+          'bahwa taruhannya buruk - itu ongkos yang sama yang berlaku di semua baris.';
+      }
       tr.appendChild(cev);
 
       var cconf = el('td');
@@ -700,7 +723,20 @@
     var legend = el('div', 'panel-body');
     legend.style.fontSize = '12px';
     legend.style.color = 'var(--text-secondary)';
-    legend.innerHTML =
+    if (byEff) {
+      legend.innerHTML =
+        '<strong>Tabel ini diurutkan menurut BAYAR PENUH, bukan EV.</strong> ' +
+        'Statistik tim belum Anda isi, jadi model dipasang pada harga bandar ini juga &mdash; ' +
+        'artinya kolom EV di sini <em>selalu</em> negatif dan besarnya persis margin bandar. ' +
+        'Itu bukan vonis bahwa semua taruhan buruk; itu ongkos yang sama untuk semua baris. ' +
+        'Yang masih bisa dibandingkan: berapa sering leg membayar odds penuh, dan berapa margin yang dibayar.' +
+        '<br /><span class="tier-dot prime"></span><strong>Biru muda + dilingkari</strong> = leg terbaik di laga ini ' +
+        'yang benar-benar ada di menu Mix Parlay (odds di atas 1.50): bayar-penuh tertinggi setelah dipotong margin. ' +
+        '&nbsp;&middot;&nbsp; <span class="tier-dot avoid"></span>merah = bocor lebih dari 8 poin ke seri/setengah-hasil, ' +
+        'atau margin di atas 9%. &nbsp;&middot;&nbsp; <span class="tier-dot neutral"></span>sisanya setara.' +
+        '<br /><strong>Isi xG di form di bawah</strong> dan tabel ini otomatis berganti mengurut menurut EV, ' +
+        'karena saat itu model punya pendapat sendiri untuk dibandingkan dengan bandar.';
+    } else legend.innerHTML =
       '<strong>Arti warna:</strong> ' +
       '<span class="tier-dot prime"></span>biru muda = EV di atas +4% dan keyakinan di atas 58 (dilingkari = terbaik di laga ini) &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot value"></span>kuning = EV di atas +1.5% &nbsp;&middot;&nbsp; ' +
@@ -812,7 +848,23 @@
   }
   function buildParlay() {
     var an = analysesForSlate();
-    STATE.legs = E.pickParlayLegs(an, parlayOpts(an));
+    var opts = parlayOpts(an);
+    var want = opts.legs;
+    var asked = opts.minProb;
+
+    /* A balanced Asian line sits at 50-56% full payout by construction, so a
+       bar much above 0.50 empties the tray in any liquid market. Rather than
+       hand back an empty box and an explanation, step the bar down until the
+       ticket fills, and report exactly where it had to land. */
+    var legs = E.pickParlayLegs(an, opts);
+    var used = asked;
+    while (legs.length < want && used > 0.44) {
+      used = Math.round((used - 0.01) * 100) / 100;
+      opts.minProb = used;
+      legs = E.pickParlayLegs(an, opts);
+    }
+    STATE.legs = legs;
+    STATE.relaxedFrom = (used < asked && legs.length) ? { asked: asked, used: used } : null;
     renderParlay();
   }
 
@@ -820,6 +872,18 @@
     var list = $('p-legs-list'); list.innerHTML = '';
     var kpis = $('p-kpis'); kpis.innerHTML = '';
     var ladder = $('p-ladder'); ladder.innerHTML = '';
+    if (STATE.relaxedFrom) {
+      var rl = el('div', 'notice');
+      rl.style.cssText = 'margin:0 0 10px;border-left-color:var(--warning)';
+      rl.innerHTML = '<h3>Ambang diturunkan otomatis: ' + pct(STATE.relaxedFrom.asked, 0) +
+        ' \u2192 ' + pct(STATE.relaxedFrom.used, 0) + '</h3>' +
+        '<p>Tidak ada cukup leg yang membayar odds penuh ' + pct(STATE.relaxedFrom.asked, 0) +
+        ' dari waktu, jadi saya turunkan sampai tiket terisi. Garis Asia yang seimbang memang ' +
+        'duduk di sekitar 50&ndash;56% bayar penuh &mdash; itu memang tujuan bandar menyusun garisnya. ' +
+        'Leg di bawah ini nyata dan bisa dipasang; yang berubah hanya seberapa tinggi ambang ' +
+        'yang bisa dipenuhi pasar ini.</p>';
+      list.appendChild(rl);
+    }
     $('p-count').textContent = STATE.legs.length
       ? STATE.legs.length + ' leg dipilih' +
         (E.pickParlayLegs.lastBlocked ? ' · ' + E.pickParlayLegs.lastBlocked +
