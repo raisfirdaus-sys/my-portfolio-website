@@ -415,6 +415,10 @@
 
 
   /* --------------------------------------------- the user's own read ---- */
+  function saveTilt() {
+    try { localStorage.setItem('mb-tilt', JSON.stringify(STATE.tilt)); } catch (err) {}
+  }
+
   function renderTilt(a) {
     var slider = $('tilt'), out = $('tilt-val'), note = $('tilt-note');
     if (!slider) return;
@@ -1030,15 +1034,33 @@
         'Inilah yang memotong slip Anda dari 73x jadi 6.07x. Ganti ke garis setengah kalau ada.',
         'bad');
     }
+    var tiltedLegs = STATE.legs.filter(function (L) {
+      return Math.abs(STATE.tilt[L.pick.fixtureId] || 0) > 0.001;
+    }).length;
+
     if (sim.ev > 0.02 && !slateHasUserStats()) {
       var fake = el('div', 'kpi');
       fake.style.cssText = 'border-left:4px solid var(--critical)';
-      fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
-        '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
-        '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri, ' +
-        'jadi angka positif ini keluar dari data contoh yang saya karang agar alat bisa jalan. ' +
-        'Bandar tidak menawarkan edge sebesar ini kepada siapa pun. Abaikan kolom EV sampai ' +
-        'Anda mengisi xG asli; yang tetap benar cuma margin, jenis garis dan peluang bayar penuh.</div>';
+      if (tiltedLegs) {
+        /* Not fabricated - but not evidence either. The edge is the user's
+           own read, priced back to them. Saying "this EV is not real" would
+           be wrong; saying nothing would let a personal opinion masquerade as
+           a measurement. */
+        fake.innerHTML = '<div class="cap">EV ini milik Anda, bukan bukti</div>' +
+          '<div class="val">' + signPct(sim.ev, 1) + '</div>' +
+          '<div class="note">Angka positif ini datang dari penilaian Anda sendiri di ' +
+          tiltedLegs + ' laga, bukan dari data. Alat ini cuma menghitung konsekuensi ' +
+          'pendapat Anda secara konsisten &mdash; ia tidak memverifikasinya. Kalau bacaan Anda ' +
+          'tepat, tiket ini memang lebih baik daripada versi pasar. Kalau meleset, tiket ini ' +
+          'lebih buruk, dan seluruh EV di atas ikut meleset sebesar kesalahan itu. ' +
+          'Geser slider ke nol untuk melihat harga bandar apa adanya.</div>';
+      } else {
+        fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
+          '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
+          '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri ' +
+          'dan tidak ada penilaian yang Anda masukkan, jadi angka positif ini keluar dari data ' +
+          'contoh bawaan. Bandar tidak menawarkan edge sebesar ini kepada siapa pun.</div>';
+      }
       kpis.appendChild(fake);
     }
 
@@ -1477,11 +1499,13 @@
       var fx = currentFixture(); if (!fx) return;
       var v = parseInt(e.target.value, 10) / 100;
       if (v === 0) delete STATE.tilt[fx.id]; else STATE.tilt[fx.id] = v;
+      saveTilt();
       renderFixtures(); renderMatchCentre(); buildParlay();
     });
     $('tilt-reset').addEventListener('click', function () {
       var fx = currentFixture(); if (!fx) return;
       delete STATE.tilt[fx.id];
+      saveTilt();
       renderFixtures(); renderMatchCentre(); buildParlay();
     });
     $('p-build').addEventListener('click', buildParlay);
@@ -1495,6 +1519,17 @@
       var t = localStorage.getItem('mb-theme');
       if (t) document.documentElement.setAttribute('data-theme', t);
     } catch (err) {}
+
+    /* Judgements are work: losing them on a refresh would make the control
+       not worth using. Browser storage can be unavailable or throw, so every
+       read and write is guarded and the page renders fine without it. */
+    try {
+      var saved = localStorage.getItem('mb-tilt');
+      if (saved) {
+        var parsed = JSON.parse(saved);
+        if (parsed && typeof parsed === 'object') STATE.tilt = parsed;
+      }
+    } catch (err) { STATE.tilt = {}; }
 
     // default to the newest slate that has fixtures
     var avail = Object.keys(DATA.meta.slates || {}).map(Number)
