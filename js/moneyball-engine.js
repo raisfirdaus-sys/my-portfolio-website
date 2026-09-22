@@ -603,9 +603,17 @@
           if (x3) {
             var last = picks[picks.length - 1];
             if (last && last.side === row[0] && last.half === half && last.kind === 'x12') {
-              last.vig = x3.overround / 3;   // per-outcome share of a 3-way margin
+              /* The margin on a three-way market is its full overround, not
+                 a third of it. Under proportional de-vigging every outcome is
+                 marked up by the same factor, so a punter backing one of them
+                 pays the whole overround - exactly as in a two-way market.
+                 Dividing by three made a 12.59% first-half 1X2 display as
+                 4.20% and look cheaper than the 10.48% handicap beside it,
+                 which inverted the comparison the whole board is for. */
+              last.vig = x3.overround;
               last.pFairMarket = x3.probs[row[3]];
-              last.efficiency = last.pFairMarket * (1 - (x3.overround / 3) * 2.2);
+              last.cleanWin = last.dist.win || last.pFairMarket;
+              last.efficiency = last.pFairMarket * (1 - x3.overround * 2.2);
             }
           }
         });
@@ -655,8 +663,17 @@
          positive expected value, because none exists. */
       best: rankByEV
         ? (picks.filter(function (p) { return p.tier === 'prime' || p.tier === 'value'; })[0] || null)
+        /* Availability decides, not market type. Excluding 1X2 by kind meant
+           it never entered the comparison even where it was the better buy;
+           the efficiency metric already charges it for its margin, so let
+           the number rule. */
+        /* Odd/even is excluded, not by market snobbery but because Poisson
+           makes it ~50/50 whatever the teams are: no amount of real xG will
+           ever give it an edge, so it can be cheap but never good, and
+           circling it would send you to the one market where the model is
+           permanently blind. Everything else competes on the number. */
         : (picks.filter(function (p) {
-             return (p.kind === 'ah' || p.kind === 'ou') && mixParlayEligible(p);
+             return p.kind !== 'oe' && mixParlayEligible(p);
            })[0] || null),
       suspects: picks.filter(function (p) { return p.tier === 'suspect'; }).length,
       dataQuality: matches

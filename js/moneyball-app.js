@@ -848,7 +848,23 @@
   }
   function buildParlay() {
     var an = analysesForSlate();
-    STATE.legs = E.pickParlayLegs(an, parlayOpts(an));
+    var opts = parlayOpts(an);
+    var want = opts.legs;
+    var asked = opts.minProb;
+
+    /* A balanced Asian line sits at 50-56% full payout by construction, so a
+       bar much above 0.50 empties the tray in any liquid market. Rather than
+       hand back an empty box and an explanation, step the bar down until the
+       ticket fills, and report exactly where it had to land. */
+    var legs = E.pickParlayLegs(an, opts);
+    var used = asked;
+    while (legs.length < want && used > 0.44) {
+      used = Math.round((used - 0.01) * 100) / 100;
+      opts.minProb = used;
+      legs = E.pickParlayLegs(an, opts);
+    }
+    STATE.legs = legs;
+    STATE.relaxedFrom = (used < asked && legs.length) ? { asked: asked, used: used } : null;
     renderParlay();
   }
 
@@ -856,6 +872,18 @@
     var list = $('p-legs-list'); list.innerHTML = '';
     var kpis = $('p-kpis'); kpis.innerHTML = '';
     var ladder = $('p-ladder'); ladder.innerHTML = '';
+    if (STATE.relaxedFrom) {
+      var rl = el('div', 'notice');
+      rl.style.cssText = 'margin:0 0 10px;border-left-color:var(--warning)';
+      rl.innerHTML = '<h3>Ambang diturunkan otomatis: ' + pct(STATE.relaxedFrom.asked, 0) +
+        ' \u2192 ' + pct(STATE.relaxedFrom.used, 0) + '</h3>' +
+        '<p>Tidak ada cukup leg yang membayar odds penuh ' + pct(STATE.relaxedFrom.asked, 0) +
+        ' dari waktu, jadi saya turunkan sampai tiket terisi. Garis Asia yang seimbang memang ' +
+        'duduk di sekitar 50&ndash;56% bayar penuh &mdash; itu memang tujuan bandar menyusun garisnya. ' +
+        'Leg di bawah ini nyata dan bisa dipasang; yang berubah hanya seberapa tinggi ambang ' +
+        'yang bisa dipenuhi pasar ini.</p>';
+      list.appendChild(rl);
+    }
     $('p-count').textContent = STATE.legs.length
       ? STATE.legs.length + ' leg dipilih' +
         (E.pickParlayLegs.lastBlocked ? ' · ' + E.pickParlayLegs.lastBlocked +
