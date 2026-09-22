@@ -10351,7 +10351,7 @@
       "expectedReturn": 0.5336,
       "ev": -0.4664,
       "pProfit": 0.0055,
-      "note": "Dicatat SEBELUM pertandingan dimainkan, dengan probabilitas model dibekukan pada saat prediksi. Ini satu-satunya cara buku kalibrasi bisa jujur: dua kupon pertama dipilih setelah hasilnya diketahui, kupon ini tidak. Isi skor setelah pertandingan selesai.",
+      "note": "Yang dijaga catatan ini BUKAN Anda - skor itu fakta publik, tidak bisa dikarang. Yang dijaga adalah SAYA. Tanpa pra-daftar, besok saya bisa mengubah model lalu menilai tebakan hari ini dengan model yang sudah tahu hasilnya, dan terlihat lebih pintar daripada yang sebenarnya. Atau memilih kupon mana yang masuk buku setelah tahu mana yang menang - persis yang terjadi pada dua kupon di atas, keduanya dimasukkan setelah hasilnya diketahui. Sekarang angkanya terkunci per 22 Sept: kolom PROB. MODEL di bawah tidak dihitung ulang, bahkan kalau engine-nya saya ubah total. Gawangnya sudah dipaku sebelum bolanya ditendang.",
       "legs": [
         {
           "match": "Hongaria vs Ukraina",
@@ -10506,7 +10506,8 @@
           "score1h": null,
           "outcome": null
         }
-      ]
+      ],
+      "guards": "Pergeseran gawang oleh pembuat alat, bukan kejujuran pengisi skor."
     }
   ]
 }
