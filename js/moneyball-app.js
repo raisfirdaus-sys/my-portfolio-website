@@ -78,8 +78,12 @@
      are not information, so when nobody has entered statistics the anchor is
      full, everywhere. */
   function analyse(fx) {
+    /* Per fixture, not per slate. Filling in one match must not hand model
+       influence to every other match still running on placeholder seeds -
+       that is how a slate of invented edges appears the moment one real
+       entry is made. */
     return E.analyseFixture(fx, teamsView(), DATA.leagues, {
-      marketWeight: slateHasUserStats() ? STATE.marketWeight : 1,
+      marketWeight: fixtureHasUserStats(fx) ? STATE.marketWeight : 1,
       calibration: CALIB,
       tilt: STATE.tilt[fx.id] || 0
     });
@@ -284,17 +288,20 @@
       (100 - STATE.marketWeight * 100).toFixed(0) + '% statistik';
     var note = $('mw-note');
     var mwInput = $('mw');
-    var userStats = slateHasUserStats();
+    var userStats = fixtureHasUserStats(a.fixture);
     mwInput.disabled = !userStats;
     mwInput.style.opacity = userStats ? '1' : '0.4';
     if (!userStats) {
       $('mw-val').textContent = '100% pasar (terkunci)';
-      note.innerHTML = '<strong>Slider ini mati sampai Anda mengisi statistik.</strong> ' +
-        'Tanpa xG asli, satu-satunya sumber informasi yang jujur adalah harga bandar, ' +
-        'jadi seluruh halaman &mdash; Papan Nilai maupun Pembangun Parlay &mdash; memakai ' +
-        'probabilitas pasar dan EV nol. Angka contoh bawaan bukan informasi; menggesernya ' +
-        'ke arah model hanya menghasilkan edge yang saya karang. Isi xG di form di bawah ' +
-        'dan slider ini hidup.';
+      var whoMissing = [];
+      if (statOrigin(a.fixture.home) !== 'user') whoMissing.push(a.home.name);
+      if (statOrigin(a.fixture.away) !== 'user') whoMissing.push(a.away.name);
+      note.innerHTML = '<strong>Slider ini mati untuk laga ini sampai <em>kedua</em> tim Anda isi.</strong> ' +
+        'Belum diisi: <span class="fig">' + whoMissing.join(' dan ') + '</span>. ' +
+        'Satu tim dengan xG asli melawan satu tim dengan angka contoh bukan perbandingan, ' +
+        'itu salah kaprah &mdash; jadi laga ini tetap memakai probabilitas pasar dan EV-nya ' +
+        'hanyalah margin bandar. Kuncinya per laga, bukan per jadwal: mengisi satu pertandingan ' +
+        'tidak akan membuka pengaruh model di pertandingan lain yang masih pakai angka contoh.';
     } else if (a.statsMissing) {
       note.innerHTML = '<strong>Statistik tim belum diisi.</strong> Model dipaksa 100% mengikuti pasar, ' +
         'jadi EV nol di mana-mana &mdash; itu jawaban yang benar, bukan kegagalan. ' +
@@ -868,11 +875,16 @@
     });
     return an;
   }
-  /** Has a human actually typed statistics for anything in this slate? */
+  /** A fixture can only use the model when BOTH its teams were filled in by
+      a person. One team's real xG against the other's placeholder is not a
+      comparison, it is a category error. */
+  function fixtureHasUserStats(fx) {
+    return statOrigin(fx.home) === 'user' && statOrigin(fx.away) === 'user';
+  }
+
+  /** Slate-level, for controls that apply to the whole board. */
   function slateHasUserStats() {
-    return slateFixtures(STATE.slate).some(function (f) {
-      return statOrigin(f.home) === 'user' || statOrigin(f.away) === 'user';
-    });
+    return slateFixtures(STATE.slate).some(fixtureHasUserStats);
   }
 
   function parlayOpts(an) {
