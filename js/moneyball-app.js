@@ -2570,12 +2570,79 @@
   function renderAll() {
     refreshCalibration();
     renderSlateChips();
+    applyAdminMode();
     renderReality();
     renderBoardTools();
     renderBoard();
     renderFixtures();
     renderMatchCentre();
     renderParlay();
+  }
+
+  /* ================================================== OPERATOR MODE ==== */
+  /* The API token field, the endpoints and the import tools are the
+     operator's workshop, not part of what a visitor - or a buyer - should
+     see. They stay hidden unless the page is opened once with ?admin=1,
+     which is then remembered in this browser. ?admin=0 puts them away again.
+
+     This is not a security boundary and is not pretending to be one: the
+     markup ships to everyone and anyone who looks can find the flag. What
+     it does is keep a stranger from stumbling into a token field, and keep
+     the page looking like a finished product. The token itself was never in
+     the repository and still is not. */
+  var ADMIN_KEY = 'mb-admin';
+
+  function adminOn() {
+    try {
+      var q = new RegExp('[?&]admin=([^&]*)').exec(location.search);
+      if (q) {
+        var want = q[1] !== '0' && q[1] !== 'false';
+        localStorage.setItem(ADMIN_KEY, want ? '1' : '0');
+        return want;
+      }
+      return localStorage.getItem(ADMIN_KEY) === '1';
+    } catch (err) {
+      return /[?&]admin=1/.test(location.search);
+    }
+  }
+
+  function applyAdminMode() {
+    var on = adminOn();
+    ['api-section', 'stat-section'].forEach(function (id) {
+      var n = $(id);
+      if (n) n.hidden = !on;
+    });
+    return on;
+  }
+
+  /* ================================================= STALE BUILD ====== */
+  /* GitHub Pages serves HTML with its own max-age, so a plain URL can hand
+     a reader yesterday's page while the data file - which busts its own
+     cache - arrives fresh. That is the worst shape of wrong: the page looks
+     updated and behaves like an old build, which is exactly what sent this
+     project chasing bugs that were already fixed.
+
+     The build id is stamped into both this page and build.json. Fetch the
+     latter with the cache defeated; if it disagrees, reload once. The
+     sessionStorage guard means a genuinely mismatched deploy can never put
+     the page in a reload loop - it simply stays on the old build and says
+     nothing, rather than spinning. */
+  function checkForNewBuild() {
+    var meta = document.querySelector('meta[name="build"]');
+    var mine = meta && meta.getAttribute('content');
+    if (!mine || mine === 'dev') return;
+    fetch('build.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !j.build || j.build === mine) return;
+        var once = 'mb-reloaded-' + j.build;
+        try {
+          if (sessionStorage.getItem(once)) return;
+          sessionStorage.setItem(once, '1');
+        } catch (err) { return; }
+        location.reload();
+      })
+      .catch(function () { /* offline, or opened from a file: leave it be */ });
   }
 
   /* ============================================================== BOOT == */
@@ -2679,6 +2746,7 @@
     renderCalibration();
     renderMethod();
     buildParlay();
+    checkForNewBuild();
   }
 
   fetch('data/moneyball-fixtures.json?v=' + Date.now())
