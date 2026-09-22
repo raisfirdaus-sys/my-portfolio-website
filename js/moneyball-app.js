@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false,
+    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false, ttOnlyReal: true,
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -443,6 +443,109 @@
         });
         host.appendChild(b);
       });
+  }
+
+  /* ============================================ TOP TEAM STATISTICS ==== */
+  /* Leaderboards over the teams this file knows. Most of those numbers are
+     still the placeholder baselines the project shipped with, so every row
+     says which it is and the default view hides the placeholders entirely.
+     A ranking that quietly mixes measured and invented numbers is worse
+     than no ranking at all. */
+  var TT_CATS = [
+    ['xG dibuat',        'xgF',     'desc', 2, 'Peluang yang diciptakan per laga.'],
+    ['xG dikebobolan',   'xgA',     'asc',  2, 'Makin kecil makin baik: peluang yang diberikan ke lawan.'],
+    ['Gol per laga',     'goals',   'desc', 2, 'Gol sungguhan, bukan harapan.'],
+    ['Tembakan',         'shots',   'desc', 1, 'Total percobaan per laga.'],
+    ['Tepat sasaran',    'sot',     'desc', 1, 'Percobaan yang mengarah ke gawang.'],
+    ['Tekel',            'tackles', 'desc', 1, 'Tekel per laga.'],
+    ['Pelanggaran',      'fouls',   'asc',  1, 'Makin kecil makin disiplin.'],
+    ['Kartu kuning',     'yellow',  'desc', 2, 'Per laga. Tinggi = risiko kartu merah ikut naik.']
+  ];
+
+  function ttRows(field, dir, onlyReal) {
+    var rows = [];
+    Object.keys(DATA.teams).forEach(function (k) {
+      var t = effStats(k);
+      if (!t || t.statsMissing) return;
+      var v = t[field];
+      if (v == null || !isFinite(v)) return;
+      var real = statOrigin(k) === 'user';
+      if (onlyReal && !real) return;
+      rows.push({ key: k, name: t.name || k, v: v, real: real });
+    });
+    rows.sort(function (a, b) {
+      return dir === 'asc' ? a.v - b.v : b.v - a.v;
+    });
+    return rows;
+  }
+
+  function renderTopTeams() {
+    var host = $('tt-body'); if (!host) return;
+    host.innerHTML = '';
+
+    var realCount = Object.keys(DATA.teams).filter(function (k) {
+      return statOrigin(k) === 'user';
+    }).length;
+    var withAny = Object.keys(DATA.teams).filter(function (k) {
+      var t = effStats(k); return t && !t.statsMissing;
+    }).length;
+
+    if (STATE.ttOnlyReal == null) STATE.ttOnlyReal = true;
+    var onlyReal = STATE.ttOnlyReal;
+
+    var sub = $('tt-sub');
+    if (sub) {
+      sub.textContent = onlyReal
+        ? realCount + ' tim dengan data Anda'
+        : withAny + ' tim, sebagian besar angka contoh';
+    }
+
+    if (onlyReal && realCount < 3) {
+      var empty = el('div', 'notice');
+      empty.innerHTML = '<h3>Baru ' + realCount + ' tim yang punya data asli</h3>' +
+        '<p>Peringkat baru berarti setelah beberapa tim terisi. Isi lewat <strong>Input ' +
+        'Statistik</strong> di bawah, atau tekan &ldquo;Ikutkan angka contoh&rdquo; untuk ' +
+        'melihat bentuk tabelnya &mdash; tapi angka contoh itu <strong>bukan pengukuran</strong>, ' +
+        'jadi jangan dipakai untuk memilih taruhan.</p>';
+      host.appendChild(empty);
+      if (realCount === 0) return;
+    }
+
+    var grid = el('div', 'tt-grid');
+    TT_CATS.forEach(function (c) {
+      var rows = ttRows(c[1], c[2], onlyReal).slice(0, 5);
+      if (!rows.length) return;
+      var card = el('div', 'tt-card');
+      var h = el('h4', null, c[0]);
+      h.title = c[4];
+      card.appendChild(h);
+      rows.forEach(function (r, i) {
+        var row = el('div', 'tt-row' + (r.real ? '' : ' tt-seed'));
+        row.innerHTML = '<span class="tt-rank">' + (i + 1) + '</span>' +
+          crestHTML(r.key) +
+          '<span class="tt-name">' + r.name + '</span>' +
+          '<span class="tt-val">' + r.v.toFixed(c[3]) + '</span>';
+        card.appendChild(row);
+      });
+      grid.appendChild(card);
+    });
+    host.appendChild(grid);
+  }
+
+  function renderTopTeamTools() {
+    var host = $('tt-tools'); if (!host) return;
+    host.innerHTML = '';
+    [['Hanya data asli', true], ['Ikutkan angka contoh', false]].forEach(function (opt) {
+      var b = el('button', 'chip', opt[0]);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', (STATE.ttOnlyReal !== false) === opt[1] ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        STATE.ttOnlyReal = opt[1];
+        renderTopTeamTools();
+        renderTopTeams();
+      });
+      host.appendChild(b);
+    });
   }
 
   /* ==================================================== MATCH CENTRE ==== */
@@ -2264,6 +2367,8 @@
   function renderAll() {
     refreshCalibration();
     renderSlateChips();
+    renderTopTeamTools();
+    renderTopTeams();
     renderReality();
     renderBoardTools();
     renderBoard();
