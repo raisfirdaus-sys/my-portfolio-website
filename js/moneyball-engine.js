@@ -290,7 +290,7 @@
       confidence: confidence, tier: tier,
       divergence: div, trust: trust, implausible: implausible,
       crossAgree: crossState, crossPenalty: crossPenalty,
-      lineType: lineType(ctx.line == null ? 0.5 : ctx.line),
+      lineType: ctx.line == null ? null : lineType(ctx.line),
       dist: bet.dist
     };
   }
@@ -616,7 +616,20 @@
       }
     });
 
-    picks.sort(function (a, b) { return b.ev - a.ev || b.confidence - a.confidence; });
+    /* How to rank, and what "best" means, depends on whether expected value
+       carries any information here. Under a full market anchor the model was
+       fitted to these very prices, so EV is just the bookmaker's margin with
+       a minus sign: every row is negative, nothing ever clears the value
+       tier, and the board highlights nothing while the parlay builder
+       happily selects legs. Two criteria on one screen again.
+       So: with real information, rank by EV. Without it, rank by the same
+       full-payout efficiency the parlay selector uses, and mark the best of
+       those. One function, both paths. */
+    var rankByEV = mw < 0.999 && !statsMissing;
+    picks.sort(rankByEV
+      ? function (a, b) { return b.ev - a.ev || b.confidence - a.confidence; }
+      : function (a, b) { return (b.efficiency || 0) - (a.efficiency || 0); });
+    picks.forEach(function (p) { p.rankedBy = rankByEV ? 'ev' : 'efficiency'; });
 
     return {
       fixture: fx, league: league, home: home, away: away,
@@ -636,7 +649,15 @@
       outright1h: outrightProbs(mHT),
       totals: totalGoalsDist(mFT),
       picks: picks,
-      best: picks.filter(function (p) { return p.tier === 'prime' || p.tier === 'value'; })[0] || null,
+      rankedBy: rankByEV ? 'ev' : 'efficiency',
+      /* With no information of our own, the best available leg is the one
+         that keeps most of its printed odds after margin - not one with a
+         positive expected value, because none exists. */
+      best: rankByEV
+        ? (picks.filter(function (p) { return p.tier === 'prime' || p.tier === 'value'; })[0] || null)
+        : (picks.filter(function (p) {
+             return (p.kind === 'ah' || p.kind === 'ou') && mixParlayEligible(p);
+           })[0] || null),
       suspects: picks.filter(function (p) { return p.tier === 'suspect'; }).length,
       dataQuality: matches
     };
