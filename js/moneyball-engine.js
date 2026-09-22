@@ -434,8 +434,147 @@
    * this model uses. Everything is converted to a PER MATCH average, because
    * that is what the model expects and the page reports season totals.
    */
+
+  /* ------------------------------------------------- JSON stat import ---
+     An API response can be shaped almost any way, and Sportmonks in
+     particular returns statistics as a list of {type, value} pairs whose
+     type is a numeric id unless the type relation is included. Rather than
+     hard-code one schema, walk the whole tree and collect anything that
+     looks like a named statistic - either a key whose NAME matches, or an
+     object carrying a name-ish field beside a value-ish one.
+
+     This will not be right for every provider on the first try. It is meant
+     to get most of the way there from a pasted response, and to fail
+     visibly (fields left empty, listed as missing) rather than quietly
+     inventing numbers.
+     ----------------------------------------------------------------- */
+  var STAT_PATTERNS = {
+    matches:  [/^(matches|games|appearances|matches_played|games_played|played)$/i],
+    goals:    [/^(goals|goals_scored|goals_for|scored)$/i],
+    xgF:      [/^(xg|x_g|xg_for|expected_goals|expected_goals_for|xg_scored|expected_goals_scored)$/i],
+    xgA:      [/^(xga|xg_a|x_ga|xg_against|expected_goals_against|expected_goals_conceded)$/i],
+    xA:       [/^(xa|x_a|expected_assists|xg_assist|xg_assisted)$/i],
+    shots:    [/^(shots|shots_total|total_shots|attempts|shots_attempted|total_attempts)$/i],
+    sot:      [/^(shots_on_target|shots_on_goal|attempts_on_target|on_target|shots_ongoal)$/i],
+    fouls:    [/^(fouls|fouls_committed|fouls_conceded)$/i],
+    tackles:  [/^(tackles|tackles_total|total_tackles)$/i],
+    yellow:   [/^(yellow_cards?|yellowcards|yellow)$/i],
+    red:      [/^(red_cards?|redcards|red)$/i],
+    bigMiss:  [/^(big_chances_missed|big_misses|clear_chances_missed)$/i]
+  };
+
+  function numericish(v) {
+    if (typeof v === 'number' && isFinite(v)) return v;
+    if (typeof v === 'string') {
+      var n = parseFloat(v.replace(',', '.'));
+      if (isFinite(n)) return n;
+    }
+    if (v && typeof v === 'object') {
+      /* {value: 12}, {total: 12}, {count: 12}, {all: {count: 12}} */
+      var keys = ['value', 'total', 'count', 'average', 'amount'];
+      for (var i = 0; i < keys.length; i++) {
+        if (v[keys[i]] != null) {
+          var n2 = numericish(v[keys[i]]);
+          if (n2 != null) return n2;
+        }
+      }
+    }
+    return null;
+  }
+
+  function matchField(name) {
+    if (!name) return null;
+    /* Providers label the same statistic as "Expected Goals", "expected_goals",
+       "Expected-Goals" or "expectedGoals". Normalise to one form before
+       matching, or a pattern written with underscores silently misses every
+       human-readable label. */
+    var clean = String(name).trim()
+      .replace(/([a-z])([A-Z])/g, '$1_$2')
+      .replace(/[\s\-.]+/g, '_')
+      .replace(/_+/g, '_')
+      .toLowerCase();
+    for (var field in STAT_PATTERNS) {
+      var pats = STAT_PATTERNS[field];
+      for (var i = 0; i < pats.length; i++) {
+        if (pats[i].test(clean)) return field;
+      }
+    }
+    return null;
+  }
+
+  function collectFromJSON(node, out, depth) {
+    depth = depth || 0;
+    if (!node || typeof node !== 'object' || depth > 12) return;
+    if (Array.isArray(node)) {
+      node.forEach(function (n) { collectFromJSON(n, out, depth + 1); });
+      return;
+    }
+    /* shape A: {type: {name: "Shots Total"}, value: 12} or {name, value} */
+    var nameish = node.name || node.code || node.developer_name ||
+                  (node.type && (node.type.name || node.type.code || node.type.developer_name));
+    if (nameish) {
+      var f = matchField(nameish);
+      if (f != null) {
+        var v = numericish(node.value != null ? node.value :
+                (node.data != null ? node.data : node.count));
+        if (v != null && out[f] == null) out[f] = v;
+      }
+    }
+    /* shape B: plain keys - {"xg": 1.8, "shots_on_target": 5} */
+    for (var k in node) {
+      if (!Object.prototype.hasOwnProperty.call(node, k)) continue;
+      var child = node[k];
+      var fk = matchField(k);
+      if (fk != null && out[fk] == null) {
+        var vk = numericish(child);
+        if (vk != null) out[fk] = vk;
+      }
+      collectFromJSON(child, out, depth + 1);
+    }
+  }
+
+  function parseStatsJSON(text) {
+    var json;
+    try { json = JSON.parse(text); } catch (e) { return null; }
+    var found = {};
+    collectFromJSON(json, found, 0);
+    if (!Object.keys(found).length) {
+      return { error: 'JSON terbaca, tapi tidak ada field statistik yang dikenali. ' +
+        'Kirim potongan JSON-nya ke Claude supaya pemetaannya ditulis persis.' };
+    }
+    var matches = found.matches;
+    var perMatch = matches && matches > 1;
+    function per(v) {
+      if (v == null) return null;
+      /* xG is often already a per-match average; totals over many matches are
+         obvious from their size, so only divide what clearly needs it. */
+      return perMatch ? Math.round((v / matches) * 100) / 100 : Math.round(v * 100) / 100;
+    }
+    var out = {
+      matches: matches || 1,
+      goals: per(found.goals), xgF: per(found.xgF), xgA: per(found.xgA),
+      xA: per(found.xA), shots: per(found.shots), sot: per(found.sot),
+      bigMiss: per(found.bigMiss), fouls: per(found.fouls),
+      tackles: per(found.tackles), yellow: per(found.yellow), red: per(found.red),
+      _estimated: { xgF: false, xgA: false },
+      _source: 'json',
+      _perMatchApplied: !!perMatch,
+      _missing: []
+    };
+    ['goals','xgF','xgA','shots','sot','fouls','tackles','yellow','red'].forEach(function (k) {
+      if (out[k] == null) out._missing.push(k);
+    });
+    return out;
+  }
+
   function parseTeamStats(text) {
     if (!text || typeof text !== 'string') return null;
+    var trimmed = text.trim();
+    /* A pasted API response is JSON; a pasted page is not. */
+    if (trimmed.charAt(0) === '{' || trimmed.charAt(0) === '[') {
+      var asJson = parseStatsJSON(trimmed);
+      if (asJson) return asJson;
+    }
     var t = text.replace(/\u00a0/g, ' ');
 
     var matches = grabStat(t, ['Matches played', 'Laga dimainkan', 'Pertandingan dimainkan']);
@@ -1323,6 +1462,7 @@
     value: value, devig: devig, lineType: lineType,
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
     parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
+    parseStatsJSON: parseStatsJSON, STAT_PATTERNS: STAT_PATTERNS,
     XG_PER_SHOT: XG_PER_SHOT,
     analyseFixture: analyseFixture, outrightProbs: outrightProbs,
     impliedLambdas: impliedLambdas, marketTargets: marketTargets, fitError: fitError,
