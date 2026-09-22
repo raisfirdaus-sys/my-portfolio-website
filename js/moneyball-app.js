@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}
+    legs: [], overrides: {}, tilt: {}
   };
 
   /* ------------------------------------------------------------ helpers -- */
@@ -80,7 +80,8 @@
   function analyse(fx) {
     return E.analyseFixture(fx, teamsView(), DATA.leagues, {
       marketWeight: slateHasUserStats() ? STATE.marketWeight : 1,
-      calibration: CALIB
+      calibration: CALIB,
+      tilt: STATE.tilt[fx.id] || 0
     });
   }
   function slateFixtures(s) {
@@ -318,6 +319,7 @@
           : '.');
     }
 
+    renderTilt(a);
     renderCross(a);
     renderStatCompare(a);
     renderHeat(a);
@@ -410,6 +412,44 @@
     $('mc-stats-table').appendChild(t);
   }
 
+
+
+  /* --------------------------------------------- the user's own read ---- */
+  function renderTilt(a) {
+    var slider = $('tilt'), out = $('tilt-val'), note = $('tilt-note');
+    if (!slider) return;
+    var t = STATE.tilt[a.fixture.id] || 0;
+    slider.value = String(Math.round(t * 100));
+
+    var side = t > 0 ? a.home.name : a.away.name;
+    out.textContent = t === 0
+      ? 'netral \u2014 ikut harga bandar'
+      : (t > 0 ? '+' : '') + (t * 100).toFixed(0) + '%  condong ke ' + side;
+
+    /* market view versus the view after the adjustment, side by side */
+    var base = E.analyseFixture(a.fixture, teamsView(), DATA.leagues,
+      { marketWeight: slateHasUserStats() ? STATE.marketWeight : 1, calibration: CALIB, tilt: 0 });
+    var b = base.outright, o = a.outright;
+
+    var html = '<strong>Ini tempat pengetahuan bola Anda masuk.</strong> Model tidak tahu soal ' +
+      'ganti pelatih, skuad penuh bintang, atau tim yang sedang terluka harga dirinya. ' +
+      'Geser slider kalau Anda menilai satu tim lebih kuat daripada yang dihargai bandar, ' +
+      'dan seluruh halaman &mdash; tiap pasar, EV, sampai pembangun parlay &mdash; ikut berubah.';
+    if (t !== 0) {
+      html += '<br /><span class="fig">Pasar:</span> ' + a.home.name + ' ' + pct(b.home, 0) +
+        ' / seri ' + pct(b.draw, 0) + ' / ' + a.away.name + ' ' + pct(b.away, 0) +
+        ' &nbsp;&rarr;&nbsp; <span class="fig">Setelah penilaian Anda:</span> ' +
+        a.home.name + ' ' + pct(o.home, 0) + ' / seri ' + pct(o.draw, 0) + ' / ' +
+        a.away.name + ' ' + pct(o.away, 0) +
+        '<br />Gol harapan ' + base.lambdas.home.toFixed(2) + '\u2013' + base.lambdas.away.toFixed(2) +
+        ' &rarr; <span class="fig">' + a.lambdas.home.toFixed(2) + '\u2013' + a.lambdas.away.toFixed(2) +
+        '</span>. Tabel di bawah sekarang diurutkan menurut EV, karena Anda sudah memberi model ' +
+        'informasi yang tidak ada di harga.';
+    } else {
+      html += '<br />Selama nol, EV di bawah hanyalah margin bandar dan tabel diurutkan menurut bayar-penuh.';
+    }
+    note.innerHTML = html;
+  }
 
   /* ------------------------------------------------- BT cross-check ----- */
   function renderCross(a) {
@@ -1432,6 +1472,17 @@
     $('mw').addEventListener('input', function (e) {
       STATE.marketWeight = parseInt(e.target.value, 10) / 100;
       renderReality(); renderFixtures(); renderMatchCentre(); renderParlay();
+    });
+    $('tilt').addEventListener('input', function (e) {
+      var fx = currentFixture(); if (!fx) return;
+      var v = parseInt(e.target.value, 10) / 100;
+      if (v === 0) delete STATE.tilt[fx.id]; else STATE.tilt[fx.id] = v;
+      renderFixtures(); renderMatchCentre(); buildParlay();
+    });
+    $('tilt-reset').addEventListener('click', function () {
+      var fx = currentFixture(); if (!fx) return;
+      delete STATE.tilt[fx.id];
+      renderFixtures(); renderMatchCentre(); buildParlay();
     });
     $('p-build').addEventListener('click', buildParlay);
     $('p-clear').addEventListener('click', function () { STATE.legs = []; renderParlay(); });

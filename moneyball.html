@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/moneyball.css?v=d6cb339-045149" />
+<link rel="stylesheet" href="css/moneyball.css?v=17c3f97-045904" />
 </head>
 <body>
 
@@ -118,6 +118,16 @@
         <div class="panel-body">
           <div id="mc-prob"></div>
           <div class="slider-row" style="margin-top:14px;padding-top:13px;border-top:1px solid var(--border)">
+            <label for="tilt" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)">
+              Penilaian Anda
+            </label>
+            <input id="tilt" type="range" min="-25" max="25" step="1" value="0" />
+            <span id="tilt-val" style="font-family:var(--mono);font-size:12px;min-width:210px"></span>
+            <button class="btn ghost btn-sm" id="tilt-reset" type="button">Nol</button>
+          </div>
+          <p class="stat-note" id="tilt-note"></p>
+
+          <div class="slider-row" style="margin-top:10px">
             <label for="mw" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)">
               Jangkar pasar
             </label>
@@ -206,7 +216,7 @@
 
 <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
 
-<script src="js/moneyball-engine.js?v=d6cb339-045149"></script>
-<script src="js/moneyball-app.js?v=d6cb339-045149"></script>
+<script src="js/moneyball-engine.js?v=17c3f97-045904"></script>
+<script src="js/moneyball-app.js?v=17c3f97-045904"></script>
 </body>
 </html>

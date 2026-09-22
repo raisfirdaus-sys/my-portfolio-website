@@ -136,7 +136,11 @@
     lh *= (1 - H.pRed * K.RED_SELF_EFFECT) * (1 + A.pRed * K.RED_OPP_EFFECT);
     la *= (1 - A.pRed * K.RED_SELF_EFFECT) * (1 + H.pRed * K.RED_OPP_EFFECT);
 
-    if (opts.tilt) { lh *= (1 + opts.tilt); la *= (1 - opts.tilt); }
+    /* NOTE: tilt is deliberately NOT applied here. A tilt expresses the
+       user's own view, and applying it before the market blend meant a full
+       anchor washed it straight back out. It is applied after blending, in
+       analyseFixture, so it reads as "start from the market, then apply what
+       I know that the market does not". */
 
     return {
       home: clamp(lh, 0.12, 5.5),
@@ -258,7 +262,15 @@
        not an edge. An EV above 15% is likewise treated as implausible. */
     var div = ctx.divergence || 0;
     var trust = clamp(1 - div / 0.45, 0.15, 1);
-    var implausible = div > 0.25 || ev > 0.15;
+
+    /* The implausibility guard exists to catch a model that has drifted away
+       from the market on bad inputs. A user tilt is the opposite case: the
+       disagreement is deliberate and its size is exactly what was asked for.
+       Flagging it as suspect would mean the page refuses to circle the pick
+       its own controls just produced. */
+    var deliberate = Math.abs(ctx.tilt || 0) > 0.001;
+    var implausible = deliberate ? false : (div > 0.25 || ev > 0.15);
+    if (deliberate) trust = 1;
 
     /* A second model family voting the other way is evidence the edge is an
        artefact. Only applied when the Bradley-Terry offset was fitted on
@@ -502,6 +514,20 @@
       lamA1 = lamA1 * (1 - mw) + implied1h.away * mw;
     }
 
+    /* --- the user's own read, applied on top of the market --------------
+       Football knowledge the model cannot see - a coach change, a squad
+       full of internationals, a side with something to prove - enters here.
+       tilt > 0 shifts goals toward the home side, tilt < 0 toward the away
+       side, and everything downstream (every market, the parlay, the EV
+       column) follows from it. */
+    var tilt = opts.tilt || 0;
+    if (tilt) {
+      lamH *= (1 + tilt); lamA *= (1 - tilt);
+      lamH1 *= (1 + tilt); lamA1 *= (1 - tilt);
+      lamH = clamp(lamH, 0.08, 6); lamA = clamp(lamA, 0.08, 6);
+      lamH1 = clamp(lamH1, 0.04, 4); lamA1 = clamp(lamA1, 0.04, 4);
+    }
+
     var mFT = scoreMatrix(lamH, lamA, league.rhoFT);
     var mHT = scoreMatrix(lamH1, lamA1, league.rhoHT);
 
@@ -510,6 +536,7 @@
 
     /* second-family sanity check (Bradley-Terry) where stats allow it */
     var cross = null;
+    void tilt;   /* declared above with the lambda adjustment */
     if (opts.calibration) {
       try {
         cross = crossCheck({
@@ -539,7 +566,7 @@
       var v = value(bet, odds, {
         kind: kind, line: line, matches: matches,
         repeatability: repeat, half: half, divergence: divergence,
-        cross: cross
+        cross: cross, tilt: tilt
       });
       if (!v) return;
 
@@ -633,7 +660,10 @@
        So: with real information, rank by EV. Without it, rank by the same
        full-payout efficiency the parlay selector uses, and mark the best of
        those. One function, both paths. */
-    var rankByEV = mw < 0.999 && !statsMissing;
+    /* EV only means something when this model knows something the prices do
+       not. That is true with real statistics, and equally true when the user
+       has told it something the market has not priced. */
+    var rankByEV = (mw < 0.999 && !statsMissing) || Math.abs(tilt) > 0.001;
     picks.sort(rankByEV
       ? function (a, b) { return b.ev - a.ev || b.confidence - a.confidence; }
       : function (a, b) { return (b.efficiency || 0) - (a.efficiency || 0); });
@@ -649,7 +679,7 @@
                  rawHome: rawH, rawAway: rawA,
                  impliedHome: implied ? implied.home : null,
                  impliedAway: implied ? implied.away : null },
-      marketWeight: mw, statsMissing: statsMissing,
+      marketWeight: mw, statsMissing: statsMissing, tilt: tilt,
       implied: implied, implied1h: implied1h, divergence: divergence,
       profiles: lam.profiles,
       matrixFT: mFT, matrixHT: mHT,
