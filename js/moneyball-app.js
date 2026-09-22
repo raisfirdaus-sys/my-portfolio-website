@@ -1562,6 +1562,7 @@
           ? ' <strong>Baru ' + parsed.matches + ' laga</strong> \u2014 terlalu sedikit untuk ' +
             'dipercaya sendirian; model tetap condong ke harga pasar.'
           : '';
+<<<<<<< HEAD
         delete STATE.paste[key];
         STATE.importMsg[key] = {
           color: 'var(--good)',
@@ -1573,6 +1574,12 @@
         };
         msg.style.color = STATE.importMsg[key].color;
         msg.innerHTML = STATE.importMsg[key].html;
+=======
+        msg.innerHTML = 'Terisi dari ' + parsed.matches + ' pertandingan.' +
+          (parsed._estimated.xgF
+            ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
+            : '') + thin + miss;
+>>>>>>> origin/claude/stock-portfolio-website-2ulin2
         renderAll();
       });
       btnRow.appendChild(imp); btnRow.appendChild(msg);
