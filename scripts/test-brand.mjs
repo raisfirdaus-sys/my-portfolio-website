@@ -45,8 +45,19 @@ say(!/rel="icon" href="data:image\/svg/.test(html), "the old inline tick icon is
 say(/<meta name="theme-color" content="#2e1758"/.test(html),
   "the browser chrome is told the brand purple");
 
-say(/class="brand-logo"[^>]*moneyball-mark-180\.png/.test(html),
-  "the drawn mark is in the header");
+const brandImg = (html.match(/<img[^>]*class="brand-logo"[^>]*>/) || [""])[0];
+say(/moneyball-mark-150\.png/.test(brandImg), "the drawn mark is in the header");
+say(/srcset=/.test(brandImg), "at two densities, so it stays crisp on a phone");
+/* He asked for the gold alone: no tile, no rounded box behind it. The mark
+   must therefore carry its own transparency and the rule must not paint one
+   back on. */
+const markPng = fs.readFileSync(path.join(ROOT, "assets/brand/moneyball-mark-150.png"));
+say(markPng.slice(0, 8).equals(Buffer.from([0x89,0x50,0x4e,0x47,0x0d,0x0a,0x1a,0x0a])),
+  "the header mark is a PNG");
+say(markPng[25] === 6, "and carries an alpha channel, so the purple box is gone");
+const brandRule = css.slice(css.indexOf(".brand-logo {"), css.indexOf(".brand-logo {") + 200);
+say(!/border-radius|background/.test(brandRule),
+  "no rounded box or tile is painted behind it");
 say(/class="site-foot"/.test(html) && /class="foot-logo"[^>]*moneyball-logo\.webp/.test(html),
   "and again at the foot of the page, for the branding");
 say(/loading="lazy"/.test(html.slice(html.indexOf("foot-logo") - 200, html.indexOf("foot-logo") + 300)),
