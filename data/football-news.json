@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790175540666,
+  "generatedAt": 1790176093617,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1536,
-    "tagged": 780,
+    "raw": 1540,
+    "tagged": 787,
     "droppedKeyword": 41,
     "droppedOtherSport": 1,
     "droppedFeed": 9,
@@ -12,6 +12,55 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "JJ Gabriel receives Barcelona 'guarantee' after three Man United decisions riled his dad",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-man-united-transfer-34661037",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34661505.ece/ALTERNATES/s615/0_JJ-Gabriel.jpg",
+      "summary": "JJ Gabriel has received a lucractive offer and 'guarantees' to sign for Barcelona with Real Madrid among the others chasing a move for the Manchester United talent",
+      "teams": [
+        "manutd",
+        "barcelona"
+      ],
+      "publishedAt": 1790175928000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790175718000
+    },
+    {
+      "competition": "metro",
+      "title": "Virgil van Dijk slams &#8216;utter nonsense&#8217; claim in feisty Netherlands press conference",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/23/virgil-van-dijk-slams-utter-nonsense-claim-feisty-netherlands-press-conference-29647835/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313664368-8677.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "netherlands"
+      ],
+      "publishedAt": 1790175688000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Johan Manzambi breaks silence on Newcastle United transfer - 'Be careful what you believe'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/johan-manzambi-breaks-silence-newcastle-34659878",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644176.ece/ALTERNATES/s615/2_Aston-Villas-Johan-Manzambi-celebrates-scoring-the-opening-goal-during-the-Premier-League-match-at-the-Tottenham.jpg",
+      "summary": "The Swiss forward signed for Aston Villa in the summer transfer window after interest from Newcastle United",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790175600000
+    },
     {
       "competition": "echo",
       "title": "Jarrad Branthwaite credits David Moyes for key Everton 'idea' that has led to England recall",
@@ -60,18 +109,6 @@
         "liverpool"
       ],
       "publishedAt": 1790173792000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790173654000
     },
     {
       "competition": "footlondon",
@@ -707,42 +744,6 @@
         "mancity"
       ],
       "publishedAt": 1790161381000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa summer transfers graded as A and D awarded and January plan discussed",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-summer-transfers-graded-34659162",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34589308.ece/ALTERNATES/s615/0_Club-Brugge-v-Aston-Villa-UEFA-Champions-League-League-Stage-Football-Jan-Breydel-Stadium-Brugg.jpg",
-      "summary": "Aston Villa’s summer transfer arrivals graded after the first part of the season",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790161200000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool sent message to complete Trent Alexander-Arnold transfer - 'not much worse than most'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-sent-message-complete-trent-34658474",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34658605.ece/ALTERNATES/s615/0_GettyImages-2295916107.jpg",
-      "summary": "Liverpool and Trent Alexander-Arnold have been told they would benefit from a reunion as transfer backed",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790161080000
-    },
-    {
-      "competition": "mirror",
-      "title": "Wayne Rooney takes aim at Man Utd board for 'weak' decision and reveals manager hope",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-man-utd-carrick-37692908",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37665918.ece/ALTERNATES/s615/0_rooney-stick-to-united.png",
-      "summary": "Wayne Rooney hopes Michael Carrick can turn Manchester United's fortunes around but says the squad is 'a bit weak' following the transfer window",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790160682000
     }
   ]
 }
