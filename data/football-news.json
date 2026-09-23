@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790205196485,
+  "generatedAt": 1790207555613,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1523,
-    "tagged": 770,
+    "raw": 1525,
+    "tagged": 766,
     "droppedKeyword": 37,
     "droppedOtherSport": 1,
     "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 58
+    "withImage": 57
   },
   "items": [
     {
@@ -550,6 +550,19 @@
       "publishedAt": 1790177460000
     },
     {
+      "competition": "unl-a",
+      "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany",
+        "england"
+      ],
+      "publishedAt": 1790206258000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Liverpool international demand denied as Sweden make Alexander Isak declaration",
       "publisher": "Liverpool Echo",
@@ -662,6 +675,17 @@
       "publishedAt": 1790174851000
     },
     {
+      "competition": "transfer",
+      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790202990000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "Bukayo Saka says England still carrying World Cup ‘scar’ but must move on",
       "publisher": "The Independent",
@@ -720,30 +744,6 @@
         "italy"
       ],
       "publishedAt": 1790173595000
-    },
-    {
-      "competition": "guardian",
-      "title": "Football Daily | Madrid, Mourinho and the fight for neutrality in row with Javier Tebas",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/23/madrid-mourinho-javier-tebas-football-daily-newsletter",
-      "image": "https://i.guim.co.uk/img/media/1c0e016695af389c7d5620ba542e5082c3390858/575_0_3816_3054/master/3816.jpg?width=140&quality=85&auto=format&fit=max&s=8085878c83038d95815d6b056dd5cf65",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now!While football managers moaning about referees to deflect from their own teams’ shortcomings is nothing new, few do performative, wounded, righteous indignation with…",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790173433000
-    },
-    {
-      "competition": "epl",
-      "title": "Brentford, Brighton and Bournemouth have formed the top-flight's 'Bermuda Triangle'.",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONGtWVmhSR2NBbXR6R0dObUp6dnVVVFR3bFBDekZiQ0Frd0dqZHVfaXJITmFmZlVzNDQ1ZjA3VEk4RktYQ1VvUTVoSnd6eEN1ZkVhdTBwSkdidUNvaHVzYno2Zks4cWx6RWM3SGpkYmpTOHE2RVdNZUlvTDlrWFBkMnh5bThGZWFpSmEyRWxjWlhJYlFDejFGRC1FdDhuZkVKd3RfVnFUX2Y1UEt2bHFnRjBIdkJKMXJSYW9vT2kwUmJmUDZaQmpPNC1EcFRtbWRHQ3hYR2JGNkZLUHAwZ0ZReG5TSVN1b19hd3pWMzZPT3BxT3doVHY4eg?oc=5",
-      "teams": [
-        "brentford",
-        "brighton"
-      ],
-      "publishedAt": 1790202225000,
-      "image": null
     }
   ]
 }
