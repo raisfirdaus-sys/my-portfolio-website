@@ -46,6 +46,21 @@
   }
   function team(key) { return (DATA.teams[key] || { name: key }); }
   function league(id) { return DATA.leagues.filter(function (l) { return l.id === id; })[0]; }
+  /* The two figures the model cannot run without. Everything else makes a
+     rating sharper; these two decide whether there is a rating at all - the
+     engine returns no rating without both, which pins the fixture to the
+     bookmaker's price and makes EV zero everywhere. A page that reports
+     "filled 7 of 10" and says nothing about which 3 is a page that looks
+     like it worked while the model is switched off. */
+  var MODEL_REQUIRED = [['xgF', 'xG created'], ['xgA', 'xG conceded']];
+
+  function missingForModel(key) {
+    var t = effStats(key);
+    if (!t) return [];
+    return MODEL_REQUIRED.filter(function (r) { return t[r[0]] == null; })
+                         .map(function (r) { return r[1]; });
+  }
+
   function effStats(key) {
     var base = DATA.teams[key];
     var ov = STATE.overrides[key];
@@ -871,9 +886,19 @@
         'is only the bookmaker margin. The gate is per fixture, not per schedule: filling one match ' +
         'does not unlock model influence on any other match still running on placeholders.';
     } else if (a.statsMissing) {
-      note.innerHTML = '<strong>No team statistics entered.</strong> The model is pinned 100% to the market, ' +
-        'so EV is zero everywhere &mdash; that is the correct answer, not a failure. ' +
-        'Enter xG in the form below to give the model an opinion of its own.';
+      /* Name the missing figures. "No statistics entered" is wrong and
+         maddening when nine of them were just entered by hand. */
+      var needH = missingForModel(a.fixture.home), needA = missingForModel(a.fixture.away);
+      var parts = [];
+      if (needH.length) parts.push(esc(team(a.fixture.home).name) + ': ' + needH.join(' + '));
+      if (needA.length) parts.push(esc(team(a.fixture.away).name) + ': ' + needA.join(' + '));
+      note.innerHTML = '<strong>The model is switched off for this fixture, so every price below is ' +
+        'the bookmaker\u2019s and EV is zero.</strong> ' +
+        (parts.length
+          ? 'Still needed: <span class="fig">' + parts.join('</span>; <span class="fig">') + '</span>. ' +
+            'Goals, shots, tackles, fouls and cards all sharpen a rating, but without <strong>both</strong> ' +
+            'xG figures there is no rating to sharpen \u2014 the engine has nothing to compare the two sides with.'
+          : 'Enter the statistics below to give the model an opinion of its own.');
     } else if (statOrigin(a.fixture.home) !== 'user' && statOrigin(a.fixture.away) !== 'user') {
       note.innerHTML = '<strong style="color:var(--critical)">This fixture still runs on placeholder statistics, ' +
         'not real data.</strong> Every EV below follows from numbers invented ' +
@@ -922,10 +947,17 @@
     var H = effStats(a.fixture.home), A = effStats(a.fixture.away);
     if (H.statsMissing || A.statsMissing) {
       var warnBox = el('div', 'notice');
-      warnBox.innerHTML = '<h3>No statistics for this fixture yet</h3>' +
-        '<p>Comparing xG / xA / shots / fouls / tackles / cards needs real numbers. ' +
-        'Take them from WhoScored, FBref or Understat and enter them in the <em>Statistics Input</em> form below. ' +
-        'Until that is done, the value table only mirrors the bookmaker price.</p>';
+      var nH = missingForModel(a.fixture.home), nA = missingForModel(a.fixture.away);
+      var who = [];
+      if (nH.length) who.push(esc(H.name) + ' needs ' + nH.join(' + '));
+      if (nA.length) who.push(esc(A.name) + ' needs ' + nA.join(' + '));
+      warnBox.innerHTML = '<h3>' + (who.length ? 'Two figures short of a model' : 'No statistics for this fixture yet') + '</h3>' +
+        '<p>' + (who.length ? '<strong>' + who.join('. ') + '.</strong> ' : '') +
+        'Until <strong>xG created and xG conceded</strong> are in for both sides, this fixture is priced ' +
+        'by the bookmaker alone and the value table only mirrors it.</p>' +
+        '<p class="stat-note">WhoScored\u2019s Summary, Defensive and Offensive tables do not carry xG conceded. ' +
+        'Its <strong>xG</strong> tab has xG created; FBref carries both, on its squad table and the matching ' +
+        '&ldquo;vs&rdquo; opponent table. Either can also be typed straight into the two boxes below.</p>';
       box.appendChild(warnBox);
       $('mc-stats-table').innerHTML = '';
       return;
@@ -1175,6 +1207,18 @@
         ? '<p class="stat-note"><strong>Replaced</strong> figures you already had for: ' +
           refreshed.join(', ') + '. A league table is the newer measurement, so it wins.</p>'
         : '') +
+      (function () {
+        var off = known.filter(function (t) {
+          return MODEL_REQUIRED.some(function (r) { return t.stats[r[0]] == null; });
+        });
+        if (!off.length) return '';
+        var need = MODEL_REQUIRED.filter(function (r) {
+          return off[0].stats[r[0]] == null;
+        }).map(function (r) { return r[1]; });
+        return '<p class="stat-note" style="color:var(--warning)"><strong>The model stays switched off for ' +
+          off.length + ' of these teams: no ' + need.join(' and ') + ' in this table.</strong> ' +
+          'Their fixtures keep the bookmaker\u2019s price until both xG figures are in.</p>';
+      })() +
       (many.unmatched.length
         ? '<p class="stat-note">Rows that matched no team on this site: ' +
           many.unmatched.slice(0, 12).map(esc).join(', ') +
@@ -1727,7 +1771,9 @@
       var sw = el('span', 'mc-swatch');
       sw.style.background = idx ? 'var(--series-away)' : 'var(--series-home)';
       h.appendChild(sw);
-      h.appendChild(el('span', null, t.name + (t.statsMissing ? '  (no data yet)' : '')));
+      var need = missingForModel(key);
+      h.appendChild(el('span', null, t.name +
+        (need.length ? '  (model still off \u2014 needs ' + need.join(' + ') + ')' : '')));
       box.appendChild(h);
 
       var grid = el('div', 'form-grid');
@@ -1912,10 +1958,23 @@
           ? ' <strong>Only ' + parsed.matches + ' matches</strong> \u2014 too few to be ' +
             'trusted alone; the model keeps leaning on the market price.'
           : '';
+
+        /* Green with the model still switched off is the message that cost
+           two rounds of "why has nothing changed": seven fields landed and
+           the only two that decide anything did not. */
+        var stillNeed = MODEL_REQUIRED.filter(function (r) {
+          return STATE.overrides[key][r[0]] == null;
+        }).map(function (r) { return r[1]; });
+        var gate = stillNeed.length
+          ? '<br /><strong style="color:var(--warning)">The model is still switched off for this team: ' +
+            'no ' + stillNeed.join(' and ') + '.</strong> Fixtures involving it stay priced by the ' +
+            'bookmaker until both xG figures are in \u2014 type them into the boxes above, or paste a ' +
+            'source that carries them (WhoScored\u2019s xG tab, or FBref\u2019s squad and &ldquo;vs&rdquo; tables).'
+          : '';
         delete STATE.paste[key];
         delete STATE.editMsg[key];
         STATE.importMsg[key] = {
-          color: 'var(--good)',
+          color: stillNeed.length ? 'var(--warning)' : 'var(--good)',
           html: 'Filled <strong>' + filled.length + ' of ' + FIELDS.length +
             ' statistics</strong> from ' + parsed.matches + ' fixtures' +
             (parsed._fromTable
@@ -1928,7 +1987,7 @@
               : '') + '.' +
             (parsed._estimated.xgF
               ? ' <strong>xG is ESTIMATED</strong> from the shot profile, not real xG \u2014 UEFA does not publish it.'
-              : '') + thin + miss
+              : '') + thin + miss + gate
         };
         msg.style.color = STATE.importMsg[key].color;
         msg.innerHTML = STATE.importMsg[key].html;

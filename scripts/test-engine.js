@@ -283,5 +283,74 @@ eq('empty input is not a table', E.parseStatsTable(''), null);
 eq('a table without Apps is refused',
    E.parseStatsTable('Team Goals Shots\nArsenal 7 60'), null);
 
+/* ---------------------------------------------------------------- 16.
+   The gate that decides whether the model has an opinion at all.
+
+   Nine figures were imported for two teams - goals, shots, fouls,
+   tackles, cards - and every probability on the page stayed exactly where
+   it was, because xG created and xG conceded were not among them. That is
+   the engine working as designed, and it cost two rounds of "why has
+   nothing changed", so it is pinned here. */
+console.log('\n== 16. xG is the switch: without both, the market decides ==');
+
+const DATA16 = require('../data/moneyball-fixtures.json');
+/* A fixture whose BOTH sides ship without statistics - the case he hit.
+   A fixture between two teams that already carry placeholder figures is a
+   different question and would not test this gate at all. */
+const fx16 = DATA16.fixtures.find((f) =>
+  DATA16.teams[f.home] && DATA16.teams[f.away] &&
+  DATA16.teams[f.home].statsMissing && DATA16.teams[f.away].statsMissing);
+
+function view16(overrides) {
+  const out = {};
+  for (const k in DATA16.teams) {
+    const base = DATA16.teams[k], ov = overrides[k];
+    if (!ov) { out[k] = base; continue; }
+    const m = Object.assign({}, base, ov);
+    if (m.xgF != null && m.xgA != null) m.statsMissing = false;
+    out[k] = m;
+  }
+  return out;
+}
+const run16 = (ov) => E.analyseFixture(fx16, view16(ov), DATA16.leagues, { marketWeight: 0.35 });
+
+/* Everything except the two xG columns - exactly what a WhoScored
+   Summary + Defensive paste delivers. */
+const noXG = {
+  [fx16.home]: { matches: 14, goals: 2.5, shots: 13.61, fouls: 11.44, tackles: 16.21, yellow: 1.93, red: 0.07 },
+  [fx16.away]: { matches: 7, xgF: 1.82, goals: 1.42, shots: 13.42, fouls: 12, tackles: 15.86, yellow: 2.71, red: 0 }
+};
+const before = run16({});
+const imported = run16(noXG);
+eq('nothing entered: pinned to the market', before.marketWeight, 1);
+eq('nine figures, one xG, still pinned', imported.marketWeight, 1);
+eq('and still reported as statsMissing', imported.statsMissing, true);
+
+/* The same paste plus the two xG figures. */
+const withXG = JSON.parse(JSON.stringify(noXG));
+withXG[fx16.home].xgF = 1.55;
+withXG[fx16.home].xgA = 1.20;
+withXG[fx16.away].xgA = 1.75;
+const live = run16(withXG);
+eq('both xG in: the model is let in', live.marketWeight, 0.35, 0.001);
+eq('and the fixture stops being statsMissing', live.statsMissing, false);
+
+/* The promise being tested: the numbers on the page actually move. */
+const p0 = before.picks && before.picks.length ? before.picks[0] : null;
+const p1 = live.picks && live.picks.length ? live.picks[0] : null;
+eq('a pick exists before and after', !!(p0 && p1), true);
+if (p0 && p1) {
+  const moved = live.picks.some((p) => {
+    const was = before.picks.find((q) => q.label === p.label);
+    return was && Math.abs((p.pModel || 0) - (was.pModel || 0)) > 0.002;
+  });
+  eq('model probabilities move once xG is in', moved, true);
+}
+
+/* One side alone is not enough: a real team against placeholders is not a
+   comparison, so the gate stays shut. */
+const oneSide = { [fx16.home]: { matches: 10, xgF: 1.55, xgA: 1.2, goals: 2, shots: 14 } };
+eq('one side filled is still market-only', run16(oneSide).marketWeight, 1);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);
