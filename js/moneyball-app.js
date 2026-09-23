@@ -570,52 +570,79 @@
       return;
     }
 
-    function card(it, lead) {
-      var a = el('a', lead ? 'news-lead' : 'news-card');
+    /* Two shapes, alternating: a row of four with the picture on top, then
+       a row of two wide ones with the picture beside the text. A grid where
+       every card is identical reads as a list; breaking the rhythm every
+       few rows is what makes a news page look edited rather than generated. */
+    function card(it, wide) {
+      var a = el('a', 'news-card' + (wide ? ' wide' : ' tall'));
       /* javascript: and data: URLs in a feed would execute on click. */
       a.href = /^https?:\/\//i.test(it.link || '') ? it.link : '#';
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
 
-      /* The publisher's own share image, loaded from the publisher and
-         never copied here. Same check as the link: only http(s). */
+      /* The publisher's own picture, loaded from the publisher and never
+         copied here. Same check as the link: only http(s). */
       var shot = /^https?:\/\//i.test(it.image || '') ? it.image : '';
 
+      /* Every card gets a frame, photograph or not - the way the stock page
+         does it. Without one the frame shows the club crest, which reads as
+         a deliberate placeholder rather than a hole in the row. */
+      var badge = (it.teams && it.teams.length) ? crestHTML(it.teams[0]) : '';
+
       a.innerHTML =
-        (shot
-          ? '<div class="news-shot"><img src="' + esc(shot) + '" alt="" loading="lazy" ' +
-            'decoding="async" referrerpolicy="no-referrer" /></div>'
-          : '') +
+        '<div class="news-shot' + (shot ? ' has-img' : '') + '">' +
+          (shot
+            ? '<img class="news-photo" src="' + esc(shot) + '" alt="" ' +
+              'loading="lazy" decoding="async" referrerpolicy="no-referrer" />'
+            : '') +
+          '<span class="news-shot-fallback">' + badge + '</span>' +
+        '</div>' +
         '<div class="news-body">' +
           newsTeamsHTML(it) +
-          (lead ? '<h3>' : '<h4>') + esc(it.title) + (lead ? '</h3>' : '</h4>') +
+          (wide ? '<h3>' : '<h4>') + esc(it.title) + (wide ? '</h3>' : '</h4>') +
+          (wide && it.summary ? '<p class="news-summary">' + esc(it.summary) + '</p>' : '') +
           '<span class="news-meta">' + esc(it.publisher || '') +
           (it.publishedAt ? '<span class="dot">&middot;</span>' + timeAgo(it.publishedAt) : '') +
           '</span>' +
         '</div>';
 
-      /* Hotlinked images fail for reasons we cannot see from here: the
-         publisher blocks it, the URL rots, the reader is offline. Drop the
-         frame and let the card fall back to the crest layout rather than
-         leave a torn-image box in the middle of the brief. */
-      if (shot) {
-        a.classList.add('has-shot');
-        var img = a.querySelector('.news-shot img');
-        if (img) {
-          img.addEventListener('error', function () {
-            a.classList.remove('has-shot');
-            var frame = a.querySelector('.news-shot');
-            if (frame && frame.parentNode) frame.parentNode.removeChild(frame);
-          });
-        }
+      /* Hotlinked pictures fail for reasons invisible from here: the
+         publisher blocks it, the URL rots, the reader is offline. Fall back
+         to the crest tile rather than leave a torn-image box mid-page. */
+      var img = shot ? a.querySelector('img.news-photo') : null;
+      if (img) {
+        img.addEventListener('error', function () {
+          var frame = a.querySelector('.news-shot');
+          if (frame) frame.classList.remove('has-img');
+          if (img.parentNode) img.parentNode.removeChild(img);
+        });
       }
       return a;
     }
 
-    host.appendChild(card(items[0], true));
-    var grid = el('div', 'news-grid');
-    items.slice(1, 13).forEach(function (it) { grid.appendChild(card(it, false)); });
-    host.appendChild(grid);
+    /* Four across, then two wide, repeating. A wide card earns its width
+       with a summary, so stories that have one are pulled into those slots
+       and the rest fill the rows of four. */
+    var ROWS = [4, 2, 4, 2, 4, 2];
+    var pool = items.slice(0, ROWS.reduce(function (a, b) { return a + b; }, 0));
+    var withText = pool.filter(function (it) { return it.summary; });
+    var without = pool.filter(function (it) { return !it.summary; });
+
+    ROWS.forEach(function (n, i) {
+      var wide = (n === 2);
+      var row = el('div', 'news-row' + (wide ? ' wide' : ''));
+      for (var k = 0; k < n; k++) {
+        /* Prefer a story with a summary for the wide slots and one without
+           for the narrow ones, but never leave a slot empty over it. */
+        var first = wide ? withText : without;
+        var other = wide ? without : withText;
+        var it = first.shift() || other.shift();
+        if (!it) break;
+        row.appendChild(card(it, wide));
+      }
+      if (row.childNodes.length) host.appendChild(row);
+    });
   }
 
   function renderNewsTools() {

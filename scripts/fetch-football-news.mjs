@@ -3,13 +3,17 @@
 // runner (see .github/workflows/update-football-news.yml) — the site itself
 // only ever reads the resulting static JSON.
 //
-// Why Google News rather than a sports API: it needs no key, no plan and no
-// per-league entitlement, which is exactly what stopped the Sportmonks route
-// working. It returns headlines and links only, so the picture on each card
-// has to be read off the article itself - see "pictures" below. That does
-// not work yet: Google no longer serves its redirect links to a plain GET,
-// so no article page is reached and every card currently falls back to the
-// club crest, exactly as it did before pictures existed.
+// Two sources, because neither is enough alone. Google News needs no key,
+// no plan and no per-league entitlement - which is exactly what stopped the
+// Sportmonks route working - and it reaches outlets nobody would think to
+// list. But it hands over a headline and a redirect and nothing else: no
+// picture, and its redirect no longer opens from a script, so the article
+// page cannot be read either (measured: 60 lookups, 0 pictures).
+//
+// So the publishers' own feeds are read alongside it. Those carry the
+// picture inside the feed, the same way Yahoo Finance does for the stock
+// page, and link straight to the article. Where the same story arrives from
+// both, the copy with a picture wins.
 //
 // Stories are tagged to teams by matching the headline against the team
 // names this site knows, plus the short forms newspapers actually print
@@ -36,6 +40,41 @@ const COMPETITIONS = [
   { id: "championship",q: "EFL Championship" },
   { id: "transfer",    q: "football transfer news" },
   { id: "injury",      q: "football injury news team" }
+];
+
+/* Publishers' own feeds, read alongside Google News.
+
+   Google News is the wide net - it finds stories from outlets nobody would
+   think to list - but it hands over a headline, a redirect and nothing
+   else. No picture, and its redirect will not open from a script any more,
+   so the article page cannot be read either. Measured on the runner: 60
+   lookups, 60 failures, 0 pictures.
+
+   A publisher's own feed hands over the picture inside the feed, the same
+   way Yahoo Finance does for the stock page, and links straight to the
+   article instead of through Google. So the stories come from both: Google
+   for reach, these for pictures and honest links. Where the same story
+   arrives twice, the copy with a picture wins.
+
+   A feed that moves or dies is logged and skipped, so the list can be long
+   without being fragile. */
+const PUBLISHER_FEEDS = [
+  { id: "bbc",      name: "BBC Sport",    url: "https://feeds.bbci.co.uk/sport/football/rss.xml" },
+  { id: "sky",      name: "Sky Sports",   url: "https://www.skysports.com/rss/12040" },
+  { id: "guardian", name: "The Guardian", url: "https://www.theguardian.com/football/rss" },
+  { id: "tele",     name: "The Telegraph", url: "https://www.telegraph.co.uk/football/rss.xml" },
+  { id: "indy",     name: "The Independent", url: "https://www.independent.co.uk/sport/football/rss" },
+  { id: "mirror",   name: "Mirror Football", url: "https://www.mirror.co.uk/sport/football/?service=rss" },
+  { id: "metro",    name: "Metro",        url: "https://metro.co.uk/sport/football/feed/" },
+  { id: "express",  name: "Express",      url: "https://www.express.co.uk/posts/rss/67/football" },
+  { id: "f365",     name: "Football365",  url: "https://www.football365.com/feed" },
+  { id: "90min",    name: "90min",        url: "https://www.90min.com/posts.rss" },
+  { id: "talksport", name: "talkSPORT",   url: "https://talksport.com/football/feed/" },
+  { id: "espn",     name: "ESPN",         url: "https://www.espn.com/espn/rss/soccer/news" },
+  { id: "goal",     name: "Goal.com",     url: "https://www.goal.com/feeds/en/news" },
+  { id: "tribal",   name: "Tribal Football", url: "https://www.tribalfootball.com/rss" },
+  { id: "fitalia",  name: "Football Italia", url: "https://www.football-italia.net/feed" },
+  { id: "bundes",   name: "Bundesliga",   url: "https://www.bundesliga.com/en/bundesliga/news/rss" }
 ];
 
 /* Feeds used ONLY to build a blocklist, never to supply stories.
@@ -414,12 +453,13 @@ async function attachImages(stories, previousItems) {
   }
 
   const deadline = Date.now() + IMG_PHASE_MS;
-  const tally = { found: 0, reused: 0, missing: 0, skipped: 0 };
+  const tally = { fromFeed: 0, found: 0, reused: 0, missing: 0, skipped: 0 };
   let next = 0;
 
   async function worker() {
     while (next < stories.length) {
       const it = stories[next++];
+      if (it.image) { tally.fromFeed++; continue; }        // publisher gave us one
       if (known.has(it.link)) { it.image = known.get(it.link); tally.reused++; continue; }
       if (Date.now() > deadline) { it.image = null; tally.skipped++; continue; }
       const img = await articleImage(it.link);
@@ -445,16 +485,139 @@ async function previousItems(path) {
   }
 }
 
+/* The picture, straight out of the feed. Publishers announce it in one of
+   four ways and there is no telling which until you look, so try all four:
+   media:content, media:thumbnail, an image enclosure, or the first <img>
+   inside the description. */
+export function imageFromItemXml(raw) {
+  const xml = String(raw || "");
+  const patterns = [
+    /<media:content[^>]+url=["']([^"']+)["'][^>]*>/i,
+    /<media:thumbnail[^>]+url=["']([^"']+)["'][^>]*>/i,
+    /<enclosure[^>]+url=["']([^"']+)["'][^>]*type=["']image\/[^"']*["']/i,
+    /<enclosure[^>]+type=["']image\/[^"']*["'][^>]*url=["']([^"']+)["']/i,
+    /<img[^>]+src=["']([^"']+)["']/i,
+    /&lt;img[^&]*src=&quot;([^&]+)&quot;/i
+  ];
+  for (const re of patterns) {
+    const m = re.exec(xml);
+    if (!m) continue;
+    const url = absoluteHttpUrl(decode(m[1]).trim());
+    if (url) return url;
+  }
+  return null;
+}
+
+/* The wide cards carry a sentence or two under the headline, so the row
+   does not read as a picture with a caption. Publishers put it in
+   <description>; Google News puts a block of markup and links there, which
+   is why only publisher feeds are asked for one. */
+export function summaryFromItemXml(raw, limit = 220) {
+  const text = decode(field(raw, "description") || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-z]+;|&#\d+;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length < 40) return null;              // a caption, not a summary
+  if (/^(read more|continue reading|the post )/i.test(text)) return null;
+  if (text.length <= limit) return text;
+  const cut = text.slice(0, limit);
+  const at = cut.lastIndexOf(" ");
+  return (at > 80 ? cut.slice(0, at) : cut).trim() + "\u2026";
+}
+
+/* Atom-style feeds put the URL in an attribute rather than the element. */
+export function linkFromItemXml(raw) {
+  const plain = field(raw, "link");
+  if (plain && /^https?:\/\//i.test(plain)) return plain;
+  const attr = /<link[^>]+href=["'](https?:\/\/[^"']+)["']/i.exec(String(raw || ""));
+  if (attr) return decode(attr[1]);
+  const guid = field(raw, "guid");
+  return guid && /^https?:\/\//i.test(guid) ? guid : null;
+}
+
+async function fetchPublisherFeed(feed) {
+  const res = await fetch(feed.url, {
+    headers: { "User-Agent": BROWSER_UA, Accept: "application/rss+xml,application/xml,text/xml,*/*" }
+  });
+  if (!res.ok) throw new Error(`${feed.id}: HTTP ${res.status}`);
+  const xml = await res.text();
+  return xml.split(/<item[\s>]/i).slice(1).map((raw) => {
+    const title = field(raw, "title");
+    const link = linkFromItemXml(raw);
+    if (!title || !link) return null;
+    const pub = field(raw, "pubDate") || field(raw, "published") || field(raw, "updated");
+    const at = pub ? Date.parse(pub) : NaN;
+    return {
+      competition: feed.id,
+      title,
+      publisher: feed.name,
+      link,
+      image: imageFromItemXml(raw),
+      summary: summaryFromItemXml(raw),
+      teams: tagTeams(title),
+      publishedAt: isFinite(at) ? at : null
+    };
+  }).filter(Boolean);
+}
+
+/* The same story arrives under several Google queries and, now, from the
+   publisher as well. Those copies are not equal: the publisher's carries a
+   picture and links straight to the article, while Google's links through a
+   redirect and carries nothing. So de-duplication picks rather than keeps
+   the first - a copy with a picture wins, and a direct link beats a
+   redirect. */
+export function dedupe(items) {
+  const best = new Map();
+  const score = (it) =>
+    (it.image ? 4 : 0) + (it.summary ? 2 : 0) + (isGoogleRedirect(it.link) ? 0 : 1);
+
+  for (const it of items) {
+    const key = norm(it.title);
+    if (!key) continue;
+    const held = best.get(key);
+    if (!held || score(it) > score(held)) best.set(key, it);
+  }
+
+  // Two headlines can share one link; keep the first that claimed it.
+  const seenLink = new Set();
+  return [...best.values()].filter((it) => {
+    if (seenLink.has(it.link)) return false;
+    seenLink.add(it.link);
+    return true;
+  });
+}
+
 async function main() {
-  const results = await Promise.allSettled(COMPETITIONS.map(fetchFeed));
+  // Both sources at once: Google News for reach, publishers for pictures.
+  const [gRes, pRes] = await Promise.all([
+    Promise.allSettled(COMPETITIONS.map(fetchFeed)),
+    Promise.allSettled(PUBLISHER_FEEDS.map(fetchPublisherFeed))
+  ]);
+
   let items = [];
-  results.forEach((r, i) => {
+  gRes.forEach((r, i) => {
     if (r.status === "fulfilled") items.push(...r.value);
     else console.error(`Failed: ${COMPETITIONS[i].id}:`, r.reason?.message || r.reason);
   });
+  let fromPublishers = 0, withPicture = 0;
+  pRes.forEach((r, i) => {
+    if (r.status !== "fulfilled") {
+      console.error(`Failed: ${PUBLISHER_FEEDS[i].name}:`, r.reason?.message || r.reason);
+      return;
+    }
+    fromPublishers += r.value.length;
+    withPicture += r.value.filter((it) => it.image).length;
+    items.push(...r.value);
+  });
 
-  const ok = results.filter((r) => r.status === "fulfilled").length;
-  console.log(`${ok}/${COMPETITIONS.length} feeds fetched, ${items.length} raw items.`);
+  const gOk = gRes.filter((r) => r.status === "fulfilled").length;
+  const pOk = pRes.filter((r) => r.status === "fulfilled").length;
+  console.log(
+    `${gOk}/${COMPETITIONS.length} Google feeds and ${pOk}/${PUBLISHER_FEEDS.length} publisher ` +
+    `feeds fetched: ${items.length} raw items, ${fromPublishers} from publishers ` +
+    `(${withPicture} carrying a picture).`
+  );
 
   /* A live feed that silently empties is worse than a stale one: the page
      would look broken with no way to tell why. Keep the previous file. */
@@ -464,15 +627,7 @@ async function main() {
     return;
   }
 
-  // The same story is syndicated under several queries; de-dupe by link,
-  // then by headline, keeping the first (highest-ranked) copy.
-  const seenLink = new Set(), seenTitle = new Set();
-  items = items.filter((it) => {
-    const t = norm(it.title);
-    if (seenLink.has(it.link) || seenTitle.has(t)) return false;
-    seenLink.add(it.link); seenTitle.add(t);
-    return true;
-  });
+  items = dedupe(items);
 
   /* Layer 1: the headline says so outright. Cheap, and it never fails the
      way a network call can. */
@@ -528,8 +683,8 @@ async function main() {
      unreachable publisher costs a photograph and nothing else. */
   const pics = await attachImages(published, await previousItems(outPath));
   console.log(
-    `Images: ${pics.found} fetched, ${pics.reused} reused, ` +
-    `${pics.missing} not offered, ${pics.skipped} skipped (out of time).`
+    `Images: ${pics.fromFeed} straight from the feed, ${pics.found} read off the article, ` +
+    `${pics.reused} reused, ${pics.missing} not offered, ${pics.skipped} skipped (out of time).`
   );
 
   const out = {
