@@ -1,28 +1,28 @@
 {
-  "generatedAt": 1790183437173,
+  "generatedAt": 1790185485800,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 775,
-    "droppedKeyword": 37,
+    "raw": 1530,
+    "tagged": 782,
+    "droppedKeyword": 35,
     "droppedOtherSport": 1,
-    "droppedFeed": 11,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "indy",
-      "title": "Virgil van Dijk hits back at ‘nonsense’ claims that he influenced Netherlands’ World Cup tactics",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/virgil-van-dijk-koeman-netherlands-world-cup-tactics-b3055259.html",
-      "image": "https://static.independent.co.uk/2026/09/23/17/2283971940..?width=1200&auto=webp&trim=0%2C71%2C0%2C71",
-      "summary": "The Netherlands were knocked out by Morocco in the round of 32 following a penalty shootout defeat",
+      "competition": "fitalia",
+      "title": "Italiano &#8216;had an agreement with Napoli&#8217; before Besiktas took advantage of problems",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italiano-had-an-agreement-with-napoli-besiktas/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Vincenzo-Italiano-Besiktas-scarf-414x276.jpg",
+      "summary": "Vincenzo Italiano ‘had an agreement’ with Napoli when Besiktas swooped in this summer to take...",
       "teams": [
-        "netherlands"
+        "napoli"
       ],
-      "publishedAt": 1790183065000
+      "publishedAt": 1790185263000
     },
     {
       "competition": "mirror",
@@ -34,7 +34,31 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790182060000
+      "publishedAt": 1790183779000
+    },
+    {
+      "competition": "echo",
+      "title": "Everton handed fresh Thierno Barry VAR goal verdict as Premier League sent clear message",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/thierno-barry-var-premier-league-34662255",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34644450.ece/ALTERNATES/s615/0_GettyImages-2296080434.jpg",
+      "summary": "Everton moved up to fifth in the Premier League as Thierno Barry's goal was the difference against 10-man Ipswich Town on Saturday - but the Blues were not helped by VAR",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790183583000
+    },
+    {
+      "competition": "indy",
+      "title": "Virgil van Dijk hits back at ‘nonsense’ claims that he influenced Netherlands’ World Cup tactics",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/virgil-van-dijk-koeman-netherlands-world-cup-tactics-b3055259.html",
+      "image": "https://static.independent.co.uk/2026/09/23/17/2283971940..?width=1200&auto=webp&trim=0%2C71%2C0%2C71",
+      "summary": "The Netherlands were knocked out by Morocco in the round of 32 following a penalty shootout defeat",
+      "teams": [
+        "netherlands"
+      ],
+      "publishedAt": 1790183065000
     },
     {
       "competition": "footlondon",
@@ -719,30 +743,6 @@
         "manutd"
       ],
       "publishedAt": 1790165084000
-    },
-    {
-      "competition": "bbc",
-      "title": "Fight for each other & defend like brothers - Pocognoli's Scotland blueprint",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pc16gr?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pc16hs.jpg",
-      "summary": "Pocognoli reveals the principles behind his new-look Scotland side",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790164800000
-    },
-    {
-      "competition": "fitalia",
-      "title": "FIGC chief Malago arrives at Mancini&#8217;s Italy camp: &#8216;I&#8217;m an optimist by nature&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/figc-chief-malago-arrives-at-mancini-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/741120545_17943866592252649_4970-414x276.jpg",
-      "summary": "Giovanni Malago has visited Coverciano to show his support for Roberto Mancini ahead of Italy s...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790164800000
     }
   ]
 }
