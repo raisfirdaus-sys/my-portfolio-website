@@ -1,43 +1,55 @@
 # Getting the football news to refresh on time
 
-## The problem, measured
+## How often it actually refreshes: about every 4 to 5 hours
 
-The workflow says every 30 minutes. It does not run every 30 minutes.
+Not every 30 minutes. Measured from the real run history, 21-23 September:
 
-Over 658 runs on the old schedule:
+| Workflow | Schedule asks | Real interval | Worst gap | Runs a day |
+|---|---|---|---|---|
+| `update-news.yml` (stock) | twice an hour | **4.3 hours** | 5.9 hours | 5.5 |
+| `update-quotes.yml` (stock) | twice an hour | **4.3 hours** | 7.4 hours | 5.6 |
 
-| | |
-|---|---|
-| Scheduled interval | 30 minutes |
-| Real average interval | **234 minutes** |
-| Worst gap observed | 355 minutes |
-| Scheduled runs GitHub never started | **~86%** |
-| Runs that started and failed | **0** |
-
-The script has never failed. GitHub drops `schedule` events when its shared
-runner pool is busy, and says so in its own documentation:
+Every schedule on this repository lands the same way, and none of them has
+ever failed: GitHub simply does not start most `schedule` events, and says
+so in its own documentation:
 
 > The `schedule` event can be delayed during periods of high loads of GitHub
 > Actions workflow runs.
 
 No change to the script can fix that, because the script is never reached.
 
-## What is in place now
+### Asking more often does not help
 
-`.github/workflows/update-football-news.yml` asks six times an hour
-(`03,13,23,33,43,53`) instead of twice. GitHub is no more punctual, but far
-more attempts survive, so the gap between real runs comes down. This needs
-nothing from anyone and is already live.
+`update-football-news.yml` briefly asked **six** times an hour instead of
+twice. In five hours on that schedule it got **zero** scheduled runs - every
+refresh in that window was started by hand. The rate GitHub starts runs
+looks the same whichever schedule is asked for, so the file now asks the way
+the three working schedules ask: twice an hour, at `:03` and `:33`, clear of
+the other four.
 
-It is an improvement, not a guarantee.
+**This is the accepted behaviour, not an outstanding bug.** The stock pages
+have run this way since July and the owner is happy with it. Expect football
+news to refresh roughly every four to five hours.
 
-## The exact fix: poke it from outside GitHub
+### Where to read the truth
+
+`data/football-news.json` carries `generatedAt`, and the panel prints it as
+"updated N ago". That is when the news was last collected. The time under
+each headline is something else entirely - it is when the publisher filed
+the story, which is usually hours older and is not a sign of a stale page.
+
+## If an exact clock ever matters
+
+Everything below is wired up and unused, by choice. It is here for the day
+the trade looks worth making.
+
+### Poke it from outside GitHub
 
 Something outside GitHub has to call the API on a real clock. The workflow
 already accepts this — it listens for `repository_dispatch` with the type
 `refresh-news`.
 
-Setting it up, once:
+Setting it up, once (not currently done):
 
 1. **Make a token.** GitHub → Settings → Developer settings → Personal access
    tokens → Fine-grained tokens → Generate new token.
@@ -62,7 +74,7 @@ Setting it up, once:
    A `204 No Content` means it worked.
 
 3. **Keep the schedule as the backstop.** If the pinger dies, GitHub's own
-   schedule still runs it, just less punctually.
+   schedule still runs it, just every few hours instead.
 
 ### Why the token is not in this repository
 
@@ -74,9 +86,3 @@ committed by accident.
 
 If a token is ever exposed, revoke it on GitHub and make a new one; the
 pinger is the only thing that needs updating.
-
-## Checking whether it is working
-
-`data/football-news.json` carries `generatedAt` at the top, and the panel
-prints it as "updated N minutes ago". That number is the truth about when
-the news was last collected — not the schedule in the workflow file.
