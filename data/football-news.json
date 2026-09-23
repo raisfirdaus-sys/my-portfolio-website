@@ -1,23 +1,14 @@
 {
-  "generatedAt": 1790129799930,
+  "generatedAt": 1790130295343,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 971,
-    "tagged": 465
+    "raw": 973,
+    "tagged": 456,
+    "droppedKeyword": 38,
+    "droppedFeed": 9
   },
   "items": [
-    {
-      "competition": "ucl",
-      "title": "Bayern 2-2 Man City (Sep 22, 2026) Game Analysis",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FM05kVU4tTXJJQm1xWk9JTU9HZ2pTWGdWRXJTVUhTUnFlRUl4cVM0Q19GOHhFdEdrVmg4eFJsNzZ5Sl9NMUNuVUZZSmd3NlFXNlE4M3JxTk5sTUloRkFGdjRhdw?oc=5",
-      "teams": [
-        "mancity",
-        "bayern"
-      ],
-      "publishedAt": 1790125528000
-    },
     {
       "competition": "unl-a",
       "title": "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League",
@@ -104,24 +95,14 @@
       "publishedAt": 1790119520000
     },
     {
-      "competition": "unl-a",
-      "title": "Reaction: Caruso calls on Real Madrid to be 'more clinical' | Video",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSlNYOGpHcU91VWhUVnNxZi1pNzFLeDJLNlZMWmx3QjNWdUtRV2JiT3VCemNteEtnd3lTUUcxcHhDVHlvMmJYZ2dzQUtlbUcyQjBUQm1jandPLXVKcUluYkF3RkcwNGVjN0tlT1F3aWc1MXpuNFNnUFAtYjBPcHZnSWFoRzF1M2dPamxqSGlpOFRpT3RLV2ZFYmwtSzRWc24wNjg5dVJsVmdKVTF3TjZVTTRkdmxxLUx0aU9XQVNyVmxmQkdILUxhakdJX3E?oc=5",
+      "competition": "transfer",
+      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
       "teams": [
-        "realmadrid"
+        "manutd"
       ],
-      "publishedAt": 1790118653000
-    },
-    {
-      "competition": "ucl",
-      "title": "Mariona Caldentey penalty provides late WCL relief for Arsenal against Køge",
-      "publisher": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXQ1SnZMS3dNeTdKZnB4Tnl4TDlrRC1YUTVJOHZBZmRnY0JWUy1qcGpJWFRNZ0FJN0VvdlgzbUt5U1dRMk5JdVZnVXhsRlV0aGhMak1QQmdkOHQxblEtaWZVSk9lQ2hNeHo5WlZiR01WT3FENkJQVjVDdTRhcHR3VV9EMlE1NzdidXY0dzhrQ2IzWloxOXZRWXlFelN5Vl9HZm5j?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790118420000
+      "publishedAt": 1790119430000
     },
     {
       "competition": "laliga",
@@ -168,35 +149,25 @@
       "publishedAt": 1790115870000
     },
     {
-      "competition": "transfer",
-      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
-      "publisher": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790115740000
-    },
-    {
-      "competition": "ucl",
-      "title": "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
-      "publisher": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNajdyMk1XLTJjbzVtX2xvVTNsZVA1ZEhNdHRka0xiVFJ1ZWN0aVhDekRaYVlLWnlQX1U0bmFYd2xaemRHd1RYbERfSDdFX0MxcWVZcEVPTG1uNnZUbjBGVEFuRGJ4UXcxX21EeEg3czlUQUM4MHRuSkpIUXhhdnNCV2VaanJRN1JpaThNVXJQWmd6T0JybGNpa0F5UXJCTDgxS3FYZW5lZ1FXM3dJdUJtMFBNZDNUZw?oc=5",
-      "teams": [
-        "mancity",
-        "bayern"
-      ],
-      "publishedAt": 1790115600000
-    },
-    {
       "competition": "epl",
       "title": "How Sir Alex Ferguson inadvertently set Arsenal boss Mikel Arteta on path to becoming Premier League 'don'",
-      "publisher": "thesun.co.uk",
+      "publisher": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZk1tOTlucVF1aU1QaE8xU0VxQ3ExbnUzVlNKdmRsZnJ0Y2ZmRHlPdVV1MWcta2JtMEpKSzQ4Z3REbWN2MmVCT0pRa2pJNFVmc2dfcFBjSWRzd2d2Z3NJNzlKcFZCTjlEMkctbGpLVmRzWW5qOFFvRTdpWlh0YXpKZXZRcHZIeEZUUXBEdTQxNEhEWXlQR01KeXJpSUMyV0dB?oc=5",
       "teams": [
         "arsenal"
       ],
       "publishedAt": 1790115240000
+    },
+    {
+      "competition": "epl",
+      "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnYteEV1Mkc4Wjd1NWszTnRwd05sSHg2MWljUnNSMGlCRllRWnZvOFp6MHJaWjU3NUplZlJEdWJmUUUtVzh1ZkZPRzVITEpYYW0waTB3RFNNTHJQUEVMLUdXczhoaThtOTBJdjRkWDlVNGtfLTRhTGUwQk81bEZHTXREVlZWbk9KQU4tNWVGUlJnTE1hNWJHNzRjV0lnV0RqZHVxQnlfZHRMZ0VpQ2toOV83LThpSkF4?oc=5",
+      "teams": [
+        "mancity",
+        "netherlands"
+      ],
+      "publishedAt": 1790114415000
     },
     {
       "competition": "epl",
@@ -211,7 +182,7 @@
     {
       "competition": "ucl",
       "title": "Slegers praises Arsenal’s resilience after late Champions League win",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0NnNnMzZ3BadXo1T1JSeFQ5WUdOaDd1QkxzV29CQkVLMndxaUFHdTdlMXZ0SkhyVU5vaFJHZ0Z0b3FSdVFGczZzWWJQUzBCMlFHOHNUQkJvMXhMRFljOC13WDcxalUtaUlBdmk1Rnk2U21Nb0p4WkM4bXhFVXY0UTBQWm5LdDZiNE8ydUlhUU9maVFxczNpdg?oc=5",
       "teams": [
         "arsenal"
@@ -239,16 +210,6 @@
       "publishedAt": 1790112715000
     },
     {
-      "competition": "ucl",
-      "title": "Arsenal 1-0 HB Køge (Sep 22, 2026) Game Analysis",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DUm9nb3ByY3FkVk45UG8tQ09QOG40YW9XOVYwUjNLVHFHY1ZJRHNXeDdIY1JBNXRvVjFxeExiSkQ0U3B5NlZmV25Xa2JnUVFHY3QzRXg4U3UtaW4yLVR6TWpZVQ?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790112242000
-    },
-    {
       "competition": "seriea",
       "title": "Roma monitoring Frosinone starlet Giorgi Kvernadze",
       "publisher": "RomaPress",
@@ -260,13 +221,13 @@
     },
     {
       "competition": "ucl",
-      "title": "Wasteful Arsenal need late penalty to beat Koge",
-      "publisher": "sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZWFvU25pektMeWJBcVBkS0lFWHRySFhWVGpDYzdVbU5yZ1BhTWstbklsYkN6WXV1NDd4ZVZEbHZ4OHEwNGlsdzFzelZmdEZCZ09HNlpPTzRXSHpGVENVbFRjek4wVThuOWZBb2NNZ0xhd01jZ2hGajBObE9SaXNGMl9fVUNXU1lkUkcw?oc=5",
+      "title": "Mateo urges strong defence before PFC face Barcelona in Champions League",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmRqTGhpa19ET19TbWVBbHBfYlpveWZmQ3RkQURibnlYX2pwR3oxY3NROHkybGxRSXljcTNuRmRSUWw3MFFja09wUzRmWEV4RFN6bWlTZEZmOGROT1dRM3BVUklJaE9XTmU1RkhiV1NGS2dLWkotd3ZsZGM5SlZYNFRRZlVhUEtVdGowVzJYb1E5engwSFZTSGE3dm9xdE91NjJXbkJPeWFta1ZLRXlmWHJMTQ?oc=5",
       "teams": [
-        "arsenal"
+        "barcelona"
       ],
-      "publishedAt": 1790111415000
+      "publishedAt": 1790111930000
     },
     {
       "competition": "seriea",
@@ -281,32 +242,12 @@
     {
       "competition": "ligue1",
       "title": "Sunderland Could Reignite Their Interest In This Ligue 1 Winger: Should Le Bris Move In For Him?",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM2NNalZyN3lpR0dDbWNidTRkVmtDcnV1MWZMV1h2NGZVa0FqcDN4eEF1RkpfNEZMNDhXd3VjVTR4czE3QWZvM2N3eGdybkZUdEpNVEw2WFdYVHFid01JbUgyZnlRNmpnMDhhMGxQZDNMajVqRTRjcUFjU0ZqalN4TF9JWFpYUVJoQU1aaGpOV0g3YVk?oc=5",
       "teams": [
         "sunderland"
       ],
       "publishedAt": 1790110200000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Reaction: Man City's Mead on 'game of two halves' | Video",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEdUS1NHQmhpQ2JXLWFpekFDMmwyZ2swLW5pRmpqUVJUWWM4QjItR0xwcHFlM1VxNldIQXkzTXQ0RzlOY0NPY0dYNGxxSERmb09WdzljTGduQ0lqVzliYnFybDlXQ1NkNTZLYnQtNzB1SzFZRWVuRWdjT1FsbmdEanBtTm5nQjNhWkVnZ29Hc09LMV9yNlJXaVU0QlpKT0lPSVAtTEYwbGU3dmMwM01td0twYWpOQUtmTlgyaC1sSQ?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790109395000
-    },
-    {
-      "competition": "epl",
-      "title": "Mikel Arteta, Arsenal’s overlord, has upscaled the club from moored in mediocrity to title winners - The Athletic",
-      "publisher": "nytimes.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbGhPRlBkNkZWLWQ2cE5aNGdGUmYyOGRVSlhob2duVnVWczFmWjZiX1JLZXB6d01FNnFDRjluUVpoU0UzeFZBVlFJNEpVUnVwd1NkMWpfd3YxMlc1Z0ROcW9HdzJUcDV6N3ZDZlpBdFloNlRaS2dyS1BxTFpvN2xHVVB3N1A3eEx2OFotdlRpRW0?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790109152000
     },
     {
       "competition": "seriea",
@@ -319,19 +260,9 @@
       "publishedAt": 1790108161000
     },
     {
-      "competition": "ucl",
-      "title": "Reaction: Bayern's Gwinn on 'frustrating' draw",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONm92UnZxbTNmdEJRcFkxSUY5MkVtaDRaOHJXdnRHM1dnSU5WbERMalptWVF2LXRfY2RlcElDRW1HRGNGZjVkNm51VmQ2T1pBSFU5LWJYXzV6RWloYmRxc1V1U1gzc1hlOVZFTlkwZGtlcnJCSzFXQjUyZ3h4RzZrRExNdV9CdmRqZWh5QVM3NUNDUEp3QW8zMDhsclNIei1BcUVMOFVEalp2SE1ZVEdNeDl6d1h6aXFnUFh5bXhid1lMTHRQdnYwMXBR?oc=5",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790107868000
-    },
-    {
       "competition": "laliga",
       "title": "Real Madrid call for the head of La Liga president Tebas",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LXzZOSHFsRmdGWHJIeFN2S2F3aDhKbU5lTWFwYTV6eUQ3a3JaX2xBaGdZbER3ZVZJbVgxU2Qxb2pXeTZFMnpSUXFHUW9FaV9UOExqaXZzcDhZcEVIaFdtLWZkckVyMzQwOUtXa0w0NzhIV1g3T011aGdwNWQ4UQ?oc=5",
       "teams": [
         "realmadrid"
@@ -349,26 +280,6 @@
       "publishedAt": 1790107740000
     },
     {
-      "competition": "ucl",
-      "title": "Man City's return to Europe has proven that it will not be an easy campaign",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZG1KVENlMnpXT3VLVzQ2WlU3N2tvVldxVEtydEp0NXRnOGJQNS0wbEtjZG53UlZpQkhDeElXZkJOUHMwZ1hHVEVra3FsaDhZeVMxTVZ3cE1HdklDMVd2WXdOZXRFT1hfc3FkY2VPdEpBYjd2dXhWREZMRER5enEtQk1XZVVJb2d2Xy10cFJZOWkxRDVnVjNTc2lYRXdYemo0UU0tSDFB?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790107740000
-    },
-    {
-      "competition": "epl",
-      "title": "Tottenham chances of Premier League relegation revealed after Aston Villa loss",
-      "publisher": "sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeEZQUS03V1NvVlp6aUtxT0dwdGJVQVhILVVMTDNvU3VsTmZiMC1VMEVHLXlJYVhkakxYaXg2SDk2Wl8tNFJCMlEzUG1XdklJdTROQlJGd0hIcVNwQmRuMFFjZGtVRDUzWGFnQzg2MVdaVWdtOGUwM2ppR2l4N0xucUFsLWNjZWJjLVJkQ1V0bDR3RkdPOEdN?oc=5",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790107723000
-    },
-    {
       "competition": "transfer",
       "title": "Transfer news LIVE: Liverpool track Givario Read as Man Utd scout Gabriel Rajkovic",
       "publisher": "Transfermarkt",
@@ -382,7 +293,7 @@
     {
       "competition": "laliga",
       "title": "Anthony Gordon told it’s ‘just a matter of time’ until he scores first Barcelona goal",
-      "publisher": "barcablaugranes.com",
+      "publisher": "Barca Blaugranes",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa084U281dUdSTXI2SG94VEJqRGJqMXVJODlMZFRVeXJVN0RaaDJUNktuaGRaVnN3UVFhSkdocVRtSGNzRVNVaEQ3WnVSRUtiRlRsb3FLNG5LcEFReVZFaGliV3U3UEtIaDJoN2ExT3F4YXA1bEtWdUxhLUNJV1NzRHg1X3pKZlEtZmJWQWVQdy1qV3lUb3RUbThoczhkakJGR2hZ?oc=5",
       "teams": [
         "barcelona"
@@ -402,7 +313,7 @@
     {
       "competition": "laliga",
       "title": "Real Madrid go to war with LaLiga as they make damning ‘dishonest’ claim",
-      "publisher": "talkSPORT",
+      "publisher": "talksport.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb24xUFRTak5IalFiLTk1ZmlUOFg0ZU9HTVcyQi03WXFyOTRlVjFyZjJzelFFV2E2eDE4QWRQdGtURzN3OE8tdGdJUVQ5eU5OZWhxOV8xUnFHQzk0aE01cEdpYVFiUTVtOFZldjNfMUd2MnVBSEl1NWR1Wlh4MVVyd0QtZmtlTzQ?oc=5",
       "teams": [
         "realmadrid"
@@ -412,22 +323,12 @@
     {
       "competition": "seriea",
       "title": "De Bruyne claims he didn’t try to leave Napoli, but admits ‘a rough start to the season’",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wQ1pQWE5aNGhnc0RZUVViRFluUDh6Qjg5cFA0OFRJWTNvdUNkOU5iblNfc09YQW53aERRbzJ6cDRpdkU4ZVJYZWlKdFRIa3huLW9BaTZWaUl6cXVfUU9XRnp5cWJsVjU4SGVueERjWU5JVktWc0lTM3VsZnRsQQ?oc=5",
       "teams": [
         "napoli"
       ],
       "publishedAt": 1790105700000
-    },
-    {
-      "competition": "ucl",
-      "title": "Arsenal 1-0 HB Koge commentary",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdW1McUpRMzBFOUZmS2ZLcm9DZ09ZQjRKMVQ2Z2VObDItUWpvMXdvUGhoVk5rTkFqVHRIZFd2M3h6UXYxZmNYRHNMdG9Yc0Z1RVBGN1lmMlYxNW5kSldiZGFMaXgwdmxnTmRZbFducGxsWmFDSTFZU3JuVnhkRjN3NG0xVDJGM01wOTE3Z2Q4b3UxeTItR2FESm5zSnNkZVNFYVFYR21hdGVqbjZxQlZOZXdGOGdaNC1ZYlE3RFRnZEhvVnk1Mk9BTUE0WElUSWZhXy1pYjBVa1FKcUZVdld2QVVjYjNVNTdTcjMw?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790105496000
     },
     {
       "competition": "bundesliga",
@@ -444,7 +345,7 @@
     {
       "competition": "epl",
       "title": "Arteta to sign fresh deal, Liverpool set to appoint new sporting director",
-      "publisher": "talkSPORT",
+      "publisher": "talksport.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1htT215MUZGSUNHbFdWcWdXcnhnUXlqaFBwV0dNZkQxNUUzRXlkSkQyWW9NUHU2ZTIyNnJhV2pIcjM1ZS16ZEtWWndDd0FETVYxMnU2bnhuZDVYVnloN3dab05MQVhCeV9fOVlMZmpIZjlSbEd4bS1fRGF1YXV6QWRjRkwwM2FLcVdaRG9OSTNFOGY5T0x6TVJaQndrNzJReGQwQg?oc=5",
       "teams": [
         "liverpool"
@@ -464,7 +365,7 @@
     {
       "competition": "ucl",
       "title": "Man City fight back from two down to thwart Bayern",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44aTQySk5WZ0doVE5tcTkzUDdHbmVfdmFhamlWQjdnelEyZzNnbkNOb0dKRHVOOWg4TEgxQTFzNW5vMFBGUkQydzRydFU5MHhmbVN1Yzl4SHhfUFd0NXBocDBKWEZNYjl6Y0syOFdPOU1FYmhOUkNnLWZyV2M?oc=5",
       "teams": [
         "mancity",
@@ -485,7 +386,7 @@
     {
       "competition": "laliga",
       "title": "Real Madrid demand Javier Tebas step down as LaLiga president in scathing statement",
-      "publisher": "worldsoccertalk.com",
+      "publisher": "World Soccer Talk",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUc9IBvAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUcw?oc=5",
       "teams": [
         "realmadrid"
@@ -495,7 +396,7 @@
     {
       "competition": "unl-a",
       "title": "PREVIEW | Netherlands vs Germany: team news, lineups, predictions (UEFA Nations League 24/09)",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTG84TkNCYmVZa21ZTlpKQWFjcmdTYUdmajFQOUNGcExPVW1wQXQzUnhKbnl1OW5OOVFBMHdzeXAwM3BmZjNiV3owN2hHZmFJcFc0czNPalhGdlN4Mzhib2hPeFYyRTJPQjdPNXgzT3Zta0Fsdlg0RWMyV195MGxwWDQwQ0p3N2s4MWV4QQ?oc=5",
       "teams": [
         "netherlands",
@@ -537,7 +438,7 @@
     {
       "competition": "seriea",
       "title": "Venezia reach decision on Stroppa future after picking up 0 points from first 5 games",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTNzOWs4VHlmY3hNQVNmYXBUTjY4Q1Rzb2hJTUNJdF8zYkQ4VXptRGwzY3EyWS00OWZJLU9teE9LZWRlNzJ0QUJ0aGVzeld3SUtDcGRCSUJSUlBnRmpoMTU1VVFvQ3cyUWFsclFpV2pLWHNxakdWdVpUS0dOYTdac29sc2NnQWpGZF9SOGhXcw?oc=5",
       "teams": [
         "venezia"
@@ -587,7 +488,7 @@
     {
       "competition": "laliga",
       "title": "La Liga president slams Real Madrid over ‘conspiracy’ claims",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTUl2ejhPUEsyLTBObk55a0hSZDc1d3lBODFqbEhOaHdJMnJ0c1h3ZkROVnVkZUkzelVERFhDc3k1MHhmcE1aNkJ6Mk5qeVhyYjNkQnlVdml1MkxSc3RmelhxcUxxLUZ1SF9hRWY3dHdnbVVJU2hNZ2lSM2Vtd1dtcDhVaw?oc=5",
       "teams": [
         "realmadrid"
@@ -607,7 +508,7 @@
     {
       "competition": "seriea",
       "title": "Juventus nearing move for keeper Neto as deal edges close",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRURETnlJSnlPX3VaMTNNcFc1MDJqVFQtaVZTT0MzMkthVHdkT3gtS1VZQjdnaXJUdXVZRy1zOTVqWUVKdWdqY1VtMmx0Q1kxOGhodW0wck9JeVBmNHVQeEZIekhmdkkyRlp0QV82ZDAwbDFQVnNlZGhmMUFiRGNZbFMyWFdMNjlGQWc?oc=5",
       "teams": [
         "juventus"
@@ -623,6 +524,108 @@
         "switzerland"
       ],
       "publishedAt": 1790099062000
+    },
+    {
+      "competition": "epl",
+      "title": "Julian Ward expected to be named Liverpool sporting director - The Athletic",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYTRLN0JObDJxSThDMXhkMUswRzRianluRTJSbldxcHVXYkphS2lYOC1CTFFSU28xUDBvQTY4cUIzSDdpY3lTSTg0V041US1Zd1pnNUNtNllaUHBKNFdPSWk1TG9SSUlVUFNkZDV3emtOd1lwU0JUSFdpS2JyMTlCS3NWUld3VHpTbUxuOGVSRW1MU2NMQ0ZJ?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790098853000
+    },
+    {
+      "competition": "laliga",
+      "title": "Jude Bellingham, Cristian Romero and a Spanish swearing lesson in the Madrid derby",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWhiNl84T3BMT1FXVWlaOGxNdmxWQmZ5LTN5LVdNX2RHM0hkcEk4QjVoaDdSZnJ1aVFZdGNGdXpqV2NfUmNZa3NzSFJUZkZKNGtpdFBYYXlDYTBjejM5R1JyMzl6a2tBenpLQzB2T3AzRFFla2s1VGhYc21LRzhGa1ZlRDhBXzNWX0Jzb25CTXVuT1dnaTVhTmRyWTk2a2ZldFpiRjZYNzkxQQ?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790098565000
+    },
+    {
+      "competition": "laliga",
+      "title": "La Liga icon critical of Real Madrid duo after derby defeat: ‘Takes much more away than he gives’",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZHZyTVpVYnZrbktqdGV0STluc3NUWDlUSUJWRjQzU3Y0QWVnRUw1U0pqSDJ4ZWJ1aGJuN19aNmtVbU5OczNsMkhHWjhvWk9QOW9NYm8wZDJER1pacUxTVVByTVh2djgyV29MczQwVE4wdVdIS25WVEZwemh2UWk3Vg?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790098200000
+    },
+    {
+      "competition": "ligue1",
+      "title": "'What better way to practice?' – Esteban Lepaul reveals surreal Zinedine Zidane experience in France camp",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUXBxc1laUUhmOWNUdzIzaGVZaUQ3NUxCLTdNcjZBTkphMi1fb2gtWmsybUtyYnpoZlNQX3pBdjVhZ0wzelBmUkh5SlU0aTZjU2hSYjJjb0wxU0Ffb09qRFRVUzFNY3hPNWhXQ3QzVjA3UjdOMElHd0NLOHZZcFk4OVd2TktockdWWEE?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790098149000
+    },
+    {
+      "competition": "seriea",
+      "title": "Serie A Power Rankings: Roma nipping at Inter's heels after draw; AC Milan back in the top three",
+      "publisher": "CBS Sports",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3lBZVpVQWxpWkU0bzIwUHhORmNKRkJhT0VlcnREREx3ZEI5Tk1Ja05NWDVDenFsbmp6djlWYU9MeXdXbHRoTmZ1ZV9BQ2tNbGVrcTE2RWRVb1E1VzFBMVpITS0wNklwdkhNVGFGSC1YcGtoRGxwY2pFWG43OG1OeHRJcVN2cnAyb09wRjRGWkJqOUhHNjVLY0R3d3BEc2tnaEkyMmJuX1ZxVXpCSWJyUUxvM3lqWjNtbnlqYXlVXzNHSk5DbVZsdnI5TTM?oc=5",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790097877000
+    },
+    {
+      "competition": "bundesliga",
+      "title": "How Tidiam Gomis has become important in RB Leipzig’s attack this season",
+      "publisher": "bundesliga.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2VIN2JXdHpmOWp1d1dVRFR0Yk05T09wVjl3TFk5N3hkNFNaZWhGcGFmdmwtZ0o4NmdqMHdwaVJ3Y0RHN19YVVZ4WGp1bzRUd0J4MVFId0h4TjcxU3k4eDlhY3Vvc04xOXpmSUJKVkhBSS1RTlYzTVlGcVRoalJVMUF4a2tkN0NGbE55QXFfdEhKM2YwQU5mdGtFeXhyVTJtU0x6azRXeUw?oc=5",
+      "teams": [
+        "leipzig"
+      ],
+      "publishedAt": 1790097683000
+    },
+    {
+      "competition": "ligue1",
+      "title": "How Bradley Barcola's €145m Liverpool transfer RUINED Khvicha Kvaratskhelia's PSG form",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWVFRUk1YTNvMDRsZm9TUEVpQmJsSXVaQnV3ZFdJbUlrenhNMXBoTkVEZ2pRd3pUSnRuZFdIdWdKM1FtZXpfc2I3STVvTUJzWFRYWS1sM21jekpTWGxuNmtNcnozdHpmOVZHSkJWV3BYY2dMSVQ2bDhXSkRFNzFMazgxMldaRGtXRjk4NlBVdGt2U2hPbXZZeHZmSmtaeVg4UXl3?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790097586000
+    },
+    {
+      "competition": "seriea",
+      "title": "Brentford star Michael Kayode reveals he always wanted to play for Italy",
+      "publisher": "Get Italian Football News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzcwV3hVNjRBNWJxSnotZWc2U1lzVWRKTGhlS2JlS25jNFo2a3o0TkZzRGVFZmtsY3Ital9JSnhUbnllUHJTaUI2dEUwUFEyZ0hMVGNNbWhXcS1WbzlKM3JPTW9ISEZvMDN4dlpfcERMd2w4WXphc0FIR01ZYlpGVnN2X2IwaWRpSWVDcjBMTE1sTTlHODNDMFlOR1Roa0J3a0xqaXptcFZnN0VyaW5iSzlzT2podw?oc=5",
+      "teams": [
+        "brentford",
+        "italy"
+      ],
+      "publishedAt": 1790097419000
+    },
+    {
+      "competition": "bundesliga",
+      "title": "Opinion | Borussia Dortmund’s strong start to the season is good news for the Bundesliga",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXNoaFdMa3V2YUZxdHhuN3l1c0twN2tUWkNOR2VNQkJUam1nVkdtM0VVZVExU1U4dnJxOHFBWDZiT3FCNnVLdG1DTm9rZmlpVTdWX2FrQ1FqbExudUNjQXJQWFEtNUM5RHpGTTNLelZKdENzQnJYM3hpbVJUUWZleV9ZU3FhclEyeGRWcFdaWk0?oc=5",
+      "teams": [
+        "dortmund"
+      ],
+      "publishedAt": 1790097000000
+    },
+    {
+      "competition": "epl",
+      "title": "Lesson for Arsenal: Hürzeler has shaped the team of the moment in the Premier League at Brighton",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPLVJxTklheGJvTmNXdGNxVHF3S0xxYXhOczhtZ1RZakpKSlNMNmlWbVRhdmRNdmpTd3dtQmxCSkl2Z2g4YUlqTTFoZlE5cTdXN040YlVmZy01WGRUNFVyQVREYUtuLXRfUlhfR3dmTktGOUxfZzdleWRqVWN0RjVvdEpLSWJoUFZKZjBQUTM2UkFFQVNOZUFpemZJMlFmejRxcXVONTZEdHBtSVJFakFobENDRWMzYzZXVElSekdMdWFKcmtSdW5Od19tUVpXbkpOUjk3c1o1cVhWckRORjN1UmJMMWZJR2hkdHp4VUlWd3JhVXJrRTVxVHdKbnc?oc=5",
+      "teams": [
+        "brighton",
+        "arsenal"
+      ],
+      "publishedAt": 1790096968000
     }
   ]
 }
