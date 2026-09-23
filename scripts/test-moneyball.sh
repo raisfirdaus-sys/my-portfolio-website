@@ -23,5 +23,8 @@ for t in test-engine test-anchor test-data; do
   printf '=== %s ===\n' "$t"
   node "scripts/$t.js"
 done
+
+printf '=== test-news-filter ===\n'
+node scripts/test-news-filter.mjs
 echo
 echo "All Moneyball tests passed."

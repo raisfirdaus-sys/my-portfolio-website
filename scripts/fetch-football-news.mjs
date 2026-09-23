@@ -15,6 +15,7 @@
 // the brief is football relevant to THIS board, not football in general.
 
 import fs from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 const DATA = JSON.parse(
   await fs.readFile(new URL("../data/moneyball-fixtures.json", import.meta.url), "utf8")
@@ -33,6 +34,21 @@ const COMPETITIONS = [
   { id: "championship",q: "EFL Championship" },
   { id: "transfer",    q: "football transfer news" },
   { id: "injury",      q: "football injury news team" }
+];
+
+/* Feeds used ONLY to build a blocklist, never to supply stories.
+   The same clubs field women's and youth sides, and Google returns their
+   results under the plain league queries above. Half the headlines a keyword
+   filter lets through say nothing about which side played: "Bayern 2-2 Man
+   City (Sep 22, 2026) Game Analysis", "Reaction: Bayern's Gwinn on
+   'frustrating' draw". No wording test can catch those. But Google itself
+   knows: ask it for the women's competition and it returns those very
+   stories. So we ask, and drop anything that comes back. */
+const EXCLUDE_FEEDS = [
+  { id: "uwcl",   q: "UEFA Women's Champions League" },
+  { id: "wsl",    q: "Women's Super League football" },
+  { id: "wfoot",  q: "women's football" },
+  { id: "youth",  q: "football U21 U19 youth academy" }
 ];
 
 /* Short forms a headline is likely to use instead of the full club name. */
@@ -157,6 +173,44 @@ async function fetchFeed(comp) {
   }).filter(Boolean);
 }
 
+/* Layer 1 of the competition filter, kept out of main() so the test can
+   call it. ’ is the curly apostrophe Google returns about half the time;
+   "wcl" covers the shorthand headlines use once the competition is known
+   ("late WCL relief for Arsenal"), which the longer "uwcl" missed. */
+export const OTHER_COMP =
+  /\b(women['\u2019]?s?|wsl|u?wcl|nwsl|femenino|feminin[ae]?|femminile|frauen|damallsvenskan|u1[5-9]|u2[0-3]|youth|academy|reserves)\b/i;
+
+export function isOtherCompetition(title) {
+  /* Strip accents first: Spanish and French headlines print "femenino" and
+     "féminine" with and without them, and a word boundary would not match
+     across the accented letter. */
+  const flat = String(title || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return OTHER_COMP.test(flat);
+}
+
+/* Layer 2: ask Google for the competitions we do NOT want and remember what
+   comes back, by headline and by link. A story is the same story under every
+   query, so this catches the ones whose wording gives nothing away.
+
+   It must never take the brief down with it: a feed that fails is logged
+   and skipped, leaving layer 1 to do the work. A missing blocklist costs a
+   few off-topic cards, which is the cheaper failure. */
+async function buildBlocklist() {
+  const results = await Promise.allSettled(EXCLUDE_FEEDS.map(fetchFeed));
+  const blocked = new Set();
+  let ok = 0;
+  results.forEach((r, i) => {
+    if (r.status !== "fulfilled") {
+      console.error(`Blocklist feed failed: ${EXCLUDE_FEEDS[i].id}:`, r.reason?.message || r.reason);
+      return;
+    }
+    ok++;
+    for (const it of r.value) { blocked.add(norm(it.title)); blocked.add(it.link); }
+  });
+  console.log(`${ok}/${EXCLUDE_FEEDS.length} blocklist feeds fetched, ${blocked.size} entries.`);
+  return blocked;
+}
+
 async function main() {
   const results = await Promise.allSettled(COMPETITIONS.map(fetchFeed));
   let items = [];
@@ -186,20 +240,33 @@ async function main() {
     return true;
   });
 
-  /* The board is men's fixtures, but the same club names run women's teams
-     and Google returns both. A brief where half the items are about a
-     competition nobody on this page can bet on is a worse brief. */
-  const OTHER_COMP = /\b(women'?s?|wsl|uwcl|femenino|feminin|frauen|u1[5-9]|u2[0-3]|youth|academy)\b/i;
+  const blocked = await buildBlocklist();
 
-  // Only stories about teams on this board, and only the competition it covers.
-  const tagged = items.filter((it) => it.teams.length && !OTHER_COMP.test(it.title));
+  /* Layer 1: the headline says so outright. Cheap, and it never fails the
+     way a network call can. Apostrophes come back both straight and curly,
+     hence the character class. */
+  const dropped = { keyword: 0, feed: 0 };
+  const tagged = items.filter((it) => {
+    if (!it.teams.length) return false;                   // not about this board
+    if (isOtherCompetition(it.title)) { dropped.keyword++; return false; }
+    if (blocked.has(norm(it.title)) || blocked.has(it.link)) { dropped.feed++; return false; }
+    return true;
+  });
   tagged.sort((a, b) => (b.publishedAt || 0) - (a.publishedAt || 0));
+
+  /* A filter that removes everything is a bug, not a quiet news day. Keep
+     the previous file rather than publishing an empty brief. */
+  if (!tagged.length) {
+    console.error(`Filtered every one of ${items.length} stories - leaving the existing file untouched.`);
+    process.exitCode = 1;
+    return;
+  }
 
   const out = {
     generatedAt: Date.now(),
     source: "Google News RSS",
     teamsKnown: Object.keys(DATA.teams).length,
-    counts: { raw: items.length, tagged: tagged.length },
+    counts: { raw: items.length, tagged: tagged.length, droppedKeyword: dropped.keyword, droppedFeed: dropped.feed },
     items: tagged.slice(0, 60)
   };
 
@@ -207,7 +274,10 @@ async function main() {
     new URL("../data/football-news.json", import.meta.url),
     JSON.stringify(out, null, 2) + "\n"
   );
-  console.log(`Wrote ${out.items.length} tagged stories (of ${items.length} unique).`);
+  console.log(`Wrote ${out.items.length} tagged stories (of ${items.length} unique; dropped ${dropped.keyword} by wording, ${dropped.feed} by blocklist).`);
 }
 
-main().catch((e) => { console.error(e); process.exitCode = 1; });
+/* Importing this file (the filter test does) must not fire the fetch. */
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e) => { console.error(e); process.exitCode = 1; });
+}
