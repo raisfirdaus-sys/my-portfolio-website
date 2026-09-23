@@ -45,11 +45,19 @@ const COMPETITIONS = [
    knows: ask it for the women's competition and it returns those very
    stories. So we ask, and drop anything that comes back. */
 const EXCLUDE_FEEDS = [
-  { id: "uwcl",   q: "UEFA Women's Champions League" },
-  { id: "wsl",    q: "Women's Super League football" },
-  { id: "wfoot",  q: "women's football" },
-  { id: "youth",  q: "football U21 U19 youth academy" }
+  { id: "uwcl",      q: "UEFA Women's Champions League" },
+  { id: "wsl",       q: "Women's Super League football" },
+  { id: "wfoot",     q: "women's football" },
+  { id: "youth",     q: "football U21 U19 youth academy" },
+  { id: "frauen",    q: "Frauen Bundesliga" },
+  { id: "ligaf",     q: "Liga F futbol femenino" },
+  { id: "femminile", q: "Serie A Femminile" }
 ];
+
+/* How many of the board's busiest clubs also get a women's-side query.
+   Twelve covers the clubs that dominate the brief without turning one run
+   into a hundred requests. */
+const CLUB_BLOCK_QUERIES = 12;
 
 /* Short forms a headline is likely to use instead of the full club name. */
 const ALIASES = {
@@ -195,20 +203,40 @@ export function isOtherCompetition(title) {
    It must never take the brief down with it: a feed that fails is logged
    and skipped, leaving layer 1 to do the work. A missing blocklist costs a
    few off-topic cards, which is the cheaper failure. */
-async function buildBlocklist() {
-  const results = await Promise.allSettled(EXCLUDE_FEEDS.map(fetchFeed));
+async function buildBlocklist(feeds) {
+  const results = await Promise.allSettled(feeds.map(fetchFeed));
   const blocked = new Set();
   let ok = 0;
   results.forEach((r, i) => {
     if (r.status !== "fulfilled") {
-      console.error(`Blocklist feed failed: ${EXCLUDE_FEEDS[i].id}:`, r.reason?.message || r.reason);
+      console.error(`Blocklist feed failed: ${feeds[i].id}:`, r.reason?.message || r.reason);
       return;
     }
     ok++;
     for (const it of r.value) { blocked.add(norm(it.title)); blocked.add(it.link); }
   });
-  console.log(`${ok}/${EXCLUDE_FEEDS.length} blocklist feeds fetched, ${blocked.size} entries.`);
+  console.log(`${ok}/${feeds.length} blocklist feeds fetched, ${blocked.size} entries.`);
   return blocked;
+}
+
+/* The standing queries above miss the club-level coverage: "Slegers praises
+   Arsenal's resilience", "Man City fight back from two down to thwart
+   Bayern". Both are women's matches; neither says so, and neither turned up
+   under a competition-wide query.
+
+   So ask about the clubs the brief is actually full of. Whichever teams
+   dominate today's candidates get a women's-side query of their own, which
+   means this keeps working when the board moves on to different clubs -
+   nothing here is a list of names to maintain. */
+export function busiestTeams(candidates, limit) {
+  const freq = new Map();
+  for (const it of candidates) {
+    for (const key of it.teams) freq.set(key, (freq.get(key) || 0) + 1);
+  }
+  return [...freq.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit)
+    .map(([key]) => key);
 }
 
 async function main() {
@@ -240,18 +268,43 @@ async function main() {
     return true;
   });
 
-  const blocked = await buildBlocklist();
-
   /* Layer 1: the headline says so outright. Cheap, and it never fails the
-     way a network call can. Apostrophes come back both straight and curly,
-     hence the character class. */
+     way a network call can. */
   const dropped = { keyword: 0, feed: 0 };
-  const tagged = items.filter((it) => {
+  const candidates = items.filter((it) => {
     if (!it.teams.length) return false;                   // not about this board
     if (isOtherCompetition(it.title)) { dropped.keyword++; return false; }
+    return true;
+  });
+
+  /* Layer 2: whatever Google returns for the competitions we do not want,
+     including a women's query for each club these candidates are full of. */
+  const clubFeeds = busiestTeams(candidates, CLUB_BLOCK_QUERIES).map((key) => ({
+    id: `w-${key}`,
+    q: `${DATA.teams[key].name} women football`
+  }));
+  const blocked = await buildBlocklist(EXCLUDE_FEEDS.concat(clubFeeds));
+
+  let tagged = candidates.filter((it) => {
     if (blocked.has(norm(it.title)) || blocked.has(it.link)) { dropped.feed++; return false; }
     return true;
   });
+
+  /* The club queries are the one part of this that could misfire: ask Google
+     for "Arsenal women football" and a men's Arsenal story could come back,
+     and it would be blocked with the rest. One or two of those is a fair
+     price. Half the brief is not - so if the blocklist ever takes most of
+     the candidates, distrust it and publish on wording alone. */
+  let overblocked = false;
+  if (candidates.length >= 40 && tagged.length < candidates.length * 0.25) {
+    console.error(
+      `Blocklist removed ${dropped.feed} of ${candidates.length} candidates - ` +
+      `too many to be right. Falling back to the wording filter for this run.`
+    );
+    overblocked = true;
+    dropped.feed = 0;
+    tagged = candidates;
+  }
   tagged.sort((a, b) => (b.publishedAt || 0) - (a.publishedAt || 0));
 
   /* A filter that removes everything is a bug, not a quiet news day. Keep
@@ -266,7 +319,13 @@ async function main() {
     generatedAt: Date.now(),
     source: "Google News RSS",
     teamsKnown: Object.keys(DATA.teams).length,
-    counts: { raw: items.length, tagged: tagged.length, droppedKeyword: dropped.keyword, droppedFeed: dropped.feed },
+    counts: {
+      raw: items.length,
+      tagged: tagged.length,
+      droppedKeyword: dropped.keyword,
+      droppedFeed: dropped.feed,
+      blocklistDistrusted: overblocked
+    },
     items: tagged.slice(0, 60)
   };
 
