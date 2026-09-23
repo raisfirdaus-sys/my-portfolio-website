@@ -473,7 +473,7 @@
 
     var head = el('div', 'board-head');
     head.innerHTML = '<span>Time</span><span>Match</span>' +
-      '<span class="num">Handicap</span><span class="num">Atas / Bawah</span>' +
+      '<span class="num">Handicap</span><span class="num">Over / Under</span>' +
       '<span class="num">1 &middot; X &middot; 2</span><span>Model pick</span>';
     host.appendChild(head);
 
@@ -537,7 +537,7 @@
                               : a.best.pModel) || 0;
         pick.classList.add('hl');
         pick.innerHTML = '<span class="lbl">' + a.best.label + '</span><br />' +
-          '<span class="meta">' + fmtOdds(a.best.odds) + ' · bayar penuh ' +
+          '<span class="meta">' + fmtOdds(a.best.odds) + ' · full payout ' +
           pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
       } else if (a && a.statsMissing) {
         pick.innerHTML = '<span class="meta">following the bookmaker</span>';
@@ -897,7 +897,7 @@
     var a;
     try { a = analyse(fx); }
     catch (err) {
-      $('mc-head').textContent = 'Gagal menganalisa: ' + err.message; return;
+      $('mc-head').textContent = 'Could not analyse this fixture: ' + err.message; return;
     }
     var lg = a.league;
     $('mc-sub').textContent = (lg ? lg.name : '') + ' · ' + (fx.kickoff || '');
@@ -1665,7 +1665,7 @@
       '<p>Gap between the models: <span class="fig">' + (c.spread * 100).toFixed(1) + ' percentage points</span>. ' +
       'Calibrated strength: ' + a.home.name + ' <span class="fig">' + c.strengthHome.toFixed(1) +
       '</span>, ' + a.away.name + ' <span class="fig">' + c.strengthAway.toFixed(1) + '</span> ' +
-      '(rating mentah ' + c.ratingHome.toFixed(1) + ' / ' + c.ratingAway.toFixed(1) +
+      '(raw rating ' + c.ratingHome.toFixed(1) + ' / ' + c.ratingAway.toFixed(1) +
       ', fitted offset ' + c.offset.toFixed(1) + ').</p>';
     if (c.advisoryOnly) {
       verdict.innerHTML += '<p><strong>Shown for information; it does not move confidence.</strong> This offset was ' +
@@ -1698,7 +1698,7 @@
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     svg.setAttribute('role', 'img');
-    svg.setAttribute('aria-label', 'Peta panas probabilitas skor akhir');
+    svg.setAttribute('aria-label', 'Heat map of final-score probabilities');
 
     function txt(x, y, s, anchor) {
       var t = document.createElementNS(svg.namespaceURI, 'text');
@@ -1982,7 +1982,7 @@
         '<br /><strong>Enter xG in the form below</strong> and this table switches to sorting by EV, ' +
         'because at that point the model has an opinion of its own to set against the bookmaker.';
     } else legend.innerHTML =
-      '<strong>Arti warna:</strong> ' +
+      '<strong>What the colours mean:</strong> ' +
       '<span class="tier-dot prime"></span>light blue = EV above +4% and confidence above 58 (circled = best in this fixture) &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot value"></span>kuning = EV di atas +1.5% &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot neutral"></span>netral &nbsp;&middot;&nbsp; ' +
@@ -2530,7 +2530,7 @@
         (p.vig != null ? ' · vig ' + pct(p.vig, 1) : '') + '</div>';
       row.appendChild(info);
       var rm = el('button', 'btn sm ghost', '×');
-      rm.type = 'button'; rm.title = 'Hapus leg';
+      rm.type = 'button'; rm.title = 'Remove leg';
       rm.addEventListener('click', function () {
         STATE.legs.splice(i, 1); renderParlay();
       });
@@ -2710,7 +2710,7 @@
     var note = $('slip-note'); note.innerHTML = '';
     var n1 = el('div', 'notice ok');
     n1.innerHTML = '<h3>The engine matches your real slip, down to the rupiah</h3>' +
-      '<p>Odds tercetak <span class="fig">' + vs.ticketOdds + '</span>, seharusnya bayar bruto ' +
+      '<p>Printed odds <span class="fig">' + vs.ticketOdds + '</span>, which should pay gross ' +
       '<span class="fig">' + rupiah(vs.ticketOdds * vs.stake) + '</span> of a stake of ' +
       rupiah(vs.stake) + '.</p>' +
       '<p>Actual result: <span class="fig">' + mult.toFixed(4) + 'x</span> = gross ' +
@@ -2774,7 +2774,7 @@
 
     if (rep) {
       var box = el('div', 'notice' + (rep.significant ? '' : ' bad'));
-      box.innerHTML = '<h3>Skor Brier atas ' + rep.n + ' legs that carry a model probability</h3>' +
+      box.innerHTML = '<h3>Brier score over ' + rep.n + ' legs that carry a model probability</h3>' +
         '<p>Brier model <span class="fig">' + rep.brier.toFixed(4) + '</span> ' +
         'melawan <span class="fig">' + rep.brierBaseline.toFixed(4) + '</span> against a model that ' +
         'that always answers 50%. Lower is better, so a skill score of <span class="fig">' +
@@ -3015,7 +3015,7 @@
        'From those buckets: <code>w</code> = the share of stake that wins, <code>l</code> = the share that loses. ' +
        'Odds adil = <code>1 + l/w</code>. EV = <code>w &times; (odds-1) - l</code>. Ukuran stake ' +
        'is shown as quarter Kelly, not full Kelly.'],
-      ['11. Kenapa menu Mix Parlay berbeda',
+      ['11. Why the Mix Parlay menu differs',
        'The bookmaker removes the legs most likely to be mispriced in the player favour &mdash; above all short-priced ' +
        'favourites &mdash; by setting a minimum price per leg (around 1.50). That is why ' +
        'heavy-favourite 1X2 disappears from the parlay menu and only marginal selections remain. ' +

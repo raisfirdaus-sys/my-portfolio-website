@@ -120,5 +120,28 @@ say(!!btn, "there is a button for the xG tab's Against view");
 
 say(!/Drawe A/.test(txt), "Serie A is not called \"Drawe A\" anywhere on the page");
 
+/* The whole match centre has to move, not just the value board. The heat
+   map and the total-goals chart are drawn from the same lambdas, so if
+   they sit still while the probabilities change, something downstream is
+   reading a stale figure. */
+const totalsCaption = (dom) => {
+  const box = dom.window.document.getElementById("mc-totals");
+  const m = box && /Average total goals under the model: (\d+\.\d+)/.exec(box.textContent || "");
+  return m ? m[1] : null;
+};
+const heatCells = (dom) => {
+  const box = dom.window.document.getElementById("mc-heat");
+  if (!box) return null;
+  return [...box.querySelectorAll("text")].map((t) => t.textContent).join("|");
+};
+
+const tBefore = totalsCaption(bare), tAfter = totalsCaption(filled);
+say(!!tBefore, `the total-goals chart prints its average (${tBefore})`);
+say(tBefore !== tAfter, `average total goals moves with the statistics (${tBefore} -> ${tAfter})`);
+
+const hBefore = heatCells(bare), hAfter = heatCells(filled);
+say(!!hBefore && hBefore.length > 0, "the scoreline heat map renders");
+say(hBefore !== hAfter, "the scoreline heat map moves with the statistics");
+
 console.log(fail ? `\n${fail} failure(s).` : "\nwhoscored flow ok");
 process.exit(fail ? 1 : 0);
