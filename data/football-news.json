@@ -1,17 +1,91 @@
 {
-  "generatedAt": 1790165825110,
+  "generatedAt": 1790168155169,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1543,
-    "tagged": 774,
-    "droppedKeyword": 41,
+    "raw": 1535,
+    "tagged": 775,
+    "droppedKeyword": 39,
     "droppedOtherSport": 1,
-    "droppedFeed": 8,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Conte top choice for Manchester United job if Carrick sacked",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/conte-top-choice-for-manchester-united-job/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Antonio-Conte-414x277.jpg",
+      "summary": "Reports in Italy are growing that Antonio Conte is the favourite to replace Michael Carrick...",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790168019000
+    },
+    {
+      "competition": "mirror",
+      "title": "Bruno Guimaraes sent warning by Newcastle star ahead of reunion after Arsenal move",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-newcastle-bruno-guimaraes-joelinton-37693703",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693958.ece/ALTERNATES/s615/0_GettyImages-2295464266.jpg",
+      "summary": "Bruno Guimaraes left Newcastle in the summer and will return with Arsenal for the first time in November - with his close pal and compatriot warning him about what to expect",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790167980000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Report Milan want Krosche for new Head of Football role",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/report-milan-want-krosche-head-football-role/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/eintracht-frankfurt-v-vfb-stuttgart-bundesliga-1-414x276.jpg",
+      "summary": "Milan are seeking to create a Head of Football role and marked Markus Krosche for...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790166922000
+    },
+    {
+      "competition": "indy",
+      "title": "Disney+ criticised for cutting to advert break during Arsenal Champions League game",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/disney-arsenal-womens-champions-league-ad-break-b3055010.html",
+      "image": "https://static.independent.co.uk/2026/09/23/07/2026-09-22T205530Z_477226496_UP1EM9M1M4GJW_RTRMADP_3_SOCCER-CHAMPIONS-ARS-KOG.JPG?width=1200&auto=webp&trim=4%2C0%2C4%2C0",
+      "summary": "Viewers were unable to watch around three minutes of Arsenal’s match against HB Koge",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790166871000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal, Chelsea and Tottenham in limbo over Man City 115 charges saga after CEO admission",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-chelsea-tottenham-limbo-over-34659986",
+      "image": "https://i2-prod.football.london/incoming/article34660024.ece/ALTERNATES/s615/1_Arsenal-Man-City-and-the-Premier-League.jpg",
+      "summary": "Arsenal, Chelsea and Tottenham Hotspur continue to await the verdict of the case involving Manchester City's alleged 115-plus financial breaches",
+      "teams": [
+        "mancity",
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790166212000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790165901000
+    },
     {
       "competition": "men",
       "title": "Manchester United reveal the cost of acquiring land for 100,000-seater stadium",
@@ -50,7 +124,7 @@
     },
     {
       "competition": "indy",
-      "title": "Ruben Amorim sacking pay-off revealed as Man Utd reveal latest financial results",
+      "title": "Ruben Amorim sacking pay-off revealed as Man Utd publish latest financial results",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/ruben-amorim-man-united-payoff-financial-results-b3054991.html",
       "image": "https://static.independent.co.uk/2026/06/17/08/21d0b02886d59005ea8095c81a1605dbY29udGVudHNlYXJjaGFwaSwxNzgxNzEyOTAx-2.82919578.jpg?width=1200&auto=webp&crop=3%3A2",
@@ -58,7 +132,7 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790165193000
+      "publishedAt": 1790165320000
     },
     {
       "competition": "mirror",
@@ -71,6 +145,18 @@
         "manutd"
       ],
       "publishedAt": 1790165084000
+    },
+    {
+      "competition": "bbc",
+      "title": "Fight for each other & defend like brothers - Pocognoli's Scotland blueprint",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pc16gr?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pc16hs.jpg",
+      "summary": "Pocognoli reveals the principles behind his new-look Scotland side",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790164800000
     },
     {
       "competition": "fitalia",
@@ -122,18 +208,6 @@
       "publishedAt": 1790164135000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790163910000
-    },
-    {
       "competition": "chronicle",
       "title": "Juventus legend gives damning Nick Woltemade verdict - 'He's not a centre forward'",
       "publisher": "Chronicle Live",
@@ -180,6 +254,18 @@
         "scotland"
       ],
       "publishedAt": 1790162938000
+    },
+    {
+      "competition": "bundes",
+      "title": "Patrik Schick: Bayer Leverkusen's constant is breaking new ground",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/patrik-schick-bayer-leverkusen-constant-carles-martinez-leipzig-39325",
+      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083600111h.jpg?crop=0px%2C246px%2C3793px%2C2133px",
+      "summary": "Amongst the many changes at Bayer Leverkusen over the past couple of years, Patrik Schick is one of the few remaining constants. But even as those around him come and go, his ability to find the back of the net has…",
+      "teams": [
+        "leverkusen"
+      ],
+      "publishedAt": 1790162931000
     },
     {
       "competition": "mirror",
@@ -657,93 +743,6 @@
         "arsenal"
       ],
       "publishedAt": 1790155337000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United's most obvious transfer blunder of the summer is already hurting them",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-uniteds-most-obvious-transfer-34657622",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34657653.ece/ALTERNATES/s615/0_GettyImages-2294683777.jpg",
-      "summary": "Man Utd have had injury issues this season and they are coming in areas that are hurting Michael Carrick's team.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790155048000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ireland make feelings clear as Dara O'Shea asked about shaking hands with Israel players",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ireland-israel-nations-league-hallgrimsson-37692453",
-      "image": "https://i2-prod.mirror.co.uk//article37692505.ece/ALTERNATES/s615/0_Dara-OShea.jpg",
-      "summary": "Heimir Hallgrimsson and Dara O'Shea have been speaking in a press conference ahead of Republic of Ireland's Nations League trip to Kosovo on Thursday",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790154492000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Picture: Udinese drop Alaba transfer hint after agreement with ex-Real Madrid star",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/picture-udinese-alaba-transfer-hint-agreement/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/real-madrid-cf-v-getafe-cf-lalig-1-414x276.jpg",
-      "summary": "Udinese have practically confirmed their agreement with former Real Madrid defender David Alaba by posting...",
-      "teams": [
-        "realmadrid",
-        "udinese"
-      ],
-      "publishedAt": 1790154120000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini picks Italy’s starting striker for Nations League opener vs. Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-picks-italy-starting-striker-v-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Francesco-Pio-Esposito-celebrate-Italy-Norway-414x276.jpg",
-      "summary": "Multiple sources claim Francesco Pio Esposito will start as Italy s centre-forward in Friday s Nations League...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790153452000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Monchi explains Arsenal rejection and what caused 'friction' with Unai Emery before Aston Villa move",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/monchi-explains-arsenal-rejection-what-34658174",
-      "image": "https://i2-prod.football.london/arsenal-fc/transfer-news/article32682919.ece/ALTERNATES/s615/1_JS377203278.jpg",
-      "summary": "Former Aston Villa chief Monchi has explained what caused \"friction\" with Unai Emery before they reunited in Birmingham",
-      "teams": [
-        "astonvilla",
-        "arsenal"
-      ],
-      "publishedAt": 1790153232000
-    },
-    {
-      "competition": "mirror",
-      "title": "5 things in Julian Ward's in-tray as incoming Liverpool chief left with Virgil van Dijk dilemma",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-julian-ward-return-transfers-37692253",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37692239.ece/ALTERNATES/s615/0_GettyImages-2296290900.jpg",
-      "summary": "Liverpool are set to appoint Julian Ward as their new sporting director as Richard Hughes’ replacement and despite having already been at Anfield, he already has a lengthy list of jobs to do",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790153214000
-    },
-    {
-      "competition": "mirror",
-      "title": "Irish government called out as Israel row escalates ahead of Nations League match",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ireland-israel-match-nations-league-37691957",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37692258.ece/ALTERNATES/s615/0_Republic-of-Ireland.jpg",
-      "summary": "Ray Houghton believes Republic of Ireland's players face an \"impossible\" position around the two Israel games, after Micheal Martin called Israeli FA remarks about Heimir Hallgrimsson \"unacceptable\"",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790152822000
     }
   ]
 }
