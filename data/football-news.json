@@ -1,17 +1,479 @@
 {
-  "generatedAt": 1790158399778,
+  "generatedAt": 1790165825110,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1537,
-    "tagged": 773,
-    "droppedKeyword": 44,
-    "droppedOtherSport": 2,
-    "droppedFeed": 12,
+    "raw": 1543,
+    "tagged": 774,
+    "droppedKeyword": 41,
+    "droppedOtherSport": 1,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Manchester United reveal the cost of acquiring land for 100,000-seater stadium",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-reveal-cost-acquiring-34658050",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34659821.ece/ALTERNATES/s615/2_MANCHESTER-UNITED-1200px-MIN1.jpg",
+      "summary": "Man Utd acquired a new plot of land to build a new stadium earlier this year, and the cost has now been revealed.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790165700000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Frattesi: France&#8217;s third squad could win the World Cup, Romano similar to Matic",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/frattesi-3rd-france-squad-world-cup-romano/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Davide-Frattesi-celebrating-414x276.jpg",
+      "summary": "Lazio midfielder Davide Frattesi admits he didn t watch a single World Cup game last summer,...",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790165544000
+    },
+    {
+      "competition": "men",
+      "title": "Man United debt figures explained as club announce record revenue",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-debt-profit-accounts-34659957",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34659945.ece/ALTERNATES/s615/0_GettyImages-2294029776.jpg",
+      "summary": "Manchester United have released their latest accounting figures",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790165418000
+    },
+    {
+      "competition": "indy",
+      "title": "Ruben Amorim sacking pay-off revealed as Man Utd reveal latest financial results",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ruben-amorim-man-united-payoff-financial-results-b3054991.html",
+      "image": "https://static.independent.co.uk/2026/06/17/08/21d0b02886d59005ea8095c81a1605dbY29udGVudHNlYXJjaGFwaSwxNzgxNzEyOTAx-2.82919578.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Amorim was sacked by United in January after 14 months in charge",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790165193000
+    },
+    {
+      "competition": "mirror",
+      "title": "Eric Cantona teams up with Gary Lineker as Man Utd chief Sir Jim Ratcliffe slammed again",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jim-ratcliffe-eric-cantona-lineker-37693615",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693609.ece/ALTERNATES/s615/0_TENNIS-FRA-OPEN-2026.jpg",
+      "summary": "Gary Lineker and Eric Cantona have both slammed Manchester United co-owner Sir Jim Ratcliffe over recent days, following his latest comments bemoaning immigration",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790165084000
+    },
+    {
+      "competition": "fitalia",
+      "title": "FIGC chief Malago arrives at Mancini&#8217;s Italy camp: &#8216;I&#8217;m an optimist by nature&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/figc-chief-malago-arrives-at-mancini-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/741120545_17943866592252649_4970-414x276.jpg",
+      "summary": "Giovanni Malago has visited Coverciano to show his support for Roberto Mancini ahead of Italy s...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790164800000
+    },
+    {
+      "competition": "echo",
+      "title": "Dominik Szoboszlai tells Liverpool to 'stop making excuses' as transition claim addressed",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-tells-liverpool-stop-34659399",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34659756.ece/ALTERNATES/s615/0_Screenshot-2026-09-23-123518.jpg",
+      "summary": "Dominik Szoboszlai has issued a strong Liverpool message and words of advice to the new raft of transfer signings",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790164634000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Milan close in on Pulisic and Pavlovic renewals until 2031",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/milan-close-in-on-pulisic-and-pavlovic/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Strahinja-Pavlovic-Kialonda-Gaspar-414x292.jpg",
+      "summary": "Milan are moving to tie down two of Ruben Amorim s key players, with new deals...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790164200000
+    },
+    {
+      "competition": "metro",
+      "title": "Manchester United icon urges club to raid Brentford for &#8216;top&#8217; defender",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/23/man-utd-icon-urges-club-raid-brentford-top-defender-29646850/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309784758-4303.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd",
+        "brentford"
+      ],
+      "publishedAt": 1790164135000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790163910000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Juventus legend gives damning Nick Woltemade verdict - 'He's not a centre forward'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/juventus-legend-gives-damning-nick-34659129",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34659170.ece/ALTERNATES/s615/0_Woltemade.jpg",
+      "summary": "Fabrizio Ravenelli has give his thoughts on the Newcastle United striker who is on loan with the Italian giants",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790163655000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United confirm cost of sacking Ruben Amorim and his staff",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-confirm-cost-sacking-34658045",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34659606.ece/ALTERNATES/s615/0_Screenshot-2026-09-23-121342.png",
+      "summary": "Man Utd announced their end-of-year financial results on Wednesday, which confirmed the cost of Ruben Amorim's sacking.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790163605000
+    },
+    {
+      "competition": "men",
+      "title": "Omar Berrada sends Manchester United warning after latest financial results",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/omar-berrada-sends-manchester-united-34657961",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34659447.ece/ALTERNATES/s615/0_GettyImages-2294928584.jpg",
+      "summary": "Man Utd have released their latest financial results and chief executive Omar Berrada released a statement to accompany them.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790162961000
+    },
+    {
+      "competition": "bbc",
+      "title": "Pocognoli has 'positive nervousness' for Scotland debut",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw1mvy20202eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/815c/live/f1c474d0-b740-11f1-aa9c-3d062fa3aea7.jpg",
+      "summary": "Scotland head coach Sebastien Pocognoli admits to feeling a \"positive nervousness\" before his first game in charge of the country, a Nations League tie against Slovenia in Ljubljana on Saturday.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790162938000
+    },
+    {
+      "competition": "mirror",
+      "title": "Arsenal discover penalty error as Premier League panel unanimously agree",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-sunderland-penalty-premier-league-37693083",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693404.ece/ALTERNATES/s615/0_JS417758983.jpg",
+      "summary": "Arsenal beat Sunderland in the Premier League earlier this month but were on the receiving end of a controversial penalty decision",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790162903000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Juventus prepare to ditch scouting algorithms to put more faith in Italians",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/juventus-prepare-to-ditch-algorithms-for-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/parma-calcio-v-cagliari-calcio-serie-a-2026-27-1-414x276.jpg",
+      "summary": "Giovanni Carnevali is overhauling how Juventus recruit, with the chief executive setting a clear new...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790162700000
+    },
+    {
+      "competition": "mirror",
+      "title": "Six Arsenal stars set for extra training with Mikel Arteta during international break",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-mikel-arteta-international-break-37693371",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693363.ece/ALTERNATES/s615/0_GettyImages-2295935634.jpg",
+      "summary": "Mikel Arteta is set to be without an array of his Arsenal stars, with the international break having brought Premier League action to a halt but the Gunners’ boss is still keen to get out on the training pitch",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790162604000
+    },
+    {
+      "competition": "bbc",
+      "title": "'It can't be brushed over' - Republic of Ireland squad to discuss Israel games",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6wyzk2xyz90o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4567/live/cc2b1e00-b73a-11f1-aa9c-3d062fa3aea7.jpg",
+      "summary": "Dara O'Shea says the Republic of Ireland squad will wait until after Thursday's Kosovo game before discussing how they approach Sunday's contentious fixture against Israel.",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790162434000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United announce record revenues but debt continues to rise",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-announce-record-revenues-34657955",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34659441.ece/ALTERNATES/s615/0_GettyImages-2295053587.jpg",
+      "summary": "Man Utd have released their latest financial results covering the final three months of last season.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790162237000
+    },
+    {
+      "competition": "indy",
+      "title": "Real Madrid referee row rages on as club calls for new LaLiga president",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/real-madrid-referee-atletico-madrid-laliga-javier-tebas-b3054952.html",
+      "image": "https://static.independent.co.uk/2026/09/21/8/20/Jose-Mourinho-protested-a-number-of-decisions-in-the-Madrid-derby.jpeg?width=1200&auto=webp&trim=0%2C0%2C90%2C0",
+      "summary": "Madrid have branded LaLiga president Javier Tebas’ response to the club’s refereeing complaints as ‘intolerable’",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790162185000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Ange Postecoglou target gives transfer update after failed Tottenham deal and Brentford medical",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/ange-postecoglou-target-gives-transfer-34658827",
+      "image": "https://i2-prod.football.london/incoming/article32337864.ece/ALTERNATES/s615/0_AG.jpg",
+      "summary": "Ange Postecoglou almost got his hands on one of the most promising young wingers in Europe when he was in the Tottenham Hotspur dugout.",
+      "teams": [
+        "brentford"
+      ],
+      "publishedAt": 1790161927000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd announce record revenue figures but debt rises again in latest financial accounts",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-financials-results-fiscal-37692887",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37680108.ece/ALTERNATES/s615/0_Greensand-carbon-storage-site-inauguration-in-Esbjerg-Denmark-18-Sep-2026.jpg",
+      "summary": "Manchester United have announced their fourth quarter and full year fiscal 2026 results with the Reds recording record revenues after Sir Jim Ratcliffe's cost-cutting measures",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790161836000
+    },
+    {
+      "competition": "metro",
+      "title": "Paul Scholes says Chelsea signing should not be starting in the Premier League",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/23/paul-scholes-says-chelsea-signing-not-starting-premier-league-29646606/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-11.47.39-a969.png?w=646",
+      "summary": null,
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790161637000
+    },
+    {
+      "competition": "fitalia",
+      "title": "How former Bayern and Real Madrid star Alaba will fit at Udinese",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/how-alaba-fits-udinese/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/real-madrid-cf-v-arsenal-fc-uefa-414x276.jpg",
+      "summary": "Kosta Runjaic now has a decision to make in his defence. David Alaba s imminent arrival...",
+      "teams": [
+        "realmadrid",
+        "udinese",
+        "bayern"
+      ],
+      "publishedAt": 1790161567000
+    },
+    {
+      "competition": "footlondon",
+      "title": "VAR failings laid bare after new Premier League statement on Sunderland vs Arsenal penalty incident",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/arsenal-sunderland-penalty-premier-league-34659510",
+      "image": "https://i2-prod.football.london/incoming/article34615058.ece/ALTERNATES/s615/1_GettyImages-2294510422.jpg",
+      "summary": "The Premier League's KMI Panel has made it clear that Sunderland should not have been awarded a penalty against Arsenal on September 12",
+      "teams": [
+        "sunderland",
+        "arsenal"
+      ],
+      "publishedAt": 1790161403000
+    },
+    {
+      "competition": "men",
+      "title": "Man City player ratings so far with two 9/10s as Marc Guehi starts well",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-player-ratings-far-34659212",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34659233.ece/ALTERNATES/s615/0_GettyImages-2295684495.jpg",
+      "summary": "Manchester City player ratings so far this season after seven games under Enzo Maresca have all ended in victory",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790161381000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa summer transfers graded as A and D awarded and January plan discussed",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-summer-transfers-graded-34659162",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34589308.ece/ALTERNATES/s615/0_Club-Brugge-v-Aston-Villa-UEFA-Champions-League-League-Stage-Football-Jan-Breydel-Stadium-Brugg.jpg",
+      "summary": "Aston Villa’s summer transfer arrivals graded after the first part of the season",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790161200000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool sent message to complete Trent Alexander-Arnold transfer - 'not much worse than most'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-sent-message-complete-trent-34658474",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34658605.ece/ALTERNATES/s615/0_GettyImages-2295916107.jpg",
+      "summary": "Liverpool and Trent Alexander-Arnold have been told they would benefit from a reunion as transfer backed",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790161080000
+    },
+    {
+      "competition": "mirror",
+      "title": "Wayne Rooney takes aim at Man Utd board for 'weak' decision and reveals manager hope",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-man-utd-carrick-37692908",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37665918.ece/ALTERNATES/s615/0_rooney-stick-to-united.png",
+      "summary": "Wayne Rooney hopes Michael Carrick can turn Manchester United's fortunes around but says the squad is 'a bit weak' following the transfer window",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790160682000
+    },
+    {
+      "competition": "men",
+      "title": "Final Bruno Fernandes verdict as Premier League panel speak out on Man United incident",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-bruno-fernandes-foden-34659109",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34659089.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-EFL-Carabao-Cup-Football-Old-Trafford-UK-16-Sep-202.jpg",
+      "summary": "The Premier League's key match incidents panel have provided an independent assessment on the Manchester derby incident involving Bruno Fernandes and Phil Foden",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790160418000
+    },
+    {
+      "competition": "indy",
+      "title": "Ireland manager responds to Israel criticism after ‘genocide’ comments: ‘Not clever from me’",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/israel-ireland-heimir-hallgrimsson-comments-genocide-b3054809.html",
+      "image": "https://static.independent.co.uk/2026/06/11/14/01KSQXRAHXE688D8J568EJVJVA.jpg?width=1200&auto=webp&trim=48%2C0%2C49%2C0",
+      "summary": "Hallgrimsson has received support from the Irish taoiseach but admitted that his comments saying Ireland will be ‘playing against genocide’ were ‘not clever from me’",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790160157000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Xabi Alonso given Morgan Rogers green light as Chelsea's £117m transfer 'problem' scrutinised",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonso-given-morgan-rogers-34658905",
+      "image": "https://i2-prod.football.london/incoming/article34659249.ece/ALTERNATES/s615/0_GettyImages-2295367655.jpg",
+      "summary": "Chelsea broke their transfer record in the summer window by signing Morgan Rogers for £117million and the 24-year-old has been excellent for the Blues in the early parts of the season",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790160152000
+    },
+    {
+      "competition": "metro",
+      "title": "Man Utd hold talks over signing Argentine star from River Plate after new contract stalls",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/23/man-utd-hold-talks-signing-argentine-star-river-plate-29646669/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_309635530-3500.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790159898000
+    },
+    {
+      "competition": "indy",
+      "title": "Republic of Ireland players to discuss staging protest before playing Israel",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-protest-nations-league-b3054880.html",
+      "image": "https://static.independent.co.uk/2026/09/23/10/2184821974..?width=1200&auto=webp&trim=21%2C0%2C21%2C0",
+      "summary": "Captain Dara O’Shea said the squad will meet following the match against Kosovo on Thursday and that a decision will be made ‘as one’",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790159870000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Toni slams Juventus and Inter as he backs Mancini: &#8216;It is year zero for Italy&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/toni-italy-juventus-inter-mancini/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-training-414x288.jpg",
+      "summary": "Luca Toni started every game of Italy s 2006 World Cup win, from the opener against...",
+      "teams": [
+        "juventus",
+        "italy"
+      ],
+      "publishedAt": 1790159635000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United's plan for international break as players report to Carrington",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-uniteds-plan-international-break-34658014",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34658084.ece/ALTERNATES/s615/1_GettyImages-2292422087.jpg",
+      "summary": "A handful of Man Utd players are still reporting to Carrington this week, despite it being the international break.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790159589000
+    },
+    {
+      "competition": "echo",
+      "title": "Anthony Gordon makes Liverpool allegiances clear as ex-Everton star names footballing icon",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/anthony-gordon-everton-liverpool-barcelona-34658568",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34659023.ece/ALTERNATES/s615/0_JS417279247.jpg",
+      "summary": "Anthony Gordon joined Barcelona in the summer and the former Everton star has named a Liverpool legend as his footballing idol",
+      "teams": [
+        "liverpool",
+        "everton"
+      ],
+      "publishedAt": 1790159536000
+    },
+    {
+      "competition": "men",
+      "title": "Man United ownership explained with the Glazers and Sir Jim Ratcliffe's shares detailed",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-ownerships-glazers-ratcliffe-34658308",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article33489977.ece/ALTERNATES/s615/1_GettyImages-2149760973.jpg",
+      "summary": "Manchester United are one of the biggest sporting institutions in the world - but who actually owns and runs the club is a surprisingly complex story",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790159400000
+    },
     {
       "competition": "mirror",
       "title": "Jurgen Klopp introduces 4 new rules as ex-Liverpool boss lays down the law to Germany stars",
@@ -24,18 +486,6 @@
         "germany"
       ],
       "publishedAt": 1790158233000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790158199000
     },
     {
       "competition": "footlondon",
@@ -109,18 +559,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790157183000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland manager responds to Israel criticism after ‘genocide’ comments: ‘Not clever from me’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/israel-ireland-heimir-hallgrimsson-comments-genocide-b3054809.html",
-      "image": "https://static.independent.co.uk/2026/06/11/14/01KSQXRAHXE688D8J568EJVJVA.jpg?width=1200&auto=webp&trim=48%2C0%2C49%2C0",
-      "summary": "Hallgrimsson has received support from the Irish taoiseach but admitted that his comments saying Ireland will be ‘playing against genocide’ were ‘not clever from me’",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790157136000
     },
     {
       "competition": "footlondon",
@@ -306,445 +744,6 @@
         "israel"
       ],
       "publishedAt": 1790152822000
-    },
-    {
-      "competition": "indy",
-      "title": "Tijjani Reijnders admits he quit Man City to move to Saudi Arabia for money: ‘Why wouldn’t I do it?’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/tijjani-reijnders-saudi-arabia-money-man-city-transfer-b3054797.html",
-      "image": "https://static.independent.co.uk/2026/08/14/12/7769b19cd67292ea950d2b82f7bd2814Y29udGVudHNlYXJjaGFwaSwxNzg2NzkzMzYz-2.82927323.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Reijnders left Manchester City in the summer after just one season at the club",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790152756000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Bruno Guimaraes sets Arsenal target and names two clubs he would like to sign for in future",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-bruno-guimaraes-newcastle-34658171",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34644976.ece/ALTERNATES/s615/1_Ipswich-Town-v-Arsenal-Carabao-Cup-Third-Round.jpg",
-      "summary": "Arsenal midfielder Bruno Guimaraes has been speaking to the Brazilian media while away on international duty with his country in Australia",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790152755000
-    },
-    {
-      "competition": "metro",
-      "title": "Injury setback? Why Arsenal star Jurrien Timber missed Netherlands training",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/23/injury-setback-arsenal-star-jurrien-timber-missed-netherlands-training-29645858/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-09.27.35-f197.png?w=646",
-      "summary": null,
-      "teams": [
-        "netherlands",
-        "arsenal"
-      ],
-      "publishedAt": 1790152578000
-    },
-    {
-      "competition": "echo",
-      "title": "Everton hand Newcastle United huge ticket allocation for Carabao Cup tie",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/everton-hand-newcastle-united-huge-34657793",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34657818.ece/ALTERNATES/s615/0_GettyImages-2290181876.jpg",
-      "summary": "Everton host Newcastle United in the fourth round of the Carabao Cup on October 29",
-      "teams": [
-        "newcastle",
-        "everton"
-      ],
-      "publishedAt": 1790152573000
-    },
-    {
-      "competition": "men",
-      "title": "Harry Maguire demands Manchester United to 'ignore the noise' after poor start",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/harry-maguire-demands-manchester-united-34647871",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34657738.ece/ALTERNATES/s615/0_GettyImages-2295816859.jpg",
-      "summary": "Harry Maguire reacted following Man Utd's disappointing 1-1 draw against Fulham in the Premier League last weekend.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790152504000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Alaba: Ex-Real Madrid defender reaches surprise agreement with Udinese",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/alaba-ex-real-madrid-star-agreement-udinese/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/real-madrid-cf-v-sevilla-fc-lali-414x276.jpg",
-      "summary": "Fabrizio Romano reports that David Alaba has reached an agreement with Udinese and is close...",
-      "teams": [
-        "realmadrid",
-        "udinese"
-      ],
-      "publishedAt": 1790151901000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus near agreement with Neto as free agent, target Palmisani for 2027-28",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-near-neto-agreement-palmisani-2028/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-fc-v-ssc-napoli-tim-cup-414x276.jpg",
-      "summary": "Multiple sources in Italy claim that Brazilian goalkeeper Neto is close to reaching an agreement...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790151246000
-    },
-    {
-      "competition": "men",
-      "title": "Wayne Rooney exposes Man United over 'certain things' as Michael Carrick wish revealed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfer-news-rooney-34657702",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34614431.ece/ALTERNATES/s615/0_Wayne-Rooney.png",
-      "summary": "Manchester United have made an indifferent start to the 2026/27 season with pressure beginning to mount on Michael Carrick",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790150794000
-    },
-    {
-      "competition": "metro",
-      "title": "Michael Carrick warned Man Utd tactics are &#8216;killing&#8217; £62m star as Wayne Rooney suggests drastic move",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/23/michael-carrick-warned-man-utd-tactics-killing-62m-star-29645707/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312308970-1d4d.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790150503000
-    },
-    {
-      "competition": "men",
-      "title": "Man United legend Eric Cantona slams Sir Jim Ratcliffe comments - 'I cannot accept this'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-united-eric-cantona-ratcliffe-34657707",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34657915.ece/ALTERNATES/s615/0_imagemaker-2026-09-23T085856824.jpg",
-      "summary": "Man Utd co-owner Sir Jim Ratcliffe made headlines last week after making another comment on immigration.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790150381000
-    },
-    {
-      "competition": "mirror",
-      "title": "Benjamin Sesko injury mocked as Michael Carrick accused of 'killing' Man Utd teammate",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-benjamin-sesko-carrick-37691839",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37691838.ece/ALTERNATES/s615/3_Manchester-United-v-Manchester-City-Premier-League-202627.jpg",
-      "summary": "Michael Carrick is being accused of ‘killing’ a Manchester United player, with Benjamin Sesko also the subject of mocking now for having sustained a shin injury",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790148840000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Today&#8217;s Papers &#8211;  Pio Esposito &#8216;better&#8217; than Toni, new Juventus goalkeepers",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/todays-papers-esposito-better-toni-juve-keeper/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-032306ifo58w1-414x578.webp",
-      "summary": "La Gazzetta dello Sport Assault on Palmisani Juve, future to the goal Insult to Mazzola:...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790148689000
-    },
-    {
-      "competition": "mirror",
-      "title": "Former England boss lands shock new job aged 73 as he returns to work",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-manager-new-job-taylor-37691829",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37691833.ece/ALTERNATES/s615/1_taylor-thailand.jpg",
-      "summary": "The ex-England coach has landed a new job more than two decades after he steered the Three Lions' ship and anointed a legendary captain",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790148639000
-    },
-    {
-      "competition": "echo",
-      "title": "Will Wright can't stop scoring as two Liverpool players send Andoni Iraola message",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/wright-cant-stop-scoring-two-34656588",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34657746.ece/ALTERNATES/s615/0_GettyImages-2296623324.jpg",
-      "summary": "Ian Doyle with the talking points from Liverpool under-21s and their EFL Trophy clash at Rochdale on Tuesday evening",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790148147000
-    },
-    {
-      "competition": "indy",
-      "title": "Mikel Arteta ‘agrees new contract’ as head coach of Arsenal",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/mikel-arteta-contract-arsenal-news-latest-b3054464.html",
-      "image": "https://static.independent.co.uk/2026/09/22/17/b998939028ea867a621fc6074510467aY29udGVudHNlYXJjaGFwaSwxNzkwMTgxMTc1-2.85765780.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The 44-year-old is poised to extend his stay with the Premier League champions to at least 10 seasons",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790148052000
-    },
-    {
-      "competition": "indy",
-      "title": "Why Brighton are the Premier League’s SCARIEST team",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/tv/acfc/brighton-premier-league-fabian-hurzeler-b3054740.html",
-      "image": "https://static.independent.co.uk/2026/09/23/08/2296294687..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "summary": "Brighton sit 3rd in the Premier League going into the international break after beating Premier League champions Arsenal 3-0. Adam Clery analyses how Fabian Hurzeler's side are doing this, and if their playing style is…",
-      "teams": [
-        "brighton"
-      ],
-      "publishedAt": 1790147920000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal plot next Julian Alvarez transfer move after £128m actions 'spark great anger'",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/julian-alvarez-transfer-arsenal-barcelona-34657563",
-      "image": "https://i2-prod.football.london/incoming/article34657690.ece/ALTERNATES/s615/0_JS418678057.jpg",
-      "summary": "Atletico Madrid star Julian Alvarez is still being linked with a move to Arsenal following the summer transfer window",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790147550000
-    },
-    {
-      "competition": "bbc",
-      "title": "Germany's saviour? How Klopp is looking to turn fortunes around",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2z3n88z77o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/285c/live/54c7e830-b667-11f1-bc1f-3f186ca4140c.jpg",
-      "summary": "As Jurgen Klopp prepares for his first game as Germany manager, BBC Sport looks at how is trying to turn their fortunes around.",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790146826000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Steur shines, Dedic role, Bamba mystery - rank Newcastle United summer transfers",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/steur-shines-dedic-role-bamba-34654852",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34655367.ece/ALTERNATES/s615/0_Train.jpg",
-      "summary": "Your chance to rank Newcastle United's summer window arrivals after the first month of the season",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790145900000
-    },
-    {
-      "competition": "mirror",
-      "title": "Max Dowman handed England reality check as Arsenal star eyes long-standing record",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-england-max-dowman-news-37691687",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37691696.ece/ALTERNATES/s615/0_GettyImages-2234499249.jpg",
-      "summary": "Max Dowman is tipped for huge things but, despite talk of an England call-up, the Arsenal teenager has been reminded that players have to progress through the age grades first",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790144696000
-    },
-    {
-      "competition": "bbc",
-      "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/86bb/live/34826000-b6a3-11f1-ba3d-1d5c8a47f823.jpg",
-      "summary": "Robbie Ure has made it all the way to Sevilla since failing to break through at Rangers and now a first Scotland cap awaits the striker, writes Tom English.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790144456000
-    },
-    {
-      "competition": "metro",
-      "title": "Wayne Rooney tells Man Utd star to &#8216;play injured&#8217; after another setback",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/23/wayne-rooney-tells-man-utd-star-play-injured-another-setback-29644875/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-17.13.14-24fe.png?w=646",
-      "summary": null,
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790143200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Alan Shearer delivers Tottenham relegation verdict and makes Aston Villa comparison",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/alan-shearer-delivers-tottenham-relegation-34656940",
-      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/transfer-news/article34500747.ece/ALTERNATES/s615/0_JS402298357.jpg",
-      "summary": "The former England striker has had his say on what will happen to Tottenham this season after their poor start to the Premier League",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790143200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso's extensive to-do list at Chelsea revealed as Estevao Willian agreement reached",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/xabi-alonsos-extensive-list-chelsea-34654686",
-      "image": "https://i2-prod.football.london/incoming/article34655311.ece/ALTERNATES/s615/0_GettyImages-2295365141.jpg",
-      "summary": "Xabi Alonso has a few weeks to reflect and review what needs changing at Chelsea following a dismal 3-0 defeat at the hands of Brentford last week",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790143200000
-    },
-    {
-      "competition": "men",
-      "title": "Ranking the worst 15-minute Man United collapses and how Fulham display compares",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-gary-neville-fulham-34653157",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34653203.ece/ALTERNATES/s615/0_BESTPIX-Fulham-v-Manchester-United-Premier-League-202627.jpg",
-      "summary": "Gary Neville made a highly questionable claim about Manchester United's performance at Fulham",
-      "teams": [
-        "manutd",
-        "fulham"
-      ],
-      "publishedAt": 1790143200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United hold mini inquest after Hull clash as scouting changes afoot amid 7,732 boost",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-hold-mini-inquest-34654958",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34655986.ece/ALTERNATES/s615/0_premium-canvas-1790088889499.png",
-      "summary": "Here's a midweek edition of the notebook with Newcastle United left with plenty to reflect on during the international break",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790142900000
-    },
-    {
-      "competition": "men",
-      "title": "Man United handed JJ Gabriel transfer deadline as European giants circle for move",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-manchester-united-timeline-34657334",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34657333.ece/ALTERNATES/s615/0_JS416258849.jpg",
-      "summary": "Manchester United youngster JJ Gabriel has made it clear he wants to leave the club",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790141400000
-    },
-    {
-      "competition": "bbc",
-      "title": "Name Wales' Euro 2016 semi-final XI against Ronaldo's Portugal",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cv1j4y0yp52ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7035/live/0d0fd1a0-b677-11f1-bc1f-3f186ca4140c.jpg",
-      "summary": "As Craig Bellamy's side travel to Portugal on Thursday, can you name the Wales side that faced Cristiano Ronaldo's side in the semi-final of Euro 2016?",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790140031000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Mikel Arteta faces tough Max Dowman decision after Arsenal reunion request",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/max-dowman-arsenal-transfer-decision-34657182",
-      "image": "https://i2-prod.football.london/incoming/article34657255.ece/ALTERNATES/s615/0_Ipswich-Town-v-Arsenal-Carabao-Cup-Third-Round.jpg",
-      "summary": "Max Dowman is reportedly attracting interest from several clubs over a potential loan deal.",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Fabian Hurzeler’s baffling radio appearance, Arsenal 'establishment' dig and the missing facts",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/fabian-hurzelers-baffling-radio-appearance-34656273",
-      "image": "https://i2-prod.football.london/incoming/article34656300.ece/ALTERNATES/s615/1_Fabian-Hurzeler-and-Arsenal.jpg",
-      "summary": "In a strange radio appearance that left many questions unanswered, Fabian Hurzeler labelled Arsenal as part of the Premier League 'establishment' that Brighton are trying to battle against",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "men",
-      "title": "No confidence in Ratcliffe and a lost message - Manchester United Muslim Supporters' Club set record straight",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/no-confidence-ratcliffe-lost-message-34654594",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34655083.ece/ALTERNATES/s615/0_premium-canvas-1790083074020.png",
-      "summary": "Distrust in Sir Jim Ratcliffe's co-ownership of Manchester United bubbled over at the weekend following a statement from the Manchester United Muslim Supporters' Club",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "men",
-      "title": "Michael Carrick 'killing' Man United star with current tactic as four teammates dubbed 'average'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-michael-carrick-cunha-34657181",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34651178.ece/ALTERNATES/s615/1_Michael-Carrick.jpg",
-      "summary": "Michael Carrick has endured a difficult start to his first full season in charge of Manchester United with just five points to the Reds' name so far",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "echo",
-      "title": "Five reasons to be pleased as Everton reach break in position that looked impossible weeks ago",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/five-reasons-pleased-everton-reach-34653200",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34653974.ece/ALTERNATES/s615/0_premium-canvas-1790074662795.png",
-      "summary": "Everton FC correspondent Joe Thomas looks over the positives after an unbeaten start that defied the odds given the turbulence around the club",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Andoni Iraola's striker plan as Kylian Mbappe breaks silence on transfer",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-iraola-mbappe-striker-transfer-34655802",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/transfer-news/article34655800.ece/ALTERNATES/s615/0_France-Training-And-Press-Conference-FIFA-World-Cup-2026.jpg",
-      "summary": "Liverpool can rest easy over the international break knowing they're undefeated so far this season under new manager Andoni Iraola",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "chronicle",
-      "title": "'One or two signings' - Newcastle United's January transfer wishlist after Portugal scouting trip",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/one-two-signings-newcastle-uniteds-34653138",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34653729.ece/ALTERNATES/s615/0_GettyImages-2295837475.jpg",
-      "summary": "Newcastle United have already started with their transfer plans",
-      "teams": [
-        "newcastle",
-        "portugal"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Who is JJ Gabriel's agent? Meet man behind wantaway Man Utd wonderkid's transfer talks",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-agent-37688608",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37688688.ece/ALTERNATES/s615/1_shutterstock_editorial_16004526aj-copy.jpg",
-      "summary": "JJ Gabriel is set to team up with a super agent to clinch his desired exit from Manchester United",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790137800000
     }
   ]
 }
