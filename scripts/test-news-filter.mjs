@@ -8,7 +8,8 @@
 import {
   isOtherCompetition, busiestTeams,
   extractOgImage, absoluteHttpUrl, decodeGoogleLink, publisherUrlFromGooglePage,
-  imageFromItemXml, linkFromItemXml, summaryFromItemXml, dedupe
+  imageFromItemXml, linkFromItemXml, summaryFromItemXml, dedupe,
+  isOtherSport, rank
 } from "./fetch-football-news.mjs";
 
 /* Wording alone should catch these. */
@@ -306,7 +307,68 @@ function checkDedupe() {
   return bad;
 }
 
-fail = checkBusiestTeams() + checkImages() + checkFeedImages() + checkDedupe();
+/* Sports desks file on more than football, and a national side's name is
+   what tags those stories here. Real example from the runner. */
+function checkOtherSport() {
+  let bad = 0;
+  const notFootball = [
+    "Farewell Mark Wood, England\u2019s fastest ever bowler",
+    "England name squad for the third Test match against India",
+    "Rugby: England edge France in the Six Nations",
+    "Italy's Jannik Sinner reaches the Wimbledon quarter-final",
+    "Brazil's basketball team qualify for the Olympic Games"
+  ];
+  const football = [
+    "England vs Spain UEFA Nations League preview: Everything you need to know",
+    "Arsenal test Manchester City in the Premier League title race",
+    // "test" and "match" are ordinary football words; only "test match" is not
+    "Arteta faces his sternest test as Arsenal match Liverpool's pace",
+    "Real Madrid statement claims La Liga president Tebas is incapable of leading",
+    "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League"
+  ];
+  for (const t of notFootball) {
+    if (!isOtherSport(t)) { console.error(`FAIL: not football, should be dropped:\n  ${t}`); bad++; }
+  }
+  for (const t of football) {
+    if (isOtherSport(t)) { console.error(`FAIL: dropped a football story:\n  ${t}`); bad++; }
+  }
+  if (!bad) console.log(`  ok   ${notFootball.length} other-sport headlines dropped, ${football.length} football ones kept`);
+  return bad;
+}
+
+/* A picture is worth a few hours of freshness, and no more than that. */
+function checkRank() {
+  let bad = 0;
+  const HOUR = 3600000, now = Date.now();
+  const withPic = (hoursAgo) => ({ publishedAt: now - hoursAgo * HOUR, image: "https://x/p.jpg" });
+  const noPic = (hoursAgo) => ({ publishedAt: now - hoursAgo * HOUR, image: null });
+
+  // A six-hour-old story with a picture outranks a fresh bare headline.
+  if (rank(withPic(6)) <= rank(noPic(0))) {
+    console.error("FAIL: a picture should outrank a slightly fresher bare headline"); bad++;
+  }
+  // A ten-hour-old one does not: the bonus is bounded, so the panel stays news.
+  if (rank(withPic(10)) >= rank(noPic(0))) {
+    console.error("FAIL: the picture bonus should not promote yesterday's news"); bad++;
+  }
+  // Between two stories that both have pictures, the newer still wins.
+  if (rank(withPic(1)) <= rank(withPic(5))) {
+    console.error("FAIL: among pictures, recency should still decide"); bad++;
+  }
+  // And between two bare headlines.
+  if (rank(noPic(1)) <= rank(noPic(5))) {
+    console.error("FAIL: among bare headlines, recency should still decide"); bad++;
+  }
+  // A missing timestamp must not throw or float to the top.
+  if (rank({ publishedAt: null, image: null }) !== 0) {
+    console.error("FAIL: an undated story should rank at the bottom"); bad++;
+  }
+  if (!bad) console.log("  ok   ranking: a picture is worth a few hours of freshness, not a day");
+  return bad;
+}
+
+fail = checkBusiestTeams() + checkImages() + checkFeedImages() + checkDedupe() +
+       checkOtherSport() + checkRank();
 for (const t of MUST_DROP) {
   if (!isOtherCompetition(t)) { console.error("FAIL: should have been dropped:\n  " + t); fail++; }
 }

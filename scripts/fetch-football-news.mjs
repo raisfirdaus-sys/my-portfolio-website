@@ -66,16 +66,24 @@ const PUBLISHER_FEEDS = [
   { id: "indy",     name: "The Independent", url: "https://www.independent.co.uk/sport/football/rss" },
   { id: "mirror",   name: "Mirror Football", url: "https://www.mirror.co.uk/sport/football/?service=rss" },
   { id: "metro",    name: "Metro",        url: "https://metro.co.uk/sport/football/feed/" },
-  { id: "express",  name: "Express",      url: "https://www.express.co.uk/posts/rss/67/football" },
-  { id: "f365",     name: "Football365",  url: "https://www.football365.com/feed" },
   { id: "90min",    name: "90min",        url: "https://www.90min.com/posts.rss" },
   { id: "talksport", name: "talkSPORT",   url: "https://talksport.com/football/feed/" },
   { id: "espn",     name: "ESPN",         url: "https://www.espn.com/espn/rss/soccer/news" },
-  { id: "goal",     name: "Goal.com",     url: "https://www.goal.com/feeds/en/news" },
-  { id: "tribal",   name: "Tribal Football", url: "https://www.tribalfootball.com/rss" },
   { id: "fitalia",  name: "Football Italia", url: "https://www.football-italia.net/feed" },
-  { id: "bundes",   name: "Bundesliga",   url: "https://www.bundesliga.com/en/bundesliga/news/rss" }
+  { id: "bundes",   name: "Bundesliga",   url: "https://www.bundesliga.com/en/bundesliga/news/rss" },
+  /* Reach plc's regional titles all answer ?service=rss, and their club
+     desks file more often than the nationals - which is most of what a
+     board full of English clubs wants. */
+  { id: "footlondon", name: "football.london", url: "https://www.football.london/?service=rss" },
+  { id: "men",      name: "Manchester Evening News", url: "https://www.manchestereveningnews.co.uk/sport/football/?service=rss" },
+  { id: "echo",     name: "Liverpool Echo", url: "https://www.liverpoolecho.co.uk/sport/football/?service=rss" },
+  { id: "chronicle", name: "Chronicle Live", url: "https://www.chroniclelive.co.uk/sport/football/?service=rss" },
+  { id: "birmingham", name: "Birmingham Live", url: "https://www.birminghammail.co.uk/sport/football/?service=rss" }
 ];
+/* Dropped after one run measured them: express.co.uk answers 403 to a
+   script, and football365.com/feed, goal.com/feeds/en/news and
+   tribalfootball.com/rss all answer 404. A dead feed only costs a logged
+   line, but there is no reason to keep asking. */
 
 /* Feeds used ONLY to build a blocklist, never to supply stories.
    The same clubs field women's and youth sides, and Google returns their
@@ -228,6 +236,17 @@ async function fetchFeed(comp) {
    ("late WCL relief for Arsenal"), which the longer "uwcl" missed. */
 export const OTHER_COMP =
   /\b(women['\u2019]?s?|wsl|u?wcl|nwsl|femenino|feminin[ae]?|femminile|frauen|damallsvenskan|u1[5-9]|u2[0-3]|youth|academy|reserves)\b/i;
+
+/* Sports pages file on more than football, and a national team's name is
+   exactly what tags those stories to this board: "Farewell Mark Wood,
+   England's fastest ever bowler" arrived as an England story. These words
+   do not appear in football writing. */
+export const OTHER_SPORT =
+  /\b(cricket|bowler|wicket|batsman|batting|innings|test match|odi|t20|rugby|scrum|six nations|nfl|super bowl|quarterback|nba|basketball|tennis|wimbledon|golf|pga|ryder cup|formula 1|f1 gp|grand prix|motogp|boxing|ufc|mma|olympic|athletics|cycling|tour de france|darts|snooker|baseball|mlb|nhl|ice hockey)\b/i;
+
+export function isOtherSport(title) {
+  return OTHER_SPORT.test(String(title || ""));
+}
 
 export function isOtherCompetition(title) {
   /* Strip accents first: Spanish and French headlines print "femenino" and
@@ -588,6 +607,22 @@ export function dedupe(items) {
   });
 }
 
+/* Ordering. Straight recency looked right and read wrong: measured on the
+   runner, every one of the 480 stories the publishers filed carried a
+   picture, yet only 13 reached the page, because Google files far more
+   stories and files them faster. The panel ended up newest-first and almost
+   entirely pictureless.
+
+   So a picture is worth a few hours of freshness - a story with one is
+   preferred over a bare headline up to PHOTO_WORTH_MS newer, and no further.
+   Nothing is promoted past that, so the panel stays a news panel rather
+   than a gallery of yesterday. */
+const PHOTO_WORTH_MS = 8 * 60 * 60 * 1000;
+
+export function rank(it) {
+  return (it.publishedAt || 0) + (it.image ? PHOTO_WORTH_MS : 0);
+}
+
 async function main() {
   // Both sources at once: Google News for reach, publishers for pictures.
   const [gRes, pRes] = await Promise.all([
@@ -631,10 +666,11 @@ async function main() {
 
   /* Layer 1: the headline says so outright. Cheap, and it never fails the
      way a network call can. */
-  const dropped = { keyword: 0, feed: 0 };
+  const dropped = { keyword: 0, sport: 0, feed: 0 };
   const candidates = items.filter((it) => {
     if (!it.teams.length) return false;                   // not about this board
     if (isOtherCompetition(it.title)) { dropped.keyword++; return false; }
+    if (isOtherSport(it.title)) { dropped.sport++; return false; }
     return true;
   });
 
@@ -666,7 +702,7 @@ async function main() {
     dropped.feed = 0;
     tagged = candidates;
   }
-  tagged.sort((a, b) => (b.publishedAt || 0) - (a.publishedAt || 0));
+  tagged.sort((a, b) => rank(b) - rank(a));
 
   /* A filter that removes everything is a bug, not a quiet news day. Keep
      the previous file rather than publishing an empty brief. */
@@ -695,6 +731,7 @@ async function main() {
       raw: items.length,
       tagged: tagged.length,
       droppedKeyword: dropped.keyword,
+      droppedOtherSport: dropped.sport,
       droppedFeed: dropped.feed,
       blocklistDistrusted: overblocked,
       withImage: published.filter((it) => it.image).length
@@ -703,7 +740,7 @@ async function main() {
   };
 
   await fs.writeFile(outPath, JSON.stringify(out, null, 2) + "\n");
-  console.log(`Wrote ${out.items.length} tagged stories (of ${items.length} unique; dropped ${dropped.keyword} by wording, ${dropped.feed} by blocklist).`);
+  console.log(`Wrote ${out.items.length} tagged stories (of ${items.length} unique; dropped ${dropped.keyword} by wording, ${dropped.sport} as another sport, ${dropped.feed} by blocklist).`);
 }
 
 /* Importing this file (the filter test does) must not fire the fetch. */
