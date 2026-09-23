@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790175388152,
+  "generatedAt": 1790175540666,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1539,
-    "tagged": 779,
+    "raw": 1536,
+    "tagged": 780,
     "droppedKeyword": 41,
     "droppedOtherSport": 1,
     "droppedFeed": 9,
@@ -12,6 +12,19 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Jarrad Branthwaite credits David Moyes for key Everton 'idea' that has led to England recall",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jarrad-branthwaite-credits-david-moyes-34660877",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34660869.ece/ALTERNATES/s615/0_Englands-Jarrad-Branthwaite-during-a-press-conference-at-St-Georges-Park-Burton-upon-Trent-Picture-date-Wednesday.jpg",
+      "summary": "Jarrad Branthwaite travelled to Germany in the summer to help solve the injury problems that had blighted his highly promising Everton and England career",
+      "teams": [
+        "everton",
+        "england"
+      ],
+      "publishedAt": 1790175480000
+    },
     {
       "competition": "fitalia",
       "title": "Milan ready to use Pulisic and Rabiot contract clauses to June 2028",
@@ -730,18 +743,6 @@
         "manutd"
       ],
       "publishedAt": 1790160682000
-    },
-    {
-      "competition": "men",
-      "title": "Final Bruno Fernandes verdict as Premier League panel speak out on Man United incident",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-bruno-fernandes-foden-34659109",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34659089.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-EFL-Carabao-Cup-Football-Old-Trafford-UK-16-Sep-202.jpg",
-      "summary": "The Premier League's key match incidents panel have provided an independent assessment on the Manchester derby incident involving Bruno Fernandes and Phil Foden",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790160418000
     }
   ]
 }
