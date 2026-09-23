@@ -1,14 +1,26 @@
 {
-  "generatedAt": 1790130295343,
+  "generatedAt": 1790130449747,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 973,
+    "raw": 970,
     "tagged": 456,
     "droppedKeyword": 38,
-    "droppedFeed": 9
+    "droppedFeed": 12,
+    "blocklistDistrusted": false
   },
   "items": [
+    {
+      "competition": "unl-a",
+      "title": "England vs Spain UEFA Nations League preview: Everything you need to know",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRjhKTHJKLWNWR093LUFWOVl1c09GRUxXTVdQOUxKNEJOaWwyTjBRT2hXWTNpYjF1WXh5SDVWZnZ4cGpMZ1R4N3dZZnMwdFBOMEU1Nm9VaGVzdWRsZ3ZoQWw4bzdWZTUyeDZOS1puZUlxY3VMSTdWS1dSQm9tUkZ3VW9jRGkzWmV6ZDFib3M3d3NCdTFO?oc=5",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790126726000
+    },
     {
       "competition": "unl-a",
       "title": "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League",
@@ -33,7 +45,7 @@
     {
       "competition": "transfer",
       "title": "Chelsea transfer news today: 'New midfield target' and young striker 'admired'",
-      "publisher": "London Evening Standard",
+      "publisher": "standard.co.uk",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmRYTlNmV0hHc1NybGtab2pHNXFBZ3BxbERpaGN0aFliNEIyc2xMZFhIbmNvWktJNV82akRrbmthclJFVjBObVluck1pb3ZBZFJiYm9DT0JSSkZtUi1YMHhTbG1HODZSbHA2VGdEVktZcVVWbU9teE9kTkY4TDlkYS04N3IxejQyYXpacW9CVE1NclA0RWk0S00xWUVDS0lfbmhqYXBSOTczeEkzQUVnNQ?oc=5",
       "teams": [
         "chelsea"
@@ -43,7 +55,7 @@
     {
       "competition": "transfer",
       "title": "Transfer news LIVE: Arsenal plot Alvarez loan; three Chelsea targets; Man Utd, Liverpool latest",
-      "publisher": "London Evening Standard",
+      "publisher": "standard.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3FyVS1uY1ExSWdNWkxIWENVTERWWlZQNE91MnhXeVZJWFZmYW9UV2pYczBfLXJ4OVItajU3bXFoc0dXeU5PZm1EazY1RjJoUTNCNC1veDl6bmZLYlNscEUwQ0xwX0J6TjRwR0tYdGptaXJMaXp1VHk3WkZybWFkY05lVmlFR3IyblV1dWxYNWZPQ1JWTVpISUN5NVg5R3ZhTWxYM0pXbGhEZFVFTHNjUE1IZWJnSGNBbkRN?oc=5",
       "teams": [
         "liverpool",
@@ -97,7 +109,7 @@
     {
       "competition": "transfer",
       "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
-      "publisher": "London Evening Standard",
+      "publisher": "standard.co.uk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
       "teams": [
         "manutd"
@@ -128,7 +140,7 @@
     {
       "competition": "epl",
       "title": "Spurs? Liverpool? Man United? Chelsea? Biggest concerns in the Premier League",
-      "publisher": "ESPN",
+      "publisher": "espn.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vMktidUFjQ3ZoM3BuSVh1OGxmenczX19vQ0p4dlBzNnpnSHQ3ZU9MRVp3Z1BqV2VrNlo5VHJKT3hlMnUzQXgxZkdkbUxXeTdSTy1lRFhNQ1k4cVU?oc=5",
       "teams": [
         "manutd",
@@ -136,17 +148,6 @@
         "chelsea"
       ],
       "publishedAt": 1790116002000
-    },
-    {
-      "competition": "unl-a",
-      "title": "England vs Spain UEFA Nations League preview: Everything you need to know",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRjhKTHJKLWNWR093LUFWOVl1c09GRUxXTVdQOUxKNEJOaWwyTjBRT2hXWTNpYjF1WXh5SDVWZnZ4cGpMZ1R4N3dZZnMwdFBOMEU1Nm9VaGVzdWRsZ3ZoQWw4bzdWZTUyeDZOS1puZUlxY3VMSTdWS1dSQm9tUkZ3VW9jRGkzWmV6ZDFib3M3d3NCdTFO?oc=5",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790115870000
     },
     {
       "competition": "epl",
@@ -160,17 +161,6 @@
     },
     {
       "competition": "epl",
-      "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnYteEV1Mkc4Wjd1NWszTnRwd05sSHg2MWljUnNSMGlCRllRWnZvOFp6MHJaWjU3NUplZlJEdWJmUUUtVzh1ZkZPRzVITEpYYW0waTB3RFNNTHJQUEVMLUdXczhoaThtOTBJdjRkWDlVNGtfLTRhTGUwQk81bEZHTXREVlZWbk9KQU4tNWVGUlJnTE1hNWJHNzRjV0lnV0RqZHVxQnlfZHRMZ0VpQ2toOV83LThpSkF4?oc=5",
-      "teams": [
-        "mancity",
-        "netherlands"
-      ],
-      "publishedAt": 1790114415000
-    },
-    {
-      "competition": "epl",
       "title": "2026–27 Premier League Table Without VAR: Major Overhaul As Man City Tumble",
       "publisher": "Sports Illustrated",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWUZDSFZCY3NqVEdIZ1J6T3V6dlJUWHlIRG9QWHpCNWxzdDE3c24wdDUxMGNJWjFMSTJ2Vl9HaVdYc3F4ZmNsOWx5VllqUFZrSHNtZWJld1JsWFJNbnVQME5Ra1ZWNElvdm1mVVF6dlc4NV9kYWthRUJsS2lDa0owOXlMaXREUXV1ZFE?oc=5",
@@ -178,16 +168,6 @@
         "mancity"
       ],
       "publishedAt": 1790114401000
-    },
-    {
-      "competition": "ucl",
-      "title": "Slegers praises Arsenal’s resilience after late Champions League win",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0NnNnMzZ3BadXo1T1JSeFQ5WUdOaDd1QkxzV29CQkVLMndxaUFHdTdlMXZ0SkhyVU5vaFJHZ0Z0b3FSdVFGczZzWWJQUzBCMlFHOHNUQkJvMXhMRFljOC13WDcxalUtaUlBdmk1Rnk2U21Nb0p4WkM4bXhFVXY0UTBQWm5LdDZiNE8ydUlhUU9maVFxczNpdg?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790114100000
     },
     {
       "competition": "unl-a",
@@ -220,16 +200,6 @@
       "publishedAt": 1790112017000
     },
     {
-      "competition": "ucl",
-      "title": "Mateo urges strong defence before PFC face Barcelona in Champions League",
-      "publisher": "OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmRqTGhpa19ET19TbWVBbHBfYlpveWZmQ3RkQURibnlYX2pwR3oxY3NROHkybGxRSXljcTNuRmRSUWw3MFFja09wUzRmWEV4RFN6bWlTZEZmOGROT1dRM3BVUklJaE9XTmU1RkhiV1NGS2dLWkotd3ZsZGM5SlZYNFRRZlVhUEtVdGowVzJYb1E5engwSFZTSGE3dm9xdE91NjJXbkJPeWFta1ZLRXlmWHJMTQ?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790111930000
-    },
-    {
       "competition": "seriea",
       "title": "De Bruyne: I did not try to leave Napoli",
       "publisher": "FotMob",
@@ -248,6 +218,16 @@
         "sunderland"
       ],
       "publishedAt": 1790110200000
+    },
+    {
+      "competition": "epl",
+      "title": "Mikel Arteta, Arsenal’s overlord, has upscaled the club from moored in mediocrity to title winners - The Athletic",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbGhPRlBkNkZWLWQ2cE5aNGdGUmYyOGRVSlhob2duVnVWczFmWjZiX1JLZXB6d01FNnFDRjluUVpoU0UzeFZBVlFJNEpVUnVwd1NkMWpfd3YxMlc1Z0ROcW9HdzJUcDV6N3ZDZlpBdFloNlRaS2dyS1BxTFpvN2xHVVB3N1A3eEx2OFotdlRpRW0?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790109152000
     },
     {
       "competition": "seriea",
@@ -303,7 +283,7 @@
     {
       "competition": "epl",
       "title": "Mikel Arteta agrees contract extension expected to keep him at Arsenal until 2030",
-      "publisher": "The Guardian",
+      "publisher": "theguardian.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnJTdUNkQlI1YVZnWmNOZkdxRkhGaURDWVl1VDdrNXBCOTN1YkxtRWQwSnpHZldJSlJwcmFvdHdWREJBSmlEUUI3WGJsWENQMXp3cGVvTHdZeWxaeXhjamJwdS12YWFscnp4WjRRaHBsMWJKckoySWI3cjhTYzlsTkhpVTJVTmcybFFJT2N5Q3BHdXJrOWQ5VlcxX0JDN3BoUFE?oc=5",
       "teams": [
         "arsenal"
@@ -313,7 +293,7 @@
     {
       "competition": "laliga",
       "title": "Real Madrid go to war with LaLiga as they make damning ‘dishonest’ claim",
-      "publisher": "talksport.com",
+      "publisher": "talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb24xUFRTak5IalFiLTk1ZmlUOFg0ZU9HTVcyQi03WXFyOTRlVjFyZjJzelFFV2E2eDE4QWRQdGtURzN3OE8tdGdJUVQ5eU5OZWhxOV8xUnFHQzk0aE01cEdpYVFiUTVtOFZldjNfMUd2MnVBSEl1NWR1Wlh4MVVyd0QtZmtlTzQ?oc=5",
       "teams": [
         "realmadrid"
@@ -345,7 +325,7 @@
     {
       "competition": "epl",
       "title": "Arteta to sign fresh deal, Liverpool set to appoint new sporting director",
-      "publisher": "talksport.com",
+      "publisher": "talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1htT215MUZGSUNHbFdWcWdXcnhnUXlqaFBwV0dNZkQxNUUzRXlkSkQyWW9NUHU2ZTIyNnJhV2pIcjM1ZS16ZEtWWndDd0FETVYxMnU2bnhuZDVYVnloN3dab05MQVhCeV9fOVlMZmpIZjlSbEd4bS1fRGF1YXV6QWRjRkwwM2FLcVdaRG9OSTNFOGY5T0x6TVJaQndrNzJReGQwQg?oc=5",
       "teams": [
         "liverpool"
@@ -376,7 +356,7 @@
     {
       "competition": "laliga",
       "title": "Athletic Club | La Liga Matchday 1 - FC Barcelona",
-      "publisher": "Official FC Barcelona Website",
+      "publisher": "fcbarcelona.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON193cmF0T3JFYlR3Z1F5T1RVd0hHbkpLS2F6WlFyLVJYelRpWmlLdjFleHBIOV8zYkpuUWQ0cXRHTXAxakNnTTYwbkM1Uy1ma3hVYV9LSk1JdkpabGdYd0tkQ2wxNzlDZTNEM1Q1NktZNW9oaGk3UzZlaVh1R1o2MkpNUDctUGpHaC1VS0ZhbnUxS3ow?oc=5",
       "teams": [
         "barcelona"
@@ -468,7 +448,7 @@
     {
       "competition": "seriea",
       "title": "Venezia 2026 Results",
-      "publisher": "ESPN",
+      "publisher": "espn.com",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ndkVlRDZYaE9JV2dnTkxTZ200QWJwZm1JTXUtY2h5blRFTnVxVTZ6Wm9MMUZSS3JFQ3BYRnBRdFg1U0VaWDNaSEN2UmlqT09KbHJXUHFndF81NmFyRXJLRi0zNzNNcE1zdlhJ?oc=5",
       "teams": [
         "venezia"
@@ -478,7 +458,7 @@
     {
       "competition": "transfer",
       "title": "Arsenal transfer news: Major deal 'agreed', 'defender battle' and conditions 'revealed' for Alvarez loan move",
-      "publisher": "London Evening Standard",
+      "publisher": "standard.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXhzMVh2V09PMVhEeXQ3V1ExNU93LVFIQmgzZ2FBMGJPZko5c2tZRVA2Z2VIQk1VYkRieEF6czZlMFlieEdZYTNWSjVnZjhoOF94SGhxcWNSZzF1TkxRMGlrUER3OWo2LUVPa2xjcWU3ZnFPYXBWS3FlVjFQQ0ZUa1ZpVV8yMnRyVFlHQnY2OWFENzRMLWdCRlZWTHJ0RmlVaHJmYlQ2SzBBdw?oc=5",
       "teams": [
         "arsenal"
@@ -558,7 +538,7 @@
     {
       "competition": "ligue1",
       "title": "'What better way to practice?' – Esteban Lepaul reveals surreal Zinedine Zidane experience in France camp",
-      "publisher": "Yahoo Sports",
+      "publisher": "Yahoo",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUXBxc1laUUhmOWNUdzIzaGVZaUQ3NUxCLTdNcjZBTkphMi1fb2gtWmsybUtyYnpoZlNQX3pBdjVhZ0wzelBmUkh5SlU0aTZjU2hSYjJjb0wxU0Ffb09qRFRVUzFNY3hPNWhXQ3QzVjA3UjdOMElHd0NLOHZZcFk4OVd2TktockdWWEE?oc=5",
       "teams": [
         "france"
@@ -568,7 +548,7 @@
     {
       "competition": "seriea",
       "title": "Serie A Power Rankings: Roma nipping at Inter's heels after draw; AC Milan back in the top three",
-      "publisher": "CBS Sports",
+      "publisher": "cbssports.com",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3lBZVpVQWxpWkU0bzIwUHhORmNKRkJhT0VlcnREREx3ZEI5Tk1Ja05NWDVDenFsbmp6djlWYU9MeXdXbHRoTmZ1ZV9BQ2tNbGVrcTE2RWRVb1E1VzFBMVpITS0wNklwdkhNVGFGSC1YcGtoRGxwY2pFWG43OG1OeHRJcVN2cnAyb09wRjRGWkJqOUhHNjVLY0R3d3BEc2tnaEkyMmJuX1ZxVXpCSWJyUUxvM3lqWjNtbnlqYXlVXzNHSk5DbVZsdnI5TTM?oc=5",
       "teams": [
         "acmilan"
@@ -598,7 +578,7 @@
     {
       "competition": "seriea",
       "title": "Brentford star Michael Kayode reveals he always wanted to play for Italy",
-      "publisher": "Get Italian Football News",
+      "publisher": "getfootballnewsitaly.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzcwV3hVNjRBNWJxSnotZWc2U1lzVWRKTGhlS2JlS25jNFo2a3o0TkZzRGVFZmtsY3Ital9JSnhUbnllUHJTaUI2dEUwUFEyZ0hMVGNNbWhXcS1WbzlKM3JPTW9ISEZvMDN4dlpfcERMd2w4WXphc0FIR01ZYlpGVnN2X2IwaWRpSWVDcjBMTE1sTTlHODNDMFlOR1Roa0J3a0xqaXptcFZnN0VyaW5iSzlzT2podw?oc=5",
       "teams": [
         "brentford",
@@ -626,6 +606,27 @@
         "arsenal"
       ],
       "publishedAt": 1790096968000
+    },
+    {
+      "competition": "transfer",
+      "title": "Madrid squad convinced Vincius would join Arsenal in summer - Euro Transfer News",
+      "publisher": "TNT Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNUnU5VTZRLTRCUVdENmQwb1Z0MVo4UzBhUzhnSGdpX2NhUU0zYUV5WWlSbmVPQnpteFRxOTF4U181c0xOdlpmcEk1NFRSMGo2MWNJUWJwUVhwaHJEeG1aVjR6RnlLcjhQWWNKQS1PQzhCQWRQRTUyOUhCNzNXWWtlYkZjNHpWdkhRQ21udWxNc0k5Y2ZfQjlmeGN2eU9obFlqcmJuTXVqMEFUaGdKd2NYSzhBUU1VN1EtVFpkc08yRHNOQ0hxdWNRQnNIRXRWQUVGeFNMREVrSDFCTERvWUlpMWVNQzRkUkF3b3RxMWJnd0duQ01BcUZrc0k3cnRLcVo4RDZIV2pBZ05CV1Y5MjN2UlNZZ2cwcVY0Sm92anFFM3pxejhycUd1Y3AySWJ4WFJNLUh2VUIxSVgxZFgzeHVrWnVIU1o2eUdlbEt4U3ZIMjNiNjBjSEhDenVwbll1N3RRRW9YX1F4aEdxZkYxaXlPaXpWSW5mYzFBSlIxNm93U2MtTGc2LUpYUQ?oc=5",
+      "teams": [
+        "arsenal",
+        "realmadrid"
+      ],
+      "publishedAt": 1790096820000
+    },
+    {
+      "competition": "seriea",
+      "title": "GdS: ‘A chance to sharpen principles’ – why Milan and Amorim can benefit from break",
+      "publisher": "SempreMilan",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VYkk3SjdxRmZJdDlCQUptMDlMSTFOekVhbHpaTmppeUV4U2UtcHFycU84dTVmdElEbnF4bzJvVXF6T1ZtRTE0TWt2aFpsaWM2b254aDNwQW16R1c0eFNGYllqckh6Y01Obld5RjlocVFudFdPQlhB0gF8QVVfeXFMUC14M0lOczFmR1pyQjVadkxhM2dFYVZVQy10MTI2U1NVaTlSS1IzTjlVOXBLcFJuYldNRU55RW9JOFl6UnBaNUlqbkVsUkE5YzQ4b2NwSmVURTZDRTNWVGRxN3pfa0pHRFFPclRWdU93OUFTNXJZM0JBU1FxTQ?oc=5",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790096400000
     }
   ]
 }
