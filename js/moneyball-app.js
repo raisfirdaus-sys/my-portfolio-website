@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false, ttOnlyReal: true,
+    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false, ttOnlyReal: true, newsSlateOnly: true,
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -19,6 +19,14 @@
     if (cls) n.className = cls;
     if (text != null) n.textContent = text;
     return n;
+  }
+  /* Headlines and publisher names arrive from an outside feed and are put
+     into innerHTML. Anything from there is escaped first - a feed is not a
+     trusted source, however ordinary its contents look. */
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
   function pct(v, d) { return (v * 100).toFixed(d == null ? 1 : d) + '%'; }
   function signPct(v, d) {
@@ -488,6 +496,123 @@
         });
         host.appendChild(b);
       });
+  }
+
+  /* ================================================= FOOTBALL NEWS ==== */
+  /* Headlines are fetched server-side every half hour by a scheduled
+     workflow and committed as a static file; this only reads it. The feed
+     carries no photographs, so each card leads with the crest of the club
+     the story is tagged to - an image this page already draws, rather than
+     a publisher's picture it has no licence to republish. */
+  var NEWS = null;
+
+  function timeAgo(ms) {
+    if (!ms) return '';
+    var mins = Math.round((Date.now() - ms) / 60000);
+    if (mins < 1) return 'just now';
+    if (mins < 60) return mins + ' min ago';
+    var hrs = Math.round(mins / 60);
+    if (hrs < 24) return hrs + (hrs === 1 ? ' hour ago' : ' hours ago');
+    var days = Math.round(hrs / 24);
+    return days + (days === 1 ? ' day ago' : ' days ago');
+  }
+
+  function newsTeamsHTML(item) {
+    var known = (item.teams || []).filter(function (k) { return DATA.teams[k]; });
+    if (!known.length) return '';
+    return '<span class="news-teams">' +
+      known.slice(0, 3).map(function (k) {
+        return crestHTML(k) + '<span class="news-club">' + team(k).name + '</span>';
+      }).join('<span class="dot">&middot;</span>') +
+      '</span>';
+  }
+
+  function newsItems() {
+    var all = (NEWS && NEWS.items) || [];
+    if (!STATE.newsSlateOnly) return all;
+    /* Only stories about teams playing in the schedule on screen. */
+    var keys = {};
+    slateFixtures(STATE.slate).forEach(function (f) { keys[f.home] = 1; keys[f.away] = 1; });
+    return all.filter(function (it) {
+      return (it.teams || []).some(function (k) { return keys[k]; });
+    });
+  }
+
+  function renderNews() {
+    var host = $('news-body'); if (!host) return;
+    host.innerHTML = '';
+    var sub = $('news-sub');
+
+    if (!NEWS) {
+      if (sub) sub.textContent = '';
+      host.innerHTML = '<p class="stat-note">Loading headlines&hellip;</p>';
+      return;
+    }
+    if (NEWS.error) {
+      if (sub) sub.textContent = '';
+      host.innerHTML = '<div class="notice"><h3>Headlines unavailable</h3>' +
+        '<p>The news file could not be read. The rest of the page is unaffected &mdash; ' +
+        'odds and model output do not depend on it.</p></div>';
+      return;
+    }
+
+    var items = newsItems();
+    if (sub) {
+      sub.textContent = items.length + ' stories' +
+        (NEWS.generatedAt ? ' · updated ' + timeAgo(NEWS.generatedAt) : '');
+    }
+
+    if (!items.length) {
+      host.innerHTML = '<div class="notice"><h3>No stories for this schedule yet</h3>' +
+        '<p>The feed is filtered to the clubs on this board. Switch to ' +
+        '<strong>All clubs</strong> above, or wait for the next refresh &mdash; ' +
+        'headlines are collected every 30 minutes.</p></div>';
+      return;
+    }
+
+    function card(it, lead) {
+      var a = el('a', lead ? 'news-lead' : 'news-card');
+      /* javascript: and data: URLs in a feed would execute on click. */
+      a.href = /^https?:\/\//i.test(it.link || '') ? it.link : '#';
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.innerHTML = newsTeamsHTML(it) +
+        (lead ? '<h3>' : '<h4>') + esc(it.title) + (lead ? '</h3>' : '</h4>') +
+        '<span class="news-meta">' + esc(it.publisher || '') +
+        (it.publishedAt ? '<span class="dot">&middot;</span>' + timeAgo(it.publishedAt) : '') +
+        '</span>';
+      return a;
+    }
+
+    host.appendChild(card(items[0], true));
+    var grid = el('div', 'news-grid');
+    items.slice(1, 13).forEach(function (it) { grid.appendChild(card(it, false)); });
+    host.appendChild(grid);
+  }
+
+  function renderNewsTools() {
+    var host = $('news-tools'); if (!host) return;
+    host.innerHTML = '';
+    [['This schedule', true], ['All clubs', false]].forEach(function (opt) {
+      var b = el('button', 'chip', opt[0]);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', (STATE.newsSlateOnly !== false) === opt[1] ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        STATE.newsSlateOnly = opt[1];
+        renderNewsTools();
+        renderNews();
+      });
+      host.appendChild(b);
+    });
+  }
+
+  /* The file is rewritten every half hour, so it must never come from cache.
+     A failure here is contained: the panel says so and nothing else breaks. */
+  function loadNews() {
+    fetch('data/football-news.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)); })
+      .then(function (j) { NEWS = j; renderNews(); })
+      .catch(function () { NEWS = { error: true }; renderNews(); });
   }
 
   /* ============================================ TOP TEAM STATISTICS ==== */
@@ -2412,6 +2537,8 @@
   function renderAll() {
     refreshCalibration();
     renderSlateChips();
+    renderNewsTools();
+    renderNews();
     renderTopTeamTools();
     renderTopTeams();
     renderReality();
@@ -2558,6 +2685,7 @@
     renderCalibration();
     renderMethod();
     buildParlay();
+    loadNews();
     checkForNewBuild();
   }
 

@@ -1,0 +1,67 @@
+name: Update football news
+
+on:
+  schedule:
+    # Every 30 minutes. Offset from :00/:30 because the shared runner pool is
+    # busiest on the hour, and staggered from update-news.yml (:12/:42) and
+    # update-quotes.yml so the three never queue behind each other.
+    - cron: "07,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update-football-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: claude/stock-portfolio-website-2ulin2
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch football news
+        run: node scripts/fetch-football-news.mjs
+
+      - name: Commit and push if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/football-news.json
+          if git diff --cached --quiet; then
+            echo "No news changes, skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git commit -m "Update football news"
+          # Several scheduled workflows write to this same branch. Whichever
+          # lands first makes the others non-fast-forward; rebase and retry
+          # rather than failing, which is safe because each workflow only
+          # ever touches its own data/*.json file.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5) — rebasing onto latest and retrying..."
+            git fetch origin claude/stock-portfolio-website-2ulin2
+            git rebase origin/claude/stock-portfolio-website-2ulin2
+          done
+          echo "Push still failing after 5 attempts."
+          exit 1
+
+      # A push made with the default GITHUB_TOKEN does not trigger other
+      # workflows, so pages.yml would not redeploy with the fresh news.
+      # Dispatching it explicitly is exempt from that restriction.
+      - name: Trigger Pages redeploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref claude/stock-portfolio-website-2ulin2
