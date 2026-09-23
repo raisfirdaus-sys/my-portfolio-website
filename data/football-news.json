@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790197928594,
+  "generatedAt": 1790201659391,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
-    "tagged": 764,
-    "droppedKeyword": 37,
+    "raw": 1523,
+    "tagged": 757,
+    "droppedKeyword": 39,
     "droppedOtherSport": 1,
-    "droppedFeed": 4,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -22,7 +22,55 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790196631000
+      "publishedAt": 1790200212000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ex-Liverpool owner George Gillett dies aged 87 after battle with Alzheimer's",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-owner-george-gillett-dead-37696038",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article21015197.ece/ALTERNATES/s615/0_LIVERPOOL-FOOTBALL-CLUB-SOLD-TO-AMERICAN-BUSINESS-TYCOONS.jpg",
+      "summary": "American businessman George Gillett, who was previously the co-owner of Liverpool FC, has passed away at the age of 87 following a battle with Alzheimer's Disease",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790199858000
+    },
+    {
+      "competition": "mirror",
+      "title": "Enzo Fernandez transfer statement made as Man City warning issued to Premier League rivals",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/enzo-fernandez-man-city-transfer-37695997",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37696012.ece/ALTERNATES/s615/0_GettyImages-2296337502.jpg",
+      "summary": "Enzo Fernandez won the Club World Cup and the UEFA Conference League during his time with Chelsea before moving to Man City during the summer transfer window",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790199549000
+    },
+    {
+      "competition": "echo",
+      "title": "Former Liverpool co-owner George Gillett passes away aged 87",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/breaking-george-gillett-liverpool-death-34662963",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34662972.ece/ALTERNATES/s615/0_GettyImages-2202679383.jpg",
+      "summary": "George Gillett bought Liverpool alongside Tom Hicks back in 2007 before current owners Fenway Sports Group (FSG) took control three years later",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790199411000
+    },
+    {
+      "competition": "bbc",
+      "title": "Barcelona rule out Alvarez deal - Thursday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crq5x1n12xexo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b75f/live/d18ca640-b792-11f1-bc1f-3f186ca4140c.png",
+      "summary": "Barcelona rule out Alvarez signing from Atletico Madrid, Liverpool will not allow Wirtz departure, and Chelsea target English midfield duo, plus more.",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790199207000
     },
     {
       "competition": "indy",
@@ -47,6 +95,18 @@
         "liverpool"
       ],
       "publishedAt": 1790194210000
+    },
+    {
+      "competition": "bbc",
+      "title": "Serious business resumes for Wales boss Bellamy",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm780yp0nq7eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11a9/live/8e94a0e0-b783-11f1-8455-1b23d6f34f34.jpg",
+      "summary": "With the Burnley interest firmly behind him, Craig Bellamy is focused on leading Wales in the Nations League, starting against Portugal in Lisbon.",
+      "teams": [
+        "wales"
+      ],
+      "publishedAt": 1790193648000
     },
     {
       "competition": "fitalia",
@@ -211,18 +271,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Harry Kane opens up on true impact of England's World Cup heartbreak vs Argentina",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-england-argentina-spain-37694569",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37694478.ece/ALTERNATES/s615/0_GettyImages-2286282264.jpg",
-      "summary": "England captain Harry Kane has linked up with the Three Lions for the first time since their World Cup heartbreak against Argentina and the striker is keen to move on from that disappointment",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790186400000
-    },
-    {
-      "competition": "mirror",
       "title": "Harry Kane opens up on Bayern Munich contract - and reveals surprise career change plan",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-bayern-contract-nfl-37694855",
@@ -230,6 +278,18 @@
       "summary": "England captain Harry Kane is already thinking about life after football, with the 33-year-old making plans for when he eventually leaves Bayern Munich",
       "teams": [
         "bayern"
+      ],
+      "publishedAt": 1790186400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane opens up on true impact of England's World Cup heartbreak vs Argentina",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-england-argentina-spain-37694569",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37694478.ece/ALTERNATES/s615/0_GettyImages-2286282264.jpg",
+      "summary": "England captain Harry Kane has linked up with the Three Lions for the first time since their World Cup heartbreak against Argentina and the striker is keen to move on from that disappointment",
+      "teams": [
+        "england"
       ],
       "publishedAt": 1790186400000
     },
@@ -685,68 +745,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790173200000
-    },
-    {
-      "competition": "metro",
-      "title": "&#8216;He&#8217;s got the hump with Tuchel&#8217; &#8211; Chelsea and England star accused of faking injury",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/23/hes-got-hump-tuchel-chelsea-england-star-accused-faking-injury-29647453/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/07/GettyImages-2285772466_d05f69.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "chelsea",
-        "england"
-      ],
-      "publishedAt": 1790172625000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man Utd still £1bn in debt with £63.5m spent on new stadium",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5evwlmdmy00o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a61/live/ae28e830-b74c-11f1-a430-4d16ee157c41.jpg",
-      "summary": "Manchester United's overall debt remains over £1bn despite Sir Jim Ratcliffe's extensive cost-cutting measures, with the club also confirming it has spent £63.5m buying land for their new stadium.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790172621000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Real Madrid's dressing room reaction to Vinicius Jr's Arsenal transfer speaks volumes",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/real-madrids-dressing-room-reaction-34658681",
-      "image": "https://i2-prod.football.london/incoming/article34415797.ece/ALTERNATES/s615/2_GettyImages-2276193414.jpg",
-      "summary": "The reported reaction inside Real Madrid's dressing room to Vinicius Jr's failed move to Arsenal paints an agonising picture for the Gunners",
-      "teams": [
-        "realmadrid",
-        "arsenal"
-      ],
-      "publishedAt": 1790172456000
-    },
-    {
-      "competition": "bundes",
-      "title": "Felix Keidel: Who is the new Germany call-up starring for Elversberg?",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/who-is-felix-keidel-germany-klopp-elversberg-kimmich-39328",
-      "image": "https://assets.bundesliga.com/contender/2026/8/2627_MD01_ELVLEV_CKB_123.jpg?crop=0px%2C0px%2C7033px%2C3956px",
-      "summary": "Felix Keidel is one of 16 uncapped players called up by Jürgen Klopp for Germany’s upcoming UEFA Nations League games. Bundesliga brings you the lowdown on Elversberg’s midfield string-puller.",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790172311000
-    },
-    {
-      "competition": "bbc",
-      "title": "England players carrying World Cup scar - Saka",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8aa8/live/5af6d780-b74c-11f1-b1d1-571ed4d7ff2c.jpg",
-      "summary": "England winger Bukayo Saka says the team are still carrying the \"scar\" of their heartbreaking World Cup semi-final exit to Argentina.",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790172222000
     }
   ]
 }
