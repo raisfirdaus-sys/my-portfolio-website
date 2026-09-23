@@ -5,7 +5,7 @@
 // when a quarter of the brief turned out to be UEFA Women's Champions League
 // coverage tagged to the men's clubs on the board.
 
-import { isOtherCompetition } from "./fetch-football-news.mjs";
+import { isOtherCompetition, busiestTeams } from "./fetch-football-news.mjs";
 
 /* Wording alone should catch these. */
 const MUST_DROP = [
@@ -53,6 +53,39 @@ const WORDING_CANNOT_CATCH = [
 ];
 
 let fail = 0;
+
+/* The club blocklist queries are derived from whichever teams the brief is
+   full of, so nothing here is a hand-kept list of club names. */
+function checkBusiestTeams() {
+  const candidates = [
+    { teams: ["arsenal", "mancity"] },
+    { teams: ["arsenal"] },
+    { teams: ["arsenal", "bayern"] },
+    { teams: ["mancity"] },
+    { teams: ["bayern"] },
+    { teams: ["mancity"] },
+    { teams: [] },
+    { teams: ["venezia"] }
+  ];
+  const top = busiestTeams(candidates, 3);
+  const want = ["arsenal", "mancity", "bayern"];   // 3, 3, 2 - venezia has 1
+  if (top.join(",") !== want.join(",")) {
+    console.error(`FAIL: busiest teams were ${top.join(",")}, expected ${want.join(",")}`);
+    return 1;
+  }
+  if (busiestTeams([], 12).length !== 0) {
+    console.error("FAIL: no candidates should mean no club queries");
+    return 1;
+  }
+  if (busiestTeams(candidates, 12).length !== 4) {
+    console.error("FAIL: asking for more clubs than exist should not invent any");
+    return 1;
+  }
+  console.log("  ok   club blocklist queries follow the busiest teams in the brief");
+  return 0;
+}
+
+fail = checkBusiestTeams();
 for (const t of MUST_DROP) {
   if (!isOtherCompetition(t)) { console.error("FAIL: should have been dropped:\n  " + t); fail++; }
 }
