@@ -8244,7 +8244,7 @@
       "away": "lyon",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8310,7 +8310,7 @@
       "away": "lehavre",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8376,7 +8376,7 @@
       "away": "angers",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8442,7 +8442,7 @@
       "away": "parisfc",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8508,7 +8508,7 @@
       "away": "toulouse",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8574,7 +8574,7 @@
       "away": "lemans",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8640,7 +8640,7 @@
       "away": "strasbourg",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8706,7 +8706,7 @@
       "away": "auxerre",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -8772,7 +8772,7 @@
       "away": "marseille",
       "slate": 3,
       "oddsFormatSource": "indo",
-      "competition": "Ligue 1 Prancis",
+      "competition": "Ligue 1 (France)",
       "markets": {
         "ft": {
           "ah": [
@@ -10506,9 +10506,9 @@
       "note": "What this record guards is NOT you - a score is a public fact and cannot be invented. What it guards is THE TOOL. Without pre-registration, the model could be changed tomorrow and today's picks graded by a model that already knows the results, making it look sharper than it is. Or coupons could be chosen for the ledger after it is clear which ones won - exactly what happened to the two coupons above, both added once their results were known. These numbers are now locked as of 22 Sept: the MODEL PROB. column below is never recomputed, even if the engine is rewritten entirely. The goalposts were nailed down before the ball was kicked.",
       "legs": [
         {
-          "match": "Hongaria vs Ukraina",
+          "match": "Hungary vs Ukraine",
           "fixtureId": "hun-ukr",
-          "pick": "Ukraina +0.50",
+          "pick": "Ukraine +0.50",
           "kind": "ah",
           "line": -0.5,
           "side": "away",
@@ -10523,9 +10523,9 @@
           "outcome": null
         },
         {
-          "match": "Ceko vs Kroasia",
+          "match": "Czechia vs Croatia",
           "fixtureId": "cze-cro",
-          "pick": "Ceko +0.50",
+          "pick": "Czechia +0.50",
           "kind": "ah",
           "line": 0.5,
           "side": "home",
@@ -10540,9 +10540,9 @@
           "outcome": null
         },
         {
-          "match": "Republic of North Macedonia vs Swiss",
+          "match": "North Macedonia vs Switzerland",
           "fixtureId": "mkd-sui",
-          "pick": "Republic of North Macedonia +1.50",
+          "pick": "North Macedonia +1.50",
           "kind": "ah",
           "line": 1.5,
           "side": "home",
@@ -10574,9 +10574,9 @@
           "outcome": null
         },
         {
-          "match": "Swedia vs Rumania",
+          "match": "Sweden vs Romania",
           "fixtureId": "swe-rou",
-          "pick": "HT Rumania +0.50",
+          "pick": "HT Romania +0.50",
           "kind": "ah",
           "line": -0.5,
           "side": "away",
@@ -10591,9 +10591,9 @@
           "outcome": null
         },
         {
-          "match": "Italia vs Belgia",
+          "match": "Italy vs Belgium",
           "fixtureId": "ita-bel",
-          "pick": "Belgia +0.50",
+          "pick": "Belgium +0.50",
           "kind": "ah",
           "line": -0.5,
           "side": "away",
@@ -10608,7 +10608,7 @@
           "outcome": null
         },
         {
-          "match": "San Marino vs Finlandia",
+          "match": "San Marino vs Finland",
           "fixtureId": "smr-fin",
           "pick": "San Marino +2.50",
           "kind": "ah",
@@ -10642,9 +10642,9 @@
           "outcome": null
         },
         {
-          "match": "Turki vs Prancis",
+          "match": "Turkey vs France",
           "fixtureId": "tur-fra",
-          "pick": "HT Turki +0.50",
+          "pick": "HT Turkey +0.50",
           "kind": "ah",
           "line": 0.5,
           "side": "home",
