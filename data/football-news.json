@@ -1,16 +1,236 @@
 {
-  "generatedAt": 1790138888095,
+  "generatedAt": 1790139072492,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1401,
-    "tagged": 679,
-    "droppedKeyword": 44,
-    "droppedFeed": 11,
+    "raw": 1524,
+    "tagged": 775,
+    "droppedKeyword": 45,
+    "droppedOtherSport": 2,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
-    "withImage": 13
+    "withImage": 45
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Who is JJ Gabriel's agent? Meet man behind wantaway Man Utd wonderkid's transfer talks",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-agent-37688608",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37688688.ece/ALTERNATES/s615/1_shutterstock_editorial_16004526aj-copy.jpg",
+      "summary": "JJ Gabriel is set to team up with a super agent to clinch his desired exit from Manchester United",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790137800000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Rice, White, Saliba - Arsenal injury news and return dates after international break withdrawals",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-injury-news-rice-white-34655705",
+      "image": "https://i2-prod.football.london/incoming/article34593866.ece/ALTERNATES/s615/2_Declan-Rice.jpg",
+      "summary": "Arsenal boss Mikel Arteta has several injury concerns within his squad after the defeat at Brighton on Saturday",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790137800000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Palmer, James, Joao Pedro - Latest Chelsea injury news and return dates amid Xabi Alonso worry",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/players/chelsea-injury-news-cole-palmer-34655988",
+      "image": "https://i2-prod.football.london/incoming/article34656020.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
+      "summary": "Both Cole Palmer and Joao Pedro have withdrawn from international duty due to injuries as Chelsea look ahead to the Premier League clash vs Bournemouth.",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790137800000
+    },
+    {
+      "competition": "men",
+      "title": "Man Utd latest: Statement released after update and JJ Gabriel 'agreement reached'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-agreement-34655509",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article34646296.ece/ALTERNATES/s615/1_Manchester-United-U21-v-Leicester-City-U21-U21-Premier-League.jpg",
+      "summary": "Manchester United head into the first international break of the season with plenty to sort out, with poor form, injury problems, and the JJ Gabriel saga to contend with",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790137800000
+    },
+    {
+      "competition": "mirror",
+      "title": "No Liverpool players and one Man Utd star - AI picks Premier League Team of Season so far",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-liverpool-man-utd-37690263",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690515.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "AI has picked the Premier League team of the season so far, and you might be surprised by some of the names that have named in the starting line-up",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Liverpool news: Kylian Mbappe makes transfer admission as Andoni Iraola striker plan emerges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-kylian-mbappe-andoni-iraola-37689881",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689912.ece/ALTERNATES/s615/0_GettyImages-2284096037.jpg",
+      "summary": "Liverpool headed into the international break unbeaten in all competitions, but Andoni Iraola has plenty to ponder before club football returns",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal latest: Mikel Arteta 'agrees contract' as star drops out of international squad",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-mikel-arteta-agrees-34656657",
+      "image": "https://i2-prod.football.london/arsenal-fc/news/article34656656.ece/ALTERNATES/s615/1_Mikel-Arteta-Arsenal.jpg",
+      "summary": "Mikel Arteta reportedly looks set to extend his stint as Arsenal manager as the interantional break pauses Premier League action",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "men",
+      "title": "Man City have unlocked a difference-maker after sliding doors transfer moment",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-unlocked-difference-maker-34656034",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34656299.ece/ALTERNATES/s615/0_GettyImages-2294603651.jpg",
+      "summary": "Iliman Ndiaye is starting to show his worth for Enzo Maresca's Manchester City",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "men",
+      "title": "Man United player and manager ratings for season so far with a 3/10, five 4/10s but one star man",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-united-player-manager-ratings-34654696",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34655823.ece/ALTERNATES/s615/0_premium-canvas-1790087878487.png",
+      "summary": "Man Utd are taking stock in the first international break of the season after a disappointing start to the campaign.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "echo",
+      "title": "David Moyes set to explore new Everton striking option to support and protect Thierno Barry",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-set-explore-new-34655155",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34656033.ece/ALTERNATES/s615/0_GettyImages-2255873385.jpg",
+      "summary": "The Blues boss is considering whether Carlos Alcaraz could be the player best-placed to reduce the workload of leading forward Thierno Barry",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "echo",
+      "title": "Andoni Iraola might have to leave out three players when Liverpool face Man City",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-might-leave-out-34656311",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34355687.ece/ALTERNATES/s615/0_GettyImages-2287650003.jpg",
+      "summary": "Liverpool are hoping to welcome back two players from injury during the international break",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790136000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news: JJ Gabriel agreement 'reached' as statement released after major blow",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-agreement-37689407",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37680980.ece/ALTERNATES/s615/1_GettyImages-2290294064.jpg",
+      "summary": "Manchester United head into the first international break of the season with plenty to sort out after making a slow start to their Premier League campaign",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790134200000
+    },
+    {
+      "competition": "bundes",
+      "title": "Harry Kane contract talks set to wrap up – Bayern Munich latest",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/harry-kane-confirms-bayern-munich-contract-extension-talks-start-soon-38685",
+      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083213358h.jpg?crop=1706px%2C47px%2C2545px%2C1436px",
+      "summary": "Bayern Munich CEO Jan-Christian Dreesen expects Harry Kane's future at the club to be resolved after the September-October international break.",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790133960000
+    },
+    {
+      "competition": "mirror",
+      "title": "Arsenal news: Mikel Arteta 'agrees new deal' as manager dealt fresh injury blow",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-mikel-arteta-new-contract-37690784",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690793.ece/ALTERNATES/s615/0_GettyImages-2295935634.jpg",
+      "summary": "Arsenal boss Mikel Arteta reportedly looks set to extend his time in charge of the Gunners",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790132400000
+    },
+    {
+      "competition": "men",
+      "title": "Man United urged to revive transfer interest in striker who'd 'make them title contenders'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfer-news-striker-34652576",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34652876.ece/ALTERNATES/s615/0_Fulham-vs-Man-Utd-20-Sep-2026.jpg",
+      "summary": "The striker has been linked with a Manchester United move in the past and continued to score goals year after year",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790132400000
+    },
+    {
+      "competition": "echo",
+      "title": "12 Liverpool players set for extra work as injured pair eye long-awaited return",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/12-liverpool-players-set-extra-34655185",
+      "image": "https://i2-prod.football.london/incoming/article34617905.ece/ALTERNATES/s615/2_Leoni-Ekitike.jpg",
+      "summary": "A number of Liverpool players will continue to train at the AXA Training Centre during the international break",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790121600000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man Utd & Liverpool eye Mitchell - Wednesday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7k421gvj4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db3a/live/9219d670-b6c7-11f1-991e-856baf8e71f7.png",
+      "summary": "Manchester United and Liverpool are keen on Crystal Palace defender Tyrick Mitchell, Aston Villa loan attacker Alejandro Garnacho is on the radar of La Liga clubs, while Chelsea want Gambian teenager Adama Jeng, plus…",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1790111981000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Sean Steur makes honest 'next level' admission after Newcastle United transfer",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/sean-steur-newcastle-united-transfer-34657177",
+      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34657180.ece/ALTERNATES/s615/0_JS418039232.jpg",
+      "summary": "Sean Steur has spoken to reporters in the Netherlands about his first few months at Newcastle United",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790111015000
+    },
     {
       "competition": "laliga",
       "title": "Javier Tebas Fires Back at Real Madrid With Defiant Message",
@@ -20,17 +240,6 @@
         "realmadrid"
       ],
       "publishedAt": 1790137860000,
-      "image": null
-    },
-    {
-      "competition": "ucl",
-      "title": "Farewell Mark Wood, England’s fastest ever bowler",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRFRJaVB1WEVXQTBVeXE1cjVCdk5YNW9VQ2lTZjMtVW5tVE54bW5tYlhGZzAtaWY5OGFnWk0zd3FzdnlMMW9ZejRld0pIY3JHd1d2bWZqX0RWVTJkOEVWQ2dTajZObzVBb29way1mT3NmQWZEN1BtRlFoOXp4dHVmdmhjdFRqcmdyTkhyRFNfWU5aYnNycnZJQjdBOA?oc=5",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790137844000,
       "image": null
     },
     {
@@ -46,16 +255,16 @@
       "image": null
     },
     {
-      "competition": "mirror",
-      "title": "Who is JJ Gabriel's agent? Meet man behind wantaway Man Utd wonderkid's transfer talks",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-agent-37688608",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37688688.ece/ALTERNATES/s615/1_shutterstock_editorial_16004526aj-copy.jpg",
-      "summary": "JJ Gabriel is set to team up with a super agent to clinch his desired exit from Manchester United",
+      "competition": "echo",
+      "title": "Liverpool ratings as youngsters complete sensational injury-time comeback after red card drama",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-ratings-youngsters-complete-sensational-34655625",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34657108.ece/ALTERNATES/s615/0_GettyImages-2296613717.jpg",
+      "summary": "Ian Doyle with the Liverpool player ratings and scores from the EFL Trophy clash at Rochdale on Tuesday evening",
       "teams": [
-        "manutd"
+        "liverpool"
       ],
-      "publishedAt": 1790137800000
+      "publishedAt": 1790108770000
     },
     {
       "competition": "epl",
@@ -115,373 +324,6 @@
     },
     {
       "competition": "mirror",
-      "title": "No Liverpool players and one Man Utd star - AI picks Premier League Team of Season so far",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-liverpool-man-utd-37690263",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37690515.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "AI has picked the Premier League team of the season so far, and you might be surprised by some of the names that have named in the starting line-up",
-      "teams": [
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790136000000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool news: Kylian Mbappe makes transfer admission as Andoni Iraola striker plan emerges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-kylian-mbappe-andoni-iraola-37689881",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689912.ece/ALTERNATES/s615/0_GettyImages-2284096037.jpg",
-      "summary": "Liverpool headed into the international break unbeaten in all competitions, but Andoni Iraola has plenty to ponder before club football returns",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790136000000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Roberto Mancini looks to bring more success to Italy as Nations League campaign begins",
-      "publisher": "Flashscore.co.za",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcjhDTlQtYXJZQ0tZeHltdHdpVVQzSGxVVFhGOEU3cTR3MlllbXpValBlQ1ZBbWk4bDgyYm51NEVPRlgxczQyNlM4Y2dVQXJGeUhWVG9FdXQtZktpY3pRdUlkMjd6UDlEaVRfWjN5cG9nVHhZMkZseTJSQnFFSzVwTTBwU3ZRblBvT1BUYWhLSHR5QWNzRVlUQy1XY0x3RVQ1LWpwbF9XZFBDOEk5Uk5IQXlkUGxhRy1pZ3VlSGlQQ1R3ei1xVmkzT3F3VVZkazBmZWx5TnJGRENIeHh6aWpTdkY5ODZlR2pyNU1PSWFB?oc=5",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790134431000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news: JJ Gabriel agreement 'reached' as statement released after major blow",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-agreement-37689407",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37680980.ece/ALTERNATES/s615/1_GettyImages-2290294064.jpg",
-      "summary": "Manchester United head into the first international break of the season with plenty to sort out after making a slow start to their Premier League campaign",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790134200000
-    },
-    {
-      "competition": "bundes",
-      "title": "Harry Kane contract talks set to wrap up – Bayern Munich latest",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/harry-kane-confirms-bayern-munich-contract-extension-talks-start-soon-38685",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083213358h.jpg?crop=1706px%2C47px%2C2545px%2C1436px",
-      "summary": "Bayern Munich CEO Jan-Christian Dreesen expects Harry Kane's future at the club to be resolved after the September-October international break.",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790133960000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsenal news: Mikel Arteta 'agrees new deal' as manager dealt fresh injury blow",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-mikel-arteta-new-contract-37690784",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37690793.ece/ALTERNATES/s615/0_GettyImages-2295935634.jpg",
-      "summary": "Arsenal boss Mikel Arteta reportedly looks set to extend his time in charge of the Gunners",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790132400000
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer news LIVE: Arsenal plot Alvarez loan; three Chelsea targets; Man Utd, Liverpool latest",
-      "publisher": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3FyVS1uY1ExSWdNWkxIWENVTERWWlZQNE91MnhXeVZJWFZmYW9UV2pYczBfLXJ4OVItajU3bXFoc0dXeU5PZm1EazY1RjJoUTNCNC1veDl6bmZLYlNscEUwQ0xwX0J6TjRwR0tYdGptaXJMaXp1VHk3WkZybWFkY05lVmlFR3IyblV1dWxYNWZPQ1JWTVpISUN5NVg5R3ZhTWxYM0pXbGhEZFVFTHNjUE1IZWJnSGNBbkRN?oc=5",
-      "teams": [
-        "liverpool",
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790132047000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Jürgen Klopp sends message to Germany fans ahead of first stint of matches as manager",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLXlNQURCN2JUMTYwMmNDc1NsZjduZkhpQlFTSURXXzk5dmg5NzN4NHhLN0NNcThnekZDWWpaQjNnMEpfdVl2ekp6ekdjS3BxZTVUcURGbkdLeVEtX1BqV1BkMXdXaHgyMEFiUUxURkE3RjEyMmh3YjFfNHYtekxUaw?oc=5",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790130600000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2g4X2x4MDAwSkJRaFYzRDJEdWdydWhWX1Zma3JNbUE2UGkxOG5EVkxVODl0ZzhXX0VkdWxyQ000ck51X3JDNkFGTVBMVmxwWW5oSERSU0lzS1lCR3E4WkVPM3F5MDJkc2ozY19sbUxDeTk2UDBZS2tOTFdNNG5QQ2NmUk1xeGZFai1TTkx5QzcyQUFpdENLcU90TmFpamFYelRabkVyOXA2TWNJenJIdzNEZkFmc2d3Q1BkNDZqRTgydw?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790130002000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "England vs Spain UEFA Nations League preview: Everything you need to know",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRjhKTHJKLWNWR093LUFWOVl1c09GRUxXTVdQOUxKNEJOaWwyTjBRT2hXWTNpYjF1WXh5SDVWZnZ4cGpMZ1R4N3dZZnMwdFBOMEU1Nm9VaGVzdWRsZ3ZoQWw4bzdWZTUyeDZOS1puZUlxY3VMSTdWS1dSQm9tUkZ3VW9jRGkzWmV6ZDFib3M3d3NCdTFO?oc=5",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790126726000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League",
-      "publisher": "OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjZBQThib3NCNHpLZlJvbGduWDlhaXFqMm1rUVZETENxeHpKcW1FVXpKdHVCa1JNRnNGRE1GUVhYUjdJSGRoVXc5Mkx4dEdxMUpmM2l2LVVJYmFRMVJZS3lpazRrV2ZoWkdOVEZNb00zeWJ1cWp0eWR0ajlnWWlfYnlvSkFCZ0dNWDFIdUN6cW1CaEktQXU5cXZET3FKd1JNZTJDM04yWVBaYUNXNWFsbkJWcVlNQU0?oc=5",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790122882000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Real Madrid Clashes With La Liga Over Refereeing",
-      "publisher": "조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjA1VkxBaDdLQzQyYjZGeGp1U1NvVUtyYURzb0hJbGZvck5hbE93bmlXUWprOTlVcmJIa2FtNEhLczJia2puT3hBazdUYU5aX1ROTVFvT1JiLU9JWGxodzFzMmwxWk45cFd2b0JqcFhQS1NIV1N6NUk1Y1U0Y2RkbEQ2TVQzZw?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790121080000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
-      "publisher": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790120810000,
-      "image": null
-    },
-    {
-      "competition": "bundesliga",
-      "title": "Bavarian Loan Works: Two Bayern Munich loanees meet in 2. Budesliga",
-      "publisher": "Bavarian Football Works",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQ2FHdjlzUklSN2tub3ZJX1FEci1UdDlGUWlHbXFTQVZUZkdqTkt0ZnBQeWQzb2FiYjlDRnFCRkR6OXAtZlE3b21RcUZzV0NtOS10UExENWZWVFd5ZmF1cjNaZ2x0QlMxUkhTeXVGU0xBXzhfdTVJb3ZRX0VzaHpsdHJWUEZZOWNnVFh5dkRDNDhZZXAwSGpPbHdzbE96cm5BS0M2OElSdkJtNWNPWFZ5WjF1WmRuMHprZlhNdUFUZEpzcVhNejJsUk9YMDIyeXl1YVlDVjlkd3d1WWJidnVKY0lycmVva1ZXRFE4endqQTY?oc=5",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790119800000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Reaction: Slegers lauds Arsenal 'resilience' | Video",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR3hjWExUaFZ4V0RFNHRteHRiOFhTd0xQMHhoZkh6R3gwbjJQUWNncTlyYV9FdW1uWS1nSHotNUlGbkdqeEhESkp4cWhoeEY0S0E0VnpNVDBNRmJPczFSUUxnSUNhVERwYXBmR0tRY1dPOFpvcEQ0YkZCRG5paldsNjN5TnAwUTZpVTZTb0JtM0p2SlREWnB2NkFoUnBESVl4b1ZwaHJWMV8wMW5VdnN0SE8zMS1sbUxm?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790117176000,
-      "image": null
-    },
-    {
-      "competition": "bundesliga",
-      "title": "How to buy RB Leipzig 2026/27 tickets: Upcoming fixtures, ticket prices, Bundesliga news and more",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTWVSOE1aVy1hQXAwWW5QbmJGMU9UNjA3aWcxX0wtbDBTT0FKdnZzN3RXVkpUTkwxRkNuWFA1bGRRMDFkQWJDNnZfQnRVd1ptSHFvbzJsNUJ3cGEyT3VBV3NCVE1weklUa0VQbTZCVVdIUlFZUGFhVTcxTGlxTldEY2JmZjJpckZiTkZMVDI1dV8?oc=5",
-      "teams": [
-        "leipzig"
-      ],
-      "publishedAt": 1790116237000,
-      "image": null
-    },
-    {
-      "competition": "ucl",
-      "title": "Former Manchester City star Sergio Agüero says Bayern Munich is team no one wants to face in Champions League",
-      "publisher": "Bavarian Football Works",
-      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQYW1kSm8ydG14SnNfMmQ2ckZJLWpaQUNxT2t3SmRreUw4a2xZdktNVzVtTC1nUWpEdW0tZl9aUGpzSmllTWVhby00cUl2X28wSjZycG96eDhrVUxpM2lHeEZFVXRXT0tJZUZfbkVkM095VHQ3bWprWUhlZGVQZHBINXVhd2JUREJWV1RITjZ2aFRjT1ptS0V0d0tTSVo2MVhORDdndENCMThLT2QwdFpXUGozSUp2R0lNUXlOM0I3dXVVcThnQVVTRFV4SU05ZjA1MTRLMEFaN2FreFV6XzZrczctcWhWWDA1a3NMTF9FUEc1bzJvSlFKTXB3SmlfLVFmTU9DbTg3QWJBZ0dYQ211NUJOM1VndzcxQ2pZT1NOeDNjdWU2Rmw0b19fYnJscUEtMlR0MEdOUFphdElvTE9uQnVXT3JKMEdxQlBEbzhjUWlFT1NObWZTdWtJZ2UyZTc4d3NFNG9YT0R5OHVVMnc?oc=5",
-      "teams": [
-        "mancity",
-        "bayern"
-      ],
-      "publishedAt": 1790116200000,
-      "image": null
-    },
-    {
-      "competition": "ucl",
-      "title": "Reaction: Bayern's Gwinn on 'frustrating' draw",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONm92UnZxbTNmdEJRcFkxSUY5MkVtaDRaOHJXdnRHM1dnSU5WbERMalptWVF2LXRfY2RlcElDRW1HRGNGZjVkNm51VmQ2T1pBSFU5LWJYXzV6RWloYmRxc1V1U1gzc1hlOVZFTlkwZGtlcnJCSzFXQjUyZ3h4RzZrRExNdV9CdmRqZWh5QVM3NUNDUEp3QW8zMDhsclNIei1BcUVMOFVEalp2SE1ZVEdNeDl6d1h6aXFnUFh5bXhid1lMTHRQdnYwMXBR?oc=5",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790115068000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnYteEV1Mkc4Wjd1NWszTnRwd05sSHg2MWljUnNSMGlCRllRWnZvOFp6MHJaWjU3NUplZlJEdWJmUUUtVzh1ZkZPRzVITEpYYW0waTB3RFNNTHJQUEVMLUdXczhoaThtOTBJdjRkWDlVNGtfLTRhTGUwQk81bEZHTXREVlZWbk9KQU4tNWVGUlJnTE1hNWJHNzRjV0lnV0RqZHVxQnlfZHRMZ0VpQ2toOV83LThpSkF4?oc=5",
-      "teams": [
-        "mancity",
-        "netherlands"
-      ],
-      "publishedAt": 1790114415000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "2026–27 Premier League Table Without VAR: Major Overhaul As Man City Tumble",
-      "publisher": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWUZDSFZCY3NqVEdIZ1J6T3V6dlJUWHlIRG9QWHpCNWxzdDE3c24wdDUxMGNJWjFMSTJ2Vl9HaVdYc3F4ZmNsOWx5VllqUFZrSHNtZWJld1JsWFJNbnVQME5Ra1ZWNElvdm1mVVF6dlc4NV9kYWthRUJsS2lDa0owOXlMaXREUXV1ZFE?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790114401000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Amnesty urges UEFA to suspend Israel, calls Nations League participation ‘unconscionable’",
-      "publisher": "The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRCYkltVlBURjBnZGVzMDdXdlN6cE9yZE4zSGpRVzNqTkxiUV9ZeG5CZEM5MFlVdmQ3c19CZFBVbnZTMjF3eTlqdVlnTUt5d3lGaU45bGVVUGlKNDhYRFpxbVUwYlpBamRQMzNQMzlBaGVaWEZrVGJOZVlNX3FqUmhUblJjbWI2MVhXOGREcHc4SnVlSUtDLXBZMzk2SWl3Qm9XdzJnY2JLX0NTRXZjdWNJeHZEMjlHNUNEZU5vWm8?oc=5",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790113500000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Amnesty Slams UEFA for Allowing Israel in Nations League Despite 'Occupation, Apartheid, and Genocide'",
-      "publisher": "Common Dreams",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51SmVPUWhtNjY0WTdsVVB0T09LTkR5QUZfc3NRN25oYy02eFU5d3F2UEhmQ2dUeXRhVlBLNHBSOEJGakFKcjBZTlc0ZmNlS2lQMl8teU1DMTBVVmpXX2FEcUhoQ0lKMkZCZDk1amZkQkJSU3BUYVVHNQ?oc=5",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790112715000,
-      "image": null
-    },
-    {
-      "competition": "seriea",
-      "title": "Roma monitoring Frosinone starlet Giorgi Kvernadze",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcHkyTFlSZ0NmcVZYRnN4YWh4WnFOSU93dHdyY1NWMm9TUkpGNnFOT0JwLTg0clJkcVA1cktPUVF1UG9ZUk9wWmRpLXVueGloNjFIRW5TMll0aktKQjMzNzNrVk5nSGJQVTdxaVg5WFFDU2VXS2JIZ01HUU9fQmpBOEszcWd0eFdGSmV1V0NGNXpDMGM?oc=5",
-      "teams": [
-        "frosinone"
-      ],
-      "publishedAt": 1790112000000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Man Utd & Liverpool eye Mitchell - Wednesday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7k421gvj4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db3a/live/9219d670-b6c7-11f1-991e-856baf8e71f7.png",
-      "summary": "Manchester United and Liverpool are keen on Crystal Palace defender Tyrick Mitchell, Aston Villa loan attacker Alejandro Garnacho is on the radar of La Liga clubs, while Chelsea want Gambian teenager Adama Jeng, plus…",
-      "teams": [
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790111981000
-    },
-    {
-      "competition": "epl",
-      "title": "Mikel Arteta agrees new deal in huge Arsenal boost",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWlCYVBqQ0pKRUdiV0xuRWtvQ1BHT05EYTkzamVhOHpMdXVpejFwZ3V5U2JNV2Zzd2xhRmtFNDQ1OW5HQXg2UU5mbTFvek9aV0RFdXJMdV9GZjNLRUNtYjNoZGMtWTROUzQ5enBSWWRjOXVDZGtvLVN3ekdWQXJYU0JhVXc?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790110200000,
-      "image": null
-    },
-    {
-      "competition": "ligue1",
-      "title": "Sunderland Could Reignite Their Interest In This Ligue 1 Winger: Should Le Bris Move In For Him?",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM2NNalZyN3lpR0dDbWNidTRkVmtDcnV1MWZMV1h2NGZVa0FqcDN4eEF1RkpfNEZMNDhXd3VjVTR4czE3QWZvM2N3eGdybkZUdEpNVEw2WFdYVHFid01JbUgyZnlRNmpnMDhhMGxQZDNMajVqRTRjcUFjU0ZqalN4TF9JWFpYUVJoQU1aaGpOV0g3YVk?oc=5",
-      "teams": [
-        "sunderland"
-      ],
-      "publishedAt": 1790110200000,
-      "image": null
-    },
-    {
-      "competition": "bundesliga",
-      "title": "How to buy Eintracht Frankfurt 2026/27 tickets: Upcoming fixtures, ticket prices, Bundesliga news and more",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFNicEo5LWg3WVhWU0FQSmNPOTEzTUljVk1HQWJjb0JYX0tCWG5iYVBrbGNzbVZYaUU3RVFxOTdOMnNVWlhIZW9admRXdDdjLUdXSl8xTmEtd3hZSmZzRkp0ZFNtenI1WXpNdjRLUEpKWENvNTdpeUdkQjgtWl9pZkQ0d2JCTkJ2dW5DZ09zLXF6QURYVXIyeg?oc=5",
-      "teams": [
-        "frankfurt"
-      ],
-      "publishedAt": 1790109058000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Barcelona set to leave the Camp Nou again",
-      "publisher": "Get Spanish Football News",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORnFlLUVPYXJONHhWeWxZVEVKeXVMT0EzMFdDQzB4bGRUR3RFampfRURlcVd5Q1FZOENaelNicnhvd2NHRTVCelZzcVlTaURzUWtxb0lXS3d0SFhtOWQ4YnB3RkRsMi14WlJyUU1PUS0wcG9yZmE4RU0zS1c0RmlVQQ?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790109000000,
-      "image": null
-    },
-    {
-      "competition": "seriea",
-      "title": "Insult to Mazzola’s memory, verdict on the fans today: what do Juventus risk?",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZEJXNmRpMWlTVVpsb2xCNEh0R0wzLVBnUkgzc0FibG9jeG9yVFlnNkdYS051OXhEZ1NpY0hvaHVkdXNBSlByLVhkVjQ2OFpOTkM2d3NQanBoVVplN2xQUDFiUDhrbm1QbGNMX2hlY1NHX3YwbEVUOS1vVjZkUUlyWnhiR3hQaXV0NlFmVGhHOFJRSG9raDRlZjFuRldiNUUzTXlRbnl3Z0p1LWJzLUE1Q1F3SGxGN0VHV0Q2Tjltc3Zub09GLXpvek5mRWdiWU42Z20zMzZR?oc=5",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790108161000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Real Madrid call for the head of La Liga president Tebas",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LXzZOSHFsRmdGWHJIeFN2S2F3aDhKbU5lTWFwYTV6eUQ3a3JaX2xBaGdZbER3ZVZJbVgxU2Qxb2pXeTZFMnpSUXFHUW9FaV9UOExqaXZzcDhZcEVIaFdtLWZkckVyMzQwOUtXa0w0NzhIV1g3T011aGdwNWQ4UQ?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790107800000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer news LIVE: Liverpool track Givario Read as Man Utd scout Gabriel Rajkovic",
-      "publisher": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdENhNVZSamtpV1pSLVRNenV3WWV5cHlBYzNVRGJXNmZ2bkJJTFVtTndnajNfQzJrcGJ6TlF3YkU2c09OYjFCX2NKdkdua1FEM3l0VElzcTYtdk9FLU9JOFZhUXRWTFZ3LVBVRHVzbUdEUkRJQlIzMXlaUFp4eE16M2FLOW43U0h0MkJBNkx4dUR6cHp3NlBjVUo1aHBtaXVIQ0ppMXI5ZlBBb2RJNHpYYmI0Ujh4ZlVCZmFUT1RyZmE5dWhCamc?oc=5",
-      "teams": [
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790107669000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Anthony Gordon told it’s ‘just a matter of time’ until he scores first Barcelona goal",
-      "publisher": "Barca Blaugranes",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa084U281dUdSTXI2SG94VEJqRGJqMXVJODlMZFRVeXJVN0RaaDJUNktuaGRaVnN3UVFhSkdocVRtSGNzRVNVaEQ3WnVSRUtiRlRsb3FLNG5LcEFReVZFaGliV3U3UEtIaDJoN2ExT3F4YXA1bEtWdUxhLUNJV1NzRHg1X3pKZlEtZmJWQWVQdy1qV3lUb3RUbThoczhkakJGR2hZ?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790107200000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
       "title": "What Mikel Arteta’s rivals think about Arsenal boss as new contract 'agreed'",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/mikel-arteta-contract-arsenal-rivals-37691259",
@@ -493,14 +335,14 @@
       "publishedAt": 1790107138000
     },
     {
-      "competition": "laliga",
-      "title": "Real Madrid go to war with LaLiga as they make damning ‘dishonest’ claim",
-      "publisher": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb24xUFRTak5IalFiLTk1ZmlUOFg0ZU9HTVcyQi03WXFyOTRlVjFyZjJzelFFV2E2eDE4QWRQdGtURzN3OE8tdGdJUVQ5eU5OZWhxOV8xUnFHQzk0aE01cEdpYVFiUTVtOFZldjNfMUd2MnVBSEl1NWR1Wlh4MVVyd0QtZmtlTzQ?oc=5",
+      "competition": "unl-a",
+      "title": "Roberto Mancini looks to bring more success to Italy as Nations League campaign begins",
+      "publisher": "Flashscore.co.za",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcjhDTlQtYXJZQ0tZeHltdHdpVVQzSGxVVFhGOEU3cTR3MlllbXpValBlQ1ZBbWk4bDgyYm51NEVPRlgxczQyNlM4Y2dVQXJGeUhWVG9FdXQtZktpY3pRdUlkMjd6UDlEaVRfWjN5cG9nVHhZMkZseTJSQnFFSzVwTTBwU3ZRblBvT1BUYWhLSHR5QWNzRVlUQy1XY0x3RVQ1LWpwbF9XZFBDOEk5Uk5IQXlkUGxhRy1pZ3VlSGlQQ1R3ei1xVmkzT3F3VVZkazBmZWx5TnJGRENIeHh6aWpTdkY5ODZlR2pyNU1PSWFB?oc=5",
       "teams": [
-        "realmadrid"
+        "italy"
       ],
-      "publishedAt": 1790105757000,
+      "publishedAt": 1790134431000,
       "image": null
     },
     {
@@ -516,19 +358,6 @@
       "publishedAt": 1790105520000
     },
     {
-      "competition": "bundesliga",
-      "title": "Bayern Munich News: Tottenham, Man United, Barca still vying for Kane",
-      "publisher": "Bavarian Football Works",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOWlRIa25MZU0tWXljRWVKUU1sLVBrV0hTd0hhMVFNYmlqS0wybUpOZHZFek40eVZEY012N0pfUVRUSjF2U2VkRHd3S1RfS2IwRFFqRkMxTkx2Rl9MR3I4bkVQUjMwZ0dLSEFfaU1TdXFYZXMxS2VJZFJYaFdFalZfWE00WF9RcXMzXzFTV1JDVG15REpmQlc3MFVneFQyMzk0VDVXbmVMQm5HWEpXQTh6dHZPMUJfYjBRbi0yOElyT1ZwdjZ6Q3hYSGtlMmFycm9Qc1dWSkdINUtyck50bm9xV3BOUXl0ZnhyaDl1dXYwR1lhRWlzTTlILVNnSHRwb0RvRmxDWVVqV3cxVFRWTzVrdi1kM3FZOGhGVk1XT3JSeTFBTGd5M2liV0pfUQ?oc=5",
-      "teams": [
-        "bayern",
-        "manutd",
-        "barcelona"
-      ],
-      "publishedAt": 1790105400000,
-      "image": null
-    },
-    {
       "competition": "bbc",
       "title": "Israel FA comments on Hallgrimsson 'unacceptable' - Irish taoiseach Martin",
       "publisher": "BBC Sport",
@@ -541,61 +370,6 @@
       "publishedAt": 1790105026000
     },
     {
-      "competition": "epl",
-      "title": "Arteta to sign fresh deal, Liverpool set to appoint new sporting director",
-      "publisher": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1htT215MUZGSUNHbFdWcWdXcnhnUXlqaFBwV0dNZkQxNUUzRXlkSkQyWW9NUHU2ZTIyNnJhV2pIcjM1ZS16ZEtWWndDd0FETVYxMnU2bnhuZDVYVnloN3dab05MQVhCeV9fOVlMZmpIZjlSbEd4bS1fRGF1YXV6QWRjRkwwM2FLcVdaRG9OSTNFOGY5T0x6TVJaQndrNzJReGQwQg?oc=5",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790104805000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "'Not Only Arteta' - Fabrizio Romano Reveals Further Arsenal Agreement 'Done'",
-      "publisher": "GiveMeSport",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWnFRN1c4TDNYTThQRW5lQnVWc3NYc05ERkx0RzhLTlhSa1p6dk9XNWNjQ2ptWUhqVDZjOEVpWm9UTkRuNE8yaEJZZFlPTUhPS1ZaUVktMVNfX1dYbE5lNkdKblZtd2VOTXlBVkpEOFdjb0NJUHFkNEZ2VFdQMW1FUEMwQQ?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790104642000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Athletic Club | La Liga Matchday 1 - FC Barcelona",
-      "publisher": "Official FC Barcelona Website",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON193cmF0T3JFYlR3Z1F5T1RVd0hHbkpLS2F6WlFyLVJYelRpWmlLdjFleHBIOV8zYkpuUWQ0cXRHTXAxakNnTTYwbkM1Uy1ma3hVYV9LSk1JdkpabGdYd0tkQ2wxNzlDZTNEM1Q1NktZNW9oaGk3UzZlaVh1R1o2MkpNUDctUGpHaC1VS0ZhbnUxS3ow?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790104501000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "It’s Totally Cool And Normal That Real Madrid And La Liga’s President Are Bickering Online",
-      "publisher": "defector.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmFNSkN3RmlUNWotT2IwVVlvYVhXVFFCMHRuV3FMY1JsSFhrN0FKZEZTa2hQSmxFMVVOWG9NZHgxQnRDUFYtZDA0SEg1V2psMENXSk4zandRcWt5SEdScDBhNzNPRUlfdGhWN1B4NkR6Qk5xNlh6cHpjaEd6TDFFcHhZRElvcWFxN3lEZ3ZwdE1aTXhCYU5jLTFlMEEyc3FoNlhqaDRxZlVBcmtzc0E?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790104260000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Real Madrid demand Javier Tebas step down as LaLiga president in scathing statement",
-      "publisher": "World Soccer Talk",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUc9IBvAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUcw?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790104053000,
-      "image": null
-    },
-    {
       "competition": "mirror",
       "title": "Liverpool close in on Richard Hughes successor with FSG sporting director decision close",
       "publisher": "Mirror Football",
@@ -606,29 +380,6 @@
         "liverpool"
       ],
       "publishedAt": 1790103956000
-    },
-    {
-      "competition": "seriea",
-      "title": "Ravanelli: \"Juventus already have six or seven Serie A title-winning players. Woltemade, on the other hand, does not make them take a step up in quality\"",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNWNLTXVSTEtqTl93ZzcwN3ptZ0pzN2ZaclRjNS11LTlRaWotZTdrTHhILTROT254TFd3U2FsMTlEaG9jRDZ2UG1IZ25YazhCNU51VTZXS0FIaE41NHg4RHNXb3VGb2V2X09DX2dUQjhjMlZwdFNRQnNobF93VDZiSGVVNW16OWRhdHJHYWkwZ3d0SlRjaWVEMXdZZnU1LUlvd3Q1SXYyTU1WY0NBUXhhalZzbnhnSDFBVmVScXdYNDVOWlo1d0RTSVR4V09UWG1rbFBCaTFsN3duTzEwNnluSkUwbmZjUjZ2cHNyNlg1WmJtZVpiUGJXNE5pSFBtaEtiNXdsT29yODZPRG9RNWdiZ1lR?oc=5",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790103683000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "\"Sons of whores and scum\": obscene language and insulting chants against Real Madrid and Barcelona",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZVhTRzBjTjNROVVHamVVNS1nNUQ1cmJHOEdoVFdfQWx2dTdsR3JLcm1OUk9Gc3JMTXhiNjd1azB3ZEpHLTFXNzJjRW41djZmeDNReWtuNHZncEV6UW5XTkNha0VaOGN2QjNMeXl1WnZNS0xVUjhhamVpTXRYOEJvR2VYcTc3cjFVdlFVNWhzXzRUNFlON0hZUkhBZWtuNWQzbG01Q1ZrbFFMbXFQbDVPYll0bjZ4cG1qTUNMMDdUWThpUWVZTVZaQkM1RnM3bmQyY3hsMW9RLUF6YnZS?oc=5",
-      "teams": [
-        "realmadrid",
-        "barcelona"
-      ],
-      "publishedAt": 1790103656000,
-      "image": null
     },
     {
       "competition": "fitalia",
@@ -644,27 +395,29 @@
       "publishedAt": 1790103481000
     },
     {
-      "competition": "unl-a",
-      "title": "PREVIEW | Netherlands vs Germany: team news, lineups, predictions (UEFA Nations League 24/09)",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTG84TkNCYmVZa21ZTlpKQWFjcmdTYUdmajFQOUNGcExPVW1wQXQzUnhKbnl1OW5OOVFBMHdzeXAwM3BmZjNiV3owN2hHZmFJcFc0czNPalhGdlN4Mzhib2hPeFYyRTJPQjdPNXgzT3Zta0Fsdlg0RWMyV195MGxwWDQwQ0p3N2s4MWV4QQ?oc=5",
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Arsenal plot Alvarez loan; three Chelsea targets; Man Utd, Liverpool latest",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3FyVS1uY1ExSWdNWkxIWENVTERWWlZQNE91MnhXeVZJWFZmYW9UV2pYczBfLXJ4OVItajU3bXFoc0dXeU5PZm1EazY1RjJoUTNCNC1veDl6bmZLYlNscEUwQ0xwX0J6TjRwR0tYdGptaXJMaXp1VHk3WkZybWFkY05lVmlFR3IyblV1dWxYNWZPQ1JWTVpISUN5NVg5R3ZhTWxYM0pXbGhEZFVFTHNjUE1IZWJnSGNBbkRN?oc=5",
       "teams": [
-        "netherlands",
-        "germany"
+        "liverpool",
+        "arsenal",
+        "chelsea"
       ],
-      "publishedAt": 1790103000000,
+      "publishedAt": 1790132047000,
       "image": null
     },
     {
-      "competition": "laliga",
-      "title": "\"The dressing room knows the truth\": behind the scenes of Vinicius's catastrophic decline at Real Madrid",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS2ZLeWV4aHp0OHpkaEc4a3AtSC1lUHV3OXgxNkxrREZYQXN3V2IzSVFiZ2xTcEU2clM1NzYxNzJ0ejRkOU9FSVFYb3pSaUlPLTFoMjYxNnpyTHBwM1lYTFR2aEFoc1F5NkRqUi1JaFA2a3NmZDBMVXV1OVRhSDVoSlpPdkRiY2E4aG9TMmI0MkVHNzVlUHBzdHREV1JUQzlXUG1nNFUydWJBdHFPRzlnbU9RRUVfSTVWU25xZnZGRk1kZGk1MmJmLUowTjhGSWk5QVBYVjYzeEhIVkVRWHlzYnVEcWk?oc=5",
+      "competition": "men",
+      "title": "Lewis Hall makes Man United transfer claim after Newcastle decision",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/lewis-hall-man-united-transfer-34656899",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article34656897.ece/ALTERNATES/s615/1_Newcastle-United-v-Hull-City-Premier-League-202627.jpg",
+      "summary": "Newcastle United defender Lewis Hall has opened up on Man United's interest in him in the summer transfer window",
       "teams": [
-        "realmadrid"
+        "manutd"
       ],
-      "publishedAt": 1790102704000,
-      "image": null
+      "publishedAt": 1790103085000
     },
     {
       "competition": "metro",
@@ -679,26 +432,304 @@
       "publishedAt": 1790102139000
     },
     {
-      "competition": "laliga",
-      "title": "Barcelona eyeing Gabriel Rajkovic signing",
-      "publisher": "Get Spanish Football News",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ2tkcWVITHZkTWtldXZoVjdQNlJWcmxWbC1NaHJhT08yam9MOUQ5TXJ3NV85SVNSMjctYjMwWC1WbFFQb211NG5RaVo0dVBfUUpzSG9Yb3NjUWstVk1UalkwT2pmRlFXbmFjN19vdjh4TU9xdnNfUUVnSHZyRGhZRw?oc=5",
+      "competition": "unl-a",
+      "title": "Jürgen Klopp sends message to Germany fans ahead of first stint of matches as manager",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLXlNQURCN2JUMTYwMmNDc1NsZjduZkhpQlFTSURXXzk5dmg5NzN4NHhLN0NNcThnekZDWWpaQjNnMEpfdVl2ekp6ekdjS3BxZTVUcURGbkdLeVEtX1BqV1BkMXdXaHgyMEFiUUxURkE3RjEyMmh3YjFfNHYtekxUaw?oc=5",
       "teams": [
-        "barcelona"
+        "germany"
       ],
-      "publishedAt": 1790101800000,
+      "publishedAt": 1790130600000,
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "Mikel Arteta contract: Arsenal boss agrees new deal to extend stay at Premier League champions",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYU5vMzhQWlBPM2NCWUc3S0Via1FVSkUyZ1RxZVdIb2FvcV9VS3lndkFFZENuV2oyMXh4UW9QRlVNRFR1NEdtdjNTc2ktYWphdUY3OUpMQk5xMHFmSnlnd2VNcmc4Y2QzYUZjTzBSd0ZiY19TUjkyTGxkd3dNNHd6NmpHVWZJZzFTa2plNXJ6SzZPOXRSSUNWcWRvRHpIWVZQNlNWQ3hhcm5DVHdvXzdYQUxHdXh4VWZEVGhUbWxBZTZHR05EQm55eUxKM3EwVG1WbEp2WGdGOVZ2dw?oc=5",
+      "competition": "fitalia",
+      "title": "Venezia reach decision on Stroppa future after picking up 0 points from first 5 games",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/venezia-reach-decision-on-stroppa-future/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/06/Giovanni-Stroppa-Cremonese-celebrate.jpg",
+      "summary": "Reports in Italy indicate that Venezia have decided to stick with head coach Giovanni Stroppa,...",
+      "teams": [
+        "venezia"
+      ],
+      "publishedAt": 1790101450000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2g4X2x4MDAwSkJRaFYzRDJEdWdydWhWX1Zma3JNbUE2UGkxOG5EVkxVODl0ZzhXX0VkdWxyQ000ck51X3JDNkFGTVBMVmxwWW5oSERSU0lzS1lCR3E4WkVPM3F5MDJkc2ozY19sbUxDeTk2UDBZS2tOTFdNNG5QQ2NmUk1xeGZFai1TTkx5QzcyQUFpdENLcU90TmFpamFYelRabkVyOXA2TWNJenJIdzNEZkFmc2d3Q1BkNDZqRTgydw?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790130002000,
+      "image": null
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa handed Alejandro Garnacho transfer update as feelings clear on Chelsea deal",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-alejandro-garnacho-transfer-34656795",
+      "image": "https://i2-prod.birminghammail.co.uk/sport/football/football-news/article34656800.ece/ALTERNATES/s615/0_JS416791207.jpg",
+      "summary": "Alejandro Garnacho has reportedly attracted interest from La Liga clubs after a disappointing start at Aston Villa",
+      "teams": [
+        "astonvilla",
+        "chelsea"
+      ],
+      "publishedAt": 1790100295000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea handed Alejandro Garnacho transfer lifeline as Aston Villa eye Jadon Sancho repeat",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-aston-villa-alejandro-garnacho-34656760",
+      "image": "https://i2-prod.football.london/chelsea-fc/news/article34656740.ece/ALTERNATES/s615/0_JS417139499.jpg",
+      "summary": "Alejandro Garnacho joined Aston Villa from Chelsea in the summer but a permanent move to Villa Park looks unlikely as things stand",
+      "teams": [
+        "astonvilla",
+        "chelsea"
+      ],
+      "publishedAt": 1790099268000
+    },
+    {
+      "competition": "guardian",
+      "title": "Mikel Arteta agrees contract extension expected to keep him at Arsenal until 2030",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/22/mikel-arteta-agrees-contract-extension-arsenal-2030",
+      "image": "https://i.guim.co.uk/img/media/d8c26acdcf196fcb29878c727d9df1151b19c423/1362_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=1b75e5b7c18f8663a8719c2df067074b",
+      "summary": "Manager’s current deal to expire at end of the seasonSpaniard can expect big increase on £10m-a-year salaryMikel Arteta has agreed a long-term contract extension with Arsenal that includes a hefty pay rise in…",
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790101631000,
+      "publishedAt": 1790098589000
+    },
+    {
+      "competition": "men",
+      "title": "Bruno Fernandes concern raised as Man United handed 'alarming' verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-bruno-fernandes-carrick-34656461",
+      "image": "https://i2-prod.football.london/incoming/article34603466.ece/ALTERNATES/s615/1_Manchester-United-v-Sabah-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
+      "summary": "Bruno Fernandes is widely regarded as Manchester United's best signing since Sir Alex Ferguson retired but there are concerns this season",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790098030000
+    },
+    {
+      "competition": "unl-a",
+      "title": "England vs Spain UEFA Nations League preview: Everything you need to know",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRjhKTHJKLWNWR093LUFWOVl1c09GRUxXTVdQOUxKNEJOaWwyTjBRT2hXWTNpYjF1WXh5SDVWZnZ4cGpMZ1R4N3dZZnMwdFBOMEU1Nm9VaGVzdWRsZ3ZoQWw4bzdWZTUyeDZOS1puZUlxY3VMSTdWS1dSQm9tUkZ3VW9jRGkzWmV6ZDFib3M3d3NCdTFO?oc=5",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790126726000,
       "image": null
+    },
+    {
+      "competition": "fitalia",
+      "title": "Football Italia Show: Early Italy line-up prediction after attending Mancini’s first training session",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/early-italy-line-up-prediction-mancini-train/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13-414x276.jpg",
+      "summary": "Football Italia was among the accredited media outlets at Italy s first training session under Roberto...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790097068000
+    },
+    {
+      "competition": "mirror",
+      "title": "Wayne Rooney makes Man Utd transfer claim on JJ Gabriel's next club decision",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/rooney-jj-gabriel-man-united-37690803",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690847.ece/ALTERNATES/s615/0_Screenshot-2026-09-22-172850.jpg",
+      "summary": "There is a lot of talk over where JJ Gabriel's future could lie after he asked to leave Manchester United",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790096667000
+    },
+    {
+      "competition": "guardian",
+      "title": "Real Madrid call for La Liga president’s removal over his response to derby complaints",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/22/la-liga-president-javier-tebas-real-madrid-conspiracy-claims-derby-defeat",
+      "image": "https://i.guim.co.uk/img/media/89e8db24292026966d36d441107801323a59f992/333_171_2491_1993/master/2491.jpg?width=140&quality=85&auto=format&fit=max&s=35baf33b78b9423c97c7ad66f1ad65ce",
+      "summary": "Javier Tebas accused club of ‘permanent conspiracy’ talkReal Madrid hit back at president’s ‘intolerable’ behaviourReal Madrid want a new La Liga president in light of what they called “intolerable” comments from the…",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790096573000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Shunned Newcastle United duo see ideal role model for first-team chance",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/shunned-newcastle-united-duo-see-34652528",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34652770.ece/ALTERNATES/s615/0_Newcastle-United-v-Hull-City-Premier-League-202627.jpg",
+      "summary": "Bazoumana Toure and Aladji Bamba have yet to be given a real opportunity in the United first team",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790096400000
+    },
+    {
+      "competition": "bundes",
+      "title": "How Tidiam Gomis has become important in RB Leipzig’s attack this season",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/how-tidiam-gomis-became-important-rb-leipzig-diomande-39321",
+      "image": "https://assets.bundesliga.com/contender/2026/8/2526_MD30_SGERBL_CKB_076.jpg?crop=0px%2C536px%2C6838px%2C3854px",
+      "summary": "Tidiam Gomis has gone from fringe player to genuine attacking option at RB Leipzig in the space of a few months. The 20-year-old has already made a significant impact in the 2026/27 Bundesliga season – and there are…",
+      "teams": [
+        "leipzig"
+      ],
+      "publishedAt": 1790095883000
+    },
+    {
+      "competition": "mirror",
+      "title": "Alejandro Garnacho given fresh escape route after nightmare Aston Villa start",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/alejandro-garnacho-villa-transfer-chelsea-37690807",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690798.ece/ALTERNATES/s615/0_GettyImages-2295715683.jpg",
+      "summary": "Former Manchester United star Alejandro Garnacho only joined Aston Villa from Chelsea in the summer but the forward could potentially be on the move once again, with clubs already eyeing him",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790095246000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjZBQThib3NCNHpLZlJvbGduWDlhaXFqMm1rUVZETENxeHpKcW1FVXpKdHVCa1JNRnNGRE1GUVhYUjdJSGRoVXc5Mkx4dEdxMUpmM2l2LVVJYmFRMVJZS3lpazRrV2ZoWkdOVEZNb00zeWJ1cWp0eWR0ajlnWWlfYnlvSkFCZ0dNWDFIdUN6cW1CaEktQXU5cXZET3FKd1JNZTJDM04yWVBaYUNXNWFsbkJWcVlNQU0?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790122882000,
+      "image": null
+    },
+    {
+      "competition": "bbc",
+      "title": "Pizza with Henry, captaining Brondby, and now a Scotland chance",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm70dyzjwg91o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2012/live/31e44ed0-b69e-11f1-ba3d-1d5c8a47f823.jpg",
+      "summary": "From searching for pizza with Thierry Henry to leading a Danish Superliga side, Luis Binks has taken an unconventional route to the Scotland squad, writes Tom English.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790093420000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal star Viktor Gyokeres defended by teammate as heartfelt Stoke gesture detailed",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-viktor-gyokeres-sweden-34656582",
+      "image": "https://i2-prod.football.london/incoming/article34656578.ece/ALTERNATES/s615/0_GettyImages-2284154518.jpg",
+      "summary": "Arsenal striker Viktor Gyokeres has been receiving his fair share of criticism in the early stages of the season having struggled for minutes",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790093252000
+    },
+    {
+      "competition": "echo",
+      "title": "Dropped, sold or backed? - Liverpool handed Florian Wirtz verdict after £116m man's struggles",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-jamie-carragher-34653932",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34653262.ece/ALTERNATES/s615/0_GettyImages-2296291071.jpg",
+      "summary": "After Jamie Carragher said Florian Wirtz should be dropped, the ECHO's writers have offered their verdict on the £116m midfielder",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790092800000
+    },
+    {
+      "competition": "bbc",
+      "title": "I was close to joining Liverpool in 2016 - Mbappe",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c68042y9l4kno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0d6/live/96e98bf0-b690-11f1-99b0-21d40bed432b.jpg",
+      "summary": "Kylian Mbappe says his mum was a \"big fan\" of Jurgen Klopp and wanted her son to move to Merseyside.",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790092702000
+    },
+    {
+      "competition": "men",
+      "title": "Wayne Rooney reveals inside view on JJ Gabriel Man United exit - 'everyone knew'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/wayne-rooney-jj-gabriel-transfer-34656323",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34656363.ece/ALTERNATES/s615/0_Screenshot-2026-09-22-164236.jpg",
+      "summary": "The highly-rated teeneager has asked to leave the club and has held talks with Barcelona",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790092600000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Tresoldi confirms when he will decide on Italy or Germany allegiance: ‘50:50’",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/tresoldi-confirms-when-he-will-decide-on-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/germany-v-northern-ireland-uefa-1.jpg",
+      "summary": "Nicolo Tresoldi has made it clear that he has not yet decided whether he wants...",
+      "teams": [
+        "germany",
+        "italy"
+      ],
+      "publishedAt": 1790092535000
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid Clashes With La Liga Over Refereeing",
+      "publisher": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjA1VkxBaDdLQzQyYjZGeGp1U1NvVUtyYURzb0hJbGZvck5hbE93bmlXUWprOTlVcmJIa2FtNEhLczJia2puT3hBazdUYU5aX1ROTVFvT1JiLU9JWGxodzFzMmwxWk45cFd2b0JqcFhQS1NIV1N6NUk1Y1U0Y2RkbEQ2TVQzZw?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790121080000,
+      "image": null
+    },
+    {
+      "competition": "echo",
+      "title": "Alexis Mac Allister truth now clear as Liverpool new signing call justified",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexis-mac-allister-truth-now-34655437",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34655426.ece/ALTERNATES/s615/0_GettyImages-2295998642.jpg",
+      "summary": "Alexis Mac Allister has been one of Liverpool's best performers during the opening weeks of the Andoni Iraola era",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790092204000
+    },
+    {
+      "competition": "transfer",
+      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790120810000,
+      "image": null
+    },
+    {
+      "competition": "fitalia",
+      "title": "Romano explains why he chose Italy over Switzerland: ‘Ranieri contacted me’",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/why-romano-chose-italy-over-switzerland/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-jacket.jpg",
+      "summary": "Alessandro Romano has spoken at length about his decision to represent the Italy national team...",
+      "teams": [
+        "switzerland",
+        "italy"
+      ],
+      "publishedAt": 1790091245000
     }
   ]
 }
