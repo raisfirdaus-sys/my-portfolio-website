@@ -1,17 +1,115 @@
 {
-  "generatedAt": 1790157378075,
+  "generatedAt": 1790158399778,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1540,
-    "tagged": 771,
-    "droppedKeyword": 46,
+    "raw": 1537,
+    "tagged": 773,
+    "droppedKeyword": 44,
     "droppedOtherSport": 2,
-    "droppedFeed": 13,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Jurgen Klopp introduces 4 new rules as ex-Liverpool boss lays down the law to Germany stars",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-germany-jurgen-klopp-rules-37692828",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37692824.ece/ALTERNATES/s615/0_GettyImages-2296708162.jpg",
+      "summary": "Former Liverpool boss Jurgen Klopp is set to oversee his first game as Germany head coach over the international break and he has already cracked the whip with his new side",
+      "teams": [
+        "liverpool",
+        "germany"
+      ],
+      "publishedAt": 1790158233000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790158199000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea have agreed to Cole Palmer's transfer demand after making wishes clear",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-agreed-cole-palmers-transfer-34658264",
+      "image": "https://i2-prod.football.london/incoming/article34640864.ece/ALTERNATES/s615/0_GettyImages-2295958296.jpg",
+      "summary": "Chelsea's 2026 summer transfer window was different to others under this ownership and that was impacted by behind-the-scenes talks with the Blues squad earlier this year",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790158159000
+    },
+    {
+      "competition": "indy",
+      "title": "Premier League panel gives verdict on controversial Sunderland penalty award against Arsenal",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/sunderland-penalty-arsenal-arteta-premier-league-b3054881.html",
+      "image": "https://static.independent.co.uk/2026/09/14/15/2294937200..?width=1200&auto=webp&trim=91%2C0%2C92%2C0",
+      "summary": "Sunderland were awarded a penalty against Arsenal earlier this month, with Gunners boss Mikel Arteta branding the decision ‘not acceptable’",
+      "teams": [
+        "sunderland",
+        "arsenal"
+      ],
+      "publishedAt": 1790157619000
+    },
+    {
+      "competition": "men",
+      "title": "Enzo Maresca has plan for Man City stars not on international duty",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/enzo-maresca-plan-man-city-34658714",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34658713.ece/ALTERNATES/s615/0_GettyImages-2291178862.jpg",
+      "summary": "Manchester City manager Enzo Maresca will not be heading off on holiday during the international break but his players can",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790157600000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Stats show Hojlund struggling at Napoli under Allegri",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/stats-hojlund-struggling-napoli-under-allegri/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Rasmus-Hojlund-argh-414x275.jpg",
+      "summary": "Rasmus Hojlund has averaged just one touch inside the opposition box every 26 minutes across...",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1790157522000
+    },
+    {
+      "competition": "echo",
+      "title": "Tim Cahill defends Friedkins and sends message to Everton fans - 'careful what you wish for'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/tim-cahill-defends-friedkins-sends-34658069",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34658180.ece/ALTERNATES/s615/0_TC230926.jpg",
+      "summary": "The Friedkin Group have Everton's best interests at heart reckons former Blues midfielder Tim Cahill",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790157346000
+    },
+    {
+      "competition": "birmingham",
+      "title": "The four changes Unai Emery has made at Aston Villa this season as transfer problem solved",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/four-changes-unai-emery-made-34658639",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34608266.ece/ALTERNATES/s615/0_Aston-Villa-v-Nottingham-Forest-Premier-League-Villa-Park.jpg",
+      "summary": "A new era has begun at Aston Villa, with Unai Emery working with an exciting new-look squad this season",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790157183000
+    },
     {
       "competition": "indy",
       "title": "Ireland manager responds to Israel criticism after ‘genocide’ comments: ‘Not clever from me’",
@@ -25,23 +123,11 @@
       "publishedAt": 1790157136000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790156986000
-    },
-    {
       "competition": "footlondon",
       "title": "Ex-Chelsea ace 'dragged from restaurant and assaulted' with friends frozen in horror",
       "publisher": "football.london",
       "link": "https://www.football.london/chelsea-fc/news/ex-chelsea-ace-dragged-restaurant-34658233",
-      "image": "https://i2-prod.football.london/incoming/article34658219.ece/ALTERNATES/s615/0_GettyImages-1236157318.jpg",
+      "image": "https://i2-prod.football.london/incoming/article34658716.ece/ALTERNATES/s615/0_GettyImages-1396712054.jpg",
       "summary": "The former Chelsea defender was allegedly dragged aside whilst enjoying a meal with team-mates on a training camp and assaulted",
       "teams": [
         "chelsea"
@@ -565,18 +651,6 @@
     },
     {
       "competition": "footlondon",
-      "title": "Fabian Hurzeler’s baffling radio appearance, Arsenal 'establishment' dig and the missing facts",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/fabian-hurzelers-baffling-radio-appearance-34656273",
-      "image": "https://i2-prod.football.london/incoming/article34656300.ece/ALTERNATES/s615/1_Fabian-Hurzeler-and-Arsenal.jpg",
-      "summary": "In a strange radio appearance that left many questions unanswered, Fabian Hurzeler labelled Arsenal as part of the Premier League 'establishment' that Brighton are trying to battle against",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790139600000
-    },
-    {
-      "competition": "footlondon",
       "title": "Mikel Arteta faces tough Max Dowman decision after Arsenal reunion request",
       "publisher": "football.london",
       "link": "https://www.football.london/arsenal-fc/transfer-news/max-dowman-arsenal-transfer-decision-34657182",
@@ -588,14 +662,14 @@
       "publishedAt": 1790139600000
     },
     {
-      "competition": "men",
-      "title": "Michael Carrick 'killing' Man United star with current tactic as four teammates dubbed 'average'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-michael-carrick-cunha-34657181",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34651178.ece/ALTERNATES/s615/1_Michael-Carrick.jpg",
-      "summary": "Michael Carrick has endured a difficult start to his first full season in charge of Manchester United with just five points to the Reds' name so far",
+      "competition": "footlondon",
+      "title": "Fabian Hurzeler’s baffling radio appearance, Arsenal 'establishment' dig and the missing facts",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/fabian-hurzelers-baffling-radio-appearance-34656273",
+      "image": "https://i2-prod.football.london/incoming/article34656300.ece/ALTERNATES/s615/1_Fabian-Hurzeler-and-Arsenal.jpg",
+      "summary": "In a strange radio appearance that left many questions unanswered, Fabian Hurzeler labelled Arsenal as part of the Premier League 'establishment' that Brighton are trying to battle against",
       "teams": [
-        "manutd"
+        "arsenal"
       ],
       "publishedAt": 1790139600000
     },
@@ -606,6 +680,18 @@
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/no-confidence-ratcliffe-lost-message-34654594",
       "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34655083.ece/ALTERNATES/s615/0_premium-canvas-1790083074020.png",
       "summary": "Distrust in Sir Jim Ratcliffe's co-ownership of Manchester United bubbled over at the weekend following a statement from the Manchester United Muslim Supporters' Club",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790139600000
+    },
+    {
+      "competition": "men",
+      "title": "Michael Carrick 'killing' Man United star with current tactic as four teammates dubbed 'average'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-michael-carrick-cunha-34657181",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34651178.ece/ALTERNATES/s615/1_Michael-Carrick.jpg",
+      "summary": "Michael Carrick has endured a difficult start to his first full season in charge of Manchester United with just five points to the Reds' name so far",
       "teams": [
         "manutd"
       ],
@@ -659,91 +745,6 @@
         "manutd"
       ],
       "publishedAt": 1790137800000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Rice, White, Saliba - Arsenal injury news and return dates after international break withdrawals",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-injury-news-rice-white-34655705",
-      "image": "https://i2-prod.football.london/incoming/article34593866.ece/ALTERNATES/s615/2_Declan-Rice.jpg",
-      "summary": "Arsenal boss Mikel Arteta has several injury concerns within his squad after the defeat at Brighton on Saturday",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790137800000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Palmer, James, Joao Pedro - Latest Chelsea injury news and return dates amid Xabi Alonso worry",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/players/chelsea-injury-news-cole-palmer-34655988",
-      "image": "https://i2-prod.football.london/incoming/article34656020.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
-      "summary": "Both Cole Palmer and Joao Pedro have withdrawn from international duty due to injuries as Chelsea look ahead to the Premier League clash vs Bournemouth.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790137800000
-    },
-    {
-      "competition": "men",
-      "title": "Man Utd latest: Statement released after update and JJ Gabriel 'agreement reached'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-agreement-34655509",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article34646296.ece/ALTERNATES/s615/1_Manchester-United-U21-v-Leicester-City-U21-U21-Premier-League.jpg",
-      "summary": "Manchester United head into the first international break of the season with plenty to sort out, with poor form, injury problems, and the JJ Gabriel saga to contend with",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790137800000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool news: Kylian Mbappe makes transfer admission as Andoni Iraola striker plan emerges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-kylian-mbappe-andoni-iraola-37689881",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689912.ece/ALTERNATES/s615/0_GettyImages-2284096037.jpg",
-      "summary": "Liverpool headed into the international break unbeaten in all competitions, but Andoni Iraola has plenty to ponder before club football returns",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790136000000
-    },
-    {
-      "competition": "mirror",
-      "title": "No Liverpool players and one Man Utd star - AI picks Premier League Team of Season so far",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-liverpool-man-utd-37690263",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37690515.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "AI has picked the Premier League team of the season so far, and you might be surprised by some of the names that have named in the starting line-up",
-      "teams": [
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790136000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal latest: Mikel Arteta 'agrees contract' as star drops out of international squad",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-mikel-arteta-agrees-34656657",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34656656.ece/ALTERNATES/s615/1_Mikel-Arteta-Arsenal.jpg",
-      "summary": "Mikel Arteta reportedly looks set to extend his stint as Arsenal manager as the interantional break pauses Premier League action",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790136000000
-    },
-    {
-      "competition": "men",
-      "title": "Man United player and manager ratings for season so far with a 3/10, five 4/10s but one star man",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-united-player-manager-ratings-34654696",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34655823.ece/ALTERNATES/s615/0_premium-canvas-1790087878487.png",
-      "summary": "Man Utd are taking stock in the first international break of the season after a disappointing start to the campaign.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790136000000
     }
   ]
 }
