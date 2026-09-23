@@ -7,7 +7,8 @@
 
 import {
   isOtherCompetition, busiestTeams,
-  extractOgImage, absoluteHttpUrl, decodeGoogleLink, publisherUrlFromGooglePage
+  extractOgImage, absoluteHttpUrl, decodeGoogleLink, publisherUrlFromGooglePage,
+  imageFromItemXml, linkFromItemXml, summaryFromItemXml, dedupe
 } from "./fetch-football-news.mjs";
 
 /* Wording alone should catch these. */
@@ -176,7 +177,136 @@ function checkImages() {
   return bad;
 }
 
-fail = checkBusiestTeams() + checkImages();
+/* The publisher feeds are where the pictures actually come from, so the
+   four shapes publishers announce them in each get a case, taken from the
+   real feeds this script reads. */
+function checkFeedImages() {
+  let bad = 0;
+  const cases = [
+    ["media:content (Guardian, 90min)",
+     '<item><title>x</title><media:content url="https://i.guim.co.uk/img/a.jpg" width="620"/></item>',
+     "https://i.guim.co.uk/img/a.jpg"],
+    ["media:thumbnail (BBC, Mirror)",
+     '<item><title>x</title><media:thumbnail width="976" url="https://ichef.bbci.co.uk/b.jpg"/></item>',
+     "https://ichef.bbci.co.uk/b.jpg"],
+    ["enclosure, url first (WordPress)",
+     '<item><enclosure url="https://metro.co.uk/c.jpg" length="0" type="image/jpeg"/></item>',
+     "https://metro.co.uk/c.jpg"],
+    ["enclosure, type first",
+     '<item><enclosure type="image/jpeg" length="0" url="https://metro.co.uk/d.jpg"/></item>',
+     "https://metro.co.uk/d.jpg"],
+    ["img inside a CDATA description",
+     '<item><description><![CDATA[<p><img src="https://talksport.com/e.jpg" alt=""/>text</p>]]></description></item>',
+     "https://talksport.com/e.jpg"],
+    ["img inside an escaped description",
+     '<item><description>&lt;img src=&quot;https://express.co.uk/f.jpg&quot; /&gt; text</description></item>',
+     "https://express.co.uk/f.jpg"]
+  ];
+  for (const [what, xml, want] of cases) {
+    const got = imageFromItemXml(xml);
+    if (got !== want) { console.error(`FAIL: ${what} gave ${got}, expected ${want}`); bad++; }
+  }
+
+  // A feed with no picture must say so, and must not invent one.
+  if (imageFromItemXml("<item><title>plain</title><link>https://x/y</link></item>") !== null) {
+    console.error("FAIL: an item with no picture should return null"); bad++;
+  }
+  // An enclosure that is audio or video is not a picture.
+  if (imageFromItemXml('<item><enclosure url="https://x/p.mp3" type="audio/mpeg"/></item>') !== null) {
+    console.error("FAIL: an audio enclosure is not a picture"); bad++;
+  }
+  // Same http(s)-only rule as everywhere else.
+  if (imageFromItemXml('<item><media:content url="data:image/png;base64,AAA"/></item>') !== null) {
+    console.error("FAIL: a data: URI should be refused"); bad++;
+  }
+
+  // Links: plain RSS, atom href, and guid as a last resort.
+  const links = [
+    ["<item><link>https://www.bbc.com/sport/1</link></item>", "https://www.bbc.com/sport/1"],
+    ['<item><link rel="alternate" href="https://www.espn.com/2"/></item>', "https://www.espn.com/2"],
+    ["<item><guid isPermaLink=\"true\">https://www.goal.com/3</guid></item>", "https://www.goal.com/3"],
+    ["<item><guid>tag:example,2026:4</guid></item>", null]
+  ];
+  for (const [xml, want] of links) {
+    const got = linkFromItemXml(xml);
+    if (got !== want) { console.error(`FAIL: link was ${got}, expected ${want}`); bad++; }
+  }
+
+  // Summaries: the wide cards carry one, so markup and stubs must not reach them.
+  const withMarkup = '<item><description><![CDATA[<p>Arsenal have agreed a new deal with Mikel Arteta that runs to 2030, the club confirmed on Tuesday.</p>]]></description></item>';
+  const gotSummary = summaryFromItemXml(withMarkup);
+  if (!gotSummary || /[<>]/.test(gotSummary)) {
+    console.error(`FAIL: summary should be plain text, got ${gotSummary}`); bad++;
+  }
+  if (summaryFromItemXml("<item><description>Read more</description></item>") !== null) {
+    console.error("FAIL: a stub description is not a summary"); bad++;
+  }
+  if (summaryFromItemXml("<item><title>x</title></item>") !== null) {
+    console.error("FAIL: no description should give no summary"); bad++;
+  }
+  const long = "<item><description>" + "word ".repeat(120) + "</description></item>";
+  const trimmed = summaryFromItemXml(long, 220);
+  if (!trimmed || trimmed.length > 222 || !trimmed.endsWith("\u2026")) {
+    console.error(`FAIL: a long summary should be cut and marked (len ${trimmed && trimmed.length})`); bad++;
+  }
+
+  if (!bad) console.log("  ok   feed pictures and summaries: media/enclosure/inline img, text trimmed");
+  return bad;
+}
+
+/* When Google and a publisher both carry a story, the page should get the
+   copy with the picture and the direct link - not whichever arrived first. */
+function checkDedupe() {
+  let bad = 0;
+  const google = {
+    title: "Arteta agrees new Arsenal deal",
+    link: "https://news.google.com/rss/articles/CBMiabc?oc=5",
+    image: null, publisher: "Google News"
+  };
+  const publisher = {
+    title: "Arteta agrees new Arsenal deal",
+    link: "https://www.skysports.com/football/news/1",
+    image: "https://e0.365dm.com/a.jpg", publisher: "Sky Sports"
+  };
+
+  for (const [order, input] of [["google first", [google, publisher]], ["publisher first", [publisher, google]]]) {
+    const out = dedupe(input);
+    if (out.length !== 1) { console.error(`FAIL: ${order} should collapse to one story, got ${out.length}`); bad++; continue; }
+    if (out[0].publisher !== "Sky Sports") {
+      console.error(`FAIL: ${order} kept the copy with no picture`); bad++;
+    }
+  }
+
+  // Punctuation and case differences are the same headline.
+  const same = dedupe([
+    { title: "De Bruyne: I did not try to leave Napoli", link: "https://a/1", image: null },
+    { title: "De Bruyne - I did not try to leave Napoli!", link: "https://b/2", image: "https://c/p.jpg" }
+  ]);
+  if (same.length !== 1 || !same[0].image) {
+    console.error(`FAIL: near-identical headlines should collapse to the copy with a picture (got ${same.length})`); bad++;
+  }
+
+  // Two genuinely different stories must both survive.
+  if (dedupe([
+    { title: "Arsenal win late", link: "https://a/1", image: null },
+    { title: "Napoli draw at home", link: "https://b/2", image: null }
+  ]).length !== 2) {
+    console.error("FAIL: different stories should not be collapsed"); bad++;
+  }
+
+  // One link cannot carry two cards.
+  if (dedupe([
+    { title: "First headline", link: "https://a/1", image: null },
+    { title: "Second headline", link: "https://a/1", image: null }
+  ]).length !== 1) {
+    console.error("FAIL: two headlines sharing a link should collapse"); bad++;
+  }
+
+  if (!bad) console.log("  ok   the copy with a picture and a direct link wins de-duplication");
+  return bad;
+}
+
+fail = checkBusiestTeams() + checkImages() + checkFeedImages() + checkDedupe();
 for (const t of MUST_DROP) {
   if (!isOtherCompetition(t)) { console.error("FAIL: should have been dropped:\n  " + t); fail++; }
 }
