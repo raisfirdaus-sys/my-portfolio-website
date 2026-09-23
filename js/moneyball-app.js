@@ -167,7 +167,7 @@
     if (sim) {
       rows.push(['Parlay ' + nLegs + '-leg parlay, the best that can be built here',
         'EV ' + signPct(sim.ev, 1),
-        'harapan cair ' + sim.expectedReturn.toFixed(3) + 'x, chance of profit ' + pct(sim.pProfit, 2)]);
+        'expected return ' + sim.expectedReturn.toFixed(3) + 'x, chance of profit ' + pct(sim.pProfit, 2)]);
     }
     rows.forEach(function (r) {
       var p = el('p');
@@ -237,7 +237,7 @@
     if (sim) {
       var p2 = el('p');
       p2.innerHTML = '<strong>What that costs:</strong> every extra leg multiplies the bookmaker margin once more. ' +
-        'At ' + pct(avgVig, 1) + ' per leg, ' + nLegs + ' leg menahan sekitar <span class="fig">' +
+        'At ' + pct(avgVig, 1) + ' per leg, ' + nLegs + ' legs hold back about <span class="fig">' +
         pct(Math.pow(1 - avgVig, nLegs), 1) + '</span> of the stake before a single result is counted. ' +
         'This tool cannot change that &mdash; what it can do: choose the legs with the smallest margin, ' +
         'refuse quarter lines, and show you the real numbers.';
@@ -680,21 +680,34 @@
     ['xG created',        'xgF',     'desc', 2, 'Chances created per match.'],
     ['xG conceded',   'xgA',     'asc',  2, 'Lower is better: chances handed to the opposition.'],
     ['Goals per match',     'goals',   'desc', 2, 'Real goals, not expected ones.'],
-    ['Tembakan',         'shots',   'desc', 1, 'Total attempts per match.'],
-    ['Tepat sasaran',    'sot',     'desc', 1, 'Attempts that were on target.'],
+    ['Shots',            'shots',   'desc', 1, 'Total attempts per match.'],
+    ['Shots on target',  'sot',     'desc', 1, 'Attempts that were on target.'],
     ['Tackles',            'tackles', 'desc', 1, 'Tackles per match.'],
-    ['Fouls',      'fouls',   'asc',  1, 'Makin kecil makin disiplin.'],
-    ['Kartu kuning',     'yellow',  'desc', 2, 'Per match. Higher also lifts red-card risk.']
+    ['Fouls',            'fouls',   'asc',  1, 'Fewer is more disciplined.'],
+    ['Yellow cards',     'yellow',  'desc', 2, 'Per match. Higher also lifts red-card risk.']
   ];
 
+  /* Judged per FIELD, not per team.
+
+     Two bugs lived in the team-level test this replaces. A team whose
+     import brought goals, shots, tackles, fouls and cards but no xG kept
+     statsMissing = true - effStats only clears that when BOTH xG columns
+     arrive - so it was dropped from every board, including the five boards
+     for the figures it actually had. And "real" meant "this team has some
+     user data anywhere", so a team with one imported figure showed its
+     shipped placeholder for every other board with a real-data badge on it.
+
+     A row belongs on a board when that board's own figure was filled in by
+     hand or by import. Nothing else qualifies. */
   function ttRows(field, dir, onlyReal) {
     var rows = [];
     Object.keys(DATA.teams).forEach(function (k) {
       var t = effStats(k);
-      if (!t || t.statsMissing) return;
+      if (!t) return;
       var v = t[field];
       if (v == null || !isFinite(v)) return;
-      var real = statOrigin(k) === 'user';
+      var ov = STATE.overrides[k];
+      var real = !!(ov && ov[field] != null);
       if (onlyReal && !real) return;
       rows.push({ key: k, name: t.name || k, v: v, real: real });
     });
@@ -708,8 +721,12 @@
     var host = $('tt-body'); if (!host) return;
     host.innerHTML = '';
 
+    /* Counted the same way the boards select, so the subtitle cannot claim
+       five teams while the boards show four. */
+    var TT_FIELDS = TT_CATS.map(function (c) { return c[1]; });
     var realCount = Object.keys(DATA.teams).filter(function (k) {
-      return statOrigin(k) === 'user';
+      var ov = STATE.overrides[k];
+      return !!(ov && TT_FIELDS.some(function (f) { return ov[f] != null; }));
     }).length;
     var withAny = Object.keys(DATA.teams).filter(function (k) {
       var t = effStats(k); return t && !t.statsMissing;
@@ -890,14 +907,14 @@
   var STAT_ROWS = [
     ['xgF',     'Expected goals',   1],
     ['xA',      'Expected assist',  1],
-    ['shots',   'Tembakan',         0],
-    ['sot',     'Tepat sasaran',    1],
+    ['shots',   'Shots',            0],
+    ['sot',     'Shots on target',  1],
     ['bigMiss', 'Big chances missed', 1],
     ['xgA',     'xG conceded',   1],
     ['fouls',   'Fouls',      1],
     ['tackles', 'Tackles',            1],
-    ['yellow',  'Kartu kuning',     1],
-    ['red',     'Kartu merah',      2]
+    ['yellow',  'Yellow cards',     1],
+    ['red',     'Red cards',        2]
   ];
 
   function renderStatCompare(a) {
@@ -944,18 +961,18 @@
     var ph = a.profiles.home, pa = a.profiles.away;
     var t = el('div', 'table-scroll'); t.style.marginTop = '12px';
     var rows = [
-      ['xG per tembakan', ph.xgPerShot.toFixed(3), pa.xgPerShot.toFixed(3),
+      ['xG per shot', ph.xgPerShot.toFixed(3), pa.xgPerShot.toFixed(3),
         'Chance quality. The league runs around 0.105.'],
-      ['Rasio tepat sasaran', pct(ph.sotRate, 1), pct(pa.sotRate, 1), 'Normal sekitar 33%.'],
-      ['Koreksi penyelesaian', ph.finAdj.toFixed(3), pa.finAdj.toFixed(3),
+      ['Shots-on-target rate', pct(ph.sotRate, 1), pct(pa.sotRate, 1), 'Around 33% is normal.'],
+      ['Finishing correction', ph.finAdj.toFixed(3), pa.finAdj.toFixed(3),
         'Goals over xG, regressed hard toward 1 (38-match prior) and penalised for big chances missed.'],
       ['Repeatability (from xA)', ph.repeatability.toFixed(3), pa.repeatability.toFixed(3),
         'xA close to xG means chances come from open-play structure, which repeats.'],
-      ['Intensitas bertahan', ph.defIntensity.toFixed(3), pa.defIntensity.toFixed(3),
-        'Tekel menekan xG lawan, foul menambah bahaya bola mati. Dibatasi +/-12%.'],
-      ['Risiko kartu merah', pct(ph.pRed, 1), pct(pa.pRed, 1),
+      ['Defensive intensity', ph.defIntensity.toFixed(3), pa.defIntensity.toFixed(3),
+        'Tackles suppress the opponent’s xG, fouls add set-piece danger. Capped at +/-12%.'],
+      ['Red-card risk', pct(ph.pRed, 1), pct(pa.pRed, 1),
         'From fouls, yellows and red-card history. A red shifts expected goals for both sides.'],
-      ['Bobot rating (sampel)', ph.ratingWeight.toFixed(2), pa.ratingWeight.toFixed(2),
+      ['Rating weight (sample)', ph.ratingWeight.toFixed(2), pa.ratingWeight.toFixed(2),
         '0 = follow the league average, 1 = trust the team xG fully. Rises with the match count.']
     ];
     var html = '<table class="mb"><thead><tr><th>Turunan model</th><th style="text-align:right">' +
@@ -1218,7 +1235,7 @@
     ta.id = 'api-bulk-text';
     ta.rows = 4;
     ta.placeholder = 'Paste here: a whole statistics page (Ctrl+A, Ctrl+C), OR a JSON response. ' +
-      'Keduanya diterima \u2014 tekan tombol di bawah.';
+      'Either is accepted \u2014 press the button below.';
     ta.style.cssText = 'width:100%;margin-top:8px;padding:8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
       'font-family:var(--mono);font-size:11px;min-width:0';
@@ -1630,7 +1647,7 @@
       var sw = el('span', 'mc-swatch');
       sw.style.background = idx ? 'var(--series-away)' : 'var(--series-home)';
       h.appendChild(sw);
-      h.appendChild(el('span', null, t.name + (t.statsMissing ? '  (belum ada data)' : '')));
+      h.appendChild(el('span', null, t.name + (t.statsMissing ? '  (no data yet)' : '')));
       box.appendChild(h);
 
       var grid = el('div', 'form-grid');
@@ -1638,10 +1655,10 @@
         ['matches', 'Matches played', 1],
         ['xgF', 'xG created', 0.01], ['xgA', 'xG conceded', 0.01],
         ['xA', 'xA (expected assists)', 0.01], ['goals', 'Goals scored', 0.01],
-        ['shots', 'Tembakan', 0.1], ['sot', 'Tepat sasaran', 0.1],
+        ['shots', 'Shots', 0.1], ['sot', 'Shots on target', 0.1],
         ['bigMiss', 'Big chances missed', 0.1], ['fouls', 'Fouls', 0.1],
-        ['tackles', 'Tackles', 0.1], ['yellow', 'Kartu kuning', 0.1],
-        ['red', 'Kartu merah', 0.01]
+        ['tackles', 'Tackles', 0.1], ['yellow', 'Yellow cards', 0.1],
+        ['red', 'Red cards', 0.01]
       ];
       /* Read every box for this team and commit them together. Typing used
          to redraw the whole page on each field, which stole focus mid-entry
@@ -2042,17 +2059,17 @@
         (note ? '<div class="note">' + note + '</div>' : '');
       kpis.appendChild(k);
     }
-    kpi('Odds tercetak', sim.printedOdds.toFixed(3),
+    kpi('Printed odds', sim.printedOdds.toFixed(3),
       'Payout if every leg wins in full: ' + rupiah(stake * sim.printedOdds));
-    kpi('Harapan cair', sim.expectedReturn.toFixed(4) + 'x',
+    kpi('Expected return', sim.expectedReturn.toFixed(4) + 'x',
       'Long-run average: ' + rupiah(stake * sim.expectedReturn) + ' of ' + rupiah(stake),
       sim.expectedReturn >= 1 ? 'good' : 'bad');
     kpi('Expected value', signPct(sim.ev, 1),
-      sim.ev < 0 ? 'Rugi harapan ' + rupiah(stake * -sim.ev) + ' setiap kali dipasang'
-                 : 'Untung harapan ' + rupiah(stake * sim.ev),
+      sim.ev < 0 ? 'Expected loss of ' + rupiah(stake * -sim.ev) + ' every time it is staked'
+                 : 'Expected profit of ' + rupiah(stake * sim.ev),
       sim.ev >= 0 ? 'good' : 'bad');
     kpi('Chance of profit', pct(sim.pProfit, 2),
-      'Every leg wins in full: ' + pct(sim.pAllWin, 3) + ' · hasil tengah ' + sim.median.toFixed(2) + 'x');
+      'Every leg wins in full: ' + pct(sim.pAllWin, 3) + ' · median result ' + sim.median.toFixed(2) + 'x');
     if (sim.quarterLegs) {
       kpi('Quarter-line legs', String(sim.quarterLegs),
         'This is what cut your slip from 73x to 6.07x. Switch to half lines where you can.',
@@ -2098,8 +2115,8 @@
 
     /* ladder: how ticket length changes the economics */
     var tb = el('table', 'mb');
-    tb.innerHTML = '<thead><tr><th>Panjang tiket</th><th style="text-align:right">Odds tercetak</th>' +
-      '<th style="text-align:right">Harapan cair</th><th style="text-align:right">EV</th>' +
+    tb.innerHTML = '<thead><tr><th>Ticket length</th><th style="text-align:right">Printed odds</th>' +
+      '<th style="text-align:right">Expected return</th><th style="text-align:right">EV</th>' +
       '<th style="text-align:right">Chance of profit</th><th style="text-align:right">Expected loss / ' +
       rupiah(stake) + '</th></tr></thead>';
     var bd = el('tbody');
@@ -2271,7 +2288,7 @@
       box.innerHTML = '<h3>Skor Brier atas ' + rep.n + ' legs that carry a model probability</h3>' +
         '<p>Brier model <span class="fig">' + rep.brier.toFixed(4) + '</span> ' +
         'melawan <span class="fig">' + rep.brierBaseline.toFixed(4) + '</span> against a model that ' +
-        'selalu menjawab 50%. Makin kecil makin baik, jadi skill score <span class="fig">' +
+        'that always answers 50%. Lower is better, so a skill score of <span class="fig">' +
         (rep.skill * 100).toFixed(1) + '%</span>.</p>' +
         '<p><strong>' + (rep.significant
           ? 'The sample is large enough to start trusting.'
@@ -2367,9 +2384,9 @@
           '<td style="font-weight:600;color:' +
             (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)'
              : r.outcome === 'push' ? 'var(--text-secondary)' : 'var(--warning)') + '">' +
-            (OUTCOME_LABEL[r.outcome] || (pending ? 'belum main' : '?')) + '</td>' +
+            (OUTCOME_LABEL[r.outcome] || (pending ? 'not played yet' : '?')) + '</td>' +
           '<td class="num"' + (l.pModelAtPrediction != null
-              ? ' title="Frozen on ' + (g.coupon.registeredAt || 'saat prediksi') +
+              ? ' title="Frozen on ' + (g.coupon.registeredAt || 'the day it was predicted') +
                 ', before the match. Never recomputed."' : '') + '>' +
             (l.pModelAtPrediction != null ? pct(l.pModelAtPrediction, 1)
              : r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
@@ -2471,7 +2488,7 @@
        'A team xG as a ratio of the league average. Both ratings multiply for both sides, so ' +
        'noise multiplies with them; that is why each rating is regressed toward the league average with a ' +
        '4-match prior (<code>RATING_PRIOR</code>). Without it, Milan vs Lecce comes out 3.00-0.48 &mdash; impossible.'],
-      ['2. Peleburan profil tembakan',
+      ['2. Shot-profile fusion',
        'Shots, shots on target and xG per shot. Shot volume is raised only to the power 0.35 ' +
        'because it has diminishing returns; a team taking many low-value shots must not ' +
        'look good on volume alone.'],
@@ -2489,7 +2506,7 @@
        'because they are easy to collect &mdash; next to xG, both are weak predictors.'],
       ['6. Yellows, reds and discipline',
        'Red-card risk is estimated from fouls, yellows and red-card history. ' +
-       'Kartu merah rata-rata terjadi sekitar menit 65, jadi efeknya ditimbang sisa waktu: ' +
+       'A red card falls around the 65th minute on average, so its effect is weighted by the time left: ' +
        'the team own expected goals fall and the opponent rise.'],
       ['7. Matriks skor Dixon-Coles',
        'A bivariate Poisson with the <code>&tau;(&rho;)</code> correction for low scores, because independent Poisson ' +
