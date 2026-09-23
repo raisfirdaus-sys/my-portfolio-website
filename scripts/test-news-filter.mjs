@@ -5,7 +5,10 @@
 // when a quarter of the brief turned out to be UEFA Women's Champions League
 // coverage tagged to the men's clubs on the board.
 
-import { isOtherCompetition, busiestTeams } from "./fetch-football-news.mjs";
+import {
+  isOtherCompetition, busiestTeams,
+  extractOgImage, absoluteHttpUrl, decodeGoogleLink, publisherUrlFromGooglePage
+} from "./fetch-football-news.mjs";
 
 /* Wording alone should catch these. */
 const MUST_DROP = [
@@ -85,7 +88,95 @@ function checkBusiestTeams() {
   return 0;
 }
 
-fail = checkBusiestTeams();
+function checkImages() {
+  let bad = 0;
+  const base = "https://www.espn.com/soccer/report/_/gameId/1234";
+
+  // og:image, in both attribute orders publishers write it.
+  const cases = [
+    ['<meta property="og:image" content="https://a.espncdn.com/photo.jpg">', "https://a.espncdn.com/photo.jpg"],
+    ['<meta content="https://a.espncdn.com/photo.jpg" property="og:image">', "https://a.espncdn.com/photo.jpg"],
+    ['<meta property="og:image:secure_url" content="https://a.espncdn.com/s.jpg">', "https://a.espncdn.com/s.jpg"],
+    ['<meta name="twitter:image" content="https://a.espncdn.com/t.jpg">', "https://a.espncdn.com/t.jpg"],
+    ['<link rel="image_src" href="https://a.espncdn.com/l.jpg">', "https://a.espncdn.com/l.jpg"],
+    // relative paths are common and must be resolved against the article
+    ['<meta property="og:image" content="/media/hero.jpg">', "https://www.espn.com/media/hero.jpg"],
+    // entities survive the round trip
+    ['<meta property="og:image" content="https://x.com/a.jpg?w=1&amp;h=2">', "https://x.com/a.jpg?w=1&h=2"]
+  ];
+  for (const [html, want] of cases) {
+    const got = extractOgImage(html, base);
+    if (got !== want) { console.error(`FAIL: og:image was ${got}, expected ${want}`); bad++; }
+  }
+
+  // og:image wins over twitter:image when a page offers both.
+  const both = '<meta name="twitter:image" content="https://x/t.jpg">' +
+               '<meta property="og:image" content="https://x/og.jpg">';
+  if (extractOgImage(both, base) !== "https://x/og.jpg") {
+    console.error("FAIL: og:image should be preferred over twitter:image"); bad++;
+  }
+
+  // A page with no picture must say so rather than guess.
+  if (extractOgImage("<html><head><title>x</title></head></html>", base) !== null) {
+    console.error("FAIL: a page with no image should return null"); bad++;
+  }
+  if (extractOgImage("", base) !== null || extractOgImage(null, base) !== null) {
+    console.error("FAIL: empty input should return null"); bad++;
+  }
+
+  /* A data: URI would be embedded in the file we publish, and javascript:
+     would run on the page. Only http(s) may through. */
+  for (const bad_url of [
+    "data:image/png;base64,iVBORw0KGgo=",
+    "javascript:alert(1)",
+    "file:///etc/passwd"
+  ]) {
+    if (absoluteHttpUrl(bad_url, base) !== null) {
+      console.error(`FAIL: ${bad_url.slice(0, 24)} should be rejected`); bad++;
+    }
+    if (extractOgImage(`<meta property="og:image" content="${bad_url}">`, base) !== null) {
+      console.error(`FAIL: og:image ${bad_url.slice(0, 24)} should be rejected`); bad++;
+    }
+  }
+
+  // Old-style Google links carry the publisher URL inside the base64.
+  const real = "https://www.bbc.com/sport/football/articles/abc123";
+  const payload = Buffer.from("\x08\x13\x22" + String.fromCharCode(real.length) + real + "\xd2\x01\x00", "latin1")
+    .toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const decoded = decodeGoogleLink(`https://news.google.com/rss/articles/${payload}?oc=5`);
+  if (decoded !== real) { console.error(`FAIL: decoded link was ${decoded}, expected ${real}`); bad++; }
+
+  /* The current format holds an opaque id, not a URL. Returning null is the
+     right answer - the fetcher then follows the redirect instead. */
+  const opaque = "https://news.google.com/rss/articles/CBMifEFVX3lxTE44aTQySk5WZ0doVE5tcTkzUDdHbmVfdmFh?oc=5";
+  if (decodeGoogleLink(opaque) !== null) {
+    console.error("FAIL: an opaque link should decode to null, not a guess"); bad++;
+  }
+  if (decodeGoogleLink("https://example.com/story") !== null) {
+    console.error("FAIL: a non-Google link should decode to null"); bad++;
+  }
+
+  // Falling back to the redirect page: prefer data-n-au, skip Google's own URLs.
+  const gpage = '<html><head><link href="https://fonts.gstatic.com/x.css">' +
+    '<script src="https://www.google.com/js/k.js"></script></head>' +
+    '<body><a data-n-au="https://www.skysports.com/football/news/1" href="./read">x</a></body></html>';
+  if (publisherUrlFromGooglePage(gpage) !== "https://www.skysports.com/football/news/1") {
+    console.error("FAIL: data-n-au should be preferred"); bad++;
+  }
+  const noAttr = '<link href="https://fonts.gstatic.com/x.css">' +
+    '<a href="https://www.theguardian.com/football/2026/sep/23/x">y</a>';
+  if (publisherUrlFromGooglePage(noAttr) !== "https://www.theguardian.com/football/2026/sep/23/x") {
+    console.error("FAIL: should skip Google's own assets and take the publisher"); bad++;
+  }
+  if (publisherUrlFromGooglePage('<link href="https://www.gstatic.com/a.css">') !== null) {
+    console.error("FAIL: a page with only Google URLs should return null"); bad++;
+  }
+
+  if (!bad) console.log("  ok   article pictures: og:image read, relative resolved, data:/javascript: refused");
+  return bad;
+}
+
+fail = checkBusiestTeams() + checkImages();
 for (const t of MUST_DROP) {
   if (!isOtherCompetition(t)) { console.error("FAIL: should have been dropped:\n  " + t); fail++; }
 }

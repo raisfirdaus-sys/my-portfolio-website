@@ -26,5 +26,8 @@ done
 
 printf '=== test-news-filter ===\n'
 node scripts/test-news-filter.mjs
+
+printf '=== test-news-ui ===\n'
+node scripts/test-news-ui.mjs
 echo
 echo "All Moneyball tests passed."
