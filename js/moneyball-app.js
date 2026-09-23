@@ -328,7 +328,7 @@
         (thinLegs.length
           ? 'A sample that small makes one good match look like a permanent edge. '
           : 'A gap that size almost always means the numbers going in are still placeholders, not ' +
-            'pengukuran. ') +
+            'measurements. ') +
         '<strong>No ' + nLegs + '-leg parlay genuinely carries positive EV</strong> ' +
         '&mdash; if this number says otherwise, the number is what is wrong. ' +
         (thinLegs.length
@@ -983,7 +983,7 @@
     var lam = el('div', 'mc-lam');
     lam.innerHTML = '<div class="cap">Expected goals</div><div class="big">' +
       a.lambdas.home.toFixed(2) + ' &ndash; ' + a.lambdas.away.toFixed(2) + '</div>' +
-      '<div class="cap">Babak 1: ' + a.lambdas.home1h.toFixed(2) + ' &ndash; ' +
+      '<div class="cap">First half: ' + a.lambdas.home1h.toFixed(2) + ' &ndash; ' +
       a.lambdas.away1h.toFixed(2) + '</div>';
     var ha = el('div', 'mc-team away');
     ha.appendChild(el('span', null, a.away.name));
@@ -1003,7 +1003,7 @@
       seg.style.background = r[1];
       seg.textContent = (r[0] * 100).toFixed(0) + '%';
       bindTip(seg, function () {
-        return '<div class="t-title">' + r[2] + '</div><div class="t-row">Probabilitas model ' +
+        return '<div class="t-title">' + r[2] + '</div><div class="t-row">Model probability ' +
                pct(r[0], 1) + '</div><div class="t-row">Fair odds ' + (1 / r[0]).toFixed(2) + '</div>';
       });
       strip.appendChild(seg);
@@ -1158,7 +1158,7 @@
       ['Rating weight (sample)', ph.ratingWeight.toFixed(2), pa.ratingWeight.toFixed(2),
         '0 = follow the league average, 1 = trust the team xG fully. Rises with the match count.']
     ];
-    var html = '<table class="mb"><thead><tr><th>Turunan model</th><th style="text-align:right">' +
+    var html = '<table class="mb"><thead><tr><th>Model reading</th><th style="text-align:right">' +
       a.home.name + '</th><th style="text-align:right">' + a.away.name + '</th><th>Arti</th></tr></thead><tbody>';
     rows.forEach(function (r) {
       html += '<tr><td>' + r[0] + '</td><td class="num">' + r[1] + '</td><td class="num">' +
@@ -1903,7 +1903,7 @@
       bindTip(r, function () {
         var cum = 0; for (var k = 0; k <= i; k++) cum += d[k];
         return '<div class="t-title">' + i + ' goals</div>' +
-          '<div class="t-row">Tepat: ' + pct(p, 2) + '</div>' +
+          '<div class="t-row">Exactly: ' + pct(p, 2) + '</div>' +
           '<div class="t-row">' + i + ' goals or fewer: ' + pct(cum, 1) + '</div>' +
           '<div class="t-row">More than ' + i + ': ' + pct(1 - cum, 1) + '</div>';
       });
@@ -2964,7 +2964,7 @@
       var html = '<thead><tr><th style="width:26px">#</th><th>Fixture</th><th>Selection</th>' +
         '<th style="text-align:right">Odds</th><th>Score</th><th>Result</th>' +
         '<th style="text-align:right">Prob. model</th><th style="text-align:right">EV model</th>' +
-        '<th>Vonis model</th></tr></thead><tbody>';
+        '<th>Model verdict</th></tr></thead><tbody>';
       var pending = g.coupon.status === 'pending';
       g.rows.forEach(function (r, i) {
         var l = r.leg;
@@ -3211,7 +3211,7 @@
       box.appendChild(d);
     });
     var src = el('p', 'stat-note');
-    src.innerHTML = '<strong>Sumber data:</strong> ' + DATA.meta.oddsSource +
+    src.innerHTML = '<strong>Data source:</strong> ' + DATA.meta.oddsSource +
       '<br /><strong>Team statistics:</strong> ' + DATA.meta.statSource;
     box.appendChild(src);
   }

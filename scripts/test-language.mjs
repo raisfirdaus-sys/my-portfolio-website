@@ -56,9 +56,17 @@ function isProse(raw) {
   const text = raw.replace(/&[a-z]+;/gi, " ").replace(/<[^>]*>/g, " ")
                   .replace(/\\u[0-9a-f]{4}/gi, " ").replace(/\\[nt]/g, " ");
   if (/[{};]|^\s*[.#]|^[a-z-]+\s*:\s*\S/i.test(raw)) return null;   // css
+  if (/var\(--|\d\s*px\b/.test(raw)) return null;                   // css value
+  if (/=\s*["']|\bhref\b|\bsrc\b/.test(raw)) return null;           // half an attribute
+  if (/\(\?|\\[dwsbu]|\[A-Za-z/.test(raw)) return null;              // part of a regex
   if (/^[\w-]+$/.test(raw.trim())) return null;                      // one token: an id or class
   const words = text.split(/[^A-Za-z']+/).filter((w) => w.replace(/'/g, "").length > 1);
-  if (words.length < 3) return null;                                 // not a sentence
+  if (!words.length) return null;
+  /* A three-word minimum was how "Babak 1: " survived: one word, then a
+     number, then a colon, and the whole label was waved through as
+     not-a-sentence. A single word IS prose when it is punctuated like
+     prose - a space, a colon, a full stop - and an identifier never is. */
+  if (words.length < 3 && !/[\s:.,;!?()\u2014\u2013]/.test(text.trim())) return null;
   return words;
 }
 

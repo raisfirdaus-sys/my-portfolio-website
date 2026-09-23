@@ -1,84 +1,100 @@
 /* ===========================================================================
    MONEYBALL ODDS - WhoScored-style analysis board
-   Palette: validated categorical slots 1 (blue) + 2 (orange); reserved status
-   ramp for value tiers. Dark mode is selected per token, not an auto-flip.
+   Palette: the brand's own purple and gold. The two categorical slots are
+   gold (home) and violet (away); the highlighter that marks the model's pick
+   is gold, because gold is what the mark is made of. Status colours stay
+   green/red: they mean good and bad, not Moneyball, and a brand must not
+   repaint a warning. Dark is the default, since the logo is a dark purple
+   piece and the page is meant to look like it.
    =========================================================================== */
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   /* surfaces */
-  --bg:            #eef1f4;
-  --surface-1:     #ffffff;
-  --surface-2:     #f6f8fa;
-  --surface-3:     #eceff3;
-  --chrome:        #1d2a3a;
-  --chrome-2:      #16202c;
-  --chrome-text:   #e9eef4;
-  --chrome-muted:  #9fb0c4;
-  --border:        #d5dce4;
-  --border-strong: #b9c4d0;
+  --bg:            #150c26;
+  --surface-1:     #1f1435;
+  --surface-2:     #281a42;
+  --surface-3:     #33224f;
+  --chrome:        #2e1758;
+  --chrome-2:      #170b2e;
+  --chrome-text:   #f4eeff;
+  --chrome-muted:  #b7a3d8;
+  --border:        #3b2a58;
+  --border-strong: #56407a;
   /* ink */
-  --text-primary:   #10151b;
-  --text-secondary: #4d5a68;
-  --text-muted:     #7d8a98;
-  /* categorical: home = slot 1 blue, away = slot 2 orange */
-  --series-home:  #2a78d6;
-  --series-away:  #eb6834;
-  --series-home-soft: #dceafb;
-  --series-away-soft: #fce4d9;
-  /* sequential blue ramp (heatmap) */
-  --seq-100: #cde2fb; --seq-200: #9ec5f4; --seq-300: #6da7ec;
-  --seq-400: #3987e5; --seq-500: #256abf; --seq-600: #184f95; --seq-700: #0d366b;
+  --text-primary:   #f6f1ff;
+  --text-secondary: #c9bbe4;
+  --text-muted:     #9d8cc0;
+  /* categorical: home = gold, away = violet */
+  --series-home:  #e3b455;
+  --series-away:  #a78bfa;
+  --series-home-soft: #4a3a12;
+  --series-away-soft: #322554;
+  /* sequential violet ramp (heatmap) */
+  --seq-100: #291a4d; --seq-200: #3b2570; --seq-300: #503394;
+  --seq-400: #6a49b8; --seq-500: #8a6bd4; --seq-600: #ad92e6; --seq-700: #d5c4f7;
   /* status (reserved - never a series colour) */
-  --good:     #0ca30c;
-  --warning:  #fab219;
-  --serious:  #ec835a;
-  --critical: #d03b3b;
-  /* the light-blue highlighter for top picks */
-  --hl-wash:   #d8e9fd;
-  --hl-edge:   #2a78d6;
-  --hl-ink:    #0d366b;
+  --good:     #3fc76a;
+  --warning:  #e3b455;
+  --serious:  #cf9440;
+  --critical: #f2607a;
+  /* the highlighter for top picks: gold, the brand's own */
+  --hl-wash:   #46340f;
+  --hl-edge:   #e0ab3c;
+  --hl-ink:    #ffe0a0;
   --radius: 6px;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg:            #101418;
-    --surface-1:     #1a1f25;
-    --surface-2:     #21272e;
-    --surface-3:     #2a313a;
-    --chrome:        #111820;
-    --chrome-2:      #0b1016;
-    --chrome-text:   #e9eef4;
-    --chrome-muted:  #8496a9;
-    --border:        #333c47;
-    --border-strong: #48535f;
-    --text-primary:   #f2f5f8;
-    --text-secondary: #b4c0cc;
-    --text-muted:     #8492a0;
-    --series-home:  #3987e5;
-    --series-away:  #d95926;
-    --series-home-soft: #17304d;
-    --series-away-soft: #4a2415;
-    --seq-100: #0d366b; --seq-200: #184f95; --seq-300: #256abf;
-    --seq-400: #3987e5; --seq-500: #6da7ec; --seq-600: #9ec5f4; --seq-700: #cde2fb;
-    --hl-wash:  #16324f;
-    --hl-edge:  #5598e7;
-    --hl-ink:   #cde2fb;
-  }
+
+/* The light variant is the same brand in daylight, not a different one:
+   the bar stays deep purple, the highlighter stays gold, and the gold is
+   darkened until it can be read on white. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg:            #f4f0fa;
+  --surface-1:     #ffffff;
+  --surface-2:     #faf7ff;
+  --surface-3:     #f0e9fa;
+  --chrome:        #2e1758;
+  --chrome-2:      #170b2e;
+  --chrome-text:   #f4eeff;
+  --chrome-muted:  #b7a3d8;
+  --border:        #e0d6ef;
+  --border-strong: #c3b2dd;
+  --text-primary:   #1c1130;
+  --text-secondary: #55466e;
+  --text-muted:     #7e6f97;
+  --series-home:  #916a10;
+  --series-away:  #6d28d9;
+  --series-home-soft: #fbf0d4;
+  --series-away-soft: #ece3fd;
+  --seq-100: #ece3fd; --seq-200: #d5c4f7; --seq-300: #ad92e6;
+  --seq-400: #8a6bd4; --seq-500: #6a49b8; --seq-600: #503394; --seq-700: #3b2570;
+  --good:     #0f9d3a;
+  --warning:  #b8860b;
+  --serious:  #a9701e;
+  --critical: #d03b52;
+  --hl-wash:   #fcf1d6;
+  --hl-edge:   #b8860b;
+  --hl-ink:    #5f430a;
 }
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg:#101418; --surface-1:#1a1f25; --surface-2:#21272e; --surface-3:#2a313a;
-  --chrome:#111820; --chrome-2:#0b1016; --chrome-text:#e9eef4; --chrome-muted:#8496a9;
-  --border:#333c47; --border-strong:#48535f;
-  --text-primary:#f2f5f8; --text-secondary:#b4c0cc; --text-muted:#8492a0;
-  --series-home:#3987e5; --series-away:#d95926;
-  --series-home-soft:#17304d; --series-away-soft:#4a2415;
-  --seq-100:#0d366b; --seq-200:#184f95; --seq-300:#256abf;
-  --seq-400:#3987e5; --seq-500:#6da7ec; --seq-600:#9ec5f4; --seq-700:#cde2fb;
-  --hl-wash:#16324f; --hl-edge:#5598e7; --hl-ink:#cde2fb;
+
+/* Someone whose machine asks for light gets it, unless they have chosen
+   dark here themselves. */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg:#f4f0fa; --surface-1:#ffffff; --surface-2:#faf7ff; --surface-3:#f0e9fa;
+    --chrome:#2e1758; --chrome-2:#170b2e; --chrome-text:#f4eeff; --chrome-muted:#b7a3d8;
+    --border:#e0d6ef; --border-strong:#c3b2dd;
+    --text-primary:#1c1130; --text-secondary:#55466e; --text-muted:#7e6f97;
+    --series-home:#916a10; --series-away:#6d28d9;
+    --series-home-soft:#fbf0d4; --series-away-soft:#ece3fd;
+    --seq-100:#ece3fd; --seq-200:#d5c4f7; --seq-300:#ad92e6;
+    --seq-400:#8a6bd4; --seq-500:#6a49b8; --seq-600:#503394; --seq-700:#3b2570;
+    --good:#0f9d3a; --warning:#b8860b; --serious:#a9701e; --critical:#d03b52;
+    --hl-wash:#fcf1d6; --hl-edge:#b8860b; --hl-ink:#5f430a;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -101,11 +117,18 @@ button { font: inherit; }
   max-width: 1360px; margin: 0 auto; padding: 0 16px;
   display: flex; align-items: center; gap: 14px; min-height: 52px; flex-wrap: wrap;
 }
-.brand { display: flex; align-items: center; gap: 9px; font-weight: 800; font-size: 15px;
-  letter-spacing: .02em; text-transform: uppercase; }
-.brand-dot { width: 22px; height: 22px; border-radius: 5px;
-  background: linear-gradient(135deg, var(--series-home), var(--seq-600));
-  display: grid; place-items: center; font-size: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 15px;
+  letter-spacing: .02em; text-transform: uppercase; color: inherit; text-decoration: none; }
+/* The drawn mark alone up here, not the full piece: at 34px the lettering
+   in the artwork would be a smudge, and a header has to be readable. So the
+   mark carries the picture and the wordmark beside it stays as type. Its own
+   dark purple background is the same family as the bar, so it reads as part
+   of the chrome rather than as a sticker on it. */
+.brand-logo {
+  height: 34px; width: 34px; display: block;
+  border-radius: 7px; object-fit: cover;
+}
+.brand-text { display: block; }
 .brand small { display:block; font-size:10px; font-weight:600; letter-spacing:.08em;
   color: var(--chrome-muted); text-transform: uppercase; }
 .topbar-spacer { flex: 1; }
@@ -351,6 +374,16 @@ details.method code { font-family: var(--mono); font-size: 12px; background: var
   padding: 1px 4px; border-radius: 3px; color: var(--text-primary); }
 .method-list { margin: 6px 0 0; padding-left: 20px; }
 .method-list li { margin-bottom: 5px; }
+/* The logo again at the bottom of the page, which is where a reader looks
+   to see whose work this is. Full width of the column and unclipped, so it
+   reads as the piece he drew rather than as a cropped icon. */
+.site-foot { margin-top: 26px; text-align: center; }
+.foot-logo {
+  display: block; margin: 0 auto;
+  width: min(420px, 82%); height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 26px rgba(0,0,0,.35);
+}
 .foot { color: var(--text-muted); font-size: 12px; padding: 16px 0 34px; text-align: center; line-height:1.6; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
