@@ -155,14 +155,27 @@
     return out;
   }
   /** Did a human type these numbers, or are they my placeholder seeds? */
+  /* Is this figure a measurement, or one of the placeholders the project
+     shipped so the page would run?
+
+     Two things count as measured. One is what the owner typed or imported,
+     which lives in this browser only. The other is what was PUBLISHED with
+     the site: a team carrying "measured": true in the data file was filled
+     from a real source and committed, so every visitor sees it - which is
+     the whole point of a page meant to be read by someone other than the
+     person who filled it in. */
+  function fieldIsReal(key, field) {
+    var ov = STATE.overrides[key];
+    if (ov && ov[field] != null) return true;
+    var base = DATA.teams[key];
+    return !!(base && base.measured && base[field] != null);
+  }
+
   function statOrigin(key) {
     var base = DATA.teams[key];
     if (!base) return 'none';
-    var ov = STATE.overrides[key];
-    var userFilled = ov && ['xgF', 'xgA', 'goals', 'shots'].some(function (f) {
-      return ov[f] != null;
-    });
-    if (userFilled) return 'user';
+    var FIELDS = ['xgF', 'xgA', 'goals', 'shots'];
+    if (FIELDS.some(function (f) { return fieldIsReal(key, f); })) return 'user';
     if (base.statsMissing) return 'none';
     return 'seed';
   }
@@ -799,8 +812,7 @@
       if (!t) return;
       var v = t[field];
       if (v == null || !isFinite(v)) return;
-      var ov = STATE.overrides[k];
-      var real = !!(ov && ov[field] != null);
+      var real = fieldIsReal(k, field);
       if (onlyReal && !real) return;
       rows.push({ key: k, name: t.name || k, v: v, real: real });
     });
@@ -818,8 +830,7 @@
        five teams while the boards show four. */
     var TT_FIELDS = TT_CATS.map(function (c) { return c[1]; });
     var realCount = Object.keys(DATA.teams).filter(function (k) {
-      var ov = STATE.overrides[k];
-      return !!(ov && TT_FIELDS.some(function (f) { return ov[f] != null; }));
+      return TT_FIELDS.some(function (f) { return fieldIsReal(k, f); });
     }).length;
     var withAny = Object.keys(DATA.teams).filter(function (k) {
       var t = effStats(k); return t && !t.statsMissing;
@@ -831,7 +842,9 @@
     var sub = $('tt-sub');
     if (sub) {
       sub.textContent = onlyReal
-        ? realCount + ' teams with your data'
+        /* "your data" was wrong for anyone but the person who typed it,
+           and this page is meant to be read by other people. */
+        ? realCount + ' teams with real data'
         : withAny + ' teams, mostly placeholder numbers';
     }
 
@@ -1595,6 +1608,53 @@
       applyBulkPaste(text, out);
     });
     applyRow.appendChild(applyBtn);
+
+    /* Everything typed or imported lives in this browser and nowhere else,
+       so a visitor - or the owner on a different machine - sees none of it.
+       For a page meant to be sold that is fatal: his wife opened it on her
+       tab and Top Team Statistics read "0 teams with your data".
+
+       A static site cannot fix that with a login. There is no server to
+       check a password against, and any secret put in the JavaScript is
+       readable by everyone who opens the page, so it would protect
+       nothing. What DOES work is publishing the figures: this hands back
+       the JSON to commit into the data file, after which every visitor
+       sees them and nobody but the repository's owner can change them. */
+    var exportBtn = el('button', 'btn ghost', 'Copy my statistics (to publish)');
+    exportBtn.type = 'button';
+    exportBtn.title = 'Copies every figure you have entered, as JSON to commit into data/moneyball-fixtures.json';
+    exportBtn.addEventListener('click', function () {
+      var out3 = $('api-bulk-out');
+      var payload = {};
+      Object.keys(STATE.overrides).forEach(function (k) {
+        if (!DATA.teams[k]) return;
+        var ov = STATE.overrides[k], row = {};
+        ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+          .forEach(function (f) { if (ov[f] != null) row[f] = ov[f]; });
+        if (!Object.keys(row).length) return;
+        row.measured = true;
+        if (ov._src && ov._src.when) row.measuredAt = new Date(ov._src.when).toISOString().slice(0, 10);
+        payload[k] = row;
+      });
+
+      var n = Object.keys(payload).length;
+      if (!n) {
+        out3.innerHTML = '<div class="notice bad"><h3>Nothing entered yet</h3>' +
+          '<p>Fill some teams first, then this will hand back what to publish.</p></div>';
+        return;
+      }
+      var json = JSON.stringify(payload, null, 2);
+      try { navigator.clipboard.writeText(json); } catch (err) { /* shown below anyway */ }
+      out3.innerHTML = '<div class="notice ok"><h3>' + n + ' teams copied</h3>' +
+        '<p>This is every figure you have entered. It is on your clipboard, and printed below ' +
+        'in case the clipboard was blocked. Send it to be committed into ' +
+        '<code>data/moneyball-fixtures.json</code> &mdash; once it is published, every visitor ' +
+        'sees these teams, on any device, without entering anything.</p></div>' +
+        '<textarea readonly rows="10" style="width:100%;margin-top:8px;padding:8px;' +
+        'border:1px solid var(--border-strong);border-radius:4px;background:var(--surface-1);' +
+        'color:var(--text-primary);font-family:var(--mono);font-size:11px">' + esc(json) + '</textarea>';
+    });
+    applyRow.appendChild(exportBtn);
 
     var againstBtn = el('button', 'btn ghost', 'Add xG Against to every club');
     againstBtn.type = 'button';

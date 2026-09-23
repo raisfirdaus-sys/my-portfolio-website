@@ -63,7 +63,7 @@ say(!/Leeds/i.test(namesIn("xG created")), "Leeds does NOT appear on xG created 
 say(!/Arsenal/i.test(namesIn("xG created")), "Arsenal (placeholder seeds, never imported) stays off the real-data board");
 
 const sub = (doc.getElementById("tt-sub")||{}).textContent || "";
-say(/^1 teams? with your data/.test(sub), `subtitle counts the same way the boards do (got "${sub}")`);
+say(/^1 teams? with real data/.test(sub), `subtitle counts the same way the boards do (got "${sub}")`);
 
 console.log(fail ? `\n${fail} failure(s).` : "\ntop-teams ok");
 process.exit(fail ? 1 : 0);
