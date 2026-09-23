@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Moneyball Odds</title>
-<meta name="description" content="Analisa odds sepak bola dengan model Dixon-Coles: expected goals, expected assist, tembakan, peluang terbuang, foul, tackle dan kartu diubah jadi probabilitas, nilai harapan dan simulasi parlay." />
+<meta name="description" content="Football odds analysis with a Dixon-Coles model: expected goals, expected assists, shots, big chances missed, fouls, tackles and cards turned into probabilities, expected value and parlay simulation." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231d2a3a'/%3E%3Cpath d='M18 70 L38 46 L54 58 L82 24' stroke='%232a78d6' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<meta name="build" content="f89568a-015446" />
-<link rel="stylesheet" href="css/moneyball.css?v=f89568a-015446" />
+<meta name="build" content="3ff8915-021546" />
+<link rel="stylesheet" href="css/moneyball.css?v=3ff8915-021546" />
 </head>
 <body>
 
@@ -24,19 +24,19 @@
     </div>
     <div class="topbar-spacer"></div>
     <div class="chip-row chip-row-scroll">
-      <span class="chip-label">Jadwal</span>
+      <span class="chip-label">Schedule</span>
       <span id="slate-chips" class="chip-strip"></span>
     </div>
     <div class="chip-row">
       <span class="chip-label">Format</span>
       <select id="odds-format" class="chip" style="padding:4px 8px" aria-label="Format odds">
-        <option value="decimal">Desimal</option>
+        <option value="decimal">Decimal</option>
         <option value="indo">Indo</option>
         <option value="malay">Malay</option>
         <option value="hk">Hong Kong</option>
-        <option value="american">Amerika</option>
+        <option value="american">American</option>
       </select>
-      <button class="chip" id="theme-toggle" type="button">Tema</button>
+      <button class="chip" id="theme-toggle" type="button">Theme</button>
     </div>
   </div>
 </header>
@@ -46,7 +46,7 @@
   <!-- =================== wide board =================== -->
   <section class="panel" id="board-panel">
     <div class="panel-head">
-      Papan Pertandingan <span class="sub" id="board-count"></span>
+      Match Board <span class="sub" id="board-count"></span>
       <span class="board-tools" id="board-tools"></span>
     </div>
     <div class="board-scroll"><div class="board" id="board"></div></div>
@@ -69,7 +69,7 @@
     <div>
       <section class="panel">
         <div class="panel-head">
-          Pusat Pertandingan
+          Match Centre
           <span class="sub" id="mc-sub"></span>
         </div>
         <div id="mc-head" class="mc-head"></div>
@@ -77,7 +77,7 @@
           <div id="mc-prob"></div>
           <div class="slider-row" style="margin-top:14px;padding-top:13px;border-top:1px solid var(--border)">
             <label for="tilt" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)">
-              Penilaian Anda
+              Your judgement
             </label>
             <input id="tilt" type="range" min="-25" max="25" step="1" value="0" />
             <span id="tilt-val" style="font-family:var(--mono);font-size:12px;min-width:210px"></span>
@@ -87,7 +87,7 @@
 
           <div class="slider-row" style="margin-top:10px">
             <label for="mw" style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)">
-              Jangkar pasar
+              Market anchor
             </label>
             <input id="mw" type="range" min="0" max="100" step="5" value="35" />
             <span id="mw-val" style="font-family:var(--mono);font-size:12px;min-width:150px"></span>
@@ -98,14 +98,14 @@
 
       <section class="panel">
         <div class="panel-head">
-          Pemeriksaan Silang Dua Model
-          <span class="sub">Dixon-Coles vs Bradley-Terry vs pasar</span>
+          Two-Model Cross-Check
+          <span class="sub">Dixon-Coles vs Bradley-Terry vs market</span>
         </div>
         <div class="panel-body" id="mc-cross"></div>
       </section>
 
       <section class="panel">
-        <div class="panel-head">Perbandingan Statistik <span class="sub">per pertandingan, rata-rata musim</span></div>
+        <div class="panel-head">Statistics Comparison <span class="sub">per match, season average</span></div>
         <div class="panel-body">
           <div id="mc-stats"></div>
           <div id="mc-stats-table"></div>
@@ -113,7 +113,7 @@
       </section>
 
       <section class="panel">
-        <div class="panel-head">Sebaran Skor &amp; Total Gol</div>
+        <div class="panel-head">Scoreline &amp; Total Goals</div>
         <div class="panel-body">
           <div class="grid-split">
             <div>
@@ -130,14 +130,14 @@
 
       <section class="panel">
         <div class="panel-head">
-          Papan Nilai
-          <span class="sub">EV = nilai harapan per 1 satuan stake. Baris biru muda = pilihan terbaik.</span>
+          Value Board
+          <span class="sub">EV = expected value per 1 unit of stake. Light blue row = best selection.</span>
         </div>
         <div class="table-scroll" id="mc-value"></div>
       </section>
 
       <section class="panel" id="stat-section">
-        <div class="panel-head">Input Statistik <span class="sub">Isi dari WhoScored / FBref / Understat, lalu model berhenti meniru pasar</span></div>
+        <div class="panel-head">Statistics Input <span class="sub">Fill from WhoScored / FBref / Understat, and the model stops copying the market</span></div>
         <div class="panel-body" id="mc-form"></div>
       </section>
     </div>
@@ -147,7 +147,7 @@
   <!-- =================== top team statistics =================== -->
   <section class="panel" id="tt-panel">
     <div class="panel-head">
-      Statistik Tim Teratas <span class="sub" id="tt-sub"></span>
+      Top Team Statistics <span class="sub" id="tt-sub"></span>
       <span class="board-tools" id="tt-tools"></span>
     </div>
     <div class="panel-body"><div id="tt-body"></div></div>
@@ -159,21 +159,21 @@
   <!-- =================== auto parlay =================== -->
   <section class="panel">
     <div class="panel-head">
-      Pembangun Parlay
-      <span class="sub" id="parlay-sub">Leg distabilo biru muda = paling efisien menurut model</span>
+      Parlay Builder
+      <span class="sub" id="parlay-sub">Legs highlighted in light blue are the most efficient under the model</span>
     </div>
     <div class="panel-body">
       <div class="form-grid" style="margin-bottom:12px">
         <div class="field">
-          <label for="p-legs">Jumlah leg</label>
+          <label for="p-legs">Legs</label>
           <input id="p-legs" type="number" min="1" max="14" step="1" value="9" />
         </div>
         <div class="field">
-          <label for="p-minprob" title="Peluang leg membayar ODDS PENUH. Seri dan setengah-hasil tidak dihitung.">Min. bayar penuh</label>
+          <label for="p-minprob" title="The chance a leg pays FULL ODDS. Pushes and half results do not count.">Min. full payout</label>
           <input id="p-minprob" type="number" min="0.3" max="0.95" step="0.01" value="0.50" />
         </div>
         <div class="field">
-          <label for="p-maxprob" title="Batas atas peluang bayar penuh - leg terlalu pendek harganya tidak sepadan.">Maks. bayar penuh</label>
+          <label for="p-maxprob" title="Upper bound on full-payout chance - legs priced too short are not worth taking.">Max. full payout</label>
           <input id="p-maxprob" type="number" min="0.4" max="0.99" step="0.01" value="0.90" />
         </div>
         <div class="field">
@@ -181,14 +181,14 @@
           <input id="p-stake" type="number" min="1000" step="1000" value="100000" />
         </div>
         <div class="field">
-          <label for="p-quarter">Garis kuartal</label>
+          <label for="p-quarter">Quarter lines</label>
           <select id="p-quarter">
-            <option value="0">Tolak (disarankan)</option>
-            <option value="1">Izinkan</option>
+            <option value="0">Reject (recommended)</option>
+            <option value="1">Allow</option>
           </select>
         </div>
         <div class="field">
-          <label for="p-kinds">Pasar</label>
+          <label for="p-kinds">Markets</label>
           <select id="p-kinds">
             <option value="ah,ou">Handicap + O/U</option>
             <option value="ah">Handicap saja</option>
@@ -198,8 +198,8 @@
         </div>
       </div>
       <div class="btn-row">
-        <button class="btn" id="p-build" type="button">Susun parlay</button>
-        <button class="btn ghost" id="p-clear" type="button">Kosongkan</button>
+        <button class="btn" id="p-build" type="button">Build parlay</button>
+        <button class="btn ghost" id="p-clear" type="button">Clear</button>
         <span id="p-count" style="font-size:12px;color:var(--text-muted)"></span>
       </div>
       <div class="tray" style="margin-top:13px">
@@ -216,8 +216,8 @@
   <!-- =================== calibration ledger =================== -->
   <section class="panel">
     <div class="panel-head">
-      Buku Kalibrasi
-      <span class="sub">Kupon nyata yang sudah selesai, dinilai dari skor. Bukan klaim akurasi &mdash; pengukuran.</span>
+      Calibration Ledger
+      <span class="sub">Real settled coupons, scored against results. Not a claim of accuracy &mdash; a measurement.</span>
     </div>
     <div class="panel-body" id="calib-summary"></div>
     <div id="calib-coupons"></div>
@@ -225,26 +225,26 @@
 
   <!-- =================== slip validation =================== -->
   <section class="panel">
-    <div class="panel-head">Validasi Engine &mdash; Slip Parlay 9 Anda <span class="sub" id="slip-sub"></span></div>
+    <div class="panel-head">Engine Validation &mdash; Slip Parlay 9 Anda <span class="sub" id="slip-sub"></span></div>
     <div class="table-scroll" id="slip-table"></div>
     <div class="panel-body" id="slip-note"></div>
   </section>
 
   <!-- =================== methodology =================== -->
   <section class="panel">
-    <div class="panel-head">Metode</div>
+    <div class="panel-head">Method</div>
     <div class="panel-body" id="method"></div>
   </section>
 
   <p class="foot">
-    Alat statistik untuk keperluan edukasi. Tidak ada model yang bisa memprediksi sepak bola secara andal.<br />
-    Nilai harapan negatif adalah hasil normal dari bertaruh &mdash; alat ini mengukur seberapa negatif, bukan menghilangkannya.
+    An educational statistical tool. No model predicts football reliably.<br />
+    Negative expected value is the normal outcome of betting &mdash; this tool measures how negative, it does not remove it.
   </p>
 </main>
 
 <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
 
-<script src="js/moneyball-engine.js?v=f89568a-015446"></script>
-<script src="js/moneyball-app.js?v=f89568a-015446"></script>
+<script src="js/moneyball-engine.js?v=3ff8915-021546"></script>
+<script src="js/moneyball-app.js?v=3ff8915-021546"></script>
 </body>
 </html>
