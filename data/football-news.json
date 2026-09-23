@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790195184085,
+  "generatedAt": 1790197928594,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1524,
-    "tagged": 771,
-    "droppedKeyword": 36,
-    "droppedOtherSport": 2,
-    "droppedFeed": 7,
+    "tagged": 764,
+    "droppedKeyword": 37,
+    "droppedOtherSport": 1,
+    "droppedFeed": 4,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -22,7 +22,19 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790194618000
+      "publishedAt": 1790196631000
+    },
+    {
+      "competition": "indy",
+      "title": "Eric Cantona says he would not have joined Man Utd if Sir Jim Ratcliffe was owner",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-utd-eric-cantona-jim-ratcliffe-immigration-b3055356.html",
+      "image": "https://static.independent.co.uk/2026/09/23/21/2276576812..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "France forward Cantona has previously been named by Ratcliffe as his favourite United player",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790196391000
     },
     {
       "competition": "echo",
@@ -163,7 +175,7 @@
     },
     {
       "competition": "guardian",
-      "title": "Harry Kane says England’s World Cup exit ‘hurt more than any other’",
+      "title": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
       "image": "https://i.guim.co.uk/img/media/222832b656c43ee0e623323ae51d721820678d28/295_0_3370_2696/master/3370.jpg?width=140&quality=85&auto=format&fit=max&s=3b7623d37f92de214a32c54c084a860e",
@@ -227,7 +239,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/23/special-klopp-and-xavi-take-first-steps-on-international-stage-with-revival-in-mind",
       "image": "https://i.guim.co.uk/img/media/ea2873ca3d909b919713c8fb46838bb1f0b6d25b/0_0_5000_4002/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=70895c05d15191de464b2a50da3034b8",
-      "summary": "Klopp, with Germany, and Xavi, with the Netherlands, face each other in Nations League after disappointing World Cup for both countriesBefore the latest instalment of a time-honoured international rivalry gearing up for…",
+      "summary": "Jürgen Klopp and Xavi Hernández face each other in Nations League as they take the reins following disappointing World CupsBefore the latest instalment of a time-honoured international rivalry gearing up for two…",
       "teams": [
         "netherlands",
         "germany"
@@ -735,18 +747,6 @@
         "england"
       ],
       "publishedAt": 1790172222000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ruben Amorim's final sack pay-out revealed - and why Man Utd saved huge sum",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ruben-amorim-man-utd-sacking-37694356",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37694310.ece/ALTERNATES/s615/0_GettyImages-2296406212.jpg",
-      "summary": "Manchester United have confirmed their financial results for the 2025/26 campaign with those numbers having included the millions that they were forced to pay Ruben Amorim",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790171677000
     }
   ]
 }
