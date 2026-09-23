@@ -307,7 +307,9 @@ function view16(overrides) {
     const base = DATA16.teams[k], ov = overrides[k];
     if (!ov) { out[k] = base; continue; }
     const m = Object.assign({}, base, ov);
-    if (m.xgF != null && m.xgA != null) m.statsMissing = false;
+    /* Same rule the page uses: xG created opens the gate, xG conceded
+       sharpens it. Kept in step with effStats() in moneyball-app.js. */
+    if (m.xgF != null) m.statsMissing = false;
     out[k] = m;
   }
   return out;
@@ -323,8 +325,11 @@ const noXG = {
 const before = run16({});
 const imported = run16(noXG);
 eq('nothing entered: pinned to the market', before.marketWeight, 1);
-eq('nine figures, one xG, still pinned', imported.marketWeight, 1);
-eq('and still reported as statsMissing', imported.statsMissing, true);
+/* The away side here has xG created, the home side has none - so the
+   fixture is still market-only, because one rated team against a team on
+   placeholders is not a comparison. */
+eq('one side without xG keeps the fixture on the market', imported.marketWeight, 1);
+eq('and it is still reported as statsMissing', imported.statsMissing, true);
 
 /* The same paste plus the two xG figures. */
 const withXG = JSON.parse(JSON.stringify(noXG));
@@ -334,6 +339,41 @@ withXG[fx16.away].xgA = 1.75;
 const live = run16(withXG);
 eq('both xG in: the model is let in', live.marketWeight, 0.35, 0.001);
 eq('and the fixture stops being statsMissing', live.statsMissing, false);
+
+/* WhoScored publishes no xG conceded outside its xG tab's Against view,
+   so xG created alone must be enough to rate a team - with the defence
+   standing at league average and the rating counting for less. */
+const xgFonly = {
+  [fx16.home]: { matches: 7, xgF: 1.55, goals: 1.25, shots: 14.95, fouls: 9, tackles: 13.86, yellow: 1.43, red: 0 },
+  [fx16.away]: { matches: 7, xgF: 1.38, goals: 1.58, shots: 13.63, sot: 4, fouls: 11.43, tackles: 16, yellow: 2, red: 0.14 }
+};
+const onlyF = run16(xgFonly);
+eq('xG created alone lets the model in', onlyF.marketWeight, 0.35, 0.001);
+eq('and the fixture is no longer statsMissing', onlyF.statsMissing, false);
+
+/* An assumed defence must cost confidence, not be worth as much as a
+   measured one. */
+const LG16 = DATA16.leagues.filter((l) => l.id === fx16.league)[0];
+const measured = E.profile({ matches: 7, xgF: 1.55, xgA: 1.30, goals: 1.25, shots: 14.95,
+  fouls: 9, tackles: 13.86, yellow: 1.43, red: 0 }, LG16);
+const assumed = E.profile({ matches: 7, xgF: 1.55, xgA: null, goals: 1.25, shots: 14.95,
+  fouls: 9, tackles: 13.86, yellow: 1.43, red: 0 }, LG16);
+eq('an assumed defence is flagged', assumed.defAssumed, true);
+eq('a measured one is not', measured.defAssumed, false);
+eq('and the assumed rating counts for less', assumed.ratingWeight < measured.ratingWeight, true);
+eq('a missing xGA sits exactly at league average', assumed.def, 1, 0.0001);
+
+/* The Against view of the xG tab gives the real figure. Its other columns
+   belong to the opponent and must not touch this team. */
+const againstPaste = [
+  'Tournament       Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating',
+  'Premier League   5      9.20   7       -2.20   84     0.11       6.51',
+  'League Cup       2      3.10   2       -1.10   28     0.11       6.98'
+].join('\n');
+const ag = E.parseTeamStats(againstPaste, { against: true });
+eq('Against view reads xG conceded', ag && ag.xgA, 1.76, 0.01);
+eq('and nothing else from it', ag.xgF === undefined && ag.goals === undefined && ag.shots === undefined, true);
+eq('the same paste read normally is xG CREATED', E.parseTeamStats(againstPaste).xgF, 1.76, 0.01);
 
 /* The promise being tested: the numbers on the page actually move. */
 const p0 = before.picks && before.picks.length ? before.picks[0] : null;
@@ -351,6 +391,8 @@ if (p0 && p1) {
    comparison, so the gate stays shut. */
 const oneSide = { [fx16.home]: { matches: 10, xgF: 1.55, xgA: 1.2, goals: 2, shots: 14 } };
 eq('one side filled is still market-only', run16(oneSide).marketWeight, 1);
+eq('Serie A is not called "Drawe A"',
+   DATA16.leagues.filter((l) => l.id === 'seriea')[0].name, 'Serie A (Italy)');
 
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);
