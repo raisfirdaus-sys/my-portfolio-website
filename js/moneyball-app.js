@@ -52,13 +52,21 @@
      bookmaker's price and makes EV zero everywhere. A page that reports
      "filled 7 of 10" and says nothing about which 3 is a page that looks
      like it worked while the model is switched off. */
-  var MODEL_REQUIRED = [['xgF', 'xG created'], ['xgA', 'xG conceded']];
+  var MODEL_REQUIRED = [['xgF', 'xG created']];
 
   function missingForModel(key) {
     var t = effStats(key);
     if (!t) return [];
     return MODEL_REQUIRED.filter(function (r) { return t[r[0]] == null; })
                          .map(function (r) { return r[1]; });
+  }
+
+  /* Rated, but with its defence assumed rather than measured. Worth saying
+     out loud wherever the team appears: the number moved, and half of what
+     moved it is a league average. */
+  function defenceAssumed(key) {
+    var t = effStats(key);
+    return !!(t && t.xgF != null && t.xgA == null);
   }
 
   function effStats(key) {
@@ -68,7 +76,12 @@
     var merged = {};
     for (var k in base) merged[k] = base[k];
     for (var k2 in ov) merged[k2] = ov[k2];
-    if (merged.xgF != null && merged.xgA != null) merged.statsMissing = false;
+    /* The engine rates a team from xG created, standing league average in
+       for xG conceded when it is missing - WhoScored publishes no xG
+       conceded except behind its xG tab's "Against" toggle, and refusing
+       to rate without it meant the commonest source there is could not
+       move a price. So one figure opens the gate; the other sharpens it. */
+    if (merged.xgF != null) merged.statsMissing = false;
     return merged;
   }
   function teamsView() {
@@ -1773,7 +1786,8 @@
       h.appendChild(sw);
       var need = missingForModel(key);
       h.appendChild(el('span', null, t.name +
-        (need.length ? '  (model still off \u2014 needs ' + need.join(' + ') + ')' : '')));
+        (need.length ? '  (model still off \u2014 needs ' + need.join(' + ') + ')'
+          : defenceAssumed(key) ? '  (rated \u2014 xG conceded assumed league average)' : '')));
       box.appendChild(h);
 
       var grid = el('div', 'form-grid');
@@ -1885,6 +1899,15 @@
       btnRow.style.marginTop = '7px';
       var imp = el('button', 'btn sm', 'Import for ' + team(key).name);
       imp.type = 'button';
+
+      /* The xG tab's "Against" view is the same table with the opponent's
+         numbers in it, and a copy of the page carries the words "For" and
+         "Against" either way - so nothing in the text says which view it
+         is. A second button is the only honest way to ask. */
+      var impAgainst = el('button', 'btn sm ghost', 'Import xG Against');
+      impAgainst.type = 'button';
+      impAgainst.title = 'WhoScored xG tab with the Against toggle on: reads xG conceded only';
+
       var msg = el('span');
       msg.id = 'imp-msg-' + key;
       msg.style.cssText = 'font-size:12px;color:var(--text-secondary)';
@@ -1967,10 +1990,14 @@
         }).map(function (r) { return r[1]; });
         var gate = stillNeed.length
           ? '<br /><strong style="color:var(--warning)">The model is still switched off for this team: ' +
-            'no ' + stillNeed.join(' and ') + '.</strong> Fixtures involving it stay priced by the ' +
-            'bookmaker until both xG figures are in \u2014 type them into the boxes above, or paste a ' +
-            'source that carries them (WhoScored\u2019s xG tab, or FBref\u2019s squad and &ldquo;vs&rdquo; tables).'
-          : '';
+            'no ' + stillNeed.join(' and ') + '.</strong> Paste WhoScored\u2019s <strong>xG</strong> tab, ' +
+            'or type the figure into the box above.'
+          : (STATE.overrides[key].xgA == null
+            ? '<br /><strong>The model is now on for this team.</strong> xG conceded is standing at the ' +
+              'league average, which is an assumption, not a measurement \u2014 so this rating counts for ' +
+              'less. For the real figure: WhoScored\u2019s <strong>xG</strong> tab, switch <strong>For</strong> ' +
+              'to <strong>Against</strong>, then paste it and press <em>Import xG Against</em>.'
+            : '');
         delete STATE.paste[key];
         delete STATE.editMsg[key];
         STATE.importMsg[key] = {
@@ -1993,7 +2020,35 @@
         msg.innerHTML = STATE.importMsg[key].html;
         renderAll();
       });
-      btnRow.appendChild(imp); btnRow.appendChild(msg);
+      btnRow.appendChild(imp);
+      btnRow.appendChild(impAgainst);
+      impAgainst.addEventListener('click', function () {
+        var got;
+        try { got = E.parseTeamStats(ta.value, { against: true }); }
+        catch (err) { got = null; }
+        if (!got || got.xgA == null) {
+          STATE.importMsg[key] = {
+            color: 'var(--critical)',
+            html: '<strong>No xG column found in that paste.</strong> This button wants ' +
+              'WhoScored\u2019s <strong>xG</strong> tab with <strong>Against</strong> selected \u2014 ' +
+              'the table whose columns read Tournament, Apps, xG, Goals*, xGDiff, Shots.'
+          };
+        } else {
+          STATE.overrides[key] = STATE.overrides[key] || {};
+          STATE.overrides[key].xgA = got.xgA;
+          if (STATE.overrides[key].matches == null) STATE.overrides[key].matches = got.matches;
+          saveOverrides();
+          delete STATE.paste[key];
+          STATE.importMsg[key] = {
+            color: 'var(--good)',
+            html: '<strong>xG conceded set to ' + got.xgA + '</strong> per match, from ' +
+              got.matches + ' fixtures. This team\u2019s defence is now measured rather than assumed.'
+          };
+        }
+        msg.style.color = STATE.importMsg[key].color;
+        msg.innerHTML = STATE.importMsg[key].html;
+        renderAll();
+      }); btnRow.appendChild(msg);
       wrap.appendChild(lb); wrap.appendChild(ta); wrap.appendChild(btnRow);
       box.appendChild(wrap);
     });

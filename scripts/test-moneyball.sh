@@ -35,5 +35,8 @@ node scripts/test-topteams.mjs
 
 printf '=== test-bulk-table ===\n'
 node scripts/test-bulk-table.mjs
+
+printf '=== test-whoscored-flow ===\n'
+node scripts/test-whoscored-flow.mjs
 echo
 echo "All Moneyball tests passed."

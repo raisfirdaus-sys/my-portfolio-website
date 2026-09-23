@@ -43,6 +43,10 @@
   var K = {
     MATRIX: 11,              // scorelines 0..10 per side
     RATING_PRIOR: 4.0,       // matches of prior for attack/defence shrinkage
+    /* What a rating is worth when xG conceded had to be assumed league
+       average rather than measured - half the rating is then an
+       assumption, so it counts for a little over half as much. */
+    ASSUMED_DEF_WEIGHT: 0.6,
     FINISH_PRIOR: 38,        // matches of prior for finishing regression
     VOLUME_EXP: 0.35,        // diminishing return on shot volume
     BIGMISS_PENALTY: 0.018,  // per big miss above league norm
@@ -78,7 +82,20 @@
     var wRating = n / (n + K.RATING_PRIOR);
     var atk = 1 + (safeDiv(t.xgF, L, 1) - 1) * wRating;
     var def = 1 + (safeDiv(t.xgA, L, 1) - 1) * wRating;
-    var ratingWeight = wRating;
+
+    /* WhoScored publishes xG created and nothing at all about xG conceded:
+       not on Summary, not on Defensive, not on Offensive, not on its xG
+       tab. Refusing to rate a team without it meant the commonest source
+       there is could not move a single price.
+
+       So a missing xG conceded is treated as exactly league average, which
+       is what safeDiv already does above - the team's defence carries no
+       information either way. That is a real assumption, not a
+       measurement, so it is charged for: half the rating rests on it, so
+       the rating's weight is cut and the fixture leans further on the
+       market price. The page says so beside the team. */
+    var defAssumed = t.xgA == null;
+    var ratingWeight = wRating * (defAssumed ? K.ASSUMED_DEF_WEIGHT : 1);
 
     /* --- shot profile --------------------------------------------------- */
     var xgPerShot = safeDiv(t.xgF, t.shots, 0.105);
@@ -120,7 +137,7 @@
       shotFusion: shotFusion, finAdj: finAdj,
       repeatability: repeatability, repeatMean: repeatMean,
       defIntensity: defIntensity, pRed: pRed,
-      xgPerShot: xgPerShot, ratingWeight: ratingWeight,
+      xgPerShot: xgPerShot, ratingWeight: ratingWeight, defAssumed: defAssumed,
       sotRate: safeDiv(t.sot, t.shots, 0.33),
       matches: n
     };
@@ -985,8 +1002,31 @@
     };
   }
 
+  /**
+   * The xG tab's "Against" view: the same table shape, but every figure in
+   * it belongs to the opponent. Exactly one of them is wanted - xG
+   * conceded - and reading the rest would quietly overwrite this team's
+   * own attack with the other side's.
+   */
+  function parseXGAgainst(text) {
+    var t = parseStatsTable(text);
+    if (!t || t.xgF == null) return null;
+    return {
+      matches: t.matches,
+      xgA: t.xgF,                 // "xG" in the Against view IS xG conceded
+      _fromTable: true,
+      _againstView: true,
+      _tables: t._tables
+    };
+  }
+
   function parseTeamStats(text, opts) {
     opts = opts || {};
+    /* The caller says which view this is; nothing in the copied text
+       distinguishes them, because both carry the words "For" and
+       "Against" from the toggle itself. Guessing would be a coin flip
+       that silently swaps a team's attack for its defence. */
+    if (opts.against) return parseXGAgainst(text);
     if (!text || typeof text !== 'string') return null;
     var trimmed = text.trim();
     /* A pasted API response is JSON; a pasted page is not. */
@@ -1555,11 +1595,22 @@
      ===================================================================== */
 
   /** A single positive strength number per team, on a points-like scale. */
-  function ratingBase(t, league) {
-    if (t.statsMissing || t.xgF == null || t.xgA == null) return null;
+  /**
+   * A single positive strength number per team, on a points-like scale.
+   *
+   * strict: used by the market calibration below, which must not fit its
+   * offset against teams whose defence was assumed rather than measured.
+   * The model path is permissive - a team rated on xG created alone still
+   * says something true about its attack, and saying nothing was the worse
+   * answer.
+   */
+  function ratingBase(t, league, strict) {
+    if (t.xgF == null) return null;
+    if (strict && (t.statsMissing || t.xgA == null)) return null;
     var L = league.avgGoalsPerMatch / 2;
+    var xgA = t.xgA == null ? L : t.xgA;      // league average, not a measurement
     // centred at 100 for a league-average team; 100 points per goal of xG diff
-    return 100 + 100 * ((t.xgF - t.xgA) / Math.max(0.2, L));
+    return 100 + 100 * ((t.xgF - xgA) / Math.max(0.2, L));
   }
 
   function btProb(Sh, Sa) {
@@ -1580,7 +1631,7 @@
       if (!lg) return;
       var h = teams[fx.home], a = teams[fx.away];
       if (!h || !a) return;
-      var rh = ratingBase(h, lg), ra = ratingBase(a, lg);
+      var rh = ratingBase(h, lg, true), ra = ratingBase(a, lg, true);
       if (rh == null || ra == null) return;
       var mk = (fx.markets || {}).ft;
       if (!mk || !mk.x12 || !mk.x12['1'] || !mk.x12.X || !mk.x12['2']) return;
@@ -1923,6 +1974,7 @@
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
     parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
     parseStatsTable: parseStatsTable, parseTeamsTable: parseTeamsTable,
+    parseXGAgainst: parseXGAgainst,
     splitDiscipline: splitDiscipline,
     parseStatsJSON: parseStatsJSON, STAT_PATTERNS: STAT_PATTERNS,
     parseManyTeams: parseManyTeams, matchTeamName: matchTeamName,
