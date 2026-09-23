@@ -5,9 +5,9 @@
 //
 // Why Google News rather than a sports API: it needs no key, no plan and no
 // per-league entitlement, which is exactly what stopped the Sportmonks route
-// working. The trade-off is that it returns headlines and links only, with
-// no photographs — so the page leads each card with the club crest it
-// already draws instead of a publisher's image it has no licence to.
+// working. It returns headlines and links only, so the picture on each card
+// is read off the article itself - see "pictures" below - and any story
+// without one falls back to the club crest the page already draws.
 //
 // Stories are tagged to teams by matching the headline against the team
 // names this site knows, plus the short forms newspapers actually print
@@ -239,6 +239,193 @@ export function busiestTeams(candidates, limit) {
     .map(([key]) => key);
 }
 
+/* ========================================================= pictures ====
+   OneFootball leads every card with a photograph and a wall of crests does
+   not read the same way, so each published story gets one.
+
+   The feed carries none, so the picture has to come off the article itself:
+   og:image, the image a publisher nominates for links to its own page. That
+   is what it is published for - it is the same picture that appears when
+   the article is shared anywhere else - and the card links straight back to
+   the publisher and credits it by name. No image is copied or re-hosted;
+   the browser loads it from the publisher, and a card whose image will not
+   load falls back to the crest layout that shipped before.
+
+   Cost control, because this runs unattended every half hour: only the ~60
+   stories that actually get published are opened, images already resolved
+   in the previous run are reused by link, each request is capped in time
+   and in bytes read, and the whole phase gives up at a deadline. Every one
+   of those failures ends in a crest, never in a broken run. */
+
+const IMG_CONCURRENCY = 6;
+const IMG_TIMEOUT_MS = 9000;
+const IMG_PHASE_MS = 150000;
+const IMG_READ_BYTES = 262144;      // og: tags live in <head>; never read a whole page
+const BROWSER_UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36";
+
+/* Google News links are redirects. The older ones carry the publisher URL
+   inside the base64 payload, which saves a request and a redirect when it
+   works; scanning the decoded bytes for "http" is deliberately looser than
+   parsing the protobuf, because the surrounding format has changed before
+   and the URL is the only part worth having. */
+export function decodeGoogleLink(link) {
+  const m = /\/rss\/articles\/([A-Za-z0-9_-]+)/.exec(String(link || ""));
+  if (!m) return null;
+  let raw;
+  try {
+    raw = Buffer.from(m[1].replace(/-/g, "+").replace(/_/g, "/"), "base64").toString("latin1");
+  } catch { return null; }
+  const at = raw.search(/https?:\/\//);
+  if (at < 0) return null;
+  const url = raw.slice(at).split(/[^\x20-\x7e]/)[0].trim();
+  return /^https?:\/\/[^\s"'<>]+$/.test(url) ? url : null;
+}
+
+/* When the link does not decode, Google serves a page that points at the
+   publisher instead. data-n-au holds it outright; failing that, take the
+   first URL on the page that is not Google's own furniture. */
+export function publisherUrlFromGooglePage(html) {
+  const text = String(html || "");
+  const direct = /data-n-au=["'](https?:\/\/[^"']+)["']/i.exec(text);
+  if (direct) return direct[1];
+  const own = /(^|\.)(google|gstatic|googleapis|googleusercontent|youtube|ggpht)\.[a-z.]+$/i;
+  const meta = /(^|\.)(w3\.org|schema\.org|whatwg\.org)$/i;
+  const re = /https?:\/\/[^\s"'<>\\)]+/g;
+  let m;
+  while ((m = re.exec(text))) {
+    let u;
+    try { u = new URL(m[0]); } catch { continue; }
+    if (own.test(u.hostname) || meta.test(u.hostname)) continue;
+    return u.href;
+  }
+  return null;
+}
+
+/* The publisher's own nomination, in the order publishers set it. */
+export function extractOgImage(html, baseUrl) {
+  const head = String(html || "").slice(0, IMG_READ_BYTES);
+  const patterns = [
+    /<meta[^>]+property=["']og:image(?::secure_url|:url)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:image(?::secure_url|:url)?["']/i,
+    /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]*name=["']twitter:image(?::src)?["']/i,
+    /<link[^>]+rel=["']image_src["'][^>]*href=["']([^"']+)["']/i
+  ];
+  for (const re of patterns) {
+    const m = re.exec(head);
+    if (!m) continue;
+    const abs = absoluteHttpUrl(decode(m[1]).trim(), baseUrl);
+    if (abs) return abs;
+  }
+  return null;
+}
+
+/* A relative og:image is common; a data: URI would be embedded in the page
+   we publish, so only http(s) survives. */
+export function absoluteHttpUrl(candidate, baseUrl) {
+  if (!candidate) return null;
+  let u;
+  try { u = baseUrl ? new URL(candidate, baseUrl) : new URL(candidate); } catch { return null; }
+  if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+  return u.href;
+}
+
+/* Read only the head of the response: enough for the meta tags, and it
+   stops a photo-heavy article page from being pulled down in full. */
+async function readCapped(res) {
+  if (!res.body) return (await res.text()).slice(0, IMG_READ_BYTES);
+  const reader = res.body.getReader();
+  const chunks = [];
+  let got = 0;
+  try {
+    while (got < IMG_READ_BYTES) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(Buffer.from(value));
+      got += value.length;
+    }
+  } catch { /* a truncated page is still worth parsing */ }
+  try { await reader.cancel(); } catch { /* already closed */ }
+  return Buffer.concat(chunks).toString("utf8");
+}
+
+async function getPage(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), IMG_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      redirect: "follow",
+      signal: ctrl.signal,
+      headers: { "User-Agent": BROWSER_UA, Accept: "text/html,application/xhtml+xml,*/*" }
+    });
+    if (!res.ok) return null;
+    return { url: res.url || url, html: await readCapped(res) };
+  } catch {
+    return null;                       // timeout, TLS, DNS, paywall redirect loop
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function articleImage(link) {
+  const decoded = decodeGoogleLink(link);
+  let page = await getPage(decoded || link);
+  if (!page) return null;
+
+  let host = "";
+  try { host = new URL(page.url).hostname; } catch { return null; }
+
+  if (/(^|\.)news\.google\.com$/i.test(host)) {
+    const real = publisherUrlFromGooglePage(page.html);
+    if (!real) return null;
+    page = await getPage(real);
+    if (!page) return null;
+  }
+  return extractOgImage(page.html, page.url);
+}
+
+/* Images already resolved in the previous run are reused by link, so a
+   steady feed costs a handful of requests rather than sixty. */
+async function attachImages(stories, previousItems) {
+  const known = new Map();
+  for (const it of previousItems) {
+    if (it && it.link && it.image) known.set(it.link, it.image);
+  }
+
+  const deadline = Date.now() + IMG_PHASE_MS;
+  const tally = { found: 0, reused: 0, missing: 0, skipped: 0 };
+  let next = 0;
+
+  async function worker() {
+    while (next < stories.length) {
+      const it = stories[next++];
+      if (known.has(it.link)) { it.image = known.get(it.link); tally.reused++; continue; }
+      if (Date.now() > deadline) { it.image = null; tally.skipped++; continue; }
+      const img = await articleImage(it.link);
+      it.image = img;
+      if (img) tally.found++; else tally.missing++;
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: Math.min(IMG_CONCURRENCY, stories.length) }, worker)
+  );
+  return tally;
+}
+
+/* The previous file is the image cache. Missing or unreadable is fine - it
+   just means every picture is resolved from scratch this run. */
+async function previousItems(path) {
+  try {
+    const prev = JSON.parse(await fs.readFile(path, "utf8"));
+    return Array.isArray(prev.items) ? prev.items : [];
+  } catch {
+    return [];
+  }
+}
+
 async function main() {
   const results = await Promise.allSettled(COMPETITIONS.map(fetchFeed));
   let items = [];
@@ -315,6 +502,17 @@ async function main() {
     return;
   }
 
+  const outPath = new URL("../data/football-news.json", import.meta.url);
+  const published = tagged.slice(0, 60);
+
+  /* Pictures last: the brief is already complete without them, so a slow or
+     unreachable publisher costs a photograph and nothing else. */
+  const pics = await attachImages(published, await previousItems(outPath));
+  console.log(
+    `Images: ${pics.found} fetched, ${pics.reused} reused, ` +
+    `${pics.missing} not offered, ${pics.skipped} skipped (out of time).`
+  );
+
   const out = {
     generatedAt: Date.now(),
     source: "Google News RSS",
@@ -324,15 +522,13 @@ async function main() {
       tagged: tagged.length,
       droppedKeyword: dropped.keyword,
       droppedFeed: dropped.feed,
-      blocklistDistrusted: overblocked
+      blocklistDistrusted: overblocked,
+      withImage: published.filter((it) => it.image).length
     },
-    items: tagged.slice(0, 60)
+    items: published
   };
 
-  await fs.writeFile(
-    new URL("../data/football-news.json", import.meta.url),
-    JSON.stringify(out, null, 2) + "\n"
-  );
+  await fs.writeFile(outPath, JSON.stringify(out, null, 2) + "\n");
   console.log(`Wrote ${out.items.length} tagged stories (of ${items.length} unique; dropped ${dropped.keyword} by wording, ${dropped.feed} by blocklist).`);
 }
 

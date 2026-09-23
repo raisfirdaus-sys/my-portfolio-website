@@ -576,11 +576,39 @@
       a.href = /^https?:\/\//i.test(it.link || '') ? it.link : '#';
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
-      a.innerHTML = newsTeamsHTML(it) +
-        (lead ? '<h3>' : '<h4>') + esc(it.title) + (lead ? '</h3>' : '</h4>') +
-        '<span class="news-meta">' + esc(it.publisher || '') +
-        (it.publishedAt ? '<span class="dot">&middot;</span>' + timeAgo(it.publishedAt) : '') +
-        '</span>';
+
+      /* The publisher's own share image, loaded from the publisher and
+         never copied here. Same check as the link: only http(s). */
+      var shot = /^https?:\/\//i.test(it.image || '') ? it.image : '';
+
+      a.innerHTML =
+        (shot
+          ? '<div class="news-shot"><img src="' + esc(shot) + '" alt="" loading="lazy" ' +
+            'decoding="async" referrerpolicy="no-referrer" /></div>'
+          : '') +
+        '<div class="news-body">' +
+          newsTeamsHTML(it) +
+          (lead ? '<h3>' : '<h4>') + esc(it.title) + (lead ? '</h3>' : '</h4>') +
+          '<span class="news-meta">' + esc(it.publisher || '') +
+          (it.publishedAt ? '<span class="dot">&middot;</span>' + timeAgo(it.publishedAt) : '') +
+          '</span>' +
+        '</div>';
+
+      /* Hotlinked images fail for reasons we cannot see from here: the
+         publisher blocks it, the URL rots, the reader is offline. Drop the
+         frame and let the card fall back to the crest layout rather than
+         leave a torn-image box in the middle of the brief. */
+      if (shot) {
+        a.classList.add('has-shot');
+        var img = a.querySelector('.news-shot img');
+        if (img) {
+          img.addEventListener('error', function () {
+            a.classList.remove('has-shot');
+            var frame = a.querySelector('.news-shot');
+            if (frame && frame.parentNode) frame.parentNode.removeChild(frame);
+          });
+        }
+      }
       return a;
     }
 
