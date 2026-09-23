@@ -180,10 +180,19 @@
     return 'seed';
   }
   var CALIB = null;
+  /* The model's units, fitted once per board rather than per fixture: a goal
+     level per competition and one supremacy line. Without it a WhoScored
+     board reads fifteen "Over" picks out of twenty and backs the underdog in
+     every mismatch - see calibrateShape in the engine. */
+  var SHAPE = null;
   function refreshCalibration() {
+    var fxs = slateFixtures(STATE.slate), view = teamsView();
     try {
-      CALIB = E.calibrateOffset(slateFixtures(STATE.slate), teamsView(), DATA.leagues);
+      CALIB = E.calibrateOffset(fxs, view, DATA.leagues);
     } catch (err) { CALIB = null; }
+    try {
+      SHAPE = E.calibrateShape(fxs, view, DATA.leagues, {});
+    } catch (err) { SHAPE = null; }
   }
   /* One basis for the whole page. The value board used STATE.marketWeight
      while the parlay builder forced a full market anchor, so the same match
@@ -200,6 +209,7 @@
     return E.analyseFixture(fx, teamsView(), DATA.leagues, {
       marketWeight: fixtureHasUserStats(fx) ? STATE.marketWeight : 1,
       calibration: CALIB,
+      shape: SHAPE,
       tilt: STATE.tilt[fx.id] || 0
     });
   }
@@ -484,6 +494,47 @@
         (STATE.boardAll ? ' — all schedules' : '');
     }
 
+    /* The strongest signal there is that a paste went wrong. If the ratings
+       built from the entered figures rank the teams differently from the
+       prices across a whole board, it is not an edge - it is a column read
+       from the wrong table, or figures that landed on the wrong team. Saying
+       so is far more use than quietly pricing everything off the market. */
+    if (SHAPE && SHAPE.orderDisagrees) {
+      var od = el('div', 'notice bad');
+      od.style.margin = '0 0 10px';
+      od.innerHTML = '<h3>Your figures rank the teams differently from the prices</h3>' +
+        '<p>Across ' + SHAPE.n + ' matches on this schedule, the ratings built from the ' +
+        'statistics you entered put the teams in a <strong>different order</strong> from the ' +
+        'bookmaker. That is almost never an edge. It usually means a column was read from the ' +
+        'wrong table, a paste landed on the wrong team, or the figures are from another season.</p>' +
+        '<p>Until it is sorted out, every price on this schedule follows the bookmaker and no ' +
+        'pick is claimed. Check a team or two in <strong>Statistics Input</strong> against the ' +
+        'source, then this notice will go.</p>';
+      host.appendChild(od);
+    }
+
+    /* Why the numbers are the size they are. The model's say on this board
+       is set by how closely its fitted line tracks the prices, so saying so
+       turns a shrunken EV from a disappointment into a reason to enter the
+       next column of figures. */
+    if (SHAPE && SHAPE.slopeFitted && !STATE.boardAll) {
+      var fitNote = el('div', 'notice');
+      fitNote.style.cssText = 'margin:0 0 10px;border-left-color:var(--hl-edge)';
+      var sayNow = 1 - (SHAPE.rmse >= 0.60 ? 1 : SHAPE.rmse <= 0.20 ? 0 :
+                        (SHAPE.rmse - 0.20) / 0.40);
+      fitNote.innerHTML = '<h3>Your figures have been fitted to this board</h3>' +
+        '<p>Across <strong>' + SHAPE.n + '</strong> matches the ratings built from your ' +
+        'statistics order the teams the way the prices do (correlation <strong>' +
+        SHAPE.r.toFixed(2) + '</strong>), and the fitted line sits <strong>' +
+        SHAPE.rmse.toFixed(2) + ' goals</strong> from those prices on a typical match. ' +
+        'That distance is what the model is allowed to argue with: at this accuracy it keeps ' +
+        '<strong>' + pct(Math.max(0, sayNow), 0) + '</strong> of the say it could have, and the ' +
+        'bookmaker holds the rest.</p>' +
+        '<p>Entering more &mdash; xG conceded above all, then more matches &mdash; tightens that ' +
+        'distance, and a tighter fit hands the model more of the say.</p>';
+      host.appendChild(fitNote);
+    }
+
     var head = el('div', 'board-head');
     head.innerHTML = '<span>Time</span><span>Match</span>' +
       '<span class="num">Handicap</span><span class="num">Over / Under</span>' +
@@ -542,27 +593,36 @@
         : '&mdash;';
       row.appendChild(x12Cell);
 
-      /* The highlight is the whole point of the page: the leg the model
-         would take, in light blue, exactly as on the value board. */
+      /* The light blue is what this page is sold on, so it has to mean one
+         thing only: the model rates this leg. It used to be given to the
+         cheapest leg as well, whenever no statistics had been entered - so
+         a board with no data looked exactly as confident as a board with
+         it, which is the complaint that started all of this.
+         Now every row shows a leg, and only a leg the model has actually
+         rated is highlighted. */
       var pick = el('span', 'board-pick');
-      if (a && a.best) {
-        var cw = (a.best.dist ? (a.best.dist.win || 0) + 0.5 * (a.best.dist.halfWin || 0)
-                              : a.best.pModel) || 0;
-        pick.classList.add('hl');
-        pick.innerHTML = '<span class="lbl">' + a.best.label + '</span><br />' +
-          '<span class="meta">' + fmtOdds(a.best.odds) + ' · full payout ' +
-          pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
-      } else if (a && a.statsMissing) {
-        pick.innerHTML = '<span class="meta">following the bookmaker</span>';
-      } else if (a && a.divergence > 0.25) {
-        /* The guard fired: the model disagrees with the market by more than
-           a quarter. On that much disagreement the inputs are the likely
-           culprit, not the market, so no leg is promoted. Saying only
-           "none" made that look like a fault. */
-        pick.innerHTML = '<span class="meta">model differs by <strong>' +
-          pct(a.divergence, 0) + '</strong> from the market<br />too far &mdash; nothing selected</span>';
+      var rated = a && a.best && a.rankedBy === 'ev';
+      var shown = rated ? a.best : (a && a.bestCheap);
+      if (shown) {
+        var cw = (shown.dist ? (shown.dist.win || 0) + 0.5 * (shown.dist.halfWin || 0)
+                             : shown.pModel) || 0;
+        var why;
+        if (rated) {
+          pick.classList.add('hl');
+          why = '';
+        } else if (a.statsMissing) {
+          why = 'no statistics yet &mdash; cheapest leg here<br />';
+        } else if (a.divergence > 0.25) {
+          why = 'model differs by ' + pct(a.divergence, 0) +
+                ' &mdash; held to the price<br />';
+        } else {
+          why = 'no edge &mdash; cheapest leg here<br />';
+        }
+        pick.innerHTML = '<span class="lbl">' + shown.label + '</span><br />' +
+          '<span class="meta">' + why + fmtOdds(shown.odds) + ' · full payout ' +
+          pct(cw, 1) + ' · vig ' + pct(shown.vig || 0, 2) + '</span>';
       } else {
-        pick.innerHTML = '<span class="meta">nothing worth taking</span>';
+        pick.innerHTML = '<span class="meta">no prices on this fixture</span>';
       }
       row.appendChild(pick);
 
@@ -944,7 +1004,7 @@
       seg.textContent = (r[0] * 100).toFixed(0) + '%';
       bindTip(seg, function () {
         return '<div class="t-title">' + r[2] + '</div><div class="t-row">Probabilitas model ' +
-               pct(r[0], 1) + '</div><div class="t-row">Odds adil ' + (1 / r[0]).toFixed(2) + '</div>';
+               pct(r[0], 1) + '</div><div class="t-row">Fair odds ' + (1 / r[0]).toFixed(2) + '</div>';
       });
       strip.appendChild(seg);
     });
@@ -1136,7 +1196,8 @@
 
     /* market view versus the view after the adjustment, side by side */
     var base = E.analyseFixture(a.fixture, teamsView(), DATA.leagues,
-      { marketWeight: slateHasUserStats() ? STATE.marketWeight : 1, calibration: CALIB, tilt: 0 });
+      { marketWeight: slateHasUserStats() ? STATE.marketWeight : 1, calibration: CALIB,
+        shape: SHAPE, tilt: 0 });
     var b = base.outright, o = a.outright;
 
     var html = '<strong>This is where your football knowledge goes in.</strong> The model knows nothing about ' +
@@ -1714,7 +1775,7 @@
 
     var verdict = el('div', 'notice' + (c.agree === true ? ' ok' : c.agree === false ? ' bad' : ''));
     var head = c.agree === true ? 'Two model families agree against the market'
-             : c.agree === false ? 'Dua model saling bertentangan'
+             : c.agree === false ? 'The two models contradict each other'
              : 'No 1X2 price to compare against';
     var body = c.agree === true
       ? 'Dixon-Coles and Bradley-Terry lean the same way against the market. Two models built on different assumptions agreeing is stronger evidence than one model alone.'
@@ -1876,22 +1937,25 @@
     if (!a.statsMissing && a.divergence > 0.25) {
       var warn = el('div', 'notice bad');
       warn.style.marginBottom = '10px';
-      warn.innerHTML = '<h3>Do not trust the EV numbers below yet</h3>' +
-        '<p>Model berbeda <strong>' + pct(a.divergence, 0) + '</strong> from the bookmaker price. ' +
-        'At a gap that size what is wrong is almost always the <strong>model inputs</strong>, ' +
-        'not the bookmaker price &mdash; the bookmaker sees squads, injuries and team news; this model ' +
-        'sees only the numbers you typed in.</p>' +
-        '<p>That is why no row is promoted to the main pick, and ' +
-        'positive EV here is marked amber, not green. EV +70% does not mean a chance of ' +
-        'winning; it means <strong>the data is still too thin</strong>. Raise the match count ' +
-        'until the gap falls below 25%, and only then is the number worth reading.</p>';
+      warn.innerHTML = '<h3>Read the EV below with care</h3>' +
+        '<p>The model differs by <strong>' + pct(a.divergence, 0) + '</strong> from the bookmaker ' +
+        'price on this match. At a gap that size what is wrong is usually the ' +
+        '<strong>model inputs</strong>, not the price &mdash; the bookmaker sees squads, ' +
+        'injuries and team news; this model sees only the numbers you typed in.</p>' +
+        '<p>So the anchor has already been raised against it: this fixture is now priced at ' +
+        '<strong>' + pct(a.marketWeight, 0) + '</strong> market, against ' +
+        pct(a.marketWeightBase == null ? a.marketWeight : a.marketWeightBase, 0) +
+        ' where model and price agree. The further out the model goes, the less of it is ' +
+        'used, which is why a wild disagreement quietly costs itself its own influence ' +
+        'instead of producing a wild bet. More matches entered is what closes the gap ' +
+        'for real.</p>';
       box.appendChild(warn);
     }
 
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr>' +
       '<th style="width:26px"></th><th>Selection</th><th>Market</th><th>Line</th>' +
-      '<th style="text-align:right">Odds</th><th style="text-align:right">Odds adil</th>' +
+      '<th style="text-align:right">Odds</th><th style="text-align:right">Fair odds</th>' +
       '<th style="text-align:right" title="Chance of any outcome that is not a loss, including pushes and half-wins">Model prob.</th>' +
       '<th style="text-align:right" title="Chance this leg pays FULL ODDS. Pushes count as nothing, half-wins count as half. THIS is what parlay legs are chosen on.">Full payout</th>' +
       '<th style="text-align:right">Vig</th>' +
@@ -2014,7 +2078,7 @@
       if (ok) {
         var btn = el('button', 'btn sm ghost', '+');
         btn.type = 'button';
-        btn.title = 'Tambahkan ke parlay';
+        btn.title = 'Add to the parlay';
         btn.addEventListener('click', function () { addLeg(p, a); });
         cadd.appendChild(btn);
       }
@@ -2044,10 +2108,10 @@
     } else legend.innerHTML =
       '<strong>What the colours mean:</strong> ' +
       '<span class="tier-dot prime"></span>light blue = EV above +4% and confidence above 58 (circled = best in this fixture) &nbsp;&middot;&nbsp; ' +
-      '<span class="tier-dot value"></span>kuning = EV di atas +1.5% &nbsp;&middot;&nbsp; ' +
-      '<span class="tier-dot neutral"></span>netral &nbsp;&middot;&nbsp; ' +
+      '<span class="tier-dot value"></span>yellow = EV above +1.5% &nbsp;&middot;&nbsp; ' +
+      '<span class="tier-dot neutral"></span>neutral &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot suspect"></span>amber = the EV looks good but the model sits too far from the market to be trusted &nbsp;&middot;&nbsp; ' +
-      '<span class="tier-dot avoid"></span>merah = EV di bawah -4%.' +
+      '<span class="tier-dot avoid"></span>red = EV below -4%.' +
       '<br /><strong>Vig</strong> = the bookmaker margin in that pair of prices; this is a cost you certainly pay, ' +
       'unlike EV, which is only an estimate. <strong>Kelly/4</strong> = a conservative stake size.';
     box.appendChild(legend);
@@ -2509,7 +2573,7 @@
     if (STATE.relaxedFrom) {
       var rl = el('div', 'notice');
       rl.style.cssText = 'margin:0 0 10px;border-left-color:var(--warning)';
-      rl.innerHTML = '<h3>Ambang diturunkan otomatis: ' + pct(STATE.relaxedFrom.asked, 0) +
+      rl.innerHTML = '<h3>Threshold lowered automatically: ' + pct(STATE.relaxedFrom.asked, 0) +
         ' \u2192 ' + pct(STATE.relaxedFrom.used, 0) + '</h3>' +
         '<p>Not enough legs pay full odds ' + pct(STATE.relaxedFrom.asked, 0) +
         ' of the time, so the threshold was lowered until the ticket filled. A balanced Asian line does ' +
@@ -2654,11 +2718,23 @@
       kpis.appendChild(fake);
     }
 
+    /* This used to read "you have not entered team statistics" whenever no
+       leg carried an edge - which told anyone who HAD filled the whole board
+       in that their work had not registered. Those are two different
+       answers: nothing entered, or entered and no edge found. */
+    var vigFallback = 'The <strong>circled</strong> leg is the one with the highest chance of a ' +
+      '<strong>full payout</strong> after the bookmaker margin &mdash; not raw probability. ' +
+      'The difference is large: a whole line can read 56% probable while paying full odds only ' +
+      '32% of the time, because the rest is a push, and a pushed leg multiplies the ticket by 1.0. ' +
+      'That rule comes from your own two real coupons: half lines returned 100% of the printed ' +
+      'odds, whole lines 88%, quarter lines 64%.';
     var why = el('div', 'kpi');
-    why.innerHTML = '<div class="cap">Arti stabilo biru muda</div>' +
+    why.innerHTML = '<div class="cap">What the light blue means</div>' +
       '<div class="note">' + (hasEV
         ? 'You have entered statistics for this schedule, so the highlighted rows are the ones with positive expected value, and the <strong>circled</strong> row is the highest EV.'
-        : 'You have not entered team statistics, so there is no EV worth chasing. The <strong>circled</strong> leg is the one with the highest chance of a <strong>full payout</strong> after the bookmaker margin &mdash; not raw probability. The difference is large: a whole line can read 56% probable while paying full odds only 32% of the time, because the rest is a push, and a pushed leg multiplies the ticket by 1.0. That rule comes from your own two real coupons: half lines returned 100% of the printed odds, whole lines 88%, quarter lines 64%.') +
+        : userStats
+          ? 'Your statistics are in for this schedule, and on these prices the model still finds no edge worth taking &mdash; it agrees with the bookmaker about this board. That is an answer, not a failure. So the ranking falls back to cost: ' + vigFallback
+          : 'You have not entered team statistics, so there is no EV worth chasing. ' + vigFallback) +
       '</div>';
     kpis.appendChild(why);
 
@@ -2714,7 +2790,7 @@
         '26,000x better than random, and the result was still 3.6&times;10<sup>-12</sup> &mdash; ' +
         'because both figures are raised to the power of the number of predictions. Exactly the same here: better leg selection ' +
         'multiplies the chance by <span class="fig">' + ca.improvementFactor.toFixed(2) + 'x</span>, ' +
-        'sedangkan menambah leg membaginya <span class="fig">' +
+        'while adding a leg divides it by <span class="fig">' +
         Math.round(1 / Math.pow(ca.avgLegProb, ca.legs)).toLocaleString('en-US') +
         'x</span>. Better selection cannot outrun the number of legs.</p>' +
         (ca.legsForOneIn20
@@ -2746,7 +2822,7 @@
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr><th>#</th><th>Fixture</th><th>Selection</th>' +
       '<th style="text-align:right">Odds</th><th>Score</th><th>Result</th>' +
-      '<th style="text-align:right">Pengali leg</th><th style="text-align:right">Pengali berjalan</th></tr></thead>';
+      '<th style="text-align:right">Leg multiplier</th><th style="text-align:right">Running multiplier</th></tr></thead>';
     var bd = el('tbody');
     var run = 1;
     rows.forEach(function (r, i) {
@@ -2797,8 +2873,10 @@
     host.innerHTML = ''; sum.innerHTML = '';
     if (!DATA.coupons || !DATA.coupons.length) return;
 
-    /* analyse every fixture once, at the default anchor, so grading does not
-       shift when the user drags the market-weight slider */
+    /* Analyse every fixture once, at the default anchor, so grading does not
+       shift when the user drags the market-weight slider. No shape fit
+       either: that is fitted per board, and a graded coupon must not change
+       its mind because a different schedule tab happens to be open. */
     var byId = {};
     DATA.fixtures.forEach(function (fx) {
       try {
@@ -2850,7 +2928,7 @@
       sum.appendChild(box);
 
       var tb = el('table', 'mb');
-      var html = '<thead><tr><th>Bucket probabilitas</th><th style="text-align:right">Leg</th>' +
+      var html = '<thead><tr><th>Probability bucket</th><th style="text-align:right">Leg</th>' +
         '<th style="text-align:right">Average model claim</th>' +
         '<th style="text-align:right">Average reality</th><th>Gap</th></tr></thead><tbody>';
       rep.buckets.forEach(function (b) {
@@ -2903,7 +2981,7 @@
           else if (r.pick.ev >= 0.015) { verdict = 'VALUE'; vcolor = 'var(--good)'; }
           else { verdict = 'neutral'; vcolor = 'var(--text-secondary)'; }
         } else if (r.pModel != null) {
-          verdict = r.pModel < 0.5 ? 'prob. di bawah 50%' : 'prob. di atas 50%';
+          verdict = r.pModel < 0.5 ? 'prob. below 50%' : 'prob. above 50%';
           vcolor = r.pModel < 0.5 ? 'var(--critical)' : 'var(--text-secondary)';
         }
         var lost = r.outcome === 'lose';
@@ -2984,7 +3062,7 @@
       ap.appendChild(ah2);
       var tb2 = el('table', 'mb');
       var h2 = '<thead><tr><th>Match</th><th>Alternative</th><th>Score</th><th>Result</th>' +
-        '<th style="text-align:right">Prob. model</th><th style="text-align:right">Odds adil model</th>' +
+        '<th style="text-align:right">Model prob.</th><th style="text-align:right">Model fair odds</th>' +
         '<th>Note</th></tr></thead><tbody>';
       alts.forEach(function (alt) {
         var a = byId[alt.fixtureId];
@@ -3073,7 +3151,7 @@
        '(win, half win, push, half lose, lose), and those buckets drive the parlay simulation.'],
       ['10. Expected value, fair odds, Kelly',
        'From those buckets: <code>w</code> = the share of stake that wins, <code>l</code> = the share that loses. ' +
-       'Odds adil = <code>1 + l/w</code>. EV = <code>w &times; (odds-1) - l</code>. Ukuran stake ' +
+       'Fair odds = <code>1 + l/w</code>. EV = <code>w &times; (odds-1) - l</code>. The stake size ' +
        'is shown as quarter Kelly, not full Kelly.'],
       ['11. Why the Mix Parlay menu differs',
        'The bookmaker removes the legs most likely to be mispriced in the player favour &mdash; above all short-priced ' +
@@ -3351,7 +3429,7 @@
     .then(boot)
     .catch(function (err) {
       document.querySelector('.wrap').innerHTML =
-        '<div class="notice bad"><h3>Gagal memuat data</h3><p>' + err.message +
+        '<div class="notice bad"><h3>Could not load the data</h3><p>' + err.message +
         '</p><p>If the file is opened directly over <code>file://</code>, the browser blocks ' +
         'reading JSON. Run a local server: <code>python3 -m http.server</code> then open ' +
         '<code>http://localhost:8000/moneyball.html</code>.</p></div>';
