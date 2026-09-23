@@ -18,18 +18,31 @@ so in its own documentation:
 
 No change to the script can fix that, because the script is never reached.
 
-### Asking more often does not help
+### Asking more often does not help, and neither does asking at all
 
-`update-football-news.yml` briefly asked **six** times an hour instead of
-twice. In five hours on that schedule it got **zero** scheduled runs - every
-refresh in that window was started by hand. The rate GitHub starts runs
-looks the same whichever schedule is asked for, so the file now asks the way
-the three working schedules ask: twice an hour, at `:03` and `:33`, clear of
-the other four.
+`update-football-news.yml` asked six times an hour, then twice an hour to
+match the schedules that work. It has started **zero** scheduled runs either
+way, across roughly ten hours, while `update-news.yml` has started 659. Every
+football refresh in that window was triggered by hand.
 
-**This is the accepted behaviour, not an outstanding bug.** The stock pages
-have run this way since July and the owner is happy with it. Expect football
-news to refresh roughly every four to five hours.
+So the schedule is not what brings the news in. The four workflows whose
+schedules *do* fire each end by dispatching this one:
+
+```yaml
+- name: Also refresh the football news
+  if: always()
+  env:
+    GH_TOKEN: ${{ github.token }}
+  run: gh workflow run update-football-news.yml --ref <branch>
+```
+
+A dispatch made with `GITHUB_TOKEN` does start another workflow - unlike a
+push, which GitHub blocks to prevent loops. Four wake-ups, each firing about
+every four hours and staggered across the hour, should land the football feed
+somewhere near every ninety minutes. No token to create, store or renew.
+
+The workflow keeps its own schedule as well, in case GitHub ever starts
+honouring it.
 
 ### Where to read the truth
 

@@ -69,3 +69,22 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pages.yml --ref claude/stock-portfolio-website-2ulin2
+
+      - name: Also refresh the football news
+        # This workflow's schedule actually fires; update-football-news.yml's
+        # never has - zero scheduled runs since it was created, on two
+        # different cron lines, while this one has run 659 times. GitHub
+        # starts what it starts and no wording in that file changes it.
+        #
+        # So the one that runs wakes the one that does not. A dispatch made
+        # with GITHUB_TOKEN does start another workflow (unlike a push,
+        # which GitHub blocks to prevent loops) - the pages.yml step above
+        # has been relying on that for months.
+        #
+        # Runs even when the stock news is unchanged: the football feed
+        # moves on its own schedule and has nothing to do with whether
+        # Yahoo had new headlines.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update-football-news.yml --ref claude/stock-portfolio-website-2ulin2

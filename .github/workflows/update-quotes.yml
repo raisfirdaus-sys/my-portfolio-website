@@ -74,3 +74,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pages.yml --ref claude/stock-portfolio-website-2ulin2
+
+      - name: Also refresh the football news
+        # See update-news.yml for the reasoning. Four schedules on this
+        # repository do fire, every four hours or so each; the football
+        # one never has. Waking it from all four, which are staggered
+        # across the hour, is what turns "whenever GitHub feels like it"
+        # into something closer to every ninety minutes - without a token
+        # anybody has to create, store or renew.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update-football-news.yml --ref claude/stock-portfolio-website-2ulin2

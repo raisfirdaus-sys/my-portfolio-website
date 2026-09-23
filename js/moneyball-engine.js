@@ -745,9 +745,13 @@
    * wrong - which column is per match, where the row label ends - are
    * written once.
    */
-  function eachTableRow(text, onRow) {
+  function eachTableRow(text, onRow, opts) {
+    opts = opts || {};
+    var fallbackApps = parseFloat(opts.matchesFallback);
+    if (!isFinite(fallbackApps) || fallbackApps < 1) fallbackApps = null;
+
     var lines = String(text).replace(/\u00a0/g, ' ').split(/\r?\n/);
-    var tables = 0;
+    var tables = 0, needMatches = false;
 
     for (var i = 0; i < lines.length; i++) {
       var cells = headerCells(lines[i]);
@@ -760,35 +764,82 @@
         var field = TABLE_COLUMNS[normHeader(cells[c])];
         if (field) { map[c] = field; named++; if (field === 'apps') hasApps = true; }
       }
-      if (named < 2 || !hasApps || map[0] != null) continue;   // column 0 is the label
+      if (named < 2 || map[0] != null) continue;   // column 0 is a label
+
+      /* A league table often has no Apps column at all: WhoScored's
+         "Team Statistics" lists Goals, Shots pg, Discipline, Possession%
+         and nothing about how many matches produced them. Goals there is a
+         season total, so without a match count it cannot become an average
+         - and inventing one would quietly divide by the wrong number. Take
+         it from the caller, or say it is needed and read no rows. */
+      if (!hasApps && !fallbackApps) { needMatches = true; continue; }
+
+      /* How many columns come before the first figure. A team page starts
+         with one ("Tournament"); a league table often starts with two, a
+         rank and the club ("R  Team  Apps  Goals ..."). Counting them
+         rather than assuming one is what lets the same reader take both. */
+      var firstData = cells.length;
+      for (var fm in map) { if (+fm < firstData) firstData = +fm; }
+      if (firstData < 1 || firstData >= cells.length) continue;
 
       var perMatchCol = {};
       for (var pc = 0; pc < cells.length; pc++) {
         perMatchCol[pc] = /\bpg$/.test(normHeader(cells[pc]));
       }
 
-      var want = cells.length - 1, rowsHere = 0;
+      var want = cells.length - firstData, rowsHere = 0;
       for (var j = i + 1; j < lines.length; j++) {
         var row = lines[j].trim();
         if (!row) { if (rowsHere) break; else continue; }
         var parts = row.split(/\s{2,}|\t|\s/).filter(Boolean);
         if (parts.length < want + 1) break;
-        var nums = parts.slice(parts.length - want);
-        if (!nums.every(isNumberCell)) break;
+
+        /* Count the numbers at the end of the row; whatever comes before
+           them is the label. */
+        var tail = 0;
+        while (tail < parts.length - 1 && isNumberCell(parts[parts.length - 1 - tail])) tail++;
+        if (tail < want) break;
+
+        /* One number too many is the Discipline cell arriving as two:
+           WhoScored draws the cards as a yellow box and a red box, and a
+           copy sometimes brings them back glued ("61") and sometimes apart
+           ("6 1"). Nothing else in these tables splits like that, so that
+           is the only extra column this will account for - anything else
+           is a row this reader does not understand, and it stops rather
+           than lining the wrong numbers up under the wrong headings. */
+        var splitCards = -1;
+        if (tail > want) {
+          var discCol = -1;
+          for (var dc in map) { if (map[dc] === 'discipline') discCol = +dc; }
+          if (tail !== want + 1 || discCol < 0) break;
+          splitCards = discCol - firstData;
+        }
+
+        var nums = parts.slice(parts.length - tail);
 
         /* Whatever is left in front of the numbers is the row's name: a
            competition on a team page, a club on a league table. */
         var label = parts.slice(0, parts.length - want).join(' ').trim();
 
         var rowApps = null, values = [];
-        for (var k = 0; k < nums.length; k++) {
-          var col = k + 1, f = map[col];
+        for (var k = 0, off = 0; k < nums.length; k++) {
+          var col = k - off + firstData, f = map[col];
+          if (splitCards === k - off && f === 'discipline') {
+            /* Two cells for one column: yellow, then red. */
+            var yel = parseFloat(String(nums[k]).replace(',', '.'));
+            var redv = parseFloat(String(nums[k + 1]).replace(',', '.'));
+            if (isFinite(yel)) values.push({ field: 'yellow', value: yel, perMatch: false });
+            if (isFinite(redv)) values.push({ field: 'red', value: redv, perMatch: false });
+            k++; off++;
+            continue;
+          }
           if (!f) continue;
           var v = parseFloat(String(nums[k]).replace(',', '.'));
           if (!isFinite(v)) continue;
           if (f === 'apps') rowApps = v;
           else values.push({ field: f, value: v, perMatch: perMatchCol[col] });
         }
+        if (!rowApps && fallbackApps) rowApps = fallbackApps;
         if (!rowApps || rowApps < 1) break;      // a row that cannot be weighted
 
         rowsHere++;
@@ -796,7 +847,7 @@
       }
       if (rowsHere) { tables++; i = i + rowsHere; }
     }
-    return tables;
+    return { tables: tables, needMatches: needMatches };
   }
 
   /* One bucket of season totals, and the matches each of them came from. */
@@ -861,11 +912,11 @@
    * competitions - adding their Apps would say a team played 21 matches
    * when it played 7, and divide every average by three.
    */
-  function parseStatsTable(text) {
+  function parseStatsTable(text, opts) {
     if (!text || typeof text !== 'string') return null;
     var b = newBucket(), tableApps = [], idx = -1, lastLabels = [];
 
-    var tables = eachTableRow(text, function (row) {
+    var scan = eachTableRow(text, function (row) {
       /* A competition seen again belongs to the next table, so its apps
          must not be added to this table's match count a second time. */
       if (lastLabels.indexOf(row.label) !== -1) { idx = -1; lastLabels = []; }
@@ -873,8 +924,9 @@
       lastLabels.push(row.label);
       tableApps[idx] += row.apps;
       addRow(b, row);
-    });
-    if (!tables || !b.rows) return null;
+    }, opts);
+    if (!scan.tables || !b.rows) return null;
+    var tables = scan.tables;
 
     var matches = 0;
     for (var i = 0; i < tableApps.length; i++) matches = Math.max(matches, tableApps[i]);
@@ -890,13 +942,21 @@
    *
    * candidates: [{ key, name }] - the teams this site knows.
    */
-  function parseTeamsTable(text, candidates) {
+  function parseTeamsTable(text, candidates, opts) {
     if (!text || typeof text !== 'string') return null;
     if (!candidates || !candidates.length) return null;
 
     var buckets = {}, names = {}, unmatched = [];
-    var tables = eachTableRow(text, function (row) {
+    var scan = eachTableRow(text, function (row) {
+      /* League tables number their rows, so the label arrives as
+         "1 Manchester City". Try the label as it stands first - a club can
+         genuinely begin with a number, like 1860 Munich - and only then
+         with a leading rank taken off. */
       var hit = matchTeamName(row.label, candidates);
+      if (!hit) {
+        var noRank = row.label.replace(/^\s*\d{1,3}[.)]?\s+/, '').trim();
+        if (noRank && noRank !== row.label) hit = matchTeamName(noRank, candidates);
+      }
       if (!hit) {
         if (unmatched.indexOf(row.label) === -1) unmatched.push(row.label);
         return;
@@ -905,16 +965,22 @@
       var b = buckets[hit.key];
       b.matches = Math.max(b.matches, row.apps);
       addRow(b, row);
-    });
+    }, opts);
 
     var keys = Object.keys(buckets);
-    if (!tables || !keys.length) return null;
+    /* A table this reader understands but cannot weight: say so, so the
+       page can ask for the match count instead of falling through to the
+       single-team reader and reporting nothing found. */
+    if (!keys.length) {
+      return scan.needMatches ? { needsMatches: true, teams: [], unmatched: unmatched } : null;
+    }
 
     return {
       teams: keys.map(function (k) {
-        return { key: k, name: names[k], stats: finishBucket(buckets[k], buckets[k].matches, tables) };
+        return { key: k, name: names[k], stats: finishBucket(buckets[k], buckets[k].matches, scan.tables) };
       }),
-      tables: tables,
+      tables: scan.tables,
+      needsMatches: false,
       unmatched: unmatched
     };
   }
@@ -934,7 +1000,7 @@
        all through grabStat, so try it by column first. Its own match count
        comes from the Apps column, which is why it runs before the fallback
        below asks the caller for one. */
-    var asTable = parseStatsTable(t);
+    var asTable = parseStatsTable(t, opts);
     if (asTable) return asTable;
 
     var matches = grabStat(t, ['Matches played', 'Matches played', 'Matches contested']);

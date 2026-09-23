@@ -20,6 +20,14 @@ on:
     # :26/:56, so the five schedules here never queue behind each other.
     - cron: "03,33 * * * *"
 
+    # Measured after the fact: this schedule has never started a single
+    # run. Not on 03,13,23,33,43,53, not on 03,33 - zero, while four other
+    # schedules on this same repository were firing every four hours or so
+    # the whole time. It is kept because it costs nothing and may yet
+    # start, but it is NOT what refreshes this feed. Those four workflows
+    # each dispatch this one when they finish, which is what actually
+    # brings the news in - see the last step of update-news.yml.
+
   # Kept for the day an exact clock matters: an outside pinger can POST to
   # the repository_dispatch API and start a run immediately rather than wait
   # on GitHub's scheduler. It needs a token, which is why it is not in use -
