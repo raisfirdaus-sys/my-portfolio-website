@@ -293,7 +293,7 @@
         'background:var(--surface-3);border-left:4px solid var(--critical)';
       warnThin.innerHTML = '<strong>The positive EV above cannot be trusted yet.</strong> ' +
         (thinLegs.length
-          ? 'Ada <strong>' + thinLegs.length + ' teams</strong> on this ticket whose data covers ' +
+          ? '<strong>' + thinLegs.length + ' teams</strong> on this ticket whose data covers ' +
             '<strong>fewer than 4 matches</strong> (' +
             thinLegs.slice(0, 4).map(function (k) { return team(k).name; }).join(', ') +
             (thinLegs.length > 4 ? ', &hellip;' : '') + '). '
@@ -472,7 +472,7 @@
     }
 
     var head = el('div', 'board-head');
-    head.innerHTML = '<span>Waktu</span><span>Pertandingan</span>' +
+    head.innerHTML = '<span>Time</span><span>Match</span>' +
       '<span class="num">Handicap</span><span class="num">Atas / Bawah</span>' +
       '<span class="num">1 &middot; X &middot; 2</span><span>Model pick</span>';
     host.appendChild(head);
@@ -985,13 +985,13 @@
         '</span>, implied by the price <span class="fig">' +
         (a.lambdas.impliedHome != null ? a.lambdas.impliedHome.toFixed(2) : '--') + ' &ndash; ' +
         (a.lambdas.impliedAway != null ? a.lambdas.impliedAway.toFixed(2) : '--') +
-        '</span>, selisih <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') + '</span>.';
+        '</span>, a gap of <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') + '</span>.';
     } else {
-      note.innerHTML = 'Model murni: <span class="fig">' + a.lambdas.rawHome.toFixed(2) + ' &ndash; ' +
+      note.innerHTML = 'Pure model: <span class="fig">' + a.lambdas.rawHome.toFixed(2) + ' &ndash; ' +
         a.lambdas.rawAway.toFixed(2) + '</span>. Implied by the price: <span class="fig">' +
         (a.lambdas.impliedHome != null ? a.lambdas.impliedHome.toFixed(2) : '--') + ' &ndash; ' +
         (a.lambdas.impliedAway != null ? a.lambdas.impliedAway.toFixed(2) : '--') +
-        '</span>. Selisih <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') +
+        '</span>. Gap <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') +
         '</span>' + (a.divergence > 0.25
           ? ' &mdash; too far. Above 25% it is usually the inputs that are wrong rather than the bookmaker, so no row is promoted to the main pick.'
           : '.');
@@ -1115,9 +1115,11 @@
     slider.value = String(Math.round(t * 100));
 
     var side = t > 0 ? a.home.name : a.away.name;
+    /* textContent, not innerHTML - so an HTML entity here would be drawn
+       literally, as "neutral &mdash; follow the bookmaker" was. */
     out.textContent = t === 0
-      ? 'neutral &mdash; follow the bookmaker'
-      : (t > 0 ? '+' : '') + (t * 100).toFixed(0) + '%  condong ke ' + side;
+      ? 'neutral \u2014 follow the bookmaker'
+      : (t > 0 ? '+' : '') + (t * 100).toFixed(0) + '%  leaning to ' + side;
 
     /* market view versus the view after the adjustment, side by side */
     var base = E.analyseFixture(a.fixture, teamsView(), DATA.leagues,
@@ -1205,7 +1207,7 @@
       out.innerHTML = '<div class="notice bad"><h3>No team could be read from this page</h3>' +
         '<p>What you pasted is not JSON, so it was read as a statistics page &mdash; ' +
         'but it holds no team name this site recognises. Make sure the whole page was copied ' +
-        '(Ctrl+A lalu Ctrl+C), termasuk judul di bagian atas.</p></div>';
+        '(Ctrl+A then Ctrl+C), including the heading at the top.</p></div>';
       return;
     }
     var known = (STATE.overrides[key] && STATE.overrides[key].matches) ||
@@ -1634,8 +1636,8 @@
       return;
     }
     var rows = [
-      ['Dixon-Coles (model utama)', c.dc, 'From the scoreline matrix: it accounts for how many goals, so it can price handicaps and totals.'],
-      ['Bradley-Terry (pembanding)', c.bt, 'S_home / (S_home + S_away), the formula from the Smartodds note. It speaks only to who wins.'],
+      ['Dixon-Coles (main model)', c.dc, 'From the scoreline matrix: it accounts for how many goals, so it can price handicaps and totals.'],
+      ['Bradley-Terry (cross-check)', c.bt, 'S_home / (S_home + S_away), the formula from the Smartodds note. It speaks only to who wins.'],
       ['Market, margin removed', c.market, 'De-vigged 1X2 prices, normalised to win/lose outcomes only.']
     ];
     var t = el('table', 'mb');
@@ -1660,11 +1662,11 @@
       ? 'The two disagree on direction. When that happens, any edge on show is more likely a model error than a bookmaker error. Confidence is cut.'
       : 'This fixture has no complete 1X2 price on the board, so there is no market benchmark to compare against.';
     verdict.innerHTML = '<h3>' + head + '</h3><p>' + body + '</p>' +
-      '<p>Selisih antar model: <span class="fig">' + (c.spread * 100).toFixed(1) + ' poin persen</span>. ' +
-      'Kekuatan terkalibrasi: ' + a.home.name + ' <span class="fig">' + c.strengthHome.toFixed(1) +
+      '<p>Gap between the models: <span class="fig">' + (c.spread * 100).toFixed(1) + ' percentage points</span>. ' +
+      'Calibrated strength: ' + a.home.name + ' <span class="fig">' + c.strengthHome.toFixed(1) +
       '</span>, ' + a.away.name + ' <span class="fig">' + c.strengthAway.toFixed(1) + '</span> ' +
       '(rating mentah ' + c.ratingHome.toFixed(1) + ' / ' + c.ratingAway.toFixed(1) +
-      ', offset terpasang ' + c.offset.toFixed(1) + ').</p>';
+      ', fitted offset ' + c.offset.toFixed(1) + ').</p>';
     if (c.advisoryOnly) {
       verdict.innerHTML += '<p><strong>Shown for information; it does not move confidence.</strong> This offset was ' +
         'fitted from ' + (CALIB ? CALIB.n : 0) + ' fixtures' +
@@ -1677,7 +1679,7 @@
 
     var note = el('p', 'stat-note');
     note.innerHTML = '<strong>About the offset:</strong> in a ratio model the zero point of the rating scale ' +
-      'menentukan seberapa lebar sebaran probabilitas. Catatan Smartodds memakai ' +
+      'sets how wide the spread of probabilities is. The Smartodds note uses ' +
       '<code>S = R &minus; 1350</code> on FIFA points, because without that subtraction ' +
       '<code>1850/(1850+1600) = 0.54</code> &mdash; every match looks level. This tool does not guess ' +
       'that offset: it is fitted by least squares to de-vigged market prices.';
@@ -1722,7 +1724,7 @@
           bindTip(rect, function () {
             return '<div class="t-title">' + hg2 + ' &ndash; ' + ag2 + '</div>' +
               '<div class="t-row">' + pct(p2, 2) + '</div>' +
-              '<div class="t-row">1 in ' + Math.round(1 / p2) + ' pertandingan</div>';
+              '<div class="t-row">1 in ' + Math.round(1 / p2) + ' matches</div>';
           });
         })(hg, ag, p);
         svg.appendChild(rect);
@@ -1833,7 +1835,7 @@
       '<th style="text-align:right" title="Chance of any outcome that is not a loss, including pushes and half-wins">Model prob.</th>' +
       '<th style="text-align:right" title="Chance this leg pays FULL ODDS. Pushes count as nothing, half-wins count as half. THIS is what parlay legs are chosen on.">Full payout</th>' +
       '<th style="text-align:right">Vig</th>' +
-      '<th style="text-align:right">EV</th><th>Keyakinan</th><th>Mix</th>' +
+      '<th style="text-align:right">EV</th><th>Confidence</th><th>Mix</th>' +
       '<th style="text-align:right">Kelly/4</th><th></th></tr></thead>';
     var body = el('tbody');
     var top = a.best;
@@ -1942,7 +1944,7 @@
 
       var cmix = el('td');
       var ok = E.mixParlayEligible(p);
-      cmix.innerHTML = ok ? '<span style="color:var(--good);font-weight:700">ada</span>'
+      cmix.innerHTML = ok ? '<span style="color:var(--good);font-weight:700">yes</span>'
                           : '<span style="color:var(--critical)" title="Odds below 1.50 are usually removed from the Mix Parlay menu">removed</span>';
       tr.appendChild(cmix);
 
@@ -2641,7 +2643,7 @@
       var box = el('div', 'notice');
       box.style.marginTop = '13px';
       box.innerHTML = '<h3>The arithmetic of multiplying &mdash; the method from the Smartodds note you sent</h3>' +
-        '<p>Rata-rata probabilitas per leg: <span class="fig">' + pct(ca.avgLegProb, 1) + '</span>. ' +
+        '<p>Average probability per leg: <span class="fig">' + pct(ca.avgLegProb, 1) + '</span>. ' +
         'Chance the whole ticket lands: <span class="fig">' + pct(ca.pOptimal, 3) +
         '</span> = 1 in <span class="fig">' + Math.round(ca.oneIn).toLocaleString('en-US') + '</span>.</p>' +
         '<p>If the legs were picked at random (50% each): <span class="fig">' + pct(ca.pRandom, 3) +
@@ -2658,7 +2660,7 @@
         (ca.legsForOneIn20
           ? '<p><strong>The most useful number here:</strong> at this leg quality, a ticket still ' +
             'has better than a 1-in-20 chance up to <span class="fig">' + ca.legsForOneIn20 +
-            ' leg</span>. Tiket ' + ca.legs + '-leg ticket sits at 1-in-' +
+            ' legs</span>. A ' + ca.legs + '-leg ticket sits at 1-in-' +
             Math.round(ca.oneIn).toLocaleString('en-US') + '.</p>'
           : '');
       ladder.appendChild(box);
@@ -2683,7 +2685,7 @@
     var box = $('slip-table'); box.innerHTML = '';
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr><th>#</th><th>Fixture</th><th>Selection</th>' +
-      '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
+      '<th style="text-align:right">Odds</th><th>Score</th><th>Result</th>' +
       '<th style="text-align:right">Pengali leg</th><th style="text-align:right">Pengali berjalan</th></tr></thead>';
     var bd = el('tbody');
     var run = 1;
@@ -2711,8 +2713,8 @@
       '<p>Odds tercetak <span class="fig">' + vs.ticketOdds + '</span>, seharusnya bayar bruto ' +
       '<span class="fig">' + rupiah(vs.ticketOdds * vs.stake) + '</span> of a stake of ' +
       rupiah(vs.stake) + '.</p>' +
-      '<p>Hasil sebenarnya: <span class="fig">' + mult.toFixed(4) + 'x</span> = bruto ' +
-      '<span class="fig">' + rupiah(gross) + '</span>, laba bersih <span class="fig">' +
+      '<p>Actual result: <span class="fig">' + mult.toFixed(4) + 'x</span> = gross ' +
+      '<span class="fig">' + rupiah(gross) + '</span>, net profit <span class="fig">' +
       rupiah(net) + '</span> &mdash; the same as the Win/Lose column on your slip (' +
       rupiah(vs.payout) + ').</p>' +
       '<p>So you received <span class="fig">' + pct(gross / (vs.ticketOdds * vs.stake), 1) +
@@ -2782,15 +2784,15 @@
           : 'This is NOT evidence. ' + rep.n + ' legs is far too few &mdash; it takes 50 or more before this number means anything.') +
         '</strong> And there is a second, more serious problem: the coupons in this ledger were chosen ' +
         'by their results. One coupon won, one lost. The legs on the winning coupon ' +
-        'otomatis hampir semuanya mendarat, jadi kolom "kenyataan" di tabel bawah pasti ' +
+        'almost all landed by definition, so the "reality" column in the table below must ' +
         'read higher than the "claimed" column. That is selection bias, not a good model. ' +
         'For the number to be honest, coupons must be recorded BEFORE the matches, win or lose.</p>';
       sum.appendChild(box);
 
       var tb = el('table', 'mb');
       var html = '<thead><tr><th>Bucket probabilitas</th><th style="text-align:right">Leg</th>' +
-        '<th style="text-align:right">Rata-rata klaim model</th>' +
-        '<th style="text-align:right">Rata-rata kenyataan</th><th>Selisih</th></tr></thead><tbody>';
+        '<th style="text-align:right">Average model claim</th>' +
+        '<th style="text-align:right">Average reality</th><th>Gap</th></tr></thead><tbody>';
       rep.buckets.forEach(function (b) {
         if (!b.n) return;
         var diff = b.meanActual - b.meanP;
@@ -2816,13 +2818,13 @@
       head.innerHTML = g.coupon.label +
         '<span class="sub">' + g.wins + ' won, ' + g.halves + ' half, ' +
         (pushes ? pushes + ' pushed, ' : '') + g.losses + ' lost' +
-        (g.grossMultiple != null ? ' \u00b7 pengali tiket ' + g.grossMultiple.toFixed(4) + 'x' : '') +
+        (g.grossMultiple != null ? ' \u00b7 ticket multiplier ' + g.grossMultiple.toFixed(4) + 'x' : '') +
         (g.brier != null ? ' \u00b7 Brier ' + g.brier.toFixed(4) : '') + '</span>';
       panel.appendChild(head);
 
       var tb = el('table', 'mb');
       var html = '<thead><tr><th style="width:26px">#</th><th>Fixture</th><th>Selection</th>' +
-        '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
+        '<th style="text-align:right">Odds</th><th>Score</th><th>Result</th>' +
         '<th style="text-align:right">Prob. model</th><th style="text-align:right">EV model</th>' +
         '<th>Vonis model</th></tr></thead><tbody>';
       var pending = g.coupon.status === 'pending';
@@ -2921,9 +2923,9 @@
         '<span class="sub">The offered prices cannot be recovered, so the odds column is the MODEL FAIR ODDS</span>';
       ap.appendChild(ah2);
       var tb2 = el('table', 'mb');
-      var h2 = '<thead><tr><th>Pertandingan</th><th>Alternatif</th><th>Skor</th><th>Hasil</th>' +
+      var h2 = '<thead><tr><th>Match</th><th>Alternative</th><th>Score</th><th>Result</th>' +
         '<th style="text-align:right">Prob. model</th><th style="text-align:right">Odds adil model</th>' +
-        '<th>Catatan</th></tr></thead><tbody>';
+        '<th>Note</th></tr></thead><tbody>';
       alts.forEach(function (alt) {
         var a = byId[alt.fixtureId];
         var pm = null, fair = null;
@@ -2982,20 +2984,20 @@
       ['3. Finishing &amp; big chances missed',
        'Goals over xG, regressed with a 38-match prior: finishing ability barely ' +
        'persists from season to season, so do not trust it. Big chances missed above ' +
-       'normal liga dikenai denda kecil.'],
-      ['4. xA sebagai ukuran keterulangan',
+       'the league norm carry a small penalty.'],
+      ['4. xA as a measure of repeatability',
        'xA close to xG means chances are born from open-play structure rather than set pieces or ' +
        'rebounds. Only 25% of this signal moves the mean; the rest widens the uncertainty, ' +
        'because xA tells you how <em>repeatable</em> those chances are, not how many there were.'],
-      ['5. Tekel &amp; pelanggaran',
-       'Tekel di atas rata-rata menekan xG lawan; pelanggaran menambah bahaya bola mati. ' +
+      ['5. Tackles &amp; fouls',
+       'Tackles above average suppress the opponent\u2019s xG; fouls add set-piece danger. ' +
        'Both are capped at &plusmn;12% in total. The classic error is over-weighting these ' +
        'because they are easy to collect &mdash; next to xG, both are weak predictors.'],
       ['6. Yellows, reds and discipline',
        'Red-card risk is estimated from fouls, yellows and red-card history. ' +
        'A red card falls around the 65th minute on average, so its effect is weighted by the time left: ' +
        'the team own expected goals fall and the opponent rise.'],
-      ['7. Matriks skor Dixon-Coles',
+      ['7. Dixon-Coles scoreline matrix',
        'A bivariate Poisson with the <code>&tau;(&rho;)</code> correction for low scores, because independent Poisson ' +
        'predicts 0-0 and 1-1 too rarely. The first half is fitted directly from ' +
        'first-half prices when they exist, rather than simply scaling full time.'],
@@ -3003,7 +3005,7 @@
        'The closing price is the strongest football predictor there is. A model that disagrees ' +
        'with the market by 40% is almost always wrong about its own inputs rather than right about the ' +
        'market. So the model &lambda; is shifted toward the &lambda; implied by the price; the slider in the Match ' +
-       'Pertandingan mengatur seberapa jauh. Selisih di atas 25% otomatis menggugurkan status ' +
+       'Centre sets how far. A gap above 25% automatically forfeits ' +
        'main pick and the row is marked SUSPECT.'],
       ['9. Asian line settlement',
        'One function handles every line type: a quarter line splits across its two neighbours and is ' +
@@ -3291,7 +3293,7 @@
       document.querySelector('.wrap').innerHTML =
         '<div class="notice bad"><h3>Gagal memuat data</h3><p>' + err.message +
         '</p><p>If the file is opened directly over <code>file://</code>, the browser blocks ' +
-        'pembacaan JSON. Jalankan server lokal: <code>python3 -m http.server</code> lalu buka ' +
+        'reading JSON. Run a local server: <code>python3 -m http.server</code> then open ' +
         '<code>http://localhost:8000/moneyball.html</code>.</p></div>';
     });
 })();

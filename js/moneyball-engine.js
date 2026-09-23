@@ -752,6 +752,16 @@
 
   function isNumberCell(s) { return /^[+-]?\d+(?:[.,]\d+)?$/.test(String(s).trim()); }
 
+  /* A competition a team has played but that carries no figures yet prints
+     as "N/A" or a dash. Manchester City's xG tab lists FA Cup 6 and
+     Community Shield 1 that way, between competitions that do have
+     numbers. Treating those cells as the end of the table lost every row
+     below them - which is why City's paste read nothing while Liverpool's,
+     whose empty rows happened to sit last, read fine. */
+  function isBlankCell(s) {
+    return /^(n\/?a|-|\u2013|\u2014|\u2212|\.|)$/i.test(String(s).trim());
+  }
+
   /**
    * Read every header-and-rows table in a pasted page.
    * Returns null when the text holds no table this knows how to read.
@@ -811,11 +821,27 @@
         var parts = row.split(/\s{2,}|\t|\s/).filter(Boolean);
         if (parts.length < want + 1) break;
 
-        /* Count the numbers at the end of the row; whatever comes before
-           them is the label. */
+        /* Count the value cells at the end of the row - numbers, or the
+           markers a competition without figures prints instead. Whatever
+           comes before them is the label. */
         var tail = 0;
-        while (tail < parts.length - 1 && isNumberCell(parts[parts.length - 1 - tail])) tail++;
-        if (tail < want) break;
+        while (tail < parts.length - 1 &&
+               (isNumberCell(parts[parts.length - 1 - tail]) ||
+                isBlankCell(parts[parts.length - 1 - tail]))) tail++;
+
+        /* A row of markers is often short too, because a dash in the last
+           column may not survive the copy at all. Skip it and keep going:
+           the rows underneath are the ones being looked for. */
+        if (tail < want) {
+          /* Short because its empty cells did not all survive the copy.
+             A row carrying both a marker and a figure - "FA Cup 6 N/A N/A
+             N/A N/A -" - is a competition played but not yet measured, so
+             step over it. Prose has no markers and ends the table. */
+          var hasMarker = parts.some(isBlankCell);
+          var hasNumber = parts.some(isNumberCell);
+          if (hasMarker && hasNumber) continue;
+          break;
+        }
 
         /* One number too many is the Discipline cell arriving as two:
            WhoScored draws the cards as a yellow box and a red box, and a
@@ -840,6 +866,7 @@
 
         var rowApps = null, values = [];
         for (var k = 0, off = 0; k < nums.length; k++) {
+          if (isBlankCell(nums[k])) continue;      // no figure in this cell
           var col = k - off + firstData, f = map[col];
           if (splitCards === k - off && f === 'discipline') {
             /* Two cells for one column: yellow, then red. */
@@ -858,6 +885,10 @@
         }
         if (!rowApps && fallbackApps) rowApps = fallbackApps;
         if (!rowApps || rowApps < 1) break;      // a row that cannot be weighted
+
+        /* A competition played but not yet measured contributes nothing,
+           and must not inflate the match count it would be divided by. */
+        if (!values.length) { rowsHere++; continue; }
 
         rowsHere++;
         onRow({ label: label, apps: rowApps, values: values });

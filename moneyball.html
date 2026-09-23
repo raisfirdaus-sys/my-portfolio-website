@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<meta name="build" content="699d900-103538" />
-<link rel="stylesheet" href="css/moneyball.css?v=699d900-103538" />
+<meta name="build" content="62dd578-104113" />
+<link rel="stylesheet" href="css/moneyball.css?v=62dd578-104113" />
 </head>
 <body>
 
@@ -81,7 +81,7 @@
             </label>
             <input id="tilt" type="range" min="-25" max="25" step="1" value="0" />
             <span id="tilt-val" style="font-family:var(--mono);font-size:12px;min-width:210px"></span>
-            <button class="btn ghost btn-sm" id="tilt-reset" type="button">Nol</button>
+            <button class="btn ghost btn-sm" id="tilt-reset" type="button">Zero</button>
           </div>
           <p class="stat-note" id="tilt-note"></p>
 
@@ -121,7 +121,7 @@
               <div class="chart-wrap" id="mc-heat"></div>
             </div>
             <div>
-              <h4 style="font-size:12px;margin-bottom:8px;color:var(--text-secondary)">Probabilitas total gol</h4>
+              <h4 style="font-size:12px;margin-bottom:8px;color:var(--text-secondary)">Total-goals probability</h4>
               <div class="chart-wrap" id="mc-totals"></div>
             </div>
           </div>
@@ -191,8 +191,8 @@
           <label for="p-kinds">Markets</label>
           <select id="p-kinds">
             <option value="ah,ou">Handicap + O/U</option>
-            <option value="ah">Handicap saja</option>
-            <option value="ou">Over/Under saja</option>
+            <option value="ah">Handicap only</option>
+            <option value="ou">Over/Under only</option>
             <option value="ah,ou,x12">Tambah 1X2 (vig tinggi)</option>
           </select>
         </div>
@@ -244,7 +244,7 @@
 
 <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
 
-<script src="js/moneyball-engine.js?v=699d900-103538"></script>
-<script src="js/moneyball-app.js?v=699d900-103538"></script>
+<script src="js/moneyball-engine.js?v=62dd578-104113"></script>
+<script src="js/moneyball-app.js?v=62dd578-104113"></script>
 </body>
 </html>
