@@ -43,10 +43,34 @@
   var K = {
     MATRIX: 11,              // scorelines 0..10 per side
     RATING_PRIOR: 4.0,       // matches of prior for attack/defence shrinkage
+    /* A club league is a round robin: by the end everyone has played
+       everyone, so one club's xG per match can be compared with another's
+       directly. National teams never have that. Their totals come from
+       qualifying groups drawn against completely different opposition, so
+       Spain's 2.55 and England's 2.05 are not two measurements of the same
+       thing - most of the gap is who each of them happened to be drawn
+       against. Feeding that difference in raw made the model insist Spain
+       were far stronger than the market had them, and the whole board fell
+       silent behind the divergence guard. The number is still evidence,
+       just much weaker evidence, so it is held to a far heavier prior. */
+    NATIONAL_RATING_PRIOR: 14.0,
     /* What a rating is worth when xG conceded had to be assumed league
        average rather than measured - half the rating is then an
        assumption, so it counts for a little over half as much. */
     ASSUMED_DEF_WEIGHT: 0.6,
+    /* Below this the model is left alone; above DIV_CAP it is not used at
+       all. In between the market anchor is raised in proportion. */
+    DIV_FREE: 0.15,
+    DIV_CAP: 0.70,
+    /* The same idea measured against the fit's own accuracy: a residual up
+       to RESID_FREE typical errors is ordinary disagreement, and one at
+       RESID_CAP is the model out of its depth. */
+    RESID_FREE: 1.5,
+    RESID_CAP: 3.0,
+    /* How closely the fitted line has to track the prices before the model
+       is allowed its full configured say. In goals of supremacy. */
+    FIT_FREE: 0.20,
+    FIT_CAP: 0.60,
     FINISH_PRIOR: 38,        // matches of prior for finishing regression
     VOLUME_EXP: 0.35,        // diminishing return on shot volume
     BIGMISS_PENALTY: 0.018,  // per big miss above league norm
@@ -79,9 +103,8 @@
        produces absurd lambdas (Milan 3.00 vs Lecce 0.48). Regress each rating
        toward the league mean of 1 with a 4-match prior: strength stabilises
        faster than finishing, so the prior is much lighter than FINISH_PRIOR. */
-    var wRating = n / (n + K.RATING_PRIOR);
-    var atk = 1 + (safeDiv(t.xgF, L, 1) - 1) * wRating;
-    var def = 1 + (safeDiv(t.xgA, L, 1) - 1) * wRating;
+    var prior = t.national ? K.NATIONAL_RATING_PRIOR : K.RATING_PRIOR;
+    var wRating = n / (n + prior);
 
     /* WhoScored publishes xG created and nothing at all about xG conceded:
        not on Summary, not on Defensive, not on Offensive, not on its xG
@@ -97,12 +120,26 @@
     var defAssumed = t.xgA == null;
     var ratingWeight = wRating * (defAssumed ? K.ASSUMED_DEF_WEIGHT : 1);
 
+    /* This is the weight the paragraph above describes, and until now it was
+       worked out, printed beside the team, and then not used: atk and def
+       were shrunk by the full wRating, so a rating half built on an
+       assumption counted for exactly as much as a measured one. It is
+       applied here, where it was always meant to be. */
+    var atk = 1 + (safeDiv(t.xgF, L, 1) - 1) * ratingWeight;
+    var def = 1 + (safeDiv(t.xgA, L, 1) - 1) * ratingWeight;
+
     /* --- shot profile --------------------------------------------------- */
     var xgPerShot = safeDiv(t.xgF, t.shots, 0.105);
     var volume = Math.pow(clamp(safeDiv(t.shots, K.LEAGUE_SHOTS, 1), 0.5, 1.8), K.VOLUME_EXP);
     // A team with many low-value shots is flattered by volume alone.
     var quality = clamp(xgPerShot / 0.105, 0.72, 1.35);
-    var shotFusion = Math.pow(volume * Math.pow(quality, 0.65), 0.5);
+    /* Shot volume and shot quality come out of exactly the same matches as
+       the xG rating does, so they deserve exactly the same discount for how
+       few those matches are and for how unbalanced the schedule behind them
+       was. Leaving this term at full strength meant a national team's
+       figures were held to a heavy prior in one breath and taken at face
+       value in the next. */
+    var shotFusion = 1 + (Math.pow(volume * Math.pow(quality, 0.65), 0.5) - 1) * ratingWeight;
 
     /* --- finishing, regressed hard toward the mean ---------------------- */
     var finishing = safeDiv(t.goals, t.xgF, 1);
@@ -246,6 +283,35 @@
       if (net > 0) w += p * net; else if (net < 0) l += p * (-net);
     }
     return { dist: dist, w: w, l: l };
+  }
+
+  /**
+   * Shift a settled bet's winning mass without touching its push mass.
+   *
+   * A correction to a probability must not quietly change how often the bet
+   * is a push: a push pays 1.0x and is the single biggest thing separating a
+   * quarter line from a half line, so moving it would rewrite the parlay
+   * arithmetic the page is built on. Only the win/lose split moves.
+   */
+  function rescaleBet(bet, upWin, upLose) {
+    var d = bet.dist;
+    var out = {
+      win: d.win * upWin, halfWin: d.halfWin * upWin,
+      push: d.push,
+      halfLose: d.halfLose * upLose, lose: d.lose * upLose
+    };
+    /* Renormalise the moved mass back onto the share that was not push, so
+       the five buckets still sum to one. */
+    var live = 1 - d.push, moved = out.win + out.halfWin + out.halfLose + out.lose;
+    if (moved > 1e-12 && live > 1e-12) {
+      var k = live / moved;
+      out.win *= k; out.halfWin *= k; out.halfLose *= k; out.lose *= k;
+    }
+    return {
+      dist: out,
+      w: out.win + 0.5 * out.halfWin,
+      l: out.lose + 0.5 * out.halfLose
+    };
   }
 
   /* =========================================== 9. VALUE & CONFIDENCE ==== */
@@ -1275,17 +1341,105 @@
        say so, rather than inventing an edge out of placeholder numbers. */
     var statsMissing = !!(home.statsMissing || away.statsMissing);
     if (statsMissing) mw = 1;
-    var implied = impliedLambdas(fx, league, { home: lam.home, away: lam.away });
-    var rawH = lam.home, rawA = lam.away, lamH = rawH, lamA = rawA;
-    var divergence = null;
-    if (implied && mw > 0) {
-      lamH = rawH * (1 - mw) + implied.home * mw;
-      lamA = rawA * (1 - mw) + implied.away * mw;
+    /* Put the model into the market's units before anything is judged - the
+       goal level, then the supremacy scale. See calibrateShape for why both
+       were wrong and why neither is a view about this match. With no board
+       to fit against, the scale is 1 and the line is the identity, so
+       nothing happens at all. */
+    var shape = opts.shape || null;
+    var totalScale = (shape && typeof shape.scaleFor === 'function') ? shape.scaleFor(fx.league) : 1;
+    if (!(totalScale > 0)) totalScale = 1;
+
+    var rawH = lam.home * totalScale, rawA = lam.away * totalScale;
+
+    var supRaw = rawH - rawA, supAdj = supRaw;
+    if (shape && shape.slopeFitted) {
+      var total = rawH + rawA;
+      supAdj = shape.alpha + shape.beta * supRaw;
+      /* Stretching supremacy must not eat the whole match: one side always
+         keeps a lambda it could score from. */
+      supAdj = clamp(supAdj, -(total - 0.24), total - 0.24);
+      rawH = (total + supAdj) / 2;
+      rawA = (total - supAdj) / 2;
     }
+
+    var implied = impliedLambdas(fx, league, { home: rawH, away: rawA });
+    var lamH = rawH, lamA = rawA;
+
+    /* How far the model has walked away from the price, before any blending.
+       This is the honest measure of disagreement: the blended number cannot
+       disagree with the market by much by construction, so measuring after
+       the blend would always report calm. */
+    var divergence = null;
     if (implied) {
       divergence = (Math.abs(rawH - implied.home) + Math.abs(rawA - implied.away))
                  / Math.max(0.5, implied.home + implied.away);
     }
+
+    /* The old rule was all or nothing: past 25% disagreement no pick was
+       promoted at all. On a national-team board that silenced eleven rows
+       out of twenty - every row saying "too far, nothing selected" - which
+       is not a cautious answer, it is no answer. And it is the wrong shape
+       of answer: disagreement is not a switch, it is a measure of how much
+       the model should be believed.
+
+       So the anchor slides instead. Up to DIV_FREE the model is left as
+       configured; from there it is pulled back toward the price in
+       proportion to how far out it has gone, reaching the market entirely
+       at DIV_CAP. A small, well-supported disagreement still moves the
+       odds - which is the whole point of entering statistics - while a wild
+       one quietly costs itself its own influence. */
+    /* A second reading of the same disagreement, in the units the fit has
+       already earned the right to use. calibrateShape reports the typical
+       distance between its line and the prices across the whole board; a
+       fixture whose distance is several times that is not an edge the model
+       has found, it is the model at the edge of what it can do. San Marino
+       v Finland was exactly this: 2.4 times the board's own error, and a
+       confident +2.50 on the worst team in Europe. */
+    var residZ = null;
+    if (shape && shape.slopeFitted && shape.rmse > 0.05 && implied) {
+      residZ = Math.abs((implied.home - implied.away) - (rawH - rawA)) / shape.rmse;
+    }
+
+    /* How much say the model has earned on THIS board, before any single
+       fixture is looked at. calibrateShape has already measured how far its
+       line typically sits from the prices; a model that tracks them to a
+       tenth of a goal deserves more of a say than one that tracks them to
+       half a goal, and until now both got the same 35%. That is how a
+       fixture came to be quoted at +12% expected value by a model whose own
+       typical error was two thirds of a goal of supremacy.
+
+       It also gives entering more data a point: every column added tightens
+       the fit, and a tighter fit hands the model more of the say. */
+    /* The model has the teams in a different order from the prices: its
+       inputs are wrong, and nothing it says about this board can be
+       trusted. Defer to the prices completely. */
+    if (shape && shape.orderDisagrees) mw = 1;
+
+    var mwRaw = mw;
+    if (mw < 1 && shape && shape.slopeFitted && shape.rmse != null) {
+      var loose = (shape.rmse - K.FIT_FREE) / (K.FIT_CAP - K.FIT_FREE);
+      mw = mw + (1 - mw) * clamp(loose, 0, 1);
+      mwRaw = mw;
+    }
+
+    if (mw < 1) {
+      var over = divergence == null ? 0
+        : (divergence - K.DIV_FREE) / (K.DIV_CAP - K.DIV_FREE);
+      if (residZ != null) {
+        over = Math.max(over, (residZ - K.RESID_FREE) / (K.RESID_CAP - K.RESID_FREE));
+      }
+      mw = mw + (1 - mw) * clamp(over, 0, 1);
+    }
+
+    if (implied && mw > 0) {
+      lamH = rawH * (1 - mw) + implied.home * mw;
+      lamA = rawA * (1 - mw) + implied.away * mw;
+    }
+
+    /* What survives the blend: this is what the priced numbers actually
+       embody, so it is what the confidence gate should judge. */
+    var divergenceEff = divergence == null ? null : divergence * (1 - mw);
 
     /* --- first half ------------------------------------------------------
        Scaling the full-time lambdas by a fixed share is crude: books price
@@ -1317,6 +1471,12 @@
     var mFT = scoreMatrix(lamH, lamA, league.rhoFT);
     var mHT = scoreMatrix(lamH1, lamA1, league.rhoHT);
 
+    /* The same two matrices built from the PRICES alone. They are the
+       reference against which this model's own fitting error is measured -
+       see the correction in pushBet. */
+    var mFTmkt = implied ? scoreMatrix(implied.home, implied.away, league.rhoFT) : null;
+    var mHTmkt = implied1h ? scoreMatrix(implied1h.home, implied1h.away, league.rhoHT) : null;
+
     var matches = Math.min(lam.profiles.home.matches, lam.profiles.away.matches);
     var repeat = (lam.profiles.home.repeatability + lam.profiles.away.repeatability) / 2;
 
@@ -1335,7 +1495,7 @@
 
     var picks = [];
 
-    function pushBet(half, kind, label, line, side, odds, M, counterOdds) {
+    function pushBet(half, kind, label, line, side, odds, M, counterOdds, fairOverride) {
       if (odds == null || !isFinite(odds) || odds <= 1) return;
       var fn;
       if (kind === 'ah') fn = function (i, j) { return settleAH(i, j, line, side); };
@@ -1349,9 +1509,40 @@
         return (side === 'odd') === isOdd ? 1 : -1;
       };
       var bet = evaluateBet(M, fn);
+
+      /* ---- take out this model's own fitting error ---------------------
+         A Poisson matrix cannot match a real Asian board exactly. Fitted to
+         a favourite-heavy market it always leaves the same residual: it
+         gives the plus-handicap side two to three points more than the
+         de-vigged price does, because real football produces more heavy
+         wins than Poisson allows. The size is small; the direction never
+         varies.
+         Left in, that residual IS the edge the page finds. Pinned entirely
+         to the market - the model contributing nothing at all - the board
+         still offered San Marino +2.25, Turkey +1.00, Wales +1.75: over
+         forty runs with the inputs jittered, 61 of 62 picks were the
+         underdog. Not one of them came from the statistics.
+         So it is measured against the prices and subtracted. The model's
+         own movement survives untouched; what cancels is the part that was
+         there before the model said anything. */
+      var Mmkt = half === 'ft' ? mFTmkt : mHTmkt;
+      var pFair = fairOverride != null ? fairOverride
+        : (counterOdds != null && isFinite(counterOdds) && counterOdds > 1
+            ? devig([odds, counterOdds]).probs[0] : null);
+      if (Mmkt && pFair != null) {
+        var betMkt = evaluateBet(Mmkt, fn);
+        var live = bet.w + bet.l, liveMkt = betMkt.w + betMkt.l;
+        if (live > 1e-6 && liveMkt > 1e-6) {
+          var bias = (betMkt.w / liveMkt) - pFair;
+          var pOld = bet.w / live;
+          var pNew = clamp(pOld - bias, 0.005, 0.995);
+          bet = rescaleBet(bet, pNew / pOld, (1 - pNew) / (1 - pOld));
+        }
+      }
+
       var v = value(bet, odds, {
         kind: kind, line: line, matches: matches,
-        repeatability: repeat, half: half, divergence: divergence,
+        repeatability: repeat, half: half, divergence: divergenceEff,
         cross: cross, tilt: tilt
       });
       if (!v) return;
@@ -1412,7 +1603,11 @@
         [['1', mk.x12['1'], home.name + ' Win', 0],
          ['X', mk.x12.X, 'Draw', 1],
          ['2', mk.x12['2'], away.name + ' Win', 2]].forEach(function (row) {
-          pushBet(half, 'x12', tag + row[2], null, row[0], row[1], M);
+          /* A three-way market has no single counter-price, so its fair
+             probability is handed in from the three-way de-vig - otherwise
+             1X2 would be the one market left carrying the fitting error. */
+          pushBet(half, 'x12', tag + row[2], null, row[0], row[1], M, null,
+                  x3 ? x3.probs[row[3]] : null);
           if (x3) {
             var last = picks[picks.length - 1];
             if (last && last.side === row[0] && last.half === half && last.kind === 'x12') {
@@ -1465,8 +1660,17 @@
                  rawHome: rawH, rawAway: rawA,
                  impliedHome: implied ? implied.home : null,
                  impliedAway: implied ? implied.away : null },
-      marketWeight: mw, statsMissing: statsMissing, tilt: tilt,
-      implied: implied, implied1h: implied1h, divergence: divergence,
+      marketWeight: mw, marketWeightBase: mwRaw,
+      shape: { totalScale: totalScale, supremacyBeta: shape && shape.slopeFitted ? shape.beta : 1,
+               supremacyAlpha: shape && shape.slopeFitted ? shape.alpha : 0,
+               fitted: !!(shape && shape.slopeFitted), residZ: residZ,
+               rmse: shape ? shape.rmse : null },
+      statsMissing: statsMissing, tilt: tilt,
+      implied: implied, implied1h: implied1h,
+      /* divergence is the raw disagreement, which is what the reader should
+         be told about; divergenceEff is what is left of it after the anchor
+         slid, which is what the gate judged. */
+      divergence: divergence, divergenceEff: divergenceEff,
       profiles: lam.profiles,
       matrixFT: mFT, matrixHT: mHT,
       outright: outrightProbs(mFT),
@@ -1491,6 +1695,15 @@
         : (picks.filter(function (p) {
              return p.kind !== 'oe' && mixParlayEligible(p);
            })[0] || null),
+      /* The cheapest leg on the fixture, always, whether or not the model
+         found an edge. Once statistics were entered the board ranked by
+         expected value and simply fell silent on every row without one -
+         fifteen rows of twenty blank, which reads as the page having got
+         worse for being given data. The row can say "no edge here, and this
+         is the least expensive thing on it" instead. */
+      bestCheap: picks.slice().sort(function (a, b) {
+        return (b.efficiency || 0) - (a.efficiency || 0);
+      }).filter(function (p) { return p.kind !== 'oe' && mixParlayEligible(p); })[0] || null,
       suspects: picks.filter(function (p) { return p.tier === 'suspect'; }).length,
       dataQuality: matches
     };
@@ -1654,6 +1867,134 @@
    * Only fixtures with real stats on BOTH teams and a usable 1X2 market can
    * contribute - anything else would be fitting the market to itself.
    */
+  /**
+   * Fit the model's UNITS to the market's, once per board.
+   *
+   * Two things were systematically wrong, and neither was a view about any
+   * particular match:
+   *
+   * 1. The goal LEVEL. WhoScored counts shots more generously than the 12.8
+   *    per match this model references, so the volume term lifted every team
+   *    at once: 3.15 model goals against 2.73 in the prices. It showed up as
+   *    an "Over" pick on fifteen national-team rows out of twenty.
+   *
+   * 2. The SUPREMACY scale, which was far worse. WhoScored publishes no xG
+   *    conceded, so every defence is assumed league average and only half of
+   *    each team's strength can be expressed. The model's spread of opinion
+   *    came out at a quarter of the market's - 0.25 goals of standard
+   *    deviation against 0.99 - while still ordering the teams almost
+   *    perfectly (r = 0.93). A model that knows who is better but says it
+   *    four times too quietly backs the underdog in every single mismatch:
+   *    San Marino +2.25, Liechtenstein +1.25, North Macedonia +1.25. That is
+   *    the worst failure a betting page can have, and it is not an opinion,
+   *    it is a missing column.
+   *
+   * So both are fitted against the prices on the board: a level per
+   * competition, and one straight line through model supremacy against
+   * market supremacy. What is fitted is two numbers for the whole board -
+   * the units. What is NOT fitted is any single match: after the line is
+   * applied, each fixture's distance from it is untouched, and that residual
+   * is the model's own judgement, the only thing it ever bets on.
+   *
+   * The honest limit of this: a model calibrated to the board can only ever
+   * say one match is mispriced RELATIVE to the others. It can never say the
+   * whole board is wrong, and it does not try to.
+   */
+  function calibrateShape(fixtures, teams, leagues, opts) {
+    var seen = [];
+    fixtures.forEach(function (fx) {
+      var lg = leagues.filter(function (l) { return l.id === fx.league; })[0];
+      if (!lg) return;
+      var h = teams[fx.home], a = teams[fx.away];
+      if (!h || !a || h.statsMissing || a.statsMissing) return;
+      var lam;
+      try { lam = lambdas(h, a, lg, opts || {}); } catch (err) { return; }
+      var imp = impliedLambdas(fx, lg, { home: lam.home, away: lam.away });
+      if (!imp) return;
+      var m = lam.home + lam.away, k = imp.home + imp.away;
+      if (!(m > 0) || !(k > 0)) return;
+      seen.push({ league: fx.league, lg: lg, fx: fx,
+                  mh: lam.home, ma: lam.away, kh: imp.home, ka: imp.away });
+    });
+
+    var NONE = { scale: 1, byLeague: {}, beta: 1, alpha: 0, n: 0,
+                 reliable: false, slopeFitted: false, r: null, rmse: null,
+                 scaleFor: function () { return 1; } };
+    if (seen.length < 3) return NONE;
+
+    /* --- 1. level, per competition ------------------------------------- */
+    var per = {}, allM = 0, allK = 0;
+    seen.forEach(function (o) {
+      var b = per[o.league] || (per[o.league] = { m: 0, k: 0, n: 0 });
+      b.m += o.mh + o.ma; b.k += o.kh + o.ka; b.n++;
+      allM += o.mh + o.ma; allK += o.kh + o.ka;
+    });
+    var global = clamp(allK / allM, 0.75, 1.33);
+    var byLeague = {};
+    Object.keys(per).forEach(function (id) {
+      /* Three matches is the least that can tell a level from a coincidence;
+         a thinner competition borrows the board's level. */
+      byLeague[id] = per[id].n >= 3 ? clamp(per[id].k / per[id].m, 0.75, 1.33) : global;
+    });
+    function scaleFor(id) { return byLeague[id] != null ? byLeague[id] : global; }
+
+    /* --- 2. supremacy, one line for the whole board --------------------- */
+    var xs = [], ys = [];
+    seen.forEach(function (o) {
+      var sc = scaleFor(o.league);
+      xs.push((o.mh - o.ma) * sc);
+      ys.push(o.kh - o.ka);
+    });
+    var n = xs.length;
+    function mean(v) { var t = 0; for (var i = 0; i < v.length; i++) t += v[i]; return t / v.length; }
+    var mx = mean(xs), my = mean(ys), cov = 0, vx = 0, vy = 0;
+    for (var i = 0; i < n; i++) {
+      cov += (xs[i] - mx) * (ys[i] - my);
+      vx += (xs[i] - mx) * (xs[i] - mx);
+      vy += (ys[i] - my) * (ys[i] - my);
+    }
+    var out = { scale: global, byLeague: byLeague, n: n, reliable: true,
+                beta: 1, alpha: 0, slopeFitted: false, r: null, rmse: null,
+                scaleFor: function (id) { return scaleFor(id); } };
+
+    /* Eight fixtures is the fewest that can place a line rather than trace
+       two points. */
+    if (n < 8 || vx <= 1e-9 || vy <= 1e-9) return out;
+    var r = cov / Math.sqrt(vx * vy);
+    out.r = r;
+
+    /* A board where the model cannot even ORDER the teams the way the prices
+       do is not a board with a weak fit, it is a board with wrong numbers on
+       it - a column read from the wrong table, a paste that landed on the
+       wrong team, figures from a different season. Stretching that would
+       only shout the mistake louder, and leaving it alone was worse still:
+       on a test board whose ratings correlated at -0.35 with the prices, the
+       page offered forty picks out of forty-two at twelve to fourteen per
+       cent expected value. Every one of them was an artefact.
+
+       So this is reported as what it is, and the caller defers to the
+       prices entirely. */
+    if (!(r > 0.5)) { out.orderDisagrees = true; return out; }
+
+    /* The cap is a runaway guard, not a working limit: when it binds, the
+       model has not been put into the market's units at all and the biggest
+       mismatches stay under-read, which shows up as a pick on every long
+       underdog. It is set high enough to be loose in normal use, and
+       whether it bound is reported so the caller can tell. */
+    var betaRaw = cov / vx;
+    var beta = clamp(betaRaw, 1, 8);
+    var alpha = my - beta * mx;
+    var rss = 0;
+    for (var j = 0; j < n; j++) {
+      var e = ys[j] - (alpha + beta * xs[j]);
+      rss += e * e;
+    }
+    out.beta = beta; out.alpha = alpha; out.slopeFitted = true;
+    out.betaRaw = betaRaw; out.betaCapped = betaRaw > 8;
+    out.r = r; out.rmse = Math.sqrt(rss / n);
+    return out;
+  }
+
   function calibrateOffset(fixtures, teams, leagues, hfaLogit) {
     hfaLogit = hfaLogit == null ? 0.22 : hfaLogit;   // home edge on the BT scale
     var obs = [];
@@ -2019,6 +2360,7 @@
     settleFromScore: settleFromScore, gradeCoupon: gradeCoupon,
     calibrationReport: calibrationReport, OUTCOME_VALUE: OUTCOME_VALUE,
     ratingBase: ratingBase, btProb: btProb, calibrateOffset: calibrateOffset,
+    calibrateShape: calibrateShape,
     crossCheck: crossCheck, compoundingArithmetic: compoundingArithmetic,
     MIX_PARLAY_MIN_ODDS: MIX_PARLAY_MIN_ODDS, mixParlayEligible: mixParlayEligible
   };

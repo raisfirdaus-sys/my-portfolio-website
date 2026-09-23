@@ -348,7 +348,11 @@ const xgFonly = {
   [fx16.away]: { matches: 7, xgF: 1.38, goals: 1.58, shots: 13.63, sot: 4, fouls: 11.43, tackles: 16, yellow: 2, red: 0.14 }
 };
 const onlyF = run16(xgFonly);
-eq('xG created alone lets the model in', onlyF.marketWeight, 0.35, 0.001);
+/* Not 0.35 exactly any more: the anchor slides up with disagreement (see
+   section 18), so what matters here is that the model was let in at all
+   rather than pinned to the market the way a fixture with no xG is. */
+eq('xG created alone lets the model in', onlyF.marketWeight < 0.9, true);
+eq('and it is the configured anchor or a little above', onlyF.marketWeight >= 0.35, true);
 eq('and the fixture is no longer statsMissing', onlyF.statsMissing, false);
 
 /* An assumed defence must cost confidence, not be worth as much as a
@@ -444,6 +448,235 @@ const withProse = [
 ].join('\n');
 const pr17 = E.parseTeamStats(withProse, { against: true });
 eq('prose still ends the table', pr17 && pr17.matches, 5);
+
+console.log('\n== 18. fitting the model to the board, not to the seeds ==');
+/* The complaint this section exists for: after every national-team
+   statistic had been entered, the board looked exactly as it had before.
+   Eleven rows of twenty read "model differs by 62% - too far, nothing
+   selected", the parlay builder fell back to ranking by vig, and the picks
+   were the same ones it had made with no data at all.
+   Two things were wrong, and neither was a view about any match. */
+
+/* Plausible WhoScored country figures: competitions summed, xG created
+   only - WhoScored publishes no xG conceded anywhere. */
+const NAT = {
+  netherlands:[2.30,17.1], germany:[2.10,15.8], norway:[2.40,16.0], denmark:[1.55,13.6],
+  portugal:[2.45,17.5], wales:[1.20,11.4], serbia:[1.35,12.8], greece:[1.40,12.2],
+  italy:[1.95,15.4], belgium:[2.25,16.2], turkey:[1.80,14.4], france:[2.35,16.8],
+  czechia:[1.50,13.0], croatia:[1.75,14.1], england:[2.05,15.2], spain:[2.55,18.0],
+  georgia:[1.25,11.8], nireland:[1.10,10.6], hungary:[1.40,12.4], ukraine:[1.45,12.9],
+  poland:[1.70,14.0], bosnia:[1.20,11.2], sweden:[1.85,14.6], romania:[1.15,11.5],
+  austria:[1.90,15.0], israel:[1.30,12.0], kosovo:[1.15,11.0], ireland:[1.05,10.4],
+  slovenia:[1.20,11.6], scotland:[1.35,12.3], nmacedonia:[0.95,9.8], switzerland:[1.95,15.1],
+  sanmarino:[0.25,5.2], finland:[1.40,12.6], bulgaria:[0.85,9.4], luxembourg:[1.00,10.2],
+  andorra:[0.45,6.8], malta:[0.70,8.6], liechtenstein:[0.30,5.6], lithuania:[0.90,9.6]
+};
+const natTeams = JSON.parse(JSON.stringify(D.teams));
+Object.keys(NAT).forEach(function (k) {
+  if (!natTeams[k]) return;
+  natTeams[k] = Object.assign({}, natTeams[k], {
+    matches: 8, xgF: NAT[k][0], shots: NAT[k][1], goals: NAT[k][0] * 0.95,
+    sot: NAT[k][1] * 0.35, statsMissing: false, measured: true
+  });
+});
+const natFx = D.fixtures.filter(function (f) { return f.slate === 4; });
+
+/* Nothing entered: nothing to fit, so the fit must be the identity. */
+const emptyShape = E.calibrateShape(natFx, D.teams, D.leagues, {});
+eq('no statistics entered: no level correction', emptyShape.scaleFor('unl-a'), 1);
+eq('no statistics entered: no supremacy stretch', emptyShape.slopeFitted, false);
+
+const shape = E.calibrateShape(natFx, natTeams, D.leagues, {});
+eq('a filled board fits a level', shape.reliable, true);
+
+/* 1. The goal LEVEL. WhoScored counts shots generously, so every team was
+      lifted at once and the board filled with "Over" picks. */
+function totals(teams, sh) {
+  let model = 0, market = 0, n = 0, over = 0, picks = 0, homeSide = 0, awaySide = 0;
+  natFx.forEach(function (f) {
+    const a = E.analyseFixture(f, teams, D.leagues, { marketWeight: 0.35, shape: sh, tilt: 0 });
+    const L = a.lambdas;
+    if (L.impliedHome == null) return;
+    model += L.rawHome + L.rawAway; market += L.impliedHome + L.impliedAway; n++;
+    if (!a.best) return;
+    picks++;
+    if (/^over/i.test(a.best.label)) over++;
+    /* Which side of the price the pick sits on: the favourite is the team
+       the market makes stronger. */
+    const favHome = L.impliedHome > L.impliedAway;
+    const onHome = a.best.label.indexOf(a.home.name) === 0;
+    const onAway = a.best.label.indexOf(a.away.name) === 0;
+    if (onHome) (favHome ? homeSide++ : awaySide++);
+    else if (onAway) (favHome ? awaySide++ : homeSide++);
+  });
+  return { model: model / n, market: market / n, over: over, picks: picks,
+           onFavourite: homeSide, onUnderdog: awaySide };
+}
+const unfitted = totals(natTeams, null);
+const fitted = totals(natTeams, shape);
+eq('unfitted, the model holds far more goals than the prices do',
+   unfitted.model - unfitted.market > 0.30, true);
+eq('fitted, the goal level matches the board',
+   Math.abs(fitted.model - fitted.market) < 0.20, true);
+eq('and "Over" stops being most of the board',
+   fitted.over <= Math.max(1, Math.floor(fitted.picks / 2)), true);
+
+/* 2. The SUPREMACY scale, which was the dangerous one. With no xG conceded
+      anywhere, only half of each team's strength can be expressed, so the
+      model's spread of opinion came out four times too narrow - and a model
+      that knows who is better but says it too quietly backs the underdog in
+      every mismatch. */
+eq('the supremacy line is fitted on a full board', shape.slopeFitted, true);
+eq('and it stretches rather than squashes', shape.beta > 1, true);
+eq('because the model orders the teams well to begin with', shape.r > 0.8, true);
+
+function supremacySpread(sh) {
+  const xs = [];
+  natFx.forEach(function (f) {
+    const a = E.analyseFixture(f, natTeams, D.leagues, { marketWeight: 0.35, shape: sh, tilt: 0 });
+    if (a.lambdas.impliedHome == null) return;
+    xs.push([a.lambdas.rawHome - a.lambdas.rawAway,
+             a.lambdas.impliedHome - a.lambdas.impliedAway]);
+  });
+  const sd = function (i) {
+    const m = xs.reduce(function (t, r) { return t + r[i]; }, 0) / xs.length;
+    return Math.sqrt(xs.reduce(function (t, r) { return t + (r[i] - m) * (r[i] - m); }, 0) / xs.length);
+  };
+  return { model: sd(0), market: sd(1) };
+}
+const before18 = supremacySpread(null), after18 = supremacySpread(shape);
+eq('unfitted, the model is far quieter than the market', before18.model < before18.market / 2, true);
+eq('fitted, it speaks at the market’s volume',
+   Math.abs(after18.model - after18.market) < after18.market * 0.35, true);
+
+/* The point of all of it: a selective board rather than a one-way machine.
+   Before the fit the page promoted a pick on seven rows and every one was
+   an underdog; unfitted at the old prior it promoted twenty of twenty. */
+eq('the fitted board finds picks', fitted.picks >= 3, true);
+eq('but does not recommend most of the board', fitted.picks <= natFx.length / 2, true);
+
+/* 3. How much say the model gets is set by how well its line tracks the
+      prices, which is the only evidence available about its accuracy. */
+eq('the fit reports its own typical error', shape.rmse > 0, true);
+const boardAnchor = E.analyseFixture(
+  natFx.filter(function (f) { return f.id === 'cze-cro'; })[0],
+  natTeams, D.leagues, { marketWeight: 0.35, shape: shape, tilt: 0 }).marketWeight;
+eq('a loose fit costs the model some of its say', boardAnchor > 0.35, true);
+eq('but never all of it while the fit still tracks', boardAnchor < 1, true);
+
+/* A tighter fit must hand the model MORE say - otherwise entering more
+   data buys nothing. */
+const tightShape = Object.assign({}, shape, { rmse: 0.12,
+  scaleFor: shape.scaleFor.bind(shape) });
+const tightAnchor = E.analyseFixture(
+  natFx.filter(function (f) { return f.id === 'cze-cro'; })[0],
+  natTeams, D.leagues, { marketWeight: 0.35, shape: tightShape, tilt: 0 }).marketWeight;
+eq('a tighter fit gives the model more say', tightAnchor < boardAnchor, true);
+
+/* 3b. The invariant underneath all of it. Pinned entirely to the market -
+       the model contributing nothing whatever - every leg must claim
+       exactly the market's own de-vigged probability. It did not: a Poisson
+       matrix fitted to a favourite-heavy Asian board always left the
+       plus-handicap side two to three points richer than the price, and
+       THAT residual was the edge the page kept finding. Over forty runs
+       with the inputs jittered, 61 of 62 picks were the underdog, none of
+       them from the statistics. */
+let residual = 0, residualLeg = '';
+[3, 4, 6].forEach(function (sl) {
+  D.fixtures.filter(function (f) { return f.slate === sl; }).forEach(function (f) {
+    const a = E.analyseFixture(f, D.teams, D.leagues, { marketWeight: 1, tilt: 0 });
+    (a.picks || []).forEach(function (p) {
+      if (p.pFairMarket == null) return;
+      const d = Math.abs(p.pModel - p.pFairMarket);
+      if (d > residual) { residual = d; residualLeg = f.id + ' ' + p.label; }
+    });
+  });
+});
+eq('pinned to the market, the model claims the market\u2019s own probability',
+   residual < 0.0005, true);
+if (residual >= 0.0005) console.log('       worst: ' + residualLeg + ' off by ' + (residual * 100).toFixed(2) + '%');
+
+/* And the correction must not quietly move the push mass: a push pays 1.0x
+   and is what separates a quarter line from a half line. */
+const pushBefore = E.analyseFixture(
+  D.fixtures.filter(function (f) { return f.slate === 4; })[0],
+  D.teams, D.leagues, { marketWeight: 1, tilt: 0 });
+const anyQuarter = (pushBefore.picks || []).filter(function (p) {
+  return p.lineType === 'quarter' && p.pushRisk != null;
+});
+eq('quarter lines still carry their push risk',
+   anyQuarter.length === 0 || anyQuarter.every(function (p) { return p.pushRisk >= 0; }), true);
+
+/* 4. Figures that rank the teams differently from the prices are wrong
+      figures, not an edge. A board of randomly assigned ratings offered
+      forty picks out of forty-two at twelve to fourteen per cent EV. */
+const scrambled = JSON.parse(JSON.stringify(natTeams));
+const natKeys = Object.keys(NAT).filter(function (k) { return scrambled[k]; });
+natKeys.forEach(function (k, i) {
+  const other = NAT[natKeys[(natKeys.length - 1 - i)]];
+  scrambled[k].xgF = other[0]; scrambled[k].shots = other[1];
+  scrambled[k].goals = other[0] * 0.95; scrambled[k].sot = other[1] * 0.35;
+});
+const badShape = E.calibrateShape(natFx, scrambled, D.leagues, {});
+eq('a board the model orders differently is recognised', badShape.orderDisagrees, true);
+eq('and no line is fitted to it', badShape.slopeFitted, false);
+let claimed = 0, deferred = 0;
+natFx.forEach(function (f) {
+  const a = E.analyseFixture(f, scrambled, D.leagues,
+    { marketWeight: 0.35, shape: badShape, tilt: 0 });
+  if (a.marketWeight === 1) deferred++;
+  if (a.best && a.best.ev > 0.015) claimed++;
+});
+eq('every fixture on it defers to the price', deferred, natFx.length);
+eq('and no edge is claimed anywhere', claimed, 0);
+
+/* 3. The anchor slides instead of blacking the row out. A model far from
+      the price keeps less of its own influence; it is not simply muted. */
+function mwFor(id, sh) {
+  const f = natFx.filter(function (x) { return x.id === id; })[0];
+  return E.analyseFixture(f, natTeams, D.leagues, { marketWeight: 0.35, shape: sh, tilt: 0 });
+}
+const calm = mwFor('cze-cro', null);
+/* The worst-disagreeing row on the unfitted board, whichever it is. */
+let wild = null;
+natFx.forEach(function (f) {
+  const a = mwFor(f.id, null);
+  if (a.divergence != null && (!wild || a.divergence > wild.divergence)) wild = a;
+});
+eq('agreement leaves the configured anchor near enough alone', calm.marketWeight, 0.35, 0.05);
+eq('disagreement raises it', wild.marketWeight > calm.marketWeight, true);
+eq('and it never exceeds the market itself', wild.marketWeight <= 1, true);
+eq('the raw disagreement is still reported to the reader', wild.divergence > 0.25, true);
+eq('while what was priced is much closer in', wild.divergenceEff < wild.divergence / 2, true);
+
+/* 4. A national team's figures are weaker evidence than a club's, because
+      a qualifying group is not a round robin. Same numbers, same league
+      average, different prior. */
+const clubLike = { matches: 8, xgF: 2.55, shots: 18.0, goals: 2.4, sot: 6.3,
+                  fouls: 12.5, tackles: 17.2, yellow: 1.8, red: 0.05, statsMissing: false };
+const natLike = Object.assign({ national: true }, clubLike);
+const lg18 = D.leagues.filter(function (l) { return l.id === 'unl-a'; })[0];
+const evenTeam = { matches: 8, xgF: 1.40, shots: 12.8, goals: 1.33, sot: 4.5,
+                  fouls: 12.5, tackles: 17.2, yellow: 1.8, red: 0.05, statsMissing: false };
+const asClub = E.analyseFixture(
+  { id: 't', league: 'unl-a', home: 'H', away: 'A', markets: {} },
+  { H: clubLike, A: evenTeam }, D.leagues, { marketWeight: 0 });
+const asNation = E.analyseFixture(
+  { id: 't', league: 'unl-a', home: 'H', away: 'A', markets: {} },
+  { H: natLike, A: Object.assign({ national: true }, evenTeam) }, D.leagues, { marketWeight: 0 });
+/* Two equal sides, to measure home advantage on its own: what is left
+   after subtracting it is the part the figures actually bought. */
+const asLevel = E.analyseFixture(
+  { id: 't', league: 'unl-a', home: 'H', away: 'A', markets: {} },
+  { H: evenTeam, A: evenTeam }, D.leagues, { marketWeight: 0 });
+const base18 = asLevel.lambdas.home - asLevel.lambdas.away;
+const gapClub = (asClub.lambdas.home - asClub.lambdas.away) - base18;
+const gapNation = (asNation.lambdas.home - asNation.lambdas.away) - base18;
+eq('a club with those figures is rated a clear favourite', gapClub > 0.5, true);
+eq('the same figures from a qualifying group say much less',
+   gapNation < gapClub * 0.65, true);
+eq('but they still say it in the same direction', gapNation > 0, true);
+void lg18;
 
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);

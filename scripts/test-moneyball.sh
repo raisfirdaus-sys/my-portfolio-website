@@ -44,5 +44,11 @@ node scripts/test-snapshot.mjs
 
 printf '=== test-published-stats ===\n'
 node scripts/test-published-stats.mjs
+
+printf '=== test-board-moves ===\n'
+node scripts/test-board-moves.mjs
+
+printf '=== test-language ===\n'
+node scripts/test-language.mjs
 echo
 echo "All Moneyball tests passed."
