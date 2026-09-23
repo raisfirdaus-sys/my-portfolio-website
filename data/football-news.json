@@ -1,7 +1,637 @@
 {
-  "generatedAt": 0,
+  "generatedAt": 1790128517290,
   "source": "Google News RSS",
   "teamsKnown": 146,
-  "counts": { "raw": 0, "tagged": 0 },
-  "items": []
+  "counts": {
+    "raw": 972,
+    "tagged": 457
+  },
+  "items": [
+    {
+      "competition": "ucl",
+      "title": "UEFA Women's Champions League Matchday 1 Wednesday preview: Barcelona vs Paris FC, Chelsea vs Austria Wien",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN2FNSURYNnJjR244M1Mtdkg1UDFpdzJuakQwdEVzZTF1YkowOXlzT1g4VmdMcnJWeTU0em5oX3ZxcU1YNW1WLWxlMFhRRmxhLXEwRmFsSHFWRm8xZzctNE4wOWR4NzV6TnE4WGRkM0RveEg3OHc3N3pyT0R4NnNKRkpQUHM3TzNpYzJkM25KbGhYWUZNck8zYTlnQ0hWeGJkM0Y3UTdGWVc2SVlaTk43ZDQ4bUNQTGRPa1hvajI1cFItcGFsTXpERURHZEluUWVLQTZDN3dIUnFIRUhmV3c?oc=5",
+      "teams": [
+        "barcelona",
+        "parisfc",
+        "chelsea"
+      ],
+      "publishedAt": 1790125914000
+    },
+    {
+      "competition": "ucl",
+      "title": "Bayern 2-2 Man City (Sep 22, 2026) Game Analysis",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FM05kVU4tTXJJQm1xWk9JTU9HZ2pTWGdWRXJTVUhTUnFlRUl4cVM0Q19GOHhFdEdrVmg4eFJsNzZ5Sl9NMUNuVUZZSmd3NlFXNlE4M3JxTk5sTUloRkFGdjRhdw?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790125528000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Portugal vs Wales Preview - Jorge Jesus era begins in the UEFA Nations League",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjZBQThib3NCNHpLZlJvbGduWDlhaXFqMm1rUVZETENxeHpKcW1FVXpKdHVCa1JNRnNGRE1GUVhYUjdJSGRoVXc5Mkx4dEdxMUpmM2l2LVVJYmFRMVJZS3lpazRrV2ZoWkdOVEZNb00zeWJ1cWp0eWR0ajlnWWlfYnlvSkFCZ0dNWDFIdUN6cW1CaEktQXU5cXZET3FKd1JNZTJDM04yWVBaYUNXNWFsbkJWcVlNQU0?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790122882000
+    },
+    {
+      "competition": "laliga",
+      "title": "Vinícius Junior's Crisis at Real Madrid Could Have an Unexpected Origin",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbFlHbHhjU0tjb2U4TzFMOGNBb04tOFNzaWZzb2d2TUFadUI2eUhscFhWV2VMeUFTT3ZuZ2J2aHg1SS1FRmR1SkRJMzNBaE9iRkVJcGhfQVpTbDBfUW1HV1ZYck9sdTZHQ2tpME15OFh4Z2U2YlRNNURramVlTTRvRDVzcGtIb0ZfQ1RYT3ZjdmlmSTlZblEzZFplc0Z1aXliZ2syQzJJSlUtTlVNY0NWQUQwUWlSOVVJMWYzWDlzQ3pHMnA0NjlUd0dzNjV2U1VIai1POFZ5ZjlwcDlL?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790121600000
+    },
+    {
+      "competition": "transfer",
+      "title": "Chelsea transfer news today: 'New midfield target' and young striker 'admired'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmRYTlNmV0hHc1NybGtab2pHNXFBZ3BxbERpaGN0aFliNEIyc2xMZFhIbmNvWktJNV82akRrbmthclJFVjBObVluck1pb3ZBZFJiYm9DT0JSSkZtUi1YMHhTbG1HODZSbHA2VGdEVktZcVVWbU9teE9kTkY4TDlkYS04N3IxejQyYXpacW9CVE1NclA0RWk0S00xWUVDS0lfbmhqYXBSOTczeEkzQUVnNQ?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790121492000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Arsenal plot Alvarez loan; three Chelsea targets; Man Utd, Liverpool latest",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3FyVS1uY1ExSWdNWkxIWENVTERWWlZQNE91MnhXeVZJWFZmYW9UV2pYczBfLXJ4OVItajU3bXFoc0dXeU5PZm1EazY1RjJoUTNCNC1veDl6bmZLYlNscEUwQ0xwX0J6TjRwR0tYdGptaXJMaXp1VHk3WkZybWFkY05lVmlFR3IyblV1dWxYNWZPQ1JWTVpISUN5NVg5R3ZhTWxYM0pXbGhEZFVFTHNjUE1IZWJnSGNBbkRN?oc=5",
+      "teams": [
+        "liverpool",
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790121217000
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid Clashes With La Liga Over Refereeing",
+      "publisher": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjA1VkxBaDdLQzQyYjZGeGp1U1NvVUtyYURzb0hJbGZvck5hbE93bmlXUWprOTlVcmJIa2FtNEhLczJia2puT3hBazdUYU5aX1ROTVFvT1JiLU9JWGxodzFzMmwxWk45cFd2b0JqcFhQS1NIV1N6NUk1Y1U0Y2RkbEQ2TVQzZw?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790121080000
+    },
+    {
+      "competition": "laliga",
+      "title": "Did Vinícius Break the Rules at Real Madrid?",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWEtmUVlja09HaGpIMmJ1X1FHWVQyMTZfbTMzLXRQOGZhQWFIb2ppeTl6ajZ3ZTlCLUlXenVRaHBocTBxdEJFU0s4R3IxdmpWWFBHMjZWelNPM0pYZzVsaWd1Vk4tOWIxUEkyX3hub0pxSktDcDA2TWhxSEhfek84SUhUQTllekdKNDIxVW41U1NNWWExSC1YQUg0UzUteUMwbEJxdkJWUmVjSUlza3dDbFFvd0dSczg?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790120859000
+    },
+    {
+      "competition": "bundesliga",
+      "title": "Bavarian Loan Works: Two Bayern Munich loanees meet in 2. Budesliga",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQ2FHdjlzUklSN2tub3ZJX1FEci1UdDlGUWlHbXFTQVZUZkdqTkt0ZnBQeWQzb2FiYjlDRnFCRkR6OXAtZlE3b21RcUZzV0NtOS10UExENWZWVFd5ZmF1cjNaZ2x0QlMxUkhTeXVGU0xBXzhfdTVJb3ZRX0VzaHpsdHJWUEZZOWNnVFh5dkRDNDhZZXAwSGpPbHdzbE96cm5BS0M2OElSdkJtNWNPWFZ5WjF1WmRuMHprZlhNdUFUZEpzcVhNejJsUk9YMDIyeXl1YVlDVjlkd3d1WWJidnVKY0lycmVva1ZXRFE4endqQTY?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790119800000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer rumors, news: Liverpool, Arsenal, Man City in race for Feyenoord defender",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2g4X2x4MDAwSkJRaFYzRDJEdWdydWhWX1Zma3JNbUE2UGkxOG5EVkxVODl0ZzhXX0VkdWxyQ000ck51X3JDNkFGTVBMVmxwWW5oSERSU0lzS1lCR3E4WkVPM3F5MDJkc2ozY19sbUxDeTk2UDBZS2tOTFdNNG5QQ2NmUk1xeGZFai1TTkx5QzcyQUFpdENLcU90TmFpamFYelRabkVyOXA2TWNJenJIdzNEZkFmc2d3Q1BkNDZqRTgydw?oc=5",
+      "teams": [
+        "liverpool",
+        "feyenoord",
+        "mancity"
+      ],
+      "publishedAt": 1790119520000
+    },
+    {
+      "competition": "ucl",
+      "title": "Arsenal start UEFA Women's Champions League campaign with a win, but where are the goals going to come from?",
+      "publisher": "CBS Sports",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbkhoZ2Y5bFhHVE5uUEF0ejB6YmgtX3RveUdRQ1dHUExIRDRqSzJBdjFCeVlSZjZYd092UWd3Zlh2OW1YMmNlY2JxS0Y2aXNTMmc4enoyWTcwaXVUQ3BieWVwSUVXcC1tb3NQU3oxeC1NY3NnYUg5R2NENjlmS3ZrV1A1ZlBVcUpGNF9vZGduVlpHQUlBNFJkWFlpdV9PWTQwN0JV?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790119260000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Reaction: Caruso calls on Real Madrid to be 'more clinical' | Video",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSlNYOGpHcU91VWhUVnNxZi1pNzFLeDJLNlZMWmx3QjNWdUtRV2JiT3VCemNteEtnd3lTUUcxcHhDVHlvMmJYZ2dzQUtlbUcyQjBUQm1jandPLXVKcUluYkF3RkcwNGVjN0tlT1F3aWc1MXpuNFNnUFAtYjBPcHZnSWFoRzF1M2dPamxqSGlpOFRpT3RLV2ZFYmwtSzRWc24wNjg5dVJsVmdKVTF3TjZVTTRkdmxxLUx0aU9XQVNyVmxmQkdILUxhakdJX3E?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790118653000
+    },
+    {
+      "competition": "ucl",
+      "title": "Mariona Caldentey penalty provides late WCL relief for Arsenal against Køge",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXQ1SnZMS3dNeTdKZnB4Tnl4TDlrRC1YUTVJOHZBZmRnY0JWUy1qcGpJWFRNZ0FJN0VvdlgzbUt5U1dRMk5JdVZnVXhsRlV0aGhMak1QQmdkOHQxblEtaWZVSk9lQ2hNeHo5WlZiR01WT3FENkJQVjVDdTRhcHR3VV9EMlE1NzdidXY0dzhrQ2IzWloxOXZRWXlFelN5Vl9HZm5j?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790118420000
+    },
+    {
+      "competition": "ucl",
+      "title": "Watch cool Gwinn finish for Bayern | Video | UEFA Women's Champions League",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjM0N1dSQXppd2RJNmZodUNGdkVGV2duZFY0VUJyTDItcWFWcEVEWm1yczQ1T2xwMGdteXpTRkhJaDBNMExZbUllWUtMRWdYamdvOXd5cTE3VUdISVp4bVEwT1NCTGdnX0pEVWNtamhNLVI5NGlsM05LbS1CVlBQVXJGZks4ejRYQzRFZmVCRDNWdkRiVmc2ODhiVmVNakJuT2JGSi11eFdqbDlfY3lOcHBZbUJGZllibVlvSDN3?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790117775000
+    },
+    {
+      "competition": "ucl",
+      "title": "Former Manchester City star Sergio Agüero says Bayern Munich is team no one wants to face in Champions League",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQYW1kSm8ydG14SnNfMmQ2ckZJLWpaQUNxT2t3SmRreUw4a2xZdktNVzVtTC1nUWpEdW0tZl9aUGpzSmllTWVhby00cUl2X28wSjZycG96eDhrVUxpM2lHeEZFVXRXT0tJZUZfbkVkM095VHQ3bWprWUhlZGVQZHBINXVhd2JUREJWV1RITjZ2aFRjT1ptS0V0d0tTSVo2MVhORDdndENCMThLT2QwdFpXUGozSUp2R0lNUXlOM0I3dXVVcThnQVVTRFV4SU05ZjA1MTRLMEFaN2FreFV6XzZrczctcWhWWDA1a3NMTF9FUEc1bzJvSlFKTXB3SmlfLVFmTU9DbTg3QWJBZ0dYQ211NUJOM1VndzcxQ2pZT1NOeDNjdWU2Rmw0b19fYnJscUEtMlR0MEdOUFphdElvTE9uQnVXT3JKMEdxQlBEbzhjUWlFT1NObWZTdWtJZ2UyZTc4d3NFNG9YT0R5OHVVMnc?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790116200000
+    },
+    {
+      "competition": "epl",
+      "title": "Spurs? Liverpool? Man United? Chelsea? Biggest concerns in the Premier League",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vMktidUFjQ3ZoM3BuSVh1OGxmenczX19vQ0p4dlBzNnpnSHQ3ZU9MRVp3Z1BqV2VrNlo5VHJKT3hlMnUzQXgxZkdkbUxXeTdSTy1lRFhNQ1k4cVU?oc=5",
+      "teams": [
+        "manutd",
+        "liverpool",
+        "chelsea"
+      ],
+      "publishedAt": 1790116002000
+    },
+    {
+      "competition": "ucl",
+      "title": "Women's Champions League highlights: Juventus 1-2 Benfica",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbW82b3g4aUgyck1zUmZ1SHRuX3o2M1g3ZVRRMHBpa0hWclZGd0hIMDJ4dGY1UXhmNzE2QnRwX0pzVHRlLVVKNVNlNlZZdEQzOUFadUFvWV9FeDl5M3VtZTRWeGF3WFVoalp0TzFxUHIwYUlhWTZ6bS1KNWVlN08xUEVQNmQ3XzVaNDZjYUpFZkdtdEZGbm5UQTlodGFNUFQ3U1ZNeXI5X2pJTUNCWWtWb3NNTHNoS1hpUkxTWllnTXRpMzVFSzlPdjFPZ3p3S1pqWnVBSWdncTBtRWFnOVNRMW5RQXJkS0tENUE?oc=5",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790115979000
+    },
+    {
+      "competition": "ucl",
+      "title": "Women's Champions League highlights: Arsenal 1-0 HB Køge",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVXNKLTZBYVBrRDkxQVA1Tzg5UHluNmhfMTBKSWR0aks0U2RDeE1CZVhCRnNUUVFJLTBYRTE5MXU2Q3RYMnRGSEl4WEhwT1FnSjNJNDNOay0weERBNnVJMVNfckVrNjh4QXdQelAtRDFENXV2T09LbFNmN3pvczduUUF3aXB0NVhFcG1NbEpSVnVROXgwWUlWSDNuZFRMRlBEd0taYkp4ZXZsUDZIeGVuLXRHVW9QN2ZwR1NlaS02T1NpbC1iMTdOZ0JZcmZmc1NENEFVNGJVb0N1aEp6V0U4bktoaUhMZHVX?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790115971000
+    },
+    {
+      "competition": "ucl",
+      "title": "Women's Champions League highlights: Real Madrid 1-1 Paris SG",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS1FaTXA5dzdoa2lZWXpFR2FkWE9Kb3FJM1F4QWo3bVp5ZDRUMzNLVUxsRk1JQTBjRk1JRmoteVRlUGtia0tfOW1GeUxma25lSFVMSWhSZU93dkNnUDlEcE0xdmd0LS11UTNiYWp4Mm1RT24xbkl2dmRTck1iSEtpaHBENm5aZDhxaG12VGxoLXlLVVF5QVdJVnhGT09oWmNUclBySXFLVHBjWkViaWpxMUk4SVhaVjAyMlE1eS1BTm9nRnFpYjZQVTBnYVplcjdEdElneFNjVVpmMDRPUWlReFBFbW92cDltWllTZTh3TQ?oc=5",
+      "teams": [
+        "realmadrid",
+        "psg"
+      ],
+      "publishedAt": 1790115969000
+    },
+    {
+      "competition": "transfer",
+      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790115740000
+    },
+    {
+      "competition": "ucl",
+      "title": "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNajdyMk1XLTJjbzVtX2xvVTNsZVA1ZEhNdHRka0xiVFJ1ZWN0aVhDekRaYVlLWnlQX1U0bmFYd2xaemRHd1RYbERfSDdFX0MxcWVZcEVPTG1uNnZUbjBGVEFuRGJ4UXcxX21EeEg3czlUQUM4MHRuSkpIUXhhdnNCV2VaanJRN1JpaThNVXJQWmd6T0JybGNpa0F5UXJCTDgxS3FYZW5lZ1FXM3dJdUJtMFBNZDNUZw?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790115600000
+    },
+    {
+      "competition": "ucl",
+      "title": "Manchester City goal in Women’s Champions League allowed to stand despite flare on pitch",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3ByVVM1RmdCMmhsVlgwSmYybWE0RjdyQnR3LXdxdk1iNTFBWkt0SFRQSVNDcFFEZW9JRHRCNkxPY1FmeUlxZk9zczBXNi1BbU1XbERnLWpjRjNsMUZKeUptQkhvVURkcEw2OUF0ZHNwTjRiNVVVeHBQTmp1LTJSdS1mMkt0SEFmWFUxSXFtM0lqbVZKSUliMWlQdFI?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790115238000
+    },
+    {
+      "competition": "ucl",
+      "title": "Real Madrid need more from young star Schröder to reach new UWCL heights",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUV9WSGVJckxPS0o3V1cwcktpczd3OGFwQV8yOFBaNFVuMm92WWJhUHlsaVozVGtzWW1rRDd0RlpaUXBzYVpfVm1oZkU1UlBFVjNhQjlXMzJZNmJVNmZwR0VJd1p2cEFrbjJiLWdRN2JlQTlEbzFEdDZPdWYtTDJxTGtMRkRQUy1HUW4ySHNlRDVPWkZwclJfZWR5Y1F5TG1DOHBFS3dxMjNHWTBiYWFjX1Vn?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790114760000
+    },
+    {
+      "competition": "epl",
+      "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnYteEV1Mkc4Wjd1NWszTnRwd05sSHg2MWljUnNSMGlCRllRWnZvOFp6MHJaWjU3NUplZlJEdWJmUUUtVzh1ZkZPRzVITEpYYW0waTB3RFNNTHJQUEVMLUdXczhoaThtOTBJdjRkWDlVNGtfLTRhTGUwQk81bEZHTXREVlZWbk9KQU4tNWVGUlJnTE1hNWJHNzRjV0lnV0RqZHVxQnlfZHRMZ0VpQ2toOV83LThpSkF4?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790114415000
+    },
+    {
+      "competition": "epl",
+      "title": "2026–27 Premier League Table Without VAR: Major Overhaul As Man City Tumble",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWUZDSFZCY3NqVEdIZ1J6T3V6dlJUWHlIRG9QWHpCNWxzdDE3c24wdDUxMGNJWjFMSTJ2Vl9HaVdYc3F4ZmNsOWx5VllqUFZrSHNtZWJld1JsWFJNbnVQME5Ra1ZWNElvdm1mVVF6dlc4NV9kYWthRUJsS2lDa0owOXlMaXREUXV1ZFE?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790114401000
+    },
+    {
+      "competition": "ucl",
+      "title": "Slegers praises Arsenal’s resilience after late Champions League win",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0NnNnMzZ3BadXo1T1JSeFQ5WUdOaDd1QkxzV29CQkVLMndxaUFHdTdlMXZ0SkhyVU5vaFJHZ0Z0b3FSdVFGczZzWWJQUzBCMlFHOHNUQkJvMXhMRFljOC13WDcxalUtaUlBdmk1Rnk2U21Nb0p4WkM4bXhFVXY0UTBQWm5LdDZiNE8ydUlhUU9maVFxczNpdg?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790114100000
+    },
+    {
+      "competition": "ucl",
+      "title": "Arsenal wins late, Man City draws at Bayern as UWCL returns",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQTlyM1hwMi1GZEkzNlJEN2U2dXlxQTRJSDAxWm03T0NCVGxpbEFod1Znc0lXdzBwd0xuY3NnUEd5NXZ6WWJ6TWs3VkxTTEEzcmZELXhneEZMWlhPam11M3g3WDRVbExMZ1BjSF9vTnk4WGVHNHZ5UkZtNWxLdjVSUG1tbFVHd3hQcmhTVFM4bF8ySFJWejBVdlpWMmtJLUlzc3c?oc=5",
+      "teams": [
+        "mancity",
+        "arsenal",
+        "bayern"
+      ],
+      "publishedAt": 1790113800000
+    },
+    {
+      "competition": "ucl",
+      "title": "Women's Champions League Matchday 1 Tuesday round-up: Arsenal leave it late, Man City deny Bayern, Real Madrid and Paris SG draw, Inter and Benfica win",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMXV6ZGlPelYtZ2lMaUJLa1lfOURqcUR1WkN2cjFZTGY0MnZfdWNmUGFDVy00MHdqODFmVVl2aFdLVjJvWnpXQUltbk5uSlVKekFQRFJfRTdYMWE3aGtLTGpkWXRrU1ZZUnlqc1BCRjJMUWJ3UVRzVkJlb3p6akdfTjQ0QzJ6TDFDMVYwSXUtX1NXQjNDYV9oNWZVSFlicXUxSGU4cDFaVW44TlZBTVdNRU5MRENfT0VUMDFWY3BzdnE3RDhDeV8yM1ZwdnFmSWhmcTJGazVQaFRMTFk?oc=5",
+      "teams": [
+        "realmadrid",
+        "psg",
+        "mancity"
+      ],
+      "publishedAt": 1790113560000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Amnesty urges UEFA to suspend Israel, calls Nations League participation ‘unconscionable’",
+      "publisher": "The Express Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMGRCYkltVlBURjBnZGVzMDdXdlN6cE9yZE4zSGpRVzNqTkxiUV9ZeG5CZEM5MFlVdmQ3c19CZFBVbnZTMjF3eTlqdVlnTUt5d3lGaU45bGVVUGlKNDhYRFpxbVUwYlpBamRQMzNQMzlBaGVaWEZrVGJOZVlNX3FqUmhUblJjbWI2MVhXOGREcHc4SnVlSUtDLXBZMzk2SWl3Qm9XdzJnY2JLX0NTRXZjdWNJeHZEMjlHNUNEZU5vWm8?oc=5",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790113500000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Amnesty Slams UEFA for Allowing Israel in Nations League Despite 'Occupation, Apartheid, and Genocide'",
+      "publisher": "Common Dreams",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51SmVPUWhtNjY0WTdsVVB0T09LTkR5QUZfc3NRN25oYy02eFU5d3F2UEhmQ2dUeXRhVlBLNHBSOEJGakFKcjBZTlc0ZmNlS2lQMl8teU1DMTBVVmpXX2FEcUhoQ0lKMkZCZDk1amZkQkJSU3BUYVVHNQ?oc=5",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790112715000
+    },
+    {
+      "competition": "ucl",
+      "title": "Bayern Munich 2-2 Manchester City: Visitors recover on Women's Champions League return",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1teHBJT29ZMWtMeUx4V216TFZad29mcE5YZEh5LVNqdWw2VzJaMkh6T3VCNG1WSDVwTDNmNGk5NFpsMngySHpJa2lScVF3N29VQzZXZHZSUEpZdU5rLVNCNFlpTQ?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790112645000
+    },
+    {
+      "competition": "ucl",
+      "title": "Bayern Munich Frauen suffer second half collapse in 2-2 draw with Manchester City",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFMzR01Dd0FGX003UUMxNG50NTZQSXp5OFBES3ZEQURNNWhBNmItcVNnUXVtUzlacWxmWmV1QmFDeDZnU1dYZEJlLVd2TmlkTVItLVBVYVlHaEdzdUpnQlNYaUZBM0ZLZEJNcWVaVFl2dWh3bm5ZMjNXbUVQZkhPanRvWDlWRXhTY1pJ?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790112600000
+    },
+    {
+      "competition": "ucl",
+      "title": "Women's Champions League: Arsenal score penalty in injury time v HB Koge - reaction",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ieUhXRnd3c3ZDQ2RIWGJBZ29xbU1oQjY1V3FWaEZqaG1EOVRRSlVFMU1nTDlzdFhDTmQzeGtRWnZMQW5aT2ozUnEwYWpVazZBVFhUa2VqSURWRGRTVEU4QkxjWkF1QQ?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790112377000
+    },
+    {
+      "competition": "ucl",
+      "title": "Arsenal 1-0 HB Køge (Sep 22, 2026) Game Analysis",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DUm9nb3ByY3FkVk45UG8tQ09QOG40YW9XOVYwUjNLVHFHY1ZJRHNXeDdIY1JBNXRvVjFxeExiSkQ0U3B5NlZmV25Xa2JnUVFHY3QzRXg4U3UtaW4yLVR6TWpZVQ?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790112242000
+    },
+    {
+      "competition": "seriea",
+      "title": "Roma monitoring Frosinone starlet Giorgi Kvernadze",
+      "publisher": "RomaPress",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HaFplblBxaHpxaFZWZHF3Rk1ORDBBUXpBaGZCeEU1V2NhOXFYUHhheVNnQ0VwN0g1dEVWV2hVTklxbEJzZUdqbUhwV0dlcW1MeGM2NVB0TWVtb3FVY21WWDdRQ1hKek1ZYkFYN2I5Ty1xdy1xRVlFb2huR0VsQQ?oc=5",
+      "teams": [
+        "frosinone"
+      ],
+      "publishedAt": 1790112017000
+    },
+    {
+      "competition": "ucl",
+      "title": "Wasteful Arsenal need late penalty to beat Koge",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZWFvU25pektMeWJBcVBkS0lFWHRySFhWVGpDYzdVbU5yZ1BhTWstbklsYkN6WXV1NDd4ZVZEbHZ4OHEwNGlsdzFzelZmdEZCZ09HNlpPTzRXSHpGVENVbFRjek4wVThuOWZBb2NNZ0xhd01jZ2hGajBObE9SaXNGMl9fVUNXU1lkUkcw?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790111415000
+    },
+    {
+      "competition": "seriea",
+      "title": "De Bruyne: I did not try to leave Napoli",
+      "publisher": "FotMob",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRzU3MFlvUTRJNjFvRGlYMlhXLXNNSzFwZHFFOUdiMEFnczhNNmNLRDFneXlSellENG9oNGx3OEFBUERSY21NN2xDQklhNjNkZ2xVeElKeVRrNnFuV1hobktmaVZMdklTNGt2eDBIQ19ySGRlbTN6TDc0cDJ2TzEwNDZPLVB3RzUydVV1c09mOURXdnlHdHc?oc=5",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1790111071000
+    },
+    {
+      "competition": "ucl",
+      "title": "Real Madrid draws in their debut in the Women’s Champions League",
+      "publisher": "Real Madrid CF | Web Oficial",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcW5aMlkwSWt6RDcyY25oY2dXRGk0c3hUSXpsTmQ1Um9JZUkyWGoxVWtLZTllbW9JaFR6dHJ0VkxFbW9CTUtmTjJSbzBQbGR4dnRPRHd1bGwySGdTSThhZkhvQmZfNzc0QkZlYVFfTElTZzNhMnZabWx1d0hrTzNyWVROcVpEdTRIclRGMUQwSmI2SlhrU0F2RE4yajZpcTh5?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790110825000
+    },
+    {
+      "competition": "ligue1",
+      "title": "Paris women earn point in Madrid",
+      "publisher": "psg.fr",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1h5S3ZFRE9jZEFMVnZUUm85eHFCQ0Vwekc0MUF3Ynd2U2RGQXdhVXlySnNzZFZ0TXhZa1d4RHdhS0d2NTE0clE5OTNZM2FFZ3BjMl9CWW9vb2FrQ0M1a3ZORTBoM2lmT1UySTBMZHZuc2tQQnh2UHBjTmZVekFtSEJhaGZ5ZG02TEdSYzRkVE1ZZGpISHFOZzdhNWNsR1VJMVhCSVlHMUJJZEp3c000MDgzLTkwWmQwRGtRYnhPYzk?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790110800000
+    },
+    {
+      "competition": "ligue1",
+      "title": "Sunderland Could Reignite Their Interest In This Ligue 1 Winger: Should Le Bris Move In For Him?",
+      "publisher": "sports.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM2NNalZyN3lpR0dDbWNidTRkVmtDcnV1MWZMV1h2NGZVa0FqcDN4eEF1RkpfNEZMNDhXd3VjVTR4czE3QWZvM2N3eGdybkZUdEpNVEw2WFdYVHFid01JbUgyZnlRNmpnMDhhMGxQZDNMajVqRTRjcUFjU0ZqalN4TF9JWFpYUVJoQU1aaGpOV0g3YVk?oc=5",
+      "teams": [
+        "sunderland"
+      ],
+      "publishedAt": 1790110200000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Reaction: Man City's Mead on 'game of two halves' | Video",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEdUS1NHQmhpQ2JXLWFpekFDMmwyZ2swLW5pRmpqUVJUWWM4QjItR0xwcHFlM1VxNldIQXkzTXQ0RzlOY0NPY0dYNGxxSERmb09WdzljTGduQ0lqVzliYnFybDlXQ1NkNTZLYnQtNzB1SzFZRWVuRWdjT1FsbmdEanBtTm5nQjNhWkVnZ29Hc09LMV9yNlJXaVU0QlpKT0lPSVAtTEYwbGU3dmMwM01td0twYWpOQUtmTlgyaC1sSQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790109395000
+    },
+    {
+      "competition": "seriea",
+      "title": "Insult to Mazzola’s memory, verdict on the fans today: what do Juventus risk?",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZEJXNmRpMWlTVVpsb2xCNEh0R0wzLVBnUkgzc0FibG9jeG9yVFlnNkdYS051OXhEZ1NpY0hvaHVkdXNBSlByLVhkVjQ2OFpOTkM2d3NQanBoVVplN2xQUDFiUDhrbm1QbGNMX2hlY1NHX3YwbEVUOS1vVjZkUUlyWnhiR3hQaXV0NlFmVGhHOFJRSG9raDRlZjFuRldiNUUzTXlRbnl3Z0p1LWJzLUE1Q1F3SGxGN0VHV0Q2Tjltc3Zub09GLXpvek5mRWdiWU42Z20zMzZR?oc=5",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790108161000
+    },
+    {
+      "competition": "ucl",
+      "title": "Reaction: Bayern's Gwinn on 'frustrating' draw",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONm92UnZxbTNmdEJRcFkxSUY5MkVtaDRaOHJXdnRHM1dnSU5WbERMalptWVF2LXRfY2RlcElDRW1HRGNGZjVkNm51VmQ2T1pBSFU5LWJYXzV6RWloYmRxc1V1U1gzc1hlOVZFTlkwZGtlcnJCSzFXQjUyZ3h4RzZrRExNdV9CdmRqZWh5QVM3NUNDUEp3QW8zMDhsclNIei1BcUVMOFVEalp2SE1ZVEdNeDl6d1h6aXFnUFh5bXhid1lMTHRQdnYwMXBR?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790107868000
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid call for the head of La Liga president Tebas",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LXzZOSHFsRmdGWHJIeFN2S2F3aDhKbU5lTWFwYTV6eUQ3a3JaX2xBaGdZbER3ZVZJbVgxU2Qxb2pXeTZFMnpSUXFHUW9FaV9UOExqaXZzcDhZcEVIaFdtLWZkckVyMzQwOUtXa0w0NzhIV1g3T011aGdwNWQ4UQ?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790107800000
+    },
+    {
+      "competition": "ligue1",
+      "title": "Biting back at rival fans and dreaming of Europe: Rosenior’s Paris FC rebirth",
+      "publisher": "TNT Sports",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPM2FySTlVU29YS1FWNGhUNl8wdnNBTXhMdTYxZWI4VVluYThpckZRWWl6cEozb3l2MkdFR2JIVFUtWXB0Z3E1YXlDR05RNVdvbzRuaGV0NllKV05FVjBLbUlFN0g1RGhIOXJkSV9PeHdVRnlNQmJ2TU1FZE9EQW5TTE5CSTNyX1VCekxzMFdyYkxSRXRvQjFMVFptT3FmSk91c2ZVbWFuUkxad0xIYkYzUUN6TVVlY1Vodmp6QVk2RkRCRkw3Q2pDMzJtZzVyTHM?oc=5",
+      "teams": [
+        "parisfc"
+      ],
+      "publishedAt": 1790107740000
+    },
+    {
+      "competition": "ucl",
+      "title": "Man City's return to Europe has proven that it will not be an easy campaign",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZG1KVENlMnpXT3VLVzQ2WlU3N2tvVldxVEtydEp0NXRnOGJQNS0wbEtjZG53UlZpQkhDeElXZkJOUHMwZ1hHVEVra3FsaDhZeVMxTVZ3cE1HdklDMVd2WXdOZXRFT1hfc3FkY2VPdEpBYjd2dXhWREZMRER5enEtQk1XZVVJb2d2Xy10cFJZOWkxRDVnVjNTc2lYRXdYemo0UU0tSDFB?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790107740000
+    },
+    {
+      "competition": "epl",
+      "title": "Tottenham chances of Premier League relegation revealed after Aston Villa loss",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeEZQUS03V1NvVlp6aUtxT0dwdGJVQVhILVVMTDNvU3VsTmZiMC1VMEVHLXlJYVhkakxYaXg2SDk2Wl8tNFJCMlEzUG1XdklJdTROQlJGd0hIcVNwQmRuMFFjZGtVRDUzWGFnQzg2MVdaVWdtOGUwM2ppR2l4N0xucUFsLWNjZWJjLVJkQ1V0bDR3RkdPOEdN?oc=5",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790107723000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Liverpool track Givario Read as Man Utd scout Gabriel Rajkovic",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdENhNVZSamtpV1pSLVRNenV3WWV5cHlBYzNVRGJXNmZ2bkJJTFVtTndnajNfQzJrcGJ6TlF3YkU2c09OYjFCX2NKdkdua1FEM3l0VElzcTYtdk9FLU9JOFZhUXRWTFZ3LVBVRHVzbUdEUkRJQlIzMXlaUFp4eE16M2FLOW43U0h0MkJBNkx4dUR6cHp3NlBjVUo1aHBtaXVIQ0ppMXI5ZlBBb2RJNHpYYmI0Ujh4ZlVCZmFUT1RyZmE5dWhCamc?oc=5",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1790107669000
+    },
+    {
+      "competition": "ucl",
+      "title": "Manchester City salvages 2-2 draw at Bayern Munich in its return to the Women’s Champions League",
+      "publisher": "WANE 15",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMmpiQmlfaGNqb0IzNTE1ejJfU1daMm1VSmtMU0l5QzFzeTFnZEJwY1RZOHRDV256MUpiWGR1ZEZNczRKM1ZOTlgweXJBZXd4V1BnWlZaM1R3QlNEX3JWZ1NqSXd2VXhXeEQ1RWk2SnVNMGFRR1VORHVUdDg2dmhackdRMno0T3g4d0p5NGZCTU5mYURKSWlHeDZvRDZTa2gtb0JGdkt0QTI2S1llN0dVOTVDTTFmWkx2bVZRQTdHbkZac2lHemJUUVFCLTVZVnp0d2Uw0gHYAUFVX3lxTE9STGhjQ0FLcERXWkZsSk5pTnJlRDFNZnpyZmNfTm1uUGRMRWVtd191LWtFMWxyYUZwTlk1ZDZqN2tmUWFKbllMUzBfdkJuV05SeUcyUjlWT3cxWUZvWTE4bFl4aUUyUEg4eE9iSVdtaUkxRU1fS3hwZVhaeHdqVEtCdWptNFVQVnJrNWVvQ2I0SmVxM0R1NDF6a0JkQk1HM3JrVkMydjBLbGMxNlFrdDBJUm1JcTJ3dkF5Nll2S2dlaUc5WmFpbFBZQnNNcUUxM3hpaXd5UTVPRg?oc=5",
+      "teams": [
+        "mancity",
+        "bayern"
+      ],
+      "publishedAt": 1790107554000
+    },
+    {
+      "competition": "laliga",
+      "title": "Anthony Gordon told it’s ‘just a matter of time’ until he scores first Barcelona goal",
+      "publisher": "Barca Blaugranes",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa084U281dUdSTXI2SG94VEJqRGJqMXVJODlMZFRVeXJVN0RaaDJUNktuaGRaVnN3UVFhSkdocVRtSGNzRVNVaEQ3WnVSRUtiRlRsb3FLNG5LcEFReVZFaGliV3U3UEtIaDJoN2ExT3F4YXA1bEtWdUxhLUNJV1NzRHg1X3pKZlEtZmJWQWVQdy1qV3lUb3RUbThoczhkakJGR2hZ?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790107200000
+    },
+    {
+      "competition": "epl",
+      "title": "Mikel Arteta agrees contract extension expected to keep him at Arsenal until 2030",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnJTdUNkQlI1YVZnWmNOZkdxRkhGaURDWVl1VDdrNXBCOTN1YkxtRWQwSnpHZldJSlJwcmFvdHdWREJBSmlEUUI3WGJsWENQMXp3cGVvTHdZeWxaeXhjamJwdS12YWFscnp4WjRRaHBsMWJKckoySWI3cjhTYzlsTkhpVTJVTmcybFFJT2N5Q3BHdXJrOWQ5VlcxX0JDN3BoUFE?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790105880000
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid go to war with LaLiga as they make damning ‘dishonest’ claim",
+      "publisher": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb24xUFRTak5IalFiLTk1ZmlUOFg0ZU9HTVcyQi03WXFyOTRlVjFyZjJzelFFV2E2eDE4QWRQdGtURzN3OE8tdGdJUVQ5eU5OZWhxOV8xUnFHQzk0aE01cEdpYVFiUTVtOFZldjNfMUd2MnVBSEl1NWR1Wlh4MVVyd0QtZmtlTzQ?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790105757000
+    },
+    {
+      "competition": "seriea",
+      "title": "De Bruyne claims he didn’t try to leave Napoli, but admits ‘a rough start to the season’",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wQ1pQWE5aNGhnc0RZUVViRFluUDh6Qjg5cFA0OFRJWTNvdUNkOU5iblNfc09YQW53aERRbzJ6cDRpdkU4ZVJYZWlKdFRIa3huLW9BaTZWaUl6cXVfUU9XRnp5cWJsVjU4SGVueERjWU5JVktWc0lTM3VsZnRsQQ?oc=5",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1790105700000
+    },
+    {
+      "competition": "ucl",
+      "title": "Arsenal 1-0 HB Koge commentary",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdW1McUpRMzBFOUZmS2ZLcm9DZ09ZQjRKMVQ2Z2VObDItUWpvMXdvUGhoVk5rTkFqVHRIZFd2M3h6UXYxZmNYRHNMdG9Yc0Z1RVBGN1lmMlYxNW5kSldiZGFMaXgwdmxnTmRZbFducGxsWmFDSTFZU3JuVnhkRjN3NG0xVDJGM01wOTE3Z2Q4b3UxeTItR2FESm5zSnNkZVNFYVFYR21hdGVqbjZxQlZOZXdGOGdaNC1ZYlE3RFRnZEhvVnk1Mk9BTUE0WElUSWZhXy1pYjBVa1FKcUZVdld2QVVjYjNVNTdTcjMw?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790105496000
+    },
+    {
+      "competition": "bundesliga",
+      "title": "Bayern Munich News: Tottenham, Man United, Barca still vying for Kane",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOWlRIa25MZU0tWXljRWVKUU1sLVBrV0hTd0hhMVFNYmlqS0wybUpOZHZFek40eVZEY012N0pfUVRUSjF2U2VkRHd3S1RfS2IwRFFqRkMxTkx2Rl9MR3I4bkVQUjMwZ0dLSEFfaU1TdXFYZXMxS2VJZFJYaFdFalZfWE00WF9RcXMzXzFTV1JDVG15REpmQlc3MFVneFQyMzk0VDVXbmVMQm5HWEpXQTh6dHZPMUJfYjBRbi0yOElyT1ZwdjZ6Q3hYSGtlMmFycm9Qc1dWSkdINUtyck50bm9xV3BOUXl0ZnhyaDl1dXYwR1lhRWlzTTlILVNnSHRwb0RvRmxDWVVqV3cxVFRWTzVrdi1kM3FZOGhGVk1XT3JSeTFBTGd5M2liV0pfUQ?oc=5",
+      "teams": [
+        "manutd",
+        "bayern",
+        "barcelona"
+      ],
+      "publishedAt": 1790105400000
+    },
+    {
+      "competition": "ucl",
+      "title": "Juventus vs Benfica: UEFA Women's Champions League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43MzFob1NpZXdPRThCNHN4S09qM1YxQXN6bUZ1Y1c4MnFVdFNCVWcwZmFTc3Ztbm5UNDJ5c1l6amFlSC1yRDV5MGRVOTVUSDkzMnI1ZDNFNWVtRDFGQm43WEc3RQ?oc=5",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790105150000
+    },
+    {
+      "competition": "ucl",
+      "title": "Man City salvages draw at Bayern Munich in return to the Women's Champions League. Arsenal wins late",
+      "publisher": "local10.com",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORGpTekhkQTJXV1MyNEVhdFBCNnlSSGpqY19YcHBGd1o3UEZHMXIzbVFmMHVjSkFMdUtld2tHNUQ0b25OWUJxZjlOVWN5VjdPbVU3d3VDTnVzYlI2ZzJkN01CY1ZDWS1lZi02b2lTRkpiSGFGN1UzaFpoa0pzRHdEa3JSb3llb0JNbW10S2pwMXRaYmlfYm90R0lDZzBhalRURXhZR3pxNWw5RVBTM3B1bXV1WkY0Q1F5aWhsM2VCWmkxeTFjS0xXbDZqZExJNU1TMHN5WEJ0VTc?oc=5",
+      "teams": [
+        "mancity",
+        "arsenal",
+        "bayern"
+      ],
+      "publishedAt": 1790105126000
+    },
+    {
+      "competition": "ucl",
+      "title": "Real Madrid vs Paris Saint-Germain: UEFA Women's Champions League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53VE1ieWRPVk9HakFWSDljTFcwWHB5U2xqM1BCcWdIWGZzWDh1V3FoNWx3SDJtVzVGTVBIRW1YQVpOSUk2bnNvRjhMX092ajMtTThpV2xOVFZJSTFUN3BJd0EyTQ?oc=5",
+      "teams": [
+        "psg",
+        "realmadrid"
+      ],
+      "publishedAt": 1790104850000
+    },
+    {
+      "competition": "epl",
+      "title": "Arteta to sign fresh deal, Liverpool set to appoint new sporting director",
+      "publisher": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1htT215MUZGSUNHbFdWcWdXcnhnUXlqaFBwV0dNZkQxNUUzRXlkSkQyWW9NUHU2ZTIyNnJhV2pIcjM1ZS16ZEtWWndDd0FETVYxMnU2bnhuZDVYVnloN3dab05MQVhCeV9fOVlMZmpIZjlSbEd4bS1fRGF1YXV6QWRjRkwwM2FLcVdaRG9OSTNFOGY5T0x6TVJaQndrNzJReGQwQg?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790104805000
+    },
+    {
+      "competition": "epl",
+      "title": "'Not Only Arteta' - Fabrizio Romano Reveals Further Arsenal Agreement 'Done'",
+      "publisher": "GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWnFRN1c4TDNYTThQRW5lQnVWc3NYc05ERkx0RzhLTlhSa1p6dk9XNWNjQ2ptWUhqVDZjOEVpWm9UTkRuNE8yaEJZZFlPTUhPS1ZaUVktMVNfX1dYbE5lNkdKblZtd2VOTXlBVkpEOFdjb0NJUHFkNEZ2VFdQMW1FUEMwQQ?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790104642000
+    }
+  ]
 }
