@@ -186,8 +186,13 @@ async function main() {
     return true;
   });
 
-  // Only stories about teams on this board.
-  const tagged = items.filter((it) => it.teams.length);
+  /* The board is men's fixtures, but the same club names run women's teams
+     and Google returns both. A brief where half the items are about a
+     competition nobody on this page can bet on is a worse brief. */
+  const OTHER_COMP = /\b(women'?s?|wsl|uwcl|femenino|feminin|frauen|u1[5-9]|u2[0-3]|youth|academy)\b/i;
+
+  // Only stories about teams on this board, and only the competition it covers.
+  const tagged = items.filter((it) => it.teams.length && !OTHER_COMP.test(it.title));
   tagged.sort((a, b) => (b.publishedAt || 0) - (a.publishedAt || 0));
 
   const out = {

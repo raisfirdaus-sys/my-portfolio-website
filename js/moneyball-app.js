@@ -34,7 +34,7 @@
     return (v > 0 ? '+' : '') + s + '%';
   }
   function rupiah(v) {
-    return 'Rp ' + Math.round(v).toLocaleString('id-ID');
+    return 'Rp ' + Math.round(v).toLocaleString('en-US');
   }
   function fmtOdds(dec) {
     if (dec == null) return '--';
@@ -128,7 +128,7 @@
     var box = $('reality');
     box.innerHTML = '';
     var an = analysesForSlate();
-    if (!an.length) { box.textContent = 'Tidak ada pertandingan di jadwal ini.'; return; }
+    if (!an.length) { box.textContent = 'No fixtures on this schedule.'; return; }
 
     // average two-way margin actually on offer in this slate
     var vigs = [];
@@ -151,23 +151,23 @@
     var nLegs = chosen.length;
 
     box.className = 'notice ' + (avgVig > 0.07 ? 'bad' : 'notice');
-    var h = el('h3'); h.textContent = 'Matematika jadwal ini, sebelum pilih apa pun';
+    var h = el('h3'); h.textContent = 'The maths of this schedule, before you pick anything';
     box.appendChild(h);
 
     var rows = [
-      ['Margin bandar rata-rata per leg (Handicap & O/U)', pct(avgVig, 2),
-       avgVig > 0.07 ? 'sangat mahal - pasar likuiditas rendah'
-                     : 'wajar untuk pasar Asia'],
-      ['Pertandingan dengan input xG', withStats + ' dari ' + an.length,
-       withStats === 0 ? 'model = pasar, EV nol sampai Anda isi statistik'
+      ['Average bookmaker margin per leg (Handicap & O/U)', pct(avgVig, 2),
+       avgVig > 0.07 ? 'very expensive - a thin market'
+                     : 'normal for an Asian market'],
+      ['Fixtures with xG entered', withStats + ' of ' + an.length,
+       withStats === 0 ? 'model = market, EV is zero until you enter statistics'
          : origins.user === 0
-           ? 'semuanya masih angka contoh bawaan, BUKAN data asli'
-           : origins.user + ' tim sudah Anda isi sendiri, ' + origins.seed + ' tim masih angka contoh'],
+           ? 'all still the shipped placeholders, NOT real data'
+           : origins.user + ' teams you filled in yourself, ' + origins.seed + ' teams still on placeholders'],
     ];
     if (sim) {
-      rows.push(['Parlay ' + nLegs + ' leg terbaik yang bisa disusun di sini',
+      rows.push(['Parlay ' + nLegs + '-leg parlay, the best that can be built here',
         'EV ' + signPct(sim.ev, 1),
-        'harapan cair ' + sim.expectedReturn.toFixed(3) + 'x, peluang untung ' + pct(sim.pProfit, 2)]);
+        'harapan cair ' + sim.expectedReturn.toFixed(3) + 'x, chance of profit ' + pct(sim.pProfit, 2)]);
     }
     rows.forEach(function (r) {
       var p = el('p');
@@ -198,26 +198,26 @@
       var warnThin = el('p');
       warnThin.style.cssText = 'margin-top:8px;padding:9px 11px;border-radius:5px;' +
         'background:var(--surface-3);border-left:4px solid var(--critical)';
-      warnThin.innerHTML = '<strong>EV positif di atas belum bisa dipercaya.</strong> ' +
+      warnThin.innerHTML = '<strong>The positive EV above cannot be trusted yet.</strong> ' +
         (thinLegs.length
-          ? 'Ada <strong>' + thinLegs.length + ' tim</strong> di tiket ini yang datanya baru ' +
-            '<strong>kurang dari 4 laga</strong> (' +
+          ? 'Ada <strong>' + thinLegs.length + ' teams</strong> on this ticket whose data covers ' +
+            '<strong>fewer than 4 matches</strong> (' +
             thinLegs.slice(0, 4).map(function (k) { return team(k).name; }).join(', ') +
             (thinLegs.length > 4 ? ', &hellip;' : '') + '). '
           : '') +
         (farLegs.length
-          ? '<strong>' + farLegs.length + ' laga</strong> di tiket ini modelnya berbeda lebih dari ' +
-            '25% dari harga bandar, yang berarti inputnya yang meragukan, bukan bandarnya. '
+          ? '<strong>' + farLegs.length + ' fixtures</strong> on this ticket where the model differs by more than ' +
+            '25% from the bookmaker price, which points at doubtful inputs rather than a doubtful bookmaker. '
           : '') +
         (thinLegs.length
-          ? 'Sampel sekecil itu membuat satu pertandingan bagus terlihat seperti keunggulan permanen. '
-          : 'Selisih sebesar itu hampir selalu berarti angka yang masuk masih angka contoh, bukan ' +
+          ? 'A sample that small makes one good match look like a permanent edge. '
+          : 'A gap that size almost always means the numbers going in are still placeholders, not ' +
             'pengukuran. ') +
-        '<strong>Tidak ada parlay ' + nLegs + ' leg yang benar-benar ber-EV positif</strong> ' +
-        '&mdash; kalau angka ini mengatakan sebaliknya, yang salah angkanya. ' +
+        '<strong>No ' + nLegs + '-leg parlay genuinely carries positive EV</strong> ' +
+        '&mdash; if this number says otherwise, the number is what is wrong. ' +
         (thinLegs.length
-          ? 'Tambah jumlah laga tiap tim sampai 4&ndash;5, lalu baca ulang.'
-          : 'Isi statistik asli untuk laga-laga itu, lalu baca ulang.');
+          ? 'Raise each team match count to 4&ndash;5, then read it again.'
+          : 'Enter real statistics for those fixtures, then read it again.');
       box.appendChild(warnThin);
     }
 
@@ -225,22 +225,22 @@
       var warn = el('p');
       warn.style.cssText = 'margin-top:8px;padding:9px 11px;border-radius:5px;' +
         'background:var(--surface-3);border-left:4px solid var(--critical)';
-      warn.innerHTML = '<strong>Jangan pasang berdasarkan angka ini.</strong> EV positif di atas ' +
-        'muncul dari statistik <em>contoh</em> yang saya isi supaya alat ini bisa jalan, bukan dari ' +
-        'data pertandingan sungguhan. Angka contoh yang kebetulan tidak setuju dengan bandar akan ' +
-        'selalu terlihat seperti peluang. Ganti dulu xG, xA, tembakan, foul, tekel dan kartu di form ' +
-        '<em>Input Statistik</em> dengan data asli dari WhoScored / FBref / Understat &mdash; sebelum itu, ' +
-        'satu-satunya angka di halaman ini yang benar-benar nyata adalah margin bandar dan jenis garisnya.';
+      warn.innerHTML = '<strong>Do not bet on these numbers.</strong> The positive EV above ' +
+        'comes from the <em>placeholder</em> statistics shipped so the tool would run at all, not from ' +
+        'real match data. A placeholder that happens to disagree with the bookmaker will ' +
+        'always look like an opportunity. Replace xG, xA, shots, fouls, tackles and cards in the ' +
+        '<em>Statistics Input</em> form with real data from WhoScored / FBref / Understat first &mdash; until then, ' +
+        'the only genuinely real figures on this page are the bookmaker margin and the line types.';
       box.appendChild(warn);
     }
 
     if (sim) {
       var p2 = el('p');
-      p2.innerHTML = '<strong>Konsekuensinya:</strong> tiap leg tambahan mengalikan margin bandar sekali lagi. ' +
-        'Dengan margin ' + pct(avgVig, 1) + ' per leg, ' + nLegs + ' leg menahan sekitar <span class="fig">' +
-        pct(Math.pow(1 - avgVig, nLegs), 1) + '</span> dari stake sebelum hasil pertandingan dihitung. ' +
-        'Alat ini tidak bisa mengubah itu &mdash; yang bisa dilakukan: memilih leg dengan margin terkecil, ' +
-        'menolak garis kuartal, dan menunjukkan angka aslinya.';
+      p2.innerHTML = '<strong>What that costs:</strong> every extra leg multiplies the bookmaker margin once more. ' +
+        'At ' + pct(avgVig, 1) + ' per leg, ' + nLegs + ' leg menahan sekitar <span class="fig">' +
+        pct(Math.pow(1 - avgVig, nLegs), 1) + '</span> of the stake before a single result is counted. ' +
+        'This tool cannot change that &mdash; what it can do: choose the legs with the smallest margin, ' +
+        'refuse quarter lines, and show you the real numbers.';
       box.appendChild(p2);
     }
   }
@@ -253,7 +253,7 @@
     var list = $('fx-list'); if (!list) return;
     list.innerHTML = '';
     var fxs = slateFixtures(STATE.slate);
-    var cnt = $('fx-count'); if (cnt) cnt.textContent = fxs.length + ' laga';
+    var cnt = $('fx-count'); if (cnt) cnt.textContent = fxs.length + ' matches';
     var lastLeague = null;
     fxs.forEach(function (fx) {
       if (fx.league !== lastLeague) {
@@ -271,7 +271,7 @@
       btn.appendChild(t);
       var badge = el('span', 'fx-badge');
       if (a && a.best) { badge.textContent = signPct(a.best.ev, 0); badge.classList.add('prime'); }
-      else if (a) { badge.textContent = a.statsMissing ? 'pasar' : 'netral'; }
+      else if (a) { badge.textContent = a.statsMissing ? 'market' : 'neutral'; }
       btn.appendChild(badge);
       btn.addEventListener('click', function () {
         STATE.fixtureId = fx.id; renderFixtures(); renderMatchCentre();
@@ -374,14 +374,14 @@
 
     var cnt = $('board-count');
     if (cnt) {
-      cnt.textContent = fxs.length + ' laga' +
-        (STATE.boardAll ? ' — semua jadwal' : '');
+      cnt.textContent = fxs.length + ' matches' +
+        (STATE.boardAll ? ' — all schedules' : '');
     }
 
     var head = el('div', 'board-head');
     head.innerHTML = '<span>Waktu</span><span>Pertandingan</span>' +
       '<span class="num">Handicap</span><span class="num">Atas / Bawah</span>' +
-      '<span class="num">1 &middot; X &middot; 2</span><span>Pilihan model</span>';
+      '<span class="num">1 &middot; X &middot; 2</span><span>Model pick</span>';
     host.appendChild(head);
 
     var lastLeague = null, lastSlate = null;
@@ -394,7 +394,7 @@
         if (STATE.boardAll && (fx.slate || 1) !== lastSlate) {
           lastSlate = fx.slate || 1;
           var sl = (DATA.meta.slates || {})[String(lastSlate)] || '';
-          label = (sl.split(' - ')[0] || ('Jadwal ' + lastSlate)) + ' · ' + label;
+          label = (sl.split(' - ')[0] || ('Schedule ' + lastSlate)) + ' · ' + label;
         }
         host.appendChild(el('div', 'board-group', label));
       }
@@ -447,16 +447,16 @@
           '<span class="meta">' + fmtOdds(a.best.odds) + ' · bayar penuh ' +
           pct(cw, 1) + ' · vig ' + pct(a.best.vig || 0, 2) + '</span>';
       } else if (a && a.statsMissing) {
-        pick.innerHTML = '<span class="meta">ikut harga bandar</span>';
+        pick.innerHTML = '<span class="meta">following the bookmaker</span>';
       } else if (a && a.divergence > 0.25) {
         /* The guard fired: the model disagrees with the market by more than
            a quarter. On that much disagreement the inputs are the likely
            culprit, not the market, so no leg is promoted. Saying only
-           "tidak ada" made that look like a fault. */
-        pick.innerHTML = '<span class="meta">model beda <strong>' +
-          pct(a.divergence, 0) + '</strong> dari pasar<br />terlalu jauh \u2014 tidak ada yang dipilih</span>';
+           "none" made that look like a fault. */
+        pick.innerHTML = '<span class="meta">model differs by <strong>' +
+          pct(a.divergence, 0) + '</strong> from the market<br />too far &mdash; nothing selected</span>';
       } else {
-        pick.innerHTML = '<span class="meta">tidak ada yang layak</span>';
+        pick.innerHTML = '<span class="meta">nothing worth taking</span>';
       }
       row.appendChild(pick);
 
@@ -484,7 +484,7 @@
   function renderBoardTools() {
     var host = $('board-tools'); if (!host) return;
     host.innerHTML = '';
-    [['Jadwal ini', false], ['Semua ' + DATA.fixtures.length + ' laga', true]]
+    [['This schedule', false], ['All ' + DATA.fixtures.length + ' matches', true]]
       .forEach(function (opt) {
         var b = el('button', 'chip', opt[0]);
         b.type = 'button';
@@ -622,14 +622,14 @@
      A ranking that quietly mixes measured and invented numbers is worse
      than no ranking at all. */
   var TT_CATS = [
-    ['xG dibuat',        'xgF',     'desc', 2, 'Peluang yang diciptakan per laga.'],
-    ['xG dikebobolan',   'xgA',     'asc',  2, 'Makin kecil makin baik: peluang yang diberikan ke lawan.'],
-    ['Gol per laga',     'goals',   'desc', 2, 'Gol sungguhan, bukan harapan.'],
-    ['Tembakan',         'shots',   'desc', 1, 'Total percobaan per laga.'],
-    ['Tepat sasaran',    'sot',     'desc', 1, 'Percobaan yang mengarah ke gawang.'],
-    ['Tekel',            'tackles', 'desc', 1, 'Tekel per laga.'],
-    ['Pelanggaran',      'fouls',   'asc',  1, 'Makin kecil makin disiplin.'],
-    ['Kartu kuning',     'yellow',  'desc', 2, 'Per laga. Tinggi = risiko kartu merah ikut naik.']
+    ['xG created',        'xgF',     'desc', 2, 'Chances created per match.'],
+    ['xG conceded',   'xgA',     'asc',  2, 'Lower is better: chances handed to the opposition.'],
+    ['Goals per match',     'goals',   'desc', 2, 'Real goals, not expected ones.'],
+    ['Tembakan',         'shots',   'desc', 1, 'Total attempts per match.'],
+    ['Tepat sasaran',    'sot',     'desc', 1, 'Attempts that were on target.'],
+    ['Tackles',            'tackles', 'desc', 1, 'Tackles per match.'],
+    ['Fouls',      'fouls',   'asc',  1, 'Makin kecil makin disiplin.'],
+    ['Kartu kuning',     'yellow',  'desc', 2, 'Per match. Higher also lifts red-card risk.']
   ];
 
   function ttRows(field, dir, onlyReal) {
@@ -666,17 +666,17 @@
     var sub = $('tt-sub');
     if (sub) {
       sub.textContent = onlyReal
-        ? realCount + ' tim dengan data Anda'
-        : withAny + ' tim, sebagian besar angka contoh';
+        ? realCount + ' teams with your data'
+        : withAny + ' teams, mostly placeholder numbers';
     }
 
     if (onlyReal && realCount < 3) {
       var empty = el('div', 'notice');
-      empty.innerHTML = '<h3>Baru ' + realCount + ' tim yang punya data asli</h3>' +
-        '<p>Peringkat baru berarti setelah beberapa tim terisi. Isi lewat <strong>Input ' +
-        'Statistik</strong> di bawah, atau tekan &ldquo;Ikutkan angka contoh&rdquo; untuk ' +
-        'melihat bentuk tabelnya &mdash; tapi angka contoh itu <strong>bukan pengukuran</strong>, ' +
-        'jadi jangan dipakai untuk memilih taruhan.</p>';
+      empty.innerHTML = '<h3>Only ' + realCount + ' teams have real data</h3>' +
+        '<p>A ranking only means something once several teams are filled in. Use <strong>Statistics ' +
+        'Input</strong> below, or press &ldquo;Include placeholders&rdquo; to ' +
+        'see the shape of the table &mdash; but those placeholders are <strong>not measurements</strong>, ' +
+        'so do not choose bets with them.</p>';
       host.appendChild(empty);
       if (realCount === 0) return;
     }
@@ -705,7 +705,7 @@
   function renderTopTeamTools() {
     var host = $('tt-tools'); if (!host) return;
     host.innerHTML = '';
-    [['Hanya data asli', true], ['Ikutkan angka contoh', false]].forEach(function (opt) {
+    [['Real data only', true], ['Include placeholders', false]].forEach(function (opt) {
       var b = el('button', 'chip', opt[0]);
       b.type = 'button';
       b.setAttribute('aria-pressed', (STATE.ttOnlyReal !== false) === opt[1] ? 'true' : 'false');
@@ -743,7 +743,7 @@
     var sw1 = el('span', 'mc-swatch'); sw1.style.background = 'var(--series-home)';
     hh.appendChild(sw1); hh.appendChild(el('span', null, a.home.name));
     var lam = el('div', 'mc-lam');
-    lam.innerHTML = '<div class="cap">Gol harapan</div><div class="big">' +
+    lam.innerHTML = '<div class="cap">Expected goals</div><div class="big">' +
       a.lambdas.home.toFixed(2) + ' &ndash; ' + a.lambdas.away.toFixed(2) + '</div>' +
       '<div class="cap">Babak 1: ' + a.lambdas.home1h.toFixed(2) + ' &ndash; ' +
       a.lambdas.away1h.toFixed(2) + '</div>';
@@ -758,7 +758,7 @@
     var o = a.outright;
     var strip = el('div', 'prob-strip');
     [[o.home, 'var(--series-home)', a.home.name],
-     [o.draw, 'var(--text-muted)', 'Seri'],
+     [o.draw, 'var(--text-muted)', 'Draw'],
      [o.away, 'var(--series-away)', a.away.name]].forEach(function (r) {
       var seg = el('div', 'prob-seg');
       seg.style.flex = String(Math.max(r[0], 0.02));
@@ -774,51 +774,51 @@
     var leg = el('div', 'prob-legend');
     leg.innerHTML =
       '<span><i style="background:var(--series-home)"></i>' + a.home.name + ' ' + pct(o.home, 1) + '</span>' +
-      '<span><i style="background:var(--text-muted)"></i>Seri ' + pct(o.draw, 1) + '</span>' +
+      '<span><i style="background:var(--text-muted)"></i>Draw ' + pct(o.draw, 1) + '</span>' +
       '<span><i style="background:var(--series-away)"></i>' + a.away.name + ' ' + pct(o.away, 1) + '</span>' +
-      '<span><i style="background:var(--seq-400)"></i>Kedua tim cetak gol ' + pct(o.btts, 1) + '</span>';
+      '<span><i style="background:var(--seq-400)"></i>Both teams to score ' + pct(o.btts, 1) + '</span>';
     wrap.appendChild(leg);
 
     /* --- market anchor readout ---------------------------------------- */
-    $('mw-val').textContent = (STATE.marketWeight * 100).toFixed(0) + '% pasar / ' +
-      (100 - STATE.marketWeight * 100).toFixed(0) + '% statistik';
+    $('mw-val').textContent = (STATE.marketWeight * 100).toFixed(0) + '% market / ' +
+      (100 - STATE.marketWeight * 100).toFixed(0) + '% statistics';
     var note = $('mw-note');
     var mwInput = $('mw');
     var userStats = fixtureHasUserStats(a.fixture);
     mwInput.disabled = !userStats;
     mwInput.style.opacity = userStats ? '1' : '0.4';
     if (!userStats) {
-      $('mw-val').textContent = '100% pasar (terkunci)';
+      $('mw-val').textContent = '100% market (locked)';
       var whoMissing = [];
       if (statOrigin(a.fixture.home) !== 'user') whoMissing.push(a.home.name);
       if (statOrigin(a.fixture.away) !== 'user') whoMissing.push(a.away.name);
-      note.innerHTML = '<strong>Slider ini mati untuk laga ini sampai <em>kedua</em> tim Anda isi.</strong> ' +
-        'Belum diisi: <span class="fig">' + whoMissing.join(' dan ') + '</span>. ' +
-        'Satu tim dengan xG asli melawan satu tim dengan angka contoh bukan perbandingan, ' +
-        'itu salah kaprah &mdash; jadi laga ini tetap memakai probabilitas pasar dan EV-nya ' +
-        'hanyalah margin bandar. Kuncinya per laga, bukan per jadwal: mengisi satu pertandingan ' +
-        'tidak akan membuka pengaruh model di pertandingan lain yang masih pakai angka contoh.';
+      note.innerHTML = '<strong>This slider stays dead for this fixture until <em>both</em> teams are filled in.</strong> ' +
+        'Not filled in: <span class="fig">' + whoMissing.join(' and ') + '</span>. ' +
+        'A team with real xG against a team on placeholders is not a comparison, ' +
+        'it is a category error &mdash; so this fixture keeps market probabilities and its EV ' +
+        'is only the bookmaker margin. The gate is per fixture, not per schedule: filling one match ' +
+        'does not unlock model influence on any other match still running on placeholders.';
     } else if (a.statsMissing) {
-      note.innerHTML = '<strong>Statistik tim belum diisi.</strong> Model dipaksa 100% mengikuti pasar, ' +
-        'jadi EV nol di mana-mana &mdash; itu jawaban yang benar, bukan kegagalan. ' +
-        'Isi xG di form di bawah supaya model punya pendapat sendiri.';
+      note.innerHTML = '<strong>No team statistics entered.</strong> The model is pinned 100% to the market, ' +
+        'so EV is zero everywhere &mdash; that is the correct answer, not a failure. ' +
+        'Enter xG in the form below to give the model an opinion of its own.';
     } else if (statOrigin(a.fixture.home) !== 'user' && statOrigin(a.fixture.away) !== 'user') {
-      note.innerHTML = '<strong style="color:var(--critical)">Statistik laga ini masih angka contoh, ' +
-        'bukan data asli.</strong> Setiap EV di bawah adalah konsekuensi dari angka yang saya karang ' +
-        'agar alat bisa dijalankan. Ganti di form Input Statistik dulu.<br />Model murni: <span class="fig">' +
+      note.innerHTML = '<strong style="color:var(--critical)">This fixture still runs on placeholder statistics, ' +
+        'not real data.</strong> Every EV below follows from numbers invented ' +
+        'so the tool would run. Replace them in the Statistics Input form first.<br />Pure model: <span class="fig">' +
         a.lambdas.rawHome.toFixed(2) + ' &ndash; ' + a.lambdas.rawAway.toFixed(2) +
-        '</span>, tersirat dari harga <span class="fig">' +
+        '</span>, implied by the price <span class="fig">' +
         (a.lambdas.impliedHome != null ? a.lambdas.impliedHome.toFixed(2) : '--') + ' &ndash; ' +
         (a.lambdas.impliedAway != null ? a.lambdas.impliedAway.toFixed(2) : '--') +
         '</span>, selisih <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') + '</span>.';
     } else {
       note.innerHTML = 'Model murni: <span class="fig">' + a.lambdas.rawHome.toFixed(2) + ' &ndash; ' +
-        a.lambdas.rawAway.toFixed(2) + '</span>. Tersirat dari harga: <span class="fig">' +
+        a.lambdas.rawAway.toFixed(2) + '</span>. Implied by the price: <span class="fig">' +
         (a.lambdas.impliedHome != null ? a.lambdas.impliedHome.toFixed(2) : '--') + ' &ndash; ' +
         (a.lambdas.impliedAway != null ? a.lambdas.impliedAway.toFixed(2) : '--') +
         '</span>. Selisih <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') +
         '</span>' + (a.divergence > 0.25
-          ? ' &mdash; terlalu jauh. Di atas 25% biasanya input yang salah, bukan bandar yang salah, jadi tidak ada baris yang dipromosikan ke pilihan utama.'
+          ? ' &mdash; too far. Above 25% it is usually the inputs that are wrong rather than the bookmaker, so no row is promoted to the main pick.'
           : '.');
     }
 
@@ -837,10 +837,10 @@
     ['xA',      'Expected assist',  1],
     ['shots',   'Tembakan',         0],
     ['sot',     'Tepat sasaran',    1],
-    ['bigMiss', 'Peluang terbuang', 1],
-    ['xgA',     'xG dikebobolan',   1],
-    ['fouls',   'Pelanggaran',      1],
-    ['tackles', 'Tekel',            1],
+    ['bigMiss', 'Big chances missed', 1],
+    ['xgA',     'xG conceded',   1],
+    ['fouls',   'Fouls',      1],
+    ['tackles', 'Tackles',            1],
     ['yellow',  'Kartu kuning',     1],
     ['red',     'Kartu merah',      2]
   ];
@@ -850,10 +850,10 @@
     var H = effStats(a.fixture.home), A = effStats(a.fixture.away);
     if (H.statsMissing || A.statsMissing) {
       var warnBox = el('div', 'notice');
-      warnBox.innerHTML = '<h3>Belum ada data statistik untuk laga ini</h3>' +
-        '<p>Perbandingan xG / xA / tembakan / foul / tekel / kartu butuh angka asli. ' +
-        'Ambil dari WhoScored, FBref atau Understat, lalu isi di form <em>Input Statistik</em> di bawah. ' +
-        'Sampai itu diisi, tabel nilai hanya mencerminkan harga bandar.</p>';
+      warnBox.innerHTML = '<h3>No statistics for this fixture yet</h3>' +
+        '<p>Comparing xG / xA / shots / fouls / tackles / cards needs real numbers. ' +
+        'Take them from WhoScored, FBref or Understat and enter them in the <em>Statistics Input</em> form below. ' +
+        'Until that is done, the value table only mirrors the bookmaker price.</p>';
       box.appendChild(warnBox);
       $('mc-stats-table').innerHTML = '';
       return;
@@ -890,18 +890,18 @@
     var t = el('div', 'table-scroll'); t.style.marginTop = '12px';
     var rows = [
       ['xG per tembakan', ph.xgPerShot.toFixed(3), pa.xgPerShot.toFixed(3),
-        'Kualitas peluang. Liga biasanya 0.105.'],
+        'Chance quality. The league runs around 0.105.'],
       ['Rasio tepat sasaran', pct(ph.sotRate, 1), pct(pa.sotRate, 1), 'Normal sekitar 33%.'],
       ['Koreksi penyelesaian', ph.finAdj.toFixed(3), pa.finAdj.toFixed(3),
-        'Gol dibagi xG, diregress kuat ke 1 (prior 38 laga) dan didenda peluang terbuang.'],
-      ['Keterulangan (dari xA)', ph.repeatability.toFixed(3), pa.repeatability.toFixed(3),
-        'xA mendekati xG = peluang dari struktur permainan, lebih berulang.'],
+        'Goals over xG, regressed hard toward 1 (38-match prior) and penalised for big chances missed.'],
+      ['Repeatability (from xA)', ph.repeatability.toFixed(3), pa.repeatability.toFixed(3),
+        'xA close to xG means chances come from open-play structure, which repeats.'],
       ['Intensitas bertahan', ph.defIntensity.toFixed(3), pa.defIntensity.toFixed(3),
         'Tekel menekan xG lawan, foul menambah bahaya bola mati. Dibatasi +/-12%.'],
       ['Risiko kartu merah', pct(ph.pRed, 1), pct(pa.pRed, 1),
-        'Dari foul, kuning dan riwayat merah. Merah menggeser gol harapan kedua tim.'],
+        'From fouls, yellows and red-card history. A red shifts expected goals for both sides.'],
       ['Bobot rating (sampel)', ph.ratingWeight.toFixed(2), pa.ratingWeight.toFixed(2),
-        '0 = ikut rata-rata liga, 1 = percaya penuh xG tim. Naik seiring jumlah laga.']
+        '0 = follow the league average, 1 = trust the team xG fully. Rises with the match count.']
     ];
     var html = '<table class="mb"><thead><tr><th>Turunan model</th><th style="text-align:right">' +
       a.home.name + '</th><th style="text-align:right">' + a.away.name + '</th><th>Arti</th></tr></thead><tbody>';
@@ -934,7 +934,7 @@
 
     var side = t > 0 ? a.home.name : a.away.name;
     out.textContent = t === 0
-      ? 'netral \u2014 ikut harga bandar'
+      ? 'neutral &mdash; follow the bookmaker'
       : (t > 0 ? '+' : '') + (t * 100).toFixed(0) + '%  condong ke ' + side;
 
     /* market view versus the view after the adjustment, side by side */
@@ -942,22 +942,22 @@
       { marketWeight: slateHasUserStats() ? STATE.marketWeight : 1, calibration: CALIB, tilt: 0 });
     var b = base.outright, o = a.outright;
 
-    var html = '<strong>Ini tempat pengetahuan bola Anda masuk.</strong> Model tidak tahu soal ' +
-      'ganti pelatih, skuad penuh bintang, atau tim yang sedang terluka harga dirinya. ' +
-      'Geser slider kalau Anda menilai satu tim lebih kuat daripada yang dihargai bandar, ' +
-      'dan seluruh halaman &mdash; tiap pasar, EV, sampai pembangun parlay &mdash; ikut berubah.';
+    var html = '<strong>This is where your football knowledge goes in.</strong> The model knows nothing about ' +
+      'a new manager, a squad full of stars, or a side with its pride wounded. ' +
+      'Move the slider if you rate one team above what the bookmaker prices, ' +
+      'and the whole page &mdash; every market, every EV, down to the parlay builder &mdash; moves with it.';
     if (t !== 0) {
-      html += '<br /><span class="fig">Pasar:</span> ' + a.home.name + ' ' + pct(b.home, 0) +
-        ' / seri ' + pct(b.draw, 0) + ' / ' + a.away.name + ' ' + pct(b.away, 0) +
-        ' &nbsp;&rarr;&nbsp; <span class="fig">Setelah penilaian Anda:</span> ' +
-        a.home.name + ' ' + pct(o.home, 0) + ' / seri ' + pct(o.draw, 0) + ' / ' +
+      html += '<br /><span class="fig">Market:</span> ' + a.home.name + ' ' + pct(b.home, 0) +
+        ' / draw ' + pct(b.draw, 0) + ' / ' + a.away.name + ' ' + pct(b.away, 0) +
+        ' &nbsp;&rarr;&nbsp; <span class="fig">After your judgement:</span> ' +
+        a.home.name + ' ' + pct(o.home, 0) + ' / draw ' + pct(o.draw, 0) + ' / ' +
         a.away.name + ' ' + pct(o.away, 0) +
-        '<br />Gol harapan ' + base.lambdas.home.toFixed(2) + '\u2013' + base.lambdas.away.toFixed(2) +
+        '<br />Expected goals ' + base.lambdas.home.toFixed(2) + '\u2013' + base.lambdas.away.toFixed(2) +
         ' &rarr; <span class="fig">' + a.lambdas.home.toFixed(2) + '\u2013' + a.lambdas.away.toFixed(2) +
-        '</span>. Tabel di bawah sekarang diurutkan menurut EV, karena Anda sudah memberi model ' +
-        'informasi yang tidak ada di harga.';
+        '</span>. The table below now sorts by EV, because you have given the model ' +
+        'information the price does not contain.';
     } else {
-      html += '<br />Selama nol, EV di bawah hanyalah margin bandar dan tabel diurutkan menurut bayar-penuh.';
+      html += '<br />While it sits at zero, the EV below is only the bookmaker margin and the table sorts by full-payout.';
     }
     note.innerHTML = html;
   }
@@ -1020,9 +1020,9 @@
   function applyPastedPage(text, out) {
     var key = teamKeyFromPageText(text);
     if (!key) {
-      out.innerHTML = '<div class="notice bad"><h3>Tim-nya tidak terbaca dari halaman ini</h3>' +
-        '<p>Yang tertempel bukan JSON, jadi saya coba baca sebagai halaman statistik &mdash; ' +
-        'tapi tidak ada nama tim yang saya kenal di dalamnya. Pastikan seluruh halaman tersalin ' +
+      out.innerHTML = '<div class="notice bad"><h3>No team could be read from this page</h3>' +
+        '<p>What you pasted is not JSON, so it was read as a statistics page &mdash; ' +
+        'but it holds no team name this site recognises. Make sure the whole page was copied ' +
         '(Ctrl+A lalu Ctrl+C), termasuk judul di bagian atas.</p></div>';
       return;
     }
@@ -1032,10 +1032,10 @@
     try { parsed = E.parseTeamStats(text, { matchesFallback: known }); } catch (e) {}
     if (!parsed || parsed.error || !parsed.matches) {
       out.innerHTML = '<div class="notice bad"><h3>Halaman ' + team(key).name +
-        ' terbaca, tapi jumlah laganya tidak</h3><p>' +
-        ((parsed && parsed.error) || 'Jumlah laga tidak ketemu.') + '</p>' +
+        ' was read, but its match count was not</h3><p>' +
+        ((parsed && parsed.error) || 'Match count not found.') + '</p>' +
         (parsed && parsed.sample
-          ? '<p class="stat-note">Yang saya baca dari tempelan itu: <code>' +
+          ? '<p class="stat-note">What was actually read from that paste: <code>' +
             parsed.sample.replace(/</g, '&lt;') + '</code></p>'
           : '') + '</div>';
       return;
@@ -1046,16 +1046,16 @@
     saveOverrides();
 
     var miss = parsed._missing || [];
-    var html = '<div class="notice ok"><h3>' + team(key).name + ' terisi dari halaman statistik</h3>' +
-      '<p>' + parsed.matches + ' laga' +
-      (parsed._matchesFromCaller ? ' (angka ini dari kotak, bukan dari halaman)' : '') + '. xG ' + (parsed.xgF != null ? parsed.xgF : '?') +
-      ', xGA ' + (parsed.xgA != null ? parsed.xgA : '?') + ' per laga.' +
-      (miss.length ? ' Tidak ada di halaman itu: ' + miss.join(', ') + '.' : ' Semua field terisi.') +
+    var html = '<div class="notice ok"><h3>' + team(key).name + ' filled from a statistics page</h3>' +
+      '<p>' + parsed.matches + ' matches' +
+      (parsed._matchesFromCaller ? ' (that figure came from the box, not the page)' : '') + '. xG ' + (parsed.xgF != null ? parsed.xgF : '?') +
+      ', xGA ' + (parsed.xgA != null ? parsed.xgA : '?') + ' per match.' +
+      (miss.length ? ' Not on that page: ' + miss.join(', ') + '.' : ' Every field filled.') +
       '</p>' +
       (parsed.matches < 4
-        ? '<p class="stat-note" style="color:var(--warning)">Baru ' + parsed.matches +
-          ' laga &mdash; terlalu sedikit untuk dipercaya sendirian. Model akan tetap ' +
-          'condong ke harga pasar sampai angkanya bertambah.</p>'
+        ? '<p class="stat-note" style="color:var(--warning)">Only ' + parsed.matches +
+          ' matches &mdash; too few to stand alone. The model will keep ' +
+          'leaning on the market price until that count grows.</p>'
         : '') +
       '</div>';
     renderAll();
@@ -1072,9 +1072,9 @@
     try { parsed = E.parseManyTeams(trimmed); } catch (e) { parsed = null; }
     if (!parsed) { applyPastedPage(trimmed, out); return; }
     if (parsed.error) {
-      out.innerHTML = '<div class="notice bad"><h3>JSON terbaca, tapi tidak ada statistik di dalamnya</h3>' +
-        '<p>' + parsed.error + ' Paling sering karena <code>include=statistics.details.type</code> ' +
-        'hilang dari URL, atau liga itu di luar paket Anda sehingga yang kembali hanya nama tim.</p></div>';
+      out.innerHTML = '<div class="notice bad"><h3>The JSON parsed, but carries no statistics</h3>' +
+        '<p>' + parsed.error + ' Most often because <code>include=statistics.details.type</code> ' +
+        'is missing from the URL, or that league sits outside your plan so only team names came back.</p></div>';
       return;
     }
 
@@ -1106,15 +1106,15 @@
     var stillMissing = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
 
     var html = '<div class="notice ' + (filled.length ? 'ok' : '') + '">' +
-      '<h3>' + parsed.teams.length + ' tim ada di tempelan, ' + filled.length + ' terpakai</h3>' +
-      '<p>' + ready.length + ' dari ' + slateFixtures(STATE.slate).length +
-      ' laga di jadwal ini sekarang dinilai oleh model, bukan oleh harga bandar.' +
+      '<h3>' + parsed.teams.length + ' teams in the paste, ' + filled.length + ' terpakai</h3>' +
+      '<p>' + ready.length + ' of ' + slateFixtures(STATE.slate).length +
+      ' fixtures on this schedule are now priced by the model rather than by the bookmaker.' +
       (stillMissing.length
-        ? ' Masih kosong: <strong>' + stillMissing.map(function (k) { return team(k).name; }).join(', ') +
-          '</strong> &mdash; tempel respons lain untuk mengisinya.'
-        : ' Semua tim di jadwal ini sudah terisi.') +
+        ? ' Still empty: <strong>' + stillMissing.map(function (k) { return team(k).name; }).join(', ') +
+          '</strong> &mdash; paste another response to fill them.'
+        : ' Every team on this schedule is filled.') +
       '</p>' +
-      (skipped.length ? '<p class="stat-note">Tidak ditimpa karena sudah Anda isi sendiri: ' +
+      (skipped.length ? '<p class="stat-note">Not overwritten because you entered them yourself: ' +
         skipped.join(', ') + '.</p>' : '') +
       '</div>';
 
@@ -1122,19 +1122,19 @@
       html += '<div style="max-height:240px;overflow:auto;font-family:var(--mono);font-size:11px;' +
         'background:var(--surface-3);padding:9px;border-radius:4px;margin-top:8px">' +
         filled.map(function (r) {
-          return r.name + ' &larr; ' + r.api + ' &nbsp; ' + r.stats.matches + ' laga, xG ' +
+          return r.name + ' &larr; ' + r.api + ' &nbsp; ' + r.stats.matches + ' matches, xG ' +
             (r.stats.xgF != null ? r.stats.xgF : '?') + ', xGA ' +
             (r.stats.xgA != null ? r.stats.xgA : '?') +
             (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warning)">hilang: ' +
               r.missing.join(', ') + '</span>' : '');
         }).join('<br>') + '</div>';
     } else {
-      html += '<div class="notice"><h3>Tidak ada nama yang cocok</h3>' +
-        '<p>Nama tim di respons: ' + parsed.teams.slice(0, 25).map(function (t) {
+      html += '<div class="notice"><h3>No names matched</h3>' +
+        '<p>Team names in the response: ' + parsed.teams.slice(0, 25).map(function (t) {
           return t.name;
         }).join(', ') + (parsed.teams.length > 25 ? ', …' : '') + '. ' +
-        'Tidak satu pun cocok dengan tim di jadwal. Kalau menurut Anda seharusnya cocok, ' +
-        'kirim daftar itu ke Claude supaya pencocokan namanya diperbaiki.</p></div>';
+        'None matched a team on the schedule. If you think one should have, ' +
+        'send that list to Claude so the name matching can be fixed.</p></div>';
     }
 
     /* renderAll rebuilds this panel, so render first and re-attach after. */
@@ -1152,17 +1152,17 @@
   function renderBulkPaste(host) {
     var wrap = el('div', 'notice');
     wrap.style.marginTop = '4px';
-    wrap.innerHTML = '<h3>Isi banyak tim sekaligus</h3>' +
-      '<p>Salin seluruh halaman statistik (UEFA, FBref, Understat) atau tempel respons JSON ' +
-      'dari penyedia data Anda. Satu tempelan bisa mengisi banyak tim, dan tempelan berikutnya ' +
-      '<strong>menambah</strong> &mdash; tidak menghapus yang sudah masuk. Tim yang sudah Anda ' +
-      'isi tangan tidak ditimpa.</p>';
+    wrap.innerHTML = '<h3>Fill many teams at once</h3>' +
+      '<p>Copy a whole statistics page (UEFA, FBref, Understat) or paste a JSON response ' +
+      'from your data provider. One paste can fill many teams, and the next paste ' +
+      '<strong>adds</strong> &mdash; it does not clear what is already in. Teams you filled ' +
+      'in by hand are not overwritten.</p>';
     host.appendChild(wrap);
 
     var ta = el('textarea');
     ta.id = 'api-bulk-text';
     ta.rows = 4;
-    ta.placeholder = 'Tempel di sini: seluruh halaman statistik (Ctrl+A, Ctrl+C), ATAU respons JSON. ' +
+    ta.placeholder = 'Paste here: a whole statistics page (Ctrl+A, Ctrl+C), OR a JSON response. ' +
       'Keduanya diterima \u2014 tekan tombol di bawah.';
     ta.style.cssText = 'width:100%;margin-top:8px;padding:8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
@@ -1170,13 +1170,13 @@
     host.appendChild(ta);
 
     var applyRow = el('div', 'btn-row');
-    var applyBtn = el('button', 'btn', 'Isi dari tempelan ini');
+    var applyBtn = el('button', 'btn', 'Fill from this paste');
     applyBtn.type = 'button';
     applyBtn.addEventListener('click', function () {
       var out = $('api-bulk-out');
       var text = (ta.value || '').trim();
       if (!text) {
-        out.innerHTML = '<p class="stat-note" style="color:var(--critical)">Kotaknya masih kosong.</p>';
+        out.innerHTML = '<p class="stat-note" style="color:var(--critical)">The box is still empty.</p>';
         return;
       }
       applyBulkPaste(text, out);
@@ -1202,18 +1202,18 @@
     var c = a.cross;
     if (!c) {
       var p0 = el('p', 'stat-note');
-      p0.innerHTML = 'Pemeriksaan silang Bradley-Terry butuh xG asli pada <strong>kedua</strong> tim. ' +
-        'Belum tersedia untuk laga ini.';
+      p0.innerHTML = 'The Bradley-Terry cross-check needs real xG on <strong>both</strong> teams. ' +
+        'Not available for this fixture yet.';
       host.appendChild(p0);
       return;
     }
     var rows = [
-      ['Dixon-Coles (model utama)', c.dc, 'Dari matriks skor: memperhitungkan jumlah gol, jadi bisa menilai handicap dan total.'],
-      ['Bradley-Terry (pembanding)', c.bt, 'S_tuan / (S_tuan + S_tandang), rumus dari catatan Smartodds. Hanya bicara soal siapa menang.'],
-      ['Pasar, margin dibuang', c.market, 'Harga 1X2 yang di-devig, dinormalkan ke hasil menang/kalah saja.']
+      ['Dixon-Coles (model utama)', c.dc, 'From the scoreline matrix: it accounts for how many goals, so it can price handicaps and totals.'],
+      ['Bradley-Terry (pembanding)', c.bt, 'S_home / (S_home + S_away), the formula from the Smartodds note. It speaks only to who wins.'],
+      ['Market, margin removed', c.market, 'De-vigged 1X2 prices, normalised to win/lose outcomes only.']
     ];
     var t = el('table', 'mb');
-    var html = '<thead><tr><th>Sumber</th><th style="text-align:right">P(tuan rumah menang | ada yang menang)</th><th>Keterangan</th></tr></thead><tbody>';
+    var html = '<thead><tr><th>Source</th><th style="text-align:right">P(home wins | someone wins)</th><th>What it means</th></tr></thead><tbody>';
     rows.forEach(function (r) {
       html += '<tr><td>' + r[0] + '</td><td class="num">' +
         (r[1] != null ? pct(r[1], 1) : '\u2014') +
@@ -1225,14 +1225,14 @@
     host.appendChild(sc);
 
     var verdict = el('div', 'notice' + (c.agree === true ? ' ok' : c.agree === false ? ' bad' : ''));
-    var head = c.agree === true ? 'Dua keluarga model sepakat melawan pasar'
+    var head = c.agree === true ? 'Two model families agree against the market'
              : c.agree === false ? 'Dua model saling bertentangan'
-             : 'Tidak ada harga 1X2 untuk dibandingkan';
+             : 'No 1X2 price to compare against';
     var body = c.agree === true
-      ? 'Dixon-Coles dan Bradley-Terry memiringkan ke arah yang sama dibanding pasar. Dua model dengan asumsi berbeda yang setuju adalah bukti lebih kuat daripada satu model saja.'
+      ? 'Dixon-Coles and Bradley-Terry lean the same way against the market. Two models built on different assumptions agreeing is stronger evidence than one model alone.'
       : c.agree === false
-      ? 'Keduanya tidak sepakat arah. Kalau begini, edge yang muncul lebih mungkin berasal dari kesalahan model daripada dari kesalahan bandar. Keyakinan diturunkan.'
-      : 'Laga ini tidak punya harga 1X2 lengkap di papan, jadi tidak ada patokan pasar untuk dibandingkan.';
+      ? 'The two disagree on direction. When that happens, any edge on show is more likely a model error than a bookmaker error. Confidence is cut.'
+      : 'This fixture has no complete 1X2 price on the board, so there is no market benchmark to compare against.';
     verdict.innerHTML = '<h3>' + head + '</h3><p>' + body + '</p>' +
       '<p>Selisih antar model: <span class="fig">' + (c.spread * 100).toFixed(1) + ' poin persen</span>. ' +
       'Kekuatan terkalibrasi: ' + a.home.name + ' <span class="fig">' + c.strengthHome.toFixed(1) +
@@ -1240,21 +1240,21 @@
       '(rating mentah ' + c.ratingHome.toFixed(1) + ' / ' + c.ratingAway.toFixed(1) +
       ', offset terpasang ' + c.offset.toFixed(1) + ').</p>';
     if (c.advisoryOnly) {
-      verdict.innerHTML += '<p><strong>Hanya informasi, tidak mengubah keyakinan.</strong> Offset ini ' +
-        'dicocokkan dari ' + (CALIB ? CALIB.n : 0) + ' pertandingan' +
-        (CALIB && CALIB.rmse != null ? ' dengan rmse ' + CALIB.rmse.toFixed(3) : '') +
-        '. Satu offset dari segelintir laga bukan kalibrasi, itu kebetulan &mdash; jadi pembanding ini ' +
-        'ditampilkan tapi tidak diizinkan menggeser angka keyakinan. Isi statistik lebih banyak laga ' +
-        'supaya bisa dipakai.';
+      verdict.innerHTML += '<p><strong>Shown for information; it does not move confidence.</strong> This offset was ' +
+        'fitted from ' + (CALIB ? CALIB.n : 0) + ' fixtures' +
+        (CALIB && CALIB.rmse != null ? ' with rmse ' + CALIB.rmse.toFixed(3) : '') +
+        '. One offset from a handful of fixtures is not calibration, it is coincidence &mdash; so this cross-check is ' +
+        'displayed but not allowed to move the confidence figure. Enter statistics for more fixtures ' +
+        'before leaning on it.';
     }
     host.appendChild(verdict);
 
     var note = el('p', 'stat-note');
-    note.innerHTML = '<strong>Soal offset:</strong> dalam model rasio, titik nol skala rating ' +
+    note.innerHTML = '<strong>About the offset:</strong> in a ratio model the zero point of the rating scale ' +
       'menentukan seberapa lebar sebaran probabilitas. Catatan Smartodds memakai ' +
-      '<code>S = R &minus; 1350</code> pada poin FIFA karena tanpa pengurangan itu ' +
-      '<code>1850/(1850+1600) = 0.54</code> &mdash; semua laga terlihat imbang. Alat ini tidak menebak ' +
-      'angka offsetnya: offset dicocokkan dengan kuadrat terkecil ke harga pasar yang sudah dibuang marginnya.';
+      '<code>S = R &minus; 1350</code> on FIFA points, because without that subtraction ' +
+      '<code>1850/(1850+1600) = 0.54</code> &mdash; every match looks level. This tool does not guess ' +
+      'that offset: it is fitted by least squares to de-vigged market prices.';
     host.appendChild(note);
   }
 
@@ -1296,7 +1296,7 @@
           bindTip(rect, function () {
             return '<div class="t-title">' + hg2 + ' &ndash; ' + ag2 + '</div>' +
               '<div class="t-row">' + pct(p2, 2) + '</div>' +
-              '<div class="t-row">1 dari ' + Math.round(1 / p2) + ' pertandingan</div>';
+              '<div class="t-row">1 in ' + Math.round(1 / p2) + ' pertandingan</div>';
           });
         })(hg, ag, p);
         svg.appendChild(rect);
@@ -1311,8 +1311,8 @@
     }
     box.appendChild(svg);
     var cap = el('p', 'stat-note');
-    cap.innerHTML = 'Baris = gol ' + a.home.name + ', kolom = gol ' + a.away.name +
-      '. Warna makin gelap = makin sering. Angka dalam persen di sel yang paling mungkin.';
+    cap.innerHTML = 'Rows = goals for ' + a.home.name + ', columns = goals for ' + a.away.name +
+      '. Darker means more frequent. The percentage is printed in the most likely cells.';
     box.appendChild(cap);
   }
 
@@ -1326,7 +1326,7 @@
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     svg.setAttribute('role', 'img');
-    svg.setAttribute('aria-label', 'Probabilitas jumlah total gol');
+    svg.setAttribute('aria-label', 'Total goals probability');
 
     [0, 0.25, 0.5, 0.75, 1].forEach(function (f) {
       var y = padT + (1 - f) * (H - padT - padB);
@@ -1353,10 +1353,10 @@
       r.style.cursor = 'pointer';
       bindTip(r, function () {
         var cum = 0; for (var k = 0; k <= i; k++) cum += d[k];
-        return '<div class="t-title">' + i + ' gol</div>' +
+        return '<div class="t-title">' + i + ' goals</div>' +
           '<div class="t-row">Tepat: ' + pct(p, 2) + '</div>' +
-          '<div class="t-row">' + i + ' gol atau kurang: ' + pct(cum, 1) + '</div>' +
-          '<div class="t-row">Lebih dari ' + i + ': ' + pct(1 - cum, 1) + '</div>';
+          '<div class="t-row">' + i + ' goals or fewer: ' + pct(cum, 1) + '</div>' +
+          '<div class="t-row">More than ' + i + ': ' + pct(1 - cum, 1) + '</div>';
       });
       svg.appendChild(r);
       var t = document.createElementNS(svg.namespaceURI, 'text');
@@ -1368,15 +1368,15 @@
     box.appendChild(svg);
     var exp = d.reduce(function (s, p, i) { return s + p * i; }, 0);
     var cap = el('p', 'stat-note');
-    cap.textContent = 'Rata-rata total gol menurut model: ' + exp.toFixed(2) +
-      '. Sumbu bawah = jumlah gol dalam satu pertandingan.';
+    cap.textContent = 'Average total goals under the model: ' + exp.toFixed(2) +
+      '. The bottom axis is goals in a single match.';
     box.appendChild(cap);
   }
 
   /* ===================================================== VALUE TABLE ==== */
-  var TIER_LABEL = { prime: 'UTAMA', value: 'NILAI', neutral: 'NETRAL',
+  var TIER_LABEL = { prime: 'PRIME', value: 'VALUE', neutral: 'NEUTRAL',
                      avoid: 'HINDARI', suspect: 'CURIGA' };
-  var KIND_LABEL = { ah: 'Handicap', ou: 'Atas/Bawah', x12: '1X2', oe: 'Ganjil/Genap' };
+  var KIND_LABEL = { ah: 'Handicap', ou: 'Over/Under', x12: '1X2', oe: 'Odd/Even' };
 
   function renderValueTable(a) {
     var box = $('mc-value'); box.innerHTML = '';
@@ -1388,24 +1388,24 @@
     if (!a.statsMissing && a.divergence > 0.25) {
       var warn = el('div', 'notice bad');
       warn.style.marginBottom = '10px';
-      warn.innerHTML = '<h3>Angka EV di bawah ini jangan dipercaya dulu</h3>' +
-        '<p>Model berbeda <strong>' + pct(a.divergence, 0) + '</strong> dari harga bandar. ' +
-        'Pada selisih sebesar itu yang salah hampir selalu <strong>input model</strong>, ' +
-        'bukan harga bandar &mdash; bandar melihat skuad, cedera dan kabar tim, model ini ' +
-        'hanya melihat angka yang Anda masukkan.</p>' +
-        '<p>Karena itu tidak ada satu pun baris yang dipromosikan jadi pilihan utama, dan ' +
-        'EV positif di sini ditandai kuning, bukan hijau. EV +70% bukan berarti peluang ' +
-        'menang; itu berarti <strong>datanya masih terlalu tipis</strong>. Tambah jumlah laga ' +
-        'sampai selisihnya turun di bawah 25%, baru angkanya layak dibaca.</p>';
+      warn.innerHTML = '<h3>Do not trust the EV numbers below yet</h3>' +
+        '<p>Model berbeda <strong>' + pct(a.divergence, 0) + '</strong> from the bookmaker price. ' +
+        'At a gap that size what is wrong is almost always the <strong>model inputs</strong>, ' +
+        'not the bookmaker price &mdash; the bookmaker sees squads, injuries and team news; this model ' +
+        'sees only the numbers you typed in.</p>' +
+        '<p>That is why no row is promoted to the main pick, and ' +
+        'positive EV here is marked amber, not green. EV +70% does not mean a chance of ' +
+        'winning; it means <strong>the data is still too thin</strong>. Raise the match count ' +
+        'until the gap falls below 25%, and only then is the number worth reading.</p>';
       box.appendChild(warn);
     }
 
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr>' +
-      '<th style="width:26px"></th><th>Pilihan</th><th>Pasar</th><th>Garis</th>' +
+      '<th style="width:26px"></th><th>Selection</th><th>Market</th><th>Line</th>' +
       '<th style="text-align:right">Odds</th><th style="text-align:right">Odds adil</th>' +
-      '<th style="text-align:right" title="Peluang hasil apa pun yang bukan kalah, termasuk seri dan setengah-menang">Prob. model</th>' +
-      '<th style="text-align:right" title="Peluang leg ini membayar ODDS PENUH. Seri tidak dihitung, setengah-menang dihitung separuh. INI yang dipakai untuk memilih leg parlay.">Bayar penuh</th>' +
+      '<th style="text-align:right" title="Chance of any outcome that is not a loss, including pushes and half-wins">Model prob.</th>' +
+      '<th style="text-align:right" title="Chance this leg pays FULL ODDS. Pushes count as nothing, half-wins count as half. THIS is what parlay legs are chosen on.">Full payout</th>' +
       '<th style="text-align:right">Vig</th>' +
       '<th style="text-align:right">EV</th><th>Keyakinan</th><th>Mix</th>' +
       '<th style="text-align:right">Kelly/4</th><th></th></tr></thead>';
@@ -1434,7 +1434,7 @@
       var c0 = el('td');
       if (top && p.id === top.id) {
         var ring = el('span', 'ring'); ring.textContent = '✓';
-        ring.title = 'Pilihan terbaik model untuk laga ini';
+        ring.title = 'The model best pick for this fixture';
         c0.appendChild(ring);
       }
       tr.appendChild(c0);
@@ -1447,11 +1447,11 @@
       var c3 = el('td');
       if (p.line != null) {
         var b = el('span', 'badge ' + (p.lineType === 'quarter' ? 'q' : p.lineType === 'half' ? 'h' : 'w'));
-        b.textContent = p.lineType === 'quarter' ? 'kuartal' : p.lineType === 'half' ? 'setengah' : 'bulat';
+        b.textContent = p.lineType === 'quarter' ? 'quarter' : p.lineType === 'half' ? 'half' : 'whole';
         b.title = p.lineType === 'quarter'
-          ? 'Garis kuartal: stake dipecah dua. Bisa setengah menang / setengah kalah - inilah yang memotong pembayaran parlay.'
-          : p.lineType === 'whole' ? 'Garis bulat: bisa seri (stake kembali).'
-          : 'Garis setengah: menang atau kalah penuh, tanpa pemotongan.';
+          ? 'Quarter line: the stake splits in two. It can half-win or half-lose - this is what cuts parlay payouts.'
+          : p.lineType === 'whole' ? 'Whole line: it can push (stake returned).'
+          : 'Half line: a full win or a full loss, nothing in between.';
         c3.appendChild(b);
       } else { c3.textContent = '—'; }
       tr.appendChild(c3);
@@ -1469,10 +1469,10 @@
       if (gap > 0.03) {
         cclean.style.color = 'var(--critical)';
         cclean.style.fontWeight = '700';
-        cclean.title = 'Turun ' + (gap * 100).toFixed(1) + ' poin dari probabilitas mentah: ' +
-          pct(p.pushRisk, 1) + ' berakhir seri' +
-          (p.halfRisk > 0.001 ? ' dan ' + pct(p.halfRisk, 1) + ' setengah-hasil' : '') +
-          '. Di parlay, leg seri mengalikan tiket dengan 1.0, jadi odds leg ini hangus.';
+        cclean.title = 'Turun ' + (gap * 100).toFixed(1) + ' points below the raw probability: ' +
+          pct(p.pushRisk, 1) + ' ends in a push' +
+          (p.halfRisk > 0.001 ? ' and ' + pct(p.halfRisk, 1) + ' a half result' : '') +
+          '. In a parlay a pushed leg multiplies the ticket by 1.0, so this leg odds burn away.';
       }
       tr.appendChild(cclean);
 
@@ -1489,16 +1489,16 @@
       if (p.ev > 0.015 && !untrusted) cev.style.color = 'var(--good)';
       else if (p.ev > 0.015 && untrusted) {
         cev.style.color = 'var(--warning)';
-        cev.title = 'EV ini besar karena model tidak sepakat dengan pasar sejauh ' +
-          pct(a.divergence, 0) + '. Pada selisih sebesar itu yang salah hampir selalu ' +
-          'input model, bukan harga bandar \u2014 jadi angka ini bukan peluang, ' +
-          'melainkan tanda datanya masih terlalu tipis.';
+        cev.title = 'This EV is large because the model disagrees with the market by ' +
+          pct(a.divergence, 0) + '. At a gap that size what is wrong is almost always the ' +
+          'model inputs, not the bookmaker price \u2014 so this figure is not an opportunity, ' +
+          'it is a sign the data is still too thin.';
       }
       else if (byEff) {
         cev.style.color = 'var(--text-muted)';
-        cev.title = 'Tanpa statistik Anda, model dipasang pada harga ini juga, ' +
-          'jadi EV di sini hanyalah margin bandar dengan tanda minus. Bukan penilaian ' +
-          'bahwa taruhannya buruk - itu ongkos yang sama yang berlaku di semua baris.';
+        cev.title = 'Without your statistics the model is pinned to this same price, ' +
+          'so the EV here is only the bookmaker margin with a minus sign. It is not a verdict ' +
+          'that the bet is bad - it is the same cost that applies to every row.';
       }
       tr.appendChild(cev);
 
@@ -1517,7 +1517,7 @@
       var cmix = el('td');
       var ok = E.mixParlayEligible(p);
       cmix.innerHTML = ok ? '<span style="color:var(--good);font-weight:700">ada</span>'
-                          : '<span style="color:var(--critical)" title="Odds di bawah 1.50 biasanya dibuang dari menu Mix Parlay">dibuang</span>';
+                          : '<span style="color:var(--critical)" title="Odds below 1.50 are usually removed from the Mix Parlay menu">removed</span>';
       tr.appendChild(cmix);
 
       tr.appendChild(el('td', 'num', (p.kelly / 4 > 0 ? pct(p.kelly / 4, 1) : '—')));
@@ -1542,26 +1542,26 @@
     legend.style.color = 'var(--text-secondary)';
     if (byEff) {
       legend.innerHTML =
-        '<strong>Tabel ini diurutkan menurut BAYAR PENUH, bukan EV.</strong> ' +
-        'Statistik tim belum Anda isi, jadi model dipasang pada harga bandar ini juga &mdash; ' +
-        'artinya kolom EV di sini <em>selalu</em> negatif dan besarnya persis margin bandar. ' +
-        'Itu bukan vonis bahwa semua taruhan buruk; itu ongkos yang sama untuk semua baris. ' +
-        'Yang masih bisa dibandingkan: berapa sering leg membayar odds penuh, dan berapa margin yang dibayar.' +
-        '<br /><span class="tier-dot prime"></span><strong>Biru muda + dilingkari</strong> = leg terbaik di laga ini ' +
-        'yang benar-benar ada di menu Mix Parlay (odds di atas 1.50): bayar-penuh tertinggi setelah dipotong margin. ' +
-        '&nbsp;&middot;&nbsp; <span class="tier-dot avoid"></span>merah = bocor lebih dari 8 poin ke seri/setengah-hasil, ' +
-        'atau margin di atas 9%. &nbsp;&middot;&nbsp; <span class="tier-dot neutral"></span>sisanya setara.' +
-        '<br /><strong>Isi xG di form di bawah</strong> dan tabel ini otomatis berganti mengurut menurut EV, ' +
-        'karena saat itu model punya pendapat sendiri untuk dibandingkan dengan bandar.';
+        '<strong>This table sorts by FULL PAYOUT, not by EV.</strong> ' +
+        'You have not entered team statistics, so the model is pinned to this same bookmaker price &mdash; ' +
+        'which means the EV column here is <em>always</em> negative, by exactly the bookmaker margin. ' +
+        'That is not a verdict that every bet is bad; it is the same cost on every row. ' +
+        'What can still be compared: how often a leg pays full odds, and how much margin it costs.' +
+        '<br /><span class="tier-dot prime"></span><strong>Light blue + circled</strong> = the best leg in this fixture ' +
+        'that actually appears in the Mix Parlay menu (odds above 1.50): highest full-payout after margin. ' +
+        '&nbsp;&middot;&nbsp; <span class="tier-dot avoid"></span>red = leaks more than 8 points into pushes or half-results, ' +
+        'or margin above 9%. &nbsp;&middot;&nbsp; <span class="tier-dot neutral"></span>the rest are equivalent.' +
+        '<br /><strong>Enter xG in the form below</strong> and this table switches to sorting by EV, ' +
+        'because at that point the model has an opinion of its own to set against the bookmaker.';
     } else legend.innerHTML =
       '<strong>Arti warna:</strong> ' +
-      '<span class="tier-dot prime"></span>biru muda = EV di atas +4% dan keyakinan di atas 58 (dilingkari = terbaik di laga ini) &nbsp;&middot;&nbsp; ' +
+      '<span class="tier-dot prime"></span>light blue = EV above +4% and confidence above 58 (circled = best in this fixture) &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot value"></span>kuning = EV di atas +1.5% &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot neutral"></span>netral &nbsp;&middot;&nbsp; ' +
-      '<span class="tier-dot suspect"></span>oranye = EV terlihat bagus tapi model terlalu jauh dari pasar, jadi tidak dipercaya &nbsp;&middot;&nbsp; ' +
+      '<span class="tier-dot suspect"></span>amber = the EV looks good but the model sits too far from the market to be trusted &nbsp;&middot;&nbsp; ' +
       '<span class="tier-dot avoid"></span>merah = EV di bawah -4%.' +
-      '<br /><strong>Vig</strong> = margin bandar di pasangan harga itu; ini biaya yang pasti Anda bayar, ' +
-      'berbeda dari EV yang cuma perkiraan. <strong>Kelly/4</strong> = ukuran stake konservatif.';
+      '<br /><strong>Vig</strong> = the bookmaker margin in that pair of prices; this is a cost you certainly pay, ' +
+      'unlike EV, which is only an estimate. <strong>Kelly/4</strong> = a conservative stake size.';
     box.appendChild(legend);
   }
 
@@ -1580,12 +1580,12 @@
 
       var grid = el('div', 'form-grid');
       var fields = [
-        ['matches', 'Laga dimainkan', 1],
-        ['xgF', 'xG dibuat', 0.01], ['xgA', 'xG dikebobolan', 0.01],
-        ['xA', 'xA (assist harapan)', 0.01], ['goals', 'Gol dibuat', 0.01],
+        ['matches', 'Matches played', 1],
+        ['xgF', 'xG created', 0.01], ['xgA', 'xG conceded', 0.01],
+        ['xA', 'xA (expected assists)', 0.01], ['goals', 'Goals scored', 0.01],
         ['shots', 'Tembakan', 0.1], ['sot', 'Tepat sasaran', 0.1],
-        ['bigMiss', 'Peluang terbuang', 0.1], ['fouls', 'Pelanggaran', 0.1],
-        ['tackles', 'Tekel', 0.1], ['yellow', 'Kartu kuning', 0.1],
+        ['bigMiss', 'Big chances missed', 0.1], ['fouls', 'Fouls', 0.1],
+        ['tackles', 'Tackles', 0.1], ['yellow', 'Kartu kuning', 0.1],
         ['red', 'Kartu merah', 0.01]
       ];
       /* Read every box for this team and commit them together. Typing used
@@ -1608,12 +1608,12 @@
         var bothReady = ready && statOrigin(other) === 'user';
         STATE.editMsg[key] = {
           color: ready ? 'var(--good)' : 'var(--warning)',
-          html: filled + ' angka tersimpan untuk ' + team(key).name + '. ' +
+          html: filled + ' values saved for ' + team(key).name + '. ' +
             (bothReady
-              ? '<strong>Kedua tim laga ini terisi</strong> \u2014 model sekarang yang menilai, bukan harga bandar.'
+              ? '<strong>Both teams in this fixture are filled</strong> \u2014 the model prices it now, not the bookmaker.'
               : ready
-                ? 'Masih perlu <strong>' + team(other).name + '</strong> supaya laga ini dinilai model.'
-                : 'Belum cukup: xG dibuat dan xG dikebobolan harus terisi.')
+                ? 'Still needs <strong>' + team(other).name + '</strong> before the model can price this fixture.'
+                : 'Not enough yet: xG created and xG conceded must both be filled.')
         };
         renderAll();
       }
@@ -1644,10 +1644,10 @@
          the row rather than as a separate control. */
       var applyCell = el('div', 'field');
       var spacer = el('label', null, '\u00a0');
-      var apply = el('button', 'btn sm', 'Buat perubahan');
+      var apply = el('button', 'btn sm', 'Apply changes');
       apply.type = 'button';
       apply.style.width = '100%';
-      apply.title = 'Terapkan angka yang Anda ketik (atau tekan Enter di kotak mana pun)';
+      apply.title = 'Apply the numbers you typed (or press Enter in any box)';
       apply.addEventListener('click', commit);
       applyCell.appendChild(spacer); applyCell.appendChild(apply);
       grid.appendChild(applyCell);
@@ -1670,10 +1670,10 @@
       var lb = el('label');
       lb.style.cssText = 'display:block;font-size:10px;font-weight:700;text-transform:uppercase;' +
         'letter-spacing:.05em;color:var(--text-muted);margin-bottom:4px';
-      lb.textContent = 'Tempel halaman statistik ' + team(key).name + ' (UEFA / FBref / Understat)';
+      lb.textContent = 'Paste statistics page for ' + team(key).name + ' (UEFA / FBref / Understat)';
       var ta = el('textarea');
       ta.rows = 3;
-      ta.placeholder = 'Blok seluruh halaman statistik, Ctrl+C, tempel di sini lalu tekan Impor.';
+      ta.placeholder = 'Select the whole statistics page, Ctrl+C, paste it here and press Import.';
       /* Editing any stat field re-renders this whole form. Without keeping
          the pasted text, typing the match count would silently throw away
          the page just pasted - which is the exact order the error message
@@ -1685,7 +1685,7 @@
         'font-family:var(--mono);font-size:12px;resize:vertical';
       var btnRow = el('div', 'btn-row');
       btnRow.style.marginTop = '7px';
-      var imp = el('button', 'btn sm', 'Impor untuk ' + team(key).name);
+      var imp = el('button', 'btn sm', 'Import for ' + team(key).name);
       imp.type = 'button';
       var msg = el('span');
       msg.id = 'imp-msg-' + key;
@@ -1697,18 +1697,18 @@
       if (keptMsg) { msg.style.color = keptMsg.color; msg.innerHTML = keptMsg.html; }
       imp.addEventListener('click', function () {
         /* The page's own match count is unreadable on some layouts, so fall
-           back to whatever is typed in this team's "laga dimainkan" box. */
+           back to whatever is typed in this team's "matches played" box. */
         var mEl = $('sf-' + key + '-matches');
         var parsed;
         try { parsed = E.parseTeamStats(ta.value, { matchesFallback: mEl && mEl.value }); }
         catch (err) { parsed = { error: err.message }; }
-        if (!parsed) { msg.textContent = 'Tidak ada teks untuk dibaca.'; return; }
+        if (!parsed) { msg.textContent = 'There is no text to read.'; return; }
         if (parsed.error) {
           STATE.importMsg[key] = {
             color: 'var(--critical)',
             html: parsed.error +
               (parsed.sample
-                ? '<br><span style="color:var(--text-muted)">Yang saya baca dari tempelan itu: ' +
+                ? '<br><span style="color:var(--text-muted)">What was actually read from that paste: ' +
                   '<code>' + parsed.sample.replace(/</g, '&lt;') + '</code></span>'
                 : '')
           };
@@ -1725,26 +1725,26 @@
         saveOverrides();
         msg.style.color = 'var(--good)';
         var miss = parsed._missing.length
-          ? ' Tidak ditemukan: ' + parsed._missing.join(', ') + ' \u2014 isi tangan kalau ada.'
+          ? ' Not found: ' + parsed._missing.join(', ') + ' \u2014 fill those in by hand if you have them.'
           : '';
         /* A competition page early in the season can report a single match.
            One match is a coin toss dressed as a statistic, so say so where
            the number lands rather than letting it look like evidence. */
         var thin = parsed.matches < 4
-          ? ' <strong>Baru ' + parsed.matches + ' laga</strong> \u2014 terlalu sedikit untuk ' +
-            'dipercaya sendirian; model tetap condong ke harga pasar.'
+          ? ' <strong>Only ' + parsed.matches + ' matches</strong> \u2014 too few to be ' +
+            'trusted alone; the model keeps leaning on the market price.'
           : '';
         delete STATE.paste[key];
         delete STATE.editMsg[key];
         STATE.importMsg[key] = {
           color: 'var(--good)',
-          html: 'Terisi dari ' + parsed.matches + ' pertandingan' +
-            (parsed._matchesFromCaller ? ' (angka laga dari kotak, bukan dari halaman)'
-              : parsed._matchesFromRecord ? ' (dihitung dari menang+seri+kalah, karena UEFA '
-                + 'menggambar jumlah laganya di dalam lingkaran yang tidak ikut tersalin)'
+          html: 'Filled from ' + parsed.matches + ' fixtures' +
+            (parsed._matchesFromCaller ? ' (match count from the box, not from the page)'
+              : parsed._matchesFromRecord ? ' (derived from won+drawn+lost, because UEFA '
+                + 'draws the match count inside a circle whose text does not come along when the page is copied)'
               : '') + '.' +
             (parsed._estimated.xgF
-              ? ' <strong>xG DIPERKIRAKAN</strong> dari profil tembakan, bukan xG asli \u2014 UEFA tidak menerbitkannya.'
+              ? ' <strong>xG is ESTIMATED</strong> from the shot profile, not real xG \u2014 UEFA does not publish it.'
               : '') + thin + miss
         };
         msg.style.color = STATE.importMsg[key].color;
@@ -1763,7 +1763,7 @@
     box.appendChild(bulk);
 
     var row = el('div', 'btn-row');
-    var reset = el('button', 'btn ghost', 'Kembalikan nilai awal');
+    var reset = el('button', 'btn ghost', 'Reset to defaults');
     reset.type = 'button';
     reset.addEventListener('click', function () {
       delete STATE.overrides[a.fixture.home];
@@ -1778,7 +1778,7 @@
     row.appendChild(reset);
     var hint = el('span');
     hint.style.cssText = 'font-size:12px;color:var(--text-muted)';
-    hint.textContent = 'Semua angka adalah rata-rata PER PERTANDINGAN, bukan total musim.';
+    hint.textContent = 'Every figure is a PER MATCH average, not a season total.';
     row.appendChild(hint);
     box.appendChild(row);
   }
@@ -1787,8 +1787,8 @@
   function addLeg(pick, analysis) {
     if (STATE.legs.some(function (l) { return l.pick.id === pick.id; })) return;
     if (STATE.legs.some(function (l) { return l.pick.fixtureId === pick.fixtureId; })) {
-      if (!window.confirm('Sudah ada leg dari pertandingan ini. Dua leg dari satu laga saling ' +
-        'berkaitan, jadi harga parlay jadi tidak valid. Tetap tambahkan?')) return;
+      if (!window.confirm('There is already a leg from this fixture. Two legs from one match are ' +
+        'correlated, which makes the parlay price invalid. Add it anyway?')) return;
     }
     STATE.legs.push({ pick: pick, analysis: analysis });
     renderParlay();
@@ -1859,17 +1859,17 @@
       rl.style.cssText = 'margin:0 0 10px;border-left-color:var(--warning)';
       rl.innerHTML = '<h3>Ambang diturunkan otomatis: ' + pct(STATE.relaxedFrom.asked, 0) +
         ' \u2192 ' + pct(STATE.relaxedFrom.used, 0) + '</h3>' +
-        '<p>Tidak ada cukup leg yang membayar odds penuh ' + pct(STATE.relaxedFrom.asked, 0) +
-        ' dari waktu, jadi saya turunkan sampai tiket terisi. Garis Asia yang seimbang memang ' +
-        'duduk di sekitar 50&ndash;56% bayar penuh &mdash; itu memang tujuan bandar menyusun garisnya. ' +
-        'Leg di bawah ini nyata dan bisa dipasang; yang berubah hanya seberapa tinggi ambang ' +
-        'yang bisa dipenuhi pasar ini.</p>';
+        '<p>Not enough legs pay full odds ' + pct(STATE.relaxedFrom.asked, 0) +
+        ' of the time, so the threshold was lowered until the ticket filled. A balanced Asian line does ' +
+        'sit around 50&ndash;56% full-payout &mdash; that is precisely what the bookmaker builds it to do. ' +
+        'The legs below are real and bettable; all that changed is how high a threshold ' +
+        'this market can meet.</p>';
       list.appendChild(rl);
     }
     $('p-count').textContent = STATE.legs.length
-      ? STATE.legs.length + ' leg dipilih' +
+      ? STATE.legs.length + ' legs selected' +
         (E.pickParlayLegs.lastBlocked ? ' · ' + E.pickParlayLegs.lastBlocked +
-          ' pilihan dibuang karena odds di bawah 1.50 (tidak ada di menu Mix Parlay)' : '')
+          ' selections were dropped for odds below 1.50 (absent from the Mix Parlay menu)' : '')
       : '';
 
     if (!STATE.legs.length) {
@@ -1877,18 +1877,18 @@
       var bar = parseFloat($('p-minprob').value) || 0.5;
       var blocked = E.pickParlayLegs.lastBlocked || 0;
       empty.innerHTML =
-        '<div class="notice bad" style="margin:0"><h3>Tidak ada satu pun leg yang memenuhi syarat</h3>' +
-        '<p>Anda meminta leg yang membayar <strong>odds penuh</strong> minimal <span class="fig">' +
-        pct(bar, 0) + '</span> dari waktu. Di jadwal ini tidak ada yang mencapainya' +
-        (blocked ? ', dan ' + blocked + ' pilihan lain sudah dibuang lebih dulu karena odds di bawah 1.50 ' +
-          '(tidak muncul di menu Mix Parlay)' : '') + '.</p>' +
-        '<p>Itu jawaban yang benar, bukan kegagalan alat. Pasar yang likuid memang tidak menjual ' +
-        'leg murah yang menang 55% dari waktu &mdash; kalau ada, bandar sudah memperbaiki harganya. ' +
-        'Turunkan ambang ke sekitar <span class="fig">0.50&ndash;0.52</span> dan lihat berapa harga ' +
-        'sebenarnya, atau pilih jadwal lain.</p>' +
-        '<p><strong>Catatan:</strong> ambang ini mengukur peluang <em>bayar penuh</em>, bukan ' +
-        'probabilitas mentah. Garis bulat sering terlihat berprobabilitas 56% padahal cuma 32% ' +
-        'bayar penuh, karena sisanya seri &mdash; dan leg seri mengalikan tiket dengan 1.0.</p></div>';
+        '<div class="notice bad" style="margin:0"><h3>Not a single leg qualifies</h3>' +
+        '<p>You asked for legs paying <strong>full odds</strong> at least <span class="fig">' +
+        pct(bar, 0) + '</span> of the time. Nothing on this schedule reaches that' +
+        (blocked ? ', and ' + blocked + ' other selections were dropped first for odds below 1.50 ' +
+          '(they do not appear in the Mix Parlay menu)' : '') + '.</p>' +
+        '<p>That is the correct answer, not a failure of the tool. A liquid market does not sell ' +
+        'cheap legs that win 55% of the time &mdash; if it did, the bookmaker would have fixed the price. ' +
+        'Lower the threshold to around <span class="fig">0.50&ndash;0.52</span> and see what this really ' +
+        'costs, or pick a different schedule.</p>' +
+        '<p><strong>Note:</strong> this threshold measures the chance of a <em>full payout</em>, not ' +
+        'raw probability. A whole line often reads 56% probable while paying full odds only 32% ' +
+        'of the time, because the rest is a push &mdash; and a pushed leg multiplies the ticket by 1.0.</p></div>';
       list.appendChild(empty);
       return;
     }
@@ -1917,8 +1917,8 @@
         var ring = el('span', 'ring');
         ring.textContent = '\u2713';
         ring.title = hasEV
-          ? 'Nilai harapan terbaik di tiket ini'
-          : 'Leg paling efisien di tiket ini: probabilitas tertinggi per satuan margin yang dibayar, tanpa garis kuartal';
+          ? 'Best expected value on this ticket'
+          : 'The most efficient leg on this ticket: highest probability per unit of margin paid, no quarter lines';
         row.appendChild(ring);
       } else {
         row.appendChild(el('span', 'leg-num', String(i + 1)));
@@ -1927,7 +1927,7 @@
       main.innerHTML = '<strong>' + p.label + '</strong><span>' +
         a.home.name + ' v ' + a.away.name + ' · ' + (a.fixture.kickoff || '') +
         ' · ' + KIND_LABEL[p.kind] + (p.half === '1h' ? ' BB1' : '') +
-        (p.lineType === 'quarter' ? ' · <span style="color:var(--serious);font-weight:700">garis kuartal</span>' : '') +
+        (p.lineType === 'quarter' ? ' · <span style="color:var(--serious);font-weight:700">quarter line</span>' : '') +
         '</span>';
       row.appendChild(main);
       var info = el('div');
@@ -1957,19 +1957,19 @@
       kpis.appendChild(k);
     }
     kpi('Odds tercetak', sim.printedOdds.toFixed(3),
-      'Bayaran kalau semua leg menang penuh: ' + rupiah(stake * sim.printedOdds));
+      'Payout if every leg wins in full: ' + rupiah(stake * sim.printedOdds));
     kpi('Harapan cair', sim.expectedReturn.toFixed(4) + 'x',
-      'Rata-rata jangka panjang: ' + rupiah(stake * sim.expectedReturn) + ' dari ' + rupiah(stake),
+      'Long-run average: ' + rupiah(stake * sim.expectedReturn) + ' of ' + rupiah(stake),
       sim.expectedReturn >= 1 ? 'good' : 'bad');
-    kpi('Nilai harapan', signPct(sim.ev, 1),
+    kpi('Expected value', signPct(sim.ev, 1),
       sim.ev < 0 ? 'Rugi harapan ' + rupiah(stake * -sim.ev) + ' setiap kali dipasang'
                  : 'Untung harapan ' + rupiah(stake * sim.ev),
       sim.ev >= 0 ? 'good' : 'bad');
-    kpi('Peluang untung', pct(sim.pProfit, 2),
-      'Semua leg menang penuh: ' + pct(sim.pAllWin, 3) + ' · hasil tengah ' + sim.median.toFixed(2) + 'x');
+    kpi('Chance of profit', pct(sim.pProfit, 2),
+      'Every leg wins in full: ' + pct(sim.pAllWin, 3) + ' · hasil tengah ' + sim.median.toFixed(2) + 'x');
     if (sim.quarterLegs) {
-      kpi('Leg garis kuartal', String(sim.quarterLegs),
-        'Inilah yang memotong slip Anda dari 73x jadi 6.07x. Ganti ke garis setengah kalau ada.',
+      kpi('Quarter-line legs', String(sim.quarterLegs),
+        'This is what cut your slip from 73x to 6.07x. Switch to half lines where you can.',
         'bad');
     }
     var tiltedLegs = STATE.legs.filter(function (L) {
@@ -1984,20 +1984,20 @@
            own read, priced back to them. Saying "this EV is not real" would
            be wrong; saying nothing would let a personal opinion masquerade as
            a measurement. */
-        fake.innerHTML = '<div class="cap">EV ini milik Anda, bukan bukti</div>' +
+        fake.innerHTML = '<div class="cap">This EV is yours, not evidence</div>' +
           '<div class="val">' + signPct(sim.ev, 1) + '</div>' +
-          '<div class="note">Angka positif ini datang dari penilaian Anda sendiri di ' +
-          tiltedLegs + ' laga, bukan dari data. Alat ini cuma menghitung konsekuensi ' +
-          'pendapat Anda secara konsisten &mdash; ia tidak memverifikasinya. Kalau bacaan Anda ' +
-          'tepat, tiket ini memang lebih baik daripada versi pasar. Kalau meleset, tiket ini ' +
-          'lebih buruk, dan seluruh EV di atas ikut meleset sebesar kesalahan itu. ' +
-          'Geser slider ke nol untuk melihat harga bandar apa adanya.</div>';
+          '<div class="note">This positive figure comes from your own judgement on ' +
+          tiltedLegs + ' fixtures, not from data. The tool only works out the consequences of ' +
+          'your opinion consistently &mdash; it does not verify it. If your read is ' +
+          'right, this ticket really is better than the market version. If it is wrong, this ticket is ' +
+          'worse, and every EV above is wrong by the size of that error. ' +
+          'Slide it back to zero to see the bookmaker price as it stands.</div>';
       } else {
-        fake.innerHTML = '<div class="cap">EV positif ini tidak nyata</div>' +
+        fake.innerHTML = '<div class="cap">This positive EV is not real</div>' +
           '<div class="val bad">' + signPct(sim.ev, 1) + '</div>' +
-          '<div class="note">Tidak ada satu pun statistik di jadwal ini yang Anda isi sendiri ' +
-          'dan tidak ada penilaian yang Anda masukkan, jadi angka positif ini keluar dari data ' +
-          'contoh bawaan. Bandar tidak menawarkan edge sebesar ini kepada siapa pun.</div>';
+          '<div class="note">Not one statistic on this schedule was entered by you ' +
+          'and no judgement was supplied, so this positive figure came out of data ' +
+          'that shipped as placeholders. No bookmaker offers an edge this size to anyone.</div>';
       }
       kpis.appendChild(fake);
     }
@@ -2005,8 +2005,8 @@
     var why = el('div', 'kpi');
     why.innerHTML = '<div class="cap">Arti stabilo biru muda</div>' +
       '<div class="note">' + (hasEV
-        ? 'Anda sudah mengisi statistik untuk jadwal ini, jadi baris yang distabilo adalah yang nilai harapannya positif, dan yang <strong>dilingkari</strong> adalah EV tertinggi.'
-        : 'Statistik tim belum Anda isi, jadi tidak ada EV yang layak dikejar. Yang <strong>dilingkari</strong> adalah leg dengan peluang <strong>bayar penuh</strong> tertinggi setelah dipotong margin bandar &mdash; bukan probabilitas mentah. Bedanya besar: garis bulat bisa berprobabilitas 56% tapi cuma 32% bayar penuh karena sisanya seri, dan leg seri mengalikan tiket dengan 1.0. Aturan ini datang dari dua kupon nyata Anda: garis setengah mengembalikan 100% odds tercetak, bulat 88%, kuartal 64%.') +
+        ? 'You have entered statistics for this schedule, so the highlighted rows are the ones with positive expected value, and the <strong>circled</strong> row is the highest EV.'
+        : 'You have not entered team statistics, so there is no EV worth chasing. The <strong>circled</strong> leg is the one with the highest chance of a <strong>full payout</strong> after the bookmaker margin &mdash; not raw probability. The difference is large: a whole line can read 56% probable while paying full odds only 32% of the time, because the rest is a push, and a pushed leg multiplies the ticket by 1.0. That rule comes from your own two real coupons: half lines returned 100% of the printed odds, whole lines 88%, quarter lines 64%.') +
       '</div>';
     kpis.appendChild(why);
 
@@ -2014,7 +2014,7 @@
     var tb = el('table', 'mb');
     tb.innerHTML = '<thead><tr><th>Panjang tiket</th><th style="text-align:right">Odds tercetak</th>' +
       '<th style="text-align:right">Harapan cair</th><th style="text-align:right">EV</th>' +
-      '<th style="text-align:right">Peluang untung</th><th style="text-align:right">Rugi harapan / ' +
+      '<th style="text-align:right">Chance of profit</th><th style="text-align:right">Expected loss / ' +
       rupiah(stake) + '</th></tr></thead>';
     var bd = el('tbody');
     var lens = [];
@@ -2037,7 +2037,7 @@
     tb.appendChild(bd);
     var wrapT = el('div', 'table-scroll');
     wrapT.appendChild(tb);
-    var lh = el('h4', null, 'Panjang tiket vs harapan hasil (leg yang sama, dipotong dari atas)');
+    var lh = el('h4', null, 'Ticket length vs expected outcome (same legs, trimmed from the top)');
     lh.style.cssText = 'font-size:12px;margin-bottom:8px;color:var(--text-secondary)';
     ladder.appendChild(lh);
     ladder.appendChild(wrapT);
@@ -2050,26 +2050,26 @@
     if (ca) {
       var box = el('div', 'notice');
       box.style.marginTop = '13px';
-      box.innerHTML = '<h3>Aritmetika perkalian &mdash; metode dari catatan Smartodds yang Anda kirim</h3>' +
+      box.innerHTML = '<h3>The arithmetic of multiplying &mdash; the method from the Smartodds note you sent</h3>' +
         '<p>Rata-rata probabilitas per leg: <span class="fig">' + pct(ca.avgLegProb, 1) + '</span>. ' +
-        'Peluang seluruh tiket tembus: <span class="fig">' + pct(ca.pOptimal, 3) +
-        '</span> = 1 dari <span class="fig">' + Math.round(ca.oneIn).toLocaleString('id-ID') + '</span>.</p>' +
-        '<p>Kalau leg dipilih acak (50% per leg): <span class="fig">' + pct(ca.pRandom, 3) +
-        '</span> = 1 dari ' + Math.round(1 / ca.pRandom).toLocaleString('id-ID') + '. ' +
-        'Jadi memilih dengan cermat memberi perbaikan <span class="fig">' +
+        'Chance the whole ticket lands: <span class="fig">' + pct(ca.pOptimal, 3) +
+        '</span> = 1 in <span class="fig">' + Math.round(ca.oneIn).toLocaleString('en-US') + '</span>.</p>' +
+        '<p>If the legs were picked at random (50% each): <span class="fig">' + pct(ca.pRandom, 3) +
+        '</span> = 1 in ' + Math.round(1 / ca.pRandom).toLocaleString('en-US') + '. ' +
+        'So choosing carefully buys an improvement of <span class="fig">' +
         ca.improvementFactor.toFixed(2) + 'x</span>.</p>' +
-        '<p><strong>Ini inti artikel itu.</strong> Coles menghitung strategi optimal untuk Opta Million ' +
-        '26.000x lebih baik daripada acak, dan hasilnya tetap 3,6&times;10<sup>-12</sup> &mdash; ' +
-        'karena kedua angka dipangkatkan jumlah prediksi. Persis sama di sini: memilih leg yang lebih baik ' +
-        'mengalikan peluang <span class="fig">' + ca.improvementFactor.toFixed(2) + 'x</span>, ' +
+        '<p><strong>This is the heart of that article.</strong> Coles worked out that the optimal Opta Million strategy was ' +
+        '26,000x better than random, and the result was still 3.6&times;10<sup>-12</sup> &mdash; ' +
+        'because both figures are raised to the power of the number of predictions. Exactly the same here: better leg selection ' +
+        'multiplies the chance by <span class="fig">' + ca.improvementFactor.toFixed(2) + 'x</span>, ' +
         'sedangkan menambah leg membaginya <span class="fig">' +
-        Math.round(1 / Math.pow(ca.avgLegProb, ca.legs)).toLocaleString('id-ID') +
-        'x</span>. Perbaikan pilihan tidak bisa mengejar jumlah leg.</p>' +
+        Math.round(1 / Math.pow(ca.avgLegProb, ca.legs)).toLocaleString('en-US') +
+        'x</span>. Better selection cannot outrun the number of legs.</p>' +
         (ca.legsForOneIn20
-          ? '<p><strong>Angka yang paling berguna:</strong> dengan kualitas leg segini, tiket masih ' +
-            'punya peluang lebih baik dari 1-dari-20 sampai <span class="fig">' + ca.legsForOneIn20 +
-            ' leg</span>. Tiket ' + ca.legs + ' leg Anda ada di 1-dari-' +
-            Math.round(ca.oneIn).toLocaleString('id-ID') + '.</p>'
+          ? '<p><strong>The most useful number here:</strong> at this leg quality, a ticket still ' +
+            'has better than a 1-in-20 chance up to <span class="fig">' + ca.legsForOneIn20 +
+            ' leg</span>. Tiket ' + ca.legs + '-leg ticket sits at 1-in-' +
+            Math.round(ca.oneIn).toLocaleString('en-US') + '.</p>'
           : '');
       ladder.appendChild(box);
     }
@@ -2092,7 +2092,7 @@
 
     var box = $('slip-table'); box.innerHTML = '';
     var tb = el('table', 'mb');
-    tb.innerHTML = '<thead><tr><th>#</th><th>Pertandingan</th><th>Pilihan</th>' +
+    tb.innerHTML = '<thead><tr><th>#</th><th>Fixture</th><th>Selection</th>' +
       '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
       '<th style="text-align:right">Pengali leg</th><th style="text-align:right">Pengali berjalan</th></tr></thead>';
     var bd = el('tbody');
@@ -2114,30 +2114,30 @@
     tb.appendChild(bd);
     box.appendChild(tb);
 
-    $('slip-sub').textContent = 'ID ' + 9 + ' leg · rekonstruksi dari aturan settlement Asia';
+    $('slip-sub').textContent = 'ID ' + 9 + ' legs · reconstructed from Asian settlement rules';
     var note = $('slip-note'); note.innerHTML = '';
     var n1 = el('div', 'notice ok');
-    n1.innerHTML = '<h3>Engine cocok dengan slip asli Anda, sampai ke rupiah</h3>' +
+    n1.innerHTML = '<h3>The engine matches your real slip, down to the rupiah</h3>' +
       '<p>Odds tercetak <span class="fig">' + vs.ticketOdds + '</span>, seharusnya bayar bruto ' +
-      '<span class="fig">' + rupiah(vs.ticketOdds * vs.stake) + '</span> dari stake ' +
+      '<span class="fig">' + rupiah(vs.ticketOdds * vs.stake) + '</span> of a stake of ' +
       rupiah(vs.stake) + '.</p>' +
       '<p>Hasil sebenarnya: <span class="fig">' + mult.toFixed(4) + 'x</span> = bruto ' +
       '<span class="fig">' + rupiah(gross) + '</span>, laba bersih <span class="fig">' +
-      rupiah(net) + '</span> &mdash; sama dengan kolom Menang/Kalah di slip Anda (' +
+      rupiah(net) + '</span> &mdash; the same as the Win/Lose column on your slip (' +
       rupiah(vs.payout) + ').</p>' +
-      '<p>Jadi Anda menerima <span class="fig">' + pct(gross / (vs.ticketOdds * vs.stake), 1) +
-      '</span> dari potensi yang tercetak. Penyebabnya tiga leg garis kuartal: dua ' +
-      '<em>half lose</em> (Bournemouth +0.75, Over 2.25) dan satu <em>half won</em> ' +
-      '(Fiorentina BB1 Under 1.25). Dua half-lose itu saja mengalikan tiket dengan 0.5 &times; 0.5 = 0.25.</p>' +
-      '<p><strong>Itulah kenapa alat ini menolak garis kuartal secara bawaan</strong>, dan kenapa ' +
-      'kolom "garis" di Papan Nilai menandai tiap baris kuartal, setengah atau bulat.</p>';
+      '<p>So you received <span class="fig">' + pct(gross / (vs.ticketOdds * vs.stake), 1) +
+      '</span> of the printed potential. The cause was three quarter-line legs: two ' +
+      '<em>half lose</em> (Bournemouth +0.75, Over 2.25) and one <em>half won</em> ' +
+      '(Fiorentina 1H Under 1.25). Those two half-loses alone multiplied the ticket by 0.5 &times; 0.5 = 0.25.</p>' +
+      '<p><strong>That is why this tool refuses quarter lines by default</strong>, and why ' +
+      'the "line" column on the Value Board marks every row as quarter, half or whole.</p>';
     note.appendChild(n1);
   }
 
 
   /* ------------------------------------------------ calibration ledger -- */
-  var OUTCOME_LABEL = { win: 'Menang', halfWin: 'Setengah menang', push: 'Seri (kembali)',
-                        halfLose: 'Setengah kalah', lose: 'Kalah' };
+  var OUTCOME_LABEL = { win: 'Win', halfWin: 'Half win', push: 'Push (returned)',
+                        halfLose: 'Half lose', lose: 'Lose' };
 
   function renderCalibration() {
     var host = $('calib-coupons'), sum = $('calib-summary');
@@ -2182,19 +2182,19 @@
 
     if (rep) {
       var box = el('div', 'notice' + (rep.significant ? '' : ' bad'));
-      box.innerHTML = '<h3>Skor Brier atas ' + rep.n + ' leg yang punya probabilitas model</h3>' +
+      box.innerHTML = '<h3>Skor Brier atas ' + rep.n + ' legs that carry a model probability</h3>' +
         '<p>Brier model <span class="fig">' + rep.brier.toFixed(4) + '</span> ' +
-        'melawan <span class="fig">' + rep.brierBaseline.toFixed(4) + '</span> untuk model yang ' +
+        'melawan <span class="fig">' + rep.brierBaseline.toFixed(4) + '</span> against a model that ' +
         'selalu menjawab 50%. Makin kecil makin baik, jadi skill score <span class="fig">' +
         (rep.skill * 100).toFixed(1) + '%</span>.</p>' +
         '<p><strong>' + (rep.significant
-          ? 'Sampel sudah cukup untuk mulai dipercaya.'
-          : 'Ini BUKAN bukti. ' + rep.n + ' leg terlalu sedikit &mdash; butuh 50 ke atas sebelum angka ini berarti apa pun.') +
-        '</strong> Dan ada masalah kedua yang lebih serius: kupon di buku ini dipilih ' +
-        'berdasarkan hasilnya. Satu kupon menang, satu kalah. Leg di kupon yang menang ' +
+          ? 'The sample is large enough to start trusting.'
+          : 'This is NOT evidence. ' + rep.n + ' legs is far too few &mdash; it takes 50 or more before this number means anything.') +
+        '</strong> And there is a second, more serious problem: the coupons in this ledger were chosen ' +
+        'by their results. One coupon won, one lost. The legs on the winning coupon ' +
         'otomatis hampir semuanya mendarat, jadi kolom "kenyataan" di tabel bawah pasti ' +
-        'terlihat lebih tinggi daripada kolom "klaim". Itu bias seleksi, bukan model yang bagus. ' +
-        'Supaya angkanya jujur, kupon harus dicatat SEBELUM pertandingan, menang atau kalah.</p>';
+        'read higher than the "claimed" column. That is selection bias, not a good model. ' +
+        'For the number to be honest, coupons must be recorded BEFORE the matches, win or lose.</p>';
       sum.appendChild(box);
 
       var tb = el('table', 'mb');
@@ -2224,14 +2224,14 @@
       head.style.background = 'var(--chrome-2)';
       var pushes = g.rows.filter(function (r) { return r.outcome === 'push'; }).length;
       head.innerHTML = g.coupon.label +
-        '<span class="sub">' + g.wins + ' menang, ' + g.halves + ' setengah, ' +
-        (pushes ? pushes + ' seri, ' : '') + g.losses + ' kalah' +
+        '<span class="sub">' + g.wins + ' won, ' + g.halves + ' half, ' +
+        (pushes ? pushes + ' pushed, ' : '') + g.losses + ' lost' +
         (g.grossMultiple != null ? ' \u00b7 pengali tiket ' + g.grossMultiple.toFixed(4) + 'x' : '') +
         (g.brier != null ? ' \u00b7 Brier ' + g.brier.toFixed(4) : '') + '</span>';
       panel.appendChild(head);
 
       var tb = el('table', 'mb');
-      var html = '<thead><tr><th style="width:26px">#</th><th>Pertandingan</th><th>Pilihan</th>' +
+      var html = '<thead><tr><th style="width:26px">#</th><th>Fixture</th><th>Selection</th>' +
         '<th style="text-align:right">Odds</th><th>Skor</th><th>Hasil</th>' +
         '<th style="text-align:right">Prob. model</th><th style="text-align:right">EV model</th>' +
         '<th>Vonis model</th></tr></thead><tbody>';
@@ -2244,12 +2244,12 @@
            AVOID, including the nine this tool just recommended. Report why
            the leg was chosen instead: how often it pays full odds. */
         if (l.cleanWinAtPrediction != null) {
-          verdict = 'dipilih \u00b7 bayar penuh ' + pct(l.cleanWinAtPrediction, 1);
+          verdict = 'selected \u00b7 full payout ' + pct(l.cleanWinAtPrediction, 1);
           vcolor = 'var(--hl-edge)';
         } else if (r.pick) {
           if (r.pick.ev <= -0.04) { verdict = 'HINDARI'; vcolor = 'var(--critical)'; }
-          else if (r.pick.ev >= 0.015) { verdict = 'NILAI'; vcolor = 'var(--good)'; }
-          else { verdict = 'netral'; vcolor = 'var(--text-secondary)'; }
+          else if (r.pick.ev >= 0.015) { verdict = 'VALUE'; vcolor = 'var(--good)'; }
+          else { verdict = 'neutral'; vcolor = 'var(--text-secondary)'; }
         } else if (r.pModel != null) {
           verdict = r.pModel < 0.5 ? 'prob. di bawah 50%' : 'prob. di atas 50%';
           vcolor = r.pModel < 0.5 ? 'var(--critical)' : 'var(--text-secondary)';
@@ -2268,7 +2268,7 @@
               (l.half === '1h'
                 ? ' <input class="score-in" data-c="' + g.coupon.id + '" data-i="' + i +
                   '" data-f="score1h" value="' + (l.score1h || '') + '" placeholder="BB1 0:0" ' +
-                  'title="Skor babak pertama - leg ini diselesaikan dari sini" ' +
+                  'title="First-half score - this leg settles from it" ' +
                   'style="width:62px;padding:2px 4px;font-family:var(--mono);font-size:12px;' +
                   'border:1px solid var(--border-strong);border-radius:3px;background:var(--surface-1);' +
                   'color:var(--text-primary)" />'
@@ -2276,20 +2276,20 @@
             : '<td class="num"' + (l.scoreNote ? ' title="' + l.scoreNote.replace(/"/g, '&quot;') + '"' : '') + '>' +
             (l.score || '\u2014') +
             (l.score1h ? ' <span style="color:var(--text-muted)">(BB1 ' + l.score1h + ')</span>' : '') +
-            (r.outcomeMismatch ? ' <span style="color:var(--critical)" title="Hasil yang dicatat bertentangan dengan skor. Engine memakai skor.">&#9888;</span>' : '') +
+            (r.outcomeMismatch ? ' <span style="color:var(--critical)" title="The recorded result contradicts the score. The engine uses the score.">&#9888;</span>' : '') +
             '</td>') +
           '<td style="font-weight:600;color:' +
             (r.outcome === 'win' ? 'var(--good)' : lost ? 'var(--critical)'
              : r.outcome === 'push' ? 'var(--text-secondary)' : 'var(--warning)') + '">' +
             (OUTCOME_LABEL[r.outcome] || (pending ? 'belum main' : '?')) + '</td>' +
           '<td class="num"' + (l.pModelAtPrediction != null
-              ? ' title="Dibekukan pada ' + (g.coupon.registeredAt || 'saat prediksi') +
-                ', sebelum pertandingan. Tidak dihitung ulang."' : '') + '>' +
+              ? ' title="Frozen on ' + (g.coupon.registeredAt || 'saat prediksi') +
+                ', before the match. Never recomputed."' : '') + '>' +
             (l.pModelAtPrediction != null ? pct(l.pModelAtPrediction, 1)
              : r.pModel != null ? pct(r.pModel, 1) : '\u2014') + '</td>' +
           '<td class="num"' +
             (l.vigAtPrediction != null
-              ? ' style="color:var(--text-muted)" title="Ini margin bandar, bukan vonis. Tanpa statistik yang Anda isi, model dipasang pada harga ini juga, jadi EV tiap leg = minus marginnya."'
+              ? ' style="color:var(--text-muted)" title="This is the bookmaker margin, not a verdict. Without statistics from you the model is pinned to this same price, so every leg EV is minus that margin."'
               : '') + '>' +
             (l.vigAtPrediction != null ? '\u2212' + pct(l.vigAtPrediction, 1) + ' margin'
              : r.pick ? signPct(r.pick.ev, 1) : '\u2014') + '</td>' +
@@ -2327,8 +2327,8 @@
       ap.style.cssText = 'border-top:1px solid var(--border)';
       var ah2 = el('div', 'panel-head');
       ah2.style.background = 'var(--chrome-2)';
-      ah2.innerHTML = 'Alternatif yang seharusnya diambil, dinilai dari skor nyata' +
-        '<span class="sub">Harga yang ditawarkan tidak bisa dipulihkan, jadi kolom odds adalah ODDS ADIL MENURUT MODEL</span>';
+      ah2.innerHTML = 'The alternatives that should have been taken, judged against the real scores' +
+        '<span class="sub">The offered prices cannot be recovered, so the odds column is the MODEL FAIR ODDS</span>';
       ap.appendChild(ah2);
       var tb2 = el('table', 'mb');
       var h2 = '<thead><tr><th>Pertandingan</th><th>Alternatif</th><th>Skor</th><th>Hasil</th>' +
@@ -2367,11 +2367,11 @@
       var sc3 = el('div', 'table-scroll'); sc3.appendChild(tb2);
       ap.appendChild(sc3);
       var warn2 = el('div', 'panel-body');
-      warn2.innerHTML = '<p class="stat-note"><strong>Kolom odds adil bukan harga yang ditawarkan bandar.</strong> ' +
-        'Papan Pasar Awal tidak diarsipkan di mana pun yang bisa saya baca, dan catatan Anda sudah hilang, ' +
-        'jadi harga aslinya tidak bisa dipulihkan. Yang di kolom itu adalah nilai wajar menurut model &mdash; ' +
-        'jawaban untuk "seharusnya berapa", bukan "ditawarkan berapa". Dan model itu berjalan di atas ' +
-        'statistik contoh, bukan xG asli, jadi anggap ilustratif.</p>';
+      warn2.innerHTML = '<p class="stat-note"><strong>The fair-odds column is not a price any bookmaker offered.</strong> ' +
+        'The early-market board is not archived anywhere readable from here, and your own notes are gone, ' +
+        'so the original prices cannot be recovered. What is in that column is the model fair value &mdash; ' +
+        'an answer to "what should it have been", not "what was offered". And that model runs on ' +
+        'placeholder statistics rather than real xG, so treat it as illustrative.</p>';
       ap.appendChild(warn2);
       host.appendChild(ap);
     }
@@ -2381,58 +2381,58 @@
   function renderMethod() {
     var box = $('method'); box.innerHTML = '';
     var items = [
-      ['1. Rating serang &amp; bertahan dari xG',
-       'Rasio xG tim terhadap rata-rata liga. Kedua rating dikalikan untuk kedua tim, jadi ' +
-       'derau ikut berlipat; karena itu tiap rating diregress ke rata-rata liga dengan prior ' +
-       '4 laga (<code>RATING_PRIOR</code>). Tanpa ini, Milan vs Lecce keluar 3.00-0.48 &mdash; mustahil.'],
+      ['1. Attack &amp; defence ratings from xG',
+       'A team xG as a ratio of the league average. Both ratings multiply for both sides, so ' +
+       'noise multiplies with them; that is why each rating is regressed toward the league average with a ' +
+       '4-match prior (<code>RATING_PRIOR</code>). Without it, Milan vs Lecce comes out 3.00-0.48 &mdash; impossible.'],
       ['2. Peleburan profil tembakan',
-       'Tembakan, tepat sasaran dan xG per tembakan. Volume tembakan hanya dipangkatkan 0.35 ' +
-       'karena hasilnya menurun; tim dengan banyak tembakan bernilai rendah tidak boleh ' +
-       'terlihat bagus hanya karena volume.'],
-      ['3. Penyelesaian &amp; peluang terbuang',
-       'Gol dibagi xG, diregress dengan prior 38 laga: kemampuan menyelesaikan peluang hampir ' +
-       'tidak bertahan dari musim ke musim, jadi jangan dipercaya. Peluang terbuang di atas ' +
+       'Shots, shots on target and xG per shot. Shot volume is raised only to the power 0.35 ' +
+       'because it has diminishing returns; a team taking many low-value shots must not ' +
+       'look good on volume alone.'],
+      ['3. Finishing &amp; big chances missed',
+       'Goals over xG, regressed with a 38-match prior: finishing ability barely ' +
+       'persists from season to season, so do not trust it. Big chances missed above ' +
        'normal liga dikenai denda kecil.'],
       ['4. xA sebagai ukuran keterulangan',
-       'xA mendekati xG berarti peluang lahir dari struktur permainan, bukan dari bola mati atau ' +
-       'rebound. Hanya 25% sinyal ini menggeser rata-rata; sisanya melebarkan ketidakpastian, ' +
-       'karena xA memberi tahu seberapa <em>berulang</em> peluang itu, bukan seberapa banyak.'],
+       'xA close to xG means chances are born from open-play structure rather than set pieces or ' +
+       'rebounds. Only 25% of this signal moves the mean; the rest widens the uncertainty, ' +
+       'because xA tells you how <em>repeatable</em> those chances are, not how many there were.'],
       ['5. Tekel &amp; pelanggaran',
        'Tekel di atas rata-rata menekan xG lawan; pelanggaran menambah bahaya bola mati. ' +
-       'Keduanya dibatasi total &plusmn;12%. Kesalahan klasik adalah melebihkan bobot statistik ini ' +
-       'karena mudah dikumpulkan &mdash; dibanding xG, keduanya prediktor lemah.'],
-      ['6. Kartu kuning, merah dan disiplin',
-       'Risiko kartu merah diperkirakan dari pelanggaran, kartu kuning dan riwayat merah. ' +
+       'Both are capped at &plusmn;12% in total. The classic error is over-weighting these ' +
+       'because they are easy to collect &mdash; next to xG, both are weak predictors.'],
+      ['6. Yellows, reds and discipline',
+       'Red-card risk is estimated from fouls, yellows and red-card history. ' +
        'Kartu merah rata-rata terjadi sekitar menit 65, jadi efeknya ditimbang sisa waktu: ' +
-       'gol harapan tim sendiri turun, lawan naik.'],
+       'the team own expected goals fall and the opponent rise.'],
       ['7. Matriks skor Dixon-Coles',
-       'Poisson bivariat dengan koreksi <code>&tau;(&rho;)</code> untuk skor rendah, karena Poisson ' +
-       'independen terlalu jarang memprediksi 0-0 dan 1-1. Babak pertama difit langsung dari ' +
-       'harga babak pertama kalau ada, bukan sekadar menskala penuh waktu.'],
-      ['8. Jangkar pasar',
-       'Harga penutupan adalah prediktor sepak bola terkuat yang ada. Model yang tidak setuju ' +
-       'dengan pasar sebesar 40% hampir selalu salah soal inputnya sendiri, bukan benar soal ' +
-       'pasar. Jadi &lambda; model digeser ke &lambda; yang tersirat dari harga; slider di Pusat ' +
+       'A bivariate Poisson with the <code>&tau;(&rho;)</code> correction for low scores, because independent Poisson ' +
+       'predicts 0-0 and 1-1 too rarely. The first half is fitted directly from ' +
+       'first-half prices when they exist, rather than simply scaling full time.'],
+      ['8. Market anchor',
+       'The closing price is the strongest football predictor there is. A model that disagrees ' +
+       'with the market by 40% is almost always wrong about its own inputs rather than right about the ' +
+       'market. So the model &lambda; is shifted toward the &lambda; implied by the price; the slider in the Match ' +
        'Pertandingan mengatur seberapa jauh. Selisih di atas 25% otomatis menggugurkan status ' +
-       'pilihan utama dan baris ditandai CURIGA.'],
-      ['9. Penyelesaian garis Asia',
-       'Satu fungsi menangani semua jenis garis: garis kuartal dipecah ke dua garis tetangga dan ' +
-       'dirata-rata, persis seperti bandar menghitungnya. Hasil tiap skor masuk ke lima keranjang ' +
-       '(menang, setengah menang, seri, setengah kalah, kalah), yang kemudian dipakai simulasi parlay.'],
-      ['10. Nilai harapan, odds adil, Kelly',
-       'Dari keranjang itu: <code>w</code> = bagian stake yang menang, <code>l</code> = yang kalah. ' +
+       'main pick and the row is marked SUSPECT.'],
+      ['9. Asian line settlement',
+       'One function handles every line type: a quarter line splits across its two neighbours and is ' +
+       'averaged, exactly as the bookmaker settles it. Every scoreline falls into one of five buckets ' +
+       '(win, half win, push, half lose, lose), and those buckets drive the parlay simulation.'],
+      ['10. Expected value, fair odds, Kelly',
+       'From those buckets: <code>w</code> = the share of stake that wins, <code>l</code> = the share that loses. ' +
        'Odds adil = <code>1 + l/w</code>. EV = <code>w &times; (odds-1) - l</code>. Ukuran stake ' +
-       'ditampilkan sebagai Kelly seperempat, bukan Kelly penuh.'],
+       'is shown as quarter Kelly, not full Kelly.'],
       ['11. Kenapa menu Mix Parlay berbeda',
-       'Bandar membuang leg yang paling mungkin salah harga ke arah pemain &mdash; terutama favorit ' +
-       'berharga pendek &mdash; dengan menetapkan odds minimum per leg (sekitar 1.50). Itu sebabnya ' +
-       '1X2 favorit berat hilang dari menu parlay dan yang tersisa cuma pilihan serba nanggung. ' +
-       'Alat ini memakai batas yang sama, jadi yang diusulkan selalu benar-benar bisa dipasang.'],
-      ['12. Yang alat ini TIDAK bisa lakukan',
-       'Tidak bisa membuat parlay 9 leg jadi menguntungkan. Margin bandar berlipat sekali per leg; ' +
-       'pada margin 4% per leg, 9 leg sudah menahan sekitar 69% stake sebelum bola ditendang. ' +
-       'Yang bisa diukur: berapa besar biayanya, leg mana paling murah, dan berapa banyak yang ' +
-       'hilang ke garis kuartal.']
+       'The bookmaker removes the legs most likely to be mispriced in the player favour &mdash; above all short-priced ' +
+       'favourites &mdash; by setting a minimum price per leg (around 1.50). That is why ' +
+       'heavy-favourite 1X2 disappears from the parlay menu and only marginal selections remain. ' +
+       'This tool applies the same limit, so what it proposes can always actually be placed.'],
+      ['12. What this tool CANNOT do',
+       'It cannot make a 9-leg parlay profitable. The bookmaker margin compounds once per leg; ' +
+       'at 4% per leg, nine legs already hold back about 69% of the stake before a ball is kicked. ' +
+       'What it can measure: how large that cost is, which legs are cheapest, and how much is ' +
+       'lost to quarter lines.']
     ];
     /* This list describes what the engine CAN do. Read on a page where no
        statistics have been entered, it reads like a description of what it
@@ -2450,20 +2450,20 @@
 
     var state = el('div', 'notice' + (liveFixtures ? ' ok' : ''));
     state.innerHTML = liveFixtures
-      ? '<h3>Sedang hidup: seluruh 12 langkah, di ' + liveFixtures + ' laga</h3>' +
-        '<p>' + fedCount + ' dari ' + totalTeams + ' tim sudah punya statistik Anda. ' +
-        'Di laga yang KEDUA timnya terisi, langkah 1&ndash;6 benar-benar berjalan. ' +
-        'Di laga lain, langkah 1&ndash;6 tetap menganggur dan angkanya masih datang dari harga bandar.</p>'
-      : '<h3>Yang sedang hidup sekarang: langkah 7 sampai 12 saja</h3>' +
-        '<p><strong>Langkah 1&ndash;6 menganggur.</strong> Semuanya butuh statistik tim, dan belum ada ' +
-        'satu laga pun yang kedua timnya terisi. Jadi tidak ada xG, tembakan, tekel atau kartu ' +
-        'yang dipakai &mdash; walau tulisannya ada di bawah.</p>' +
-        '<p>Yang dipakai: rata-rata gol dibongkar dari <strong>harga bandar sendiri</strong> ' +
-        '(langkah 8), lalu diubah jadi sebaran skor (langkah 7) dan diselesaikan per jenis garis ' +
-        '(langkah 9&ndash;10). Artinya <strong>probabilitas yang Anda lihat adalah harga bandar ' +
-        'setelah margin dibuang</strong>, bukan tebakan model yang berdiri sendiri.</p>' +
-        '<p>Itu tetap berguna &mdash; langkah 9 sampai 12 yang mengukur jenis garis, margin dan ' +
-        'biaya panjang tiket. Tapi jangan bayangkan ada xG di baliknya, karena tidak ada.</p>';
+      ? '<h3>Live: all 12 steps, across ' + liveFixtures + ' fixtures</h3>' +
+        '<p>' + fedCount + ' of ' + totalTeams + ' teams now carry your statistics. ' +
+        'In fixtures where BOTH teams are filled, steps 1&ndash;6 genuinely run. ' +
+        'In every other fixture, steps 1&ndash;6 stay idle and the numbers still come from the bookmaker price.</p>'
+      : '<h3>Live right now: steps 7 through 12 only</h3>' +
+        '<p><strong>Steps 1&ndash;6 are idle.</strong> Every one of them needs team statistics, and not one ' +
+        'fixture yet has both teams filled. So no xG, shots, tackles or cards are being used ' +
+        '&mdash; whatever the text below describes.</p>' +
+        '<p>What is being used: expected goals recovered from <strong>the bookmaker own price</strong> ' +
+        '(step 8), then turned into a scoreline distribution (step 7) and settled per line type ' +
+        '(steps 9&ndash;10). Which means <strong>the probabilities you see are the bookmaker price ' +
+        'with the margin removed</strong>, not an independent model estimate.</p>' +
+        '<p>That is still useful &mdash; steps 9 to 12 are what measure line type, margin and ' +
+        'the cost of ticket length. But do not imagine there is xG behind it, because there is not.</p>';
     box.appendChild(state);
 
     items.forEach(function (it, i) {
@@ -2482,7 +2482,7 @@
     });
     var src = el('p', 'stat-note');
     src.innerHTML = '<strong>Sumber data:</strong> ' + DATA.meta.oddsSource +
-      '<br /><strong>Statistik tim:</strong> ' + DATA.meta.statSource;
+      '<br /><strong>Team statistics:</strong> ' + DATA.meta.statSource;
     box.appendChild(src);
   }
 
@@ -2492,8 +2492,10 @@
      either: `kickoff` holds "21:00" in one slate, "19/09 19:30" in another
      and "10/10" in a third. So each slate carries its own start date, and
      the label is parsed only as a fallback for a slate added without one. */
-  var ID_MONTHS = { jan:1, feb:2, mar:3, apr:4, mei:5, jun:6, jul:7, agu:8,
-                    sep:9, okt:10, nov:11, des:12 };
+  /* The slate labels are English now, but a slate written earlier may still
+     carry an Indonesian month, so both spellings are accepted. */
+  var ID_MONTHS = { jan:1, feb:2, mar:3, apr:4, may:5, mei:5, jun:6, jul:7,
+                    aug:8, agu:8, sep:9, oct:10, okt:10, nov:11, dec:12, des:12 };
   function slateStart(k, label) {
     var explicit = (DATA.meta.slateStart || {})[String(k)];
     if (explicit) return explicit;
@@ -2517,9 +2519,9 @@
     }).forEach(function (k) {
       var n = parseInt(k, 10);
       if (!slateFixtures(n).length) return;
-      /* The stored name carries its own explanation - "(Pasar Awal, setelah
-         international break)" - which is useful as a tooltip and far too
-         long for a chip on a phone. Keep the date, drop the aside. */
+      /* The stored name carries its own aside - "(Early market, after the
+         international break)" - useful as a tooltip and far too long for a
+         chip on a phone. Keep the date, drop the aside. */
       var label = slates[k].split(' - ')[0].replace(/\s*\([^)]*\)\s*$/, '').trim();
       var c = el('button', 'chip', label);
       c.type = 'button';
@@ -2597,7 +2599,7 @@
     DATA = data;
     var sub = $('brand-sub');
     if (sub) sub.textContent = 'Dixon-Coles · xG fusion · ' +
-      DATA.fixtures.length + ' laga';
+      DATA.fixtures.length + ' matches';
 
     $('odds-format').addEventListener('change', function (e) {
       STATE.format = e.target.value; renderBoard(); renderMatchCentre(); renderParlay();
@@ -2698,7 +2700,7 @@
     .catch(function (err) {
       document.querySelector('.wrap').innerHTML =
         '<div class="notice bad"><h3>Gagal memuat data</h3><p>' + err.message +
-        '</p><p>Kalau file dibuka langsung lewat <code>file://</code>, browser memblokir ' +
+        '</p><p>If the file is opened directly over <code>file://</code>, the browser blocks ' +
         'pembacaan JSON. Jalankan server lokal: <code>python3 -m http.server</code> lalu buka ' +
         '<code>http://localhost:8000/moneyball.html</code>.</p></div>';
     });

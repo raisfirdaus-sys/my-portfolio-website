@@ -5,11 +5,11 @@
     "statSource": "SEED ESTIMATES ONLY. Per-match season averages are placeholder baselines so the engine runs out of the box. Replace every number with real data from WhoScored / FBref / Understat before trusting any probability.",
     "disclaimer": "Educational statistical model. No model predicts football reliably. Negative expected value is the default outcome of betting.",
     "slates": {
-      "1": "20 Sept 2026 - papan Desimal (screenshot pertama)",
-      "2": "19-20 Sept 2026 - kupon yang Anda kirim lewat teks",
-      "3": "10-13 Okt 2026 (Pasar Awal, setelah international break) - Inggris, Spanyol, Italia, Jerman, Prancis. Papan format INDO, dikonversi ke Desimal.",
-      "4": "24-27 Sept 2026 - UEFA Nations League (Pasar Awal, format INDO). Tim nasional: tidak ada input xG, jadi model = pasar dan EV nol sampai Anda isi stats.",
-      "6": "14-15 Okt 2026 - Liga Champions UEFA (Pasar Awal, format INDO)"
+      "1": "20 Sept 2026 - decimal board (first screenshots)",
+      "2": "19-20 Sept 2026 - the coupon you sent as text",
+      "3": "10-13 Oct 2026 (Early market, after the international break) - England, Spain, Italy, Germany, France. INDO-format board, converted to decimal.",
+      "4": "24-27 Sept 2026 - UEFA Nations League (early market, INDO format). National teams: no xG entered, so model = market and EV is zero until you fill the statistics.",
+      "6": "14-15 Oct 2026 - UEFA Champions League (early market, INDO format)"
     },
     "slateStart": {
       "1": "2026-09-20",
@@ -22,7 +22,7 @@
   "leagues": [
     {
       "id": "ligue1",
-      "name": "Ligue 1 Prancis",
+      "name": "Ligue 1 (France)",
       "avgGoalsPerMatch": 2.75,
       "hfaAttack": 1.12,
       "rhoFT": -0.055,
@@ -31,7 +31,7 @@
     },
     {
       "id": "seriea",
-      "name": "Serie A Italia",
+      "name": "Drawe A (Italy)",
       "avgGoalsPerMatch": 2.65,
       "hfaAttack": 1.11,
       "rhoFT": -0.06,
@@ -40,7 +40,7 @@
     },
     {
       "id": "bundesliga",
-      "name": "Bundesliga Jerman",
+      "name": "Bundesliga (Germany)",
       "avgGoalsPerMatch": 3.15,
       "hfaAttack": 1.13,
       "rhoFT": -0.045,
@@ -49,7 +49,7 @@
     },
     {
       "id": "laliga",
-      "name": "La Liga Spanyol",
+      "name": "La Liga (Spain)",
       "avgGoalsPerMatch": 2.5,
       "hfaAttack": 1.12,
       "rhoFT": -0.062,
@@ -58,7 +58,7 @@
     },
     {
       "id": "championship",
-      "name": "Championship Inggris",
+      "name": "Championship (England)",
       "avgGoalsPerMatch": 2.6,
       "hfaAttack": 1.15,
       "rhoFT": -0.058,
@@ -67,7 +67,7 @@
     },
     {
       "id": "epl",
-      "name": "Liga Utama Inggris",
+      "name": "Premier League (England)",
       "avgGoalsPerMatch": 2.85,
       "hfaAttack": 1.11,
       "rhoFT": -0.05,
@@ -76,7 +76,7 @@
     },
     {
       "id": "eflcup",
-      "name": "EFL Cup (Piala Liga Inggris)",
+      "name": "EFL Cup (England)",
       "avgGoalsPerMatch": 3,
       "hfaAttack": 1.1,
       "rhoFT": -0.045,
@@ -121,7 +121,7 @@
     },
     {
       "id": "ucl",
-      "name": "Liga Champions UEFA",
+      "name": "UEFA Champions League",
       "avgGoalsPerMatch": 3.05,
       "hfaAttack": 1.1,
       "rhoFT": -0.048,
@@ -1229,7 +1229,7 @@
       "domain": "fcaugsburg.de"
     },
     "bayern": {
-      "name": "Bayern Munchen",
+      "name": "Bayern Munich",
       "league": "bundesliga",
       "statsMissing": true,
       "matches": 0,
@@ -1463,7 +1463,7 @@
       "domain": "realbetisbalompie.es"
     },
     "netherlands": {
-      "name": "Belanda",
+      "name": "Netherlands",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1482,7 +1482,7 @@
       "flag": "nl"
     },
     "germany": {
-      "name": "Jerman",
+      "name": "Germany",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1501,7 +1501,7 @@
       "flag": "de"
     },
     "norway": {
-      "name": "Norwegia",
+      "name": "Norway",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1596,7 +1596,7 @@
       "flag": "rs"
     },
     "greece": {
-      "name": "Yunani",
+      "name": "Greece",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1615,7 +1615,7 @@
       "flag": "gr"
     },
     "italy": {
-      "name": "Italia",
+      "name": "Italy",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1634,7 +1634,7 @@
       "flag": "it"
     },
     "belgium": {
-      "name": "Belgia",
+      "name": "Belgium",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1653,7 +1653,7 @@
       "flag": "be"
     },
     "turkey": {
-      "name": "Turki",
+      "name": "Turkey",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1672,7 +1672,7 @@
       "flag": "tr"
     },
     "france": {
-      "name": "Prancis",
+      "name": "France",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -1710,7 +1710,7 @@
       "flag": "ge"
     },
     "nireland": {
-      "name": "Irlandia Utara",
+      "name": "Northern Ireland",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1729,7 +1729,7 @@
       "flag": "gb-nir"
     },
     "hungary": {
-      "name": "Hongaria",
+      "name": "Hungary",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1748,7 +1748,7 @@
       "flag": "hu"
     },
     "ukraine": {
-      "name": "Ukraina",
+      "name": "Ukraine",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1767,7 +1767,7 @@
       "flag": "ua"
     },
     "poland": {
-      "name": "Polandia",
+      "name": "Poland",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1786,7 +1786,7 @@
       "flag": "pl"
     },
     "bosnia": {
-      "name": "Bosnia dan Herzegovina",
+      "name": "Bosnia and Herzegovina",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1805,7 +1805,7 @@
       "flag": "ba"
     },
     "sweden": {
-      "name": "Swedia",
+      "name": "Sweden",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1824,7 +1824,7 @@
       "flag": "se"
     },
     "romania": {
-      "name": "Rumania",
+      "name": "Romania",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -1976,7 +1976,7 @@
       "flag": "li"
     },
     "lithuania": {
-      "name": "Lituania",
+      "name": "Lithuania",
       "league": "unl-d",
       "national": true,
       "statsMissing": true,
@@ -1995,7 +1995,7 @@
       "flag": "lt"
     },
     "czechia": {
-      "name": "Ceko",
+      "name": "Czechia",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -2014,7 +2014,7 @@
       "flag": "cz"
     },
     "croatia": {
-      "name": "Kroasia",
+      "name": "Croatia",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -2033,7 +2033,7 @@
       "flag": "hr"
     },
     "england": {
-      "name": "Inggris",
+      "name": "England",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -2052,7 +2052,7 @@
       "flag": "gb-eng"
     },
     "spain": {
-      "name": "Spanyol",
+      "name": "Spain",
       "league": "unl-a",
       "national": true,
       "statsMissing": true,
@@ -2090,7 +2090,7 @@
       "flag": "si"
     },
     "scotland": {
-      "name": "Skotlandia",
+      "name": "Scotland",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -2109,7 +2109,7 @@
       "flag": "gb-sct"
     },
     "nmacedonia": {
-      "name": "Republic of North Macedonia",
+      "name": "North Macedonia",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -2128,7 +2128,7 @@
       "flag": "mk"
     },
     "switzerland": {
-      "name": "Swiss",
+      "name": "Switzerland",
       "league": "unl-b",
       "national": true,
       "statsMissing": true,
@@ -2166,7 +2166,7 @@
       "flag": "sm"
     },
     "finland": {
-      "name": "Finlandia",
+      "name": "Finland",
       "league": "unl-c",
       "national": true,
       "statsMissing": true,
@@ -9991,11 +9991,11 @@
           "ou": []
         }
       },
-      "note": "Baris handicap penuh-waktu terpotong di screenshot dan overround-nya mustahil (-0.9%), jadi dibuang daripada ditebak. Total dan handicap babak 1 tetap dipakai."
+      "note": "The full-time handicap row was cut off in the screenshot and its overround was impossible (-0.9%), so it was dropped rather than guessed. Totals and the first-half handicap are still used."
     }
   ],
   "verifiedSlip": {
-    "note": "Parlay 9 leg yang sudah settle (ID 526461885). Bukti nyata drag garis kuartal: odds tercetak 73.149, cair 506.96 dari stake 100 = efektif 5.07x.",
+    "note": "A settled 9-leg parlay (ID 526461885). Hard evidence of quarter-line drag: printed odds 73.149, paid out 506.96 on a stake of 100 = an effective 5.07x.",
     "ticketOdds": 73.149,
     "stake": 100,
     "payout": 506.96,
@@ -10066,7 +10066,7 @@
     ]
   },
   "couponReview": {
-    "note": "Kupon 19-20 Sept yang Anda kirim. Engine menilai ulang tiap pilihan. Skor akhir belum saya masukkan - isi sendiri di form kalau mau auto-grading.",
+    "note": "The 19-20 Sept coupon you sent. The engine re-prices every selection. Final scores are not entered - fill them in on the form for automatic grading.",
     "picks": [
       {
         "fixtureId": "tot-avl",
@@ -10094,7 +10094,7 @@
         "line": null,
         "side": "1",
         "odds": 1.53,
-        "label": "Newcastle Menang"
+        "label": "Newcastle Win"
       },
       {
         "fixtureId": "nfo-cov",
@@ -10103,7 +10103,7 @@
         "line": null,
         "side": "1",
         "odds": 1.58,
-        "label": "Nottingham Forest Menang",
+        "label": "Nottingham Forest Win",
         "userFlag": "regret"
       },
       {
@@ -10159,7 +10159,7 @@
         "kind": "ou",
         "line": 2.5,
         "side": "under",
-        "label": "Under 2.50 (alternatif yang Anda sebut)"
+        "label": "Under 2.50 (the alternative you named)"
       },
       {
         "fixtureId": "bha-ars",
@@ -10167,7 +10167,7 @@
         "kind": "ou",
         "line": 2.5,
         "side": "over",
-        "label": "Over 2.50 (alternatif yang Anda sebut)"
+        "label": "Over 2.50 (the alternative you named)"
       },
       {
         "fixtureId": "bha-ars",
@@ -10175,7 +10175,7 @@
         "kind": "ah",
         "line": 0.5,
         "side": "home",
-        "label": "Brighton +0.50 (alternatif yang Anda sebut)"
+        "label": "Brighton +0.50 (the alternative you named)"
       }
     ],
     "gradedAlternatives": [
@@ -10188,7 +10188,7 @@
         "half": "ft",
         "score": "3:0",
         "verdict": "win",
-        "note": "Brighton menang 3-0, jadi +0.50 menang penuh."
+        "note": "Brighton won 3-0, so +0.50 wins in full."
       },
       {
         "fixtureId": "bha-ars",
@@ -10199,18 +10199,18 @@
         "half": "ft",
         "score": "3:0",
         "verdict": "win",
-        "note": "Total 3 gol > 2.50, menang penuh."
+        "note": "Three goals total > 2.50, wins in full."
       },
       {
         "fixtureId": "bha-ars",
-        "label": "Brighton +0.75 (odds tidak diketahui)",
+        "label": "Brighton +0.75 (price unknown)",
         "kind": "ah",
         "line": 0.75,
         "side": "home",
         "half": "ft",
         "score": "3:0",
         "verdict": "win",
-        "note": "Menang penuh. Harga yang ditawarkan tidak bisa dipulihkan."
+        "note": "A full win. The offered price cannot be recovered."
       },
       {
         "fixtureId": "nfo-cov",
@@ -10221,25 +10221,25 @@
         "half": "ft",
         "score": "0:1",
         "verdict": "win",
-        "note": "Total 1 gol < 2.50, menang penuh."
+        "note": "One goal total < 2.50, wins in full."
       },
       {
         "fixtureId": "nfo-cov",
-        "label": "Coventry Menang (odds tidak diketahui)",
+        "label": "Coventry Win (price unknown)",
         "kind": "x12",
         "line": null,
         "side": "2",
         "half": "ft",
         "score": "0:1",
         "verdict": "win",
-        "note": "Coventry menang 1-0 tandang. Harga yang ditawarkan tidak bisa dipulihkan."
+        "note": "Coventry won 1-0 away. The offered price cannot be recovered."
       }
     ]
   },
   "coupons": [
     {
       "id": "526461885",
-      "label": "Kupon 1 - MENANG (19/09, 9 leg)",
+      "label": "Coupon 1 - WON (19/09, 9 legs)",
       "stake": 100,
       "ticketOdds": 73.149,
       "netProfit": 506.96,
@@ -10366,12 +10366,12 @@
     },
     {
       "id": "kupon-2",
-      "label": "Kupon 2 - KALAH (19-20/09, 9 leg: 6 menang, 1 seri, 2 kalah)",
+      "label": "Coupon 2 - LOST (19-20/09, 9 legs: 6 won, 1 pushed, 2 lost)",
       "stake": null,
       "ticketOdds": null,
       "netProfit": null,
       "grossReturn": 0,
-      "note": "Odds untuk dua leg yang kalah tidak diketahui - papannya tidak diarsipkan dan catatan Anda hilang. Skor diisi seiring Anda mengingatnya; tiap skor yang masuk diselesaikan ulang oleh engine, dan kalau hasil yang diklaim bertentangan dengan skor, barisnya ditandai.",
+      "note": "The prices for the two losing legs are unknown - that board was never archived and your own notes are gone. Scores go in as you remember them; every score entered is re-settled by the engine, and if a claimed result contradicts the score, the row is flagged.",
       "legs": [
         {
           "match": "Tottenham Hotspur vs Aston Villa",
@@ -10402,7 +10402,7 @@
         {
           "match": "Newcastle United vs Hull City",
           "fixtureId": "new-hul",
-          "pick": "Newcastle Menang",
+          "pick": "Newcastle Win",
           "kind": "x12",
           "line": null,
           "side": "1",
@@ -10415,7 +10415,7 @@
         {
           "match": "Nottingham Forest vs Coventry City",
           "fixtureId": "nfo-cov",
-          "pick": "Nottingham Forest Menang",
+          "pick": "Nottingham Forest Win",
           "kind": "x12",
           "line": null,
           "side": "1",
@@ -10476,7 +10476,7 @@
           "score": "1:1",
           "score1h": "1:0",
           "outcome": "push",
-          "scoreNote": "Ante Budimir 16' (babak 1), Sergio Camello 50' (babak 2). Under 1.00 di garis bulat dengan 1 gol = stake kembali."
+          "scoreNote": "Ante Budimir 16' (first half), Sergio Camello 50' (second half). Under 1.00 on a whole line with one goal = stake returned."
         },
         {
           "match": "Athletic Bilbao vs Alaves",
@@ -10495,7 +10495,7 @@
     },
     {
       "id": "unl-prereg-20260925",
-      "label": "Kupon 3 - PRA-DAFTAR (UEFA Nations League, 24-27 Sept) - BELUM SELESAI",
+      "label": "Coupon 3 - PRE-REGISTERED (UEFA Nations League, 24-27 Sept) - NOT YET SETTLED",
       "status": "pending",
       "registeredAt": "2026-09-22",
       "stake": 100000,
@@ -10503,7 +10503,7 @@
       "expectedReturn": 0.5336,
       "ev": -0.4664,
       "pProfit": 0.0055,
-      "note": "Yang dijaga catatan ini BUKAN Anda - skor itu fakta publik, tidak bisa dikarang. Yang dijaga adalah SAYA. Tanpa pra-daftar, besok saya bisa mengubah model lalu menilai tebakan hari ini dengan model yang sudah tahu hasilnya, dan terlihat lebih pintar daripada yang sebenarnya. Atau memilih kupon mana yang masuk buku setelah tahu mana yang menang - persis yang terjadi pada dua kupon di atas, keduanya dimasukkan setelah hasilnya diketahui. Sekarang angkanya terkunci per 22 Sept: kolom PROB. MODEL di bawah tidak dihitung ulang, bahkan kalau engine-nya saya ubah total. Gawangnya sudah dipaku sebelum bolanya ditendang.",
+      "note": "What this record guards is NOT you - a score is a public fact and cannot be invented. What it guards is THE TOOL. Without pre-registration, the model could be changed tomorrow and today's picks graded by a model that already knows the results, making it look sharper than it is. Or coupons could be chosen for the ledger after it is clear which ones won - exactly what happened to the two coupons above, both added once their results were known. These numbers are now locked as of 22 Sept: the MODEL PROB. column below is never recomputed, even if the engine is rewritten entirely. The goalposts were nailed down before the ball was kicked.",
       "legs": [
         {
           "match": "Hongaria vs Ukraina",
@@ -10659,7 +10659,7 @@
           "outcome": null
         }
       ],
-      "guards": "Pergeseran gawang oleh pembuat alat, bukan kejujuran pengisi skor."
+      "guards": "Moving goalposts by whoever builds the tool, not the honesty of whoever enters the scores."
     }
   ]
 }

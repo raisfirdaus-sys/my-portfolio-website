@@ -544,8 +544,8 @@
     var found = {};
     collectFromJSON(json, found, 0);
     if (!Object.keys(found).length) {
-      return { error: 'JSON terbaca, tapi tidak ada field statistik yang dikenali. ' +
-        'Kirim potongan JSON-nya ke Claude supaya pemetaannya ditulis persis.' };
+      return { error: 'The JSON parsed, but no recognised statistic field was found. ' +
+        'Send the JSON snippet to Claude so the mapping can be written for it exactly.' };
     }
     var matches = found.matches;
     var perMatch = matches && matches > 1;
@@ -618,7 +618,7 @@
       }
     }
     walk(json, 0);
-    if (!teams.length) return { error: 'Tidak ada tim dengan statistik yang dikenali di JSON ini.' };
+    if (!teams.length) return { error: 'No team with recognisable statistics was found in this JSON.' };
 
     return {
       teams: teams.map(function (t) {
@@ -671,7 +671,7 @@
     }
     var t = text.replace(/\u00a0/g, ' ');
 
-    var matches = grabStat(t, ['Matches played', 'Laga dimainkan', 'Pertandingan dimainkan']);
+    var matches = grabStat(t, ['Matches played', 'Matches played', 'Matches contested']);
     /* Every number on the page is a season total, so nothing can be turned
        into a per-match average without this one figure. Pages differ in how
        they draw it - inside a donut, split across lines, sometimes as an
@@ -700,8 +700,8 @@
       if (isFinite(fb) && fb >= 1) { matches = fb; matchesFromCaller = true; }
     }
     if (!matches || matches < 1) {
-      return { error: 'Jumlah laga tidak terbaca dari halaman ini. ' +
-        'Ketik angkanya di kotak LAGA DIMAINKAN, lalu tekan Impor lagi.',
+      return { error: 'The match count could not be read from this page. ' +
+        'Type it into the MATCHES PLAYED box, then press Import again.',
         needsMatches: true,
         sample: String(text).replace(/\s+/g, ' ').trim().slice(0, 240) };
     }
@@ -1006,9 +1006,9 @@
         // 1X2 is a three-way market: its margin is spread over all three.
         var x3 = (mk.x12['1'] && mk.x12.X && mk.x12['2'])
                ? devig([mk.x12['1'], mk.x12.X, mk.x12['2']]) : null;
-        [['1', mk.x12['1'], home.name + ' Menang', 0],
-         ['X', mk.x12.X, 'Seri', 1],
-         ['2', mk.x12['2'], away.name + ' Menang', 2]].forEach(function (row) {
+        [['1', mk.x12['1'], home.name + ' Win', 0],
+         ['X', mk.x12.X, 'Draw', 1],
+         ['2', mk.x12['2'], away.name + ' Win', 2]].forEach(function (row) {
           pushBet(half, 'x12', tag + row[2], null, row[0], row[1], M);
           if (x3) {
             var last = picks[picks.length - 1];
@@ -1029,8 +1029,8 @@
         });
       }
       if (mk.oe) {
-        pushBet(half, 'oe', tag + 'Total Ganjil', null, 'odd', mk.oe.odd, M, mk.oe.even);
-        pushBet(half, 'oe', tag + 'Total Genap', null, 'even', mk.oe.even, M, mk.oe.odd);
+        pushBet(half, 'oe', tag + 'Total Odd', null, 'odd', mk.oe.odd, M, mk.oe.even);
+        pushBet(half, 'oe', tag + 'Total Even', null, 'even', mk.oe.even, M, mk.oe.odd);
       }
     });
 
