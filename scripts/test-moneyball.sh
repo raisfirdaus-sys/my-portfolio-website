@@ -7,15 +7,15 @@ set -e
 # other result meaningless.
 printf '=== conflict markers ===\n'
 if grep -rnE '^(<{7}|={7}|>{7})( |$)' js/ css/ scripts/ data/ ./*.html 2>/dev/null; then
-  echo "FAIL: penanda konflik git masih ada di berkas di atas."
+  echo "FAIL: git conflict markers are still present in the files above."
   exit 1
 fi
-echo "  ok   tidak ada penanda konflik"
+echo "  ok   no conflict markers"
 
 # Every browser file must at least parse.
 printf '=== syntax ===\n'
 for f in js/*.js; do
-  node --check "$f" || { echo "FAIL: $f tidak bisa di-parse."; exit 1; }
+  node --check "$f" || { echo "FAIL: $f does not parse."; exit 1; }
   echo "  ok   $f"
 done
 
@@ -41,5 +41,8 @@ node scripts/test-whoscored-flow.mjs
 
 printf '=== test-snapshot ===\n'
 node scripts/test-snapshot.mjs
+
+printf '=== test-published-stats ===\n'
+node scripts/test-published-stats.mjs
 echo
 echo "All Moneyball tests passed."

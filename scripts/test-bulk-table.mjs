@@ -92,7 +92,7 @@ say(/Brentford/.test(board("xG created")), "Brentford is on the xG board");
 say(/Arsenal/.test(board("Goals per match")), "Arsenal is on the goals board");
 say(/Leeds/.test(board("Tackles")), "Leeds is on the tackles board");
 const sub = (doc.getElementById("tt-sub") || {}).textContent || "";
-say(/^4 teams with your data/.test(sub), `the subtitle counts the same four (got "${sub}")`);
+say(/^4 teams with real data/.test(sub), `the subtitle counts the same four (got "${sub}")`);
 
 const real = errors.filter((e) => !/Could not load|Not implemented|css/i.test(e));
 say(real.length === 0, `no script errors (${real.slice(0, 1).join("") || "none"})`);

@@ -465,6 +465,46 @@ tr.tier-neutral { box-shadow: none; }
   .board { min-width: 760px; }
 }
 
+/* On a phone the board stops being a spreadsheet.
+   Six columns at 880px means a reader either pinches out or swipes right
+   to reach the one column worth reading - the model's pick - which is
+   exactly the column that never got seen. So below 640px the handicap,
+   over/under and 1X2 prices are dropped and each fixture becomes two
+   lines: who is playing, and what the model would take. The prices are
+   all still there, one tap away, in the match centre the row opens. */
+@media (max-width: 640px) {
+  .board-scroll { overflow-x: visible; }
+  .board { min-width: 0; }
+  .board-head { display: none; }
+
+  .board-row {
+    grid-template-columns: 1fr;
+    row-gap: 2px;
+    padding: 9px 2px;
+    align-items: start;
+  }
+  .board-row > * { padding: 0 10px; }
+  /* Handicap, over/under and 1X2: the columns that forced the scroll. */
+  .board-row .board-cell { display: none; }
+
+  .board-time { font-size: 10px; }
+  .board-team span { font-size: 14px; }
+
+  .board-pick {
+    margin-top: 3px;
+    border-left: 3px solid var(--border-strong);
+    padding-top: 4px; padding-bottom: 4px;
+  }
+  /* The recommendation, which is the reason to look at the row at all. */
+  .board-pick.hl {
+    border-left-color: var(--hl-edge);
+    background: var(--hl-wash);
+    border-radius: 0 5px 5px 0;
+  }
+  .board-pick .lbl { font-size: 13px; }
+  .board-pick .meta { font-size: 11px; }
+}
+
 /* Fetched crest vs generated monogram: same box either way, so a failed
    image never shifts the row it sits in. */
 .crest-img { background: rgba(255,255,255,.06); }
