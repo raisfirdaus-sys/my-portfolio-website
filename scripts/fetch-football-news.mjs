@@ -6,8 +6,10 @@
 // Why Google News rather than a sports API: it needs no key, no plan and no
 // per-league entitlement, which is exactly what stopped the Sportmonks route
 // working. It returns headlines and links only, so the picture on each card
-// is read off the article itself - see "pictures" below - and any story
-// without one falls back to the club crest the page already draws.
+// has to be read off the article itself - see "pictures" below. That does
+// not work yet: Google no longer serves its redirect links to a plain GET,
+// so no article page is reached and every card currently falls back to the
+// club crest, exactly as it did before pictures existed.
 //
 // Stories are tagged to teams by matching the headline against the team
 // names this site knows, plus the short forms newspapers actually print
@@ -369,9 +371,26 @@ async function getPage(url) {
   }
 }
 
+/* Measured on the runner, 23 Sep 2026: all 60 of these came back in 1.1s
+   with nothing to read - one failed round trip each. Google does not serve
+   its redirect links to a plain GET any more, so the article page is never
+   reached and no picture can be read off it.
+
+   Until that is solved, asking is 60 pointless requests to Google every
+   half hour, so a link we know will fail is not fetched at all. Everything
+   below still works for a link that points straight at a publisher, which
+   is the shape the fix will produce. */
+function isGoogleRedirect(link) {
+  try { return /(^|\.)news\.google\.com$/i.test(new URL(link).hostname); }
+  catch { return false; }
+}
+
 async function articleImage(link) {
   const decoded = decodeGoogleLink(link);
-  let page = await getPage(decoded || link);
+  const start = decoded || link;
+  if (isGoogleRedirect(start)) return null;        // known to fail; do not ask
+
+  let page = await getPage(start);
   if (!page) return null;
 
   let host = "";
