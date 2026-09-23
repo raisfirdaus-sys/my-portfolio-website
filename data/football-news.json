@@ -1,15 +1,27 @@
 {
-  "generatedAt": 1790130449747,
+  "generatedAt": 1790131669800,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 970,
-    "tagged": 456,
-    "droppedKeyword": 38,
-    "droppedFeed": 12,
-    "blocklistDistrusted": false
+    "raw": 966,
+    "tagged": 455,
+    "droppedKeyword": 36,
+    "droppedFeed": 11,
+    "blocklistDistrusted": false,
+    "withImage": 0
   },
   "items": [
+    {
+      "competition": "transfer",
+      "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2g4X2x4MDAwSkJRaFYzRDJEdWdydWhWX1Zma3JNbUE2UGkxOG5EVkxVODl0ZzhXX0VkdWxyQ000ck51X3JDNkFGTVBMVmxwWW5oSERSU0lzS1lCR3E4WkVPM3F5MDJkc2ozY19sbUxDeTk2UDBZS2tOTFdNNG5QQ2NmUk1xeGZFai1TTkx5QzcyQUFpdENLcU90TmFpamFYelRabkVyOXA2TWNJenJIdzNEZkFmc2d3Q1BkNDZqRTgydw?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790130002000,
+      "image": null
+    },
     {
       "competition": "unl-a",
       "title": "England vs Spain UEFA Nations League preview: Everything you need to know",
@@ -19,7 +31,8 @@
         "england",
         "spain"
       ],
-      "publishedAt": 1790126726000
+      "publishedAt": 1790126726000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -30,7 +43,8 @@
         "portugal",
         "wales"
       ],
-      "publishedAt": 1790122882000
+      "publishedAt": 1790122882000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -40,7 +54,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790121600000
+      "publishedAt": 1790121600000,
+      "image": null
     },
     {
       "competition": "transfer",
@@ -50,7 +65,8 @@
       "teams": [
         "chelsea"
       ],
-      "publishedAt": 1790121492000
+      "publishedAt": 1790121492000,
+      "image": null
     },
     {
       "competition": "transfer",
@@ -62,7 +78,8 @@
         "arsenal",
         "chelsea"
       ],
-      "publishedAt": 1790121217000
+      "publishedAt": 1790121217000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -72,7 +89,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790121080000
+      "publishedAt": 1790121080000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -82,7 +100,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790120859000
+      "publishedAt": 1790120859000,
+      "image": null
     },
     {
       "competition": "bundesliga",
@@ -92,19 +111,8 @@
       "teams": [
         "bayern"
       ],
-      "publishedAt": 1790119800000
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer rumors, news: Liverpool, Arsenal, Man City in race for Feyenoord defender",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2g4X2x4MDAwSkJRaFYzRDJEdWdydWhWX1Zma3JNbUE2UGkxOG5EVkxVODl0ZzhXX0VkdWxyQ000ck51X3JDNkFGTVBMVmxwWW5oSERSU0lzS1lCR3E4WkVPM3F5MDJkc2ozY19sbUxDeTk2UDBZS2tOTFdNNG5QQ2NmUk1xeGZFai1TTkx5QzcyQUFpdENLcU90TmFpamFYelRabkVyOXA2TWNJenJIdzNEZkFmc2d3Q1BkNDZqRTgydw?oc=5",
-      "teams": [
-        "liverpool",
-        "feyenoord",
-        "mancity"
-      ],
-      "publishedAt": 1790119520000
+      "publishedAt": 1790119800000,
+      "image": null
     },
     {
       "competition": "transfer",
@@ -114,17 +122,19 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790119430000
+      "publishedAt": 1790119430000,
+      "image": null
     },
     {
-      "competition": "laliga",
-      "title": "Real Madrid calls for a new Spanish league president after criticizing Tebas' refereeing remarks",
-      "publisher": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSzByeC1VdGRvQnZvVlRSR1ozZkhFM3B2NnlPUm9qaVFNaG5VRmNOVjUxY0ZONUlGbHhUUWRjUi1fZGZmTVFrVVM0bTNTbVV1WVZnVmtkVHBMMnVJQnNrajAxMGYtOWNaTW9GSDZQSkp5Z0pndjZNNzJJYjh2ZWdGUkhkR3RvZGhad2dqeHBaZjFrV05CS3pjWXF0UQ?oc=5",
+      "competition": "bundesliga",
+      "title": "How to buy RB Leipzig 2026/27 tickets: Upcoming fixtures, ticket prices, Bundesliga news and more",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTWVSOE1aVy1hQXAwWW5QbmJGMU9UNjA3aWcxX0wtbDBTT0FKdnZzN3RXVkpUTkwxRkNuWFA1bGRRMDFkQWJDNnZfQnRVd1ptSHFvbzJsNUJ3cGEyT3VBV3NCVE1weklUa0VQbTZCVVdIUlFZUGFhVTcxTGlxTldEY2JmZjJpckZiTkZMVDI1dV8?oc=5",
       "teams": [
-        "realmadrid"
+        "leipzig"
       ],
-      "publishedAt": 1790116800000
+      "publishedAt": 1790116237000,
+      "image": null
     },
     {
       "competition": "ucl",
@@ -135,7 +145,8 @@
         "mancity",
         "bayern"
       ],
-      "publishedAt": 1790116200000
+      "publishedAt": 1790116200000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -147,7 +158,8 @@
         "liverpool",
         "chelsea"
       ],
-      "publishedAt": 1790116002000
+      "publishedAt": 1790116002000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -157,7 +169,19 @@
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790115240000
+      "publishedAt": 1790115240000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "Reaction: Bayern's Gwinn on 'frustrating' draw",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONm92UnZxbTNmdEJRcFkxSUY5MkVtaDRaOHJXdnRHM1dnSU5WbERMalptWVF2LXRfY2RlcElDRW1HRGNGZjVkNm51VmQ2T1pBSFU5LWJYXzV6RWloYmRxc1V1U1gzc1hlOVZFTlkwZGtlcnJCSzFXQjUyZ3h4RzZrRExNdV9CdmRqZWh5QVM3NUNDUEp3QW8zMDhsclNIei1BcUVMOFVEalp2SE1ZVEdNeDl6d1h6aXFnUFh5bXhid1lMTHRQdnYwMXBR?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790115068000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -167,7 +191,8 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790114401000
+      "publishedAt": 1790114401000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -177,7 +202,8 @@
       "teams": [
         "israel"
       ],
-      "publishedAt": 1790113500000
+      "publishedAt": 1790113500000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -187,7 +213,8 @@
       "teams": [
         "israel"
       ],
-      "publishedAt": 1790112715000
+      "publishedAt": 1790112715000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -197,7 +224,8 @@
       "teams": [
         "frosinone"
       ],
-      "publishedAt": 1790112017000
+      "publishedAt": 1790112017000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -207,7 +235,8 @@
       "teams": [
         "napoli"
       ],
-      "publishedAt": 1790111071000
+      "publishedAt": 1790111071000,
+      "image": null
     },
     {
       "competition": "ligue1",
@@ -217,17 +246,19 @@
       "teams": [
         "sunderland"
       ],
-      "publishedAt": 1790110200000
+      "publishedAt": 1790110200000,
+      "image": null
     },
     {
-      "competition": "epl",
-      "title": "Mikel Arteta, Arsenal’s overlord, has upscaled the club from moored in mediocrity to title winners - The Athletic",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbGhPRlBkNkZWLWQ2cE5aNGdGUmYyOGRVSlhob2duVnVWczFmWjZiX1JLZXB6d01FNnFDRjluUVpoU0UzeFZBVlFJNEpVUnVwd1NkMWpfd3YxMlc1Z0ROcW9HdzJUcDV6N3ZDZlpBdFloNlRaS2dyS1BxTFpvN2xHVVB3N1A3eEx2OFotdlRpRW0?oc=5",
+      "competition": "bundesliga",
+      "title": "How to buy Eintracht Frankfurt 2026/27 tickets: Upcoming fixtures, ticket prices, Bundesliga news and more",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFNicEo5LWg3WVhWU0FQSmNPOTEzTUljVk1HQWJjb0JYX0tCWG5iYVBrbGNzbVZYaUU3RVFxOTdOMnNVWlhIZW9admRXdDdjLUdXSl8xTmEtd3hZSmZzRkp0ZFNtenI1WXpNdjRLUEpKWENvNTdpeUdkQjgtWl9pZkQ0d2JCTkJ2dW5DZ09zLXF6QURYVXIyeg?oc=5",
       "teams": [
-        "arsenal"
+        "frankfurt"
       ],
-      "publishedAt": 1790109152000
+      "publishedAt": 1790109058000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -237,7 +268,8 @@
       "teams": [
         "juventus"
       ],
-      "publishedAt": 1790108161000
+      "publishedAt": 1790108161000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -247,7 +279,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790107800000
+      "publishedAt": 1790107800000,
+      "image": null
     },
     {
       "competition": "ligue1",
@@ -257,7 +290,19 @@
       "teams": [
         "parisfc"
       ],
-      "publishedAt": 1790107740000
+      "publishedAt": 1790107740000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Tottenham chances of Premier League relegation revealed after Aston Villa loss",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeEZQUS03V1NvVlp6aUtxT0dwdGJVQVhILVVMTDNvU3VsTmZiMC1VMEVHLXlJYVhkakxYaXg2SDk2Wl8tNFJCMlEzUG1XdklJdTROQlJGd0hIcVNwQmRuMFFjZGtVRDUzWGFnQzg2MVdaVWdtOGUwM2ppR2l4N0xucUFsLWNjZWJjLVJkQ1V0bDR3RkdPOEdN?oc=5",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790107723000,
+      "image": null
     },
     {
       "competition": "transfer",
@@ -268,7 +313,8 @@
         "liverpool",
         "manutd"
       ],
-      "publishedAt": 1790107669000
+      "publishedAt": 1790107669000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -278,7 +324,8 @@
       "teams": [
         "barcelona"
       ],
-      "publishedAt": 1790107200000
+      "publishedAt": 1790107200000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -288,7 +335,8 @@
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790105880000
+      "publishedAt": 1790105880000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -298,7 +346,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790105757000
+      "publishedAt": 1790105757000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -308,7 +357,8 @@
       "teams": [
         "napoli"
       ],
-      "publishedAt": 1790105700000
+      "publishedAt": 1790105700000,
+      "image": null
     },
     {
       "competition": "bundesliga",
@@ -320,7 +370,8 @@
         "manutd",
         "barcelona"
       ],
-      "publishedAt": 1790105400000
+      "publishedAt": 1790105400000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -330,7 +381,8 @@
       "teams": [
         "liverpool"
       ],
-      "publishedAt": 1790104805000
+      "publishedAt": 1790104805000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -340,7 +392,8 @@
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790104642000
+      "publishedAt": 1790104642000,
+      "image": null
     },
     {
       "competition": "ucl",
@@ -351,7 +404,8 @@
         "mancity",
         "bayern"
       ],
-      "publishedAt": 1790104570000
+      "publishedAt": 1790104570000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -361,7 +415,19 @@
       "teams": [
         "barcelona"
       ],
-      "publishedAt": 1790104501000
+      "publishedAt": 1790104501000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "It’s Totally Cool And Normal That Real Madrid And La Liga’s President Are Bickering Online",
+      "publisher": "Defector",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmFNSkN3RmlUNWotT2IwVVlvYVhXVFFCMHRuV3FMY1JsSFhrN0FKZEZTa2hQSmxFMVVOWG9NZHgxQnRDUFYtZDA0SEg1V2psMENXSk4zandRcWt5SEdScDBhNzNPRUlfdGhWN1B4NkR6Qk5xNlh6cHpjaEd6TDFFcHhZRElvcWFxN3lEZ3ZwdE1aTXhCYU5jLTFlMEEyc3FoNlhqaDRxZlVBcmtzc0E?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790104260000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -371,18 +437,20 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790104053000
+      "publishedAt": 1790104053000,
+      "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "PREVIEW | Netherlands vs Germany: team news, lineups, predictions (UEFA Nations League 24/09)",
+      "competition": "seriea",
+      "title": "Allegri punched walls in the dressing room after Fiorentina 1-1 Napoli as tension rises",
       "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTG84TkNCYmVZa21ZTlpKQWFjcmdTYUdmajFQOUNGcExPVW1wQXQzUnhKbnl1OW5OOVFBMHdzeXAwM3BmZjNiV3owN2hHZmFJcFc0czNPalhGdlN4Mzhib2hPeFYyRTJPQjdPNXgzT3Zta0Fsdlg0RWMyV195MGxwWDQwQ0p3N2s4MWV4QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORlVUQTNwMk55SjVLTmhVUzZ3My1uWGYwN2RhMHhtT3lWOG5OZFo1TjlIRVFaSnFKam02NUVWSHpGb3NSNU9vVDlYbHNtYTdPOEpjS1BCNjRTOFdoVEJCYXh2YnozTFc4YkYzem5weERzUkE5UW1pSXMyTmZOb2U4cWhYbV82RU8yM0k5MA?oc=5",
       "teams": [
-        "netherlands",
-        "germany"
+        "fiorentina",
+        "napoli"
       ],
-      "publishedAt": 1790103730000
+      "publishedAt": 1790103900000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -392,7 +460,8 @@
       "teams": [
         "juventus"
       ],
-      "publishedAt": 1790103683000
+      "publishedAt": 1790103683000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -403,7 +472,20 @@
         "realmadrid",
         "barcelona"
       ],
-      "publishedAt": 1790103656000
+      "publishedAt": 1790103656000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "PREVIEW | Netherlands vs Germany: team news, lineups, predictions (UEFA Nations League 24/09)",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTG84TkNCYmVZa21ZTlpKQWFjcmdTYUdmajFQOUNGcExPVW1wQXQzUnhKbnl1OW5OOVFBMHdzeXAwM3BmZjNiV3owN2hHZmFJcFc0czNPalhGdlN4Mzhib2hPeFYyRTJPQjdPNXgzT3Zta0Fsdlg0RWMyV195MGxwWDQwQ0p3N2s4MWV4QQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790103000000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -413,7 +495,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790102704000
+      "publishedAt": 1790102704000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -423,7 +506,8 @@
       "teams": [
         "venezia"
       ],
-      "publishedAt": 1790102100000
+      "publishedAt": 1790102100000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -433,7 +517,8 @@
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790101631000
+      "publishedAt": 1790101631000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -443,7 +528,8 @@
       "teams": [
         "belgium"
       ],
-      "publishedAt": 1790101323000
+      "publishedAt": 1790101323000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -453,7 +539,8 @@
       "teams": [
         "venezia"
       ],
-      "publishedAt": 1790100701000
+      "publishedAt": 1790100701000,
+      "image": null
     },
     {
       "competition": "transfer",
@@ -463,7 +550,19 @@
       "teams": [
         "arsenal"
       ],
-      "publishedAt": 1790100547000
+      "publishedAt": 1790100547000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid calls for a new Spanish league president after criticizing Tebas' refereeing remarks",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS0dabnhQdlZacTZEWlhoNnZaeHdwNWstNEUtZWVlUmhKV3ZUcFNpWUUyVlhWN25EUFp4SjhrT3lFZmplZXNTSVJWUXdROHZTMmdNN1JtMXZNeXZmZi1wN0J4aEdyWUlENUhObGFCYW55RldQaHNoNUdzVlEyUGh5TXJsNS1XMDl0?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790100307000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -473,7 +572,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790099400000
+      "publishedAt": 1790099400000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -483,7 +583,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790099100000
+      "publishedAt": 1790099100000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -493,17 +594,19 @@
       "teams": [
         "juventus"
       ],
-      "publishedAt": 1790099100000
+      "publishedAt": 1790099100000,
+      "image": null
     },
     {
       "competition": "ligue1",
       "title": "Zakaria’s adductor injury revealed after Switzerland withdrawal",
-      "publisher": "TribalFootball",
+      "publisher": "tribalfootball.com",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSENQZzhRclV6SS1VT25fZVdTWGFkRTg3LThibjZZZFlmaDJrV00tYjJ0VnpVSVB4bVgtZTFoNlc3ZDhwaHEtazFNWjNoTlVGNkppclpWZmdOOTJkdjdvZ2RZZ09NNXVtOWxjN0RjZ3BfaUdlTWdmdEdHR0w2VHJvNjY3dTZLLXk4MzBHdW5pUFRmYXRsbUhKNEF6YklwZEJ2dVZYbjF2N1kzaWlTaE1zRTdTV3FxX2dNZ0VUSTRDX1ZiTU5odHB0UGlxV3BYQ2RHUUNFaGFndGtJLWp1MjVCU1ZsbWRZbzN2X1E?oc=5",
       "teams": [
         "switzerland"
       ],
-      "publishedAt": 1790099062000
+      "publishedAt": 1790099062000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -513,7 +616,8 @@
       "teams": [
         "liverpool"
       ],
-      "publishedAt": 1790098853000
+      "publishedAt": 1790098853000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -523,7 +627,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790098565000
+      "publishedAt": 1790098565000,
+      "image": null
     },
     {
       "competition": "laliga",
@@ -533,7 +638,8 @@
       "teams": [
         "realmadrid"
       ],
-      "publishedAt": 1790098200000
+      "publishedAt": 1790098200000,
+      "image": null
     },
     {
       "competition": "ligue1",
@@ -543,7 +649,8 @@
       "teams": [
         "france"
       ],
-      "publishedAt": 1790098149000
+      "publishedAt": 1790098149000,
+      "image": null
     },
     {
       "competition": "seriea",
@@ -553,7 +660,8 @@
       "teams": [
         "acmilan"
       ],
-      "publishedAt": 1790097877000
+      "publishedAt": 1790097877000,
+      "image": null
     },
     {
       "competition": "bundesliga",
@@ -563,7 +671,8 @@
       "teams": [
         "leipzig"
       ],
-      "publishedAt": 1790097683000
+      "publishedAt": 1790097683000,
+      "image": null
     },
     {
       "competition": "ligue1",
@@ -573,60 +682,8 @@
       "teams": [
         "liverpool"
       ],
-      "publishedAt": 1790097586000
-    },
-    {
-      "competition": "seriea",
-      "title": "Brentford star Michael Kayode reveals he always wanted to play for Italy",
-      "publisher": "getfootballnewsitaly.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzcwV3hVNjRBNWJxSnotZWc2U1lzVWRKTGhlS2JlS25jNFo2a3o0TkZzRGVFZmtsY3Ital9JSnhUbnllUHJTaUI2dEUwUFEyZ0hMVGNNbWhXcS1WbzlKM3JPTW9ISEZvMDN4dlpfcERMd2w4WXphc0FIR01ZYlpGVnN2X2IwaWRpSWVDcjBMTE1sTTlHODNDMFlOR1Roa0J3a0xqaXptcFZnN0VyaW5iSzlzT2podw?oc=5",
-      "teams": [
-        "brentford",
-        "italy"
-      ],
-      "publishedAt": 1790097419000
-    },
-    {
-      "competition": "bundesliga",
-      "title": "Opinion | Borussia Dortmund’s strong start to the season is good news for the Bundesliga",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXNoaFdMa3V2YUZxdHhuN3l1c0twN2tUWkNOR2VNQkJUam1nVkdtM0VVZVExU1U4dnJxOHFBWDZiT3FCNnVLdG1DTm9rZmlpVTdWX2FrQ1FqbExudUNjQXJQWFEtNUM5RHpGTTNLelZKdENzQnJYM3hpbVJUUWZleV9ZU3FhclEyeGRWcFdaWk0?oc=5",
-      "teams": [
-        "dortmund"
-      ],
-      "publishedAt": 1790097000000
-    },
-    {
-      "competition": "epl",
-      "title": "Lesson for Arsenal: Hürzeler has shaped the team of the moment in the Premier League at Brighton",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPLVJxTklheGJvTmNXdGNxVHF3S0xxYXhOczhtZ1RZakpKSlNMNmlWbVRhdmRNdmpTd3dtQmxCSkl2Z2g4YUlqTTFoZlE5cTdXN040YlVmZy01WGRUNFVyQVREYUtuLXRfUlhfR3dmTktGOUxfZzdleWRqVWN0RjVvdEpLSWJoUFZKZjBQUTM2UkFFQVNOZUFpemZJMlFmejRxcXVONTZEdHBtSVJFakFobENDRWMzYzZXVElSekdMdWFKcmtSdW5Od19tUVpXbkpOUjk3c1o1cVhWckRORjN1UmJMMWZJR2hkdHp4VUlWd3JhVXJrRTVxVHdKbnc?oc=5",
-      "teams": [
-        "brighton",
-        "arsenal"
-      ],
-      "publishedAt": 1790096968000
-    },
-    {
-      "competition": "transfer",
-      "title": "Madrid squad convinced Vincius would join Arsenal in summer - Euro Transfer News",
-      "publisher": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNUnU5VTZRLTRCUVdENmQwb1Z0MVo4UzBhUzhnSGdpX2NhUU0zYUV5WWlSbmVPQnpteFRxOTF4U181c0xOdlpmcEk1NFRSMGo2MWNJUWJwUVhwaHJEeG1aVjR6RnlLcjhQWWNKQS1PQzhCQWRQRTUyOUhCNzNXWWtlYkZjNHpWdkhRQ21udWxNc0k5Y2ZfQjlmeGN2eU9obFlqcmJuTXVqMEFUaGdKd2NYSzhBUU1VN1EtVFpkc08yRHNOQ0hxdWNRQnNIRXRWQUVGeFNMREVrSDFCTERvWUlpMWVNQzRkUkF3b3RxMWJnd0duQ01BcUZrc0k3cnRLcVo4RDZIV2pBZ05CV1Y5MjN2UlNZZ2cwcVY0Sm92anFFM3pxejhycUd1Y3AySWJ4WFJNLUh2VUIxSVgxZFgzeHVrWnVIU1o2eUdlbEt4U3ZIMjNiNjBjSEhDenVwbll1N3RRRW9YX1F4aEdxZkYxaXlPaXpWSW5mYzFBSlIxNm93U2MtTGc2LUpYUQ?oc=5",
-      "teams": [
-        "arsenal",
-        "realmadrid"
-      ],
-      "publishedAt": 1790096820000
-    },
-    {
-      "competition": "seriea",
-      "title": "GdS: ‘A chance to sharpen principles’ – why Milan and Amorim can benefit from break",
-      "publisher": "SempreMilan",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VYkk3SjdxRmZJdDlCQUptMDlMSTFOekVhbHpaTmppeUV4U2UtcHFycU84dTVmdElEbnF4bzJvVXF6T1ZtRTE0TWt2aFpsaWM2b254aDNwQW16R1c0eFNGYllqckh6Y01Obld5RjlocVFudFdPQlhB0gF8QVVfeXFMUC14M0lOczFmR1pyQjVadkxhM2dFYVZVQy10MTI2U1NVaTlSS1IzTjlVOXBLcFJuYldNRU55RW9JOFl6UnBaNUlqbkVsUkE5YzQ4b2NwSmVURTZDRTNWVGRxN3pfa0pHRFFPclRWdU93OUFTNXJZM0JBU1FxTQ?oc=5",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1790096400000
+      "publishedAt": 1790097586000,
+      "image": null
     }
   ]
 }
