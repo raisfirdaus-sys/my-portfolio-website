@@ -54,6 +54,71 @@
      like it worked while the model is switched off. */
   var MODEL_REQUIRED = [['xgF', 'xG created']];
 
+  var FIELD_LABEL = {
+    matches: 'matches', goals: 'goals', xgF: 'xG created', xgA: 'xG conceded',
+    xA: 'xA', shots: 'shots', sot: 'shots on target', bigMiss: 'big chances missed',
+    fouls: 'fouls', tackles: 'tackles', yellow: 'yellow cards', red: 'red cards'
+  };
+
+  var SNAP_FIELDS = ['matches','goals','xgF','xgA','xA','shots','sot',
+                     'bigMiss','fouls','tackles','yellow','red'];
+
+  /**
+   * Build a team's new snapshot from an import.
+   *
+   * An import replaces rather than patches, because patching is how a
+   * season quietly rots: fill Manchester United from UEFA after one
+   * Champions League match, paste WhoScored's ten-match page on top, and
+   * goals and shots become ten-match figures while xG stays the number
+   * from a single night - with "matches" now reading 10, so that night's
+   * xG is compared as though it covered ten.
+   *
+   * With one exception, which is the whole point of being able to add xG
+   * conceded afterwards: a figure already held is KEPT when it was
+   * measured over the same number of matches as the new import. Same
+   * sample, another column of it - the Against tab of the same page, or a
+   * figure typed by hand against the same match count. Different sample,
+   * cleared and named.
+   */
+  function snapshotFrom(prev, incoming, matches) {
+    prev = prev || {};
+    var prevM = prev._m || {};
+    var snap = { _m: {} }, dropped = [], kept = [];
+
+    SNAP_FIELDS.forEach(function (f) {
+      if (incoming[f] != null) {
+        snap[f] = incoming[f];
+        snap._m[f] = matches;
+        return;
+      }
+      if (f === 'matches' || prev[f] == null) return;
+      /* Held over only if it came from a sample of the same size. An
+         unstamped figure predates this rule, so it cannot be vouched for. */
+      if (prevM[f] != null && prevM[f] === matches) {
+        snap[f] = prev[f];
+        snap._m[f] = prevM[f];
+        kept.push(FIELD_LABEL[f] || f);
+      } else {
+        dropped.push(FIELD_LABEL[f] || f);
+      }
+    });
+
+    if (prev.logo) snap.logo = prev.logo;        // not a measurement
+    snap._src = { matches: matches, when: Date.now() };
+    snap._dropped = dropped;
+    snap._kept = kept;
+    return snap;
+  }
+
+  /* How old this team's figures are, and how big a sample they came from.
+     A snapshot taken in September is not wrong in November, but it is out
+     of date, and the page should say which. */
+  function snapshotNote(key) {
+    var src = (STATE.overrides[key] || {})._src;
+    if (!src || !src.when) return '';
+    return ' \u00b7 ' + src.matches + ' matches, imported ' + timeAgo(src.when);
+  }
+
   function missingForModel(key) {
     var t = effStats(key);
     if (!t) return [];
@@ -1188,11 +1253,11 @@
     many.teams.forEach(function (t) {
       if (!DATA.teams[t.key]) return;
       var had = statOrigin(t.key) === 'user';
-      STATE.overrides[t.key] = STATE.overrides[t.key] || {};
-      ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
-        .forEach(function (f) {
-          if (t.stats[f] != null) STATE.overrides[t.key][f] = t.stats[f];
-        });
+      /* Same rule as a single-team import: one source, one sample, one
+         snapshot. A league table is a complete measurement of its own. */
+      var snap = snapshotFrom(STATE.overrides[t.key], t.stats, t.stats.matches);
+      delete snap._dropped; delete snap._kept;
+      STATE.overrides[t.key] = snap;
       known.push(t);
       if (had) refreshed.push(team(t.key).name);
     });
@@ -1256,6 +1321,70 @@
 
     /* renderAll rebuilds this panel - and every leaderboard with it, which
        is the point: nothing else has to be pressed. */
+    renderAll();
+    var fresh = $('api-bulk-out');
+    if (fresh) fresh.innerHTML = html; else out.innerHTML = html;
+  }
+
+  /* Add xG conceded to every club already filled, from one paste of
+     WhoScored's league Team Statistics -> xG tab with Against selected.
+
+     This ADDS a column; it never replaces a snapshot. The clubs in that
+     table were filled from three or four other tabs one at a time, and
+     wiping that to store one number would be the opposite of what this is
+     for. Where the match counts disagree the figure is still stored, and
+     the team is named, because two samples in one team is something to
+     see rather than something to silently allow. */
+  function applyBulkAgainst(text, out) {
+    var many = null;
+    try {
+      many = E.parseTeamsTable(text, Object.keys(DATA.teams).map(function (k) {
+        return { key: k, name: team(k).name };
+      }));
+    } catch (err) { many = null; }
+
+    if (!many || !many.teams.length) {
+      out.innerHTML = '<div class="notice bad"><h3>No xG table found in that paste</h3>' +
+        '<p>This box wants WhoScored\u2019s league <strong>Team Statistics</strong>, the ' +
+        '<strong>xG</strong> tab, with <strong>Against</strong> selected \u2014 one row per club, ' +
+        'columns reading Team, Apps, xG, Goals*, xGDiff, Shots.</p></div>';
+      return;
+    }
+
+    var set = [], mismatched = [], untouched = [];
+    many.teams.forEach(function (t) {
+      if (!DATA.teams[t.key]) return;
+      var xgA = t.stats.xgF;                 // "xG" in the Against view IS conceded
+      if (xgA == null) { untouched.push(team(t.key).name); return; }
+      var ov = STATE.overrides[t.key] = STATE.overrides[t.key] || {};
+      ov._m = ov._m || {};
+      if (ov.matches != null && t.stats.matches != null && ov.matches !== t.stats.matches) {
+        mismatched.push(team(t.key).name + ' (' + ov.matches + ' vs ' + t.stats.matches + ')');
+      }
+      ov.xgA = xgA;
+      ov._m.xgA = t.stats.matches;
+      if (ov.matches == null) { ov.matches = t.stats.matches; ov._m.matches = t.stats.matches; }
+      set.push(team(t.key).name);
+    });
+    if (set.length) saveOverrides();
+
+    var html = '<div class="notice ' + (set.length ? 'ok' : '') + '">' +
+      '<h3>xG conceded added to ' + set.length + ' clubs</h3>' +
+      '<p>Nothing else was touched \u2014 everything those clubs already held is still there. ' +
+      'Their defences are now measured rather than assumed at league average.</p>' +
+      (mismatched.length
+        ? '<p class="stat-note" style="color:var(--warning)"><strong>Different match counts</strong> ' +
+          'between what these clubs already held and this table: ' + esc(mismatched.join(', ')) +
+          '. The figure was still stored; re-import their other tabs with the same competition ' +
+          'filter if you want one sample throughout.</p>'
+        : '') +
+      (many.unmatched.length
+        ? '<p class="stat-note">Rows matching no team here: ' +
+          many.unmatched.slice(0, 12).map(esc).join(', ') +
+          (many.unmatched.length > 12 ? ', \u2026' : '') + '.</p>'
+        : '') +
+      '</div>';
+
     renderAll();
     var fresh = $('api-bulk-out');
     if (fresh) fresh.innerHTML = html; else out.innerHTML = html;
@@ -1361,6 +1490,11 @@
     var wrap = el('div', 'notice');
     wrap.style.marginTop = '4px';
     wrap.innerHTML = '<h3>Fill many teams at once</h3>' +
+      '<p><strong>Updating clubs you have already filled:</strong> paste WhoScored\u2019s league ' +
+      'Team Statistics &rarr; <strong>xG</strong> tab with <strong>Against</strong> selected and press ' +
+      '<em>Add xG Against to every club</em>. That adds xG conceded to all of them and touches ' +
+      'nothing else &mdash; Chelsea, Brentford, Aston Villa, Man Utd and the rest keep everything ' +
+      'you copied into them.</p>' +
       '<p><strong>A whole league table fills every club in it at once</strong> &mdash; copy the ' +
       'squad table from FBref, WhoScored or Understat (Ctrl+A, Ctrl+C) and paste it here. ' +
       'Rows are matched to teams by name, and a league table replaces what it covers, ' +
@@ -1391,6 +1525,21 @@
       applyBulkPaste(text, out);
     });
     applyRow.appendChild(applyBtn);
+
+    var againstBtn = el('button', 'btn ghost', 'Add xG Against to every club');
+    againstBtn.type = 'button';
+    againstBtn.title = 'League Team Statistics \u2192 xG tab \u2192 Against: stores xG conceded ' +
+      'for every club in the table and changes nothing else';
+    againstBtn.addEventListener('click', function () {
+      var out2 = $('api-bulk-out');
+      var text2 = (ta.value || '').trim();
+      if (!text2) {
+        out2.innerHTML = '<p class="stat-note" style="color:var(--critical)">The box is still empty.</p>';
+        return;
+      }
+      applyBulkAgainst(text2, out2);
+    });
+    applyRow.appendChild(againstBtn);
     host.appendChild(applyRow);
 
     var bulkOut = el('div');
@@ -1788,6 +1937,12 @@
       h.appendChild(el('span', null, t.name +
         (need.length ? '  (model still off \u2014 needs ' + need.join(' + ') + ')'
           : defenceAssumed(key) ? '  (rated \u2014 xG conceded assumed league average)' : '')));
+      var note = snapshotNote(key);
+      if (note) {
+        var age = el('span', 'meta', note);
+        age.style.cssText = 'font-weight:400;font-size:11px;color:var(--text-muted)';
+        h.appendChild(age);
+      }
       box.appendChild(h);
 
       var grid = el('div', 'form-grid');
@@ -1807,12 +1962,21 @@
       function commit() {
         STATE.overrides[key] = STATE.overrides[key] || {};
         var filled = 0;
+        var typedM = parseFloat(($('sf-' + key + '-matches') || {}).value);
+        STATE.overrides[key]._m = STATE.overrides[key]._m || {};
         fields.forEach(function (f) {
           var node = $('sf-' + key + '-' + f[0]);
           if (!node) return;
           var v = node.value === '' ? null : parseFloat(node.value);
           STATE.overrides[key][f[0]] = (v != null && isFinite(v)) ? v : null;
-          if (STATE.overrides[key][f[0]] != null) filled++;
+          if (STATE.overrides[key][f[0]] != null) {
+            filled++;
+            /* Typed against the match count in the box beside it, so a
+               later import over the same sample can keep it. */
+            if (isFinite(typedM)) STATE.overrides[key]._m[f[0]] = typedM;
+          } else {
+            delete STATE.overrides[key]._m[f[0]];
+          }
         });
         saveOverrides();
         var ready = statOrigin(key) === 'user';
@@ -1938,12 +2102,30 @@
           msg.innerHTML = STATE.importMsg[key].html;
           return;
         }
-        STATE.overrides[key] = STATE.overrides[key] || {};
-        ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
-          .forEach(function (f) {
-            if (parsed[f] != null) STATE.overrides[key][f] = parsed[f];
-          });
-        STATE.overrides[key]._xgEstimated = !!(parsed._estimated && parsed._estimated.xgF);
+        /* An import REPLACES this team's figures rather than patching the
+           ones it happens to carry.
+
+           Patching is how a season quietly rots. Manchester United was
+           filled from UEFA's page after one Champions League match: xG
+           1.42, xGA 0.25, over 1 match. Paste WhoScored's ten-match page
+           on top of that and goals, shots, tackles and cards all become
+           ten-match figures while xG stays the number from a single night
+           - and "matches" now reads 10, so that one night's xG is divided
+           and compared as though it covered ten. Nothing warns anyone;
+           the numbers simply stop meaning what they say.
+
+           One source, one sample, one snapshot. Anything the new source
+           does not carry is cleared and named, so an empty box is visible
+           where a borrowed number used to hide. */
+        var prevSnap = STATE.overrides[key] || {};
+        var snap = snapshotFrom(prevSnap, parsed, parsed.matches);
+        snap._xgEstimated = !!(parsed._estimated && parsed._estimated.xgF);
+        var droppedFields = snap._dropped;
+        var keptFields = snap._kept;
+        delete snap._dropped; delete snap._kept;
+        var shrank = prevSnap.matches != null && parsed.matches < prevSnap.matches
+          ? prevSnap.matches : null;
+        STATE.overrides[key] = snap;
         saveOverrides();
 
         /* How many fields this paste actually delivered. A paste that fills
@@ -2014,7 +2196,21 @@
               : '') + '.' +
             (parsed._estimated.xgF
               ? ' <strong>xG is ESTIMATED</strong> from the shot profile, not real xG \u2014 UEFA does not publish it.'
-              : '') + thin + miss + gate
+              : '') + thin + miss + gate +
+            (keptFields.length
+              ? '<br />Kept from before, measured over the same ' + parsed.matches +
+                ' matches: <strong>' + keptFields.join(', ') + '</strong>.'
+              : '') +
+            (droppedFields.length
+              ? '<br /><strong>Cleared:</strong> ' + droppedFields.join(', ') +
+                '. Not in this source, and measured over a different number of matches \u2014 ' +
+                'keeping them would mix two samples into one team.'
+              : '') +
+            (shrank
+              ? '<br /><strong style="color:var(--warning)">This sample is smaller than the one ' +
+                'it replaced</strong> (' + parsed.matches + ' matches, was ' + shrank +
+                '). If that was not intended, paste the fuller source again.'
+              : '')
         };
         msg.style.color = STATE.importMsg[key].color;
         msg.innerHTML = STATE.importMsg[key].html;
@@ -2034,15 +2230,28 @@
               'the table whose columns read Tournament, Apps, xG, Goals*, xGDiff, Shots.'
           };
         } else {
+          /* This one adds a column to the snapshot already there rather
+             than replacing it: it is the same team over the same matches,
+             read from another tab of the same page. Worth checking they
+             really are the same sample. */
           STATE.overrides[key] = STATE.overrides[key] || {};
+          var snapM = STATE.overrides[key].matches;
+          var mismatch = snapM != null && got.matches != null && snapM !== got.matches;
           STATE.overrides[key].xgA = got.xgA;
-          if (STATE.overrides[key].matches == null) STATE.overrides[key].matches = got.matches;
+          STATE.overrides[key]._m = STATE.overrides[key]._m || {};
+          STATE.overrides[key]._m.xgA = got.matches;
+          if (snapM == null) STATE.overrides[key].matches = got.matches;
           saveOverrides();
           delete STATE.paste[key];
           STATE.importMsg[key] = {
             color: 'var(--good)',
             html: '<strong>xG conceded set to ' + got.xgA + '</strong> per match, from ' +
-              got.matches + ' fixtures. This team\u2019s defence is now measured rather than assumed.'
+              got.matches + ' fixtures. This team\u2019s defence is now measured rather than assumed.' +
+              (mismatch
+                ? '<br /><strong style="color:var(--warning)">But the rest of this team was ' +
+                  'measured over ' + snapM + ' matches, not ' + got.matches + '.</strong> Two ' +
+                  'samples in one team: re-import both tabs with the same competition filter.'
+                : '')
           };
         }
         msg.style.color = STATE.importMsg[key].color;
