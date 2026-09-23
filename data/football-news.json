@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790202268568,
+  "generatedAt": 1790205196485,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 759,
-    "droppedKeyword": 36,
+    "raw": 1523,
+    "tagged": 770,
+    "droppedKeyword": 37,
     "droppedOtherSport": 1,
-    "droppedFeed": 6,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 58
   },
   "items": [
     {
@@ -686,6 +686,17 @@
       "publishedAt": 1790173792000
     },
     {
+      "competition": "epl",
+      "title": "Man Utd: Antonio Conte lined up for sensational Premier League return as replacement for Michael Carrick - Paper Talk",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZnl3OEg1cnU2SjU5RkpiX3E5MnpBaWF6LXJ0c1hyQ1E1OTVsREhXRkV2SkNwOHNaSDExYXhNRC1rZXdESWs4cGNEbkdFUDNpejNjdGJuNWF0SkYtTE5hSlJVT0UwU3ZGaHhXMldzcE5jRUIwMUwwYWk4eGRCcFpCbzFNM0E4eU9SOWFjbTA0UWNiQmQ3bmkxMXNwM0RYSWdrX2Rpa3ZhVWt2bjVoN2hTMkZTYzF6WEVVTDNUS3pMUnBESnJJMnd3bG5jVnFiZUZYUHpJY2ZaeUU2ZG1fVG1BZHlRcmcwSVJIUWdrQ2NXeFh1OExSakE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790202564000,
+      "image": null
+    },
+    {
       "competition": "footlondon",
       "title": "Arsenal star Jurrien Timber opens up on groin injury hell - 'It was a miracle'",
       "publisher": "football.london",
@@ -723,28 +734,16 @@
       "publishedAt": 1790173433000
     },
     {
-      "competition": "men",
-      "title": "Benjamin Sesko row takes new twist as Man United star told what to do after brutal injury swipe",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-benjamin-sesko-injury-34660741",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34660881.ece/ALTERNATES/s615/0_GettyImages-2270784774.jpg",
-      "summary": "Benjamin Sesko has been mocked by a former Manchester United duo in a brutal swipe, but his Slovenia team-mate has jumped to his defence",
+      "competition": "epl",
+      "title": "Brentford, Brighton and Bournemouth have formed the top-flight's 'Bermuda Triangle'.",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONGtWVmhSR2NBbXR6R0dObUp6dnVVVFR3bFBDekZiQ0Frd0dqZHVfaXJITmFmZlVzNDQ1ZjA3VEk4RktYQ1VvUTVoSnd6eEN1ZkVhdTBwSkdidUNvaHVzYno2Zks4cWx6RWM3SGpkYmpTOHE2RVdNZUlvTDlrWFBkMnh5bThGZWFpSmEyRWxjWlhJYlFDejFGRC1FdDhuZkVKd3RfVnFUX2Y1UEt2bHFnRjBIdkJKMXJSYW9vT2kwUmJmUDZaQmpPNC1EcFRtbWRHQ3hYR2JGNkZLUHAwZ0ZReG5TSVN1b19hd3pWMzZPT3BxT3doVHY4eg?oc=5",
       "teams": [
-        "manutd"
+        "brentford",
+        "brighton"
       ],
-      "publishedAt": 1790173225000
-    },
-    {
-      "competition": "birmingham",
-      "title": "The 13 Aston Villa players set for extra work after 'crazy' Unai Emery response",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/13-aston-villa-players-left-34660269",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34343336.ece/ALTERNATES/s615/0_Walsall-v-Aston-Villa-Pre-Season-Friendly-Football-Pallet-Track-Bescot-Stadium-Walsall-UK-21.jpg",
-      "summary": "Aston Villa manager Unai Emery has a limited amount of first-team players to work with during the international break",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790173200000
+      "publishedAt": 1790202225000,
+      "image": null
     }
   ]
 }
