@@ -1249,6 +1249,22 @@
      it. Which shape a paste is gets decided by the row labels themselves:
      "Premier League" matches no club, "Aston Villa" does. */
   function applyManyTeamsTable(many, out) {
+    /* Same ambiguity as the single-team box, one league wide: a league xG
+       table reads identically whether For or Against was selected, and
+       filling xG created from an Against table would write every
+       opponent's attack into every club at once. */
+    if (many.teams.length && many.teams.every(function (t) { return looksLikeXgTab(t.stats); })) {
+      out.innerHTML = '<div class="notice"><h3>This is the league xG tab \u2014 which view?</h3>' +
+        '<p>' + many.teams.length + ' clubs, and nothing in the paste says whether <em>For</em> ' +
+        'or <em>Against</em> was selected \u2014 the two tables are identical. Reading one as the ' +
+        'other would write every opponent\u2019s attack into every club here.</p>' +
+        '<p><strong>For (xG created)</strong>: press <em>Fill from this paste</em> again after ' +
+        'switching the toggle, or paste the Summary tab instead.<br />' +
+        '<strong>Against (xG conceded)</strong>: press ' +
+        '<em>Add xG Against to every club</em> \u2014 the button beside this one.</p></div>';
+      return;
+    }
+
     var known = [], refreshed = [];
     many.teams.forEach(function (t) {
       if (!DATA.teams[t.key]) return;
@@ -1335,6 +1351,58 @@
      for. Where the match counts disagree the figure is still stored, and
      the team is named, because two samples in one team is something to
      see rather than something to silently allow. */
+  /* The xG tab carries xG and shots and nothing else this model reads -
+     no goals conceded, no cards, no tackles, no fouls. A paste holding
+     those is a Summary or Defensive table and needs no question asked. */
+  function looksLikeXgTab(parsed) {
+    if (!parsed || !parsed._fromTable || parsed.xgF == null) return false;
+    return parsed.fouls == null && parsed.tackles == null &&
+           parsed.yellow == null && parsed.red == null && parsed.sot == null;
+  }
+
+  /* Ask once, in the place the answer is needed, with the consequence of
+     each choice written on the button. */
+  function askWhichXgView(key, parsed, msg) {
+    var box = el('span');
+    box.innerHTML = '<strong>This is WhoScored\u2019s xG tab \u2014 which view?</strong> ' +
+      'Both read the same (' + parsed.matches + ' matches, xG ' + parsed.xgF + ' per match), ' +
+      'so nothing in the paste says whether <em>For</em> or <em>Against</em> was selected. ' +
+      'Pick the one that was on screen:<br />';
+
+    [['For \u2014 xG created', 'xgF'], ['Against \u2014 xG conceded', 'xgA']].forEach(function (opt) {
+      var b = el('button', 'btn sm' + (opt[1] === 'xgA' ? ' ghost' : ''), opt[0]);
+      b.type = 'button';
+      b.style.marginRight = '6px';
+      b.addEventListener('click', function () {
+        var ov = STATE.overrides[key] = STATE.overrides[key] || {};
+        ov._m = ov._m || {};
+        var otherM = ov.matches;
+        ov[opt[1]] = parsed.xgF;
+        ov._m[opt[1]] = parsed.matches;
+        if (ov.matches == null) { ov.matches = parsed.matches; ov._m.matches = parsed.matches; }
+        saveOverrides();
+        delete STATE.paste[key];
+        STATE.importMsg[key] = {
+          color: 'var(--good)',
+          html: '<strong>' + (opt[1] === 'xgA' ? 'xG conceded' : 'xG created') + ' set to ' +
+            parsed.xgF + '</strong> per match, from ' + parsed.matches + ' matches. ' +
+            'Nothing else on this team was touched.' +
+            (otherM != null && otherM !== parsed.matches
+              ? '<br /><strong style="color:var(--warning)">The rest of this team was measured ' +
+                'over ' + otherM + ' matches, not ' + parsed.matches + '.</strong> Two samples in ' +
+                'one team: use the same competition filter on both tabs.'
+              : '')
+        };
+        renderAll();
+      });
+      box.appendChild(b);
+    });
+
+    msg.style.color = 'var(--warning)';
+    msg.innerHTML = '';
+    msg.appendChild(box);
+  }
+
   function applyBulkAgainst(text, out) {
     var many = null;
     try {
@@ -2102,6 +2170,22 @@
           msg.innerHTML = STATE.importMsg[key].html;
           return;
         }
+
+        /* The xG tab's two views are the same table: Apps, xG, Goals*,
+           xGDiff, Shots, xG/Shots, Rating, whether For or Against is
+           selected, and a copy of the page carries both words because
+           they are the toggle's own labels. Nothing in the text says
+           which one was on screen.
+
+           Reading it as xG created when it was Against writes the
+           opponent's attack into this team - the single worst thing this
+           importer could do quietly. So when a paste is that table and
+           nothing else, it asks instead of guessing. */
+        if (looksLikeXgTab(parsed)) {
+          askWhichXgView(key, parsed, msg);
+          return;
+        }
+
         /* An import REPLACES this team's figures rather than patching the
            ones it happens to carry.
 

@@ -128,5 +128,49 @@ say(otherSample && (otherSample[KEY] || {}).xgA == null,
   `${KEY}: re-importing over 12 matches CLEARS it rather than mixing samples`);
 say(/Cleared:/.test(doc.body.textContent), "and the page names what it cleared");
 
+/* The xG tab reads identically whether For or Against is selected, so a
+   paste of it alone must ask rather than guess - reading Against as
+   created writes the opponent's attack into this team. */
+async function pasteXgTab(teamKey) {
+  const want = [fixtures.teams[teamKey].name];
+  const findRow = () => [...doc.querySelectorAll("#board .board-row")]
+    .find((r) => want.every((n) => r.textContent.includes(n)));
+  for (const chip of [...doc.querySelectorAll("#slate-chips .chip")]) {
+    if (findRow()) break;
+    chip.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  const row = findRow();
+  if (row) { row.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+             await new Promise((r) => setTimeout(r, 350)); }
+  const ta = [...doc.querySelectorAll("#mc-form textarea")][0];
+  const imp = [...doc.querySelectorAll("#mc-form button")]
+    .find((b) => b.textContent.startsWith("Import for"));
+  ta.value = [
+    "Tournament       Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating",
+    "Premier League   7      10.50  6       -4.50   84     0.13       6.60"
+  ].join("\n");
+  ta.dispatchEvent(new window.Event("input", { bubbles: true }));
+  imp.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 350));
+  return { ta, imp };
+}
+
+await pasteXgTab(KEY);
+const asked = doc.getElementById("mc-form").textContent;
+say(/which view/i.test(asked), "an xG-tab paste asks For or Against instead of guessing");
+const forBtn = [...doc.querySelectorAll("#mc-form button")].find((b) => /^For /.test(b.textContent));
+const againstBtn2 = [...doc.querySelectorAll("#mc-form button")].find((b) => /^Against /.test(b.textContent));
+say(!!forBtn && !!againstBtn2, "both answers are offered as buttons");
+
+if (againstBtn2) {
+  againstBtn2.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 350));
+  const saved = JSON.parse(window.localStorage.getItem("mb-overrides") || "{}");
+  say(Math.abs(((saved[KEY] || {}).xgA ?? -1) - 1.5) < 0.01,
+    "answering Against stores it as xG CONCEDED (10.50/7 = 1.50)");
+  say((saved[KEY] || {}).xgF !== 1.5, "and does not overwrite xG created with it");
+}
+
 console.log(fail ? `\n${fail} failure(s).` : "\nsnapshot ok");
 process.exit(fail ? 1 : 0);
