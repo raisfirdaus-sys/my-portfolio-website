@@ -1754,8 +1754,9 @@
         /* The page's own match count is unreadable on some layouts, so fall
            back to whatever is typed in this team's "matches played" box. */
         var mEl = $('sf-' + key + '-matches');
+        var rawPaste = ta.value;
         var parsed;
-        try { parsed = E.parseTeamStats(ta.value, { matchesFallback: mEl && mEl.value }); }
+        try { parsed = E.parseTeamStats(rawPaste, { matchesFallback: mEl && mEl.value }); }
         catch (err) { parsed = { error: err.message }; }
         if (!parsed) { msg.textContent = 'There is no text to read.'; return; }
         if (parsed.error) {
@@ -1778,10 +1779,35 @@
           });
         STATE.overrides[key]._xgEstimated = !!(parsed._estimated && parsed._estimated.xgF);
         saveOverrides();
-        msg.style.color = 'var(--good)';
+
+        /* How many fields this paste actually delivered. A paste that fills
+           nothing used to report "Filled from 5 fixtures" in green and list
+           what it missed underneath, which reads as success and is not: the
+           5 came from the MATCHES PLAYED box, not from the page. Count the
+           fields, and let the count decide what the message says. */
+        var FIELDS = ['goals','xgF','xgA','xA','shots','sot','fouls','tackles','yellow','red'];
+        var filled = FIELDS.filter(function (f) { return parsed[f] != null; });
+
         var miss = parsed._missing.length
           ? ' Not found: ' + parsed._missing.join(', ') + ' \u2014 fill those in by hand if you have them.'
           : '';
+
+        if (!filled.length) {
+          STATE.importMsg[key] = {
+            color: 'var(--warning)',
+            html: '<strong>Nothing was read from this paste.</strong> ' +
+              'No statistic on the page could be matched, so no field changed' +
+              (parsed._matchesFromCaller
+                ? ' \u2014 the match count shown is the one you typed in the box, not something read from the page'
+                : '') + '.<br />' +
+              'What was actually read: <code>' +
+              esc(String(rawPaste || '').replace(/\s+/g, ' ').trim().slice(0, 240)) + '</code>'
+          };
+          msg.style.color = STATE.importMsg[key].color;
+          msg.innerHTML = STATE.importMsg[key].html;
+          renderAll();
+          return;
+        }
         /* A competition page early in the season can report a single match.
            One match is a coin toss dressed as a statistic, so say so where
            the number lands rather than letting it look like evidence. */
@@ -1793,7 +1819,12 @@
         delete STATE.editMsg[key];
         STATE.importMsg[key] = {
           color: 'var(--good)',
-          html: 'Filled from ' + parsed.matches + ' fixtures' +
+          html: 'Filled <strong>' + filled.length + ' of ' + FIELDS.length +
+            ' statistics</strong> from ' + parsed.matches + ' fixtures' +
+            (parsed._fromTable
+              ? ' (read by column from ' + parsed._tables +
+                (parsed._tables === 1 ? ' table' : ' tables') + ')'
+              : '') +
             (parsed._matchesFromCaller ? ' (match count from the box, not from the page)'
               : parsed._matchesFromRecord ? ' (derived from won+drawn+lost, because UEFA '
                 + 'draws the match count inside a circle whose text does not come along when the page is copied)'

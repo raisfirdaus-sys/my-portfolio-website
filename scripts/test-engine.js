@@ -217,5 +217,71 @@ const ex = E.parseTeamStats(explicit);
 eq('printed match count beats the derived one', ex.matches, 9);
 eq('and is not flagged as derived', !!ex._matchesFromRecord, false);
 
+/* ---------------------------------------------------------------- 15.
+   Table pastes: WhoScored, FBref and Understat print a header row and put
+   the numbers underneath it, so nothing is ever adjacent to its label.
+   These are the real pastes, as the page's own diagnostic printed them
+   back after an import that read nothing at all. */
+console.log('\n== 15. header-and-rows tables (WhoScored / FBref / Understat) ==');
+
+const whoScored = [
+  'Tournament\tApps\tGoals\tShots pg\tDiscipline\tPossession%\tPass%\tAerialsWon\tRating',
+  'Premier League\t5\t7\t12\t70\t44.8\t76.9\t21\t6.84',
+  'League Cup\t2\t5\t15.5\t30\t50.0\t81.7\t22\t6.69',
+  '',
+  'Tournament\tApps\tShots pg\tTackles pg\tInterceptions pg\tFouls pg\tOffsides pg\tRating',
+  'Premier League\t5\t12\t15.2\t9.4\t10.6\t1.8\t6.84',
+  'League Cup\t2\t15.5\t14.1\t8.2\t11.2\t2.0\t6.69'
+].join('\n');
+const ws = E.parseTeamStats(whoScored);
+
+/* Two tables list the SAME competitions. Adding their Apps together would
+   claim 14 matches and halve every average - the bug this pins down. */
+eq('matches counted once across two tables', ws && ws.matches, 7);
+eq('goals per match = (7+5)/7', ws.goals, 1.71, 0.01);
+eq('"Shots pg" weighted by apps, not averaged flat', ws.shots, 13, 0.01);
+eq('fouls read from the second table', ws.fouls, 10.77, 0.01);
+eq('tackles read from the second table', ws.tackles, 14.89, 0.01);
+/* WhoScored glues the two card counts into one cell: "70" is 7 and 0. */
+eq('yellow split out of the discipline cell', ws.yellow, 1.43, 0.01);
+eq('red split out of the discipline cell', ws.red, 0, 0.001);
+
+const understat = [
+  'Tournament       Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating',
+  'Premier League   5      7.06   6       -1.06   60     0.12       6.84',
+  'League Cup       2      5.63   5       -0.63   31     0.18       6.69'
+].join('\n');
+const us = E.parseTeamStats(understat);
+eq('space-aligned table reads too', us && us.matches, 7);
+eq('real xG, not estimated', us.xgF, 1.81, 0.01);
+eq('xG is not flagged as estimated', !!(us._estimated && us._estimated.xgF), false);
+eq('"Goals*" is still goals', us.goals, 1.57, 0.01);
+/* Shots here is a season total (60 over 5); on the table above it is a
+   per-match figure (12). Both must land on the same number, which is what
+   proves the "ends in pg" rule is the right way round. */
+eq('season-total shots match the per-game table', us.shots, ws.shots, 0.01);
+
+const fbref = [
+  'Squad            MP   Gls   Sh   SoT   xG    xGA   CrdY  CrdR  Fls   Tkl',
+  'Arsenal          5    7     60   24    7.06  4.60  7     0     53    76'
+].join('\n');
+const fb = E.parseTeamStats(fbref);
+eq('FBref abbreviations map too', fb && fb.matches, 5);
+eq('FBref shots on target', fb.sot, 4.8, 0.01);
+eq('FBref xG conceded', fb.xgA, 0.92, 0.01);
+eq('FBref separate card columns', fb.yellow, 1.4, 0.01);
+
+/* A UEFA label page must keep going down the old path. */
+const stillUefa = E.parseTeamStats('Key stats 1 0 0 Won Drawn Lost 5 Goals 2 Goals conceded');
+eq('a label page is not treated as a table', !!(stillUefa && stillUefa._fromTable), false);
+eq('and still reads its own match count', stillUefa && stillUefa.matches, 1);
+
+/* Prose must not be mistaken for a table. */
+eq('prose is not a table', E.parseStatsTable('hello world\nnothing here at all'), null);
+eq('empty input is not a table', E.parseStatsTable(''), null);
+/* A table with no Apps column cannot be weighted, so it is refused. */
+eq('a table without Apps is refused',
+   E.parseStatsTable('Team Goals Shots\nArsenal 7 60'), null);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);
