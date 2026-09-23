@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Moneyball Odds</title>
 <meta name="description" content="Football odds analysis with a Dixon-Coles model: expected goals, expected assists, shots, big chances missed, fouls, tackles and cards turned into probabilities, expected value and parlay simulation." />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231d2a3a'/%3E%3Cpath d='M18 70 L38 46 L54 58 L82 24' stroke='%232a78d6' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="icon" href="assets/brand/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/brand/moneyball-mark-32.png" />
+<link rel="icon" type="image/png" sizes="180x180" href="assets/brand/moneyball-mark-180.png" />
+<link rel="apple-touch-icon" href="assets/brand/moneyball-mark-180.png" />
+<meta name="theme-color" content="#2e1758" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<meta name="build" content="7b954a4-144809" />
-<link rel="stylesheet" href="css/moneyball.css?v=7b954a4-144809" />
+<meta name="build" content="b8ba51c-150206" />
+<link rel="stylesheet" href="css/moneyball.css?v=b8ba51c-150206" />
 </head>
 <body>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <div class="brand">
-      <span class="brand-dot" aria-hidden="true">
-        <svg viewBox="0 0 100 100" width="14" height="14"><path d="M18 70 L38 46 L54 58 L82 24" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </span>
-      <span>Moneyball Odds<small id="brand-sub">Dixon-Coles &middot; xG fusion</small></span>
-    </div>
+    <a class="brand" href="moneyball.html">
+      <img class="brand-logo" src="assets/brand/moneyball-mark-180.png"
+           width="180" height="180" alt="Moneyball" />
+      <span class="brand-text">Moneyball Odds<small id="brand-sub">Dixon-Coles &middot; xG fusion</small></span>
+    </a>
     <div class="topbar-spacer"></div>
     <div class="chip-row chip-row-scroll">
       <span class="chip-label">Schedule</span>
@@ -236,15 +239,20 @@
     <div class="panel-body" id="method"></div>
   </section>
 
-  <p class="foot">
-    An educational statistical tool. No model predicts football reliably.<br />
-    Negative expected value is the normal outcome of betting &mdash; this tool measures how negative, it does not remove it.
-  </p>
+  <footer class="site-foot">
+    <img class="foot-logo" src="assets/brand/moneyball-logo.webp"
+         width="1100" height="936" loading="lazy" decoding="async"
+         alt="Moneyball - Winning Beyond The Numbers" />
+    <p class="foot">
+      An educational statistical tool. No model predicts football reliably.<br />
+      Negative expected value is the normal outcome of betting &mdash; this tool measures how negative, it does not remove it.
+    </p>
+  </footer>
 </main>
 
 <div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
 
-<script src="js/moneyball-engine.js?v=7b954a4-144809"></script>
-<script src="js/moneyball-app.js?v=7b954a4-144809"></script>
+<script src="js/moneyball-engine.js?v=b8ba51c-150206"></script>
+<script src="js/moneyball-app.js?v=b8ba51c-150206"></script>
 </body>
 </html>
