@@ -32,5 +32,8 @@ node scripts/test-news-ui.mjs
 
 printf '=== test-topteams ===\n'
 node scripts/test-topteams.mjs
+
+printf '=== test-bulk-table ===\n'
+node scripts/test-bulk-table.mjs
 echo
 echo "All Moneyball tests passed."

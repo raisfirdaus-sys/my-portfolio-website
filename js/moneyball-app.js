@@ -1135,10 +1135,89 @@
     if (fresh) fresh.innerHTML = html; else out.innerHTML = html;
   }
 
+  /* A league table has one row per club, so one paste fills every team in
+     it. Which shape a paste is gets decided by the row labels themselves:
+     "Premier League" matches no club, "Aston Villa" does. */
+  function applyManyTeamsTable(many, out) {
+    var known = [], refreshed = [];
+    many.teams.forEach(function (t) {
+      if (!DATA.teams[t.key]) return;
+      var had = statOrigin(t.key) === 'user';
+      STATE.overrides[t.key] = STATE.overrides[t.key] || {};
+      ['matches','goals','xgF','xgA','xA','shots','sot','bigMiss','fouls','tackles','yellow','red']
+        .forEach(function (f) {
+          if (t.stats[f] != null) STATE.overrides[t.key][f] = t.stats[f];
+        });
+      known.push(t);
+      if (had) refreshed.push(team(t.key).name);
+    });
+    if (known.length) saveOverrides();
+
+    var slate = slateFixtures(STATE.slate);
+    var ready = slate.filter(function (f) {
+      return statOrigin(f.home) === 'user' && statOrigin(f.away) === 'user';
+    });
+    var slateKeys = {};
+    slate.forEach(function (f) { slateKeys[f.home] = 1; slateKeys[f.away] = 1; });
+    var stillMissing = Object.keys(slateKeys).filter(function (k) {
+      return statOrigin(k) !== 'user';
+    });
+
+    var html = '<div class="notice ' + (known.length ? 'ok' : '') + '">' +
+      '<h3>' + known.length + ' teams filled from one table</h3>' +
+      '<p>' + ready.length + ' of ' + slate.length + ' fixtures on this schedule are now priced ' +
+      'by the model rather than by the bookmaker.' +
+      (stillMissing.length
+        ? ' Still empty: <strong>' + stillMissing.map(function (k) { return team(k).name; }).join(', ') +
+          '</strong> &mdash; paste that league\u2019s table too.'
+        : ' Every team on this schedule is filled.') + '</p>' +
+      (refreshed.length
+        ? '<p class="stat-note"><strong>Replaced</strong> figures you already had for: ' +
+          refreshed.join(', ') + '. A league table is the newer measurement, so it wins.</p>'
+        : '') +
+      (many.unmatched.length
+        ? '<p class="stat-note">Rows that matched no team on this site: ' +
+          many.unmatched.slice(0, 12).map(esc).join(', ') +
+          (many.unmatched.length > 12 ? ', \u2026' : '') + '.</p>'
+        : '') +
+      '</div>';
+
+    if (known.length) {
+      html += '<div style="max-height:240px;overflow:auto;font-family:var(--mono);font-size:11px;' +
+        'background:var(--surface-3);padding:9px;border-radius:4px;margin-top:8px">' +
+        known.map(function (t) {
+          var st = t.stats;
+          return esc(team(t.key).name) + ' &nbsp; ' + st.matches + ' matches, goals ' +
+            (st.goals != null ? st.goals : '?') + ', xG ' + (st.xgF != null ? st.xgF : '?') +
+            ', xGA ' + (st.xgA != null ? st.xgA : '?') +
+            (st._missing.length
+              ? ' &nbsp; <span style="color:var(--warning)">not in the table: ' +
+                st._missing.join(', ') + '</span>'
+              : '');
+        }).join('<br>') + '</div>';
+    }
+
+    /* renderAll rebuilds this panel - and every leaderboard with it, which
+       is the point: nothing else has to be pressed. */
+    renderAll();
+    var fresh = $('api-bulk-out');
+    if (fresh) fresh.innerHTML = html; else out.innerHTML = html;
+  }
+
   function applyBulkPaste(text, out) {
     var trimmed = String(text).trim();
     var looksJson = trimmed.charAt(0) === '{' || trimmed.charAt(0) === '[';
-    if (!looksJson) { applyPastedPage(trimmed, out); return; }
+    if (!looksJson) {
+      var many = null;
+      try {
+        many = E.parseTeamsTable(trimmed, Object.keys(DATA.teams).map(function (k) {
+          return { key: k, name: team(k).name };
+        }));
+      } catch (err) { many = null; }
+      if (many && many.teams.length) { applyManyTeamsTable(many, out); return; }
+      applyPastedPage(trimmed, out);
+      return;
+    }
 
     var parsed;
     try { parsed = E.parseManyTeams(trimmed); } catch (e) { parsed = null; }
@@ -1178,7 +1257,7 @@
     var stillMissing = Object.keys(slateKeys).filter(function (k) { return statOrigin(k) !== 'user'; });
 
     var html = '<div class="notice ' + (filled.length ? 'ok' : '') + '">' +
-      '<h3>' + parsed.teams.length + ' teams in the paste, ' + filled.length + ' terpakai</h3>' +
+      '<h3>' + parsed.teams.length + ' teams in the paste, ' + filled.length + ' used</h3>' +
       '<p>' + ready.length + ' of ' + slateFixtures(STATE.slate).length +
       ' fixtures on this schedule are now priced by the model rather than by the bookmaker.' +
       (stillMissing.length
@@ -1197,7 +1276,7 @@
           return r.name + ' &larr; ' + r.api + ' &nbsp; ' + r.stats.matches + ' matches, xG ' +
             (r.stats.xgF != null ? r.stats.xgF : '?') + ', xGA ' +
             (r.stats.xgA != null ? r.stats.xgA : '?') +
-            (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warning)">hilang: ' +
+            (r.missing && r.missing.length ? ' &nbsp; <span style="color:var(--warning)">missing: ' +
               r.missing.join(', ') + '</span>' : '');
         }).join('<br>') + '</div>';
     } else {
@@ -1225,17 +1304,18 @@
     var wrap = el('div', 'notice');
     wrap.style.marginTop = '4px';
     wrap.innerHTML = '<h3>Fill many teams at once</h3>' +
-      '<p>Copy a whole statistics page (UEFA, FBref, Understat) or paste a JSON response ' +
-      'from your data provider. One paste can fill many teams, and the next paste ' +
-      '<strong>adds</strong> &mdash; it does not clear what is already in. Teams you filled ' +
-      'in by hand are not overwritten.</p>';
+      '<p><strong>A whole league table fills every club in it at once</strong> &mdash; copy the ' +
+      'squad table from FBref, WhoScored or Understat (Ctrl+A, Ctrl+C) and paste it here. ' +
+      'Rows are matched to teams by name, and a league table replaces what it covers, ' +
+      'because it is the newer measurement. A single team\u2019s page or a JSON response ' +
+      'works here too; JSON does not overwrite teams you filled in by hand.</p>';
     host.appendChild(wrap);
 
     var ta = el('textarea');
     ta.id = 'api-bulk-text';
     ta.rows = 4;
-    ta.placeholder = 'Paste here: a whole statistics page (Ctrl+A, Ctrl+C), OR a JSON response. ' +
-      'Either is accepted \u2014 press the button below.';
+    ta.placeholder = 'Paste a league table (one row per club), one team\u2019s statistics page, ' +
+      'or a JSON response \u2014 all three are accepted. Press the button below.';
     ta.style.cssText = 'width:100%;margin-top:8px;padding:8px;border:1px solid var(--border-strong);' +
       'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
       'font-family:var(--mono);font-size:11px;min-width:0';

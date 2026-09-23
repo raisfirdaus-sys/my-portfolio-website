@@ -689,7 +689,7 @@
     'sot': 'sot', 'sot pg': 'sot', 'shotsontarget': 'sot', 'shots on target': 'sot',
     'xg': 'xgF', 'xg pg': 'xgF', 'npxg': 'xgF',
     'xga': 'xgA', 'xga pg': 'xgA', 'xgagainst': 'xgA', 'xgconceded': 'xgA',
-    'xa': 'xA', 'xag': 'xA', 'assists': 'xA',
+    'xa': 'xA', 'xag': 'xA',
     'tackles': 'tackles', 'tackles pg': 'tackles', 'tkl': 'tackles',
     'fouls': 'fouls', 'fouls pg': 'fouls', 'fls': 'fouls',
     'yellow': 'yellow', 'yel': 'yellow', 'crdy': 'yellow', 'yellowcards': 'yellow',
@@ -739,18 +739,15 @@
    * Read every header-and-rows table in a pasted page.
    * Returns null when the text holds no table this knows how to read.
    */
-  function parseStatsTable(text) {
-    if (!text || typeof text !== 'string') return null;
+  /**
+   * Walk every header-and-rows table in a paste and hand back one row at a
+   * time. Both readers below share this, so the rules that are easy to get
+   * wrong - which column is per match, where the row label ends - are
+   * written once.
+   */
+  function eachTableRow(text, onRow) {
     var lines = String(text).replace(/\u00a0/g, ' ').split(/\r?\n/);
-
-    /* Per field: the season total, and the matches those totals came from.
-       Counting matches per FIELD rather than per row is what keeps a paste
-       of three tables honest - Summary, Defensive and Offensive all list the
-       same competitions, so adding their Apps together would say a team
-       played 21 matches when it played 7, and divide every average by
-       three. */
-    var totals = {}, appsFor = {};
-    var tablesRead = 0, rowsRead = 0, matches = 0;
+    var tables = 0;
 
     for (var i = 0; i < lines.length; i++) {
       var cells = headerCells(lines[i]);
@@ -763,15 +760,14 @@
         var field = TABLE_COLUMNS[normHeader(cells[c])];
         if (field) { map[c] = field; named++; if (field === 'apps') hasApps = true; }
       }
-      if (named < 2 || !hasApps || map[0] != null) continue;  // column 0 is the row label
+      if (named < 2 || !hasApps || map[0] != null) continue;   // column 0 is the label
 
-      /* Which columns are already per match: a name ending in "pg". */
       var perMatchCol = {};
       for (var pc = 0; pc < cells.length; pc++) {
         perMatchCol[pc] = /\bpg$/.test(normHeader(cells[pc]));
       }
 
-      var want = cells.length - 1, rowsHere = 0, tableApps = 0;
+      var want = cells.length - 1, rowsHere = 0;
       for (var j = i + 1; j < lines.length; j++) {
         var row = lines[j].trim();
         if (!row) { if (rowsHere) break; else continue; }
@@ -780,57 +776,63 @@
         var nums = parts.slice(parts.length - want);
         if (!nums.every(isNumberCell)) break;
 
-        /* Read the whole row before recording any of it: a row without a
-           usable Apps figure cannot be weighted, so it is dropped whole. */
-        var rowApps = null, seen = [];
+        /* Whatever is left in front of the numbers is the row's name: a
+           competition on a team page, a club on a league table. */
+        var label = parts.slice(0, parts.length - want).join(' ').trim();
+
+        var rowApps = null, values = [];
         for (var k = 0; k < nums.length; k++) {
           var col = k + 1, f = map[col];
           if (!f) continue;
           var v = parseFloat(String(nums[k]).replace(',', '.'));
           if (!isFinite(v)) continue;
           if (f === 'apps') rowApps = v;
-          else seen.push({ field: f, value: v, perMatch: perMatchCol[col] });
+          else values.push({ field: f, value: v, perMatch: perMatchCol[col] });
         }
-        if (!rowApps || rowApps < 1) break;
+        if (!rowApps || rowApps < 1) break;      // a row that cannot be weighted
 
-        for (var q = 0; q < seen.length; q++) {
-          var it = seen[q];
-          if (it.field === 'discipline') {
-            var d = splitDiscipline(it.value);
-            if (!d) continue;
-            totals.yellow = (totals.yellow || 0) + d.yellow;
-            totals.red = (totals.red || 0) + d.red;
-            appsFor.yellow = (appsFor.yellow || 0) + rowApps;
-            appsFor.red = (appsFor.red || 0) + rowApps;
-            continue;
-          }
-          /* A per-match column is turned back into a season total here, so
-             several competitions add up and are divided once at the end. */
-          totals[it.field] = (totals[it.field] || 0) +
-            (it.perMatch ? it.value * rowApps : it.value);
-          appsFor[it.field] = (appsFor[it.field] || 0) + rowApps;
-        }
-        tableApps += rowApps;
-        rowsHere++; rowsRead++;
+        rowsHere++;
+        onRow({ label: label, apps: rowApps, values: values });
       }
-      if (rowsHere) {
-        tablesRead++;
-        matches = Math.max(matches, tableApps);
-        i = i + rowsHere;
-      }
+      if (rowsHere) { tables++; i = i + rowsHere; }
     }
+    return tables;
+  }
 
-    if (!tablesRead || matches < 1) return null;
+  /* One bucket of season totals, and the matches each of them came from. */
+  function newBucket() { return { totals: {}, appsFor: {}, matches: 0, rows: 0 }; }
 
+  function addRow(b, row) {
+    for (var q = 0; q < row.values.length; q++) {
+      var it = row.values[q];
+      if (it.field === 'discipline') {
+        var d = splitDiscipline(it.value);
+        if (!d) continue;
+        b.totals.yellow = (b.totals.yellow || 0) + d.yellow;
+        b.totals.red = (b.totals.red || 0) + d.red;
+        b.appsFor.yellow = (b.appsFor.yellow || 0) + row.apps;
+        b.appsFor.red = (b.appsFor.red || 0) + row.apps;
+        continue;
+      }
+      /* A per-match column is turned back into a season total here, so
+         several competitions add up and are divided once at the end. */
+      b.totals[it.field] = (b.totals[it.field] || 0) +
+        (it.perMatch ? it.value * row.apps : it.value);
+      b.appsFor[it.field] = (b.appsFor[it.field] || 0) + row.apps;
+    }
+    b.rows++;
+  }
+
+  function finishBucket(b, matches, tables) {
     function per(f) {
-      if (totals[f] == null || !appsFor[f]) return null;
-      return Math.round((totals[f] / appsFor[f]) * 100) / 100;
+      if (b.totals[f] == null || !b.appsFor[f]) return null;
+      return Math.round((b.totals[f] / b.appsFor[f]) * 100) / 100;
     }
     var out = {
       matches: matches,
       _fromTable: true,
-      _tables: tablesRead,
-      _rows: rowsRead,
+      _tables: tables,
+      _rows: b.rows,
       goals: per('goals'),
       xgF: per('xgF'),
       xgA: per('xgA'),
@@ -848,6 +850,73 @@
     ['goals', 'xgF', 'xgA', 'shots', 'sot', 'fouls', 'tackles', 'yellow', 'red']
       .forEach(function (k) { if (out[k] == null) out._missing.push(k); });
     return out;
+  }
+
+  /**
+   * One team's page: every row is a competition that team played in, so the
+   * rows are added together.
+   *
+   * Matches are counted per FIELD, not per row. A paste usually holds
+   * Summary, Defensive and Offensive, and all three list the same
+   * competitions - adding their Apps would say a team played 21 matches
+   * when it played 7, and divide every average by three.
+   */
+  function parseStatsTable(text) {
+    if (!text || typeof text !== 'string') return null;
+    var b = newBucket(), tableApps = [], idx = -1, lastLabels = [];
+
+    var tables = eachTableRow(text, function (row) {
+      /* A competition seen again belongs to the next table, so its apps
+         must not be added to this table's match count a second time. */
+      if (lastLabels.indexOf(row.label) !== -1) { idx = -1; lastLabels = []; }
+      if (idx === -1) { tableApps.push(0); idx = tableApps.length - 1; }
+      lastLabels.push(row.label);
+      tableApps[idx] += row.apps;
+      addRow(b, row);
+    });
+    if (!tables || !b.rows) return null;
+
+    var matches = 0;
+    for (var i = 0; i < tableApps.length; i++) matches = Math.max(matches, tableApps[i]);
+    if (matches < 1) return null;
+    return finishBucket(b, matches, tables);
+  }
+
+  /**
+   * A league table: every row is a different club, so each one becomes its
+   * own team. Which of the two shapes a paste is gets decided by the row
+   * labels themselves - "Premier League" matches no club and "Aston Villa"
+   * does - rather than by asking the reader to say which they pasted.
+   *
+   * candidates: [{ key, name }] - the teams this site knows.
+   */
+  function parseTeamsTable(text, candidates) {
+    if (!text || typeof text !== 'string') return null;
+    if (!candidates || !candidates.length) return null;
+
+    var buckets = {}, names = {}, unmatched = [];
+    var tables = eachTableRow(text, function (row) {
+      var hit = matchTeamName(row.label, candidates);
+      if (!hit) {
+        if (unmatched.indexOf(row.label) === -1) unmatched.push(row.label);
+        return;
+      }
+      if (!buckets[hit.key]) { buckets[hit.key] = newBucket(); names[hit.key] = hit.name; }
+      var b = buckets[hit.key];
+      b.matches = Math.max(b.matches, row.apps);
+      addRow(b, row);
+    });
+
+    var keys = Object.keys(buckets);
+    if (!tables || !keys.length) return null;
+
+    return {
+      teams: keys.map(function (k) {
+        return { key: k, name: names[k], stats: finishBucket(buckets[k], buckets[k].matches, tables) };
+      }),
+      tables: tables,
+      unmatched: unmatched
+    };
   }
 
   function parseTeamStats(text, opts) {
@@ -1787,7 +1856,8 @@
     value: value, devig: devig, lineType: lineType,
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
     parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
-    parseStatsTable: parseStatsTable, splitDiscipline: splitDiscipline,
+    parseStatsTable: parseStatsTable, parseTeamsTable: parseTeamsTable,
+    splitDiscipline: splitDiscipline,
     parseStatsJSON: parseStatsJSON, STAT_PATTERNS: STAT_PATTERNS,
     parseManyTeams: parseManyTeams, matchTeamName: matchTeamName,
     XG_PER_SHOT: XG_PER_SHOT,
