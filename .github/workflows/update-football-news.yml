@@ -2,30 +2,35 @@ name: Update football news
 
 on:
   schedule:
-    # Measured over 658 runs on the old 30-minute schedule: GitHub actually
-    # ran it every 234 minutes on average, worst case 355, because it drops
-    # scheduled events when the shared pool is busy - about 86% of them here.
-    # The script never failed; the runs simply never started.
+    # Twice an hour, matching the three schedules on this repository that are
+    # known to work. Measured 21-23 Sept, every one of them lands about the
+    # same way:
     #
-    # Asking six times an hour instead of twice does not make GitHub any more
-    # punctual, but far more attempts survive, so the gap between real runs
-    # comes down. Offset off the :00 and :30 rush, and staggered from
-    # update-news.yml (:12/:42) so they never queue behind each other.
-    - cron: "03,13,23,33,43,53 * * * *"
+    #   update-news.yml    cron 12,42  ->  a real run every 4.3h, worst 5.9h
+    #   update-quotes.yml  cron 6,36   ->  a real run every 4.3h, worst 7.4h
+    #
+    # GitHub drops most scheduled events on a shared runner pool, and the
+    # rate it does start them looks the same whichever schedule is asked for:
+    # this file briefly asked six times an hour and got no scheduled run at
+    # all. So it asks the way the working ones ask. Expect a refresh roughly
+    # every four to five hours, not every thirty minutes - the panel prints
+    # the truth as "updated N ago", taken from the file itself.
+    #
+    # Offset off the :00/:30 rush and clear of :06/:36, :12/:42, :20/:50 and
+    # :26/:56, so the five schedules here never queue behind each other.
+    - cron: "03,33 * * * *"
 
-  # The only way to get an exact 30 minutes: something outside GitHub pokes
-  # this workflow on a real clock. A free pinger (cron-job.org, UptimeRobot)
-  # POSTs to the repository_dispatch API on the half hour, which starts this
-  # run immediately instead of queueing it behind GitHub's own scheduler.
-  # It needs a fine-grained token with Contents: read and write, stored as a
-  # repository secret - see docs/news-refresh.md.
+  # Kept for the day an exact clock matters: an outside pinger can POST to
+  # the repository_dispatch API and start a run immediately rather than wait
+  # on GitHub's scheduler. It needs a token, which is why it is not in use -
+  # see docs/news-refresh.md if that trade ever looks worth making.
   repository_dispatch:
     types: [refresh-news]
 
   workflow_dispatch:
 
-# One refresh at a time. Six attempts an hour will sometimes overlap a run
-# that is still going; the newer one waits rather than pushing against it.
+# One refresh at a time: a scheduled run can land while a dispatched one is
+# still going, and the newer one waits rather than pushing against it.
 concurrency:
   group: update-football-news
   cancel-in-progress: false
