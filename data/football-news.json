@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790131669800,
+  "generatedAt": 1790131895076,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 966,
-    "tagged": 455,
+    "raw": 967,
+    "tagged": 457,
     "droppedKeyword": 36,
     "droppedFeed": 11,
     "blocklistDistrusted": false,
@@ -173,17 +173,6 @@
       "image": null
     },
     {
-      "competition": "ucl",
-      "title": "Reaction: Bayern's Gwinn on 'frustrating' draw",
-      "publisher": "uefa.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONm92UnZxbTNmdEJRcFkxSUY5MkVtaDRaOHJXdnRHM1dnSU5WbERMalptWVF2LXRfY2RlcElDRW1HRGNGZjVkNm51VmQ2T1pBSFU5LWJYXzV6RWloYmRxc1V1U1gzc1hlOVZFTlkwZGtlcnJCSzFXQjUyZ3h4RzZrRExNdV9CdmRqZWh5QVM3NUNDUEp3QW8zMDhsclNIei1BcUVMOFVEalp2SE1ZVEdNeDl6d1h6aXFnUFh5bXhid1lMTHRQdnYwMXBR?oc=5",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790115068000,
-      "image": null
-    },
-    {
       "competition": "epl",
       "title": "2026–27 Premier League Table Without VAR: Major Overhaul As Man City Tumble",
       "publisher": "Sports Illustrated",
@@ -294,17 +283,6 @@
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "Tottenham chances of Premier League relegation revealed after Aston Villa loss",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeEZQUS03V1NvVlp6aUtxT0dwdGJVQVhILVVMTDNvU3VsTmZiMC1VMEVHLXlJYVhkakxYaXg2SDk2Wl8tNFJCMlEzUG1XdklJdTROQlJGd0hIcVNwQmRuMFFjZGtVRDUzWGFnQzg2MVdaVWdtOGUwM2ppR2l4N0xucUFsLWNjZWJjLVJkQ1V0bDR3RkdPOEdN?oc=5",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790107723000,
-      "image": null
-    },
-    {
       "competition": "transfer",
       "title": "Transfer news LIVE: Liverpool track Givario Read as Man Utd scout Gabriel Rajkovic",
       "publisher": "Transfermarkt",
@@ -410,7 +388,7 @@
     {
       "competition": "laliga",
       "title": "Athletic Club | La Liga Matchday 1 - FC Barcelona",
-      "publisher": "fcbarcelona.com",
+      "publisher": "Official FC Barcelona Website",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON193cmF0T3JFYlR3Z1F5T1RVd0hHbkpLS2F6WlFyLVJYelRpWmlLdjFleHBIOV8zYkpuUWQ0cXRHTXAxakNnTTYwbkM1Uy1ma3hVYV9LSk1JdkpabGdYd0tkQ2wxNzlDZTNEM1Q1NktZNW9oaGk3UzZlaVh1R1o2MkpNUDctUGpHaC1VS0ZhbnUxS3ow?oc=5",
       "teams": [
         "barcelona"
@@ -432,7 +410,7 @@
     {
       "competition": "laliga",
       "title": "Real Madrid demand Javier Tebas step down as LaLiga president in scathing statement",
-      "publisher": "World Soccer Talk",
+      "publisher": "worldsoccertalk.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUc9IBvAFBVV95cUxOSXlTX0tNTUJLUG5sUVVkWHA3WXpKTEFBSE9wRUk1UU9HdVBSS21pcjlXMHlCUVZDNFhoUXFGRThzV1FudFVteG1adlRCc2dKSkRRV1B2dDJfRENZZ1pPMUIzN1BfYkdMQlR0SERVTURlMmpwd2xGLWJsUldZaGZnWktPdE9QTHVfTXF0OFJpQ2hrN1hISERIbmZ3SGdnNDh4dVVWVVFmMGRSNlBYclYxeGxMb1BHT3hrTlNUcw?oc=5",
       "teams": [
         "realmadrid"
@@ -507,6 +485,17 @@
         "venezia"
       ],
       "publishedAt": 1790102100000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Barcelona eyeing Gabriel Rajkovic signing",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZjQ4NXVWZnFCcHk2VEg2bjJKZTJtVDc0d1RTeGlTQVpkNWZRZHlmeDFIUEc5YklyYmhUVndhSVZsSTVOVFk0TE15Y3lmOGRCcUtCanE0UmV5bmIya09KMnlKQVNMSmZfVGVfUFdLZXY3MFZKclN2cDNQT0FncWJTMWdHaVNIV3dEaEpTcThPMTV5Zk1y?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790101800000,
       "image": null
     },
     {
@@ -655,7 +644,7 @@
     {
       "competition": "seriea",
       "title": "Serie A Power Rankings: Roma nipping at Inter's heels after draw; AC Milan back in the top three",
-      "publisher": "cbssports.com",
+      "publisher": "CBS Sports",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3lBZVpVQWxpWkU0bzIwUHhORmNKRkJhT0VlcnREREx3ZEI5Tk1Ja05NWDVDenFsbmp6djlWYU9MeXdXbHRoTmZ1ZV9BQ2tNbGVrcTE2RWRVb1E1VzFBMVpITS0wNklwdkhNVGFGSC1YcGtoRGxwY2pFWG43OG1OeHRJcVN2cnAyb09wRjRGWkJqOUhHNjVLY0R3d3BEc2tnaEkyMmJuX1ZxVXpCSWJyUUxvM3lqWjNtbnlqYXlVXzNHSk5DbVZsdnI5TTM?oc=5",
       "teams": [
         "acmilan"
@@ -683,6 +672,18 @@
         "liverpool"
       ],
       "publishedAt": 1790097586000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Brentford star Michael Kayode reveals he always wanted to play for Italy",
+      "publisher": "getfootballnewsitaly.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzcwV3hVNjRBNWJxSnotZWc2U1lzVWRKTGhlS2JlS25jNFo2a3o0TkZzRGVFZmtsY3Ital9JSnhUbnllUHJTaUI2dEUwUFEyZ0hMVGNNbWhXcS1WbzlKM3JPTW9ISEZvMDN4dlpfcERMd2w4WXphc0FIR01ZYlpGVnN2X2IwaWRpSWVDcjBMTE1sTTlHODNDMFlOR1Roa0J3a0xqaXptcFZnN0VyaW5iSzlzT2podw?oc=5",
+      "teams": [
+        "brentford",
+        "italy"
+      ],
+      "publishedAt": 1790097419000,
       "image": null
     }
   ]
