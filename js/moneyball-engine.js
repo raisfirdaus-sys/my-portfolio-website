@@ -660,6 +660,196 @@
     return partial || null;
   }
 
+  /* ====================================================== TABLE PASTES ===
+     WhoScored, FBref and Understat do not label a number the way UEFA does.
+     They print a header row and put the numbers on their own line below it:
+
+       Tournament      Apps  Goals  Shots pg  Discipline  Possession%  ...
+       Premier League   5      7       12         70         44.8      ...
+
+     grabStat looks for a number touching its label, so on a page like this
+     it finds nothing at all - the thing next to "Goals" is the word "Shots".
+     This reads by COLUMN instead: match the header names, then line the
+     numbers up underneath them by position.
+
+     One paste usually holds several of these tables (Summary, then
+     Defensive, then Offensive), so every table in the text is read and the
+     later ones fill in what the earlier ones did not have. */
+
+  /* Header name -> field, and whether the column is already a per-match
+     figure. "Shots pg" is per match; "Shots" on the xG table is a season
+     total. Getting that backwards is a factor-of-five error, so the rule is
+     explicit rather than guessed: a name ending in "pg" is per match.
+     Confirmed against a real paste - 60 shots over 5 apps on one table is
+     the 12 "Shots pg" the other table prints. */
+  var TABLE_COLUMNS = {
+    'apps': 'apps', 'mp': 'apps', 'matches': 'apps', 'games': 'apps',
+    'goals': 'goals', 'goals*': 'goals', 'gls': 'goals', 'g': 'goals',
+    'shots': 'shots', 'shots pg': 'shots', 'sh': 'shots', 'shotspg': 'shots',
+    'sot': 'sot', 'sot pg': 'sot', 'shotsontarget': 'sot', 'shots on target': 'sot',
+    'xg': 'xgF', 'xg pg': 'xgF', 'npxg': 'xgF',
+    'xga': 'xgA', 'xga pg': 'xgA', 'xgagainst': 'xgA', 'xgconceded': 'xgA',
+    'xa': 'xA', 'xag': 'xA', 'assists': 'xA',
+    'tackles': 'tackles', 'tackles pg': 'tackles', 'tkl': 'tackles',
+    'fouls': 'fouls', 'fouls pg': 'fouls', 'fls': 'fouls',
+    'yellow': 'yellow', 'yel': 'yellow', 'crdy': 'yellow', 'yellowcards': 'yellow',
+    'red': 'red', 'crdr': 'red', 'redcards': 'red',
+    /* One cell holding both card counts - see splitDiscipline. */
+    'discipline': 'discipline'
+  };
+  var TABLE_TOTAL_FIELDS = ['apps', 'goals', 'shots', 'sot', 'xgF', 'xgA', 'xA',
+                            'tackles', 'fouls', 'yellow', 'red'];
+
+  /* WhoScored draws the two card counts as coloured boxes side by side, and
+     a copy brings them back stuck together: 7 yellow and 0 red arrive as
+     "70". The last digit is the red count - red cards never reach double
+     figures in a season, yellows routinely do - so the split is safe in the
+     direction that matters. */
+  function splitDiscipline(v) {
+    if (v == null || !isFinite(v) || v < 0) return null;
+    if (v !== Math.floor(v)) return null;           // not a card count
+    if (v < 10) return { yellow: v, red: 0 };
+    return { yellow: Math.floor(v / 10), red: v % 10 };
+  }
+
+  function normHeader(s) {
+    return String(s).toLowerCase().replace(/[%()]/g, '').replace(/\s+/g, ' ').trim();
+  }
+
+  /* "Shots pg" is two words in the header but one column. Glue a trailing
+     "pg" (and the "per game"/"p90" spellings) onto the name before it. */
+  function headerCells(line) {
+    var raw = line.trim().split(/\s{2,}|\t|\s/).filter(Boolean);
+    var out = [];
+    for (var i = 0; i < raw.length; i++) {
+      var w = raw[i];
+      if (/^(pg|per|p90|\/90|game)$/i.test(w) && out.length) {
+        if (/^(per)$/i.test(w) && /^game$/i.test(raw[i + 1] || '')) i++;
+        out[out.length - 1] += ' pg';
+        continue;
+      }
+      out.push(w);
+    }
+    return out;
+  }
+
+  function isNumberCell(s) { return /^[+-]?\d+(?:[.,]\d+)?$/.test(String(s).trim()); }
+
+  /**
+   * Read every header-and-rows table in a pasted page.
+   * Returns null when the text holds no table this knows how to read.
+   */
+  function parseStatsTable(text) {
+    if (!text || typeof text !== 'string') return null;
+    var lines = String(text).replace(/\u00a0/g, ' ').split(/\r?\n/);
+
+    /* Per field: the season total, and the matches those totals came from.
+       Counting matches per FIELD rather than per row is what keeps a paste
+       of three tables honest - Summary, Defensive and Offensive all list the
+       same competitions, so adding their Apps together would say a team
+       played 21 matches when it played 7, and divide every average by
+       three. */
+    var totals = {}, appsFor = {};
+    var tablesRead = 0, rowsRead = 0, matches = 0;
+
+    for (var i = 0; i < lines.length; i++) {
+      var cells = headerCells(lines[i]);
+      if (cells.length < 3) continue;
+
+      /* A header line names columns and carries no numbers of its own. */
+      var map = {}, named = 0, hasApps = false;
+      for (var c = 0; c < cells.length; c++) {
+        if (isNumberCell(cells[c])) { named = -99; break; }
+        var field = TABLE_COLUMNS[normHeader(cells[c])];
+        if (field) { map[c] = field; named++; if (field === 'apps') hasApps = true; }
+      }
+      if (named < 2 || !hasApps || map[0] != null) continue;  // column 0 is the row label
+
+      /* Which columns are already per match: a name ending in "pg". */
+      var perMatchCol = {};
+      for (var pc = 0; pc < cells.length; pc++) {
+        perMatchCol[pc] = /\bpg$/.test(normHeader(cells[pc]));
+      }
+
+      var want = cells.length - 1, rowsHere = 0, tableApps = 0;
+      for (var j = i + 1; j < lines.length; j++) {
+        var row = lines[j].trim();
+        if (!row) { if (rowsHere) break; else continue; }
+        var parts = row.split(/\s{2,}|\t|\s/).filter(Boolean);
+        if (parts.length < want + 1) break;
+        var nums = parts.slice(parts.length - want);
+        if (!nums.every(isNumberCell)) break;
+
+        /* Read the whole row before recording any of it: a row without a
+           usable Apps figure cannot be weighted, so it is dropped whole. */
+        var rowApps = null, seen = [];
+        for (var k = 0; k < nums.length; k++) {
+          var col = k + 1, f = map[col];
+          if (!f) continue;
+          var v = parseFloat(String(nums[k]).replace(',', '.'));
+          if (!isFinite(v)) continue;
+          if (f === 'apps') rowApps = v;
+          else seen.push({ field: f, value: v, perMatch: perMatchCol[col] });
+        }
+        if (!rowApps || rowApps < 1) break;
+
+        for (var q = 0; q < seen.length; q++) {
+          var it = seen[q];
+          if (it.field === 'discipline') {
+            var d = splitDiscipline(it.value);
+            if (!d) continue;
+            totals.yellow = (totals.yellow || 0) + d.yellow;
+            totals.red = (totals.red || 0) + d.red;
+            appsFor.yellow = (appsFor.yellow || 0) + rowApps;
+            appsFor.red = (appsFor.red || 0) + rowApps;
+            continue;
+          }
+          /* A per-match column is turned back into a season total here, so
+             several competitions add up and are divided once at the end. */
+          totals[it.field] = (totals[it.field] || 0) +
+            (it.perMatch ? it.value * rowApps : it.value);
+          appsFor[it.field] = (appsFor[it.field] || 0) + rowApps;
+        }
+        tableApps += rowApps;
+        rowsHere++; rowsRead++;
+      }
+      if (rowsHere) {
+        tablesRead++;
+        matches = Math.max(matches, tableApps);
+        i = i + rowsHere;
+      }
+    }
+
+    if (!tablesRead || matches < 1) return null;
+
+    function per(f) {
+      if (totals[f] == null || !appsFor[f]) return null;
+      return Math.round((totals[f] / appsFor[f]) * 100) / 100;
+    }
+    var out = {
+      matches: matches,
+      _fromTable: true,
+      _tables: tablesRead,
+      _rows: rowsRead,
+      goals: per('goals'),
+      xgF: per('xgF'),
+      xgA: per('xgA'),
+      xA: per('xA'),
+      shots: per('shots'),
+      sot: per('sot'),
+      bigMiss: null,
+      fouls: per('fouls'),
+      tackles: per('tackles'),
+      yellow: per('yellow'),
+      red: per('red'),
+      _estimated: { xgF: false, xgA: false },
+      _missing: []
+    };
+    ['goals', 'xgF', 'xgA', 'shots', 'sot', 'fouls', 'tackles', 'yellow', 'red']
+      .forEach(function (k) { if (out[k] == null) out._missing.push(k); });
+    return out;
+  }
+
   function parseTeamStats(text, opts) {
     opts = opts || {};
     if (!text || typeof text !== 'string') return null;
@@ -670,6 +860,13 @@
       if (asJson) return asJson;
     }
     var t = text.replace(/\u00a0/g, ' ');
+
+    /* A header-and-rows table (WhoScored, FBref, Understat) reads nothing at
+       all through grabStat, so try it by column first. Its own match count
+       comes from the Apps column, which is why it runs before the fallback
+       below asks the caller for one. */
+    var asTable = parseStatsTable(t);
+    if (asTable) return asTable;
 
     var matches = grabStat(t, ['Matches played', 'Matches played', 'Matches contested']);
     /* Every number on the page is a season total, so nothing can be turned
@@ -1590,6 +1787,7 @@
     value: value, devig: devig, lineType: lineType,
     FORMATS: FORMATS, toDecimal: toDecimal, fromDecimal: fromDecimal, detectFormat: detectFormat,
     parseTeamStats: parseTeamStats, estimateXG: estimateXG, grabStat: grabStat,
+    parseStatsTable: parseStatsTable, splitDiscipline: splitDiscipline,
     parseStatsJSON: parseStatsJSON, STAT_PATTERNS: STAT_PATTERNS,
     parseManyTeams: parseManyTeams, matchTeamName: matchTeamName,
     XG_PER_SHOT: XG_PER_SHOT,
