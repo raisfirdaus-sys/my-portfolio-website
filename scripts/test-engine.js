@@ -394,5 +394,56 @@ eq('one side filled is still market-only', run16(oneSide).marketWeight, 1);
 eq('Serie A is not called "Drawe A"',
    DATA16.leagues.filter((l) => l.id === 'seriea')[0].name, 'Serie A (Italy)');
 
+/* ---------------------------------------------------------------- 17.
+   Competitions played but not yet measured print "N/A" and a dash, and
+   they sit between the ones that do have figures. Treating such a row as
+   the end of the table loses every row below it.
+
+   Manchester City's xG tab, verbatim. Liverpool's read fine only because
+   its empty rows happened to come last; City's stopped at FA Cup and
+   reported xG conceded 1.54 over 9 matches instead of 1.29 over 11 -
+   wrong by a fifth, and confident about it. */
+console.log('\n== 17. rows with no figures yet (N/A) ==');
+
+const cityAgainst = [
+  'Tournament      Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating',
+  'FA Cup          6      N/A    N/A     N/A     N/A    -',
+  'Premier League  5      7.82   4       -3.82   59     0.13       6.96',
+  'FIFA Club World Cup 4  6.04   6       -0.04   39     0.15       7.14',
+  'Community Shield 1     N/A    N/A     N/A     N/A    -',
+  'Champions League 1     0.19   0       -0.19   5      0.04       6.93',
+  'League Cup      1      0.16   0       -0.16   4      0.04       7.59'
+].join('\n');
+
+const ag17 = E.parseTeamStats(cityAgainst, { against: true });
+eq('an N/A row first does not end the table', !!ag17, true);
+/* 5 + 4 + 1 + 1. The 6 FA Cup and 1 Community Shield matches carry no
+   figures, so counting them would divide by a number nothing was
+   measured over. */
+eq('only measured competitions count toward matches', ag17 && ag17.matches, 11);
+eq('xG conceded across all four', ag17 && ag17.xgA, 1.29, 0.01);
+
+const cityFor = [
+  'Tournament      Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating',
+  'FIFA Club World Cup 4  14.36  15      0.64    90     0.16       7.14',
+  'FA Cup          6      N/A    N/A     N/A     N/A    -',
+  'Premier League  5      10.16  13      2.84    68     0.15       6.96',
+  'Champions League 1     2.77   2       -0.77   20     0.14       6.93',
+  'League Cup      1      1.95   5       3.05    14     0.14       7.59',
+  'Community Shield 1     N/A    N/A     N/A     N/A    -'
+].join('\n');
+const for17 = E.parseTeamStats(cityFor);
+eq('an N/A row in the middle is stepped over', for17 && for17.matches, 11);
+eq('and every row below it is still read', for17 && for17.xgF, 2.66, 0.01);
+
+/* Prose is not a row with missing figures, and must still end a table. */
+const withProse = [
+  'Tournament      Apps   xG     Goals*  xGDiff  Shots  xG/Shots   Rating',
+  'Premier League  5      7.82   4       -3.82   59     0.13       6.96',
+  'These numbers cover the 2026 season and were last updated 3 days ago.'
+].join('\n');
+const pr17 = E.parseTeamStats(withProse, { against: true });
+eq('prose still ends the table', pr17 && pr17.matches, 5);
+
 console.log('\n' + (fail === 0 ? 'ALL TESTS PASSED' : fail + ' TEST(S) FAILED'));
 process.exit(fail === 0 ? 0 : 1);
