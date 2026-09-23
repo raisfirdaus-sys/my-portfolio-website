@@ -1,17 +1,188 @@
 {
-  "generatedAt": 1790185485800,
+  "generatedAt": 1790189999191,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1530,
-    "tagged": 782,
-    "droppedKeyword": 35,
+    "raw": 1521,
+    "tagged": 770,
+    "droppedKeyword": 37,
     "droppedOtherSport": 1,
-    "droppedFeed": 9,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790189148000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Aladji Bamba has three perfect examples to ease Newcastle United fears",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/aladji-bamba-three-perfect-examples-34657814",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34658049.ece/ALTERNATES/s615/0_Bamba1.jpg",
+      "summary": "The French midfielder has had limited opportunities this season but can look to Premier League stars for reassurance",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790189100000
+    },
+    {
+      "competition": "metro",
+      "title": "Bukayo Saka sends message to &#8216;insane&#8217; Max Dowman over Arsenal future",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/23/bukayo-saka-sends-message-insane-max-dowman-arsenal-future-29648598/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_299385535-6b84.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790188844000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Viktor Gyokeres value falls as 'people already talking' about Arsenal transfer",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/transfer-news/viktor-gyokeres-arsenal-transfer-value-34662503",
+      "image": "https://i2-prod.football.london/incoming/article34662520.ece/ALTERNATES/s615/0_SSC-Napoli-v-Arsenal-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
+      "summary": "Viktor Gyokeres appears to have fallen down the pecking order at Arsenal this season with talk already starting over his future",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790188743000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Ait-Nouri targeted by Juventus after Manchester City struggle",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/ait-nouri-targeted-by-juventus-manchester-city/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Rayan-Ait-Nouri-look-414x268.jpg",
+      "summary": "Juventus are ready to try for Rayan Ait-Nouri in January after his struggles to get...",
+      "teams": [
+        "mancity",
+        "juventus"
+      ],
+      "publishedAt": 1790187924000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Malago: &#8216;Italy must look to present and future, we&#8217;re all in the same boat&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/malago-italy-must-look-to-present-and-future/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Giovanni-Malago-glasses-414x276.jpg",
+      "summary": "FIGC President Giovanni Malagò reassured the Italy squad that they are ‘all in the same...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790186706000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane defends Declan Rice after Arsenal star explained England drop out",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-declan-rice-england-37695615",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37695632.ece/ALTERNATES/s615/0_GettyImages-2286412616.jpg",
+      "summary": "Declan Rice was one of five players to pull out of the England squad for the four Nations League games in the current international break, but Harry Kane understands his reasoning",
+      "teams": [
+        "arsenal",
+        "england"
+      ],
+      "publishedAt": 1790186514000
+    },
+    {
+      "competition": "guardian",
+      "title": "Harry Kane says England’s World Cup exit ‘hurt more than any other’",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
+      "image": "https://i.guim.co.uk/img/media/222832b656c43ee0e623323ae51d721820678d28/295_0_3370_2696/master/3370.jpg?width=140&quality=85&auto=format&fit=max&s=3b7623d37f92de214a32c54c084a860e",
+      "summary": "‘It wasn’t the team that we wanted and said we’d be’England host Spain in Nations League on SaturdayHarry Kane has described England’s World Cup semi-final defeat against Argentina as his most painful tournament exit…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790186455000
+    },
+    {
+      "competition": "indy",
+      "title": "Harry Kane provides update on Bayern Munich contract talks",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/harry-kane-bayern-munich-contract-b3055030.html",
+      "image": "https://static.independent.co.uk/2026/09/23/13/2295072550..?width=1200&auto=webp&trim=0%2C12%2C0%2C12",
+      "summary": "Kane has a remarkable goalscoring record since arriving in Germany and is keen to stay with the Bundesliga champions",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790186435000
+    },
+    {
+      "competition": "indy",
+      "title": "Harry Kane on the pain of still solving England’s hardest question: ‘How can we be ourselves?’",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/harry-kane-england-world-cup-argentina-thomas-tuchel-b3055035.html",
+      "image": "https://static.independent.co.uk/2026/09/17/08/2286275690..?width=1200&auto=webp&trim=15%2C471%2C584%2C152",
+      "summary": "Interview: The England captain reflects on the World Cup semi-final defeat to Argentina, whether ‘mentality’ was the reason for their defensive retreat, and why he is still aiming for more at the age of 33",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790186429000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane opens up on Bayern Munich contract - and reveals surprise career change plan",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-bayern-contract-nfl-37694855",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37694891.ece/ALTERNATES/s615/0_GettyImages-2295411452.jpg",
+      "summary": "England captain Harry Kane is already thinking about life after football, with the 33-year-old making plans for when he eventually leaves Bayern Munich",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790186400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane opens up on true impact of England's World Cup heartbreak vs Argentina",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-england-argentina-spain-37694569",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37694478.ece/ALTERNATES/s615/0_GettyImages-2286282264.jpg",
+      "summary": "England captain Harry Kane has linked up with the Three Lions for the first time since their World Cup heartbreak against Argentina and the striker is keen to move on from that disappointment",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790186400000
+    },
+    {
+      "competition": "guardian",
+      "title": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/23/special-klopp-and-xavi-take-first-steps-on-international-stage-with-revival-in-mind",
+      "image": "https://i.guim.co.uk/img/media/ea2873ca3d909b919713c8fb46838bb1f0b6d25b/0_0_5000_4002/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=70895c05d15191de464b2a50da3034b8",
+      "summary": "Klopp, with Germany, and Xavi, with the Netherlands, face each other in Nations League after disappointing World Cup for both countriesBefore the latest instalment of a time-honoured international rivalry gearing up for…",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790185843000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Football Italia Show: Italy recap &#8211; Kayode, Frattesi and major Azzurri doubt",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/football-italia-italy-kayode-frattesi-doubt/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-training-414x288.jpg",
+      "summary": "Italy have entered the third day of preparations for Friday s Nations League opener against Belgium,...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790185593000
+    },
     {
       "competition": "fitalia",
       "title": "Italiano &#8216;had an agreement with Napoli&#8217; before Besiktas took advantage of problems",
@@ -23,18 +194,6 @@
         "napoli"
       ],
       "publishedAt": 1790185263000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790183779000
     },
     {
       "competition": "echo",
@@ -585,164 +744,6 @@
         "liverpool"
       ],
       "publishedAt": 1790169900000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal dodge triple transfer bullet but Andrea Berta left to regret £117m decision",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-dodge-triple-transfer-bullet-34660499",
-      "image": "https://i2-prod.football.london/incoming/article34660549.ece/ALTERNATES/s615/0_Morgan-Rogers-and-Arsenal.jpg",
-      "summary": "Arsenal wanted a top forward in the summer with four names topping the lists but how have the players Andrea Berta didn't sign started their new seasons and did the Gunners dodge any bullets or end up regretting their…",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790169778000
-    },
-    {
-      "competition": "guardian",
-      "title": "Chelsea have entered the realm of late-stage American sports capitalism | Leander Schaerlaeckens",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/23/chelsea-sale-american-sports-capitalism",
-      "image": "https://i.guim.co.uk/img/media/c7eb197f9bd87f35313ec17288b0356a33dd2b30/359_0_4623_3700/master/4623.jpg?width=140&quality=85&auto=format&fit=max&s=50364d67e3ccef4b26317563f05d0499",
-      "summary": "The Blues’ lack of success was no impediment to Todd Boehly and Mark Walter recouping profits from the club’s sale. That’s how things work in the USHere follows a list of the things accomplished at Chelsea Football Club…",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790169401000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Alejandro Garnacho demand made with Chelsea transfer concern laid bare",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/alejandro-garnacho-demand-made-chelsea-34659961",
-      "image": "https://i2-prod.football.london/incoming/article34660322.ece/ALTERNATES/s615/0_GettyImages-2295630833.jpg",
-      "summary": "Chelsea winger Alejandro Garnacho has struggled for game time in the early days of his season-long loan deal at Aston Villa",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790168652000
-    },
-    {
-      "competition": "echo",
-      "title": "11 Everton players set for extra work as injured pair eye return and friendly planned",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/11-everton-players-set-extra-34659242",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34659337.ece/ALTERNATES/s615/0_EFCtraining230926.jpg",
-      "summary": "A number of Everton players will continue to train at Finch Farm during the international break",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790168137000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Conte top choice for Manchester United job if Carrick sacked",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/conte-top-choice-for-manchester-united-job/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Antonio-Conte-414x277.jpg",
-      "summary": "Reports in Italy are growing that Antonio Conte is the favourite to replace Michael Carrick...",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790168019000
-    },
-    {
-      "competition": "mirror",
-      "title": "Bruno Guimaraes sent warning by Newcastle star ahead of reunion after Arsenal move",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-newcastle-bruno-guimaraes-joelinton-37693703",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37693958.ece/ALTERNATES/s615/0_GettyImages-2295464266.jpg",
-      "summary": "Bruno Guimaraes left Newcastle in the summer and will return with Arsenal for the first time in November - with his close pal and compatriot warning him about what to expect",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790167980000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Report Milan want Krosche for new Head of Football role",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/report-milan-want-krosche-head-football-role/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/eintracht-frankfurt-v-vfb-stuttgart-bundesliga-1-414x276.jpg",
-      "summary": "Milan are seeking to create a Head of Football role and marked Markus Krosche for...",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1790166922000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal, Chelsea and Tottenham in limbo over Man City 115 charges saga after CEO admission",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-chelsea-tottenham-limbo-over-34659986",
-      "image": "https://i2-prod.football.london/incoming/article34660024.ece/ALTERNATES/s615/1_Arsenal-Man-City-and-the-Premier-League.jpg",
-      "summary": "Arsenal, Chelsea and Tottenham Hotspur continue to await the verdict of the case involving Manchester City's alleged 115-plus financial breaches",
-      "teams": [
-        "mancity",
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790166212000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United reveal the cost of acquiring land for 100,000-seater stadium",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-reveal-cost-acquiring-34658050",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34659821.ece/ALTERNATES/s615/2_MANCHESTER-UNITED-1200px-MIN1.jpg",
-      "summary": "Man Utd acquired a new plot of land to build a new stadium earlier this year, and the cost has now been revealed.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790165700000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Frattesi: France&#8217;s third squad could win the World Cup, Romano similar to Matic",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/frattesi-3rd-france-squad-world-cup-romano/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Davide-Frattesi-celebrating-414x276.jpg",
-      "summary": "Lazio midfielder Davide Frattesi admits he didn t watch a single World Cup game last summer,...",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790165544000
-    },
-    {
-      "competition": "men",
-      "title": "Man United debt figures explained as club announce record revenue",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-debt-profit-accounts-34659957",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34659945.ece/ALTERNATES/s615/0_GettyImages-2294029776.jpg",
-      "summary": "Manchester United have released their latest accounting figures",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790165418000
-    },
-    {
-      "competition": "indy",
-      "title": "Ruben Amorim sacking pay-off revealed as Man Utd publish latest financial results",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ruben-amorim-man-united-payoff-financial-results-b3054991.html",
-      "image": "https://static.independent.co.uk/2026/06/17/08/21d0b02886d59005ea8095c81a1605dbY29udGVudHNlYXJjaGFwaSwxNzgxNzEyOTAx-2.82919578.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Amorim was sacked by United in January after 14 months in charge",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790165320000
-    },
-    {
-      "competition": "mirror",
-      "title": "Eric Cantona teams up with Gary Lineker as Man Utd chief Sir Jim Ratcliffe slammed again",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jim-ratcliffe-eric-cantona-lineker-37693615",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37693609.ece/ALTERNATES/s615/0_TENNIS-FRA-OPEN-2026.jpg",
-      "summary": "Gary Lineker and Eric Cantona have both slammed Manchester United co-owner Sir Jim Ratcliffe over recent days, following his latest comments bemoaning immigration",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790165084000
     }
   ]
 }
