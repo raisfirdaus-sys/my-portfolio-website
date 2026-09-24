@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790264317517,
+  "generatedAt": 1790265306298,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1515,
-    "tagged": 735,
-    "droppedKeyword": 40,
-    "droppedOtherSport": 2,
+    "raw": 1516,
+    "tagged": 736,
+    "droppedKeyword": 39,
+    "droppedOtherSport": 1,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790264686000
+    },
     {
       "competition": "fitalia",
       "title": "Ramos on Milan move: &#8216;The fans are incredible, I love feeling the support&#8217;",
@@ -186,7 +198,7 @@
     },
     {
       "competition": "birmingham",
-      "title": "Brutal tests looms for Aston Villa as Unai Emery rebuild faces 30-day trial",
+      "title": "Brutal test looms for Aston Villa as Unai Emery rebuild faces 30-day trial",
       "publisher": "Birmingham Live",
       "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-fixtures-barcelona-newcastle-34666875",
       "image": "https://i2-prod.birminghammail.co.uk/incoming/article34667007.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-Premier-League-Football-Tottenham-Hotspur-Stadium-London-UK-1.jpg",
@@ -232,18 +244,6 @@
         "italy"
       ],
       "publishedAt": 1790258116000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790257555000
     },
     {
       "competition": "chronicle",
