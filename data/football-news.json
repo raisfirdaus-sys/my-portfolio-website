@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790290393217,
+  "generatedAt": 1790291490561,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 746,
+    "raw": 1519,
+    "tagged": 751,
     "droppedKeyword": 25,
     "droppedOtherSport": 2,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -24,6 +24,19 @@
         "germany"
       ],
       "publishedAt": 1790289551000
+    },
+    {
+      "competition": "bbc",
+      "title": "Bellamy wants more from Wales after loss to Portugal",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c63eqkdnvkq8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb3/live/f017e350-b85e-11f1-b1d1-571ed4d7ff2c.jpg",
+      "summary": "Craig Bellamy believes there is \"more to come\" from his Wales side in the Nations League following their opening-match loss in Lisbon.",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790288913000
     },
     {
       "competition": "bbc",
@@ -751,19 +764,6 @@
       "teams": [
         "netherlands",
         "germany"
-      ],
-      "publishedAt": 1790265600000
-    },
-    {
-      "competition": "men",
-      "title": "John Stones in Italy - Inter start, pundit comments and familiar Man City problem",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/john-stones-italy-inter-start-34665258",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34666183.ece/ALTERNATES/s615/0_premium-canvas-1790253451544.png",
-      "summary": "Manchester City favourite John Stones signed a two-year contract with Inter Milan this summer after a successful decade at the Etihad Stadium",
-      "teams": [
-        "mancity",
-        "italy"
       ],
       "publishedAt": 1790265600000
     }
