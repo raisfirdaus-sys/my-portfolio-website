@@ -1,17 +1,263 @@
 {
-  "generatedAt": 1790252334338,
+  "generatedAt": 1790259543135,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1528,
-    "tagged": 749,
-    "droppedKeyword": 41,
-    "droppedOtherSport": 2,
+    "raw": 1527,
+    "tagged": 739,
+    "droppedKeyword": 38,
+    "droppedOtherSport": 1,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Frosinone set asking price for Roma target Kvernadze",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/frosinone-set-asking-price-for-kvernadze/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Giorgi-Kvernadze-celebrate-1-414x294.jpg",
+      "summary": "Frosinone want at least €25m for Giorgi Kvernadze, and have no intention of letting him...",
+      "teams": [
+        "frosinone"
+      ],
+      "publishedAt": 1790258483000
+    },
+    {
+      "competition": "mirror",
+      "title": "Liverpool and Florian Wirtz in 'huge misunderstanding' as Reds tipped to 'pull the plug'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-florian-wirtz-transfer-germany-37698713",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37698711.ece/ALTERNATES/s615/0_AFC-Bournemouth-v-Liverpool-Premier-League-202627.jpg",
+      "summary": "Dietmar Hamann believes Liverpool will eventually 'pull the plug' on Florian Wirtz if his struggles continue, while Jamie Carragher has also criticised the midfielder's displays",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790258151000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Forgotten Italy talent Pellegri eyes Serie A comeback after returning to Torino training",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/pellegri-eyes-serie-a-comeback-torino-return/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/torino-fc-v-ac-milan-serie-a-tim-1.jpg",
+      "summary": "Forgotten Italy talent Pietro Pellegri is back in training with Torino after a series of...",
+      "teams": [
+        "torino",
+        "italy"
+      ],
+      "publishedAt": 1790258116000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790257555000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Jamaal Lascelles to make emotional Newcastle United return after free agent list setback",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/jamaal-lascelles-make-emotional-newcastle-34666112",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article32048143.ece/ALTERNATES/s615/0_Lascelles.jpg",
+      "summary": "The former Newcastle United star is looking for his next club after 253 appearances for the Magpies",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790256639000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Milan send scouts to Rome to watch Romano’s Italy debut",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/milan-send-scouts-watch-romano-italy-debut/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-celebrate.jpg",
+      "summary": "Alessandro Romano is widely expected to earn his Italy debut when the Azzurri take on...",
+      "teams": [
+        "acmilan",
+        "italy"
+      ],
+      "publishedAt": 1790255949000
+    },
+    {
+      "competition": "guardian",
+      "title": "England face world champions Spain as international break commences | Football Weekly – video",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/video/2026/sep/24/england-face-world-champions-spain-as-international-break-commences-football-weekly",
+      "image": "https://i.guim.co.uk/img/media/c82c134b56464a9093349ca6aaca769037f2ffb2/132_0_1444_1155/master/1444.jpg?width=140&quality=85&auto=format&fit=max&s=5cfcecb0b1c9076b42201d595dd43ed6",
+      "summary": "Max Rushden is joined by Barry Glendenning, Seb Hutchinson and Paul Watson as the international break begins Continue reading...",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790255869000
+    },
+    {
+      "competition": "men",
+      "title": "Alejandro Garnacho Chelsea clause truth with Man United's £43m transfer hope clear",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-united-transfer-news-garnacho-34665737",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34666301.ece/ALTERNATES/s615/0_Coventry-City-v-Aston-Villa-Carabao-Cup-Third-Round.jpg",
+      "summary": "Former Manchester United forward Alejandro Garnacho has had a rough few seasons and has got off to a bad start at Aston Villa",
+      "teams": [
+        "manutd",
+        "chelsea"
+      ],
+      "publishedAt": 1790255598000
+    },
+    {
+      "competition": "metro",
+      "title": "Brazil boss Carlo Ancelotti speaks out on Chelsea&#8217;s use of Estevao",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/brazil-boss-carlo-ancelotti-speaks-chelseas-use-estevao-29650266/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313066768-216d.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790254940000
+    },
+    {
+      "competition": "metro",
+      "title": "Is Cole Palmer&#8217;s withdrawal from the England squad really that bad?",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/cole-palmers-withdrawal-england-squad-really-bad-29649760/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_313808803-ae36.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790254866000
+    },
+    {
+      "competition": "mirror",
+      "title": "Unai Emery and Aston Villa stuck in loan agreement as they face 'embarrassing' repeat",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/aston-villa-emery-garnacho-loan-37698244",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37612816.ece/ALTERNATES/s615/0_GettyImages-2292405833.jpg",
+      "summary": "Aston Villa bought in Alejandro Garnacho on loan in the summer but the Argentine is yet to start under Unai Emery, with the club having no clause to cancel his loan early",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790254860000
+    },
+    {
+      "competition": "echo",
+      "title": "Tim Cahill glad Everton didn't sign Folarin Balogun after spotting something in training",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cahill-everton-folarin-balogun-transfer-34665953",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/transfer-news/article34565251.ece/ALTERNATES/s615/0_JS411818457.jpg",
+      "summary": "Former Everton forward Tim Cahill has delivered his verdict on the club's failed pursuit of Folarin Balogun after it felt Thierno Barry as their only senior striker",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790254769000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Kayode could be Italy’s most expensive debutant, but isn’t expected to start vs. Belgium",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/kayode-could-be-italys-most-expensive-debutant/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/brentford-v-tottenham-hotspur-pr-1.jpg",
+      "summary": "Michael Kayode could potentially be Italy’s most valuable ever player at the time of their...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790254562000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel can't afford to dismiss Nations League in battle to win back England fans",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-preview-37698378",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37698434.ece/ALTERNATES/s615/0_premium-canvas-1790253884475.png",
+      "summary": "OPINION: England welcome Spain to Wembley on Saturday to kick-off their Nations League campaign, a competition that some managers will view as a stop-gap ahead of Euro 2028 - but not Thomas Tuchel",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790253961000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool will 'pull the plug' on Florian Wirtz over 'huge misunderstanding' for £116m star",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-liverpool-transfer-news-34666043",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34666003.ece/ALTERNATES/s615/1_Liverpool-v-Fulham-Premier-League-202627.jpg",
+      "summary": "Florian Wirtz has flattered to deceive with Liverpool since signing from Bayer Leverkusen for what was a Premier League record transfer worth up to £116million",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790253862000
+    },
+    {
+      "competition": "footlondon",
+      "title": "The dangerous Declan Rice misconception Simon Jordan got wrong as Arsenal conflict rises again",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/dangerous-declan-rice-misconception-simon-34665892",
+      "image": "https://i2-prod.football.london/incoming/article34665900.ece/ALTERNATES/s615/1_Declan-Rice-and-Arsenal.jpg",
+      "summary": "TalkSPORT's Simon Jordan incorrectly misjudged Declan Rice's game time for Arsenal and England amid revived row over international duty",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790253392000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United reveal new addition to Michael Carrick's backroom staff",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-reveal-new-addition-34665929",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article33970143.ece/ALTERNATES/s615/1_Carrick-coaching-staff.png",
+      "summary": "Michael Carrick has made an addition to his Man Utd backroom staff, bringing in another goalkeeper coach.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790253361000
+    },
+    {
+      "competition": "guardian",
+      "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/archive-1985-alcohol-banned-from-football-grounds-in-england-and-wales",
+      "image": "https://i.guim.co.uk/img/media/096ba813fda74ec08a6cfeb1130ca9e97e468aef/481_0_2523_2019/master/2523.jpg?width=140&quality=85&auto=format&fit=max&s=88662595332b567f4e69b4f62a357a81",
+      "summary": "The violence at the Luton Town v Millwall FA Cup match in 1985, along with the Heysel Stadium disaster, saw the Thatcher government enact new lawsUK prime minister Andy Burnham has spoken out about football fans facing…",
+      "teams": [
+        "england",
+        "wales"
+      ],
+      "publishedAt": 1790253178000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool will soon learn truth about squad and Andoni Iraola knows it",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-soon-learn-truth-squad-34664554",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664953.ece/ALTERNATES/s615/0_GettyImages-2295662191.jpg",
+      "summary": "Liverpool face a season-shaping run of nine games in 29 days when they return from the international break next month",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790252972000
+    },
+    {
+      "competition": "mirror",
+      "title": "Wayne Rooney makes 'money' confession as Man Utd icon admits management career could be over",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-bbc-man-utd-37697973",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37698082.ece/ALTERNATES/s615/1_GettyImages-2273111143.jpg",
+      "summary": "Former Manchester United and England star Wayne Rooney now stars on Match of the Day and has gone almost two years without a job in management",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790252461000
+    },
     {
       "competition": "chronicle",
       "title": "Newcastle United's dream international break with Yoane Wissa hope and Rory Finneran chance",
@@ -42,7 +288,7 @@
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sounds/play/p0pc29mg?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pc29n5.jpg",
-      "summary": "Ollie McBurnie on his Scotland return, fresh perspective and first-goal ambition.",
+      "summary": "Oli McBurnie on his Scotland return, fresh perspective and first-goal ambition.",
       "teams": [
         "scotland"
       ],
@@ -89,7 +335,7 @@
       "title": "Liverpool's next signing 'on his way to Real Madrid' before sudden transfer intervention",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-transfer-news-lucca-brughmans-34665350",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34665644.ece/ALTERNATES/s615/0_Liverpool-FC-Unveil-New-Signing-Lucca-Brughmans.jpg",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34665644.ece/ALTERNATES/s615/1_Liverpool-FC-Unveil-New-Signing-Lucca-Brughmans.jpg",
       "summary": "Liverpool secured a huge coup on transfer deadline day as a highly rated wonderkid picked them over Real Madrid",
       "teams": [
         "realmadrid",
@@ -120,18 +366,6 @@
         "chelsea"
       ],
       "publishedAt": 1790249742000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790249226000
     },
     {
       "competition": "bbc",
@@ -267,18 +501,6 @@
         "manutd"
       ],
       "publishedAt": 1790246263000
-    },
-    {
-      "competition": "metro",
-      "title": "Ex-England footballer Andy Carroll reveals he was sexually assaulted in &#8216;traumatic&#8217; attack",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/ex-england-footballer-andy-carroll-reveals-sexually-assaulted-traumatic-attack-29649749/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_290386894-3497.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790245900000
     },
     {
       "competition": "echo",
@@ -524,228 +746,6 @@
         "arsenal"
       ],
       "publishedAt": 1790239522000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool 'scouting striker that scored 256 goals in a season'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-scouting-striker-transfer-target-37696419",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37656276.ece/ALTERNATES/s615/2_GettyImages-2294888266.jpg",
-      "summary": "Liverpool's latest target in their recruitment drive for young talent has shown incredible potency in front of goal",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790239205000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Roma’s Romano regret is Cagliari&#8217;s gain as market value soars ahead of Italy debut",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/romas-romano-regret-is-cagliaris-gain/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-Cagliari.jpg",
-      "summary": "Alessandro Romano is set to earn his senior debut for the Italy national team against...",
-      "teams": [
-        "cagliari",
-        "italy"
-      ],
-      "publishedAt": 1790238681000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United fans launch online campaign against the club's sponsors",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-united-fans-launch-online-34663422",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34663418.ece/ALTERNATES/s615/1_Screenshot-2026-09-24-082024.png",
-      "summary": "Man Utd fans continue to protest against the club's ownership, hoping to remove the Glazers and Sir Jim Ratcliffe.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790237289000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Lukas Hornicek explains Newcastle United transfer decision and what he was promised",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/lukas-hornicek-explains-newcastle-united-34662099",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34645144.ece/ALTERNATES/s615/0_Newcastle-United-v-Liverpool-Premier-League-202627.jpg",
-      "summary": "The Czech goalkeeper is loving life on Tyneside after signing from Braga this summer",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790237112000
-    },
-    {
-      "competition": "metro",
-      "title": "Why is the international break three weeks long? England&#8217;s four fixtures explained",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/international-break-three-weeks-long-englands-four-fixtures-explained-29647263/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312838178-f6f9.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790236800000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Former striker explains why Unai Emery wouldn't join Real Madrid or Barcelona from Aston Villa",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/former-striker-explains-unai-emery-34660067",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644375.ece/ALTERNATES/s615/0_Coventry-City-v-Aston-Villa-Carabao-Cup-Third-Round.jpg",
-      "summary": "Alvaro Negredo has named Unai Emery as one of the most demanding coaches he worked with during his career",
-      "teams": [
-        "realmadrid",
-        "astonvilla",
-        "barcelona"
-      ],
-      "publishedAt": 1790236800000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Today’s Papers: Italy unveil Zoma, Udinese sign Alaba, new Juventus goalkeepers",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/todays-papers-italy-unveil-zoma-udinese-alaba/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-03254697h3ehx.webp",
-      "summary": "La Gazzetta dello Sport Diavolo forever Milan want Rabiot until 2030 Midfielder, deep-lying or trequartista:...",
-      "teams": [
-        "juventus",
-        "udinese",
-        "italy"
-      ],
-      "publishedAt": 1790236016000
-    },
-    {
-      "competition": "metro",
-      "title": "Arsenal&#8217;s Bruno Guimaraes speaks out on mistake that &#8216;still hurts&#8217;",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/arsenals-bruno-guimaraes-speaks-mistake-still-hurts-29649036/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2289085896-eea2.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790235455000
-    },
-    {
-      "competition": "bundes",
-      "title": "'He's thinking about the future of German football' - Lothar Matthäus discusses Jürgen Klopp's start to life as Germany head coach",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/lothar-matthaus-interview-jurgen-klopp-germany-dortmund-39331",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083556556h.jpg?crop=0px%2C283px%2C3600px%2C2025px",
-      "summary": "Lothar Matthäus knows a thing or two about success on the international stage, having won the 1990 FIFA World Cup as Germany captain. Now a television pundit in his homeland, the former Ballon d'Or winner has shared his…",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790235095000
-    },
-    {
-      "competition": "indy",
-      "title": "Anthony Gordon: ‘English players can’t keep the ball like Spain. It’s not in our DNA’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/anthony-gordon-england-spain-dna-b3055523.html",
-      "image": "https://static.independent.co.uk/2026/09/24/08/2026-09-24T053139Z_1728386340_RC2ZONA5TX6I_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP-PREVIEW.JPG?width=1200&auto=webp&trim=157%2C0%2C157%2C0",
-      "summary": "The Barcelona winger also admitted his surprise at being taken off during England’s World Cup semi-final defeat to Argentina",
-      "teams": [
-        "spain"
-      ],
-      "publishedAt": 1790234627000
-    },
-    {
-      "competition": "metro",
-      "title": "Gabriel Martinelli&#8217;s agent reveals Premier League offer before Arsenal exit",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/gabriel-martinellis-agent-reveals-premier-league-offer-arsenal-exit-29649034/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311243240-3a1d.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790234185000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man Utd selling Old Trafford turf cubes for £125",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmwyzjedq51lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9154/live/b1ab3510-b7e4-11f1-b86f-f9f95031dc8c.jpg",
-      "summary": "Manchester United is selling pieces of its Old Trafford pitch for £125 each, an initiative announced the same day the club reported its overall debt remains more than £1bn.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790233691000
-    },
-    {
-      "competition": "bbc",
-      "title": "'Eternally grateful' McBurnie ready to show what Scotland have missed",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6qjk1122e9jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c261/live/ccad4ab0-b758-11f1-a430-4d16ee157c41.jpg",
-      "summary": "Overlooked by Steve Clarke and dismissed by some Scotland fans, but Oli McBurnie returns with a point to prove, writes Tom English.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790233506000
-    },
-    {
-      "competition": "guardian",
-      "title": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/the-system-not-tuchel-led-to-world-cup-failure-but-euro-2028-offers-new-hope",
-      "image": "https://i.guim.co.uk/img/media/0af7e1e8c2d774c3f607b4a4649772ff9cffe6fb/202_0_2020_1616/master/2020.jpg?width=140&quality=85&auto=format&fit=max&s=07c343ff79c60c20867da66e8cbce7f2",
-      "summary": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790233211000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Tottenham told Harry Kane transfer terms as Bayern Munich scratch Premier League return 'itch'",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/tottenham-told-harry-kane-transfer-34661774",
-      "image": "https://i2-prod.liverpool.com/incoming/article34605559.ece/ALTERNATES/s615/2_Harry-Kane.jpg",
-      "summary": "Harry Kane has recently entered the final year of his contract at the Allianz Arena, and he's yet to sign an extension with Bayern Munich.",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790233200000
-    },
-    {
-      "competition": "metro",
-      "title": "New Manchester United signing named as Premier League star&#8217;s hardest opponent",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/new-man-utd-signing-named-premier-league-stars-hardest-opponent-29648854/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310881177-484b.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790233053000
-    },
-    {
-      "competition": "mirror",
-      "title": "Wayne Rooney slams Benjamin Sesko for missing Man Utd clash with shin injury",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-rooney-sesko-injury-37696270",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37693046.ece/ALTERNATES/s615/1_Liverpool-v-Paris-Saint-Germain-UEFA-Champions-League-Quarter-Final-Second-Leg-Anfield.jpg",
-      "summary": "Benjamin Sesko sat out of Manchester United's draw at Fulham, which has copped criticism from Wayne Rooney as the striker continues to deal with a shin injury",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790230824000
-    },
-    {
-      "competition": "indy",
-      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
-      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
-      "summary": "Everything you need to know ahead of the Nations League fixture",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790230205000
     }
   ]
 }
