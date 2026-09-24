@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790269500027,
+  "generatedAt": 1790270388667,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 739,
+    "raw": 1516,
+    "tagged": 750,
     "droppedKeyword": 35,
     "droppedOtherSport": 1,
     "droppedFeed": 6,
@@ -12,6 +12,58 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Van Bommel: &#8216;Always 4-3-3, Belgium and Italy in same situation, Milan hope&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/van-bommel-always-4-3-3-belgium-italy-milan/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Diego-Moreira-Belgium-hmm-414x276.jpg",
+      "summary": "Mark van Bommel confirms Belgium will play with a classic Dutch 4-3-3 in the Nations...",
+      "teams": [
+        "belgium",
+        "acmilan",
+        "italy"
+      ],
+      "publishedAt": 1790269906000
+    },
+    {
+      "competition": "mirror",
+      "title": "£50m Liverpool deal 'far from certain' as fan favourite clashes with FSG policy",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-ronald-araujo-transfer-barcelona-37699630",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699653.ece/ALTERNATES/s615/0_GettyImages-2295683348.jpg",
+      "summary": "Barcelona loanee Ronald Araujo has made a strong impression since arriving at Liverpool, but signing loan players permanently is something that owners FSG don't often do",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790269791000
+    },
+    {
+      "competition": "indy",
+      "title": "Portugal v Wales LIVE: Cristiano Ronaldo question hangs over Selecao for Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
+      "image": "https://static.independent.co.uk/2026/09/23/17/2026-09-23T155303Z_1367993834_RC2L8MAXXLUH_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=103%2C0%2C103%2C0",
+      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790269567000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
+      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
+      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790269538000
+    },
     {
       "competition": "indy",
       "title": "Netherlands vs Germany LIVE: Jurgen Klopp’s first game pits him against Xavi in Nations League",
@@ -26,30 +78,16 @@
       "publishedAt": 1790269441000
     },
     {
-      "competition": "indy",
-      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
-      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
-      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "competition": "guardian",
+      "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/raphinha-barcelona-interview-la-liga-no9",
+      "image": "https://i.guim.co.uk/img/media/da998ddd178f2bc1bbb628d22a3cdb08ab877ccc/16_69_2285_1828/master/2285.jpg?width=140&quality=85&auto=format&fit=max&s=4a36b546b31532120d15f6a410864e57",
+      "summary": "Two years ago the Brazilian thought his time at Barcelona was ending but, two La Liga titles later, he is now captain and the most potent No 9 in EuropeFor once, Raphael Dias Belloli puts the brakes on. The man who…",
       "teams": [
-        "portugal",
-        "wales"
+        "barcelona"
       ],
-      "publishedAt": 1790268935000
-    },
-    {
-      "competition": "indy",
-      "title": "Portugal v Wales LIVE: Cristiano Ronaldo question hangs over Selecao for Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/23/17/2026-09-23T155303Z_1367993834_RC2L8MAXXLUH_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=103%2C0%2C103%2C0",
-      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790268733000
+      "publishedAt": 1790269225000
     },
     {
       "competition": "mirror",
@@ -715,42 +753,6 @@
         "chelsea"
       ],
       "publishedAt": 1790249742000
-    },
-    {
-      "competition": "bbc",
-      "title": "Wilson & Curtis leave Scotland squad to join U-21s",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6y8zmndyjkro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b2/live/9ea28950-b807-11f1-bc1f-3f186ca4140c.png",
-      "summary": "Forwards James Wilson and Findlay Curtis leave the Scotland Nations League squad in order to play for the Under-21 team against Azerbaijan on Wednesday.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790249108000
-    },
-    {
-      "competition": "fitalia",
-      "title": "McTominay begins recovery work with Napoli after heart procedure",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mctominay-begins-recovery-after-heart-op/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/mctominay-da-cunha.jpg",
-      "summary": "Napoli have confirmed that midfielder Scott McTominay is back with the club and that he...",
-      "teams": [
-        "napoli"
-      ],
-      "publishedAt": 1790248970000
-    },
-    {
-      "competition": "mirror",
-      "title": "Antoine Semenyo leaves Ghana camp as statement issued on Man City star",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-ghana-antoine-semenyo-37697803",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37697784.ece/ALTERNATES/s615/0_Manchester-City-Training-City-Football-Academy-Monday-September-7th.jpg",
-      "summary": "Manchester City player Antoine Semenyo will not represent Ghana during this three-week international break after withdrawing from the squad for their Africa Cup of Nations qualifiers",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790248790000
     }
   ]
 }
