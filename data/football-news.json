@@ -1,17 +1,242 @@
 {
-  "generatedAt": 1790270388667,
+  "generatedAt": 1790274886830,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 750,
-    "droppedKeyword": 35,
+    "raw": 1518,
+    "tagged": 743,
+    "droppedKeyword": 31,
     "droppedOtherSport": 1,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "chronicle",
+      "title": "Nick Woltemade could revive Bayern Munich transfer interest over international break",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/nick-woltemade-newcastle-transfer-bayern-34668549",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668557.ece/ALTERNATES/s615/0_Juventus-v-NEC-Nijmegen-UEFA-Europa-League-202627-League-Phase-MD1.jpg",
+      "summary": "Nick Woltemade endured a mixed-bag start to life in the Premier League with Newcastle United, before joining Juventus on a season-long loan this summer",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790274346000
+    },
+    {
+      "competition": "indy",
+      "title": "Portugal v Wales LIVE: Cristiano Ronaldo starts in Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
+      "image": "https://static.independent.co.uk/2026/09/24/19/2296951035..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790274319000
+    },
+    {
+      "competition": "guardian",
+      "title": "Netherlands v Germany, Portugal v Wales and more: Uefa Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/24/netherlands-v-germany-portugal-v-wales-and-more-uefa-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/466e279965d34cfc2f5c747d781d6df90eacd330/656_340_4180_3344/master/4180.jpg?width=140&quality=85&auto=format&fit=max&s=538dad8234cbb81ec9b98b2ee27bd9b2",
+      "summary": "⚽ Updates across Thursday night’s Nations League games⚽ Get in touch: email Daniel and follow us on BlueSkyI am, though, really looking forward to seeing what Klopp does with Lennart Karl. The 18-year-old missed the…",
+      "teams": [
+        "netherlands",
+        "portugal",
+        "germany"
+      ],
+      "publishedAt": 1790274241000
+    },
+    {
+      "competition": "indy",
+      "title": "Netherlands vs Germany LIVE: Jurgen Klopp names first Germany line-up for Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
+      "image": "https://static.independent.co.uk/2026/09/24/19/2296951873..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790274075000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel Barcelona transfer update, boycott calls grow, Antonio Conte links",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790273763000
+    },
+    {
+      "competition": "indy",
+      "title": "‘I used to love Nemanja Vidic’: James Garner on his football inspirations and finally getting an England call-up",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/james-garner-england-thomas-tuchel-everton-man-utd-b3055750.html",
+      "image": "https://static.independent.co.uk/2026/09/24/13/2295704508..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Garner was on holiday when he finally received a call-up to the senior England squad, having missed out on Thomas Tuchel’s initial selection",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790272828000
+    },
+    {
+      "competition": "guardian",
+      "title": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/james-garner-mini-valverde-late-england-call",
+      "image": "https://i.guim.co.uk/img/media/11938b092f305d47fc9932483dd1b3958963a6d8/219_0_4402_3521/master/4402.jpg?width=140&quality=85&auto=format&fit=max&s=f6f934d853c098203579a7cb6a9e306b",
+      "summary": "Everton midfielder’s spirit and intelligence earned him another chance and he is eager to test himself against Spain in the Nations League on Saturday“It’s a very good comparison,” James Garner says, and he is not…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790272826000
+    },
+    {
+      "competition": "echo",
+      "title": "James Garner reveals 12.30am England call that ended holiday and responds to Federico Valverde comparison",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/james-garner-reveals-1230am-england-34667699",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667817.ece/ALTERNATES/s615/0_GettyImages-2296878421.jpg",
+      "summary": "The Everton midfielder had just touched arrived in his hotel room in Turkey when he got the call to say he was being drafted into the England squad",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790272800000
+    },
+    {
+      "competition": "men",
+      "title": "Man United handed JJ Gabriel transfer update as Barcelona chief breaks silence on move",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-barcelona-man-united-34668564",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34668605.ece/ALTERNATES/s615/0_SOCCER_Man_Utd_Gabriel_08151718AJPG.jpg",
+      "summary": "JJ Gabriel's Manchester United future has been plunged into major doubt after he requested to leave the club, with several European clubs now monitoring his situation",
+      "teams": [
+        "manutd",
+        "barcelona"
+      ],
+      "publishedAt": 1790272690000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Italy with Esposito and Kean possible, I hope to make right choices&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-italy-with-esposito-and-kean-possible/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training-414x285.jpg",
+      "summary": "Roberto Mancini confirms Francesco Pio Esposito and Moise Kean could start together for Italy against...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790272377000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal land dream Julian Alvarez transfer update as Andrea Berta alerted after decision",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/transfer-news/julian-alvarez-arsenal-transfer-atletico-34668453",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668460.ece/ALTERNATES/s615/0_Atletico-Madrid-v-Real-Madrid-La-Liga.jpg",
+      "summary": "Arsenal were on the market for Julian Alvarez this summer, with a deal for the Atletico Madrid striker failing to come to fruition, but the club could reignite their interest in a matter of months",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790272124000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
+      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
+      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790272063000
+    },
+    {
+      "competition": "mirror",
+      "title": "Martin Odegaard admits injuries diminished his enjoyment of Arsenal's Premier League title",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-martin-odegaard-injury-update-37699754",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699772.ece/ALTERNATES/s615/0_GettyImages-2295897788.jpg",
+      "summary": "Martin Odegaard captained Arsenal to their first Premier League title in 20 years last season but the Norwegian playmaker has admitted his injury issues affected his ability to celebrate that achievement",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790271905000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
+      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790271854000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Donnarumma: &#8216;Italy want to control the game, but World Cup wound still painful&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/donnarumma-italy-want-control-world-cup-wound/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/04/bosnia-and-herzegovina-v-italy-f-414x276.jpg",
+      "summary": "Gianluigi Donnarumma admits Italy players tried to avoid discussing the World Cup play-off, instead focusing...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790271628000
+    },
+    {
+      "competition": "echo",
+      "title": "Harvey Elliott must repeat Liverpool transfer trick as criticism grows in Spain",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/harvey-elliott-must-repeat-liverpool-34668070",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34668047.ece/ALTERNATES/s615/0_GettyImages-2296359883.jpg",
+      "summary": "Harvey Elliott has found himself the centre of debate in Spain while on loan from Liverpool to Valencia",
+      "teams": [
+        "liverpool",
+        "spain"
+      ],
+      "publishedAt": 1790270836000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Deco: &#8216;Barcelona wanted Lautaro Martinez, but Inter refused to sell&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/deco-barcelona-wanted-lautaro-martinez-inter/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Lautaro-Martinez-Dean-Huijsen-414x301.jpg",
+      "summary": "Barcelona director Deco confirms they tried to sign Lautaro Martinez this summer, but ‘when Inter...",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790270652000
+    },
+    {
+      "competition": "guardian",
+      "title": "Former England player Andy Carroll reveals he was sexually assaulted in 2021",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/andy-carroll-sexually-assaulted-2021-football",
+      "image": "https://i.guim.co.uk/img/media/fb742f6a4b2be6f387c4705aad94ad7fa7079037/513_497_2309_1847/master/2309.jpg?width=140&quality=85&auto=format&fit=max&s=3b250a6519a4098b44e1d4fca3753929",
+      "summary": "Carroll was assaulted by a man at his home while he sleptAttacker found guilty of sexual offences after player testifiedThe former England forward Andy Carroll has revealed in his autobiography he was sexually assaulted…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790270308000
+    },
     {
       "competition": "fitalia",
       "title": "Van Bommel: &#8216;Always 4-3-3, Belgium and Italy in same situation, Milan hope&#8217;",
@@ -39,45 +264,6 @@
       "publishedAt": 1790269791000
     },
     {
-      "competition": "indy",
-      "title": "Portugal v Wales LIVE: Cristiano Ronaldo question hangs over Selecao for Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/23/17/2026-09-23T155303Z_1367993834_RC2L8MAXXLUH_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=103%2C0%2C103%2C0",
-      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790269567000
-    },
-    {
-      "competition": "indy",
-      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
-      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
-      "summary": "Everything you need to know ahead of the Nations League fixture",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790269538000
-    },
-    {
-      "competition": "indy",
-      "title": "Netherlands vs Germany LIVE: Jurgen Klopp’s first game pits him against Xavi in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
-      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790269441000
-    },
-    {
       "competition": "guardian",
       "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
       "publisher": "The Guardian",
@@ -102,18 +288,6 @@
       "publishedAt": 1790268588000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790268372000
-    },
-    {
       "competition": "fitalia",
       "title": "Probable Italy vs. Belgium line-ups and latest injury news",
       "publisher": "Football Italia",
@@ -125,19 +299,6 @@
         "italy"
       ],
       "publishedAt": 1790267893000
-    },
-    {
-      "competition": "indy",
-      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
-      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790267844000
     },
     {
       "competition": "bbc",
@@ -549,6 +710,18 @@
       "publishedAt": 1790254860000
     },
     {
+      "competition": "bbc",
+      "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be2/live/5a69c020-a2bb-11f1-9024-715001d09aeb.jpg",
+      "summary": "USA international Emily Fox has described signed a new contract at Arsenal as \"an easy decision\".",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790254784000
+    },
+    {
       "competition": "echo",
       "title": "Tim Cahill glad Everton didn't sign Folarin Balogun after spotting something in training",
       "publisher": "Liverpool Echo",
@@ -584,175 +757,6 @@
         "england"
       ],
       "publishedAt": 1790253961000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool will 'pull the plug' on Florian Wirtz over 'huge misunderstanding' for £116m star",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-liverpool-transfer-news-34666043",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34666003.ece/ALTERNATES/s615/1_Liverpool-v-Fulham-Premier-League-202627.jpg",
-      "summary": "Florian Wirtz has flattered to deceive with Liverpool since signing from Bayer Leverkusen for what was a Premier League record transfer worth up to £116million",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790253862000
-    },
-    {
-      "competition": "footlondon",
-      "title": "The dangerous Declan Rice misconception Simon Jordan got wrong as Arsenal conflict rises again",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/dangerous-declan-rice-misconception-simon-34665892",
-      "image": "https://i2-prod.football.london/incoming/article34665900.ece/ALTERNATES/s615/1_Declan-Rice-and-Arsenal.jpg",
-      "summary": "TalkSPORT's Simon Jordan incorrectly misjudged Declan Rice's game time for Arsenal and England amid revived row over international duty",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790253392000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United reveal new addition to Michael Carrick's backroom staff",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-reveal-new-addition-34665929",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article33970143.ece/ALTERNATES/s615/1_Carrick-coaching-staff.png",
-      "summary": "Michael Carrick has made an addition to his Man Utd backroom staff, bringing in another goalkeeper coach.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790253361000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool will soon learn truth about squad and Andoni Iraola knows it",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-soon-learn-truth-squad-34664554",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664953.ece/ALTERNATES/s615/0_GettyImages-2295662191.jpg",
-      "summary": "Liverpool face a season-shaping run of nine games in 29 days when they return from the international break next month",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790252972000
-    },
-    {
-      "competition": "mirror",
-      "title": "Wayne Rooney makes 'money' confession as Man Utd icon admits management career could be over",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-bbc-man-utd-37697973",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37698082.ece/ALTERNATES/s615/1_GettyImages-2273111143.jpg",
-      "summary": "Former Manchester United and England star Wayne Rooney now stars on Match of the Day and has gone almost two years without a job in management",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790252461000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United's dream international break with Yoane Wissa hope and Rory Finneran chance",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-dream-international-break-34665610",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34665899.ece/ALTERNATES/s615/0_GettyImages-2246188411.jpg",
-      "summary": "Newcastle have around 20 players out on international duty",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790251648000
-    },
-    {
-      "competition": "mirror",
-      "title": "Julian Ward's previous Liverpool plan including rebuild demand and Jude Bellingham snub",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/julian-wards-previous-liverpool-plan-37697886",
-      "image": "https://i2-prod.dailystar.co.uk/sport/football/article37646338.ece/ALTERNATES/s615/1_Jurgen-Klopp-Signs-A-Contract-Extension-at-Liverpool.jpg",
-      "summary": "Liverpool are ready to appoint Julian Ward as their sporting director for a second time after he had made it clear the club needed a midfield overhaul, but backed out of signing Jude Bellingham",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790251552000
-    },
-    {
-      "competition": "bbc",
-      "title": "'I'm here to change the story' - McBurnie on Scotland recall",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pc29mg?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pc29n5.jpg",
-      "summary": "Oli McBurnie on his Scotland return, fresh perspective and first-goal ambition.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790251200000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Official: Udinese sign four-time Champions League winner Alaba",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/official-udinese-sign-alaba-free-transfer/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/real-madrid-cf-v-sevilla-fc-lali.jpg",
-      "summary": "Udinese have officially announced their signing of four-time Champions League-winning defender David Alaba on a...",
-      "teams": [
-        "udinese"
-      ],
-      "publishedAt": 1790251121000
-    },
-    {
-      "competition": "echo",
-      "title": "Dan Friedkin not going to Everton games is 'irrelevant' but 'selling your biggest assets is a worry'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/dan-friedkin-not-going-everton-34663748",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article32594596.ece/ALTERNATES/s615/0_DFHD.jpg",
-      "summary": "EXCLUSIVE: Thoughts on Everton's ownership and David Moyes' full-back experiments from former Premier League star Danny Mills",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790251080000
-    },
-    {
-      "competition": "indy",
-      "title": "How Ireland v Israel become the world’s most controversial fixture",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-nations-league-palestine-b3054975.html",
-      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790250561000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool's next signing 'on his way to Real Madrid' before sudden transfer intervention",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-transfer-news-lucca-brughmans-34665350",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34665644.ece/ALTERNATES/s615/1_Liverpool-FC-Unveil-New-Signing-Lucca-Brughmans.jpg",
-      "summary": "Liverpool secured a huge coup on transfer deadline day as a highly rated wonderkid picked them over Real Madrid",
-      "teams": [
-        "realmadrid",
-        "liverpool"
-      ],
-      "publishedAt": 1790250537000
-    },
-    {
-      "competition": "metro",
-      "title": "&#8216;I don&#8217;t understand&#8217; &#8211; Alan Shearer questions Cole Palmer&#8217;s withdrawal from England squad",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/i-dont-understand-alan-shearer-questions-cole-palmers-withdrawal-england-squad-29649626/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/07/GettyImages-2269284036.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790250265000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso's clear transfer wish was granted - but Chelsea star now finds himself in wilderness",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonsos-clear-transfer-wish-34665267",
-      "image": "https://i2-prod.football.london/incoming/article34665603.ece/ALTERNATES/s615/0_GettyImages-2294357860.jpg",
-      "summary": "Xabi Alonso made it perfectly clear how many central defenders he wanted at his disposal beyond the summer transfer window but one of them is not getting a sniff at the moment",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790249742000
     }
   ]
 }
