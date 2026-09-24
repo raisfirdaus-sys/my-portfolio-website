@@ -8,7 +8,7 @@
   var E = window.MBEngine;
   var DATA = null, STATE = {
     slate: 4, fixtureId: null, format: 'decimal', marketWeight: 0.35,
-    legs: [], overrides: {}, tilt: {}, scores: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false, ttOnlyReal: true, newsSlateOnly: true,
+    legs: [], overrides: {}, tilt: {}, scores: {}, h2h: {}, paste: {}, importMsg: {}, editMsg: {}, boardAll: false, ttOnlyReal: true, newsSlateOnly: true,
     api: { preset: 'sportmonks', token: '', url: '', search: '', bulk: '', ids: {} }
   };
 
@@ -210,6 +210,7 @@
       marketWeight: fixtureHasUserStats(fx) ? STATE.marketWeight : 1,
       calibration: CALIB,
       shape: SHAPE,
+      h2h: h2hFor(fx),
       tilt: STATE.tilt[fx.id] || 0
     });
   }
@@ -1066,11 +1067,13 @@
         (a.lambdas.impliedAway != null ? a.lambdas.impliedAway.toFixed(2) : '--') +
         '</span>. Gap <span class="fig">' + (a.divergence != null ? pct(a.divergence, 0) : '--') +
         '</span>' + (a.divergence > 0.25
-          ? ' &mdash; too far. Above 25% it is usually the inputs that are wrong rather than the bookmaker, so no row is promoted to the main pick.'
+          ? ' &mdash; a long way out, so the anchor has been raised against the model and this fixture is priced at ' +
+            pct(a.marketWeight, 0) + ' market. The further out it goes, the less of it is used.'
           : '.');
     }
 
     renderTilt(a);
+    renderH2HNote(a);
     renderCross(a);
     renderStatCompare(a);
     renderHeat(a);
@@ -1179,6 +1182,21 @@
 
   function saveTilt() {
     try { localStorage.setItem('mb-tilt', JSON.stringify(STATE.tilt)); } catch (err) {}
+  }
+
+  /* Past meetings are kept per PAIRING, not per fixture: two countries that
+     meet twice in a group are the same two countries, and what they have
+     done to each other does not belong to one of the two dates. */
+  function pairKey(a, b) { return [a, b].sort().join('|'); }
+  function saveH2H() {
+    try { localStorage.setItem('mb-h2h', JSON.stringify(STATE.h2h)); } catch (err) {}
+  }
+  /* The reading this fixture should use, or null. */
+  function h2hFor(fx) {
+    var rec = STATE.h2h[pairKey(fx.home, fx.away)];
+    if (!rec || !rec.meetings || !rec.meetings.length) return null;
+    try { return E.h2hReading(rec.meetings, fx.home, fx.away, {}); }
+    catch (err) { return null; }
   }
 
   function renderTilt(a) {
@@ -1698,8 +1716,15 @@
         payload[k] = row;
       });
 
-      var n = Object.keys(payload).length;
-      if (!n) {
+      var pairs = {};
+      Object.keys(STATE.h2h).forEach(function (k) {
+        var rec = STATE.h2h[k];
+        if (rec && rec.meetings && rec.meetings.length) pairs[k] = rec.meetings;
+      });
+      if (Object.keys(pairs).length) payload._h2h = pairs;
+
+      var n = Object.keys(payload).length - (payload._h2h ? 1 : 0);
+      if (!n && !payload._h2h) {
         out3.innerHTML = '<div class="notice bad"><h3>Nothing entered yet</h3>' +
           '<p>Fill some teams first, then this will hand back what to publish.</p></div>';
         return;
@@ -1737,11 +1762,255 @@
     bulkOut.id = 'api-bulk-out';
     bulkOut.style.marginTop = '10px';
     host.appendChild(bulkOut);
+
+    renderH2HPaste(host);
+  }
+
+  /* ------------------------------------------------- head to head ------- */
+  /* On 24 September 2026 this page rated Liechtenstein +1.50 at 52.3% and
+     they lost 0-2 at home. The reader knew before kick-off it was wrong,
+     and knew it from the head to head. The model had never seen a single
+     previous meeting - it had the bookmaker's price and a season of xG, and
+     nothing else. This is where that gap gets filled. */
+  function renderH2HPaste(host) {
+    var wrap = el('div', 'notice');
+    wrap.style.marginTop = '14px';
+    wrap.innerHTML = '<h3>Head to head &mdash; what these two have done to each other</h3>' +
+      '<p>Paste the previous meetings, one per line. Any of these shapes is read:</p>' +
+      '<p style="font-family:var(--mono);font-size:11px;line-height:1.7">' +
+      '24/03/2025 Lithuania 2 - 0 Liechtenstein<br />' +
+      '2024-10-14 Liechtenstein 0-1 Lithuania<br />' +
+      'Sep 7, 2024 Lithuania 1-0 Liechtenstein</p>' +
+      '<p>Where the match was played is taken out of each meeting before they are averaged, ' +
+      'and this fixture\u2019s own home edge put back, so a run of away defeats is not read as ' +
+      'weakness. A meeting loses half its weight every four years.</p>' +
+      '<p><strong>What it is worth, honestly:</strong> four meetings pin a pairing\u2019s ' +
+      'supremacy to roughly three quarters of a goal, while a fitted season of xG pins it to ' +
+      'about a third. So a head to head is a real voice but a minor one, and it is weighed that ' +
+      'way rather than flattered. It can inform the ratings; it never replaces them.</p>';
+    host.appendChild(wrap);
+
+    var ta = el('textarea');
+    ta.id = 'h2h-text';
+    ta.rows = 5;
+    ta.placeholder = 'One previous meeting per line: date, home team, score, away team.';
+    ta.style.cssText = 'width:100%;margin-top:8px;padding:8px;border:1px solid var(--border-strong);' +
+      'border-radius:4px;background:var(--surface-1);color:var(--text-primary);' +
+      'font-family:var(--mono);font-size:11px;min-width:0';
+    host.appendChild(ta);
+
+    var row = el('div', 'btn-row');
+    var readBtn = el('button', 'btn', 'Read these meetings');
+    readBtn.type = 'button';
+    readBtn.id = 'h2h-apply';
+    readBtn.addEventListener('click', function () { applyH2H(ta.value, $('h2h-out')); });
+    row.appendChild(readBtn);
+
+    var clearBtn = el('button', 'btn ghost', 'Forget this pairing');
+    clearBtn.type = 'button';
+    clearBtn.addEventListener('click', function () {
+      var fx = currentFixture();
+      if (!fx) return;
+      delete STATE.h2h[pairKey(fx.home, fx.away)];
+      saveH2H(); renderAll();
+      ($('h2h-out') || {}).innerHTML = '<div class="notice"><h3>Cleared</h3><p>The meetings for ' +
+        esc(team(fx.home).name) + ' and ' + esc(team(fx.away).name) +
+        ' have been forgotten. This fixture is priced without them again.</p></div>';
+    });
+    row.appendChild(clearBtn);
+    host.appendChild(row);
+
+    var out = el('div');
+    out.id = 'h2h-out';
+    out.style.marginTop = '10px';
+    host.appendChild(out);
+
+    renderH2HStored();
+  }
+
+  /* Held against the price: what the MEETINGS say, not the blend. The blend
+     carries whatever the ratings thought, so comparing it to the market
+     answers a different question than the one being asked - and a page that
+     says "the meetings disagree with the price" when they largely agree
+     teaches a superstition instead of a habit. */
+  function h2hVsPrice(a) {
+    if (!a || !a.h2h || a.lambdas.impliedHome == null) return '';
+    var impl = a.lambdas.impliedHome - a.lambdas.impliedAway;
+    var said = a.h2h.supremacyH2H;
+    var gap = Math.abs(impl - said);
+    return '<p>These meetings, on their own, put <strong>' +
+      esc(said >= 0 ? a.home.name : a.away.name) + '</strong> ahead by <strong>' +
+      Math.abs(said).toFixed(2) + '</strong> goals here. The bookmaker has the fixture at ' +
+      '<strong>' + Math.abs(impl).toFixed(2) + '</strong> to ' +
+      esc(impl >= 0 ? a.home.name : a.away.name) + '. ' +
+      (gap < 0.35
+        ? 'They agree \u2014 so the past meetings are <strong>not</strong> a reason to bet against this price.'
+        : gap < 0.9
+          ? 'They differ by ' + gap.toFixed(2) + ' goals, which is within what four meetings can measure.'
+          : 'They differ by <strong>' + gap.toFixed(2) + ' goals</strong>, which is where a head to head earns its keep.') +
+      '</p>';
+  }
+
+  function applyH2H(text, out) {
+    if (!out) return;
+    var raw = String(text || '').trim();
+    if (!raw) {
+      out.innerHTML = '<div class="notice bad"><h3>The box is empty</h3>' +
+        '<p>Paste the previous meetings first, one per line.</p></div>';
+      return;
+    }
+    var candidates = Object.keys(DATA.teams).map(function (k) {
+      return { key: k, name: DATA.teams[k].name };
+    });
+    function toKey(name) {
+      var hit = E.matchTeamName(name, candidates);
+      return hit ? hit.key : null;
+    }
+    var parsed = E.parseH2H(raw, toKey);
+    if (!parsed.meetings.length) {
+      out.innerHTML = '<div class="notice bad"><h3>No meeting could be read</h3>' +
+        '<p>Every line needs two team names this page knows, with a score between them. ' +
+        (parsed.skipped.length
+          ? 'The first line it could not read was: <code>' + esc(parsed.skipped[0]) + '</code>'
+          : '') + '</p></div>';
+      return;
+    }
+
+    /* Which pairing is this? The meetings say so themselves - the two teams
+       that appear in every one of them. Asking the reader to pick a fixture
+       first would be a step the paste already answers. */
+    var tally = {};
+    parsed.meetings.forEach(function (m) {
+      tally[m.home] = (tally[m.home] || 0) + 1;
+      tally[m.away] = (tally[m.away] || 0) + 1;
+    });
+    var top = Object.keys(tally).sort(function (a, b) { return tally[b] - tally[a]; });
+    if (top.length < 2) {
+      out.innerHTML = '<div class="notice bad"><h3>Only one team found</h3>' +
+        '<p>A head to head needs both sides. Check the names in the paste.</p></div>';
+      return;
+    }
+    var A = top[0], B = top[1];
+    var kept = parsed.meetings.filter(function (m) {
+      return (m.home === A && m.away === B) || (m.home === B && m.away === A);
+    });
+
+    STATE.h2h[pairKey(A, B)] = { meetings: kept, when: Date.now() };
+    saveH2H();
+    refreshCalibration();
+    renderAll();
+
+    /* renderAll rebuilds this whole panel, so the element handed in a
+       moment ago is detached and writing to it would report into nothing.
+       Take the new one, and put the paste back where it was typed. */
+    out = $('h2h-out') || out;
+    var box = $('h2h-text');
+    if (box) box.value = raw;
+
+    /* What it changed, on the fixture it belongs to, if that fixture is on
+       the board. Saying "stored" and nothing else would leave the reader to
+       guess whether it did anything. */
+    var fx = DATA.fixtures.filter(function (f) {
+      return (f.home === A && f.away === B) || (f.home === B && f.away === A);
+    })[0];
+    var reading = fx ? h2hFor(fx) : E.h2hReading(kept, A, B, {});
+    var html = '<div class="notice ok"><h3>' + kept.length + ' meetings read: ' +
+      esc(team(A).name) + ' and ' + esc(team(B).name) + '</h3>';
+    if (reading) {
+      var lead = reading.supremacy >= 0 ? team(fx ? fx.home : A).name : team(fx ? fx.away : B).name;
+      html += '<p>On neutral ground these meetings have <strong>' + esc(lead) + '</strong> ahead by ' +
+        '<strong>' + Math.abs(reading.supremacy).toFixed(2) + ' goals</strong> a match, with ' +
+        '<strong>' + reading.total.toFixed(2) + '</strong> goals in the game.</p>';
+    }
+    if (parsed.skipped.length) {
+      html += '<p>' + parsed.skipped.length + ' line' + (parsed.skipped.length > 1 ? 's' : '') +
+        ' could not be read and were left out: <code>' + esc(parsed.skipped[0]) + '</code></p>';
+    }
+    if (fx) {
+      var a = null; try { a = analyse(fx); } catch (err) {}
+      if (a && a.h2h) {
+        html += '<p><strong>' + pct(a.h2h.weight, 0) + '</strong> of this fixture\u2019s reading now ' +
+          'comes from those meetings. Supremacy moved from <strong>' +
+          a.h2h.supremacyBefore.toFixed(2) + '</strong> to <strong>' +
+          a.h2h.supremacyAfter.toFixed(2) + '</strong> goals, and the total from <strong>' +
+          a.h2h.totalBefore.toFixed(2) + '</strong> to <strong>' + a.h2h.totalAfter.toFixed(2) +
+          '</strong>.</p>';
+        html += h2hVsPrice(a);
+      } else {
+        html += '<p>Stored. This fixture is not on the board, so nothing moved yet.</p>';
+      }
+    }
+    out.innerHTML = html + '</div>';
+  }
+
+  function renderH2HStored() {
+    var host = $('h2h-out');
+    if (!host || host.innerHTML) return;
+    var keys = Object.keys(STATE.h2h).filter(function (k) {
+      return STATE.h2h[k] && STATE.h2h[k].meetings && STATE.h2h[k].meetings.length;
+    });
+    if (!keys.length) return;
+    var rows = keys.map(function (k) {
+      var pair = k.split('|');
+      return '<li>' + esc(team(pair[0]).name) + ' and ' + esc(team(pair[1]).name) + ' \u2014 ' +
+        STATE.h2h[k].meetings.length + ' meetings</li>';
+    }).join('');
+    host.innerHTML = '<div class="notice"><h3>Pairings already entered</h3><ul>' + rows + '</ul></div>';
   }
 
 
 
 
+
+  /* --------------------------------------------- head to head, shown ---- */
+  function renderH2HNote(a) {
+    var host = $('mc-h2h');
+    if (!host) return;
+    host.innerHTML = '';
+    var rec = STATE.h2h[pairKey(a.fixture.home, a.fixture.away)];
+    if (!rec || !rec.meetings || !rec.meetings.length) {
+      var p0 = el('p', 'stat-note');
+      p0.innerHTML = 'No previous meetings entered for this pairing. Paste them into ' +
+        '<strong>Head to head</strong> in Statistics Input below and they will be weighed in here.';
+      host.appendChild(p0);
+      return;
+    }
+
+    var tb = el('table', 'mb');
+    var body = rec.meetings.slice().sort(function (x, y) {
+      return (y.date || 0) - (x.date || 0);
+    }).map(function (m) {
+      var d = m.date ? new Date(m.date).toISOString().slice(0, 10) : 'undated';
+      var w = E.h2hAge(m.date, Date.now());
+      return '<tr><td>' + d + '</td><td>' + esc(team(m.home).name) + '</td>' +
+        '<td class="num">' + m.hg + ' &ndash; ' + m.ag + '</td>' +
+        '<td>' + esc(team(m.away).name) + '</td>' +
+        '<td class="num">' + w.toFixed(2) + '</td></tr>';
+    }).join('');
+    tb.innerHTML = '<thead><tr><th>Date</th><th>Home</th>' +
+      '<th style="text-align:right">Score</th><th>Away</th>' +
+      '<th style="text-align:right">Weight</th></tr></thead><tbody>' + body + '</tbody>';
+    var wrap = el('div', 'table-scroll');
+    wrap.appendChild(tb);
+    host.appendChild(wrap);
+
+    var note = el('p', 'stat-note');
+    if (a.h2h) {
+      note.innerHTML = h2hVsPrice(a) +
+        'These meetings carry <span class="fig">' + pct(a.h2h.weight, 0) +
+        '</span> of this fixture\u2019s reading. Supremacy moved from <span class="fig">' +
+        a.h2h.supremacyBefore.toFixed(2) + '</span> to <span class="fig">' +
+        a.h2h.supremacyAfter.toFixed(2) + '</span> goals; total from <span class="fig">' +
+        a.h2h.totalBefore.toFixed(2) + '</span> to <span class="fig">' +
+        a.h2h.totalAfter.toFixed(2) + '</span>.' +
+        '<br />A meeting loses half its weight every four years, and where it was played is ' +
+        'taken out before averaging.';
+    } else {
+      note.innerHTML = 'Stored, but not used here: none of these meetings is between ' +
+        'this fixture\u2019s two teams.';
+    }
+    host.appendChild(note);
+  }
 
   /* ------------------------------------------------- BT cross-check ----- */
   function renderCross(a) {
@@ -3392,6 +3661,14 @@
         if (parsedSc && typeof parsedSc === 'object') STATE.scores = parsedSc;
       }
     } catch (err) { STATE.scores = {}; }
+
+    try {
+      var hh = localStorage.getItem('mb-h2h');
+      if (hh) {
+        var parsedHh = JSON.parse(hh);
+        if (parsedHh && typeof parsedHh === 'object') STATE.h2h = parsedHh;
+      }
+    } catch (err) { STATE.h2h = {}; }
 
     try {
       var saved = localStorage.getItem('mb-tilt');
