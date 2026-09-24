@@ -71,6 +71,18 @@
        is allowed its full configured say. In goals of supremacy. */
     FIT_FREE: 0.20,
     FIT_CAP: 0.60,
+    /* Head to head: weighted meetings of prior, and the most of the
+       fixture it may ever decide. Six meetings of prior is heavy on
+       purpose - two countries meeting twice is a coincidence, not a
+       pattern - and the cap keeps the ratings in charge. */
+    H2H_PRIOR: 6.0,
+    H2H_CAP: 0.45,
+    /* What share of its own weight a head to head is worth when it is the
+       ONLY thing entered. Four meetings measure a pairing's supremacy to
+       about three quarters of a goal; a fitted season of xG measures it to
+       about a third. So a head to head on its own is a real but minor
+       voice, and this says so rather than flattering it. */
+    H2H_ALONE: 0.70,
     FINISH_PRIOR: 38,        // matches of prior for finishing regression
     VOLUME_EXP: 0.35,        // diminishing return on shot volume
     BIGMISS_PENALTY: 0.018,  // per big miss above league norm
@@ -1341,6 +1353,15 @@
        say so, rather than inventing an edge out of placeholder numbers. */
     var statsMissing = !!(home.statsMissing || away.statsMissing);
     if (statsMissing) mw = 1;
+    /* ...unless the past meetings have been entered. Those are a
+       measurement too, so the model is given a say in proportion to how
+       much of one there is - less than a full season of xG would earn, and
+       never more than the cap below. */
+    var h2hIn = opts.h2h && opts.h2h.weight > 0 ? opts.h2h : null;
+    if (statsMissing && h2hIn) {
+      var wAlone = Math.min(K.H2H_CAP, h2hIn.weight / (h2hIn.weight + K.H2H_PRIOR));
+      mw = 1 - wAlone * K.H2H_ALONE;
+    }
     /* Put the model into the market's units before anything is judged - the
        goal level, then the supremacy scale. See calibrateShape for why both
        were wrong and why neither is a view about this match. With no board
@@ -1361,6 +1382,37 @@
       supAdj = clamp(supAdj, -(total - 0.24), total - 0.24);
       rawH = (total + supAdj) / 2;
       rawA = (total - supAdj) / 2;
+    }
+
+    /* --- what the two sides have actually done to each other ----------
+       See parseH2H. The reading is a measurement of THIS pairing, so it is
+       weighed against the ratings by how many meetings there are and how
+       old they are, and capped: a head to head may inform the model, never
+       replace it. */
+    var h2h = opts.h2h || null, h2hUse = null;
+    if (h2h && h2h.weight > 0) {
+      var wH2H = Math.min(K.H2H_CAP, h2h.weight / (h2h.weight + K.H2H_PRIOR));
+      var hfaGoals = (league.hfaAttack - 1) * (league.avgGoalsPerMatch / 2) * 2;
+      var supModel = rawH - rawA, totModel = rawH + rawA;
+      var supH2H = h2h.supremacy + hfaGoals;       // put this fixture's venue back
+      var sup = supModel * (1 - wH2H) + supH2H * wH2H;
+      /* The total moves too, but on a lighter weight: how many goals a
+         pairing produces is far more volatile than who wins it. */
+      var wTot = wH2H * 0.5;
+      var tot = totModel * (1 - wTot) + h2h.total * wTot;
+      if (tot < 0.5) tot = 0.5;
+      sup = clamp(sup, -(tot - 0.24), tot - 0.24);
+      rawH = (tot + sup) / 2;
+      rawA = (tot - sup) / 2;
+      h2hUse = { weight: wH2H, n: h2h.n,
+                 supremacyBefore: supModel, supremacyAfter: sup,
+                 /* What the meetings ALONE say, at this fixture's venue.
+                    This is the number to hold against the price: the
+                    blended one is dragged by whatever the ratings thought,
+                    so comparing that to the market answers a different
+                    question than the reader is asking. */
+                 supremacyH2H: supH2H,
+                 totalBefore: totModel, totalAfter: tot, totalH2H: h2h.total };
     }
 
     var implied = impliedLambdas(fx, league, { home: rawH, away: rawA });
@@ -1661,6 +1713,7 @@
                  impliedHome: implied ? implied.home : null,
                  impliedAway: implied ? implied.away : null },
       marketWeight: mw, marketWeightBase: mwRaw,
+      h2h: h2hUse,
       shape: { totalScale: totalScale, supremacyBeta: shape && shape.slopeFitted ? shape.beta : 1,
                supremacyAlpha: shape && shape.slopeFitted ? shape.alpha : 0,
                fitted: !!(shape && shape.slopeFitted), residZ: residZ,
@@ -1867,6 +1920,134 @@
    * Only fixtures with real stats on BOTH teams and a usable 1X2 market can
    * contribute - anything else would be fitting the market to itself.
    */
+  /* ============================================ HEAD TO HEAD =========== */
+  /**
+   * Past meetings between these two sides, read from a pasted list.
+   *
+   * Why this exists. On 24 September 2026 the page rated Liechtenstein
+   * +1.50 at 52.3% and they lost 0-2 at home to Lithuania. The reader knew
+   * before kick-off that it was wrong, and he knew it from the head to head
+   * - Liechtenstein never do anything in these fixtures. The model had no
+   * way to know: it had never seen a single previous meeting. It had the
+   * bookmaker's price and the season's xG totals, and nothing else.
+   *
+   * What a head to head genuinely adds is narrower than it looks. Most of
+   * the signal in "Lithuania beat Liechtenstein 2-0" is simply that
+   * Lithuania are better, which the ratings already carry. The part that is
+   * NOT already carried is the one that cost him: where one side is
+   * amateur-level, the meetings are lopsided by more than any rating built
+   * from a compressed season sample will say. So this is read as a
+   * measurement of THIS pairing's supremacy, shrunk hard, and never allowed
+   * to overrule the ratings outright.
+   *
+   * Venue is taken out of each meeting before averaging and the current
+   * fixture's own home edge put back, so a run of away defeats is not
+   * mistaken for weakness and a run of home wins is not mistaken for
+   * strength.
+   */
+  var H2H_MONTH = 30.44 * 24 * 3600 * 1000;
+
+  /** A meeting loses half its weight every four years. */
+  function h2hAge(dateMs, nowMs) {
+    if (!dateMs) return 0.5;                      // undated: counted, quietly
+    var years = (nowMs - dateMs) / (12 * H2H_MONTH);
+    if (years < 0) years = 0;
+    return Math.pow(0.5, years / 4);
+  }
+
+  /**
+   * Turn a pasted block into meetings. Accepts what the sites actually give:
+   *   24/03/2025  Lithuania 2 - 0 Liechtenstein
+   *   2025-03-24  Liechtenstein 0-2 Lithuania
+   *   Mar 24, 2025  Lithuania 2-0 Liechtenstein  (Nations League)
+   * A row needs two names either side of a score to count; anything else is
+   * skipped rather than guessed at.
+   */
+  function parseH2H(text, nameToKey) {
+    var out = [], bad = [];
+    String(text || '').split(/[\r\n]+/).forEach(function (raw) {
+      var line = String(raw).replace(/\s+/g, ' ').trim();
+      if (!line) return;
+      var date = grabDate(line);
+      var withoutDate = date.rest;
+      /* The score is the one "a - b" with a name on each side. Penalty
+         shoot-out figures in brackets are left alone: the 90-minute score
+         is what every market settles on. */
+      var m = withoutDate.match(/^(.*?)\s+(\d{1,2})\s*[-:–]\s*(\d{1,2})\s+(.*)$/);
+      if (!m) { bad.push(line); return; }
+      var hName = m[1].replace(/\(.*?\)/g, '').trim();
+      var aName = m[4].replace(/\(.*?\)/g, '').replace(/\b(aet|pen|pens|ot)\b.*$/i, '').trim();
+      /* Trailing competition names run into the away side: cut at two or
+         more spaces, or at a bracket, whichever came first. */
+      aName = aName.split(/\s{2,}|[|•]/)[0].trim();
+      var hKey = nameToKey(hName), aKey = nameToKey(aName);
+      if (!hKey || !aKey || hKey === aKey) { bad.push(line); return; }
+      out.push({ date: date.ms, home: hKey, away: aKey,
+                 hg: parseInt(m[2], 10), ag: parseInt(m[3], 10) });
+    });
+    return { meetings: out, skipped: bad };
+  }
+
+  function grabDate(line) {
+    /* ISO first. Tried the other way round, "2024-10-14" is chewed from the
+       middle as 24-10-14 and the row is thrown away with "20" stuck to the
+       team name. */
+    var m = line.match(/\b(\d{4})-(\d{1,2})-(\d{1,2})\b/);
+    if (m) {
+      return { ms: Date.UTC(+m[1], +m[2] - 1, +m[3]),
+               rest: line.replace(m[0], ' ').replace(/\s+/g, ' ').trim() };
+    }
+    m = line.match(/\b(\d{1,2})[\/.\-](\d{1,2})[\/.\-](\d{2,4})\b/);
+    if (m) {
+      var y = parseInt(m[3], 10); if (y < 100) y += 2000;
+      return { ms: Date.UTC(y, parseInt(m[2], 10) - 1, parseInt(m[1], 10)),
+               rest: line.replace(m[0], ' ').replace(/\s+/g, ' ').trim() };
+    }
+    m = line.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})/i);
+    if (m) {
+      var mon = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
+        .indexOf(m[1].toLowerCase().slice(0, 3));
+      return { ms: Date.UTC(+m[3], mon, +m[2]),
+               rest: line.replace(m[0], ' ').replace(/\s+/g, ' ').trim() };
+    }
+    /* A bare year is better than nothing for ageing the meeting. */
+    m = line.match(/\b(19|20)\d{2}\b/);
+    if (m) return { ms: Date.UTC(+m[0], 6, 1), rest: line.replace(m[0], ' ').replace(/\s+/g, ' ').trim() };
+    return { ms: null, rest: line };
+  }
+
+  /**
+   * Reduce a set of meetings to what this fixture can use: a supremacy and
+   * a total, both from the CURRENT home side's point of view, with the
+   * venue of each past meeting taken out.
+   */
+  function h2hReading(meetings, homeKey, awayKey, opts) {
+    opts = opts || {};
+    var now = opts.now || Date.now();
+    var venue = opts.venueEdge == null ? 0.35 : opts.venueEdge;   // goals
+    var wSum = 0, supSum = 0, totSum = 0, used = [];
+    (meetings || []).forEach(function (m) {
+      var forHome, forAway, wasHome;
+      if (m.home === homeKey && m.away === awayKey) { forHome = m.hg; forAway = m.ag; wasHome = 1; }
+      else if (m.home === awayKey && m.away === homeKey) { forHome = m.ag; forAway = m.hg; wasHome = -1; }
+      else return;                                   // not this pairing
+      if (m.neutral) wasHome = 0;
+      var w = h2hAge(m.date, now);
+      if (!(w > 0)) return;
+      wSum += w;
+      supSum += w * ((forHome - forAway) - venue * wasHome);
+      totSum += w * (forHome + forAway);
+      used.push(m);
+    });
+    if (!wSum) return null;
+    return {
+      n: used.length, weight: wSum,
+      supremacy: supSum / wSum,          // neutral-venue goal difference
+      total: totSum / wSum,
+      meetings: used
+    };
+  }
+
   /**
    * Fit the model's UNITS to the market's, once per board.
    *
@@ -2361,6 +2542,7 @@
     calibrationReport: calibrationReport, OUTCOME_VALUE: OUTCOME_VALUE,
     ratingBase: ratingBase, btProb: btProb, calibrateOffset: calibrateOffset,
     calibrateShape: calibrateShape,
+    parseH2H: parseH2H, h2hReading: h2hReading, h2hAge: h2hAge,
     crossCheck: crossCheck, compoundingArithmetic: compoundingArithmetic,
     MIX_PARLAY_MIN_ODDS: MIX_PARLAY_MIN_ODDS, mixParlayEligible: mixParlayEligible
   };

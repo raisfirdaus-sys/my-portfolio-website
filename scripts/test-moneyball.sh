@@ -48,6 +48,9 @@ node scripts/test-published-stats.mjs
 printf '=== test-board-moves ===\n'
 node scripts/test-board-moves.mjs
 
+printf '=== test-h2h ===\n'
+node scripts/test-h2h.mjs
+
 printf '=== test-brand ===\n'
 node scripts/test-brand.mjs
 
