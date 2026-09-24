@@ -1,17 +1,66 @@
 {
-  "generatedAt": 1790230117273,
+  "generatedAt": 1790232433797,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1537,
-    "tagged": 769,
+    "raw": 1534,
+    "tagged": 764,
     "droppedKeyword": 34,
     "droppedOtherSport": 3,
-    "droppedFeed": 7,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 46
+    "withImage": 43
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man United news LIVE: JJ Gabriel receives 'guarantee', Antonio Conte links, two new targets",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790231471000
+    },
+    {
+      "competition": "mirror",
+      "title": "Wayne Rooney slams Benjamin Sesko for missing Man Utd clash with shin injury",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-rooney-sesko-injury-37696270",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693046.ece/ALTERNATES/s615/1_Liverpool-v-Paris-Saint-Germain-UEFA-Champions-League-Quarter-Final-Second-Leg-Anfield.jpg",
+      "summary": "Benjamin Sesko sat out of Manchester United's draw at Fulham, which has copped criticism from Wayne Rooney as the striker continues to deal with a shin injury",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790230824000
+    },
+    {
+      "competition": "indy",
+      "title": "How Ireland v Israel become the world’s most controversial fixture",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-nations-league-palestine-b3054975.html",
+      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790230406000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
+      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
+      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790230205000
+    },
     {
       "competition": "footlondon",
       "title": "I won the Champions League with Chelsea but winning another cup was 10x better",
@@ -62,18 +111,6 @@
       "publishedAt": 1790229468000
     },
     {
-      "competition": "mirror",
-      "title": "Man United news LIVE: JJ Gabriel receives 'guarantee', Antonio Conte links, two new targets",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790229409000
-    },
-    {
       "competition": "bbc",
       "title": "Why this break has come at the worst time for De Zerbi & Spurs",
       "publisher": "BBC Sport",
@@ -109,18 +146,6 @@
         "england"
       ],
       "publishedAt": 1790226009000
-    },
-    {
-      "competition": "indy",
-      "title": "How Ireland v Israel become the world’s most controversial fixture",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-nations-league-palestine-b3054975.html",
-      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790226000000
     },
     {
       "competition": "footlondon",
@@ -200,7 +225,7 @@
       "title": "Liverpool given answer to Trent Alexander-Arnold question - and Alexander Isak would agree",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-given-answer-trent-alexander-34662792",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34662890.ece/ALTERNATES/s615/0_MixCollage-23-Sep-2026-09-47-PM-8247.jpg",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34662890.ece/ALTERNATES/s615/1_MixCollage-23-Sep-2026-09-47-PM-8247.jpg",
       "summary": "Our writers answer whether Liverpool should look to re-sign Trent Alexander-Arnold given the issues Andoni Iraola currently has at right-back.",
       "teams": [
         "liverpool"
@@ -353,6 +378,66 @@
       "publishedAt": 1790208000000
     },
     {
+      "competition": "unl-a",
+      "title": "Germany XI vs Netherlands – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2dJUGgtdWxGTFZZbUpzbXh0cDV6cnZnVXFNcU00MXpZc0NiVG9qN3ZmV1JlSm9OSHNjamZMdzF0Mmdra2Z3ZzRrRG1lSTM2d1QzclJfSTJOcy1uTVVZQ2VBZV9jQ3Ztd3I3M3BxdzgtTUpGWWhCRUQxc2hGVmV2SFQwSVVVMFp0a0JwMw?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790230200000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Netherlands vs Germany – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNlNlZnN4Vm1ySGktWXhhenY1V09wdExjVGhxS0prbUV2eUFENjZxb1RpMGVjNEtGUHBwUDR2djlVOE11X3h0cDhEeG1mckpWSUxTVkFrbDNTTEZCQmhDUnAwTXFxTVRCbjZuLTlRUUI5dEdTTk1xcGZCcHNKSkplZmFXUllLaWNMSW9pSGVpU1JoQQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790230200000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Wales XI vs Portugal – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTHNLVkt1YjVzNzRpbU9GT0V5Sjk4NnNFdlNsUHdpNm1JNkUzdjczcUZsaDdtQlR0bHlnZE5KaXBhWjA0MWd6dTRMWVY4YU9PUXB5amVWNTBCdnNYZjJsTGpWVi1PX0xyaXRuTk43OUVPSEpXekRpejhrVmI0V3pFQ1lWU2NGZw?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790230200000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Netherlands vs Germany – Match preview and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjA3SU0yOUp5RzdEQlVPMEluMHhjaVo4QXFiSnpmeUtiSFRCZEszU0tKNGZXUGxUWTFRX2hQeTNlMmJLVkZyTnhCTV9ROGlCOGtmNnV5X0xJUDczMEtFZEpjLVJ0emQ0QktjYjBMYks0azJjWXZ3MkxZX09BdlJyZEJtMno1SnFVU2t4ZHhn?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790230200000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "How to get Denmark vs Norway tickets: UEFA Nations League A prices, fixture information, last-minute sales & more",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTDlIWXJ4MjRIbFFVZ2c0a2NwQlY2d0pWdnI5enp5MGJmNnhOZldkX1UxSWN6MjBVZVBNcmdZcVRpeFZMYlN4TndnUGkzakhXWUVOY0NKOVZISzk1REpYbE9IUHdETjRpRXRweHY3ZXVkSVQ5ZWdqZU05TFRKR0RLZFFfeXE1SHU4Qk04T0xJWjV6ckUxNFpj?oc=5",
+      "teams": [
+        "denmark",
+        "norway"
+      ],
+      "publishedAt": 1790230163000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "Ex-Liverpool owner George Gillett dies aged 87 after battle with Alzheimer's",
       "publisher": "Mirror Football",
@@ -363,6 +448,17 @@
         "liverpool"
       ],
       "publishedAt": 1790199858000
+    },
+    {
+      "competition": "epl",
+      "title": "Leeds United get Jordan James clarity as Premier League offer revelation emerges",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmpFRnpNeVlnQXdvNWZWWk5mbGdLeVMxSUktT2VLMHhIX2Jic04wWGlUakFaMnRLT0tTSDZZLUVuOHNJUzhzWXJoYTJUUWoweVFVSFdENXlaNEFTbXdGN1dTOVNtSDQ1UnJBREhoaEs4RDFnWEV5bVpRQlN6REE3RVpsb0FsQXJhUWc?oc=5",
+      "teams": [
+        "leeds"
+      ],
+      "publishedAt": 1790228400000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -389,14 +485,16 @@
       "publishedAt": 1790199411000
     },
     {
-      "competition": "ligue1",
-      "title": "PSG star Achraf Hakimi to stand trial after France’s highest court rejects appeal",
-      "publisher": "footballtoday.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMW9fU3JzOERkZUhyRU01MEh4Uy14LU5zZ1djN0pRN3lVS2tqWUtpdjVTdmJITXdyZ01uZEFmb2liblJCMEF2eWcwMFg0b1BjQUhvNUFSQ1RqRFVHZTM2ZFNOb3p1ZlExZmRHOTNzT0NBcVhOY0xVZWVjLXlZQ1NrSlpzUVV5aXhQT3dVbHVhMllhT2ltUmpqTDFQSGx4Z2F0a0NLN2NIVXRvRzVfSW1HTUpkb3RZTEJEaUE?oc=5",
+      "competition": "unl-a",
+      "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
       "teams": [
-        "france"
+        "netherlands",
+        "germany",
+        "england"
       ],
-      "publishedAt": 1790228118000,
+      "publishedAt": 1790228095000,
       "image": null
     },
     {
@@ -410,6 +508,17 @@
         "barcelona"
       ],
       "publishedAt": 1790199207000
+    },
+    {
+      "competition": "ligue1",
+      "title": "PSG star Achraf Hakimi to stand trial after France’s highest court rejects appeal",
+      "publisher": "footballtoday.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMW9fU3JzOERkZUhyRU01MEh4Uy14LU5zZ1djN0pRN3lVS2tqWUtpdjVTdmJITXdyZ01uZEFmb2liblJCMEF2eWcwMFg0b1BjQUhvNUFSQ1RqRFVHZTM2ZFNOb3p1ZlExZmRHOTNzT0NBcVhOY0xVZWVjLXlZQ1NrSlpzUVV5aXhQT3dVbHVhMllhT2ltUmpqTDFQSGx4Z2F0a0NLN2NIVXRvRzVfSW1HTUpkb3RZTEJEaUE?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790227921000,
+      "image": null
     },
     {
       "competition": "epl",
@@ -432,18 +541,6 @@
         "barcelona"
       ],
       "publishedAt": 1790226283000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTmhPdDBGRTJRNVQzelhOQ0N1bTJPNGF5T2FobGt3RExVY0lmWmRQR3Frb1FJdVpSY2tYcmRkUlpRRzV1MF83ZFpxLVBsenlWYnYwb09uUDRsSy1vNmZ1eEdTeG5RMm01ZzRwRkcwRGcwRmszSkpvTG1SVXZOd2FTRlJ1MVR6Qllq?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790226000000,
       "image": null
     },
     {
@@ -470,18 +567,6 @@
       "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "Explained: Why two Republic of Ireland vs Israel matches have become so controversial",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTkRFVmJuTkJoTkhsVXMwd3VFRDlaR3NKdC1vNUpMaW5UT1o1ekNvQUpWMEE0eEt2elVXYzE3SVI0M2UzcVllVndiUl9VRGhGNTl3Q1l1UjdXNkFRTnViM2NoWjFHdmFleTV2NzZlQ2xVN0h4SHIxTXVsMjZBSDBBTjhGSTBhbnQ3ekxGZmQtSldjQ1I5S2pSemF0RjJtbnc?oc=5",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790223180000,
-      "image": null
-    },
-    {
       "competition": "echo",
       "title": "Alisson and Mac Allister verdicts as Premier League panel rule on three Liverpool incidents",
       "publisher": "Liverpool Echo",
@@ -492,6 +577,17 @@
         "liverpool"
       ],
       "publishedAt": 1790194210000
+    },
+    {
+      "competition": "unl-a",
+      "title": "'Cris is a symbol of Portugal!' – Why Jorge Jesus defends Cristiano Ronaldo status while issuing stern warning",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVJKN0JZcUJtUFZKUVRlVS1ock5zcE0xbS1QWnhZZ3VGRkxwbU5yRjB5VlNGSm9SLURxd2k3VjZPLWZqRHRCY25RRTFyeC1ESVRqVXNWVkVrNS1fWWc5TkxBYmE4WDJ0OHExTi1HUi1JaDNManRodHhLZ0t3ekEtdk9Ra3FaUHVQbzQwV3Rrc3J2cVd0TTN0NWstbzBLTXg1MHZzcGRZeTN0UHNuc1h4VGd0ZE93blVEVERJ?oc=5",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1790222501000,
+      "image": null
     },
     {
       "competition": "bbc",
@@ -512,17 +608,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbXY5elprbk5OT0VINUlQcGpJMUlRSWZtbVY2SUN2S2MtY0o2VDc5QWVodHBBc0ZqeDhOQWFvclV0RnljT2wxTGVHNVBHWEhDQkJqYWk0bGtZRlA2cjhjRVk3c2RydGljblNIQ0lydVNSbUR0bFFyOURYSjdPRTc0RDF3?oc=5",
       "teams": [
         "leeds"
-      ],
-      "publishedAt": 1790222400000,
-      "image": null
-    },
-    {
-      "competition": "championship",
-      "title": "Why Josh Sheehan could get Championship boost to international career with Wales",
-      "publisher": "The Bolton News",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMS11N0dUaDFjaG52UmlaWXgxcG55TjdaQnpTSDhFZE9ycTc0OUxWdTVLUk4yd1IxRW42U29iRXFEcUtWLTdNRzMzblJXRGh6Qzl5NEs5MmljYm5FQUFhc1IwT3dYMzQ5a25FOEJ6ZmJjNjI4TWxZaVRLa2ZrV1ZxUkM5MHA3UlVRTVZxOUNpdmVsSjJuRURTOUxjemFjTG5UWVZKeQ?oc=5",
-      "teams": [
-        "wales"
       ],
       "publishedAt": 1790222400000,
       "image": null
@@ -626,7 +711,7 @@
     },
     {
       "competition": "chronicle",
-      "title": "Aladji Bamba has three perfect examples to ease Newcastle United fears",
+      "title": "Aladji Bamba handed three perfect examples to ease Newcastle United career fears",
       "publisher": "Chronicle Live",
       "link": "https://www.chroniclelive.co.uk/sport/football/football-news/aladji-bamba-three-perfect-examples-34657814",
       "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34658049.ece/ALTERNATES/s615/0_Bamba1.jpg",
@@ -647,90 +732,6 @@
         "arsenal"
       ],
       "publishedAt": 1790188844000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Viktor Gyokeres value falls as 'people already talking' about Arsenal transfer",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/viktor-gyokeres-arsenal-transfer-value-34662503",
-      "image": "https://i2-prod.football.london/incoming/article34662520.ece/ALTERNATES/s615/0_SSC-Napoli-v-Arsenal-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
-      "summary": "Viktor Gyokeres appears to have fallen down the pecking order at Arsenal this season with talk already starting over his future",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790188743000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Ait-Nouri targeted by Juventus after Manchester City struggle",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/ait-nouri-targeted-by-juventus-manchester-city/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Rayan-Ait-Nouri-look-414x268.jpg",
-      "summary": "Juventus are ready to try for Rayan Ait-Nouri in January after his struggles to get...",
-      "teams": [
-        "mancity",
-        "juventus"
-      ],
-      "publishedAt": 1790187924000
-    },
-    {
-      "competition": "ligue1",
-      "title": "Liverpool's Bradley Barcola Gets Eye-Opening Update After PSG Exit",
-      "publisher": "roundtable.io",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ1lvZ0JIWU90eF9aelRSdU1hYjFoZTNFZGZrZ3VJUktnaGdWZ1E5OS1hUFhybXhLMGZjSUFEZEJUYXQ1d00xRmhMYmo3TWRsdDlTNk5HYzdoVHBZTWhMUEM1dzd4Vlh1T2RHY3NVUVNFbkZlTTluSjhPUkh4RlBJLVpiMXYxd2JrYkV5dHlpVF9WazJlalFVeml0NlpISkk4TTVYOERPZ0ktM0dOR2ZPMzJUYkxGY2l0enlIMkNmUDZTb21vb3lWVUR5cw?oc=5",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790215822000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Malago: &#8216;Italy must look to present and future, we&#8217;re all in the same boat&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/malago-italy-must-look-to-present-and-future/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Giovanni-Malago-glasses-414x276.jpg",
-      "summary": "FIGC President Giovanni Malagò reassured the Italy squad that they are ‘all in the same...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790186706000
-    },
-    {
-      "competition": "mirror",
-      "title": "Harry Kane defends Declan Rice after Arsenal star explained England drop out",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-declan-rice-england-37695615",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37695632.ece/ALTERNATES/s615/0_GettyImages-2286412616.jpg",
-      "summary": "Declan Rice was one of five players to pull out of the England squad for the four Nations League games in the current international break, but Harry Kane understands his reasoning",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790186514000
-    },
-    {
-      "competition": "unl-a",
-      "title": "'Cris is a symbol of Portugal!' – Why Jorge Jesus defends Cristiano Ronaldo status while issuing stern warning",
-      "publisher": "Yahoo Sport Australia",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MemJFSGhtNnN5LUJobUxaZ3AtY1N4UktFNnhsZ0lBZlZCYjF0OHZrclQ1TWNKSldwbzdTYm9TWVJ5cEpGOXRlbUh6S2tjNkpYa2hZdjBQenpuaWdLQWMxanZuWXpfNmp4R2hpWkhaZmdVMFVVZHlPb1NlWWQ2dw?oc=5",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1790215260000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Harry Kane provides update on Bayern Munich contract talks",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/harry-kane-bayern-munich-contract-b3055030.html",
-      "image": "https://static.independent.co.uk/2026/09/23/13/2295072550..?width=1200&auto=webp&trim=0%2C12%2C0%2C12",
-      "summary": "Kane has a remarkable goalscoring record since arriving in Germany and is keen to stay with the Bundesliga champions",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790186435000
     }
   ]
 }
