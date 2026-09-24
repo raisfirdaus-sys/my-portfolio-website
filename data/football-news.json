@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1790211075933,
+  "generatedAt": 1790211141281,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1523,
-    "tagged": 768,
-    "droppedKeyword": 39,
+    "raw": 1524,
+    "tagged": 763,
+    "droppedKeyword": 37,
     "droppedOtherSport": 1,
     "droppedFeed": 7,
     "blocklistDistrusted": false,
@@ -379,18 +379,6 @@
       "publishedAt": 1790182017000
     },
     {
-      "competition": "unl-a",
-      "title": "Netherlands vs Germany UEFA Nations League A preview: All you need to know",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2pLRzU2WDE5c2E0T2dHM1JiSmVfZFBiREN3Yl9mbFVkQ2tTQl9xVjdzWjBkZ0wxbnpNdmsxNUEydmdwM1pMSlR5MUFKYjNFLWt0MGFETDFmZWJpU2VBUFRYckZQeFU1MnNPUWhOYW01T0FXZVo3SF82VGZkZWpVN1MyS3lkc3JYbUZkTzFZOUpFR3NLelUxOVFuckQ?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790210738000,
-      "image": null
-    },
-    {
       "competition": "echo",
       "title": "Julian Ward eight Liverpool signings rated including record transfer, big hits and one huge flop",
       "publisher": "Liverpool Echo",
@@ -686,7 +674,7 @@
     {
       "competition": "transfer",
       "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
+      "publisher": "thesun.co.uk",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
       "teams": [
         "manutd"
@@ -709,7 +697,7 @@
     {
       "competition": "laliga",
       "title": "Free-kicks and finishing: How Lamine Yamal wants to improve at Barcelona",
-      "publisher": "Barca Blaugranes",
+      "publisher": "barcablaugranes.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZm5USktmVU9uLW5RcTVRTmZUbFZPVG95R0dhWGJIWlo2WE83VC0zSjBNelh3LV9rWmxjaE8xNjhEMmFTMHZKNVpFN1RBZU55WGlUZDJrWk45ZWRTanRMdUlra05uT3Q0N2tNTm0ybFhzRUpCM0trcG12dElxdUNyUHMycVJIZExmMENjTDdfYmZxZ1RCaHdibVNoMGQ4RlB5aHprZw?oc=5",
       "teams": [
         "barcelona"
@@ -741,6 +729,18 @@
         "england"
       ],
       "publishedAt": 1790175480000
+    },
+    {
+      "competition": "laliga",
+      "title": "Rodri Confirms Real Madrid Tried to Sign Him Before Barcelona",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeTFNWmJKTmo3YWVIM3NSd2lUMzdlNHUxSkVCUjhJREVHbHNYVVZfRnU1cGc2VHRSMHdOR2Z6LUxiTWRCb3l6anpHYmRocXp5bHR3YTVSZnMyeVVTMWFZbndENm9QeEI4aVo0a2tXa3QwM3dGTGZIMmlFY2FnWjVYUE1LUWVwOXFLSDg5c1lRV1E5ekQzcm9FQUFlUGw2b2FqMHB5N2k4eVJkbldPME5ZelFfbU9LN2VlVlYxQndMVVJfUmM?oc=5",
+      "teams": [
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790203887000,
+      "image": null
     }
   ]
 }
