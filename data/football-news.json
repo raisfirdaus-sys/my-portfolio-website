@@ -1,68 +1,120 @@
 {
-  "generatedAt": 1790274886830,
+  "generatedAt": 1790278816095,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1518,
-    "tagged": 743,
-    "droppedKeyword": 31,
+    "raw": 1524,
+    "tagged": 747,
+    "droppedKeyword": 28,
     "droppedOtherSport": 1,
-    "droppedFeed": 6,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "chronicle",
-      "title": "Nick Woltemade could revive Bayern Munich transfer interest over international break",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/nick-woltemade-newcastle-transfer-bayern-34668549",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668557.ece/ALTERNATES/s615/0_Juventus-v-NEC-Nijmegen-UEFA-Europa-League-202627-League-Phase-MD1.jpg",
-      "summary": "Nick Woltemade endured a mixed-bag start to life in the Premier League with Newcastle United, before joining Juventus on a season-long loan this summer",
+      "competition": "indy",
+      "title": "Arsenal dealt injury blow as Kai Havertz limps off in Germany clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/kai-havertz-injury-latest-arsenal-germany-netherlands-b3056007.html",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2296962844..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Havertz was chosen to lead the line in Jurgen Klopp’s first match as Germany manager",
       "teams": [
-        "bayern"
+        "arsenal",
+        "germany"
       ],
-      "publishedAt": 1790274346000
+      "publishedAt": 1790278516000
     },
     {
       "competition": "indy",
-      "title": "Portugal v Wales LIVE: Cristiano Ronaldo starts in Nations League clash",
+      "title": "Portugal v Wales LIVE: Joao Felix fires dominant hosts ahead in Nations League clash",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/24/19/2296951035..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2026-09-24T191129Z_1883581061_UP1EM9O1HB3XA_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=41%2C0%2C41%2C0",
       "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
       "teams": [
         "portugal",
         "wales"
       ],
-      "publishedAt": 1790274319000
+      "publishedAt": 1790278474000
+    },
+    {
+      "competition": "metro",
+      "title": "Barcelona respond to JJ Gabriel link after Manchester United exit request",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/barcelona-respond-jj-gabriel-link-man-utd-exit-request-29652027/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312581115-6c65.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd",
+        "barcelona"
+      ],
+      "publishedAt": 1790278057000
+    },
+    {
+      "competition": "mirror",
+      "title": "Arsenal handed Kai Havertz injury blow as forward limps out of Germany match",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/kai-havertz-germany-netherlands-arsenal-37700022",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37700021.ece/ALTERNATES/s615/0_GettyImages-2296962980.jpg",
+      "summary": "Arsenal might have been given a serious concern with Germany striker Kai Havertz having been taken off with a problem during his nation's clash with the Netherlands in Amsterdam",
+      "teams": [
+        "arsenal",
+        "germany"
+      ],
+      "publishedAt": 1790278023000
+    },
+    {
+      "competition": "indy",
+      "title": "Netherlands vs Germany LIVE: Jurgen Klopp’s first goal comes in controversy in Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2296964378..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790277978000
     },
     {
       "competition": "guardian",
       "title": "Netherlands v Germany, Portugal v Wales and more: Uefa Nations League – live",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/live/2026/sep/24/netherlands-v-germany-portugal-v-wales-and-more-uefa-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/466e279965d34cfc2f5c747d781d6df90eacd330/656_340_4180_3344/master/4180.jpg?width=140&quality=85&auto=format&fit=max&s=538dad8234cbb81ec9b98b2ee27bd9b2",
-      "summary": "⚽ Updates across Thursday night’s Nations League games⚽ Get in touch: email Daniel and follow us on BlueSkyI am, though, really looking forward to seeing what Klopp does with Lennart Karl. The 18-year-old missed the…",
+      "image": "https://i.guim.co.uk/img/media/057e494a4f8d051c4e5e3e6a8788a8460c7eb479/209_0_3025_2420/master/3025.jpg?width=140&quality=85&auto=format&fit=max&s=e19058424ac26aa5795aa4288ad1eb9d",
+      "summary": "⚽ Updates across Thursday night’s Nations League games⚽ Get in touch: email Daniel and follow us on BlueSkyRobert Earnshaw is in the BBC studio wearing the same rig he was in on Sky this morning. The thing with red and…",
       "teams": [
         "netherlands",
         "portugal",
         "germany"
       ],
-      "publishedAt": 1790274241000
+      "publishedAt": 1790277889000
     },
     {
-      "competition": "indy",
-      "title": "Netherlands vs Germany LIVE: Jurgen Klopp names first Germany line-up for Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
-      "image": "https://static.independent.co.uk/2026/09/24/19/2296951873..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "competition": "mirror",
+      "title": "Barcelona chief Deco makes JJ Gabriel transfer admission as Man Utd deadline approaches",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jj-gabriel-man-utd-barcelona-37699844",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699901.ece/ALTERNATES/s615/0_GettyImages-2295946455.jpg",
+      "summary": "Barcelona sporting director Deco has addressed links with JJ Gabriel after the 15-year-old Manchester United academy prospect asked to leave",
       "teams": [
-        "netherlands",
-        "germany"
+        "barcelona",
+        "manutd"
       ],
-      "publishedAt": 1790274075000
+      "publishedAt": 1790277622000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Still two Italy doubts, three players can be on right or left&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-italy-doubts-3-players-right-or-left/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
+      "summary": "Roberto Mancini won’t choose his Italy starting XI against Belgium until Friday morning. ‘There are...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790277455000
     },
     {
       "competition": "mirror",
@@ -75,7 +127,33 @@
         "barcelona",
         "manutd"
       ],
-      "publishedAt": 1790273763000
+      "publishedAt": 1790277267000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd complete Liverpool transfer coup after swooping for Man City youngster",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-liverpool-transfer-konde-37699857",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699886.ece/ALTERNATES/s615/0_GettyImages-2274154731.jpg",
+      "summary": "Manchester United are continuing to recruit some of the best young talent in England",
+      "teams": [
+        "liverpool",
+        "mancity",
+        "manutd"
+      ],
+      "publishedAt": 1790276448000
+    },
+    {
+      "competition": "mirror",
+      "title": "Michael Carrick given fresh Man Utd headache as star makes feelings clear on position switch",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-carrick-patrick-dorgu-37699850",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699847.ece/ALTERNATES/s615/0_GettyImages-2295817025.jpg",
+      "summary": "Manchester United have endured a difficult start to the new season, with injuries causing havoc at Old Trafford and one of Michael Carrick’s stars have given him a fresh issue",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790275815000
     },
     {
       "competition": "indy",
@@ -87,7 +165,31 @@
       "teams": [
         "england"
       ],
-      "publishedAt": 1790272828000
+      "publishedAt": 1790275569000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Donnarumma: &#8216;I&#8217;m happy Mancini back for Italy, not easy in Manchester&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/donnarumma-im-happy-mancini-italy-manchester/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/10/Gianluigi-Donnarumma-Italy-Israel-414x276.jpg",
+      "summary": "Gianluigi Donnarumma explains his message welcoming the return of Italy coach Roberto Mancini and looks...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790274969000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Nick Woltemade could revive Bayern Munich transfer interest over international break",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/nick-woltemade-newcastle-transfer-bayern-34668549",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668557.ece/ALTERNATES/s615/0_Juventus-v-NEC-Nijmegen-UEFA-Europa-League-202627-League-Phase-MD1.jpg",
+      "summary": "Nick Woltemade endured a mixed-bag start to life in the Premier League with Newcastle United, before joining Juventus on a season-long loan this summer",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790274346000
     },
     {
       "competition": "guardian",
@@ -151,19 +253,6 @@
       "publishedAt": 1790272124000
     },
     {
-      "competition": "indy",
-      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
-      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
-      "summary": "Everything you need to know ahead of the Nations League fixture",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790272063000
-    },
-    {
       "competition": "mirror",
       "title": "Martin Odegaard admits injuries diminished his enjoyment of Arsenal's Premier League title",
       "publisher": "Mirror Football",
@@ -174,19 +263,6 @@
         "arsenal"
       ],
       "publishedAt": 1790271905000
-    },
-    {
-      "competition": "indy",
-      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
-      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790271854000
     },
     {
       "competition": "fitalia",
@@ -610,19 +686,6 @@
       "publishedAt": 1790258151000
     },
     {
-      "competition": "fitalia",
-      "title": "Forgotten Italy talent Pellegri eyes Serie A comeback after returning to Torino training",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/pellegri-eyes-serie-a-comeback-torino-return/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/torino-fc-v-ac-milan-serie-a-tim-1.jpg",
-      "summary": "Forgotten Italy talent Pietro Pellegri is back in training with Torino after a series of...",
-      "teams": [
-        "torino",
-        "italy"
-      ],
-      "publishedAt": 1790258116000
-    },
-    {
       "competition": "chronicle",
       "title": "Jamaal Lascelles to make emotional Newcastle United return after free agent list setback",
       "publisher": "Chronicle Live",
@@ -633,19 +696,6 @@
         "newcastle"
       ],
       "publishedAt": 1790256639000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Milan send scouts to Rome to watch Romano’s Italy debut",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/milan-send-scouts-watch-romano-italy-debut/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-celebrate.jpg",
-      "summary": "Alessandro Romano is widely expected to earn his Italy debut when the Azzurri take on...",
-      "teams": [
-        "acmilan",
-        "italy"
-      ],
-      "publishedAt": 1790255949000
     },
     {
       "competition": "guardian",
@@ -708,55 +758,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790254860000
-    },
-    {
-      "competition": "bbc",
-      "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be2/live/5a69c020-a2bb-11f1-9024-715001d09aeb.jpg",
-      "summary": "USA international Emily Fox has described signed a new contract at Arsenal as \"an easy decision\".",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790254784000
-    },
-    {
-      "competition": "echo",
-      "title": "Tim Cahill glad Everton didn't sign Folarin Balogun after spotting something in training",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cahill-everton-folarin-balogun-transfer-34665953",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/transfer-news/article34565251.ece/ALTERNATES/s615/0_JS411818457.jpg",
-      "summary": "Former Everton forward Tim Cahill has delivered his verdict on the club's failed pursuit of Folarin Balogun after it felt Thierno Barry as their only senior striker",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790254769000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Kayode could be Italy’s most expensive debutant, but isn’t expected to start vs. Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/kayode-could-be-italys-most-expensive-debutant/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/brentford-v-tottenham-hotspur-pr-1.jpg",
-      "summary": "Michael Kayode could potentially be Italy’s most valuable ever player at the time of their...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790254562000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel can't afford to dismiss Nations League in battle to win back England fans",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-preview-37698378",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37698434.ece/ALTERNATES/s615/0_premium-canvas-1790253884475.png",
-      "summary": "OPINION: England welcome Spain to Wembley on Saturday to kick-off their Nations League campaign, a competition that some managers will view as a stop-gap ahead of Euro 2028 - but not Thomas Tuchel",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790253961000
     }
   ]
 }
