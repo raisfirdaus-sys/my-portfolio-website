@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790210650455,
+  "generatedAt": 1790211075933,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
-    "tagged": 767,
+    "raw": 1523,
+    "tagged": 768,
     "droppedKeyword": 39,
     "droppedOtherSport": 1,
     "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 54
+    "withImage": 53
   },
   "items": [
     {
@@ -379,6 +379,18 @@
       "publishedAt": 1790182017000
     },
     {
+      "competition": "unl-a",
+      "title": "Netherlands vs Germany UEFA Nations League A preview: All you need to know",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2pLRzU2WDE5c2E0T2dHM1JiSmVfZFBiREN3Yl9mbFVkQ2tTQl9xVjdzWjBkZ0wxbnpNdmsxNUEydmdwM1pMSlR5MUFKYjNFLWt0MGFETDFmZWJpU2VBUFRYckZQeFU1MnNPUWhOYW01T0FXZVo3SF82VGZkZWpVN1MyS3lkc3JYbUZkTzFZOUpFR3NLelUxOVFuckQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790210738000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Julian Ward eight Liverpool signings rated including record transfer, big hits and one huge flop",
       "publisher": "Liverpool Echo",
@@ -465,7 +477,7 @@
     {
       "competition": "unl-a",
       "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
-      "publisher": "bbc.co.uk",
+      "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4UFZQQWQyX241R3pUTzcybUFtMmhFMlRSSnl6aVlfVnhEVS1TQ29Za3NKS3dOM1JzSURvU09TOElXZHZ2eEpCRUczZ2JyNDJDaU5RZ0ZISU81NWVGcmVUS1VVSDN5Zw?oc=5",
       "teams": [
         "portugal",
@@ -672,6 +684,17 @@
       "publishedAt": 1790175928000
     },
     {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790204618000,
+      "image": null
+    },
+    {
       "competition": "metro",
       "title": "Virgil van Dijk slams &#8216;utter nonsense&#8217; claim in feisty Netherlands press conference",
       "publisher": "Metro",
@@ -718,30 +741,6 @@
         "england"
       ],
       "publishedAt": 1790175480000
-    },
-    {
-      "competition": "laliga",
-      "title": "Rodri Confirms Real Madrid Tried to Sign Him Before Barcelona",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeTFNWmJKTmo3YWVIM3NSd2lUMzdlNHUxSkVCUjhJREVHbHNYVVZfRnU1cGc2VHRSMHdOR2Z6LUxiTWRCb3l6anpHYmRocXp5bHR3YTVSZnMyeVVTMWFZbndENm9QeEI4aVo0a2tXa3QwM3dGTGZIMmlFY2FnWjVYUE1LUWVwOXFLSDg5c1lRV1E5ekQzcm9FQUFlUGw2b2FqMHB5N2k4eVJkbldPME5ZelFfbU9LN2VlVlYxQndMVVJfUmM?oc=5",
-      "teams": [
-        "realmadrid",
-        "barcelona"
-      ],
-      "publishedAt": 1790203887000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Milan ready to use Pulisic and Rabiot contract clauses to June 2028",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/milan-ready-pulisic-rabiot-contract-clauses/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Christian-Pulisic-414x280.jpg",
-      "summary": "Milan are not in a rush to negotiate new contracts with Christian Pulisic and Adrien...",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1790174851000
     }
   ]
 }
