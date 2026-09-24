@@ -1,17 +1,201 @@
 {
-  "generatedAt": 1790259543135,
+  "generatedAt": 1790264317517,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1527,
-    "tagged": 739,
-    "droppedKeyword": 38,
-    "droppedOtherSport": 1,
+    "raw": 1515,
+    "tagged": 735,
+    "droppedKeyword": 40,
+    "droppedOtherSport": 2,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Ramos on Milan move: &#8216;The fans are incredible, I love feeling the support&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/ramos-on-milan-move-the-fans/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Ruben-Amorim-Goncalo-Ramos-414x271.jpg",
+      "summary": "Goncalo Ramos has spoken about his first months at Milan, and the moment that made...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790263654000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Alexander Isak slams 'irrelevant' Alan Shearer and gives truth about Newcastle United fan abuse",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/alexander-isak-newcastle-liverpool-shearer-34667612",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34667782.ece/ALTERNATES/s615/0_GettyImages-2291269879.jpg",
+      "summary": "The £125m striker entered a cauldron when Liverpool travelled to St James' Park in August but helped the Reds earn a 2-2 draw",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790263348000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Cristhian Mosquera injury update emerges as Arsenal star spotted training at former club",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-cristhian-mosquera-injury-34667813",
+      "image": "https://i2-prod.football.london/incoming/article34667804.ece/ALTERNATES/s615/0_GettyImages-2292410703.jpg",
+      "summary": "Arsenal are hoping the extended three-week international break will be kind to them, particularly when it comes to getting injury players back to full fitness",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790262715000
+    },
+    {
+      "competition": "indy",
+      "title": "Why Barcelona can’t stop scoring without a striker",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/tv/acfc/barcelona-hansi-flick-champions-league-analysis-b3055857.html",
+      "image": "https://static.independent.co.uk/2026/09/10/11/2026-09-09T180752Z_556072125_UP1EM991ED203_RTRMADP_3_SOCCER-CHAMPIONS-BAR-FEY.JPG?width=1200&auto=webp&trim=0%2C33%2C0%2C33",
+      "summary": "Barcelona have scored 31 goals in 7 matches, are unbeaten so far this season and are somehow doing all of this without a recognised number 9. Raphinha has bagged 12 goals in this time, so how are they doing it?",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790262290000
+    },
+    {
+      "competition": "mirror",
+      "title": "Virgil van Dijk didn't like Jurgen Klopp's Liverpool rule he's introduced for Germany",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jurgen-klopp-liverpool-van-dijk-37699027",
+      "image": "https://i2-prod.irishmirror.ie/incoming/article32524932.ece/ALTERNATES/s615/2_Liverpool-FC-v-AC-Sparta-Prague-Anfield-Liverpool-United-Kingdom-14-Mar-2024.jpg",
+      "summary": "Virgil van Dijk publicly addressed a rule Jurgen Klopp has implemented with Germany",
+      "teams": [
+        "liverpool",
+        "germany"
+      ],
+      "publishedAt": 1790262116000
+    },
+    {
+      "competition": "mirror",
+      "title": "What has Jurgen Klopp said about Liverpool return? Everything we know about future plans",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jurgen-klopp-liverpool-return-germany-37695325",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37695338.ece/ALTERNATES/s615/0_Inside-Brazils-Main-Training-Camp-for-FIFA-World-Cup-2026.jpg",
+      "summary": "Jurgen Klopp is back in management more than two years after stepping down as Liverpool boss",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790262000000
+    },
+    {
+      "competition": "echo",
+      "title": "David Moyes already knows Everton issue he must solve - but Jack Grealish influence clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-already-knows-everton-34664954",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667479.ece/ALTERNATES/s615/0_premium-canvas-1790260853694.png",
+      "summary": "TACTICAL ANALYSIS: Christopher Beesley takes a look behind the numbers that tell us more about how Everton are playing courtesy of Opta",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790261880000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Serie B club Juve Stabia docked another 2 points after fraud investigation",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/serie-b-juve-stabia-docked-2-points-fraud/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/05/Lega-Serie-B-logo-414x276.jpg",
+      "summary": "Serie B side Juve Stabia are in chaos and were docked another two points after...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790261755000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
+      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790261410000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Report: Juventus could reignite Alisson interest as Liverpool talks pause",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/juventus-could-reignite-alisson-interest/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/02/nottingham-forest-v-liverpool-pr-414x276.jpg",
+      "summary": "Alisson Becker s Liverpool future remains unresolved, and that keeps the door open for Juventus. According...",
+      "teams": [
+        "liverpool",
+        "juventus"
+      ],
+      "publishedAt": 1790261182000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
+      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
+      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790260396000
+    },
+    {
+      "competition": "indy",
+      "title": "Man Utd put pieces of Old Trafford turf on sale for £125",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-united-old-trafford-pitch-sale-price-b3055818.html",
+      "image": "https://static.independent.co.uk/2026/09/24/15/2026-09-24T051638Z_259000101_RC2EINAP6CGU_RTRMADP_3_SOCCER-ENGLAND-MUN.JPG?width=1200&auto=webp&trim=0%2C172%2C0%2C172",
+      "summary": "United are set to move away from Old Trafford in the coming years",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790260189000
+    },
+    {
+      "competition": "echo",
+      "title": "Alexander Isak responds to Andy Robertson claim and agrees with Liverpool boss Andoni Iraola criticism",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-responds-andy-robertson-34667018",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667000.ece/ALTERNATES/s615/0_GettyImages-2273081075.jpg",
+      "summary": "Liverpool striker Alexander Isak has spoken about Andy Robertson's comments regarding the impact of the death of Diogo Jota",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790260065000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Alaba on Udinese welcome: &#8216;I can&#8217;t wait to get started&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/alaba-on-udinese-cant-wait-to-get-started/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/818062457_18634772746035165_7592-414x276.jpg",
+      "summary": "David Alaba has signed his Udinese contract and delivered his first message to supporters, via...",
+      "teams": [
+        "udinese"
+      ],
+      "publishedAt": 1790260006000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Brutal tests looms for Aston Villa as Unai Emery rebuild faces 30-day trial",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-fixtures-barcelona-newcastle-34666875",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34667007.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-Premier-League-Football-Tottenham-Hotspur-Stadium-London-UK-1.jpg",
+      "summary": "Aston Villa are back in action on October 10 - the start of a daunting test for Unai Emery",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790259462000
+    },
     {
       "competition": "fitalia",
       "title": "Frosinone set asking price for Roma target Kvernadze",
@@ -417,19 +601,6 @@
     },
     {
       "competition": "indy",
-      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
-      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790248032000
-    },
-    {
-      "competition": "indy",
       "title": "Rio Ngumoha ready to ‘embrace the chaos’ as he vows to bring ‘fearless’ mindset to England squad",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/rio-ngumoha-england-squad-thomas-tuchel-b3055679.html",
@@ -552,6 +723,18 @@
       "publishedAt": 1790243994000
     },
     {
+      "competition": "mirror",
+      "title": "Ex-England star Andy Carroll bravely opens up on sex assault hell after 'celeb pal' is jailed",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/andy-carroll-sexually-assaulted-book-37696997",
+      "image": "https://i2-prod.irishmirror.ie/incoming/article25465442.ece/ALTERNATES/s615/3_GettyImages-1318911290.jpg",
+      "summary": "Andy Carroll has bravely detailed his 'traumatic' experience of being sexually assaulted, telling his story in the hope that he'll help other survivors of such abuse",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790243972000
+    },
+    {
       "competition": "fitalia",
       "title": "Mancini has two personnel decisions to make ahead of second Italy debut",
       "publisher": "Football Italia",
@@ -562,190 +745,6 @@
         "italy"
       ],
       "publishedAt": 1790243275000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool 'send scouts to watch striker' who 'scored 256 goals in a single season'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-scouting-striker-target-34663929",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34663978.ece/ALTERNATES/s615/1_BOYLE-Sports-Premiership-The-Showgrounds-Coleraine-05-Sep-2026.jpg",
-      "summary": "Liverpool are keen to bolster their youth ranks with their focus supposedly turning to a teenage goalscoring phenom",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790243207000
-    },
-    {
-      "competition": "mirror",
-      "title": "Dominic Calvert-Lewin can grab England's Harry Kane role five years after seeing it slip",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-dominic-calvertlewin-kane-tuchel-37696752",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37697089.ece/ALTERNATES/s615/0_GettyImages-2269203189-copy.jpg",
-      "summary": "Dominic Calvert-Lewin will back-up Harry Kane for England over the next fortnight, a role he once had, and he'll hope his form sees him retain his standing come Euro 2028",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790242849000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United land multi-million Coca-Cola deal as Magpies secure major cash injection",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-land-multi-million-34664253",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article32257445.ece/ALTERNATES/s615/0_St-James-Park-gallowgate.jpg",
-      "summary": "Newcastle United's Chief Revenue Officer, Dave O'Connor was today celebrating a major deal with soft drinks giants Coca-Cola",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790242720000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United selling pieces of Old Trafford turf for a staggering £125",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-selling-pieces-old-34664254",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34664281.ece/ALTERNATES/s615/1_IMG_9499.jpg",
-      "summary": "Man Utd are raising funds by offering fans the chance to own a small piece of Old Trafford's former pitch.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790242585000
-    },
-    {
-      "competition": "bbc",
-      "title": "How Man City overhauled their squad from a 650,000-strong database",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm1wx51gyly5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0ec/live/a3f20410-b7fa-11f1-8ef6-b9665ffdab6f.jpg",
-      "summary": "BBC Sport goes inside Manchester City's data team, who have been a key part of their rebuild over the past 18 months.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790242282000
-    },
-    {
-      "competition": "echo",
-      "title": "Former Liverpool striker Andy Carroll says he was sexually assaulted in 'traumatic' attack",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-andy-carroll-sexual-assault-34664416",
-      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article33723889.ece/ALTERNATES/s615/1_GettyImages-110371521.jpg",
-      "summary": "Andy Carroll, Liverpool's former record signing, has opened up on how he was sexually assaulted in a traumatic attack in his new autobiography, Owning It",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790242183000
-    },
-    {
-      "competition": "men",
-      "title": "Tijjani Reijnders' honest response to 'money grabber' accusation after Man City transfer",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/tijjani-reijnders-honest-response-money-34663836",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34664143.ece/ALTERNATES/s615/1_GettyImages-2295962534.jpg",
-      "summary": "Tijjani Reijnders left Manchester City in the summer transfer window after just one season at the Etihad Stadium",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790241750000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Andy Carroll opens up on 'traumatic' sexual assault after Newcastle United game",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/andy-carroll-sexual-assault-newcastle-34664217",
-      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34664277.ece/ALTERNATES/s615/0_JS250744329.jpg",
-      "summary": "The former Newcastle United and England froward Andy Carroll has made the shocking revelation in his new autobiography",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790241484000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United announce exciting midfielder signing from Man City",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-announce-exciting-midfielder-34663982",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34664129.ece/ALTERNATES/s615/1_Screenshot-2026-09-24-100157.png",
-      "summary": "Man Utd have announced the signing of talented youngster Karim Cassim for their rivals Man City.",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1790241234000
-    },
-    {
-      "competition": "bbc",
-      "title": "Send us your Scotland World Cup memories of Boston",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c04k6nqgxdpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6174/live/467fc120-9a43-11f1-aed2-8d6da8d75094.jpg",
-      "summary": "BBC Scotland is looking for Scotland supporters to send us their videos, audio and memories of that magical week or so in Boston at the World Cup.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790241200000
-    },
-    {
-      "competition": "metro",
-      "title": "Barcelona make promise to JJ Gabriel after Real Madrid submit offer for Man Utd wonderkid",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/barcelona-make-promise-jj-gabriel-real-madrid-submit-offer-man-utd-wonderkid-29649224/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312581115-6c65.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "realmadrid",
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790240673000
-    },
-    {
-      "competition": "bundes",
-      "title": "Germany to wear final Adidas shirt against the Netherlands",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/adidas-release-final-germany-shirt-nike-jurgen-klopp-39333",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083683418h.jpg?crop=37px%2C0px%2C3125px%2C1758px",
-      "summary": "Germany will wear their final shirt made by Adidas against the Netherlands in the UEFA Nations League on Thursday (kick-off: 8.45pm).",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790240627000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Milan want Rabiot to commit to long-term contract",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/milan-want-rabiot-to-commit-long-term-contract/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Adrien-Rabiot-rah.jpg",
-      "summary": "Thursday’s reports claim that Milan want midfielder Adrien Rabiot to commit to a new long-term...",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1790240185000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United confirm new boardroom appointment as club's 2027 recruitment drive begins",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/newcastle-united-confirm-new-boardroom-34663718",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article32094747.ece/ALTERNATES/s615/0_JS375690016.jpg",
-      "summary": "Life after Andy Howe has started at Newcastle United with a reshuffle behind the scenes at St James' Park",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790240131000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal star to watch national team game from stands due to agreement with club",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-jurrien-timber-injury-34663719",
-      "image": "https://i2-prod.football.london/incoming/article34663734.ece/ALTERNATES/s615/0_GettyImages-2290675173.jpg",
-      "summary": "A watching brief for one Arsenal player as the international break gets underway",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790239522000
     }
   ]
 }
