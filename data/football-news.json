@@ -1,17 +1,68 @@
 {
-  "generatedAt": 1790265306298,
+  "generatedAt": 1790269500027,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 736,
-    "droppedKeyword": 39,
+    "raw": 1520,
+    "tagged": 739,
+    "droppedKeyword": 35,
     "droppedOtherSport": 1,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "Netherlands vs Germany LIVE: Jurgen Klopp’s first game pits him against Xavi in Nations League",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
+      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790269441000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
+      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
+      "summary": "Everything you need to know ahead of the Nations League fixture",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790268935000
+    },
+    {
+      "competition": "indy",
+      "title": "Portugal v Wales LIVE: Cristiano Ronaldo question hangs over Selecao for Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
+      "image": "https://static.independent.co.uk/2026/09/23/17/2026-09-23T155303Z_1367993834_RC2L8MAXXLUH_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=103%2C0%2C103%2C0",
+      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790268733000
+    },
+    {
+      "competition": "mirror",
+      "title": "Scott McTominay makes Napoli return just two weeks after undergoing heart surgery",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/scott-mctominay-heart-surgery-napoli-37699566",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37699565.ece/ALTERNATES/s615/0_SSC-Napoli-Training-Session.jpg",
+      "summary": "Scott McTominay is closing in on a comeback after undergoing a heart procedure",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1790268588000
+    },
     {
       "competition": "mirror",
       "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
@@ -22,7 +73,160 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790264686000
+      "publishedAt": 1790268372000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Probable Italy vs. Belgium line-ups and latest injury news",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/probable-italy-vs-belgium-line-ups-injury-news/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-training-session-414x276.jpg",
+      "summary": "Italy tested Moise Kean and Francesco Pio Esposito together for the Nations League clash, while...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790267893000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
+      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790267844000
+    },
+    {
+      "competition": "bbc",
+      "title": "Georgia's Kvaratskhelia proud of Best comparison",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2zdgz8jqvo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb97/live/86605840-b7e9-11f1-b86f-f9f95031dc8c.jpg",
+      "summary": "Paris St-Germain's Khvicha Kvaratskhelia says he already feels like he has achieved \"something special\" to be nominated for the Ballon d'Or.",
+      "teams": [
+        "georgia"
+      ],
+      "publishedAt": 1790267479000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Norway vs Denmark – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/norway-denmark-tv-channel-stream-37684688",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37684987.ece/ALTERNATES/s615/1_Broendby-Denmark-08th-June-2024-Erling-Haaland-9-of-Norway-and-Andreas-Christensen-6-of-Denm.jpg",
+      "summary": "Norway and Denmark are due to face off in a tantalising UEFA Nations League opener",
+      "teams": [
+        "denmark",
+        "norway"
+      ],
+      "publishedAt": 1790267400000
+    },
+    {
+      "competition": "echo",
+      "title": "Is Jurgen Klopp's first game as Germany boss vs Netherlands on TV? Date, time, streaming info",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopps-first-game-germany-34648834",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34626742.ece/ALTERNATES/s615/2_GettyImages-2286779499.jpg",
+      "summary": "Jurgen Klopp's debut as Germany manager will take place against Xavi's Netherlands as the UEFA Nations League picks back up",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790267400000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Football Italia Show: What we spotted at Italy’s final training before Belgium clash",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/what-spotted-italy-training-belgium/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-training-414x288.jpg",
+      "summary": "Football Italia was among the accredited media at Italy s final training session ahead of their...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790267362000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Portugal vs Wales for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/portugal-wales-stream-channel-league-37684519",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37396677.ece/ALTERNATES/s615/3_Portugal-v-Spain-Round-of-16-FIFA-World-Cup-2026.jpg",
+      "summary": "Cristiano Ronaldo's Portugal return to international action against Craig Bellamy's Wales as the UEFA Nations League resumes",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790267100000
+    },
+    {
+      "competition": "indy",
+      "title": "Virgil van Dijk hits back at ‘nonsense’ claims that he influenced Netherlands’ World Cup tactics",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/virgil-van-dijk-koeman-netherlands-world-cup-tactics-b3055259.html",
+      "image": "https://static.independent.co.uk/2026/09/23/17/2283971940..?width=1200&auto=webp&trim=0%2C71%2C0%2C71",
+      "summary": "The Netherlands were knocked out by Morocco in the round of 32 following a penalty shootout defeat",
+      "teams": [
+        "netherlands"
+      ],
+      "publishedAt": 1790266917000
+    },
+    {
+      "competition": "mirror",
+      "title": "What channel is Kosovo vs Republic of Ireland on? TV, streaming and kick-off time info",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ireland-kosovo-nations-league-tv-37684044",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37684271.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
+      "summary": "The Nations League returns during this international break with the Republic of Ireland travelling to face Kosovo",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790266500000
+    },
+    {
+      "competition": "mirror",
+      "title": "Is Netherlands vs Germany on TV? How to watch Nations League clash on TV and streaming",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/netherlands-germany-stream-channel-league-37684250",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37674627.ece/ALTERNATES/s615/1_GettyImages-2295705405.jpg",
+      "summary": "Jurgen Klopp and Xavi will make their international debuts with Germany and the Netherlands in the UEFA Nations League",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790265600000
+    },
+    {
+      "competition": "men",
+      "title": "John Stones in Italy - Inter start, pundit comments and familiar Man City problem",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/john-stones-italy-inter-start-34665258",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34666183.ece/ALTERNATES/s615/0_premium-canvas-1790253451544.png",
+      "summary": "Manchester City favourite John Stones signed a two-year contract with Inter Milan this summer after a successful decade at the Etihad Stadium",
+      "teams": [
+        "mancity",
+        "italy"
+      ],
+      "publishedAt": 1790265600000
+    },
+    {
+      "competition": "men",
+      "title": "Carlos Baleba makes three 'deliberate' Man United decisions as Bryan Mbeumo takes action",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/carlos-baleba-man-united-mbeumo-34667675",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34667847.ece/ALTERNATES/s615/0_Fulham-v-Manchester-United-Premier-League-202627.jpg",
+      "summary": "Carlos Baleba is yet to make his Manchester United debut after joining from Brighton in a £70million move, with an injury delaying his start at the club",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790265048000
     },
     {
       "competition": "fitalia",
@@ -122,19 +326,6 @@
       "publishedAt": 1790261755000
     },
     {
-      "competition": "indy",
-      "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-tv-channel-time-nations-league-b3054783.html",
-      "image": "https://static.independent.co.uk/2026/09/23/09/2296645057..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Everything you need to know as Jurgen Klopp and Xavi start their tenures",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790261410000
-    },
-    {
       "competition": "fitalia",
       "title": "Report: Juventus could reignite Alisson interest as Liverpool talks pause",
       "publisher": "Football Italia",
@@ -146,19 +337,6 @@
         "juventus"
       ],
       "publishedAt": 1790261182000
-    },
-    {
-      "competition": "indy",
-      "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
-      "image": "https://static.independent.co.uk/2026/09/18/13/01KN28QRB9Z4SKZX7PFJVB4T56.jpg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
-      "summary": "Everything you need to know ahead of the Nations League fixture",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790260396000
     },
     {
       "competition": "indy",
@@ -406,19 +584,6 @@
       "publishedAt": 1790253361000
     },
     {
-      "competition": "guardian",
-      "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/archive-1985-alcohol-banned-from-football-grounds-in-england-and-wales",
-      "image": "https://i.guim.co.uk/img/media/096ba813fda74ec08a6cfeb1130ca9e97e468aef/481_0_2523_2019/master/2523.jpg?width=140&quality=85&auto=format&fit=max&s=88662595332b567f4e69b4f62a357a81",
-      "summary": "The violence at the Luton Town v Millwall FA Cup match in 1985, along with the Heysel Stadium disaster, saw the Thatcher government enact new lawsUK prime minister Andy Burnham has spoken out about football fans facing…",
-      "teams": [
-        "england",
-        "wales"
-      ],
-      "publishedAt": 1790253178000
-    },
-    {
       "competition": "echo",
       "title": "Liverpool will soon learn truth about squad and Andoni Iraola knows it",
       "publisher": "Liverpool Echo",
@@ -586,165 +751,6 @@
         "mancity"
       ],
       "publishedAt": 1790248790000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Florent Ghisolfi reveals FOUR reasons Sunderland offered Enzo Le Fee a new contract",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/florent-ghisolfi-reveals-four-reasons-34665408",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34665438.ece/ALTERNATES/s615/1_GettyImages-2296337533.jpg",
-      "summary": "Enzo Le Fee signed a new five-year contract with Sunderland",
-      "teams": [
-        "sunderland"
-      ],
-      "publishedAt": 1790248499000
-    },
-    {
-      "competition": "indy",
-      "title": "Rio Ngumoha ready to ‘embrace the chaos’ as he vows to bring ‘fearless’ mindset to England squad",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/rio-ngumoha-england-squad-thomas-tuchel-b3055679.html",
-      "image": "https://static.independent.co.uk/2026/09/24/11/2296614111..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Ngumoha impressed during England’s pre-World Cup training camp",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790247659000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Kean has an opportunity to make Italy history against Belgium in Mancini’s 2nd debut",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/kean-on-verge-italy-history-ahead-of-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/Moise-Kean-celebrate.jpg",
-      "summary": "Roberto Mancini is preparing for his second debut in charge of the Italy national team...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790247269000
-    },
-    {
-      "competition": "echo",
-      "title": "Antoine Semenyo sent home from Ghana duty as statement issued ahead of Liverpool vs Man City",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/antoine-semenyo-sent-home-ghana-34664735",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34665060.ece/ALTERNATES/s615/0_Manchester-City-v-Sunderland-Premier-League-202627.jpg",
-      "summary": "Liverpool return to action after the international break against Manchester City as they look to end the Premier League leaders' winning start",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790247129000
-    },
-    {
-      "competition": "mirror",
-      "title": "England's latest teenage star lays down marker for 'greatness to come' on home soil",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-rio-ngumoha-ambitions-euros-37697271",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37697319.ece/ALTERNATES/s615/0_GettyImages-2296761696.jpg",
-      "summary": "Rio Ngumoha has been called into England's senior squad and has shied away from talking up his goals, eyeing up glory in the Euros on home soil in two years time",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790246514000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Four midfielders Chelsea can sign as Xabi Alonso next priority clear",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/four-midfielders-chelsea-can-sign-34664209",
-      "image": "https://i2-prod.football.london/incoming/article34557284.ece/ALTERNATES/s615/1_GettyImages-2287679750.jpg",
-      "summary": "Chelsea missed out on a central midfielder late in the summer transfer window but it is a situation the Blues could potentially revisit once January comes around",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790246375000
-    },
-    {
-      "competition": "men",
-      "title": "'I wasn't as strong' - Man United 'target' endorsed by two legends with over 200 career goals",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/pio-esposito-man-utd-transfer-34663441",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34663809.ece/ALTERNATES/s615/0_Pio-Esposito.jpg",
-      "summary": "A Manchester United transfer target has been praised by two legends after an impressive start to the season and links with some of the biggest European clubs",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790246263000
-    },
-    {
-      "competition": "echo",
-      "title": "Rio Ngumoha on how Liverpool boss Andoni Iraola is helping him 'destroy defenders'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-how-liverpool-boss-34664196",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664210.ece/ALTERNATES/s615/0_GettyImages-2296761696.jpg",
-      "summary": "Liverpool winger Rio Ngumoha has been talking after being called up for the England squad for their forthcoming UEFA Nations League matches",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790244900000
-    },
-    {
-      "competition": "echo",
-      "title": "Former Everton player 'gobsmacked' by transfer window scrutiny - 'People are really upset'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/former-everton-player-gobsmacked-transfer-34663348",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34663386.ece/ALTERNATES/s615/0_GettyImages-2292527306.jpg",
-      "summary": "There is too much emphasis on transfer windows and the focus should change to results on the pitch reckons former Everton player Thomas Hitzlsperger",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790244866000
-    },
-    {
-      "competition": "guardian",
-      "title": "Have Arsenal been figured out? Three big questions after Brighton’s upset",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/sport/2026/sep/24/arsenal-brighton-premier-league-questions",
-      "image": "https://i.guim.co.uk/img/media/35083f0578a65fdcd9cb8f60ebdf481f41cf43b0/339_140_2053_1642/master/2053.jpg?width=140&quality=85&auto=format&fit=max&s=caadb72a227fbe53023293b3135761ca",
-      "summary": "This week, we dive into the big questions surrounding the most surprising result of the Premier League weekendBefore this past weekend, Arsenal had not lost in the Premier League since April. Nine straight league wins…",
-      "teams": [
-        "brighton",
-        "arsenal"
-      ],
-      "publishedAt": 1790244014000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Why Andy Burnham is wrong to change Emirates Stadium laws as Arsenal fans pushback on proposals",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/andy-burnham-wrong-change-emirates-34664605",
-      "image": "https://i2-prod.football.london/incoming/article34664621.ece/ALTERNATES/s615/1_Arsenal-and-UK-Alcohol-Laws-in-Football-Grounds.jpg",
-      "summary": "The UK Prime Minister Andy Burnham has sparked backlash after proposing to change the law that would see alcohol permitted to enter the likes of the Emirates Stadium during games and football.london has heard push back…",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790243994000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ex-England star Andy Carroll bravely opens up on sex assault hell after 'celeb pal' is jailed",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/andy-carroll-sexually-assaulted-book-37696997",
-      "image": "https://i2-prod.irishmirror.ie/incoming/article25465442.ece/ALTERNATES/s615/3_GettyImages-1318911290.jpg",
-      "summary": "Andy Carroll has bravely detailed his 'traumatic' experience of being sexually assaulted, telling his story in the hope that he'll help other survivors of such abuse",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790243972000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini has two personnel decisions to make ahead of second Italy debut",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-two-line-up-doubts-second-italy-debut/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/Italy-celebrating.jpg",
-      "summary": "Italy get their 2026-27 Nations League campaign underway with a visit from Belgium at the...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790243275000
     }
   ]
 }
