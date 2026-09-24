@@ -1,17 +1,66 @@
 {
-  "generatedAt": 1790228558108,
+  "generatedAt": 1790229976177,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1539,
-    "tagged": 778,
-    "droppedKeyword": 36,
-    "droppedOtherSport": 2,
+    "raw": 1536,
+    "tagged": 765,
+    "droppedKeyword": 35,
+    "droppedOtherSport": 3,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 45
+    "withImage": 46
   },
   "items": [
+    {
+      "competition": "footlondon",
+      "title": "I won the Champions League with Chelsea but winning another cup was 10x better",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/won-champions-league-chelsea-winning-34657600",
+      "image": "https://i2-prod.football.london/incoming/article21812123.ece/ALTERNATES/s615/2_GettyImages-1233196758.jpg",
+      "summary": "Winning the Champions League doesn't rank as the best career moment for one Chelsea hero",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790229600000
+    },
+    {
+      "competition": "echo",
+      "title": "Richarlison 'shame' verdict delivered after emotional Everton return hopes ended",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/richarlison-shame-verdict-delivered-after-34662964",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34663035.ece/ALTERNATES/s615/0_GettyImages-2291604947.jpg",
+      "summary": "Tim Sherwood believes a return to Everton for Richarlison from Tottenham Hotspur would have suited all parties with the striker now facing a spell on the sidelines",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790229600000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Bruno Guimaraes statement on why he forced move from Newcastle United to Arsenal - 'I felt inside'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/bruno-guimaraes-transfer-newcastle-arsenal-34661626",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34617422.ece/ALTERNATES/s615/0_Arsenal-FC-Training-Session.jpg",
+      "summary": "Newcastle United lost their talismanic captain in the summer after a difficult transfer wrangle",
+      "teams": [
+        "newcastle",
+        "arsenal"
+      ],
+      "publishedAt": 1790229600000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man United news LIVE: JJ Gabriel receives 'guarantee', Antonio Conte links, two new targets",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790229409000
+    },
     {
       "competition": "bbc",
       "title": "Why this break has come at the worst time for De Zerbi & Spurs",
@@ -25,18 +74,6 @@
       "publishedAt": 1790228244000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37687273.ece/ALTERNATES/s615/0_AC-Milan-v-Manchester-United-Pre-Season-Friendly.jpg",
-      "summary": "Plenty is going on at Manchester United during the first international break of the season, with the club facing a number of issues after a disappointing start to their Premier League campaign, including uncertainty…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790227274000
-    },
-    {
       "competition": "bbc",
       "title": "England should stop trying to replicate Spain - Gordon",
       "publisher": "BBC Sport",
@@ -48,6 +85,18 @@
         "spain"
       ],
       "publishedAt": 1790226326000
+    },
+    {
+      "competition": "guardian",
+      "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
+      "image": "https://i.guim.co.uk/img/media/e07ebc008355e9b3193de2e1545e93d1e9b27f68/135_0_2687_2151/master/2687.jpg?width=140&quality=85&auto=format&fit=max&s=fa1302581c9fae51d6508f9dd818bf1f",
+      "summary": "Barcelona winger says England cannot play like SpainGordon: players ‘could have done more’ in semi-finalAnthony Gordon has sided with Thomas Tuchel’s assertion that controlling games through possession is not part of…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790226009000
     },
     {
       "competition": "indy",
@@ -111,11 +160,24 @@
     },
     {
       "competition": "echo",
-      "title": "Jurgen Klopp has a plan for Florian Wirtz – and Liverpool are about to see it",
+      "title": "I lived through Wayne Rooney's transfer from Everton to Man United and remember the crying",
       "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jurgen-klopp-wirtz-germany-34658861",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34368064.ece/ALTERNATES/s615/0_01KY9SR69BCQQ9WW12RWY6E7B4.jpg",
-      "summary": "Jurgen Klopp has made his thoughts clear on Florian Wirtz as Liverpool strive to get the best out of the German",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/lived-through-wayne-rooneys-transfer-34659867",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article9982018.ece/ALTERNATES/s615/0_CD10048978.jpg",
+      "summary": "Some of the stories from Harry Harris' upcoming publication The Black Book surround the late Everton owner Bill Kenwright",
+      "teams": [
+        "manutd",
+        "everton"
+      ],
+      "publishedAt": 1790226000000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool latest: Dominik Szoboszlai tells team-mates straight as 'bargain transfer eyed'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-dominik-szoboszlai-january-transfer-34662199",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34662198.ece/ALTERNATES/s615/0_AFC-Bournemouth-v-Liverpool-Premier-League-202627.jpg",
+      "summary": "Liverpool news as Andoni Iraola ponders solutions to the issues he inherited in the summer",
       "teams": [
         "liverpool"
       ],
@@ -135,26 +197,13 @@
     },
     {
       "competition": "echo",
-      "title": "Liverpool latest: Dominik Szoboszlai tells team-mates straight as 'bargain transfer eyed'",
+      "title": "Jurgen Klopp has a plan for Florian Wirtz – and Liverpool are about to see it",
       "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-dominik-szoboszlai-january-transfer-34662199",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34662198.ece/ALTERNATES/s615/0_AFC-Bournemouth-v-Liverpool-Premier-League-202627.jpg",
-      "summary": "Liverpool news as Andoni Iraola ponders solutions to the issues he inherited in the summer",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jurgen-klopp-wirtz-germany-34658861",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34368064.ece/ALTERNATES/s615/0_01KY9SR69BCQQ9WW12RWY6E7B4.jpg",
+      "summary": "Jurgen Klopp has made his thoughts clear on Florian Wirtz as Liverpool strive to get the best out of the German",
       "teams": [
         "liverpool"
-      ],
-      "publishedAt": 1790226000000
-    },
-    {
-      "competition": "echo",
-      "title": "I lived through Wayne Rooney's transfer from Everton to Man United and remember the crying",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/lived-through-wayne-rooneys-transfer-34659867",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article9982018.ece/ALTERNATES/s615/0_CD10048978.jpg",
-      "summary": "Some of the stories from Harry Harris' upcoming publication The Black Book surround the late Everton owner Bill Kenwright",
-      "teams": [
-        "manutd",
-        "everton"
       ],
       "publishedAt": 1790226000000
     },
@@ -221,18 +270,6 @@
     },
     {
       "competition": "echo",
-      "title": "Bradley Barcola 'isn't worth the money' as Liverpool sent Jeremy Jacquet warning",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-isnt-worth-money-34661618",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34661705.ece/ALTERNATES/s615/0_GettyImages-2203408899.jpg",
-      "summary": "Former Chelsea defender Frank Lebouef has delivered his verdict on Liverpool's two new France internationals",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "echo",
       "title": "David Moyes has three clear Everton priorities as he looks to solve transfer problem",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-three-clear-everton-34656313",
@@ -240,6 +277,18 @@
       "summary": "Getting Christian Norgaard and Merlin Rohl fit, avoiding any setbacks for James Garner and Jarrad Branthwaite, and finding the best back-up to Thierno Barry will be top of the Everton manager's international break to-do…",
       "teams": [
         "everton"
+      ],
+      "publishedAt": 1790222400000
+    },
+    {
+      "competition": "echo",
+      "title": "Bradley Barcola 'isn't worth the money' as Liverpool sent Jeremy Jacquet warning",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-isnt-worth-money-34661618",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34661705.ece/ALTERNATES/s615/0_GettyImages-2203408899.jpg",
+      "summary": "Former Chelsea defender Frank Lebouef has delivered his verdict on Liverpool's two new France internationals",
+      "teams": [
+        "liverpool"
       ],
       "publishedAt": 1790222400000
     },
@@ -351,18 +400,6 @@
       "publishedAt": 1790199207000
     },
     {
-      "competition": "unl-a",
-      "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4UFZQQWQyX241R3pUTzcybUFtMmhFMlRSSnl6aVlfVnhEVS1TQ29Za3NKS3dOM1JzSURvU09TOElXZHZ2eEpCRUczZ2JyNDJDaU5RZ0ZISU81NWVGcmVUS1VVSDN5Zw?oc=5",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790227894000,
-      "image": null
-    },
-    {
       "competition": "epl",
       "title": "Man Utd put chunks of Old Trafford up for sale",
       "publisher": "Reuters",
@@ -370,7 +407,7 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790227380000,
+      "publishedAt": 1790227820000,
       "image": null
     },
     {
@@ -383,18 +420,6 @@
         "barcelona"
       ],
       "publishedAt": 1790226283000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Netherlands vs Germany: Key battles - how Xavi and Klopp will fight for tactical supremacy",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObE13RF9ma0gtQkJTcE92aFVmMUFvYTF4d3BXYXNWLXAzUVIzYkdsRU1iUDc0eDhQOWVYQUJvNXNzSEhLaHdfb0FacU14c1REOW5XREhXMG9oWjhqTGMtSmRrdXU2ZzhLUEIzZ3hsV0V3XzBUYWkwZW9xVFhXSEk3SFVEMElUUlp6aElaVnZtRkRkSEtoWTFDODVQTVVQUVZsV0o1WFJGN3RDZW1vTWVmVnRISXJXb2I1YUxWN2dmY1JGTTBoSHQwV1gteDV0ekxacGc?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790226034000,
       "image": null
     },
     {
@@ -422,6 +447,17 @@
       "image": null
     },
     {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790225976000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "Eric Cantona says he would not have joined Man Utd if Sir Jim Ratcliffe was owner",
       "publisher": "The Independent",
@@ -434,17 +470,6 @@
       "publishedAt": 1790196391000
     },
     {
-      "competition": "unl-a",
-      "title": "Haaland 200M flop! Denmark boss Riemer insists he did not snub Erling during secret Danish trial",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNk9GYW5HSGowUURleU95N1hPaU5JeV84MmV4V2tNNXZ0Z3FkQ256b1FlZlZCUFVMOHV1X0NQeTEzMk9PdHBRN21xZVJVeHBBai1VREFXWWpwWkZLTE03UHowOENjeVhqUVFqTW5Nc3otTG13aWRwV1NNUm5JSk00SW1kelJIbnpSVU5fbWo4ZmpTcGdrZzg0Uk1CODV4dy1FUmNfamVPeGFvbHJlMzBrNWFUSU16Zw?oc=5",
-      "teams": [
-        "denmark"
-      ],
-      "publishedAt": 1790224678000,
-      "image": null
-    },
-    {
       "competition": "epl",
       "title": "Three big issues Julian Ward would need to resolve as Liverpool’s new sporting director",
       "publisher": "The New York Times",
@@ -453,6 +478,18 @@
         "liverpool"
       ],
       "publishedAt": 1790223862000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Explained: Why two Republic of Ireland vs Israel matches have become so controversial",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTkRFVmJuTkJoTkhsVXMwd3VFRDlaR3NKdC1vNUpMaW5UT1o1ekNvQUpWMEE0eEt2elVXYzE3SVI0M2UzcVllVndiUl9VRGhGNTl3Q1l1UjdXNkFRTnViM2NoWjFHdmFleTV2NzZlQ2xVN0h4SHIxTXVsMjZBSDBBTjhGSTBhbnQ3ekxGZmQtSldjQ1I5S2pSemF0RjJtbnc?oc=5",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790223180000,
       "image": null
     },
     {
@@ -502,6 +539,18 @@
         "acmilan"
       ],
       "publishedAt": 1790193444000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
+      "publisher": "bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFT3B4Rl9jYmNBUTVQeVUtWm5Ba1VNUUFwSGdHUlFOYl9OTFRsMmJ5VGs1NU0zWUNwWkg4ZjhtelUyVWR5NzFEWl8xdnJDTVJkbmt4QjdlYzd3TmNDSW1qZG0wVQ?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790222173000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -562,17 +611,6 @@
         "barcelona"
       ],
       "publishedAt": 1790219492000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790218867000,
       "image": null
     },
     {
@@ -672,18 +710,6 @@
       "image": null
     },
     {
-      "competition": "guardian",
-      "title": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
-      "image": "https://i.guim.co.uk/img/media/222832b656c43ee0e623323ae51d721820678d28/295_0_3370_2696/master/3370.jpg?width=140&quality=85&auto=format&fit=max&s=3b7623d37f92de214a32c54c084a860e",
-      "summary": "‘It wasn’t the team that we wanted and said we’d be’England host Spain in Nations League on SaturdayHarry Kane has described England’s World Cup semi-final defeat against Argentina as his most painful tournament exit…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790186455000
-    },
-    {
       "competition": "indy",
       "title": "Harry Kane provides update on Bayern Munich contract talks",
       "publisher": "The Independent",
@@ -706,30 +732,6 @@
         "england"
       ],
       "publishedAt": 1790186429000
-    },
-    {
-      "competition": "mirror",
-      "title": "Harry Kane opens up on Bayern Munich contract - and reveals surprise career change plan",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-bayern-contract-nfl-37694855",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37694891.ece/ALTERNATES/s615/0_GettyImages-2295411452.jpg",
-      "summary": "England captain Harry Kane is already thinking about life after football, with the 33-year-old making plans for when he eventually leaves Bayern Munich",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790186400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Harry Kane opens up on true impact of England's World Cup heartbreak vs Argentina",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-england-argentina-spain-37694569",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37694478.ece/ALTERNATES/s615/0_GettyImages-2286282264.jpg",
-      "summary": "England captain Harry Kane has linked up with the Three Lions for the first time since their World Cup heartbreak against Argentina and the striker is keen to move on from that disappointment",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790186400000
     }
   ]
 }
