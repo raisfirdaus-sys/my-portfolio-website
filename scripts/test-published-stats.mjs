@@ -20,13 +20,23 @@ catch { console.log("  skip jsdom is not installed - run: npm i jsdom"); process
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const base = JSON.parse(fs.readFileSync(path.join(ROOT, "data/moneyball-fixtures.json"), "utf8"));
 
-/* Four teams published the way an export would land them in the file. */
+/* Four teams published the way an export would land them in the file, on a
+   board that is otherwise empty. Starting from whatever is published today
+   would make this test measure the data file rather than the mechanism. */
 const PUBLISHED = ["chelsea", "brentford", "astonvilla", "manutd"].filter((k) => base.teams[k]);
 const fixtures = JSON.parse(JSON.stringify(base));
+const FIELDS = ["matches", "goals", "xgF", "xgA", "xA", "shots", "sot",
+                "bigMiss", "fouls", "tackles", "yellow", "red"];
+Object.keys(fixtures.teams).forEach((k) => {
+  FIELDS.forEach((f) => { fixtures.teams[k][f] = f === "matches" ? 0 : null; });
+  fixtures.teams[k].statsMissing = true;
+  delete fixtures.teams[k].measured;
+  delete fixtures.teams[k].measuredAt;
+});
 PUBLISHED.forEach((k, i) => {
   Object.assign(fixtures.teams[k], {
     measured: true, measuredAt: "2026-09-23", statsMissing: false,
-    matches: 7, xgF: 1.5 + i * 0.1, xgA: 1.2, goals: 1.4, shots: 13.5,
+    matches: 7, xgF: 1.5 + i * 0.1, xgA: 1.2, goals: 1.4, shots: 13.5, sot: 4.6,
     fouls: 11, tackles: 16, yellow: 1.9, red: 0.07
   });
 });

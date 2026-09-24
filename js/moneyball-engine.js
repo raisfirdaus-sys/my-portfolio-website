@@ -166,16 +166,27 @@
     // Only 25% of the repeatability signal moves the mean; the rest widens CI.
     var repeatMean = 1 + (repeatability - 1) * 0.25;
 
-    /* --- defensive intensity: tackles suppress, fouls concede ----------- */
-    var zT = (t.tackles - K.LEAGUE_TACKLES) / K.SD_TACKLES;
-    var zF = (t.fouls - K.LEAGUE_FOULS) / K.SD_FOULS;
+    /* --- defensive intensity: tackles suppress, fouls concede -----------
+       A column that was never filled in is UNKNOWN, not zero. Read as zero,
+       a missing tackle count scored seven standard deviations below the
+       league and a missing foul count six above, which pinned every such
+       team at the cap and multiplied both sides of every fixture by 1.11.
+       On a board where nobody had entered these columns that was an 11%
+       lift on every total - it read as the model wanting Over on almost
+       every row, and it was nothing of the kind. Unknown now means the
+       league average, which is what having no information should mean. */
+    var zT = t.tackles == null ? 0 : (t.tackles - K.LEAGUE_TACKLES) / K.SD_TACKLES;
+    var zF = t.fouls == null ? 0 : (t.fouls - K.LEAGUE_FOULS) / K.SD_FOULS;
     var defIntensity = clamp(
       1 - K.TACKLE_COEF * zT + K.FOUL_COEF * zF,
       1 - K.DEF_INTENSITY_CAP, 1 + K.DEF_INTENSITY_CAP
     );
 
     /* --- red-card hazard ------------------------------------------------ */
-    var hazard = K.RED_FROM_FOULS * t.fouls + K.RED_FROM_YELLOW * t.yellow;
+    /* Same again for the red-card hazard: no discipline figures means the
+       league's own rate, not a team that never fouls and never books. */
+    var hazard = K.RED_FROM_FOULS * (t.fouls == null ? K.LEAGUE_FOULS : t.fouls) +
+                 K.RED_FROM_YELLOW * (t.yellow == null ? 1.8 : t.yellow);
     var pRed = clamp(
       K.RED_HIST_WEIGHT * (t.red || 0) + (1 - K.RED_HIST_WEIGHT) * hazard,
       0.01, 0.35
