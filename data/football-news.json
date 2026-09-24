@@ -1,17 +1,67 @@
 {
-  "generatedAt": 1790287361090,
+  "generatedAt": 1790290393217,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1518,
-    "tagged": 750,
+    "raw": 1516,
+    "tagged": 746,
     "droppedKeyword": 25,
     "droppedOtherSport": 2,
-    "droppedFeed": 5,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/21a86f8f7e00d39b4eff84d5dfb159224a2c0ec7/353_0_3903_3122/master/3903.jpg?width=140&quality=85&auto=format&fit=max&s=e5bc0fa4b4907c68f97305f244829686",
+      "summary": "At least Germany can be sure it will not be dull. Jürgen Klopp had predicted his debut as head coach could be wild, a trait he would accept as long as his team were lively enough. Both transpired in a frayed,…",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790289551000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man Utd borrow another £90m as debt tops £1.1bn",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2zv4e320do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdb6/live/a008a730-b842-11f1-b1d1-571ed4d7ff2c.jpg",
+      "summary": "Manchester United confirm they have borrowed another £90m since 30 June, to take their overall debt to more than £1.1bn.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790288563000
+    },
+    {
+      "competition": "indy",
+      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
+      "image": "https://static.independent.co.uk/2026/09/24/22/2296960041..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
+      "teams": [
+        "austria",
+        "israel"
+      ],
+      "publishedAt": 1790287721000
+    },
+    {
+      "competition": "bbc",
+      "title": "'Don't put pressure on us' over Israel games - Ogbene",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c61kx1lyxz91o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c58/live/2ce7a380-b862-11f1-93a5-e363768bffbc.jpg",
+      "summary": "Republic of Ireland winger Chiedozie Ogbene urges the public to not \"put the pressure on us\" over the campaign to boycott the upcoming Nations League games against Israel.",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790287408000
+    },
     {
       "competition": "guardian",
       "title": "Israel’s Saied Abu Farchi sent off for gun gesture celebration in defeat by Austria",
@@ -36,19 +86,6 @@
         "liverpool"
       ],
       "publishedAt": 1790286619000
-    },
-    {
-      "competition": "indy",
-      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
-      "image": "https://static.independent.co.uk/2026/09/24/22/2296960041..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
-      "teams": [
-        "austria",
-        "israel"
-      ],
-      "publishedAt": 1790286416000
     },
     {
       "competition": "mirror",
@@ -216,24 +253,11 @@
     },
     {
       "competition": "guardian",
-      "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/21a86f8f7e00d39b4eff84d5dfb159224a2c0ec7/353_0_3903_3122/master/3903.jpg?width=140&quality=85&auto=format&fit=max&s=e5bc0fa4b4907c68f97305f244829686",
-      "summary": "Jürgen Klopp had predicted his bow as Germany manager could be wild, a trait he would accept as long as his team looked lively. He got both in a strange, frayed and at times alarmingly pinball-like game that ended with…",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790283570000
-    },
-    {
-      "competition": "guardian",
       "title": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/24/portugal-wales-nations-league-match-report",
       "image": "https://i.guim.co.uk/img/media/a345cbed7acaff2fdd5549aedcda8bccd5328618/80_0_4249_3400/master/4249.jpg?width=140&quality=85&auto=format&fit=max&s=92bab8cee8c9e1e0cccea65d0c7f36b6",
-      "summary": "There was a comic-strip feel to another eventful evening in the world of Cristiano Ronaldo. Where to start? It was the 67th minute when his No 7 went up on the fourth official’s board, prompting Ronaldo to remove the…",
+      "summary": "There was a comic-strip feel to another eventful evening in the kingdom of Cristiano Ronaldo. Where to start? It was the 67th minute when his No 7 went up on the fourth official’s board, the cue to remove the captain’s…",
       "teams": [
         "portugal",
         "wales"
@@ -283,7 +307,7 @@
       "title": "Chelsea lead race for Scott - Friday's gossip",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a160/live/eb116930-b84f-11f1-a2ec-c153af45023f.png",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3fd/live/50f70320-b861-11f1-a430-4d16ee157c41.png",
       "summary": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
       "teams": [
         "chelsea"
@@ -742,30 +766,6 @@
         "italy"
       ],
       "publishedAt": 1790265600000
-    },
-    {
-      "competition": "men",
-      "title": "Carlos Baleba makes three 'deliberate' Man United decisions as Bryan Mbeumo takes action",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/carlos-baleba-man-united-mbeumo-34667675",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34667847.ece/ALTERNATES/s615/0_Fulham-v-Manchester-United-Premier-League-202627.jpg",
-      "summary": "Carlos Baleba is yet to make his Manchester United debut after joining from Brighton in a £70million move, with an injury delaying his start at the club",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790265048000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Ramos on Milan move: &#8216;The fans are incredible, I love feeling the support&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/ramos-on-milan-move-the-fans/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Ruben-Amorim-Goncalo-Ramos-414x271.jpg",
-      "summary": "Goncalo Ramos has spoken about his first months at Milan, and the moment that made...",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1790263654000
     }
   ]
 }
