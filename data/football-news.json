@@ -1,42 +1,29 @@
 {
-  "generatedAt": 1790279926817,
+  "generatedAt": 1790282012917,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1519,
-    "tagged": 742,
-    "droppedKeyword": 29,
+    "raw": 1513,
+    "tagged": 738,
+    "droppedKeyword": 28,
     "droppedOtherSport": 1,
-    "droppedFeed": 5,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
       "competition": "indy",
-      "title": "Portugal v Wales LIVE: Ronaldo with glaring miss for dominant hosts in Nations League clash",
+      "title": "Portugal v Wales LIVE: Johnson hits crossbar as Wales hunt late Nations League equaliser",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/01M3AE9VHV2YPHTJ6R1EA9169Q.jpg?width=1200&auto=webp&trim=38%2C0%2C38%2C0",
+      "image": "https://static.independent.co.uk/2026/09/24/21/01M3AH87ARQR9Y3F2AJMD22432.jpg?width=1200&auto=webp&crop=3%3A2",
       "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
       "teams": [
         "portugal",
         "wales"
       ],
-      "publishedAt": 1790279877000
-    },
-    {
-      "competition": "indy",
-      "title": "Netherlands vs Germany LIVE: Jurgen Klopp’s side defend controversial lead in Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/2296964947..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790279814000
+      "publishedAt": 1790281797000
     },
     {
       "competition": "guardian",
@@ -50,7 +37,46 @@
         "portugal",
         "germany"
       ],
-      "publishedAt": 1790279721000
+      "publishedAt": 1790281501000
+    },
+    {
+      "competition": "indy",
+      "title": "Netherlands vs Germany LIVE: Jurgen Klopp fighting for debut win after controversial opener",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2296964947..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790281301000
+    },
+    {
+      "competition": "bbc",
+      "title": "Chelsea lead race for Scott - Friday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a160/live/eb116930-b84f-11f1-a2ec-c153af45023f.png",
+      "summary": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790281018000
+    },
+    {
+      "competition": "men",
+      "title": "Man United sign Liverpool youngster as clubs in talks over transfer fee after Man City deal",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-utd-transfer-liverpool-konde-34668898",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article34668897.ece/ALTERNATES/s615/0_Liverpool-U18-v-Middlesbrough-U18-U18-Premier-League.jpg",
+      "summary": "Manchester United are looking to recruit some of the best young talents in England",
+      "teams": [
+        "manutd",
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790279622000
     },
     {
       "competition": "indy",
@@ -64,6 +90,18 @@
         "germany"
       ],
       "publishedAt": 1790279599000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Sunderland dealt huge Brian Brobbey injury blow on international duty",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/brian-brobbey-sunderland-injury-netherlands-34668977",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668974.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
+      "summary": "Brian Brobbey was in flying form for Sunderland AFC against Manchester City at the weekend, but now faces a potential spell on the sidelines in cruel fashion",
+      "teams": [
+        "sunderland"
+      ],
+      "publishedAt": 1790279526000
     },
     {
       "competition": "mirror",
@@ -111,7 +149,7 @@
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/kai-havertz-germany-netherlands-arsenal-37700022",
       "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37700021.ece/ALTERNATES/s615/0_GettyImages-2296962980.jpg",
-      "summary": "Arsenal might have been given a serious concern with Germany striker Kai Havertz having been taken off with a problem during his nation's clash with the Netherlands in Amsterdam",
+      "summary": "Arsenal might have been given a serious concern with Germany striker Kai Havertz having been taken off with an injury during his nation's clash with the Netherlands in Amsterdam",
       "teams": [
         "arsenal",
         "germany"
@@ -652,18 +690,6 @@
       "publishedAt": 1790260065000
     },
     {
-      "competition": "fitalia",
-      "title": "Alaba on Udinese welcome: &#8216;I can&#8217;t wait to get started&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/alaba-on-udinese-cant-wait-to-get-started/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/818062457_18634772746035165_7592-414x276.jpg",
-      "summary": "David Alaba has signed his Udinese contract and delivered his first message to supporters, via...",
-      "teams": [
-        "udinese"
-      ],
-      "publishedAt": 1790260006000
-    },
-    {
       "competition": "birmingham",
       "title": "Brutal test looms for Aston Villa as Unai Emery rebuild faces 30-day trial",
       "publisher": "Birmingham Live",
@@ -736,30 +762,6 @@
         "chelsea"
       ],
       "publishedAt": 1790254940000
-    },
-    {
-      "competition": "metro",
-      "title": "Is Cole Palmer&#8217;s withdrawal from the England squad really that bad?",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/cole-palmers-withdrawal-england-squad-really-bad-29649760/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEC_313808803-ae36.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790254866000
-    },
-    {
-      "competition": "mirror",
-      "title": "Unai Emery and Aston Villa stuck in loan agreement as they face 'embarrassing' repeat",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/aston-villa-emery-garnacho-loan-37698244",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37612816.ece/ALTERNATES/s615/0_GettyImages-2292405833.jpg",
-      "summary": "Aston Villa bought in Alejandro Garnacho on loan in the summer but the Argentine is yet to start under Unai Emery, with the club having no clause to cancel his loan early",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790254860000
     }
   ]
 }
