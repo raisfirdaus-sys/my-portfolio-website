@@ -10795,9 +10795,9 @@
           "cleanWinAtPrediction": 0.5557,
           "vigAtPrediction": 0.0966,
           "lineType": "half",
-          "score": null,
+          "score": "3-1",
           "score1h": null,
-          "outcome": null
+          "outcome": "lose"
         },
         {
           "match": "Turkey vs France",
@@ -10818,6 +10818,102 @@
         }
       ],
       "guards": "Moving goalposts by whoever builds the tool, not the honesty of whoever enters the scores."
+    },
+    {
+      "id": "unl-live-20260925",
+      "label": "Nations League 24-25/09, 5 legs as placed - LOST (2 won, 3 lost)",
+      "date": "2026-09-25",
+      "stake": 100000,
+      "printedOdds": 14.54,
+      "status": "settled",
+      "note": "The first ticket placed after the statistics were published. Kept because a losing ticket priced honestly is worth more to this page than a winning one priced by luck.",
+      "legs": [
+        {
+          "match": "Netherlands vs Germany",
+          "fixtureId": "ned-ger",
+          "pick": "Under 3.50",
+          "kind": "ou",
+          "line": 3.5,
+          "side": "under",
+          "half": "ft",
+          "odds": 1.72,
+          "pModelAtPrediction": 0.598,
+          "cleanWinAtPrediction": 0.598,
+          "vigAtPrediction": 0.1044,
+          "lineType": "half",
+          "score": "1-1",
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Portugal vs Wales",
+          "fixtureId": "por-wal",
+          "pick": "Portugal -1.75",
+          "kind": "ah",
+          "line": -1.75,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.68,
+          "pModelAtPrediction": 0.516,
+          "cleanWinAtPrediction": 0.343,
+          "vigAtPrediction": 0.0653,
+          "lineType": "quarter",
+          "score": "1-0",
+          "score1h": null,
+          "outcome": "lose"
+        },
+        {
+          "match": "Kosovo vs Republic of Ireland",
+          "fixtureId": "kos-irl",
+          "pick": "Republic of Ireland +0.50",
+          "kind": "ah",
+          "line": -0.5,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.58,
+          "pModelAtPrediction": 0.618,
+          "cleanWinAtPrediction": 0.618,
+          "vigAtPrediction": 0.0973,
+          "lineType": "half",
+          "score": "1-0",
+          "score1h": null,
+          "outcome": "lose"
+        },
+        {
+          "match": "Andorra vs Malta",
+          "fixtureId": "and-mlt",
+          "pick": "Over 1.50",
+          "kind": "ou",
+          "line": 1.5,
+          "side": "over",
+          "half": "ft",
+          "odds": 1.74,
+          "pModelAtPrediction": 0.583,
+          "cleanWinAtPrediction": 0.583,
+          "vigAtPrediction": 0.096,
+          "lineType": "half",
+          "score": "1-2",
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Liechtenstein vs Lithuania",
+          "fixtureId": "lie-ltu",
+          "pick": "Liechtenstein +1.50",
+          "kind": "ah",
+          "line": 1.5,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.83,
+          "pModelAtPrediction": 0.523,
+          "cleanWinAtPrediction": 0.523,
+          "vigAtPrediction": 0.0923,
+          "lineType": "half",
+          "score": "0-2",
+          "score1h": null,
+          "outcome": "lose"
+        }
+      ]
     }
   ]
 }
