@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1790281642936,
+  "generatedAt": 1790282012917,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1515,
-    "tagged": 737,
-    "droppedKeyword": 27,
+    "raw": 1513,
+    "tagged": 738,
+    "droppedKeyword": 28,
     "droppedOtherSport": 1,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
@@ -13,29 +13,17 @@
   },
   "items": [
     {
-      "competition": "bbc",
-      "title": "Chelsea lead race for Scott - Friday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a160/live/eb116930-b84f-11f1-a2ec-c153af45023f.png",
-      "summary": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790281018000
-    },
-    {
       "competition": "indy",
-      "title": "Netherlands vs Germany LIVE: Jurgen Klopp vying for debut win after controversial opener",
+      "title": "Portugal v Wales LIVE: Johnson hits crossbar as Wales hunt late Nations League equaliser",
       "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/2296964947..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
+      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
+      "image": "https://static.independent.co.uk/2026/09/24/21/01M3AH87ARQR9Y3F2AJMD22432.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
       "teams": [
-        "netherlands",
-        "germany"
+        "portugal",
+        "wales"
       ],
-      "publishedAt": 1790280880000
+      "publishedAt": 1790281797000
     },
     {
       "competition": "guardian",
@@ -49,20 +37,32 @@
         "portugal",
         "germany"
       ],
-      "publishedAt": 1790280594000
+      "publishedAt": 1790281501000
     },
     {
       "competition": "indy",
-      "title": "Portugal v Wales LIVE: Ronaldo has goal disallowed for dominant hosts in Nations League clash",
+      "title": "Netherlands vs Germany LIVE: Jurgen Klopp fighting for debut win after controversial opener",
       "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/24/21/2026-09-24T200612Z_826824925_UP1EM9O1JUBYY_RTRMADP_3_SOCCER-UEFANATIONS-POR-WAL.JPG?width=1200&auto=webp&trim=0%2C16%2C0%2C16",
-      "summary": "Ronaldo is still in the Portugal fold under new manager Jorge Jesus despite criticism of his performances at the World Cup",
+      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2296964947..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Klopp returns to the dugout for the first time since his Liverpool exit in 2024",
       "teams": [
-        "portugal",
-        "wales"
+        "netherlands",
+        "germany"
       ],
-      "publishedAt": 1790280503000
+      "publishedAt": 1790281301000
+    },
+    {
+      "competition": "bbc",
+      "title": "Chelsea lead race for Scott - Friday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a160/live/eb116930-b84f-11f1-a2ec-c153af45023f.png",
+      "summary": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790281018000
     },
     {
       "competition": "men",
