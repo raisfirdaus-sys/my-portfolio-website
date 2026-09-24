@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790211141281,
+  "generatedAt": 1790213258756,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
-    "tagged": 763,
-    "droppedKeyword": 37,
+    "raw": 1528,
+    "tagged": 770,
+    "droppedKeyword": 40,
     "droppedOtherSport": 1,
-    "droppedFeed": 7,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
-    "withImage": 53
+    "withImage": 51
   },
   "items": [
     {
@@ -367,6 +367,30 @@
       "publishedAt": 1790183065000
     },
     {
+      "competition": "unl-a",
+      "title": "Where to watch Netherlands vs. Germany live stream, TV channel, start time for Nations League match",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQanNNa3I0amgxbTMwbWZfNHRXSmRIZllQX3dvTUJXY1BIZHJSUlIxcFQyODFBZEJfTUxxUW15RzI2OGt6T3RrRmhxclhEYzlKZk5PRndRMG81dWhKbjN2aHBmWkJ5MDZELTk5T2h1X2JDRE90Qm1BOWNzaUg4eWZvNC16Q3pBWm5QY3Fr?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790211600000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Portugal vs. Wales—Nations League: Preview, Predictions and Lineups",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjJ3cm55MFU5MVI2ck1tTWhKb3RUY1cxNkFXdTA2NEp4RnY2Vlp2LTJqZ1BocWZjZmZkU2NDTjRrd2dkbllFWFAyUkVUeVhaeG05YzhMejIzbTJyWVRPemZ6M21tWEhjWTRkRVhIaV9mUmtlWEIzSGpXMWswY01NWEhRbWhRX0xBeWM5SktfdksyUTFMWk4tdEJ3?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790211600000,
+      "image": null
+    },
+    {
       "competition": "footlondon",
       "title": "Ex-Arsenal goalkeeper who made just one appearance reaches agreement with European giants",
       "publisher": "football.london",
@@ -377,6 +401,18 @@
         "arsenal"
       ],
       "publishedAt": 1790182017000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Netherlands vs Germany UEFA Nations League A preview: All you need to know",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2pLRzU2WDE5c2E0T2dHM1JiSmVfZFBiREN3Yl9mbFVkQ2tTQl9xVjdzWjBkZ0wxbnpNdmsxNUEydmdwM1pMSlR5MUFKYjNFLWt0MGFETDFmZWJpU2VBUFRYckZQeFU1MnNPUWhOYW01T0FXZVo3SF82VGZkZWpVN1MyS3lkc3JYbUZkTzFZOUpFR3NLelUxOVFuckQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790210738000,
+      "image": null
     },
     {
       "competition": "echo",
@@ -501,7 +537,7 @@
     {
       "competition": "transfer",
       "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
-      "publisher": "ESPN",
+      "publisher": "espn.com.au",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzdYeEZLWjRwLUN6QmdtZUJ5QW4wTWNfY0pMX0hMLWEtUzFLdllLSlV4Z29DUkU1SE85SDZlc0VLZ19rUWctUEFCalFxSWRxQTViWk5QX0FubUhCdExSb3JiVG40cDNESHZmdDBRZUdmQUxQYWRtNDlsQ2hSZm5nMzNYUGlNUDJCTXlJS2c2cHRZYnpvNGllUU9FcTJHN3ZiVjB1cUE4cXYwSGY4el9JdHFIanEzbUVMek1OM1pfc25MRE1z?oc=5",
       "teams": [
         "bayern"
@@ -558,6 +594,17 @@
       "publishedAt": 1790178585000
     },
     {
+      "competition": "unl-a",
+      "title": "Cristiano Ronaldo Aims for 1,000 Goals and UEFA Nations League Title with Portugal",
+      "publisher": "VOI.id",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9CbmFLdnBhVk9DYXFMMTUxR3pCVkZLeENYdjJEeWtZRkJlYklkeTQ1Y0YxRU1wWHRfWXdjVkdvWlp2dnpfRVE?oc=5",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1790207100000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "England release statement as Newcastle star Lewis Hall misses training ahead of Spain clash",
       "publisher": "Chronicle Live",
@@ -598,7 +645,7 @@
     {
       "competition": "unl-a",
       "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
-      "publisher": "UEFA.com",
+      "publisher": "uefa.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
       "teams": [
         "netherlands",
@@ -674,7 +721,7 @@
     {
       "competition": "transfer",
       "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "thesun.co.uk",
+      "publisher": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
       "teams": [
         "manutd"
@@ -693,54 +740,6 @@
         "netherlands"
       ],
       "publishedAt": 1790175688000
-    },
-    {
-      "competition": "laliga",
-      "title": "Free-kicks and finishing: How Lamine Yamal wants to improve at Barcelona",
-      "publisher": "barcablaugranes.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZm5USktmVU9uLW5RcTVRTmZUbFZPVG95R0dhWGJIWlo2WE83VC0zSjBNelh3LV9rWmxjaE8xNjhEMmFTMHZKNVpFN1RBZU55WGlUZDJrWk45ZWRTanRMdUlra05uT3Q0N2tNTm0ybFhzRUpCM0trcG12dElxdUNyUHMycVJIZExmMENjTDdfYmZxZ1RCaHdibVNoMGQ4RlB5aHprZw?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790204400000,
-      "image": null
-    },
-    {
-      "competition": "chronicle",
-      "title": "Johan Manzambi breaks silence on Newcastle United transfer - 'Be careful what you believe'",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/johan-manzambi-breaks-silence-newcastle-34659878",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644176.ece/ALTERNATES/s615/2_Aston-Villas-Johan-Manzambi-celebrates-scoring-the-opening-goal-during-the-Premier-League-match-at-the-Tottenham.jpg",
-      "summary": "The Swiss forward signed for Aston Villa in the summer transfer window after interest from Newcastle United",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790175600000
-    },
-    {
-      "competition": "echo",
-      "title": "Jarrad Branthwaite credits David Moyes for key Everton 'idea' that has led to England recall",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jarrad-branthwaite-credits-david-moyes-34660877",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34660869.ece/ALTERNATES/s615/0_Englands-Jarrad-Branthwaite-during-a-press-conference-at-St-Georges-Park-Burton-upon-Trent-Picture-date-Wednesday.jpg",
-      "summary": "Jarrad Branthwaite travelled to Germany in the summer to help solve the injury problems that had blighted his highly promising Everton and England career",
-      "teams": [
-        "everton",
-        "england"
-      ],
-      "publishedAt": 1790175480000
-    },
-    {
-      "competition": "laliga",
-      "title": "Rodri Confirms Real Madrid Tried to Sign Him Before Barcelona",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeTFNWmJKTmo3YWVIM3NSd2lUMzdlNHUxSkVCUjhJREVHbHNYVVZfRnU1cGc2VHRSMHdOR2Z6LUxiTWRCb3l6anpHYmRocXp5bHR3YTVSZnMyeVVTMWFZbndENm9QeEI4aVo0a2tXa3QwM3dGTGZIMmlFY2FnWjVYUE1LUWVwOXFLSDg5c1lRV1E5ekQzcm9FQUFlUGw2b2FqMHB5N2k4eVJkbldPME5ZelFfbU9LN2VlVlYxQndMVVJfUmM?oc=5",
-      "teams": [
-        "realmadrid",
-        "barcelona"
-      ],
-      "publishedAt": 1790203887000,
-      "image": null
     }
   ]
 }
