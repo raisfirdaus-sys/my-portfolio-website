@@ -24,9 +24,13 @@ const dom = await JSDOM.fromFile(path.join(ROOT, "moneyball.html"), {
     // Leeds: imported goals/shots/tackles/fouls/cards, but NO xG - exactly the case that vanished.
     // file:// has an opaque origin, so jsdom's own localStorage throws; a
     // plain map is all the page needs.
+    // Figures high enough to top every board it belongs on, so the check is
+    // about whether the team is ADMITTED, not about who else is published
+    // in the data file on the day the test runs.
     const store = {
       "mb-overrides": JSON.stringify({
-        leeds: { matches: 7, goals: 1.71, shots: 13.43, fouls: 10.71, tackles: 17.43, yellow: 1.43, red: 0 }
+        leeds: { matches: 7, goals: 9.71, shots: 39.43, fouls: 0.11,
+                 tackles: 49.43, yellow: 9.43, red: 0, xgF: null }
       })
     };
     Object.defineProperty(win, "localStorage", {
@@ -60,10 +64,23 @@ say(/Leeds/i.test(namesIn("Tackles")), "Leeds appears on Tackles");
 say(/Leeds/i.test(namesIn("Fouls")), "Leeds appears on Fouls");
 say(/Leeds/i.test(namesIn("Yellow cards")), "Leeds appears on Yellow cards");
 say(!/Leeds/i.test(namesIn("xG created")), "Leeds does NOT appear on xG created (it has no xG)");
-say(!/Arsenal/i.test(namesIn("xG created")), "Arsenal (placeholder seeds, never imported) stays off the real-data board");
+/* Arsenal was published with a real xG CONCEDED but no xG created, so it
+   must stay off the xG created board however it is flagged. */
+say(!/Arsenal/i.test(namesIn("xG created")),
+  "a team with no xG created stays off that board, measured flag or not");
 
+/* The subtitle must count the same teams the boards will show: everything
+   published as measured, plus whatever this browser has entered. Pinning a
+   literal number here only tested how much happened to be published. */
+const TT_FIELDS = ["xgF", "xgA", "goals", "shots", "sot", "tackles", "fouls", "yellow"];
+const expected = Object.keys(fixtures.teams).filter((k) => {
+  const t = fixtures.teams[k];
+  if (k === "leeds") return true;                       // entered in this browser
+  return t.measured && TT_FIELDS.some((f) => t[f] != null);
+}).length;
 const sub = (doc.getElementById("tt-sub")||{}).textContent || "";
-say(/^1 teams? with real data/.test(sub), `subtitle counts the same way the boards do (got "${sub}")`);
+say(sub.indexOf(expected + " teams with real data") === 0,
+  `subtitle counts the same way the boards do (got "${sub}", expected ${expected})`);
 
 console.log(fail ? `\n${fail} failure(s).` : "\ntop-teams ok");
 process.exit(fail ? 1 : 0);

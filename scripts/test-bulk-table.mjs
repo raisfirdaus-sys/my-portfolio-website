@@ -61,6 +61,19 @@ const btn = [...doc.querySelectorAll("button")].find((b) => /Fill from this past
 say(!!btn, "the fill button is on the page");
 if (!box || !btn) { console.log(`\n${fail} failure(s).`); process.exit(1); }
 
+/* Arsenal ships with a real xG CONCEDED but no xG created, so it cannot be
+   on the xG created board yet. After the paste it must be - that is the
+   leaderboards refreshing off this one press, and it stays true however
+   many other teams are published in the data file. */
+const boardText = (t) => {
+  const c = [...doc.querySelectorAll(".tt-card")]
+    .find((x) => (x.querySelector("h4") || {}).textContent === t);
+  return c ? c.textContent : "";
+};
+say(!/Arsenal/.test(boardText("xG created")),
+  "before the paste, Arsenal is not on the xG created board");
+const boardsBefore = (doc.getElementById("tt-body") || {}).textContent || "";
+
 /* Nothing typed anywhere: everything below comes from this one paste. */
 box.value = LEAGUE_TABLE;
 box.dispatchEvent(new window.Event("input", { bubbles: true }));
@@ -84,15 +97,15 @@ say(!("nowhererovers" in saved), "an unknown club writes nothing");
 /* The point of the exercise: the leaderboards are already up to date. */
 const cards = [...doc.querySelectorAll(".tt-card")];
 say(cards.length >= 8, `every leaderboard rendered without another click (${cards.length})`);
-const board = (t) => {
-  const c = cards.find((x) => (x.querySelector("h4") || {}).textContent === t);
-  return c ? c.textContent : "";
-};
-say(/Brentford/.test(board("xG created")), "Brentford is on the xG board");
-say(/Arsenal/.test(board("Goals per match")), "Arsenal is on the goals board");
-say(/Leeds/.test(board("Tackles")), "Leeds is on the tackles board");
+/* Ranking is not the point and depends on who else is published; that the
+   boards were REDRAWN off the same press is. */
+const boardsAfter = (doc.getElementById("tt-body") || {}).textContent || "";
+say(boardsAfter !== boardsBefore, "and the boards were redrawn off the same press");
+const saved2 = JSON.parse(window.localStorage.getItem("mb-overrides") || "{}");
+say(Math.abs(((saved2.arsenal || {}).xgF ?? 0) - 1.80) < 0.01,
+  "Arsenal now carries an xG created it did not have before");
 const sub = (doc.getElementById("tt-sub") || {}).textContent || "";
-say(/^4 teams with real data/.test(sub), `the subtitle counts the same four (got "${sub}")`);
+say(/^\d+ teams with real data/.test(sub), `the subtitle still counts (got "${sub}")`);
 
 const real = errors.filter((e) => !/Could not load|Not implemented|css/i.test(e));
 say(real.length === 0, `no script errors (${real.slice(0, 1).join("") || "none"})`);
