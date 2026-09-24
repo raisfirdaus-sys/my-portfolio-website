@@ -1,17 +1,126 @@
 {
-  "generatedAt": 1790250056774,
+  "generatedAt": 1790252334338,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1532,
-    "tagged": 765,
-    "droppedKeyword": 34,
-    "droppedOtherSport": 1,
-    "droppedFeed": 7,
+    "raw": 1528,
+    "tagged": 749,
+    "droppedKeyword": 41,
+    "droppedOtherSport": 2,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United's dream international break with Yoane Wissa hope and Rory Finneran chance",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-dream-international-break-34665610",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34665899.ece/ALTERNATES/s615/0_GettyImages-2246188411.jpg",
+      "summary": "Newcastle have around 20 players out on international duty",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790251648000
+    },
+    {
+      "competition": "mirror",
+      "title": "Julian Ward's previous Liverpool plan including rebuild demand and Jude Bellingham snub",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/julian-wards-previous-liverpool-plan-37697886",
+      "image": "https://i2-prod.dailystar.co.uk/sport/football/article37646338.ece/ALTERNATES/s615/1_Jurgen-Klopp-Signs-A-Contract-Extension-at-Liverpool.jpg",
+      "summary": "Liverpool are ready to appoint Julian Ward as their sporting director for a second time after he had made it clear the club needed a midfield overhaul, but backed out of signing Jude Bellingham",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790251552000
+    },
+    {
+      "competition": "bbc",
+      "title": "'I'm here to change the story' - McBurnie on Scotland recall",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pc29mg?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pc29n5.jpg",
+      "summary": "Ollie McBurnie on his Scotland return, fresh perspective and first-goal ambition.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790251200000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Official: Udinese sign four-time Champions League winner Alaba",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/official-udinese-sign-alaba-free-transfer/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/real-madrid-cf-v-sevilla-fc-lali.jpg",
+      "summary": "Udinese have officially announced their signing of four-time Champions League-winning defender David Alaba on a...",
+      "teams": [
+        "udinese"
+      ],
+      "publishedAt": 1790251121000
+    },
+    {
+      "competition": "echo",
+      "title": "Dan Friedkin not going to Everton games is 'irrelevant' but 'selling your biggest assets is a worry'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/dan-friedkin-not-going-everton-34663748",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article32594596.ece/ALTERNATES/s615/0_DFHD.jpg",
+      "summary": "EXCLUSIVE: Thoughts on Everton's ownership and David Moyes' full-back experiments from former Premier League star Danny Mills",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790251080000
+    },
+    {
+      "competition": "indy",
+      "title": "How Ireland v Israel become the world’s most controversial fixture",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-nations-league-palestine-b3054975.html",
+      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790250561000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool's next signing 'on his way to Real Madrid' before sudden transfer intervention",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-transfer-news-lucca-brughmans-34665350",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34665644.ece/ALTERNATES/s615/0_Liverpool-FC-Unveil-New-Signing-Lucca-Brughmans.jpg",
+      "summary": "Liverpool secured a huge coup on transfer deadline day as a highly rated wonderkid picked them over Real Madrid",
+      "teams": [
+        "realmadrid",
+        "liverpool"
+      ],
+      "publishedAt": 1790250537000
+    },
+    {
+      "competition": "metro",
+      "title": "&#8216;I don&#8217;t understand&#8217; &#8211; Alan Shearer questions Cole Palmer&#8217;s withdrawal from England squad",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/i-dont-understand-alan-shearer-questions-cole-palmers-withdrawal-england-squad-29649626/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/07/GettyImages-2269284036.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790250265000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Xabi Alonso's clear transfer wish was granted - but Chelsea star now finds himself in wilderness",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonsos-clear-transfer-wish-34665267",
+      "image": "https://i2-prod.football.london/incoming/article34665603.ece/ALTERNATES/s615/0_GettyImages-2294357860.jpg",
+      "summary": "Xabi Alonso made it perfectly clear how many central defenders he wanted at his disposal beyond the summer transfer window but one of them is not getting a sniff at the moment",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790249742000
+    },
     {
       "competition": "mirror",
       "title": "Man Utd news LIVE: JJ Gabriel receives 'guarantee', boycott calls grow, Antonio Conte links",
@@ -342,6 +451,18 @@
       "publishedAt": 1790241234000
     },
     {
+      "competition": "bbc",
+      "title": "Send us your Scotland World Cup memories of Boston",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c04k6nqgxdpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6174/live/467fc120-9a43-11f1-aed2-8d6da8d75094.jpg",
+      "summary": "BBC Scotland is looking for Scotland supporters to send us their videos, audio and memories of that magical week or so in Boston at the World Cup.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790241200000
+    },
+    {
       "competition": "metro",
       "title": "Barcelona make promise to JJ Gabriel after Real Madrid submit offer for Man Utd wonderkid",
       "publisher": "Metro",
@@ -615,18 +736,6 @@
     },
     {
       "competition": "indy",
-      "title": "How Ireland v Israel become the world’s most controversial fixture",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-boycott-nations-league-palestine-b3054975.html",
-      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790230406000
-    },
-    {
-      "competition": "indy",
       "title": "Is Portugal v Wales on TV? Channel, kick-off time and how to watch Nations League clash",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/portugal-wales-tv-channel-time-nations-league-b3054803.html",
@@ -637,116 +746,6 @@
         "wales"
       ],
       "publishedAt": 1790230205000
-    },
-    {
-      "competition": "footlondon",
-      "title": "I won the Champions League with Chelsea but winning another cup was 10x better",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/won-champions-league-chelsea-winning-34657600",
-      "image": "https://i2-prod.football.london/incoming/article21812123.ece/ALTERNATES/s615/2_GettyImages-1233196758.jpg",
-      "summary": "Winning the Champions League doesn't rank as the best career moment for one Chelsea hero",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790229600000
-    },
-    {
-      "competition": "echo",
-      "title": "Richarlison 'shame' verdict delivered after emotional Everton return hopes ended",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/richarlison-shame-verdict-delivered-after-34662964",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34663035.ece/ALTERNATES/s615/0_GettyImages-2291604947.jpg",
-      "summary": "Tim Sherwood believes a return to Everton for Richarlison from Tottenham Hotspur would have suited all parties with the striker now facing a spell on the sidelines",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790229600000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Bruno Guimaraes statement on why he forced move from Newcastle United to Arsenal - 'I felt inside'",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/bruno-guimaraes-transfer-newcastle-arsenal-34661626",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34617422.ece/ALTERNATES/s615/0_Arsenal-FC-Training-Session.jpg",
-      "summary": "Newcastle United lost their talismanic captain in the summer after a difficult transfer wrangle",
-      "teams": [
-        "newcastle",
-        "arsenal"
-      ],
-      "publishedAt": 1790229600000
-    },
-    {
-      "competition": "men",
-      "title": "Benjamin Sesko at centre of row as Wayne Rooney sides with Man United legends",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-benjamin-sesko-rooney-34663091",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34663116.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
-      "summary": "Manchester United striker Benjamin Sesko missed the draw at Fulham on Sunday with a shin issue, and now Wayne Rooney has had his say on the Slovenian",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790229468000
-    },
-    {
-      "competition": "bbc",
-      "title": "Why this break has come at the worst time for De Zerbi & Spurs",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crd68ev059y8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c068/live/df157960-541c-11f1-8b8c-6d33e1d5abb6.jpg",
-      "summary": "BBC Sport columnist Tony Pulis explains the different factors that mean Tottenham boss Roberto de Zerbi needs time with his players to build a proper team.",
-      "teams": [
-        "tottenham"
-      ],
-      "publishedAt": 1790228244000
-    },
-    {
-      "competition": "bbc",
-      "title": "England should stop trying to replicate Spain - Gordon",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c90kly6kelk1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4dc/live/9936a4d0-b783-11f1-b3b9-2dc27b32a5b3.jpg",
-      "summary": "Anthony Gordon says that controlling games is not in the \"English DNA\" but the Three Lions could still win major tournaments if they stop \"trying to replicate Spain\".",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790226326000
-    },
-    {
-      "competition": "guardian",
-      "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
-      "image": "https://i.guim.co.uk/img/media/e07ebc008355e9b3193de2e1545e93d1e9b27f68/135_0_2687_2151/master/2687.jpg?width=140&quality=85&auto=format&fit=max&s=fa1302581c9fae51d6508f9dd818bf1f",
-      "summary": "Barcelona winger says England cannot play like SpainGordon: players ‘could have done more’ in semi-finalAnthony Gordon has sided with Thomas Tuchel’s assertion that controlling games through possession is not part of…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790226009000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea might be forced to revisit £52m transfer situation with Morgan Rogers problem",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-might-forced-revisit-52m-34660639",
-      "image": "https://i2-prod.football.london/incoming/article34660623.ece/ALTERNATES/s615/0_GettyImages-2295103955.jpg",
-      "summary": "Xabi Alonso faces a tough challenge in his debut season at Stamford Bridge in keeping all of Chelsea's players on side",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790226000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Dowman and Bartishvili start with £150m striker as Raya replaced – Mikel Arteta's future Arsenal XI",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/dowman-bartishvili-start-150m-striker-34661109",
-      "image": "https://i2-prod.football.london/incoming/article34616329.ece/ALTERNATES/s615/1_Mikel-Arteta-Max-Dowman-and-Arsenal.jpg",
-      "summary": "With Mikel Arteta set to sign a deal potentially taking him through to 2030, football.london predicts what the Arsenal team could look like for the 2030/31 season",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790226000000
     }
   ]
 }
