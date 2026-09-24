@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790207555613,
+  "generatedAt": 1790210650455,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 766,
-    "droppedKeyword": 37,
+    "raw": 1524,
+    "tagged": 767,
+    "droppedKeyword": 39,
     "droppedOtherSport": 1,
-    "droppedFeed": 8,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 57
+    "withImage": 54
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Ronald Araujo can banish Liverpool transfer curse and numbers prove it",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-can-banish-liverpool-34660552",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34661894.ece/ALTERNATES/s615/0_GettyImages-2296297013.jpg",
+      "summary": "Ronald Araujo has had an impressive start to life at Liverpool but loan signings have rarely prospered when moving to Anfield",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790208000000
+    },
     {
       "competition": "mirror",
       "title": "Man Utd news LIVE: JJ Gabriel latest as new deadline set after 'agreement reached'",
@@ -440,6 +452,29 @@
       "publishedAt": 1790180798000
     },
     {
+      "competition": "unl-a",
+      "title": "Pocognoli using his past to inspire Scotland",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNGxlVnpoMWx4RWp6ekRraHhaTElwaHdNUkk2Y1pTay00Vnh5OHdKZEpIdUpUNkJ5VVdsQ0YyWm9MdHVBSWZuVWc3WGxqWldsWXRJYjFiZFp1RF9FeVZ0M2F2Tlh6RUNqWTRuTVlWTV85aEF6OHFIMFprYkVlNU9WOVFPUlA5YTZPV1hWOHN5UUdQMUMyc01pM0ZJazZQVFhYYkIxZHVKdUN3anlhRm82RXltUW5CR2FXcjlCM3ViYTNEVFNIZkthRkw5RUM?oc=5",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790209153000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
+      "publisher": "bbc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4UFZQQWQyX241R3pUTzcybUFtMmhFMlRSSnl6aVlfVnhEVS1TQ29Za3NKS3dOM1JzSURvU09TOElXZHZ2eEpCRUczZ2JyNDJDaU5RZ0ZISU81NWVGcmVUS1VVSDN5Zw?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790209011000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Official: Grabara has successful ACL surgery after Juventus injury",
       "publisher": "Football Italia",
@@ -462,6 +497,17 @@
         "portugal"
       ],
       "publishedAt": 1790179377000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzdYeEZLWjRwLUN6QmdtZUJ5QW4wTWNfY0pMX0hMLWEtUzFLdllLSlV4Z29DUkU1SE85SDZlc0VLZ19rUWctUEFCalFxSWRxQTViWk5QX0FubUhCdExSb3JiVG40cDNESHZmdDBRZUdmQUxQYWRtNDlsQ2hSZm5nMzNYUGlNUDJCTXlJS2c2cHRZYnpvNGllUU9FcTJHN3ZiVjB1cUE4cXYwSGY4el9JdHFIanEzbUVMek1OM1pfc25MRE1z?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790208000000,
+      "image": null
     },
     {
       "competition": "footlondon",
@@ -552,7 +598,7 @@
     {
       "competition": "unl-a",
       "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
       "teams": [
         "netherlands",
@@ -638,6 +684,17 @@
       "publishedAt": 1790175688000
     },
     {
+      "competition": "laliga",
+      "title": "Free-kicks and finishing: How Lamine Yamal wants to improve at Barcelona",
+      "publisher": "Barca Blaugranes",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZm5USktmVU9uLW5RcTVRTmZUbFZPVG95R0dhWGJIWlo2WE83VC0zSjBNelh3LV9rWmxjaE8xNjhEMmFTMHZKNVpFN1RBZU55WGlUZDJrWk45ZWRTanRMdUlra05uT3Q0N2tNTm0ybFhzRUpCM0trcG12dElxdUNyUHMycVJIZExmMENjTDdfYmZxZ1RCaHdibVNoMGQ4RlB5aHprZw?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790204400000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Johan Manzambi breaks silence on Newcastle United transfer - 'Be careful what you believe'",
       "publisher": "Chronicle Live",
@@ -663,6 +720,18 @@
       "publishedAt": 1790175480000
     },
     {
+      "competition": "laliga",
+      "title": "Rodri Confirms Real Madrid Tried to Sign Him Before Barcelona",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeTFNWmJKTmo3YWVIM3NSd2lUMzdlNHUxSkVCUjhJREVHbHNYVVZfRnU1cGc2VHRSMHdOR2Z6LUxiTWRCb3l6anpHYmRocXp5bHR3YTVSZnMyeVVTMWFZbndENm9QeEI4aVo0a2tXa3QwM3dGTGZIMmlFY2FnWjVYUE1LUWVwOXFLSDg5c1lRV1E5ekQzcm9FQUFlUGw2b2FqMHB5N2k4eVJkbldPME5ZelFfbU9LN2VlVlYxQndMVVJfUmM?oc=5",
+      "teams": [
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790203887000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Milan ready to use Pulisic and Rabiot contract clauses to June 2028",
       "publisher": "Football Italia",
@@ -673,77 +742,6 @@
         "acmilan"
       ],
       "publishedAt": 1790174851000
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer rumours today: 'JJ Gabriel agreement' and 'next Estevao scouted'",
-      "publisher": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOck5yX1doYVcyWnFKd1NSVjBLT0FmYnRTcjdIRlczaWRsZHBKUUpTaVBvVU81Z2ZZcHVkLUdDcEtlenp2cDRhZ3VPMXFWNzRkR1pTd2RHa2c0ZXRrRTY0OGNJMFh6WldoY19MN2pPaC1NUUlqbjVSTGpWbTJNMjl5b2V5d3hkeHg2VDlxZElKNzgyckV5d2pfOW5oTDE4VzdkdTljdW53?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790202990000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Bukayo Saka says England still carrying World Cup ‘scar’ but must move on",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/bukayo-saka-england-world-cup-argentina-thomas-tuchel-b3055117.html",
-      "image": "https://static.independent.co.uk/2026/09/23/15/2286279156..?width=1200&auto=webp&trim=0%2C20%2C0%2C19",
-      "summary": "Saka was plagued by an Achilles problem at the World Cup and was an unused substitute in England’s semi-final defeat to Argentina",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790173990000
-    },
-    {
-      "competition": "echo",
-      "title": "'Overweight' Harvey Elliott given deadline as Spanish press slam poor Liverpool pre-season",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-harvey-elliott-fitness-valencia-34661011",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34661036.ece/ALTERNATES/s615/0_Valencia-CF-v-FC-Barcelona-LaLiga-EA-Sports-202627.jpg",
-      "summary": "Harvey Elliott is facing a crucial international break as he looks to kickstart his career",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790173792000
-    },
-    {
-      "competition": "epl",
-      "title": "Man Utd: Antonio Conte lined up for sensational Premier League return as replacement for Michael Carrick - Paper Talk",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZnl3OEg1cnU2SjU5RkpiX3E5MnpBaWF6LXJ0c1hyQ1E1OTVsREhXRkV2SkNwOHNaSDExYXhNRC1rZXdESWs4cGNEbkdFUDNpejNjdGJuNWF0SkYtTE5hSlJVT0UwU3ZGaHhXMldzcE5jRUIwMUwwYWk4eGRCcFpCbzFNM0E4eU9SOWFjbTA0UWNiQmQ3bmkxMXNwM0RYSWdrX2Rpa3ZhVWt2bjVoN2hTMkZTYzF6WEVVTDNUS3pMUnBESnJJMnd3bG5jVnFiZUZYUHpJY2ZaeUU2ZG1fVG1BZHlRcmcwSVJIUWdrQ2NXeFh1OExSakE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790202564000,
-      "image": null
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal star Jurrien Timber opens up on groin injury hell - 'It was a miracle'",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/arsenal-news-jurrien-timber-injury-34661340",
-      "image": "https://i2-prod.football.london/incoming/article34661330.ece/ALTERNATES/s615/0_GettyImages-2278983186.jpg",
-      "summary": "Arsenal right-back Jurrien Timber has been discussing his long-running battle with a groin injury which included his desperate push to play in the Champions League final before he was forced to drop out of Holland's…",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790173623000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Romano must pay €100,000 compensation after dumping Switzerland for Italy",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/romano-100000-compensation-switzerland-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-celebrate-414x276.jpg",
-      "summary": "Cagliari midfielder Alessandro Romano is ready for his Italy debut, but the switch of allegiances...",
-      "teams": [
-        "switzerland",
-        "italy"
-      ],
-      "publishedAt": 1790173595000
     }
   ]
 }
