@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790229976177,
+  "generatedAt": 1790230117273,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1536,
-    "tagged": 765,
-    "droppedKeyword": 35,
+    "raw": 1537,
+    "tagged": 769,
+    "droppedKeyword": 34,
     "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 46
   },
@@ -48,6 +48,18 @@
         "arsenal"
       ],
       "publishedAt": 1790229600000
+    },
+    {
+      "competition": "men",
+      "title": "Benjamin Sesko at centre of row as Wayne Rooney sides with Man United legends",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-benjamin-sesko-rooney-34663091",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34663116.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
+      "summary": "Manchester United striker Benjamin Sesko missed the draw at Fulham on Sunday with a shin issue, and now Wayne Rooney has had his say on the Slovenian",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790229468000
     },
     {
       "competition": "mirror",
@@ -136,18 +148,6 @@
     },
     {
       "competition": "men",
-      "title": "Enzo Maresca sends clear Man City message - but it may not be heard for ages",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/enzo-maresca-sends-clear-man-34660399",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34660427.ece/ALTERNATES/s615/0_GettyImages-2295736212.jpg",
-      "summary": "Manchester City manager Enzo Maresca knows what he wants, but that may not be what people are expecting, given his previous jobs",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790226000000
-    },
-    {
-      "competition": "men",
       "title": "Omar Berrada may have to make a public Manchester United U-turn",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/omar-berrada-make-public-manchester-34660922",
@@ -155,6 +155,18 @@
       "summary": "The Ineos regime set an ambitious target for Man United to finally win the Premier League title again in 2028.",
       "teams": [
         "manutd"
+      ],
+      "publishedAt": 1790226000000
+    },
+    {
+      "competition": "men",
+      "title": "Enzo Maresca sends clear Man City message - but it may not be heard for ages",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/enzo-maresca-sends-clear-man-34660399",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34660427.ece/ALTERNATES/s615/0_GettyImages-2295736212.jpg",
+      "summary": "Manchester City manager Enzo Maresca knows what he wants, but that may not be what people are expecting, given his previous jobs",
+      "teams": [
+        "mancity"
       ],
       "publishedAt": 1790226000000
     },
@@ -424,37 +436,14 @@
     },
     {
       "competition": "unl-a",
-      "title": "Netherlands vs Germany: Ones to watch - Brobbey chases starting spot while Klopp era begins",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVjc0dTR6V01DSWpkcWRXd0pSWmhXM3JQaXFfNUJlQktFTUFkc3FUSkVBWkwzZDNiQzRrOWx4eFlGcm9RVXdJcEJZOFMyWDZmS2JPR1EzcG0tQjFRQmE0VVJWb2haVEh4dzlSaE9INGN0MVQ1akpzOUQ2ZnlBTWRmT0FUMEpNNnhpbDBtaEIzcWs0RnNtUXoyS1RKQTBkaFZ1R3k1STZtZGtOUXpoVFZaQnc0SUtkLWF4RTNpOC1PVDRSV2lOb3hZdEdybmQxbDhZSmFF?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790226001000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
       "title": "Is Netherlands v Germany on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTmhPdDBGRTJRNVQzelhOQ0N1bTJPNGF5T2FobGt3RExVY0lmWmRQR3Frb1FJdVpSY2tYcmRkUlpRRzV1MF83ZFpxLVBsenlWYnYwb09uUDRsSy1vNmZ1eEdTeG5RMm01ZzRwRkcwRGcwRmszSkpvTG1SVXZOd2FTRlJ1MVR6Qllq?oc=5",
       "teams": [
         "netherlands",
         "germany"
       ],
       "publishedAt": 1790226000000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790225976000,
       "image": null
     },
     {
@@ -528,6 +517,17 @@
       "image": null
     },
     {
+      "competition": "championship",
+      "title": "Why Josh Sheehan could get Championship boost to international career with Wales",
+      "publisher": "The Bolton News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMS11N0dUaDFjaG52UmlaWXgxcG55TjdaQnpTSDhFZE9ycTc0OUxWdTVLUk4yd1IxRW42U29iRXFEcUtWLTdNRzMzblJXRGh6Qzl5NEs5MmljYm5FQUFhc1IwT3dYMzQ5a25FOEJ6ZmJjNjI4TWxZaVRLa2ZrV1ZxUkM5MHA3UlVRTVZxOUNpdmVsSjJuRURTOUxjemFjTG5UWVZKeQ?oc=5",
+      "teams": [
+        "wales"
+      ],
+      "publishedAt": 1790222400000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Frustrated Endrick still wanted by Roma and Milan for Real Madrid loan",
       "publisher": "Football Italia",
@@ -543,7 +543,7 @@
     {
       "competition": "unl-a",
       "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
-      "publisher": "bbc.com",
+      "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFT3B4Rl9jYmNBUTVQeVUtWm5Ba1VNUUFwSGdHUlFOYl9OTFRsMmJ5VGs1NU0zWUNwWkg4ZjhtelUyVWR5NzFEWl8xdnJDTVJkbmt4QjdlYzd3TmNDSW1qZG0wVQ?oc=5",
       "teams": [
         "portugal",
@@ -611,6 +611,17 @@
         "barcelona"
       ],
       "publishedAt": 1790219492000,
+      "image": null
+    },
+    {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790218867000,
       "image": null
     },
     {
@@ -720,18 +731,6 @@
         "bayern"
       ],
       "publishedAt": 1790186435000
-    },
-    {
-      "competition": "indy",
-      "title": "Harry Kane on the pain of still solving England’s hardest question: ‘How can we be ourselves?’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/harry-kane-england-world-cup-argentina-thomas-tuchel-b3055035.html",
-      "image": "https://static.independent.co.uk/2026/09/17/08/2286275690..?width=1200&auto=webp&trim=15%2C471%2C584%2C152",
-      "summary": "Interview: The England captain reflects on the World Cup semi-final defeat to Argentina, whether ‘mentality’ was the reason for their defensive retreat, and why he is still aiming for more at the age of 33",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790186429000
     }
   ]
 }
