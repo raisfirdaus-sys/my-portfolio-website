@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790240614045,
+  "generatedAt": 1790247087374,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1529,
-    "tagged": 768,
-    "droppedKeyword": 37,
+    "raw": 1535,
+    "tagged": 763,
+    "droppedKeyword": 41,
     "droppedOtherSport": 2,
-    "droppedFeed": 7,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 50
+    "withImage": 60
   },
   "items": [
     {
@@ -22,7 +22,264 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790239854000
+      "publishedAt": 1790246768000
+    },
+    {
+      "competition": "mirror",
+      "title": "England's latest teenage star lays down marker for 'greatness to come' on home soil",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-rio-ngumoha-ambitions-euros-37697271",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37697319.ece/ALTERNATES/s615/0_GettyImages-2296761696.jpg",
+      "summary": "Rio Ngumoha has been called into England's senior squad and has shied away from talking up his goals, eyeing up glory in the Euros on home soil in two years time",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790246514000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Four midfielders Chelsea can sign as Xabi Alonso next priority clear",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/four-midfielders-chelsea-can-sign-34664209",
+      "image": "https://i2-prod.football.london/incoming/article34557284.ece/ALTERNATES/s615/1_GettyImages-2287679750.jpg",
+      "summary": "Chelsea missed out on a central midfielder late in the summer transfer window but it is a situation the Blues could potentially revisit once January comes around",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790246375000
+    },
+    {
+      "competition": "men",
+      "title": "'I wasn't as strong' - Man United 'target' endorsed by two legends with over 200 career goals",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/pio-esposito-man-utd-transfer-34663441",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34663809.ece/ALTERNATES/s615/0_Pio-Esposito.jpg",
+      "summary": "A Manchester United transfer target has been praised by two legends after an impressive start to the season and links with some of the biggest European clubs",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790246263000
+    },
+    {
+      "competition": "metro",
+      "title": "Ex-England footballer Andy Carroll reveals he was sexually assaulted in &#8216;traumatic&#8217; attack",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/ex-england-footballer-andy-carroll-reveals-sexually-assaulted-traumatic-attack-29649749/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_290386894-3497.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790245900000
+    },
+    {
+      "competition": "echo",
+      "title": "Rio Ngumoha on how Liverpool boss Andoni Iraola is helping him 'destroy defenders'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-how-liverpool-boss-34664196",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664210.ece/ALTERNATES/s615/0_GettyImages-2296761696.jpg",
+      "summary": "Liverpool winger Rio Ngumoha has been talking after being called up for the England squad for their forthcoming UEFA Nations League matches",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790244900000
+    },
+    {
+      "competition": "echo",
+      "title": "Former Everton player 'gobsmacked' by transfer window scrutiny - 'People are really upset'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/former-everton-player-gobsmacked-transfer-34663348",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34663386.ece/ALTERNATES/s615/0_GettyImages-2292527306.jpg",
+      "summary": "There is too much emphasis on transfer windows and the focus should change to results on the pitch reckons former Everton player Thomas Hitzlsperger",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790244866000
+    },
+    {
+      "competition": "guardian",
+      "title": "Has Arsenal been figured out? Three big questions after Brighton’s upset",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/sport/2026/sep/24/arsenal-brighton-premier-league-questions",
+      "image": "https://i.guim.co.uk/img/media/35083f0578a65fdcd9cb8f60ebdf481f41cf43b0/339_140_2053_1642/master/2053.jpg?width=140&quality=85&auto=format&fit=max&s=caadb72a227fbe53023293b3135761ca",
+      "summary": "This week, we dive into the big questions surrounding the most surprising result of the Premier League weekendBefore this past weekend, Arsenal had not lost in the Premier League since April. Nine straight league wins…",
+      "teams": [
+        "brighton",
+        "arsenal"
+      ],
+      "publishedAt": 1790244014000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Why Andy Burnham is wrong to change Emirates Stadium laws as Arsenal fans pushback on proposals",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/andy-burnham-wrong-change-emirates-34664605",
+      "image": "https://i2-prod.football.london/incoming/article34664621.ece/ALTERNATES/s615/1_Arsenal-and-UK-Alcohol-Laws-in-Football-Grounds.jpg",
+      "summary": "The UK Prime Minister Andy Burnham has sparked backlash after proposing to change the law that would see alcohol permitted to enter the likes of the Emirates Stadium during games and football.london has heard push back…",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790243994000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini has two personnel decisions to make ahead of second Italy debut",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-two-line-up-doubts-second-italy-debut/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/Italy-celebrating.jpg",
+      "summary": "Italy get their 2026-27 Nations League campaign underway with a visit from Belgium at the...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790243275000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool 'send scouts to watch striker' who 'scored 256 goals in a single season'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-scouting-striker-target-34663929",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34663978.ece/ALTERNATES/s615/1_BOYLE-Sports-Premiership-The-Showgrounds-Coleraine-05-Sep-2026.jpg",
+      "summary": "Liverpool are keen to bolster their youth ranks with their focus supposedly turning to a teenage goalscoring phenom",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790243207000
+    },
+    {
+      "competition": "mirror",
+      "title": "Dominic Calvert-Lewin can grab England's Harry Kane role five years after seeing it slip",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-dominic-calvertlewin-kane-tuchel-37696752",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37697089.ece/ALTERNATES/s615/0_GettyImages-2269203189-copy.jpg",
+      "summary": "Dominic Calvert-Lewin will back-up Harry Kane for England over the next fortnight, a role he once had, and he'll hope his form sees him retain his standing come Euro 2028",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790242849000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United land multi-million Coca-Cola deal as Magpies secure major cash injection",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-land-multi-million-34664253",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article32257445.ece/ALTERNATES/s615/0_St-James-Park-gallowgate.jpg",
+      "summary": "Newcastle United's Chief Revenue Officer, Dave O'Connor was today celebrating a major deal with soft drinks giants Coca-Cola",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790242720000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United selling pieces of Old Trafford turf for a staggering £125",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-selling-pieces-old-34664254",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34664281.ece/ALTERNATES/s615/1_IMG_9499.jpg",
+      "summary": "Man Utd are raising funds by offering fans the chance to own a small piece of Old Trafford's former pitch.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790242585000
+    },
+    {
+      "competition": "bbc",
+      "title": "How Man City overhauled their squad from a 650,000-strong database",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm1wx51gyly5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0ec/live/a3f20410-b7fa-11f1-8ef6-b9665ffdab6f.jpg",
+      "summary": "BBC Sport goes inside Manchester City's data team, who have been a key part of their rebuild over the past 18 months.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790242282000
+    },
+    {
+      "competition": "echo",
+      "title": "Former Liverpool striker Andy Carroll says he was sexually assaulted in 'traumatic' attack",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-andy-carroll-sexual-assault-34664416",
+      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article33723889.ece/ALTERNATES/s615/1_GettyImages-110371521.jpg",
+      "summary": "Andy Carroll, Liverpool's former record signing, has opened up on how he was sexually assaulted in a traumatic attack in his new autobiography, Owning It",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790242183000
+    },
+    {
+      "competition": "men",
+      "title": "Tijjani Reijnders' honest response to 'money grabber' accusation after Man City transfer",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/tijjani-reijnders-honest-response-money-34663836",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34664143.ece/ALTERNATES/s615/1_GettyImages-2295962534.jpg",
+      "summary": "Tijjani Reijnders left Manchester City in the summer transfer window after just one season at the Etihad Stadium",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790241750000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United announce exciting midfielder signing from Man City",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-announce-exciting-midfielder-34663982",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34664129.ece/ALTERNATES/s615/1_Screenshot-2026-09-24-100157.png",
+      "summary": "Man Utd have announced the signing of talented youngster Karim Cassim for their rivals Man City.",
+      "teams": [
+        "manutd",
+        "mancity"
+      ],
+      "publishedAt": 1790241234000
+    },
+    {
+      "competition": "metro",
+      "title": "Barcelona make promise to JJ Gabriel after Real Madrid submit offer for Man Utd wonderkid",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/24/barcelona-make-promise-jj-gabriel-real-madrid-submit-offer-man-utd-wonderkid-29649224/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312581115-6c65.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "realmadrid",
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790240673000
+    },
+    {
+      "competition": "bundes",
+      "title": "Germany to wear final Adidas shirt against the Netherlands",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/adidas-release-final-germany-shirt-nike-jurgen-klopp-39333",
+      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083683418h.jpg?crop=37px%2C0px%2C3125px%2C1758px",
+      "summary": "Germany will wear their final shirt made by Adidas against the Netherlands in the UEFA Nations League on Thursday (kick-off: 8.45pm).",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790240627000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Milan want Rabiot to commit to long-term contract",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/milan-want-rabiot-to-commit-long-term-contract/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Adrien-Rabiot-rah.jpg",
+      "summary": "Thursday’s reports claim that Milan want midfielder Adrien Rabiot to commit to a new long-term...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790240185000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United confirm new boardroom appointment as club's 2027 recruitment drive begins",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/newcastle-united-confirm-new-boardroom-34663718",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article32094747.ece/ALTERNATES/s615/0_JS375690016.jpg",
+      "summary": "Life after Andy Howe has started at Newcastle United with a reshuffle behind the scenes at St James' Park",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790240131000
     },
     {
       "competition": "footlondon",
@@ -489,254 +746,6 @@
         "sunderland"
       ],
       "publishedAt": 1790226000000
-    },
-    {
-      "competition": "men",
-      "title": "Man United latest: Club debt increases and Eric Cantona takes swipe at Sir Jim Ratcliffe",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-debt-jim-ratcliffe-34661476",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34661475.ece/ALTERNATES/s615/0_Sir-Jim-Ratcliffe.jpg",
-      "summary": "Manchester United co-owner Sir Jim Ratcliffe has attracted attention during the international break",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790224200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Sensational Trent Alexander-Arnold return to Liverpool talked up as ex-England boss makes case",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-trent-alexander-arnold-transfer-37692637",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37625827.ece/ALTERNATES/s615/1_GettyImages-2291130553.jpg",
-      "summary": "The case for Trent Alexander-Arnold to make a stunning return to Liverpool has been made",
-      "teams": [
-        "liverpool",
-        "england"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool news: Transfer to solve problem position eyed as Szoboszlai puts squad on notice",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-transfer-target-dominik-szoboszlai-37695145",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37695318.ece/ALTERNATES/s615/0_GettyImages-2294954856.jpg",
-      "summary": "Liverpool round-up as a potential option for the January transfer window emerges",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal latest: Fresh Julian Alvarez transfer update as Max Dowman warning issued",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-fresh-julian-alvarez-34661110",
-      "image": "https://i2-prod.football.london/incoming/article34661390.ece/ALTERNATES/s615/0_GettyImages-2295730408.jpg",
-      "summary": "All the latest Arsenal headlines as the three-week international break begins for the Nations League",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "men",
-      "title": "'A handbrake on Manchester United' - Why financial results aren't as rosy as they look",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/a-handbrake-manchester-united-financial-34661188",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34661238.ece/ALTERNATES/s615/0_GettyImages-2276298822.jpg",
-      "summary": "Man Utd posted record revenues for the 2025/26 season and are already expecting to better those figures this term, but issues still remain.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "echo",
-      "title": "David Moyes has three clear Everton priorities as he looks to solve transfer problem",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-three-clear-everton-34656313",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34656326.ece/ALTERNATES/s615/2_GettyImages-2296130379.jpg",
-      "summary": "Getting Christian Norgaard and Merlin Rohl fit, avoiding any setbacks for James Garner and Jarrad Branthwaite, and finding the best back-up to Thierno Barry will be top of the Everton manager's international break to-do…",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "echo",
-      "title": "Bradley Barcola 'isn't worth the money' as Liverpool sent Jeremy Jacquet warning",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-isnt-worth-money-34661618",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34661705.ece/ALTERNATES/s615/0_GettyImages-2203408899.jpg",
-      "summary": "Former Chelsea defender Frank Lebouef has delivered his verdict on Liverpool's two new France internationals",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790222400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news: Sir Jim Ratcliffe's controversial remarks slammed and club debt rises",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-debt-jim-ratcliffe-37694677",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37694699.ece/ALTERNATES/s615/0_GettyImages-2271181802.jpg",
-      "summary": "Manchester United co-owner Sir Jim Ratcliffe has come under scrutiny while the club are out of action during the international break",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790220600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsenal news: Julian Alvarez transfer plot emerges as coach urges patience with star",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-transfers-alvarez-max-dowman-37694140",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37694466.ece/ALTERNATES/s615/0_GettyImages-2295829693.jpg",
-      "summary": "The latest Arsenal headlines as a number of Gunners join up with their national team squads for the international break",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790218800000
-    },
-    {
-      "competition": "echo",
-      "title": "Trent Alexander-Arnold's value continues to fall as reality of Real Madrid move starts to bite",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-real-transfer-34662892",
-      "image": "https://i2-prod.liverpool.com/incoming/article34611343.ece/ALTERNATES/s615/1_Trent-Alexander-Arnold.jpg",
-      "summary": "Trent Alexander-Arnold has had a tough time since controversially moving from boyhood club Liverpool to Real Madrid last June in a £10million deal",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790218800000
-    },
-    {
-      "competition": "ligue1",
-      "title": "Marseille’s Timothy Weah receives one-game ban for red card against PSG",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYXF5R2YtTHBfNVg1TGZMQVRqejI2aE9QZzdSYkNGQnRWZERGTXlUbGROMkhMTGQxeGQ1dHE1UE95SXM2RmQ1cDZxXzNuMnN0eU1pbG4wS2diMWZJbEpicC1JeXViLVBGVnFsQ21hVVlwRW0yQ1pMWkc3dFRRTS0yV2FNcndRaXVIZlBBTQ?oc=5",
-      "teams": [
-        "marseille"
-      ],
-      "publishedAt": 1790239800000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Karim Cassim, 17, completes Manchester United move from Manchester City",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeVJ2QmFhZ1poTGoxTTE2T0UtU2gxZXJZX3dsNzlER1hKSE93UUhuWEhoLXRjRFFPLXk0bFplSzZwTkRoTXZYaXRrc0xqR25iV09pTXBsNUdjcE9YZFdQQXRUbVk1MHlzemJldVJRbzFlbVR4SzZXTF91VENDQVZoak9RVzJPOUlIejhmVWZNSUxwV0xSS0pZX3JxZ1hJZw?oc=5",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1790239653000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Barcelona plotting Marc-Andre ter Stegen summer sale as Premier League interest intensifies following Ajax resurgence",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbUo5NzllN2NHSG5fMUtMb09WS3dMQU9zUWJyOVR6REJ2M2VrcENBLVNSSS1rejZkS1RLNzlxaVB0c2xLUVNDQTY1Yi1yQUQ4UEllT3pvMGFIUjFVWVBfZTh0RzFmNFFwWkp0ZndzZmJ3TzU1UmpyTTh1eUVRU1ZGd0tQTWlzMW5iRm5BUkhGaDl4bUxoNEc3c3pOcTgzSDQ?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790239427000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
-      "teams": [
-        "netherlands",
-        "germany",
-        "england"
-      ],
-      "publishedAt": 1790239045000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Stat attack: Barcelona midfielder leads La Liga in this key metric",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM2s0SURtOXBnazhrN1ZxZHdyc1p5djhoRm9hRUZldU1nTzRNU3Y5YUZvTkNnS0UxUGdyNHhuV0tvRTl4YS1WSzZENmVfSFN2X0d4NFBfUXZoSTg4NkY2blZ3VjJKLWZyNEVVbzJOalF6cjNXNVVGRENDbFJWSW41SVMxMnducmU3ZFpWbTlsZDg?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790238600000,
-      "image": null
-    },
-    {
-      "competition": "ligue1",
-      "title": "Official | Le Mans’ Adil Bourabaa receives maiden Algeria call-up after Nabil Bentaleb withdrawal",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMTB2Yl9WalZLTkloeGZKQzQwSmlobENMWkhHaktHOHI3WmtJb2JhQkxRWXFpMzJ1NVZEblBMN0FuS09KaGRoTE90VzhKMU1Dc0FaOU5lcnVUaU9XWjZWc2lxZ2FJLWRRbEEtMnNhUjRwMElCcGtHeFBFVWw1cjJWckYwZS0xQQ?oc=5",
-      "teams": [
-        "lemans"
-      ],
-      "publishedAt": 1790238600000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Colour change on Klopp debut! Why Germany's shirt was banned",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYUtGd1FKeU1JNld5OExlY1FYaDhmTThCOFh0U2hhcnpsT3hiWjlUS2g2TjM5YUNvdzRCY3dsRDlFZEE0ZHczVGxtWk5NVGZ1eTQxR05aeXdfY3ktMERvbGQ0MW03ZUd0dHFhdXYzVzMtX2dHUTFCc05QWUFBekVsZU9renU?oc=5",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790238540000,
-      "image": null
-    },
-    {
-      "competition": "echo",
-      "title": "Ronald Araujo can banish Liverpool transfer curse and numbers prove it",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-can-banish-liverpool-34660552",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34661894.ece/ALTERNATES/s615/0_GettyImages-2296297013.jpg",
-      "summary": "Ronald Araujo has had an impressive start to life at Liverpool but loan signings have rarely prospered when moving to Anfield",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790208000000
-    },
-    {
-      "competition": "epl",
-      "title": "Best manager? Ex-England star Emile Heskey picks out Celtic boss & Liverpool icon while helping to find Premier League coaches of the future",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY0h5MFlod3VDTHRRMlZFVDdFYlNwdUFXd1pIYVI5YXRFTjhqV1VWaVpaanFuSV9QVmt1TkFubTl5bjNvZGJhWGtBRHlBS1NVTm9kTk9RNnBNTnJCbURoSk9GUGIxYVdRVlcwcUNBQnk3TG1WNXdWUkQ3ZG8zeFdWLV9VeWdyUzh0ZU5WS1Q4c2tDbm4zaEdIR2JFYnJPS2h4VWFYSVdjWjdTUkkwVnZyV0Y1akhTbEpha2Zka3ZGZEppWDhwbS1nbUZQbkhIOVJLNEJXSzZMNUJzd0E?oc=5",
-      "teams": [
-        "liverpool",
-        "england"
-      ],
-      "publishedAt": 1790236755000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Kosovo vs Ireland: UEFA Nations League preview, lineups and players to watch",
-      "publisher": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaERNTVF5Ty1CYjU1SUpvLU9EMHg0eTJuMzFSNkpBT0I2R3YyREpqcEdtTGlsOGw3N3U0NHJfQUJmR1gwaTNKMWluR1JjaWFrMFNaazRQLUppTmNNR011TndYNTlJclMzY3BVVkdPdXl2b2JackVreTJWUjVPZFJOXzNMWXZnajdEOFFpclhsWG9rb20zRkhPOU1Mal8xZmhrMDlueF9QZDQ?oc=5",
-      "teams": [
-        "kosovo"
-      ],
-      "publishedAt": 1790235383000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer rumors, news: Bayern's Karl to get 'dream' Real Madrid move?",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTVp2M3ptdmZuenRUYnktSmI0OXJlUnlING9TNEZEcldnbzdOeUdSQVdCUFBKUF84MWdwMVkyRF90STZ5Z3BZSk01UEVvWllEYmtmQTVVWWhad1RzaFpLbWduYUphMXpRejZwekRSUWU2YXlxXzVLVUhURVBlNkRGdnUtOHJpaE8xWE5JRXdxVnJRaTFMb0E4VFVoUXVfelk5bUNKVlY4NlVORHZZZmJhSW9XMC1nSnl5MV84?oc=5",
-      "teams": [
-        "realmadrid",
-        "bayern"
-      ],
-      "publishedAt": 1790235264000,
-      "image": null
     }
   ]
 }
