@@ -1,17 +1,41 @@
 {
-  "generatedAt": 1790213258756,
+  "generatedAt": 1790220901687,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1528,
-    "tagged": 770,
-    "droppedKeyword": 40,
+    "raw": 1534,
+    "tagged": 777,
+    "droppedKeyword": 36,
     "droppedOtherSport": 1,
-    "droppedFeed": 9,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 51
+    "withImage": 49
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Arsenal news: Julian Alvarez transfer plot emerges as coach urges patience with star",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-transfers-alvarez-max-dowman-37694140",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37694466.ece/ALTERNATES/s615/0_GettyImages-2295829693.jpg",
+      "summary": "The latest Arsenal headlines as a number of Gunners join up with their national team squads for the international break",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790218800000
+    },
+    {
+      "competition": "echo",
+      "title": "Trent Alexander-Arnold's value continues to fall as reality of Real Madrid move starts to bite",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-real-transfer-34662892",
+      "image": "https://i2-prod.liverpool.com/incoming/article34611343.ece/ALTERNATES/s615/1_Trent-Alexander-Arnold.jpg",
+      "summary": "Trent Alexander-Arnold has had a tough time since controversially moving from boyhood club Liverpool to Real Madrid last June in a £10million deal",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790218800000
+    },
     {
       "competition": "echo",
       "title": "Ronald Araujo can banish Liverpool transfer curse and numbers prove it",
@@ -172,6 +196,18 @@
       "publishedAt": 1790191391000
     },
     {
+      "competition": "unl-a",
+      "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4UFZQQWQyX241R3pUTzcybUFtMmhFMlRSSnl6aVlfVnhEVS1TQ29Za3NKS3dOM1JzSURvU09TOElXZHZ2eEpCRUczZ2JyNDJDaU5RZ0ZISU81NWVGcmVUS1VVSDN5Zw?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790218902000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Aladji Bamba has three perfect examples to ease Newcastle United fears",
       "publisher": "Chronicle Live",
@@ -219,6 +255,29 @@
         "juventus"
       ],
       "publishedAt": 1790187924000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Netherlands vs Germany UEFA Nations League A preview: All you need to know",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2pLRzU2WDE5c2E0T2dHM1JiSmVfZFBiREN3Yl9mbFVkQ2tTQl9xVjdzWjBkZ0wxbnpNdmsxNUEydmdwM1pMSlR5MUFKYjNFLWt0MGFETDFmZWJpU2VBUFRYckZQeFU1MnNPUWhOYW01T0FXZVo3SF82VGZkZWpVN1MyS3lkc3JYbUZkTzFZOUpFR3NLelUxOVFuckQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790216693000,
+      "image": null
+    },
+    {
+      "competition": "ligue1",
+      "title": "Liverpool's Bradley Barcola Gets Eye-Opening Update After PSG Exit",
+      "publisher": "roundtable.io",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ1lvZ0JIWU90eF9aelRSdU1hYjFoZTNFZGZrZ3VJUktnaGdWZ1E5OS1hUFhybXhLMGZjSUFEZEJUYXQ1d00xRmhMYmo3TWRsdDlTNk5HYzdoVHBZTWhMUEM1dzd4Vlh1T2RHY3NVUVNFbkZlTTluSjhPUkh4RlBJLVpiMXYxd2JrYkV5dHlpVF9WazJlalFVeml0NlpISkk4TTVYOERPZ0ktM0dOR2ZPMzJUYkxGY2l0enlIMkNmUDZTb21vb3lWVUR5cw?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790215822000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -283,18 +342,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Harry Kane opens up on Bayern Munich contract - and reveals surprise career change plan",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-bayern-contract-nfl-37694855",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37694891.ece/ALTERNATES/s615/0_GettyImages-2295411452.jpg",
-      "summary": "England captain Harry Kane is already thinking about life after football, with the 33-year-old making plans for when he eventually leaves Bayern Munich",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790186400000
-    },
-    {
-      "competition": "mirror",
       "title": "Harry Kane opens up on true impact of England's World Cup heartbreak vs Argentina",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-england-argentina-spain-37694569",
@@ -302,6 +349,18 @@
       "summary": "England captain Harry Kane has linked up with the Three Lions for the first time since their World Cup heartbreak against Argentina and the striker is keen to move on from that disappointment",
       "teams": [
         "england"
+      ],
+      "publishedAt": 1790186400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane opens up on Bayern Munich contract - and reveals surprise career change plan",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-bayern-contract-nfl-37694855",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37694891.ece/ALTERNATES/s615/0_GettyImages-2295411452.jpg",
+      "summary": "England captain Harry Kane is already thinking about life after football, with the 33-year-old making plans for when he eventually leaves Bayern Munich",
+      "teams": [
+        "bayern"
       ],
       "publishedAt": 1790186400000
     },
@@ -367,6 +426,17 @@
       "publishedAt": 1790183065000
     },
     {
+      "competition": "laliga",
+      "title": "Rodri reacts to Real Madrid’s referee complaints and gives his verdict on Madrid derby",
+      "publisher": "Barca Blaugranes",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEN0QzZNbFAzeldzb0N0d0pUcUlPOUVfd29mdHhpVTBsWUpwN09zVWJ2dUU1WDV3RkxFRXFuQzR3UlpHS3lOLWxqVG16WF9YTGI3U3dWcjVvQnVaYjN6TV96SV9jYkhaOGdCWF9QaENyTERFTmFQWE1yYVJfM2ZBVWkxZDIyZ0tmV2F2MHRxQlBWcGdDZWx3eG42MWlwY2Z0LWp2b00zRGMzbmFjWmZQZUtHWExSR2FiYkZaRXFwR1U1bmc0VmtOeWRMOEU?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790211600000,
+      "image": null
+    },
+    {
       "competition": "unl-a",
       "title": "Where to watch Netherlands vs. Germany live stream, TV channel, start time for Nations League match",
       "publisher": "Yahoo Sports",
@@ -401,18 +471,6 @@
         "arsenal"
       ],
       "publishedAt": 1790182017000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Netherlands vs Germany UEFA Nations League A preview: All you need to know",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2pLRzU2WDE5c2E0T2dHM1JiSmVfZFBiREN3Yl9mbFVkQ2tTQl9xVjdzWjBkZ0wxbnpNdmsxNUEydmdwM1pMSlR5MUFKYjNFLWt0MGFETDFmZWJpU2VBUFRYckZQeFU1MnNPUWhOYW01T0FXZVo3SF82VGZkZWpVN1MyS3lkc3JYbUZkTzFZOUpFR3NLelUxOVFuckQ?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790210738000,
-      "image": null
     },
     {
       "competition": "echo",
@@ -499,15 +557,14 @@
       "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "Uefa Nations League LIVE: Portugal vs Wales - live text updates, score & radio commentary",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4UFZQQWQyX241R3pUTzcybUFtMmhFMlRSSnl6aVlfVnhEVS1TQ29Za3NKS3dOM1JzSURvU09TOElXZHZ2eEpCRUczZ2JyNDJDaU5RZ0ZISU81NWVGcmVUS1VVSDN5Zw?oc=5",
+      "competition": "injury",
+      "title": "Georgia Football Injury Report: Three Bulldogs out, three more questionable",
+      "publisher": "On3",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEpPZzZtcGEwMGNpeFpHVTExeUR2ZGdvOXNodlhWRDhWeUQ2UURWbm1RV2ZFaDdFenhsMDdteGlWZ1VELVNDaXJzZmMwem95d1ZJazE4VnhKd29XWjYtd1dMdGYtRGxxemFEOTFSaTNmbi1MZVZqeGd2dlVqMHhDb2MxbWRvZEdj?oc=5",
       "teams": [
-        "portugal",
-        "wales"
+        "georgia"
       ],
-      "publishedAt": 1790209011000,
+      "publishedAt": 1790208960000,
       "image": null
     },
     {
@@ -536,13 +593,13 @@
     },
     {
       "competition": "transfer",
-      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
+      "title": "Transfer rumors, news: Could Man United replace Shaw with Mitchell?",
       "publisher": "espn.com.au",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzdYeEZLWjRwLUN6QmdtZUJ5QW4wTWNfY0pMX0hMLWEtUzFLdllLSlV4Z29DUkU1SE85SDZlc0VLZ19rUWctUEFCalFxSWRxQTViWk5QX0FubUhCdExSb3JiVG40cDNESHZmdDBRZUdmQUxQYWRtNDlsQ2hSZm5nMzNYUGlNUDJCTXlJS2c2cHRZYnpvNGllUU9FcTJHN3ZiVjB1cUE4cXYwSGY4el9JdHFIanEzbUVMek1OM1pfc25MRE1z?oc=5",
       "teams": [
-        "bayern"
+        "manutd"
       ],
-      "publishedAt": 1790208000000,
+      "publishedAt": 1790208136000,
       "image": null
     },
     {
@@ -645,7 +702,7 @@
     {
       "competition": "unl-a",
       "title": "UEFA Nations League Matchday 1 preview: England vs Spain, Netherlands vs Germany among marquee matches",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2dhSUktc2JuY1ByU2tTdktXLVAwbUo2ZDJCNmFGZXY0UnJYRXZvX1g4bFUwOEFUc2JPX0VQOXRHZExDbDVkNDlOM3lWeTBMYU5JNHVRbjJKWWR4T2wzcmR2dHFPRDI5bDZDU3FNekdLVFotVjlBMklCQzBtU1lFbFk0MnJaNHZYNVFlMjZpcmRhWjAtRE9NVEx6V3VaZEVUNE00S0lZTVNNODctV3ZQczhGdTZ3UFdJZ2p5amdrSXA4TG9RdFhzbDRwTlZ4Sl9wTzlGRWFOaS1nQQ?oc=5",
       "teams": [
         "netherlands",
@@ -679,67 +736,6 @@
         "manutd"
       ],
       "publishedAt": 1790177235000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa's summer transfer business rated as Monchi explains Arsenal snub",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villas-summer-transfer-business-34660512",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34574513.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-Premier-League-MKM-Stadium.jpg",
-      "summary": "BirminghamLive brings you the latest Aston Villa headlines",
-      "teams": [
-        "astonvilla",
-        "arsenal"
-      ],
-      "publishedAt": 1790176500000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Done Deal: Neto will be new Juventus goalkeeper as free agent",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/done-deal-neto-will-be-new-juventus-goalkeeper/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Neto-thumbs-Juventus-414x276.jpg",
-      "summary": "Free agent Neto has agreed a contract with Juventus to June 2027, claim multiple reports,...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790176141000
-    },
-    {
-      "competition": "men",
-      "title": "JJ Gabriel receives Barcelona 'guarantee' after three Man United decisions riled his dad",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-man-united-transfer-34661037",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34661505.ece/ALTERNATES/s615/0_JJ-Gabriel.jpg",
-      "summary": "JJ Gabriel has received a lucractive offer and 'guarantees' to sign for Barcelona with Real Madrid among the others chasing a move for the Manchester United talent",
-      "teams": [
-        "manutd",
-        "barcelona"
-      ],
-      "publishedAt": 1790175928000
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790204618000,
-      "image": null
-    },
-    {
-      "competition": "metro",
-      "title": "Virgil van Dijk slams &#8216;utter nonsense&#8217; claim in feisty Netherlands press conference",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/23/virgil-van-dijk-slams-utter-nonsense-claim-feisty-netherlands-press-conference-29647835/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313664368-8677.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "netherlands"
-      ],
-      "publishedAt": 1790175688000
     }
   ]
 }
