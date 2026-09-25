@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790298478004,
+  "generatedAt": 1790299803590,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 755,
-    "droppedKeyword": 27,
+    "raw": 1524,
+    "tagged": 753,
+    "droppedKeyword": 26,
     "droppedOtherSport": 2,
-    "droppedFeed": 8,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 58
+    "withImage": 57
   },
   "items": [
     {
@@ -615,6 +615,18 @@
       "publishedAt": 1790270308000
     },
     {
+      "competition": "epl",
+      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
+      "publisher": "skysports.com",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790299063000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Van Bommel: &#8216;Always 4-3-3, Belgium and Italy in same situation, Milan hope&#8217;",
       "publisher": "Football Italia",
@@ -639,6 +651,18 @@
         "liverpool"
       ],
       "publishedAt": 1790269791000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
+      "publisher": "skysports.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790298515000,
+      "image": null
     },
     {
       "competition": "guardian",
@@ -738,31 +762,6 @@
         "italy"
       ],
       "publishedAt": 1790267362000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790296035000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Portugal vs Wales for free – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/portugal-wales-stream-channel-league-37684519",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37396677.ece/ALTERNATES/s615/3_Portugal-v-Spain-Round-of-16-FIFA-World-Cup-2026.jpg",
-      "summary": "Cristiano Ronaldo's Portugal return to international action against Craig Bellamy's Wales as the UEFA Nations League resumes",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790267100000
     }
   ]
 }
