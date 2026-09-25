@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790376038860,
+  "generatedAt": 1790379076670,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1502,
-    "tagged": 793,
+    "raw": 1512,
+    "tagged": 799,
     "droppedKeyword": 16,
-    "droppedOtherSport": 3,
-    "droppedFeed": 3,
+    "droppedOtherSport": 2,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Rodri insists Manchester City ‘deserved’ success despite FFP guilty verdict",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/rodri-adamant-manchester-city-deserved-success-despite-being-found-guilty-of-rule-breaking",
+      "image": "https://i.guim.co.uk/img/media/b25bf3e1482d835759c360ef33b53f16e32a9027/463_0_4900_3920/master/4900.jpg?width=140&quality=85&auto=format&fit=max&s=3ce5e6804b0aa221c310ae8a518ad50d",
+      "summary": "‘I believe in the justice system and innocence of the club’Midfielder ended glittering spell with City this yearRodri says nobody can take away Manchester City players’ success and still believes in his former club’s…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790376167000
+    },
     {
       "competition": "men",
       "title": "Man City 115 charges LIVE: Updates as City found guilty with clubs plotting legal action",
@@ -237,6 +249,19 @@
       "publishedAt": 1790369279000
     },
     {
+      "competition": "bbc",
+      "title": "Late drama as Northern Ireland beat Georgia",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqrl663ew3kxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89fb/live/cd4d2380-b921-11f1-bc1f-3f186ca4140c.jpg",
+      "summary": "Watch the best of the action as Shea Charles scores a 99th-minute winner as Northern Ireland beat Georgia in the Nations League.",
+      "teams": [
+        "nireland",
+        "georgia"
+      ],
+      "publishedAt": 1790369198000
+    },
+    {
       "competition": "fitalia",
       "title": "Italy 0-2 Belgium: Mancini return begins with disaster",
       "publisher": "Football Italia",
@@ -284,6 +309,18 @@
         "mancity"
       ],
       "publishedAt": 1790368240000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City guilty verdict ‘a historic decision’, says whistleblower Rui Pinto",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-guilty-verdict-a-historic-decision-says-whistleblower-rui-pinto",
+      "image": "https://i.guim.co.uk/img/media/dc4bc91af9dd1786ac944bc995beb58b0331fe99/569_0_4140_3312/master/4140.jpg?width=140&quality=85&auto=format&fit=max&s=af445b03dab1c123c4e65a9267a1307c",
+      "summary": "Football Leaks founder’s information triggered probesHas faced legal issues and lives under police protectionYears after his leaks shook the foundations of European football, Rui Pinto is claiming vindication following…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790368037000
     },
     {
       "competition": "men",
@@ -711,43 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790356010000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd star handed late international call-up after 'unfortunate' injury blow",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-joshua-zirkzee-netherlands-37704106",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37704105.ece/ALTERNATES/s615/1_Manchester-United-v-Sabah-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
-      "summary": "A Manchester United star has been called up for the Nations League as a result of an international team-mate sustaining an injury",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790355733000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel’s match with Republic of Ireland will be an eerie occasion as political debate rages on",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/republic-of-ireland-israel-nations-league-serbia",
-      "image": "https://i.guim.co.uk/img/media/b18348648ad087fce0db939c1637f24d41a6f8e2/964_329_2481_1984/master/2481.jpg?width=140&quality=85&auto=format&fit=max&s=31b680c611f24b97a55fa3d33a0ef5a3",
-      "summary": "Despite fierce opposition to the Nations League encounters across Irish society, a boycott has not materialised The match is being played in a neutral country and the stands are likely to be empty but Sunday’s Nations…",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790355607000
-    },
-    {
-      "competition": "men",
-      "title": "Enzo Maresca shares cryptic message moments before Man City 115 charges verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/enzo-maresca-manchester-city-charges-34674658",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34674657.ece/ALTERNATES/s615/0_Manchester-United-v-Manchester-City-Premier-League-202627.jpg",
-      "summary": "Enzo Maresca has been with Manchester City for a matter of months after succeeding Pep Guardiola, but has some potentially treacherous waters to navigate",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790355021000
     }
   ]
 }
