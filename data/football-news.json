@@ -1,28 +1,29 @@
 {
-  "generatedAt": 1790317096252,
+  "generatedAt": 1790318082946,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1523,
-    "tagged": 757,
-    "droppedKeyword": 30,
+    "raw": 1525,
+    "tagged": 759,
+    "droppedKeyword": 31,
     "droppedOtherSport": 1,
     "droppedFeed": 9,
     "blocklistDistrusted": false,
-    "withImage": 50
+    "withImage": 48
   },
   "items": [
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "competition": "indy",
+      "title": "Why are Republic of Ireland playing against Israel?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-match-nations-league-palestine-protests-boycott-b3056182.html",
+      "image": "https://static.independent.co.uk/2026/09/22/09/2278658766..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "summary": "The Republic of Ireland face a double-header against Israel in the Uefa Nations League, with their ‘home’ fixture taking place in Serbia amid calls to boycott the fixtures due to the conflict in Gaza",
       "teams": [
-        "manutd"
+        "ireland",
+        "israel"
       ],
-      "publishedAt": 1790316679000
+      "publishedAt": 1790317668000
     },
     {
       "competition": "indy",
@@ -35,7 +36,32 @@
         "austria",
         "israel"
       ],
-      "publishedAt": 1790316546000
+      "publishedAt": 1790317477000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790317362000
+    },
+    {
+      "competition": "bbc",
+      "title": "Education, Barcelona & Basque culture - why Spain are dominating football",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1e5d2n273zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a4e/live/1d070840-adfc-11f1-8169-6fdea7f79791.jpg",
+      "summary": "Spain go into Saturday's Nations League match against England on a 38-match unbeaten run - and with a host of honours to their name. Why are they so good?",
+      "teams": [
+        "barcelona",
+        "spain"
+      ],
+      "publishedAt": 1790317257000
     },
     {
       "competition": "footlondon",
@@ -51,7 +77,7 @@
     },
     {
       "competition": "echo",
-      "title": "Alexander Isak brands Newcastle legend's demands as 'irrelevant' as Liverpool stance clear",
+      "title": "Alexander Isak brands Newcastle legend's demands as 'irrelevant' with Liverpool stance clear",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-brands-newcastle-legends-34668908",
       "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34522731.ece/ALTERNATES/s615/0_GettyImages-2291166152.jpg",
@@ -357,6 +383,29 @@
       "publishedAt": 1790288913000
     },
     {
+      "competition": "unl-a",
+      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790317635000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Ryan Gravenberch yearns for rhythm after stuttering start under Andoni Iraola at Liverpool",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHN4T1lfSDV1NFhQVmR2dEJNd2x1QUlUTXRRN0FlaU9TUlZ6cVF2S0ZRaEtiM2VSWmx1RFppQ0RPa1RWMndkRHlqQVdQdG5oVlVLcVJQd3NEajlLOE5GVjBzYTZSQV9hM0s0b2xQWElCdVdGenlsWVIzM3ZRRFBqaEw4eEFBdGJJczVJd2pfOE9LZ2Z4LXZiQUJHYTVGU0x3Ql9yWUxn?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790317449000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Man Utd borrow another £90m as debt tops £1.1bn",
       "publisher": "BBC Sport",
@@ -402,6 +451,18 @@
         "bayern"
       ],
       "publishedAt": 1790316180000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Portugal 1-0 Wales",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNVpfMTFsOHM1NlQ5dlZyLVdSMXZjQlpXMTRpaXd6Y0NvUGlmRWlJakNlZXJQR25MOFhOZmdNSVJ6Tm9YemdxU1l5MWcweHV0enNWR0U4SlVuSGdjaDEySTFMNFpDbmtZR1dHeUtkcGwwbTFmWDdoUnh5RTZsbHJ5aEZfUE1sZFVGQTdVY1BKSHNLSnI1MTFEOHZMdTItYjZMX2h5bXZPUjE5LXE5c2g0TVBiQ29kdGx0ZkVOaUpKR2tBcW9vMFdzNXlOY3o4bnhzZ1ZYaA?oc=5",
+      "teams": [
+        "portugal",
+        "wales"
+      ],
+      "publishedAt": 1790316037000,
       "image": null
     },
     {
@@ -505,19 +566,6 @@
       "publishedAt": 1790285478000
     },
     {
-      "competition": "indy",
-      "title": "Netherlands vs Germany LIVE: Jurgen Klopp denied debut win in injury-ridden clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-jurgen-klopp-live-score-result-nations-league-b3055200.html",
-      "image": "https://static.independent.co.uk/2026/09/24/21/2026-09-24T204037Z_1373379237_UP1EM9O1LFO08_RTRMADP_3_SOCCER-UEFANATIONS-NLD-GER.JPG?width=1200&auto=webp&trim=62%2C0%2C62%2C0",
-      "summary": "Netherlands 1-1 Germany: Klopp was on course for three points on his maiden Germany outing before Gakpo’s late leveller",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790285417000
-    },
-    {
       "competition": "guardian",
       "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
       "publisher": "The Guardian",
@@ -577,6 +625,18 @@
       "publishedAt": 1790285215000
     },
     {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Kosovo 1-0 Republic of Ireland",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNG95dWJYS0QzOVVubExHMzRaUWNGMjd2RktvUFltUU9jVTI1ek9aSzBSS1h5ajhZNGZVU0hvM3pzc09QcEtaTE42MnoyeE9iZTdIa0pxaF9hTzhpQkVQUTVidDIyZ0MxMWJ0YXphcFUtSHJLRUlNOHVEclo0NjF0dnVlTVpvNFJUMnkzMHhIOHdZb09CNUI5NmdwQXYyRUtPa2t5V01yN3ppSVNjcjhhakZwdmZHNVJQSVBxYzdZSU9PR19PTlMzX0duWDYyLTdoS3dPMXpUaFZfakVwNmlRakJ2TU0?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790313991000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "Arsenal dealt injury blow as Kai Havertz limps off in Germany clash",
       "publisher": "The Independent",
@@ -588,19 +648,6 @@
         "germany"
       ],
       "publishedAt": 1790285069000
-    },
-    {
-      "competition": "indy",
-      "title": "Portugal v Wales LIVE: Ronaldo doesn’t score but Portugal edge to Nations League win",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-live-score-result-nations-league-b3055226.html",
-      "image": "https://static.independent.co.uk/2026/09/24/21/01M3AJN031PF8X0SRYNJBWWX4F.jpg?width=1200&auto=webp&trim=5%2C0%2C5%2C0",
-      "summary": "Portugal 1-0 Wales: Joao Felix’s first-half goal was enough as Cristiano Ronaldo missed a sitter and had another effort ruled out for offside",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790284635000
     },
     {
       "competition": "indy",
@@ -643,12 +690,12 @@
     {
       "competition": "unl-a",
       "title": "Where to watch Turkiye vs. France live stream, TV channel, start time for UEFA Nations League match",
-      "publisher": "sportingnews.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON05DWVVUV0MxOEtYcnJVZ1BtV0ttYmV0Sk1BcjFHTXg3dWcwbUhTN25EVGc4MlM0WEhCdzNQRFBKbVhMTmFEYU50ejFqYkZBM0k2MUpDZ1FsQnVJQjlxRDlRNFBQeXN4X0RScmg4OFdUa01oNlRzM0dBbW1UVmtySmVaQzR5TU5BWklWazdteVY0U1E5NUp5dlRsdUFWTjV4QVhUcTBiWlk1OXZ3eXBSNmdLTndweFVWWnQwX0F6RFVxdlJzQWFHbWlBa09ZNTlf?oc=5",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMmRtcjBjNlQ0RXB4U1dOZkdQUlJGTmhVY3FxcFdYdTZfeTk3TjlFZm1KV2pQZWFHbHYwYXZOV1hIcjNrUWZEaWRwdmpoRnk1VTJXN01lNWF6ZWVfU0UteEhyRWNXM1hzYXd0R0lONHdORG12VlpIUS1SenI2RXpNTUV5NHY?oc=5",
       "teams": [
         "france"
       ],
-      "publishedAt": 1790312401000,
+      "publishedAt": 1790312400000,
       "image": null
     },
     {
@@ -699,54 +746,6 @@
         "arsenal"
       ],
       "publishedAt": 1790282938000
-    },
-    {
-      "competition": "mirror",
-      "title": "Cody Gakpo denies Jurgen Klopp victory on return in controversial Germany vs Netherlands draw",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/match-reports/germany-netherlands-jurgen-klopp-uefa-37699967",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700233.ece/ALTERNATES/s615/0_GettyImages-2296963186.jpg",
-      "summary": "NETHERLANDS 1-1 GERMANY: Former Liverpool boss Jurgen Klopp looked to be on the way to a perfect start to life with his nation only for a late Cody Gakpo goal to see a share of the spoils",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790282918000
-    },
-    {
-      "competition": "unl-a",
-      "title": "‘We were better!’ - Xavi claims Netherlands outplayed Jurgen Klopp’s Germany in UEFA Nations League clash",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmNlOTZkd1lxUzVEZnlXdjRla01FTUd5SzFFcmdjdWZmZFlheDlOOV9VTkxqNk1GUzdmQXBvR0VqMDBRbTFoU3FiSHFteXg2RjlJRV9DeWtpWlczWHdRMkwyempoRUVlWXZ6bE45YUJOZzVVLWF2TC1NaWFFSnFkbEI3MDZVMHdad08zVlkzZVFkeDQxSDBtS2g3ckpWeGZwcTNSRWE3bnZ2eS16ZFhHTGpB?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790311085000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Chelsea lead race for Scott - Friday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3fd/live/50f70320-b861-11f1-a430-4d16ee157c41.png",
-      "summary": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790281018000
-    },
-    {
-      "competition": "epl",
-      "title": "Gabriel Martinelli's agent reveals Brazilian winger rejected Premier League rivals to seal £60m Arsenal exit for Al-Hilal",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVEswcTNFNlBMQ2lhQTZ6OWthX05ZajE0WHVnQks5TGFONzFBYzJwMXFVOHlLcmFON3RJZEU4dkNSQWgzVnowTl9CR3A0MzhfSmV1ZnBXSmdKN0VucjBSa25xZ2I4WDRDUXlJcTYyRWtRdHpUaWhCY1RUTDdZOGRwX3pwckdzVkpBSURENy01UjlNTzQxNGNXRTAtRGxPbHNOSFAwTlhoaHBaOWFmbWExcEZMWQ?oc=5",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790309698000,
-      "image": null
     }
   ]
 }
