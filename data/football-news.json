@@ -1,17 +1,226 @@
 {
-  "generatedAt": 1790331961067,
+  "generatedAt": 1790337762572,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1506,
-    "tagged": 738,
+    "raw": 1507,
+    "tagged": 719,
     "droppedKeyword": 23,
     "droppedOtherSport": 0,
-    "droppedFeed": 7,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Havertz returns to Arsenal; England v Spain buildup; Haaland fires Norway to victory: football news – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+      "image": "https://i.guim.co.uk/img/media/1e12b7ebd03a8d020876c136af3c14a5d85bf1d0/190_0_2785_2228/master/2785.jpg?width=140&quality=85&auto=format&fit=max&s=a2fd042c6230b0cc43cb78a84ed07805",
+      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail TomOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
+      "teams": [
+        "arsenal",
+        "england",
+        "norway"
+      ],
+      "publishedAt": 1790337292000
+    },
+    {
+      "competition": "indy",
+      "title": "Chelsea hit with FA charge after alleged discriminatory chanting against Fulham",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/chelsea-fa-charge-discrimination-fan-chants-fulham-b3056381.html",
+      "image": "https://static.independent.co.uk/2026/09/25/12/01M3C1JA3JW7EJTRDJK7DNJZKX.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Chelsea beat Fulham in their opening game of the season but have now been charged by the FA",
+      "teams": [
+        "chelsea",
+        "fulham"
+      ],
+      "publishedAt": 1790336694000
+    },
+    {
+      "competition": "men",
+      "title": "Bryan Mbeumo and Patrick Dorgu send Michael Carrick message as Man United boss looks for quick fix",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-dorgu-mbeumo-goal-34671277",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34671616.ece/ALTERNATES/s615/0_GettyImages-2278033225.jpg",
+      "summary": "Bryan Mbeumo and Patrick Dorgu have given Michael Carrick something to think about ahead of Manchester United's return to Premier League action",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790335939000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Official: Italy squad numbers revealed for first Nations League test of 2026-27",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italy-squad-nos-belgium-nations-league/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training.jpg",
+      "summary": "The squad numbers for Friday night’s Nations League clash between Italy and Belgium have been...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790335659000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790335491000
+    },
+    {
+      "competition": "mirror",
+      "title": "Steven Gerrard launches multi-million pound project to transform sport in Liverpool",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/steven-gerrard-liverpool-sport-project-37701959",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37701957.ece/ALTERNATES/s615/2_Steven-Gerrard-with-Cllr-Graham-Morgan-Leader-of-Knowsley-Council-celebrating-an-agreement-to-creat.jpg",
+      "summary": "Former Liverpool captain Steven Gerrard has unveiled multi-million-pound plans for sports and educational facilities in Liverpool and Knowsley, a place he's \"proud to call home\".",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790335152000
+    },
+    {
+      "competition": "metro",
+      "title": "Benjamin Sesko injury update as expert reveals nightmare scenario for Man Utd star",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/benjamin-sesko-injury-update-expert-reveals-nightmare-scenario-man-utd-star-29653223/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311764403-bee2.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790334731000
+    },
+    {
+      "competition": "metro",
+      "title": "Man Utd star receives surprise late call-up to national team after injury blow",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/man-utd-star-receives-surprise-late-call-up-national-team-injury-blow-29653208/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2295702818-eeba.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790334427000
+    },
+    {
+      "competition": "bbc",
+      "title": "Israel game should not go ahead - Republic of Ireland's Knight",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm750g0zx9weo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9184/live/060c9cf0-b8b4-11f1-8257-a79ccb54f692.jpg",
+      "summary": "Jason Knight has become the first Republic of Ireland player to publicly voice his opposition to playing Israel on Sunday.",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790333984000
+    },
+    {
+      "competition": "men",
+      "title": "Man City star Gianluigi Donnarumma thanks Italian FA for manager pivot after Pep Guardiola rejection",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-star-gianluigi-donnarumma-34671059",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34671269.ece/ALTERNATES/s615/0_GettyImages-2251259141.jpg",
+      "summary": "Manchester City's legendary manager Pep Guardiola was approached by the Italian FA to take charge of their national team this summer",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790333962000
+    },
+    {
+      "competition": "echo",
+      "title": "FSG expected to hand over full Liverpool ownership as 'silly' Amazon claim dismissed",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/fsg-expected-hand-over-full-34670600",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34437313.ece/ALTERNATES/s615/2_GettyImages-2281425691.jpg",
+      "summary": "Former Liverpool CEO Peter Moore has given his insight on the deal that saw 1892 Holdings take on a 38% stake of the Reds from Fenway Sports Group",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790333859000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Zion Suzuki update emerges as England U20s issue George Hemmings statement",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/zion-suzuki-update-emerges-england-34671124",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34595377.ece/ALTERNATES/s615/0_JS417143181.jpg",
+      "summary": "Aston Villa have several players away on international duty including their star goalkeeper and breakthrough midfielder",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790333258000
+    },
+    {
+      "competition": "echo",
+      "title": "Sean Dyche makes Harrison Armstrong prediction and gives verdict on Everton transfer drama",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/sean-dyche-makes-harrison-armstrong-34670824",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34671163.ece/ALTERNATES/s615/0_MixCollage-25-Sep-2026-11-39-AM-2304.jpg",
+      "summary": "Former Everton manager Sean Dyche has been speaking about Harrison Armstrong and Nottingham Forest's approach for the highly-rated midfielder",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790333002000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Why Zaniolo will not feature in Italy vs. Belgium Nations League opener",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/why-zaniolo-will-not-feature-italy-vs-belgium/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training.jpg",
+      "summary": "Roberto Mancini will make his second debut as head coach of the Italy national team...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790332911000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea ace should not make another Premier League start warns Paul Scholes",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/jordan-henderson-paul-scholes-chelsea-34670588",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34670791.ece/ALTERNATES/s615/0_West-Ham-United-v-Manchester-United-Premier-League.jpg",
+      "summary": "Jordan Henderson finally made his Chelsea debut against his former club Brentford, but Paul Scholes has suggested he shouldn't start again",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790332047000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United announce professional contract for exciting winger",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-announce-professional-contract-34670811",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34670816.ece/ALTERNATES/s615/1_Screenshot-2026-09-25-110404.png",
+      "summary": "Man Utd have secured the future of talented winger Noah Ajayi, who was outstanding in youth games last season.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790331920000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Sunderland handed Brian Brobbey injury update as Xavi confirms decision",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/sunderland-brian-brobbey-injury-update-34670192",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34670163.ece/ALTERNATES/s615/0_Brian-Brobbey.jpg",
+      "summary": "Sunderland have been handed an injury update on Brian Brobbey after the forward was taken off during Netherlands' draw against Germany on Thursday",
+      "teams": [
+        "sunderland"
+      ],
+      "publishedAt": 1790331692000
+    },
     {
       "competition": "indy",
       "title": "Kai Havertz returns to Arsenal for treatment on hamstring injury",
@@ -99,20 +308,6 @@
       "publishedAt": 1790331158000
     },
     {
-      "competition": "guardian",
-      "title": "Havertz injury latest; Haaland fires Norway to victory; England v Spain buildup: football news – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-      "image": "https://i.guim.co.uk/img/media/0ee4c6f4c3702320b5f78f8d40bf9f2e96c38a2d/214_264_2696_2156/master/2696.jpg?width=140&quality=85&auto=format&fit=max&s=63024654dbba605928709d24ce2a442a",
-      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail TomOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
-      "teams": [
-        "england",
-        "norway",
-        "spain"
-      ],
-      "publishedAt": 1790330868000
-    },
-    {
       "competition": "fitalia",
       "title": "Amorim apologised to Manchester United haircut guy with three-word message",
       "publisher": "Football Italia",
@@ -123,18 +318,6 @@
         "manutd"
       ],
       "publishedAt": 1790330568000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790330546000
     },
     {
       "competition": "chronicle",
@@ -361,7 +544,7 @@
     },
     {
       "competition": "men",
-      "title": "Bruno Fernandes forced to play unusual position then brutally criticised by Portugal boss",
+      "title": "Bruno Fernandes brutally criticised by Portugal boss after being forced to play unusual position",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-portugal-man-united-34669730",
       "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34669715.ece/ALTERNATES/s615/1_GettyImages-2296324824.jpg",
@@ -460,13 +643,12 @@
     },
     {
       "competition": "bundes",
-      "title": "Jürgen Klopp confirms Bayern Munich playmaker Jamal Musiala undergoing scan after injury on Germany duty",
+      "title": "Jamal Musiala and Kai Havertz replaced by Florian Wirtz and Jonathan Burkardt in Germany squad after injuries",
       "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/jurgen-klopp-bayern-munich-jamal-musiala-scan-thigh-injury-germany-39347",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083724344h.jpg?crop=0px%2C0px%2C5000px%2C2811px",
-      "summary": "Germany coach Jürgen Klopp has confirmed Bayern Munich playmaker Jamal Musiala is undergoing an MRI scan after pulling out of the warm-up of the UEFA Nations League clash against the Netherlands in Amsterdam in what…",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/jurgen-klopp-bayern-munich-jamal-musiala-havertz-wirtz-injury-germany-39347",
+      "image": "https://assets.bundesliga.com/contender/2024/4/imago1042852828h.jpg?crop=0px%2C43px%2C6250px%2C3513px",
+      "summary": "Bayern Munich playmaker Jamal Musiala and former Bayer Leverkusen attacker Kai Havertz sustained injuries ahead of and during Germany's UEFA Nations League clash against the Netherlands, and they have been replaced in…",
       "teams": [
-        "bayern",
         "germany"
       ],
       "publishedAt": 1790321975000
@@ -494,6 +676,19 @@
         "liverpool"
       ],
       "publishedAt": 1790321400000
+    },
+    {
+      "competition": "bundes",
+      "title": "Choose your Germany XI for Jürgen Klopp's second match against Greece",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/choose-vote-germany-team-jurgen-klopp-greece-nations-league-39353",
+      "image": "https://assets.bundesliga.com/contender/2026/8/GER_GR_Startelf-Voting_16-9.jpg?",
+      "summary": "Jürgen Klopp is aiming for his first win as Germany coach on Sunday in his second match in charge against Greece in the UEFA Nations League in Augsburg. Who should he pick to start?",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790321199000
     },
     {
       "competition": "fitalia",
@@ -556,202 +751,6 @@
         "israel"
       ],
       "publishedAt": 1790318205000
-    },
-    {
-      "competition": "indy",
-      "title": "Arsenal dealt injury blow as Kai Havertz limps off in Germany clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/kai-havertz-injury-latest-arsenal-germany-netherlands-b3056007.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/2296962844..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Havertz was chosen to lead the line in Jurgen Klopp’s first match as Germany manager",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790318136000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jurgen Klopp provides worrying Kai Havertz update after Arsenal star suffered injury",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/klopp-update-kai-havertz-injury-37700577",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700600.ece/ALTERNATES/s615/0_GettyImages-2296962927.jpg",
-      "summary": "Arsenal's Kai Havertz was subbed off during Germany's dramatic 1-1 draw with the Netherlands, having been on the end of a high challenge from Crystal Palace star Quinten Timber",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790318085000
-    },
-    {
-      "competition": "mirror",
-      "title": "Top 12 fastest Premier League players in FC27 as three Liverpool stars feature",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/fc27-premier-league-liverpool-barcola-37687633",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37687990.ece/ALTERNATES/s615/0_GettyImages-2294365498.jpg",
-      "summary": "The quickest Premier League players have been ranked by the new FC27 ratings",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790317800000
-    },
-    {
-      "competition": "bbc",
-      "title": "Education, Barcelona & Basque culture - why Spain are dominating football",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1e5d2n273zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a4e/live/1d070840-adfc-11f1-8169-6fdea7f79791.jpg",
-      "summary": "Spain go into Saturday's Nations League match against England on a 38-match unbeaten run - and with a host of honours to their name. Why are they so good?",
-      "teams": [
-        "barcelona",
-        "spain"
-      ],
-      "publishedAt": 1790317257000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso gets £219m Chelsea transfer vindication as Cole Palmer admission made",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonso-gets-219m-chelsea-34666261",
-      "image": "https://i2-prod.football.london/incoming/article34666601.ece/ALTERNATES/s615/0_GettyImages-2295958189.jpg",
-      "summary": "For all of Chelsea's problems in defence and midfield at the start of the season, Xabi Alonso's front three have been breathtaking at times",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790316000000
-    },
-    {
-      "competition": "echo",
-      "title": "Alexander Isak brands Newcastle legend's demands as 'irrelevant' with Liverpool stance clear",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-brands-newcastle-legends-34668908",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34522731.ece/ALTERNATES/s615/0_GettyImages-2291166152.jpg",
-      "summary": "Alexander Isak has responded to comments made by Alan Shearer after the Liverpool striker made his first return to Newcastle United",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790316000000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Joelinton breaks silence on Newcastle United injury hell - 'Not been good'",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/joelinton-breaks-silence-newcastle-united-34658027",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34420114.ece/ALTERNATES/s615/0_Newcastle-United-Training-Session.jpg",
-      "summary": "Exclusive: Joelinton has lifted the lid about his injury woes and his hunger to be part of Matthias Jaissle's Toon revolution",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790316000000
-    },
-    {
-      "competition": "bbc",
-      "title": "Zidane waited for France - now can he harness their star power?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20dxgpjng3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7877/live/7c1b7350-8a95-11f1-abbc-1d62d6206917.jpg",
-      "summary": "Zinedine Zidane says he waited for the France job, but what will he bring to the role after five years out of management?",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790315482000
-    },
-    {
-      "competition": "indy",
-      "title": "How Ireland v Israel become the world’s most controversial fixture",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-v-israel-boycott-nations-league-palestine-fifa-b3056168.html",
-      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790314952000
-    },
-    {
-      "competition": "mirror",
-      "title": "'I was sent home from England duty for sneaking out – but boss let me go to Ibiza instead'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-international-andy-carroll-ibiza-37698972",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37699007.ece/ALTERNATES/s615/0_GettyImages-91667035.jpg",
-      "summary": "A former Premier League star has recalled the reaction from his club manager after being sent home for sneaking out on England duty",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790314200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "8 Arsenal stars feature in FC27's 20 best Premier League players as Gabriel leads the way",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/8-arsenal-stars-feature-fc27s-34654241",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34654240.ece/ALTERNATES/s615/0_2026-Gamescom-In-Cologne.jpg",
-      "summary": "The EA FC 27 ratings are out and there are plenty of Premier League players in the top 20, with Arsenal and Liverpool well represented",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790314200000
-    },
-    {
-      "competition": "indy",
-      "title": "Scotland’s new era is a genuinely bold step into the unknown",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/scotland-sebastien-pocognoli-nations-league-preview-b3055718.html",
-      "image": "https://static.independent.co.uk/2026/09/15/13/01M0A7VP0SW492BASF73RHQBB0.jpg?width=1200&auto=webp&trim=81%2C0%2C81%2C0",
-      "summary": "The appointment of the 39-year-old Sebastien Pocognoli is a risk, but one that needed to be taken to breathe new life into the national team",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "indy",
-      "title": "Thomas Tuchel has realised England’s ultimate challenge and only Spain have the answer",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-thomas-tuchel-nations-league-b3055505.html",
-      "image": "https://static.independent.co.uk/2026/09/18/12/706d78a32a8a492320cf156e8c47634aY29udGVudHNlYXJjaGFwaSwxNzg5ODE1MjE4-2.85893266.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Tuchel has moved on from the World Cup and must now develop an ideology for England to harness ahead of Euro 2028",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "footlondon",
-      "title": "William Saliba injury timeline update as Arsenal told when star defender could return",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-william-saliba-injury-back-34668036",
-      "image": "https://i2-prod.football.london/incoming/article34668046.ece/ALTERNATES/s615/1_William-Saliba-and-Arsenal.jpg",
-      "summary": "Arsenal supporters have gained more insight into the potential return of William Saliba with the Frenchman still expected to miss months of action",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "men",
-      "title": "Three A's, no F's - Man City's summer signings GRADED after perfect start to Enzo Maresca tenure",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/three-as-no-fs-man-34666487",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34667719.ece/ALTERNATES/s615/0_premium-canvas-1790262469653.png",
-      "summary": "Manchester City have yet to drop points in the Champions League and Premier League so far this season as we enter the first international break",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Real Madrid beaten in transfer fight as Barcola told 'you're not worth it'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-bradley-barcola-real-madrid-34667101",
-      "image": "https://i2-prod.liverpool.com/incoming/article34633489.ece/ALTERNATES/s615/0_Bradley-Barcola.jpg",
-      "summary": "Details of Liverpool besting one of their rivals earlier this month have been revealed",
-      "teams": [
-        "realmadrid",
-        "liverpool"
-      ],
-      "publishedAt": 1790312400000
     }
   ]
 }
