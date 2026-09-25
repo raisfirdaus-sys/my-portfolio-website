@@ -1,17 +1,67 @@
 {
-  "generatedAt": 1790343618005,
+  "generatedAt": 1790344359165,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1514,
+    "raw": 1510,
     "tagged": 723,
     "droppedKeyword": 20,
     "droppedOtherSport": 0,
-    "droppedFeed": 6,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City GUILTY on 114 of 115 charges as club prepare appeal against verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-verdict-115-charges-37686388",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37686687.ece/ALTERNATES/s615/0_GettyImages-2295725253.jpg",
+      "summary": "Manchester City were charged with breaking the Premier League's financial rules from 2009 to 2018, and two years on from the hearing, we finally have an outcome",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790344059000
+    },
+    {
+      "competition": "metro",
+      "title": "Thomas Tuchel sends warning to Kobbie Mainoo and Cole Palmer over England absences",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/thomas-tuchel-sends-warning-kobbie-mainoo-cole-palmer-england-absences-29653751/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312946334-1b8b.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790343679000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Thomas Tuchel makes scathing Cole Palmer statement as Chelsea sent England warning",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/thomas-tuchel-makes-scathing-cole-34672902",
+      "image": "https://i2-prod.football.london/incoming/article34599158.ece/ALTERNATES/s615/0_GettyImages-2294412079.jpg",
+      "summary": "Thomas Tuchel has been speaking about Cole Palmer and the Chelsea star pulling out of his latest England squad for the Three Lions' upcoming Nations League fixtures",
+      "teams": [
+        "chelsea",
+        "england"
+      ],
+      "publishedAt": 1790343624000
+    },
+    {
+      "competition": "guardian",
+      "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+      "image": "https://i.guim.co.uk/img/media/2aee53d451f6d1a92f30b6ba793e660e66953b7b/336_0_4257_3406/master/4257.jpg?width=140&quality=85&auto=format&fit=max&s=09d823db3f9d41ce913fb1f17aa5aec2",
+      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail SarahOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
+      "teams": [
+        "arsenal",
+        "england"
+      ],
+      "publishedAt": 1790343475000
+    },
     {
       "competition": "echo",
       "title": "January transfer window, Giovanni Leoni return and Rochdale fireworks - your Liverpool questions answered",
@@ -47,19 +97,6 @@
         "manutd"
       ],
       "publishedAt": 1790342889000
-    },
-    {
-      "competition": "guardian",
-      "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-      "image": "https://i.guim.co.uk/img/media/2aee53d451f6d1a92f30b6ba793e660e66953b7b/336_0_4257_3406/master/4257.jpg?width=140&quality=85&auto=format&fit=max&s=09d823db3f9d41ce913fb1f17aa5aec2",
-      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail SarahOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790342649000
     },
     {
       "competition": "mirror",
@@ -715,44 +752,6 @@
         "italy"
       ],
       "publishedAt": 1790324776000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp moment shows Liverpool icon has already made huge impression on Germany team",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-germany-netherlands-34669437",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34669836.ece/ALTERNATES/s615/0_GettyImages-2297028167.jpg",
-      "summary": "Ex-Liverpool manager Jurgen Klopp was back in dugout for the first time since May 2024 as he took charge of Germany's Nations League game against Netherlands on Thursday",
-      "teams": [
-        "liverpool",
-        "germany"
-      ],
-      "publishedAt": 1790324599000
-    },
-    {
-      "competition": "men",
-      "title": "Bruno Fernandes brutally criticised by Portugal boss after being forced to play unusual position",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-portugal-man-united-34669730",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34669715.ece/ALTERNATES/s615/1_GettyImages-2296324824.jpg",
-      "summary": "Manchester United star Bruno Fernandes was made to play in a different position as Portugal beat Wales 1-0 and his manager has taken a swipe",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1790324494000
-    },
-    {
-      "competition": "mirror",
-      "title": "Israel player sent off for provocative 'gun goal celebration' against Austria",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/israel-celebration-austria-abu-farchi-37700711",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700827.ece/ALTERNATES/s615/0_GettyImages-2296300338.jpg",
-      "summary": "Saied Abu Farchi was gleefully enjoying his goal against Austria in the Nations League until the Israel striker was sent for an early bath because of his celebration",
-      "teams": [
-        "austria",
-        "israel"
-      ],
-      "publishedAt": 1790323680000
     }
   ]
 }
