@@ -76,6 +76,14 @@ say(/--hl-edge:\s*#b8860b/.test(tokens), "and a darker gold in the light one, to
 say(/--chrome:\s*#2e1758/.test(tokens), "the bar is brand purple in both themes");
 say(/data-theme="dark"/.test(html), "the page opens in the purple theme by default");
 
+/* Gold is the highlighter and means "the model rates this leg". Nothing
+   else may wear it. The selected row once did, and on a board with no
+   recommendations a gold row was read - and bet - as a pick. */
+const selRule = (css.match(/\.board-row\[aria-current="true"\]\s*\{[^}]*\}/) || [""])[0];
+say(selRule.length > 0, "the selected board row has its own rule");
+say(!/--hl-(wash|edge|ink)/.test(selRule),
+  "and it does not borrow the gold that marks a recommendation");
+
 /* The two colours he asked to be rid of. Judged by hue, because by eye
    "is this blue" and "is this orange" are hue questions and nothing else -
    an earlier version compared raw channels and called violet blue and gold
