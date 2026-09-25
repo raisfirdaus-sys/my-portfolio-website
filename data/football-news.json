@@ -1,17 +1,56 @@
 {
-  "generatedAt": 1790322106748,
+  "generatedAt": 1790322849974,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1518,
-    "tagged": 746,
-    "droppedKeyword": 34,
+    "raw": 1517,
+    "tagged": 745,
+    "droppedKeyword": 35,
     "droppedOtherSport": 1,
     "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 45
+    "withImage": 44
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Nations League: Italy vs. Belgium &#8211; probable line-ups, where to watch on TV",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/nations-italy-v-belgium-probable-line-ups-tv/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Francesco-Pio-Esposito-celebrate-Italy-Norway-414x276.jpg",
+      "summary": "Francesco Pio Esposito will lead Italy s attack in the opening game of Roberto Mancini s second...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790322840000
+    },
+    {
+      "competition": "metro",
+      "title": "Jurgen Klopp gives concerning update on Kai Havertz after Arsenal injury blow",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/jurgen-klopp-gives-concerning-update-kai-havertz-arsenal-injury-blow-29652366/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313880572-6df9.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790322500000
+    },
+    {
+      "competition": "guardian",
+      "title": "Havertz injury latest; Haaland fires Norway to victory; England v Spain buildup: football news – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+      "image": "https://i.guim.co.uk/img/media/0ee4c6f4c3702320b5f78f8d40bf9f2e96c38a2d/214_264_2696_2156/master/2696.jpg?width=140&quality=85&auto=format&fit=max&s=63024654dbba605928709d24ce2a442a",
+      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail SarahHello and welcome to today’s football blog which will bring you all the latest news from across the sport, including…",
+      "teams": [
+        "england",
+        "norway",
+        "spain"
+      ],
+      "publishedAt": 1790322227000
+    },
     {
       "competition": "echo",
       "title": "Jurgen Klopp shows true feelings towards Virgil van Dijk in unseen moment after Germany match",
@@ -84,19 +123,6 @@
         "scotland"
       ],
       "publishedAt": 1790319876000
-    },
-    {
-      "competition": "guardian",
-      "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/luis-de-la-fuente-spain-world-keep-us-winning",
-      "image": "https://i.guim.co.uk/img/media/5dd24a1e57fad012f61250cdcf19dfde4d0bcd26/40_0_1892_1513/master/1892.jpg?width=140&quality=85&auto=format&fit=max&s=7adddefe7e67a9c5117f8d201c7dd30e",
-      "summary": "Spain have won back-to-back major tournaments, but there is still one more to go to draw equal with feted team of 2008-2012“I’m going to tell you a story,” Luis de la Fuente said. “As soon as the game finished on 19…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790319644000
     },
     {
       "competition": "footlondon",
@@ -492,14 +518,26 @@
       "publishedAt": 1790294400000
     },
     {
-      "competition": "epl",
-      "title": "Man Utd line up SHOCK Premier League return for Antonio Conte to replace Michael Carrick",
-      "publisher": "goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalM2dWQtZ0RSbDlLb3BMOUdnRjJpd3pBbXdTS2twWW5aeHF2aFJQTUV5dTV0OVh1NE1MblhYbEpWSVEtM0M5S3FKMURCNGh2ZHJINUJ4MHN1WWh4ZjFNaWZWUVI4M0tTNnoxX1NORS1NYlo2XzlZVVRSY3lXb2VHOTZYM3B5T2VmeDFlQTBRdl9Gc3hxaFAyaW9jV0NkQlpRVHo1SVNZcmU?oc=5",
+      "competition": "laliga",
+      "title": "Spain are reigning World Cup and European champions. They're just getting started",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWjVVd2ZaZW9HRFhhdXp0bXFnMFN2UjQxeGpCbDVybXVXaWtXUHJ2b0JMZ3VpY1A4WUVMai1DZm12akxmVTVaVGg4U2J1ZThCVWZxNnl6QldfYmtIVUxnV2dQSFpqZ0Joa2ZVOFBnclNlUURZOUhIUURMend4RU44a29Qbi1xcDVkdVQ5S25aYldYTWEzZG1NWVRFdGJfMXNSbkIyM3B2TmQ5d0pDTDJkLWdDcVpNckdPMllBOFJzbw?oc=5",
       "teams": [
-        "manutd"
+        "spain"
       ],
-      "publishedAt": 1790320952000,
+      "publishedAt": 1790322763000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "'I must have watched it several times' - Chema Andres can't stop replaying stunning first Brighton goal in 3-0 Arsenal win",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNmh0dFp6N2JBeW1RNWhIb2UwOHVtWGcyNWpPaFFzQzVoQ1VjUFNxSlgxSDZVQlNrU2NqRnF5M1hEVnZwT3lXbk5DNUVkbFQ3UzVXQnk0X296elB3Qjg0RlVQZVpSUV9qclI5bk8zLXBsdGhzMW5RaFoxcHpMNDZTbGs0WjZ0NEJCcy1xQTF4MU5SYnpLVE91MnpmdVVNcExvQkFHeHFYeGRwS0VNM1g0bHdvVQ?oc=5",
+      "teams": [
+        "brighton",
+        "arsenal"
+      ],
+      "publishedAt": 1790322486000,
       "image": null
     },
     {
@@ -511,7 +549,29 @@
         "barcelona",
         "manutd"
       ],
-      "publishedAt": 1790320663000,
+      "publishedAt": 1790322118000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Barcelona break incredible 21st-century record even Messi’s teams could not match",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVFAwc1NjR0lFSkE2clRQV3czX1JNaW1SWVJqTXpaWnNYejRpZ1ZXVFpoTDhSdUF0WUpMZDRydjRNNGpodWVwZnRuaHBaTlNFMnZjN2JMWnFFRERvYlBaVkowa3NwR3JaTkNiOTZEdGhXWlMtZml5aE56TjB4VjVjUDlpaTlyamEzU1VRMzFXc1pRUQ?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790322000000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man Utd line up SHOCK Premier League return for Antonio Conte to replace Michael Carrick",
+      "publisher": "Yardbarker",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb1JDWnhlby1OX0tZNUlpcVR3UW5XZGc1aWJTbEJGMGVnU2k0ZU5WRkpPcmdYVDFjOG53LUFrbkxqTWdrejBqemxBdjJWNzg1aGtxd2oyX0VrWnlSVGUyVE9PaC1KaVFJTHh0WnNTZGhrTl9fSUg2ZUZvMkt5TlNzY1lJZzA3d0VTdEdpc21JZ1Uxc1pZaHFhYzhzNW9YMThuSTRwRUFkMEk0T3VoVXpMVDBReE9RSnR2WVJ1ZHJyR2RPYjJ0czFmSWZ1eXp5clRYTVBHTUlLMGNqNUQtd0FNWUZWbw?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790321010000,
       "image": null
     },
     {
@@ -535,6 +595,18 @@
         "barcelona"
       ],
       "publishedAt": 1790320533000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790320442000,
       "image": null
     },
     {
@@ -583,6 +655,18 @@
       "image": null
     },
     {
+      "competition": "unl-a",
+      "title": "Netherlands 1-1 Germany: Jurgen Klopp's first game in charge ends all square after late Cody Gakpo equaliser",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQnBfVjhDZGJ0RU5VbTFjQXliYndmNDhJQjZuQ2thRFFGM3IwZnBINV9GZGN6UWpKSG8yNUI5dHBCa3BHNExiMWhBUFB5Qk1abmdaMjRaOW5EUV9qYzVSQnptNDVPYms1b1NkYThpSjI4OHNXTTY1SGNEa045Y1NoVnpxY0swQQ?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790318379000,
+      "image": null
+    },
+    {
       "competition": "guardian",
       "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
       "publisher": "The Guardian",
@@ -604,17 +688,6 @@
         "barcelona"
       ],
       "publishedAt": 1790318126000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Turkiye vs France – Predicted lineup and team news",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXBfTlZHRjl1Z3I4dS1LOUhjOXppUlhmOWJ4ckh0TGRWcXBLZ2RoWnhMVWdMaTBsbzZJdVhFZHhVdFJGZXEwaUZ0SHVnRzZSUkxLWFJCV2VKYW5ia2tDNlRCQWxOeDZlUGxsRnhwc0hyVVlqdXZPWFdubFVOQldqSTVRcV9EMkZOazJj?oc=5",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790318100000,
       "image": null
     },
     {
@@ -664,78 +737,6 @@
       ],
       "publishedAt": 1790316455000,
       "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Deco: ‘Barcelona have moved on from Julian Alvarez’",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZHZhbUxqbU5sTmoyVXozTFJocTFkNEVxSVdWU1lJRlM1ZkRUMXEwOUk2dllzZGlla3dfV2NLWE53M3dyS3prMVJFYVRFRVJHdm1pMm9ZTXF4aU5hMWNNNU5DTk50NEdhdlZWa05HN1FibkphdDBGVUh1R2lTWEhVX3FaVVlST3RjdXBCQQ?oc=5",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790316300000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "'Don't put pressure on us' over Israel games - Ogbene",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c61kx1lyxz91o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c58/live/2ce7a380-b862-11f1-93a5-e363768bffbc.jpg",
-      "summary": "Republic of Ireland winger Chiedozie Ogbene urges the public to not \"put the pressure on us\" over the campaign to boycott the upcoming Nations League games against Israel.",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790287408000
-    },
-    {
-      "competition": "bundesliga",
-      "title": "Barcelona's Dani Olmo set for Bundesliga return at Bayern?",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUpJeXRQN2NaZktad2U1cU1uOV9TaFphTjUtWEZDd3NKVEFJZHNYYkxNNFpjVjAyZUhnREY2RDVlWVVvYVZyMGlXRGJ1R1lzVF9fY2FNWWktTHF6dUVHQlZuREc4Uk9uNVI5VEpTTmNCVm9ZNVhnRFNjQlZSSmVFX25UYm9maWp6Vk5uaw?oc=5",
-      "teams": [
-        "barcelona",
-        "bayern"
-      ],
-      "publishedAt": 1790316180000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Portugal 1-0 Wales",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNVpfMTFsOHM1NlQ5dlZyLVdSMXZjQlpXMTRpaXd6Y0NvUGlmRWlJakNlZXJQR25MOFhOZmdNSVJ6Tm9YemdxU1l5MWcweHV0enNWR0U4SlVuSGdjaDEySTFMNFpDbmtZR1dHeUtkcGwwbTFmWDdoUnh5RTZsbHJ5aEZfUE1sZFVGQTdVY1BKSHNLSnI1MTFEOHZMdTItYjZMX2h5bXZPUjE5LXE5c2g0TVBiQ29kdGx0ZkVOaUpKR2tBcW9vMFdzNXlOY3o4bnhzZ1ZYaA?oc=5",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790316037000,
-      "image": null
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel’s Saied Abu Farchi sent off for gun gesture celebration in defeat by Austria",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/israel-saied-abu-farchi-sent-off-gun-gesture-celebration-austria-nations-league",
-      "image": "https://i.guim.co.uk/img/media/2b4d159a596ea7eaf4f0fe5fcb8ea9051330119e/887_81_2225_1780/master/2225.jpg?width=140&quality=85&auto=format&fit=max&s=f9b23bf35d01013b8576f59f53c93a53",
-      "summary": "Forward uses corner flag to simulate gun after equaliserNations League match ends in 3-1 loss for IsraelIsrael’s forward Saied Abu Farchi was ⁠sent off for celebrating his goal against Austria in ⁠his side’s 3-1…",
-      "teams": [
-        "austria",
-        "israel"
-      ],
-      "publishedAt": 1790286952000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp shows true colours in Liverpool reunion with Virgil van Dijk and Cody Gakpo",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/klopp-gakpo-van-dijk-liverpool-34669109",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34669134.ece/ALTERNATES/s615/0_GettyImages-2296283143.jpg",
-      "summary": "The Liverpool duo were both in international action as the Netherlands played out a 1-1 draw against Jurgen Klopp's Germany in the Nations League",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790286619000
     }
   ]
 }
