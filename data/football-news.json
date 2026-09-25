@@ -1,17 +1,441 @@
 {
-  "generatedAt": 1790344359165,
+  "generatedAt": 1790350036240,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1510,
-    "tagged": 723,
-    "droppedKeyword": 20,
+    "raw": 1504,
+    "tagged": 745,
+    "droppedKeyword": 19,
     "droppedOtherSport": 0,
-    "droppedFeed": 5,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Guilty verdict, sanctions to be decided, Premier League statement, appeal latest",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article33727944.ece/ALTERNATES/s615/0_GettyImages-1309071033.jpg",
+      "summary": "Manchester City and the Premier League have been locked in a long-running battle after the Premier League champions were hit with 115 charges of alleged financial breaches.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349816000
+    },
+    {
+      "competition": "mirror",
+      "title": "Fulham fans can swim in rooftop pool at their stadium - if they buy eye-watering membership",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/fulham-craven-cottage-pool-stadium-37702812",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37703016.ece/ALTERNATES/s615/1_JS419160941.jpg",
+      "summary": "Craven Cottage has opened a new rooftop infinity pool that will give Fulham fans an exclusive view of the Premier League ground - but it comes at a huge cost",
+      "teams": [
+        "fulham"
+      ],
+      "publishedAt": 1790349595000
+    },
+    {
+      "competition": "tele",
+      "title": "Manchester City found guilty of 114 charges",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/09/25/manchester-city-guilty-financial-rule-breaches/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/25/TELEMMGLPICT000504614121_17903443592040_trans_NvBQzQNjv4Bq0RglTN43wyGR-NQABDM7EjiRj15_n4gTif5oRS20m_8.jpeg",
+      "summary": "Manchester City found guilty of 114 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349505000
+    },
+    {
+      "competition": "men",
+      "title": "Rio Ferdinand makes Man United point after Man City 115 charges verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/rio-ferdinand-man-united-city-34673805",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34673876.ece/ALTERNATES/s615/0_GettyImages-2285692684.jpg",
+      "summary": "Rio Ferdinand has taken a cheeky swipe at Manchester City after reports emerged that the club had been found guilty on the vast majority of the 115 financial charges",
+      "teams": [
+        "manutd",
+        "mancity"
+      ],
+      "publishedAt": 1790349504000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349485000
+    },
+    {
+      "competition": "indy",
+      "title": "Man City release statement after Premier League ‘verdict’ on 115 charges",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-reaction-premier-league-115-charges-b3056492.html",
+      "image": "https://static.independent.co.uk/2026/09/25/15/01M3CEPVF22S20A40VS51630AW.jpg?width=1200&auto=webp&trim=68%2C0%2C68%2C0",
+      "summary": "City were initially charged in February 2023 and an official verdict is finally imminent from the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349171000
+    },
+    {
+      "competition": "mirror",
+      "title": "Every new Premier League champion if Man City are stripped of titles for 114 guilty charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-titles-guilty-charges-37703555",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article35313038.ece/ALTERNATES/s615/2_GettyImages-2153304847.jpg",
+      "summary": "Manchester City won multiple Premier League titles during the period of their spending breaches",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349090000
+    },
+    {
+      "competition": "men",
+      "title": "Will Man City appeal guilty verdict on almost all of 115 charges?",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-appeal-guilty-verdict-34674005",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674040.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Reports claim that the club have been found guilty of all but one of the 115 charges of breaching Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790349032000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City: reports emerging over guilty verdict on almost all charges – live news and reaction",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+      "image": "https://i.guim.co.uk/img/media/649ec4854d87003410d3610761b3954f2177e494/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5c0e7e40bdb01da31db6d864d00a829b",
+      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail JohnOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348855000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City found guilty of breaking financial rules - sources",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6514/live/987b3830-b8f0-11f1-a698-ff5dd8cb1a06.jpg",
+      "summary": "Manchester City are found guilty of breaking the majority of the 115 financial rules they were accused of breaching, sources tell BBC Sport.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348841000
+    },
+    {
+      "competition": "men",
+      "title": "Full list of Man City's 115 charges as Premier League verdict returned",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-full-31128471",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article33727860.ece/ALTERNATES/s615/0_GettyImages-2267085085.jpg",
+      "summary": "The Premier League charged Manchester City with more than 115 charges of alleged financial breaches in February 2023. They have now been found guilty of 114 of those",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348480000
+    },
+    {
+      "competition": "indy",
+      "title": "Man City charges verdict – live: Bombshell decision set to be announced over Premier League charges",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-charges-verdict-live-updates-b2706785.html",
+      "image": "https://static.independent.co.uk/2026/07/30/14/2167274432..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "The long-awaited verdict over charges levelled against Man City by the Premier League represents a seminal moment with major repercussions set to be felt in the coming months and years",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348340000
+    },
+    {
+      "competition": "indy",
+      "title": "Could Manchester City be expelled from the Premier League over financial breaches?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/manchester-city-premier-league-punishment-sanction-expelled-b3056493.html",
+      "image": "https://static.independent.co.uk/2026/09/25/15/01M3CFCTFG0JZG0D7ZQGX37XHJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Manchester City are braced for heavy sanctions from the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348327000
+    },
+    {
+      "competition": "bbc",
+      "title": "What could the potential sanctions for Man City be?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cj62ee3zydxlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0db/live/85271ca0-b8f4-11f1-b1d1-571ed4d7ff2c.jpg",
+      "summary": "Football finance expert Kieran Maguire says the potential sanctions for Manchester City will be 'significant' after the sources told BBC Sport that the club has been found guilty of breaking the majority of the 115…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348114000
+    },
+    {
+      "competition": "men",
+      "title": "POLL: What should happen to Manchester City next after being found guilty of 114 charges?",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/poll-what-should-happen-manchester-34673702",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34673827.ece/ALTERNATES/s615/1_GettyImages-2153734887.jpg",
+      "summary": "Manchester City have been faced with 115 financial charges from the Premier League and it has now been revealed that they have been found guilty on 114 counts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790348071000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool sent Ismaila Sarr message after Crystal Palace chief blocked £50m transfer",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-ismaila-sarr-transfer-message-34672580",
+      "image": "https://i2-prod.football.london/incoming/article34673039.ece/ALTERNATES/s615/0_Crystal-Palace-FC-v-KKS-Lech-Poznan-UEFA-Europa-League-202627-League-Phase-MD1.jpg",
+      "summary": "Liverpool saw a £50m bid for the winger knocked back in the final week of the summer transfer window",
+      "teams": [
+        "crystalpalace",
+        "liverpool"
+      ],
+      "publishedAt": 1790347545000
+    },
+    {
+      "competition": "footlondon",
+      "title": "New forgotten summer signing among three Arsenal options to replace injured Kai Havertz",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/new-forgotten-summer-signing-among-34673697",
+      "image": "https://i2-prod.football.london/incoming/article34673707.ece/ALTERNATES/s615/1_Igor-Tyjon-and-Arsenal.jpg",
+      "summary": "Mikel Arteta has three potential options to replace Kai Havertz in his Arsenal side, including a summer signing",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790347464000
+    },
+    {
+      "competition": "men",
+      "title": "Man City issue fresh statement after being found guilty of 114 charges",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-guilty-115-charges-34673585",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34673595.ece/ALTERNATES/s615/0_Manchester-City-v-Watford-Carabao-Cup-Third-Round.jpg",
+      "summary": "Manchester City have been found guilty of all but one of their 115 Premier League charges for breaching financial regulations on Friday, with the club issuing a statement on matters",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790346392000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City's 115 charges verdict: What punishments could club face from Premier League?",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-punishment-37703287",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37588689.ece/ALTERNATES/s615/4_GettyImages-2291178828.jpg",
+      "summary": "Manchester City have been found guilty on 114 of their 115 charges over spending breaches, with fans asking what happens next for the Premier League titans",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790346335000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790346328000
+    },
+    {
+      "competition": "indy",
+      "title": "Can Man City appeal against verdict on Premier League’s charges?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-appeal-premier-league-charges-b2882547.html",
+      "image": "https://static.independent.co.uk/2023/06/30/11/21998612167d1ae5950ea9081c92809aY29udGVudHNlYXJjaGFwaSwxNjg4MjA1MzA1-2.71710227.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Both sides knew they would have 14 days to appeal the verdict of one of sport’s most historic court cases",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790346259000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Man City 'found guilty' of 114 charges as Premier League consider sanctions",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/man-city-found-guilty-114-34673461",
+      "image": "https://i2-prod.birminghammail.co.uk/sport/football/football-news/article34673460.ece/ALTERNATES/s615/0_GettyImages-2295725253.jpg",
+      "summary": "It is being reported an independent commission has found 114 of 115 Premier League charges against Manchester City proved",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790346139000
+    },
+    {
+      "competition": "bbc",
+      "title": "Wycombe sign ex-England striker Ings",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmj6436g4w03o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5216/live/ea525b80-b8ea-11f1-8e38-ff13e96f88b3.jpg",
+      "summary": "Wycombe Wanderers sign former Burnley, Liverpool and England striker Danny Ings.",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790345857000
+    },
+    {
+      "competition": "indy",
+      "title": "Man City timeline: From Abu Dhabi takeover to 115 Premier League charges",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-timeline-premier-league-charges-financial-rules-b2717997.html",
+      "image": "https://static.independent.co.uk/2026/09/25/15/01M3CEJ8BXP5JN1X31Z5SE3Z68.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "The former Premier League champions have strongly refuted breaking financial rules during their dominant run in the world’s richest football league",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790345751000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City release statement after being found GUILTY of Premier League charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-statement-premier-league-37703339",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37703334.ece/ALTERNATES/s615/0_GettyImages-2295774710.jpg",
+      "summary": "Manchester City have been found guilty of 114 of the 115 Premier League charges brought against them between three years ago and the eight-time champions have released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790345742000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Man City points deduction verdict after Premier League charges ruling as Arsenal await decision",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/man-city-points-deduction-verdict-34673216",
+      "image": "https://i2-prod.football.london/incoming/article31262646.ece/ALTERNATES/s615/0_GettyImages-2204705666.jpg",
+      "summary": "Manchester City have been found guilty on virtually all counts of breaching the Premier League’s financial rules and a points deduction is a real possibility",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790345691000
+    },
+    {
+      "competition": "indy",
+      "title": "What are the Premier League’s charges against Man City?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-charges-explained-b2882553.html",
+      "image": "https://static.independent.co.uk/2026/09/25/15/2296216207..?width=1200&auto=webp&trim=0%2C12%2C0%2C12",
+      "summary": "The champions were referred to an independent commission in February 2023 following a four-year investigation",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790345644000
+    },
+    {
+      "competition": "echo",
+      "title": "Manchester City found guilty of 114 charges as Premier League consider sanctions",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/manchester-city-found-guilty-114-34673261",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34673259.ece/ALTERNATES/s615/0_GettyImages-2296216207.jpg",
+      "summary": "The Premier League have informed clubs an outcome has been reached in the long-running legal issue with Manchester City",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790345396000
+    },
+    {
+      "competition": "echo",
+      "title": "Former Liverpool flop has World Cup stadium stand named after him",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/iago-aspas-liverpool-celta-vigo-34672964",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34673042.ece/ALTERNATES/s615/0_GettyImages-460776807.jpg",
+      "summary": "Iago Aspas proved to be a flop at Liverpool, failing to make an impact during his short spell at Anfield between 2013 and 2015",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790345379000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Manchester City found guilty on 114 of 115 Premier League charges as club prepares appeal",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/manchester-city-found-guilty-114-34673292",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article32591716.ece/ALTERNATES/s615/0_Premier-League-Manchester-City-v-Burnley.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 Premier League charges brought against them following a financial fair play investigation, with the club expected to appeal the decision",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790344944000
+    },
+    {
+      "competition": "guardian",
+      "title": "Will Spain bring more pain for Tuchel’s tired England?",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/england-spain-football-daily-newsletter",
+      "image": "https://i.guim.co.uk/img/media/34412b4814a834185c7eb16eadfc46a33a3300ab/766_0_4892_3913/master/4892.jpg?width=140&quality=85&auto=format&fit=max&s=f985cde4e8792bafd48985fb0ab3aac7",
+      "summary": "Come Saturday, it will be 73 days since the pain and shame of Atlanta, when England, from a winning position in a World Cup semi-final, decided to do an England, and sit on their lead. What followed resembled a…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790344871000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Manchester City found guilty on 'almost all' Premier League charge",
+      "publisher": "football.london",
+      "link": "https://www.football.london/premier-league/breaking-manchester-city-found-guilty-34673227",
+      "image": "https://i2-prod.football.london/incoming/article34673239.ece/ALTERNATES/s615/0_Manchester-City-v-AFC-Bournemouth-Premier-League-202627.jpg",
+      "summary": "Manchester City were charged with an 115 alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790344607000
+    },
+    {
+      "competition": "metro",
+      "title": "Manchester City found guilty on nearly all 115 charges of breaking Premier League rules",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/man-city-found-guilty-nearly-115-charges-breaking-premier-league-rules-29653824/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/PRI_189531008-3eb7.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790344497000
+    },
+    {
+      "competition": "men",
+      "title": "Man City found guilty of 114 Premier League charges as club statement released",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-city-finally-discover-32589145",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34663115.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have been faced with 115 financial charges from the Premier League and it has now been confirmed which way the ruling has gone after a lengthy legal battle",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790344394000
+    },
+    {
+      "competition": "men",
+      "title": "Slovenia coach responds to Benjamin Sesko's 'difficult period' after injury setback",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/slovenia-coach-responds-benjamin-seskos-34672842",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34673071.ece/ALTERNATES/s615/0_GettyImages-2294713236.jpg",
+      "summary": "Manchester United star Benjamin Sesko was forced to withdraw from the Slovenia national team squad after a recurrence of a shin injury suffered in May",
+      "teams": [
+        "slovenia"
+      ],
+      "publishedAt": 1790344160000
+    },
     {
       "competition": "mirror",
       "title": "Man City GUILTY on 114 of 115 charges as club prepare appeal against verdict",
@@ -48,19 +472,6 @@
         "england"
       ],
       "publishedAt": 1790343624000
-    },
-    {
-      "competition": "guardian",
-      "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-      "image": "https://i.guim.co.uk/img/media/2aee53d451f6d1a92f30b6ba793e660e66953b7b/336_0_4257_3406/master/4257.jpg?width=140&quality=85&auto=format&fit=max&s=09d823db3f9d41ce913fb1f17aa5aec2",
-      "summary": "⚽ All the latest heading in to the weekend’s action⚽ De la Fuente wants more from Spain | Mail SarahOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790343475000
     },
     {
       "competition": "echo",
@@ -134,18 +545,6 @@
         "wales"
       ],
       "publishedAt": 1790341960000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790341916000
     },
     {
       "competition": "echo",
@@ -347,411 +746,6 @@
         "israel"
       ],
       "publishedAt": 1790333984000
-    },
-    {
-      "competition": "men",
-      "title": "Man City star Gianluigi Donnarumma thanks Italian FA for manager pivot after Pep Guardiola rejection",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-star-gianluigi-donnarumma-34671059",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34671269.ece/ALTERNATES/s615/0_GettyImages-2251259141.jpg",
-      "summary": "Manchester City's legendary manager Pep Guardiola was approached by the Italian FA to take charge of their national team this summer",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790333962000
-    },
-    {
-      "competition": "echo",
-      "title": "FSG expected to hand over full Liverpool ownership as 'silly' Amazon claim dismissed",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/fsg-expected-hand-over-full-34670600",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34437313.ece/ALTERNATES/s615/2_GettyImages-2281425691.jpg",
-      "summary": "Former Liverpool CEO Peter Moore has given his insight on the deal that saw 1892 Holdings take on a 38% stake of the Reds from Fenway Sports Group",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790333859000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Zion Suzuki update emerges as England U20s issue George Hemmings statement",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/zion-suzuki-update-emerges-england-34671124",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34595377.ece/ALTERNATES/s615/0_JS417143181.jpg",
-      "summary": "Aston Villa have several players away on international duty including their star goalkeeper and breakthrough midfielder",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790333258000
-    },
-    {
-      "competition": "echo",
-      "title": "Sean Dyche makes Harrison Armstrong prediction and gives verdict on Everton transfer drama",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/sean-dyche-makes-harrison-armstrong-34670824",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34671163.ece/ALTERNATES/s615/0_MixCollage-25-Sep-2026-11-39-AM-2304.jpg",
-      "summary": "Former Everton manager Sean Dyche has been speaking about Harrison Armstrong and Nottingham Forest's approach for the highly-rated midfielder",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790333002000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Why Zaniolo will not feature in Italy vs. Belgium Nations League opener",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/why-zaniolo-will-not-feature-italy-vs-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training.jpg",
-      "summary": "Roberto Mancini will make his second debut as head coach of the Italy national team...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790332911000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea ace should not make another Premier League start warns Paul Scholes",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/jordan-henderson-paul-scholes-chelsea-34670588",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34670791.ece/ALTERNATES/s615/0_West-Ham-United-v-Manchester-United-Premier-League.jpg",
-      "summary": "Jordan Henderson finally made his Chelsea debut against his former club Brentford, but Paul Scholes has suggested he shouldn't start again",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790332047000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United announce professional contract for exciting winger",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-announce-professional-contract-34670811",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34670816.ece/ALTERNATES/s615/1_Screenshot-2026-09-25-110404.png",
-      "summary": "Man Utd have secured the future of talented winger Noah Ajayi, who was outstanding in youth games last season.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790331920000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Sunderland handed Brian Brobbey injury update as Xavi confirms decision",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/sunderland-brian-brobbey-injury-update-34670192",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34670163.ece/ALTERNATES/s615/0_Brian-Brobbey.jpg",
-      "summary": "Sunderland have been handed an injury update on Brian Brobbey after the forward was taken off during Netherlands' draw against Germany on Thursday",
-      "teams": [
-        "sunderland"
-      ],
-      "publishedAt": 1790331692000
-    },
-    {
-      "competition": "indy",
-      "title": "Kai Havertz returns to Arsenal for treatment on hamstring injury",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/havertz-injury-arsenal-hamstring-latest-germany-netherlands-b3056328.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/2296962990..?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
-      "summary": "Havertz will play no further part in Germany’s Nations League games after suffering a ‘muscle sprain’ in the 1-1 draw with the Netherlands",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790331559000
-    },
-    {
-      "competition": "bbc",
-      "title": "Chelsea charged by FA over discriminatory chanting",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crvgyw9qnpl3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5624/live/44eb13b0-b8c9-11f1-ad1f-538855f30ba1.jpg",
-      "summary": "Chelsea are charged by the Football Association over alleged discriminatory behaviour by fans during their win at Fulham in August.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790331545000
-    },
-    {
-      "competition": "indy",
-      "title": "Israel striker sent off for ‘gun celebration’ in Nations League defeat to Austria",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
-      "image": "https://static.independent.co.uk/2026/09/25/08/2296300338..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria, with Israeli media subsequently claiming the celebration with the corner flag was inspired by snooker",
-      "teams": [
-        "austria",
-        "israel"
-      ],
-      "publishedAt": 1790331405000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal's Kai Havertz replacement decided after injury blow as Mikel Arteta's strongest XI made clear",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-kai-havertz-injury-34670102",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34670260.ece/ALTERNATES/s615/0_Brighton-Hove-Albion-v-Arsenal-FC-Premier-League-202627.jpg",
-      "summary": "Kai Havertz is an injury concern for Mikel Arteta after the Arsenal star picked up a problem while playing for Germany during the international break",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790331397000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsenal receive fresh Kai Havertz injury update as Germany star to leave camp",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/kai-havertz-injury-update-arsenal-37701357",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700599.ece/ALTERNATES/s615/0_GettyImages-2296962844.jpg",
-      "summary": "Kai Havertz will return to Arsenal after picking up a suspected hamstring injury while on international duty for Germany, having been subbed off during their 1-1 draw with the Netherlands",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790331352000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Joao Pedro agreement reached after bold Xabi Alonso verdict on Chelsea star",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/joao-pedro-agreement-reached-after-34670603",
-      "image": "https://i2-prod.football.london/incoming/article34455121.ece/ALTERNATES/s615/1_GettyImages-2289296933jp.jpg",
-      "summary": "Xabi Alonso said recently that Chelsea forward Joao Pedro reminds him a lot of former Real Madrid striker Karim Benzema",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790331243000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Vinicius Jr to Arsenal truth emerges after Mikel Arteta secrecy as assistant coach speaks out",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/vinicius-jr-arsenal-truth-emerges-34670712",
-      "image": "https://i2-prod.football.london/incoming/article34670725.ece/ALTERNATES/s615/1_Vini-Jr-and-Arsenal.jpg",
-      "summary": "Arsenal's silence regarding their interest in Vinicius Junior has finally broken after Mikel Arteta's assistant admits the Brazilian was a target in the summer",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790331158000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Amorim apologised to Manchester United haircut guy with three-word message",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/amorim-apologises-man-utd-haircut-guy-3-words/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Ruben-Amorim-glance-414x282.jpg",
-      "summary": "Frank Ilett, who has vowed not to cut his hair until Manchester United win five...",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790330568000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United have agreed to Lewis Hall's transfer demand despite Bruno Guimaraes claim",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/newcastle-united-agreed-lewis-halls-34660966",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34661017.ece/ALTERNATES/s615/0_Newcastle-United-v-Hull-City-Premier-League-202627.jpg",
-      "summary": "The England defender has spoken about his future ambitions for the club after signing a contract extension",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790330400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Emile Heskey makes coaching prediction after England's World Cup third place",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/emile-heskey-makes-coaching-prediction-37698190",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37698156.ece/ALTERNATES/s615/0_Heskey-1.png",
-      "summary": "The former international striker-turned-coach made the trip to St George’s Park to reflect on how an inspirational showing at a major international tournament can encourage football coaching as a viable career pathway",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790329928000
-    },
-    {
-      "competition": "metro",
-      "title": "&#8216;Complete nonsense&#8217; &#8211; Gary Lineker slams Thomas Tuchel claim about England fans",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/25/gary-lineker-slams-thomas-tuchel-claim-england-fans-complete-nonsense-29652656/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-25-at-10.33.49-15de.png?w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790329491000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus held talks for Borussia Dortmund and Italy talent Inacio in June",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-talks-borussia-dortmund-italy-inacio/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/arsenal-fc-v-borussia-dortmund-p-1-414x276.jpg",
-      "summary": "Transfer expert Fabrizio Romano reports that Juventus were among the clubs that asked for information...",
-      "teams": [
-        "dortmund",
-        "juventus",
-        "italy"
-      ],
-      "publishedAt": 1790329332000
-    },
-    {
-      "competition": "men",
-      "title": "'Extraterrestrial' - Norway fawn over Erling Haaland as Man City star reaches latest milestone",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/extraterrestrial-norway-fawns-over-erling-34669524",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34669770.ece/ALTERNATES/s615/0_GettyImages-2296303946.jpg",
-      "summary": "Manchester City striker Erling Haaland scored twice as Norway beat their Nordic rivals Denmark 3-2 in the Nations League on Thursday night",
-      "teams": [
-        "mancity",
-        "norway"
-      ],
-      "publishedAt": 1790328384000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp clashes with former Liverpool players and defends 'unsporting' controversy",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-clashes-former-liverpool-34670006",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34670131.ece/ALTERNATES/s615/0_GettyImages-2296314574.jpg",
-      "summary": "Former Liverpool boss Jurgen Klopp's Germany team were involved in controversy against Virgil van Dijk and the Netherlands in the UEFA Nations League",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790327921000
-    },
-    {
-      "competition": "fitalia",
-      "title": "How the Nations League impacts Italy&#8217;s Euro 2028 qualifying draw",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/how-nations-league-impacts-italy-euro-2028/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/03/Italy-Germany-anthem-singing-414x283.jpg",
-      "summary": "Italy begin their 2026–27 Nations League campaign, targeting a top-three finish in their group to...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790327910000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea charged by FA for failing to control fans as statement released",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/chelsea-charged-fa-failing-control-34670174",
-      "image": "https://i2-prod.football.london/incoming/article34670227.ece/ALTERNATES/s615/0_GettyImages-2292000156.jpg",
-      "summary": "Chelsea have been charged by the FA after what the Blues' supporters did in the ninth minute of their win over Fulham last month",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790327806000
-    },
-    {
-      "competition": "mirror",
-      "title": "Virgil van Dijk concerns raised by Dutch media with Liverpool star put in the spotlight",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/virgil-van-dijk-netherlands-germany-37700977",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37701020.ece/ALTERNATES/s615/0_GettyImages-2296340031.jpg",
-      "summary": "Virgil van Dijk has found himself singled out by the Dutch press again",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790327689000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal star Kai Havertz sent home from international duty as Germany release injury statement",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-kai-havertz-injury-update-34670234",
-      "image": "https://i2-prod.football.london/incoming/article34670237.ece/ALTERNATES/s615/0_GettyImages-2296962980.jpg",
-      "summary": "Arsenal centre-forward Kai Havertz picked up a hamstring injury in Germany's 1-1 Nations League draw against Netherlands in Amsterdam on Thurdsay",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790327547000
-    },
-    {
-      "competition": "chronicle",
-      "title": "What Yoane Wissa did after Newcastle United penalty miss speaks volumes for Matthias Jaissle",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/what-yoane-wissa-after-newcastle-34669934",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34670165.ece/ALTERNATES/s615/0_Wissa.jpg",
-      "summary": "Yoane Wissa overcame any international jitters this autumn by scoring for his country and celebrating in trademark fashion",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790327279000
-    },
-    {
-      "competition": "men",
-      "title": "Jamie Carragher calls out 'ludicrous' Michael Carrick Man United sack verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-michael-carrick-carragher-34669520",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34669870.ece/ALTERNATES/s615/0_Screenshot-2026-09-25-092402.png",
-      "summary": "Manchester United boss Michael Carrick has struggled so far this season and now Jamie Carragher has had his say on the Reds boss",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790326757000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Young boy hit by Martin Odegaard breaks down in tears and Norway star rushes to help",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/young-boy-hit-martin-odegaard-34669642",
-      "image": "https://i2-prod.football.london/incoming/article34669940.ece/ALTERNATES/s615/0_GettyImages-2284788438.jpg",
-      "summary": "Martin Odegaard had an unfortunate moment on international duty",
-      "teams": [
-        "norway"
-      ],
-      "publishedAt": 1790326519000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland player breaks rank and says Israel game should not be going ahead",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-jason-knight-uefa-nations-league-palestine-boycott-b3056221.html",
-      "image": "https://static.independent.co.uk/2026/09/25/08/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Jason Knight has spoken out about the ‘difficult’ situation the Republic of Ireland find themselves in ahead of Sunday’s game on neutral territory in Debrecen",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790326364000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Alejandro Garnacho loan twist as Aston Villa and Chelsea update emerges",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-chelsea-garnacho-loan-34669898",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34607955.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "Alejandro Garnacho has struggled for game-time since arriving on loan from Chelsea",
-      "teams": [
-        "astonvilla",
-        "chelsea"
-      ],
-      "publishedAt": 1790325636000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jamie Carragher gives verdict on Michael Carrick sacking after backlash to Man Utd opinion",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jamie-carragher-michael-carrick-sacking-37700806",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700861.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Michael Carrick has made a poor start to the season with Manchester United, winning just one of their five Premier League matches, and Jamie Carragher has explained his stance",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790325044000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini drops 10 Italy players for Belgium clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-drops-10-italy-players-belgium-clash/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/03/ecuador-v-italy-international-friendly-414x276.jpg",
-      "summary": "Aside from the suspended Alessandro Bastoni, ten more Italy players won t be available for tonight s...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790324776000
     }
   ]
 }
