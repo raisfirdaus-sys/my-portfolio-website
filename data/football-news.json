@@ -1,58 +1,70 @@
 {
-  "generatedAt": 1790364389646,
+  "generatedAt": 1790368146387,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1505,
-    "tagged": 779,
-    "droppedKeyword": 17,
+    "raw": 1516,
+    "tagged": 791,
+    "droppedKeyword": 18,
     "droppedOtherSport": 3,
-    "droppedFeed": 4,
+    "droppedFeed": 3,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
       "competition": "mirror",
-      "title": "Man City warned 'severe' punishment awaits and told why Premier League appeal will fail",
+      "title": "Prime Minister Andy Burnham sends warning over Man City 'guilty' verdict",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-premier-league-charges-37704316",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704404.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "Manchester City have been found guilty of all but one of the charges brought against them by the Premier League, subject to an appeal",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-guilty-andy-burnham-37704454",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704451.ece/ALTERNATES/s615/0_Manchester-City-v-Nottingham-Forest-Premier-League.jpg",
+      "summary": "Manchester City have reportedly been found guilty of 114 of the 115 Premier League charges levelled at them and the UK Government has now had its say on the fallout",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790363860000
+      "publishedAt": 1790367321000
     },
     {
       "competition": "men",
-      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, Andy Burnham reaction",
+      "title": "'Everyone's against us, it's nothing to worry about' - Manchester City fans anxious yet defiant after 114 charges bombshell",
       "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
-      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
+      "link": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everyones-against-us-its-nothing-34675054",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34675198.ece/ALTERNATES/s615/1_city-fan-banner-1.jpg",
+      "summary": "The mood was mixed around the Etihad Stadium",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790363765000
+      "publishedAt": 1790367300000
+    },
+    {
+      "competition": "bbc",
+      "title": "Clubs seek legal advice over Man City charges compensation",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c82a/live/45b270d0-b915-11f1-b1d1-571ed4d7ff2c.jpg",
+      "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790367233000
     },
     {
       "competition": "guardian",
       "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
-      "image": "https://i.guim.co.uk/img/media/25219966a6dcf8413ee1aa5d5fc19e86a7643646/586_196_3645_2917/master/3645.jpg?width=140&quality=85&auto=format&fit=max&s=6d9a71a9b121089840b9d89ff97303cd",
+      "image": "https://i.guim.co.uk/img/media/98859fc1b4580b3ba66e1c0733fe0269a107af78/227_0_3694_2955/master/3694.jpg?width=140&quality=85&auto=format&fit=max&s=567af757776b85519b51867ee897f4ff",
       "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelBefore kick-off in Italy, there is a minute’s applause for Sandro Mazzola, the legendary Inter midfielder who won…",
       "teams": [
         "nireland",
         "belgium",
         "georgia"
       ],
-      "publishedAt": 1790363714000
+      "publishedAt": 1790367104000
     },
     {
       "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
@@ -60,7 +72,118 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790363245000
+      "publishedAt": 1790367005000
+    },
+    {
+      "competition": "tele",
+      "title": "Manchester City found guilty of 114 charges",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/09/25/manchester-city-guilty-financial-rule-breaches/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/25/TELEMMGLPICT000486317927_17903537268000_trans_NvBQzQNjv4BqdyzzeLTVDDdM_6qhSz43_P4Xpit_DMGvdp2n7FDd82k.jpeg",
+      "summary": "Manchester City found guilty of 114 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790366637000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790366490000
+    },
+    {
+      "competition": "men",
+      "title": "Man City told why Premier League appeal will fail with 'all hell about to break loose'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34675152",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34675180.ece/ALTERNATES/s615/0_JS355305355.jpg",
+      "summary": "Manchester City have been found guilty of all but one of 115 Premier League charges for alleged financial breaches",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790366346000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, clubs consider legal action",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
+      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790365957000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City guilty of majority of 115 charges - 5 Live reaction",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pckjx7?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
+      "summary": "What next for Man City and the Premier League after being found guilty of 114 charges?",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790365680000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal and Tottenham could demand millions after Man City 115 charges verdict",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-spurs-man-city-charges-34675146",
+      "image": "https://i2-prod.birminghammail.co.uk/sport/football/transfer-news/article20585746.ece/ALTERNATES/s615/0_Etihad-Stadium.jpg",
+      "summary": "The Premier League has found Manchester City guilty on 114 of 115 charges, and Arsenal and Tottenham Hotspur could be set for a major cash injection as a result",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790365408000
+    },
+    {
+      "competition": "mirror",
+      "title": "Premier League clubs consider legal action as Man Utd react to Man City guilty verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-united-city-premier-league-37704365",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37661901.ece/ALTERNATES/s615/0_GettyImages-2294627636.jpg",
+      "summary": "Manchester City's ongoing legal battle against the Premier League has already seen Manchester United and other clubs consider taking action over potentially losing millions",
+      "teams": [
+        "mancity",
+        "manutd"
+      ],
+      "publishedAt": 1790364994000
+    },
+    {
+      "competition": "indy",
+      "title": "Arsenal fan Zohran Mamdani reacts to Man City verdict over 115 charges",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/zohran-mamdani-man-city-verdict-arsenal-new-york-b3056648.html",
+      "image": "https://static.independent.co.uk/2026/09/25/20/2026-09-25T172228Z_185418564_RC2SNNAL4TEB_RTRMADP_3_UN-ASSEMBLY-MAMDANI.JPG?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "summary": "The mayor of New York City is an avid Arsenal fan and has reacted after reports that Man City have been found guilty of 114 of the 115 charges",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790364543000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City warned 'severe' punishment awaits and told why Premier League appeal will fail",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-premier-league-charges-37704316",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704404.ece/ALTERNATES/s615/2_City.jpg",
+      "summary": "Manchester City have been found guilty of all but one of the charges brought against them by the Premier League, subject to an appeal",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790363860000
     },
     {
       "competition": "indy",
@@ -104,7 +227,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-era-success-all-tainted-now-premier-league-charges",
       "image": "https://i.guim.co.uk/img/media/9387eff2c2d71fcddeade60f68ec6e6f94f2d52d/380_0_4091_3272/master/4091.jpg?width=140&quality=85&auto=format&fit=max&s=93fecd0b428e75476985cc5120bfa940",
-      "summary": "Friday’s verdict against Manchester City will change everything we understood about their Premier League title triumphsWelcome, then, to the age of asterisk. Whatever punishment Manchester City and their sovereign…",
+      "summary": "Friday’s verdict against Manchester City will change everything we understood about their Premier League title triumphsWelcome, then, to the age of asterisk. Whatever punishment Manchester City and their owners receive…",
       "teams": [
         "mancity"
       ],
@@ -172,18 +295,6 @@
       "publishedAt": 1790360049000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790359979000
-    },
-    {
       "competition": "echo",
       "title": "Liverpool could receive millions from Man City after guilty 115 charges ruling",
       "publisher": "Liverpool Echo",
@@ -247,18 +358,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Morgan Rogers reveals Declan Rice talks after angry bust-up with Arsenal star",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/morgan-rogers-declan-rice-row-37704155",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704202.ece/ALTERNATES/s615/0_GettyImages-2293833678.jpg",
-      "summary": "England star Morgan Rogers has lifted the lid on his heated exchange with Declan Rice during the pulsating Arsenal v Chelsea clash just before the international break",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790359200000
-    },
-    {
-      "competition": "mirror",
       "title": "Thomas Tuchel makes promise over England's 'Wonderwall' celebration as boss drops selection hint",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/england-kane-tuchel-spain-wonderwall-37704240",
@@ -266,6 +365,18 @@
       "summary": "England take to the pitch for the first time since the World Cup on Saturday evening against Spain and the Three Lions will be hoping to give supporters something to celebrate at Wembley",
       "teams": [
         "england"
+      ],
+      "publishedAt": 1790359200000
+    },
+    {
+      "competition": "mirror",
+      "title": "Morgan Rogers reveals Declan Rice talks after angry bust-up with Arsenal star",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/morgan-rogers-declan-rice-row-37704155",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704202.ece/ALTERNATES/s615/0_GettyImages-2293833678.jpg",
+      "summary": "England star Morgan Rogers has lifted the lid on his heated exchange with Declan Rice during the pulsating Arsenal v Chelsea clash just before the international break",
+      "teams": [
+        "arsenal"
       ],
       "publishedAt": 1790359200000
     },
@@ -298,7 +409,7 @@
       "title": "'Man City has gaslit its own fans by recklessly claiming innocence over 115 charges - I demand an explanation'",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-fans-37704164",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704187.ece/ALTERNATES/s615/0_FC-Internazionale-v-Manchester-City-FC-UEFA-Champions-League-Final-202223.jpg",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704187.ece/ALTERNATES/s615/1_FC-Internazionale-v-Manchester-City-FC-UEFA-Champions-League-Final-202223.jpg",
       "summary": "OPINION: The Mirror's Matt Atherton - a Manchester City fan all his life - reveals why he feels betrayed by the club's hierarchy over the Premier League's 115 charges, and why he wants an explanation",
       "teams": [
         "mancity"
@@ -453,18 +564,6 @@
       "publishedAt": 1790353830000
     },
     {
-      "competition": "tele",
-      "title": "Manchester City found guilty of 114 charges",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/09/25/manchester-city-guilty-financial-rule-breaches/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/25/TELEMMGLPICT000486317927_17903537268000_trans_NvBQzQNjv4BqdyzzeLTVDDdM_6qhSz43_P4Xpit_DMGvdp2n7FDd82k.jpeg",
-      "summary": "Manchester City found guilty of 114 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790353796000
-    },
-    {
       "competition": "fitalia",
       "title": "Official: Supercoppa Italiana Inter vs. Lazio at San Siro on December 22",
       "publisher": "Football Italia",
@@ -516,7 +615,7 @@
     },
     {
       "competition": "bbc",
-      "title": "Man City and the 115 charges - key questions answered",
+      "title": "Relegation? Titles stripped? Appeals? What next for Man City",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/cx30540044q0o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d05b/live/c288fcf0-b8f2-11f1-bd4a-e9ce4be469f6.jpg",
@@ -649,102 +748,6 @@
         "italy"
       ],
       "publishedAt": 1790351459000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City relegation odds tumble as they're slashed to sixth favourites for the drop",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-relegation-115-charges-37703717",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37678085.ece/ALTERNATES/s615/2_GettyImages-2295893333.jpg",
-      "summary": "Manchester City have been found guilty of 114 charges relating to Premier League financial regulation breaches",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790351415000
-    },
-    {
-      "competition": "mirror",
-      "title": "Rio Ferdinand issues brutal response as Man City found GUILTY of Premier League charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/rio-ferdinand-man-city-guilty-37703667",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37703665.ece/ALTERNATES/s615/3_GettyImages-2285906489.jpg",
-      "summary": "Manchester United icon Rio Ferdinand has not pulled any punches with his response to Manchester City being found guilty of 114 of the 115 charges brought against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790351039000
-    },
-    {
-      "competition": "metro",
-      "title": "What punishment will Man City face after breaking Premier League rules?",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/25/punishment-will-man-city-face-breaking-premier-league-rules-29653891/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2196944738-1fc1.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350873000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League told exactly what Manchester City punishment should be after 115 charges verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-punishment-34673778",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34673859.ece/ALTERNATES/s615/0_GettyImages-2296038973.jpg",
-      "summary": "Manchester City have been engaged in a legal battle with the Premier League after 115 charges were levied against them and now they appear to have been found guilty of 114",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350862000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-found-guilty-of-breaking-premier-leagues-financial-fair-play-rules",
-      "image": "https://i.guim.co.uk/img/media/2f187b84469393bd82ddc3c1ebf3e1f336863d40/0_83_3216_1930/master/3216.jpg?width=140&quality=85&auto=format&fit=max&s=ca6ee1581568b5a09637d50349c5a5f1",
-      "summary": "City face sanctions after more than 100 rule breachesClub insist on innocence and are expected to appealManchester City have been found guilty of the vast majority of more than a hundred charges related to breaches of…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350549000
-    },
-    {
-      "competition": "mirror",
-      "title": "What are Man City's 115 charges? Full list from Mancini's pay to player breaches",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-115-37703675",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article29152122.ece/ALTERNATES/s615/1_Manchester-Citys-Italian-manager-Roberto-Mancini.jpg",
-      "summary": "A breakdown of all 115 charges that were levelled at Manchester City",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350455000
-    },
-    {
-      "competition": "mirror",
-      "title": "Pep Guardiola made clear statement about Man City's 115 charges before quitting club",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-guardiola-37703348",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37564503.ece/ALTERNATES/s615/1_Bournemouth-v-Manchester-City-Premier-League.jpg",
-      "summary": "Pep Guardiola above all will be stunned with the news about Manchester City's 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350082000
-    },
-    {
-      "competition": "echo",
-      "title": "Transfer window fallout and Friedkin Group intentions - your Everton questions answered",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/transfer-window-fallout-friedkin-group-34673092",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34673995.ece/ALTERNATES/s615/0_premium-canvas-1790348597203.png",
-      "summary": "Everton FC correspondent Joe Thomas answers reader questions in the latest Blues Q&A",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790350080000
     }
   ]
 }
