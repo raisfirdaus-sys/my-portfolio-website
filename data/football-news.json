@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790356255694,
+  "generatedAt": 1790357058786,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1501,
-    "tagged": 745,
+    "raw": 1512,
+    "tagged": 746,
     "droppedKeyword": 23,
     "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges punishments and previous Premier League sanctions for rule breaches",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37704120",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704183.ece/ALTERNATES/s615/0_JS274673802.jpg",
+      "summary": "Manchester City are awaiting punishment from the Premier League after being found guilty of alleged financial breaches",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790356777000
+    },
     {
       "competition": "men",
       "title": "Man City 115 charges LIVE: Guilty verdict, sanctions to be decided, Prime Minister comments, Premier League statement",
@@ -22,7 +34,67 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790355913000
+      "publishedAt": 1790356509000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City guilty of breaching Premier League’s financial fair play rules – live reaction",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+      "image": "https://i.guim.co.uk/img/media/a74de0ff9892462728441d401296e1d32e81ef9e/380_0_6901_5522/master/6901.jpg?width=140&quality=85&auto=format&fit=max&s=96f13e1d047e67e141eef75ff6f7d542",
+      "summary": "Full story | Club expected to appeal against rulingTimeline: City trophies and charges | Mail JohnOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790356240000
+    },
+    {
+      "competition": "men",
+      "title": "Man City appeal timeline, how long it could take and what happens next after guilty verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-appeal-timeline-34674656",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674796.ece/ALTERNATES/s615/0_Etihad-Stadium.jpg",
+      "summary": "Manchester City have been found in breach of 114 financial charges but an appeal process is expected to delay any final outcome",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790356074000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges timeline as damning Premier League guilty verdict reached",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-timeline-appeal-37704056",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704095.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "A look back on Manchester City's battle with the authorities after the club was found guilty of all but one of the Premier League's charges against them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790356010000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd star handed late international call-up after 'unfortunate' injury blow",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-joshua-zirkzee-netherlands-37704106",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37704105.ece/ALTERNATES/s615/1_Manchester-United-v-Sabah-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
+      "summary": "A Manchester United star has been called up for the Nations League as a result of an international team-mate sustaining an injury",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790355733000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790355644000
     },
     {
       "competition": "indy",
@@ -37,6 +109,19 @@
       "publishedAt": 1790355643000
     },
     {
+      "competition": "guardian",
+      "title": "Israel’s match with Republic of Ireland will be an eerie occasion as political debate rages on",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/republic-of-ireland-israel-nations-league-serbia",
+      "image": "https://i.guim.co.uk/img/media/b18348648ad087fce0db939c1637f24d41a6f8e2/964_329_2481_1984/master/2481.jpg?width=140&quality=85&auto=format&fit=max&s=31b680c611f24b97a55fa3d33a0ef5a3",
+      "summary": "Despite fierce opposition to the Nations League encounters across Irish society, a boycott has not materialised The match is being played in a neutral country and the stands are likely to be empty but Sunday’s Nations…",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790355607000
+    },
+    {
       "competition": "indy",
       "title": "The Man City verdict is an earthquake – what comes next could be even bigger",
       "publisher": "The Independent",
@@ -47,30 +132,6 @@
         "mancity"
       ],
       "publishedAt": 1790355598000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City guilty of breaching Premier League’s financial fair play rules – live reaction",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-      "image": "https://i.guim.co.uk/img/media/a74de0ff9892462728441d401296e1d32e81ef9e/380_0_6901_5522/master/6901.jpg?width=140&quality=85&auto=format&fit=max&s=96f13e1d047e67e141eef75ff6f7d542",
-      "summary": "Full story | Club expected to appeal against rulingTimeline: City trophies and charges | Mail JohnOne of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790355579000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790355106000
     },
     {
       "competition": "men",
@@ -680,67 +741,6 @@
         "mancity"
       ],
       "publishedAt": 1790346259000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Man City 'found guilty' of 114 charges as Premier League consider sanctions",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/man-city-found-guilty-114-34673461",
-      "image": "https://i2-prod.birminghammail.co.uk/sport/football/football-news/article34673460.ece/ALTERNATES/s615/0_GettyImages-2295725253.jpg",
-      "summary": "It is being reported an independent commission has found 114 of 115 Premier League charges against Manchester City proved",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790346139000
-    },
-    {
-      "competition": "bbc",
-      "title": "Wycombe sign ex-England striker Ings",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmj6436g4w03o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5216/live/ea525b80-b8ea-11f1-8e38-ff13e96f88b3.jpg",
-      "summary": "Wycombe Wanderers sign former Burnley, Liverpool and England striker Danny Ings.",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790345857000
-    },
-    {
-      "competition": "indy",
-      "title": "Man City timeline: From Abu Dhabi takeover to 115 Premier League charges",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-timeline-premier-league-charges-financial-rules-b2717997.html",
-      "image": "https://static.independent.co.uk/2026/09/25/15/01M3CEJ8BXP5JN1X31Z5SE3Z68.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The former Premier League champions have strongly refuted breaking financial rules during their dominant run in the world’s richest football league",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790345751000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City release statement after being found GUILTY of Premier League charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-statement-premier-league-37703339",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37703334.ece/ALTERNATES/s615/0_GettyImages-2295774710.jpg",
-      "summary": "Manchester City have been found guilty of 114 of the 115 Premier League charges brought against them between three years ago and the eight-time champions have released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790345742000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Man City points deduction verdict after Premier League charges ruling as Arsenal await decision",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/man-city-points-deduction-verdict-34673216",
-      "image": "https://i2-prod.football.london/incoming/article31262646.ece/ALTERNATES/s615/0_GettyImages-2204705666.jpg",
-      "summary": "Manchester City have been found guilty on virtually all counts of breaching the Premier League’s financial rules and a points deduction is a real possibility",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790345691000
     }
   ]
 }
