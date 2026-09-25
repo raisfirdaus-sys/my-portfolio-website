@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790301127932,
+  "generatedAt": 1790301488765,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1522,
-    "tagged": 753,
+    "raw": 1526,
+    "tagged": 758,
     "droppedKeyword": 27,
     "droppedOtherSport": 2,
     "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 56
+    "withImage": 55
   },
   "items": [
     {
@@ -530,6 +530,18 @@
       "publishedAt": 1790272690000
     },
     {
+      "competition": "unl-a",
+      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790301435000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Mancini: &#8216;Italy with Esposito and Kean possible, I hope to make right choices&#8217;",
       "publisher": "Football Italia",
@@ -540,6 +552,17 @@
         "italy"
       ],
       "publishedAt": 1790272377000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Nations League: Late Gakpo equalizer earns Dutch 1-1 draw against Germany",
+      "publisher": "chinadailyasia.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HMkhhUHVBVFlmMWQ0V2t3QmtycjVjN01wc3lNM0hnTENvdUhKSGNxZzMtMXkySGJYLXVmNlZoMFI2VXVTQVpEcE41LUpGbElwMUtudldUQk4?oc=5",
+      "teams": [
+        "germany"
+      ],
+      "publishedAt": 1790301070000,
+      "image": null
     },
     {
       "competition": "footlondon",
@@ -653,18 +676,6 @@
       "publishedAt": 1790269791000
     },
     {
-      "competition": "unl-a",
-      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790298515000,
-      "image": null
-    },
-    {
       "competition": "guardian",
       "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
       "publisher": "The Guardian",
@@ -679,7 +690,7 @@
     {
       "competition": "unl-a",
       "title": "Turkiye vs. France—Nations League: Preview, Predictions and Lineups",
-      "publisher": "Sports Illustrated",
+      "publisher": "si.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVhOLVFTTGl3bEhHREZ2cGd2bkhBeDZoZEl0bGFFUU9taXFZUXBCU0lBX2ZZNUhEckJOMjgyakVlTTNzUXBHSHRvYk1IUE1xV0Z6UkVyV04xaWVNTE5VMjl3VVlqVlZhY2UwTzV3TnRQWXJrYUQ4OUw0ZXlrQ3Rka2FodVBNdkNfSFdVb2VWQTZoS29lNjJab3VwM25zZnM?oc=5",
       "teams": [
         "france"
@@ -700,17 +711,6 @@
       "publishedAt": 1790268588000
     },
     {
-      "competition": "transfer",
-      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790297140000,
-      "image": null
-    },
-    {
       "competition": "fitalia",
       "title": "Probable Italy vs. Belgium line-ups and latest injury news",
       "publisher": "Football Italia",
@@ -722,6 +722,18 @@
         "italy"
       ],
       "publishedAt": 1790267893000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Netherlands 1-1 Germany (Sep 24, 2026) Game Analysis",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XRGYxNkoyalJ4XzZVcVJ2aEVuVHlmbm5rWnZRdzJ0YUl5R0lpbzhuTEgtMmFlS3R5SDdtdlRsZjJBa3RyVTJPQUdhVmJBbGZkSHRXbFFGbmVrVnRCTlRaLUllYw?oc=5",
+      "teams": [
+        "netherlands",
+        "germany"
+      ],
+      "publishedAt": 1790296425000,
+      "image": null
     },
     {
       "competition": "bbc",
@@ -745,19 +757,6 @@
       "teams": [
         "denmark",
         "norway"
-      ],
-      "publishedAt": 1790267400000
-    },
-    {
-      "competition": "echo",
-      "title": "Is Jurgen Klopp's first game as Germany boss vs Netherlands on TV? Date, time, streaming info",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopps-first-game-germany-34648834",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34626742.ece/ALTERNATES/s615/2_GettyImages-2286779499.jpg",
-      "summary": "Jurgen Klopp's debut as Germany manager will take place against Xavi's Netherlands as the UEFA Nations League picks back up",
-      "teams": [
-        "netherlands",
-        "germany"
       ],
       "publishedAt": 1790267400000
     }
