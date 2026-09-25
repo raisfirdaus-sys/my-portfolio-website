@@ -1,42 +1,52 @@
 {
-  "generatedAt": 1790318082946,
+  "generatedAt": 1790322106748,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 759,
-    "droppedKeyword": 31,
+    "raw": 1518,
+    "tagged": 746,
+    "droppedKeyword": 34,
     "droppedOtherSport": 1,
-    "droppedFeed": 9,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 48
+    "withImage": 45
   },
   "items": [
     {
-      "competition": "indy",
-      "title": "Why are Republic of Ireland playing against Israel?",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-match-nations-league-palestine-protests-boycott-b3056182.html",
-      "image": "https://static.independent.co.uk/2026/09/22/09/2278658766..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "summary": "The Republic of Ireland face a double-header against Israel in the Uefa Nations League, with their ‘home’ fixture taking place in Serbia amid calls to boycott the fixtures due to the conflict in Gaza",
+      "competition": "echo",
+      "title": "Jurgen Klopp shows true feelings towards Virgil van Dijk in unseen moment after Germany match",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-virgil-van-dijk-34669316",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34669362.ece/ALTERNATES/s615/0_GettyImages-2296981036.jpg",
+      "summary": "Former Liverpool manager Jurgen Klopp and Reds skipper Virgil van Dijk shared some words after Germany's draw with the Netherlands",
       "teams": [
-        "ireland",
-        "israel"
+        "germany"
       ],
-      "publishedAt": 1790317668000
+      "publishedAt": 1790321527000
     },
     {
-      "competition": "indy",
-      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
-      "image": "https://static.independent.co.uk/2026/09/25/6/14/Screenshot-2026-09-25-at-07-06-13.png?width=1200&auto=webp&trim=40%2C92%2C37%2C143",
-      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
+      "competition": "echo",
+      "title": "Two Liverpool stars are the joint fastest Premier League players in FC27",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-fc27-player-ratings-pace-34653421",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34653788.ece/ALTERNATES/s615/1_GettyImages-2294095145.jpg",
+      "summary": "Liverpool are well represented when it comes to the fastest players in the Premier League",
       "teams": [
-        "austria",
-        "israel"
+        "liverpool"
       ],
-      "publishedAt": 1790317477000
+      "publishedAt": 1790321400000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Today&#8217;s Papers &#8211; Italy must win back fans&#8217; hearts in Mancini&#8217;s second debut",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/todays-paper-italy-win-back-fans-mancini/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-031806ics4duf-414x598.webp",
+      "summary": "La Gazzetta dello Sport Sheva 50 Formidable years with Milan, now I score goals under...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790321157000
     },
     {
       "competition": "mirror",
@@ -48,7 +58,120 @@
       "teams": [
         "manutd"
       ],
-      "publishedAt": 1790317362000
+      "publishedAt": 1790320766000
+    },
+    {
+      "competition": "indy",
+      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
+      "image": "https://static.independent.co.uk/2026/09/25/08/2296300338..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
+      "teams": [
+        "austria",
+        "israel"
+      ],
+      "publishedAt": 1790320194000
+    },
+    {
+      "competition": "bbc",
+      "title": "You are the new Scotland boss - what would you do?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cje3reed6dx4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b7/live/86435770-b746-11f1-8846-e70401199dae.jpg",
+      "summary": "Put yourself in the shoes of the new Scotland head coach Sebastien Pocognoli as he picks his first XI.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790319876000
+    },
+    {
+      "competition": "guardian",
+      "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/luis-de-la-fuente-spain-world-keep-us-winning",
+      "image": "https://i.guim.co.uk/img/media/5dd24a1e57fad012f61250cdcf19dfde4d0bcd26/40_0_1892_1513/master/1892.jpg?width=140&quality=85&auto=format&fit=max&s=7adddefe7e67a9c5117f8d201c7dd30e",
+      "summary": "Spain have won back-to-back major tournaments, but there is still one more to go to draw equal with feted team of 2008-2012“I’m going to tell you a story,” Luis de la Fuente said. “As soon as the game finished on 19…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790319644000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal handed Kai Havertz injury update by Jurgen Klopp after Germany nightmare",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-kai-havertz-injury-klopp-34669214",
+      "image": "https://i2-prod.football.london/arsenal-fc/news/article34669336.ece/ALTERNATES/s615/0_JS419113692jp.jpg",
+      "summary": "Arsenal star Kai Havertz was forced off in Germany's draw with the Netherlands in the Nations League",
+      "teams": [
+        "arsenal",
+        "germany"
+      ],
+      "publishedAt": 1790319595000
+    },
+    {
+      "competition": "metro",
+      "title": "Israel footballer sent off for using corner flag in gun-firing goal celebration",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/israels-saied-abu-farchi-sent-off-using-corner-flag-gun-firing-goal-celebration-29652207/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313889480-1d1c.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790318205000
+    },
+    {
+      "competition": "indy",
+      "title": "Arsenal dealt injury blow as Kai Havertz limps off in Germany clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/kai-havertz-injury-latest-arsenal-germany-netherlands-b3056007.html",
+      "image": "https://static.independent.co.uk/2026/09/24/20/2296962844..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Havertz was chosen to lead the line in Jurgen Klopp’s first match as Germany manager",
+      "teams": [
+        "arsenal",
+        "germany"
+      ],
+      "publishedAt": 1790318136000
+    },
+    {
+      "competition": "mirror",
+      "title": "Jurgen Klopp provides worrying Kai Havertz update after Arsenal star suffered injury",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/klopp-update-kai-havertz-injury-37700577",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37700600.ece/ALTERNATES/s615/0_GettyImages-2296962927.jpg",
+      "summary": "Arsenal's Kai Havertz was subbed off during Germany's dramatic 1-1 draw with the Netherlands, having been on the end of a high challenge from Crystal Palace star Quinten Timber",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790318085000
+    },
+    {
+      "competition": "indy",
+      "title": "Why are Republic of Ireland playing against Israel?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-match-nations-league-palestine-protests-boycott-b3056182.html",
+      "image": "https://static.independent.co.uk/2026/09/22/09/2278658766..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "summary": "The Republic of Ireland face a double-header against Israel in the Uefa Nations League, with their ‘home’ fixture taking place in Serbia amid calls to boycott the fixtures due to the conflict in Gaza",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790317904000
+    },
+    {
+      "competition": "mirror",
+      "title": "Top 12 fastest Premier League players in FC27 as three Liverpool stars feature",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/fc27-premier-league-liverpool-barcola-37687633",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37687990.ece/ALTERNATES/s615/0_GettyImages-2294365498.jpg",
+      "summary": "The quickest Premier League players have been ranked by the new FC27 ratings",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790317800000
     },
     {
       "competition": "bbc",
@@ -198,18 +321,6 @@
     },
     {
       "competition": "echo",
-      "title": "Friedkin Group claims are 'concerning' as David Moyes Everton transfer thoughts seem clear",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/friedkin-group-claims-concerning-david-34667106",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667215.ece/ALTERNATES/s615/0_DMTFG250926.jpg",
-      "summary": "EXCLUSIVE: There are concerns over Everton owners The Friedkin Group reckons former Premier League striker Kevin Phillips",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "echo",
       "title": "Liverpool latest: Real Madrid beaten in transfer fight as Barcola told 'you're not worth it'",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-bradley-barcola-real-madrid-34667101",
@@ -218,6 +329,18 @@
       "teams": [
         "realmadrid",
         "liverpool"
+      ],
+      "publishedAt": 1790312400000
+    },
+    {
+      "competition": "echo",
+      "title": "Friedkin Group claims are 'concerning' as David Moyes Everton transfer thoughts seem clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/friedkin-group-claims-concerning-david-34667106",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667215.ece/ALTERNATES/s615/0_DMTFG250926.jpg",
+      "summary": "EXCLUSIVE: There are concerns over Everton owners The Friedkin Group reckons former Premier League striker Kevin Phillips",
+      "teams": [
+        "everton"
       ],
       "publishedAt": 1790312400000
     },
@@ -309,6 +432,18 @@
       "publishedAt": 1790308800000
     },
     {
+      "competition": "echo",
+      "title": "Andoni Iraola agreement reached as Liverpool's biggest change becomes clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-agreement-reached-liverpools-34668822",
+      "image": "https://i2-prod.liverpool.com/incoming/article34650459.ece/ALTERNATES/s615/1_GettyImages-2296285307.jpg",
+      "summary": "Our Liverpool FC fans' jury deliver their verdicts on new head coach Andoni Iraola's first seven matches in charge of the club",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790308800000
+    },
+    {
       "competition": "mirror",
       "title": "Man Utd news: JJ Gabriel 'will definitely leave' as Wayne Rooney mocks problematic forward",
       "publisher": "Mirror Football",
@@ -357,6 +492,97 @@
       "publishedAt": 1790294400000
     },
     {
+      "competition": "epl",
+      "title": "Man Utd line up SHOCK Premier League return for Antonio Conte to replace Michael Carrick",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalM2dWQtZ0RSbDlLb3BMOUdnRjJpd3pBbXdTS2twWW5aeHF2aFJQTUV5dTV0OVh1NE1MblhYbEpWSVEtM0M5S3FKMURCNGh2ZHJINUJ4MHN1WWh4ZjFNaWZWUVI4M0tTNnoxX1NORS1NYlo2XzlZVVRSY3lXb2VHOTZYM3B5T2VmeDFlQTBRdl9Gc3hxaFAyaW9jV0NkQlpRVHo1SVNZcmU?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790320952000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790320663000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Gabriel Martinelli's agent reveals Brazilian winger rejected Premier League rivals to seal £60m Arsenal exit for Al-Hilal",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVEswcTNFNlBMQ2lhQTZ6OWthX05ZajE0WHVnQks5TGFONzFBYzJwMXFVOHlLcmFON3RJZEU4dkNSQWgzVnowTl9CR3A0MzhfSmV1ZnBXSmdKN0VucjBSa25xZ2I4WDRDUXlJcTYyRWtRdHpUaWhCY1RUTDdZOGRwX3pwckdzVkpBSURENy01UjlNTzQxNGNXRTAtRGxPbHNOSFAwTlhoaHBaOWFmbWExcEZMWQ?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790320537000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "'My agent received calls' - Real Madrid star Marc Cucurella clarifies Barcelona transfer rumours and admits secret Rodri text mission",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdGV0bkg5NkVaT190WW8tQS1kNloxRHNuQ09CeHVOSXlic3BCeG95T1o2Z19JalBkQ2hQOGUzOWlSNXpsMjlxejRZd2RNYXBCdDdnZXVwS1F6U0JRMG5tZDNXSDdhOVB0UzBtVk90WTlmVnVUbXZCbk45bGhmU214Wng5ZE95N1lKV0lrQ2x0NXp4dlNRazl4bURVZ3pMaXpCZ1Zv?oc=5",
+      "teams": [
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790320533000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
+      "publisher": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTV84dk9UU01WS2FZU3hCOGV6d3VSdDdGRFZ6eDNYTzhobUh3emhGR0swa000YnQ3ZG9ZS1c5Mkh4Mk1ONnFiLVJQT0NobzVMLXpNWGtzeFNkX2RZSUkxWkpWZnhXY0RKUlc1X1JQWkl2RGtCQVpuTnFRRERpRDlSeU5aMFRjNVNpNGgxMVlhcXBMY1h3Y3QxU3NaTkxsU2tDVW1FNEtIa3lFbW5IeUN5T2FubnfSAboBQVVfeXFMUHpLOGVmclNqVjQ0Yy15eHR1U1RSZWJwaVVtajl1YW5KUll2Q1VmcXBjcDJLaTJCdzZpWmRuSFhUOFBuSjhFX1hJRDI2LWdWTGpiWVJrclVNYXNyb0p0MzBreGhxdWUxelNRYVhQeWM2Z0R0cGEyR3dJMlR4S3lGb1ViRVRydFltSDhjR184X3VZNGQ0Y1dBQlZTWGFuaTJTX3hZSk85ODhSQ3NjcE1FamxFQkkxQTVFMkNB?oc=5",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790320365000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "UEFA Nations League 2026/27 Opens as Ukraine Faces Hungary in Group B2",
+      "publisher": "Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3OTYtNTI5MEJ6cU9qOFhKYWFOaUUwVlAydzJINm1Za2xFOFNtUU1UbEtYZHFPRUVSb3ZfUE9ZdlZyYWZ4Ym5xQkc5dVhlOEVyaW9Qam80MktmM2k0bnM4RkJMdXduRlk?oc=5",
+      "teams": [
+        "hungary",
+        "ukraine"
+      ],
+      "publishedAt": 1790320183000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Report: Chelsea favourites to sign Premier League midfielder",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONFFoUV9vdUx2SnNsajBzLV9KN2lDQURZMXVubkcwaXBuWkxNTGNmNnpvRk1YNmJDeGM4dlZRUnlNdUxxN0FOU0RMTExXbzQ1QkhURFJQMFBPZ3JQcF9hYWVTNFBfalhUa1R0UGIwTEF5alIxOE9lbU84OHpsUU5rNTVRTFJDMFFNcExQcTFlaXg?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790319900000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "35 injuries and 1,701 days out: Real Madrid facing the nightmare",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzBsNG5sSHZVTEJnMEwyNjRiSDRWeTFtcjNFNzM4Qm5HSGVMRENwTS1HWVZ1LWRnT0lZZWF5aTdycGczQTBzLXhvTVdPQzdRT045cHFzOVZidWQ3R0dvTlZ0d0pUQjFkdTlGWl9jUHJUbWNQenZubFA0Y3h6VzREUy12TDIyeXRqaHZsN0NyT3JLRjZ4Wl9Ta2lYQXZoMHRwUFZjSndvd2JCTUhHTENKZHNR?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790318963000,
+      "image": null
+    },
+    {
       "competition": "guardian",
       "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
       "publisher": "The Guardian",
@@ -370,6 +596,28 @@
       "publishedAt": 1790289551000
     },
     {
+      "competition": "laliga",
+      "title": "Barcelona star admits: We will go through bad spells, and Rodri did not surprise me",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdVJmbERyX0lFb3NtZGx0Z1NzVm5pd1BrVUJKY3Fnc0lERWpKUV9wX2RKQTdGY0NzV19SLXE1RUFSQk5BSFBkWG5jdU0wMDNIMmk1Tk00WUU5ZXRrdjNNUjJGaUZUX3hyWVl2YUk0VkFRaDdULTBoc01ETU1tS28xSUxLTThRZ0xjMTZrSi1CbnJIdUxJMzRjbm9Pb2RYaUZEaEdDM2FaZ0lUWEkyS2J4b3RMVUJRX3ljQWN4VmYtcGNnZjlkWW9tdg?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790318126000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Turkiye vs France – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXBfTlZHRjl1Z3I4dS1LOUhjOXppUlhmOWJ4ckh0TGRWcXBLZ2RoWnhMVWdMaTBsbzZJdVhFZHhVdFJGZXEwaUZ0SHVnRzZSUkxLWFJCV2VKYW5ia2tDNlRCQWxOeDZlUGxsRnhwc0hyVVlqdXZPWFdubFVOQldqSTVRcV9EMkZOazJj?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790318100000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Bellamy wants more from Wales after loss to Portugal",
       "publisher": "BBC Sport",
@@ -381,18 +629,6 @@
         "wales"
       ],
       "publishedAt": 1790288913000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790317635000,
-      "image": null
     },
     {
       "competition": "epl",
@@ -418,7 +654,7 @@
       "publishedAt": 1790288563000
     },
     {
-      "competition": "unl-a",
+      "competition": "ucl",
       "title": "UEFA Nations League Matchday 1 highlights and round-up: Cody Gakpo denies Jürgen Klopp's Germany, but holders Portugal start with win",
       "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObGU4Nm5ReFpVLVpGaVFteFljTUVOQk5ELXdrX2V6TGVTYk8xZk9GRFFPTWU2Z3dWVnUxTzdnQUMzNXhnMHFWZjJjUW5yRTVQeE1fakRaWldxMzJxMk9FeVVjLVhlald1aXNvZXJjdDc3VU9fZm9DWkNCU0psYjRoX2pZU0lYbnNKLXA3RVRwM3dEVlA1Z1MxdDBUcnd1M0UyQXprc1d6bmxSeVNNNGh5aG4zMGFtOEJKLXZmMXBDdk5yRC1Tc0szMzA1X1BqMzlRSmpVVg?oc=5",
@@ -427,6 +663,17 @@
         "germany"
       ],
       "publishedAt": 1790316455000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Deco: ‘Barcelona have moved on from Julian Alvarez’",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZHZhbUxqbU5sTmoyVXozTFJocTFkNEVxSVdWU1lJRlM1ZkRUMXEwOUk2dllzZGlla3dfV2NLWE53M3dyS3prMVJFYVRFRVJHdm1pMm9ZTXF4aU5hMWNNNU5DTk50NEdhdlZWa05HN1FibkphdDBGVUh1R2lTWEhVX3FaVVlST3RjdXBCQQ?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790316300000,
       "image": null
     },
     {
@@ -466,30 +713,6 @@
       "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "How to watch Turkiye vs France: TV channel and live stream for Nations League today",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZDY1YzFGenFDQ0Z5akFyWWQ4aE1IM2hrb091OU5OanViRzFmUHlaWGdZemdaNnF3N0FRN19XbzRVVFV0Y0RnQnBWVEQ3elNtT0ZxS0Z1OVQyZV9MSnVpeTY4LUJ1a1cwbEY0VVJSTnlmcWs3SzlLWF9Pd2tVRnh3bg?oc=5",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790316000000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "European football news and transfers: Barcelona, Real Madrid, PSG, Bayern Munich latest and more",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOY1Z2bEVib3I5Skd5TUdnQkR4TnhlYjZ0UDI1QWFqMmxGd3M5WENFa1FaRmVjR01JRmpOeG1BRWxRSDBPNU41YTYtMEl6ZFlLeUxPWUx0Q05lVGM5MV9ScVpyRjFJVFA0TGw2NHRtRl9qLUZwWUpvdThaallfb0h2NUFpd2VxYjkzclNEUm1pYTdaeG1iV0Vkb1Q5d3dlX0FMSFRJelkzQU5MQmpBNGhpM1VDQTlmT2V4V29XeGE3d29Qd2lLaEdfZm1NVXhGR1BLZmk4VURndnRUUzh5MnRV?oc=5",
-      "teams": [
-        "bayern",
-        "realmadrid",
-        "barcelona"
-      ],
-      "publishedAt": 1790315790000,
-      "image": null
-    },
-    {
       "competition": "guardian",
       "title": "Israel’s Saied Abu Farchi sent off for gun gesture celebration in defeat by Austria",
       "publisher": "The Guardian",
@@ -513,239 +736,6 @@
         "liverpool"
       ],
       "publishedAt": 1790286619000
-    },
-    {
-      "competition": "epl",
-      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790315263000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Ex-Man Utd star says he might not have made England debut if he stayed at Old Trafford",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-man-utd-everton-garner-37700292",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37700285.ece/ALTERNATES/s615/0_GettyImages-2295530053.jpg",
-      "summary": "James Garner quit Manchester United for Everton permanently in 2022 and the midfielder has thrived away from Old Trafford - and could potentially play for England this weekend",
-      "teams": [
-        "manutd",
-        "england"
-      ],
-      "publishedAt": 1790286280000
-    },
-    {
-      "competition": "bbc",
-      "title": "Barcelona's Deco denies interest in Man Utd's Gabriel",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqrl67e2eye4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73d2/live/3bc7fc20-b85c-11f1-a8b8-8b929801ec51.jpg",
-      "summary": "Barcelona sporting director Deco says the club is not interested in Manchester United teenager JJ Gabriel.",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790286037000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news: JJ Gabriel Barcelona transfer update, boycott calls grow, Antonio Conte links",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-news-live-gabriel-37692528",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37696604.ece/ALTERNATES/s615/1_2GettyImages-2292852880-copy.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790285478000
-    },
-    {
-      "competition": "guardian",
-      "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
-      "image": "https://i.guim.co.uk/img/media/e07ebc008355e9b3193de2e1545e93d1e9b27f68/135_0_2687_2151/master/2687.jpg?width=140&quality=85&auto=format&fit=max&s=fa1302581c9fae51d6508f9dd818bf1f",
-      "summary": "Barcelona winger says England cannot play like SpainGordon: ‘The Mexico game set us up a bit’Anthony Gordon has sided with Thomas Tuchel’s assertion that controlling games through possession is not part of English…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790285408000
-    },
-    {
-      "competition": "laliga",
-      "title": "Real Madrid Prepare To Reignite Interest In Ajax Star",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1V5cUdzc09WbUhlZzRQeFBtRHVRRU1HR3puWU9ueFNzNTU5WFJZNUFwVUhHcnlVV0ZUNzBOVFpLbVpKaU1EOEdVMnFBZ3cwSi1DellGMHpENkp4QzNfOGRrdmFrcThZeklqa3kzbWJEeUJOd3lIMEY1R0NZYnFpMWdOc0RSRERXdDdqajdhTQ?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790314200000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Anthony Gordon raises theory over England drop-outs and makes Ballon d'Or claim",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/anthony-gordon-england-ballon-dor-37698546",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37698668.ece/ALTERNATES/s615/0_Screenshot-2026-09-24-at-141655.jpg",
-      "summary": "England have seen five players drop out of Thomas Tuchel's squad due to injury, and Anthony Gordon has a theory as to why those who play in the Premier League are more susceptible to knocks",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790285400000
-    },
-    {
-      "competition": "echo",
-      "title": "Steven Gerrard unveils multi-million pound plan 'to give something back' to Liverpool",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-unveils-multi-million-34664985",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664987.ece/ALTERNATES/s615/0_cb11-1.jpg",
-      "summary": "Former Liverpool captain Steven Gerrard is investing in initiatives in Childwall and Huyton for new sports and educational facilities",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790285400000
-    },
-    {
-      "competition": "indy",
-      "title": "Jurgen Klopp denied debut Germany win as former player Cody Gakpo strikes late",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/netherlands-germany-score-result-jurgen-klopp-xavi-gakpo-nations-league-b3056064.html",
-      "image": "https://static.independent.co.uk/2026/09/24/22/download.-1.?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "summary": "Netherlands 1-1 Germany: Gakpo haunted his former Liverpool manager in stoppage time to cancel out Felix Nmecha’s controversial opener",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790285215000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Kosovo 1-0 Republic of Ireland",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNG95dWJYS0QzOVVubExHMzRaUWNGMjd2RktvUFltUU9jVTI1ek9aSzBSS1h5ajhZNGZVU0hvM3pzc09QcEtaTE42MnoyeE9iZTdIa0pxaF9hTzhpQkVQUTVidDIyZ0MxMWJ0YXphcFUtSHJLRUlNOHVEclo0NjF0dnVlTVpvNFJUMnkzMHhIOHdZb09CNUI5NmdwQXYyRUtPa2t5V01yN3ppSVNjcjhhakZwdmZHNVJQSVBxYzdZSU9PR19PTlMzX0duWDYyLTdoS3dPMXpUaFZfakVwNmlRakJ2TU0?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790313991000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Arsenal dealt injury blow as Kai Havertz limps off in Germany clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/kai-havertz-injury-latest-arsenal-germany-netherlands-b3056007.html",
-      "image": "https://static.independent.co.uk/2026/09/24/20/2296962844..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Havertz was chosen to lead the line in Jurgen Klopp’s first match as Germany manager",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790285069000
-    },
-    {
-      "competition": "indy",
-      "title": "Cristiano Ronaldo draws blank as Wales edged out by Portugal in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/portugal-wales-score-result-cristiano-ronaldo-nations-league-b3056050.html",
-      "image": "https://static.independent.co.uk/2026/09/24/22/01M3ACV7FMDCHY14F1SX633W31.jpg?width=1200&auto=webp&trim=69%2C0%2C69%2C0",
-      "summary": "Portugal 1-0 Wales: Joao Felix’s deflected effort proved the difference for the hosts as Ronaldo had a second-half effort ruled out by VAR",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790284531000
-    },
-    {
-      "competition": "men",
-      "title": "Man United handed updates on two left-back targets after double transfer decision",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-left-back-transfer-34668669",
-      "image": "https://i2-prod.football.london/incoming/article34668683.ece/ALTERNATES/s615/0_Bayer-04-Leverkusen-v-RB-Leipzig-Bundesliga-202627.jpg",
-      "summary": "Manchester United are expected to continue their search for a left-back when the transfer window reopens in January",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790284358000
-    },
-    {
-      "competition": "bbc",
-      "title": "Highlights - Felix earns Portugal narrow Nations League win over Wales",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cq770gkr1zy2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c98f/live/8c586740-b859-11f1-b1d1-571ed4d7ff2c.jpg",
-      "summary": "Watch the best of the action as Portugal beat Wales 1-0 in Lisbon in the Nations League",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790284173000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Where to watch Turkiye vs. France live stream, TV channel, start time for UEFA Nations League match",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMmRtcjBjNlQ0RXB4U1dOZkdQUlJGTmhVY3FxcFdYdTZfeTk3TjlFZm1KV2pQZWFHbHYwYXZOV1hIcjNrUWZEaWRwdmpoRnk1VTJXN01lNWF6ZWVfU0UteEhyRWNXM1hzYXd0R0lONHdORG12VlpIUS1SenI2RXpNTUV5NHY?oc=5",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790312400000,
-      "image": null
-    },
-    {
-      "competition": "guardian",
-      "title": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/24/portugal-wales-nations-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/a345cbed7acaff2fdd5549aedcda8bccd5328618/80_0_4249_3400/master/4249.jpg?width=140&quality=85&auto=format&fit=max&s=92bab8cee8c9e1e0cccea65d0c7f36b6",
-      "summary": "There was a comic-strip feel to another eventful evening in the kingdom of Cristiano Ronaldo. Where to start? It was the 67th minute when his No 7 went up on the fourth official’s board, the cue to remove the captain’s…",
-      "teams": [
-        "portugal",
-        "wales"
-      ],
-      "publishedAt": 1790283315000
-    },
-    {
-      "competition": "bundes",
-      "title": "Jürgen Klopp and Germany denied by late Netherlands goal in UEFA Nations League opener",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/netherlands-germany-live-blog-nations-league-klopp-musiala-gakpo-van-dijk-39296",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083731950h.jpg?crop=0px%2C0px%2C1243px%2C699px",
-      "summary": "Jürgen Klopp's new-look Germany were denied a 2026/27 UEFA Nations League opening win as Cody Gakpo volleyed home for the Netherlands in stoppage time to cancel out Felix Nmecha's first-half strike.",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790283185000
-    },
-    {
-      "competition": "laliga",
-      "title": "Marc Cucurella Reveals the Truth About How He Tried to Convince Rodri to Join Real Madrid",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZG41ZlVVbzExOEZ0WjY3dUpNNlVzVHBSTU5EWi1kaFpvelJPUnhWcWRsVE5QQWhVS1huMFk3ZmlqeVZDYjJva1g2S1ZFOXRaT2Y4d0c3c21pYU95S2NyTWt0UDVmZExzUWg5QW55ZzdrdzNtOXdlc3lvMEN4dDgyTkx1TnZ1aXhDeVVSbUxUdkRRUlU5UUxXQlc1dmpBZHY1REV5VGppTm93TXBJSW5ycDZsZjRXUjBSQzlrLTRMaFo1OWdKdG9OalNYU1VHMlVhemJlaG1Bck1fV2RSTmhwRklIanRkMnBySnJjUlJR?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790311950000,
-      "image": null
-    },
-    {
-      "competition": "footlondon",
-      "title": "Kai Havertz injury blow hands Arsenal worst-possible start to international break",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/kai-havertz-arsenal-injury-germany-34669041",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34669040.ece/ALTERNATES/s615/0_FBL-EUR-NATIONS-NED-GER.jpg",
-      "summary": "Arsenal will be keen to understand the severity of Kai Havertz's injury as the attacking-midfielder was forced off the pitch during Germany's Nations League opener",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790282938000
     }
   ]
 }
