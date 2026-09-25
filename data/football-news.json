@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790292694216,
+  "generatedAt": 1790296096189,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 751,
-    "droppedKeyword": 25,
+    "raw": 1519,
+    "tagged": 746,
+    "droppedKeyword": 27,
     "droppedOtherSport": 2,
     "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 59
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Florian Wirtz reality becomes clear as four Liverpool players give Andoni Iraola big concern",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-reality-becomes-clear-34664909",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34664917.ece/ALTERNATES/s615/0_GettyImages-2296285470.jpg",
+      "summary": "How Liverpool's players have been rated by the ECHO so far this season with Dominik Szoboszlai, Jeremy Jacquet and Jeremie Frimpong all causing a stir",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790294400000
+    },
     {
       "competition": "guardian",
       "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
@@ -717,6 +729,18 @@
       "publishedAt": 1790267362000
     },
     {
+      "competition": "unl-a",
+      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
+      "teams": [
+        "ireland",
+        "kosovo"
+      ],
+      "publishedAt": 1790296035000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "How to watch Portugal vs Wales for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
@@ -740,32 +764,6 @@
         "netherlands"
       ],
       "publishedAt": 1790266917000
-    },
-    {
-      "competition": "mirror",
-      "title": "What channel is Kosovo vs Republic of Ireland on? TV, streaming and kick-off time info",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ireland-kosovo-nations-league-tv-37684044",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37684271.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
-      "summary": "The Nations League returns during this international break with the Republic of Ireland travelling to face Kosovo",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790266500000
-    },
-    {
-      "competition": "mirror",
-      "title": "Is Netherlands vs Germany on TV? How to watch Nations League clash on TV and streaming",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/netherlands-germany-stream-channel-league-37684250",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37674627.ece/ALTERNATES/s615/1_GettyImages-2295705405.jpg",
-      "summary": "Jurgen Klopp and Xavi will make their international debuts with Germany and the Netherlands in the UEFA Nations League",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790265600000
     }
   ]
 }
