@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790299803590,
+  "generatedAt": 1790301127932,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
+    "raw": 1522,
     "tagged": 753,
-    "droppedKeyword": 26,
+    "droppedKeyword": 27,
     "droppedOtherSport": 2,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 57
+    "withImage": 56
   },
   "items": [
     {
@@ -578,6 +578,18 @@
       "publishedAt": 1790271628000
     },
     {
+      "competition": "epl",
+      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790299833000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Harvey Elliott must repeat Liverpool transfer trick as criticism grows in Spain",
       "publisher": "Liverpool Echo",
@@ -615,18 +627,6 @@
       "publishedAt": 1790270308000
     },
     {
-      "competition": "epl",
-      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
-      "publisher": "skysports.com",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790299063000,
-      "image": null
-    },
-    {
       "competition": "fitalia",
       "title": "Van Bommel: &#8216;Always 4-3-3, Belgium and Italy in same situation, Milan hope&#8217;",
       "publisher": "Football Italia",
@@ -655,7 +655,7 @@
     {
       "competition": "unl-a",
       "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
-      "publisher": "skysports.com",
+      "publisher": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
       "teams": [
         "ireland",
@@ -698,6 +698,17 @@
         "napoli"
       ],
       "publishedAt": 1790268588000
+    },
+    {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790297140000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -749,19 +760,6 @@
         "germany"
       ],
       "publishedAt": 1790267400000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Football Italia Show: What we spotted at Italy’s final training before Belgium clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/what-spotted-italy-training-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-training-414x288.jpg",
-      "summary": "Football Italia was among the accredited media at Italy s final training session ahead of their...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790267362000
     }
   ]
 }
