@@ -1,17 +1,68 @@
 {
-  "generatedAt": 1790337762572,
+  "generatedAt": 1790338300992,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 719,
-    "droppedKeyword": 23,
+    "raw": 1511,
+    "tagged": 724,
+    "droppedKeyword": 21,
     "droppedOtherSport": 0,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Revealed: How many fans will attend Italy vs Belgium at the Olimpico",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/how-many-fans-italy-vs-belgium-at-the-olimpico/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Stadio-Olimpico-outside-Foro-Italico-414x276.jpg",
+      "summary": "The Stadio Olimpico is not sold out for tonight s Nations League game between Italy and...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790338067000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa and Chelsea set transfer record as UEFA send 'fragile' Premier League warning",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-chelsea-transfers-uefa-34671853",
+      "image": "https://i2-prod.football.london/incoming/article34608363.ece/ALTERNATES/s615/0_GettyImages-2294872894.jpg",
+      "summary": "Aston Villa made some huge sales in the summer with the likes of Morgan Rogers and Ollie Watkins leaving",
+      "teams": [
+        "astonvilla",
+        "chelsea"
+      ],
+      "publishedAt": 1790337728000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790337679000
+    },
+    {
+      "competition": "mirror",
+      "title": "Crystal Palace chief sends Liverpool pointed message after blocking Ismaila Sarr transfer",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/liverpool-ismaila-sarr-crystal-palace-37702105",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37702273.ece/ALTERNATES/s615/0_GettyImages-2295738681.jpg",
+      "summary": "Liverpool made a £50million bid for Crystal Palace winger Ismaila Sarr in the final week of the summer transfer window, a fee which Steve Parish never entertained",
+      "teams": [
+        "crystalpalace",
+        "liverpool"
+      ],
+      "publishedAt": 1790337632000
+    },
     {
       "competition": "guardian",
       "title": "Havertz returns to Arsenal; England v Spain buildup; Haaland fires Norway to victory: football news – live",
@@ -62,18 +113,6 @@
         "italy"
       ],
       "publishedAt": 1790335659000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790335491000
     },
     {
       "competition": "mirror",
@@ -713,44 +752,6 @@
         "scotland"
       ],
       "publishedAt": 1790319876000
-    },
-    {
-      "competition": "guardian",
-      "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/luis-de-la-fuente-spain-world-keep-us-winning",
-      "image": "https://i.guim.co.uk/img/media/5dd24a1e57fad012f61250cdcf19dfde4d0bcd26/40_0_1892_1513/master/1892.jpg?width=140&quality=85&auto=format&fit=max&s=7adddefe7e67a9c5117f8d201c7dd30e",
-      "summary": "Spain have won back-to-back major tournaments, but there is still one more to go to draw equal with feted team of 2008-2012“I’m going to tell you a story,” Luis de la Fuente said. “As soon as the game finished on 19…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790319644000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal handed Kai Havertz injury update by Jurgen Klopp after Germany nightmare",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-kai-havertz-injury-klopp-34669214",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34669336.ece/ALTERNATES/s615/0_JS419113692jp.jpg",
-      "summary": "Arsenal star Kai Havertz was forced off in Germany's draw with the Netherlands in the Nations League",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790319595000
-    },
-    {
-      "competition": "metro",
-      "title": "Israel footballer sent off for using corner flag in gun-firing goal celebration",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/25/israels-saied-abu-farchi-sent-off-using-corner-flag-gun-firing-goal-celebration-29652207/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313889480-1d1c.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790318205000
     }
   ]
 }
