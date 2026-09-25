@@ -1,17 +1,126 @@
 {
-  "generatedAt": 1790313224237,
+  "generatedAt": 1790317096252,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1517,
-    "tagged": 750,
-    "droppedKeyword": 29,
+    "raw": 1523,
+    "tagged": 757,
+    "droppedKeyword": 30,
     "droppedOtherSport": 1,
-    "droppedFeed": 7,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 50
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790316679000
+    },
+    {
+      "competition": "indy",
+      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
+      "image": "https://static.independent.co.uk/2026/09/25/6/14/Screenshot-2026-09-25-at-07-06-13.png?width=1200&auto=webp&trim=40%2C92%2C37%2C143",
+      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
+      "teams": [
+        "austria",
+        "israel"
+      ],
+      "publishedAt": 1790316546000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Xabi Alonso gets £219m Chelsea transfer vindication as Cole Palmer admission made",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonso-gets-219m-chelsea-34666261",
+      "image": "https://i2-prod.football.london/incoming/article34666601.ece/ALTERNATES/s615/0_GettyImages-2295958189.jpg",
+      "summary": "For all of Chelsea's problems in defence and midfield at the start of the season, Xabi Alonso's front three have been breathtaking at times",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790316000000
+    },
+    {
+      "competition": "echo",
+      "title": "Alexander Isak brands Newcastle legend's demands as 'irrelevant' as Liverpool stance clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-brands-newcastle-legends-34668908",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34522731.ece/ALTERNATES/s615/0_GettyImages-2291166152.jpg",
+      "summary": "Alexander Isak has responded to comments made by Alan Shearer after the Liverpool striker made his first return to Newcastle United",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790316000000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Joelinton breaks silence on Newcastle United injury hell - 'Not been good'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/joelinton-breaks-silence-newcastle-united-34658027",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34420114.ece/ALTERNATES/s615/0_Newcastle-United-Training-Session.jpg",
+      "summary": "Exclusive: Joelinton has lifted the lid about his injury woes and his hunger to be part of Matthias Jaissle's Toon revolution",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790316000000
+    },
+    {
+      "competition": "bbc",
+      "title": "Zidane waited for France - now can he harness their star power?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20dxgpjng3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7877/live/7c1b7350-8a95-11f1-abbc-1d62d6206917.jpg",
+      "summary": "Zinedine Zidane says he waited for the France job, but what will he bring to the role after five years out of management?",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790315482000
+    },
+    {
+      "competition": "indy",
+      "title": "How Ireland v Israel become the world’s most controversial fixture",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-v-israel-boycott-nations-league-palestine-fifa-b3056168.html",
+      "image": "https://static.independent.co.uk/2026/09/22/14/IRLANDA_ISRAEL_71_5_.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "The tension and anger ahead of the Nations League double header is seen as ‘unprecedented’ for a match between two countries not in conflict, reports Miguel Delaney in Dublin",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790314952000
+    },
+    {
+      "competition": "mirror",
+      "title": "'I was sent home from England duty for sneaking out – but boss let me go to Ibiza instead'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-international-andy-carroll-ibiza-37698972",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699007.ece/ALTERNATES/s615/0_GettyImages-91667035.jpg",
+      "summary": "A former Premier League star has recalled the reaction from his club manager after being sent home for sneaking out on England duty",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790314200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "8 Arsenal stars feature in FC27's 20 best Premier League players as Gabriel leads the way",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/8-arsenal-stars-feature-fc27s-34654241",
+      "image": "https://i2-prod.football.london/arsenal-fc/news/article34654240.ece/ALTERNATES/s615/0_2026-Gamescom-In-Cologne.jpg",
+      "summary": "The EA FC 27 ratings are out and there are plenty of Premier League players in the top 20, with Arsenal and Liverpool well represented",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790314200000
+    },
     {
       "competition": "indy",
       "title": "Scotland’s new era is a genuinely bold step into the unknown",
@@ -63,6 +172,18 @@
     },
     {
       "competition": "echo",
+      "title": "Friedkin Group claims are 'concerning' as David Moyes Everton transfer thoughts seem clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/friedkin-group-claims-concerning-david-34667106",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667215.ece/ALTERNATES/s615/0_DMTFG250926.jpg",
+      "summary": "EXCLUSIVE: There are concerns over Everton owners The Friedkin Group reckons former Premier League striker Kevin Phillips",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790312400000
+    },
+    {
+      "competition": "echo",
       "title": "Liverpool latest: Real Madrid beaten in transfer fight as Barcola told 'you're not worth it'",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-bradley-barcola-real-madrid-34667101",
@@ -71,18 +192,6 @@
       "teams": [
         "realmadrid",
         "liverpool"
-      ],
-      "publishedAt": 1790312400000
-    },
-    {
-      "competition": "echo",
-      "title": "Friedkin Group claims are 'concerning' as David Moyes Everton transfer thoughts seem clear",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/friedkin-group-claims-concerning-david-34667106",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34667215.ece/ALTERNATES/s615/0_DMTFG250926.jpg",
-      "summary": "EXCLUSIVE: There are concerns over Everton owners The Friedkin Group reckons former Premier League striker Kevin Phillips",
-      "teams": [
-        "everton"
       ],
       "publishedAt": 1790312400000
     },
@@ -260,17 +369,16 @@
       "publishedAt": 1790288563000
     },
     {
-      "competition": "indy",
-      "title": "Israel striker sent off for gun celebration in Nations League defeat to Austria",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/israel-gun-celebration-saied-abu-farchi-austria-nations-league-b3056068.html",
-      "image": "https://static.independent.co.uk/2026/09/24/22/2296960041..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Saied Abu Farchi was shown a second yellow card during the 3-1 loss to Austria after using the corner flag to simulate a gun during his goal celebration",
+      "competition": "unl-a",
+      "title": "UEFA Nations League Matchday 1 highlights and round-up: Cody Gakpo denies Jürgen Klopp's Germany, but holders Portugal start with win",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObGU4Nm5ReFpVLVpGaVFteFljTUVOQk5ELXdrX2V6TGVTYk8xZk9GRFFPTWU2Z3dWVnUxTzdnQUMzNXhnMHFWZjJjUW5yRTVQeE1fakRaWldxMzJxMk9FeVVjLVhlald1aXNvZXJjdDc3VU9fZm9DWkNCU0psYjRoX2pZU0lYbnNKLXA3RVRwM3dEVlA1Z1MxdDBUcnd1M0UyQXprc1d6bmxSeVNNNGh5aG4zMGFtOEJKLXZmMXBDdk5yRC1Tc0szMzA1X1BqMzlRSmpVVg?oc=5",
       "teams": [
-        "austria",
-        "israel"
+        "portugal",
+        "germany"
       ],
-      "publishedAt": 1790287721000
+      "publishedAt": 1790316455000,
+      "image": null
     },
     {
       "competition": "bbc",
@@ -283,6 +391,42 @@
         "israel"
       ],
       "publishedAt": 1790287408000
+    },
+    {
+      "competition": "bundesliga",
+      "title": "Barcelona's Dani Olmo set for Bundesliga return at Bayern?",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUpJeXRQN2NaZktad2U1cU1uOV9TaFphTjUtWEZDd3NKVEFJZHNYYkxNNFpjVjAyZUhnREY2RDVlWVVvYVZyMGlXRGJ1R1lzVF9fY2FNWWktTHF6dUVHQlZuREc4Uk9uNVI5VEpTTmNCVm9ZNVhnRFNjQlZSSmVFX25UYm9maWp6Vk5uaw?oc=5",
+      "teams": [
+        "barcelona",
+        "bayern"
+      ],
+      "publishedAt": 1790316180000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "How to watch Turkiye vs France: TV channel and live stream for Nations League today",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZDY1YzFGenFDQ0Z5akFyWWQ4aE1IM2hrb091OU5OanViRzFmUHlaWGdZemdaNnF3N0FRN19XbzRVVFV0Y0RnQnBWVEQ3elNtT0ZxS0Z1OVQyZV9MSnVpeTY4LUJ1a1cwbEY0VVJSTnlmcWs3SzlLWF9Pd2tVRnh3bg?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790316000000,
+      "image": null
+    },
+    {
+      "competition": "transfer",
+      "title": "European football news and transfers: Barcelona, Real Madrid, PSG, Bayern Munich latest and more",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOY1Z2bEVib3I5Skd5TUdnQkR4TnhlYjZ0UDI1QWFqMmxGd3M5WENFa1FaRmVjR01JRmpOeG1BRWxRSDBPNU41YTYtMEl6ZFlLeUxPWUx0Q05lVGM5MV9ScVpyRjFJVFA0TGw2NHRtRl9qLUZwWUpvdThaallfb0h2NUFpd2VxYjkzclNEUm1pYTdaeG1iV0Vkb1Q5d3dlX0FMSFRJelkzQU5MQmpBNGhpM1VDQTlmT2V4V29XeGE3d29Qd2lLaEdfZm1NVXhGR1BLZmk4VURndnRUUzh5MnRV?oc=5",
+      "teams": [
+        "bayern",
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790315790000,
+      "image": null
     },
     {
       "competition": "guardian",
@@ -308,6 +452,18 @@
         "liverpool"
       ],
       "publishedAt": 1790286619000
+    },
+    {
+      "competition": "epl",
+      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790315263000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -372,6 +528,17 @@
         "england"
       ],
       "publishedAt": 1790285408000
+    },
+    {
+      "competition": "laliga",
+      "title": "Real Madrid Prepare To Reignite Interest In Ajax Star",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1V5cUdzc09WbUhlZzRQeFBtRHVRRU1HR3puWU9ueFNzNTU5WFJZNUFwVUhHcnlVV0ZUNzBOVFpLbVpKaU1EOEdVMnFBZ3cwSi1DellGMHpENkp4QzNfOGRrdmFrcThZeklqa3kzbWJEeUJOd3lIMEY1R0NZYnFpMWdOc0RSRERXdDdqajdhTQ?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790314200000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -476,24 +643,12 @@
     {
       "competition": "unl-a",
       "title": "Where to watch Turkiye vs. France live stream, TV channel, start time for UEFA Nations League match",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMmRtcjBjNlQ0RXB4U1dOZkdQUlJGTmhVY3FxcFdYdTZfeTk3TjlFZm1KV2pQZWFHbHYwYXZOV1hIcjNrUWZEaWRwdmpoRnk1VTJXN01lNWF6ZWVfU0UteEhyRWNXM1hzYXd0R0lONHdORG12VlpIUS1SenI2RXpNTUV5NHY?oc=5",
+      "publisher": "sportingnews.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON05DWVVUV0MxOEtYcnJVZ1BtV0ttYmV0Sk1BcjFHTXg3dWcwbUhTN25EVGc4MlM0WEhCdzNQRFBKbVhMTmFEYU50ejFqYkZBM0k2MUpDZ1FsQnVJQjlxRDlRNFBQeXN4X0RScmg4OFdUa01oNlRzM0dBbW1UVmtySmVaQzR5TU5BWklWazdteVY0U1E5NUp5dlRsdUFWTjV4QVhUcTBiWlk1OXZ3eXBSNmdLTndweFVWWnQwX0F6RFVxdlJzQWFHbWlBa09ZNTlf?oc=5",
       "teams": [
         "france"
       ],
-      "publishedAt": 1790312400000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Kosovo 1-0 Republic of Ireland: Heimir Hallgrimsson's Boys in Green beaten in UEFA Nations League opener",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkhaLUk4M2ZJVTI5YjJKbkxGWVExYjc2bzVpeFd1Y3g2c1VVcTVmcGh0TUVCYXFTVjRTeWRMcnpEaUkxOUxNNWxqZk9mZkVLR2dIbE8zeFppYVBQQWwtRzhOeTdqZ2FnTkJjM2h5cjBfLWxweU53RDhpWUc2b0NhcGhtRG1vWDI1S2w3eFpxOUszMk8zN2lDV2QwMGFMYjY3X2dqMGI4SHcySG9JbEszTzhVSm5vdTVORTNPaWVaU0JZRm5ZclVlYUhnSzFZTlhvVXBUdjFPYlYwZk5hMzBsMUpTNmk3QQ?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790312235000,
+      "publishedAt": 1790312401000,
       "image": null
     },
     {
@@ -559,15 +714,15 @@
       "publishedAt": 1790282918000
     },
     {
-      "competition": "epl",
-      "title": "Man Utd transfer news: Barcelona not interested in wonderkid JJ Gabriel says sporting director Deco - Paper Talk",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2UxalJDdUwzY3RrOWxRYVJfaG1ESHRaNTM0N1kwMHZFN25Zc09zRE9jZndlc2JCWUJqS1htOVZpTVRmX2ZPajAxbDh3bjY5ZDRYTkFyd1p5S0JJTWNsa09qSlZmMkl3NklHUVZwVFJ5MXBocHNvbGZCM1BITFRpR25VbERobkZrQk5udmR6OG9wSDFWVzF0bUlQY3Rfem4yV1ZIcVFLaVo2cFNTZWw1RWJZenhLR0ZweFlyc2pGeC1PYUhiN2luNm9MdU5IYXRkWXc2NzEwV0U3RlVTQ2x3STY1NXZmY3YzbDFRaDFPakhJbDhJbHhZVzgwN1RralVvT3Rz?oc=5",
+      "competition": "unl-a",
+      "title": "‘We were better!’ - Xavi claims Netherlands outplayed Jurgen Klopp’s Germany in UEFA Nations League clash",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmNlOTZkd1lxUzVEZnlXdjRla01FTUd5SzFFcmdjdWZmZFlheDlOOV9VTkxqNk1GUzdmQXBvR0VqMDBRbTFoU3FiSHFteXg2RjlJRV9DeWtpWlczWHdRMkwyempoRUVlWXZ6bE45YUJOZzVVLWF2TC1NaWFFSnFkbEI3MDZVMHdad08zVlkzZVFkeDQxSDBtS2g3ckpWeGZwcTNSRWE3bnZ2eS16ZFhHTGpB?oc=5",
       "teams": [
-        "barcelona",
-        "manutd"
+        "netherlands",
+        "germany"
       ],
-      "publishedAt": 1790310686000,
+      "publishedAt": 1790311085000,
       "image": null
     },
     {
@@ -591,167 +746,6 @@
         "arsenal"
       ],
       "publishedAt": 1790309698000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Is allowing alcohol in the stands at men’s football matches in England a good idea?",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUVER3NPQXRudy10MERCaWlRMzhGTG84bk1zZVBNQmZpdWpFa2tneVk1RXlxaTgxcm4xUXRQbkMyT2JTak1DWlFDc3dLcnhwMDRnejVVdlFpdng3RVhScE9Bcm53bG1DRmhuYlZzMHgwWXJ6Y1MyWFVOLVRUclpHSXNXUkpQQUd6d2dkeS1iVnV2QVVrMjNfbmFxU0Q?oc=5",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790309539000,
-      "image": null
-    },
-    {
-      "competition": "echo",
-      "title": "Andoni Iraola agreement reached as Liverpool's biggest change becomes clear",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-agreement-reached-liverpools-34668822",
-      "image": "https://i2-prod.liverpoolecho.co.uk/article34648344.ece/ALTERNATES/s1200d/0_GettyImages-2296239235.jpg",
-      "summary": "Our Liverpool FC fans' jury deliver their verdicts on new head coach Andoni Iraola's first seven matches in charge of the club",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790308800000
-    },
-    {
-      "competition": "men",
-      "title": "Man United sign Liverpool youngster as clubs in talks over transfer fee after Man City deal",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-utd-transfer-liverpool-konde-34668898",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article34668897.ece/ALTERNATES/s615/0_Liverpool-U18-v-Middlesbrough-U18-U18-Premier-League.jpg",
-      "summary": "Manchester United are looking to recruit some of the best young talents in England",
-      "teams": [
-        "manutd",
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790279622000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Sunderland dealt huge Brian Brobbey injury blow on international duty",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/brian-brobbey-sunderland-injury-netherlands-34668977",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34668974.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
-      "summary": "Brian Brobbey was in flying form for Sunderland AFC against Manchester City at the weekend, but now faces a potential spell on the sidelines in cruel fashion",
-      "teams": [
-        "sunderland"
-      ],
-      "publishedAt": 1790279526000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Kosovo 1-0 Republic of Ireland",
-      "publisher": "uefa.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNG95dWJYS0QzOVVubExHMzRaUWNGMjd2RktvUFltUU9jVTI1ek9aSzBSS1h5ajhZNGZVU0hvM3pzc09QcEtaTE42MnoyeE9iZTdIa0pxaF9hTzhpQkVQUTVidDIyZ0MxMWJ0YXphcFUtSHJLRUlNOHVEclo0NjF0dnVlTVpvNFJUMnkzMHhIOHdZb09CNUI5NmdwQXYyRUtPa2t5V01yN3ppSVNjcjhhakZwdmZHNVJQSVBxYzdZSU9PR19PTlMzX0duWDYyLTdoS3dPMXpUaFZfakVwNmlRakJ2TU0?oc=5",
-      "teams": [
-        "ireland",
-        "kosovo"
-      ],
-      "publishedAt": 1790308025000,
-      "image": null
-    },
-    {
-      "competition": "metro",
-      "title": "Arsenal forward Kai Havertz suffers injury during Germany vs Netherlands",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/arsenal-forward-kai-havertz-suffers-injury-germany-vs-netherlands-29652054/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313880886-a829.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "netherlands",
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790279014000
-    },
-    {
-      "competition": "metro",
-      "title": "Barcelona respond to JJ Gabriel link after Manchester United exit request",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/24/barcelona-respond-jj-gabriel-link-man-utd-exit-request-29652027/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312581115-6c65.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "manutd",
-        "barcelona"
-      ],
-      "publishedAt": 1790278057000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsenal handed Kai Havertz injury blow as forward limps out of Germany match",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/kai-havertz-germany-netherlands-arsenal-37700022",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37700021.ece/ALTERNATES/s615/0_GettyImages-2296962980.jpg",
-      "summary": "Arsenal might have been given a serious concern with Germany striker Kai Havertz having been taken off with an injury during his nation's clash with the Netherlands in Amsterdam",
-      "teams": [
-        "arsenal",
-        "germany"
-      ],
-      "publishedAt": 1790278023000
-    },
-    {
-      "competition": "mirror",
-      "title": "Barcelona chief Deco makes JJ Gabriel transfer admission as Man Utd deadline approaches",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jj-gabriel-man-utd-barcelona-37699844",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37699901.ece/ALTERNATES/s615/0_GettyImages-2295946455.jpg",
-      "summary": "Barcelona sporting director Deco has addressed links with JJ Gabriel after the 15-year-old Manchester United academy prospect asked to leave",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790277622000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Jürgen Klopp Sends Message of Calm After Germany Debut",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkI2Z0pxOS1FZ1lVdHVUNFhfUVl1emVxcVBDRzdhSU1QZnN1SFp0bVRXNTgyZGtGLWFDS1lUN0FrU0pvUW0yTlhMeUtxQmtPRU16UkVkRDF2dWhkSG5NLWlURWgxZGlzMVJORWVGd05UTGY3dUdhUjRwdzAwbHV5a2dvVmFTTHFvY0FDbUQzSTBuZEFyTVBGTGFfZDdlZXU1eXd1eG1JMGN4eVZ5eW1Lc24wdVFzVENpWENidDNReDdQb29FSjRjVFJaekxBbU1abUtVaTZwb2M5Zw?oc=5",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790306400000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Still two Italy doubts, three players can be on right or left&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-doubts-3-players-right-or-left/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
-      "summary": "Roberto Mancini won’t choose his Italy starting XI against Belgium until Friday morning. ‘There are...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790277455000
-    },
-    {
-      "competition": "unl-a",
-      "title": "San Marino vs Finland: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83eEV6bU9zZzVFZXRUTUNoTUVsMUpsSkdxYkswT1V5Vk1mcTRSTTE5YkJ6OE56OFJYVXNvTGdNQlpWY3JIZE5KRmdaWmFZLXgzUnlaN252SUZIRHlrOGItWDJtTQ?oc=5",
-      "teams": [
-        "sanmarino",
-        "finland"
-      ],
-      "publishedAt": 1790305956000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Xavi Hernández Hails Netherlands’ Late Fightback Against Germany",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOXc1aEZwcjZ4eGlqTHpXWWttbWljMnVfWDNKazVRbmRpQlB2akhIZF94Z0psY0Z1TUkybnppRlZWcm9vZFR4cjNOVXZlVVBJd196WERjWm4yTFFlZU5sVDFMRDdINFNwTkhtVjB2d2M5M2FiVFRYUnBUV0JQS3FkSDBoRU5pa0JQR0k3RW9BUllHRFhVNkY0dFY0a1JlOHN1N1BmeTg3aFFMSk56LXFWOURfN2dVUUlCQktYLXNSMTQ5amdvZGl3ZWtkMHcxejFLZmlXWXhzU1FTYlY3dXd2MFpxUWhXNFJG?oc=5",
-      "teams": [
-        "netherlands",
-        "germany"
-      ],
-      "publishedAt": 1790305920000,
       "image": null
     }
   ]
