@@ -10812,9 +10812,9 @@
           "cleanWinAtPrediction": 0.54,
           "vigAtPrediction": 0.0877,
           "lineType": "half",
-          "score": null,
-          "score1h": null,
-          "outcome": null
+          "score": "0-1",
+          "score1h": "0-0",
+          "outcome": "win"
         }
       ],
       "guards": "Moving goalposts by whoever builds the tool, not the honesty of whoever enters the scores."
@@ -10955,7 +10955,11 @@
           "vigAtPrediction": null,
           "lineType": "whole",
           "score": "0-1",
+<<<<<<< HEAD
+          "score1h": "0-0",
+=======
           "score1h": null,
+>>>>>>> 0dfeada353f10ec3fbbf286dd7b3360617c37756
           "outcome": "win"
         },
         {
