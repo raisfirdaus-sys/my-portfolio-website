@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790361639966,
+  "generatedAt": 1790364389646,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1508,
-    "tagged": 768,
+    "raw": 1505,
+    "tagged": 779,
     "droppedKeyword": 17,
     "droppedOtherSport": 3,
     "droppedFeed": 4,
@@ -12,6 +12,18 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City warned 'severe' punishment awaits and told why Premier League appeal will fail",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-premier-league-charges-37704316",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704404.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "Manchester City have been found guilty of all but one of the charges brought against them by the Premier League, subject to an appeal",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790363860000
+    },
     {
       "competition": "men",
       "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, Andy Burnham reaction",
@@ -22,7 +34,33 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790361203000
+      "publishedAt": 1790363765000
+    },
+    {
+      "competition": "guardian",
+      "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
+      "image": "https://i.guim.co.uk/img/media/25219966a6dcf8413ee1aa5d5fc19e86a7643646/586_196_3645_2917/master/3645.jpg?width=140&quality=85&auto=format&fit=max&s=6d9a71a9b121089840b9d89ff97303cd",
+      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelBefore kick-off in Italy, there is a minute’s applause for Sandro Mazzola, the legendary Inter midfielder who won…",
+      "teams": [
+        "nireland",
+        "belgium",
+        "georgia"
+      ],
+      "publishedAt": 1790363714000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790363245000
     },
     {
       "competition": "indy",
@@ -34,21 +72,43 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790361070000
+      "publishedAt": 1790363115000
+    },
+    {
+      "competition": "metro",
+      "title": "Erling Haaland U-turn made after Manchester City found guilty of Premier League charges",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/erling-haaland-u-turn-made-man-city-found-guilty-premier-league-charges-29654669/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313892505-12bb.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790361827000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City get new punishment verdict as three factors for guilty ruling appeal made clear",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-guilty-appeal-37704300",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article35313038.ece/ALTERNATES/s615/2_GettyImages-2153304847.jpg",
+      "summary": "Manchester City have been handed new verdicts on what will follow them being found guilty of a significant number of financial charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790361644000
     },
     {
       "competition": "guardian",
-      "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
+      "title": "The age of asterisk: Manchester City’s glittering era of success is tainted now | Barney Ronay",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
-      "image": "https://i.guim.co.uk/img/media/769a4f6e129045139af727424a577fabd88c7c37/354_0_3425_2741/master/3425.jpg?width=140&quality=85&auto=format&fit=max&s=056b0409238629f4f7ab4bcad7d55f8b",
-      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelItaly 4-3-3: Donnarumma; Di Lorenzo, Mancini, Coppola, Calafiori; Barella, Romano, Tonali; Cambiaghi, Esposito,…",
+      "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-era-success-all-tainted-now-premier-league-charges",
+      "image": "https://i.guim.co.uk/img/media/9387eff2c2d71fcddeade60f68ec6e6f94f2d52d/380_0_4091_3272/master/4091.jpg?width=140&quality=85&auto=format&fit=max&s=93fecd0b428e75476985cc5120bfa940",
+      "summary": "Friday’s verdict against Manchester City will change everything we understood about their Premier League title triumphsWelcome, then, to the age of asterisk. Whatever punishment Manchester City and their sovereign…",
       "teams": [
-        "nireland",
-        "belgium",
-        "georgia"
+        "mancity"
       ],
-      "publishedAt": 1790360994000
+      "publishedAt": 1790361418000
     },
     {
       "competition": "fitalia",
@@ -92,7 +152,7 @@
       "title": "Man City are still breathing after charges bombshell but the air could be running out",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-still-breathing-after-34674949",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34675025.ece/ALTERNATES/s615/0_GettyImages-1309337028.jpg",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34675088.ece/ALTERNATES/s615/0_premium-canvas-1790360717869.png",
       "summary": "Defiant Manchester City will fight again but circling rivals will demand 115 punishment",
       "teams": [
         "mancity"
@@ -149,18 +209,6 @@
       "publishedAt": 1790359623000
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League giants found guilty of 114 of 115 charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790359387000
-    },
-    {
       "competition": "guardian",
       "title": "Thomas Tuchel warns Cole Palmer about ‘missing way too many’ England camps",
       "publisher": "The Guardian",
@@ -187,6 +235,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Thomas Tuchel questions if Cole Palmer wants to play for England - 'It's hard to argue'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-questions-cole-palmer-37704096",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704102.ece/ALTERNATES/s615/1_Tuchel-Palmer.jpg",
+      "summary": "The Chelsea star has pulled out of the England squad yet again and Thomas Tuchel has made his feelings clear on a player who wasn't taken the World Cup",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790359200000
+    },
+    {
+      "competition": "mirror",
       "title": "Morgan Rogers reveals Declan Rice talks after angry bust-up with Arsenal star",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/morgan-rogers-declan-rice-row-37704155",
@@ -204,18 +264,6 @@
       "link": "https://www.mirror.co.uk/sport/football/news/england-kane-tuchel-spain-wonderwall-37704240",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37704224.ece/ALTERNATES/s615/0_GettyImages-2296440112.jpg",
       "summary": "England take to the pitch for the first time since the World Cup on Saturday evening against Spain and the Three Lions will be hoping to give supporters something to celebrate at Wembley",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790359200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel questions if Cole Palmer wants to play for England - 'It's hard to argue'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-questions-cole-palmer-37704096",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704102.ece/ALTERNATES/s615/1_Tuchel-Palmer.jpg",
-      "summary": "The Chelsea star has pulled out of the England squad yet again and Thomas Tuchel has made his feelings clear on a player who wasn't taken the World Cup",
       "teams": [
         "england"
       ],
@@ -553,18 +601,6 @@
       "publishedAt": 1790351906000
     },
     {
-      "competition": "guardian",
-      "title": "Manchester City v Premier League: how the legal teams lined up",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-v-premier-league-how-the-legal-teams-lined-up",
-      "image": "https://i.guim.co.uk/img/media/a2ea49f974bc079ad7fd1a01d65798607a92c2ea/0_0_5000_3000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5db5f5006c8892ea8743dae85843aa96",
-      "summary": "David Pannick may not earn as much as Erling Haaland but the club spared no expense to defend themselves against more than 100 charges The result is finally in from a highly anticipated Premier League match-up: the…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790351771000
-    },
-    {
       "competition": "bbc",
       "title": "Who is hacker whose revelations led to Man City charges?",
       "publisher": "BBC Sport",
@@ -668,7 +704,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-found-guilty-of-breaking-premier-leagues-financial-fair-play-rules",
       "image": "https://i.guim.co.uk/img/media/2f187b84469393bd82ddc3c1ebf3e1f336863d40/0_83_3216_1930/master/3216.jpg?width=140&quality=85&auto=format&fit=max&s=ca6ee1581568b5a09637d50349c5a5f1",
-      "summary": "City face sanctions after more than 100 rule breachesClub insists it is innocent and is expected to appealManchester City have been found guilty of the vast majority of more than a hundred charges related to breaches of…",
+      "summary": "City face sanctions after more than 100 rule breachesClub insist on innocence and are expected to appealManchester City have been found guilty of the vast majority of more than a hundred charges related to breaches of…",
       "teams": [
         "mancity"
       ],
@@ -709,42 +745,6 @@
         "everton"
       ],
       "publishedAt": 1790350080000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp has promised to throw a party if Man City are stripped of Premier League titles",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-charges-jurgen-klopp-34673573",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34673816.ece/ALTERNATES/s615/0_Manchester-City-v-Liverpool-The-Emirates-FA-Cup-Semi-Final.jpg",
-      "summary": "Manchester City have been found guilty on the majority of their 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790350071000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City must be relegated over 115 charges guilt - a points deduction is not enough",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-guilty-37703589",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37703779.ece/ALTERNATES/s615/2_GettyImages-1496206379.jpg",
-      "summary": "OPINION: Manchester City must be punished severely after being found guilty of almost all the 115 charges levied against them in a saga which has stained the English game",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790349780000
-    },
-    {
-      "competition": "fitalia",
-      "title": "De Ketelaere reveals ‘I spoke with PSG’ but Atalanta wanted €50m: ‘They chose Torres’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/de-ketelaere-reveals-i-spoke-with-psg/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Charles-De-Ketelaere-celebrate.jpg",
-      "summary": "Charles De Ketelaere has confirmed that he spoke with Paris Saint-Germain over a potential transfer...",
-      "teams": [
-        "atalanta"
-      ],
-      "publishedAt": 1790349762000
     }
   ]
 }
