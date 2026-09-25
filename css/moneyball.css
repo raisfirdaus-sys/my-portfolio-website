@@ -463,7 +463,11 @@ tr.tier-neutral { box-shadow: none; }
   font: inherit;
 }
 .board-row:hover { background: var(--surface-2); }
-.board-row[aria-current="true"] { background: var(--hl-wash); border-left-color: var(--hl-edge); }
+/* The row being looked at is violet, NOT gold. Gold is the highlighter and
+   means one thing only: the model rates this leg. The selected row used to
+   borrow the same gold, so on a board with no recommendations at all one
+   row still lit up exactly like a pick - and was followed as one. */
+.board-row[aria-current="true"] { background: var(--series-away-soft); border-left-color: var(--series-away); }
 
 .board-time { font-family: var(--mono); font-size: 11px; color: var(--text-muted); line-height: 1.4; }
 .board-teams { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
