@@ -12,6 +12,10 @@ if grep -rnE '^(<{7}|={7}|>{7})( |$)' js/ css/ scripts/ data/ ./*.html 2>/dev/nu
 fi
 echo "  ok   no conflict markers"
 
+# The fast half of this, runnable on its own right after a merge.
+printf '=== integrity ===\n'
+sh scripts/check-integrity.sh
+
 # Every browser file must at least parse.
 printf '=== syntax ===\n'
 for f in js/*.js; do
