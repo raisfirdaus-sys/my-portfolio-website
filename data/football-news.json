@@ -1,17 +1,90 @@
 {
-  "generatedAt": 1790373082247,
+  "generatedAt": 1790376038860,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1514,
-    "tagged": 801,
+    "raw": 1502,
+    "tagged": 793,
     "droppedKeyword": 16,
-    "droppedOtherSport": 4,
-    "droppedFeed": 4,
+    "droppedOtherSport": 3,
+    "droppedFeed": 3,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Updates as City found guilty with clubs plotting legal action",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675300.ece/ALTERNATES/s615/0_Manchester-City-v-Bayer-Leverkusen-UEFA-Champions-League-League-Phase-Etihad-Stadium.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules on Friday afternoon, as the club now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790374965000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
+      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790374023000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Van Bommel: &#8216;Belgium 100 per cent happy&#8217; after ending Italy curse",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/van-bommel-belgium-happy-ending-italy-curse/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-behind-414x276.jpg",
+      "summary": "Mark van Bommel was ‘100 per cent happy’ with his Belgium debut, the first time...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790373884000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790373657000
+    },
+    {
+      "competition": "mirror",
+      "title": "Erling Haaland U-turn confirmed immediately after Man City found guilty of 114 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-norway-37704624",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704626.ece/ALTERNATES/s615/0_JS419103363.jpg",
+      "summary": "Erling Haaland was due to speak to the media for Norway this weekend but Manchester City's charges update has reportedly led to a change",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790373403000
+    },
+    {
+      "competition": "bbc",
+      "title": "Rodri believes in Man City's 'innocence'",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgwwze9r28o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6656/live/face4040-b927-11f1-b247-17210618604e.jpg",
+      "summary": "Former Manchester City midfielder Rodri believes the club are innocent of any financial wrongdoing and will trust them unless they are proved otherwise.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790373395000
+    },
     {
       "competition": "fitalia",
       "title": "Montella: &#8216;Turkiye incredible against France, same mentality with Italy&#8217;",
@@ -26,20 +99,8 @@
       "publishedAt": 1790372957000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Updates as City found guilty with clubs plotting legal action",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675300.ece/ALTERNATES/s615/0_Manchester-City-v-Bayer-Leverkusen-UEFA-Champions-League-League-Phase-Etihad-Stadium.jpg",
-      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules on Friday afternoon, as the club now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790372289000
-    },
-    {
       "competition": "guardian",
-      "title": "Nations League: Mbappé limps off after scoring France winner in Turkey",
+      "title": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium",
       "image": "https://i.guim.co.uk/img/media/ae983f77569f1e50e47dead0c246c149483bdbb0/90_0_2938_2351/master/2938.jpg?width=140&quality=85&auto=format&fit=max&s=d4f4d495729eb9b9ce86ea4ef2cc74f5",
@@ -49,18 +110,6 @@
         "france"
       ],
       "publishedAt": 1790372143000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790371909000
     },
     {
       "competition": "fitalia",
@@ -309,18 +358,6 @@
       "publishedAt": 1790366637000
     },
     {
-      "competition": "mirror",
-      "title": "Man Utd news LIVE: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-news-live-jj-37700592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37689106.ece/ALTERNATES/s615/0_JS416259123-1.jpg",
-      "summary": "Manchester United still have more than two weeks to go until they are next back in action against Tottenham with the extended international break in full swing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790366490000
-    },
-    {
       "competition": "men",
       "title": "Man City told why Premier League appeal will fail with 'all hell about to break loose'",
       "publisher": "Manchester Evening News",
@@ -544,6 +581,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Thomas Tuchel questions if Cole Palmer wants to play for England - 'It's hard to argue'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-questions-cole-palmer-37704096",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704102.ece/ALTERNATES/s615/1_Tuchel-Palmer.jpg",
+      "summary": "The Chelsea star has pulled out of the England squad yet again and Thomas Tuchel has made his feelings clear on a player who wasn't taken the World Cup",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790359200000
+    },
+    {
+      "competition": "mirror",
       "title": "Morgan Rogers reveals Declan Rice talks after angry bust-up with Arsenal star",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/morgan-rogers-declan-rice-row-37704155",
@@ -561,18 +610,6 @@
       "link": "https://www.mirror.co.uk/sport/football/news/england-kane-tuchel-spain-wonderwall-37704240",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37704224.ece/ALTERNATES/s615/0_GettyImages-2296440112.jpg",
       "summary": "England take to the pitch for the first time since the World Cup on Saturday evening against Spain and the Three Lions will be hoping to give supporters something to celebrate at Wembley",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790359200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel questions if Cole Palmer wants to play for England - 'It's hard to argue'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-questions-cole-palmer-37704096",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704102.ece/ALTERNATES/s615/1_Tuchel-Palmer.jpg",
-      "summary": "The Chelsea star has pulled out of the England squad yet again and Thomas Tuchel has made his feelings clear on a player who wasn't taken the World Cup",
       "teams": [
         "england"
       ],
@@ -711,43 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790355021000
-    },
-    {
-      "competition": "echo",
-      "title": "Cody Gakpo responds to Liverpool criticism and addresses Man City transfer - 'spot on'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-responds-liverpool-criticism-34647582",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34672562.ece/ALTERNATES/s615/0_GettyImages-2296978070.jpg",
-      "summary": "Liverpool forward Cody Gakpo has been reflecting on the last few months after starring for Netherlands against Germany",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790354598000
-    },
-    {
-      "competition": "mirror",
-      "title": "Mikel Arteta has already given verdict on Man City’s 115 Premier League charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-mikel-arteta-man-city-37704017",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37703985.ece/ALTERNATES/s615/0_GettyImages-2294673847.jpg",
-      "summary": "Manchester City have been found guilty of 114 of the 115 Premier League charges levelled at them and rival boss Mikel Arteta has regularly made his stance very clear",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790354456000
-    },
-    {
-      "competition": "men",
-      "title": "Andy Burnham responds after Manchester City reportedly found guilty of nearly all 115 charges",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/andy-burnham-responds-after-manchester-34674614",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article20661953.ece/ALTERNATES/s615/4_JS235591166jpgrton.jpg",
-      "summary": "The Prime Minister said people should not 'jump to conclusions'",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790354048000
     }
   ]
 }
