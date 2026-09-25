@@ -10955,7 +10955,11 @@
           "vigAtPrediction": null,
           "lineType": "whole",
           "score": "0-1",
+<<<<<<< HEAD
           "score1h": "0-0",
+=======
+          "score1h": null,
+>>>>>>> 0dfeada353f10ec3fbbf286dd7b3360617c37756
           "outcome": "win"
         },
         {
