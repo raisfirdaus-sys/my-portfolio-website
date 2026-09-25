@@ -1,17 +1,91 @@
 {
-  "generatedAt": 1790368146387,
+  "generatedAt": 1790368727806,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 791,
-    "droppedKeyword": 18,
+    "raw": 1512,
+    "tagged": 799,
+    "droppedKeyword": 16,
     "droppedOtherSport": 3,
     "droppedFeed": 3,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Rodri breaks silence over Manchester City guilty verdict",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/25/rodri-breaks-silence-man-city-guilty-verdict-possible-punishment-29654829/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314045184-ca03.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790368449000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City fans face up to reality of guilty verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy7zzdmn4v7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/382f/live/e7b09140-b91b-11f1-9be9-632355708508.jpg",
+      "summary": "How Manchester City fans have reacted to news that the club have been found guilty of a majority of the financial rule breaches they were accused of.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790368240000
+    },
+    {
+      "competition": "guardian",
+      "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
+      "image": "https://i.guim.co.uk/img/media/98859fc1b4580b3ba66e1c0733fe0269a107af78/227_0_3694_2955/master/3694.jpg?width=140&quality=85&auto=format&fit=max&s=567af757776b85519b51867ee897f4ff",
+      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelBefore kick-off in Italy, there is a minute’s applause for Sandro Mazzola, the legendary Inter midfielder who won…",
+      "teams": [
+        "nireland",
+        "belgium",
+        "georgia"
+      ],
+      "publishedAt": 1790368142000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, clubs consider legal action",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
+      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790367920000
+    },
+    {
+      "competition": "men",
+      "title": "Rodri gives instant verdict on Man City guilty ruling and makes 'justice' claim",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/rodri-manchester-city-charges-verdict-34675245",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675247.ece/ALTERNATES/s615/0_Spain-Press-Conference-Wembley-Stadium-Friday-September-25th.jpg",
+      "summary": "Rodri has broken his silence on the verdict of Manchester City's 115 charges, standing by his former club who received a terrible outcome on Friday afternoon",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790367836000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790367810000
+    },
     {
       "competition": "mirror",
       "title": "Prime Minister Andy Burnham sends warning over Man City 'guilty' verdict",
@@ -49,32 +123,6 @@
       "publishedAt": 1790367233000
     },
     {
-      "competition": "guardian",
-      "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
-      "image": "https://i.guim.co.uk/img/media/98859fc1b4580b3ba66e1c0733fe0269a107af78/227_0_3694_2955/master/3694.jpg?width=140&quality=85&auto=format&fit=max&s=567af757776b85519b51867ee897f4ff",
-      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelBefore kick-off in Italy, there is a minute’s applause for Sandro Mazzola, the legendary Inter midfielder who won…",
-      "teams": [
-        "nireland",
-        "belgium",
-        "georgia"
-      ],
-      "publishedAt": 1790367104000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790367005000
-    },
-    {
       "competition": "tele",
       "title": "Manchester City found guilty of 114 charges",
       "publisher": "The Telegraph",
@@ -109,18 +157,6 @@
         "mancity"
       ],
       "publishedAt": 1790366346000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, clubs consider legal action",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
-      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790365957000
     },
     {
       "competition": "bbc",
@@ -710,44 +746,6 @@
         "mancity"
       ],
       "publishedAt": 1790351740000
-    },
-    {
-      "competition": "men",
-      "title": "Liam Gallagher's sweary response to Man City guilty verdict reports",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/liam-gallaghers-sweary-response-man-34674335",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34665292.ece/ALTERNATES/s615/0_V-Festival.jpg",
-      "summary": "The Oasis frontman took to X to voice his feelings",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790351649000
-    },
-    {
-      "competition": "bbc",
-      "title": "Palmer misses too many opportunities to play for England - Tuchel",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm9dww15527lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cad/live/f8913870-b8ee-11f1-a698-ff5dd8cb1a06.jpg",
-      "summary": "Thomas Tuchel has said that Cole Palmer \"misses too many opportunities\" to play for England after the Chelsea forward pulled out of the latest squad.",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790351643000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Milan’s De Winter among five Belgium players dropped for Italy clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/de-winter-dropped-for-italy-vs-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mark-Van-Bommel-hmm.jpg",
-      "summary": "Milan centre-back Koni De Winter is one of the five Belgium players who will not...",
-      "teams": [
-        "belgium",
-        "acmilan",
-        "italy"
-      ],
-      "publishedAt": 1790351459000
     }
   ]
 }
