@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790296096189,
+  "generatedAt": 1790298478004,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1519,
-    "tagged": 746,
+    "raw": 1525,
+    "tagged": 755,
     "droppedKeyword": 27,
     "droppedOtherSport": 2,
     "droppedFeed": 8,
     "blocklistDistrusted": false,
-    "withImage": 59
+    "withImage": 58
   },
   "items": [
     {
@@ -653,6 +653,17 @@
       "publishedAt": 1790269225000
     },
     {
+      "competition": "unl-a",
+      "title": "Turkiye vs. France—Nations League: Preview, Predictions and Lineups",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVhOLVFTTGl3bEhHREZ2cGd2bkhBeDZoZEl0bGFFUU9taXFZUXBCU0lBX2ZZNUhEckJOMjgyakVlTTNzUXBHSHRvYk1IUE1xV0Z6UkVyV04xaWVNTE5VMjl3VVlqVlZhY2UwTzV3TnRQWXJrYUQ4OUw0ZXlrQ3Rka2FodVBNdkNfSFdVb2VWQTZoS29lNjJab3VwM25zZnM?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790298000000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "Scott McTominay makes Napoli return just two weeks after undergoing heart surgery",
       "publisher": "Mirror Football",
@@ -752,18 +763,6 @@
         "wales"
       ],
       "publishedAt": 1790267100000
-    },
-    {
-      "competition": "indy",
-      "title": "Virgil van Dijk hits back at ‘nonsense’ claims that he influenced Netherlands’ World Cup tactics",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/virgil-van-dijk-koeman-netherlands-world-cup-tactics-b3055259.html",
-      "image": "https://static.independent.co.uk/2026/09/23/17/2283971940..?width=1200&auto=webp&trim=0%2C71%2C0%2C71",
-      "summary": "The Netherlands were knocked out by Morocco in the round of 32 following a penalty shootout defeat",
-      "teams": [
-        "netherlands"
-      ],
-      "publishedAt": 1790266917000
     }
   ]
 }
