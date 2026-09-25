@@ -10676,9 +10676,9 @@
           "cleanWinAtPrediction": 0.5779,
           "vigAtPrediction": 0.1048,
           "lineType": "half",
-          "score": null,
+          "score": "0-1",
           "score1h": null,
-          "outcome": null
+          "outcome": "win"
         },
         {
           "match": "Czechia vs Croatia",
@@ -10744,9 +10744,9 @@
           "cleanWinAtPrediction": 0.548,
           "vigAtPrediction": 0.0897,
           "lineType": "half",
-          "score": null,
-          "score1h": null,
-          "outcome": null
+          "score": "2-1",
+          "score1h": "2-1",
+          "outcome": "lose"
         },
         {
           "match": "Italy vs Belgium",
@@ -10761,9 +10761,9 @@
           "cleanWinAtPrediction": 0.5625,
           "vigAtPrediction": 0.0996,
           "lineType": "half",
-          "score": null,
+          "score": "0-2",
           "score1h": null,
-          "outcome": null
+          "outcome": "win"
         },
         {
           "match": "San Marino vs Finland",
@@ -10912,6 +10912,102 @@
           "score": "0-2",
           "score1h": null,
           "outcome": "lose"
+        }
+      ]
+    },
+    {
+      "id": "unl-live-20260926",
+      "label": "Nations League 26/09, 5 legs as placed - LOST (3 won, 1 half lost, 1 lost)",
+      "date": "2026-09-26",
+      "stake": 100000,
+      "printedOdds": 8.47,
+      "status": "settled",
+      "note": "Poland was the board's cheapest leg, taken against the reader's own doubt about an ageing side. Without it the other four paid 1.68x.",
+      "legs": [
+        {
+          "match": "Italy vs Belgium",
+          "fixtureId": "ita-bel",
+          "pick": "Belgium +0.75",
+          "kind": "ah",
+          "line": -0.75,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.52,
+          "pModelAtPrediction": 0.63,
+          "cleanWinAtPrediction": 0.563,
+          "vigAtPrediction": null,
+          "lineType": "quarter",
+          "score": "0-2",
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Turkey vs France",
+          "fixtureId": "tur-fra",
+          "pick": "Turkey +2.00",
+          "kind": "ah",
+          "line": 2,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.52,
+          "pModelAtPrediction": 0.72,
+          "cleanWinAtPrediction": 0.581,
+          "vigAtPrediction": null,
+          "lineType": "whole",
+          "score": "0-1",
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Hungary vs Ukraine",
+          "fixtureId": "hun-ukr",
+          "pick": "Ukraine +0.50",
+          "kind": "ah",
+          "line": -0.5,
+          "side": "away",
+          "half": "ft",
+          "odds": 1.45,
+          "pModelAtPrediction": 0.578,
+          "cleanWinAtPrediction": 0.578,
+          "vigAtPrediction": 0.1048,
+          "lineType": "half",
+          "score": "0-1",
+          "score1h": null,
+          "outcome": "win"
+        },
+        {
+          "match": "Poland vs Bosnia and Herzegovina",
+          "fixtureId": "pol-bih",
+          "pick": "Poland -0.75",
+          "kind": "ah",
+          "line": -0.75,
+          "side": "home",
+          "half": "ft",
+          "odds": 1.57,
+          "pModelAtPrediction": 0.516,
+          "cleanWinAtPrediction": 0.339,
+          "vigAtPrediction": 0.0923,
+          "lineType": "quarter",
+          "score": "0-0",
+          "score1h": null,
+          "outcome": "lose"
+        },
+        {
+          "match": "Sweden vs Romania",
+          "fixtureId": "swe-rou",
+          "pick": "HT Romania +0.75",
+          "kind": "ah",
+          "line": -0.75,
+          "side": "away",
+          "half": "1h",
+          "odds": 1.61,
+          "pModelAtPrediction": 0.637,
+          "cleanWinAtPrediction": 0.548,
+          "vigAtPrediction": null,
+          "lineType": "quarter",
+          "score": "2-1",
+          "score1h": "2-1",
+          "outcome": "halfLose"
         }
       ]
     }
