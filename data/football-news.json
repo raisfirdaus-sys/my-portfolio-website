@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790361194482,
+  "generatedAt": 1790361639966,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 765,
-    "droppedKeyword": 18,
+    "raw": 1508,
+    "tagged": 768,
+    "droppedKeyword": 17,
     "droppedOtherSport": 3,
-    "droppedFeed": 5,
+    "droppedFeed": 4,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, Andy Burnham reaction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
+      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790361203000
+    },
     {
       "competition": "indy",
       "title": "Man City charges verdict – live: Bombshell decision set to be announced over Premier League charges",
@@ -23,6 +35,20 @@
         "mancity"
       ],
       "publishedAt": 1790361070000
+    },
+    {
+      "competition": "guardian",
+      "title": "Turkey v France, Italy v Belgium, Northern Ireland win in Georgia: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
+      "image": "https://i.guim.co.uk/img/media/769a4f6e129045139af727424a577fabd88c7c37/354_0_3425_2741/master/3425.jpg?width=140&quality=85&auto=format&fit=max&s=056b0409238629f4f7ab4bcad7d55f8b",
+      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelItaly 4-3-3: Donnarumma; Di Lorenzo, Mancini, Coppola, Calafiori; Barella, Romano, Tonali; Cambiaghi, Esposito,…",
+      "teams": [
+        "nireland",
+        "belgium",
+        "georgia"
+      ],
+      "publishedAt": 1790360994000
     },
     {
       "competition": "fitalia",
@@ -60,18 +86,6 @@
         "sunderland"
       ],
       "publishedAt": 1790360688000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Guilty verdict, punishment pending, Andy Burnham reaction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674932.ece/ALTERNATES/s615/0_GettyImages-2295719409.jpg",
-      "summary": "Manchester City and the Premier League have been locked in a long-running saga after the Blues were hit with 115 charges of alleged financial breaches.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790360628000
     },
     {
       "competition": "men",
@@ -121,20 +135,6 @@
         "mancity"
       ],
       "publishedAt": 1790359811000
-    },
-    {
-      "competition": "guardian",
-      "title": "Turkey v France, Italy v Belgium, and more: Nations League clockwatch – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/25/turkey-v-france-italy-v-belgium-and-more-nations-league-clockwatch-live",
-      "image": "https://i.guim.co.uk/img/media/64fd920e9eee25e53c393198d3423d8e8f52f7b9/349_0_6292_5036/master/6292.jpg?width=140&quality=85&auto=format&fit=max&s=d5c971dc2738b347069b933d11bd4efb",
-      "summary": "⚽ Updates from Friday evening’s Nations League games⚽ Live scoreboard | Read Football Daily | Mail MichaelLet’s unpack those teams a little. Turkey are missing one of their star players, Kenan Yildiz, who is sidelined…",
-      "teams": [
-        "belgium",
-        "turkey",
-        "france"
-      ],
-      "publishedAt": 1790359801000
     },
     {
       "competition": "men",
