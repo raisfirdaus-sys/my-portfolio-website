@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790462672382,
+  "generatedAt": 1790463793352,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1497,
-    "tagged": 798,
+    "raw": 1499,
+    "tagged": 801,
     "droppedKeyword": 31,
     "droppedOtherSport": 3,
     "droppedFeed": 6,
@@ -12,6 +12,18 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "bbc",
+      "title": "Tuchel rues 'big mistakes' - did Man City charges have impact?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6j4jjg5qxero?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa6f/live/5443ae40-b9ef-11f1-a0fd-ebb3d362e109.jpg",
+      "summary": "England's loss to Spain was decided by uncharacteristic mistakes, with two Man City players making errors - so did club news affect performances for country?",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790462830000
+    },
     {
       "competition": "bbc",
       "title": "England embrace the chaos - but control also needed to win big prizes",
@@ -324,6 +336,19 @@
         "mancity"
       ],
       "publishedAt": 1790453727000
+    },
+    {
+      "competition": "bbc",
+      "title": "Republic of Ireland to wear black armbands for Israel game",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b748/live/e2ec7610-b9b6-11f1-929f-f1f9c2e672cb.jpg",
+      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790452740000
     },
     {
       "competition": "echo",
@@ -732,32 +757,6 @@
         "mancity"
       ],
       "publishedAt": 1790436004000
-    },
-    {
-      "competition": "bbc",
-      "title": "Scotland rue missed chances in Slovenia draw",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6y9zzy79ewyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9ac/live/16316750-b9bd-11f1-b1d1-571ed4d7ff2c.jpg",
-      "summary": "Sebastien Pocognoli's first match in charge of Scotland ends in a goalless draw against Slovenia as they are made to rue several missed chances in Ljubljana.",
-      "teams": [
-        "slovenia",
-        "scotland"
-      ],
-      "publishedAt": 1790435979000
-    },
-    {
-      "competition": "guardian",
-      "title": "Pocognoli’s reign as Scotland coach begins with stalemate in Slovenia",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/slovenia-scotland-nations-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/0425ae02bfc3b64b959e7f51e550069425888458/500_0_2527_2022/master/2527.jpg?width=140&quality=85&auto=format&fit=max&s=d1a9e6689ec40b72328b10dc32bd4044",
-      "summary": "Sébastien Pocognoli grimaced on Friday when recalling his debut as an international player for Belgium. Alessandro del Piero and Italy discovered favourable opposition when preparing for the 2006 World Cup. Pocognoli…",
-      "teams": [
-        "slovenia",
-        "scotland"
-      ],
-      "publishedAt": 1790435941000
     }
   ]
 }
