@@ -1,17 +1,105 @@
 {
-  "generatedAt": 1790441108589,
+  "generatedAt": 1790443157965,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 589,
-    "tagged": 375,
-    "droppedKeyword": 8,
+    "raw": 1496,
+    "tagged": 803,
+    "droppedKeyword": 28,
     "droppedOtherSport": 3,
-    "droppedFeed": 0,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "bbc",
+      "title": "Gilmour catalyst, impressive Welsh, but same issue for Scotland?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqevwwnw10w9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/802e/live/6e2e6fc0-b9cc-11f1-a430-4d16ee157c41.jpg",
+      "summary": "BBC Sport Scotland picks out what we learned from Sebastien Pocognoli's first game in charge as Scotland drew with Slovenia.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790442353000
+    },
+    {
+      "competition": "metro",
+      "title": "Manchester United given Bruno Fernandes injury concern by Portugal head coach Jorge Jesus",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/26/man-utd-given-bruno-fernandes-injury-concern-portugal-head-coach-jorge-jesus-29655996/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313934779-7d9d.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd",
+        "portugal"
+      ],
+      "publishedAt": 1790442238000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mbappé injury rules him out of France vs. Italy and maybe Roma vs. Real Madrid",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mbappe-injury-france-italy-roma-vs-real-madrid/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Kylian-Mbappe-414x276.jpg",
+      "summary": "It is now confirmed that Kylian Mbappé will miss the Nations League match against Italy...",
+      "teams": [
+        "realmadrid",
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790442184000
+    },
+    {
+      "competition": "mirror",
+      "title": "Erling Haaland update as Norway boss explains Nations League U-turn after 115 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-charges-37705865",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37705864.ece/ALTERNATES/s615/0_Norway-v-Denmark-UEFA-Nations-League-202627-Group-A4-MD1.jpg",
+      "summary": "Erling Haaland is currently on international duty with Norway, learning the outcome of Manchester City's 115 Premier League charges away from his club team-mates",
+      "teams": [
+        "norway"
+      ],
+      "publishedAt": 1790441967000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790441862000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790441691000
+    },
+    {
+      "competition": "mirror",
+      "title": "Jose Mourinho's dig at Pep Guardiola on Man City charges with Man Utd bonus claim",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jose-mourinho-guardiola-man-city-37705767",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705793.ece/ALTERNATES/s615/0_Atletico-De-Madrid-V-Real-Madrid-Cf-Laliga-Ea-Sports.jpg",
+      "summary": "Jose Mourinho's dig at Pep Guardiola is revisited after a panel found Manchester City breached Premier League rules 114 times, following the original 115 charges",
+      "teams": [
+        "mancity",
+        "manutd"
+      ],
+      "publishedAt": 1790441203000
+    },
     {
       "competition": "indy",
       "title": "England vs Spain LIVE: Three Lions host world champions at Wembley for Nations League clash",
@@ -23,7 +111,7 @@
         "england",
         "spain"
       ],
-      "publishedAt": 1790440286000
+      "publishedAt": 1790441041000
     },
     {
       "competition": "echo",
@@ -60,30 +148,6 @@
         "liverpool"
       ],
       "publishedAt": 1790439731000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790439615000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790439391000
     },
     {
       "competition": "fitalia",
@@ -322,19 +386,6 @@
         "mancity"
       ],
       "publishedAt": 1790434800000
-    },
-    {
-      "competition": "bbc",
-      "title": "Republic of Ireland to wear black armbands for Israel game",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b748/live/e2ec7610-b9b6-11f1-929f-f1f9c2e672cb.jpg",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for Sunday's Nations League game against Israel in Hungary, after confirming they will go ahead with…",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790434724000
     },
     {
       "competition": "men",
@@ -578,19 +629,6 @@
       "publishedAt": 1790431112000
     },
     {
-      "competition": "echo",
-      "title": "Andoni Iraola 'really impressive gesture' hailed as Liverpool set for huge Everton clash",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-really-impressive-gesture-34676531",
-      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article34623814.ece/ALTERNATES/s615/1_Liverpool-v-Fulham-Premier-League-202627.jpg",
-      "summary": "Andoni Iraola will be in attendance as Liverpool Women face Everton Women in Sunday's Women's Super League Merseyside derby at Anfield",
-      "teams": [
-        "liverpool",
-        "everton"
-      ],
-      "publishedAt": 1790431029000
-    },
-    {
       "competition": "bbc",
       "title": "'Significant majority' of Republic of Ireland players voted to play Israel game",
       "publisher": "BBC Sport",
@@ -714,42 +752,6 @@
         "mancity"
       ],
       "publishedAt": 1790427276000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League sent demand over Man City 115 charges appeal as punishment verdict given",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-relegation-appeal-37705353",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705433.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City are at the centre of a huge storm after being found guilty of breaching Premier League financial rules 114 times, which they will appeal",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790426874000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus plotting Douglas Luiz contract extension after promising 2026-27 return",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-plotting-douglas-luiz-new-contract/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Douglas-Luiz-1.jpg",
-      "summary": "Reports in Italy claim that Juventus are planning on offering Douglas Luiz a new contract...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790425567000
-    },
-    {
-      "competition": "men",
-      "title": "Man City's 'most likely punishment' as football finance expert suggests points deduction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-points-deduction-fine-34676168",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34676153.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City have been rocked after being found guilty of 114 charges levelled at them by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790424841000
     }
   ]
 }
