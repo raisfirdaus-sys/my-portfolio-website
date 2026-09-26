@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790387852925,
+  "generatedAt": 1790391009639,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 597,
-    "tagged": 367,
-    "droppedKeyword": 3,
-    "droppedOtherSport": 1,
-    "droppedFeed": 0,
+    "raw": 1495,
+    "tagged": 773,
+    "droppedKeyword": 16,
+    "droppedOtherSport": 2,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 56
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Updates as City found guilty with clubs plotting legal action",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675300.ece/ALTERNATES/s615/0_Manchester-City-v-Bayer-Leverkusen-UEFA-Champions-League-League-Phase-Etihad-Stadium.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules on Friday afternoon, as the club now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790388550000
+    },
     {
       "competition": "echo",
       "title": "Jamie Carragher makes Ibrahima Konate transfer claim and explains Liverpool 'freak'",
@@ -37,18 +49,6 @@
       "publishedAt": 1790376167000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Updates as City found guilty with clubs plotting legal action",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675300.ece/ALTERNATES/s615/0_Manchester-City-v-Bayer-Leverkusen-UEFA-Champions-League-League-Phase-Etihad-Stadium.jpg",
-      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules on Friday afternoon, as the club now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790374965000
-    },
-    {
       "competition": "mirror",
       "title": "Man Utd news: JJ Gabriel transfer update, Glazers stake decision, INEOS boycott plan latest",
       "publisher": "Mirror Football",
@@ -59,19 +59,6 @@
         "manutd"
       ],
       "publishedAt": 1790374023000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Van Bommel: &#8216;Belgium 100 per cent happy&#8217; after ending Italy curse",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/van-bommel-belgium-happy-ending-italy-curse/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-behind-414x276.jpg",
-      "summary": "Mark van Bommel was ‘100 per cent happy’ with his Belgium debut, the first time...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790373884000
     },
     {
       "competition": "mirror",
@@ -110,19 +97,6 @@
       "publishedAt": 1790373395000
     },
     {
-      "competition": "fitalia",
-      "title": "Montella: &#8216;Turkiye incredible against France, same mentality with Italy&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/montella-turkiye-incredible-france-same-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Vincenzo-Montella-presser-414x278.jpg",
-      "summary": "Vincenzo Montella saw an ‘incredible performance’ from Turkiye in the 1-0 defeat to France, and...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790372957000
-    },
-    {
       "competition": "guardian",
       "title": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
       "publisher": "The Guardian",
@@ -134,19 +108,6 @@
         "france"
       ],
       "publishedAt": 1790372143000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Di Lorenzo: &#8216;Tearing Italy apart is not helpful&#8217; after 2-0 defeat to Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/di-lorenzo-tearing-italy-apart-is-not-helpful/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-vs.-Belgium-414x276.jpg",
-      "summary": "Giovanni Di Lorenzo insists fans and media need to have patience with Italy after a...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790371739000
     },
     {
       "competition": "indy",
@@ -173,18 +134,6 @@
       "publishedAt": 1790371515000
     },
     {
-      "competition": "fitalia",
-      "title": "Cambiaghi: &#8216;Italy struggled, but will see a better performance in Turkiye&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/cambiaghi-italy-struggled-see-better-turkiye/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-Belgium-minutes-silence-414x276.jpg",
-      "summary": "Nicolò Cambiaghi admits Italy ‘really struggled in the first half’ against Belgium, but remains confident...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790370685000
-    },
-    {
       "competition": "indy",
       "title": "Rodri responds to Man City charges: ‘Everything was deserved’",
       "publisher": "The Independent",
@@ -195,45 +144,6 @@
         "mancity"
       ],
       "publishedAt": 1790370619000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Football Italia LIVE Show: Italy 0-2 Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/football-italia-live-show-italy-0-2-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Riccardo-Calafiori-Italy-Belgium-414x276.jpg",
-      "summary": "Join Lorenzo Bettoni from the Stadio Olimpico and Giancarlo Rinaldi as they examine Italy s 2-0...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790370542000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Calafiori: &#8216;Saw a good Italy side in fits and starts&#8217; during 2-0 loss to Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/calafiori-saw-a-good-italy-side-in-fits-starts/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-XI-Belgium-414x273.jpg",
-      "summary": "Riccardo Calafiori insists Italy ‘must try to look at the positive aspects’ after their 2-0...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790369873000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Italy first half below expectations, but better than Belgium in second&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-half-below-expectations-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13-414x276.jpg",
-      "summary": "Roberto Mancini admits the first half was ‘below expectations,’ but insists Italy ‘did really well’...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790369503000
     },
     {
       "competition": "bbc",
@@ -272,19 +182,6 @@
         "georgia"
       ],
       "publishedAt": 1790369198000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Italy 0-2 Belgium: Mancini return begins with disaster",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-0-2-belgium-mancini-return-disaster/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-Belgium-minutes-silence-414x276.jpg",
-      "summary": "Roberto Mancini’s second Italy era started with a disastrous 2-0 home defeat to Belgium, with...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790368749000
     },
     {
       "competition": "mirror",
@@ -518,19 +415,6 @@
       "publishedAt": 1790361418000
     },
     {
-      "competition": "fitalia",
-      "title": "Van Bommel: &#8216;De Ketelaere is a complete player&#8217; for Italy vs. Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/van-bommel-de-ketelaere-italy-belgium-complete/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-training-session-414x276.jpg",
-      "summary": "Belgium coach Mark van Bommel explains why has decided to start Atalanta’s Charles De Ketelaere...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790360961000
-    },
-    {
       "competition": "indy",
       "title": "The Man City verdict is an earthquake – what comes next could be even bigger",
       "publisher": "The Independent",
@@ -565,18 +449,6 @@
         "mancity"
       ],
       "publishedAt": 1790360490000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Italy won EURO 2020 with entertaining football, we can do it again&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-won-euro-2020-can-do-it-again/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
-      "summary": "Roberto Mancini notes Italy won EURO 2020 with entertaining and attacking football, so ‘we can...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790360049000
     },
     {
       "competition": "echo",
@@ -627,6 +499,18 @@
         "spain"
       ],
       "publishedAt": 1790359213000
+    },
+    {
+      "competition": "unl-a",
+      "title": "England vs. Spain—Nations League: Preview, Predictions and Lineups",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWNlVHNwS3BzQVJhUEpFRDhZZlJpeXlsRExzNkY4Q0FmenltRHpha0JuWi0tNXFIajVhYTdzbEhCY3BYa0Y5N0J1QU02RFJFdDJuUFN1YWhaMlZpZDFlNVZ1YndEbUZtaG84WVRHanBIQklPUFVFd095NFpIYlRIQ1AyS0cwclczQzFuVW41aUhkM0NkbUlCWg?oc=5",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790388000000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -701,29 +585,15 @@
       "publishedAt": 1790358047000
     },
     {
-      "competition": "fitalia",
-      "title": "Nations League official line-ups: Italy vs. Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/nations-league-official-line-up-italy-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training-414x285.jpg",
-      "summary": "Italy start Francesco Pio Esposito, Moise Kean, Alessandro Romano and Sandro Tonali in Roberto Mancini’s...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790357708000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini contract among 115 Manchester City charges in financial scandal",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-115-manchester-city-charges-scandal/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Manchester-City-oh-dear-414x278.jpg",
-      "summary": "New Italy coach Roberto Mancini is embroiled in the Manchester City scandal, as alleged off-book...",
+      "competition": "epl",
+      "title": "Manchester City v Premier League: how the legal teams lined up",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONjVTQVV1Nk10aVRudlV2OHdXM3c2LXdEaEFwMDA4VDR1UDBxclZBQjl1bEtSSWhzS2VmWVpxMzRRN1BjQlFobFUzdGJTdVd3NUtFYjZzd0stbHFYT01sc2d4Nmh1d3lhS0lpa0hhLVoxU2JFVVVPeDNKVUJhMEJuU0wtLUtvbUNqbkx6UjlnWGk2YVRPMjZCcmtkNUpxVFVNQlFidFptb0c1WXk1VmZZ?oc=5",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790357098000
+      "publishedAt": 1790386200000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -748,6 +618,126 @@
         "mancity"
       ],
       "publishedAt": 1790356074000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges timeline as damning Premier League guilty verdict reached",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-timeline-appeal-37704056",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704095.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "A look back on Manchester City's battle with the authorities after the club was found guilty of all but one of the Premier League's charges against them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790356010000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd star handed late international call-up after 'unfortunate' injury blow",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-joshua-zirkzee-netherlands-37704106",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37704105.ece/ALTERNATES/s615/1_Manchester-United-v-Sabah-FC-UEFA-Champions-League-202627-League-Phase-MD1.jpg",
+      "summary": "A Manchester United star has been called up for the Nations League as a result of an international team-mate sustaining an injury",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790355733000
+    },
+    {
+      "competition": "guardian",
+      "title": "Israel’s match with Republic of Ireland will be an eerie occasion as political debate rages on",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/25/republic-of-ireland-israel-nations-league-serbia",
+      "image": "https://i.guim.co.uk/img/media/b18348648ad087fce0db939c1637f24d41a6f8e2/964_329_2481_1984/master/2481.jpg?width=140&quality=85&auto=format&fit=max&s=31b680c611f24b97a55fa3d33a0ef5a3",
+      "summary": "Despite fierce opposition to the Nations League encounters across Irish society, a boycott has not materialised The match is being played in a neutral country and the stands are likely to be empty but Sunday’s Nations…",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790355607000
+    },
+    {
+      "competition": "epl",
+      "title": "Man City ‘found guilty of almost all Premier League charges’ in bombshell verdict",
+      "publisher": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONVVxXzF2OHBXYUozamRuWTBaLVY4Ymw3VXdfSlV2RE9UTlQ0ZFdVMFdTZ1ZwRnRFSFFDdU14VXZjaENVMFpUc0dpMDg1WXlrNU9hNHcxcHJ2cXRId1drWEszTzY4QzNiRVNHWXdQNGZBMUdyZjJUQkstMFRrZTdZZURmY1BuQ0E0R3dNRGR3bmJWVGttanVXTTFlSlhvdnExUHlIR19kaG9QYlpqalRiLQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790384400000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "Ferran Torres names Bayern Munich as contender to win the Champions League",
+      "publisher": "bavarianfootballworks.com",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPNkZvU3U3MFBCYXFLRDhjMjdaVXRrTnlIcm5hSklYVWV4LUhYOElxNldWMnBteFRNdl9CdEFvVUJmdFdHaEdBRlRYT2lrcmFkcFhZQWJGdHk0T3F1UFRLLTZ2NmViMUVjWnhqcGxoUUhzaklZWnMtWWNXREJnQ203VDdNZHZkMzBUV0R6S3UyNHBqNFdzWS11RFpxdVAwTFRqRW1kZlFEdUpZMlhGRjZDSTV2RzdwX0pfbkt2SUhoOFRrN0FoSnR6bzdJcGVEcUJ6b1RrWUJ6bHEybkU5LWFrMElIdUxucTA1NmpiZlE5WFFISjBjZFhoSk9ESTlfWGtybFA2VUhyS0lCNWNseWVfMW9KcXVNS2VYdS05aVZTZzFkRHVyQWc?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790384400000,
+      "image": null
+    },
+    {
+      "competition": "men",
+      "title": "Enzo Maresca shares cryptic message moments before Man City 115 charges verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/enzo-maresca-manchester-city-charges-34674658",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34674657.ece/ALTERNATES/s615/0_Manchester-United-v-Manchester-City-Premier-League-202627.jpg",
+      "summary": "Enzo Maresca has been with Manchester City for a matter of months after succeeding Pep Guardiola, but has some potentially treacherous waters to navigate",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790355021000
+    },
+    {
+      "competition": "echo",
+      "title": "Cody Gakpo responds to Liverpool criticism and addresses Man City transfer - 'spot on'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-responds-liverpool-criticism-34647582",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34672562.ece/ALTERNATES/s615/0_GettyImages-2296978070.jpg",
+      "summary": "Liverpool forward Cody Gakpo has been reflecting on the last few months after starring for Netherlands against Germany",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790354598000
+    },
+    {
+      "competition": "mirror",
+      "title": "Mikel Arteta has already given verdict on Man City’s 115 Premier League charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-mikel-arteta-man-city-37704017",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37703985.ece/ALTERNATES/s615/0_GettyImages-2294673847.jpg",
+      "summary": "Manchester City have been found guilty of 114 of the 115 Premier League charges levelled at them and rival boss Mikel Arteta has regularly made his stance very clear",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790354456000
+    },
+    {
+      "competition": "men",
+      "title": "Andy Burnham responds after Manchester City reportedly found guilty of nearly all 115 charges",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/andy-burnham-responds-after-manchester-34674614",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article20661953.ece/ALTERNATES/s615/4_JS235591166jpgrton.jpg",
+      "summary": "The Prime Minister said people should not 'jump to conclusions'",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790354048000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City trophies will always come with an asterisk - but real punishment still some way off",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-guilty-37703979",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37703678.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City will appeal after being found guilty of all but one of the 115 charges put against them but it is unlikely we will discover their punishment for some time",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790353830000
     }
   ]
 }
