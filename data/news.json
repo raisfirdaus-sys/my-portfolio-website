@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-26T01:56:59.164Z",
+  "updatedAt": "2026-09-26T07:36:08.724Z",
   "items": [
+    {
+      "ticker": "JNJ",
+      "title": "What Does Johnson & Johnson (JNJ) New Clinical Data Mean For Its Stock?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/healthcare/articles/does-johnson-johnson-jnj-clinical-061047114.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/26bc613f849c30c3b3e62237f0c83012.jpg",
+      "publishedAt": 1790403047000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa (V): Is Its Economic Moat Strong Enough to Last?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-economic-moat-strong-042256952.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/7db6ce89b69245edea63fad8430aaf79.jpg",
+      "publishedAt": 1790396576000
+    },
+    {
+      "ticker": "MA",
+      "title": "Mastercard (MA) Rolls Out SoFiUSD Settlement, Is The 24% Undervalued View Still Compelling?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-rolls-sofiusd-settlement-041523731.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/2812f5a1ac00d6190c7ae7ee28a57bfd.jpg",
+      "publishedAt": 1790396123000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Fidelity’s Fundamental Large Cap Growth ETF, Explained in Plain English",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/fidelity-fundamental-large-cap-growth-034650447.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/2735f2220d54d5fc5123c2555af0ab20.jpg",
+      "publishedAt": 1790394410000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Why Palantir (PLTR) Is Up 6.8% After Expanding AIP Deals And Announcing Nebius AI Partnership",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-palantir-pltr-6-8-031727990.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/43e1667cb7476cb45f84db58a8de8d48.jpg",
+      "publishedAt": 1790392647000
+    },
+    {
+      "ticker": "V",
+      "title": "Visa (V) Pushes Further Into Corporate Cross Border Payments",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/visa-v-pushes-further-corporate-031642323.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/536b2c9c60d99497e560934f2ca8a9d6.jpg",
+      "publishedAt": 1790392602000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Why Is Datadog (DDOG) Stock Rocketing Higher Today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-datadog-ddog-stock-rocketing-031237536.html",
+      "image": "https://media.zenfs.com/en/stockstory_922/bd1313f1c49ebe10dc63cd81aa5ab5c2.jpg",
+      "publishedAt": 1790392357000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Microsoft Stock Is Up Today",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-stock-today-023459367.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/314d9950c62a628d71625df0264aa5f3.jpg",
+      "publishedAt": 1790390099000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google Moves Up its Space Data Center Timeline — Project Suncatcher Launches Oct. 1",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-moves-space-data-center-023007693.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/b1235cf4a6547fd8c4093b0460047ea3.jpg",
+      "publishedAt": 1790389807000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca-Cola Hasn't Sold Much More Soda in a Decade. Its Dividend Has Gone Up Every Year Anyway.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-hasnt-sold-much-021201073.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/7a09e1014ecf4831a388eef18488e46b.png",
+      "publishedAt": 1790388721000
+    },
     {
       "ticker": "GOOGL",
       "title": "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?",
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-johnson-johnson-healthcare-231601424.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/a6005da75497ce68031f2b5b4889e83c.png",
       "publishedAt": 1790378161000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Azure’s Inflection Point: Can Microsoft (MSFT) Balance AI Growth With Capex Risk?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/azure-inflection-point-microsoft-msft-231347500.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/33766453a30362b53d11e3b9f7ef3b7c.jpg",
-      "publishedAt": 1790378027000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "What Is Microsoft (MSFT) Planning With Its $10 Billion Gulf Cloud And AI Push?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-planning-10-billion-230941852.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/2fb89ed01f3911d46e18d848163ce4ef.jpg",
-      "publishedAt": 1790377781000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Market Chatter: US Appeals Court Upholds Pentagon's Anthropic Ban",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-us-appeals-court-225859266.html",
-      "image": null,
-      "publishedAt": 1790377139000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Commercial AI Momentum Meets Valuation Risk: What Comes Next for Palantir (PLTR)?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/commercial-ai-momentum-meets-valuation-225152271.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/69d34e683193aa560bb250cbd495f8bc.jpg",
-      "publishedAt": 1790376712000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "S&P 500, Dow, Nasdaq End Week Higher On Chipmaker Strength, Easing Oil Amid Signs Of Easing US-Iran Conflict — META, COST, MSFT, CRWD, SKHY In Focus",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-end-225148025.html",
-      "image": "https://media.zenfs.com/en/stocktwits_383/c1eb087110838621abb3d35d3389db73",
-      "publishedAt": 1790376708000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Interrupted authority and written vetting rules at center of New Mexico crash lawsuit",
-      "publisher": "FreightWaves",
-      "link": "https://finance.yahoo.com/small-business/articles/interrupted-authority-written-vetting-rules-220615847.html",
-      "image": "https://media.zenfs.com/en/freightwaves_373/3600222ebb58d9559bbd073279ad3c46.jpg",
-      "publishedAt": 1790373975000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Stock Market Today, Sept. 25: Microsoft Stock Jumps 4% After Revamping Copilot With Code Generation and Agentic AI Tools",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-214549821.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/c725e380a362ed46d20e0a5dd798ee91.png",
-      "publishedAt": 1790372749000
-    },
-    {
-      "ticker": "V",
-      "title": "Bank of America Says Stocks Are Overdue for a Pullback. These 2 Financial Stocks Are Built for One.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-stocks-overdue-213500183.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/7786edc61ece655a2ff2a4a5964841ce.jpg",
-      "publishedAt": 1790372100000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie vs. Pfizer: Which Healthcare Stock Makes Your Portfolio Healthier in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-pfizer-healthcare-stock-212201989.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/c8a12b310311b5cefb46ed67e02c2172.png",
-      "publishedAt": 1790371321000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Co-Founder and FTC Chairman Put AI Accountability in Focus at Reuters Momentum AI Austin 2026",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-co-founder-ftc-chairman-210600690.html",
-      "image": null,
-      "publishedAt": 1790370360000
     }
   ]
 }
