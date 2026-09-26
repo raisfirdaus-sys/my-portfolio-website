@@ -1,17 +1,128 @@
 {
-  "generatedAt": 1790438214494,
+  "generatedAt": 1790441108589,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1497,
-    "tagged": 804,
-    "droppedKeyword": 27,
-    "droppedOtherSport": 4,
-    "droppedFeed": 8,
+    "raw": 589,
+    "tagged": 375,
+    "droppedKeyword": 8,
+    "droppedOtherSport": 3,
+    "droppedFeed": 0,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Three Lions host world champions at Wembley for Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/13/2297142974..?width=1200&auto=webp&trim=31%2C0%2C31%2C0",
+      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790440286000
+    },
+    {
+      "competition": "echo",
+      "title": "Trey Nyoni drops hint about Liverpool future as he makes honest claim about game time",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/trey-nyoni-drops-hint-liverpool-34676451",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676459.ece/ALTERNATES/s615/0_GettyImages-2292887681-1.jpg",
+      "summary": "Trey Nyoni has caught the eye for Liverpool under new head coach Andoni Iraola",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790440200000
+    },
+    {
+      "competition": "men",
+      "title": "Chairman letter, statement, initial reaction - everything Man City have said about 115 charges",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-statement-latest-34676840",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676854.ece/ALTERNATES/s615/0_JS335513233.jpg",
+      "summary": "Manchester City have issued two responses to news that the club has been found guilty of all-but-one of the Premier League's 115 charges against them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790440168000
+    },
+    {
+      "competition": "metro",
+      "title": "Jurgen Klopp sends message to Liverpool fans over Florian Wirtz criticism",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/26/jurgen-klopp-sends-message-liverpool-fans-florian-wirtz-criticism-29655871/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Jurgen-Klopp-5a80.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790439731000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790439615000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790439391000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Report Van Dijk &#8216;will join Milan sooner or later&#8217; as free agent from Liverpool in 2027",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/van-dijk-milan-sooner-or-later-liverpool-2027/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/12/Virgil-van-dijk-414x276.jpg",
+      "summary": "Virgil van Dijk ‘will come to Milan sooner or later,’ insists journalist Carlo Pellegatti, after...",
+      "teams": [
+        "liverpool",
+        "acmilan"
+      ],
+      "publishedAt": 1790438426000
+    },
+    {
+      "competition": "men",
+      "title": "England vs Spain TV channel, live stream and kick-off info",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/england-spain-tv-channel-stream-34668358",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34668362.ece/ALTERNATES/s615/0_GettyImages-2162149061.jpg",
+      "summary": "England will play their first competitive fixture since the World Cup on Saturday as they take on the reigning world and European champions Spain",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790438400000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United 'slip-up' not forgotten as Matthias Jaissle mentality discussed",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-slip-up-not-34676454",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34617653.ece/ALTERNATES/s615/1_GettyImages-2295284779.jpg",
+      "summary": "Lewis Hall has reflected on the first few games of the season ahead of his three-week stint with England",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790438400000
+    },
     {
       "competition": "fitalia",
       "title": "Van Bommel on Belgium strength and Italy weakness after 2-0 result",
@@ -38,18 +149,6 @@
       "publishedAt": 1790437285000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790437255000
-    },
-    {
       "competition": "mirror",
       "title": "Republic of Ireland confirm final decision on Israel match after players vote on boycott",
       "publisher": "Mirror Football",
@@ -74,18 +173,6 @@
         "scotland"
       ],
       "publishedAt": 1790436533000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790436388000
     },
     {
       "competition": "mirror",
@@ -130,7 +217,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/26/slovenia-scotland-nations-league-match-report",
       "image": "https://i.guim.co.uk/img/media/0425ae02bfc3b64b959e7f51e550069425888458/500_0_2527_2022/master/2527.jpg?width=140&quality=85&auto=format&fit=max&s=d1a9e6689ec40b72328b10dc32bd4044",
-      "summary": "Sébastien Pocognoli grimaced on Friday when recalling his playing debut for Belgium. Alessandro Del Piero and Italy discovered favourable opposition when preparing for the 2008 World Cup. Pocognoli will also look back,…",
+      "summary": "Sébastien Pocognoli grimaced on Friday when recalling his debut as an international player for Belgium. Alessandro del Piero and Italy discovered favourable opposition when preparing for the 2006 World Cup. Pocognoli…",
       "teams": [
         "slovenia",
         "scotland"
@@ -214,18 +301,6 @@
     },
     {
       "competition": "men",
-      "title": "Points deduction, appeal hopes, fines - What Man City 115 charges verdict means",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/points-deduction-appeal-hopes-fines-34676246",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676345.ece/ALTERNATES/s615/0_GettyImages-2293657848.jpg",
-      "summary": "Manchester City and the Premier League are in unprecedented territory after Friday's bombshell revelations about the 115 charges the club have been facing",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "men",
       "title": "Why is Marcus Rashford not playing for England? Everything we know",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/marcus-rashford-england-man-united-34657479",
@@ -233,6 +308,18 @@
       "summary": "Marcus Rashford won't add to his 78 caps for England during the international break",
       "teams": [
         "england"
+      ],
+      "publishedAt": 1790434800000
+    },
+    {
+      "competition": "men",
+      "title": "Points deduction, appeal hopes, fines - What Man City 115 charges verdict means",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/points-deduction-appeal-hopes-fines-34676246",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676345.ece/ALTERNATES/s615/0_GettyImages-2293657848.jpg",
+      "summary": "Manchester City and the Premier League are in unprecedented territory after Friday's bombshell revelations about the 115 charges the club have been facing",
+      "teams": [
+        "mancity"
       ],
       "publishedAt": 1790434800000
     },
@@ -279,7 +366,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/26/enzo-maresca-noel-gallagher-manchester-city-guilty-verdict",
       "image": "https://i.guim.co.uk/img/media/eb93ccb732378baed3b7fb0e1123500da843ff17/300_68_1328_1063/master/1328.jpg?width=140&quality=85&auto=format&fit=max&s=c8459670fae419b7ba911c3ea099b2f9",
-      "summary": "Manager Maresca posts ‘I know nothing’ message David Bernstein: a fine is not sufficient if appeal failsKhaldoon Al Mubarak, the Manchester City chair, has spoken for the first time since the club was found guilty on…",
+      "summary": "‘We have faced challenges together before and have prevailed’Maresca quotes Socrates on social media – ‘I know nothing’Khaldoon Al Mubarak, the Manchester City chair, has spoken for the first time since the club was…",
       "teams": [
         "mancity"
       ],
@@ -491,6 +578,19 @@
       "publishedAt": 1790431112000
     },
     {
+      "competition": "echo",
+      "title": "Andoni Iraola 'really impressive gesture' hailed as Liverpool set for huge Everton clash",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-really-impressive-gesture-34676531",
+      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article34623814.ece/ALTERNATES/s615/1_Liverpool-v-Fulham-Premier-League-202627.jpg",
+      "summary": "Andoni Iraola will be in attendance as Liverpool Women face Everton Women in Sunday's Women's Super League Merseyside derby at Anfield",
+      "teams": [
+        "liverpool",
+        "everton"
+      ],
+      "publishedAt": 1790431029000
+    },
+    {
       "competition": "bbc",
       "title": "'Significant majority' of Republic of Ireland players voted to play Israel game",
       "publisher": "BBC Sport",
@@ -650,104 +750,6 @@
         "mancity"
       ],
       "publishedAt": 1790424841000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Report Neto will have Juventus medical on September 27",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/report-neto-will-have-juventus-medical-sep-27/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Neto-smile-Juventus-414x276.jpg",
-      "summary": "Free agent Neto is expected to undergo his Juventus medical tests on Sunday, ready to...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790424407000
-    },
-    {
-      "competition": "mirror",
-      "title": "Stripping Man City of Premier League titles 'unlikely' as new charges punishment theory given",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/stripping-man-city-premier-league-37705297",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705335.ece/ALTERNATES/s615/1_Manchester-City.jpg",
-      "summary": "Manchester City won four Premier League titles during the nine-year period in which they have been accused of breaching financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790423854000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Emi Martinez writes off Aston Villa repeat as he says ‘no chance’",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/emi-martinez-writes-aston-villa-34676156",
-      "image": "https://i2-prod.football.london/incoming/article34558797.ece/ALTERNATES/s615/1_GettyImages-2292208296.jpg",
-      "summary": "The Argentine World Cup winner left Villa for Chelsea in the summer",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790423834000
-    },
-    {
-      "competition": "mirror",
-      "title": "Republic of Ireland player 'boycotts' Israel match as teammates call emergency meeting",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-player-boycotts-israel-37705358",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705360.ece/ALTERNATES/s615/1_GettyImages-2240008594.jpg",
-      "summary": "Republic of Ireland are scheduled to face Israel in a Nations League match in Hungary on Sunday night, amid vocal opposition to the game taking place",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790423586000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Bergomi: &#8216;Mancini old ideas, Italy not reflecting aggressive Serie A approach&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/bergomi-mancini-old-italy-reflecting-serie-a/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Gianluca-Mancini-Youri-Tielemans-414x276.jpg",
-      "summary": "Italy legend Beppe Bergomi feels Roberto Mancini showed he is out of touch with a...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790423337000
-    },
-    {
-      "competition": "echo",
-      "title": "Vitalii Mykolenko makes honest Goodison Park admission and outlines Everton new stadium aim",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/vitalii-mykolenko-makes-honest-goodison-34676127",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676148.ece/ALTERNATES/s615/0_GettyImages-2296062479.jpg",
-      "summary": "Vitalii Mykolenko has been speaking about Everton homes old and new, as well as his and the team's form, during the international break",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790423283000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Capello identifies Italy positives but warns ‘how do you expect to score playing like that?&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/capello-identifies-italy-positives-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back.jpg",
-      "summary": "Fabio Capello says that Mohamed Ali Zoma and Daniel Maldini were among the positives to...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790422736000
-    },
-    {
-      "competition": "metro",
-      "title": "Man City told what &#8216;most likely&#8217; punishment is as Man Utd wait for title verdict",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/26/man-city-told-most-likely-punishment-man-utd-wait-title-verdict-29655524/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314015826-275c.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity",
-        "manutd"
-      ],
-      "publishedAt": 1790422562000
     }
   ]
 }
