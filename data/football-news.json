@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790445851371,
+  "generatedAt": 1790447567586,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1499,
-    "tagged": 803,
+    "raw": 1495,
+    "tagged": 800,
     "droppedKeyword": 26,
     "droppedOtherSport": 3,
     "droppedFeed": 6,
@@ -12,6 +12,93 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "England v Spain: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/dd52e321d339bd1923f1ca70a3a57faea6c223e9/313_0_3132_2505/master/3132.jpg?width=140&quality=85&auto=format&fit=max&s=44aed69f02cd6ce0511e2daeb35a826b",
+      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTok“Rob,” begins Alan Baverstock. “Sid Lowe writes b e a u t i f u l l y.”Damn straight. All his stuff is great but I…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790446770000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790446524000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790446365000
+    },
+    {
+      "competition": "indy",
+      "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-tv-channel-time-nations-league-b3055594.html",
+      "image": "https://static.independent.co.uk/2026/07/18/21/8a628f25af3212893c4af9665b1bd3b6Y29udGVudHNlYXJjaGFwaSwxNzg0NDkwOTM3-2.85316620.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Everything you need to know ahead of England’s first game since the World Cup",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790446209000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Trafford starts and Alexander-Arnold on bench as Three Lions host world champions",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/19/01M3FEB17G77Y8Y6BZEMDGAKSJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790446117000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Zaniolo out of Italy squad for Nations League games",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/zaniolo-out-italy-squad-nations-league-games/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/udinese-calcio-v-parma-calcio-19-414x276.jpg",
+      "summary": "Udinese man Nicolò Zaniolo has left the Italy training camp due to an injury, so...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790446071000
+    },
+    {
+      "competition": "echo",
+      "title": "Jurgen Klopp makes new Florian Wirtz Liverpool plea - 'We cannot do more'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-florian-wirtz-liverpool-34677065",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677217.ece/ALTERNATES/s615/0_JS419131556.jpg",
+      "summary": "Florian Wirtz was named in Jurgen Klopp's Germany squad following weeks of debate about the form of the Liverpool playmaker",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790445911000
+    },
     {
       "competition": "fitalia",
       "title": "Serie A players Diouf and Da Cunha could get France debuts",
@@ -23,32 +110,6 @@
         "france"
       ],
       "publishedAt": 1790445510000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Trafford starts and Alexander-Arnold on bench as Three Lions host world champions",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/18/2297103557..?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
-      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790444946000
-    },
-    {
-      "competition": "guardian",
-      "title": "England v Spain: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/dd52e321d339bd1923f1ca70a3a57faea6c223e9/313_0_3132_2505/master/3132.jpg?width=140&quality=85&auto=format&fit=max&s=44aed69f02cd6ce0511e2daeb35a826b",
-      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokThomas Tuchel has thrown Cole Palmer’s England future into major doubt by questioning whether the Chelsea attacker…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790444893000
     },
     {
       "competition": "echo",
@@ -75,30 +136,6 @@
       "publishedAt": 1790444329000
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790444164000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790444114000
-    },
-    {
       "competition": "guardian",
       "title": "Republic of Ireland players to wear black armbands after agreeing to play Israel",
       "publisher": "The Guardian",
@@ -123,19 +160,6 @@
         "arsenal"
       ],
       "publishedAt": 1790443861000
-    },
-    {
-      "competition": "indy",
-      "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-tv-channel-time-nations-league-b3055594.html",
-      "image": "https://static.independent.co.uk/2026/07/18/21/8a628f25af3212893c4af9665b1bd3b6Y29udGVudHNlYXJjaGFwaSwxNzg0NDkwOTM3-2.85316620.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Everything you need to know ahead of England’s first game since the World Cup",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790443803000
     },
     {
       "competition": "bbc",
@@ -730,30 +754,6 @@
         "chelsea"
       ],
       "publishedAt": 1790430420000
-    },
-    {
-      "competition": "metro",
-      "title": "Ireland make decision on boycotting Israel match after player refuses to play",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/26/ireland-make-decision-boycotting-israel-match-player-refuses-play-29655535/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2296615575-059b.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790430350000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ex-Man City chairman predicts 'drastic' sanctions as Premier League rivals plan response",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-verdict-guilty-chairman-37705601",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article36025896.ece/ALTERNATES/s615/0_GettyImages-1148666435.jpg",
-      "summary": "An independent commission has found Manchester City guilty of 114 of 115 charges for breaching Premier League financial rules - with an appeal set to be launched",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790430054000
     }
   ]
 }
