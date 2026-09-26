@@ -1,17 +1,103 @@
 {
-  "generatedAt": 1790449487482,
+  "generatedAt": 1790452133992,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1484,
-    "tagged": 791,
+    "raw": 1488,
+    "tagged": 789,
     "droppedKeyword": 25,
     "droppedOtherSport": 3,
-    "droppedFeed": 5,
+    "droppedFeed": 4,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Gordon and Kane goals put Three Lions ahead against world champions",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/20/2297291015..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790451363000
+    },
+    {
+      "competition": "guardian",
+      "title": "England v Spain: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/cb254e3192c6beeeb6cd2c3dca45d9a051f116e2/691_441_3172_2539/master/3172.jpg?width=140&quality=85&auto=format&fit=max&s=deb24144ce142cc876a2783cb7db2ef1",
+      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790451191000
+    },
+    {
+      "competition": "mirror",
+      "title": "Roy Keane and Ian Wright urge Premier League to punish Man City after 'cheat' verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-keane-wright-37706094",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706095.ece/ALTERNATES/s615/0_keanoetc.jpg",
+      "summary": "Ian Wright and Roy Keane were on hand to give their opinion on Manchester City's Premier League charges guilty verdict during ITV's coverage of the Nations League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790451119000
+    },
+    {
+      "competition": "indy",
+      "title": "Ireland goalkeeper Gavin Bazunu breaks silence on decision to boycott Israel clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-gavin-bazunu-boycott-nations-league-b3056965.html",
+      "image": "https://static.independent.co.uk/2026/09/26/20/01M3F6QTYCAY7QRRX4QW4FCZDE.jpg?width=1200&auto=webp&trim=84%2C0%2C84%2C0",
+      "summary": "Bazunu has refused to play in the controversial Nations League in opposition of ‘the atrocities in the region’",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790451080000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790450712000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790450326000
+    },
+    {
+      "competition": "indy",
+      "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-player-vote-gaza-b3056884.html",
+      "image": "https://static.independent.co.uk/2026/09/26/15/01M3ETNFTQRGKF6HXH4TX0323P.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Ireland’s match against Israel on Sunday will go ahead as scheduled",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790450069000
+    },
     {
       "competition": "fitalia",
       "title": "Report Juventus want Kovacic, Raum and Tomori as free agents in 2027",
@@ -25,6 +111,18 @@
       "publishedAt": 1790449397000
     },
     {
+      "competition": "men",
+      "title": "'I've never won the title - or have I?' - Juan Mata asks Man United question after 115 charges",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/juan-mata-man-city-charges-34677536",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677538.ece/ALTERNATES/s615/0_Screenshot-2026-09-26-at-195018.png",
+      "summary": "Juan Mata has become the latest high-profile figure to react to Manchester City's financial charges verdict",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790449335000
+    },
+    {
       "competition": "mirror",
       "title": "Thomas Tuchel gives reason for surprise Jordan Pickford England decision vs Spain",
       "publisher": "Mirror Football",
@@ -36,32 +134,6 @@
         "spain"
       ],
       "publishedAt": 1790448917000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Lamine Yamal gives world champions early lead after Marc Guehi error",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/19/01M3FEB17G77Y8Y6BZEMDGAKSJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790448760000
-    },
-    {
-      "competition": "guardian",
-      "title": "England v Spain: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/c6be4f75a005b5a244edb6064df70f4750022227/365_0_5237_4191/master/5237.jpg?width=140&quality=85&auto=format&fit=max&s=21f8c09bb036687b64394716738eba0e",
-      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790448576000
     },
     {
       "competition": "indy",
@@ -88,18 +160,6 @@
       "publishedAt": 1790448429000
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790448262000
-    },
-    {
       "competition": "echo",
       "title": "Jurgen Klopp may face hefty bill if he sticks to Manchester City charges promise",
       "publisher": "Liverpool Echo",
@@ -110,18 +170,6 @@
         "mancity"
       ],
       "publishedAt": 1790447956000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790446524000
     },
     {
       "competition": "fitalia",
@@ -500,6 +548,18 @@
     },
     {
       "competition": "mirror",
+      "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37579232.ece/ALTERNATES/s615/1_Argentina-Spain-WCup-Soccer-26202650903091.jpg",
+      "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
+      "teams": [
+        "spain"
+      ],
+      "publishedAt": 1790434800000
+    },
+    {
+      "competition": "mirror",
       "title": "Why is Declan Rice not playing for England? All we know about Arsenal star's absence",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/declan-rice-england-absence-injury-37691917",
@@ -508,18 +568,6 @@
       "teams": [
         "arsenal",
         "england"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "mirror",
-      "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37579232.ece/ALTERNATES/s615/1_Argentina-Spain-WCup-Soccer-26202650903091.jpg",
-      "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
-      "teams": [
-        "spain"
       ],
       "publishedAt": 1790434800000
     },
@@ -606,18 +654,6 @@
         "mancity"
       ],
       "publishedAt": 1790434090000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-player-vote-gaza-b3056884.html",
-      "image": "https://static.independent.co.uk/2026/09/26/15/01M3ETNFTQRGKF6HXH4TX0323P.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Ireland’s match against Israel on Sunday will go ahead as scheduled",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790433635000
     },
     {
       "competition": "mirror",
@@ -715,43 +751,6 @@
         "mancity"
       ],
       "publishedAt": 1790432183000
-    },
-    {
-      "competition": "bundes",
-      "title": "Werder Bremen beat Real Madrid legends in goal-filled anniversary match",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/werder-bremen-real-madrid-legends-friendly-makelele-pepe-diego-39360",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083828808h.jpg?crop=80px%2C228px%2C2035px%2C1147px",
-      "summary": "Werder Bremen celebrated the 100th anniversary of their Weserstadion with a 4-3 friendly win against Real Madrid’s Legend’s team on Saturday..",
-      "teams": [
-        "werder",
-        "realmadrid"
-      ],
-      "publishedAt": 1790432084000
-    },
-    {
-      "competition": "bundes",
-      "title": "Bayer Leverkusen starlet Ibrahim Maza shining on the international stage for Algeria",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/ibrahim-maza-shines-algeria-zambia-bayer-leverkusen-39361",
-      "image": "https://assets.bundesliga.com/contender/2026/3/Maza.jpg?crop=0px%2C118px%2C3543px%2C1991px",
-      "summary": "After a strong individual start to the 2026/27 domestic campaign with Bayer Leverkusen, Algerian playmaker Ibrahim Maza has continued in his rich vein of form during the international break.",
-      "teams": [
-        "leverkusen"
-      ],
-      "publishedAt": 1790431550000
-    },
-    {
-      "competition": "men",
-      "title": "Man City release new statement after 115 charges verdict given",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-city-statement-khaldoon-34676573",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676576.ece/ALTERNATES/s615/0_Khaldoon.jpg",
-      "summary": "A new Manchester City statement has been released in response to the reported 114 financial rule breaches with chairman Khaldoon Al Mubarak issuing an update",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790431532000
     }
   ]
 }
