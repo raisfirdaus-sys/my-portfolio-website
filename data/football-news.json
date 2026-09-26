@@ -1,29 +1,145 @@
 {
-  "generatedAt": 1790452873643,
+  "generatedAt": 1790457250692,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1494,
+    "raw": 1485,
     "tagged": 788,
     "droppedKeyword": 26,
     "droppedOtherSport": 3,
-    "droppedFeed": 5,
+    "droppedFeed": 3,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Gordon and Kane goals put Three Lions ahead against world champions",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/20/2297291015..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "competition": "tele",
+      "title": "Another Tuchel shocker as England throw away victory against Spain",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/09/26/england-vs-spain-live-score-latest-nations-league-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/26/TELEMMGLPICT000504871791_17904559540730_trans_NvBQzQNjv4Bqtsw4rIh5Rk80rwdrUlw4m2DrtIH_AMF2jYVZUT2nTV8.jpeg",
+      "summary": "Another Tuchel shocker as England throw away victory against Spain",
       "teams": [
         "england",
         "spain"
       ],
-      "publishedAt": 1790452696000
+      "publishedAt": 1790456929000
+    },
+    {
+      "competition": "metro",
+      "title": "Roy Keane takes aim at Chelsea&#8217;s Cole Palmer over England withdrawal",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/26/roy-keane-takes-aim-chelseas-cole-palmer-england-withdrawal-29656096/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313808662-9c65.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "chelsea",
+        "england"
+      ],
+      "publishedAt": 1790456609000
+    },
+    {
+      "competition": "guardian",
+      "title": "England 2-3 Spain: Nations League football – as it happened",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/73e1d6ff221e69f364946e5177fccbc5e43b66bc/907_0_1944_1555/master/1944.jpg?width=140&quality=85&auto=format&fit=max&s=17a84e377e988fb1c76fbbff060e48dd",
+      "summary": "England were 2-1 up when Harry Kane’s penalty hit the bar; the world champions made them payEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are going to…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790456597000
+    },
+    {
+      "competition": "men",
+      "title": "Alejandro Garnacho finally makes Aston Villa impact as ex-Man Utd star avoids nightmare scenario",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/alejandro-garnacho-man-united-villa-34677602",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34677611.ece/ALTERNATES/s615/0_Aston-Villa-v-Nottingham-Forest-Premier-League-Football-Football-Villa-Park-Birmingham-UK-12.jpg",
+      "summary": "Alejandro Garnacho's loan move to Aston Villa has yet to get off the ground, though the club could be obligated to sign him permanently if certain conditions are met",
+      "teams": [
+        "astonvilla",
+        "manutd"
+      ],
+      "publishedAt": 1790456540000
+    },
+    {
+      "competition": "mirror",
+      "title": "England come out on wrong side of Spain thriller but Thomas Tuchel gets fans back onside",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-spain-goals-highlights-result-37706273",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706216.ece/ALTERNATES/s615/0_GettyImages-2297294765.jpg",
+      "summary": "ENGLAND 2-3 SPAIN: Thomas Tuchel's side played their part in a superb spectacle at Wembley but were their own worst enemies, gifting the world champions easy goals",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790456341000
+    },
+    {
+      "competition": "bbc",
+      "title": "Bayern target Barcelona's Olmo - Sunday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw770034l523o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6dd/live/3de806c0-b9ed-11f1-bc1f-3f186ca4140c.png",
+      "summary": "Bayern Munich target Dani Olmo, Trent Alexander-Arnold is staying at Real Madrid, Premier League clubs show interest in Spurs' Micky van de Ven, plus more.",
+      "teams": [
+        "barcelona",
+        "bayern"
+      ],
+      "publishedAt": 1790456058000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Lewis Hall England truth is clear, Anthony Gordon difference since Newcastle exit and Pickford axed",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/england-newcastle-lewis-hall-gordon-34677408",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34677655.ece/ALTERNATES/s615/0_GettyImages-2297293852.jpg",
+      "summary": "A crowd of 84,525 watched on as England lost 3-2 at the hands of the World Champions on a crazy night at Wembley. Lamine Yamal had put Spain ahead in the second minute before Anthony Gordon and Harry Kane goals were…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790455745000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE:  Mikel Oyarzabal clinches victory for world champions in five-goal thriller at Wembley",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/21/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790455445000
+    },
+    {
+      "competition": "bbc",
+      "title": "Who made an uncharacteristic error? England player ratings v Spain",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmy0zz2ylr5no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc71/live/eeee61e0-b9e7-11f1-a7c8-cfea26a12219.jpg",
+      "summary": "England were beaten 3-2 in an entertaining game by world champions Spain in the Nations League - here's how BBC Sport rated the Three Lions' players.",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790455353000
+    },
+    {
+      "competition": "mirror",
+      "title": "England pay the penalty in Spain defeat after Harry Kane's miss - 5 talking points",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-spain-nations-league-highlights-37706073",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706217.ece/ALTERNATES/s615/0_GettyImages-2296742561.jpg",
+      "summary": "ENGLAND 2-3 SPAIN: Harry Kane missed a penalty as Thomas Tuchel's side were beaten in their Nations League opener, having led until the hour mark against the newly crowned world champions",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790455289000
     },
     {
       "competition": "men",
@@ -35,7 +151,19 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790452336000
+      "publishedAt": 1790454457000
+    },
+    {
+      "competition": "mirror",
+      "title": "Gavin Bazunu releases statement after Ireland star pulls out of Israel game",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/gavin-bazunu-ireland-israel-statement-37706178",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705360.ece/ALTERNATES/s615/1_GettyImages-2240008594.jpg",
+      "summary": "Bolton Wanderers goalkeeper Gavin Bazunu has confirmed he will not feature for the Republic of Ireland in their Nations League fixture against Israel on Sunday",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790453950000
     },
     {
       "competition": "mirror",
@@ -47,20 +175,70 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790452274000
+      "publishedAt": 1790453936000
     },
     {
       "competition": "guardian",
-      "title": "England v Spain: Nations League football – live",
+      "title": "Republic of Ireland’s Gavin Bazunu boycotts Israel match ‘as a person of principle’",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/ecfa03e100ff891fa53af4f30ebf4e9a0397f3e6/8_653_3246_2597/master/3246.jpg?width=140&quality=85&auto=format&fit=max&s=988e668d1d5c882102e14754881ff17d",
-      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are…",
+      "link": "https://www.theguardian.com/football/2026/sep/26/ireland-players-vote-to-go-ahead-with-nations-league-match-against-israel",
+      "image": "https://i.guim.co.uk/img/media/aaf8829d581708f3ec6ae8d41495f46432713c4c/229_0_3660_2928/master/3660.jpg?width=140&quality=85&auto=format&fit=max&s=2302861e08200a7fce220836717d26d8",
+      "summary": "Bolton goalkeeper issues statement after withdrawalIreland players will wear black armbands in matchThe Republic of Ireland will fulfil their fixture against Israel in Hungary on Sunday night, but only after lengthy…",
       "teams": [
-        "england",
-        "spain"
+        "ireland",
+        "israel"
       ],
-      "publishedAt": 1790452093000
+      "publishedAt": 1790453885000
+    },
+    {
+      "competition": "bbc",
+      "title": "Bellamy eyes more history against wounded Denmark",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmeq88152w8go?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd97/live/0377c060-b9a8-11f1-8a1a-0176f978c211.jpg",
+      "summary": "Craig Bellamy reflects on his memorable moments against Denmark as his Wales side bid to topple the Danes in the Nations League on Sunday (17:00 BST).",
+      "teams": [
+        "denmark"
+      ],
+      "publishedAt": 1790453822000
+    },
+    {
+      "competition": "men",
+      "title": "Roy Keane and Ian Wright agree on Man City punishment after 'cheating' opposition",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/wright-keane-man-city-charges-34677608",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34677607.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
+      "summary": "An independent panel has found Manchester City guilty of 114 breaches of the Premier League's financial rules, and Roy Keane and Ian Wright have both called for the club to be severely punished",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790453727000
+    },
+    {
+      "competition": "bbc",
+      "title": "Republic of Ireland to wear black armbands for Israel game",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b748/live/e2ec7610-b9b6-11f1-929f-f1f9c2e672cb.jpg",
+      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790452740000
+    },
+    {
+      "competition": "echo",
+      "title": "Ian Wright makes Jurgen Klopp and Liverpool legacy point in Man City 'cheat' verdict",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-city-ian-wright-34677589",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677599.ece/ALTERNATES/s615/0_Wright.jpg",
+      "summary": "Ian Wright has made a point about Jurgen Klopp and Liverpool when talking about the charges that have been brought against Man City",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790452446000
     },
     {
       "competition": "mirror",
@@ -230,19 +408,6 @@
         "lazio"
       ],
       "publishedAt": 1790444329000
-    },
-    {
-      "competition": "guardian",
-      "title": "Republic of Ireland players to wear black armbands after agreeing to play Israel",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/ireland-players-vote-to-go-ahead-with-nations-league-match-against-israel",
-      "image": "https://i.guim.co.uk/img/media/80e060cee616b9a4aa1200f893c524b22c8706a5/921_0_6664_5334/master/6664.jpg?width=140&quality=85&auto=format&fit=max&s=a7b36f2e6411a36dcd68a19f275973cf",
-      "summary": "‘Majority’ of players vote for matches to go aheadOne player withdraws from squad citing ‘discomfort’The Republic of Ireland will fulfil their fixture against Israel in Hungary on Sunday night, but only after lengthy…",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790443990000
     },
     {
       "competition": "footlondon",
@@ -548,18 +713,6 @@
     },
     {
       "competition": "mirror",
-      "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37579232.ece/ALTERNATES/s615/1_Argentina-Spain-WCup-Soccer-26202650903091.jpg",
-      "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
-      "teams": [
-        "spain"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "mirror",
       "title": "Why is Declan Rice not playing for England? All we know about Arsenal star's absence",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/declan-rice-england-absence-injury-37691917",
@@ -568,6 +721,18 @@
       "teams": [
         "arsenal",
         "england"
+      ],
+      "publishedAt": 1790434800000
+    },
+    {
+      "competition": "mirror",
+      "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37579232.ece/ALTERNATES/s615/1_Argentina-Spain-WCup-Soccer-26202650903091.jpg",
+      "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
+      "teams": [
+        "spain"
       ],
       "publishedAt": 1790434800000
     },
@@ -594,163 +759,6 @@
         "mancity"
       ],
       "publishedAt": 1790434800000
-    },
-    {
-      "competition": "men",
-      "title": "Jose Mourinho's dig at Pep Guardiola and Man City 115 charges",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-jose-mourinho-34676387",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34676490.ece/ALTERNATES/s615/0_Jose-Mourinho-file-photo.jpg",
-      "summary": "Jose Mourinho and Pep Guardiola have crossed paths on plenty of occasions over the years including at Manchester United and Man City",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434478000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City maintain winning start with narrow win over Charlton",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6ly77de8p9po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a45/live/6922a2a0-b9b6-11f1-a430-4d16ee157c41.jpg",
-      "summary": "Manchester City maintain their winning start to the Women's Super League as Alex Greenwood's 36th-minute free-kick gives them victory over Charlton.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434424000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City chair Al Mubarak insists ‘nothing has changed’ after guilty verdict",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/enzo-maresca-noel-gallagher-manchester-city-guilty-verdict",
-      "image": "https://i.guim.co.uk/img/media/eb93ccb732378baed3b7fb0e1123500da843ff17/300_68_1328_1063/master/1328.jpg?width=140&quality=85&auto=format&fit=max&s=c8459670fae419b7ba911c3ea099b2f9",
-      "summary": "‘We have faced challenges together before and have prevailed’Maresca quotes Socrates on social media – ‘I know nothing’Khaldoon Al Mubarak, the Manchester City chair, has spoken for the first time since the club was…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434329000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Alajbegovic on right Juventus decision, Spalletti help and Scudetto ambition",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/alajbegovic-right-juventus-decision-spalletti/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Kerim-Alajbegovic-Lazar-Samardzic-414x297.jpg",
-      "summary": "Kerim Alajbegovic insists he ‘didn’t think twice’ about joining Juventus, despite an offer from Chelsea,...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790434192000
-    },
-    {
-      "competition": "indy",
-      "title": "Manchester City chairman releases statement after reports say club are guilty of breaching financial rules",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/manchester-city-chairman-khaldoon-al-mubarak-guilty-verdict-reports-b3056882.html",
-      "image": "https://static.independent.co.uk/2026/09/26/15/c08fd89e44083277bf2dabae75cfd214Y29udGVudHNlYXJjaGFwaSwxNzkwNTE4ODY2-2.85981765.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Khaldoon Al Mubarak addressed supporters in a letter maintaining the club’s innocence despite reports claiming they will be found guilty of 114 charges against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434090000
-    },
-    {
-      "competition": "mirror",
-      "title": "Noel Gallagher begs Premier League bosses not to punish Manchester City fans despite 'breaking financial rules'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/man-city-charges-noel-gallagher-37705672",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705695.ece/ALTERNATES/s615/0_Everton-v-Manchester-City-Premier-League.jpg",
-      "summary": "Noel Gallagher, who will tour with Oasis again next year, has responded to the bombshell development Manchester City have been found guilty on 114 of the 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790433452000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United made 'big statement' to bounce back from summer chaos",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-made-big-statement-34674149",
-      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34599286.ece/ALTERNATES/s615/0_GettyImages-2293207975.jpg",
-      "summary": "Former Magpies goalkeeper Tim Krul is optimistic about the club's future",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790433377000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Manchester City maintain innocence as focus grows on Mancini double contract",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/manchester-city-innocence-mancini-contract/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Manchester-City-point-414x266.jpg",
-      "summary": "Manchester City chairman Khaldoon Al Mubarak released a statement insisting the club is innocent, despite...",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790433111000
-    },
-    {
-      "competition": "metro",
-      "title": "Man City chairman Khaldoon Al Mubarak breaks silence with defiant promise to fans",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/26/man-city-chairman-khaldoon-al-mubarak-breaks-silence-defiant-promise-fans-29655796/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314150816-cdf6.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790432797000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City chairman Khaldoon Al Mubarak writes open letter after 114 charges reports",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-chairman-khaldoon-al-34676621",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34073046.ece/ALTERNATES/s615/1_Manchester-City-FC-v-Al-Hilal-Round-Of-16-FIFA-Club-World-Cup-2025.jpg",
-      "summary": "Manchester City chairman Khaldoon Al Mubarak has published a letter on the club's official website",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790432666000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City chairman insists club are INNOCENT in letter after 115 charges verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-statement-37705673",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37252773.ece/ALTERNATES/s615/0_GettyImages-2239447015.jpg",
-      "summary": "Reports claiming that Manchester City have been found guilty of 114 of the 115 charges levied against them has now prompted a statement from the club's chairman",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790432453000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City's 'most likely' punishment as Liverpool await Premier League title decision",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-charges-punishment-liverpool-34676420",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34676419.ece/ALTERNATES/s615/0_FBL-ENG-PR-MAN-CITY-SUNDERLAND.jpg",
-      "summary": "Football finance expert Kieran Maguire says a points deduction is Manchester City's most likely punishment after the club were found guilty on all-but-one of the 115 Premier League financial charges against them.",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790432450000
-    },
-    {
-      "competition": "mirror",
-      "title": "Enzo Maresca's agents give cryptic response to Man City 115 charges bombshell",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-enzo-maresca-37705462",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705414.ece/ALTERNATES/s615/0_GettyImages-2295680743.jpg",
-      "summary": "Manchester City boss Enzo Maresca was approached for a response following Manchester City being found guilty of 114 of the financial breaches they were charged with by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790432183000
     }
   ]
 }
