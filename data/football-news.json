@@ -1,17 +1,78 @@
 {
-  "generatedAt": 1790457250692,
+  "generatedAt": 1790458236485,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1485,
-    "tagged": 788,
+    "raw": 1490,
+    "tagged": 790,
     "droppedKeyword": 26,
     "droppedOtherSport": 3,
-    "droppedFeed": 3,
+    "droppedFeed": 4,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel brutally shuts down England question live on ITV with blunt answer",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-result-37706321",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706331.ece/ALTERNATES/s615/0_tuchel.jpg",
+      "summary": "England suffered a narrow 3-2 loss to Spain in the Nations League at Wembley on Saturday evening, with Thomas Tuchel somewhat reserved in his reflection in the aftermath",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790458035000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790457624000
+    },
+    {
+      "competition": "indy",
+      "title": "England take positive step forward but Spain defeat reveals true level they must reach",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-nations-league-goals-result-kane-tuchel-b3056975.html",
+      "image": "https://static.independent.co.uk/2026/09/26/22/01M3FQTKT3EXYX2Y9N6B1X5726.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "summary": "England 2-3 Spain: A thrilling five-goal contest at Wembley ended in favour of the world champions as substitutes Alex Baena and Mikel Oyarzabal showed off Spain’s technical excellence",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790457618000
+    },
+    {
+      "competition": "mirror",
+      "title": "Manchester City apology demanded after Premier League charges verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-apology-charges-verdict-37706295",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706297.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules this week, with calls for the club to issue an apology demanded in the aftermath",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790457549000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790457474000
+    },
     {
       "competition": "tele",
       "title": "Another Tuchel shocker as England throw away victory against Spain",
@@ -26,6 +87,19 @@
       "publishedAt": 1790456929000
     },
     {
+      "competition": "guardian",
+      "title": "Oyarzabal earns Spain Nations League win as England pay for Kane penalty miss",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/26/england-spain-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/30d41e512b61cdf33037a0a87a653e9d55b1d551/268_0_2758_2207/master/2758.jpg?width=140&quality=85&auto=format&fit=max&s=135899260a96ab08e8e19fb383055d10",
+      "summary": "It was another high-profile game when Thomas Tuchel’s England let a lead slip in the second half and went on to lose. But unlike the last time, it was not one for recriminations. The England support can accept losing…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790456735000
+    },
+    {
       "competition": "metro",
       "title": "Roy Keane takes aim at Chelsea&#8217;s Cole Palmer over England withdrawal",
       "publisher": "Metro",
@@ -37,19 +111,6 @@
         "england"
       ],
       "publishedAt": 1790456609000
-    },
-    {
-      "competition": "guardian",
-      "title": "England 2-3 Spain: Nations League football – as it happened",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/73e1d6ff221e69f364946e5177fccbc5e43b66bc/907_0_1944_1555/master/1944.jpg?width=140&quality=85&auto=format&fit=max&s=17a84e377e988fb1c76fbbff060e48dd",
-      "summary": "England were 2-1 up when Harry Kane’s penalty hit the bar; the world champions made them payEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are going to…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790456597000
     },
     {
       "competition": "men",
@@ -89,6 +150,18 @@
         "bayern"
       ],
       "publishedAt": 1790456058000
+    },
+    {
+      "competition": "echo",
+      "title": "Tim Cahill on emotional Goodison Park return: 'I will carry Everton with me forever'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/news/liverpool-news/tim-cahill-emotional-goodison-park-34677642",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677638.ece/ALTERNATES/s615/0_Game4Hope-Merseyside-vs-Rest-of-the-World-at-Goodison-Park-Photo-by-Colin-Lane.jpg",
+      "summary": "The Toffees legend spoke to the ECHO in an exclusive interview about the Game4Hope, his legacy at the club and offers his verdict on the current Everton side",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790455909000
     },
     {
       "competition": "chronicle",
@@ -142,18 +215,6 @@
       "publishedAt": 1790455289000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790454457000
-    },
-    {
       "competition": "mirror",
       "title": "Gavin Bazunu releases statement after Ireland star pulls out of Israel game",
       "publisher": "Mirror Football",
@@ -164,18 +225,6 @@
         "israel"
       ],
       "publishedAt": 1790453950000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790453936000
     },
     {
       "competition": "guardian",
@@ -213,19 +262,6 @@
         "mancity"
       ],
       "publishedAt": 1790453727000
-    },
-    {
-      "competition": "bbc",
-      "title": "Republic of Ireland to wear black armbands for Israel game",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b748/live/e2ec7610-b9b6-11f1-929f-f1f9c2e672cb.jpg",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790452740000
     },
     {
       "competition": "echo",
@@ -713,19 +749,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Why is Declan Rice not playing for England? All we know about Arsenal star's absence",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/declan-rice-england-absence-injury-37691917",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37691943.ece/ALTERNATES/s615/1_GettyImages-2296094040.jpg",
-      "summary": "Declan Rice is one of several Premier League stars who has pulled out of the latest England squad",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "mirror",
       "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
@@ -733,30 +756,6 @@
       "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
       "teams": [
         "spain"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "men",
-      "title": "Why is Marcus Rashford not playing for England? Everything we know",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/marcus-rashford-england-man-united-34657479",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34197691.ece/ALTERNATES/s615/1_FIFA-World-Cup-2026-England-Ghana-Foxborough-Massachusetts-USA-23-Jun-2026.jpg",
-      "summary": "Marcus Rashford won't add to his 78 caps for England during the international break",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790434800000
-    },
-    {
-      "competition": "men",
-      "title": "Points deduction, appeal hopes, fines - What Man City 115 charges verdict means",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/points-deduction-appeal-hopes-fines-34676246",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676345.ece/ALTERNATES/s615/0_GettyImages-2293657848.jpg",
-      "summary": "Manchester City and the Premier League are in unprecedented territory after Friday's bombshell revelations about the 115 charges the club have been facing",
-      "teams": [
-        "mancity"
       ],
       "publishedAt": 1790434800000
     }
