@@ -1,17 +1,114 @@
 {
-  "generatedAt": 1790400827176,
+  "generatedAt": 1790404074309,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1509,
-    "tagged": 781,
-    "droppedKeyword": 22,
+    "raw": 1507,
+    "tagged": 774,
+    "droppedKeyword": 23,
     "droppedOtherSport": 2,
-    "droppedFeed": 5,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 54
+    "withImage": 55
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League financial rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790403716000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel called up 15 players from his first England squad – with 11 axed",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-squad-thomas-tuchel-spain-37701551",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37701719.ece/ALTERNATES/s615/0_England-Press-Conference-and-Training-St-Georges-Park-Tuesday-March-18th.jpg",
+      "summary": "There have been plenty of changes to Thomas Tuchel's England squad over the last 18 months for a combination of reasons",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch England vs Spain for free - TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-tv-channel-stream-37699167",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37699196.ece/ALTERNATES/s615/0_GettyImages-2285764842.jpg",
+      "summary": "England are set to return to action as Thomas Tuchel's side prepare to face Spain in their opening Nations League game",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Lamine Camara's transfer admission as uncertainty remains after £64m Chelsea offer",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/lamine-camaras-transfer-admission-uncertainty-34672674",
+      "image": "https://i2-prod.football.london/incoming/article34673373.ece/ALTERNATES/s615/0_GettyImages-2294367846.jpg",
+      "summary": "There are a few players Chelsea missed out on in the summer transfer window and football.london takes a look at how they have started the new season",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Jamaal Lascelles reveals only regret about Eddie Howe and his Newcastle United surprise",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/jamaal-lascelles-reveals-only-regret-34670152",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article22366860.ece/ALTERNATES/s615/1_Newcastle-United-v-Burnley-Premier-League.jpg",
+      "summary": "Former Newcastle United star Jamaal Lascelles has lifted the lid on his time under Eddie Howe and has one regret",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Donnarumma, Raya, Alisson and how Aston Villa's Zion Suzuki measures up to Premier League's best",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-transfers-zion-suzuki-34673403",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34673637.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
+      "summary": "Aston Villa look to have found a gem in Zion Suzuki who has made a superb start to his Premier League career",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "bbc",
+      "title": "The computer hacker who tried to take down Man City",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwywld5v28jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35d3/live/b39074f0-f4ed-11ef-896e-d7e7fb1719a4.jpg",
+      "summary": "BBC Sport travelled to Portugal to find out more about Rui Pinto - the computer hacker who sparked the Manchester City investigation.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790402200000
+    },
+    {
+      "competition": "guardian",
+      "title": "How drawn-out saga of Manchester City’s alleged cheating came to this",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/26/manchester-city-financial-charges-premier-league-uefa-abu-dhabi",
+      "image": "https://i.guim.co.uk/img/media/9a242da4d2fe6a6f6235ee49bf4b1a517d38d65e/361_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=e4072d01fe79ea3c9909475426ab4f6e",
+      "summary": "Club’s ruthless approach was always at odds with their public image and this inglorious story has further to runThere is no episode in English football’s history that even resembles a precedent for the epic Manchester…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790398827000
+    },
     {
       "competition": "indy",
       "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
@@ -138,12 +235,13 @@
     },
     {
       "competition": "footlondon",
-      "title": "Arsenal latest: Transfer target name-dropped as Mikel Arteta given fresh hope",
+      "title": "Everything Arsenal boss Mikel Arteta has said about Man City's 115 charges",
       "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-news-kai-havertz-34673150",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34673149.ece/ALTERNATES/s615/0_Arsenal-FC-Training-Session.jpg",
-      "summary": "A big Arsenal transfer target has been name-dropped",
+      "link": "https://www.football.london/arsenal-fc/news/mikel-arteta-man-city-charges-34675202",
+      "image": "https://i2-prod.football.london/incoming/article34675265.ece/ALTERNATES/s615/0_JS417536082.jpg",
+      "summary": "Mikel Arteta was assistant manager at Manchester City before making the switch to Arsenal in December 2019",
       "teams": [
+        "mancity",
         "arsenal"
       ],
       "publishedAt": 1790395200000
@@ -162,13 +260,12 @@
     },
     {
       "competition": "footlondon",
-      "title": "Everything Arsenal boss Mikel Arteta has said about Man City's 115 charges",
+      "title": "Arsenal latest: Transfer target name-dropped as Mikel Arteta given fresh hope",
       "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/mikel-arteta-man-city-charges-34675202",
-      "image": "https://i2-prod.football.london/incoming/article34675265.ece/ALTERNATES/s615/0_JS417536082.jpg",
-      "summary": "Mikel Arteta was assistant manager at Manchester City before making the switch to Arsenal in December 2019",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-news-kai-havertz-34673150",
+      "image": "https://i2-prod.football.london/arsenal-fc/news/article34673149.ece/ALTERNATES/s615/0_Arsenal-FC-Training-Session.jpg",
+      "summary": "A big Arsenal transfer target has been name-dropped",
       "teams": [
-        "mancity",
         "arsenal"
       ],
       "publishedAt": 1790395200000
@@ -297,16 +394,15 @@
       "publishedAt": 1790373884000
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37638649.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have finally received the verdict from the Premier League on their alleged breaches of financial rules, with the club guilty on all but one of the 115 charges",
+      "competition": "epl",
+      "title": "Cash-strapped Man Utd can forget about winning Premier League by 2028 - transfer woes guaranteed to continue as new stadium plans advance",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTkJQVU8tdHY3UGhfalNlNjV2TWFnNWJIT1F6YmZWX1pyR0FVSHFJWW9DeEo4SFFPdmFZMkRVQWVkWEJzeUk0TG43OGR2S1h6amtiQ1M1SUtFZGV6a1pOeGFQVEMyTjc3N2VaZUZqaFRpR1VaSzVGZGdROUJDcEJJdlhrQ3lnQzZqNEpJaDJwbTk3VHYyc0hNQm0tRWo1cUNoaTlwZkhzNk5sTzUzV2s5RjdiZUhDbWFOQ1duTkdSeGxuWVJBQXVfcThZbEVHelZ2NHdRc1ZadlQ3UmdUbUx3bEczWDBxNC1UdWc?oc=5",
       "teams": [
-        "mancity"
+        "manutd"
       ],
-      "publishedAt": 1790373657000
+      "publishedAt": 1790402400000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -396,6 +492,17 @@
       "publishedAt": 1790371515000
     },
     {
+      "competition": "epl",
+      "title": "Man City charges verdict LIVE: City found GUILTY of 114 rule breaches as Prem clubs plan legal action - updates",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmswTFlJSFhpS3l5WUdVYTFnNUVSRlBSWUhDSldGWU1jTnF0ejFxdWRsbnJ6VEROQkRIbU5lRVE1SlVjVWhveXQtaWxSMVZZSGZyZjJxb182T2VWZVFCNVhWRGhOeVhvQlhFWUFZT2YyY29sZHJmdzFXTUdiWUgyQ2JYbERaRmRoNnU0NUEyRVFOSmRNQUJnam5iMERLeDBKMm1mU2EzWQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790399486000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Cambiaghi: &#8216;Italy struggled, but will see a better performance in Turkiye&#8217;",
       "publisher": "Football Italia",
@@ -433,14 +540,14 @@
       "publishedAt": 1790370542000
     },
     {
-      "competition": "epl",
-      "title": "How drawn-out saga of Manchester City’s alleged cheating came to this",
-      "publisher": "theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDJVNG9EODJ1eThlWVZiSUJBUE05bk1uZVl5dGJWVU9KZ3ZyeG03bFpPTGxUcmNJRGdjTEwyNDExYk9fTGpGOXoxSFNGVDJKV2VIWEkyQVlfNHVTTlBfYWhfS1V5OU1uM0V5M1FkODhINTlBTEJyNmg4amNxdkRxekY4YjVjYWhOQ2l6OGpFaldsRkhIbGRsYXlENFVJSjRwX1BfdklJS1FSaEdIMGFacW5R?oc=5",
+      "competition": "ucl",
+      "title": "Jobe Bellingham has become England U21s’ leader. The comparisons with Jude are hard to ignore",
+      "publisher": "nytimes.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUjVhRUc0cUJMUTN1YjlZRE1aeW9mUUZJdk9GdS1CR0w2aVNjSV9VSW5CNEctdnU0OHpSTUdGZjVsclFlWS1ST0tZZnN4UDA2ZnhxNldMdWdGY2YwX0lmbkJqQnRUYXBRUkFtZF9uWklOOGlwMVdxY0ZVcjdUTHpEal84OUxYM2NYZk9kTE1nOHlnNkFxdEE?oc=5",
       "teams": [
-        "mancity"
+        "england"
       ],
-      "publishedAt": 1790398800000,
+      "publishedAt": 1790399238000,
       "image": null
     },
     {
@@ -506,6 +613,18 @@
         "georgia"
       ],
       "publishedAt": 1790369198000
+    },
+    {
+      "competition": "unl-a",
+      "title": "England vs Spain – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcTZRTnNQdDR4M0JjNzBadzhzLVRhOG82U1QxZ05KcEh5SnlSc3ZIRVJqWGVjbnA3T3hxSjIzS0Z0ejVQaHBPdDU4c2hLMDNKdHdwMkR5V1E5ZF90ODlseDc1NHJXU0g0elRBMU1jLXY0VDhVdEFSbDFGbVlHZkdLVWNEZS1hVl8zVUE?oc=5",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790397900000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -619,133 +738,13 @@
     {
       "competition": "epl",
       "title": "The damage of the Manchester City verdict runs deep. An era of Premier League history is tainted",
-      "publisher": "The New York Times",
+      "publisher": "nytimes.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT2RXRW5ZOWJzOTBpYnp3NWlVYXJ3RTJYbTBBMWNPNWZyNjNEdFpxUFVDQjFPaGVUakVqWTZzZTRlQUIycUw5dC04SUExZF9fTE81YldObTM5bGdpWlU0QU5ZbXBVSnRSUzBFeW10VTNLejVwZndTWXdfTFNHVy1ON1drV25jSnoyRkpXUlRmQjB2cjJzOG00?oc=5",
       "teams": [
         "mancity"
       ],
       "publishedAt": 1790396045000,
       "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Clubs seek legal advice over Man City charges compensation",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/588a/live/72e11970-b96b-11f1-b55e-350150ef61ab.jpg",
-      "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790367233000
-    },
-    {
-      "competition": "epl",
-      "title": "Manchester City found guilty: What do we know? How big is this? And what comes next?",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOejg0ZVR0a1dEVFNlSDZIUWRHV2xFRWViRVRKUG5BdVRqdk53d3FVOGFwc05VbWl4ZXBBRFJCdlFza2MtS0JXeXQ5VUluc1pXVS1iXzREajY3d3Y5QUpQWXEydTM5Tk5RRTYwQ2w5UHpqbUY1a28xODFBZE1JR0t1SWtCWUthZENYS1RQWTl6MA?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790396021000,
-      "image": null
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer news: Brentford hold Kevin Schade contract talks as Arsenal, Liverpool track Germany winger",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONXo1bnhrMVk3UlQ5NHpDS1NVUXp3ZXJnVS02UlNwc0pXaHkxTE1INllVUHhzR1h4ZktDbVR2UFhwN29mb2d6SHNZbUt5c1VYLUFLeVYxX0tVX3JqSUM3LW9WU3V1Z0ZHM3FlNkxJSDBnQy1FOHhwdV95SWg5TzM3NHJuY0lGOWFSelpyM2FjbmkzbHRzaWFjc1dWa3U5LVJ5YWVtcGVJWHN1RjVDMThYWjNoYVYzMHJ3djJtc0V5SnhNRXZoY3ZtYnNHZ29oUThPZno1R2ZOMDJiWTh1TDVsSQ?oc=5",
-      "teams": [
-        "brentford",
-        "liverpool",
-        "arsenal"
-      ],
-      "publishedAt": 1790395735000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Man City ‘found guilty of almost all Premier League charges’ in bombshell verdict",
-      "publisher": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONVVxXzF2OHBXYUozamRuWTBaLVY4Ymw3VXdfSlV2RE9UTlQ0ZFdVMFdTZ1ZwRnRFSFFDdU14VXZjaENVMFpUc0dpMDg1WXlrNU9hNHcxcHJ2cXRId1drWEszTzY4QzNiRVNHWXdQNGZBMUdyZjJUQkstMFRrZTdZZURmY1BuQ0E0R3dNRGR3bmJWVGttanVXTTFlSlhvdnExUHlIR19kaG9QYlpqalRiLQ?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790395471000,
-      "image": null
-    },
-    {
-      "competition": "tele",
-      "title": "Manchester City found guilty of 114 charges",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/09/25/manchester-city-guilty-financial-rule-breaches/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/25/TELEMMGLPICT000486317927_17903537268000_trans_NvBQzQNjv4BqdyzzeLTVDDdM_6qhSz43_P4Xpit_DMGvdp2n7FDd82k.jpeg",
-      "summary": "Manchester City found guilty of 114 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790366637000
-    },
-    {
-      "competition": "men",
-      "title": "Man City told why Premier League appeal will fail with 'all hell about to break loose'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34675152",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34675180.ece/ALTERNATES/s615/0_JS355305355.jpg",
-      "summary": "Manchester City have been found guilty of all but one of 115 Premier League charges for alleged financial breaches",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790366346000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City guilty of majority of 115 charges - 5 Live reaction",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pckjx7?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
-      "summary": "What next for Man City and the Premier League after being found guilty of 114 charges?",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790365680000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal and Tottenham could demand millions after Man City 115 charges verdict",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-spurs-man-city-charges-34675146",
-      "image": "https://i2-prod.birminghammail.co.uk/sport/football/transfer-news/article20585746.ece/ALTERNATES/s615/0_Etihad-Stadium.jpg",
-      "summary": "The Premier League has found Manchester City guilty on 114 of 115 charges, and Arsenal and Tottenham Hotspur could be set for a major cash injection as a result",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790365408000
-    },
-    {
-      "competition": "laliga",
-      "title": "Real Madrid Hits Back at LaLiga President Over Referee Remarks",
-      "publisher": "roundtable.io",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM1h0RFE3SlEtNnhHZ3BMNDc0eERnTEtzUWVvb0tYQVhjM0dFME1oZ21YRVpiQnNMaUkxU2JKT0syaDg5OVVYMnRXdU5zTkw2QkVJZ0sxTEdtZDFfdXlZTlNLWWxHR1BWWk5kcjhkVm1zSWUzTmFlb01IN0Q2a1dZdVRhQm5pa1l4bWRoalp3cTFMck1Mc0t6Y3NKdkp0YjI2cWZOZ2hMOV9nSFhHSWQ1VVNPWGI2bXRJQU9nb2RxTjg?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790394168000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League clubs consider legal action as Man Utd react to Man City guilty verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-united-city-premier-league-37704365",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37661901.ece/ALTERNATES/s615/0_GettyImages-2294627636.jpg",
-      "summary": "Manchester City's ongoing legal battle against the Premier League has already seen Manchester United and other clubs consider taking action over potentially losing millions",
-      "teams": [
-        "mancity",
-        "manutd"
-      ],
-      "publishedAt": 1790364994000
     }
   ]
 }
