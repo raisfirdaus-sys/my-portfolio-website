@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790379851651,
+  "generatedAt": 1790382858411,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1505,
-    "tagged": 792,
+    "raw": 1512,
+    "tagged": 798,
     "droppedKeyword": 17,
     "droppedOtherSport": 2,
-    "droppedFeed": 4,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Jamie Carragher makes Ibrahima Konate transfer claim and explains Liverpool 'freak'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-makes-ibrahima-konate-34671251",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34469347.ece/ALTERNATES/s615/0_GettyImages-2274545294.jpg",
+      "summary": "Former Liverpool defender Jamie Carragher has praised the impact of summer signing Jeremy Jacquet at Anfield",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790380800000
+    },
     {
       "competition": "guardian",
       "title": "Rodri insists Manchester City ‘deserved’ success despite FFP guilty verdict",
@@ -736,18 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790356074000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges timeline as damning Premier League guilty verdict reached",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-timeline-appeal-37704056",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704095.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "A look back on Manchester City's battle with the authorities after the club was found guilty of all but one of the Premier League's charges against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790356010000
     }
   ]
 }
