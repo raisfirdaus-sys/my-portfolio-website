@@ -1,28 +1,28 @@
 {
-  "generatedAt": 1790458236485,
+  "generatedAt": 1790460393849,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1490,
-    "tagged": 790,
-    "droppedKeyword": 26,
+    "raw": 1485,
+    "tagged": 788,
+    "droppedKeyword": 30,
     "droppedOtherSport": 3,
-    "droppedFeed": 4,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "mirror",
-      "title": "Thomas Tuchel brutally shuts down England question live on ITV with blunt answer",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-result-37706321",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706331.ece/ALTERNATES/s615/0_tuchel.jpg",
-      "summary": "England suffered a narrow 3-2 loss to Spain in the Nations League at Wembley on Saturday evening, with Thomas Tuchel somewhat reserved in his reflection in the aftermath",
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
       "teams": [
-        "england"
+        "mancity"
       ],
-      "publishedAt": 1790458035000
+      "publishedAt": 1790459193000
     },
     {
       "competition": "mirror",
@@ -34,7 +34,44 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790457624000
+      "publishedAt": 1790458989000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE:  Mikel Oyarzabal clinches victory for world champions in five-goal thriller at Wembley",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/21/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790458566000
+    },
+    {
+      "competition": "indy",
+      "title": "“Gutted about the mistakes”: Anthony Gordon reflects on ‘missed chance’ to beat Spain",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/anthony-gordon-thomas-tuchel-reaction-england-spain-defeat-b3056985.html",
+      "image": "https://static.independent.co.uk/2026/09/26/22/2026-09-26T192949Z_1243891352_UP1EM9Q1I5OW9_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP.JPG?width=1200&auto=webp&trim=0%2C3%2C0%2C3",
+      "summary": "England manager Thomas Tuchel praised the team for their reaction after the ‘worst possible start’ but admitted mistakes cost them the game",
+      "teams": [
+        "spain"
+      ],
+      "publishedAt": 1790458479000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel brutally shuts down England question live on ITV with blunt answer",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-result-37706321",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706331.ece/ALTERNATES/s615/0_tuchel.jpg",
+      "summary": "England suffered a narrow 3-2 loss to Spain in the Nations League at Wembley on Saturday evening, with Thomas Tuchel somewhat reserved in his reflection in the aftermath",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790458035000
     },
     {
       "competition": "indy",
@@ -60,18 +97,6 @@
         "mancity"
       ],
       "publishedAt": 1790457549000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790457474000
     },
     {
       "competition": "tele",
@@ -174,19 +199,6 @@
         "england"
       ],
       "publishedAt": 1790455745000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE:  Mikel Oyarzabal clinches victory for world champions in five-goal thriller at Wembley",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/21/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790455445000
     },
     {
       "competition": "bbc",
@@ -746,18 +758,6 @@
         "mancity"
       ],
       "publishedAt": 1790434948000
-    },
-    {
-      "competition": "mirror",
-      "title": "What happened between Spain and Argentina? World Cup chaos explained including 10-game ban",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-argentina-world-cup-37696455",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37579232.ece/ALTERNATES/s615/1_Argentina-Spain-WCup-Soccer-26202650903091.jpg",
-      "summary": "England face Spain in the UEFA Nations League on Saturday, two months after La Roja's World Cup win over Argentina ended in horrendous scenes",
-      "teams": [
-        "spain"
-      ],
-      "publishedAt": 1790434800000
     }
   ]
 }
