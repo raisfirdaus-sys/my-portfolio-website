@@ -1,29 +1,115 @@
 {
-  "generatedAt": 1790447567586,
+  "generatedAt": 1790449487482,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1495,
-    "tagged": 800,
-    "droppedKeyword": 26,
+    "raw": 1484,
+    "tagged": 791,
+    "droppedKeyword": 25,
     "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "guardian",
-      "title": "England v Spain: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/dd52e321d339bd1923f1ca70a3a57faea6c223e9/313_0_3132_2505/master/3132.jpg?width=140&quality=85&auto=format&fit=max&s=44aed69f02cd6ce0511e2daeb35a826b",
-      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTok“Rob,” begins Alan Baverstock. “Sid Lowe writes b e a u t i f u l l y.”Damn straight. All his stuff is great but I…",
+      "competition": "fitalia",
+      "title": "Report Juventus want Kovacic, Raum and Tomori as free agents in 2027",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/report-juventus-want-kovacic-raum-tomori-free/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/us-cremonese-v-ac-milan-serie-a-1-414x276.jpg",
+      "summary": "Juventus are reportedly working on bargains for next season already, including Manchester City’s Mateo Kovacic,...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790449397000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel gives reason for surprise Jordan Pickford England decision vs Spain",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-tuchel-pickford-decision-37706058",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706067.ece/ALTERNATES/s615/0_JS419352422.jpg",
+      "summary": "Thomas Tuchel chose James Trafford as England's goalkeeper ahead of Jordan Pickford to face Spain",
       "teams": [
         "england",
         "spain"
       ],
-      "publishedAt": 1790446770000
+      "publishedAt": 1790448917000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Lamine Yamal gives world champions early lead after Marc Guehi error",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/19/01M3FEB17G77Y8Y6BZEMDGAKSJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790448760000
+    },
+    {
+      "competition": "guardian",
+      "title": "England v Spain: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/c6be4f75a005b5a244edb6064df70f4750022227/365_0_5237_4191/master/5237.jpg?width=140&quality=85&auto=format&fit=max&s=21f8c09bb036687b64394716738eba0e",
+      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790448576000
+    },
+    {
+      "competition": "indy",
+      "title": "Man City charges verdict – live: City chairman insists innocence in statement on reports over Premier League charges",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-charges-verdict-live-updates-b2706785.html",
+      "image": "https://static.independent.co.uk/2026/07/30/14/2167274432..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "The long-awaited verdict over charges levelled against Man City by the Premier League represents a seminal moment with major repercussions set to be felt in the coming months and years",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790448536000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Jamie Gittens hand Chelsea new injury blow after double international break worry",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/jamie-gittens-england-chelsea-injury-34677196",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34677247.ece/ALTERNATES/s615/0_England-U21-v-Kazakhstan-U21-UEFA-European-U21-Championship-Qualifying-Football-Molineux-Stadium.jpg",
+      "summary": "The Chelsea winger was involved with England's Under-21s team for the extended international break this month",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790448429000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790448262000
+    },
+    {
+      "competition": "echo",
+      "title": "Jurgen Klopp may face hefty bill if he sticks to Manchester City charges promise",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-man-city-liverpool-34677220",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677392.ece/ALTERNATES/s615/0_JS419131571.jpg",
+      "summary": "Former Liverpool manager Jurgen Klopp has previously spoken about the potential outcome of the 115 charges against Manchester City",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790447956000
     },
     {
       "competition": "men",
@@ -36,44 +122,6 @@
         "mancity"
       ],
       "publishedAt": 1790446524000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790446365000
-    },
-    {
-      "competition": "indy",
-      "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-tv-channel-time-nations-league-b3055594.html",
-      "image": "https://static.independent.co.uk/2026/07/18/21/8a628f25af3212893c4af9665b1bd3b6Y29udGVudHNlYXJjaGFwaSwxNzg0NDkwOTM3-2.85316620.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Everything you need to know ahead of England’s first game since the World Cup",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790446209000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Trafford starts and Alexander-Arnold on bench as Three Lions host world champions",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/19/01M3FEB17G77Y8Y6BZEMDGAKSJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790446117000
     },
     {
       "competition": "fitalia",
@@ -561,18 +609,6 @@
     },
     {
       "competition": "indy",
-      "title": "Man City charges verdict – live: City chairman insists innocence in statement on reports over Premier League charges",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-charges-verdict-live-updates-b2706785.html",
-      "image": "https://static.independent.co.uk/2026/07/30/14/2167274432..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The long-awaited verdict over charges levelled against Man City by the Premier League represents a seminal moment with major repercussions set to be felt in the coming months and years",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790434053000
-    },
-    {
-      "competition": "indy",
       "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-player-vote-gaza-b3056884.html",
@@ -682,6 +718,19 @@
     },
     {
       "competition": "bundes",
+      "title": "Werder Bremen beat Real Madrid legends in goal-filled anniversary match",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/werder-bremen-real-madrid-legends-friendly-makelele-pepe-diego-39360",
+      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083828808h.jpg?crop=80px%2C228px%2C2035px%2C1147px",
+      "summary": "Werder Bremen celebrated the 100th anniversary of their Weserstadion with a 4-3 friendly win against Real Madrid’s Legend’s team on Saturday..",
+      "teams": [
+        "werder",
+        "realmadrid"
+      ],
+      "publishedAt": 1790432084000
+    },
+    {
+      "competition": "bundes",
       "title": "Bayer Leverkusen starlet Ibrahim Maza shining on the international stage for Algeria",
       "publisher": "Bundesliga",
       "link": "https://www.bundesliga.com/en/bundesliga/news/ibrahim-maza-shines-algeria-zambia-bayer-leverkusen-39361",
@@ -703,57 +752,6 @@
         "mancity"
       ],
       "publishedAt": 1790431532000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Report Patric to leave Lazio as free agent for Al-Ittifaq",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/report-patric-to-leave-lazio-for-al-ittifaq/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Patric-Lautaro-Martinez-414x276.jpg",
-      "summary": "Lazio are ready to say goodbye to defender Patric with reports he is in talks...",
-      "teams": [
-        "lazio"
-      ],
-      "publishedAt": 1790431182000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Video: Inter defender John Stones names his all-time England 5-a-side team",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/video-john-stones-all-time-england-team/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/John-Stones-celebrate.jpg",
-      "summary": "Inter defender John Stones has named his all-time England five-a-side team, including his former Manchester...",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790431112000
-    },
-    {
-      "competition": "bbc",
-      "title": "'Significant majority' of Republic of Ireland players voted to play Israel game",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6x2zzpvpe9zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50af/live/b4586d40-b9b1-11f1-929f-f1f9c2e672cb.jpg",
-      "summary": "Football Association of Ireland chief executive David Courell confirms that the Republic of Ireland's Nations League match against Israel will go ahead on Sunday.",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790430890000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Report Manu Koné now worth €100m to Chelsea, Manchester United and Liverpool",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/report-manu-kone-worth-e100m-chelsea-man-utd/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Manu-Kone-goal-2-414x276.jpg",
-      "summary": "After reports Roma rebuffed €50m proposals from Manchester United, Chelsea, Atletico Madrid and Liverpool, it’s...",
-      "teams": [
-        "manutd",
-        "liverpool",
-        "chelsea"
-      ],
-      "publishedAt": 1790430420000
     }
   ]
 }
