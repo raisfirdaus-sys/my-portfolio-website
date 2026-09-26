@@ -1,17 +1,137 @@
 {
-  "generatedAt": 1790408187139,
+  "generatedAt": 1790410285068,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 773,
-    "droppedKeyword": 23,
-    "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "raw": 1512,
+    "tagged": 780,
+    "droppedKeyword": 22,
+    "droppedOtherSport": 2,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 48
+    "withImage": 46
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Liverpool announce new sporting director as Julian Ward returns for second spell",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-sporting-director-julian-ward-37702894",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article29190883.ece/ALTERNATES/s615/1_Jurgen-Klopp-Signs-A-Contract-Extension-at-Liverpool.jpg",
+      "summary": "Liverpool were forced to look for a new sporting director when Richard Hughes left the club after two-and-a-half years in the role, deciding to join Saudi Arabian club Al-Hilal",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790409656000
+    },
+    {
+      "competition": "metro",
+      "title": "Do England need to qualify for Euro 2028 despite being co-hosts?",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/26/england-need-qualify-euro-2028-despite-co-hosts-2-29647559/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312838179-1dc8.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790409600000
+    },
+    {
+      "competition": "footlondon",
+      "title": "The Tottenham XI Roberto De Zerbi must pick to beat Manchester United as four changes made",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/tottenham-line-up-man-utd-34672015",
+      "image": "https://i2-prod.football.london/incoming/article34671997.ece/ALTERNATES/s615/0_GettyImages-2295456486.jpg",
+      "summary": "Tottenham are back in action on October 10 when they travel to Manchester United in the Premier League",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790409600000
+    },
+    {
+      "competition": "mirror",
+      "title": "World's richest footballer and Chelsea flop worth 12 times Messi and Ronaldo now free agent",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/worlds-richest-footballer-messi-ronaldo-37704861",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article36595838.ece/ALTERNATES/s615/3_Soccer-Under-21-Friendly-Match-Chelsea-U21-v-Burnley-U21-Cobham-Training-Ground.jpg",
+      "summary": "The nomadic player, who had stints at various English clubs, finds his career at a crossroads",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790409546000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Punishment latest as clubs consider legal action after guilty verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of the Premier League's financial rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790409416000
+    },
+    {
+      "competition": "mirror",
+      "title": "Whistleblower behind Man City 115 charges breaks silence on guilty verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/whistleblower-behind-man-city-115-37704848",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704794.ece/ALTERNATES/s615/0_GettyImages-1969900764.jpg",
+      "summary": "Manchester City have been found guilty of breaching Premier League financial rules and the whistleblower who leaked documents has spoken out on a 'devastating' result for the club",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790409321000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League financial rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790409137000
+    },
+    {
+      "competition": "indy",
+      "title": "The uncomfortable question facing every Man City fan after seismic verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-fans-verdict-premier-league-charges-b3056630.html",
+      "image": "https://static.independent.co.uk/2026/09/25/20/2296224411..?width=1200&auto=webp&trim=0%2C68%2C0%2C68",
+      "summary": "After the Premier League’s reported verdict over City’s alleged breaches across a nine-year period, Ed Malyon highlights a difficult reality for fans in a sport that provokes deep emotions",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790408947000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Today’s Papers: Mancini’s second era starts badly, Italy stayed in Zenica",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/todays-papers-mancini-second-italy-era-bad/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-032304ykgc61q.webp",
+      "summary": "La Gazzetta dello Sport Italy, 2 slaps Azzurri beaten by Belgium (0-2): It finishes in...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790408486000
+    },
+    {
+      "competition": "indy",
+      "title": "Kylian Mbappe injured scoring France winner as Zinedine Zidane provides worrying update: ‘It’s not good’",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/kylian-mbappe-injury-france-turkey-zinedine-zidane-b3056773.html",
+      "image": "https://static.independent.co.uk/2026/09/26/07/2026-09-25T201305Z_648094132_UP1EM9P1K5SFW_RTRMADP_3_SOCCER-UEFANATIONS-TUR-FRA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Mbappe will return to Real Madrid after sustaining a knee injury",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790408415000
+    },
     {
       "competition": "indy",
       "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
@@ -49,30 +169,6 @@
         "mancity"
       ],
       "publishedAt": 1790407767000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Punishment latest as clubs consider legal action after guilty verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of the Premier League's financial rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790407682000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League financial rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790407584000
     },
     {
       "competition": "men",
@@ -137,18 +233,6 @@
       "publishedAt": 1790406000000
     },
     {
-      "competition": "indy",
-      "title": "Kylian Mbappe injured scoring France winner as Zinedine Zidane provides worrying update: ‘It’s not good’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/kylian-mbappe-injury-france-turkey-zinedine-zidane-b3056773.html",
-      "image": "https://static.independent.co.uk/2026/09/26/07/2026-09-25T201305Z_648094132_UP1EM9P1K5SFW_RTRMADP_3_SOCCER-UEFANATIONS-TUR-FRA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Mbappe will return to Real Madrid after sustaining a knee injury",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1790405974000
-    },
-    {
       "competition": "bbc",
       "title": "Do England have a problem against top-10 teams?",
       "publisher": "BBC Sport",
@@ -162,18 +246,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Thomas Tuchel called up 15 players from his first England squad – with 11 axed",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-squad-thomas-tuchel-spain-37701551",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37701719.ece/ALTERNATES/s615/0_England-Press-Conference-and-Training-St-Georges-Park-Tuesday-March-18th.jpg",
-      "summary": "There have been plenty of changes to Thomas Tuchel's England squad over the last 18 months for a combination of reasons",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790402400000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch England vs Spain for free - TV channel, live stream and kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/england-spain-tv-channel-stream-37699167",
@@ -182,6 +254,18 @@
       "teams": [
         "england",
         "spain"
+      ],
+      "publishedAt": 1790402400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel called up 15 players from his first England squad – with 11 axed",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-squad-thomas-tuchel-spain-37701551",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37701719.ece/ALTERNATES/s615/0_England-Press-Conference-and-Training-St-Georges-Park-Tuesday-March-18th.jpg",
+      "summary": "There have been plenty of changes to Thomas Tuchel's England squad over the last 18 months for a combination of reasons",
+      "teams": [
+        "england"
       ],
       "publishedAt": 1790402400000
     },
@@ -358,18 +442,6 @@
     },
     {
       "competition": "footlondon",
-      "title": "What Cole Palmer is doing away from Chelsea as Thomas Tuchel blasts forward again",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/cole-palmer-chelsea-tuchel-england-34675193",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675271.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
-      "summary": "Cole Palmer snubbed the chance to play for England in the Nations League during the international football break, with Thomas Tuchel giving a scathing assessment of the Chelsea talent",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790395200000
-    },
-    {
-      "competition": "footlondon",
       "title": "Arsenal latest: Transfer target name-dropped as Mikel Arteta given fresh hope",
       "publisher": "football.london",
       "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-news-kai-havertz-34673150",
@@ -377,6 +449,18 @@
       "summary": "A big Arsenal transfer target has been name-dropped",
       "teams": [
         "arsenal"
+      ],
+      "publishedAt": 1790395200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "What Cole Palmer is doing away from Chelsea as Thomas Tuchel blasts forward again",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/cole-palmer-chelsea-tuchel-england-34675193",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675271.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
+      "summary": "Cole Palmer snubbed the chance to play for England in the Nations League during the international football break, with Thomas Tuchel giving a scathing assessment of the Chelsea talent",
+      "teams": [
+        "chelsea"
       ],
       "publishedAt": 1790395200000
     },
@@ -443,6 +527,17 @@
       "publishedAt": 1790391600000
     },
     {
+      "competition": "seriea",
+      "title": "Report: Juventus set to open contract talks with Francisco Conceição later this year",
+      "publisher": "blackwhitereadallover.com",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLTl6T3ZMX3FGbC10VXBBdHUwbWI4dUxXOXBrUlItVU52b254V3otNGpsWEc3M2tEZmZ5ZDQtX3pBZkE4bWZIVW51bGNxN3A4M3pfYTZIWjE3SzZXX1N6ZXAxNTlNekJOUVFaX0t0Ni1IbDF6enhtdXpBUU9PZUJOZnhMUXB6R3RnbXlIV0hJdTFtbmNkNTZYOFZwYlNiVDR4ektnVUhyWkVJY3N1RkowSDBUcktRX3VrN1RiamZhcXBKekJ5UmE0WkZwOENOb3dHbzhfQzVSRnVrUERnTVp4NEExZjNMZWhkSEFTbG9aR2c?oc=5",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790409600000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Jamie Carragher makes Ibrahima Konate transfer claim and explains Liverpool 'freak'",
       "publisher": "Liverpool Echo",
@@ -453,6 +548,50 @@
         "liverpool"
       ],
       "publishedAt": 1790380800000
+    },
+    {
+      "competition": "epl",
+      "title": "Which Premier League clubs seek compensation from Manchester City?",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjh3TUswZ3IwNm1GMjBpSWlSYUtYYXE2ZUJPenB1VGVEX1ZVRVQ0Y09hWVpTSlZ2bDFJODByYnB5SUFQTnJwNTdNTThkNlpzVi1UMHFaTlhoajhtbWZNU3Q1YnRwQzFpQzJyY3R4dTVZRDluY0xtWG5hUDNnekd3dDVzSkhVbUctaGZSSUxsRTE?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790409300000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Manchester City found guilty? What we know; what could the punishment be?",
+      "publisher": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWXlWWHNINjF5WjRXdVZlRE5zRC1DM1RobHotZkpzSEZRcDdnVm43eUFHbm1JejJqRVM0TnJTclhxRFR4U2FxdHJSUW10SEdWYTBJZmdyblB3SzFzY1RSNkdQcDZOUXBQV0U5MVNPaHRzdzlJc29uVDdOV0RiZUR0VlZONFE2NDlLUlRYeFBYbWNxU2tuMFlTdDJ2bXFVOXZLZ2VSOXM1cTFjMHM1aHBGM1VFY9IBuAFBVV95cUxOSVBDREtnaS1FRGdGUHpDQ2k5RE5uYm4xT25BUlV4VmdHM0tjZEVjNnRjVXFEbU1BbXd5aWVIV0pqUi1wWnQzZTZRNlFqblFMdFREekxMa1Q2Y09La0FfRDQ4STBrV0NOaGFiMzc4RHJnRUFtUXZvem1rRmhhUGhpUXJuQ0ZTam5KUklGWWk4UTZBWWlJS1V2RTBDQlBGOW1xX3ZkMTd3Z0JobTdNaVlYTXRWdVUxZG9o?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790409150000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "Barcelona's start to season is best in Europe's top 5 leagues for almost 100 years",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZVk0OGJ2cDA0X0dQYlBTUVZ3MnpLX01jdm9TRktwUmxnZlgzb2FnWUJwa0twR0Jzdm1FczI0YWtfdHM4ci1hUzAwYW05M3JkUEhVLWotcW9KRUZsZTZLT3A2UUxQZHA2WWxQMzRobFVEbS1kM293cnlEMy1PUjV3YmNEY1VtT1cxMWJncjlCQ19CQ1JrZVBhSmR2RG9OY0s1cDBSTjhPZExMVEtSenQ4dmhybEJLRkc1bFQ3enR0LW1MZ3JZdWFHY0tld2hqai1jLThzMTFPMTA?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790408760000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "What does Man City 'guilty' verdict this mean for Pep Guardiola's legacy",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVdGV3hoWU53bFRSNGRCeFN5VTBzbkpNRWpkOU8xYk5NVllZRTRKM1I2UkNvaG1nd05tbzhYRFFSZklZR2owZXVPZG1NeW5lR0E0QkV5djF2WXlKc09KcldNSkxPT211c01jV2dYblE2UWNtbzRQaE9nZU1EQjdRYm5QWQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790408460000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -468,18 +607,6 @@
     },
     {
       "competition": "unl-a",
-      "title": "England vs. Spain 2026 livestream: How to watch Nations League for free",
-      "publisher": "Mashable",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVDhhRXBuekdxOE9pZ1A2M0I2ckt2aWdqQ1luRlFjZVA3TVpmVktvRXBnckoycFdGcTNsMzJwZTVZUTNoTGMwSHRzOHhJV1NnZWZqS0p6X1lOUTVkS2RQc1FjazhoUUY2ak82NDgzd0FwRFUtM1pPYjNLNEtMa2lMR1pVSlFROGFkdVpUdWdCUjlOY2c?oc=5",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790407835000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
       "title": "Where to watch England vs. Spain live stream, TV channel, start time and lineups for UEFA Nations League match",
       "publisher": "sportingnews.com",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMk8yTHVZbzlneDRPUmVLaDYwRnQ0TW85REdDRFI2ZGlvTjN2bXplMWVHb2J1c0FZYTZqWjBhU0JNaTRUWnV2cE9yZ0JQM3FKV3Bvd3NsWmxqeEltM3lwM1Zpb0F5OEdhYUxibjZiQnQ0eFo2bU5aZWdWa1k5MEI1Q01zQ1VDMl9CM2RyQmVuVXVERWFMd0JrZnBFYzhUZUlfWDhpZngzNEFya1VDektfMHBvSk1FeHVPZFBZNHYyb0I4ZjVCSlh0SktXZkNhbU1HYThONFJDTzVINU0zakhz?oc=5",
@@ -491,20 +618,9 @@
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "Manchester City set to fight Premier League over 100-plus financial breach charges",
-      "publisher": "Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNby02a3JMVG0wT01vSmhHMDlidGZRMFplSVM4MDFNQ0R4Zm9GNWo2bS1tSTF1U2ZCVlQ5RVVOdmhBNDMwMWhMRlVJdll0N3RpeXdDRWs3M19LbkZzRkYzMVdYbXk1VjdtdkFzeEJWOGNIek9lSzltZW1nMGtISDAzeGhIcnZ1bmxIdlRaZER5cFRxcHp2Qy1ib2hRalpQcW1fb3QxTkNVcDJOR3pTV1AtUi05X2ZtV3RDaXMxT1ppOXh1WkNIRmV1QmVjSUFuNkhF?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790407522000,
-      "image": null
-    },
-    {
       "competition": "ucl",
       "title": "Bayern Munich touted as PSG’s biggest Champions League competitors, not Arsenal, Real Madrid, or FC Barcelona",
-      "publisher": "Bavarian Football Works",
+      "publisher": "bavarianfootballworks.com",
       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNSS1jU3hKcURnLV93N0VOeFljYThsOW1La0RFdGVkYU1NUEVMcmlCWDZFZDZnVkkxdFozUjZvbXV3QjZIaGM2dkRHRFFKYXM2NzNYRkljZzZuM3ZreUpkVHRNanYwWHFFZFhPdnhacm9YWThOdktQSHJPZVhWUHZvcGg5LTBTc1c2djBKRlJmVTdxR2g4amNLbUpnZnFwaFU1T3l5WWMwYnQ4dzY1UmhiaU0xMXdMY212LUhGYVVhX1ZmYUdNVGRvSzFJa2s0R0JSaFVLVFNIbXVzeHVTWmpZRkMtaEUxdzl4ZEdhLU1HZ0l4SEtzd2hWUnBzV1IxemNtT3Y2Z2R4cXhUdkRSYnc?oc=5",
       "teams": [
         "bayern",
@@ -516,14 +632,13 @@
     },
     {
       "competition": "epl",
-      "title": "Barcelona star Rodri defends Man City over 115 Premier League financial charges",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmRLc0h2d20wWWdmSmM0blhBdmFlT2ZiMGljWThOVTRZMTlqaWpOcEY4Z0NOYmZTWDFvOXJaQWQ0MUwzWndJc0xvMVcxb050WUV6VVItdEFHSUpTbFEtcGM1dkV4dHMySnJUWjZSMG1iM1owNjhCTlkyVnk4QmtZNC1qWThCZ2cwcVZLNF9FWTVka1ZjMXVGU1hn?oc=5",
+      "title": "The damage of the Manchester City verdict runs deep. An era of Premier League history is tainted",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT2RXRW5ZOWJzOTBpYnp3NWlVYXJ3RTJYbTBBMWNPNWZyNjNEdFpxUFVDQjFPaGVUakVqWTZzZTRlQUIycUw5dC04SUExZF9fTE81YldObTM5bGdpWlU0QU5ZbXBVSnRSUzBFeW10VTNLejVwZndTWXdfTFNHVy1ON1drV25jSnoyRkpXUlRmQjB2cjJzOG00?oc=5",
       "teams": [
-        "barcelona",
         "mancity"
       ],
-      "publishedAt": 1790405682000,
+      "publishedAt": 1790405507000,
       "image": null
     },
     {
@@ -563,13 +678,24 @@
     },
     {
       "competition": "epl",
-      "title": "Man City vs the Premier League: The lawyers who have been fighting sport’s ‘trial of the century’ - The Athletic",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0o5OHI4M3dIeF9HbUhCWlUyamw2ZTJrYkdPb29Udk9ra3NYeVFZSkFjM3ppQ2lwV0R5bVhKWF9WM280Ry0xcjM3MWJZNmJpQ1FHWWFjb0FWRjFSUG5mZ3NtWXJWaHRDU2Z4N0tvaW9JWFl0NlJoSGVzS1F2Vng2bGI3TTlBZGVGYkdoQw?oc=5",
+      "title": "Finance expert is correct, Man City should be expelled from the Premier League",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdTR6XzM3ejUtZ3p4cUhSeFpnWlp3OXJmX1BsRGRhRnBoYnVVQnhMRUVPcnplYWRmWGh2OFZWRFFBXzNOOERYX3JOR3RwOU9CSnJTejFTTTdyTU55SzBGQm45akVqOTlTLWp2SGJJbHBqVGtJM0dRV3lGS3ptb1ZUMEl3MTM5V3M?oc=5",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790404440000,
+      "publishedAt": 1790404800000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Everton player power rankings: Jordan Pickford misses out, new signing in at 2",
+      "publisher": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeUx3cG96TkZLZEZBbDZDQWpUS1hfVnZaaldfYzNtZ1lDQVVYb3NQa2ZJbGFXeEkyN1I3UlRTaTI4cmNuT09uVHg5UTJqTUp0NTAxUklUbmsxNFJsS1NKbGRvNXYtRzFiRGtKdUZrVVlIblI5UGEtVHJuSHVCa2xoZkFPLXpEVGRObHNKQQ?oc=5",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790403000000,
       "image": null
     },
     {
@@ -606,140 +732,6 @@
         "manutd"
       ],
       "publishedAt": 1790402400000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Erling Haaland U-turn confirmed immediately after Man City found guilty of 114 charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-norway-37704624",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704626.ece/ALTERNATES/s615/0_JS419103363.jpg",
-      "summary": "Erling Haaland was due to speak to the media for Norway this weekend but Manchester City's charges update has reportedly led to a change",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790373403000
-    },
-    {
-      "competition": "bbc",
-      "title": "Rodri believes in Man City's 'innocence'",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgwwze9r28o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6656/live/face4040-b927-11f1-b247-17210618604e.jpg",
-      "summary": "Former Manchester City midfielder Rodri believes the club are innocent of any financial wrongdoing and will trust them unless they are proved otherwise.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790373395000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Montella: &#8216;Turkiye incredible against France, same mentality with Italy&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/montella-turkiye-incredible-france-same-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Vincenzo-Montella-presser-414x278.jpg",
-      "summary": "Vincenzo Montella saw an ‘incredible performance’ from Turkiye in the 1-0 defeat to France, and...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790372957000
-    },
-    {
-      "competition": "guardian",
-      "title": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium",
-      "image": "https://i.guim.co.uk/img/media/ae983f77569f1e50e47dead0c246c149483bdbb0/90_0_2938_2351/master/2938.jpg?width=140&quality=85&auto=format&fit=max&s=d4f4d495729eb9b9ce86ea4ef2cc74f5",
-      "summary": "France beat 10-man Turkey 1-0 to start Zidane eraItaly 0-2 Belgium, Georgia 0-1 Northern IrelandKylian Mbappé limped off with an apparent knee injury, moments after scoring France’s winner against Turkey in the Nations…",
-      "teams": [
-        "turkey",
-        "france"
-      ],
-      "publishedAt": 1790372143000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Di Lorenzo: &#8216;Tearing Italy apart is not helpful&#8217; after 2-0 defeat to Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/di-lorenzo-tearing-italy-apart-is-not-helpful/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-vs.-Belgium-414x276.jpg",
-      "summary": "Giovanni Di Lorenzo insists fans and media need to have patience with Italy after a...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790371739000
-    },
-    {
-      "competition": "indy",
-      "title": "Man City verdict could see four Premier League clubs land compensation worth more than £200m",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-verdict-premier-league-man-utd-arsenal-liverpool-compensation-b3056684.html",
-      "image": "https://static.independent.co.uk/2024/01/16/13/b116ea71dd9cae52e6af202a5cfdc7d7Y29udGVudHNlYXJjaGFwaSwxNzA1NDk2ODk2-2.32965053.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Widespread reports suggest Man City are set to be found guilty of almost all of the 115 Premier League charges concerning financial breaches, though no confirmation has arrived, with rivals now thought to be exploring…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790371708000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Cambiaghi: &#8216;Italy struggled, but will see a better performance in Turkiye&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/cambiaghi-italy-struggled-see-better-turkiye/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-Belgium-minutes-silence-414x276.jpg",
-      "summary": "Nicolò Cambiaghi admits Italy ‘really struggled in the first half’ against Belgium, but remains confident...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790370685000
-    },
-    {
-      "competition": "indy",
-      "title": "Rodri responds to Man City charges: ‘Everything was deserved’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/rodri-man-city-charges-spain-b3056695.html",
-      "image": "https://static.independent.co.uk/2026/08/07/14/2276645243..?width=1200&auto=webp&trim=214%2C0%2C214%2C0",
-      "summary": "The former Manchester City midfielder insists that people cannot take away their achievements",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790370619000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Football Italia LIVE Show: Italy 0-2 Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/football-italia-live-show-italy-0-2-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Riccardo-Calafiori-Italy-Belgium-414x276.jpg",
-      "summary": "Join Lorenzo Bettoni from the Stadio Olimpico and Giancarlo Rinaldi as they examine Italy s 2-0...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790370542000
-    },
-    {
-      "competition": "ucl",
-      "title": "Jobe Bellingham has become England U21s’ leader. The comparisons with Jude are hard to ignore",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUjVhRUc0cUJMUTN1YjlZRE1aeW9mUUZJdk9GdS1CR0w2aVNjSV9VSW5CNEctdnU0OHpSTUdGZjVsclFlWS1ST0tZZnN4UDA2ZnhxNldMdWdGY2YwX0lmbkJqQnRUYXBRUkFtZF9uWklOOGlwMVdxY0ZVcjdUTHpEal84OUxYM2NYZk9kTE1nOHlnNkFxdEE?oc=5",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790399238000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Czech Republic vs Croatia: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFNVJ0dVZkNTJQbmhUS24yT3h6OUNONnlyVTNYMXp1UHg3WFhzb3BScGcwUDhfcTJXSWRHTzF0QzVjN1BhT1Q2SmIzdlJycUFvVW02TWVDaEhBX3lLSUR3VlJudw?oc=5",
-      "teams": [
-        "croatia"
-      ],
-      "publishedAt": 1790398895000,
       "image": null
     }
   ]
