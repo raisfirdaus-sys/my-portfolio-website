@@ -1,17 +1,142 @@
 {
-  "generatedAt": 1790443157965,
+  "generatedAt": 1790445851371,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1496,
+    "raw": 1499,
     "tagged": 803,
-    "droppedKeyword": 28,
+    "droppedKeyword": 26,
     "droppedOtherSport": 3,
-    "droppedFeed": 5,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Serie A players Diouf and Da Cunha could get France debuts",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/serie-a-diouf-da-cunha-could-get-france-debuts/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Andy-Diouf-goal-414x276.jpg",
+      "summary": "Inter player Andy Diouf and Como midfielder Lucas Da Cunha could get their senior France...",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790445510000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Trafford starts and Alexander-Arnold on bench as Three Lions host world champions",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/18/2297103557..?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
+      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790444946000
+    },
+    {
+      "competition": "guardian",
+      "title": "England v Spain: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/dd52e321d339bd1923f1ca70a3a57faea6c223e9/313_0_3132_2505/master/3132.jpg?width=140&quality=85&auto=format&fit=max&s=44aed69f02cd6ce0511e2daeb35a826b",
+      "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokThomas Tuchel has thrown Cole Palmer’s England future into major doubt by questioning whether the Chelsea attacker…",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790444893000
+    },
+    {
+      "competition": "echo",
+      "title": "Alexander Isak sends ideal Liverpool message but Andoni Iraola has triple worry",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-liverpool-andoni-iraola-34676250",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676298.ece/ALTERNATES/s615/0_Alexander-Isak.jpg",
+      "summary": "Liverpool striker Alexander Isak continued his goal-scoring form in action for Sweden but there may be concern over his fitness upon returning to Anfield",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790444884000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Lazio worry as Gudmundsson off injured during Iceland match",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/lazio-worry-gudmundsson-off-injured-iceland/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Albert-Gudmundsson-celebrate-Lazio-414x276.jpg",
+      "summary": "Lazio are worried after Albert Gudmundsson went off with a shoulder injury following a nasty...",
+      "teams": [
+        "lazio"
+      ],
+      "publishedAt": 1790444329000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790444164000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790444114000
+    },
+    {
+      "competition": "guardian",
+      "title": "Republic of Ireland players to wear black armbands after agreeing to play Israel",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/26/ireland-players-vote-to-go-ahead-with-nations-league-match-against-israel",
+      "image": "https://i.guim.co.uk/img/media/80e060cee616b9a4aa1200f893c524b22c8706a5/921_0_6664_5334/master/6664.jpg?width=140&quality=85&auto=format&fit=max&s=a7b36f2e6411a36dcd68a19f275973cf",
+      "summary": "‘Majority’ of players vote for matches to go aheadOne player withdraws from squad citing ‘discomfort’The Republic of Ireland will fulfil their fixture against Israel in Hungary on Sunday night, but only after lengthy…",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790443990000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal fan Piers Morgan wants 'biggest cheats' Man City to receive two punishments",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-man-city-premier-league-34676835",
+      "image": "https://i2-prod.football.london/incoming/article34676971.ece/ALTERNATES/s615/0_Piers-Morgan.jpg",
+      "summary": "Piers Morgan has made his Manchester City punishment demands clear to the Premier League which would Arsenal benefit",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790443861000
+    },
+    {
+      "competition": "indy",
+      "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-tv-channel-time-nations-league-b3055594.html",
+      "image": "https://static.independent.co.uk/2026/07/18/21/8a628f25af3212893c4af9665b1bd3b6Y29udGVudHNlYXJjaGFwaSwxNzg0NDkwOTM3-2.85316620.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Everything you need to know ahead of England’s first game since the World Cup",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790443803000
+    },
     {
       "competition": "bbc",
       "title": "Gilmour catalyst, impressive Welsh, but same issue for Scotland?",
@@ -65,30 +190,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790441862000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790441691000
-    },
-    {
-      "competition": "mirror",
       "title": "Jose Mourinho's dig at Pep Guardiola on Man City charges with Man Utd bonus claim",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/jose-mourinho-guardiola-man-city-37705767",
@@ -99,19 +200,6 @@
         "manutd"
       ],
       "publishedAt": 1790441203000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Three Lions host world champions at Wembley for Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/13/2297142974..?width=1200&auto=webp&trim=31%2C0%2C31%2C0",
-      "summary": "England play their first game since the World Cup with Thomas Tuchel aiming to impress in the Nations League",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790441041000
     },
     {
       "competition": "echo",
@@ -460,18 +548,6 @@
       "publishedAt": 1790434053000
     },
     {
-      "competition": "guardian",
-      "title": "Ireland players vote to go ahead with Israel matches despite ‘different views’",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/ireland-players-vote-to-go-ahead-with-nations-league-match-against-israel",
-      "image": "https://i.guim.co.uk/img/media/80e060cee616b9a4aa1200f893c524b22c8706a5/921_0_6664_5334/master/6664.jpg?width=140&quality=85&auto=format&fit=max&s=a7b36f2e6411a36dcd68a19f275973cf",
-      "summary": "Scheduled press conference and training session delayedIrish FA admits ‘players shared different views’ The Republic of Ireland’s Nations League fixtures with Israel will go ahead after players voted on Saturday for the…",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790433803000
-    },
-    {
       "competition": "indy",
       "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
       "publisher": "The Independent",
@@ -678,80 +754,6 @@
         "mancity"
       ],
       "publishedAt": 1790430054000
-    },
-    {
-      "competition": "bbc",
-      "title": "No Premier League appetite to strip Man City of titles - but threat remains",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvzzj17682o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6652/live/4dfdf9a0-b96d-11f1-88b4-a9b939c8ba34.jpg",
-      "summary": "After being found guilty of the majority of the 115 charges for breaching Premier League, could Manchester city really be stripped of eight trophies?",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790429200000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Questions asked of Allegri after De Bruyne’s standout performance in Italy 0-2 Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/questions-asked-of-allegri-de-bruyne-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back.jpg",
-      "summary": "Roberto Mancini has taken his fair share of criticism following Italy’s 2-0 defeat against Belgium...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790427999000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal have already completed four exciting transfers for 2027",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-already-completed-four-exciting-34667581",
-      "image": "https://i2-prod.football.london/incoming/article34667588.ece/ALTERNATES/s615/1_Edwin-and-Holder-Quintero-and-Arsenal.jpg",
-      "summary": "Arsenal will welcome four new players to the club in 2027 with a big push to sign some of the world's best young players",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790427600000
-    },
-    {
-      "competition": "men",
-      "title": "Everything Pep Guardiola said about Man City charges from angry response to relegation promise",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/everything-pep-guardiola-said-man-34675949",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676046.ece/ALTERNATES/s615/0_GettyImages-2191498562.jpg",
-      "summary": "Manchester City's legendary head coach Pep Guardiola left the Etihad Stadium in the summer, prior to the charges being announced",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790427600000
-    },
-    {
-      "competition": "echo",
-      "title": "21 Liverpool players who would get Premier League winner's medal if Man City stripped of title",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/21-liverpool-players-who-would-34676171",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676167.ece/ALTERNATES/s615/0_Enrique-trophy.jpg",
-      "summary": "Manchester City are understood to have been found guilty of 114 of the 115 charges relating to breaches of the Premier League’s financial regulations",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790427420000
-    },
-    {
-      "competition": "men",
-      "title": "Ex-Premier League boss warns Man City of 'significant trouble' over 115 charges appeal",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-appeal-simon-jordan-34676133",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/0_Etihad-Stadium.jpg",
-      "summary": "Manchester City have been brutally told that the outcome of their appeal against 114 financial charges will not be what they want",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790427276000
     }
   ]
 }
