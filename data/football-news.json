@@ -1,17 +1,54 @@
 {
-  "generatedAt": 1790433251626,
+  "generatedAt": 1790433749505,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1498,
-    "tagged": 798,
-    "droppedKeyword": 21,
+    "raw": 1495,
+    "tagged": 796,
+    "droppedKeyword": 22,
     "droppedOtherSport": 4,
-    "droppedFeed": 9,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Noel Gallagher begs Premier League bosses not to punish Manchester City fans despite 'breaking financial rules'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/man-city-charges-noel-gallagher-37705672",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705695.ece/ALTERNATES/s615/0_Everton-v-Manchester-City-Premier-League.jpg",
+      "summary": "Noel Gallagher, who will tour with Oasis again next year, has responded to the bombshell development Manchester City have been found guilty on 114 of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790433452000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United made 'big statement' to bounce back from summer chaos",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-made-big-statement-34674149",
+      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34599286.ece/ALTERNATES/s615/0_GettyImages-2293207975.jpg",
+      "summary": "Former Magpies goalkeeper Tim Krul is optimistic about the club's future",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790433377000
+    },
+    {
+      "competition": "guardian",
+      "title": "Slovenia v Scotland: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/slovenia-v-scotland-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/b6dd30749e949c2b1db73635413aa3e74135e629/289_0_3163_2531/master/3163.jpg?width=140&quality=85&auto=format&fit=max&s=60362fc7e58de50f0b72fa2ab86c6a82",
+      "summary": "⚽ Updates from the Group B1 game; kick-off 2pm BST⚽ Live scoreboard | Read Football Daily | Mail BarrySebastien Pocognoli: “We had a good camp, we reached all the aspects that we wanted to reach on the pitch but also…",
+      "teams": [
+        "slovenia",
+        "scotland"
+      ],
+      "publishedAt": 1790433291000
+    },
     {
       "competition": "fitalia",
       "title": "Manchester City maintain innocence as focus grows on Mancini double contract",
@@ -62,6 +99,18 @@
       "publishedAt": 1790432741000
     },
     {
+      "competition": "echo",
+      "title": "Man City chairman Khaldoon Al Mubarak writes open letter after 114 charges reports",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-chairman-khaldoon-al-34676621",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34073046.ece/ALTERNATES/s615/1_Manchester-City-FC-v-Al-Hilal-Round-Of-16-FIFA-Club-World-Cup-2025.jpg",
+      "summary": "Manchester City chairman Khaldoon Al Mubarak has published a letter on the club's official website",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790432666000
+    },
+    {
       "competition": "mirror",
       "title": "Man City chairman insists club are INNOCENT in letter after 115 charges verdict",
       "publisher": "Mirror Football",
@@ -85,19 +134,6 @@
         "mancity"
       ],
       "publishedAt": 1790432450000
-    },
-    {
-      "competition": "guardian",
-      "title": "Slovenia v Scotland: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/slovenia-v-scotland-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/b6dd30749e949c2b1db73635413aa3e74135e629/289_0_3163_2531/master/3163.jpg?width=140&quality=85&auto=format&fit=max&s=60362fc7e58de50f0b72fa2ab86c6a82",
-      "summary": "⚽ Updates from the Group B1 game; kick-off 2pm BST⚽ Live scoreboard | Read Football Daily | Mail BarrySebastien Pocognoli: “We had a good camp, we reached all the aspects that we wanted to reach on the pitch but also…",
-      "teams": [
-        "slovenia",
-        "scotland"
-      ],
-      "publishedAt": 1790432351000
     },
     {
       "competition": "mirror",
@@ -543,19 +579,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Liverpool and Everton legends for free - TV channel and live stream",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-everton-legends-watch-free-37697047",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37697072.ece/ALTERNATES/s615/0_GettyImages-94076234.jpg",
-      "summary": "Liverpool and Everton icons will join forces for a charity match on Saturday as they take on some global legends in the first Game4Hope",
-      "teams": [
-        "liverpool",
-        "everton"
-      ],
-      "publishedAt": 1790420400000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Slovenia vs Scotland for free - TV channel and live stream details",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/slovenia-scotland-tv-channel-stream-37689959",
@@ -564,6 +587,19 @@
       "teams": [
         "slovenia",
         "scotland"
+      ],
+      "publishedAt": 1790420400000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Liverpool and Everton legends for free - TV channel and live stream",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-everton-legends-watch-free-37697047",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37697072.ece/ALTERNATES/s615/0_GettyImages-94076234.jpg",
+      "summary": "Liverpool and Everton icons will join forces for a charity match on Saturday as they take on some global legends in the first Game4Hope",
+      "teams": [
+        "liverpool",
+        "everton"
       ],
       "publishedAt": 1790420400000
     },
@@ -712,43 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790418108000
-    },
-    {
-      "competition": "fitalia",
-      "title": "How Mancini reacted to Italy boos at the Stadio Olimpico: ‘Climbing Everest’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/how-mancini-reacted-to-italy-boos-vs-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back.jpg",
-      "summary": "Roberto Mancini says that he was not overly surprised that Italy’s 2-0 defeat against Belgium...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790418100000
-    },
-    {
-      "competition": "echo",
-      "title": "Everton fans rush to get 2026/27 home shirt reduced from £80 to £44 this weekend",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/everton-home-kit-202627-deal-34675777",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34675828.ece/ALTERNATES/s615/0_Untitled-September-25-2026-at-134102-1jpeg.jpg",
-      "summary": "Everton fans can get 45% off this season's home jersey by stacking deals in a flash sale ending Sunday",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790417741000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal 'planning' response to Man City 115 charges verdict and could land £200m cash injection",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/man-city-charges-punishment-arsenal-34675743",
-      "image": "https://i2-prod.football.london/incoming/article34675774.ece/ALTERNATES/s615/0_GettyImages-2295458.jpg",
-      "summary": "Arsenal await what punishment Manchester City could face should they fail in their appeal after being found guilty of 114 charges against them for breaching financial rules",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790417300000
     }
   ]
 }
