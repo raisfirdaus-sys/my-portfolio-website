@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790452133992,
+  "generatedAt": 1790452873643,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1488,
-    "tagged": 789,
-    "droppedKeyword": 25,
+    "raw": 1494,
+    "tagged": 788,
+    "droppedKeyword": 26,
     "droppedOtherSport": 3,
-    "droppedFeed": 4,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -23,20 +23,44 @@
         "england",
         "spain"
       ],
-      "publishedAt": 1790451363000
+      "publishedAt": 1790452696000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790452336000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790452274000
     },
     {
       "competition": "guardian",
       "title": "England v Spain: Nations League football – live",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/live/2026/sep/26/england-v-spain-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/cb254e3192c6beeeb6cd2c3dca45d9a051f116e2/691_441_3172_2539/master/3172.jpg?width=140&quality=85&auto=format&fit=max&s=deb24144ce142cc876a2783cb7db2ef1",
+      "image": "https://i.guim.co.uk/img/media/ecfa03e100ff891fa53af4f30ebf4e9a0397f3e6/8_653_3246_2597/master/3246.jpg?width=140&quality=85&auto=format&fit=max&s=988e668d1d5c882102e14754881ff17d",
       "summary": "Nations League updates from the 7.45pm BST kick-offLive scoreboard | Follow us on Instagram and TikTokEngland are about to face the hardest challenge in international football, maybe at any level of the game. They are…",
       "teams": [
         "england",
         "spain"
       ],
-      "publishedAt": 1790451191000
+      "publishedAt": 1790452093000
     },
     {
       "competition": "mirror",
@@ -61,30 +85,6 @@
         "israel"
       ],
       "publishedAt": 1790451080000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790450712000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790450326000
     },
     {
       "competition": "indy",
