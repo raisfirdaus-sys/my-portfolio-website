@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-26T16:44:30.704Z",
+  "updatedAt": "2026-09-26T19:48:34.583Z",
   "items": [
+    {
+      "ticker": "SBUX",
+      "title": "Major coffee chain is closing 250 stores across North America",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/small-business/articles/major-coffee-chain-closing-250-191300114.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/dd94815a022b995f4464ce10b8aa3f0e.jpg",
+      "publishedAt": 1790449980000
+    },
+    {
+      "ticker": "KO",
+      "title": "Why Is PepsiCo's Stock Down 10% While the S&P 500 Is Up 13% in 2026? Here's the Only Answer I Can Think of.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-pepsicos-stock-down-10-183500475.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/76d9f992db71cd46a12a2f5885ab1e63.jpg",
+      "publishedAt": 1790447700000
+    },
+    {
+      "ticker": "KO",
+      "title": "Warren Buffett Helps Berkshire Hathaway Make $848M From Coca-Cola Stock Each Year, Even if the Price Doesn’t Change",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-helps-berkshire-hathaway-180021314.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/f7f5ae2cc3b83c95af2bbd648496011d.jpg",
+      "publishedAt": 1790445621000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google, OpenAI, and Anthropic just made a move on AI safety",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-openai-anthropic-just-made-174700095.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/a80813024ea57d178966381ff49e482e.jpg",
+      "publishedAt": 1790444820000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Dow Jones Futures: Growth Shrugs Off Surging Yields, But Trump Rejects Iran Deal; Micron, SpaceX, Tesla Eye Buy Points",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures%3A-growth.html",
+      "image": "https://media.zenfs.com/en/ibd.com/9d0ea0e70d3a601394104d5a39027ed9.jpg",
+      "publishedAt": 1790444638000
+    },
+    {
+      "ticker": "MA",
+      "title": "Is SoFi Technologies (SOFI) Cheap On Its Stablecoin Rollout And Growth Push?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-cheap-stablecoin-171019624.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/63c70bdaf00195ef31084889b74fc76c.jpg",
+      "publishedAt": 1790442619000
+    },
+    {
+      "ticker": "MA",
+      "title": "‘It Won’t Work’: Clark Howard Warns Capital One Quietly Moved Its Cheapest Customers to Discover",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/won-t-clark-howard-warns-164159288.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/db30cbb5425700c1eb594aa59f80269d.jpg",
+      "publishedAt": 1790440919000
+    },
     {
       "ticker": "ABBV",
       "title": "How to Build $7,250 a Month in Dividend Income Without Owning a Single Yield Trap",
@@ -34,20 +90,20 @@
       "publishedAt": 1790438302000
     },
     {
+      "ticker": "PLTR",
+      "title": "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-vs-palantir-technologies-technology-155302325.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/eb5062f31a17e14da688248426d8149f.png",
+      "publishedAt": 1790437982000
+    },
+    {
       "ticker": "MSFT",
       "title": "The 3 \"Magnificent Seven\" Stocks That I'm Buying Now",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/markets/stocks/articles/3-magnificent-seven-stocks-im-155000352.html",
       "image": "https://media.zenfs.com/en/motleyfool.com/0797918d16fb5257cc9fa83930aa3b02.jpg",
       "publishedAt": 1790437800000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Dow Jones Futures: Growth Shrugs Off Surging Yields, But Trump Rejects Iran Deal; Micron, SpaceX, Tesla Eye Buy Points",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures%3A-growth.html",
-      "image": "https://media.zenfs.com/en/ibd.com/9d0ea0e70d3a601394104d5a39027ed9.jpg",
-      "publishedAt": 1790436859000
     },
     {
       "ticker": "AMZN",
@@ -88,62 +144,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-confirmed-iranian-141013523.html",
       "image": "https://media.zenfs.com/en/simply_wall_st__316/2292b802eaf1e7d4ac12a1e00159451c.jpg",
       "publishedAt": 1790431813000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Oracle vs. Alphabet: Which AI Cloud Stock Is the Better Buy?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/oracle-vs-alphabet-ai-cloud-140552019.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/d3a68ae0910cb57336f1136cbc0d89d1",
-      "publishedAt": 1790431552000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Want Bulletproof Dividend Income? These 3 Stocks Have Raised Payouts Through 8 Major Downturns",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/want-bulletproof-dividend-income-3-133030903.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/e566f16cf80efd7f1a9e0db51e301c0b.jpg",
-      "publishedAt": 1790429430000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Best Buy’s 4.2% Yield Looks Attractive. Can the Dividend Survive a Bad Year?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-4-2-yield-130220208.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/0840d0cc055fd9a1552504dff3647a98.jpg",
-      "publishedAt": 1790427740000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Most Investors Own All Seven Magnificent Seven Stocks. That's a Mistake.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/most-investors-own-seven-magnificent-130200138.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/d5f294237d290417b7f42827ca6d926d.jpg",
-      "publishedAt": 1790427720000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Big Tech's AI build-out ran to the Middle East. Then the Iran war hit.",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/big-techs-ai-build-out-ran-to-the-middle-east-then-the-iran-war-hit-114102296.html",
-      "image": "https://d29szjachogqwa.cloudfront.net/images/2026-04/414053ba-0016-46d6-a30d-c29e60950ed6",
-      "publishedAt": 1790422862000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-starbucks-sbux-could-111107877.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/d2f3407334ec09299cf61830e786eca2.jpg",
-      "publishedAt": 1790421067000
-    },
-    {
-      "ticker": "KO",
-      "title": "Most of Berkshire Hathaway's Earnings Don't Come From Its Stock Portfolio. Here's Where They Do Come From.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/most-berkshire-hathaways-earnings-dont-075601361.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/4391aad03a63f95f6aa1e4351b609d4d.jpg",
-      "publishedAt": 1790409361000
     }
   ]
 }
