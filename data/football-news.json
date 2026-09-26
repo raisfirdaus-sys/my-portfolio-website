@@ -1,17 +1,41 @@
 {
-  "generatedAt": 1790463793352,
+  "generatedAt": 1790465971983,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1499,
-    "tagged": 801,
+    "raw": 1504,
+    "tagged": 813,
     "droppedKeyword": 31,
     "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Meet the new 55 minute England collapse, not the same as the old 55 minute England collapse | Barney Ronay",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/england-spain-nations-league-meet-new-55-minute-collapse-not-same-as-old",
+      "image": "https://i.guim.co.uk/img/media/9b9fb4f5986202741296a199753ef42c6107bc1b/236_0_3250_2600/master/3250.jpg?width=140&quality=85&auto=format&fit=max&s=40bd3413c880183e1e5f76cd8ada2176",
+      "summary": "Things started to go wrong against Spain at the same time they did against Argentina, but for very different reasons and with far more cause for optimismYou could feel it inside the stadium, one of those moments where…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790464740000
+    },
+    {
+      "competition": "bbc",
+      "title": "Pickford or Trafford? The battle to be England's number one is now on",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckm2qqpjv7nro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fc8/live/8de90420-b9df-11f1-af8c-072d557493f8.jpg",
+      "summary": "Jordan Pickford has been England's number one for a long time. But does he now have a rival in James Trafford?",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790463967000
+    },
     {
       "competition": "bbc",
       "title": "Tuchel rues 'big mistakes' - did Man City charges have impact?",
@@ -38,16 +62,15 @@
     },
     {
       "competition": "tele",
-      "title": "Another Tuchel shocker as England throw away victory against Spain",
+      "title": "Fun, yes – but when will Tuchel fix this England defence?",
       "publisher": "The Telegraph",
       "link": "https://www.telegraph.co.uk/football/2026/09/26/england-vs-spain-live-score-latest-nations-league-updates/",
       "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/26/TELEMMGLPICT000504871791_17904559540730_trans_NvBQzQNjv4Bqtsw4rIh5Rk80rwdrUlw4m2DrtIH_AMF2jYVZUT2nTV8.jpeg",
-      "summary": "Another Tuchel shocker as England throw away victory against Spain",
+      "summary": "Fun, yes – but when will Tuchel fix this England defence?",
       "teams": [
-        "england",
-        "spain"
+        "england"
       ],
-      "publishedAt": 1790461075000
+      "publishedAt": 1790462188000
     },
     {
       "competition": "metro",
@@ -733,30 +756,6 @@
         "scotland"
       ],
       "publishedAt": 1790436533000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City braced for major financial blow after 115 charges verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-update-37705729",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705734.ece/ALTERNATES/s615/0_JS419215301.jpg",
-      "summary": "Reports emerged on Friday claiming that Manchester City have been found guilty of alleged financial breaches",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790436367000
-    },
-    {
-      "competition": "metro",
-      "title": "Enzo Maresca shares cryptic message after Man City guilty verdict",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/26/enzo-maresca-shares-cryptic-message-man-city-guilty-verdict-29655657/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2295774770-3910.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790436004000
     }
   ]
 }
