@@ -1,17 +1,189 @@
 {
-  "generatedAt": 1790422919957,
+  "generatedAt": 1790425571911,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
-    "tagged": 820,
-    "droppedKeyword": 21,
+    "raw": 1516,
+    "tagged": 812,
+    "droppedKeyword": 20,
     "droppedOtherSport": 3,
-    "droppedFeed": 7,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Slovenia v Scotland: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/26/slovenia-v-scotland-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/aff785dc3fa7f4057846a65382b993c821043235/1040_89_4529_3624/master/4529.jpg?width=140&quality=85&auto=format&fit=max&s=e1a9c30436b1d7bfdd922d9f28f602c2",
+      "summary": "⚽ Updates from the Group B1 game; kick-off 2pm BST⚽ Live scoreboard | Read Football Daily | Mail BarryScotland: The national team’s unproven head coach represents a potentially shrewd gamble made by an organisation that…",
+      "teams": [
+        "slovenia",
+        "scotland"
+      ],
+      "publishedAt": 1790424961000
+    },
+    {
+      "competition": "men",
+      "title": "Man City's 'most likely punishment' as football finance expert suggests points deduction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-points-deduction-fine-34676168",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34676153.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City have been rocked after being found guilty of 114 charges levelled at them by the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790424841000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Report Neto will have Juventus medical on September 27",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/report-neto-will-have-juventus-medical-sep-27/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Neto-smile-Juventus-414x276.jpg",
+      "summary": "Free agent Neto is expected to undergo his Juventus medical tests on Sunday, ready to...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790424407000
+    },
+    {
+      "competition": "indy",
+      "title": "Slovenia v Scotland LIVE: Welsh and Ure handed debuts and McBurnie returns as Pocognoli era begins",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/slovenia-scotland-live-score-result-sebastien-pocognoli-nations-league-b3056829.html",
+      "image": "https://static.independent.co.uk/2026/09/26/11/01M3CR62BWNXXM06EX8QK5BJP3.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Sebastien Pocognoli, the 39-year-old Belgian replacing Steve Clarke, takes charge of his first Scotland game as they begin their Nations League campaign",
+      "teams": [
+        "slovenia",
+        "scotland"
+      ],
+      "publishedAt": 1790424041000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790423867000
+    },
+    {
+      "competition": "mirror",
+      "title": "Stripping Man City of Premier League titles 'unlikely' as new charges punishment theory given",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/stripping-man-city-premier-league-37705297",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705335.ece/ALTERNATES/s615/1_Manchester-City.jpg",
+      "summary": "Manchester City won four Premier League titles during the nine-year period in which they have been accused of breaching financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790423854000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Emi Martinez writes off Aston Villa repeat as he says ‘no chance’",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/emi-martinez-writes-aston-villa-34676156",
+      "image": "https://i2-prod.football.london/incoming/article34558797.ece/ALTERNATES/s615/1_GettyImages-2292208296.jpg",
+      "summary": "The Argentine World Cup winner left Villa for Chelsea in the summer",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790423834000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Punishment latest as clubs consider legal action after guilty verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790423782000
+    },
+    {
+      "competition": "guardian",
+      "title": "Enzo Maresca posts ‘I know nothing’ message after Manchester City’s guilty verdict",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/26/enzo-maresca-noel-gallagher-manchester-city-guilty-verdict",
+      "image": "https://i.guim.co.uk/img/media/5f01e22bbd4df64b18b0abc01d455e36fb245e31/242_0_1761_1409/master/1761.jpg?width=140&quality=85&auto=format&fit=max&s=da5be2928ab6dd03f6e7b247bdb0f737",
+      "summary": "Noel Gallagher, fan and Oasis star, ‘shocked and sad’David Bernstein: a fine is ‘not sufficient’ if appeal failsManchester City’s manager Enzo Maresca posted a cryptic message on social media reading “I know nothing”…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790423630000
+    },
+    {
+      "competition": "mirror",
+      "title": "Republic of Ireland player 'boycotts' Israel match as teammates call emergency meeting",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-player-boycotts-israel-37705358",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705360.ece/ALTERNATES/s615/1_GettyImages-2240008594.jpg",
+      "summary": "Republic of Ireland are scheduled to face Israel in a Nations League match in Hungary on Sunday night, amid vocal opposition to the game taking place",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790423586000
+    },
+    {
+      "competition": "indy",
+      "title": "Is Slovenia v Scotland on TV? Channel, kick-off time and how to watch Nations League",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/scotland-slovenia-tv-channel-time-nations-league-b3056422.html",
+      "image": "https://static.independent.co.uk/2026/09/25/13/2282515893..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Scotland begin life under Sebastien Pocognoli in their first matches since the World Cup and departure of Steve Clarke",
+      "teams": [
+        "slovenia",
+        "scotland"
+      ],
+      "publishedAt": 1790423530000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Bergomi: &#8216;Mancini old ideas, Italy not reflecting aggressive Serie A approach&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/bergomi-mancini-old-italy-reflecting-serie-a/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Gianluca-Mancini-Youri-Tielemans-414x276.jpg",
+      "summary": "Italy legend Beppe Bergomi feels Roberto Mancini showed he is out of touch with a...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790423337000
+    },
+    {
+      "competition": "echo",
+      "title": "Vitalii Mykolenko makes honest Goodison Park admission and outlines Everton new stadium aim",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/vitalii-mykolenko-makes-honest-goodison-34676127",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676148.ece/ALTERNATES/s615/0_GettyImages-2296062479.jpg",
+      "summary": "Vitalii Mykolenko has been speaking about Everton homes old and new, as well as his and the team's form, during the international break",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790423283000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Capello identifies Italy positives but warns ‘how do you expect to score playing like that?&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/capello-identifies-italy-positives-belgium/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back.jpg",
+      "summary": "Fabio Capello says that Mohamed Ali Zoma and Daniel Maldini were among the positives to...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790422736000
+    },
     {
       "competition": "metro",
       "title": "Man City told what &#8216;most likely&#8217; punishment is as Man Utd wait for title verdict",
@@ -39,18 +211,6 @@
       "publishedAt": 1790422200000
     },
     {
-      "competition": "guardian",
-      "title": "Enzo Maresca approached for comment; pressure grows on Republic of Ireland – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/26/manchester-city-verdict-latest-england-v-spain-buildup-wsl-and-more-live",
-      "image": "https://i.guim.co.uk/img/media/8fa0c71444523aaf0f96691a37cd75f5e7ac6858/949_25_5104_4083/master/5104.jpg?width=140&quality=85&auto=format&fit=max&s=a290c2e226cafdd28b44bc8b7965222f",
-      "summary": "Manchester City news and Nations League buildupToday’s games | Read Football Daily | Mail EmilliaEngland host Spain at Wembley this evening. Thomas Tuchel was asked yesterday if he thought that Spain’s possession-based…",
-      "teams": [
-        "ireland"
-      ],
-      "publishedAt": 1790422076000
-    },
-    {
       "competition": "indy",
       "title": "Is England v Spain on TV? Channel, kick-off time and how to watch Nations League clash",
       "publisher": "The Independent",
@@ -64,18 +224,6 @@
       "publishedAt": 1790421748000
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Premier League club found guilty of 114 charges as rivals 'consider legal action'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790421742000
-    },
-    {
       "competition": "fitalia",
       "title": "Referee Oliver assigned for Turkiye vs. Italy Nations League crunch match",
       "publisher": "Football Italia",
@@ -86,31 +234,6 @@
         "italy"
       ],
       "publishedAt": 1790421675000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Punishment latest as clubs consider legal action after guilty verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790421650000
-    },
-    {
-      "competition": "indy",
-      "title": "Slovenia v Scotland LIVE: Sebastien Pocognoli begins new era for Tartan Army in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/slovenia-scotland-live-score-result-sebastien-pocognoli-nations-league-b3056829.html",
-      "image": "https://static.independent.co.uk/2026/09/26/11/01M3CR62BWNXXM06EX8QK5BJP3.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Sebastien Pocognoli, the 39-year-old Belgian replacing Steve Clarke, takes charge of his first Scotland game as they begin their Nations League campaign",
-      "teams": [
-        "slovenia",
-        "scotland"
-      ],
-      "publishedAt": 1790421553000
     },
     {
       "competition": "footlondon",
@@ -150,19 +273,6 @@
       "publishedAt": 1790420766000
     },
     {
-      "competition": "indy",
-      "title": "Is Slovenia v Scotland on TV? Channel, kick-off time and how to watch Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/scotland-slovenia-tv-channel-time-nations-league-b3056422.html",
-      "image": "https://static.independent.co.uk/2026/09/25/13/2282515893..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Scotland begin life under Sebastien Pocognoli in their first matches since the World Cup and departure of Steve Clarke",
-      "teams": [
-        "slovenia",
-        "scotland"
-      ],
-      "publishedAt": 1790420732000
-    },
-    {
       "competition": "footlondon",
       "title": "Viktor Gyokeres reveals his Arsenal 'frustration' and gives honest answer on his future",
       "publisher": "football.london",
@@ -188,19 +298,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Liverpool and Everton legends for free - TV channel and live stream",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-everton-legends-watch-free-37697047",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37697072.ece/ALTERNATES/s615/0_GettyImages-94076234.jpg",
-      "summary": "Liverpool and Everton icons will join forces for a charity match on Saturday as they take on some global legends in the first Game4Hope",
-      "teams": [
-        "liverpool",
-        "everton"
-      ],
-      "publishedAt": 1790420400000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Slovenia vs Scotland for free - TV channel and live stream details",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/slovenia-scotland-tv-channel-stream-37689959",
@@ -209,6 +306,19 @@
       "teams": [
         "slovenia",
         "scotland"
+      ],
+      "publishedAt": 1790420400000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Liverpool and Everton legends for free - TV channel and live stream",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-everton-legends-watch-free-37697047",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37697072.ece/ALTERNATES/s615/0_GettyImages-94076234.jpg",
+      "summary": "Liverpool and Everton icons will join forces for a charity match on Saturday as they take on some global legends in the first Game4Hope",
+      "teams": [
+        "liverpool",
+        "everton"
       ],
       "publishedAt": 1790420400000
     },
@@ -285,19 +395,6 @@
         "france"
       ],
       "publishedAt": 1790419810000
-    },
-    {
-      "competition": "bbc",
-      "title": "Republic of Ireland news conference delayed before controversial Israel game",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3180/live/6ba201b0-b98e-11f1-90f2-0d8b78b18143.jpg",
-      "summary": "The Republic of Ireland delay the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott.",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790419477000
     },
     {
       "competition": "mirror",
@@ -654,104 +751,6 @@
         "mancity"
       ],
       "publishedAt": 1790413200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United scour Euro market ahead of 2027 transfer drive with two hot prospects on radar",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-scour-euro-market-34674763",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34675414.ece/ALTERNATES/s615/0_Noah-Fernandez.jpg",
-      "summary": "After a summer window in which Newcastle started to build for the future, a new chapter has begun in the club's recruitment department",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790413200000
-    },
-    {
-      "competition": "mirror",
-      "title": "What Erling Haaland said about Man City's 115 charges before his U-turn confirmed",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-erling-haaland-37704971",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704974.ece/ALTERNATES/s615/0_GettyImages-2194552583.jpg",
-      "summary": "Manchester City star Erling Haaland has previously discussed the club facing 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790413125000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Ex-Southampton and Italy striker Dani Osvaldo in intensive care",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/ex-southampton-dani-osvaldo-intensive-care/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/italy-training-session-and-press-7.jpg",
-      "summary": "Former Southampton, Roma, Juventus and Italy striker Dani Osvaldo has been admitted to hospital and...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790413041000
-    },
-    {
-      "competition": "indy",
-      "title": "Liverpool announce new sporting director after Richard Hughes exit",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/julian-ward-liverpool-sporting-director-richard-hughes-b3056794.html",
-      "image": "https://static.independent.co.uk/2026/09/09/17/2294345731..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Richard Hughes left the role of sporting director at Anfield earlier this month",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790412207000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Unai Emery interest expected as Aston Villa recovery 'difficult'",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/unai-emery-interest-expected-aston-34675551",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34574116.ece/ALTERNATES/s615/0_JS416801990.jpg",
-      "summary": "Emery saw his Europa League winning team be 'completely dismantled' this summer",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790412091000
-    },
-    {
-      "competition": "mirror",
-      "title": "Andy Robertson makes feelings clear on Man City 115 charges verdict and Liverpool impact",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-liverpool-robertson-37704947",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704960.ece/ALTERNATES/s615/0_Scotland-Team-Press-Conference-International-Football-Stadion-Stozice-Ljubljana-25-Sep-2026.jpg",
-      "summary": "Former Liverpool star Andy Robertson has had his say on the verdict that Manchester City breached a huge number of Premier League rules",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790411797000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Calafiori reacts after Italy 0-2 Belgium defeat: ‘Not convincing at all’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/calafiori-reacts-after-italy-0-2-belgium-loss/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back.jpg",
-      "summary": "Riccardo Calafiori admits that Italy were ‘not convincing at all’ in their 2-0 defeat at...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790411664000
-    },
-    {
-      "competition": "bbc",
-      "title": "Pocognoli may require patience to deliver on Scotland shake-up",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvkgw6g1kdg8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bd/live/7e563760-b914-11f1-bb9c-99c71a1a6145.jpg",
-      "summary": "A new era begins for Scotland, with Sebastien Pocognoli leading a refreshed squad into the Nations League campaign.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790411338000
     }
   ]
 }
