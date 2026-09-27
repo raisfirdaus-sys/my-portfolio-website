@@ -1,17 +1,55 @@
 {
-  "generatedAt": 1790529019119,
+  "generatedAt": 1790530975110,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1502,
-    "tagged": 795,
-    "droppedKeyword": 25,
+    "raw": 1501,
+    "tagged": 803,
+    "droppedKeyword": 24,
     "droppedOtherSport": 2,
     "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/652a31277c8c5965b4c8b7a5ad0618410d97a950/1365_1099_5067_4053/master/5067.jpg?width=140&quality=85&auto=format&fit=max&s=39d3c168eda36bd72e9323c347392548",
+      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe Israel v Ireland game comes after a day of intrigue over whether the game would be played at all.Gavin Bazunu…",
+      "teams": [
+        "ireland",
+        "portugal",
+        "germany"
+      ],
+      "publishedAt": 1790530801000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini distances himself from Manchester City verdict: &#8216;Their problem, not mine&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-distances-himself-from-manchester-city/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Manchester-City-argh-414x274.jpg",
+      "summary": "Roberto Mancini has rejected any suggestion that Manchester City s guilty verdict reflects on him, disputing...",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790529600000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790529371000
+    },
     {
       "competition": "men",
       "title": "Roy Keane could quit ITV and Sky Sports as Man United icon waiting for imminent call",
@@ -74,7 +112,7 @@
     },
     {
       "competition": "men",
-      "title": "BREAKING: Man United handed major injury blow as Patrick Dorgu limps out of Denmark match",
+      "title": "Man United handed major injury blow as Patrick Dorgu limps out of Denmark match",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-united-patrick-dorgu-34679531",
       "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679525.ece/ALTERNATES/s615/0_Dorgujfif.jpg",
@@ -96,18 +134,6 @@
         "italy"
       ],
       "publishedAt": 1790527200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790526581000
     },
     {
       "competition": "echo",
@@ -724,31 +750,6 @@
         "newcastle"
       ],
       "publishedAt": 1790507108000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Cesc Fabregas Arsenal clause confirmed with Mikel Arteta replacement identified for the future",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/cesc-fabregas-arsenal-clause-confirmed-34672184",
-      "image": "https://i2-prod.football.london/incoming/article34672193.ece/ALTERNATES/s615/0_Mikel-Arteta-Cesc-Fabregas-and-Arsenal.jpg",
-      "summary": "Cesc Fabregas has been confirmed to have an Arsenal clause in his Como contract",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790506800000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Man City 115 charges latest: Arsenal impact, potential punishments and what happens next",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/man-city-115-charges-latest-34678591",
-      "image": "https://i2-prod.football.london/incoming/article34678625.ece/ALTERNATES/s615/0_Manchester-City-breaches.jpg",
-      "summary": "Man City have reportedly been found guilty of the vast majority of the charges brought against them by the Premier League surrounding alleged breaches of financial rules",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790506791000
     }
   ]
 }
