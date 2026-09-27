@@ -1,30 +1,151 @@
 {
-  "generatedAt": 1790531568145,
+  "generatedAt": 1790533690259,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 806,
-    "droppedKeyword": 26,
+    "raw": 1499,
+    "tagged": 792,
+    "droppedKeyword": 20,
     "droppedOtherSport": 2,
-    "droppedFeed": 7,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790533283000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Napoli reach agreement to extend Rrahmani contract until 2029",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/napoli-reach-agreement-to-extend-rrahmani/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Amir-Rrahmani-Viktor-Gyokeres-414x276.jpg",
+      "summary": "Napoli have agreed terms with Amir Rrahmani over a new deal, with only the official...",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1790532900000
+    },
+    {
       "competition": "guardian",
       "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/652a31277c8c5965b4c8b7a5ad0618410d97a950/1365_1099_5067_4053/master/5067.jpg?width=140&quality=85&auto=format&fit=max&s=39d3c168eda36bd72e9323c347392548",
-      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe Israel v Ireland game comes after a day of intrigue over whether the game would be played at all.Gavin Bazunu…",
+      "image": "https://i.guim.co.uk/img/media/27af945bd8f5ec9cd5f9772a5cd4414a7eda1094/1600_0_6483_5188/master/6483.jpg?width=140&quality=85&auto=format&fit=max&s=d35108e3cb3870a192f12e8706211b9e",
+      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokGermany v Greece starting lineups:Germany: Nübel - Vagnoman, Tah, Bisseck, Brown - Kimmich ©, Nmecha, Conté -…",
       "teams": [
         "ireland",
         "portugal",
         "germany"
       ],
-      "publishedAt": 1790530801000
+      "publishedAt": 1790532652000
+    },
+    {
+      "competition": "bundes",
+      "title": "Jürgen Klopp eyes first Germany victory against Greece",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/germany-greece-live-blog-nations-league-klopp-wirtz-karetsas-39357",
+      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083723352h.jpg?crop=81px%2C163px%2C2761px%2C1554px",
+      "summary": "Jürgen Klopp and Germany are in Augsburg on Sunday as they take on Greece in their second Group A2 fixture in the UEFA Nations League (kick-off 8.45pm).",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790532349000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man Utd bag their first win of the season against West Ham",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cm9qrzlqyz58o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d58/live/769dc4e0-ba7f-11f1-bd21-bdf910f2cec6.jpg",
+      "summary": "Eva Olid claims her first Women's Super League victory as Manchester United manager, but they were made to work hard to beat West Ham.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790532239000
+    },
+    {
+      "competition": "guardian",
+      "title": "Thomas Tuchel says it would be ‘madness’ to rest England players despite longer window",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/thomas-tuchel-england-players-longer-international-window-nations-league",
+      "image": "https://i.guim.co.uk/img/media/63416a77cace87c7a64e4c9e2766a6ac0bc16fb9/408_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=97e930654a8b84000c9bc59636ceb56d",
+      "summary": "I don’t take calls from Premier League managers, he saysEngland play Czechia in Prague on TuesdayThomas Tuchel says it would be “madness” to allow his England players or the clubs to pick and choose their matches during…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790532011000
+    },
+    {
+      "competition": "guardian",
+      "title": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/james-trafford-england-no-1-nations-league",
+      "image": "https://i.guim.co.uk/img/media/27faf287c214aefab730ee329caf2e51850a7168/631_0_5417_4334/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=1dafd141666ed18fb81411922f48c416",
+      "summary": "The Leeds player was surprise starter against Spain but, after his solid display, Jordan Pickford’s grip may be looseningJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity.…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790532011000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Parma in direct contact with Gilardino to replace former Arsenal coach Cuesta",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/parma-in-direct-contact-with-gilardino-cuesta/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Carlos-Cuesta-Parma-Milan-414x300.jpg",
+      "summary": "Parma have moved quickly to identify Carlos Cuesta s successor, with Alberto Gilardino the leading name...",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790532000000
+    },
+    {
+      "competition": "mirror",
+      "title": "James Trafford sends clear message to Jordan Pickford in battle to be England's undisputed No 1",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-james-trafford-jordan-pickford-37707592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707599.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "James Trafford was a surprise inclusion for England's thrilling shootout with Spain at Wembley and the Leeds keeper has his sights firmly set on Jordan Pickford's shirt",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790532000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Jude Bellingham only knows how to play one way - he and England must embrace it",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jude-bellingham-only-knows-how-37706885",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707018.ece/ALTERNATES/s615/0_GettyImages-2297306122.jpg",
+      "summary": "Jude Bellingham remains the heartbeat of an England side that must embrace their own qualities to go toe-to-toe with the world's best regularly",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790532000000
+    },
+    {
+      "competition": "men",
+      "title": "Man City triple punishment predicted after guilty verdict as club's 'best hope' named",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-punishment-114-charges-34679599",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679598.ece/ALTERNATES/s615/1_FC-Bayern-Mnchen-v-Manchester-City-UEFA-Womens-Champions-League-202627-League-Phase-MD1.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of the Premier League's financial rules, with an anxious wait to see what punishment the club are slapped with",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790531395000
     },
     {
       "competition": "fitalia",
@@ -37,18 +158,6 @@
         "mancity"
       ],
       "publishedAt": 1790529600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790529371000
     },
     {
       "competition": "men",
@@ -185,19 +294,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
-      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
-      "teams": [
-        "germany",
-        "greece"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
       "title": "Why Ireland players are wearing black armbands against Israel after player vote",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-black-armbands-israel-37706065",
@@ -230,6 +326,19 @@
       "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
       "teams": [
         "israel"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
+      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
+      "teams": [
+        "germany",
+        "greece"
       ],
       "publishedAt": 1790524800000
     },
@@ -517,19 +626,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
-      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
-      "teams": [
-        "netherlands",
-        "serbia"
-      ],
-      "publishedAt": 1790514000000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
@@ -538,6 +634,19 @@
       "teams": [
         "denmark",
         "wales"
+      ],
+      "publishedAt": 1790514000000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
+      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
+      "teams": [
+        "netherlands",
+        "serbia"
       ],
       "publishedAt": 1790514000000
     },
@@ -639,117 +748,6 @@
         "sweden"
       ],
       "publishedAt": 1790510271000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Zion Suzuki update after Aston Villa goalkeeper missed Japan friendly",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/zion-suzuki-aston-villa-injury-34678709",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644389.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "Aston Villa's number one Zion Suzuki was not involved as Japan faced Uruguay",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790509326000
-    },
-    {
-      "competition": "bbc",
-      "title": "Why does Robbie Ure have first name on his Scotland shirt?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5gmrrl0dvrdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11d5/live/68b4c030-ba67-11f1-9bc7-ebc5715692ba.jpg",
-      "summary": "Robbie Ure explains why the back of his shirt read 'Robbie Ure' rather than simply 'Ure' against Slovenia.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790508925000
-    },
-    {
-      "competition": "men",
-      "title": "Man City and the missing guilty verdict that adds to 115 confusion",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-missing-guilty-verdict-34678187",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674040.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City appear to be bang to rights over the 115 case but incomplete details of their guilt still leave scope for a range of punishments",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790508840000
-    },
-    {
-      "competition": "metro",
-      "title": "Barcelona chief Deco receiving transfer information on &#8216;angry&#8217; Chelsea star",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/barcelona-chief-deco-receiving-transfer-information-angry-chelsea-star-29656464/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310183335-1d89.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "barcelona",
-        "chelsea"
-      ],
-      "publishedAt": 1790508797000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Why Mancini dropped five players who featured in Italy’s 0-2 defeat to Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/why-mancini-dropped-5-italy-players-belgium/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-jacket-414x276.jpg",
-      "summary": "Five players who featured in Italy s 2-0 loss against Belgium on Friday have not travelled...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790508797000
-    },
-    {
-      "competition": "bbc",
-      "title": "Injured Isak returns to Liverpool from Sweden duty",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvzryd6ne5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3f4/live/8a32ff90-ba64-11f1-ab5a-210fdaa1dd09.jpg",
-      "summary": "Liverpool striker Alexander Isak returns to his club after picking up a minor injury while on international duty with Sweden.",
-      "teams": [
-        "liverpool",
-        "sweden"
-      ],
-      "publishedAt": 1790508402000
-    },
-    {
-      "competition": "mirror",
-      "title": "Why Ireland's Gavin Bazanu has withdrawn from Israel game and everything he's said",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-nations-league-bazunu-37707039",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article27497637.ece/ALTERNATES/s615/2_Republic-of-Ireland-v-Qatar-International-Friendly.jpg",
-      "summary": "The Republic of Ireland's UEFA Nations League fixture against Israel will go ahead on Sunday, though Bolton goalkeeper Gavin Bazunu won't be part of the squad",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790507848000
-    },
-    {
-      "competition": "echo",
-      "title": "Isak, Ekitike, Leoni - Liverpool injury news and return dates after statement released on new blow",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injury-latest-alexander-isak-34678487",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678644.ece/ALTERNATES/s615/0_JS418718465.jpg",
-      "summary": "Liverpool have several injury concerns and have been handed a fresh blow during the international break",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790507465000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Sandro Tonali 'in crisis' after Newcastle United transfer as Italians turn on him",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/sandro-tonali-newcastle-united-transfer-34678500",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678621.ece/ALTERNATES/s615/0_Sandro-Tonali.jpg",
-      "summary": "Sandro Tonali has come under fire on the international stage after a below-par start to his Tottenham career following a £100m transfer from Newcastle United",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790507108000
     }
   ]
 }
