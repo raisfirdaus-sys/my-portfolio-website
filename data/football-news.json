@@ -1,17 +1,68 @@
 {
-  "generatedAt": 1790513905587,
+  "generatedAt": 1790514789828,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1504,
-    "tagged": 784,
-    "droppedKeyword": 24,
+    "raw": 1506,
+    "tagged": 787,
+    "droppedKeyword": 21,
     "droppedOtherSport": 2,
-    "droppedFeed": 8,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City's 115 charges hope as independent panel 'could come under serious scrutiny'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-citys-115-charges-hope-34678704",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678824.ece/ALTERNATES/s615/0_JS315909739.jpg",
+      "summary": "Manchester City maintaining their innocence after reports the club have been found guilty of alleged financial breaches",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790514574000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Bayern Munich insider tips Aston Villa transfer return after summer enquiry",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-transfers-kim-minjae-34678883",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34421912.ece/ALTERNATES/s615/0_FC-Bayern-Mnchen-v-Aston-Villa-Pre-Season-Friendly.jpg",
+      "summary": "Aston Villa were linked with the defender over the summer and they have been backed not to let the matter drop",
+      "teams": [
+        "bayern",
+        "astonvilla"
+      ],
+      "publishedAt": 1790514050000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
+      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
+      "teams": [
+        "netherlands",
+        "serbia"
+      ],
+      "publishedAt": 1790514000000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704931.ece/ALTERNATES/s615/0_Portugal-v-Wales-UEFA-Nations-League-League-A-Jose-Alvalade-Stadiumjpgn-b.jpg",
+      "summary": "Denmark and Wales meet in Copenhagen, looking for their first points in this season's Nations League",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790514000000
+    },
     {
       "competition": "mirror",
       "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
@@ -701,56 +752,6 @@
         "italy"
       ],
       "publishedAt": 1790494301000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City relegation could 'lead to legal disputes' with stars as 115 charges punishment wait begins",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-players-contracts-37706516",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706552.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "Manchester City may be facing questions from their own players and their respective futures over the club being found in breach of financial regulations",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790493596000
-    },
-    {
-      "competition": "bbc",
-      "title": "From turgid to thrusting - mixed start for new Scotland",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a240/live/9ba128a0-ba56-11f1-a430-4d16ee157c41.jpg",
-      "summary": "BBC Sport Scotland's Tom English reviews a mixed start to life as Scotland head coach for Sebastien Pocognoli as his side open their Nations League campaign with a goalless draw in Slovenia.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790493295000
-    },
-    {
-      "competition": "metro",
-      "title": "Harry Kane makes Man City claim after England&#8217;s defeat to Spain",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/harry-kane-makes-man-city-claim-englands-defeat-spain-29656146/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-27-at-07.45.47-d47d.png?w=646",
-      "summary": null,
-      "teams": [
-        "mancity",
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790492477000
-    },
-    {
-      "competition": "guardian",
-      "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/national-league-gateshead-wealdstone",
-      "image": "https://i.guim.co.uk/img/media/81bc7c6eb546646bfef177c17df70afe61d1b03a/200_0_3440_2752/master/3440.jpg?width=140&quality=85&auto=format&fit=max&s=0fec97a7e1ee4d001fd0c0e250bdcdd1",
-      "summary": "His team bottom of the National League, Lee Cattermole’s ‘bomb squad’ approach could well end with him departingAmong many doomsday scenarios facing Manchester City is plunging down the football pyramid. Would that be…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790492459000
     }
   ]
 }
