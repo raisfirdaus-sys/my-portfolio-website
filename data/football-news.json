@@ -1,28 +1,28 @@
 {
-  "generatedAt": 1790511572249,
+  "generatedAt": 1790513905587,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1501,
-    "tagged": 780,
+    "raw": 1504,
+    "tagged": 784,
     "droppedKeyword": 24,
     "droppedOtherSport": 2,
-    "droppedFeed": 7,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "fitalia",
-      "title": "Roma and Italy legend Totti celebrates his 50th birthday in Las Vegas",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/roma-italy-totti-50th-birthday-las-vegas/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/09/as-roma-francesco-totti-jubilates-2005-inter-414x272.jpg",
-      "summary": "Italy and Roma legend Francesco Totti turns 50 today and celebrates in Las Vegas with...",
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
       "teams": [
-        "italy"
+        "mancity"
       ],
-      "publishedAt": 1790510498000
+      "publishedAt": 1790513371000
     },
     {
       "competition": "men",
@@ -34,19 +34,93 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790510468000
+      "publishedAt": 1790513322000
+    },
+    {
+      "competition": "bbc",
+      "title": "Swiss hail 'great job' without Xhaka & Embolo before Scotland trip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgy07zr7plo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6061/live/f61b28e0-ba6e-11f1-a109-c7409015a263.jpg",
+      "summary": "Switzerland feel they did \"a great job\" of compensating for the loss of Granit Xhaka and Breel Embolo as they head to face Scotland on the back of an impressive 3-0 win in North Macedonia.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790513039000
+    },
+    {
+      "competition": "echo",
+      "title": "Alexander Isak injury clarified by Graham Potter after Liverpool star suffers 'frustrating' setback",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-injury-clarified-graham-34678767",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678760.ece/ALTERNATES/s615/0_Potter-and-Isak.jpg",
+      "summary": "Sweden head coach Graham Potter has offered an injury update on Liverpool striker Alexander Isak",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790512162000
     },
     {
       "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "title": "Thomas Tuchel has failed his main England task and Spain defeat felt inevitable",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-failed-main-england-37707204",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707206.ece/ALTERNATES/s615/0_GettyImages-2297357088.jpg",
+      "summary": "OPINION: England put up a good fight against world champions Spain, but Thomas Tuchel's remit was for the Three Lions to regularly beat the best...he hasn't done that",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790512139000
+    },
+    {
+      "competition": "bbc",
+      "title": "Bellamy scores 1998 winner for Wales against Denmark",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c9vgyr4k2k0xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e0a/live/23ffe310-ba6d-11f1-a109-c7409015a263.jpg",
+      "summary": "Watch BBC Sport Wales archive highlights as Craig Bellamy scores Wales' 1998 winner against Denmark.",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790512116000
+    },
+    {
+      "competition": "men",
+      "title": "Alejandro Garnacho transfer thrown into major doubt as ex-Man United star's struggles continue",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/alejandro-garnacho-transfer-villa-chelsea-34678771",
+      "image": "https://i2-prod.football.london/incoming/article34678779.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-Premier-League-MKM-Stadium.jpg",
+      "summary": "The former Manchester United winger has struggled to make an impact since his £40 million move from Old Trafford",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790511903000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Tottenham 'cheated' by Manchester City as new 115 charges punishment verdict given",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/harry-redknapp-tottenham-man-city-34678686",
+      "image": "https://i2-prod.football.london/incoming/article34678757.ece/ALTERNATES/s615/0_Tottenham-Man-City.jpg",
+      "summary": "Tottenham could take action against Manchester City over the guilty 114 financial charges verdict with Harry Redknapp making his feelings clear",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790510435000
+      "publishedAt": 1790511551000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Roma and Italy legend Totti celebrates his 50th birthday in Las Vegas",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/roma-italy-totti-50th-birthday-las-vegas/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/09/as-roma-francesco-totti-jubilates-2005-inter-414x272.jpg",
+      "summary": "Italy and Roma legend Francesco Totti turns 50 today and celebrates in Las Vegas with...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790510498000
     },
     {
       "competition": "metro",
@@ -271,6 +345,18 @@
       "publishedAt": 1790505708000
     },
     {
+      "competition": "bundes",
+      "title": "Borussia Dortmund's Mathis Albert makes instant impact on USA debut against Peru",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/mathis-albert-borussia-dortmund-usa-peru-international-instant-impact-39364",
+      "image": "https://assets.bundesliga.com/contender/2026/8/GettyImages-2297309764.jpg?crop=0px%2C170px%2C4384px%2C2466px",
+      "summary": "On his debut for the USMNT, Mathis Albert needed just a few minutes to show what he could offer on the international stage. The 17-year-old Borussia Dortmund forward helped turn a closely fought contest in the USA's…",
+      "teams": [
+        "dortmund"
+      ],
+      "publishedAt": 1790505056000
+    },
+    {
       "competition": "footlondon",
       "title": "Erling Haaland to Arsenal transfer reality clear as 'contacted' claims made over Man City striker",
       "publisher": "football.london",
@@ -434,18 +520,6 @@
     },
     {
       "competition": "footlondon",
-      "title": "Xabi Alonso told to unleash 'fantastic' Chelsea star who has barely featured this season",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/xabi-alonso-told-unleash-fantastic-34665578",
-      "image": "https://i2-prod.football.london/incoming/article34665797.ece/ALTERNATES/s615/0_GettyImages-2290594530.jpg",
-      "summary": "Former Chelsea winger Shaun Wright-Phillips has had his say on one player he describes as 'fantastic'",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790499600000
-    },
-    {
-      "competition": "footlondon",
       "title": "Five high-potential gems that should make Arsenal transfer shortlist in 2027",
       "publisher": "football.london",
       "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-transfer-news-kayode-ngumoha-34674428",
@@ -453,6 +527,18 @@
       "summary": "Arsenal will continue strengthening Mikel Arteta's squad moving forward, but which young players could be of interest next summer?",
       "teams": [
         "arsenal"
+      ],
+      "publishedAt": 1790499600000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Xabi Alonso told to unleash 'fantastic' Chelsea star who has barely featured this season",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/xabi-alonso-told-unleash-fantastic-34665578",
+      "image": "https://i2-prod.football.london/incoming/article34665797.ece/ALTERNATES/s615/0_GettyImages-2290594530.jpg",
+      "summary": "Former Chelsea winger Shaun Wright-Phillips has had his say on one player he describes as 'fantastic'",
+      "teams": [
+        "chelsea"
       ],
       "publishedAt": 1790499600000
     },
@@ -665,93 +751,6 @@
         "mancity"
       ],
       "publishedAt": 1790492459000
-    },
-    {
-      "competition": "guardian",
-      "title": "Ever feel you’ve been cheated? Consequences could be profound after Manchester City guilty verdict | Jonathan Wilson",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/ever-feel-youve-been-cheated-consequences-could-be-profound-after-manchester-city-guilty-verdict",
-      "image": "https://i.guim.co.uk/img/media/3a2bed798e294c865f900e1674016701ea48a6a6/351_0_2799_2240/master/2799.jpg?width=140&quality=85&auto=format&fit=max&s=b00caa57c677db8d2a15b4892f859828",
-      "summary": "Premier League could be hit hard by aftermath, while Manchester City fans may know they took 30 years to recover from a guilty verdict in 1906So it turns out none of that was real. Nothing that happened in English…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790492457000
-    },
-    {
-      "competition": "mirror",
-      "title": "What happened to Man Utd team slapped 7-0 by Liverpool and the eerie resemblance in current squad",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-liverpool-premier-league-37693206",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37693734.ece/ALTERNATES/s615/0_GettyImages-1471476568.jpg",
-      "summary": "Manchester United and Liverpool have shared a tough rivalry over the years and it will continue this season as Anfield hosts the pair in November",
-      "teams": [
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790492400000
-    },
-    {
-      "competition": "chronicle",
-      "title": "I don't expect 'panic buy' Nick Woltemade to return to Newcastle United even if he stars for Juve",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/dont-expect-panic-buy-nick-34676410",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676460.ece/ALTERNATES/s615/0_Wolt2.jpg",
-      "summary": "Former United and England winger Chris Waddle feels the Premier League was too quick for the German international",
-      "teams": [
-        "newcastle",
-        "juventus"
-      ],
-      "publishedAt": 1790492400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City verdict: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790492220000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790491908000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City? I feel cheated - when do Stoke City get our FA Cup?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c60m33473zxpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c068/live/df157960-541c-11f1-8b8c-6d33e1d5abb6.jpg",
-      "summary": "BBC Sport columnist Tony Pulis explains what he and all Stoke fans are thinking after Manchester City are found guilty of the majority of the 115 charges they faced.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790491809000
-    },
-    {
-      "competition": "indy",
-      "title": "England take positive step forward but Spain defeat reveals true level they must reach",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-nations-league-goals-result-kane-tuchel-b3056975.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/01M3FQTKT3EXYX2Y9N6B1X5726.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "summary": "England 2-3 Spain: A thrilling five-goal contest at Wembley ended in favour of the world champions as substitutes Alex Baena and Mikel Oyarzabal showed off Spain’s technical excellence",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790490538000
     }
   ]
 }
