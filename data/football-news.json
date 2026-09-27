@@ -1,17 +1,130 @@
 {
-  "generatedAt": 1790543880244,
+  "generatedAt": 1790545165931,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1500,
-    "tagged": 808,
-    "droppedKeyword": 21,
+    "raw": 1491,
+    "tagged": 794,
+    "droppedKeyword": 23,
     "droppedOtherSport": 3,
-    "droppedFeed": 10,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "&#8216;It&#8217;s a shame&#8217; &#8211; Xabi Alonso told to sell Chelsea star after Barcelona approach",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/its-a-shame-xabi-alonso-told-sell-chelsea-star-barcelona-approach-29657076/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2293993891-fb94.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790545035000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd chief Sir Jim Ratcliffe to settle £180m dispute after 'months of heated arguments'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/man-utd-ineos-jim-ratcliffe-37708275",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708288.ece/ALTERNATES/s615/1_Sir-Jim-Ratcliffe-file-photo.jpg",
+      "summary": "Manchester United co-owner Sir Jim Ratcliffe reportedly wants to resolve a £180million legal dispute involving Ineos after what are said to have been 18 months of heated arguments",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790544896000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ex-Man City boss Roberto Mancini breaks silence on 115 charges verdict - 'Not my problem'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/roberto-mancini-manchester-city-charges-37708184",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708239.ece/ALTERNATES/s615/0_GettyImages-2296862901.jpg",
+      "summary": "Roberto Mancini was appointed by Manchester City in 2009, the same year as the club's financial wrongdoing began, and he's alleged to have been paid off the books during his time as manager",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790544375000
+    },
+    {
+      "competition": "guardian",
+      "title": "Ireland’s comfortable win over Israel cannot dispel controversy",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/israel-republic-ireland-nations-league-group-3-match-report",
+      "image": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/598_0_5970_4777/master/5970.jpg?width=140&quality=85&auto=format&fit=max&s=0acdbf198f0a3ddd476675545838ffcd",
+      "summary": "Football and politics are inseparable in the modern world, no matter how many people wish they were not. But whether the beautiful game can ease the ills of our age is another matter. After a week in which the issue of…",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790544243000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal latest and potential punishments after guilty verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790544098000
+    },
+    {
+      "competition": "bbc",
+      "title": "Thompson goal enough to give Chelsea feisty derby win over Arsenal",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmq8jnqxjx5no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e467/live/e98da070-baa1-11f1-a430-4d16ee157c41.jpg",
+      "summary": "Chelsea beat Arsenal in a feisty encounter at Stamford Bridge to continue their steady start to the Women's Super League season.",
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790544097000
+    },
+    {
+      "competition": "echo",
+      "title": "Xavi issues Cody Gakpo injury update after Liverpool star forced off in Netherlands match",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-injury-liverpool-news-34680006",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34680013.ece/ALTERNATES/s615/1_Serbia-v-Netherlands-UEFA-Nations-League-202627-Group-A2-MD2.jpg",
+      "summary": "Cody Gakpo has provided fresh injury worries for Liverpool after he was forced off during the Netherlands' clash against Serbia on Sunday",
+      "teams": [
+        "netherlands",
+        "liverpool"
+      ],
+      "publishedAt": 1790544043000
+    },
+    {
+      "competition": "bbc",
+      "title": "Barcelona monitor Chelsea's Estevao - Monday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm74kp52d3xko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d58d/live/2ec714e0-bab2-11f1-af2e-6192a92ec405.png",
+      "summary": "Barcelona are monitoring Estevao, Erling Haaland attracts interests amid Man City uncertainty and Joao Felix could return to Europe, plus more.",
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790543942000
+    },
+    {
+      "competition": "guardian",
+      "title": "Denmark dominate Wales in Nations League to leave Bellamy ‘really hurting’",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/denmark-wales-nations-league-group-a4-match-report",
+      "image": "https://i.guim.co.uk/img/media/01b7e84cba78e5efc0db110c31d443008bcb501e/222_0_1915_1533/master/1915.jpg?width=140&quality=85&auto=format&fit=max&s=e2bccf998b0401e6b3bd43d9ca86d4c5",
+      "summary": "Wales wilted in Copenhagen as a 2-0 defeat to Denmark left them bottom of their Nations League group with no points or goals from their first two games.After a first half in which Wales were very much second-best and…",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790543656000
+    },
     {
       "competition": "mirror",
       "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
@@ -35,19 +148,6 @@
         "arsenal"
       ],
       "publishedAt": 1790542324000
-    },
-    {
-      "competition": "guardian",
-      "title": "Republic of Ireland put controversy aside with fine first half to seal win against Israel",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/israel-republic-ireland-nations-league-group-3-match-report",
-      "image": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/598_0_5970_4777/master/5970.jpg?width=140&quality=85&auto=format&fit=max&s=0acdbf198f0a3ddd476675545838ffcd",
-      "summary": "Football and politics are inseparable in the modern world, no matter how many people wish that weren’t true. But whether the beautiful game can ease the ills of our age is another matter. After a week in which the issue…",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790542317000
     },
     {
       "competition": "bundes",
@@ -145,18 +245,6 @@
         "chelsea"
       ],
       "publishedAt": 1790538404000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Appeal latest and potential punishments after guilty verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
-      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790538261000
     },
     {
       "competition": "mirror",
@@ -294,19 +382,6 @@
         "fiorentina"
       ],
       "publishedAt": 1790534700000
-    },
-    {
-      "competition": "guardian",
-      "title": "Denmark dominate Wales in Nations League as Isaksen adds finishing touch",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/denmark-wales-nations-league-group-a4-match-report",
-      "image": "https://i.guim.co.uk/img/media/01b7e84cba78e5efc0db110c31d443008bcb501e/222_0_1915_1533/master/1915.jpg?width=140&quality=85&auto=format&fit=max&s=e2bccf998b0401e6b3bd43d9ca86d4c5",
-      "summary": "Wales wilted in Copenhagen as a 2-0 defeat to Denmark left them bottom of their Nations League group with no points or goals from their first two games.After a first half in which Wales were very much second-best and…",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1790534680000
     },
     {
       "competition": "men",
@@ -670,80 +745,6 @@
         "mancity"
       ],
       "publishedAt": 1790524340000
-    },
-    {
-      "competition": "mirror",
-      "title": "Alexander Isak injury explained as boss provides update on Liverpool star",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/alexander-isak-injury-update-liverpool-37707455",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707523.ece/ALTERNATES/s615/0_GettyImages-2296494661.jpg",
-      "summary": "Alexander Isak will return to Liverpool after his injury against Romania proved to be worse than first thought, leaving Sweden without him for rest of their September-October internationals",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790523648000
-    },
-    {
-      "competition": "metro",
-      "title": "Gary Neville names worst Manchester United signing since Sir Alex Ferguson era",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/gary-neville-names-worst-man-utd-signing-since-sir-alex-ferguson-era-29657142/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2230768223-6d86.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790522113000
-    },
-    {
-      "competition": "indy",
-      "title": "RTÉ explains decision for reduced coverage of Republic of Ireland v Israel in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-vs-israel-commentary-rte-studio-coverage-b3057141.html",
-      "image": "https://static.independent.co.uk/2026/09/24/23/9463caf911851137b402a8b62f564940Y29udGVudHNlYXJjaGFwaSwxNzkwMzcyODIz-2.84034449.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "After calls to boycott the controversial fixture, the country’s national broadcaster has opted for slimmed-down coverage of the Nations League match",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790521953000
-    },
-    {
-      "competition": "guardian",
-      "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/tony-pulis-says-he-and-stoke-were-cheated-in-2011-fa-cup-final-after-manchester-city-verdict",
-      "image": "https://i.guim.co.uk/img/media/9e2f824400bab3ad39ab412fda40e2f45f91394e/1049_684_2684_2148/master/2684.jpg?width=140&quality=85&auto=format&fit=max&s=b21c776ae52cb19978e427cfe22627c9",
-      "summary": "Manchester City won match 1-0 after goal by Yaya TouréClub deny wrongdoing and say ‘process is ongoing’Tony Pulis has said his Stoke City team was “cheated” out of the 2011 FA Cup after Manchester City were found guilty…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790521319000
-    },
-    {
-      "competition": "men",
-      "title": "Seven huge questions that will linger for Man City fans after 115 charges guilty verdicts",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/seven-huge-questions-linger-man-34678698",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34678766.ece/ALTERNATES/s615/0_GettyImages-2241420332.jpg",
-      "summary": "Manchester City fans had their perceptions of the club fundamentally changed on Friday and there are still questions to answer",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790521200000
-    },
-    {
-      "competition": "men",
-      "title": "Portugal issue new Bruno Fernandes injury statement as Man United handed update",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-injury-man-utd-34679093",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679175.ece/ALTERNATES/s615/0_JS419112787.jpg",
-      "summary": "Manchester United captain Bruno Fernandes has emerged as an injury doubt during his time with the Portugal squad",
-      "teams": [
-        "manutd",
-        "portugal"
-      ],
-      "publishedAt": 1790520874000
     }
   ]
 }
