@@ -1,21 +1,85 @@
 {
-  "updatedAt": "2026-09-27T17:42:38.794Z",
+  "updatedAt": "2026-09-27T21:17:40.019Z",
   "items": [
     {
+      "ticker": "ABBV",
+      "title": "AI Could Give AbbVie (ABBV) a New Route to Long-Term Pipeline Growth",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/healthcare/articles/ai-could-abbvie-abbv-route-202851730.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/c554ad8e2af773e2e2a8438bfe2291ee.jpg",
+      "publishedAt": 1790540931000
+    },
+    {
       "ticker": "MSFT",
+      "title": "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures-due-amid.html",
+      "image": "https://media.zenfs.com/en/ibd.com/82b3f81c27f1c7a4099199dae86f4c38.jpg",
+      "publishedAt": 1790540855000
+    },
+    {
+      "ticker": "MA",
+      "title": "Apple and Nvidia Are the Two Largest Companies in the World. Which is the Better Stock to Buy?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-nvidia-two-largest-companies-200500400.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/3b411e04455c766c8fd80b1a6d589032.jpg",
+      "publishedAt": 1790539500000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) Puts GitHub’s Coding Engine Inside the App Office Workers Already Use",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-puts-github-coding-193953624.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/23914345699024b9148da17e9290f04c.jpg",
+      "publishedAt": 1790537993000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-nasdaq-refuses-break-even-191523824.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/c6aec1bd430c7d2a03ac7590008ecd9d.jpg",
+      "publishedAt": 1790536523000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Big Tech Workers Speak Out After Getting Laid Off: 'I Applied to Work Cashier at Target and I Was Denied'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/articles/big-tech-workers-speak-getting-190018481.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/ee48ad4f4490d6c5df4ef1044f18dde8.jpg",
+      "publishedAt": 1790535618000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Bill Gates doubles down on AI warning after decades of optimism",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/ai/articles/bill-gates-doubles-down-ai-183300679.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/b79b48b7ef4f6d82c8df88db181e4240.jpg",
+      "publishedAt": 1790533980000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Is Amazon Stock a Buy, Hold, or Sell Below $250?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-buy-hold-sell-181526568.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/0cd7e0af1c90da093a8a2483fccfe813.png",
+      "publishedAt": 1790532926000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "AI’s $10 Trillion Buildout Will Reach 3.6% of GDP. Who’s Going to Pay for It?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-10-trillion-buildout-reach-175151308.html",
+      "image": "https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
+      "publishedAt": 1790531511000
+    },
+    {
+      "ticker": "GOOGL",
       "title": "Michael Burry sends a stark warning to Big Tech stock investors",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-stark-warning-173300477.html",
       "image": "https://media.zenfs.com/en/thestreet_881/b87af4b564f0fd4d6bc6487334375ecd.jpg",
       "publishedAt": 1790530380000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft just sent a strong message to Anthropic",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-just-sent-strong-message-171700278.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/6975b605e296601a9b4f1754b03f182c.jpg",
-      "publishedAt": 1790529420000
     },
     {
       "ticker": "SBUX",
@@ -24,14 +88,6 @@
       "link": "https://finance.yahoo.com/markets/options/articles/starbucks-close-250-stores-20-165029542.html",
       "image": "https://media.zenfs.com/en/24_7_wall_st__718/b8fb92bc528aef8bc78fa71863786c72.jpg",
       "publishedAt": 1790527829000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures-due-amid.html",
-      "image": "https://media.zenfs.com/en/ibd.com/82b3f81c27f1c7a4099199dae86f4c38.jpg",
-      "publishedAt": 1790527043000
     },
     {
       "ticker": "GOOGL",
@@ -50,28 +106,12 @@
       "publishedAt": 1790524915000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AMZN",
       "title": "Microsoft’s AI Investment Could Pay Off for Years. Here’s My Price Target",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-investment-could-pay-153044753.html",
       "image": "https://media.zenfs.com/en/24_7_wall_st__718/29d3c772bec0ab4f044af179853ec3e0.png",
       "publishedAt": 1790523044000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Ford Motor Company vs. General Motors: A Close Revenue Race",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ford-motor-company-vs-general-151401503.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/e0cfcc793cacbb808c80059998439b29.png",
-      "publishedAt": 1790522041000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Does Alphabet (GOOGL) Change Its AI Story With An Orbital Data Center Bet?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/does-alphabet-googl-change-ai-150744924.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/469c3bd184f0e63e1a342b17de1569a4.jpg",
-      "publishedAt": 1790521664000
     },
     {
       "ticker": "MA",
@@ -90,30 +130,6 @@
       "publishedAt": 1790519304000
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon copies Costco move that benefits members and workers",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/small-business/articles/amazon-copies-costco-move-benefits-141700072.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/2f009554f576421b6342e814a730b9e5.jpg",
-      "publishedAt": 1790518620000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "What Does Best Buy (BBY) Fire TV Deal Mean For Its Ad Business?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/media-advertising/articles/does-best-buy-bby-fire-140643868.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/7c89620ebd2585562eb200d9bf85d839.jpg",
-      "publishedAt": 1790518003000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "This Magnificent Seven Stock Could Reach a New All-Time High",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-stock-could-reach-133006600.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/0690525a454b5f6f30641250e742a388.jpg",
-      "publishedAt": 1790515806000
-    },
-    {
       "ticker": "SBUX",
       "title": "Why Starbucks Is Shutting Hundreds of Cafes in the Middle of a Comeback",
       "publisher": "24/7 Wall St.",
@@ -122,28 +138,12 @@
       "publishedAt": 1790515524000
     },
     {
-      "ticker": "MSFT",
-      "title": "Does the S&P 500 Have a \"Magnificent Seven\" Problem? Here's What Investors Need to Know.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-p-500-magnificent-seven-130900849.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/216b4639eba90a3ebc7bfd226f55da97.jpg",
-      "publishedAt": 1790514540000
-    },
-    {
       "ticker": "SBUX",
       "title": "Better Dividend Bet: DRI or SBUX? The Cash Flow Numbers Reveal a Clear Winner",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-bet-dri-sbux-123614690.html",
       "image": "https://media.zenfs.com/en/24_7_wall_st__718/d981dd810eaeb413015369ebbce09ae6.jpg",
       "publishedAt": 1790512574000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "3 Founder Led Stocks To Own In September 2026",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-stocks-own-111131931.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/d8667990be0f7a973b8be81c8989089e.jpg",
-      "publishedAt": 1790507491000
     }
   ]
 }
