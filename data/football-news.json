@@ -1,17 +1,106 @@
 {
-  "generatedAt": 1790493906695,
+  "generatedAt": 1790496968185,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1506,
-    "tagged": 798,
-    "droppedKeyword": 27,
+    "tagged": 802,
+    "droppedKeyword": 26,
     "droppedOtherSport": 2,
-    "droppedFeed": 5,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 49
+    "withImage": 45
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Harry Redknapp reveals punishment he wants for Man City amid claims Spurs were &#8216;cheated&#8217;",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/harry-redknapp-reveals-punishment-wants-man-city-amid-claims-spurs-cheated-29656232/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/07/GettyImages-2241791521.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity",
+        "tottenham"
+      ],
+      "publishedAt": 1790496823000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Official: Mancini leaves 10 Italy players in Coverciano ahead of Turkey clash",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-10-players-italy-coverciano-turkey/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-ball-414x276.jpg",
+      "summary": "Nicolò Barella, Honest Ahanor and Gianluca Mancini are among the ten players who will follow...",
+      "teams": [
+        "turkey",
+        "italy"
+      ],
+      "publishedAt": 1790496371000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790496251000
+    },
+    {
+      "competition": "guardian",
+      "title": "Israel game goes ahead after Irish players’ vote; reaction to Spain’s win over England – matchday live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
+      "image": "https://i.guim.co.uk/img/media/75f9949138fa2389dd1e03d9f335cb2d3cd92730/1376_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6bfc30e3b481a469c95fe28c59bcd2c5",
+      "summary": "The latest football news, reaction and discussionToday’s fixtures | And you can mail matchday liveRepublic of Ireland: Manager Heimir Hallgrimsson yesterday admitted he regretted his choice of words in comments made…",
+      "teams": [
+        "england",
+        "israel",
+        "spain"
+      ],
+      "publishedAt": 1790496206000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790496094000
+    },
+    {
+      "competition": "indy",
+      "title": "England vs Spain LIVE: Tuchel maintains hosts ‘dominated’ world champions despite loss in five-goal thriller at Wembley",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
+      "image": "https://static.independent.co.uk/2026/09/26/22/2026-09-26T202027Z_1202445885_UP1EM9Q1KI1ZO_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP.JPG?width=1200&auto=webp&trim=28%2C0%2C28%2C0",
+      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790495436000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Today&#8217;s Papers &#8211; Italy are better than this, Ceferin sends Euro 2032 warning",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/todays-papers-italy-better-this-ceferin-warn/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-031709p308lrz-414x592.webp",
+      "summary": "La Gazzetta dello Sport We re better than this Mancini looking for the breakthrough The coach s...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790494301000
+    },
     {
       "competition": "mirror",
       "title": "Man City relegation could 'lead to legal disputes' with stars as 115 charges punishment wait begins",
@@ -23,20 +112,6 @@
         "mancity"
       ],
       "publishedAt": 1790493596000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel game goes ahead after Irish players’ vote; reaction to Spain’s win over England – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/75f9949138fa2389dd1e03d9f335cb2d3cd92730/1376_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6bfc30e3b481a469c95fe28c59bcd2c5",
-      "summary": "The latest football news, reaction and discussionToday’s fixtures | And you can mail matchday liveEngland: Two defensive errors and a penalty miss from Harry Kane cost Thomas Tuchel’s side at Wembley last night. After…",
-      "teams": [
-        "england",
-        "israel",
-        "spain"
-      ],
-      "publishedAt": 1790493454000
     },
     {
       "competition": "bbc",
@@ -137,6 +212,18 @@
         "mancity"
       ],
       "publishedAt": 1790491908000
+    },
+    {
+      "competition": "bbc",
+      "title": "'Man City? I feel cheated - when do Stoke City get our FA Cup?'",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c60m33473zxpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c068/live/df157960-541c-11f1-8b8c-6d33e1d5abb6.jpg",
+      "summary": "BBC Sport columnist Tony Pulis explains what he and all Stoke fans are thinking after Manchester City are found guilty of the majority of the 115 charges they faced.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790491809000
     },
     {
       "competition": "indy",
@@ -373,6 +460,17 @@
       "publishedAt": 1790479800000
     },
     {
+      "competition": "ucl",
+      "title": "Chelsea's Ultimate Goal of the Season: Group C vote | News | Official Site",
+      "publisher": "Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXdOTW9zUnowU3hzUkJKajhZSXhES1BpRzdzSmRYbTA2SVpPTWU1M011U3VmdHJ1OEd5RkdPaC1pU2lBM0ZIRmhLdmRLOFBhWlZpdFhIVTEwd0ZOQ2hvMGJKN1ZUekxSWENUaU5GLUpSME5KSU9WdHpqTDdEd0YzTGthS3BySXpTYjEzbENzelZUa2ozVnphNThZOA?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790496000000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Liverpool breakthrough star backed to outstrip his dad after Andoni Iraola decision",
       "publisher": "Liverpool Echo",
@@ -385,6 +483,63 @@
       "publishedAt": 1790467200000
     },
     {
+      "competition": "seriea",
+      "title": "Today’s Papers – Italy are better than this, Ceferin sends Euro 2032 warning",
+      "publisher": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYlZKQlh5RWk5ZTlGUmhMQWYxaEtOOUNFM0JfRVBReFJLbURwbGxhOC1vZXk5RzFvTzJmemIzQ1NtZnViemRISmNVOEpjRGRmVk1TVlNIYWN1TFJsdzVhdTlFU253bndVdlJzUnBzQ05sSG1vdVNkYzFCYXdnSGY3MHJGN3lEdUhkekZMd1VOVkZwc3FlMlExdEVhOThNMVE0dHNmdWtkWUw3N1ZvOWI3U1lXOGNFUXFkSy1Zd3lIcHVYRXdqMW81UnhXQl80ZnFqNGZTc0YtSQ?oc=5",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790495612000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Arsenal and Liverpool set to fail in move for La Liga star",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNkJ4VzR2bWQyRDlISzVMX09TOHdNbDNZR2taUTBlNVNKWVMzc0xXTEJ1SHctbDBYcHNHSWhfSmU1MERqcE85Yi1OSVlIeEdfUHJSMXBYZXBsUWpPWlpzeTgzMnNNbnlfYnVqRVBBeVlnWDZwb2VLdUJNTi15bFRleXVNUi1mUE0?oc=5",
+      "teams": [
+        "liverpool",
+        "arsenal"
+      ],
+      "publishedAt": 1790495400000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Liverpool ready to sign one of the fastest players in the Premier League",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU1JGUkg2T3pWdUlMdDE4SGM2bUc3T24zR2swallFUTJ3UmtFWnlYMGlidGVlQk5tNndXclBCYVZBcmRQb3B5X2Q0UHZxNkdGWGNJV2Nwdk8xdEo1ZGlTUmQyVUJIU1J4d1p3Nk55dTVuMUJCOG9JLVdReEpSVUFtbjRiTlZvRzJz?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790494500000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "England lose to Spain in Nations League",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaVRPWlE1bWZiUzU0U0NlVkFIZGkzMWgxUkoxV3BmejBFVTdpRnRoamZwZzJIT3pGVkNsdHZmNkYwNjI2Nm1LWElVMDQ4aWl6X01CTjZBM1lhcy1vVDlFVEs0N0g0T0VQdlJyN0RYYXlJZ3lnQUp5bWRrTDBtMmhhWC0wdk5INVprRGc?oc=5",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790494467000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "UEFA pressure helped avert Irish boycott of Israel Nations League match",
+      "publisher": "Ynetnews",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XUW1ub1VPajFmTkxPbVRSQlFDRXFTMzJWelpUU3U5dFJ5VTVkQjNVTl9TMDhLbXYwcEpDVXdXeHd0Y1FZazE1a0tMOGxnaDk0cTdsSEJzdTFibExlcnc?oc=5",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790494449000,
+      "image": null
+    },
+    {
       "competition": "guardian",
       "title": "Meet the new minute 55 England collapse, not the same as the old minute 55 England collapse | Barney Ronay",
       "publisher": "The Guardian",
@@ -395,6 +550,19 @@
         "england"
       ],
       "publishedAt": 1790464740000
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Arsenal twist; Man Utd done deal; Chelsea shock",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVhJYTFSclNDLWQ2VThhZlZybGZCcWpQN00yVFNCQ2hqS2M2ZkN1WjBYREdkU28ya0I4TkNJTk1vZ3U0U0V5aXlzRWdZT0hCNEp5TF9ZMklNa3ZMcWVsODdkRjZmc2poYmdmMWlqY1VORl9QVGhMcXJKd1FPR0NwM2Vldm53UUp2V3RKeDRTS0tiWWF2bjVmRTB3bEdETWt5d2hKZGNDaXpEZy1ieEhVUFhvS2s2blotdVgtS0w4bmxpN3lpNnZmY3E2TQ?oc=5",
+      "teams": [
+        "arsenal",
+        "chelsea",
+        "manutd"
+      ],
+      "publishedAt": 1790493385000,
+      "image": null
     },
     {
       "competition": "unl-a",
@@ -470,11 +638,11 @@
     },
     {
       "competition": "tele",
-      "title": "Fun, yes – but when will Tuchel fix this England defence?",
+      "title": "England throw it away with defending unworthy of a top nation",
       "publisher": "The Telegraph",
       "link": "https://www.telegraph.co.uk/football/2026/09/26/england-vs-spain-live-score-latest-nations-league-updates/",
       "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/26/TELEMMGLPICT000504871791_17904559540730_trans_NvBQzQNjv4Bqtsw4rIh5Rk80rwdrUlw4m2DrtIH_AMF2jYVZUT2nTV8.jpeg",
-      "summary": "Fun, yes – but when will Tuchel fix this England defence?",
+      "summary": "England throw it away with defending unworthy of a top nation",
       "teams": [
         "england"
       ],
@@ -517,19 +685,6 @@
     },
     {
       "competition": "indy",
-      "title": "England vs Spain LIVE:  Mikel Oyarzabal clinches victory for world champions in five-goal thriller at Wembley",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/21/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790460750000
-    },
-    {
-      "competition": "indy",
       "title": "England’s first-half blitz against Spain shows what Three Lions’ identity must be under Thomas Tuchel",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/england-spain-thomas-tuchel-dna-identity-b3056989.html",
@@ -554,18 +709,6 @@
       "publishedAt": 1790460511000
     },
     {
-      "competition": "epl",
-      "title": "Manchester United join Liverpool in monitoring 25-year-old Premier League speedster",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmZVcHF2b09SbXpZUEpSaXVWWXVhcmJiTFNPNUtTWS1kZTl6S0k1TnJNTWpXMUlRWHBJSk91UXlhRlZvR3JoN1ZEMkVRazhiNGNZakQ0NFhwRm1sTG9tTFVfel95SEU4bXBybnVsMmU1U2c1QnhKLXVKTmJwYVk3MVNsN0thSHh5cUFjNnc4U0Q3SVBndUpv?oc=5",
-      "teams": [
-        "manutd",
-        "liverpool"
-      ],
-      "publishedAt": 1790489100000,
-      "image": null
-    },
-    {
       "competition": "unl-a",
       "title": "How to watch Norway vs Portugal: TV channel and live stream for Nations League today",
       "publisher": "Yahoo Sports",
@@ -578,6 +721,18 @@
       "image": null
     },
     {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Czechia 1-2 Croatia",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON3F1U2VWcUVvNjlZNjF3OGtWakoyQnZMYjAyOE5kRHRJcDhkZHBXNHN0ZnRIdVFqMFAycDNMVVpITFBMSTN0TlhWOHNVSTNHNXFZX2w2aVl2T3gzcDg4VHpudXRyZE0wcHhncWN6ekt1aklYOEZqRGxtTklvRW1rQnNFTG9ybXZfTGxrSGVDUnh4SjFkZlpuZVEtRUNvSTZiV3VuSW1EZDhCaGNjNFRQRm4zZ3lZY2d5OWpRWVBOSDBNa3hQcVpKa1BHQzVBazZZcElVdlVn?oc=5",
+      "teams": [
+        "czechia",
+        "croatia"
+      ],
+      "publishedAt": 1790488460000,
+      "image": null
+    },
+    {
       "competition": "bundesliga",
       "title": "Bayern Munich, news and rumours: \"More mature than Yamal!\" Rummenigge on Bayern's plan with Michael Olise",
       "publisher": "Goal.com",
@@ -587,167 +742,6 @@
       ],
       "publishedAt": 1790487446000,
       "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "“Gutted about the mistakes”: Anthony Gordon reflects on ‘missed chance’ to beat Spain",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/anthony-gordon-thomas-tuchel-reaction-england-spain-defeat-b3056985.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/2026-09-26T192949Z_1243891352_UP1EM9Q1I5OW9_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP.JPG?width=1200&auto=webp&trim=0%2C3%2C0%2C3",
-      "summary": "England manager Thomas Tuchel praised the team for their reaction after the ‘worst possible start’ but admitted mistakes cost them the game",
-      "teams": [
-        "spain"
-      ],
-      "publishedAt": 1790458479000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel brutally shuts down England question live on ITV with blunt answer",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-england-spain-result-37706321",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706331.ece/ALTERNATES/s615/0_tuchel.jpg",
-      "summary": "England suffered a narrow 3-2 loss to Spain in the Nations League at Wembley on Saturday evening, with Thomas Tuchel somewhat reserved in his reflection in the aftermath",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790458035000
-    },
-    {
-      "competition": "transfer",
-      "title": "Transfer news: Crystal Palace chairman Steve Parish tells Liverpool accepting £50m Ismaila Sarr bid was 'never going to happen' - Paper Talk",
-      "publisher": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPQ2JEcWxGYmNHeTJ1ZmxDY1A0VTdXcHJCMjBJalI5Zkt6d0RsaWdqN0hCVW1abEZsWGw0b21mLXhpNUpNU1BQYjlaQWktTEI3eExMZTRYdWZlWUVIblBKZXhXQmJzSmNiMXN4dC1ZOXdWVGtsVUxJSWZ4U3J0SWNXampWVVN6U05LSTdVSjQ5YjNyaUpLb0lsa2liOVhadnRQcXpGRHYwR2RUbC1HYjNHbFpHUl9nY0hEWUlfTlVkQW0zZWtNZHhtOGFRaXVYUTRFX3FWZkc0VnM3N3ZMNjE0QlotTVV5b3NOdUxBa1k2NW1Ha21abmpzT3g3VklrWU1zbERCazV2TE1fQURsaDJzd0hJSl9NejZYSmlHcWxOYTZVWWFVYlRZ?oc=5",
-      "teams": [
-        "crystalpalace",
-        "liverpool"
-      ],
-      "publishedAt": 1790486677000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Manchester City apology demanded after Premier League charges verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-apology-charges-verdict-37706295",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706297.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules this week, with calls for the club to issue an apology demanded in the aftermath",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790457549000
-    },
-    {
-      "competition": "guardian",
-      "title": "Oyarzabal earns Spain Nations League win as England pay for Kane penalty miss",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/england-spain-nations-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/30d41e512b61cdf33037a0a87a653e9d55b1d551/268_0_2758_2207/master/2758.jpg?width=140&quality=85&auto=format&fit=max&s=135899260a96ab08e8e19fb383055d10",
-      "summary": "It was another high-profile game when Thomas Tuchel’s England let a lead slip in the second half and went on to lose. But unlike the last time, it was not one for recriminations. The England support can accept losing…",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790456735000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Portugal XI vs Norway – Predicted lineup and team news",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR2ZYV0liWGNFMVlGakRjYzlhcXNlZE50SE9yTnFYZGlIcVNuX05PR0xnT0E0b2Uta1BLZkVtVG1sMi1iR3A4b1ZPb0ctRHZkWEdCMk1RMWMwcmhZUmdLajdNMzlaelBnNjRPUGNycC1ZaWx5VUtTWDZaSDFsbF9MU0xNWVJPMVk?oc=5",
-      "teams": [
-        "portugal",
-        "norway"
-      ],
-      "publishedAt": 1790485500000,
-      "image": null
-    },
-    {
-      "competition": "metro",
-      "title": "Roy Keane takes aim at Chelsea&#8217;s Cole Palmer over England withdrawal",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/26/roy-keane-takes-aim-chelseas-cole-palmer-england-withdrawal-29656096/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313808662-9c65.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "chelsea",
-        "england"
-      ],
-      "publishedAt": 1790456609000
-    },
-    {
-      "competition": "men",
-      "title": "Alejandro Garnacho finally makes Aston Villa impact as ex-Man Utd star avoids nightmare scenario",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/alejandro-garnacho-man-united-villa-34677602",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34677611.ece/ALTERNATES/s615/0_Aston-Villa-v-Nottingham-Forest-Premier-League-Football-Football-Villa-Park-Birmingham-UK-12.jpg",
-      "summary": "Alejandro Garnacho's loan move to Aston Villa has yet to get off the ground, though the club could be obligated to sign him permanently if certain conditions are met",
-      "teams": [
-        "astonvilla",
-        "manutd"
-      ],
-      "publishedAt": 1790456540000
-    },
-    {
-      "competition": "mirror",
-      "title": "England come out on wrong side of Spain thriller but Thomas Tuchel gets fans back onside",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-spain-goals-highlights-result-37706273",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706216.ece/ALTERNATES/s615/0_GettyImages-2297294765.jpg",
-      "summary": "ENGLAND 2-3 SPAIN: Thomas Tuchel's side played their part in a superb spectacle at Wembley but were their own worst enemies, gifting the world champions easy goals",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790456341000
-    },
-    {
-      "competition": "bbc",
-      "title": "Bayern target Barcelona's Olmo - Sunday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cw770034l523o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6dd/live/3de806c0-b9ed-11f1-bc1f-3f186ca4140c.png",
-      "summary": "Bayern Munich target Dani Olmo, Trent Alexander-Arnold is staying at Real Madrid, Premier League clubs show interest in Spurs' Micky van de Ven, plus more.",
-      "teams": [
-        "barcelona",
-        "bayern"
-      ],
-      "publishedAt": 1790456058000
-    },
-    {
-      "competition": "echo",
-      "title": "Tim Cahill on emotional Goodison Park return: 'I will carry Everton with me forever'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/news/liverpool-news/tim-cahill-emotional-goodison-park-34677642",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677638.ece/ALTERNATES/s615/0_Game4Hope-Merseyside-vs-Rest-of-the-World-at-Goodison-Park-Photo-by-Colin-Lane.jpg",
-      "summary": "The Toffees legend spoke to the ECHO in an exclusive interview about the Game4Hope, his legacy at the club and offers his verdict on the current Everton side",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790455909000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Tuchel slams England's 'terrible start' as Spain edge Uefa Nations League thriller",
-      "publisher": "thenationalnews.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaVNOTW93S0Y3M2xXcHZfMHlzeUxPVWQxTk04VTR6dG5yalFuMTBOY2IzZ0JhUUM2V1ZNbTRfTUNTam85TU5FTWlBcWxfOEZoU0xHUVh2ZXVjd1pZaFA0VUFkOEMtNVhkTGpRbjlVNHpPQmhGbGh6dXFwTERoV2lhbnB6cHRwaWpoelJleU94TDR4c1E1MDhpTi1Cd0UtWU1peXpFaWxPdWh4ai1UZG5lcFZ1eHQ4V3hqOC1fM09MVjN3U1E0RkwtM291ZXNaM01fN25EUw?oc=5",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790484679000,
-      "image": null
-    },
-    {
-      "competition": "chronicle",
-      "title": "Lewis Hall England truth is clear, Anthony Gordon difference since Newcastle exit and Pickford axed",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/england-newcastle-lewis-hall-gordon-34677408",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34677655.ece/ALTERNATES/s615/0_GettyImages-2297293852.jpg",
-      "summary": "A crowd of 84,525 watched on as England lost 3-2 at the hands of the World Champions on a crazy night at Wembley. Lamine Yamal had put Spain ahead in the second minute before Anthony Gordon and Harry Kane goals were…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790455745000
     }
   ]
 }
