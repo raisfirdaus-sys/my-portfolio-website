@@ -1,17 +1,250 @@
 {
-  "generatedAt": 1790505750264,
+  "generatedAt": 1790511572249,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1508,
-    "tagged": 808,
-    "droppedKeyword": 23,
+    "raw": 1501,
+    "tagged": 780,
+    "droppedKeyword": 24,
     "droppedOtherSport": 2,
-    "droppedFeed": 8,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Roma and Italy legend Totti celebrates his 50th birthday in Las Vegas",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/roma-italy-totti-50th-birthday-las-vegas/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/09/as-roma-francesco-totti-jubilates-2005-inter-414x272.jpg",
+      "summary": "Italy and Roma legend Francesco Totti turns 50 today and celebrates in Las Vegas with...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790510498000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790510468000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790510435000
+    },
+    {
+      "competition": "metro",
+      "title": "Alexander Isak returns to Liverpool due to injury picked up on Sweden duty",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/alexander-isak-returns-liverpool-due-injury-picked-sweden-duty-29656532/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314040019-d4c9.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "liverpool",
+        "sweden"
+      ],
+      "publishedAt": 1790510271000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Zion Suzuki update after Aston Villa goalkeeper missed Japan friendly",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/zion-suzuki-aston-villa-injury-34678709",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644389.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
+      "summary": "Aston Villa's number one Zion Suzuki was not involved as Japan faced Uruguay",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790509326000
+    },
+    {
+      "competition": "bbc",
+      "title": "Why does Robbie Ure have first name on his Scotland shirt?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5gmrrl0dvrdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11d5/live/68b4c030-ba67-11f1-9bc7-ebc5715692ba.jpg",
+      "summary": "Robbie Ure explains why the back of his shirt read 'Robbie Ure' rather than simply 'Ure' against Slovenia.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790508925000
+    },
+    {
+      "competition": "men",
+      "title": "Man City and the missing guilty verdict that adds to 115 confusion",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-missing-guilty-verdict-34678187",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34674040.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City appear to be bang to rights over the 115 case but incomplete details of their guilt still leave scope for a range of punishments",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790508840000
+    },
+    {
+      "competition": "metro",
+      "title": "Barcelona chief Deco receiving transfer information on &#8216;angry&#8217; Chelsea star",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/barcelona-chief-deco-receiving-transfer-information-angry-chelsea-star-29656464/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310183335-1d89.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790508797000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Why Mancini dropped five players who featured in Italy’s 0-2 defeat to Belgium",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/why-mancini-dropped-5-italy-players-belgium/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-Italy-jacket-414x276.jpg",
+      "summary": "Five players who featured in Italy s 2-0 loss against Belgium on Friday have not travelled...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790508797000
+    },
+    {
+      "competition": "bbc",
+      "title": "Injured Isak returns to Liverpool from Sweden duty",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvzryd6ne5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3f4/live/8a32ff90-ba64-11f1-ab5a-210fdaa1dd09.jpg",
+      "summary": "Liverpool striker Alexander Isak returns to his club after picking up a minor injury while on international duty with Sweden.",
+      "teams": [
+        "liverpool",
+        "sweden"
+      ],
+      "publishedAt": 1790508402000
+    },
+    {
+      "competition": "mirror",
+      "title": "Why Ireland's Gavin Bazanu has withdrawn from Israel game and everything he's said",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-nations-league-bazunu-37707039",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article27497637.ece/ALTERNATES/s615/2_Republic-of-Ireland-v-Qatar-International-Friendly.jpg",
+      "summary": "The Republic of Ireland's UEFA Nations League fixture against Israel will go ahead on Sunday, though Bolton goalkeeper Gavin Bazunu won't be part of the squad",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790507848000
+    },
+    {
+      "competition": "echo",
+      "title": "Isak, Ekitike, Leoni - Liverpool injury news and return dates after statement released on new blow",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injury-latest-alexander-isak-34678487",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678644.ece/ALTERNATES/s615/0_JS418718465.jpg",
+      "summary": "Liverpool have several injury concerns and have been handed a fresh blow during the international break",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790507465000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Sandro Tonali 'in crisis' after Newcastle United transfer as Italians turn on him",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/sandro-tonali-newcastle-united-transfer-34678500",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678621.ece/ALTERNATES/s615/0_Sandro-Tonali.jpg",
+      "summary": "Sandro Tonali has come under fire on the international stage after a below-par start to his Tottenham career following a £100m transfer from Newcastle United",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790507108000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Cesc Fabregas Arsenal clause confirmed with Mikel Arteta replacement identified for the future",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/cesc-fabregas-arsenal-clause-confirmed-34672184",
+      "image": "https://i2-prod.football.london/incoming/article34672193.ece/ALTERNATES/s615/0_Mikel-Arteta-Cesc-Fabregas-and-Arsenal.jpg",
+      "summary": "Cesc Fabregas has been confirmed to have an Arsenal clause in his Como contract",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790506800000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Man City 115 charges latest: Arsenal impact, potential punishments and what happens next",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/man-city-115-charges-latest-34678591",
+      "image": "https://i2-prod.football.london/incoming/article34678625.ece/ALTERNATES/s615/0_Manchester-City-breaches.jpg",
+      "summary": "Man City have reportedly been found guilty of the vast majority of the charges brought against them by the Premier League surrounding alleged breaches of financial rules",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790506791000
+    },
+    {
+      "competition": "echo",
+      "title": "Folarin Balogun agreement reached after Everton transfer collapse - 'It's a real shame'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/folarin-balogun-agreement-reached-after-34677948",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34548353.ece/ALTERNATES/s615/1_GettyImages-2284817759.jpg",
+      "summary": "Ex-USA internationals have been reflecting on Folarin Balogun's decision to U-turn on his decision to sign for Everton on transfer deadline day",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790506680000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool have found their perfect Andoni Iraola midfield signing - but they could pay price",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-found-perfect-andoni-iraola-34620605",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34622212.ece/ALTERNATES/s615/0_Liverpool-FC-v-AS-Monaco-Pre-Season-Friendly.jpg",
+      "summary": "Monaco and Senegal midfielder Lamine Camara is on Liverpool's radar after seeing a transfer deadline-day move to Chelsea dashed amid chaotic scenes at Everton",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790506680000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Video: Neto lands in Turin to complete Juventus transfer",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/video-neto-lands-turin-juventus-transfer-2027/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-fc-v-ssc-napoli-tim-cup-414x276.jpg",
+      "summary": "Brazilian goalkeeper Neto has arrived in Turin and is now ready to sign a contract...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790506651000
+    },
+    {
+      "competition": "mirror",
+      "title": "Erling Haaland's dad admitted his son could leave Man City and named six clubs he could join",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-contract-37706655",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706919.ece/ALTERNATES/s615/0_GettyImages-2296945197.jpg",
+      "summary": "Erling Haaland signed a nine-and-a-half-year contract with Manchester City, but his dad believes he could be on the move soon",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790506375000
+    },
     {
       "competition": "fitalia",
       "title": "Donadoni: Romano can&#8217;t save Italy at 20 — &#8216;What did we expect?&#8217;",
@@ -26,27 +259,16 @@
     },
     {
       "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "title": "Liverpool confirm Alexander Isak injury status after star returns from Sweden duty",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-alexander-isak-sweden-injury-37706933",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707050.ece/ALTERNATES/s615/0_GettyImages-2283864160.jpg",
+      "summary": "Liverpool striker Alexander Isak scored in Sweden's Nations League victory over Romania but will now return to Anfield earlier than planned after suffering a knock",
       "teams": [
-        "mancity"
+        "liverpool",
+        "sweden"
       ],
-      "publishedAt": 1790505163000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
-      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790505139000
+      "publishedAt": 1790505708000
     },
     {
       "competition": "footlondon",
@@ -72,20 +294,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790504492000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel game goes ahead after Irish players’ vote; reaction to Spain’s win over England – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/75f9949138fa2389dd1e03d9f335cb2d3cd92730/1376_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6bfc30e3b481a469c95fe28c59bcd2c5",
-      "summary": "The latest football news, reaction and discussionToday’s fixtures | And you can mail matchday liveScotland: Sebastien Pocognoli’s reign began with a 0-0 draw with Slovenia yesterday afternoon. It’s a decent first result…",
-      "teams": [
-        "england",
-        "israel",
-        "spain"
-      ],
-      "publishedAt": 1790504052000
     },
     {
       "competition": "fitalia",
@@ -544,215 +752,6 @@
         "spain"
       ],
       "publishedAt": 1790490538000
-    },
-    {
-      "competition": "footlondon",
-      "title": "The demise of £60m former Chelsea star as Man Utd woes continue three years on",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/demise-60m-former-chelsea-star-34666841",
-      "image": "https://i2-prod.football.london/incoming/article34667216.ece/ALTERNATES/s615/0_GettyImages-1452740072.jpg",
-      "summary": "Mason Mount's career was once one that promised so much but ever since departing Chelsea in the summer of 2023, things have gone downhill for the now 27-year-old",
-      "teams": [
-        "chelsea",
-        "manutd"
-      ],
-      "publishedAt": 1790488800000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United's intriguing next move after Man City rocked by 114 charges as PIF react",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-intriguing-next-move-34676155",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676315.ece/ALTERNATES/s615/0_Hop2.jpg",
-      "summary": "The Man City situation has unfolded rapidly in the last 48 hours but where do Newcastle stand on the situation?",
-      "teams": [
-        "newcastle",
-        "mancity"
-      ],
-      "publishedAt": 1790488800000
-    },
-    {
-      "competition": "mirror",
-      "title": "Cole Palmer was right to snub England Nations League despite Thomas Tuchel's scathing comments",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/cole-palmer-england-nations-league-37705925",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705924.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
-      "summary": "Cole Palmer has been met with criticism from Thomas Tuchel for choosing to turn down a spot in England's Nations League squad this month, but the Chelsea talent evidently has bigger plans at hand",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790487000000
-    },
-    {
-      "competition": "echo",
-      "title": "Asking to leave Liverpool is my biggest regret – I made the wrong decision",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-decision-regret-exit-34671523",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34671648.ece/ALTERNATES/s615/0_GettyImages-2941985.jpg",
-      "summary": "A former Liverpool star pointed to one key decision for impacting his Reds career and discussed his time working under Rafa Benitez",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790487000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "The full story of Mikel Merino’s Arsenal striker stint as Kai Havertz injury forces revival",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/full-story-mikel-merinos-arsenal-34671790",
-      "image": "https://i2-prod.football.london/incoming/article34671814.ece/ALTERNATES/s615/1_Mikel-Merino-and-Arsenal.jpg",
-      "summary": "Mikel Merino's story as a centre-forward for Arsenal is very impressive and shows why he could return to the role in place of the injured Kai Havertz",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "18 Arsenal players who would get winner's medal if Man City stripped of titles",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/man-city-charges-arsenal-medal-34677763",
-      "image": "https://i2-prod.football.london/incoming/article34677769.ece/ALTERNATES/s615/0_GettyImages-924132278.jpg",
-      "summary": "Members of Arsenal's 2018 Carabao Cup final squad could potentially be awarded winners' medals should Manchester City be stripped of titles from the 2009-2018 period.",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "men",
-      "title": "What happened to Man City's record signing? Brutal Pep Guardiola chat and Premier League nemesis",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-record-signing-transfer-34676415",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676773.ece/ALTERNATES/s615/0_GettyImages-895818300.jpg",
-      "summary": "Manchester City splashed £42m on Eliaquim Mangala in 2014 only for him to leave on a free in 2019",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League told they have got Man City charges verdict 'so badly wrong' after 'ugly' saga",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34677406",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677768.ece/ALTERNATES/s615/0_JS276999255.jpg",
-      "summary": "The Premier League have been criticised for letting the situation regarding the charges against Manchester City turn 'ugly'",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "echo",
-      "title": "Everton hierarchy sent David Moyes contract warning as Jack Grealish transfer verdict delivered",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-everton-contract-grealish-34676478",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676534.ece/ALTERNATES/s615/0_GettyImages-2296210779.jpg",
-      "summary": "ECHO exclusive as Richard Dunne gives his view on David Moyes' contract situation and Jack Grealish's return to Everton on transfer deadline day",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Jurgen Klopp favourite on radar as Reds consider £47m deal",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jurgen-klopp-morton-araujo-34676503",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676448.ece/ALTERNATES/s615/0_GettyImages-1357886560.jpg",
-      "summary": "Liverpool news as the Reds begin making long-term plans",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "echo",
-      "title": "Julian Ward priority is clear after Liverpool return - transfers are just the tip of the iceberg",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/julian-ward-priority-clear-after-34677194",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article25597062.ece/ALTERNATES/s615/0_ward.jpg",
-      "summary": "Julian Ward has returned to Liverpool as sporting director and is already facing a number of important items on the Reds' agenda",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "echo",
-      "title": "Louis Saha makes emotional Goodison Park return as he shares Everton heartbreak - 'Very, very difficult'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/louis-saha-makes-emotional-goodison-34677595",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677594.ece/ALTERNATES/s615/0_GettyImages-2241412527jp.jpg",
-      "summary": "Louis Saha, a fantastic forward for Everton in his playing days, was back at Goodison Park for the Game4Hope charity game",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Uncomfortable Newcastle United truth Matthias Jaissle will soon have to address",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/uncomfortable-newcastle-united-truth-matthias-34676140",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676320.ece/ALTERNATES/s615/0_Jaissle.jpg",
-      "summary": "The easing of the Magpies injury issues will give the head coach some big decisions to make",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "men",
-      "title": "Man United latest: Starlet joins from Man City and David De Gea makes 115 charges point",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-city-de-gea-34676525",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34676524.ece/ALTERNATES/s615/0_ACF-Fiorentina-v-AC-Milan-Serie-A-Enilive.jpg",
-      "summary": "Former Manchester United star David de Gea has responded to the verdict of Manchester City's 115 charges",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1790483400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool news: Jurgen Klopp player could be re-signed as Reds weigh up £47m decision",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-jurgen-klopp-morton-araujo-37705533",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705558.ece/ALTERNATES/s615/0_GettyImages-1406919156.jpg",
-      "summary": "Liverpool round-up as the Reds weigh up several transfer calls",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790481600000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp makes 'unfortunate' Florian Wirtz claim after backtracking as Liverpool wish shared",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-makes-unfortunate-florian-34676726",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676776.ece/ALTERNATES/s615/0_Klopp-and-Wirtz-2.jpg",
-      "summary": "Jurgen Klopp has again defended Liverpool playmaker Florian Wirtz after being forced to call him up prematurely to the Germany squad",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790481600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news: David de Gea responds to 115 charges verdict as starlet signs from Man City",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-city-de-gea-37705599",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705603.ece/ALTERNATES/s615/0_GettyImages-2226850148.jpg",
-      "summary": "Manchester United icon David de Gea has reacted to the verdict of Manchester City's 115 charges",
-      "teams": [
-        "mancity",
-        "manutd"
-      ],
-      "publishedAt": 1790479800000
     }
   ]
 }
