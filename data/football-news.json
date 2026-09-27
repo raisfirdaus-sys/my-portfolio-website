@@ -1,17 +1,272 @@
 {
-  "generatedAt": 1790523463165,
+  "generatedAt": 1790529019119,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 801,
-    "droppedKeyword": 24,
+    "raw": 1502,
+    "tagged": 795,
+    "droppedKeyword": 25,
     "droppedOtherSport": 2,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Roy Keane could quit ITV and Sky Sports as Man United icon waiting for imminent call",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/roy-keane-sky-itv-exit-34679530",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679529.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
+      "summary": "Manchester United legend Roy Keane looks to be teetering on the brink of a career change away from the world of punditry, despite holding commitments with Sky Sports and ITV",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790528517000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Gattuso wary of long break at Lazio: &#8216;The adrenaline drops, we can&#8217;t let the temperature fall&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/gattuso-wary-of-long-break-at-lazio/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Gennaro-Gattuso-instructions-414x276.jpg",
+      "summary": "Gennaro Gattuso used a 2-0 friendly win over Arezzo to experiment during the international break,...",
+      "teams": [
+        "lazio"
+      ],
+      "publishedAt": 1790528400000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United have two potential superstars and we can't lose - but only on one condition",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-two-potential-superstars-34678047",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678646.ece/ALTERNATES/s615/0_GettyImages-2291716191.jpg",
+      "summary": "The Magpies are building for the future with two stellar young midfielders",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790528400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd dealt second injury blow as star limps off after Bruno Fernandes issue",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/patrick-dorgu-manchester-united-injury-37707780",
+      "image": "https://i2-prod.mirror.co.uk//article37707763.ece/ALTERNATES/s615/1_Dorguinjuryjfif.jpg",
+      "summary": "Manchester United have been hit with further injury concerns just days after Bruno Fernandes suffered a 'complicated problem' against Wales in the Nations League",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790527880000
+    },
+    {
+      "competition": "mirror",
+      "title": "Liverpool suffer another injury blow as Cody Gakpo hurt on international duty",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-injury-cody-gakpo-update-37707717",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707757.ece/ALTERNATES/s615/0_GettyImages-2296852789.jpg",
+      "summary": "Cody Gakpo was forced off with an injury just 17 minutes into the Netherlands' clash with Serbia in the Nations League, providing Liverpool with another scare during the international break",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790527702000
+    },
+    {
+      "competition": "men",
+      "title": "BREAKING: Man United handed major injury blow as Patrick Dorgu limps out of Denmark match",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-united-patrick-dorgu-34679531",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679525.ece/ALTERNATES/s615/0_Dorgujfif.jpg",
+      "summary": "Manchester United player Patrick Dorgu limped off less than half an hour into Denmark's Nations League match against Wales with a suspected hamstring injury",
+      "teams": [
+        "manutd",
+        "denmark"
+      ],
+      "publishedAt": 1790527305000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Italy don&#8217;t have a generation like that of Totti and Del Piero&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-italy-no-generation-totti-del-piero/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13-414x276.jpg",
+      "summary": "Roberto Mancini has been candid about where Italian football currently stands, conceding the talent pool...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790527200000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790526581000
+    },
+    {
+      "competition": "echo",
+      "title": "Cody Gakpo forced off with injury as Liverpool suffer another blow after Alexander Isak",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-liverpool-injury-news-34679506",
+      "image": "https://i2-prod.liverpoolecho.co.uk//article34679505.ece/ALTERNATES/s615/0_Gakpo.jpg",
+      "summary": "The international break is already proving to be a nightmare for Liverpool with fresh injury woes for Andoni Iraola",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790526459000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Tonali on Italy: &#8216;We don&#8217;t have a star player but our qualities will come out with time&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/tonali-on-italy-we-dont-have-a-star-player/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Sandro-Tonali-Italy-warm-up-414x276.jpg",
+      "summary": "Sandro Tonali has acknowledged the scale of the disappointment after Italy s defeat to Belgium, but...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790526300000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United miss transfer chance as £86m decision made",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manu-kone-man-utd-transfer-34679357",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679426.ece/ALTERNATES/s615/0_JS418569718.jpg",
+      "summary": "Manchester United were linked with a move for Roma star Manu Kone during the summer transfer window",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790524934000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini to rotate Italy against Turkiye: &#8216;Impossible to have one player for four games this close&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italy-coach-mancini-ahead-of-turkey-clash/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
+      "summary": "Roberto Mancini has called for perspective after Italy s defeat to Belgium, insisting the reaction at...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790524805000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
+      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
+      "title": "Why Ireland players are wearing black armbands against Israel after player vote",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-black-armbands-israel-37706065",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706075.ece/ALTERNATES/s615/0_Republic-of-Ireland-Press-Conference-Nagyerdei-Stadion.jpg",
+      "summary": "The Republic of Ireland will sport black armbands as they take on Israel in the Nations League on Sunday evening, with a poignant meaning behind the move",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Norway vs Portugal - TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/norway-portugal-nations-league-tv-37706603",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706634.ece/ALTERNATES/s615/1_GettyImages-2296297260.jpg",
+      "summary": "Norway face Portugal as both sides aim to continue their winning form in the Nations League",
+      "teams": [
+        "portugal",
+        "norway"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
+      "title": "Is Israel vs Ireland going ahead? How to watch, TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-boycott-tv-streaming-37706935",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707071.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
+      "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "echo",
+      "title": "Thomas Tuchel explains Jordan Pickford decision as England boss questioned - 'Why is he not?'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/thomas-tuchel-explains-jordan-pickford-34679094",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34679090.ece/ALTERNATES/s615/0_GettyImages-2297287669jp.jpg",
+      "summary": "England boss Thomas Tuchel preferred Leeds United's James Trafford to Everton hero Jordan Pickford in goal for the Nations League clash with World champions Spain",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ireland forced into unusual decision after squad split over controversial Israel match",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ireland-israel-nations-league-uefa-37707577",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37692258.ece/ALTERNATES/s615/0_Republic-of-Ireland.jpg",
+      "summary": "The Republic of Ireland will take on Israel in the UEFA Nations League on Sunday evening, but have been forced into an unusual change as a result of one player boycotting the match",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790524508000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Joe Willock's Newcastle United contract offer after Eddie Howe switch - 'Would be a surprise'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/joe-willocks-newcastle-united-contract-34678984",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34644391.ece/ALTERNATES/s615/0_Newcastle-United-v-Hull-City-Premier-League-202627.jpg",
+      "summary": "In-form Joe Willock can sign a transfer agreement with another club in January",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790524440000
+    },
+    {
+      "competition": "echo",
+      "title": "Danny Murphy predicts huge triple punishment for Man City after 115-charge verdict reports",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/danny-murphy-predicts-huge-triple-34679200",
+      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article33702202.ece/ALTERNATES/s615/3_GettyImages-952226190.jpg",
+      "summary": "Former Liverpool and England midfielder Danny Murphy has offered his view on the sanctions that could await Manchester City if, as reports suggest, they have been found guilty on all but one of the 115 charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790524340000
+    },
+    {
+      "competition": "mirror",
+      "title": "Alexander Isak injury explained as boss provides update on Liverpool star",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/alexander-isak-injury-update-liverpool-37707455",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707523.ece/ALTERNATES/s615/0_GettyImages-2296494661.jpg",
+      "summary": "Alexander Isak will return to Liverpool after his injury against Romania proved to be worse than first thought, leaving Sweden without him for rest of their September-October internationals",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790523648000
+    },
     {
       "competition": "metro",
       "title": "Gary Neville names worst Manchester United signing since Sir Alex Ferguson era",
@@ -36,18 +291,6 @@
         "israel"
       ],
       "publishedAt": 1790521953000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790521751000
     },
     {
       "competition": "guardian",
@@ -248,19 +491,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704931.ece/ALTERNATES/s615/0_Portugal-v-Wales-UEFA-Nations-League-League-A-Jose-Alvalade-Stadiumjpgn-b.jpg",
-      "summary": "Denmark and Wales meet in Copenhagen, looking for their first points in this season's Nations League",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1790514000000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
@@ -269,6 +499,19 @@
       "teams": [
         "netherlands",
         "serbia"
+      ],
+      "publishedAt": 1790514000000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704931.ece/ALTERNATES/s615/0_Portugal-v-Wales-UEFA-Nations-League-League-A-Jose-Alvalade-Stadiumjpgn-b.jpg",
+      "summary": "Denmark and Wales meet in Copenhagen, looking for their first points in this season's Nations League",
+      "teams": [
+        "denmark",
+        "wales"
       ],
       "publishedAt": 1790514000000
     },
@@ -506,253 +749,6 @@
         "arsenal"
       ],
       "publishedAt": 1790506791000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool have found their perfect Andoni Iraola midfield signing - but they could pay price",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-found-perfect-andoni-iraola-34620605",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34622212.ece/ALTERNATES/s615/0_Liverpool-FC-v-AS-Monaco-Pre-Season-Friendly.jpg",
-      "summary": "Monaco and Senegal midfielder Lamine Camara is on Liverpool's radar after seeing a transfer deadline-day move to Chelsea dashed amid chaotic scenes at Everton",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790506680000
-    },
-    {
-      "competition": "echo",
-      "title": "Folarin Balogun agreement reached after Everton transfer collapse - 'It's a real shame'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/folarin-balogun-agreement-reached-after-34677948",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34548353.ece/ALTERNATES/s615/1_GettyImages-2284817759.jpg",
-      "summary": "Ex-USA internationals have been reflecting on Folarin Balogun's decision to U-turn on his decision to sign for Everton on transfer deadline day",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790506680000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Video: Neto lands in Turin to complete Juventus transfer",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/video-neto-lands-turin-juventus-transfer-2027/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-fc-v-ssc-napoli-tim-cup-414x276.jpg",
-      "summary": "Brazilian goalkeeper Neto has arrived in Turin and is now ready to sign a contract...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790506651000
-    },
-    {
-      "competition": "mirror",
-      "title": "Erling Haaland's dad admitted his son could leave Man City and named six clubs he could join",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-contract-37706655",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706919.ece/ALTERNATES/s615/0_GettyImages-2296945197.jpg",
-      "summary": "Erling Haaland signed a nine-and-a-half-year contract with Manchester City, but his dad believes he could be on the move soon",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790506375000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Donadoni: Romano can&#8217;t save Italy at 20 — &#8216;What did we expect?&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/donadoni-romano-not-save-italy-20-what-expect/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2021/09/Roberto-Donadoni-smiles-300x200.jpg",
-      "summary": "Former Italy star and coach Roberto Donadoni defends Alessandro Romano: If you think he can...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790505744000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool confirm Alexander Isak injury status after star returns from Sweden duty",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-alexander-isak-sweden-injury-37706933",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707050.ece/ALTERNATES/s615/0_GettyImages-2283864160.jpg",
-      "summary": "Liverpool striker Alexander Isak scored in Sweden's Nations League victory over Romania but will now return to Anfield earlier than planned after suffering a knock",
-      "teams": [
-        "liverpool",
-        "sweden"
-      ],
-      "publishedAt": 1790505708000
-    },
-    {
-      "competition": "bundes",
-      "title": "Borussia Dortmund's Mathis Albert makes instant impact on USA debut against Peru",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/mathis-albert-borussia-dortmund-usa-peru-international-instant-impact-39364",
-      "image": "https://assets.bundesliga.com/contender/2026/8/GettyImages-2297309764.jpg?crop=0px%2C170px%2C4384px%2C2466px",
-      "summary": "On his debut for the USMNT, Mathis Albert needed just a few minutes to show what he could offer on the international stage. The 17-year-old Borussia Dortmund forward helped turn a closely fought contest in the USA's…",
-      "teams": [
-        "dortmund"
-      ],
-      "publishedAt": 1790505056000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Erling Haaland to Arsenal transfer reality clear as 'contacted' claims made over Man City striker",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-news-erling-haaland-34678278",
-      "image": "https://i2-prod.football.london/incoming/article34678466.ece/ALTERNATES/s615/0_JS418743400.jpg",
-      "summary": "Arsenal are already being linked with several potential new signings weeks after the summer transfer window closed",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790505011000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Johan Manzambi addresses rumours after €70m Aston Villa transfer",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-manzambi-johan-newcastle-34678457",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644372.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "Johan Manzambi has spoken about his €70m move from Freiburg to Aston Villa, having also been a Newcastle United target",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790504492000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Official: Italy international Scalvini extends Atalanta contract",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/official-italy-scalvini-new-atalanta-contract/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/acf-fiorentina-v-atalanta-bc-serie-a-2-414x277.jpg",
-      "summary": "Atalanta confirm Giorgio Scalvini s contract extension: A bond forged in childhood and now strengthened even...",
-      "teams": [
-        "atalanta",
-        "italy"
-      ],
-      "publishedAt": 1790503786000
-    },
-    {
-      "competition": "echo",
-      "title": "Alexander Isak withdraws from Sweden squad because of injury as Liverpool striker admits 'real blow'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-withdraws-sweden-squad-34678484",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34678563.ece/ALTERNATES/s615/0_Alexander-Isak.jpg",
-      "summary": "Alexander Isak has withdrawn from the Sweden squad because of injury and returned to Liverpool for further assessment",
-      "teams": [
-        "liverpool",
-        "sweden"
-      ],
-      "publishedAt": 1790503746000
-    },
-    {
-      "competition": "men",
-      "title": "Fernandes, Sesko, Rashford - Latest Man United injury news and return dates amid new scare",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-injuries-fernandes-sesko-34678233",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678448.ece/ALTERNATES/s615/0_Fernandes-Rashford.jpg",
-      "summary": "Manchester United have eight potential injury worries after Bruno Fernandes joined their list of potential absentees",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790503488000
-    },
-    {
-      "competition": "metro",
-      "title": "Man Utd eyeing January transfer move for &#8216;unhappy&#8217; Barcelona star to fix problem position",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/man-utd-eyeing-january-transfer-move-unhappy-barcelona-star-fix-problem-position-29656350/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312744649-4aa3.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1790503389000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City 115 charges latest: Liverpool impact clear as 'significant trouble' ahead",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-115-charges-latest-34678300",
-      "image": "https://i2-prod.football.london/incoming/article34678400.ece/ALTERNATES/s615/0_Manchester-City-breaches.jpg",
-      "summary": "Liverpool will be keeping a close eye on the situation that has seen Man City reportedly found guilty of 114 breaches of financial rules",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790502705000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Picture during Italy vs. Belgium highlights tension over FIGC special commissioner",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/picture-italy-tension-figc-special-comissioner/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Giovanni-Malago-glasses-414x276.jpg",
-      "summary": "The FIGC is expected to be placed under a special commissioner, while a photo from...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790501883000
-    },
-    {
-      "competition": "men",
-      "title": "Liam Gallagher issues warning to those trying to 'destroy' Man City following guilty verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/whats-on/music-nightlife-news/liam-gallagher-issues-warning-those-34678255",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article24613747.ece/ALTERNATES/s615/1_Liam-Gallagher-Concert-At-Etihad-Stadium.jpg",
-      "summary": "The Oasis frontman has spoken out during the latest ticket sale for the band's epic 42-date tour next year",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790501730000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Spanish media pull no punches after Anthony Gordon display and England star slammed",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/england-spain-gordon-nations-league-34678226",
-      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34678225.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
-      "summary": "Anthony Gordon delivered a standout performance for England despite the Three Lions' 3-2 UEFA Nations League defeat by Spain at Wembley",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790501188000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Roy Keane takes aim at Anthony Gordon as Newcastle see full impact of rushed Barcelona move",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/roy-keane-takes-aim-anthony-34677951",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34659023.ece/ALTERNATES/s615/0_JS417279247.jpg",
-      "summary": "Anthony Gordon left Newcastle after sitting out the last few games of the season to preserve a move to Barcelona, but looks a changed man after move to Spain",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790500910000
-    },
-    {
-      "competition": "metro",
-      "title": "Roy Keane takes swipe at former Man City star for defending &#8216;cheating&#8217;",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/roy-keane-takes-swipe-former-man-city-star-defending-cheating-29656318/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Roy-Keane-e053.png?w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790500696000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Declan Rice gives Thomas Tuchel what he wants after Arsenal injury scare",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/declan-rice-england-arsenal-injury-34678170",
-      "image": "https://i2-prod.football.london/incoming/article34678264.ece/ALTERNATES/s615/0_JS418776948.jpg",
-      "summary": "Delan Rice withdrew from the England squad earlier this week with the Arsenal star dealing with a neutral hamstring injury",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790500577000
     }
   ]
 }
