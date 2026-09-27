@@ -1,17 +1,79 @@
 {
-  "generatedAt": 1790538246994,
+  "generatedAt": 1790540345211,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1488,
-    "tagged": 799,
-    "droppedKeyword": 21,
-    "droppedOtherSport": 4,
-    "droppedFeed": 6,
+    "raw": 1491,
+    "tagged": 794,
+    "droppedKeyword": 22,
+    "droppedOtherSport": 3,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790540094000
+    },
+    {
+      "competition": "metro",
+      "title": "Erling Haaland tipped for stunning transfer after Manchester City guilty verdict",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/erling-haaland-tipped-stunning-transfer-manchester-city-guilty-verdict-29656910/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2291680253-9afd.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790539990000
+    },
+    {
+      "competition": "men",
+      "title": "Sir Jim Ratcliffe in talks to settle £180m dispute after Man United co-owner's falling out",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-ineos-jim-ratcliffe-34679894",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679893.ece/ALTERNATES/s615/0_Manchester-United-Stadium-Project-Update.jpg",
+      "summary": "Manchester United minority shareholder Sir Jim Ratcliffe is reportedly in settlement talks over a £180million dispute, which has now been going on for 18 months",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790539855000
+    },
+    {
+      "competition": "guardian",
+      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/599_0_5968_4777/master/5968.jpg?width=140&quality=85&auto=format&fit=max&s=e782ff4565d185c276a131cd25496de9",
+      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe news from that Dutch win, Xavi’s first as coach, is that Cody Gakpo was forced off with an injury just 17…",
+      "teams": [
+        "ireland",
+        "portugal",
+        "germany"
+      ],
+      "publishedAt": 1790539783000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ireland star Jack Moylan in pointed celebration after scoring vs Israel in Nations League",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/jack-moylan-celebration-ireland-israel-37708113",
+      "image": "https://i2-prod.mirror.co.uk//article37708114.ece/ALTERNATES/s615/0_moylan.png",
+      "summary": "Republic of Ireland winger Jack Moylan scored Ireland's third goal against Israel on Sunday night, removing his black armband and kissing it in a pointed tribute to those who have died in the Israel-Palestine conflict",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790539014000
+    },
     {
       "competition": "men",
       "title": "Man City 115 charges LIVE: Appeal latest and potential punishments after guilty verdict",
@@ -22,21 +84,7 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790538001000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/b3073fafa50537ff899d45b7bc156bbf94f5c749/123_88_3276_2621/master/3276.jpg?width=140&quality=85&auto=format&fit=max&s=60ce9e144a3afdfaaa707a7d03750408",
-      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe news from that Dutch win, Xavi’s first as coach, is that Cody Gakpo was forced off with an injury just 17…",
-      "teams": [
-        "ireland",
-        "portugal",
-        "germany"
-      ],
-      "publishedAt": 1790537119000
+      "publishedAt": 1790538261000
     },
     {
       "competition": "mirror",
@@ -63,16 +111,17 @@
       "publishedAt": 1790536591000
     },
     {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "competition": "bbc",
+      "title": "Bellamy 'hurting' as Denmark outclass Wales",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqvgyjp3lgv9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb9e/live/6d02cdb0-baa0-11f1-a430-4d16ee157c41.jpg",
+      "summary": "Craig Bellamy says he is \"hurting\" on the back of Wales' 2-0 Nations League A defeat away to Denmark, but feels his side will continue to improve.",
       "teams": [
-        "mancity"
+        "denmark",
+        "wales"
       ],
-      "publishedAt": 1790536364000
+      "publishedAt": 1790536576000
     },
     {
       "competition": "fitalia",
@@ -505,6 +554,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Is Israel vs Ireland going ahead? How to watch, TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-boycott-tv-streaming-37706935",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707071.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
+      "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
       "title": "How to watch Norway vs Portugal - TV channel, live stream and kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/norway-portugal-nations-league-tv-37706603",
@@ -513,18 +574,6 @@
       "teams": [
         "portugal",
         "norway"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
-      "title": "Is Israel vs Ireland going ahead? How to watch, TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-boycott-tv-streaming-37706935",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707071.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
-      "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
-      "teams": [
-        "israel"
       ],
       "publishedAt": 1790524800000
     },
@@ -698,56 +747,6 @@
         "mancity"
       ],
       "publishedAt": 1790519086000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Fiorentina captain De Gea reacts to Man City charges: &#8216;How many league titles have I won then?&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/fiorentina-captain-de-gea-reacts-to-man-city/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/David-De-Gea-414x277.jpg",
-      "summary": "Fiorentina captain and former Manchester United goalkeeper David de Gea has responded to Manchester City s...",
-      "teams": [
-        "fiorentina",
-        "mancity"
-      ],
-      "publishedAt": 1790518800000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Why Mancini left Romano on for 90 minutes for Italy against Belgium",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/why-mancini-left-romano-on-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
-      "summary": "Alessandro Romano s first cap was a chastening one, but Roberto Mancini has no intention of...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790517600000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Elliot Anderson response to Man City charges verdict amid escape clause agreement talk",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/elliot-anderson-response-man-city-34678609",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678791.ece/ALTERNATES/s615/0_imagemaker-57.jpg",
-      "summary": "As Man City find themselves in an impossible battle to escape the headlines, Geordie boy Elliot Anderson is caught up right in the middle, just weeks after sealing a dream move",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790517000000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa seek expert to identify overseas transfer stars but must meet key criteria",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-transfers-south-america-34678985",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article33431935.ece/ALTERNATES/s615/0_Aston-Villa-v-Brighton-Hove-Albion-Premier-League.jpg",
-      "summary": "Aston Villa are eager to continue their success in the Premier League and are seeking a new candidate for a job overseas",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790516875000
     }
   ]
 }
