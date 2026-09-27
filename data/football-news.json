@@ -1,17 +1,165 @@
 {
-  "generatedAt": 1790517737575,
+  "generatedAt": 1790523463165,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1507,
-    "tagged": 795,
-    "droppedKeyword": 23,
-    "droppedOtherSport": 4,
-    "droppedFeed": 8,
+    "tagged": 801,
+    "droppedKeyword": 24,
+    "droppedOtherSport": 2,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Gary Neville names worst Manchester United signing since Sir Alex Ferguson era",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/gary-neville-names-worst-man-utd-signing-since-sir-alex-ferguson-era-29657142/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/08/GettyImages-2230768223-6d86.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790522113000
+    },
+    {
+      "competition": "indy",
+      "title": "RTÉ explains decision for reduced coverage of Republic of Ireland v Israel in Nations League",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-vs-israel-commentary-rte-studio-coverage-b3057141.html",
+      "image": "https://static.independent.co.uk/2026/09/24/23/9463caf911851137b402a8b62f564940Y29udGVudHNlYXJjaGFwaSwxNzkwMzcyODIz-2.84034449.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "After calls to boycott the controversial fixture, the country’s national broadcaster has opted for slimmed-down coverage of the Nations League match",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790521953000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790521751000
+    },
+    {
+      "competition": "guardian",
+      "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/tony-pulis-says-he-and-stoke-were-cheated-in-2011-fa-cup-final-after-manchester-city-verdict",
+      "image": "https://i.guim.co.uk/img/media/9e2f824400bab3ad39ab412fda40e2f45f91394e/1049_684_2684_2148/master/2684.jpg?width=140&quality=85&auto=format&fit=max&s=b21c776ae52cb19978e427cfe22627c9",
+      "summary": "Manchester City won match 1-0 after goal by Yaya TouréClub deny wrongdoing and say ‘process is ongoing’Tony Pulis has said his Stoke City team was “cheated” out of the 2011 FA Cup after Manchester City were found guilty…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790521319000
+    },
+    {
+      "competition": "men",
+      "title": "Seven huge questions that will linger for Man City fans after 115 charges guilty verdicts",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/seven-huge-questions-linger-man-34678698",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34678766.ece/ALTERNATES/s615/0_GettyImages-2241420332.jpg",
+      "summary": "Manchester City fans had their perceptions of the club fundamentally changed on Friday and there are still questions to answer",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790521200000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790521188000
+    },
+    {
+      "competition": "men",
+      "title": "Portugal issue new Bruno Fernandes injury statement as Man United handed update",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-injury-man-utd-34679093",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679175.ece/ALTERNATES/s615/0_JS419112787.jpg",
+      "summary": "Manchester United captain Bruno Fernandes has emerged as an injury doubt during his time with the Portugal squad",
+      "teams": [
+        "manutd",
+        "portugal"
+      ],
+      "publishedAt": 1790520874000
+    },
+    {
+      "competition": "indy",
+      "title": "The surprise problem leaving Man City players staring into an abyss",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-charges-verdict-latest-haaland-guardiola-transfer-news-b3057107.html",
+      "image": "https://static.independent.co.uk/2026/09/27/14/2297131363..?width=1200&auto=webp&trim=64%2C0%2C64%2C0",
+      "summary": "With the likes of Erling Haaland, tied to the Etihad until 2034, committed to Man City in the long-term, Richard Jolly ponders the instability facing numerous players should a guilty verdict against the club over…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790520346000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Jonathan David scores again as Juventus fans fear another Douglas Luiz situation",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/jonathan-david-scores-again-juventus/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Jonathan-David-celebrate-414x279.jpg",
+      "summary": "Jonathan David is enjoying one of the best runs of his career, and it is...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790520300000
+    },
+    {
+      "competition": "indy",
+      "title": "Liverpool given injury scare as Alexander Isak leaves Sweden camp",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/alexander-isak-injury-news-liverpool-sweden-b3057137.html",
+      "image": "https://static.independent.co.uk/2026/09/27/15/2296239011..?width=1200&auto=webp&trim=18%2C0%2C18%2C0",
+      "summary": "Isak has scored four goals in five league matches for Liverpool this season",
+      "teams": [
+        "liverpool",
+        "sweden"
+      ],
+      "publishedAt": 1790519339000
+    },
+    {
+      "competition": "bbc",
+      "title": "Why Premier League faces uncertainty and chaos after Man City ruling",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw3d77ne44k5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee2f/live/cb7000d0-b9aa-11f1-8a1a-0176f978c211.jpg",
+      "summary": "It has taken more than two years, but a judgement finally appears to have been made on the 115 charges levelled against Manchester City. Here's what it means.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790519086000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Fiorentina captain De Gea reacts to Man City charges: &#8216;How many league titles have I won then?&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/fiorentina-captain-de-gea-reacts-to-man-city/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/David-De-Gea-414x277.jpg",
+      "summary": "Fiorentina captain and former Manchester United goalkeeper David de Gea has responded to Manchester City s...",
+      "teams": [
+        "fiorentina",
+        "mancity"
+      ],
+      "publishedAt": 1790518800000
+    },
     {
       "competition": "fitalia",
       "title": "Why Mancini left Romano on for 90 minutes for Italy against Belgium",
@@ -50,30 +198,6 @@
       "publishedAt": 1790516875000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
-      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790516747000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790516321000
-    },
-    {
       "competition": "fitalia",
       "title": "Zoff: &#8216;Mancini&#8217;s advantage is Italy cannot get any worse&#8217;",
       "publisher": "Football Italia",
@@ -84,18 +208,6 @@
         "italy"
       ],
       "publishedAt": 1790516281000
-    },
-    {
-      "competition": "indy",
-      "title": "The surprise problem leaving Man City players staring into an abyss",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-charges-verdict-latest-haaland-guardiola-transfer-news-b3057107.html",
-      "image": "https://static.independent.co.uk/2026/09/27/14/2297131363..?width=1200&auto=webp&trim=64%2C0%2C64%2C0",
-      "summary": "With the likes of Erling Haaland, tied to the Etihad until 2034, committed to Man City in the long-term, Richard Jolly ponders the instability facing numerous players should a guilty verdict against the club over…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790515914000
     },
     {
       "competition": "fitalia",
@@ -397,18 +509,6 @@
     },
     {
       "competition": "echo",
-      "title": "Folarin Balogun agreement reached after Everton transfer collapse - 'It's a real shame'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/folarin-balogun-agreement-reached-after-34677948",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34548353.ece/ALTERNATES/s615/1_GettyImages-2284817759.jpg",
-      "summary": "Ex-USA internationals have been reflecting on Folarin Balogun's decision to U-turn on his decision to sign for Everton on transfer deadline day",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790506680000
-    },
-    {
-      "competition": "echo",
       "title": "Liverpool have found their perfect Andoni Iraola midfield signing - but they could pay price",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-found-perfect-andoni-iraola-34620605",
@@ -416,6 +516,18 @@
       "summary": "Monaco and Senegal midfielder Lamine Camara is on Liverpool's radar after seeing a transfer deadline-day move to Chelsea dashed amid chaotic scenes at Everton",
       "teams": [
         "liverpool"
+      ],
+      "publishedAt": 1790506680000
+    },
+    {
+      "competition": "echo",
+      "title": "Folarin Balogun agreement reached after Everton transfer collapse - 'It's a real shame'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/folarin-balogun-agreement-reached-after-34677948",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34548353.ece/ALTERNATES/s615/1_GettyImages-2284817759.jpg",
+      "summary": "Ex-USA internationals have been reflecting on Folarin Balogun's decision to U-turn on his decision to sign for Everton on transfer deadline day",
+      "teams": [
+        "everton"
       ],
       "publishedAt": 1790506680000
     },
@@ -641,115 +753,6 @@
         "arsenal"
       ],
       "publishedAt": 1790500577000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Five high-potential gems that should make Arsenal transfer shortlist in 2027",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-transfer-news-kayode-ngumoha-34674428",
-      "image": "https://i2-prod.football.london/incoming/article34674426.ece/ALTERNATES/s615/0_GettyImages-2296880096.jpg",
-      "summary": "Arsenal will continue strengthening Mikel Arteta's squad moving forward, but which young players could be of interest next summer?",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790499600000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso told to unleash 'fantastic' Chelsea star who has barely featured this season",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/xabi-alonso-told-unleash-fantastic-34665578",
-      "image": "https://i2-prod.football.london/incoming/article34665797.ece/ALTERNATES/s615/0_GettyImages-2290594530.jpg",
-      "summary": "Former Chelsea winger Shaun Wright-Phillips has had his say on one player he describes as 'fantastic'",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790499600000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa title claim made as Unai Emery backed to build second special team",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-title-claim-made-34678207",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34575129.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "Emery has been backed by owners NSWE to make some exciting signings, with the likes of Zion Suzuki, Johan Manzambi and Nicolas Jackson all arriving at Villa Park",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790499586000
-    },
-    {
-      "competition": "indy",
-      "title": "Jude Bellingham responds to on-field spat with Real Madrid teammate Marc Cucurella",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/jude-bellingham-marc-cucurella-real-madrid-england-spain-b3057058.html",
-      "image": "https://static.independent.co.uk/2026/09/27/09/2297292129..?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "summary": "The Real Madrid teammates shared a fierce exchange during the first half at Wembley",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790499488000
-    },
-    {
-      "competition": "men",
-      "title": "Thomas Tuchel makes 115 charges admission after England defeat - 'I can imagine'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/thomas-tuchel-makes-115-charges-34678044",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34678046.ece/ALTERNATES/s615/0_GettyImages-2296754524.jpg",
-      "summary": "England boss Thomas Tuchel was asked if the 115 charges story had been a distraction for Manchester City players",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790498676000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League bosses urged to immediately RELEGATE Man City after 115 charges verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37706648",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706697.ece/ALTERNATES/s615/0_JS345253422.jpg",
-      "summary": "Reports emerged this week claiming that Man City had been found guilty of alleged financial breaches brought against them by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790498592000
-    },
-    {
-      "competition": "mirror",
-      "title": "Bruno Fernandes cut from Portugal squad due to UEFA rules and 'complicated' issue",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/bruno-fernandes-cut-portugal-squad-37706703",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706704.ece/ALTERNATES/s615/0_GettyImages-2296397622.jpg",
-      "summary": "Manchester United captain Bruno Fernandes has been dealing with an injury issue and will not be included in Portugal's squad to face Norway in Oslo on Sunday night",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1790498494000
-    },
-    {
-      "competition": "men",
-      "title": "Man United handed Bruno Fernandes injury worry as Portugal decision confirmed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-injury-man-united-34678065",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678124.ece/ALTERNATES/s615/0_Bruno-Fernandes.jpg",
-      "summary": "Bruno Fernandes is set to miss Portugal's next Nations League fixture with Manchester United already sent a concerning injury update",
-      "teams": [
-        "manutd",
-        "portugal"
-      ],
-      "publishedAt": 1790498002000
-    },
-    {
-      "competition": "mirror",
-      "title": "Spanish media react exactly as expected to Antony Gordon display as England team-mate ridiculed",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-gordon-guehi-nations-37706571",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706585.ece/ALTERNATES/s615/1_GettyImages-2297290774.jpg",
-      "summary": "Anthony Gordon's performance against Spain earned plenty of attention in the Spanish media as the Barcelona star impressed at Wembley - but one team-mate in particular wasn't so lucky",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790497960000
     }
   ]
 }
