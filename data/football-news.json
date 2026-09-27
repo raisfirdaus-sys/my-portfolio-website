@@ -1,17 +1,67 @@
 {
-  "generatedAt": 1790485884390,
+  "generatedAt": 1790490056623,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1509,
-    "tagged": 804,
+    "raw": 1514,
+    "tagged": 802,
     "droppedKeyword": 29,
     "droppedOtherSport": 3,
-    "droppedFeed": 8,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 53
+    "withImage": 54
   },
   "items": [
+    {
+      "competition": "footlondon",
+      "title": "The demise of £60m former Chelsea star as Man Utd woes continue three years on",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/demise-60m-former-chelsea-star-34666841",
+      "image": "https://i2-prod.football.london/incoming/article34667216.ece/ALTERNATES/s615/0_GettyImages-1452740072.jpg",
+      "summary": "Mason Mount's career was once one that promised so much but ever since departing Chelsea in the summer of 2023, things have gone downhill for the now 27-year-old",
+      "teams": [
+        "chelsea",
+        "manutd"
+      ],
+      "publishedAt": 1790488800000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United's intriguing next move after Man City rocked by 114 charges as PIF react",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-intriguing-next-move-34676155",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676315.ece/ALTERNATES/s615/0_Hop2.jpg",
+      "summary": "The Man City situation has unfolded rapidly in the last 48 hours but where do Newcastle stand on the situation?",
+      "teams": [
+        "newcastle",
+        "mancity"
+      ],
+      "publishedAt": 1790488800000
+    },
+    {
+      "competition": "mirror",
+      "title": "Cole Palmer was right to snub England Nations League despite Thomas Tuchel's scathing comments",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/cole-palmer-england-nations-league-37705925",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705924.ece/ALTERNATES/s615/0_Brentford-v-Chelsea-FC-Premier-League-202627.jpg",
+      "summary": "Cole Palmer has been met with criticism from Thomas Tuchel for choosing to turn down a spot in England's Nations League squad this month, but the Chelsea talent evidently has bigger plans at hand",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790487000000
+    },
+    {
+      "competition": "echo",
+      "title": "Asking to leave Liverpool is my biggest regret – I made the wrong decision",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-decision-regret-exit-34671523",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34671648.ece/ALTERNATES/s615/0_GettyImages-2941985.jpg",
+      "summary": "A former Liverpool star pointed to one key decision for impacting his Reds career and discussed his time working under Rafa Benitez",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790487000000
+    },
     {
       "competition": "footlondon",
       "title": "The full story of Mikel Merino’s Arsenal striker stint as Kai Havertz injury forces revival",
@@ -63,13 +113,13 @@
     },
     {
       "competition": "echo",
-      "title": "Everton hierarchy sent David Moyes contract warning as Jack Grealish transfer verdict delivered",
+      "title": "Julian Ward priority is clear after Liverpool return - transfers are just the tip of the iceberg",
       "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-everton-contract-grealish-34676478",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676534.ece/ALTERNATES/s615/0_GettyImages-2296210779.jpg",
-      "summary": "ECHO exclusive as Richard Dunne gives his view on David Moyes' contract situation and Jack Grealish's return to Everton on transfer deadline day",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/julian-ward-priority-clear-after-34677194",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article25597062.ece/ALTERNATES/s615/0_ward.jpg",
+      "summary": "Julian Ward has returned to Liverpool as sporting director and is already facing a number of important items on the Reds' agenda",
       "teams": [
-        "everton"
+        "liverpool"
       ],
       "publishedAt": 1790485200000
     },
@@ -87,18 +137,6 @@
     },
     {
       "competition": "echo",
-      "title": "Julian Ward priority is clear after Liverpool return - transfers are just the tip of the iceberg",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/julian-ward-priority-clear-after-34677194",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article25597062.ece/ALTERNATES/s615/0_ward.jpg",
-      "summary": "Julian Ward has returned to Liverpool as sporting director and is already facing a number of important items on the Reds' agenda",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790485200000
-    },
-    {
-      "competition": "echo",
       "title": "Liverpool latest: Jurgen Klopp favourite on radar as Reds consider £47m deal",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jurgen-klopp-morton-araujo-34676503",
@@ -106,6 +144,18 @@
       "summary": "Liverpool news as the Reds begin making long-term plans",
       "teams": [
         "liverpool"
+      ],
+      "publishedAt": 1790485200000
+    },
+    {
+      "competition": "echo",
+      "title": "Everton hierarchy sent David Moyes contract warning as Jack Grealish transfer verdict delivered",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-everton-contract-grealish-34676478",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34676534.ece/ALTERNATES/s615/0_GettyImages-2296210779.jpg",
+      "summary": "ECHO exclusive as Richard Dunne gives his view on David Moyes' contract situation and Jack Grealish's return to Everton on transfer deadline day",
+      "teams": [
+        "everton"
       ],
       "publishedAt": 1790485200000
     },
@@ -197,7 +247,7 @@
     },
     {
       "competition": "guardian",
-      "title": "Meet the new 55 minute England collapse, not the same as the old 55 minute England collapse | Barney Ronay",
+      "title": "Meet the new minute 55 England collapse, not the same as the old minute 55 England collapse | Barney Ronay",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/27/england-spain-nations-league-meet-new-55-minute-collapse-not-same-as-old",
       "image": "https://i.guim.co.uk/img/media/9b9fb4f5986202741296a199753ef42c6107bc1b/236_0_3250_2600/master/3250.jpg?width=140&quality=85&auto=format&fit=max&s=40bd3413c880183e1e5f76cd8ada2176",
@@ -355,6 +405,30 @@
       "publishedAt": 1790458035000
     },
     {
+      "competition": "transfer",
+      "title": "Transfer news: Crystal Palace chairman Steve Parish tells Liverpool accepting £50m Ismaila Sarr bid was 'never going to happen' - Paper Talk",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPQ2JEcWxGYmNHeTJ1ZmxDY1A0VTdXcHJCMjBJalI5Zkt6d0RsaWdqN0hCVW1abEZsWGw0b21mLXhpNUpNU1BQYjlaQWktTEI3eExMZTRYdWZlWUVIblBKZXhXQmJzSmNiMXN4dC1ZOXdWVGtsVUxJSWZ4U3J0SWNXampWVVN6U05LSTdVSjQ5YjNyaUpLb0lsa2liOVhadnRQcXpGRHYwR2RUbC1HYjNHbFpHUl9nY0hEWUlfTlVkQW0zZWtNZHhtOGFRaXVYUTRFX3FWZkc0VnM3N3ZMNjE0QlotTVV5b3NOdUxBa1k2NW1Ha21abmpzT3g3VklrWU1zbERCazV2TE1fQURsaDJzd0hJSl9NejZYSmlHcWxOYTZVWWFVYlRZ?oc=5",
+      "teams": [
+        "crystalpalace",
+        "liverpool"
+      ],
+      "publishedAt": 1790486677000,
+      "image": null
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Haaland release clause truth emerges as Chelsea fight Barcelona for Bastoni",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX1B4MTNxck83ejBlcTFZWXpucjJ2Yjd4blpaOHVwSkhlN1VUWDB5NGZ0TmZvNm91WTc5d0dZVE44VVM3ZllLbzdUUWZILUgwTjRVdGQ0aDkyX2hfTmQ1VHFmRjh3RGtVUEVlZ2hnbXhzMmhzcTJnQ09qclllMUpRdWhQbmZoSldGWG8wRTZKOFlIY3JIaU1fUk01YmxiNWdfY2dtUThmaFpWcDFRTWZGRHQyQTdfSENjZF9DdkYxaVB1bkJsRlZfUi1qZFJsXzlBekZOMVhvSU0?oc=5",
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790486642000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "England take positive step forward but Spain defeat reveals true level they must reach",
       "publisher": "The Independent",
@@ -419,18 +493,6 @@
       "publishedAt": 1790456540000
     },
     {
-      "competition": "unl-a",
-      "title": "The Irish are opposed to the Republic of Ireland playing against Israel - so why are they?",
-      "publisher": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaEl6d2FHcnN6V2RHMFhmYkhpVTVQbEFzam5RNnRNaFRObTlObEhlUmFybjRabEtORC00ZUdJMVA2MXBCQ1pRS1o3VkdMOThwajRxWTJ3N3pMTmQ4M2l6QkhjNU5XZ0I3aWU2TVBtYVQzeXp2QW4xc2hiTDdSYnc4bWd2SGwwUmp3eHhWRERSY29VVkZuVDhfS1ZWV2xuSkMwOG1xdTRQRzFsc0FfZDl6Qng3ZENabjBwNzYzOXh3?oc=5",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790485200000,
-      "image": null
-    },
-    {
       "competition": "mirror",
       "title": "England come out on wrong side of Spain thriller but Thomas Tuchel gets fans back onside",
       "publisher": "Mirror Football",
@@ -477,7 +539,7 @@
         "england",
         "spain"
       ],
-      "publishedAt": 1790484670000,
+      "publishedAt": 1790484679000,
       "image": null
     },
     {
@@ -579,17 +641,6 @@
       "publishedAt": 1790453727000
     },
     {
-      "competition": "epl",
-      "title": "Hull City's impressive rank in Premier League transfer chart as Tottenham issue clear",
-      "publisher": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeWh2RTVDREJmWGtaaHRibm5lUjM5Vk5yY2l3ejJrZVFxSWRaMHBKV0Y4VmFYU1dacV84OFFoRS16OGtGRk0wdDIwZmljSzhzaS1lQy1zUXZnY21sa0F6VGxsY2V3b1VuTEkyQkpacTQtdS1ZbEVFZS1XZDhOSXFUdlVBMG5MR2dfRHc?oc=5",
-      "teams": [
-        "hullcity"
-      ],
-      "publishedAt": 1790481600000,
-      "image": null
-    },
-    {
       "competition": "ucl",
       "title": "Bayern Munich News: End of the line at FC Bayern for Hiroki Itō?; Real Madrid eyeing Finn Jeltsch?; Florian Wirtz not on Bayern’s radar; and MORE!",
       "publisher": "Yahoo Sports",
@@ -652,6 +703,17 @@
       "publishedAt": 1790451080000
     },
     {
+      "competition": "unl-a",
+      "title": "Watch Anthony Gordon finish superb England counterattack",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSDh0VzZOMHVyNHNxQUgteDhLajdXcHV0czRlNENBdzFyeEVFQlZuOXVwRXN5NXJ0WXhWdENwZGExWWp3YUo1WlQta3F6RWtuaUJLaW9KczZuY1htbzRpd1NBSHp2ZXdsdVVSdVI4WUpyM3JkWHZQRnVjUGlFOHVLbkx0Y3UtMGxiYXM1cE13eW9oYXV0UlF3eVRCeVp0NktGZUctdDc3T0xBVGtrejg3NHlYRjI1TXlnb1BkN1JhdEF1MUhtOXB6Zi1EeHItMXdhZmFnbnpB?oc=5",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790479815000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
       "publisher": "The Independent",
@@ -686,67 +748,6 @@
         "manutd"
       ],
       "publishedAt": 1790449335000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel gives reason for surprise Jordan Pickford England decision vs Spain",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-spain-tuchel-pickford-decision-37706058",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706067.ece/ALTERNATES/s615/0_JS419352422.jpg",
-      "summary": "Thomas Tuchel chose James Trafford as England's goalkeeper ahead of Jordan Pickford to face Spain",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790448917000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Czechia 1-2 Croatia",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON3F1U2VWcUVvNjlZNjF3OGtWakoyQnZMYjAyOE5kRHRJcDhkZHBXNHN0ZnRIdVFqMFAycDNMVVpITFBMSTN0TlhWOHNVSTNHNXFZX2w2aVl2T3gzcDg4VHpudXRyZE0wcHhncWN6ekt1aklYOEZqRGxtTklvRW1rQnNFTG9ybXZfTGxrSGVDUnh4SjFkZlpuZVEtRUNvSTZiV3VuSW1EZDhCaGNjNFRQRm4zZ3lZY2d5OWpRWVBOSDBNa3hQcVpKa1BHQzVBazZZcElVdlVn?oc=5",
-      "teams": [
-        "czechia",
-        "croatia"
-      ],
-      "publishedAt": 1790477621000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Man City charges verdict – live: City chairman insists innocence in statement on reports over Premier League charges",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-charges-verdict-live-updates-b2706785.html",
-      "image": "https://static.independent.co.uk/2026/07/30/14/2167274432..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The long-awaited verdict over charges levelled against Man City by the Premier League represents a seminal moment with major repercussions set to be felt in the coming months and years",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790448536000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Jamie Gittens hand Chelsea new injury blow after double international break worry",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/jamie-gittens-england-chelsea-injury-34677196",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34677247.ece/ALTERNATES/s615/0_England-U21-v-Kazakhstan-U21-UEFA-European-U21-Championship-Qualifying-Football-Molineux-Stadium.jpg",
-      "summary": "The Chelsea winger was involved with England's Under-21s team for the extended international break this month",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790448429000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: North Macedonia 0-3 Switzerland",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTWl0MnV4NmlPX01oTXRZcWhra3ZoYTVuaXBCT0xZbzh5MWNxNVk3bm9yWndhQllWTDBQV3JNV2Q2ekpSbXcyWHhTbExxNUFuaGFlUWZoaGdIQzJXNnBOVVJidzBQYVo3UFcyNUwtMUptUmVEb2tpakNvME43SWotZ2dGb1UxbHBJU1ktYnVNcjhUT3VPSGRPcXJaV0VWTlhyQi1Ub25TdThrSVptZjZCVWdUQ2dOcnViOF9HQzBUYlJlcTl2UUtja1pXYlpPVUxRb0k1ODg2cm94MHB5VHdIUGdseF9RQQ?oc=5",
-      "teams": [
-        "nmacedonia",
-        "switzerland"
-      ],
-      "publishedAt": 1790476933000,
-      "image": null
     }
   ]
 }
