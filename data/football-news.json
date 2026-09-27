@@ -1,17 +1,55 @@
 {
-  "generatedAt": 1790492684878,
+  "generatedAt": 1790493906695,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1511,
-    "tagged": 800,
-    "droppedKeyword": 26,
-    "droppedOtherSport": 3,
-    "droppedFeed": 6,
+    "raw": 1506,
+    "tagged": 798,
+    "droppedKeyword": 27,
+    "droppedOtherSport": 2,
+    "droppedFeed": 5,
     "blocklistDistrusted": false,
-    "withImage": 48
+    "withImage": 49
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City relegation could 'lead to legal disputes' with stars as 115 charges punishment wait begins",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-players-contracts-37706516",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706552.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "Manchester City may be facing questions from their own players and their respective futures over the club being found in breach of financial regulations",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790493596000
+    },
+    {
+      "competition": "guardian",
+      "title": "Israel game goes ahead after Irish players’ vote; reaction to Spain’s win over England – matchday live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
+      "image": "https://i.guim.co.uk/img/media/75f9949138fa2389dd1e03d9f335cb2d3cd92730/1376_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=6bfc30e3b481a469c95fe28c59bcd2c5",
+      "summary": "The latest football news, reaction and discussionToday’s fixtures | And you can mail matchday liveEngland: Two defensive errors and a penalty miss from Harry Kane cost Thomas Tuchel’s side at Wembley last night. After…",
+      "teams": [
+        "england",
+        "israel",
+        "spain"
+      ],
+      "publishedAt": 1790493454000
+    },
+    {
+      "competition": "bbc",
+      "title": "From turgid to thrusting - mixed start for new Scotland",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1968/live/b8afe1e0-b9f0-11f1-b673-b9fffdf2c4ef.jpg",
+      "summary": "BBC Sport Scotland's Tom English reviews a mixed start to life as Scotland head coach for Sebastien Pocognoli as his side open their Nations League campaign with a goalless draw in Slovenia.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790493295000
+    },
     {
       "competition": "metro",
       "title": "Harry Kane makes Man City claim after England&#8217;s defeat to Spain",
@@ -27,6 +65,30 @@
       "publishedAt": 1790492477000
     },
     {
+      "competition": "guardian",
+      "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/national-league-gateshead-wealdstone",
+      "image": "https://i.guim.co.uk/img/media/81bc7c6eb546646bfef177c17df70afe61d1b03a/200_0_3440_2752/master/3440.jpg?width=140&quality=85&auto=format&fit=max&s=0fec97a7e1ee4d001fd0c0e250bdcdd1",
+      "summary": "His team bottom of the National League, Lee Cattermole’s ‘bomb squad’ approach could well end with him departingAmong many doomsday scenarios facing Manchester City is plunging down the football pyramid. Would that be…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790492459000
+    },
+    {
+      "competition": "guardian",
+      "title": "Ever feel you’ve been cheated? Consequences could be profound after Manchester City guilty verdict | Jonathan Wilson",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/ever-feel-youve-been-cheated-consequences-could-be-profound-after-manchester-city-guilty-verdict",
+      "image": "https://i.guim.co.uk/img/media/3a2bed798e294c865f900e1674016701ea48a6a6/351_0_2799_2240/master/2799.jpg?width=140&quality=85&auto=format&fit=max&s=b00caa57c677db8d2a15b4892f859828",
+      "summary": "Premier League could be hit hard by aftermath, while Manchester City fans may know they took 30 years to recover from a guilty verdict in 1906So it turns out none of that was real. Nothing that happened in English…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790492457000
+    },
+    {
       "competition": "mirror",
       "title": "What happened to Man Utd team slapped 7-0 by Liverpool and the eerie resemblance in current squad",
       "publisher": "Mirror Football",
@@ -36,6 +98,19 @@
       "teams": [
         "liverpool",
         "manutd"
+      ],
+      "publishedAt": 1790492400000
+    },
+    {
+      "competition": "chronicle",
+      "title": "I don't expect 'panic buy' Nick Woltemade to return to Newcastle United even if he stars for Juve",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/dont-expect-panic-buy-nick-34676410",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676460.ece/ALTERNATES/s615/0_Wolt2.jpg",
+      "summary": "Former United and England winger Chris Waddle feels the Premier League was too quick for the German international",
+      "teams": [
+        "newcastle",
+        "juventus"
       ],
       "publishedAt": 1790492400000
     },
@@ -322,6 +397,18 @@
       "publishedAt": 1790464740000
     },
     {
+      "competition": "unl-a",
+      "title": "Norway vs. Portugal 2026 livestream: How to watch Nations League for free",
+      "publisher": "Mashable",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeTRJd2lZS0F5QlZYaUN3M1V4ZmJSTl9jLXAyR0EyWTZJYlhmOVRrUmJIcDVMTHp6NW1GTnY0YVRvbms1b1lHS3FIMC10cnAxZkF4RlNsTDlvSHZTTnRSQzlNOC1DVG5fNVBaMGNvYTM2ZlNJMjZ5aHBYYzhrSmM5M2p5VjgxRFdmOUZrRVotVE8tME5jU1E?oc=5",
+      "teams": [
+        "portugal",
+        "norway"
+      ],
+      "publishedAt": 1790492867000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Pickford or Trafford? The battle to be England's number one is now on",
       "publisher": "BBC Sport",
@@ -332,17 +419,6 @@
         "england"
       ],
       "publishedAt": 1790463967000
-    },
-    {
-      "competition": "epl",
-      "title": "Ever feel you’ve been cheated? Consequences could be profound after Manchester City guilty verdict",
-      "publisher": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaVVYa0UzTk5FWUNQeFJOdGJMajBtY2tYYTFINEJicHlna3p5U0RzUGkyZXYxZWdYS0pZRUZjRVJYUUNLRExqeUltMG1xZ0JkdGdCS0tYR1VpZEpGSjl1SDNqWlZXMXdyanVyMnI5QVpqckdsT1FMYkpINm1laWhwNjhqUEVlNS0zLWVfU3VsQzNVWnlRWkRuaTdId2E5ZDRPOTl1bHI5UmFveEhSU2JXX3lUanp2ZVpIVDNVTF9ZUVoxSkt5N2IxaXFBU3ZWZXhNbTFwRGlSakN2Z3h2Unc?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790492400000,
-      "image": null
     },
     {
       "competition": "transfer",
@@ -490,23 +566,13 @@
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "Man City break silence after 114 financial charges verdict as chairman Khaldoon Al Mubarak vows to prove club’s innocence",
+      "competition": "unl-a",
+      "title": "How to watch Norway vs Portugal: TV channel and live stream for Nations League today",
       "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdWVOLUVmRnJiZmdCOUJTUWpYdzRBY3gzek5CY09CdDVoY2VrdW9UMlB1NFVwSTh0ZlBFZmVmRVVfSUNuT3BfRmc5YkdYX0E0Y1JaQXljbkhKYVA0eXFHcHgzVEdmbC1fOF9YeXgzZ0NYdzFHQ0x3MW5yVE9hcFRxcQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNlBhbHpzS2s0Q25Tdk9sSjJiYVVXQUdOVnpvWk1taldpeDRsTlBHUUFJWjRSREZ3dDB0cHgxZ01GTWpiNVE2MTJ4WkJnS1lqREF2SEZRT3lzUzVoSlVQdHkyT1MwcUtPZUZ0NVZ2RGw4b1VNU1NrcmVkSVdMMDFxOGxn?oc=5",
       "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790489100000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Forest Vindication Does not Make Man City Verdict a Victory",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0Z4MUFUTllFTDB0MGw3YTVjalE2d0dBazB2by11ZHV2YXZBMVRFbUQwZE5YTjR3TThtUHhtRFByYnNQdVlNR2NBRi1yTzRsLXdRSUVqVlJ0Q2hxN3hUdGNIZ1FrVVJZNWxlY1NOXzFLTEs0QUxPb0d0Q2s4ZUtnTmNoN191aWs?oc=5",
-      "teams": [
-        "mancity"
+        "portugal",
+        "norway"
       ],
       "publishedAt": 1790488800000,
       "image": null
@@ -682,69 +748,6 @@
         "england"
       ],
       "publishedAt": 1790455745000
-    },
-    {
-      "competition": "bbc",
-      "title": "Who made an uncharacteristic error? England player ratings v Spain",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmy0zz2ylr5no?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc71/live/eeee61e0-b9e7-11f1-a7c8-cfea26a12219.jpg",
-      "summary": "England were beaten 3-2 in an entertaining game by world champions Spain in the Nations League - here's how BBC Sport rated the Three Lions' players.",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790455353000
-    },
-    {
-      "competition": "mirror",
-      "title": "England pay the penalty in Spain defeat after Harry Kane's miss - 5 talking points",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-spain-nations-league-highlights-37706073",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706217.ece/ALTERNATES/s615/0_GettyImages-2296742561.jpg",
-      "summary": "ENGLAND 2-3 SPAIN: Harry Kane missed a penalty as Thomas Tuchel's side were beaten in their Nations League opener, having led until the hour mark against the newly crowned world champions",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790455289000
-    },
-    {
-      "competition": "mirror",
-      "title": "Gavin Bazunu releases statement after Ireland star pulls out of Israel game",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/gavin-bazunu-ireland-israel-statement-37706178",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705360.ece/ALTERNATES/s615/1_GettyImages-2240008594.jpg",
-      "summary": "Bolton Wanderers goalkeeper Gavin Bazunu has confirmed he will not feature for the Republic of Ireland in their Nations League fixture against Israel on Sunday",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790453950000
-    },
-    {
-      "competition": "guardian",
-      "title": "Republic of Ireland’s Gavin Bazunu boycotts Israel match ‘as a person of principle’",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/26/ireland-players-vote-to-go-ahead-with-nations-league-match-against-israel",
-      "image": "https://i.guim.co.uk/img/media/aaf8829d581708f3ec6ae8d41495f46432713c4c/229_0_3660_2928/master/3660.jpg?width=140&quality=85&auto=format&fit=max&s=2302861e08200a7fce220836717d26d8",
-      "summary": "Bolton goalkeeper issues statement after withdrawalIreland players will wear black armbands in matchThe Republic of Ireland will fulfil their fixture against Israel in Hungary on Sunday night, but only after lengthy…",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790453885000
-    },
-    {
-      "competition": "bbc",
-      "title": "Bellamy eyes more history against wounded Denmark",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmeq88152w8go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd97/live/0377c060-b9a8-11f1-8a1a-0176f978c211.jpg",
-      "summary": "Craig Bellamy reflects on his memorable moments against Denmark as his Wales side bid to topple the Danes in the Nations League on Sunday (17:00 BST).",
-      "teams": [
-        "denmark"
-      ],
-      "publishedAt": 1790453822000
     }
   ]
 }
