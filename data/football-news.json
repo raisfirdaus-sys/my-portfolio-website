@@ -1,17 +1,114 @@
 {
-  "generatedAt": 1790514789828,
+  "generatedAt": 1790517737575,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1506,
-    "tagged": 787,
-    "droppedKeyword": 21,
-    "droppedOtherSport": 2,
-    "droppedFeed": 6,
+    "raw": 1507,
+    "tagged": 795,
+    "droppedKeyword": 23,
+    "droppedOtherSport": 4,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Why Mancini left Romano on for 90 minutes for Italy against Belgium",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/why-mancini-left-romano-on-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
+      "summary": "Alessandro Romano s first cap was a chastening one, but Roberto Mancini has no intention of...",
+      "teams": [
+        "belgium",
+        "italy"
+      ],
+      "publishedAt": 1790517600000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Elliot Anderson response to Man City charges verdict amid escape clause agreement talk",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/elliot-anderson-response-man-city-34678609",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678791.ece/ALTERNATES/s615/0_imagemaker-57.jpg",
+      "summary": "As Man City find themselves in an impossible battle to escape the headlines, Geordie boy Elliot Anderson is caught up right in the middle, just weeks after sealing a dream move",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790517000000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa seek expert to identify overseas transfer stars but must meet key criteria",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-transfers-south-america-34678985",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article33431935.ece/ALTERNATES/s615/0_Aston-Villa-v-Brighton-Hove-Albion-Premier-League.jpg",
+      "summary": "Aston Villa are eager to continue their success in the Premier League and are seeking a new candidate for a job overseas",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790516875000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790516747000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790516321000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Zoff: &#8216;Mancini&#8217;s advantage is Italy cannot get any worse&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/zoff-mancini-italy-cannot-get-any-worse/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/dino-zoff-1-414x276.jpg",
+      "summary": "Dino Zoff was not encouraged by what he saw at the Stadio Olimpico on Friday...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790516281000
+    },
+    {
+      "competition": "indy",
+      "title": "The surprise problem leaving Man City players staring into an abyss",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-charges-verdict-latest-haaland-guardiola-transfer-news-b3057107.html",
+      "image": "https://static.independent.co.uk/2026/09/27/14/2297131363..?width=1200&auto=webp&trim=64%2C0%2C64%2C0",
+      "summary": "With the likes of Erling Haaland, tied to the Etihad until 2034, committed to Man City in the long-term, Richard Jolly ponders the instability facing numerous players should a guilty verdict against the club over…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790515914000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Tonali among under-fire Italy stars as Mancini&#8217;s message to team revealed",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/tonali-4-under-fire-italy-mancini-message-team/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Nicolo-Barella-Diego-Moreira-414x276.jpg",
+      "summary": "Roberto Mancini reportedly told Italy players to accept and understand fans boos after a 2-0...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790514791000
+    },
     {
       "competition": "men",
       "title": "Man City's 115 charges hope as independent panel 'could come under serious scrutiny'",
@@ -39,19 +136,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
-      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
-      "teams": [
-        "netherlands",
-        "serbia"
-      ],
-      "publishedAt": 1790514000000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
@@ -65,27 +149,16 @@
     },
     {
       "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
+      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
       "teams": [
-        "mancity"
+        "netherlands",
+        "serbia"
       ],
-      "publishedAt": 1790513371000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
-      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790513322000
+      "publishedAt": 1790514000000
     },
     {
       "competition": "bbc",
@@ -677,81 +750,6 @@
         "england"
       ],
       "publishedAt": 1790497960000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Unai Emery and NSWE 'phenomenal' as Aston Villa transformed by special partnership",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/unai-emery-nswe-phenomenal-aston-34677978",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34071135.ece/ALTERNATES/s615/0_SC-Freiburg-v-Aston-Villa-FC-UEFA-Europa-League-Final-2026.jpg",
-      "summary": "The partnership between Unai Emery and Aston Villa owners Nassef Sawiris and Wes Edens has been described as 'phenomenal'",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790497131000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland name outfield player among goalkeepers after Gavin Bazunu withdrawal vs Israel",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-gavin-bazunu-jimmy-dunne-goalkeeper-nations-league-b3057055.html",
-      "image": "https://static.independent.co.uk/2026/09/27/09/01M3F6QZYDQ6C4A2FW2QZTBPNF.jpg?width=1200&auto=webp&trim=19%2C976%2C1252%2C931",
-      "summary": "Bazunu refused to play in the controversial Nations League match, with Uefa rules stipulating that the Republic of Ireland must name three goalkeepers in the Israel fixture",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790496824000
-    },
-    {
-      "competition": "metro",
-      "title": "Harry Redknapp reveals punishment he wants for Man City amid claims Spurs were &#8216;cheated&#8217;",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/harry-redknapp-reveals-punishment-wants-man-city-amid-claims-spurs-cheated-29656232/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/07/GettyImages-2241791521.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity",
-        "tottenham"
-      ],
-      "publishedAt": 1790496823000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Official: Mancini leaves 10 Italy players in Coverciano ahead of Turkey clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-10-players-italy-coverciano-turkey/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Roberto-Mancini-ball-414x276.jpg",
-      "summary": "Nicolò Barella, Honest Ahanor and Gianluca Mancini are among the ten players who will follow...",
-      "teams": [
-        "turkey",
-        "italy"
-      ],
-      "publishedAt": 1790496371000
-    },
-    {
-      "competition": "indy",
-      "title": "England vs Spain LIVE: Tuchel maintains hosts ‘dominated’ world champions despite loss in five-goal thriller at Wembley",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-live-stream-score-result-nations-league-b3056856.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/2026-09-26T202027Z_1202445885_UP1EM9Q1KI1ZO_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP.JPG?width=1200&auto=webp&trim=28%2C0%2C28%2C0",
-      "summary": "England 2-3 Spain: An exciting contest at Wembley ended in defeat for the Three Lions",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790495436000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Today&#8217;s Papers &#8211; Italy are better than this, Ceferin sends Euro 2032 warning",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/todays-papers-italy-better-this-ceferin-warn/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-031709p308lrz-414x592.webp",
-      "summary": "La Gazzetta dello Sport We re better than this Mancini looking for the breakthrough The coach s...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790494301000
     }
   ]
 }
