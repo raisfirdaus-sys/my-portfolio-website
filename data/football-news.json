@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790549953104,
+  "generatedAt": 1790551015973,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1503,
-    "tagged": 816,
+    "raw": 1497,
+    "tagged": 806,
     "droppedKeyword": 23,
     "droppedOtherSport": 3,
-    "droppedFeed": 8,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -287,18 +287,6 @@
         "israel"
       ],
       "publishedAt": 1790539014000
-    },
-    {
-      "competition": "bbc",
-      "title": "Chelsea restore resilience - are they title contenders again?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckwyz477nl57o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/314f/live/453d79b0-ba9b-11f1-aa28-a504dd3edde0.jpg",
-      "summary": "Doubt crept in at Chelsea last season when they lost their Women's Super League crown - but early signs in this campaign suggest they have regained their spark for another challenge.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790538404000
     },
     {
       "competition": "mirror",
@@ -749,6 +737,18 @@
       "summary": "The Republic of Ireland will sport black armbands as they take on Israel in the Nations League on Sunday evening, with a poignant meaning behind the move",
       "teams": [
         "israel"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "echo",
+      "title": "Thomas Tuchel explains Jordan Pickford decision as England boss questioned - 'Why is he not?'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/thomas-tuchel-explains-jordan-pickford-34679094",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34679090.ece/ALTERNATES/s615/0_GettyImages-2297287669jp.jpg",
+      "summary": "England boss Thomas Tuchel preferred Leeds United's James Trafford to Everton hero Jordan Pickford in goal for the Nations League clash with World champions Spain",
+      "teams": [
+        "england"
       ],
       "publishedAt": 1790524800000
     }
