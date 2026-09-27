@@ -1,17 +1,81 @@
 {
-  "generatedAt": 1790490056623,
+  "generatedAt": 1790492684878,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1514,
-    "tagged": 802,
-    "droppedKeyword": 29,
+    "raw": 1511,
+    "tagged": 800,
+    "droppedKeyword": 26,
     "droppedOtherSport": 3,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 54
+    "withImage": 48
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Harry Kane makes Man City claim after England&#8217;s defeat to Spain",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/harry-kane-makes-man-city-claim-englands-defeat-spain-29656146/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-27-at-07.45.47-d47d.png?w=646",
+      "summary": null,
+      "teams": [
+        "mancity",
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790492477000
+    },
+    {
+      "competition": "mirror",
+      "title": "What happened to Man Utd team slapped 7-0 by Liverpool and the eerie resemblance in current squad",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-liverpool-premier-league-37693206",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37693734.ece/ALTERNATES/s615/0_GettyImages-1471476568.jpg",
+      "summary": "Manchester United and Liverpool have shared a tough rivalry over the years and it will continue this season as Anfield hosts the pair in November",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1790492400000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City verdict: Chairman breaks silence on 115 charges in new statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790492220000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges: Khaldoon Al Mubarak speaks out as club release new statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
+      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
+      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790491908000
+    },
+    {
+      "competition": "indy",
+      "title": "England take positive step forward but Spain defeat reveals true level they must reach",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-spain-nations-league-goals-result-kane-tuchel-b3056975.html",
+      "image": "https://static.independent.co.uk/2026/09/26/22/01M3FQTKT3EXYX2Y9N6B1X5726.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "summary": "England 2-3 Spain: A thrilling five-goal contest at Wembley ended in favour of the world champions as substitutes Alex Baena and Mikel Oyarzabal showed off Spain’s technical excellence",
+      "teams": [
+        "england",
+        "spain"
+      ],
+      "publishedAt": 1790490538000
+    },
     {
       "competition": "footlondon",
       "title": "The demise of £60m former Chelsea star as Man Utd woes continue three years on",
@@ -89,11 +153,11 @@
     },
     {
       "competition": "men",
-      "title": "What happened to Man City's record signing? Brutal Pep Guardiola chat and Premier League nemesis",
+      "title": "Premier League told they have got Man City charges verdict 'so badly wrong' after 'ugly' saga",
       "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-record-signing-transfer-34676415",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676773.ece/ALTERNATES/s615/0_GettyImages-895818300.jpg",
-      "summary": "Manchester City splashed £42m on Eliaquim Mangala in 2014 only for him to leave on a free in 2019",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34677406",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677768.ece/ALTERNATES/s615/0_JS276999255.jpg",
+      "summary": "The Premier League have been criticised for letting the situation regarding the charges against Manchester City turn 'ugly'",
       "teams": [
         "mancity"
       ],
@@ -101,11 +165,11 @@
     },
     {
       "competition": "men",
-      "title": "Premier League told they have got Man City charges verdict 'so badly wrong' after 'ugly' saga",
+      "title": "What happened to Man City's record signing? Brutal Pep Guardiola chat and Premier League nemesis",
       "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34677406",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677768.ece/ALTERNATES/s615/0_JS276999255.jpg",
-      "summary": "The Premier League have been criticised for letting the situation regarding the charges against Manchester City turn 'ugly'",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-record-signing-transfer-34676415",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676773.ece/ALTERNATES/s615/0_GettyImages-895818300.jpg",
+      "summary": "Manchester City splashed £42m on Eliaquim Mangala in 2014 only for him to leave on a free in 2019",
       "teams": [
         "mancity"
       ],
@@ -270,6 +334,29 @@
       "publishedAt": 1790463967000
     },
     {
+      "competition": "epl",
+      "title": "Ever feel you’ve been cheated? Consequences could be profound after Manchester City guilty verdict",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaVVYa0UzTk5FWUNQeFJOdGJMajBtY2tYYTFINEJicHlna3p5U0RzUGkyZXYxZWdYS0pZRUZjRVJYUUNLRExqeUltMG1xZ0JkdGdCS0tYR1VpZEpGSjl1SDNqWlZXMXdyanVyMnI5QVpqckdsT1FMYkpINm1laWhwNjhqUEVlNS0zLWVfU3VsQzNVWnlRWkRuaTdId2E5ZDRPOTl1bHI5UmFveEhSU2JXX3lUanp2ZVpIVDNVTF9ZUVoxSkt5N2IxaXFBU3ZWZXhNbTFwRGlSakN2Z3h2Unc?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790492400000,
+      "image": null
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Haaland release clause truth emerges as Chelsea fight Barcelona for Bastoni",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX1B4MTNxck83ejBlcTFZWXpucjJ2Yjd4blpaOHVwSkhlN1VUWDB5NGZ0TmZvNm91WTc5d0dZVE44VVM3ZllLbzdUUWZILUgwTjRVdGQ0aDkyX2hfTmQ1VHFmRjh3RGtVUEVlZ2hnbXhzMmhzcTJnQ09qclllMUpRdWhQbmZoSldGWG8wRTZKOFlIY3JIaU1fUk01YmxiNWdfY2dtUThmaFpWcDFRTWZGRHQyQTdfSENjZF9DdkYxaVB1bkJsRlZfUi1qZFJsXzlBekZOMVhvSU0?oc=5",
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790492009000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Tuchel rues 'big mistakes' - did Man City charges have impact?",
       "publisher": "BBC Sport",
@@ -294,6 +381,18 @@
       "publishedAt": 1790462392000
     },
     {
+      "competition": "unl-a",
+      "title": "Underestimating Wales could be the final straw for under-fire Denmark boss Riemer",
+      "publisher": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY3lmNzFNMjZob0UteWx1TnlvU2dhejRWemxwajFPRXFqNEpFdi1zMllXaEtDVjQwZ2NYNDJkcnE2ZEpFWjFLaG9EcUI3M1RLWGhKYjJzVlBGaThKWmM0eXJkMUFMYmFGWDJ4emQxVGhISHZHaHd0THQyWW9ub1lBWXBCUkZzaW1QRzQwLWpwb3kxZkRZN3ZTTTc4OTVXX1RBdzVJbWZvMVo5cGJyU2F4SFhwVU5QZW1GeFRDME5EOGowQWN3aU50UGwySkFIN1hIMVVaZWsyRWl0aDdiMUFpLUxESHI?oc=5",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790491065000,
+      "image": null
+    },
+    {
       "competition": "tele",
       "title": "Fun, yes – but when will Tuchel fix this England defence?",
       "publisher": "The Telegraph",
@@ -304,6 +403,28 @@
         "england"
       ],
       "publishedAt": 1790462188000
+    },
+    {
+      "competition": "laliga",
+      "title": "Manchester United eye La Liga wide man as January transfer opportunity emerges",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTDRMT3R0MElvWFREMl9qVm5EOE1wZXpxaEZwMS1WM2ViV1ZtZjdZcWhwcVNqbUMwbDRtMDcydlRlUWVuN2tjWWx6Z0lvN3FzOWdxOTVxbTQ1aUF3em5DVFJ0YkI0TGNNc0ZIUXV5OXQ2NWFwZ3dIaF8zaUZ2bDFVdHhFX3Q?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790490900000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "Only two La Liga clubs have no player with a Barcelona past this season",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFenpJWFk5V0tFb3dQMG96QXRTX3RWNDJESU5fcnE1Y0lYenlEOG9MbGNIbXk1RTF3ZlhRXzQ4YnM0SklPUUIyeUJJNnFjaEV6UGZyVGdPMGlQVkw0UU9SaVVCS3VWVFFGQmU0dEtSMXR0TnBWQWhMN0ZRaw?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790490000000,
+      "image": null
     },
     {
       "competition": "metro",
@@ -357,28 +478,49 @@
       "publishedAt": 1790460511000
     },
     {
-      "competition": "men",
-      "title": "Man City 115 charges LIVE: Khaldoon Al Mubarak speaks out as club release new statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/man-city-115-charges-verdict-31212935",
-      "image": "https://i2-prod.football.london/incoming/article34675390.ece/ALTERNATES/s615/0_MEN.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of Premier League rules and now await their punishment",
+      "competition": "epl",
+      "title": "Manchester United join Liverpool in monitoring 25-year-old Premier League speedster",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmZVcHF2b09SbXpZUEpSaXVWWXVhcmJiTFNPNUtTWS1kZTl6S0k1TnJNTWpXMUlRWHBJSk91UXlhRlZvR3JoN1ZEMkVRazhiNGNZakQ0NFhwRm1sTG9tTFVfel95SEU4bXBybnVsMmU1U2c1QnhKLXVKTmJwYVk3MVNsN0thSHh5cUFjNnc4U0Q3SVBndUpv?oc=5",
       "teams": [
-        "mancity"
+        "manutd",
+        "liverpool"
       ],
-      "publishedAt": 1790459193000
+      "publishedAt": 1790489100000,
+      "image": null
     },
     {
-      "competition": "mirror",
-      "title": "Man City verdict LIVE: Chairman breaks silence on 115 charges in new statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-verdict-live-37703247",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704783.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "Manchester City have been found guilty on 114 of the 115 charges of breaching Premier League rules and an appeal is now expected as the football world reacts",
+      "competition": "epl",
+      "title": "Man City break silence after 114 financial charges verdict as chairman Khaldoon Al Mubarak vows to prove club’s innocence",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdWVOLUVmRnJiZmdCOUJTUWpYdzRBY3gzek5CY09CdDVoY2VrdW9UMlB1NFVwSTh0ZlBFZmVmRVVfSUNuT3BfRmc5YkdYX0E0Y1JaQXljbkhKYVA0eXFHcHgzVEdmbC1fOF9YeXgzZ0NYdzFHQ0x3MW5yVE9hcFRxcQ?oc=5",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790458989000
+      "publishedAt": 1790489100000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Forest Vindication Does not Make Man City Verdict a Victory",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0Z4MUFUTllFTDB0MGw3YTVjalE2d0dBazB2by11ZHV2YXZBMVRFbUQwZE5YTjR3TThtUHhtRFByYnNQdVlNR2NBRi1yTzRsLXdRSUVqVlJ0Q2hxN3hUdGNIZ1FrVVJZNWxlY1NOXzFLTEs0QUxPb0d0Q2s4ZUtnTmNoN191aWs?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790488800000,
+      "image": null
+    },
+    {
+      "competition": "bundesliga",
+      "title": "Bayern Munich, news and rumours: \"More mature than Yamal!\" Rummenigge on Bayern's plan with Michael Olise",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVDVyOTBXOUhzcERpU1lKUVM5eUJrcGFhMkNPVGJwMkY2OEs5b3pjQU9VVU5xcHp4YUN4QjNTb1BaREF4Z2d6YmtIbTdZRC1lLWpVXzBwUHUwTEJZbWpiQkk0dUllWkYxZG1sdC1BU0ltTXk5RnB3S0czem15UDdGWFRIS0UtZG9qbmplX08yd0VlSWJYNmREOU45R0wxNkxqQXJ0dHI4dC14MEdIT1NtSGhqQm9GRmQtY3E2cUVYVE5IV0hlekRELURVcG9MajB4RDNIbk1rUThJRnlpdkh3blBEZw?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790487446000,
+      "image": null
     },
     {
       "competition": "indy",
@@ -417,31 +559,6 @@
       "image": null
     },
     {
-      "competition": "transfer",
-      "title": "Transfer news LIVE: Haaland release clause truth emerges as Chelsea fight Barcelona for Bastoni",
-      "publisher": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX1B4MTNxck83ejBlcTFZWXpucjJ2Yjd4blpaOHVwSkhlN1VUWDB5NGZ0TmZvNm91WTc5d0dZVE44VVM3ZllLbzdUUWZILUgwTjRVdGQ0aDkyX2hfTmQ1VHFmRjh3RGtVUEVlZ2hnbXhzMmhzcTJnQ09qclllMUpRdWhQbmZoSldGWG8wRTZKOFlIY3JIaU1fUk01YmxiNWdfY2dtUThmaFpWcDFRTWZGRHQyQTdfSENjZF9DdkYxaVB1bkJsRlZfUi1qZFJsXzlBekZOMVhvSU0?oc=5",
-      "teams": [
-        "barcelona",
-        "chelsea"
-      ],
-      "publishedAt": 1790486642000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "England take positive step forward but Spain defeat reveals true level they must reach",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/england-spain-nations-league-goals-result-kane-tuchel-b3056975.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/01M3FQTKT3EXYX2Y9N6B1X5726.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "summary": "England 2-3 Spain: A thrilling five-goal contest at Wembley ended in favour of the world champions as substitutes Alex Baena and Mikel Oyarzabal showed off Spain’s technical excellence",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790457618000
-    },
-    {
       "competition": "mirror",
       "title": "Manchester City apology demanded after Premier League charges verdict",
       "publisher": "Mirror Football",
@@ -465,6 +582,18 @@
         "spain"
       ],
       "publishedAt": 1790456735000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Portugal XI vs Norway – Predicted lineup and team news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR2ZYV0liWGNFMVlGakRjYzlhcXNlZE50SE9yTnFYZGlIcVNuX05PR0xnT0E0b2Uta1BLZkVtVG1sMi1iR3A4b1ZPb0ctRHZkWEdCMk1RMWMwcmhZUmdLajdNMzlaelBnNjRPUGNycC1ZaWx5VUtTWDZaSDFsbF9MU0xNWVJPMVk?oc=5",
+      "teams": [
+        "portugal",
+        "norway"
+      ],
+      "publishedAt": 1790485500000,
+      "image": null
     },
     {
       "competition": "metro",
@@ -616,138 +745,6 @@
         "denmark"
       ],
       "publishedAt": 1790453822000
-    },
-    {
-      "competition": "epl",
-      "title": "Manchester City versus the Premier League: After the day that shocked football, what next?",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOenUweFE1bXhjMU5XaHVURGZWdVlEdWFDV2tjMW1EZy12cS0zUjZKcWEyVWZ6UGhvT25oNm4zVE1YYVc1Y2FQMm1ZQ3FKZk9USnM3SDFIczVaX2tKQ1hvQWJkWDlRUVJKVzdFNk1paHFYRXFGVTJDWldqVV9iejlkT0hnOFpkZnczWlRVcUowNDdKemgwUHlTZVBqVjNUZw?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790482543000,
-      "image": null
-    },
-    {
-      "competition": "men",
-      "title": "Roy Keane and Ian Wright agree on Man City punishment after 'cheating' opposition",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/wright-keane-man-city-charges-34677608",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34677607.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
-      "summary": "An independent panel has found Manchester City guilty of 114 breaches of the Premier League's financial rules, and Roy Keane and Ian Wright have both called for the club to be severely punished",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790453727000
-    },
-    {
-      "competition": "ucl",
-      "title": "Bayern Munich News: End of the line at FC Bayern for Hiroki Itō?; Real Madrid eyeing Finn Jeltsch?; Florian Wirtz not on Bayern’s radar; and MORE!",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSGZ0TmZkSHp1NjVOVmVqX0JZRFFLTFgxUnBVSmpYN2VGNXIzT2tTVF9GZTdrZW5pY1pibER1cU5tNzhhcUlMYlNOQ3hXTVFucm5rWVJBWW5pMmpadkhCM003aGVHTDk4TTl3X3J6VWFJU3dzR19vZFg4cFJQTzhGbkVR?oc=5",
-      "teams": [
-        "bayern",
-        "realmadrid"
-      ],
-      "publishedAt": 1790481600000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Republic of Ireland to wear black armbands for Israel game",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b748/live/e2ec7610-b9b6-11f1-929f-f1f9c2e672cb.jpg",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790452740000
-    },
-    {
-      "competition": "echo",
-      "title": "Ian Wright makes Jurgen Klopp and Liverpool legacy point in Man City 'cheat' verdict",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-city-ian-wright-34677589",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34677599.ece/ALTERNATES/s615/0_Wright.jpg",
-      "summary": "Ian Wright has made a point about Jurgen Klopp and Liverpool when talking about the charges that have been brought against Man City",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790452446000
-    },
-    {
-      "competition": "mirror",
-      "title": "Roy Keane and Ian Wright urge Premier League to punish Man City after 'cheat' verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-keane-wright-37706094",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706095.ece/ALTERNATES/s615/0_keanoetc.jpg",
-      "summary": "Ian Wright and Roy Keane were on hand to give their opinion on Manchester City's Premier League charges guilty verdict during ITV's coverage of the Nations League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790451119000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland goalkeeper Gavin Bazunu breaks silence on decision to boycott Israel clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-gavin-bazunu-boycott-nations-league-b3056965.html",
-      "image": "https://static.independent.co.uk/2026/09/26/20/01M3F6QTYCAY7QRRX4QW4FCZDE.jpg?width=1200&auto=webp&trim=84%2C0%2C84%2C0",
-      "summary": "Bazunu has refused to play in the controversial Nations League in opposition of ‘the atrocities in the region’",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790451080000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Watch Anthony Gordon finish superb England counterattack",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSDh0VzZOMHVyNHNxQUgteDhLajdXcHV0czRlNENBdzFyeEVFQlZuOXVwRXN5NXJ0WXhWdENwZGExWWp3YUo1WlQta3F6RWtuaUJLaW9KczZuY1htbzRpd1NBSHp2ZXdsdVVSdVI4WUpyM3JkWHZQRnVjUGlFOHVLbkx0Y3UtMGxiYXM1cE13eW9oYXV0UlF3eVRCeVp0NktGZUctdDc3T0xBVGtrejg3NHlYRjI1TXlnb1BkN1JhdEF1MUhtOXB6Zi1EeHItMXdhZmFnbnpB?oc=5",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790479815000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland to play controversial Israel Nations League fixtures after player vote",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-player-vote-gaza-b3056884.html",
-      "image": "https://static.independent.co.uk/2026/09/26/15/01M3ETNFTQRGKF6HXH4TX0323P.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Ireland’s match against Israel on Sunday will go ahead as scheduled",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790450069000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Report Juventus want Kovacic, Raum and Tomori as free agents in 2027",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/report-juventus-want-kovacic-raum-tomori-free/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/us-cremonese-v-ac-milan-serie-a-1-414x276.jpg",
-      "summary": "Juventus are reportedly working on bargains for next season already, including Manchester City’s Mateo Kovacic,...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790449397000
-    },
-    {
-      "competition": "men",
-      "title": "'I've never won the title - or have I?' - Juan Mata asks Man United question after 115 charges",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/juan-mata-man-city-charges-34677536",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677538.ece/ALTERNATES/s615/0_Screenshot-2026-09-26-at-195018.png",
-      "summary": "Juan Mata has become the latest high-profile figure to react to Manchester City's financial charges verdict",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790449335000
     }
   ]
 }
