@@ -1,30 +1,78 @@
 {
-  "generatedAt": 1790542049062,
+  "generatedAt": 1790543880244,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1499,
-    "tagged": 800,
+    "raw": 1500,
+    "tagged": 808,
     "droppedKeyword": 21,
     "droppedOtherSport": 3,
-    "droppedFeed": 7,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
+      "competition": "mirror",
+      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790542688000
+    },
+    {
+      "competition": "metro",
+      "title": "Bruno Guimaraes issued warning over Arsenal career after &#8216;surprising&#8217; transfer",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/bruno-guimaraes-issued-warning-arsenal-career-surprising-transfer-29657544/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2295464266-5db0.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790542324000
+    },
+    {
       "competition": "guardian",
-      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
+      "title": "Republic of Ireland put controversy aside with fine first half to seal win against Israel",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/599_0_5968_4777/master/5968.jpg?width=140&quality=85&auto=format&fit=max&s=e782ff4565d185c276a131cd25496de9",
-      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe news from that Dutch win, Xavi’s first as coach, is that Cody Gakpo was forced off with an injury just 17…",
+      "link": "https://www.theguardian.com/football/2026/sep/27/israel-republic-ireland-nations-league-group-3-match-report",
+      "image": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/598_0_5970_4777/master/5970.jpg?width=140&quality=85&auto=format&fit=max&s=0acdbf198f0a3ddd476675545838ffcd",
+      "summary": "Football and politics are inseparable in the modern world, no matter how many people wish that weren’t true. But whether the beautiful game can ease the ills of our age is another matter. After a week in which the issue…",
       "teams": [
         "ireland",
-        "portugal",
-        "germany"
+        "israel"
       ],
-      "publishedAt": 1790541612000
+      "publishedAt": 1790542317000
+    },
+    {
+      "competition": "bundes",
+      "title": "Jürgen Klopp suffers first Germany defeat despite dominant performance against Greece",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/germany-greece-live-blog-nations-league-klopp-wirtz-karetsas-39357",
+      "image": "https://assets.bundesliga.com/contender/2026/8/GettyImages-2297438148.jpg?crop=0px%2C85px%2C3409px%2C1917px",
+      "summary": "Jürgen Klopp's first match in Germany as national team head coach ended in a narrow defeat to Greece in the UEFA Nations League in Augsburg despite a dominant performance.",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790541976000
+    },
+    {
+      "competition": "indy",
+      "title": "Ireland players make protest against Israel by lowering heads during national anthem",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-players-protest-national-anthem-nations-league-b3057227.html",
+      "image": "https://static.independent.co.uk/2026/09/27/21/download.-1.?width=1200&auto=webp&trim=393%2C1258%2C482%2C55",
+      "summary": "The highly-contentious match, which saw Irish goalkeeper Gavin Bazuno boycott the Nations League match, saw Heimir Hallgrímsson’s players wear black armbands with the game held on neutral territory in Debrecen, Hungary",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790541937000
     },
     {
       "competition": "metro",
@@ -49,18 +97,6 @@
         "mancity"
       ],
       "publishedAt": 1790540660000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706591.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790540094000
     },
     {
       "competition": "metro",
@@ -124,7 +160,7 @@
     },
     {
       "competition": "mirror",
-      "title": "Roy Keane takes swipe at Cole Palmer over 'bad habits' after England withdrawal",
+      "title": "Roy Keane savages Cole Palmer and accuses star of 'bad habits' after England withdrawal",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/roy-keane-cole-palmer-england-37707802",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37708021.ece/ALTERNATES/s615/1_Untitled-1.jpg",
@@ -307,19 +343,6 @@
         "napoli"
       ],
       "publishedAt": 1790532900000
-    },
-    {
-      "competition": "bundes",
-      "title": "Jürgen Klopp eyes first Germany victory against Greece",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/germany-greece-live-blog-nations-league-klopp-wirtz-karetsas-39357",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083723352h.jpg?crop=81px%2C163px%2C2761px%2C1554px",
-      "summary": "Jürgen Klopp and Germany are in Augsburg on Sunday as they take on Greece in their second Group A2 fixture in the UEFA Nations League (kick-off 8.45pm).",
-      "teams": [
-        "germany",
-        "greece"
-      ],
-      "publishedAt": 1790532349000
     },
     {
       "competition": "bbc",
@@ -721,30 +744,6 @@
         "portugal"
       ],
       "publishedAt": 1790520874000
-    },
-    {
-      "competition": "indy",
-      "title": "The surprise problem leaving Man City players staring into an abyss",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-charges-verdict-latest-haaland-guardiola-transfer-news-b3057107.html",
-      "image": "https://static.independent.co.uk/2026/09/27/14/2297131363..?width=1200&auto=webp&trim=64%2C0%2C64%2C0",
-      "summary": "With the likes of Erling Haaland, tied to the Etihad until 2034, committed to Man City in the long-term, Richard Jolly ponders the instability facing numerous players should a guilty verdict against the club over…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790520346000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Jonathan David scores again as Juventus fans fear another Douglas Luiz situation",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/jonathan-david-scores-again-juventus/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Jonathan-David-celebrate-414x279.jpg",
-      "summary": "Jonathan David is enjoying one of the best runs of his career, and it is...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790520300000
     }
   ]
 }
