@@ -1,17 +1,67 @@
 {
-  "generatedAt": 1790533690259,
+  "generatedAt": 1790538246994,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1499,
-    "tagged": 792,
-    "droppedKeyword": 20,
-    "droppedOtherSport": 2,
-    "droppedFeed": 5,
+    "raw": 1488,
+    "tagged": 799,
+    "droppedKeyword": 21,
+    "droppedOtherSport": 4,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City 115 charges LIVE: Appeal latest and potential punishments after guilty verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
+      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790538001000
+    },
+    {
+      "competition": "guardian",
+      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/b3073fafa50537ff899d45b7bc156bbf94f5c749/123_88_3276_2621/master/3276.jpg?width=140&quality=85&auto=format&fit=max&s=60ce9e144a3afdfaaa707a7d03750408",
+      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokThe news from that Dutch win, Xavi’s first as coach, is that Cody Gakpo was forced off with an injury just 17…",
+      "teams": [
+        "ireland",
+        "portugal",
+        "germany"
+      ],
+      "publishedAt": 1790537119000
+    },
+    {
+      "competition": "mirror",
+      "title": "Roy Keane takes swipe at Cole Palmer over 'bad habits' after England withdrawal",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/roy-keane-cole-palmer-england-37707802",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708021.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "Chelsea star Cole Palmer recently withdrew from the England squad because of a minor injury, sparking a debate over his future with the Three Lions under Thomas Tuchel",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790536820000
+    },
+    {
+      "competition": "metro",
+      "title": "Ireland squad refuse to shake hands with Israel players and snub national anthem",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/27/ireland-squad-refuse-shake-hands-israel-players-snub-national-anthem-29657601/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2296887146-be90.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790536591000
+    },
     {
       "competition": "mirror",
       "title": "Man City 115 charges LIVE: Updates as punishment to be decided and appeal latest",
@@ -22,7 +72,157 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790533283000
+      "publishedAt": 1790536364000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Milan and Inter battle for Cagliari starlet Mendy",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/milan-and-inter-battle-for-cagliari-mendy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Paul-Mendy-eyes-414x278.jpg",
+      "summary": "Inter have moved ahead of Milan in the race for Paul Mendy, with the Cagliari...",
+      "teams": [
+        "cagliari",
+        "acmilan"
+      ],
+      "publishedAt": 1790535600000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea miss out on transfer chance as £86m decision made after bid response",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/manu-kone-chelsea-transfer-news-34679719",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679718.ece/ALTERNATES/s615/0_Trkiye-v-France-UEFA-Nations-League-202627-Group-A1-MD1.jpg",
+      "summary": "Chelsea missed out on several players during the summer transfer window, including multiple late on deadline day, despite Enzo Fernandez joining Manchester City",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790535540000
+    },
+    {
+      "competition": "bbc",
+      "title": "No handshakes between Republic of Ireland and Israel",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6r7dy2yyx2xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6a0/live/2ebf9bd0-baa7-11f1-bc1f-3f186ca4140c.jpg",
+      "summary": "The Republic of Ireland and Israel players do not shake hands with each other before Sunday's controversial Uefa Nations League game in Hungary.",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790535515000
+    },
+    {
+      "competition": "chronicle",
+      "title": "The curious viral case of Seydou Doumbia from FIFA legend to Newcastle United flop",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/seydou-doumbia-newcastle-transfer-fifa-34653052",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article15880043.ece/ALTERNATES/s615/0_IBP_NEC_130216football_52JPG.jpg",
+      "summary": "It did not work out for Seydou Doumbia on Tyneside as he failed to bring his goal-den touch to St James' Park",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790535360000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ireland players snub Israel handshakes and take action during national anthem before match",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ireland-israel-uefa-nations-league-37707993",
+      "image": "https://i2-prod.mirror.co.uk//article37707989.ece/ALTERNATES/s615/1_Irelandplayers.jpg",
+      "summary": "The Republic of Ireland faced Israel in the Nations League on Sunday evening, making a number of demonstrations ahead of kick-off due to the ongoing conflict in Gaza",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790535313000
+    },
+    {
+      "competition": "bbc",
+      "title": "Swedish duo help Liverpool to derby win over Everton",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c65ywngpw59yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8100/live/7820de40-ba86-11f1-bd21-bdf910f2cec6.jpg",
+      "summary": "Swedish duo Beata Olsson and Cornelia Kapocs help Liverpool end a run of five consecutive home defeats in Merseyside derbies with a deserved win over Everton.",
+      "teams": [
+        "liverpool",
+        "everton"
+      ],
+      "publishedAt": 1790534953000
+    },
+    {
+      "competition": "indy",
+      "title": "Miserable Wales left bottom of Nations League group after defeat to dominant Denmark",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/denmark-wales-result-nations-league-isaksen-b3057202.html",
+      "image": "https://static.independent.co.uk/2026/09/27/19/860d10b0e4154aac1f811d31d0bac44aY29udGVudHNlYXJjaGFwaSwxNzkwNjE3NTY1-2.85962757.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Craig Bellamy’s side went down 2-0 at the Parken Stadium and remain winless in 2026, with the daunting task of Erling Haaland’s Norway next",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790534876000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Goncalves on Fiorentina move: &#8216;I said yes to them in an instant&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/goncalves-on-fiorentina-move/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/acf-fiorentina-v-pisa-sc-coppa-i-414x276.jpg",
+      "summary": "Pedro Goncalves has revealed how quickly he agreed to join Fiorentina, and that Saudi money...",
+      "teams": [
+        "fiorentina"
+      ],
+      "publishedAt": 1790534700000
+    },
+    {
+      "competition": "guardian",
+      "title": "Denmark dominate Wales in Nations League as Isaksen adds finishing touch",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/27/denmark-wales-nations-league-group-a4-match-report",
+      "image": "https://i.guim.co.uk/img/media/01b7e84cba78e5efc0db110c31d443008bcb501e/222_0_1915_1533/master/1915.jpg?width=140&quality=85&auto=format&fit=max&s=e2bccf998b0401e6b3bd43d9ca86d4c5",
+      "summary": "Wales wilted in Copenhagen as a 2-0 defeat to Denmark left them bottom of their Nations League group with no points or goals from their first two games.After a first half in which Wales were very much second-best and…",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790534680000
+    },
+    {
+      "competition": "men",
+      "title": "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-liam-gallagher-34679692",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34675668.ece/ALTERNATES/s615/0_Oasis-Dont-Look-Back-In-Anger-UK-Premiere-Arrivals.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules on Friday, and Liam Gallagher claims he knows what punishment the club will face",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790534534000
+    },
+    {
+      "competition": "indy",
+      "title": "Alyssa Thompson strikes as Chelsea see off Arsenal in derby",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/chelsea-arsenal-result-wsl-alyssa-thompson-b3057200.html",
+      "image": "https://static.independent.co.uk/2026/09/27/19/01M3HTDA56VQ7EEWG1AP4FQSHG.jpg?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
+      "summary": "The Blues edged the Gunners and sit joint-second with Tottenham, who thrashed Aston Villa 4-0 earlier, both two points behind leaders Man City",
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790533827000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Totti on 2006 World Cup win: &#8216;If I hadn&#8217;t played, Italy wouldn&#8217;t have won it&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/totti-on-2006-world-cup-win/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/05/genoa-cfc-v-as-roma-serie-a-tim-414x276.jpg",
+      "summary": "Francesco Totti believes the 2006 World Cup is what lifted him beyond being a purely...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790533800000
     },
     {
       "competition": "fitalia",
@@ -35,20 +235,6 @@
         "napoli"
       ],
       "publishedAt": 1790532900000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel v Republic of Ireland, Norway v Portugal, Germany v Greece: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-norway-portugal-germany-greece-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/27af945bd8f5ec9cd5f9772a5cd4414a7eda1094/1600_0_6483_5188/master/6483.jpg?width=140&quality=85&auto=format&fit=max&s=d35108e3cb3870a192f12e8706211b9e",
-      "summary": "Updates from 7.45pm BST kick-offs in Nations LeagueLive scores | Email John | And follow us over on TikTokGermany v Greece starting lineups:Germany: Nübel - Vagnoman, Tah, Bisseck, Brown - Kimmich ©, Nmecha, Conté -…",
-      "teams": [
-        "ireland",
-        "portugal",
-        "germany"
-      ],
-      "publishedAt": 1790532652000
     },
     {
       "competition": "bundes",
@@ -113,11 +299,11 @@
     },
     {
       "competition": "mirror",
-      "title": "James Trafford sends clear message to Jordan Pickford in battle to be England's undisputed No 1",
+      "title": "Jude Bellingham only knows how to play one way - he and England must embrace it",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-james-trafford-jordan-pickford-37707592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707599.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "James Trafford was a surprise inclusion for England's thrilling shootout with Spain at Wembley and the Leeds keeper has his sights firmly set on Jordan Pickford's shirt",
+      "link": "https://www.mirror.co.uk/sport/football/news/jude-bellingham-only-knows-how-37706885",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707018.ece/ALTERNATES/s615/0_GettyImages-2297306122.jpg",
+      "summary": "Jude Bellingham remains the heartbeat of an England side that must embrace their own qualities to go toe-to-toe with the world's best regularly",
       "teams": [
         "england"
       ],
@@ -125,11 +311,11 @@
     },
     {
       "competition": "mirror",
-      "title": "Jude Bellingham only knows how to play one way - he and England must embrace it",
+      "title": "James Trafford sends clear message to Jordan Pickford in battle to be England's undisputed No 1",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jude-bellingham-only-knows-how-37706885",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707018.ece/ALTERNATES/s615/0_GettyImages-2297306122.jpg",
-      "summary": "Jude Bellingham remains the heartbeat of an England side that must embrace their own qualities to go toe-to-toe with the world's best regularly",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-james-trafford-jordan-pickford-37707592",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707599.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "James Trafford was a surprise inclusion for England's thrilling shootout with Spain at Wembley and the Leeds keeper has his sights firmly set on Jordan Pickford's shirt",
       "teams": [
         "england"
       ],
@@ -294,6 +480,19 @@
     },
     {
       "competition": "mirror",
+      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
+      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790524800000
+    },
+    {
+      "competition": "mirror",
       "title": "Why Ireland players are wearing black armbands against Israel after player vote",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-black-armbands-israel-37706065",
@@ -326,19 +525,6 @@
       "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
       "teams": [
         "israel"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
-      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
-      "teams": [
-        "germany",
-        "greece"
       ],
       "publishedAt": 1790524800000
     },
@@ -453,18 +639,6 @@
     },
     {
       "competition": "men",
-      "title": "Man City 115 charges LIVE: Appeal updates, potential punishments and Enzo Maresca reaction",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-live-34677861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34677873.ece/ALTERNATES/s615/0_MAIN_City1-copy.jpg",
-      "summary": "Manchester City are said to have been found guilty of 114 breaches of Premier League financial rules after a drawn-out saga",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790521188000
-    },
-    {
-      "competition": "men",
       "title": "Portugal issue new Bruno Fernandes injury statement as Man United handed update",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-injury-man-utd-34679093",
@@ -574,180 +748,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790516875000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Zoff: &#8216;Mancini&#8217;s advantage is Italy cannot get any worse&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/zoff-mancini-italy-cannot-get-any-worse/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/dino-zoff-1-414x276.jpg",
-      "summary": "Dino Zoff was not encouraged by what he saw at the Stadio Olimpico on Friday...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790516281000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Tonali among under-fire Italy stars as Mancini&#8217;s message to team revealed",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/tonali-4-under-fire-italy-mancini-message-team/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Nicolo-Barella-Diego-Moreira-414x276.jpg",
-      "summary": "Roberto Mancini reportedly told Italy players to accept and understand fans boos after a 2-0...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790514791000
-    },
-    {
-      "competition": "men",
-      "title": "Man City's 115 charges hope as independent panel 'could come under serious scrutiny'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-citys-115-charges-hope-34678704",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678824.ece/ALTERNATES/s615/0_JS315909739.jpg",
-      "summary": "Manchester City maintaining their innocence after reports the club have been found guilty of alleged financial breaches",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790514574000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Bayern Munich insider tips Aston Villa transfer return after summer enquiry",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-transfers-kim-minjae-34678883",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34421912.ece/ALTERNATES/s615/0_FC-Bayern-Mnchen-v-Aston-Villa-Pre-Season-Friendly.jpg",
-      "summary": "Aston Villa were linked with the defender over the summer and they have been backed not to let the matter drop",
-      "teams": [
-        "bayern",
-        "astonvilla"
-      ],
-      "publishedAt": 1790514050000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Denmark vs Wales for free – TV channel and live stream",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/denmark-wales-tv-channel-stream-37703370",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37704931.ece/ALTERNATES/s615/0_Portugal-v-Wales-UEFA-Nations-League-League-A-Jose-Alvalade-Stadiumjpgn-b.jpg",
-      "summary": "Denmark and Wales meet in Copenhagen, looking for their first points in this season's Nations League",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1790514000000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Serbia vs Netherlands – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/serbia-netherlands-channel-stream-time-37703300",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37703378.ece/ALTERNATES/s615/1_Nederland-v-Duitsland-UEFA-Nations-League-24-Sep-2026.jpg",
-      "summary": "The Netherlands are in action again on Sunday in a tricky test against Serbia",
-      "teams": [
-        "netherlands",
-        "serbia"
-      ],
-      "publishedAt": 1790514000000
-    },
-    {
-      "competition": "bbc",
-      "title": "Swiss hail 'great job' without Xhaka & Embolo before Scotland trip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgy07zr7plo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6061/live/f61b28e0-ba6e-11f1-a109-c7409015a263.jpg",
-      "summary": "Switzerland feel they did \"a great job\" of compensating for the loss of Granit Xhaka and Breel Embolo as they head to face Scotland on the back of an impressive 3-0 win in North Macedonia.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790513039000
-    },
-    {
-      "competition": "echo",
-      "title": "Alexander Isak injury clarified by Graham Potter after Liverpool star suffers 'frustrating' setback",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-injury-clarified-graham-34678767",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678760.ece/ALTERNATES/s615/0_Potter-and-Isak.jpg",
-      "summary": "Sweden head coach Graham Potter has offered an injury update on Liverpool striker Alexander Isak",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790512162000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel has failed his main England task and Spain defeat felt inevitable",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-failed-main-england-37707204",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707206.ece/ALTERNATES/s615/0_GettyImages-2297357088.jpg",
-      "summary": "OPINION: England put up a good fight against world champions Spain, but Thomas Tuchel's remit was for the Three Lions to regularly beat the best...he hasn't done that",
-      "teams": [
-        "england",
-        "spain"
-      ],
-      "publishedAt": 1790512139000
-    },
-    {
-      "competition": "bbc",
-      "title": "Bellamy scores 1998 winner for Wales against Denmark",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9vgyr4k2k0xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e0a/live/23ffe310-ba6d-11f1-a109-c7409015a263.jpg",
-      "summary": "Watch BBC Sport Wales archive highlights as Craig Bellamy scores Wales' 1998 winner against Denmark.",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1790512116000
-    },
-    {
-      "competition": "men",
-      "title": "Alejandro Garnacho transfer thrown into major doubt as ex-Man United star's struggles continue",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/alejandro-garnacho-transfer-villa-chelsea-34678771",
-      "image": "https://i2-prod.football.london/incoming/article34678779.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-Premier-League-MKM-Stadium.jpg",
-      "summary": "The former Manchester United winger has struggled to make an impact since his £40 million move from Old Trafford",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790511903000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Tottenham 'cheated' by Manchester City as new 115 charges punishment verdict given",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/harry-redknapp-tottenham-man-city-34678686",
-      "image": "https://i2-prod.football.london/incoming/article34678757.ece/ALTERNATES/s615/0_Tottenham-Man-City.jpg",
-      "summary": "Tottenham could take action against Manchester City over the guilty 114 financial charges verdict with Harry Redknapp making his feelings clear",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790511551000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Roma and Italy legend Totti celebrates his 50th birthday in Las Vegas",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/roma-italy-totti-50th-birthday-las-vegas/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/09/as-roma-francesco-totti-jubilates-2005-inter-414x272.jpg",
-      "summary": "Italy and Roma legend Francesco Totti turns 50 today and celebrates in Las Vegas with...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790510498000
-    },
-    {
-      "competition": "metro",
-      "title": "Alexander Isak returns to Liverpool due to injury picked up on Sweden duty",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/27/alexander-isak-returns-liverpool-due-injury-picked-sweden-duty-29656532/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314040019-d4c9.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "liverpool",
-        "sweden"
-      ],
-      "publishedAt": 1790510271000
     }
   ]
 }
