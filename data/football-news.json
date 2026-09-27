@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790473110815,
+  "generatedAt": 1790473948380,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1506,
-    "tagged": 805,
-    "droppedKeyword": 31,
+    "raw": 1501,
+    "tagged": 804,
+    "droppedKeyword": 30,
     "droppedOtherSport": 3,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 59
+    "withImage": 57
   },
   "items": [
     {
@@ -556,6 +556,18 @@
       "publishedAt": 1790444884000
     },
     {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Haaland release clause truth emerges as Chelsea fight Barcelona for Bastoni",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX1B4MTNxck83ejBlcTFZWXpucjJ2Yjd4blpaOHVwSkhlN1VUWDB5NGZ0TmZvNm91WTc5d0dZVE44VVM3ZllLbzdUUWZILUgwTjRVdGQ0aDkyX2hfTmQ1VHFmRjh3RGtVUEVlZ2hnbXhzMmhzcTJnQ09qclllMUpRdWhQbmZoSldGWG8wRTZKOFlIY3JIaU1fUk01YmxiNWdfY2dtUThmaFpWcDFRTWZGRHQyQTdfSENjZF9DdkYxaVB1bkJsRlZfUi1qZFJsXzlBekZOMVhvSU0?oc=5",
+      "teams": [
+        "barcelona",
+        "chelsea"
+      ],
+      "publishedAt": 1790473607000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Lazio worry as Gudmundsson off injured during Iceland match",
       "publisher": "Football Italia",
@@ -579,6 +591,18 @@
         "arsenal"
       ],
       "publishedAt": 1790443861000
+    },
+    {
+      "competition": "unl-a",
+      "title": "UEFA Nations League Matchday Preview: Germany vs. Greece",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmh0UDIzNTdKSWlhSFBVQ0F6Wml2ZWExVG5IRm5JRXJ2Ml92VG1QMlNieGd5RDFrNUw5QndEbDlaQ1I5YnRTSHlsUkZRcHU5RlBucVpGMUVicEVnZ09fck1TWEU3a3VZY1BxWnZqb1ZGOVltQzR3LXNJamNQbk1JLTFtS00xR2ZtcnZxMHZtaHFMRk5XSTY3eTZtUFdibk4zQ2dENm5xdkZoazBlbFdqUUs0bTMwOG9rbUV0OUU2N1BvU19lMWVN?oc=5",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790472600000,
+      "image": null
     },
     {
       "competition": "bbc",
@@ -729,31 +753,6 @@
         "newcastle"
       ],
       "publishedAt": 1790438400000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Van Bommel on Belgium strength and Italy weakness after 2-0 result",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/van-bommel-on-belgium-strength-italy-weakness/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Mika-Godts-goal-back-414x276.jpg",
-      "summary": "Mark van Bommel’s speech to the Belgium team after their 2-0 Nations League victory in...",
-      "teams": [
-        "belgium",
-        "italy"
-      ],
-      "publishedAt": 1790437485000
-    },
-    {
-      "competition": "men",
-      "title": "Erling Haaland update given after Man City striker U-turn as 115 charges verdict public",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/erling-haaland-man-city-charges-34676786",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676794.ece/ALTERNATES/s615/0_Manchester-United-v-Manchester-City-Premier-League-202627.jpg",
-      "summary": "Erling Haaland was away on international duty when the news of Manchester City's guilty verdict pertaining to their 115 Premier League charges landed",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790437285000
     }
   ]
 }
