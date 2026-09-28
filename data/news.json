@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-09-27T23:56:40.153Z",
+  "updatedAt": "2026-09-28T05:16:46.821Z",
   "items": [
+    {
+      "ticker": "V",
+      "title": "Visa (V) is Turning a Legal Burden into an EPS Tailwind. Can it Last?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-turning-legal-burden-041356515.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/7db6ce89b69245edea63fad8430aaf79.jpg",
+      "publishedAt": 1790568836000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "‘Big Short’ Fame Michael Burry Says Trump ‘Cannot Afford’ To Let AI Boom Fall",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-short-fame-michael-burry-035902084.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/7f40c29d84fde6640491de713ab1e414.jpg",
+      "publishedAt": 1790567942000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Corporation (MSFT) Wants AI to Do More. Can Customers Keep Up?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-corporation-msft-wants-ai-035156310.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/652806cf1ea1389eb1245ed67846307e.jpg",
+      "publishedAt": 1790567516000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks to Close Select North America Coffeehouses, Cuts Store Outlook",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-close-select-north-america-033006837.html",
+      "image": "https://media.zenfs.com/en/benzinga_79/25a2b8094b6b4d937d8a320f7f7ce3e7.jpg",
+      "publishedAt": 1790566206000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Dow Jones Futures Fall, Oil Prices Rise Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures-fall%2C-oil.html",
+      "image": "https://media.zenfs.com/en/ibd.com/82b3f81c27f1c7a4099199dae86f4c38.jpg",
+      "publishedAt": 1790565002000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "META, GOOGL, NVDA, BB, SPCX: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-googl-nvda-bb-spcx-013812151.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/ddb5c213ba18298388c53ec25c1972c5.jpg",
+      "publishedAt": 1790559492000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Did your favorite local Starbucks just close? These 36 SoCal locations are likely shuttered",
+      "publisher": "LA Times",
+      "link": "https://finance.yahoo.com/small-business/articles/did-favorite-local-starbucks-just-012735583.html",
+      "image": "https://media.zenfs.com/en/la_times_articles_853/d3b87a1617891304dc58218ae5feecef.jpg",
+      "publishedAt": 1790558855000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks rival cafe chain has closed 130 locations",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/small-business/articles/popular-drink-chain-closes-more-182016941.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/dce84165e51c10c5aca73632f63fad9a.jpg",
+      "publishedAt": 1790557593000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Seattle tower across from Amazon sold for $12.5M after a $97M deal in 2019. Where smart real estate money is going now",
+      "publisher": "Moneywise",
+      "link": "https://finance.yahoo.com/real-estate/articles/seattle-tower-across-amazon-sold-010000009.html",
+      "image": "https://media.zenfs.com/en/moneywise_ecomm_711/a3da7a312643557cefb221336f784781.jpg",
+      "publishedAt": 1790557200000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon (AMZN) Calls for AI Safeguards Without a Slowdown. Can AWS Benefit?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-calls-ai-safeguards-004125272.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/226ed9ed0936942adb97f3d56073e411.jpg",
+      "publishedAt": 1790556085000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) Reportedly Plans a Vast Data Center Expansion. Can Azure Justify the Cost?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-reportedly-plans-vast-001144437.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/ae3cb2a93ad8e5ddf6f94148e71f74b9.jpg",
+      "publishedAt": 1790554304000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon (AMZN) Pauses a Cargo Carrier after a Fatal Crash. Can its Air Network Absorb the Disruption?",
@@ -34,14 +122,6 @@
       "publishedAt": 1790552106000
     },
     {
-      "ticker": "MSFT",
-      "title": "Dow Jones Futures Fall, Oil Prices Rise Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures-fall%2C-oil.html",
-      "image": "https://media.zenfs.com/en/ibd.com/82b3f81c27f1c7a4099199dae86f4c38.jpg",
-      "publishedAt": 1790552069000
-    },
-    {
       "ticker": "GILD",
       "title": "Gilead vs. Medtronic: Which Healthcare Stock Offers the Better Mix of Growth and Income?",
       "publisher": "Insider Monkey",
@@ -64,86 +144,6 @@
       "link": "https://finance.yahoo.com/healthcare/articles/gilead-johnson-johnson-faster-growth-231245830.html",
       "image": "https://media.zenfs.com/en/insidermonkey.com/11c0338c5011aa20a9d44b77386b4a12.jpg",
       "publishedAt": 1790550765000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead’s HIV Concentration or Pfizer’s Patent Cliff: Which Risk is Easier to Own?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/gilead-hiv-concentration-pfizer-patent-230917079.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/aef4b35e5ea946bf7f4ed347e5c4f487.jpg",
-      "publishedAt": 1790550557000
-    },
-    {
-      "ticker": "KO",
-      "title": "Here's How Many Shares of Coca-Cola You'd Need for $10,000 in Yearly Dividends",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-many-shares-coca-cola-222400510.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/a828396fa810c170608771fed96e63db.png",
-      "publishedAt": 1790547840000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Is Best Buy (BBY) A Bargain On Its Debt Filing And New Partnerships?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-bby-bargain-debt-221025864.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/7c89620ebd2585562eb200d9bf85d839.jpg",
-      "publishedAt": 1790547025000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/technology/ai/articles/michael-burry-just-put-date-214700795.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/4e2b2d450a4a4dcfdbc42cf2b543464c.jpg",
-      "publishedAt": 1790545620000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Is Gemini 4 the Catalyst Alphabet (GOOGL) Needs to Win the AI Race?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/gemini-4-catalyst-alphabet-googl-213837552.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/c0d6b51ff44a146cf8e9636d417b3bdb.jpg",
-      "publishedAt": 1790545117000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "I'd Buy Amazon Stock While It Sits 12% Below Its Record",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/id-buy-amazon-stock-while-213401015.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/b598fa54db1d84e4d7cb59d6590cdab7.png",
-      "publishedAt": 1790544841000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Is Synopsys (SNPS) a Breakout Play as Headwinds Subside and BNP Paribas Upgrades?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-breakout-play-headwinds-212254244.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/42b1157bc2ef20944ac97936cfcb8ad2.jpg",
-      "publishedAt": 1790544174000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AI Could Give AbbVie (ABBV) a New Route to Long-Term Pipeline Growth",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/healthcare/articles/ai-could-abbvie-abbv-route-202851730.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/c554ad8e2af773e2e2a8438bfe2291ee.jpg",
-      "publishedAt": 1790540931000
-    },
-    {
-      "ticker": "MA",
-      "title": "Apple and Nvidia Are the Two Largest Companies in the World. Which is the Better Stock to Buy?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-nvidia-two-largest-companies-200500400.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/3b411e04455c766c8fd80b1a6d589032.jpg",
-      "publishedAt": 1790539500000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Puts GitHub’s Coding Engine Inside the App Office Workers Already Use",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-puts-github-coding-193953624.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/23914345699024b9148da17e9290f04c.jpg",
-      "publishedAt": 1790537993000
     }
   ]
 }
