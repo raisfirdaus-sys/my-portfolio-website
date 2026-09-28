@@ -1,17 +1,77 @@
 {
-  "generatedAt": 1790614507675,
+  "generatedAt": 1790617557578,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1511,
-    "tagged": 804,
-    "droppedKeyword": 20,
+    "raw": 1497,
+    "tagged": 790,
+    "droppedKeyword": 19,
     "droppedOtherSport": 1,
-    "droppedFeed": 7,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Nations League official line-ups: Turkiye vs. Italy",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/nations-league-official-line-ups-turkiye-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Roberto-Mancini-Leonardo-Bonucci-414x276.jpg",
+      "summary": "Italy are transformed by eight changes including Matteo Ruggeri and Michael Kayode debuts, plus the...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790617215000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Punishment latest as 115 charges verdict decided",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708536.ece/ALTERNATES/s615/0_Manchester-City-v-Huddersfield-Town-Emirates-FA-Cup-Third-Round.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process as their Premier League rivals continue to consider action",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790616201000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United's £23m transfer masterstroke, but big spending yet to pay off",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-23m-transfer-masterstroke-34682865",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34683697.ece/ALTERNATES/s615/0_SS2.jpg",
+      "summary": "We asked you to rank Newcastle United's summer signings based on their first few months at the club",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790614800000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Nobody would bet a penny on Italy in 2018, we won without big names&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-nobody-would-bet-penny-on-italy-2018/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-training-session-414x276.jpg",
+      "summary": "Roberto Mancini insists ‘nobody would’ve bet a penny’ on Italy winning the Euros when he...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790614622000
+    },
+    {
+      "competition": "mirror",
+      "title": "Czech Republic chasing historic England win repeat with manager out to avenge grudge",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/czech-republic-england-preview-news-37711849",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37711864.ece/ALTERNATES/s615/0_GettyImages-2220952080.jpg",
+      "summary": "Czech Republic's new manager, Santi Denia, has previously tasted defeat twice against England while leading Spain's youth teams - but he has a blueprint to follow this time",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790614620000
+    },
     {
       "competition": "mirror",
       "title": "How to watch Northern Ireland vs Hungary for free – TV channel, streaming, kick-off time",
@@ -24,18 +84,6 @@
         "hungary"
       ],
       "publishedAt": 1790613900000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Punishment latest as 115 charges verdict decided",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37708536.ece/ALTERNATES/s615/0_Manchester-City-v-Huddersfield-Town-Emirates-FA-Cup-Third-Round.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process as their Premier League rivals continue to consider action",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790613789000
     },
     {
       "competition": "mirror",
@@ -87,6 +135,18 @@
       "publishedAt": 1790612331000
     },
     {
+      "competition": "guardian",
+      "title": "Football Daily | Manchester City come out swinging haymakers after charges galore",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/28/manchester-city-charges-football-daily",
+      "image": "https://i.guim.co.uk/img/media/9d67e67ea9541ba2a901cc3970a4bbf7c321abd7/1055_880_3311_2650/master/3311.jpg?width=140&quality=85&auto=format&fit=max&s=b88b5a04d9a97f0c7970240fd0f33c55",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now!Football Daily wasn’t alone in spending the weekend wondering if we might have a legal case against Manchester City, while pondering what fiscal value we’d put on the…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790611948000
+    },
+    {
       "competition": "mirror",
       "title": "Man City charges: Premier League to recommend punishment to panel in 'next few weeks'",
       "publisher": "Mirror Football",
@@ -112,6 +172,18 @@
       "publishedAt": 1790611446000
     },
     {
+      "competition": "men",
+      "title": "Premier League owner speaks out about Man City charges - 'this is financial doping'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-owner-speaks-out-34683933",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34683924.ece/ALTERNATES/s615/0_GettyImages-2290197426.jpg",
+      "summary": "Hull City owner Acun Ilıcalı has offered his verdict on Man City's 115 case",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790611200000
+    },
+    {
       "competition": "mirror",
       "title": "How to watch Belgium vs France – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
@@ -121,18 +193,6 @@
       "teams": [
         "belgium",
         "france"
-      ],
-      "publishedAt": 1790611200000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League owner speaks out about Man City charges - 'this is financial doping'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-owner-speaks-out-34683933",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34683924.ece/ALTERNATES/s615/0_GettyImages-2290197426.jpg",
-      "summary": "Hull City owner Acun Ilıcalı has offered his verdict on Man City's 115 case",
-      "teams": [
-        "mancity"
       ],
       "publishedAt": 1790611200000
     },
@@ -179,7 +239,7 @@
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34684714",
       "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34684692.ece/ALTERNATES/s615/0_GettyImages-2278255620.jpg",
-      "summary": "Manchester City face a sanctions hearing in the coming weeks to decide any punishments imposed for the Premier League charges that they are expected to be found guilty of",
+      "summary": "Manchester City face a sanctions hearing in the coming weeks to decide punishments imposed for the Premier League charges they are expected to be found guilty of",
       "teams": [
         "mancity"
       ],
@@ -221,6 +281,18 @@
         "bologna"
       ],
       "publishedAt": 1790609258000
+    },
+    {
+      "competition": "bundes",
+      "title": "Hennes Behrens: Who is Augsburg's marathon man who caught Jürgen Klopp's eye?",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/who-is-hennes-behrens-germany-klopp-augsburg-robertson-39377",
+      "image": "https://assets.bundesliga.com/contender/2026/8/GettyImages-2297454478.jpg?crop=0px%2C312px%2C6000px%2C3375px",
+      "summary": "After helping Augsburg to a record start to the 2026/27 Bundesliga campaign, left-back Hennes Behrens has earned his first senior Germany cap under Jürgen Klopp. But what else is there to know about the 21-year-old…",
+      "teams": [
+        "augsburg"
+      ],
+      "publishedAt": 1790608308000
     },
     {
       "competition": "echo",
@@ -681,80 +753,6 @@
         "newcastle"
       ],
       "publishedAt": 1790596800000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City have to be relegated - I'd want them stripped of titles if I was in Liverpool squad",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-relegated-id-want-34682152",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34682576.ece/ALTERNATES/s615/0_premium-canvas-1790596090744.png",
-      "summary": "OPINION: John Aldridge reacts to Man City being found guilty of 114 charges for financial breaches and what it could mean for Liverpool in the first half of his weekly column",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790596378000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea's transfer stance on Estevao Willian revealed after Barcelona links emerge",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/chelseas-transfer-stance-estevao-willian-34682404",
-      "image": "https://i2-prod.football.london/incoming/article34681972.ece/ALTERNATES/s615/0_GettyImages-2292344542.jpg",
-      "summary": "Estevao Willian has been linked with a move away from Stamford Bridge, with the Chelsea winger yet to start a match in the Premier League under new manager Xabi Alonso",
-      "teams": [
-        "barcelona",
-        "chelsea"
-      ],
-      "publishedAt": 1790596245000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ex-Premier League star issues furious response to Wayne Rooney's Man City conspiracy theory",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-rooney-cisse-charges-37710146",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37710124.ece/ALTERNATES/s615/0_GettyImages-2273696466-1.jpg",
-      "summary": "Manchester City’s 2012 Premier League title win has come under the microscope again in the aftermath of the club being found guilty of 114 charges with Wayne Rooney at the heart of a conspiracy theory",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790595889000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Official: Lazio sell Patric to Al-Ettifaq",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/official-lazio-sell-patric-to-al-ettifaq-11/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/Gil-Patric-414x276.jpg",
-      "summary": "Lazio defender Patric has officially joined UAE side Al-Ettifaq, the Biancocelesti said. Serie A side...",
-      "teams": [
-        "lazio"
-      ],
-      "publishedAt": 1790595605000
-    },
-    {
-      "competition": "mirror",
-      "title": "Erling Haaland gives manager what he wants after Man City 115 charges verdict made public",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-norway-man-city-37709613",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37709612.ece/ALTERNATES/s615/0_Norway-v-Portugal-UEFA-Nations-League-202627-Group-A4-MD2.jpg",
-      "summary": "Norway boss Stale Solbakken has explained the decision to withdraw Erling Haaland from media duties",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790595335000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges timeline amid Premier League wait, appeal, sanctions and more legal action",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-timeline-34681397",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34681833.ece/ALTERNATES/s615/0_GettyImages-2297281359.jpg",
-      "summary": "An official verdict has yet to arrive in the Premier League's case against Manchester City but even when it does that won't be the end of the process",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790595168000
     }
   ]
 }
