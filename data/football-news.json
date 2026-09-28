@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790572665194,
+  "generatedAt": 1790573396719,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1494,
-    "tagged": 802,
+    "raw": 1492,
+    "tagged": 804,
     "droppedKeyword": 21,
     "droppedOtherSport": 2,
-    "droppedFeed": 13,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 48
+    "withImage": 49
   },
   "items": [
+    {
+      "competition": "chronicle",
+      "title": "Nick Pope to assesses situation in January after Newcastle United transfer decision made",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/nick-pope-assesses-situation-january-34679520",
+      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34588293.ece/ALTERNATES/s615/0_GettyImages-2294195681.jpg",
+      "summary": "Nick Pope is out of contract in the summer and can leave Newcastle",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790572440000
+    },
     {
       "competition": "mirror",
       "title": "Real Madrid make Erling Haaland transfer decision after Man City learn 'likely' punishment",
@@ -515,17 +527,6 @@
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "Readers have their say on Hull City start with key man verdict delivered",
-      "publisher": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY08taHhmaWplWC1qX09qdjVEZEZTNTNoS1ItNjBRSVVwenlOTmtEdW5TU3dMM04xZXhWMFoyMy1nbjVQOFEzLVQyMUZETVVONVR6ZU1qU2dnOExSTVdVMTRRUk02X1NhZFdnQk9aQzJ6TWgyZjlHaVdsLWZ6MzNxVQ?oc=5",
-      "teams": [
-        "hullcity"
-      ],
-      "publishedAt": 1790568000000,
-      "image": null
-    },
-    {
       "competition": "mirror",
       "title": "Ireland star Jack Moylan in pointed celebration after scoring vs Israel in Nations League",
       "publisher": "Mirror Football",
@@ -686,6 +687,18 @@
       "publishedAt": 1790534700000
     },
     {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Denmark 2-0 Wales",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUDZBcDNWLTEyUktiMGNKd1BxM0lDYUdrZFQzWHJ6dnYya0ptZm5TakRmYzhSdzN6elJFVmVXMTNHRG1peWJYaUxyLWJnbUpuMXd0V3VRT1VtZ0NwM2VoeThlbjhoUkFONFNNeWFYUjFraWxQM3FFSXQwb2lfYlFhY1BOSndXQUNrZVFtX1BhbGs0ckQ0VjIwVVFNVDRDbk03QnAwcWVwUndrM3ZlSkV5OF84TXA1bXNlZHVnR0RmMHRVVWg0bnExNzVabW0yaWt2eTBn?oc=5",
+      "teams": [
+        "denmark",
+        "wales"
+      ],
+      "publishedAt": 1790563414000,
+      "image": null
+    },
+    {
       "competition": "men",
       "title": "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
       "publisher": "Manchester Evening News",
@@ -700,7 +713,7 @@
     {
       "competition": "unl-a",
       "title": "Nations League highlights: Serbia 1-2 Netherlands",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNHR6OHN2WURBQnlBV3owMENfT01ndE9DZmgtUFRyejRPSG1JTmpleDJkcWRNMzF0U3RtUzNvRHdIdnZYS1M3RkhHVzB6SlBBLVBTMUQzZTl6djZjOTZjMk5IY3Ywa28yTDRtd0lWTTNHQmhrZzlkMlNiUDlyUWxVZG14cU9iXzdYU2daVXRaLVhnSTllY0ZiWmJhRjFOaUVPSGp6WFA5UnN3Ml9xVTYxeXBGS3l4aE5Mdk5sZTN6MktYbkRrd0Q3Y3p6SDd1d28tOHk1VlhkcTBRQQ?oc=5",
       "teams": [
         "netherlands",
@@ -724,25 +737,13 @@
     {
       "competition": "unl-a",
       "title": "Watch Dimitris Kourbelis' Greece winner against Germany",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVndnTURzVEVLeS03bDZmcV80WWhjRWVvU0FXZzJRN2N1VDFTMDdCRHlqZ0RBa1N3MzhjeTYwb2NKWVhDSU9LaGhIcU9uMVVKWFlaM1hSeHBZd193QVQ5Z2I5SjYtQVNNMzV2RFgxWTV4TjVobUZVcDk0OTQzWFk4SXA1a3BSMWFzUG5LRHFrT1dscGNWMEVBSlBybFdZbTZKYTJKNmc1M2dKNDgzMGhLWE1RNlota3JwU3ZUb1FQaUNlTUtSMlZiSURZNWdNUlpFelBN?oc=5",
       "teams": [
         "germany",
         "greece"
       ],
       "publishedAt": 1790562377000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Germany 0-1 Greece",
-      "publisher": "uefa.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkx5TkR0ek5qU0U1UGdyTVpiS2RWdElFMHZqUDNGMlFaZTF1RmRmVXA5WFhVY2gtRHJvWHd4Tk5wV2pVeWRHS1ZPOVI5dnVKTHdUZVZJX0NGOW15Si0tQmNJbmxSQ3VZOXRjX2FRLV84V2k4a1VocXhRc2FoUGdZNmU3eTNnSi16RXBLTjJJVlNveXBuOElrN05tOVlUVHItTHJTMDdGeTRDRkFUempNOWc4S0xoNmY5bWJWaWhaWXZRS2djeGphZEdkR3hpMENlQ2hhUQ?oc=5",
-      "teams": [
-        "germany",
-        "greece"
-      ],
-      "publishedAt": 1790562119000,
       "image": null
     }
   ]
