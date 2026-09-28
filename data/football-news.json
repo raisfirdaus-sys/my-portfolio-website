@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790634641898,
+  "generatedAt": 1790635763221,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1493,
-    "tagged": 795,
+    "raw": 1492,
+    "tagged": 796,
     "droppedKeyword": 13,
-    "droppedOtherSport": 1,
-    "droppedFeed": 6,
+    "droppedOtherSport": 0,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
