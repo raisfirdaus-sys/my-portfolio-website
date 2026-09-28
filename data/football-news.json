@@ -1,17 +1,41 @@
 {
-  "generatedAt": 1790635763221,
+  "generatedAt": 1790639774014,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1492,
-    "tagged": 796,
-    "droppedKeyword": 13,
+    "raw": 1495,
+    "tagged": 801,
+    "droppedKeyword": 15,
     "droppedOtherSport": 0,
-    "droppedFeed": 7,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 59
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/28/billy-gilmour-sebastien-pocognoli-scotland-nations-league",
+      "image": "https://i.guim.co.uk/img/media/f14f8df3336cd32195d66cd685ab335ba19ae0e9/410_0_3725_2980/master/3725.jpg?width=140&quality=85&auto=format&fit=max&s=deb91b0ab3ed392ad8efaf8f73ac78ff",
+      "summary": "New Scotland manager says midfielder ‘has to take risks’Players warned they need consistent game time for clubsSébastien Pocognoli hopes a “smiling” Billy Gilmour will be central to Scotland’s hopes of improvement…",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790636078000
+    },
+    {
+      "competition": "guardian",
+      "title": "Pochettino: Manchester City verdicts show fans ‘lived through an era of deception’",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/28/pochettino-manchester-city-verdict-tottenham-chelsea-southampton-usmnt",
+      "image": "https://i.guim.co.uk/img/media/0a1064ffcf4535c02a2674149129ac76eddaa30f/517_357_1988_1591/master/1988.jpg?width=140&quality=85&auto=format&fit=max&s=0d32870c49df459a070d6106ee890e94",
+      "summary": "US manager says finding right punishment is ‘really hard’Man City found guilty of majority of 100-plus chargesSign up for our free newsletter hereUS men’s national team head coach Mauricio Pochettino expressed dismay at…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790634549000
+    },
     {
       "competition": "mirror",
       "title": "Man City charges LIVE: Punishment latest as 115 charges verdict decided",
@@ -714,41 +738,15 @@
       "publishedAt": 1790610083000
     },
     {
-      "competition": "footlondon",
-      "title": "Arsenal thrown Premier League title curveball as Liverpool dealt two huge blows",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-thrown-premier-league-title-34684240",
-      "image": "https://i2-prod.football.london/incoming/article34149097.ece/ALTERNATES/s615/2_Mikel-Arteta-Title-Boost.jpg",
-      "summary": "Liverpool could do Arsenal a favour in the Premier League title race after the international break",
+      "competition": "epl",
+      "title": "Pochettino says no punishment can repair Manchester City damage",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnBCSFpsSTlQYnlYY1Z6eGo1MnhPS0FFaS1QYWktSjd5N2VjNGJMOVZZR1ZfMm1TS2ZZVnE0NXdJZXM4blNuUV9ESEZFcTVkQzBuQ3I0R2kzUmtGUmRLaG5tQ2pJQWE0NnlZM050UEhheGpYY3RoOV9mVDFsWEVEVHhMY3lIM19MUUQwLWN5ZlFjNDcwNWpjREV1WjV5NTVHenZxSg?oc=5",
       "teams": [
-        "liverpool",
-        "arsenal"
+        "mancity"
       ],
-      "publishedAt": 1790609763000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Turkiye-Italy not a relegation play-off, can afford risks&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-turkiye-italy-not-relegation-play-off/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-training-414x285.jpg",
-      "summary": "Roberto Mancini insists tonight’s clash with Turkiye is ‘not a relegation play-off’ for the Nations...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790609665000
-    },
-    {
-      "competition": "bbc",
-      "title": "Ferguson retains Rangers dream but Bologna exit never close",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cw62jy1e40mlo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe90/live/6b6d4940-bb53-11f1-bd21-bdf910f2cec6.jpg",
-      "summary": "Lewis Ferguson reveals \"nothing was ever that close\" on a move away from Bologna this summer amid reports of interest from Rangers but he does harbour ambitions of a return to his boyhood club.",
-      "teams": [
-        "bologna"
-      ],
-      "publishedAt": 1790609258000
+      "publishedAt": 1790638800000,
+      "image": null
     }
   ]
 }
