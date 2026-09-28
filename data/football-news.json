@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790559294624,
+  "generatedAt": 1790560395774,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1500,
-    "tagged": 806,
+    "raw": 1495,
+    "tagged": 799,
     "droppedKeyword": 21,
     "droppedOtherSport": 3,
-    "droppedFeed": 9,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
-    "withImage": 57
+    "withImage": 56
   },
   "items": [
     {
@@ -510,18 +510,6 @@
       "publishedAt": 1790532011000
     },
     {
-      "competition": "fitalia",
-      "title": "Parma in direct contact with Gilardino to replace former Arsenal coach Cuesta",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/parma-in-direct-contact-with-gilardino-cuesta/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Carlos-Cuesta-Parma-Milan-414x300.jpg",
-      "summary": "Parma have moved quickly to identify Carlos Cuesta s successor, with Alberto Gilardino the leading name...",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790532000000
-    },
-    {
       "competition": "mirror",
       "title": "Jude Bellingham only knows how to play one way - he and England must embrace it",
       "publisher": "Mirror Football",
@@ -542,6 +530,18 @@
       "summary": "James Trafford was a surprise inclusion for England's thrilling shootout with Spain at Wembley and the Leeds keeper has his sights firmly set on Jordan Pickford's shirt",
       "teams": [
         "england"
+      ],
+      "publishedAt": 1790532000000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Parma in direct contact with Gilardino to replace former Arsenal coach Cuesta",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/parma-in-direct-contact-with-gilardino-cuesta/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Carlos-Cuesta-Parma-Milan-414x300.jpg",
+      "summary": "Parma have moved quickly to identify Carlos Cuesta s successor, with Alberto Gilardino the leading name...",
+      "teams": [
+        "arsenal"
       ],
       "publishedAt": 1790532000000
     },
@@ -702,6 +702,19 @@
       "publishedAt": 1790526300000
     },
     {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Man United track Barcelona star as Arsenal & Liverpool chase Kevin Schade",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSktGTXlLZHZwYklIQ1VpTXp2ZFZMU2Y0TVZmX19wZ1hlN09CSDlBblFld0tUUzN6c0VycGZwY2toSllHVlhXRUJXOWRnTU01NEd2ZnJSTUo1YnExNDhwazM3ZkZ1NHdiSHlxbWhTUFNDcVlJZlFCRFk0MGNfY0swSEYwV1FNbk1uU01IUUl1SzJBZjFxeV95WlpsUVF0NURPT2hJaU9GMGFjUkVkS3FIc0syNXQyellDbWVqZjZ3MXB6cGpocXpxWTZCMUplS2hLWExiS3VLQ0E?oc=5",
+      "teams": [
+        "manutd",
+        "barcelona",
+        "liverpool"
+      ],
+      "publishedAt": 1790554385000,
+      "image": null
+    },
+    {
       "competition": "men",
       "title": "Manchester United miss transfer chance as £86m decision made",
       "publisher": "Manchester Evening News",
@@ -736,19 +749,6 @@
       ],
       "publishedAt": 1790553600000,
       "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/germany-greece-tv-channel-stream-37705102",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37705148.ece/ALTERNATES/s615/0_Netherlands-v-Germany-UEFA-Nations-League-202627-Group-A2-MD1.jpg",
-      "summary": "Jurgen Klopp leads Germany against Greece looking for his first win as a national team boss",
-      "teams": [
-        "germany",
-        "greece"
-      ],
-      "publishedAt": 1790524800000
     }
   ]
 }
