@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790560395774,
+  "generatedAt": 1790563919624,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1495,
-    "tagged": 799,
-    "droppedKeyword": 21,
+    "raw": 1499,
+    "tagged": 800,
+    "droppedKeyword": 20,
     "droppedOtherSport": 3,
-    "droppedFeed": 11,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 56
   },
@@ -437,6 +437,19 @@
       "publishedAt": 1790534534000
     },
     {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Man United track Barcelona star as Arsenal & Liverpool chase Kevin Schade",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSktGTXlLZHZwYklIQ1VpTXp2ZFZMU2Y0TVZmX19wZ1hlN09CSDlBblFld0tUUzN6c0VycGZwY2toSllHVlhXRUJXOWRnTU01NEd2ZnJSTUo1YnExNDhwazM3ZkZ1NHdiSHlxbWhTUFNDcVlJZlFCRFk0MGNfY0swSEYwV1FNbk1uU01IUUl1SzJBZjFxeV95WlpsUVF0NURPT2hJaU9GMGFjUkVkS3FIc0syNXQyellDbWVqZjZ3MXB6cGpocXpxWTZCMUplS2hLWExiS3VLQ0E?oc=5",
+      "teams": [
+        "manutd",
+        "barcelona",
+        "liverpool"
+      ],
+      "publishedAt": 1790563109000,
+      "image": null
+    },
+    {
       "competition": "indy",
       "title": "Alyssa Thompson strikes as Chelsea see off Arsenal in derby",
       "publisher": "The Independent",
@@ -559,9 +572,9 @@
     },
     {
       "competition": "unl-a",
-      "title": "UEFA Nations League 2026/27 League A Group A match: Germany vs. Greece-Xinhua",
-      "publisher": "新华网",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUkyejczRl9fVkpLZzNHb3pqbi12c3RZa2hhekdwNzBRYUpaaXYybFVYMjUzX0Vsdjh5UkJMa1h1NUFlWXltWnE5c0N6aDF2MC03cFpBdk1pNUUzRThua1Y4MVQydjBzdGl5OXNidXZtaEM1bVVENEExdmlnclU2XzV3VU94dmFX?oc=5",
+      "title": "UEFA Nations League 2026/27 League A Group A match: Germany vs. Greece",
+      "publisher": "Xinhua",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HNmdCeU9UV3R5aV9BVHNGN2dNUVNjb1N2MGtSSTBnem5meF9wOVM2am11RDFKSi1QSXlGZ1Z6ajd4Unc2NF8zN2pGNlVlX2VYamZMUHRCWTNKajBocXdEVVVjQXRNZENyak9TbS1mdHBiWjlnZ0U2LVdsUzY?oc=5",
       "teams": [
         "germany",
         "greece"
@@ -642,6 +655,17 @@
       "publishedAt": 1790527702000
     },
     {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790556442000,
+      "image": null
+    },
+    {
       "competition": "men",
       "title": "Man United handed major injury blow as Patrick Dorgu limps out of Denmark match",
       "publisher": "Manchester Evening News",
@@ -702,19 +726,6 @@
       "publishedAt": 1790526300000
     },
     {
-      "competition": "transfer",
-      "title": "Transfer news LIVE: Man United track Barcelona star as Arsenal & Liverpool chase Kevin Schade",
-      "publisher": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSktGTXlLZHZwYklIQ1VpTXp2ZFZMU2Y0TVZmX19wZ1hlN09CSDlBblFld0tUUzN6c0VycGZwY2toSllHVlhXRUJXOWRnTU01NEd2ZnJSTUo1YnExNDhwazM3ZkZ1NHdiSHlxbWhTUFNDcVlJZlFCRFk0MGNfY0swSEYwV1FNbk1uU01IUUl1SzJBZjFxeV95WlpsUVF0NURPT2hJaU9GMGFjUkVkS3FIc0syNXQyellDbWVqZjZ3MXB6cGpocXpxWTZCMUplS2hLWExiS3VLQ0E?oc=5",
-      "teams": [
-        "manutd",
-        "barcelona",
-        "liverpool"
-      ],
-      "publishedAt": 1790554385000,
-      "image": null
-    },
-    {
       "competition": "men",
       "title": "Manchester United miss transfer chance as £86m decision made",
       "publisher": "Manchester Evening News",
@@ -737,18 +748,6 @@
         "italy"
       ],
       "publishedAt": 1790524805000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Belgium vs. France—Nations League: Preview, Predictions and Lineups",
-      "publisher": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMDRPZWhfbzFKSmxxOE1jZER3d1ZTSUpqazk5STNtVTg4c3hJM0w5OGJzTC1pc2NZYUo2LTNzeWZTcFVjblhIN2JvbWQ0NjhnUl9td3B2TlJjLVB2Q0lSU00yUXJIM3pyQnBzRlFkYTVYb3B4QTUtS2Rkd04yc1FIUUhKQWdOZFRTVENETWc2V0RYQy1wTnVUdkpB?oc=5",
-      "teams": [
-        "belgium",
-        "france"
-      ],
-      "publishedAt": 1790553600000,
-      "image": null
     }
   ]
 }
