@@ -1,17 +1,176 @@
 {
-  "generatedAt": 1790563919624,
+  "generatedAt": 1790572665194,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1499,
-    "tagged": 800,
-    "droppedKeyword": 20,
-    "droppedOtherSport": 3,
-    "droppedFeed": 7,
+    "raw": 1494,
+    "tagged": 802,
+    "droppedKeyword": 21,
+    "droppedOtherSport": 2,
+    "droppedFeed": 13,
     "blocklistDistrusted": false,
-    "withImage": 56
+    "withImage": 48
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Real Madrid make Erling Haaland transfer decision after Man City learn 'likely' punishment",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/haaland-real-madrid-transfer-mancity-37708301",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708319.ece/ALTERNATES/s615/0_Norway-v-Denmark-UEFA-Nations-League-202627-Group-A4-MD1.jpg",
+      "summary": "Real Madrid are long-term admirers of Erling Haaland, whose future at Manchester City could now be uncertain after the guilty verdict on their Premier League charges",
+      "teams": [
+        "realmadrid",
+        "mancity"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "footlondon",
+      "title": "The 11 transfers Arsenal missed out on this summer and how they're getting on",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-news-targets-rumours-34678670",
+      "image": "https://i2-prod.football.london/incoming/article34542174.ece/ALTERNATES/s615/2_GettyImages-2237195872.jpg",
+      "summary": "Arsenal were linked with a barrage of players over the summer, with some of those rumoured targets enjoying success elsewhere, while others have failed to flourish",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "men",
+      "title": "Man City have agreed an exciting 2027 transfer and the hype is only just beginning",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-agreed-exciting-2027-34678569",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34678519.ece/ALTERNATES/s615/0_GettyImages-2297310538.jpg",
+      "summary": "Manchester City have agreed a deal to sign USA prodigy Cavan Sullivan and he will join the Blues a year today",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "echo",
+      "title": "Former Liverpool star hails Leighton Baines as 'very, very good coach' after Everton spell",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/former-liverpool-star-hails-leighton-34678534",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678542.ece/ALTERNATES/s615/0_GettyImages-2292015115.jpg",
+      "summary": "Charlie Adam praised Leighton Baines as a player and a coach, explaining that working with the Everton assistant manager was a boost for his own growth",
+      "teams": [
+        "liverpool",
+        "everton"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "echo",
+      "title": "Alexander Isak injury might pay off for Liverpool as Andoni Iraola handed unexpected boost",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-injury-might-pay-34679237",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34679288.ece/ALTERNATES/s615/0_GettyImages-2293851647-1.jpg",
+      "summary": "While there are concerns over the injuries sustained by Alexander Isak and Cody Gakpo, should they prove minor, it could work in Liverpool's favour",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool latest: Alexander Isak withdraws from squad as ex-Reds boss leaps to star's defence",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-klopp-florian-wirtz-isak-34678957",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34679011.ece/ALTERNATES/s615/0_GettyImages-2283346430.jpg",
+      "summary": "The latest Liverpool headlines during the extended international break",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790571600000
+    },
+    {
+      "competition": "men",
+      "title": "Man United latest: JJ Gabriel 'damages relationships' and January transfer back on the cards",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-latest-jj-gabriel-34679108",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679107.ece/ALTERNATES/s615/0_Manchester-United-Training-Session.jpg",
+      "summary": "Manchester United could revive their pursuit of one summer target in the January transfer window, while questions continue to be raised over JJ Gabriel's future at Old Trafford",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790569800000
+    },
+    {
+      "competition": "mirror",
+      "title": "I feel cheated by Man City - they won the trophy and we had to watch them celebrate",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-tony-pulis-37708189",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708210.ece/ALTERNATES/s615/0_Manchester-City-v-Stoke-City-FA-Cup-Final.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League financial rules on Friday, as the rest of the English top flight awaits their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790568000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Liverpool news: Jurgen Klopp makes unfortunate claim as Alexander Isak suffers 'real blow'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-alexander-isak-klopp-wirtz-37707235",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707329.ece/ALTERNATES/s615/0_GettyImages-2296494827.jpg",
+      "summary": "There are still two weeks left to wait for Liverpool fans to see their Reds back in action against Manchester City",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790568000000
+    },
+    {
+      "competition": "men",
+      "title": "Chairman's 115 stance, compensation claims, the future - your Man City questions answered",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/chairmans-115-stance-over-115-34679076",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679100.ece/ALTERNATES/s615/0_premium-canvas-1790519228889.png",
+      "summary": "This week's Q&A focuses on the latest around the 115 charges verdict after the bombshell news around Manchester City's guilt",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790568000000
+    },
+    {
+      "competition": "men",
+      "title": "Three Manchester United stars of future that prove there is life after JJ Gabriel",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/three-manchester-united-stars-future-34678889",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34678911.ece/ALTERNATES/s615/0_premium-canvas-1790514187084.png",
+      "summary": "JJ Gabriel seems certain to leave Manchester United but the Reds still have plenty of talent in their academy",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790568000000
+    },
+    {
+      "competition": "echo",
+      "title": "Sean Dyche labels Florian Wirtz 'boyish' as team-mate calls out 'extreme attack' on Liverpool star",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/sean-dyche-labels-florian-wirtz-34678385",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34678409.ece/ALTERNATES/s615/0_Dyche-and-Wirtz.jpg",
+      "summary": "Sean Dyche and Jonathan Tah have both weighed in on Florian Wirtz's ongoing struggles for Liverpool and Germany",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790568000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd news: Barcelona transfer to be revived in January as JJ Gabriel behaviour questioned",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-balde-37707226",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37703420.ece/ALTERNATES/s615/1_GettyImages-2276416036.jpg",
+      "summary": "Manchester United have an extended international break to get things right following a faltering start to the new season",
+      "teams": [
+        "barcelona",
+        "manutd"
+      ],
+      "publishedAt": 1790566200000
+    },
     {
       "competition": "echo",
       "title": "Liverpool agreed to Virgil van Dijk transfer demand as club captain vindicated",
@@ -253,6 +412,17 @@
       "publishedAt": 1790541198000
     },
     {
+      "competition": "epl",
+      "title": "Chelsea Pitch Owners checks ownership power — it is the democratic safeguard every fanbase craves",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd1FJOTFLVktQV3hqYS1ocjk2T1FlMWpLSXFPQk9Zazg4VFNyVFVxMTdOby1lWmpGMUZ5NFVIMmZFamowd1ZsUUdFUkV6MDZXc2ExbGtCc3hTdUQwekRhZlZ5VjgxQmp3UVVmQmJnSjlzZGdNNWJSbXQ1eGY3aWJPNHJyZGRiRjNDYkFhQ2dzNU5RU3JrQ25ubE04ZHZEVTFN?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790569688000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "Liam Gallagher 'leaks Man City punishment' as he shares inside info over charges",
       "publisher": "Mirror Football",
@@ -263,6 +433,28 @@
         "mancity"
       ],
       "publishedAt": 1790540660000
+    },
+    {
+      "competition": "epl",
+      "title": "Zadok Yohanna’s journey to Brighton and the Premier League, as told by his mentors",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGZYT2dCSmc5b0IxLVE1S2FUOTB5d05pM2RlV2k1ZzVPVWZUS2tCend4cmdfWHNWVkIydW13MHJKemczbDkyaHdQVGJiWkI2eDlCdHFXUFFmTWNmZ2FfWGFJendLWHg1NlRDb0FqbFRKNGZ4YW1uczk0blVOaVphX3RrXzhkTjBQbVk2dTlFcmdITllGRGc?oc=5",
+      "teams": [
+        "brighton"
+      ],
+      "publishedAt": 1790569124000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "The Manchester City verdicts as viewed by the rest of the football world",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOakdnNEt2YnBHeWpHdXFlZUxjLTkwWm93QXQzTWIwU3dRTkZKcW1jN19qN2FoVjB2c1hfdVNoVF9pVURmNE5WRVpIdlNtbkdBTTQwOTk0SU1fS3RrTTNvSU5vMmgxR1d0elNYdEtuWFJKYlhGM3k1Q2NFVzZwd2ZKNUFCUjJXeUFrY1dVVFcxTm9DZw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790568941000,
+      "image": null
     },
     {
       "competition": "metro",
@@ -277,6 +469,17 @@
       "publishedAt": 1790539990000
     },
     {
+      "competition": "epl",
+      "title": "What if… Manchester City have their trophies taken away from them?",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSFQtSW45UmlZWUZlS3IySXZKODY2Wm03aHdZSFUwMFdzMzhfcHgwbDIxSE5MZEh1azZ0emVJVlRmSDZwQUdPVm53VFZvclpaVURjc1RPa1JhNlB1S0kweXpJWk43MlNHVWVyeERBdWx5NFRXeGVRVUhDVHBxeXBETXlJNVlDeEVHTE92UkN3?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790568783000,
+      "image": null
+    },
+    {
       "competition": "men",
       "title": "Sir Jim Ratcliffe in talks to settle £180m dispute after Man United co-owner's falling out",
       "publisher": "Manchester Evening News",
@@ -287,6 +490,40 @@
         "manutd"
       ],
       "publishedAt": 1790539855000
+    },
+    {
+      "competition": "epl",
+      "title": "Haaland na jan hankalin ƙungiyoyin Premier League, Barcelona na sanya ido kan Estevao",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uRXFkcDFQakYtQjZBb0x6Y2Z1bUFQY2x4RnB6RG1jbjNQeXcxaWhnbTJLYnE2ck5hVnFQZFpKMWlKUnM5TmFTQ0FiTGwxSGYxNGhITzhQUkRMLWUw0gFiQVVfeXFMTW9JQmhaNkwwcWI2UldydXFzeWZqNTZ1eWJqM2VVb2FLOE8zbEJLVDBMSnkwZFNreWVtRUZaWGJTbW9WOGx2UGF6dGJXcUI0NFZTdlF1YjdzWHNxSVBEdEJLSlE?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790568093000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "'We are no longer a top team' - Bastian Schweinsteiger tears into Jurgen Klopp's struggling Germany after historic Greece humiliation",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRk4ydWNsVkRqYlhzeHFZRlJfd2ozdkEwbnBDbmdHWlFpdEFkUlkyODQ3eGxzWU5hQnZwWlB5X2J4WW1Nd3FlWEFMdFRKZmpDUGpfV3B5M0htNDNJSEdxc3pMQ3p5TEtVX3NpeFB0ZlJiTkI5bUFaM1N5bVhDVUxCV2N3czcxVnBJVFdBblcxRjNQTG9Ub0Yxd0t4V3l2MHU5Vll1WWxDclRNLWhaTmNPUk9FVGhQWldENUs1U1J0aGNvR2c?oc=5",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790568020000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Readers have their say on Hull City start with key man verdict delivered",
+      "publisher": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY08taHhmaWplWC1qX09qdjVEZEZTNTNoS1ItNjBRSVVwenlOTmtEdW5TU3dMM04xZXhWMFoyMy1nbjVQOFEzLVQyMUZETVVONVR6ZU1qU2dnOExSTVdVMTRRUk02X1NhZFdnQk9aQzJ6TWgyZjlHaVdsLWZ6MzNxVQ?oc=5",
+      "teams": [
+        "hullcity"
+      ],
+      "publishedAt": 1790568000000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -313,6 +550,19 @@
       "publishedAt": 1790536820000
     },
     {
+      "competition": "transfer",
+      "title": "Transfer news LIVE: Man United track Barcelona star as Arsenal & Liverpool chase Kevin Schade",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSktGTXlLZHZwYklIQ1VpTXp2ZFZMU2Y0TVZmX19wZ1hlN09CSDlBblFld0tUUzN6c0VycGZwY2toSllHVlhXRUJXOWRnTU01NEd2ZnJSTUo1YnExNDhwazM3ZkZ1NHdiSHlxbWhTUFNDcVlJZlFCRFk0MGNfY0swSEYwV1FNbk1uU01IUUl1SzJBZjFxeV95WlpsUVF0NURPT2hJaU9GMGFjUkVkS3FIc0syNXQyellDbWVqZjZ3MXB6cGpocXpxWTZCMUplS2hLWExiS3VLQ0E?oc=5",
+      "teams": [
+        "manutd",
+        "barcelona",
+        "liverpool"
+      ],
+      "publishedAt": 1790565434000,
+      "image": null
+    },
+    {
       "competition": "metro",
       "title": "Ireland squad refuse to shake hands with Israel players and snub national anthem",
       "publisher": "Metro",
@@ -336,6 +586,17 @@
         "wales"
       ],
       "publishedAt": 1790536576000
+    },
+    {
+      "competition": "laliga",
+      "title": "‘You feel like Superman’ - Barcelona star Lamine Yamal reveals his love for football",
+      "publisher": "Barca Blaugranes",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM043V1Bybkh6SmQ0M1RJX282dU5nQlY4ejJiamNaajRSNUN6SFVDYWtoQ0dCZlFmSWF5RHJhSEhYZm9BSS1xSzZUOVZrSkJVc1dqclpmTkNnc0RfV0I3N1hYSXgtZl9XTXNhN1BzYjFHcDZfb3M3TjR6SW4zYnV5TWdhQjB2OWRwakx2TTBUYVFKY1NjSEpMUDgySy1PWGV5alFsS1VOTGxKbEl6am9BQTBwSHdVM0oxUXJXanh0bTBmYUN0N0tRbUZpY200STZYclM4?oc=5",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790564400000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -437,30 +698,16 @@
       "publishedAt": 1790534534000
     },
     {
-      "competition": "transfer",
-      "title": "Transfer news LIVE: Man United track Barcelona star as Arsenal & Liverpool chase Kevin Schade",
-      "publisher": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSktGTXlLZHZwYklIQ1VpTXp2ZFZMU2Y0TVZmX19wZ1hlN09CSDlBblFld0tUUzN6c0VycGZwY2toSllHVlhXRUJXOWRnTU01NEd2ZnJSTUo1YnExNDhwazM3ZkZ1NHdiSHlxbWhTUFNDcVlJZlFCRFk0MGNfY0swSEYwV1FNbk1uU01IUUl1SzJBZjFxeV95WlpsUVF0NURPT2hJaU9GMGFjUkVkS3FIc0syNXQyellDbWVqZjZ3MXB6cGpocXpxWTZCMUplS2hLWExiS3VLQ0E?oc=5",
+      "competition": "unl-a",
+      "title": "Nations League highlights: Serbia 1-2 Netherlands",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNHR6OHN2WURBQnlBV3owMENfT01ndE9DZmgtUFRyejRPSG1JTmpleDJkcWRNMzF0U3RtUzNvRHdIdnZYS1M3RkhHVzB6SlBBLVBTMUQzZTl6djZjOTZjMk5IY3Ywa28yTDRtd0lWTTNHQmhrZzlkMlNiUDlyUWxVZG14cU9iXzdYU2daVXRaLVhnSTllY0ZiWmJhRjFOaUVPSGp6WFA5UnN3Ml9xVTYxeXBGS3l4aE5Mdk5sZTN6MktYbkRrd0Q3Y3p6SDd1d28tOHk1VlhkcTBRQQ?oc=5",
       "teams": [
-        "manutd",
-        "barcelona",
-        "liverpool"
+        "netherlands",
+        "serbia"
       ],
-      "publishedAt": 1790563109000,
+      "publishedAt": 1790562811000,
       "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "Alyssa Thompson strikes as Chelsea see off Arsenal in derby",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/chelsea-arsenal-result-wsl-alyssa-thompson-b3057200.html",
-      "image": "https://static.independent.co.uk/2026/09/27/19/01M3HTDA56VQ7EEWG1AP4FQSHG.jpg?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
-      "summary": "The Blues edged the Gunners and sit joint-second with Tottenham, who thrashed Aston Villa 4-0 earlier, both two points behind leaders Man City",
-      "teams": [
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790533827000
     },
     {
       "competition": "fitalia",
@@ -475,279 +722,28 @@
       "publishedAt": 1790533800000
     },
     {
-      "competition": "fitalia",
-      "title": "Napoli reach agreement to extend Rrahmani contract until 2029",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/napoli-reach-agreement-to-extend-rrahmani/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Amir-Rrahmani-Viktor-Gyokeres-414x276.jpg",
-      "summary": "Napoli have agreed terms with Amir Rrahmani over a new deal, with only the official...",
-      "teams": [
-        "napoli"
-      ],
-      "publishedAt": 1790532900000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man Utd bag their first win of the season against West Ham",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm9qrzlqyz58o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d58/live/769dc4e0-ba7f-11f1-bd21-bdf910f2cec6.jpg",
-      "summary": "Eva Olid claims her first Women's Super League victory as Manchester United manager, but they were made to work hard to beat West Ham.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790532239000
-    },
-    {
-      "competition": "guardian",
-      "title": "Thomas Tuchel resists ‘madness’ of calls to rest England players despite longer window",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/thomas-tuchel-england-players-longer-international-window-nations-league",
-      "image": "https://i.guim.co.uk/img/media/63416a77cace87c7a64e4c9e2766a6ac0bc16fb9/408_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=97e930654a8b84000c9bc59636ceb56d",
-      "summary": "I don’t take calls from Premier League managers, he saysEngland play Czechia in Prague on TuesdayThomas Tuchel says it would be “madness” to allow his England players or the clubs to pick and choose their matches during…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790532011000
-    },
-    {
-      "competition": "guardian",
-      "title": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/27/james-trafford-england-no-1-nations-league",
-      "image": "https://i.guim.co.uk/img/media/27faf287c214aefab730ee329caf2e51850a7168/631_0_5417_4334/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=1dafd141666ed18fb81411922f48c416",
-      "summary": "The Leeds player was surprise starter against Spain but, after his solid display, Jordan Pickford’s grip may be looseningJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity.…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790532011000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jude Bellingham only knows how to play one way - he and England must embrace it",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jude-bellingham-only-knows-how-37706885",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707018.ece/ALTERNATES/s615/0_GettyImages-2297306122.jpg",
-      "summary": "Jude Bellingham remains the heartbeat of an England side that must embrace their own qualities to go toe-to-toe with the world's best regularly",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790532000000
-    },
-    {
-      "competition": "mirror",
-      "title": "James Trafford sends clear message to Jordan Pickford in battle to be England's undisputed No 1",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-james-trafford-jordan-pickford-37707592",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707599.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "James Trafford was a surprise inclusion for England's thrilling shootout with Spain at Wembley and the Leeds keeper has his sights firmly set on Jordan Pickford's shirt",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790532000000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Parma in direct contact with Gilardino to replace former Arsenal coach Cuesta",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/parma-in-direct-contact-with-gilardino-cuesta/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/11/Carlos-Cuesta-Parma-Milan-414x300.jpg",
-      "summary": "Parma have moved quickly to identify Carlos Cuesta s successor, with Alberto Gilardino the leading name...",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790532000000
-    },
-    {
-      "competition": "men",
-      "title": "Man City triple punishment predicted after guilty verdict as club's 'best hope' named",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-punishment-114-charges-34679599",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679598.ece/ALTERNATES/s615/1_FC-Bayern-Mnchen-v-Manchester-City-UEFA-Womens-Champions-League-202627-League-Phase-MD1.jpg",
-      "summary": "Manchester City have been found guilty of 114 breaches of the Premier League's financial rules, with an anxious wait to see what punishment the club are slapped with",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790531395000
-    },
-    {
       "competition": "unl-a",
-      "title": "UEFA Nations League 2026/27 League A Group A match: Germany vs. Greece",
-      "publisher": "Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HNmdCeU9UV3R5aV9BVHNGN2dNUVNjb1N2MGtSSTBnem5meF9wOVM2am11RDFKSi1QSXlGZ1Z6ajd4Unc2NF8zN2pGNlVlX2VYamZMUHRCWTNKajBocXdEVVVjQXRNZENyak9TbS1mdHBiWjlnZ0U2LVdsUzY?oc=5",
+      "title": "Watch Dimitris Kourbelis' Greece winner against Germany",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVndnTURzVEVLeS03bDZmcV80WWhjRWVvU0FXZzJRN2N1VDFTMDdCRHlqZ0RBa1N3MzhjeTYwb2NKWVhDSU9LaGhIcU9uMVVKWFlaM1hSeHBZd193QVQ5Z2I5SjYtQVNNMzV2RFgxWTV4TjVobUZVcDk0OTQzWFk4SXA1a3BSMWFzUG5LRHFrT1dscGNWMEVBSlBybFdZbTZKYTJKNmc1M2dKNDgzMGhLWE1RNlota3JwU3ZUb1FQaUNlTUtSMlZiSURZNWdNUlpFelBN?oc=5",
       "teams": [
         "germany",
         "greece"
       ],
-      "publishedAt": 1790558525000,
+      "publishedAt": 1790562377000,
       "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini distances himself from Manchester City verdict: &#8216;Their problem, not mine&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-distances-himself-from-manchester-city/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Manchester-City-argh-414x274.jpg",
-      "summary": "Roberto Mancini has rejected any suggestion that Manchester City s guilty verdict reflects on him, disputing...",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790529600000
-    },
-    {
-      "competition": "men",
-      "title": "Roy Keane could quit ITV and Sky Sports as Man United icon waiting for imminent call",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/roy-keane-sky-itv-exit-34679530",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679529.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
-      "summary": "Manchester United legend Roy Keane looks to be teetering on the brink of a career change away from the world of punditry, despite holding commitments with Sky Sports and ITV",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790528517000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Gattuso wary of long break at Lazio: &#8216;The adrenaline drops, we can&#8217;t let the temperature fall&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/gattuso-wary-of-long-break-at-lazio/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Gennaro-Gattuso-instructions-414x276.jpg",
-      "summary": "Gennaro Gattuso used a 2-0 friendly win over Arezzo to experiment during the international break,...",
-      "teams": [
-        "lazio"
-      ],
-      "publishedAt": 1790528400000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United have two potential superstars and we can't lose - but only on one condition",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-two-potential-superstars-34678047",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34678646.ece/ALTERNATES/s615/0_GettyImages-2291716191.jpg",
-      "summary": "The Magpies are building for the future with two stellar young midfielders",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790528400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd dealt second injury blow as star limps off after Bruno Fernandes issue",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/patrick-dorgu-manchester-united-injury-37707780",
-      "image": "https://i2-prod.mirror.co.uk//article37707763.ece/ALTERNATES/s615/1_Dorguinjuryjfif.jpg",
-      "summary": "Manchester United have been hit with further injury concerns just days after Bruno Fernandes suffered a 'complicated problem' against Wales in the Nations League",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790527880000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool suffer another injury blow as Cody Gakpo hurt on international duty",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-injury-cody-gakpo-update-37707717",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707757.ece/ALTERNATES/s615/0_GettyImages-2296852789.jpg",
-      "summary": "Cody Gakpo was forced off with an injury just 17 minutes into the Netherlands' clash with Serbia in the Nations League, providing Liverpool with another scare during the international break",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790527702000
-    },
-    {
-      "competition": "transfer",
-      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
-      "publisher": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790556442000,
-      "image": null
-    },
-    {
-      "competition": "men",
-      "title": "Man United handed major injury blow as Patrick Dorgu limps out of Denmark match",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-united-patrick-dorgu-34679531",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34679525.ece/ALTERNATES/s615/0_Dorgujfif.jpg",
-      "summary": "Manchester United player Patrick Dorgu limped off less than half an hour into Denmark's Nations League match against Wales with a suspected hamstring injury",
-      "teams": [
-        "manutd",
-        "denmark"
-      ],
-      "publishedAt": 1790527305000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Italy don&#8217;t have a generation like that of Totti and Del Piero&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-no-generation-totti-del-piero/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13-414x276.jpg",
-      "summary": "Roberto Mancini has been candid about where Italian football currently stands, conceding the talent pool...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790527200000
     },
     {
       "competition": "unl-a",
-      "title": "Germany sits in third place of UEFA Nations League group table after two games",
-      "publisher": "Bavarian Football Works",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQy1uUmp5NGxSM3VZQ3U4N0NoSXhaQzZuYkR1Z0RZOWd1SUh6TFg3ZnpmTDljanI1UWlqT3dhY1B2TGFZcnNSMjlWZzM1ZXltM05xZ2tUc3I0eW0yTUpBLS1fV3VFVzBYcDhzSmQ4YmQ3dk03Y1BtTTRXc2JvZjJMeXdYU2JfNEVOLWJSVmkxWjZmT1F1akNQWm9hSHRxNDJOU0lhRGxZaVN0M0ZHeFk1NG5fcFZodF9YWDdybVlpalhMVWJiWDJKVXliSnJHQmRienE2RVFSNUFyb2h4VjVHMHl0RllQV0E?oc=5",
+      "title": "Nations League highlights: Germany 0-1 Greece",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkx5TkR0ek5qU0U1UGdyTVpiS2RWdElFMHZqUDNGMlFaZTF1RmRmVXA5WFhVY2gtRHJvWHd4Tk5wV2pVeWRHS1ZPOVI5dnVKTHdUZVZJX0NGOW15Si0tQmNJbmxSQ3VZOXRjX2FRLV84V2k4a1VocXhRc2FoUGdZNmU3eTNnSi16RXBLTjJJVlNveXBuOElrN05tOVlUVHItTHJTMDdGeTRDRkFUempNOWc4S0xoNmY5bWJWaWhaWXZRS2djeGphZEdkR3hpMENlQ2hhUQ?oc=5",
       "teams": [
-        "germany"
+        "germany",
+        "greece"
       ],
-      "publishedAt": 1790555400000,
+      "publishedAt": 1790562119000,
       "image": null
-    },
-    {
-      "competition": "echo",
-      "title": "Cody Gakpo forced off with injury as Liverpool suffer another blow after Alexander Isak",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-liverpool-injury-news-34679506",
-      "image": "https://i2-prod.liverpoolecho.co.uk//article34679505.ece/ALTERNATES/s615/0_Gakpo.jpg",
-      "summary": "The international break is already proving to be a nightmare for Liverpool with fresh injury woes for Andoni Iraola",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790526459000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Tonali on Italy: &#8216;We don&#8217;t have a star player but our qualities will come out with time&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/tonali-on-italy-we-dont-have-a-star-player/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Sandro-Tonali-Italy-warm-up-414x276.jpg",
-      "summary": "Sandro Tonali has acknowledged the scale of the disappointment after Italy s defeat to Belgium, but...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790526300000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United miss transfer chance as £86m decision made",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manu-kone-man-utd-transfer-34679357",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34679426.ece/ALTERNATES/s615/0_JS418569718.jpg",
-      "summary": "Manchester United were linked with a move for Roma star Manu Kone during the summer transfer window",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790524934000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini to rotate Italy against Turkiye: &#8216;Impossible to have one player for four games this close&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-coach-mancini-ahead-of-turkey-clash/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-Italy-press-conference-Nations-League-414x276.jpg",
-      "summary": "Roberto Mancini has called for perspective after Italy s defeat to Belgium, insisting the reaction at...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790524805000
     }
   ]
 }
