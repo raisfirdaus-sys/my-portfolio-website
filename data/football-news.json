@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790639774014,
+  "generatedAt": 1790639883477,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1495,
-    "tagged": 801,
+    "tagged": 799,
     "droppedKeyword": 15,
     "droppedOtherSport": 0,
     "droppedFeed": 6,
@@ -714,6 +714,18 @@
       "publishedAt": 1790610918000
     },
     {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Germany 0-1 Greece",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkx5TkR0ek5qU0U1UGdyTVpiS2RWdElFMHZqUDNGMlFaZTF1RmRmVXA5WFhVY2gtRHJvWHd4Tk5wV2pVeWRHS1ZPOVI5dnVKTHdUZVZJX0NGOW15Si0tQmNJbmxSQ3VZOXRjX2FRLV84V2k4a1VocXhRc2FoUGdZNmU3eTNnSi16RXBLTjJJVlNveXBuOElrN05tOVlUVHItTHJTMDdGeTRDRkFUempNOWc4S0xoNmY5bWJWaWhaWXZRS2djeGphZEdkR3hpMENlQ2hhUQ?oc=5",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790639684000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Injury expert gives Cody Gakpo timeframe as statement issued on Liverpool star",
       "publisher": "Liverpool Echo",
@@ -736,17 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790610083000
-    },
-    {
-      "competition": "epl",
-      "title": "Pochettino says no punishment can repair Manchester City damage",
-      "publisher": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnBCSFpsSTlQYnlYY1Z6eGo1MnhPS0FFaS1QYWktSjd5N2VjNGJMOVZZR1ZfMm1TS2ZZVnE0NXdJZXM4blNuUV9ESEZFcTVkQzBuQ3I0R2kzUmtGUmRLaG5tQ2pJQWE0NnlZM050UEhheGpYY3RoOV9mVDFsWEVEVHhMY3lIM19MUUQwLWN5ZlFjNDcwNWpjREV1WjV5NTVHenZxSg?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790638800000,
-      "image": null
     }
   ]
 }
