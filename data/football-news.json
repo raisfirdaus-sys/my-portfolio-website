@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790553606430,
+  "generatedAt": 1790559294624,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1501,
+    "raw": 1500,
     "tagged": 806,
-    "droppedKeyword": 22,
+    "droppedKeyword": 21,
     "droppedOtherSport": 3,
-    "droppedFeed": 11,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 57
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Liverpool agreed to Virgil van Dijk transfer demand as club captain vindicated",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-agreed-virgil-van-dijk-34679057",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34517390.ece/ALTERNATES/s615/0_GettyImages-2291360421.jpg",
+      "summary": "Virgil van Dijk has been vindicated after making it clear he did not believe Liverpool should entertain selling Cody Gakpo",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790553600000
+    },
     {
       "competition": "bbc",
       "title": "Republic of Ireland 'raised awareness worldwide' in Israel game",
@@ -546,6 +558,18 @@
       "publishedAt": 1790531395000
     },
     {
+      "competition": "unl-a",
+      "title": "UEFA Nations League 2026/27 League A Group A match: Germany vs. Greece-Xinhua",
+      "publisher": "新华网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUkyejczRl9fVkpLZzNHb3pqbi12c3RZa2hhekdwNzBRYUpaaXYybFVYMjUzX0Vsdjh5UkJMa1h1NUFlWXltWnE5c0N6aDF2MC03cFpBdk1pNUUzRThua1Y4MVQydjBzdGl5OXNidXZtaEM1bVVENEExdmlnclU2XzV3VU94dmFX?oc=5",
+      "teams": [
+        "germany",
+        "greece"
+      ],
+      "publishedAt": 1790558525000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Mancini distances himself from Manchester City verdict: &#8216;Their problem, not mine&#8217;",
       "publisher": "Football Italia",
@@ -643,6 +667,17 @@
       "publishedAt": 1790527200000
     },
     {
+      "competition": "unl-a",
+      "title": "Germany sits in third place of UEFA Nations League group table after two games",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQy1uUmp5NGxSM3VZQ3U4N0NoSXhaQzZuYkR1Z0RZOWd1SUh6TFg3ZnpmTDljanI1UWlqT3dhY1B2TGFZcnNSMjlWZzM1ZXltM05xZ2tUc3I0eW0yTUpBLS1fV3VFVzBYcDhzSmQ4YmQ3dk03Y1BtTTRXc2JvZjJMeXdYU2JfNEVOLWJSVmkxWjZmT1F1akNQWm9hSHRxNDJOU0lhRGxZaVN0M0ZHeFk1NG5fcFZodF9YWDdybVlpalhMVWJiWDJKVXliSnJHQmRienE2RVFSNUFyb2h4VjVHMHl0RllQV0E?oc=5",
+      "teams": [
+        "germany"
+      ],
+      "publishedAt": 1790555400000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Cody Gakpo forced off with injury as Liverpool suffer another blow after Alexander Isak",
       "publisher": "Liverpool Echo",
@@ -691,6 +726,18 @@
       "publishedAt": 1790524805000
     },
     {
+      "competition": "unl-a",
+      "title": "Belgium vs. France—Nations League: Preview, Predictions and Lineups",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMDRPZWhfbzFKSmxxOE1jZER3d1ZTSUpqazk5STNtVTg4c3hJM0w5OGJzTC1pc2NZYUo2LTNzeWZTcFVjblhIN2JvbWQ0NjhnUl9td3B2TlJjLVB2Q0lSU00yUXJIM3pyQnBzRlFkYTVYb3B4QTUtS2Rkd04yc1FIUUhKQWdOZFRTVENETWc2V0RYQy1wTnVUdkpB?oc=5",
+      "teams": [
+        "belgium",
+        "france"
+      ],
+      "publishedAt": 1790553600000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "How to watch Germany vs Greece – TV channel, live stream and kick-off time",
       "publisher": "Mirror Football",
@@ -700,55 +747,6 @@
       "teams": [
         "germany",
         "greece"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Norway vs Portugal - TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/norway-portugal-nations-league-tv-37706603",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706634.ece/ALTERNATES/s615/1_GettyImages-2296297260.jpg",
-      "summary": "Norway face Portugal as both sides aim to continue their winning form in the Nations League",
-      "teams": [
-        "portugal",
-        "norway"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
-      "title": "Is Israel vs Ireland going ahead? How to watch, TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/israel-ireland-boycott-tv-streaming-37706935",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707071.ece/ALTERNATES/s615/1_GettyImages-2268499768.jpg",
-      "summary": "Israel are set to play Ireland in the Nations League despite threats of a boycott due to political tensions",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "mirror",
-      "title": "Why Ireland players are wearing black armbands against Israel after player vote",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/republic-ireland-black-armbands-israel-37706065",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706075.ece/ALTERNATES/s615/0_Republic-of-Ireland-Press-Conference-Nagyerdei-Stadion.jpg",
-      "summary": "The Republic of Ireland will sport black armbands as they take on Israel in the Nations League on Sunday evening, with a poignant meaning behind the move",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790524800000
-    },
-    {
-      "competition": "echo",
-      "title": "Thomas Tuchel explains Jordan Pickford decision as England boss questioned - 'Why is he not?'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/thomas-tuchel-explains-jordan-pickford-34679094",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34679090.ece/ALTERNATES/s615/0_GettyImages-2297287669jp.jpg",
-      "summary": "England boss Thomas Tuchel preferred Leeds United's James Trafford to Everton hero Jordan Pickford in goal for the Nations League clash with World champions Spain",
-      "teams": [
-        "england"
       ],
       "publishedAt": 1790524800000
     }
