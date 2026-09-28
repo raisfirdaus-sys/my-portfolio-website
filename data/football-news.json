@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790596733215,
+  "generatedAt": 1790596901284,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1502,
-    "tagged": 803,
-    "droppedKeyword": 23,
+    "raw": 1511,
+    "tagged": 812,
+    "droppedKeyword": 24,
     "droppedOtherSport": 1,
     "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United legend Nobby Solano makes history after stepping on to FIFA's big stage",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-legend-nobby-solano-34675581",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676030.ece/ALTERNATES/s615/0_Bramble2jpeg.jpg",
+      "summary": "The former Newcastle winger is hoping to make some history with Pakistan after linking up with ex-Toon team-mate Titus Bramble",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790596800000
+    },
     {
       "competition": "footlondon",
       "title": "Chelsea's transfer stance on Estevao Willian revealed after Barcelona links emerge",
@@ -741,18 +753,6 @@
         "germany"
       ],
       "publishedAt": 1790581002000
-    },
-    {
-      "competition": "mirror",
-      "title": "Bernardo Silva gives blunt response to Martin Odegaard fury after Arsenal star injured",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/martin-odegaard-injury-arsenal-news-37708604",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37708605.ece/ALTERNATES/s615/0_odegaard2.jpg",
-      "summary": "Martin Odegaard was left furious after being on the end of a nasty challenge by Bernardo Silva during Norway's defeat to Portugal on Sunday",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790580642000
     }
   ]
 }
