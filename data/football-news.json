@@ -1,17 +1,54 @@
 {
-  "generatedAt": 1790613805273,
+  "generatedAt": 1790614507675,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1510,
+    "raw": 1511,
     "tagged": 804,
-    "droppedKeyword": 19,
+    "droppedKeyword": 20,
     "droppedOtherSport": 1,
-    "droppedFeed": 8,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "How to watch Northern Ireland vs Hungary for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/northern-ireland-hungary-tv-streaming-37708696",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708726.ece/ALTERNATES/s615/0_GettyImages-2297118238.jpg",
+      "summary": "Northern Ireland are set to face Hungary in the UEFA Nations League",
+      "teams": [
+        "nireland",
+        "hungary"
+      ],
+      "publishedAt": 1790613900000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Punishment latest as 115 charges verdict decided",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37708536.ece/ALTERNATES/s615/0_Manchester-City-v-Huddersfield-Town-Emirates-FA-Cup-Third-Round.jpg",
+      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process as their Premier League rivals continue to consider action",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790613789000
+    },
+    {
+      "competition": "mirror",
+      "title": "Premier League owner speaks out on Man City charges verdict - 'No different to doping'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-hull-ilicali-37711780",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37499921.ece/ALTERNATES/s615/0_GettyImages-2265248568.jpg",
+      "summary": "Acun Ilicali, the owner of Hull City, has had his say on the news that Manchester City have been found guilty of the majority of charges laid against them by the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790613627000
+    },
     {
       "competition": "mirror",
       "title": "How to watch Turkey vs Italy – TV channel, streaming, kick-off time",
@@ -73,18 +110,6 @@
         "mancity"
       ],
       "publishedAt": 1790611446000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Punishment latest as 115 charges verdict decided",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37708536.ece/ALTERNATES/s615/0_Manchester-City-v-Huddersfield-Town-Emirates-FA-Cup-Third-Round.jpg",
-      "summary": "The latest Manchester City charges news with updates on their potential punishment and appeal process as their Premier League rivals continue to consider action",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790611261000
     },
     {
       "competition": "mirror",
@@ -730,31 +755,6 @@
         "mancity"
       ],
       "publishedAt": 1790595168000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Parma agree deal with Gilardino as Italy World Cup winner set to return as coach",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/parma-agreement-gilardino-italy-return-coach/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/04/Carlos-Cuesta-gesture-414x276.jpg",
-      "summary": "Alberto Gilardino is set to return to Parma as a coach, having reached an agreement...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790595039000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United get Lewis Hall update after 'injury scare' as England release statement",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-lewis-hall-update-34682192",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34681234.ece/ALTERNATES/s615/0_England-Mens-Camp.jpg",
-      "summary": "The Toon star will be on the plane departing for Prague for England's first chance to bounce back from the 3-2 loss against the world champions Spain",
-      "teams": [
-        "newcastle",
-        "england"
-      ],
-      "publishedAt": 1790594890000
     }
   ]
 }
