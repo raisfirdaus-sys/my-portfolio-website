@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790624340887,
+  "generatedAt": 1790624535972,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1488,
-    "tagged": 783,
-    "droppedKeyword": 18,
+    "raw": 1489,
+    "tagged": 789,
+    "droppedKeyword": 17,
     "droppedOtherSport": 0,
-    "droppedFeed": 8,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -23,6 +23,19 @@
         "mancity"
       ],
       "publishedAt": 1790625600000
+    },
+    {
+      "competition": "metro",
+      "title": "Danny Murphy backs Chelsea and Arsenal stars to rival Erling Haaland for Premier League Golden Boot",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/28/danny-murphy-backs-chelsea-arsenal-stars-rival-erling-haaland-premier-league-golden-boot-29660385/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/06/danny-murphy-8c4c.png?w=646",
+      "summary": null,
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790624466000
     },
     {
       "competition": "mirror",
@@ -735,18 +748,6 @@
         "italy"
       ],
       "publishedAt": 1790605200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Estevao Willian has already told Xabi Alonso his favourite position with Chelsea stance clear",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/estevao-willian-already-told-xabi-34683018",
-      "image": "https://i2-prod.football.london/incoming/article34295425.ece/ALTERNATES/s615/0_GettyImages-2284877971.jpg",
-      "summary": "Xabi Alonso could be forced to change the Chelsea formation soon, with Estevao Willian keen to return to his 'original position' in a 'few years'.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790604858000
     }
   ]
 }
