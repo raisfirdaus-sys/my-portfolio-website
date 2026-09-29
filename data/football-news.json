@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790672198427,
+  "generatedAt": 1790672369809,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1507,
-    "tagged": 795,
-    "droppedKeyword": 18,
+    "raw": 1506,
+    "tagged": 794,
+    "droppedKeyword": 17,
     "droppedOtherSport": 0,
     "droppedFeed": 5,
     "blocklistDistrusted": false,
-    "withImage": 53
+    "withImage": 54
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Agent makes Kayode transfer prediction after goal on Italy debut",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/agent-kayode-transfer-prediction-goal-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-slide-414x276.jpg",
+      "summary": "Michael Kayode scored on his Italy debut on Monday, and his agent feels the Brentford...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790672331000
+    },
     {
       "competition": "footlondon",
       "title": "Viktor Gyokeres sends Arsenal reminder to Mikel Arteta after Kai Havertz injury scare",
@@ -661,7 +673,7 @@
     {
       "competition": "laliga",
       "title": "Report: La Liga star turned down move to Liverpool in the summer",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQUlYVmhROUxCSGJ2Rl95Z19hVl9SZGtsR3RNRUJNY3M0Z1g0Vk8wcXRSVjBqU3FTdVdJd0l4YmgtVVJNQXpHZ0g5eGlyNkNYWmtEeTVBelBiT2xKMUVpbWVnYjR3ajRRc0ctenljbU9wZTRjT0h5QUJUSWJJTzl2Ug?oc=5",
       "teams": [
         "liverpool"
@@ -672,7 +684,7 @@
     {
       "competition": "laliga",
       "title": "Ramon: Fabregas trying to improve Serie A, Como ‘changed my mindset’",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHp5Vm1SUF9GcHNTdmV4WkpZdjZhZnlBZTJva3g5MnZOamZCTVBaOGhZdXVGX1dtWUpROWZnNU00TUh5NWlRNGhzbldkLVhzaHV4TlkzamZpR2ZUcHBRTHh6Y2c5WkRHTEIxWk9sT1dsRFJkQ05Gc091VFR5NDlxbFh0TDFpY0hEeXdteQ?oc=5",
       "teams": [
         "como"
@@ -692,6 +704,17 @@
       "image": null
     },
     {
+      "competition": "epl",
+      "title": "The story of Man City and 115 charges",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLTZlMm9GTXJISDh4aXFmTDc4ck1BaXpyS1dDbGQtX1hLdF9ZdVNObXRYVWU2SldpMkhsVG56elpSekRfU1VfYkt5cTllbFlTcXJnNXRnT3dQQTJDa1BvNXgwcXBYaWxVaWxtZV9OSk5RWWxaUU5WRGNqNnZ0X2g1dA?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790671164000,
+      "image": null
+    },
+    {
       "competition": "championship",
       "title": "The nightmare scenario at the Etihad: what would Manchester City do if they were expelled from the Premier League?",
       "publisher": "LiveScore",
@@ -705,36 +728,13 @@
     {
       "competition": "unl-a",
       "title": "Liverpool star Jeremy Jacquet delivers honest verdict on France debut",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZTBCeDlZUTc2RHlXMW5MSUFVc2NUeHpxUU1CeWtaQmZMLXZmVmk3N1RxSTFYbkRkbUNrWk1hU1htWmVYRTktR2d3ajFvcmxKOVpub3BhcWZSTU1oTTYzTUlyanhZTll2bEVqM0h4ZVNvNWtIZUhFZkVzc09jLXNMc0d5XzRlX3FONGZJaXctMWs?oc=5",
       "teams": [
         "liverpool",
         "france"
       ],
       "publishedAt": 1790670000000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Manchester United is preparing to battle Arsenal for London star",
-      "publisher": "sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTmtmWjR0cEVNREk0dEkyV1d3UjQyelFjTlppTDlXVVlHejluU2V4NGhJY1dhLTNuQ05RTFM1ZXFtNWNqRlJsRjl1dFpyWGRMT1ZON2VOVGU5UjNUODA3SHlFcnJXcjNzNzR2Zm94YlBtUmRmZmVFeEpHSllPTUZreVduc05VZllFUS1JQzZwdWlOazNHRGc?oc=5",
-      "teams": [
-        "manutd",
-        "arsenal"
-      ],
-      "publishedAt": 1790668800000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Mauricio Pochettino says Manchester City verdict reveals 'period of deceit' as he questions Premier League controls",
-      "publisher": "sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX3otMlBjTU10Q09RaHBVcmkzYXV2Q1ctRXptY2x0YzNNVk9HSEJiVGRlSXRTSWFOS2FOSGlzN3JtLV9fbGFTS1VFX0wzQkoxeDljLTEwSGdIS0JKTkdQOTFGanBGbnJXdkdpbHdoTE9DU096cUNPeE42X0cxRkZHcFpKbm5QcHRUMHU5TnJFX1RqcVE?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790668800000,
       "image": null
     }
   ]
