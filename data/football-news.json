@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1790701242251,
+  "generatedAt": 1790701376358,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1522,
-    "tagged": 810,
-    "droppedKeyword": 22,
+    "raw": 1523,
+    "tagged": 807,
+    "droppedKeyword": 23,
     "droppedOtherSport": 0,
     "droppedFeed": 5,
     "blocklistDistrusted": false,
@@ -14,7 +14,7 @@
   "items": [
     {
       "competition": "indy",
-      "title": "Man City found guilty of majority of 115 charges by Premier League",
+      "title": "Man City found guilty of Premier League charges and ‘overstating income by £830m’",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/man-city-guilty-115-charges-premier-league-b3058443.html",
       "image": "https://static.independent.co.uk/2026/08/21/10/1625713191..?width=1200&auto=webp&crop=3%3A2",
@@ -22,7 +22,32 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790701065000
+      "publishedAt": 1790701231000
+    },
+    {
+      "competition": "mirror",
+      "title": "Why are Declan Rice, Marcus Rashford and Cole Palmer not in England squad vs Czechia?",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/rice-rashford-palmer-england-czechia-37715223",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37715387.ece/ALTERNATES/s615/0_GettyImages-2240186756-copy.jpg",
+      "summary": "England will not be at full strength when they take on Czechia in their second UEFA Naitons League match",
+      "teams": [
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790701200000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges delay explained as commission lay out Premier League timeline",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37715873",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37715918.ece/ALTERNATES/s615/0_JS419651661.jpg",
+      "summary": "Manchester City have been found guilty by the independent commission who have now explained the reason behind the delay",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790701160000
     },
     {
       "competition": "fitalia",
@@ -305,6 +330,18 @@
     },
     {
       "competition": "mirror",
+      "title": "How to watch Czech Republic vs England for free – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/czech-republic-england-channel-stream-37709559",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707024.ece/ALTERNATES/s615/3_GettyImages-2297303362.jpg",
+      "summary": "England will look to bounce back from their defeat against Spain when they take on the Czech Republic",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790697600000
+    },
+    {
+      "competition": "mirror",
       "title": "How to watch Scotland vs Switzerland for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/scotland-switzerland-channel-live-stream-37709820",
@@ -313,18 +350,6 @@
       "teams": [
         "switzerland",
         "scotland"
-      ],
-      "publishedAt": 1790697600000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Czech Republic vs England for free – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/czech-republic-england-channel-stream-37709559",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707024.ece/ALTERNATES/s615/3_GettyImages-2297303362.jpg",
-      "summary": "England will look to bounce back from their defeat against Spain when they take on the Czech Republic",
-      "teams": [
-        "england"
       ],
       "publishedAt": 1790697600000
     },
@@ -719,31 +744,6 @@
         "portugal"
       ],
       "publishedAt": 1790686794000
-    },
-    {
-      "competition": "echo",
-      "title": "Borussia Dortmund star reveals how close he was to joining Liverpool - 'I saw something'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/borussia-dortmund-star-reveals-how-34689133",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34689170.ece/ALTERNATES/s615/0_GettyImages-2264162106.jpg",
-      "summary": "Borussia Dortmund star Daniel Svensson was linked with a move to Liverpool during the summer",
-      "teams": [
-        "dortmund",
-        "liverpool"
-      ],
-      "publishedAt": 1790686590000
-    },
-    {
-      "competition": "mirror",
-      "title": "Wayne Rooney shows his true colours with response to Man City being stripped of titles",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-manchester-united-city-37714357",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37714512.ece/ALTERNATES/s615/0_Screenshot-2026-09-29-at-133323.jpg",
-      "summary": "Manchester United are one of the clubs which could be given an extra Premier League title should Manchester City be stripped of their crowns after being found guilty of financial breaches",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790686232000
     }
   ]
 }
