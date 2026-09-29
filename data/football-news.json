@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1790712527790,
+  "generatedAt": 1790714524275,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1524,
-    "tagged": 824,
-    "droppedKeyword": 23,
+    "raw": 1530,
+    "tagged": 826,
+    "droppedKeyword": 24,
     "droppedOtherSport": 0,
     "droppedFeed": 9,
     "blocklistDistrusted": false,
@@ -13,17 +13,65 @@
   },
   "items": [
     {
+      "competition": "bbc",
+      "title": "Who continues to show how important they are? - England player ratings",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kldr9378o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e69/live/c94a88f0-bc40-11f1-8666-b5dc4bdc94cb.jpg",
+      "summary": "How the England players rated following their Nations League match.",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714386000
+    },
+    {
+      "competition": "indy",
+      "title": "The staggering scale of Manchester City’s rule-breaking leaves the Premier League with only one option",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-punishment-guilty-charges-expulsion-points-deduction-b3058512.html",
+      "image": "https://static.independent.co.uk/2026/09/29/18/955340208..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Found guilty on all but one of more than 100 charges, the club’s behaviour casts doubt over an entire era of football. How, Miguel Delaney asks, can they be allowed to remain in the top flight?",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790714220000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790714119000
+    },
+    {
+      "competition": "indy",
+      "title": "Czech Republic v England LIVE: Kane doubles lead for Three Lions against 10-men Czechs",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Thomas Tuchel’s men lost to the world champions in their Nations League opener but can kickstart their campaign when they face Czech Republic",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714061000
+    },
+    {
       "competition": "guardian",
       "title": "Czechia v England: Nations League football – live",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/live/2026/sep/29/czechia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/dfd726d11a283237ff1acbf635d77c6fa0ebe325/115_0_2453_1961/master/2453.jpg?width=140&quality=85&auto=format&fit=max&s=fa41415dd03a1e63e79db3cf012bfbfb",
+      "image": "https://i.guim.co.uk/img/media/39c485e66909165d977fba458149970f14ec162d/523_473_2813_2249/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04e2bd246cd779a513db6d13ef92e60f",
       "summary": "⚽️ Nations League updates, 7.45pm BST kick-off in Prague⚽️ Live scores | Follow us over on TikTok and InstagramJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity. Was it a…",
       "teams": [
         "czechia",
         "england"
       ],
-      "publishedAt": 1790712306000
+      "publishedAt": 1790714056000
     },
     {
       "competition": "guardian",
@@ -37,19 +85,31 @@
         "scotland",
         "croatia"
       ],
-      "publishedAt": 1790712238000
+      "publishedAt": 1790714020000
     },
     {
-      "competition": "bbc",
-      "title": "Real Madrid considering Van Dijk - Tuesday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kl592vlmo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb3a/live/a8d7f160-bc3c-11f1-b2a0-bf89b710707d.png",
-      "summary": "Real Madrid are waiting for Virgil van Dijk to become a free agent, Bayern Munich offer Michael Olise a long-term contract and are eyeing Barcelona's Jules Kounde.",
+      "competition": "men",
+      "title": "Ian Wright and Roy Keane call for Man City punishment after 'messy' Premier League case",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-wright-keane-34692390",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34692401.ece/ALTERNATES/s615/0_Keane-Wright.jpg",
+      "summary": "Ian Wright and Roy Keane have both given their reaction to the news of Manchester City being found guilty of financial breaches",
       "teams": [
-        "realmadrid"
+        "mancity"
       ],
-      "publishedAt": 1790712161000
+      "publishedAt": 1790713770000
+    },
+    {
+      "competition": "men",
+      "title": "Man Utd transfer push takes new twist as Ruben Amorim intervenes in £38m race",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-utd-transfer-balde-amorim-34692114",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34692214.ece/ALTERNATES/s615/0_JS418707980.jpg",
+      "summary": "Manchester United have been linked with Barcelona star Alejandro Balde but could face competition from Ruben Amorim's current employers",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790712812000
     },
     {
       "competition": "mirror",
@@ -61,7 +121,19 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790712141000
+      "publishedAt": 1790712799000
+    },
+    {
+      "competition": "bbc",
+      "title": "Real Madrid considering Van Dijk - Wednesday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kl592vlmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb3a/live/a8d7f160-bc3c-11f1-b2a0-bf89b710707d.png",
+      "summary": "Real Madrid are waiting for Virgil van Dijk to become a free agent, Bayern Munich offer Michael Olise a long-term contract and are eyeing Barcelona's Jules Kounde.",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790712161000
     },
     {
       "competition": "fitalia",
@@ -78,30 +150,6 @@
       "publishedAt": 1790712000000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790711865000
-    },
-    {
-      "competition": "indy",
-      "title": "Czech Republic v England LIVE: Gordon heads Three Lions into lead against 10-men Czechs",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
-      "image": "https://static.independent.co.uk/2026/09/29/20/01M3QBMF2EVDRABZMZT5433XNE.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Thomas Tuchel’s men lost to the world champions in their Nations League opener but can kickstart their campaign when they face Czech Republic",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790711660000
-    },
-    {
       "competition": "echo",
       "title": "Ian Wright lays into Man City ahead of Liverpool clash with 'broken' Jurgen Klopp message",
       "publisher": "Liverpool Echo",
@@ -113,6 +161,18 @@
         "mancity"
       ],
       "publishedAt": 1790711358000
+    },
+    {
+      "competition": "bbc",
+      "title": "Premier League confirm Man City guilty of all charges - 5 Live reaction",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pd2w9y?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
+      "summary": "Kelly Somers is joined by Dale Johnson, Kieran Maguire, John Murray and Paul Robinson",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790710200000
     },
     {
       "competition": "fitalia",
@@ -240,7 +300,7 @@
       "title": "Redactions and £830m reveal - Everything you need to know about the Man City 115 charges decision",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-guilty-guardiola-34692136",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34692145.ece/ALTERNATES/s615/0_JS419651669.jpg",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34692437.ece/ALTERNATES/s615/0_Manchester-City.jpg",
       "summary": "Manchester City have been found guilty of all but one of their alleged 115 charges in their battle with the Premier League",
       "teams": [
         "mancity"
@@ -683,66 +743,6 @@
         "scotland"
       ],
       "publishedAt": 1790697600000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Czech Republic vs England for free – TV channel, live stream and kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/czech-republic-england-channel-stream-37709559",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37707024.ece/ALTERNATES/s615/3_GettyImages-2297303362.jpg",
-      "summary": "England will look to bounce back from their defeat against Spain when they take on the Czech Republic",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790697600000
-    },
-    {
-      "competition": "echo",
-      "title": "Andoni Iraola could soon unleash new-look Liverpool partnership as supporters all say same thing",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-could-soon-unleash-34691107",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34691144.ece/ALTERNATES/s615/0_Leoni-and-Jacquet.jpg",
-      "summary": "Giovanni Leoni could be about to return to Liverpool team training after suffering an ACL injury last September",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790697600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League drop damning Man City 115 charges verdict as 'sham' contracts called out",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-man-city-statement-37709143",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37709192.ece/ALTERNATES/s615/1_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "The Premier League have released a statement after Man City were found guilty of breaching of financial rules and have revealed 'sham contracts' and that the club inflated their revenues to comply with financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790697479000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland football board urged to resign over ‘shambolic’ handling of Israel games",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-fai-nations-league-gaza-ruth-coppinger-b3058436.html",
-      "image": "https://static.independent.co.uk/2026/09/10/13/0fe4679e39b49946ab433762300b87b3Y29udGVudHNlYXJjaGFwaSwxNzg5MTI5MzQz-2.84260331.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Republic of Ireland opted to play their game against Israel on Sunday, and the two sides are due to face each other again this weekend",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790697286000
-    },
-    {
-      "competition": "mirror",
-      "title": "Why Man City stars signed in £700m rebuild did not insist on relegation clauses - despite 115 charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-haaland-37715457",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37714941.ece/ALTERNATES/s615/0_premium-canvas-1790688680995.png",
-      "summary": "Manchester City have spent some serious cash in recent transfer windows to refresh their playing squad despite the looming threat of their seismic Premier League case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790696399000
     }
   ]
 }
