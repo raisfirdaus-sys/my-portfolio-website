@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790660317669,
+  "generatedAt": 1790660917156,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1501,
-    "tagged": 799,
+    "raw": 1502,
+    "tagged": 805,
     "droppedKeyword": 15,
     "droppedOtherSport": 0,
     "droppedFeed": 4,
     "blocklistDistrusted": false,
-    "withImage": 48
+    "withImage": 47
   },
   "items": [
     {
@@ -22,7 +22,7 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790660258000
+      "publishedAt": 1790660676000
     },
     {
       "competition": "indy",
@@ -307,18 +307,6 @@
     },
     {
       "competition": "guardian",
-      "title": "Pochettino: Manchester City verdicts show fans ‘lived through an era of deception’",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/28/pochettino-manchester-city-verdict-tottenham-chelsea-southampton-usmnt",
-      "image": "https://i.guim.co.uk/img/media/0a1064ffcf4535c02a2674149129ac76eddaa30f/517_357_1988_1591/master/1988.jpg?width=140&quality=85&auto=format&fit=max&s=0d32870c49df459a070d6106ee890e94",
-      "summary": "US manager says finding right punishment is ‘really hard’Man City found guilty of majority of 100-plus chargesSign up for our free newsletter hereUS men’s national team head coach Mauricio Pochettino expressed dismay at…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790634549000
-    },
-    {
-      "competition": "guardian",
       "title": "Nations League: Olise’s late stunner leads France past Belgium, Italy rout Turkey",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/28/nations-league-belgium-france-turkey-italy-northern-ireland-hungary",
@@ -357,6 +345,18 @@
       "publishedAt": 1790631473000
     },
     {
+      "competition": "seriea",
+      "title": "☀️ Three names for Juve, Milan renewals, Bisseck back! Morning news",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb1JCWjJjbjB4ZnNzX015TGszX2JjT2cweHZHeWJaanNoTm5ZR1NQcHczYmRxXy1taUtVbk5jQVB1UlNBWlNnTk1Na0xyNkxNMGl2ZmhkTWJwa1R0Y2ljU21Da3hoQlZVR0RxeFhYMVFQN2NJYUQwbE9FTDBkdVlGMGhzY3Zod2c?oc=5",
+      "teams": [
+        "acmilan",
+        "juventus"
+      ],
+      "publishedAt": 1790659860000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "Rio Ferdinand takes firm stance over Man Utd and JJ Gabriel - 'Can't be bullied by a young kid!'",
       "publisher": "Mirror Football",
@@ -383,7 +383,7 @@
     {
       "competition": "unl-a",
       "title": "Sports - Nations League: Promising France defeat Belgium thanks to Olise",
-      "publisher": "france24.com",
+      "publisher": "France 24",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDl1R1hFNjd2UTlVeFREeVF1djNsZGtTQXB2MnliSUYwQ1Z5RmdBS0NZTXpVMndtTHZaeDFSakxidUpLZ3lPLUlXeHFJMTVfRjJWb0xiUERuVThhMjZpWHZXLXc0TFRPYmxwNDdGWEVFalMtYlZOS3BLNUR3ZnVvSF9WZkF5YTlvc2s4RVBmcHg5YUR1Z290bXJILVJHVkhNcjJ2ZnQ4anVUMzQ1bmFtWnhR?oc=5",
       "teams": [
         "belgium",
@@ -417,6 +417,17 @@
         "porto"
       ],
       "publishedAt": 1790629844000
+    },
+    {
+      "competition": "ucl",
+      "title": "England v Czech Republic: Czechs prepare for Wembley 30 years after Euro '96",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGRjRhbV8tbW1JWUZCVExpSVRBTlJsckowNzZOMm14alNuMVZTbGl5c2NtQno3akpSZWZEWU1pZ2EwaEN3SEJnNTJ5dnQyd1I5azlSZkxLUEhQLTFzdkhYSG1yUy02RUk?oc=5",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790658625000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -528,21 +539,10 @@
     {
       "competition": "bundesliga",
       "title": "Former boss praises Borussia Dortmund for turning down Said El Mala and \"top investment\"",
-      "publisher": "goal.com",
+      "publisher": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQckhiTlg1YWRiSXNpaW1pemVCbHNaSV9uWjZEaS14ak40eUIyYzhyMi1ZSUl1bExpUkZ5bW9nR2FPaHpLLUE3UFpPSWxxeEp3MlRLUUVNY2JVTXp2VExsTEZyaUxENzV6MUttV2p2d2lKbzBJU2tzVmZZeFFKdHU5SF9fbjFRSWN2NWg4dDYydEFZcVBKSnhuejRXS0h0bjdyclJhQ0ZiOGFZSkxLUTZKc3dhQUJWc19adUhRcDlpS1RUM3pjZUhJMUZLY25HSXRoUUF1QTdOTTNXR3ktTDJReVc4MEVwTERod3NyWW1TcFZiUE1QdF8yMEpyaw?oc=5",
       "teams": [
         "dortmund"
-      ],
-      "publishedAt": 1790655345000,
-      "image": null
-    },
-    {
-      "competition": "ucl",
-      "title": "Bayern Munich news: Uli Hoeneß confirms secret meeting with Pep Guardiola",
-      "publisher": "goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLTZUai1vWXNtMzZDTzFkN1dHa2FobFYzeU1qU29HbHhqR3c2aTZkOWx0WkFpN1dlZFpTamxObzV3XzBCQzNQUE85TS1UXy1PTkFlXzk1bHpfOFlLRkxKQ2NYdlk0WTFtUHdyejkxd1VmNWZNcHc0VUZXLWJHN00ya0Z1dWhUNjFWZjNIQnRMODV1aUZtT3hheU1xWk5wQmJSdno4WU9raE1DY09iS0U2eVlnNVdjWV9KU19vNUJPZFNqd2Z5MVlWeFBZR2tvUE5BTFRHY2xzUDVuRGJHNUNNY0pneU9YczhiZXI3QjRtTGdOX014MEZR?oc=5",
-      "teams": [
-        "bayern"
       ],
       "publishedAt": 1790655345000,
       "image": null
