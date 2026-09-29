@@ -1,20 +1,155 @@
 {
-  "generatedAt": 1790717159588,
+  "generatedAt": 1790726016246,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1528,
-    "tagged": 821,
-    "droppedKeyword": 22,
+    "raw": 1531,
+    "tagged": 823,
+    "droppedKeyword": 20,
     "droppedOtherSport": 0,
-    "droppedFeed": 11,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
+      "competition": "men",
+      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790723922000
+    },
+    {
+      "competition": "bbc",
+      "title": "I'd stick my Man City medals in bin - Keane",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmed7q89vp5no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f828/live/4dd96190-bc55-11f1-8053-53e939fa7624.jpg",
+      "summary": "Roy Keane says he would throw his \"medals in the bin\" if he were a Manchester City player after the club were found guilty of all charges relating to breaches of Premier League financial rules.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790722656000
+    },
+    {
+      "competition": "bbc",
+      "title": "New coach, new players, but same old failings hamper Scotland",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmrl6g9nw5lyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ea0/live/5005de80-bc55-11f1-8053-53e939fa7624.jpg",
+      "summary": "Self-inflicted wounds cost Scotland on Sebastien Pocognoli's Hampden debut, writes Tom English.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790721020000
+    },
+    {
+      "competition": "guardian",
+      "title": "Alexander-Arnold proves his worth to England with trademark assist against Czechia | Jacob Steinberg",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/29/trent-alexander-arnold-england-czechia-thomas-tuchel-nations-league",
+      "image": "https://i.guim.co.uk/img/media/b1619a03687d5a0db8d26bd0069f23c075263641/303_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a891b6ddb3bda90e67c85156bc9c687f",
+      "summary": "The full-back is one of the best passers England has produced: Thomas Tuchel must find a place for him It was the question nobody was asking: could Trent Alexander-Arnold do it against 10 game but limited Czechs on a…",
+      "teams": [
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790720538000
+    },
+    {
+      "competition": "tele",
+      "title": "Lethal Trent Alexander-Arnold sends Tuchel a statement in England victory",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/09/29/czech-republic-vs-england-live-score-latest-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/29/TELEMMGLPICT000505277568_17907152093020_trans_NvBQzQNjv4BqRo0U4xU-30oDveS4pXV-Vv4Xpit_DMGvdp2n7FDd82k.jpeg",
+      "summary": "Lethal Trent Alexander-Arnold sends Tuchel a statement in England victory",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790720382000
+    },
+    {
       "competition": "metro",
-      "title": "Roy Keane tells Man City players to &#8216;stick Premier League medals in the bin&#8217; after guilty verdict",
+      "title": "England captain Harry Kane reacts to Manchester City guilty verdict",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/29/england-captain-harry-kane-reacts-manchester-city-guilty-verdict-29665428/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/GettyImages-2297777334-394f.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790719571000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Premier League's damning statement, 'sham' contracts, City respond",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790718901000
+    },
+    {
+      "competition": "guardian",
+      "title": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/29/nations-league-roundup-lamine-yamal-sinks-croatia-in-spains-world-cup-homecoming",
+      "image": "https://i.guim.co.uk/img/media/29705b8b0897d299a3e38f966ec8451596da100a/149_0_4759_3807/master/4759.jpg?width=140&quality=85&auto=format&fit=max&s=38bc1236b96460fccda42298ea7179b8",
+      "summary": "Teenager scores twice in 4-1 win to boost Ballon d’Or caseSlovenia beat North Macedonia; Faroe Islands hold Moldova Lamine Yamal scored two goals and set up another as Spain hammered Croatia 4-1 on Tuesday in the…",
+      "teams": [
+        "croatia",
+        "spain"
+      ],
+      "publishedAt": 1790718622000
+    },
+    {
+      "competition": "indy",
+      "title": "The staggering scale of Manchester City’s rule-breaking leaves the Premier League with only one option",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-punishment-guilty-charges-expulsion-points-deduction-b3058512.html",
+      "image": "https://static.independent.co.uk/2026/09/29/18/955340208..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Found guilty on all but one of more than 100 charges, the club’s behaviour casts doubt over an entire era of football. How, Miguel Delaney asks, can they be allowed to remain in the top flight?",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790718359000
+    },
+    {
+      "competition": "bbc",
+      "title": "Real Madrid considering Van Dijk - Wednesday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kl592vlmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b12d/live/28463730-bc4d-11f1-a430-4d16ee157c41.png",
+      "summary": "Real Madrid are waiting for Virgil van Dijk to become a free agent, Bayern Munich offer Michael Olise a long-term contract and are eyeing Barcelona's Jules Kounde.",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790718055000
+    },
+    {
+      "competition": "mirror",
+      "title": "Trent Alexander-Arnold has kept up his end of England bargain - but return might be short-lived",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-czechia-alexander-arnold-tuchel-37716554",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716448.ece/ALTERNATES/s615/0_GettyImages-2297228472.jpg",
+      "summary": "CZECH REPUBLIC 0-2 ENGLAND: The Three Lions are off the mark in the Nations League with Trent Alexander-Arnold having laid down a marker to Thomas Tuchel after returning to the squad",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790717160000
+    },
+    {
+      "competition": "metro",
+      "title": "Roy Keane tells Man City players to &#8216;bin&#8217; Premier League medals after guilty verdict",
       "publisher": "Metro",
       "link": "https://metro.co.uk/2026/09/29/roy-keane-tells-man-city-players-stick-premier-league-medals-bin-guilty-verdict-29665398/",
       "image": "https://metro.co.uk/wp-content/uploads/2026/09/roy-keane-7f2d.png?w=646",
@@ -25,29 +160,16 @@
       "publishedAt": 1790717142000
     },
     {
-      "competition": "bbc",
-      "title": "Yamal inspires Spain to homecoming victory over Croatia",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af4/live/a1864ff0-bc47-11f1-a76b-c53c7866f2b5.png",
-      "summary": "Lamine Yamal turns on the style as world champions Spain cruise past Croatia in their first home game since winning the World Cup in July.",
+      "competition": "mirror",
+      "title": "Roy Keane sends brutal 'medals in the bin' message to Man City stars after 115 charges verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/roy-keane-man-city-charges-37716503",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716535.ece/ALTERNATES/s615/0_Keane.jpg",
+      "summary": "Roy Keane has given his verdict on Manchester City being found guilty of financial breaches following a statement released by the Premier League",
       "teams": [
-        "croatia",
-        "spain"
+        "mancity"
       ],
-      "publishedAt": 1790716962000
-    },
-    {
-      "competition": "tele",
-      "title": "Alexander-Arnold helps England to victory over Czech Republic",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/09/29/czech-republic-vs-england-live-score-latest-updates/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/29/TELEMMGLPICT000505277568_17907152093020_trans_NvBQzQNjv4BqRo0U4xU-30oDveS4pXV-Vv4Xpit_DMGvdp2n7FDd82k.jpeg",
-      "summary": "Alexander-Arnold helps England to victory over Czech Republic",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790716866000
+      "publishedAt": 1790717134000
     },
     {
       "competition": "echo",
@@ -60,6 +182,18 @@
         "england"
       ],
       "publishedAt": 1790716577000
+    },
+    {
+      "competition": "indy",
+      "title": "Czech Republic v England LIVE: Anthony Gordon and Harry Kane goals sink 10-man hosts in Nations League",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Czech Republic 0-2 England: England bounced back from defeat to Spain to get their Nations League campaign back on track",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790716515000
     },
     {
       "competition": "indy",
@@ -79,7 +213,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/29/czechia-england-nations-league-match-report",
       "image": "https://i.guim.co.uk/img/media/5d99a2334f99496b4866334caa52d0a40364a3ae/507_0_2588_2071/master/2588.jpg?width=140&quality=85&auto=format&fit=max&s=f6a4b8a73fc7a0e73328397d08b4a7fe",
-      "summary": "Anybody can lose to Spain. But when England did so at Wembley on Saturday, it served to turn the temperature up on on this trip to Czechia, where England have form for finding it difficult. Remember the European…",
+      "summary": "Anybody can lose to Spain. But when England did so at Wembley on Saturday, it served to turn up the temperature for this trip to Czechia. England have form for finding it difficult at this compact stadium. Remember the…",
       "teams": [
         "czechia",
         "england"
@@ -103,7 +237,7 @@
       "title": "The intricate web Man City spun to con the Premier League",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c65y51l3gzq4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d2e/live/5a2e0ea0-bc41-11f1-bc1f-3f186ca4140c.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d3d/live/eb88ad30-bc4e-11f1-b0ee-af1df8a6445f.jpg",
       "summary": "The 40-page document which confirmed Manchester City were found guilty of inflating sponsorship income makes fascinating reading. Here's what it sets out.",
       "teams": [
         "mancity"
@@ -142,7 +276,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/29/scotland-switzerland-nations-league-match-report",
       "image": "https://i.guim.co.uk/img/media/70e149638a54705176ec4e23a611face58821dd8/1464_310_3343_2674/master/3343.jpg?width=140&quality=85&auto=format&fit=max&s=81c2aedde0e9f3a1df51c865fc62a125",
-      "summary": "Switzerland have responded exceptionally well from allegations of capers involving vaccination certificates that threatened to overshadow this international window. Make that six points out of six for Murat Yakin’s…",
+      "summary": "Switzerland have responded exceptionally well after allegations of capers involving vaccination certificates that threatened to overshadow this international window. Make that six points out of six for Murat Yakin’s…",
       "teams": [
         "switzerland",
         "scotland"
@@ -174,20 +308,8 @@
       "publishedAt": 1790714557000
     },
     {
-      "competition": "indy",
-      "title": "Czech Republic v England LIVE: Anthony Gordon and Harry Kane goals sink 10-men hosts in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
-      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Czech Republic 0-2 England: England bounced back from defeat to Spain to get their Nations League campaign back on track",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790714429000
-    },
-    {
       "competition": "bbc",
-      "title": "Who continues to show how important they are? - England player ratings",
+      "title": "Who continues to show how important they are? England player ratings",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kldr9378o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e69/live/c94a88f0-bc40-11f1-8666-b5dc4bdc94cb.jpg",
@@ -214,36 +336,12 @@
       "title": "Anthony Gordon inspires England to victory over 10-man Czech Republic - 5 talking points",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/match-reports/england-czechia-tuchel-goals-highlights-37716161",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716395.ece/ALTERNATES/s615/0_GettyImages-2297767776.jpg",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716395.ece/ALTERNATES/s615/1_GettyImages-2297767776.jpg",
       "summary": "CZECHIA 0-2 ENGLAND: Goals from Anthony Gordon and Harry Kane in Prague saw England get off the mark in their UEFA Nations League group on Tuesday evening",
       "teams": [
         "england"
       ],
       "publishedAt": 1790714247000
-    },
-    {
-      "competition": "indy",
-      "title": "The staggering scale of Manchester City’s rule-breaking leaves the Premier League with only one option",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-punishment-guilty-charges-expulsion-points-deduction-b3058512.html",
-      "image": "https://static.independent.co.uk/2026/09/29/18/955340208..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Found guilty on all but one of more than 100 charges, the club’s behaviour casts doubt over an entire era of football. How, Miguel Delaney asks, can they be allowed to remain in the top flight?",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790714220000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790714119000
     },
     {
       "competition": "men",
@@ -268,30 +366,6 @@
         "manutd"
       ],
       "publishedAt": 1790712812000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Premier League's damning statement, 'sham' contracts, City respond",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790712799000
-    },
-    {
-      "competition": "bbc",
-      "title": "Real Madrid considering Van Dijk - Wednesday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7kl592vlmo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb3a/live/a8d7f160-bc3c-11f1-b2a0-bf89b710707d.png",
-      "summary": "Real Madrid are waiting for Virgil van Dijk to become a free agent, Bayern Munich offer Michael Olise a long-term contract and are eyeing Barcelona's Jules Kounde.",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790712161000
     },
     {
       "competition": "fitalia",
@@ -599,6 +673,18 @@
       "publishedAt": 1790701872000
     },
     {
+      "competition": "guardian",
+      "title": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/29/uswnt-roster-spain-ashley-sanchez-mallory-swanson-naomi-girma",
+      "image": "https://i.guim.co.uk/img/media/03956ee6967201f0ae1b74d45be91a5f2f66d58f/77_0_4551_3641/master/4551.jpg?width=140&quality=85&auto=format&fit=max&s=67db92c999c2f4203d1e4d2f3f9b4358",
+      "summary": "Sanchez, NWSL’s top scorer, returns after years awayNaomi Girma called up despite injury absence for ChelseaMallory Swanson earns recall after Olympic heroicsNaomi Girma and Sam Coffey are returning to the United States…",
+      "teams": [
+        "spain"
+      ],
+      "publishedAt": 1790701216000
+    },
+    {
       "competition": "mirror",
       "title": "Why are Declan Rice, Marcus Rashford and Cole Palmer not in England squad vs Czechia?",
       "publisher": "Mirror Football",
@@ -658,91 +744,6 @@
         "mancity"
       ],
       "publishedAt": 1790700890000
-    },
-    {
-      "competition": "indy",
-      "title": "Manchester City respond to Premier League’s seismic charges verdict",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-115-charges-verdict-response-b3058453.html",
-      "image": "https://static.independent.co.uk/2026/09/29/17/01M3PYVXK86KCP0BNDF6R8KCA5.jpg?width=1200&auto=webp&trim=18%2C0%2C18%2C0",
-      "summary": "The club said it was ‘disappointed and surprised’ by the independent commission’s verdict",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790700625000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League statement in full as Man City found guilty and 'sham' contracts revealed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-statement-full-man-34691910",
-      "image": "https://i2-prod.liverpool.com/incoming/article34691815.ece/ALTERNATES/s615/0_manchester-city-GettyImages-2297281359.jpg",
-      "summary": "The Premier League has released the official verdict on Manchester City's charges case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790700578000
-    },
-    {
-      "competition": "indy",
-      "title": "Premier League statement in full as Man City found guilty of ‘sham’ deals and other charges",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-guilty-premier-league-statement-full-charges-b3058442.html",
-      "image": "https://static.independent.co.uk/2026/09/29/16/55/GettyImages-2182531279.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The Premier League ruled that City were guilty of the majority of the charges brought against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790700518000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Premier League release Man City 115 charges statement as shocking verdict confirmed",
-      "publisher": "football.london",
-      "link": "https://www.football.london/premier-league/man-city-charges-premier-league-34691899",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "Manchester City have also issued a statement expressing their \"disappointment\" and \"surprise\" after being found guilty of 114 of the 115 Premier League financial charges brought against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790700131000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal get fresh Martin Odegaard update as Norway star discusses Bernardo Silva 'revenge'",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-martin-odegaard-injury-34691930",
-      "image": "https://i2-prod.football.london/incoming/article34691925.ece/ALTERNATES/s615/0_GettyImages-2296917586.jpg",
-      "summary": "Arsenal captain Martin Odegaard was unable to train with Norway on Tuesday ahead of their Nations League trip to Wales due to Bernardo Silva's late challenge",
-      "teams": [
-        "arsenal",
-        "norway"
-      ],
-      "publishedAt": 1790700098000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd given Bruno Fernandes injury update as Michael Carrick given fresh headache",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-portugal-bruno-fernandes-37715597",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37715583.ece/ALTERNATES/s615/0_GettyImages-2296359291.jpg",
-      "summary": "Bruno Fernandes missed Portugal’s clash with Norway last week after a persistent issue but the playmaker now appears set to return to contention for his nation ahead of their next game",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790699527000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 115 charges verdict: What have Premier League said about potential punishments?",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-league-punishments-37715772",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37706539.ece/ALTERNATES/s615/2_GettyImages-2293172116.jpg",
-      "summary": "The Premier League have released a bombshell statement concerning Manchester City's 115 charges",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790699484000
     }
   ]
 }
