@@ -1,17 +1,79 @@
 {
-  "generatedAt": 1790714524275,
+  "generatedAt": 1790715391070,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1530,
-    "tagged": 826,
+    "raw": 1535,
+    "tagged": 829,
     "droppedKeyword": 24,
     "droppedOtherSport": 0,
-    "droppedFeed": 9,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/29/scotland-switzerland-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/4f43e5736a4b60a9ad0af8d8929168daa92855b0/152_0_3397_2717/master/3397.jpg?width=140&quality=85&auto=format&fit=max&s=7149d18d674f6612286948ea4f806dae",
+      "summary": "Switzerland have responded exceptionally well from allegations of capers involving vaccination certificates that threatened to overshadow this international window. Make that six points out of six for Murat Yakin’s…",
+      "teams": [
+        "switzerland",
+        "scotland"
+      ],
+      "publishedAt": 1790715107000
+    },
+    {
+      "competition": "indy",
+      "title": "How Trent Alexander-Arnold showed his value in England’s win over the Czech Republic",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-result-score-nations-league-b3058564.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/01M3QC3WA42CT1C8VPB8D5PQZJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Czech Republic 0-2 England: Goals from Anthony Gordon and Harry Kane helped Thomas Tuchel’s side to victory over their 10-man hosts – with their right-back laying on a trademark assist",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714898000
+    },
+    {
+      "competition": "guardian",
+      "title": "Czechia 0-2 England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/sep/29/czechia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/06aa61aa31425c0c58c7c0356c79b9c75bce4e2c/254_161_2946_2357/master/2946.jpg?width=140&quality=85&auto=format&fit=max&s=2d7c0608d6fe1670e8d2ae7d8f867c53",
+      "summary": "⚽️ Nations League updates, 7.45pm BST kick-off in Prague⚽️ Live scores | Follow us over on TikTok and InstagramJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity. Was it a…",
+      "teams": [
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790714883000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Cole Palmer singled out as injured Chelsea star branded a 'victim' in clear message to FIFA",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/cole-palmer-chelsea-england-injury-34691803",
+      "image": "https://i2-prod.football.london/incoming/article34691518.ece/ALTERNATES/s615/0_GettyImages-2295364906.jpg",
+      "summary": "Cole Palmer is a victim of the football calendar, according to Professional Footballers’ Association chief executive Maheta Molango. The PFA boss has come out in defence of the Chelsea star after he pulled out of…",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790714557000
+    },
+    {
+      "competition": "indy",
+      "title": "Czech Republic v England LIVE: Anthony Gordon and Harry Kane goals sink 10-men hosts in Nations League",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Czech Republic 0-2 England: England bounced back from defeat to Spain to get their Nations League campaign back on track",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714429000
+    },
     {
       "competition": "bbc",
       "title": "Who continues to show how important they are? - England player ratings",
@@ -23,6 +85,30 @@
         "england"
       ],
       "publishedAt": 1790714386000
+    },
+    {
+      "competition": "mirror",
+      "title": "England player ratings vs Czech Republic as Anthony Gordon and 7/10 stars send message to Thomas Tuchel",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-czech-republic-goals-highlights-37716271",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716326.ece/ALTERNATES/s615/0_GettyImages-2297244012.jpg",
+      "summary": "CZECH REPUBLIC 0-2 ENGLAND: Second half goals from Anthony Gordon and Harry Kane proved to be enough to give Thomas Tuchel's side a welcome and deserved victory in Prague",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714278000
+    },
+    {
+      "competition": "mirror",
+      "title": "Anthony Gordon inspires England to victory over 10-man Czech Republic - 5 talking points",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-czechia-tuchel-goals-highlights-37716161",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716395.ece/ALTERNATES/s615/0_GettyImages-2297767776.jpg",
+      "summary": "CZECHIA 0-2 ENGLAND: Goals from Anthony Gordon and Harry Kane in Prague saw England get off the mark in their UEFA Nations League group on Tuesday evening",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790714247000
     },
     {
       "competition": "indy",
@@ -47,45 +133,6 @@
         "mancity"
       ],
       "publishedAt": 1790714119000
-    },
-    {
-      "competition": "indy",
-      "title": "Czech Republic v England LIVE: Kane doubles lead for Three Lions against 10-men Czechs",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
-      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Thomas Tuchel’s men lost to the world champions in their Nations League opener but can kickstart their campaign when they face Czech Republic",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790714061000
-    },
-    {
-      "competition": "guardian",
-      "title": "Czechia v England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/29/czechia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/39c485e66909165d977fba458149970f14ec162d/523_473_2813_2249/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04e2bd246cd779a513db6d13ef92e60f",
-      "summary": "⚽️ Nations League updates, 7.45pm BST kick-off in Prague⚽️ Live scores | Follow us over on TikTok and InstagramJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity. Was it a…",
-      "teams": [
-        "czechia",
-        "england"
-      ],
-      "publishedAt": 1790714056000
-    },
-    {
-      "competition": "guardian",
-      "title": "Scotland v Switzerland, Spain v Croatia, and more: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/29/scotland-v-switzerland-spain-v-croatia-and-more-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/70e149638a54705176ec4e23a611face58821dd8/2044_777_2745_2196/master/2745.jpg?width=140&quality=85&auto=format&fit=max&s=01acd13e80f03d24f2273eda96b1d4ca",
-      "summary": "⚽️ Nations League updates from the 7.45pm BST kick-offs⚽️ Live scores | Follow Czechia v England | And mail TahaIt takes the golden boy just seconds. Spain work it from left to right, the ball finding Lamine Yamal by…",
-      "teams": [
-        "switzerland",
-        "scotland",
-        "croatia"
-      ],
-      "publishedAt": 1790714020000
     },
     {
       "competition": "men",
@@ -694,55 +741,6 @@
         "mancity"
       ],
       "publishedAt": 1790698676000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League chief breaks silence on Man City's 'systematic' and 'decade-long' rule breaking",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/richard-masters-man-city-statement-37715757",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37715765.ece/ALTERNATES/s615/0_JS419202771.jpg",
-      "summary": "The Premier League have released a statement confirming Manchester City's guilty verdict with the top-flight club responding",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790698503000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City guilty over Premier League charges after £900m of ‘sham’ contracts",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/29/manchester-city-found-guilty-all-premier-league-charges-rule-breaches",
-      "image": "https://i.guim.co.uk/img/media/8d3c9ebdd24f27bc803f2d1d82d256b52d187dd4/935_0_7217_5774/master/7217.jpg?width=140&quality=85&auto=format&fit=max&s=864a6b0f4d4944d7835d8baa30338695",
-      "summary": "Commission: club broke rules over nine-season periodCity will appeal against verdict before Friday deadlineThe Premier League has confirmed Manchester City have been found guilty of all charges of breaching its…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790697921000
-    },
-    {
-      "competition": "guardian",
-      "title": "Wayne Rooney says Manchester City should not be stripped of titles for rules breach",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/29/wayne-rooney-manchester-city-united-premier-league-titles-breaching-financial-rules",
-      "image": "https://i.guim.co.uk/img/media/6a1a6f592023067f2a2fa28919225d01a17d6a3e/470_129_4842_3871/master/4842.jpg?width=140&quality=85&auto=format&fit=max&s=5da2b1ccaca7290d1b9c5e0b8c1319b9",
-      "summary": "‘I wouldn’t feel comfortable … I don’t think we deserved it’Manchester United finished second to City in 2011-12Wayne Rooney does not believe it would be appropriate for Manchester City to be stripped of titles for…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790697874000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Scotland vs Switzerland for free – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/scotland-switzerland-channel-live-stream-37709820",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37709891.ece/ALTERNATES/s615/1_Slovenia-v-Scotland-UEFA-Nations-League-League-Phase-Group-B1-Stadion-Stozice.jpg",
-      "summary": "Sebastien Pocognoli is seeking his first win as Scotland boss as he makes his Hampden Park debut against Switzerland in the UEFA Nations League",
-      "teams": [
-        "switzerland",
-        "scotland"
-      ],
-      "publishedAt": 1790697600000
     }
   ]
 }
