@@ -1,23 +1,110 @@
 {
-  "generatedAt": 1790715391070,
+  "generatedAt": 1790716961540,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1535,
-    "tagged": 829,
-    "droppedKeyword": 24,
+    "raw": 1531,
+    "tagged": 821,
+    "droppedKeyword": 22,
     "droppedOtherSport": 0,
-    "droppedFeed": 8,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
+      "competition": "tele",
+      "title": "Alexander-Arnold helps England to victory over Czech Republic",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/09/29/czech-republic-vs-england-live-score-latest-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/09/29/TELEMMGLPICT000505277568_17907152093020_trans_NvBQzQNjv4BqRo0U4xU-30oDveS4pXV-Vv4Xpit_DMGvdp2n7FDd82k.jpeg",
+      "summary": "Alexander-Arnold helps England to victory over Czech Republic",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790716866000
+    },
+    {
+      "competition": "indy",
+      "title": "Trent Alexander-Arnold reveals Anthony Gordon message that created goal on England return",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/trent-alexander-arnold-anthony-gordon-england-czech-republic-b3058609.html",
+      "image": "https://static.independent.co.uk/2026/09/29/22/2026-09-29T195243Z_893266554_UP1EM9T1J7TAS_RTRMADP_3_SOCCER-UEFANATIONS-CZE-ENG.JPG?width=1200&auto=webp&trim=0%2C19%2C0%2C19",
+      "summary": "The right-back celebrated his first appearance under Thomas Tuchel by setting up Gordon’s opener",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790716395000
+    },
+    {
+      "competition": "guardian",
+      "title": "Gordon and Kane fire England to Nations League victory against 10-man Czechia",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/29/czechia-england-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/5d99a2334f99496b4866334caa52d0a40364a3ae/507_0_2588_2071/master/2588.jpg?width=140&quality=85&auto=format&fit=max&s=f6a4b8a73fc7a0e73328397d08b4a7fe",
+      "summary": "Anybody can lose to Spain. But when England did so at Wembley on Saturday, it served to turn the temperature up on on this trip to Czechia, where England have form for finding it difficult. Remember the European…",
+      "teams": [
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790715539000
+    },
+    {
+      "competition": "mirror",
+      "title": "Anthony Gordon cements spot as England mainstay as Thomas Tuchel gets exactly what he needed",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-czech-republic-anthony-gordon-37716446",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716465.ece/ALTERNATES/s615/0_GettyImages-2297766446.jpg",
+      "summary": "CZECH REPUBLIC 0-2 ENGLAND: Anthony Gordon was once again England's main man as he set the Three Lions on their way to a much-needed victory in Prague on Tuesday night",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790715509000
+    },
+    {
+      "competition": "bbc",
+      "title": "The intricate web Man City spun to con the Premier League",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c65y51l3gzq4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d2e/live/5a2e0ea0-bc41-11f1-bc1f-3f186ca4140c.jpg",
+      "summary": "The 40-page document which confirmed Manchester City were found guilty of inflating sponsorship income makes fascinating reading. Here's what it sets out.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790715497000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal icon Ian Wright calls for Man City punishment after 'industrial scale' cheating",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/man-city-ian-wright-charges-34692443",
+      "image": "https://i2-prod.football.london/incoming/article34692444.ece/ALTERNATES/s615/0_Wright-3.jpg",
+      "summary": "Manchester City have been found guilty of all but one of 115 financial breaches by an independent commission, as Arsenal legend Ian Wright calls for an 'unprecedented' punishment",
+      "teams": [
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790715493000
+    },
+    {
+      "competition": "indy",
+      "title": "10-man Scotland made to pay by Switzerland as worrying streak continues",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/scotland-switzerland-result-score-nations-league-b3058594.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/01M3Q8VNAKPBTMCV8N02NYSVV1.jpg?width=1200&auto=webp&trim=0%2C134%2C0%2C134",
+      "summary": "Scotland 0-3 Switzerland: Jack Hendry was sent off just 11 minutes in as the Scots failed to register for a fourth straight game",
+      "teams": [
+        "switzerland",
+        "scotland"
+      ],
+      "publishedAt": 1790715420000
+    },
+    {
       "competition": "guardian",
       "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/29/scotland-switzerland-nations-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/4f43e5736a4b60a9ad0af8d8929168daa92855b0/152_0_3397_2717/master/3397.jpg?width=140&quality=85&auto=format&fit=max&s=7149d18d674f6612286948ea4f806dae",
+      "image": "https://i.guim.co.uk/img/media/70e149638a54705176ec4e23a611face58821dd8/1464_310_3343_2674/master/3343.jpg?width=140&quality=85&auto=format&fit=max&s=81c2aedde0e9f3a1df51c865fc62a125",
       "summary": "Switzerland have responded exceptionally well from allegations of capers involving vaccination certificates that threatened to overshadow this international window. Make that six points out of six for Murat Yakin’s…",
       "teams": [
         "switzerland",
@@ -36,19 +123,6 @@
         "england"
       ],
       "publishedAt": 1790714898000
-    },
-    {
-      "competition": "guardian",
-      "title": "Czechia 0-2 England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/sep/29/czechia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/06aa61aa31425c0c58c7c0356c79b9c75bce4e2c/254_161_2946_2357/master/2946.jpg?width=140&quality=85&auto=format&fit=max&s=2d7c0608d6fe1670e8d2ae7d8f867c53",
-      "summary": "⚽️ Nations League updates, 7.45pm BST kick-off in Prague⚽️ Live scores | Follow us over on TikTok and InstagramJames Trafford looks genuinely affronted. The Leeds goalkeeper’s reaction borders on incredulity. Was it a…",
-      "teams": [
-        "czechia",
-        "england"
-      ],
-      "publishedAt": 1790714883000
     },
     {
       "competition": "footlondon",
@@ -669,78 +743,6 @@
         "mancity"
       ],
       "publishedAt": 1790699171000
-    },
-    {
-      "competition": "indy",
-      "title": "What happens next after Man City found guilty of majority of 115 Premier League charges?",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-appeal-premier-league-charges-b3058438.html",
-      "image": "https://static.independent.co.uk/2023/06/30/11/21998612167d1ae5950ea9081c92809aY29udGVudHNlYXJjaGFwaSwxNjg4MjA1MzA1-2.71710227.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Manchester City have indicated that they will appeal the decision",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790699043000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League and Man City at war as full 115 guilty verdicts published",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-man-city-war-34691805",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34691784.ece/ALTERNATES/s615/0_GettyImages-2293546261.jpg",
-      "summary": "Manchester City and the Premier League strongly disagree over the findings of an independent panel in the 115 hearing",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790698961000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City 'disappointed and surprised' by Premier League 115 charges bombshell",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-premier-league-charges-37715763",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37715806.ece/ALTERNATES/s615/0_JS396068153.jpg",
-      "summary": "Manchester City have responded to the Premier League issuing a statement about the 115 charges brought against the club",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790698893000
-    },
-    {
-      "competition": "metro",
-      "title": "Man City respond as Premier League confirm guilty verdict over financial breaches",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/29/man-city-respond-premier-league-confirm-guilty-verdict-financial-breaches-29665043/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_223036225-a1c7.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790698818000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea get share of £27m UEFA prize pot as Xabi Alonso eyes January transfer window boost",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/chelsea-share-27m-uefa-prize-34690714",
-      "image": "https://i2-prod.football.london/incoming/article34515789.ece/ALTERNATES/s615/0_GettyImages-2291886312.jpg",
-      "summary": "Chelsea could fund the signing of a new midfielder in the January transfer window with the latest the compensation package paid by UEFA.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790698770000
-    },
-    {
-      "competition": "echo",
-      "title": "Premier League release Man City 115 charges statement as bombshell verdict delivered",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/premier-league-release-man-city-34691707",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34691784.ece/ALTERNATES/s615/0_GettyImages-2293546261.jpg",
-      "summary": "Manchester City have been found guilty of all charges related to serious breaches of the Premier League’s financial rules over a nine-season period",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790698676000
     }
   ]
 }
