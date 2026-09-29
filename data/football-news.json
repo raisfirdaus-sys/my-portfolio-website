@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790648174091,
+  "generatedAt": 1790648782274,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1490,
-    "tagged": 797,
+    "raw": 1491,
+    "tagged": 794,
     "droppedKeyword": 15,
     "droppedOtherSport": 0,
     "droppedFeed": 6,
     "blocklistDistrusted": false,
-    "withImage": 57
+    "withImage": 54
   },
   "items": [
     {
@@ -469,6 +469,18 @@
       "publishedAt": 1790619085000
     },
     {
+      "competition": "laliga",
+      "title": "What Anthony Gordon Found at Barcelona After Leaving England",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX1VteW5yamNMS0JMQXhUbVJ5WTBpeHhXVURyR2dIcHdZZDZ2eldQalY4N3VlTXdoazlTdWNiTjBhVWtleHROQWxIdGdyUVowbF9fSlZtYVJHLVFfbTdWUFVnc09sbkhFRHlDcGUyaC1pWVpMQ2lYOWtBU0tJRm02SnhHbm1DYmkyWVFZQ3B4RmtjYi1mejhkMFJ1Z1RnOFhHcnplaUZyZ2I4aGdiZzdLdXVVeGFfU0JxWllzVWkxeHppNmIwUkdQSTlOZmVlbk9oaGQwUklNZGtBRVNaclViNjJERQ?oc=5",
+      "teams": [
+        "barcelona",
+        "england"
+      ],
+      "publishedAt": 1790647800000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Lewis Hall issues fitness update as Newcastle United pair set to go head to head",
       "publisher": "Chronicle Live",
@@ -552,6 +564,17 @@
       "publishedAt": 1790617107000
     },
     {
+      "competition": "transfer",
+      "title": "Liverpool transfer news, rumours and gossip: Live updates and latest on deals, signings, loans and contracts",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQN0xSQ1gwWDFfSVQyZUU2Ul8zaEplajRXbkN4bWFxNW9rMkNmbWFMQmxfWWpMemdnV0h6VGdzQnZaY0pFQ2xIVEV2RDNvcVN0TS1LZ2tHbEZKeDV4RFpOcTRHRlBGdjZhVXpfdHJPUGVfd04tckg3Q2pDWW1CdHNjS3psSGRtSlZ2cUREdzR2SXRZWjlBT0I1WTdVeFpWbUtVSkJYWkhVMmxUcTBwelR1NlNETUhjakFxYkdja0dUMmVHWFhfRTdfcG4yZVlvbnhNbTRNY2YyV1llY25qdVhybGh2eFh1T2J4SnpzU0FKcw?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790644581000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Newcastle United's £23m transfer masterstroke, but big spending yet to pay off",
       "publisher": "Chronicle Live",
@@ -622,6 +645,17 @@
         "mancity"
       ],
       "publishedAt": 1790613627000
+    },
+    {
+      "competition": "transfer",
+      "title": "Man Utd transfer news LIVE: Baleba 'PASSES' medical with announcement IMMINENT",
+      "publisher": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmw1cC1VWUlLeG1BdXJ1U2wtV2ZadHRhNFdRLTJ3UUwzbmNMNVZNZWtYMkI5cTgtM0VYOEVpdGtMeC1Jd0xLdDk2SnNIejlyQnBMZGV4WE92N1JMTHJwd3ZiWTRsTUdQamFFWVEtWW9faFFwcFpIWmcxU2piOVpZQnpIT2tEU2ZQSTh2WGFqX2VsdThPMElaUHNLMlE?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790642099000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -700,7 +734,7 @@
     {
       "competition": "seriea",
       "title": "Cesc Fabregas has ‘Barcelona clause’ in his Como contract",
-      "publisher": "sports.yahoo.com",
+      "publisher": "Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS21PMXZjaDM4WXNtRWtJeEpWWVdJYWtVTlM4Vk1yYjlxLVU1T0hERFJYRFI3NkUzMW15N2RaSDFKVTlCMVhSc0lOREdtSDFfUnhfRnMtbUoxTmhrS05hMFJkZW55SUVTR3NqZnJVUXg2VE9aWm1yZFladTUtSTlmOVlaalE3aGdON0o0Yg?oc=5",
       "teams": [
         "barcelona",
@@ -708,44 +742,6 @@
       ],
       "publishedAt": 1790640000000,
       "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Belgium vs France – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/belgium-france-tv-channel-stream-37708731",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37708730.ece/ALTERNATES/s615/0_GettyImages-2296492385.jpg",
-      "summary": "Belgium host France in the Nations League on Monday night",
-      "teams": [
-        "belgium",
-        "france"
-      ],
-      "publishedAt": 1790611200000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League owner speaks out about Man City charges - 'this is financial doping'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-owner-speaks-out-34683933",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34683924.ece/ALTERNATES/s615/0_GettyImages-2290197426.jpg",
-      "summary": "Hull City owner Acun Ilıcalı has offered his verdict on Man City's 115 case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790611200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United points recount after Man City's 114 charges 'impacted' former Toon supremo",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-points-recount-after-34680739",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article16998220.ece/ALTERNATES/s615/0_280919Pardew1.jpg",
-      "summary": "Newcastle United finished in fifth place in 2012 - but Alan Pardew reckons it could have been a bigger prize for Man City",
-      "teams": [
-        "newcastle",
-        "mancity"
-      ],
-      "publishedAt": 1790611200000
     }
   ]
 }
