@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790639883477,
+  "generatedAt": 1790647885449,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1495,
-    "tagged": 799,
-    "droppedKeyword": 15,
+    "raw": 1491,
+    "tagged": 797,
+    "droppedKeyword": 14,
     "droppedOtherSport": 0,
-    "droppedFeed": 6,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 59
+    "withImage": 57
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "What Alisson Becker has been doing in international break as Liverpool future remains uncertain",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-alisson-becker-been-doing-34684263",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34684270.ece/ALTERNATES/s615/0_Alisson-international-break.jpg",
+      "summary": "Liverpool goalkeeper Alisson Becker was a surprise omission from the Brazil squad during the September/October international break",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790640000000
+    },
     {
       "competition": "guardian",
       "title": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
@@ -505,6 +517,17 @@
       "publishedAt": 1790617835000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City's Premier League charges: What comes next?",
+      "publisher": "Yahoo News Singapore",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSVNSZkIxbm1pZlNxZHpkX1dSU0NFMmh2T1dtZXpkYjg1cDN3UkxEc1FMYkE2dXlZM1FkenpkWVlaSUdlY0ZxRDU5VmNEMHRFN2ctMENzZ1J0UmFyLXRTd21mdnZuQ05RUWZSdTlVa2pRS1R4bldQN1g3TGZQWTVKOWpNdW05T2c?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790646600000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Nations League official line-ups: Turkiye vs. Italy",
       "publisher": "Football Italia",
@@ -539,6 +562,17 @@
         "newcastle"
       ],
       "publishedAt": 1790614800000
+    },
+    {
+      "competition": "epl",
+      "title": "Mauricio Pochettino speaks on Manchester City being found guilty on EPL charges",
+      "publisher": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGgyOHgtVm00b0taM0JleENZLUUxZFVFNGtrcEp1am5KODliald3ZjBWWVpzTlM0NjN1X0pMSXJwLVVGenc1VHpUcDJIeDU1VGlaWndGcmZDRWRGWDRPZ3ZFbkxpX25HTWJxT1ZDYUxjeWtZdkRYMklTQzlEdl9uellvTFd0V2lWSEVJc0dZT1hDcy1GWG9BOW10SlAycGtFVWxyY3RmNUowLU9RQ1Jqb0hzcWQ2VFpScUJLQUJxY1l2LTdxdHFHOHdHT0IyUQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790643480000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -664,6 +698,18 @@
       "publishedAt": 1790611446000
     },
     {
+      "competition": "seriea",
+      "title": "Cesc Fabregas has ‘Barcelona clause’ in his Como contract",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS21PMXZjaDM4WXNtRWtJeEpWWVdJYWtVTlM4Vk1yYjlxLVU1T0hERFJYRFI3NkUzMW15N2RaSDFKVTlCMVhSc0lOREdtSDFfUnhfRnMtbUoxTmhrS05hMFJkZW55SUVTR3NqZnJVUXg2VE9aWm1yZFladTUtSTlmOVlaalE3aGdON0o0Yg?oc=5",
+      "teams": [
+        "barcelona",
+        "como"
+      ],
+      "publishedAt": 1790640000000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "How to watch Belgium vs France – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
@@ -700,54 +746,6 @@
         "mancity"
       ],
       "publishedAt": 1790611200000
-    },
-    {
-      "competition": "guardian",
-      "title": "Israel captain stokes feud by saying ‘our country is 10 times better than Ireland’",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/28/israel-captain-manor-solomon-feud-republic-ireland-gaza-nations-league",
-      "image": "https://i.guim.co.uk/img/media/e4b7d9c4cf62149c0530cf8b8143eb0b02e37035/122_757_2175_1740/master/2175.jpg?width=140&quality=85&auto=format&fit=max&s=4d55666e7e2dc96abdc6668d6fe9d369",
-      "summary": "Manor Solomon angry at Ireland’s stance over Gaza‘They hate us and we don’t like them’Manor Solomon claimed Israel was “10 times better” than Ireland as fallout intensified from their Nations League match and stated…",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790610918000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Germany 0-1 Greece",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkx5TkR0ek5qU0U1UGdyTVpiS2RWdElFMHZqUDNGMlFaZTF1RmRmVXA5WFhVY2gtRHJvWHd4Tk5wV2pVeWRHS1ZPOVI5dnVKTHdUZVZJX0NGOW15Si0tQmNJbmxSQ3VZOXRjX2FRLV84V2k4a1VocXhRc2FoUGdZNmU3eTNnSi16RXBLTjJJVlNveXBuOElrN05tOVlUVHItTHJTMDdGeTRDRkFUempNOWc4S0xoNmY5bWJWaWhaWXZRS2djeGphZEdkR3hpMENlQ2hhUQ?oc=5",
-      "teams": [
-        "germany",
-        "greece"
-      ],
-      "publishedAt": 1790639684000,
-      "image": null
-    },
-    {
-      "competition": "echo",
-      "title": "Injury expert gives Cody Gakpo timeframe as statement issued on Liverpool star",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-injury-liverpool-news-34684323",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34684726.ece/ALTERNATES/s615/0_Gakpo.jpg",
-      "summary": "Cody Gakpo is expected to miss a period after picking up an ankle injury with the Netherlands which has seen him return to Liverpool early",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790610586000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League recommendation decision emerges before Man City sanction hearing",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34684714",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34684692.ece/ALTERNATES/s615/0_GettyImages-2278255620.jpg",
-      "summary": "Manchester City face a sanctions hearing in the coming weeks to decide punishments imposed for the Premier League charges they are expected to be found guilty of",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790610083000
     }
   ]
 }
