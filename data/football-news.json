@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790681631408,
+  "generatedAt": 1790681802698,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 797,
+    "raw": 1518,
+    "tagged": 799,
     "droppedKeyword": 19,
     "droppedOtherSport": 0,
     "droppedFeed": 7,
@@ -12,6 +12,18 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City must face 'strictest punishment' on 115 charges insists league chief",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-punishment-34689065",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34689074.ece/ALTERNATES/s615/0_GettyImages-2284293696.jpg",
+      "summary": "La Liga President Javier Tebas has given his verdict on Manchester City's charges decision",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790681371000
+    },
     {
       "competition": "mirror",
       "title": "Liverpool stars singled out and booed as Dominik Szoboszlai branded 'evil' on Hungary duty",
@@ -466,18 +478,6 @@
         "mancity"
       ],
       "publishedAt": 1790673117000
-    },
-    {
-      "competition": "bbc",
-      "title": "Wales without seven players for World Cup play-off",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61a5/live/64b762b0-bb4a-11f1-a071-65d2e11c8f4a.jpg",
-      "summary": "Ceri Holland is one of seven players who will miss out through injury when a depleted Wales squad take on Albania in their Women's World Cup play-off semi-final next month.",
-      "teams": [
-        "wales"
-      ],
-      "publishedAt": 1790672403000
     },
     {
       "competition": "footlondon",
