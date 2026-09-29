@@ -1,17 +1,496 @@
 {
-  "generatedAt": 1790672369809,
+  "generatedAt": 1790681631408,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1506,
-    "tagged": 794,
-    "droppedKeyword": 17,
+    "raw": 1516,
+    "tagged": 797,
+    "droppedKeyword": 19,
     "droppedOtherSport": 0,
-    "droppedFeed": 5,
+    "droppedFeed": 7,
     "blocklistDistrusted": false,
-    "withImage": 54
+    "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Liverpool stars singled out and booed as Dominik Szoboszlai branded 'evil' on Hungary duty",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-szoboszlai-kerkez-northern-ireland-37713916",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37713935.ece/ALTERNATES/s615/0_GettyImages-2297611497.jpg",
+      "summary": "Dominik Szoboszlai and Milos Kerkez were met with a cacophony of boos whilst representing Hungary in the Nations League on Monday evening",
+      "teams": [
+        "liverpool",
+        "hungary"
+      ],
+      "publishedAt": 1790681269000
+    },
+    {
+      "competition": "indy",
+      "title": "Czech Republic v England betting tips: Predictions, odds and line-ups",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-betting-tips-predictions-odds-b3058125.html",
+      "image": "https://static.independent.co.uk/2026/09/29/11/01M3MKVY8EA61S9FENZPC7XG0Y.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Follow our football betting tips as England face the Czech Republic in Prague",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790680641000
+    },
+    {
+      "competition": "fitalia",
+      "title": "New San Siro: Milan and Inter urged to unveil stadium rendering",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/new-san-siro-milan-inter-urge-unveil-rendering/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/San-Siro-outside.jpg",
+      "summary": "Milan Mayor Beppe Sala urges Inter and Milan to unveil their new stadium rendering very...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790680575000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Zidane hands Diouf a new role for France: ‘I enjoy playing in my normal position’",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/zidane-hands-diouf-a-new-role-for-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Andy-Diouf-Marc-Cucurella.jpg",
+      "summary": "Andy Diouf is fast becoming a utility player for France and Inter, as Zinedine Zidane...",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790680565000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Unai Emery tipped to help £65m star answer Aston Villa 'question mark'",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-nicolas-jackson-emery-34688775",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34688821.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-Premier-League-Football-Tottenham-Hotspur-Stadium-London-UK-1.jpg",
+      "summary": "Aston Villa signed Nicolas Jackson from Chelsea and the striker has scored in his last two games",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790680052000
+    },
+    {
+      "competition": "men",
+      "title": "Man City transfer agreement thrown into doubt as agent responds to 115 charges verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/cavan-sullivan-man-city-charges-34688481",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34688532.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City are set to sign American wonderkid next year but his agent has plunged the deal into doubt with his latest comments",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790679928000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790679708000
+    },
+    {
+      "competition": "echo",
+      "title": "Jeremy Jacquet makes surprise France claim as Bradley Barcola slams officials - 'I'm in trouble'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jeremy-jacquet-makes-surprise-france-34688437",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34688442.ece/ALTERNATES/s615/0_Jacquet-and-Barcola.jpg",
+      "summary": "A number of Liverpool players were in international action on Monday including Jeremy Jacquet, who impressed on his senior debut for France",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790679644000
+    },
+    {
+      "competition": "men",
+      "title": "The unheralded Manchester United figure who could be influential in Michael Carrick sack decision",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/unheralded-manchester-united-figure-who-34687496",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34687568.ece/ALTERNATES/s615/0_GettyImages-2295774801.jpg",
+      "summary": "Man Utd have got off to a disappointing start to the season but there is no desire to look at the position of head coach Michael Carrick just yet.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790679600000
+    },
+    {
+      "competition": "mirror",
+      "title": "Triple relegation, £40m fine: Football's biggest punishments as Man City face nervous wait",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-relegated-punishment-37712690",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37713784.ece/ALTERNATES/s615/0_GettyImages-2291178828.jpg",
+      "summary": "Manchester City have been found guilty of breaking the Premier League's financial rules, and while club chiefs maintain their innocence, City and the football world await their punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790679164000
+    },
+    {
+      "competition": "men",
+      "title": "JJ Gabriel U-turns on social media ban after Man United quit bombshell",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-manchester-united-transfer-34688755",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34688764.ece/ALTERNATES/s615/0_Manchester-United-U18-v-Sabah-U18-UEFA-Youth-League.jpg",
+      "summary": "JJ Gabriel wiped his social media clean after the bombshell revelation dropped that he wants to leave Manchester United, but has seemingly made a U-turn regarding his online presence",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790679092000
+    },
+    {
+      "competition": "men",
+      "title": "Erling Haaland 'lies' leaves Norway boss outraged after Man City 115 charges verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/erling-haaland-man-city-norway-34687378",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34688139.ece/ALTERNATES/s615/0_Haaland.jpg",
+      "summary": "The Erling Haaland press conference row has continued with Norway head coach Stale Solbakken issuing a firm response to suggestions Manchester City influenced the decision",
+      "teams": [
+        "mancity",
+        "norway"
+      ],
+      "publishedAt": 1790679079000
+    },
+    {
+      "competition": "indy",
+      "title": "Wayne Rooney says he wouldn’t accept Premier League winner’s medal if Man City stripped",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/wayne-rooney-man-city-united-premier-league-winners-medal-b3058160.html",
+      "image": "https://static.independent.co.uk/2026/09/29/11/2265901556..?width=1200&auto=webp&trim=30%2C0%2C30%2C0",
+      "summary": "Rooney doesn’t believe his 2011-12 Man United side deserve to be considered Premier League champions even if their Manchester rivals lose the crown",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790678992000
+    },
+    {
+      "competition": "mirror",
+      "title": "Paul Scholes backs Erling Haaland to STRUGGLE in League Two as Man City await punishment",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-manchester-city-scholes-37713673",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37713775.ece/ALTERNATES/s615/3_scholesy.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules last week, with calls for the club to be relegated landing as a result",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790678646000
+    },
+    {
+      "competition": "bbc",
+      "title": "Could Potter be England's next breakthrough star?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ee3/live/536b95e0-bb30-11f1-a9b8-670e5d9d8eee.jpg",
+      "summary": "Everyone is talking about Lexi Potter, the uncapped midfielder named in Sarina Wiegman's England squad for their World Cup qualifiers. Here is why.",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790678523000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Esposito outscoring Baggio for Italy and has best goals-per-game since 1970s",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/esposito-outsourcing-baggio-for-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Francesco-Pio-Esposito-celebrate.jpg",
+      "summary": "Francesco Pio Esposito scored his sixth goal for the Italy national team during Monday’s 4-1...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790678389000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Italy’s official schedule after 4-1 win over Turkiye ahead of France clash",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italy-official-schedule-4-1-win-turkiye-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
+      "summary": "Italy have already returned to Coverciano, where they ll start preparations for the afternoon game against...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790678038000
+    },
+    {
+      "competition": "echo",
+      "title": "Ex-Everton goalkeeper opens up on 'straight' Ronald Koeman talks and battles with World Cup stars",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-everton-goalkeeper-opens-up-34688200",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34688270.ece/ALTERNATES/s615/0_GettyImages-1419373215.jpg",
+      "summary": "Joel Robles enjoyed a five-year stint at Everton after being signed by Roberto Martinez and has been reflecting on his time at the club",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790677867000
+    },
+    {
+      "competition": "mirror",
+      "title": "Maurcio Pochettino hits out at Premier League with clear verdict on Man City charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/mauricio-pochettino-premier-league-mancity-37713683",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37645382.ece/ALTERNATES/s615/0_Screenshot-2026-09-09-at-183534.png",
+      "summary": "Mauricio Pochettino has issued a clear verdict on Manchester City's alleged financial breaches with the ex-Tottenham head coach also hitting out at the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790677604000
+    },
+    {
+      "competition": "bbc",
+      "title": "Republic of Ireland call up Hopcroft for play-off",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c60qxj1n7gn8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0222/live/9c3d2720-bbee-11f1-9074-3d74885a19d6.jpg",
+      "summary": "Republic of Ireland boss Carla Ward includes Crystal Palace midfielder Shanade Hopcroft in her squad for next month's Women's World Cup play-off against Kazakhstan.",
+      "teams": [
+        "ireland"
+      ],
+      "publishedAt": 1790677415000
+    },
+    {
+      "competition": "indy",
+      "title": "England star ruled out of clash with Czech Republic as Rio Ngumoha called up",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-czech-republic-nations-league-ngumoha-o-reilly-b3058144.html",
+      "image": "https://static.independent.co.uk/2026/09/29/10/2297500812..?width=1200&auto=webp&trim=0%2C17%2C0%2C17",
+      "summary": "Nico O’Reilly missed training on Monday and will sit out the upcoming trip to Prague",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790677087000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Xabi Alonso has two wildcard solutions for Chelsea problem after striking double deal",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/xabi-alonso-two-wildcard-solutions-34687804",
+      "image": "https://i2-prod.football.london/incoming/article34542662.ece/ALTERNATES/s615/0_GettyImages-2292208178.jpg",
+      "summary": "Chelsea's midfield problems have been well documented this season after the Blues failed to sign a replacement for Enzo Fernandez after his departure to Manchester City",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790676811000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Cesc Fabregas has 'bombshell contract clause' involving Arsenal, Chelsea and one other club",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/cesc-fabregas-arsenal-chelsea-contract-34687997",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34688051.ece/ALTERNATES/s615/0_Genoa-CFC-v-Como-1907-Serie-A-202627.jpg",
+      "summary": "Arsenal and Chelsea legend Cesc Fabregas is currently in charge of Serie A side, Como, but his clause includes a lucrative clause that can be utilised by three clubs",
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790675674000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Club president lifts lid on Aston Villa transfer talks amid 'whatever you want' claim",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/club-president-lifts-lid-aston-34688062",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34688082.ece/ALTERNATES/s615/0_Fenerbahce-v-Besiktas-Turkish-Super-Lig.jpg",
+      "summary": "Aston Villa sold Ollie Watkins to Al-Hilal late in the transfer window - but he could have gone to Fenerbahce",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790675584000
+    },
+    {
+      "competition": "indy",
+      "title": "Hull owner maintains Man City charges as serious as doping at Olympics",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-charges-hull-doping-olympics-b3058124.html",
+      "image": "https://static.independent.co.uk/2026/09/29/10/2277847491..?width=1200&auto=webp&trim=115%2C0%2C115%2C0",
+      "summary": "Acun Ilicali, who bought Hull in 2022, described any breaches of the Premier League’s rules - if confirmed - as ‘financial doping’",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790675211000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Viktor Gyokeres breaks silence on Arsenal future after Julian Alvarez transfer swap claim",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-gyokeres-alvarez-transfer-news-34687828",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34687535.ece/ALTERNATES/s615/0_Arsenal-FC-Training-Session.jpg",
+      "summary": "Viktor Gyokeres was on target for Sweden as the Arsenal striker finds form after struggling so far this season",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790675161000
+    },
+    {
+      "competition": "echo",
+      "title": "Rio Ngumoha decision confirmed as Man City suffer new injury blow before Liverpool",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-decision-confirmed-man-34687898",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34688060.ece/ALTERNATES/s615/0_GettyImages-2297585723.jpg",
+      "summary": "Rio Ngumoha could feature for England in their Nations League clash against Czech Republic after the Liverpool winger was called into the matchday squad",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790675145000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Switzerland coach warns Romano after Italy switch: ‘Could&#8217;ve played 20 in a row for us’",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/frei-warns-romano-after-italy-switch/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-Mechele.jpg",
+      "summary": "Alessandro Romano has already earned his first two caps for the Italy national team at...",
+      "teams": [
+        "switzerland",
+        "italy"
+      ],
+      "publishedAt": 1790674912000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Norway boss issues injury update on Martin Odegaard after Bernardo Silva incident",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-martin-odegaard-injury-news-34688049",
+      "image": "https://i2-prod.football.london/incoming/article34688030.ece/ALTERNATES/s615/0_GettyImages-2297426399.jpg",
+      "summary": "Arsenal captain Martin Odegaard was on the receiving end of a late Bernardo Silva challenge in Norway's 2-1 Nations League defeat to Portugal on Sunday",
+      "teams": [
+        "norway"
+      ],
+      "publishedAt": 1790674794000
+    },
+    {
+      "competition": "metro",
+      "title": "Former Chelsea and Spurs boss Mauricio Pochettino slams Man City and Premier League",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/29/ex-chelsea-spurs-boss-mauricio-pochettino-slams-man-city-premier-league-29662362/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314500639-dd8d.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity",
+        "chelsea",
+        "tottenham"
+      ],
+      "publishedAt": 1790674758000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Romeo Lavia provides Chelsea injury update after late Belgium scare against France",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/romeo-lavia-provides-chelsea-injury-34687293",
+      "image": "https://i2-prod.football.london/incoming/article34687890.ece/ALTERNATES/s615/0_GettyImages-2297612932.jpg",
+      "summary": "Romeo Lavia appeared to be nursing a minor problem towards the end of Belgium's clash against France in the UEFA Nations League on Monday night",
+      "teams": [
+        "chelsea",
+        "belgium",
+        "france"
+      ],
+      "publishedAt": 1790674484000
+    },
+    {
+      "competition": "metro",
+      "title": "Wayne Rooney disagrees with Rio Ferdinand over &#8216;uncomfortable&#8217; Man City punishment",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/29/wayne-rooney-disagrees-rio-ferdinand-uncomfortable-man-city-punishment-29662819/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/PRI_179190542-395b.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790674132000
+    },
+    {
+      "competition": "bbc",
+      "title": "Szoboszlai's Hungary latest to draw blank in Belfast",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq4gm1g5ykjpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ccc/live/5b96e420-bb96-11f1-9bb6-314591f55b4c.jpg",
+      "summary": "Northern Ireland's return to the second-tier of the Nations League has brought back-to-back clean sheets.",
+      "teams": [
+        "hungary"
+      ],
+      "publishedAt": 1790674117000
+    },
+    {
+      "competition": "indy",
+      "title": "Republic of Ireland undecided over playing Israel for second time: ‘We are all uncomfortable’",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-latest-heimir-hallgrimsson-b3057987.html",
+      "image": "https://static.independent.co.uk/2026/09/27/21/download.-2.?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
+      "summary": "The Republic of Ireland opted to play in Sunday’s contentious match after a player vote but will face Israel again seven days later",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790673584000
+    },
+    {
+      "competition": "bbc",
+      "title": "'Period of deception' - Pochettino on Man City verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmed7q89vp5no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3962/live/cf271400-bbdc-11f1-bfea-9d5bb7e7d40b.jpg",
+      "summary": "Former Tottenham and Chelsea manager Mauricio Pochettino says it is \"impossible to turn back time\" after Manchester City being found guilty of financial breaches.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790673190000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Johan Manzambi already tipped to take 'next step' after just three Aston Villa matches",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/johan-manzambi-already-tipped-take-34687440",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34642263.ece/ALTERNATES/s615/0_Aston-Villas-Johan-Manzambi-during-the-Premier-League-match-at-the-Tottenham-Hotspur-Stadium-London.jpg",
+      "summary": "Manzambi is so highly rated he has been shortlisted alongside the likes of Lamine Yamal for the young talent of the year prize which will be awarded at next month’s Ballon d’Or ceremony",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790673152000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City 115 charges latest as CEO fires warning and Erling Haaland wish granted",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-haaland-37712797",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37712796.ece/ALTERNATES/s615/0_Manchester-City-v-Crystal-Palace-Premier-League.jpg",
+      "summary": "Manchester City were found guilty of 114 breaches of Premier League financial rules last week, with football fans now awaiting the club's punishment",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790673117000
+    },
+    {
+      "competition": "bbc",
+      "title": "Wales without seven players for World Cup play-off",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61a5/live/64b762b0-bb4a-11f1-a071-65d2e11c8f4a.jpg",
+      "summary": "Ceri Holland is one of seven players who will miss out through injury when a depleted Wales squad take on Albania in their Women's World Cup play-off semi-final next month.",
+      "teams": [
+        "wales"
+      ],
+      "publishedAt": 1790672403000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Eberechi Eze's Arsenal future in doubt as questions raised after £34m decision",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/players/eberechi-ezes-arsenal-future-doubt-34684579",
+      "image": "https://i2-prod.football.london/incoming/article34684634.ece/ALTERNATES/s615/1_Eberechi-Eze-and-Arsenal.jpg",
+      "summary": "Our Seeing Red podcast hosts Tom Canton and Ryan Taylor give their thoughts on the role of Eberechi Eze as Arsenal future questions emerge",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790672400000
+    },
     {
       "competition": "fitalia",
       "title": "Agent makes Kayode transfer prediction after goal on Italy debut",
@@ -62,6 +541,19 @@
       "publishedAt": 1790671709000
     },
     {
+      "competition": "footlondon",
+      "title": "Arsenal get Ezri Konsa injury update as England squad confirmed for Czech Republic clash",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-ezri-konsa-injury-england-34687545",
+      "image": "https://i2-prod.football.london/incoming/article34687536.ece/ALTERNATES/s615/0_GettyImages-2296985856.jpg",
+      "summary": "England are set to face Czechia in Prague this evening in their second Nations League match and there has been some doubt over the availability of Arsenal defender Ezri Konsa",
+      "teams": [
+        "arsenal",
+        "england"
+      ],
+      "publishedAt": 1790671609000
+    },
+    {
       "competition": "echo",
       "title": "Liverpool's Bradley Barcola involved in incident that infuriated France fans – 'Shameful'",
       "publisher": "Liverpool Echo",
@@ -110,18 +602,6 @@
         "manutd"
       ],
       "publishedAt": 1790671264000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790671223000
     },
     {
       "competition": "indy",
@@ -201,7 +681,7 @@
       "title": "Wayne Rooney shows true colours with decision on taking medal from Man City players",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/wayne-rooney-manchester-city-charges-34687118",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34687100.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Villarreal-UEFA-Champions-League-League-Stage-Tottenham-Hotspur-Stadium.jpg",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34687642.ece/ALTERNATES/s615/1_Screenshot-2026-09-29-100331.png",
       "summary": "Manchester City have faced calls to be stripped of their titles after being found guilty of 114 breaches of the Premier League's financial rules, with Wayne Rooney now speaking about matters",
       "teams": [
         "mancity"
@@ -268,474 +748,6 @@
         "arsenal"
       ],
       "publishedAt": 1790666176000
-    },
-    {
-      "competition": "footlondon",
-      "title": "'Viktor Gyokeres would rip my head off' fears Sweden boss Graham Potter during live TV moment",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/viktor-gyokeres-would-rip-head-34686643",
-      "image": "https://i2-prod.football.london/incoming/article34686780.ece/ALTERNATES/s615/0_GettyImages-2283601996.jpg",
-      "summary": "Viktor Gyokeres is in red-hot form with Sweden, scoring two in two in the Nations League",
-      "teams": [
-        "sweden"
-      ],
-      "publishedAt": 1790666089000
-    },
-    {
-      "competition": "metro",
-      "title": "Man Utd organise behind-closed-doors friendly for Michael Carrick&#8217;s struggling side",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/29/man-utd-organise-behind-closed-doors-friendly-michael-carricks-struggling-side-29662046/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_311747560-009d.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790666023000
-    },
-    {
-      "competition": "men",
-      "title": "Rio Ferdinand shares JJ Gabriel theory as Man United 'identify wonderkid's replacement'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-united-jj-gabriel-news-34686603",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34612189.ece/ALTERNATES/s615/0_Rio-Ferdinand-File-Photo.jpg",
-      "summary": "Manchester United face losing highly-rated attacker JJ Gabriel but they have been linked with another sought-after teenager",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790665800000
-    },
-    {
-      "competition": "bbc",
-      "title": "Listen: Will Scotland shock the Swiss at Hampden?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pczd8v?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pczdcy.jpg",
-      "summary": "Can Pocognoli's Scotland upset World Cup quarter-finalists Switzerland?",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790665200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "'It's a bad month' - The realistic outlook on Newcastle United's January transfer plans",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/its-bad-month-realistic-outlook-34682025",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34643290.ece/ALTERNATES/s615/1_GettyImages-2296085869.jpg",
-      "summary": "Newcastle United's winter transfer business is one that is catching the attention of many",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790665200000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland players ‘all uncomfortable’ ahead of ‘home’ Israel tie, says Heimir Hallgrimsson",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-nations-league-latest-heimir-hallgrimsson-b3057987.html",
-      "image": "https://static.independent.co.uk/2026/09/27/21/download.-2.?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
-      "summary": "The Republic of Ireland opted to play in Sunday’s contentious match after a player vote but will face Israel again seven days later",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790664297000
-    },
-    {
-      "competition": "echo",
-      "title": "Thomas Tuchel questioned over Jordan Pickford England decision - 'Something amiss'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/thomas-tuchel-questioned-over-jordan-34686594",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34686650.ece/ALTERNATES/s615/0_GettyImages-2296793875.jpg",
-      "summary": "Paul Robinson believes Jordan Pickford remains England’s No.1 and that Thomas Tuchel’s decision to leave the Everton star out against Spain has revived a debate that does not need to be had",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790662267000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jeremy Corbyn calls for Man City relegation in triple punishment after guilty verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-relegation-appeal-37712305",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37712395.ece/ALTERNATES/s615/0_Jeremy-Corbyn-Attends-Picket-In-Solidarity-With-Hotel-Workers.jpg",
-      "summary": "Jeremy Corbyn has become the latest public figure to have their say on the Manchester City case which has dominated football headlines in recent days",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790661660000
-    },
-    {
-      "competition": "footlondon",
-      "title": "The 12 transfers Chelsea missed out on this summer and how they're getting on",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/12-transfers-chelsea-missed-out-34680989",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34611017.ece/ALTERNATES/s615/1_Alex-Scott-Bournemouth.jpg",
-      "summary": "Chelsea were linked with a sea of top-tier targets during the summer transfer window and may end up kicking themselves at not signing stars based on their progress",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790661600000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea given clear transfer demand as Estevao agreement reached and injury point made",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-given-clear-transfer-demand-34683463",
-      "image": "https://i2-prod.football.london/incoming/article34683902.ece/ALTERNATES/s615/0_GettyImages-2291777504.jpg",
-      "summary": "Our Chelsea writers discuss and debate what to do with Estevao Willian and his situation with the Blues winger being linked with a move away from Stamford Bridge",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790661600000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Eberechi Eze has become Arsenal enigma that Mikel Arteta must solve",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-eberechi-eze-problem-34684534",
-      "image": "https://i2-prod.football.london/incoming/article34684437.ece/ALTERNATES/s615/0_GettyImages-2294419866.jpg",
-      "summary": "Arsenal need to get more out of Eberechi Eze but it's also on the 28-year-old attacker to rediscover his best form",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790661600000
-    },
-    {
-      "competition": "echo",
-      "title": "The 11 transfers Liverpool missed out on this summer and how they're getting on",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-summer-transfer-targets-iraola-34681862",
-      "image": "https://i2-prod.liverpool.com/incoming/article34610769.ece/ALTERNATES/s615/2_GettyImages-2294523148.jpg",
-      "summary": "Liverpool were linked with numerous top-level talent in the summer transfer window, but faltered when it came to pulling the trigger on most of those deals",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790661600000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Brutal Sven Botman call, £51million Newcastle United decision and William Osula returns",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/brutal-sven-botman-call-51million-34682884",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676212.ece/ALTERNATES/s615/0_Thiaw-Botman.jpg",
-      "summary": "The Magpies will have a lot of quality to choose from for the away day at Coventry City on October 12.",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790661600000
-    },
-    {
-      "competition": "indy",
-      "title": "Ireland players make protest against Israel by lowering heads during national anthem",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-players-protest-national-anthem-nations-league-b3057227.html",
-      "image": "https://static.independent.co.uk/2026/09/27/21/download.-1.?width=1200&auto=webp&trim=393%2C1258%2C482%2C55",
-      "summary": "The highly-contentious match, which saw Irish goalkeeper Gavin Bazuno boycott the Nations League match, saw Heimir Hallgrímsson’s players wear black armbands with the game held on neutral territory in Debrecen, Hungary",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790658629000
-    },
-    {
-      "competition": "mirror",
-      "title": "'I played for Arsenal for 10 years - but I have one huge regret from my time there'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-star-huge-regret-gunners-37709999",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37710055.ece/ALTERNATES/s615/0_GettyImages-525922694.jpg",
-      "summary": "A former Arsenal star previously reflected on his one regret from his decade with the Gunners",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal told to sign 'perfect' Man City star - and it's not Erling Haaland",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/doku-arsenal-transfer-man-city-34686401",
-      "image": "https://i2-prod.football.london/incoming/article34686506.ece/ALTERNATES/s615/0_Man-City.jpg",
-      "summary": "Manchester City's alleged breaches of financial rules has seen Arsenal told to sign one of their most important players",
-      "teams": [
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "men",
-      "title": "Michael Carrick must be true to his Manchester United history when asked Man City question",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/michael-carrick-must-true-manchester-34683886",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34684096.ece/ALTERNATES/s615/0_GettyImages-525754824.jpg",
-      "summary": "Michael Carrick has a unique perspective on Man City's financial misdemeanours and the Man Utd head coach will be asked about it next week.",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "echo",
-      "title": "Meet the Everton goalkeeper following in David Raya's footsteps at Southport",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/everton-goalkeeper-looking-emulate-jordan-34681404",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34682251.ece/ALTERNATES/s615/0_premium-canvas-1790594185549.jpg",
-      "summary": "Douglass Lukjanciks has made an impressive start at Southport in his first taste of senior football",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Cody Gakpo medical verdict emerges as Reds star's transfer demand met",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-latest-cody-gakpo-medical-34684206",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34684205.ece/ALTERNATES/s615/0_Serbia-v-Netherlands-UEFA-Nations-League-202627-Group-A2-MD2.jpg",
-      "summary": "Liverpool star Cody Gakpo is among the Reds stars to hit the headlines during the international break",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "echo",
-      "title": "How Liverpool should line up in attack against Man City with no Alexander Isak or Cody Gakpo",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/how-liverpool-should-line-up-34684676",
-      "image": "https://i2-prod.liverpool.com/incoming/article34683996.ece/ALTERNATES/s615/0_GettyImages-2296233689-1.jpg",
-      "summary": "Liverpool could face a striker dilemma against Man City after both Alexander Isak and Cody Gakpo withdrew from international duty through injury",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United avoid difficult transfer decision after 'move him on' claim",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-avoid-difficult-transfer-34681444",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34504860.ece/ALTERNATES/s615/0_Newcastle-United-v-Liverpool-Premier-League-St-James-Park.jpg",
-      "summary": "Anthony Elanga has discovered some of the form which persuaded United to pay Nottingham Forest £55m for his services",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790658000000
-    },
-    {
-      "competition": "mirror",
-      "title": "How Man Utd squad could look in 2027 as new contracts decided and five stars exit",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-new-contracts-exits-37709322",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37709348.ece/ALTERNATES/s615/0_GettyImages-2296544207.jpg",
-      "summary": "Manchester United are set to face several dilemmas next year as manager Michael Carrick aims to prepare for the future",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790656200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Why are Czech Republic called Czechia? Reason behind country's name change",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/czechia-name-change-czech-republic-37710178",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37710220.ece/ALTERNATES/s615/0_GettyImages-1992663689.jpg",
-      "summary": "England are set to face Czechia in a Nations League fixture on Tuesday",
-      "teams": [
-        "czechia"
-      ],
-      "publishedAt": 1790656200000
-    },
-    {
-      "competition": "men",
-      "title": "Man United latest: Michael Carrick put on alert for City raid as Liverpool transfer complete",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfer-news-city-34685905",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34685904.ece/ALTERNATES/s615/0_FBL-ENG-PR-EVERTON-MAN-UTD.jpg",
-      "summary": "Manchester United have confirmed their latest signing while the majority of the squad is away on international duty",
-      "teams": [
-        "manutd",
-        "liverpool"
-      ],
-      "publishedAt": 1790656200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool news: Virgil van Dijk transfer demand met as Reds get player's medical verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-transfers-van-dijk-medical-37710319",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37710628.ece/ALTERNATES/s615/0_Andoni-Iraola-File-Photo.jpg",
-      "summary": "Liverpool are waiting anxiously as they hope to come through the international break without any more injury concerns",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd 'arrange secret friendly' with Sir Jim Ratcliffe's other club who are bottom",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-lausanne-jim-ratcliffe-37712239",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article36201551.ece/ALTERNATES/s615/0_Manchester-United-File-Photos.jpg",
-      "summary": "Manchester United are looking to build some form and confidence during the international break after a dismal start to the season under Michael Carrick",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Joining Arsenal from Chelsea was the hardest decision I ever made – but I had my reasons",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/joining-arsenal-chelsea-hardest-decision-34681011",
-      "image": "https://i2-prod.football.london/incoming/article16286979.ece/ALTERNATES/s615/1_GettyImages-1149560676.jpg",
-      "summary": "Leaving Chelsea for Arsenal was an immensely difficult decision for this popular Blues icon",
-      "teams": [
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal latest: Cesc Fabregas clause comes to light as Erling Haaland's future clarified",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-cesc-fabregas-clause-34683682",
-      "image": "https://i2-prod.football.london/arsenal-fc/news/article34683680.ece/ALTERNATES/s615/0_Manchester-City-v-Sunderland-Premier-League-202627.jpg",
-      "summary": "Arsenal are reportedly in the market for a new striker in 2027, with Erling Haaland's name being mentioned in transfer rumours",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United are ready to unleash 'dominant' Carlos Baleba in 11 days",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-united-ready-unleash-dominant-34680457",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34680520.ece/ALTERNATES/s615/0_premium-canvas-1790581533150.png",
-      "summary": "Man Utd midfielder Carlos Baleba is ready to make a big impact after the September international break concludes.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "echo",
-      "title": "I hope any punishments handed to Manchester City target those truly responsible",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/hope-any-punishments-handed-manchester-34684442",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34684462.ece/ALTERNATES/s615/0_premium-canvas-1790608565719.png",
-      "summary": "The former Blues player offers his view on football's biggest talking point in the second part of this week's Liverpool ECHO column",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "echo",
-      "title": "Julian Ward has big job on his hands at Liverpool and has to make major transfer change",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/julian-ward-big-job-hands-34682873",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34684210.ece/ALTERNATES/s615/0_premium-canvas-1790606815174.png",
-      "summary": "John Aldridge reflects on Liverpool losing players to injury in the international break and the return of Julian Ward in the second half of his weekly column",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790654400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd news: Transfer confirmed as Michael Carrick urged to raid rivals for £142m duo",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-transfer-liverpool-city-37711193",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37580008.ece/ALTERNATES/s615/2_Manchester-United-v-Aston-Villa-Premier-League.jpg",
-      "summary": "Manchester United have got one over bitter rivals Liverpool in the transfer market and have been instructed to raid another nemesis",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790652600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsenal news: Erling Haaland transfer stance as secret clause confirmed in hero's contract",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-transfer-erling-haaland-fabregas-37710330",
-      "image": "https://i2-prod.dailystar.co.uk/sport/football/article37704896.ece/ALTERNATES/s615/2_Manchester-City-v-Sunderland-Premier-League-202627.jpg",
-      "summary": "Manchester City's financial breaches have led to noise around Erling Haaland's future",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790650800000
-    },
-    {
-      "competition": "laliga",
-      "title": "Report: La Liga star turned down move to Liverpool in the summer",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQUlYVmhROUxCSGJ2Rl95Z19hVl9SZGtsR3RNRUJNY3M0Z1g0Vk8wcXRSVjBqU3FTdVdJd0l4YmgtVVJNQXpHZ0g5eGlyNkNYWmtEeTVBelBiT2xKMUVpbWVnYjR3ajRRc0ctenljbU9wZTRjT0h5QUJUSWJJTzl2Ug?oc=5",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790671800000,
-      "image": null
-    },
-    {
-      "competition": "laliga",
-      "title": "Ramon: Fabregas trying to improve Serie A, Como ‘changed my mindset’",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHp5Vm1SUF9GcHNTdmV4WkpZdjZhZnlBZTJva3g5MnZOamZCTVBaOGhZdXVGX1dtWUpROWZnNU00TUh5NWlRNGhzbldkLVhzaHV4TlkzamZpR2ZUcHBRTHh6Y2c5WkRHTEIxWk9sT1dsRFJkQ05Gc091VFR5NDlxbFh0TDFpY0hEeXdteQ?oc=5",
-      "teams": [
-        "como"
-      ],
-      "publishedAt": 1790671500000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Pochettino, very harsh on Manchester City: \"You can't turn back now, too much damage has been done\"",
-      "publisher": "MARCA",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRUhCd3puOW9sUlZGRXloanFLd09nTGhEQ014cTBId0hXR09rRW9oaVFBcU4xVFVocHFnZFQ3QVVmbUY3dE4yZGFfc254VDhidHF2dk1sNDJJVERMZkRFelZJdzhNb0dWSWRuOTc5OVN6aEtrTWx4ZE5TMmpDYi1PblZNcmZpM3hQZzZHTGVuTHF1VWlKU1dMckpWQk5GSEFvbUk2ZG9zRWNEOGVfMy1qQ2dZN2RldjFXSWFCNGxWdkxmRkVnN29WQkJWbDMzM2ppWnhqOGMwd0FQUThyeUF2OS1yc2RhUGdWMFFLWUpzQ3LSAfABQVVfeXFMTWdOV3FfdHhqeEplcDdWUWNHREdmRnlCSU5vamhrSXNERTVRT1NKSWJrUW0xY3REeURudWtPV2JKVk5CeGNZV01YcHVsU3ZkRzh4Vjl4SDJWWm91VzJyZFZ5VV8zSDJXWkpnQmdNX1dxMGczdG1ZYi1PRm1ORTZRQzhNaGdRVUpHQUhGUHNSM0dRekNfRlZ0SU5Hek50aGtxWVVZUEdBNGNJaVFwZUJhb0FwTWo2SWRqdVB5VUtZdjVNOGlOWTIxS2NjX3BQWnJuWEQzSWNvcTU1aHFJcEpkVzFmRGltTWV4NXJaeGJiVDV5?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790671337000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "The story of Man City and 115 charges",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLTZlMm9GTXJISDh4aXFmTDc4ck1BaXpyS1dDbGQtX1hLdF9ZdVNObXRYVWU2SldpMkhsVG56elpSekRfU1VfYkt5cTllbFlTcXJnNXRnT3dQQTJDa1BvNXgwcXBYaWxVaWxtZV9OSk5RWWxaUU5WRGNqNnZ0X2g1dA?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790671164000,
-      "image": null
-    },
-    {
-      "competition": "championship",
-      "title": "The nightmare scenario at the Etihad: what would Manchester City do if they were expelled from the Premier League?",
-      "publisher": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxONm1VWmtzWXpva2NQdXN4eDdMUGdhS1ZtWGJrampzQTJLTkozckJ0LUMyVlowb25KSkdoNklsVDRUd3ZXZGxoRVpMdGJ2M2MwSTlESVdkbWdBOTN1MVlMdG5QVk52eFRKWDFuMnRrM3o0UERlc0x4SXFibVAyZzhUSUplSmhKU0UxaE9IQmdxc2hWQlJGVC16VFY5N3JvQ3pVUlJYOEhhVjV3WUQyUVNGckpicVFFWkIwdHV6TWlrUnJtenhPR2t0d0tubW5DWTE4REdDUWdESkZERm5NSXh5YXZtQzNfZ2cwZmRBekctTVZ4NDRJa0NOZ1pkX2UyVFUxSzV1Q2pPMA?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790670497000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Liverpool star Jeremy Jacquet delivers honest verdict on France debut",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZTBCeDlZUTc2RHlXMW5MSUFVc2NUeHpxUU1CeWtaQmZMLXZmVmk3N1RxSTFYbkRkbUNrWk1hU1htWmVYRTktR2d3ajFvcmxKOVpub3BhcWZSTU1oTTYzTUlyanhZTll2bEVqM0h4ZVNvNWtIZUhFZkVzc09jLXNMc0d5XzRlX3FONGZJaXctMWs?oc=5",
-      "teams": [
-        "liverpool",
-        "france"
-      ],
-      "publishedAt": 1790670000000,
-      "image": null
     }
   ]
 }
