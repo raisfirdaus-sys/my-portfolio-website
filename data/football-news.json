@@ -1,9 +1,9 @@
 {
-  "generatedAt": 1790716961540,
+  "generatedAt": 1790717159588,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1531,
+    "raw": 1528,
     "tagged": 821,
     "droppedKeyword": 22,
     "droppedOtherSport": 0,
@@ -12,6 +12,31 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Roy Keane tells Man City players to &#8216;stick Premier League medals in the bin&#8217; after guilty verdict",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/29/roy-keane-tells-man-city-players-stick-premier-league-medals-bin-guilty-verdict-29665398/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/roy-keane-7f2d.png?w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790717142000
+    },
+    {
+      "competition": "bbc",
+      "title": "Yamal inspires Spain to homecoming victory over Croatia",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af4/live/a1864ff0-bc47-11f1-a76b-c53c7866f2b5.png",
+      "summary": "Lamine Yamal turns on the style as world champions Spain cruise past Croatia in their first home game since winning the World Cup in July.",
+      "teams": [
+        "croatia",
+        "spain"
+      ],
+      "publishedAt": 1790716962000
+    },
     {
       "competition": "tele",
       "title": "Alexander-Arnold helps England to victory over Czech Republic",
@@ -23,6 +48,18 @@
         "england"
       ],
       "publishedAt": 1790716866000
+    },
+    {
+      "competition": "echo",
+      "title": "Trent Alexander-Arnold makes ideal return to England starting line-up with Anthony Gordon link",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-anthony-gordon-34692472",
+      "image": "https://i2-prod.football.london/incoming/article34692457.ece/ALTERNATES/s615/0_GettyImages-2297228429.jpg",
+      "summary": "Anthony Gordon scored again for England as he linked up with former Liverpool star Trent Alexander-Arnold who returned to the Three Lions starting lineup for the first time in two years",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790716577000
     },
     {
       "competition": "indy",
@@ -706,43 +743,6 @@
         "mancity"
       ],
       "publishedAt": 1790699484000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Spain vs Croatia – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/spain-croatia-tv-channel-stream-37710023",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37710194.ece/ALTERNATES/s615/1_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
-      "summary": "World champions Spain make their home debut in the 2026/27 UEFA Nations League when they host Croatia",
-      "teams": [
-        "croatia",
-        "spain"
-      ],
-      "publishedAt": 1790699400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League explain Man City punishment process as appeal date confirmed",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-statement-man-city-37715694",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37715817.ece/ALTERNATES/s615/0_GettyImages-2267187065.jpg",
-      "summary": "The Premier League have confirmed that Manchester City have been found guilty of all of the Premier League charges put towards them with attention now turning to a potential appeal",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790699290000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Richard Masters speaks out after damning verdict that Man City guilty of arranging 'sham' deals",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/richard-masters-speaks-out-after-34691790",
-      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article32887257.ece/ALTERNATES/s615/1_Manchester-City-v-Aston-Villa-Premier-League.jpg",
-      "summary": "Manchester City have been found guilty of all charges related to serious breaches of the Premier League’s financial rules over a nine-season period",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790699171000
     }
   ]
 }
