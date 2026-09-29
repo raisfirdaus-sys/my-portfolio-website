@@ -1,17 +1,54 @@
 {
-  "generatedAt": 1790695581765,
+  "generatedAt": 1790696577928,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1520,
-    "tagged": 797,
+    "tagged": 799,
     "droppedKeyword": 22,
     "droppedOtherSport": 0,
-    "droppedFeed": 7,
+    "droppedFeed": 6,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Why Man City stars signed in £700m rebuild did not insist on relegation clauses - despite 115 charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-haaland-37715457",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37714941.ece/ALTERNATES/s615/0_premium-canvas-1790688680995.png",
+      "summary": "Manchester City have spent some serious cash in recent transfer windows to refresh their playing squad despite the looming threat of their seismic Premier League case",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790696399000
+    },
+    {
+      "competition": "bbc",
+      "title": "England's Palmer a 'victim' of 'sick' schedule, says PFA chief",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c68048pynj94o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a85/live/6c44dd20-bc1a-11f1-9a78-d72908473b45.jpg",
+      "summary": "Cole Palmer is the \"victim\" of a \"sick\" system that is expecting too much of players, according to Professional Footballers' Association chief executive Maheta Molango.",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790696263000
+    },
+    {
+      "competition": "echo",
+      "title": "The Finch Farm friendship that could shape the future of Everton and England",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/finch-farm-friendship-could-shape-34689956",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34691438.ece/ALTERNATES/s615/0_MixCollage-29-Sep-2026-04-24-PM-4417.jpg",
+      "summary": "Everton FC correspondent Joe Thomas on the bond forming between Tyrique George, Tyler Dibling and Harrison Armstrong as the starlets emerge from the periphery of David Moyes' plans",
+      "teams": [
+        "everton",
+        "england"
+      ],
+      "publishedAt": 1790695599000
+    },
     {
       "competition": "fitalia",
       "title": "Milan relief as Saelemaekers tests reveal sprained ankle",
@@ -709,43 +746,6 @@
         "mancity"
       ],
       "publishedAt": 1790678992000
-    },
-    {
-      "competition": "mirror",
-      "title": "Paul Scholes backs Erling Haaland to STRUGGLE in League Two as Man City await punishment",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-manchester-city-scholes-37713673",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37713775.ece/ALTERNATES/s615/3_scholesy.jpg",
-      "summary": "Manchester City were found guilty of 114 breaches of the Premier League's financial rules last week, with calls for the club to be relegated landing as a result",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790678646000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Esposito outscoring Baggio for Italy and has best goals-per-game since 1970s",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/esposito-outsourcing-baggio-for-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Francesco-Pio-Esposito-celebrate.jpg",
-      "summary": "Francesco Pio Esposito scored his sixth goal for the Italy national team during Monday’s 4-1...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790678389000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Italy’s official schedule after 4-1 win over Turkiye ahead of France clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-official-schedule-4-1-win-turkiye-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
-      "summary": "Italy have already returned to Coverciano, where they ll start preparations for the afternoon game against...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790678038000
     }
   ]
 }
