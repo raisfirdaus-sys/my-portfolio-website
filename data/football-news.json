@@ -1,17 +1,78 @@
 {
-  "generatedAt": 1790696577928,
+  "generatedAt": 1790697722340,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 799,
-    "droppedKeyword": 22,
+    "raw": 1529,
+    "tagged": 806,
+    "droppedKeyword": 21,
     "droppedOtherSport": 0,
-    "droppedFeed": 6,
+    "droppedFeed": 4,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "How to watch Czech Republic vs England for free – TV channel, live stream and kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/czech-republic-england-channel-stream-37709559",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37707024.ece/ALTERNATES/s615/3_GettyImages-2297303362.jpg",
+      "summary": "England will look to bounce back from their defeat against Spain when they take on the Czech Republic",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790697600000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Scotland vs Switzerland for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/scotland-switzerland-channel-live-stream-37709820",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37709891.ece/ALTERNATES/s615/1_Slovenia-v-Scotland-UEFA-Nations-League-League-Phase-Group-B1-Stadion-Stozice.jpg",
+      "summary": "Sebastien Pocognoli is seeking his first win as Scotland boss as he makes his Hampden Park debut against Switzerland in the UEFA Nations League",
+      "teams": [
+        "switzerland",
+        "scotland"
+      ],
+      "publishedAt": 1790697600000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790697599000
+    },
+    {
+      "competition": "mirror",
+      "title": "Premier League drop damning Man City 115 charges verdict as 'sham' contracts called out",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-man-city-statement-37709143",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37709192.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
+      "summary": "The Premier League have released a statement after Man City were found guilty of breaching of financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790697479000
+    },
+    {
+      "competition": "indy",
+      "title": "Ireland football board urged to resign over ‘shambolic’ handling of Israel games",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-fai-nations-league-gaza-ruth-coppinger-b3058436.html",
+      "image": "https://static.independent.co.uk/2026/09/10/13/0fe4679e39b49946ab433762300b87b3Y29udGVudHNlYXJjaGFwaSwxNzg5MTI5MzQz-2.84260331.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Republic of Ireland opted to play their game against Israel on Sunday, and the two sides are due to face each other again this weekend",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790697286000
+    },
     {
       "competition": "mirror",
       "title": "Why Man City stars signed in £700m rebuild did not insist on relegation clauses - despite 115 charges",
@@ -48,6 +109,18 @@
         "england"
       ],
       "publishedAt": 1790695599000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City CEO refuses to answer questions on guilty verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cjly4dlwd1n5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7455/live/e34c2770-bc15-11f1-a430-4d16ee157c41.jpg",
+      "summary": "Manchester City chief executive Ferran Soriano refused to answer questions about the Premier League charges from BBC Sports Editor Dan Roan at a conference of top European clubs in Copenhagen.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790694304000
     },
     {
       "competition": "fitalia",
@@ -120,30 +193,6 @@
         "newcastle"
       ],
       "publishedAt": 1790693558000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City CEO refuses to answer questions on guilty verdict",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/programmes/p0pd1j99?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pd1kd3.jpg",
-      "summary": "Man City CEO refuses to answer questions on guilty verdict",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790693319000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790693268000
     },
     {
       "competition": "bundes",
@@ -321,7 +370,7 @@
       "title": "Man City 'learned guilty verdict' BEFORE £440m summer transfer spending spree",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-transfers-37714844",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37714848.ece/ALTERNATES/s615/0_Manchester-City-v-Sunderland-Premier-League-202627.jpg",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37714848.ece/ALTERNATES/s615/1_Manchester-City-v-Sunderland-Premier-League-202627.jpg",
       "summary": "Manchester City were slapped with a guilty verdict on 114 breaches of Premier League financial rules on Friday, as the footballing world awaits their punishment",
       "teams": [
         "mancity"
@@ -697,55 +746,6 @@
         "manutd"
       ],
       "publishedAt": 1790679600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Triple relegation, £40m fine: Football's biggest punishments as Man City face nervous wait",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-relegated-punishment-37712690",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37713784.ece/ALTERNATES/s615/0_GettyImages-2291178828.jpg",
-      "summary": "Manchester City have been found guilty of breaking the Premier League's financial rules, and while club chiefs maintain their innocence, City and the football world await their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790679164000
-    },
-    {
-      "competition": "men",
-      "title": "JJ Gabriel U-turns on social media ban after Man United quit bombshell",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jj-gabriel-manchester-united-transfer-34688755",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34688764.ece/ALTERNATES/s615/0_Manchester-United-U18-v-Sabah-U18-UEFA-Youth-League.jpg",
-      "summary": "JJ Gabriel wiped his social media clean after the bombshell revelation dropped that he wants to leave Manchester United, but has seemingly made a U-turn regarding his online presence",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790679092000
-    },
-    {
-      "competition": "men",
-      "title": "Erling Haaland 'lies' leaves Norway boss outraged after Man City 115 charges verdict",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/erling-haaland-man-city-norway-34687378",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34688139.ece/ALTERNATES/s615/0_Haaland.jpg",
-      "summary": "The Erling Haaland press conference row has continued with Norway head coach Stale Solbakken issuing a firm response to suggestions Manchester City influenced the decision",
-      "teams": [
-        "mancity",
-        "norway"
-      ],
-      "publishedAt": 1790679079000
-    },
-    {
-      "competition": "indy",
-      "title": "Wayne Rooney says he wouldn’t accept Premier League winner’s medal if Man City stripped",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/wayne-rooney-man-city-united-premier-league-winners-medal-b3058160.html",
-      "image": "https://static.independent.co.uk/2026/09/29/11/2265901556..?width=1200&auto=webp&trim=30%2C0%2C30%2C0",
-      "summary": "Rooney doesn’t believe his 2011-12 Man United side deserve to be considered Premier League champions even if their Manchester rivals lose the crown",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790678992000
     }
   ]
 }
