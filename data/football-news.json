@@ -1,17 +1,65 @@
 {
-  "generatedAt": 1790803760017,
+  "generatedAt": 1790806826263,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 590,
-    "tagged": 381,
-    "droppedKeyword": 4,
+    "raw": 1536,
+    "tagged": 831,
+    "droppedKeyword": 35,
     "droppedOtherSport": 1,
-    "droppedFeed": 0,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Jurgen Klopp speaks, Pep Guardiola statement, punishment latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790805624000
+    },
+    {
+      "competition": "men",
+      "title": "Harry Kane makes Man City charges revelation as club hit back at Premier League",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/harry-kane-man-city-charges-34698291",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34698295.ece/ALTERNATES/s615/0_Screenshot-2026-09-30-224515.jpg",
+      "summary": "The Premier League confirmed that Man City have been found guilty of breaches of financial rules on Tuesday, just hours before England were in action",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790805080000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges news: Jurgen Klopp verdict after Pep Guardiola releases statement",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790805004000
+    },
+    {
+      "competition": "mirror",
+      "title": "Morgan Gibbs-White speaks out after England call-up clip featuring his fiancee caused a stir",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-gibbs-white-tuchel-video-37721203",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721192.ece/ALTERNATES/s615/0_GettyImages-2297392693.jpg",
+      "summary": "Nottingham Forest star Morgan Gibbs-White was called up by England as a replacement for Cole Palmer after he was forced to pull out and a video of the midfielder then went viral",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790803844000
+    },
     {
       "competition": "mirror",
       "title": "Harry Kane gives verdict on Man City charges hours after explosive Premier League statement",
@@ -36,30 +84,6 @@
         "lyon"
       ],
       "publishedAt": 1790803022000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Jurgen Klopp verdict after Pep Guardiola releases statement",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790802329000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Jurgen Klopp speaks, Pep Guardiola statement, punishment latest",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790801708000
     },
     {
       "competition": "bbc",
@@ -196,32 +220,6 @@
       "publishedAt": 1790796787000
     },
     {
-      "competition": "guardian",
-      "title": "Leah Williamson blunder gifts Paris FC a point as Arsenal’s struggles continue",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/30/paris-fc-arsenal-womens-champions-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/ce46cb33caad8aec4178b9a74ca0826840e8d0d6/238_0_2658_2126/master/2658.jpg?width=140&quality=85&auto=format&fit=max&s=818a48c50ee432a3227abfec0e824bb5",
-      "summary": "Renée Slegers did not attend the post‑match press conference, the manager understood to have been too furious after Arsenal threw away a two-goal lead in their draw with Paris FC on Wednesday night.The assistant coach…",
-      "teams": [
-        "parisfc",
-        "arsenal"
-      ],
-      "publishedAt": 1790796697000
-    },
-    {
-      "competition": "indy",
-      "title": "Leah Williamson concedes bizarre penalty as Arsenal gift Paris FC late equaliser",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/leah-williamson-arsenal-paris-fc-champions-league-b3059320.html",
-      "image": "https://static.independent.co.uk/2026/09/30/20/2296734268..?width=1200&auto=webp&trim=168%2C0%2C2742%2C0",
-      "summary": "Paris FC 2-2 Arsenal: Williamson was deemed to have handled a goal kick from Misa Rodriguez as the visitors let two points slip",
-      "teams": [
-        "parisfc",
-        "arsenal"
-      ],
-      "publishedAt": 1790796544000
-    },
-    {
       "competition": "fitalia",
       "title": "McTominay back in training with Napoli after heart surgery",
       "publisher": "Football Italia",
@@ -299,7 +297,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/30/rival-clubs-feel-relegating-manchester-city-championship-not-enough-premier-league",
       "image": "https://i.guim.co.uk/img/media/86f48ffa9fc8353c9198478f8167f7990e88002d/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b082cf95e40546c9d676403dd489b72d",
-      "summary": "Premier League executives pushing for severe punishmentCity maintain they are ‘innocent of the accusations’The Premier League will face pressure from Manchester City’s rivals to push for a sanction that will result in a…",
+      "summary": "Premier League executives push for severe punishmentCity maintain they are ‘innocent of the accusations’The Premier League will face pressure from Manchester City’s rivals to push for a sanction that will result in a…",
       "teams": [
         "mancity"
       ],
@@ -426,18 +424,6 @@
         "mancity"
       ],
       "publishedAt": 1790789733000
-    },
-    {
-      "competition": "bbc",
-      "title": "Haaland 'no different' following Man City verdict",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckge43e8nqdwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e2/live/02f13b20-bcf1-11f1-8ce2-417f8f7cb095.jpg",
-      "summary": "Norway colleagues say the striker has been unaffected by the headlines around the Premier League club ahead of the Nations League game with Wales",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790789184000
     },
     {
       "competition": "mirror",
@@ -688,18 +674,6 @@
     },
     {
       "competition": "bbc",
-      "title": "What will new call-ups bring to Northern Ireland?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8353/live/12a4d200-bcda-11f1-a64c-550be9e3c66b.png",
-      "summary": "Before the upcoming 2027 Women's World Cup play-off with Portugal, what will the five new faces bring to Northern Ireland?",
-      "teams": [
-        "nireland"
-      ],
-      "publishedAt": 1790782852000
-    },
-    {
-      "competition": "bbc",
       "title": "Questions about Wales form not unfair - Bellamy",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c50m3d789j74o?at_medium=RSS&at_campaign=rss",
@@ -746,6 +720,31 @@
         "bologna"
       ],
       "publishedAt": 1790782078000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Kone: &#8216;An important match for Italy against France, a complicated period for them&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/kone-an-important-match-for-italy-vs-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/07/france-v-italy-uefa-nations-league-2024-25-league-a-group-a2-1.jpg",
+      "summary": "Roma and France midfielder Manu Kone has revealed what has surprised him most after getting...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790781364000
+    },
+    {
+      "competition": "men",
+      "title": "Man City 115 charges timeline amid £830m 'sham', double appeal and Premier League uncertainty",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-timeline-34695051",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34695927.ece/ALTERNATES/s615/0_GettyImages-2297312114.jpg",
+      "summary": "Manchester City are set to appeal the verdict against them in the Premier League 115 charges case with the process set to continue",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790780400000
     }
   ]
 }
