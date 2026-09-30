@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790791758847,
+  "generatedAt": 1790792746475,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1538,
-    "tagged": 843,
-    "droppedKeyword": 31,
+    "tagged": 832,
+    "droppedKeyword": 29,
     "droppedOtherSport": 1,
-    "droppedFeed": 10,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Portugal chaos as Conceicao injured, Ramos starts, but report Ronaldo storms out",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/portugal-conceicao-injured-ronaldo-storms-out/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Goncalo-Ramos-celebrate-414x276.jpg",
+      "summary": "Juventus winger Francisco Conceicao is injured and Milan’s Goncalo Ramos will start against Denmark, but...",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1790792216000
+    },
     {
       "competition": "men",
       "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
@@ -23,6 +35,30 @@
         "mancity"
       ],
       "publishedAt": 1790791268000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790791223000
+    },
+    {
+      "competition": "guardian",
+      "title": "‘I like him as a No 9’: Bellingham a striking alternative for England, says Tuchel",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/thomas-tuchel-harry-kane-jude-bellingham-trent-alexander-arnold-england-nations-league",
+      "image": "https://i.guim.co.uk/img/media/9677aa548ac937081474639a53aa2bd47df4a0d0/617_0_3097_2477/master/3097.jpg?width=140&quality=85&auto=format&fit=max&s=03b3691739da76bdd91b256cf2ecc9f2",
+      "summary": "Head coach sees Real Madrid man as an option up frontKane praises Alexander-Arnold’s impact and work rateThomas Tuchel’s hunt for alternatives to Harry Kane has led to him identifying Jude Bellingham as an option at No…",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790791215000
     },
     {
       "competition": "mirror",
@@ -84,18 +120,6 @@
         "mancity"
       ],
       "publishedAt": 1790789733000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790789423000
     },
     {
       "competition": "bbc",
@@ -653,18 +677,6 @@
       "publishedAt": 1790776121000
     },
     {
-      "competition": "guardian",
-      "title": "‘I am here more than ever’: Guardiola backs Manchester City owners over guilty verdicts",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/30/guardiola-backs-manchester-city-owners-over-guilty-verdicts",
-      "image": "https://i.guim.co.uk/img/media/a9e71f1ccab11923a0197fa28d9990188c06bc3b/610_115_3591_2873/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=f445731b5b28148afcf121701a5aad3f",
-      "summary": "‘I am, always have been, always will, be behind my club’Former City chair Bernstein calls for directors to quitPep Guardiola has thrown his support behind Manchester City after the club were found guilty of all charges…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790775583000
-    },
-    {
       "competition": "birmingham",
       "title": "Birmingham City could land cash boost if Man City are relegated after bombshell verdict",
       "publisher": "Birmingham Live",
@@ -736,18 +748,6 @@
         "manutd"
       ],
       "publishedAt": 1790774368000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd suffer third injury blow during international break as star forced off",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-united-injury-noussair-mazraoui-37719169",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37719618.ece/ALTERNATES/s615/1_GettyImages-2295064765.jpg",
-      "summary": "Manchester United stars Bruno Fernandes and Patrick Dorgu recently picked up injuries while on international duty and now Michael Carrick has been dealt another blow",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790774274000
     }
   ]
 }
