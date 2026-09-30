@@ -1,17 +1,129 @@
 {
-  "generatedAt": 1790771227745,
+  "generatedAt": 1790772087355,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1538,
-    "tagged": 811,
+    "raw": 1543,
+    "tagged": 819,
     "droppedKeyword": 28,
     "droppedOtherSport": 1,
-    "droppedFeed": 9,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "footlondon",
+      "title": "Pep Guardiola drops statement on Man City charges verdict as Arsenal, Chelsea and Spurs watch on",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/guardiola-man-city-charges-arsenal-34695419",
+      "image": "https://i2-prod.football.london/incoming/article34695446.ece/ALTERNATES/s615/0_Pep-Guardiola.jpg",
+      "summary": "Former Manchester City boss Pep Guardiola has responded to the club's 114 financial charges as Premier League rivals watch on",
+      "teams": [
+        "mancity",
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790771848000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa 'sought information' as free-scoring striker hits contract deadlock and exit looms",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-transfers-kevin-viveros-34695302",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34695341.ece/ALTERNATES/s615/1_Mexico-v-Colombia-International-Friendly.jpg",
+      "summary": "Aston Villa brought Alysson from Serie A and now they have been linked with another player from Brazil's top flight",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790771837000
+    },
+    {
+      "competition": "indy",
+      "title": "Pep Guardiola breaks silence on Man City’s guilty verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/pep-guardiola-man-city-guilty-charges-punishment-latest-b3059026.html",
+      "image": "https://static.independent.co.uk/2026/09/30/13/01M3PYV1GDE9PNG8VX4F023024.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Guardiola has given his backing to the owners and the board after the club were found guilty of overstating their income by over £830m across eight seasons",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771675000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771561000
+    },
+    {
+      "competition": "echo",
+      "title": "PSG president Nasser Al-Khelaifi defends Man City chief as Pep Guardiola breaks silence",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/psg-president-nasser-al-khelaifi-34694972",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34694955.ece/ALTERNATES/s615/0_nasser.png",
+      "summary": "The chairman of the European Football Clubs, Nasser Al-Khelaifi reacts to Manchester City's guilty verdict regarding the Premier League's financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771518000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Tottenham pay massive price over Man City charges as new Premier League tables shows",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/tottenham-pay-massive-price-over-34694857",
+      "image": "https://i2-prod.football.london/incoming/article34694892.ece/ALTERNATES/s615/0_GettyImages-137537715.jpg",
+      "summary": "The Premier League has confirmed Manchester City are guilty of financial wrongdoings and Tottenham were one of the sides most impacted by the duplicity",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771419000
+    },
+    {
+      "competition": "men",
+      "title": "Jose Mourinho will get explosive with Man City - and Man United fans will love it",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/jose-mourinho-explosive-man-city-34694431",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34694605.ece/ALTERNATES/s615/0_GettyImages-2258134191.jpg",
+      "summary": "Jose Mourinho led Man City to a second-placed finish in the Premier League in 2017/2018, finishing behind Manchester City - he's likely to have plenty to say about their 'sham' finances",
+      "teams": [
+        "manutd",
+        "mancity"
+      ],
+      "publishedAt": 1790771400000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Scalvini: Every word Italy defender said on France clash, Turkiye win and potential move abroad",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/scalvini-every-word-italy-france-turkiye-move/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Giorgio-Scalvini-Jeff-Ekhator-414x276.jpg",
+      "summary": "Giorgio Scalvini says Italy will try to dominate proceedings against France, admits that the win...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790771310000
+    },
+    {
+      "competition": "mirror",
+      "title": "Pep Guardiola breaks silence on Man City changes with clear message to owners",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/pep-guardiola-manchester-city-charges-37719272",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37195525.ece/ALTERNATES/s615/1_Screenshot-2026-05-22-at-215348.jpg",
+      "summary": "Pep Guardiola left Manchester City in the summer after 10 years at the helm, and the club have recently been found guilty of breaching 114 of the Premier League's financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771075000
+    },
     {
       "competition": "men",
       "title": "Pep Guardiola breaks silence on Man City guilty verdict - 'behind my club'",
@@ -49,6 +161,18 @@
       "publishedAt": 1790770691000
     },
     {
+      "competition": "guardian",
+      "title": "Manchester City could be forced to pay Premier League up to £50m in legal costs",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/manchester-city-premier-league-legal-costs",
+      "image": "https://i.guim.co.uk/img/media/604a4bf147e77231447b7476655d3c71ff09b094/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=cd4f0fb028b221038c3e4d335a6d5bc2",
+      "summary": "Club have been found guilty of breaking financial rulesCity deny wrongdoing, saying it is a ‘conspiracy theory’Manchester City are set to owe the Premier League tens of millions of pounds in compensation for legal costs…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790770578000
+    },
+    {
       "competition": "men",
       "title": "'Strong together' - Man City fan groups react to 115 guilty verdicts",
       "publisher": "Manchester Evening News",
@@ -84,18 +208,6 @@
         "mancity"
       ],
       "publishedAt": 1790769706000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Punishment latest, board to told to resign, Ferran Soriano video",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790769634000
     },
     {
       "competition": "men",
@@ -636,115 +748,6 @@
         "nireland"
       ],
       "publishedAt": 1790758466000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United's 'cartel' outrage at Man City sham verdict as Bruno Guimaraes impact clear",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-uniteds-cartel-outrage-man-34693141",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34693227.ece/ALTERNATES/s615/1_GettyImages-2247388298.jpg",
-      "summary": "Newcastle's position could have been a whole lot brighter if they'd tried to bend Premier League rules as well",
-      "teams": [
-        "newcastle",
-        "mancity"
-      ],
-      "publishedAt": 1790758455000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City players 'fear Premier League relegation' as agent leaks dressing room reaction",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-relegation-players-37717514",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37717490.ece/ALTERNATES/s615/0_Manchester-United-v-Manchester-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have been found guilty of breaching the Premier League's financial rules, with relegation from the English top flight landing as a potential punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790757963000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Laporta reveals why Lautaro Martinez move fell through, rules out Fabregas&#8217; Barcelona return",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/laporta-lautaro-martinez-rules-out-fabregas/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/05/fc-barcelona-unveil-new-head-coa-414x276.jpg",
-      "summary": "Barcelona President Joan Laporta says he spoke directly with Beppe Marotta about a potential Lautaro...",
-      "teams": [
-        "barcelona"
-      ],
-      "publishedAt": 1790757784000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa youngster on the role John McGinn is taking in shaping his career",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-youngster-role-john-34693177",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article29534573.ece/ALTERNATES/s615/0_GettyImages-2150745127.jpg",
-      "summary": "Scotland youngster Aidan Borland is learning from the very best at Aston Villa",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790757419000
-    },
-    {
-      "competition": "metro",
-      "title": "Thierry Henry speaks out on Bradley Barcola struggles at Liverpool",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/30/thierry-henry-speaks-bradley-barcola-struggles-liverpool-29665565/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312057353-18e3.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790757353000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League clubs' stance on Man City verdict as rivals decide what to do next",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-premier-league-charges-34692861",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34692860.ece/ALTERNATES/s615/0_Manchester-City-v-Coventry-City-Premier-League-202627.jpg",
-      "summary": "Manchester City have been found guilty of breaching the Premier League's financial rules, with a damning verdict landing on Tuesday",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790756715000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Soriano’s question to Roma and Everton owner Friedkin in Copenhagen revealed",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/soriano-man-city-ceo-question-roma-friedkin/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/manchester-city-v-sunderland-premier-league-2026-27-414x276.jpg",
-      "summary": "Il Corriere dello Sport reports that, on Tuesday, Dan Friedkin expressed satisfaction with Roma s achievements...",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790756445000
-    },
-    {
-      "competition": "indy",
-      "title": "Micah Richards ‘absolutely devastated’ after Man City guilty verdict",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/micah-richards-man-city-guilty-115-charges-premier-league-b3058810.html",
-      "image": "https://static.independent.co.uk/2026/05/22/13/b2a99faa317cabd4ec94a2c0bb20490aY29udGVudHNlYXJjaGFwaSwxNzc5NTM4MzI2-2.84420014.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The Premier League confirmed on Tuesday that City had been found guilty of almost all of the 115 charges brought against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790755917000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City ‘sham’ is worst disgrace in British sports history and forever taints the Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-sham-worst-disgrace-37717179",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37717227.ece/ALTERNATES/s615/1_premium-canvas-1790752962673.png",
-      "summary": "OPINION: After Manchester City were found guilty of 'systematically' breaching Premier League financial regulations for almost a decade - their legacy is forever tainted",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790755512000
     }
   ]
 }
