@@ -1,17 +1,116 @@
 {
-  "generatedAt": 1790786535589,
+  "generatedAt": 1790788873559,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 824,
-    "droppedKeyword": 26,
-    "droppedOtherSport": 2,
+    "raw": 1529,
+    "tagged": 826,
+    "droppedKeyword": 29,
+    "droppedOtherSport": 1,
     "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City icon sends defiant message after charges verdict - but makes 'asterisk' admission",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34697567",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34697552.ece/ALTERNATES/s615/0_richard-dunne.png",
+      "summary": "Manchester City players, past and present, are starting to speak out about the club being found guilty of all charges related to serious breaches of the Premier League's financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790787691000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Football Italia Show: Italy’s dilemma, Newcastle transfer hope &#038; untouchable Azzurro",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/football-italia-show-dilemma-newcastle-azzurro/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-30-at-13-414x276.jpg",
+      "summary": "Italy are back at Coverciano as the Azzurri begin preparations for Friday s away clash with...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790787683000
+    },
+    {
+      "competition": "indy",
+      "title": "Burnham vows to resist potential talks with UAE government over Man City verdict appeal",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/news/uk/politics/burnham-man-city-premier-league-charges-uae-government-b3059249.html",
+      "image": "https://static.independent.co.uk/2026/09/30/13/2297311136..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "The Premier League announced on Tuesday that Manchester City had been found guilty of the majority of the 115 charges brought against them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790787662000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ranking 'new' Premier League champions without Man City as Man Utd and Liverpool benefit",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-united-liverpool-champions-37717335",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37717515.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "A number of high profile players could boast Premier League winners medals if Manchester City are stripped of their titles",
+      "teams": [
+        "liverpool",
+        "mancity",
+        "manutd"
+      ],
+      "publishedAt": 1790787600000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790787330000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790787311000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Raspadori out for two weeks after Italy injury setback",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/raspadori-out-for-two-weeks-after-italy-injury/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-starting-XI-Turkiye-414x276.jpg",
+      "summary": "Giacomo Raspadori has been diagnosed with a muscular issue after withdrawing from international duty with...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790786921000
+    },
+    {
+      "competition": "echo",
+      "title": "Jurgen Klopp speaks out on Man City charges verdict and Liverpool title award demands",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-man-city-charges-34697498",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/article34697480.ece/ALTERNATES/s615/0_Klopp.jpg",
+      "summary": "The former Liverpool boss has spoken after Man City were found guilty of 114 of the 115 charges levelled against them by the Premier League",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790786507000
+    },
     {
       "competition": "fitalia",
       "title": "Muzzi confession he rejected Arsenal and Wenger, infuriating Cagliari",
@@ -38,18 +137,6 @@
       "publishedAt": 1790785820000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790785534000
-    },
-    {
       "competition": "chronicle",
       "title": "Kick them out - only a double Man City demotion would give Newcastle United any justice",
       "publisher": "Chronicle Live",
@@ -61,18 +148,6 @@
         "mancity"
       ],
       "publishedAt": 1790785442000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790785005000
     },
     {
       "competition": "fitalia",
@@ -182,6 +257,18 @@
         "mancity"
       ],
       "publishedAt": 1790783326000
+    },
+    {
+      "competition": "bbc",
+      "title": "What will new call-ups bring to Northern Ireland?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8353/live/12a4d200-bcda-11f1-a64c-550be9e3c66b.png",
+      "summary": "Before the upcoming 2027 Women's World Cup play-off with Portugal, what will the five new faces bring to Northern Ireland?",
+      "teams": [
+        "nireland"
+      ],
+      "publishedAt": 1790782852000
     },
     {
       "competition": "bbc",
@@ -480,6 +567,18 @@
       "publishedAt": 1790776121000
     },
     {
+      "competition": "guardian",
+      "title": "‘I am here more than ever’: Guardiola backs Manchester City owners over guilty verdicts",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/guardiola-backs-manchester-city-owners-over-guilty-verdicts",
+      "image": "https://i.guim.co.uk/img/media/a9e71f1ccab11923a0197fa28d9990188c06bc3b/610_115_3591_2873/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=f445731b5b28148afcf121701a5aad3f",
+      "summary": "‘I am, always have been, always will, be behind my club’Former City chair Bernstein calls for directors to quitPep Guardiola has thrown his support behind Manchester City after the club were found guilty of all charges…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790775583000
+    },
+    {
       "competition": "birmingham",
       "title": "Birmingham City could land cash boost if Man City are relegated after bombshell verdict",
       "publisher": "Birmingham Live",
@@ -650,104 +749,6 @@
         "chelsea"
       ],
       "publishedAt": 1790771848000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa 'sought information' as free-scoring striker hits contract deadlock and exit looms",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-transfers-kevin-viveros-34695302",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34695341.ece/ALTERNATES/s615/1_Mexico-v-Colombia-International-Friendly.jpg",
-      "summary": "Aston Villa brought Alysson from Serie A and now they have been linked with another player from Brazil's top flight",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790771837000
-    },
-    {
-      "competition": "echo",
-      "title": "PSG president Nasser Al-Khelaifi defends Man City chief as Pep Guardiola breaks silence",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/psg-president-nasser-al-khelaifi-34694972",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34694955.ece/ALTERNATES/s615/0_nasser.png",
-      "summary": "The chairman of the European Football Clubs, Nasser Al-Khelaifi reacts to Manchester City's guilty verdict regarding the Premier League's financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771518000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Tottenham pay massive price over Man City charges as new Premier League tables shows",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/tottenham-pay-massive-price-over-34694857",
-      "image": "https://i2-prod.football.london/incoming/article34694892.ece/ALTERNATES/s615/0_GettyImages-137537715.jpg",
-      "summary": "The Premier League has confirmed Manchester City are guilty of financial wrongdoings and Tottenham were one of the sides most impacted by the duplicity",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771419000
-    },
-    {
-      "competition": "men",
-      "title": "Jose Mourinho will get explosive with Man City - and Man United fans will love it",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/jose-mourinho-explosive-man-city-34694431",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34694605.ece/ALTERNATES/s615/0_GettyImages-2258134191.jpg",
-      "summary": "Jose Mourinho led Man United to a second-placed finish in the Premier League in 2017/2018, finishing behind Manchester City - he's likely to have plenty to say about their 'sham' finances",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1790771400000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Scalvini: Every word Italy defender said on France clash, Turkiye win and potential move abroad",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/scalvini-every-word-italy-france-turkiye-move/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/05/Giorgio-Scalvini-Jeff-Ekhator-414x276.jpg",
-      "summary": "Giorgio Scalvini says Italy will try to dominate proceedings against France, admits that the win...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790771310000
-    },
-    {
-      "competition": "mirror",
-      "title": "Pep Guardiola breaks silence on Man City charges with clear message to owners",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/pep-guardiola-manchester-city-charges-37719272",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37195525.ece/ALTERNATES/s615/1_Screenshot-2026-05-22-at-215348.jpg",
-      "summary": "Pep Guardiola left Manchester City in the summer after 10 years at the helm, and the club have recently been found guilty of breaching 114 of the Premier League's financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771075000
-    },
-    {
-      "competition": "men",
-      "title": "Pep Guardiola breaks silence on Man City guilty verdict - 'behind my club'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/pep-guardiola-breaks-silence-man-34695313",
-      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article34689235.ece/ALTERNATES/s615/0_Manchester-City-v-West-Ham-United-Premier-League.jpg",
-      "summary": "Pep Guardiola has released a message of support for Manchester City on social media",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771047000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Highlights: Turkiye 1-4 Italy, exciting Nations League victory",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/highlights-turkiye-1-4-italy-nations-league/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-celebrate-Bastoni-414x276.jpg",
-      "summary": "Watch the highlights from Italy’s entertaining 4-1 Nations League victory in Turkyie, with goals from...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790770691000
     }
   ]
 }
