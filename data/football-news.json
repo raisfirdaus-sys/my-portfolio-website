@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790729140645,
+  "generatedAt": 1790729238028,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 595,
-    "tagged": 379,
-    "droppedKeyword": 7,
+    "raw": 1527,
+    "tagged": 817,
+    "droppedKeyword": 23,
     "droppedOtherSport": 0,
-    "droppedFeed": 0,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -685,18 +685,6 @@
       "publishedAt": 1790701872000
     },
     {
-      "competition": "guardian",
-      "title": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/29/uswnt-roster-spain-ashley-sanchez-mallory-swanson-naomi-girma",
-      "image": "https://i.guim.co.uk/img/media/03956ee6967201f0ae1b74d45be91a5f2f66d58f/77_0_4551_3641/master/4551.jpg?width=140&quality=85&auto=format&fit=max&s=67db92c999c2f4203d1e4d2f3f9b4358",
-      "summary": "Sanchez, NWSL’s top scorer, returns after years awayNaomi Girma called up despite injury absence for ChelseaMallory Swanson earns recall after Olympic heroicsNaomi Girma and Sam Coffey are returning to the United States…",
-      "teams": [
-        "spain"
-      ],
-      "publishedAt": 1790701216000
-    },
-    {
       "competition": "mirror",
       "title": "Why are Declan Rice, Marcus Rashford and Cole Palmer not in England squad vs Czechia?",
       "publisher": "Mirror Football",
@@ -744,6 +732,18 @@
         "mancity"
       ],
       "publishedAt": 1790700992000
+    },
+    {
+      "competition": "men",
+      "title": "Man City hit back at Premier League guilty verdict with fiery statement - 'clear material errors'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-hit-back-premier-34691952",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678824.ece/ALTERNATES/s615/0_JS315909739.jpg",
+      "summary": "Manchester City released a strongly worded statement in response to the Premier League finding the club guilt of all charges in the long-running case",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790700890000
     }
   ]
 }
