@@ -1,17 +1,115 @@
 {
-  "generatedAt": 1790788873559,
+  "generatedAt": 1790791610011,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1529,
-    "tagged": 826,
-    "droppedKeyword": 29,
+    "raw": 1535,
+    "tagged": 844,
+    "droppedKeyword": 31,
     "droppedOtherSport": 1,
-    "droppedFeed": 11,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790791268000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel sends brutal reality check over England finding Harry Kane replacement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-harry-kane-england-37719571",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37719587.ece/ALTERNATES/s615/0_premium-canvas-1790773626421.png",
+      "summary": "Harry Kane chalked up international goal number 87 during the Three Lions' win in Prague, with Thomas Tuchel warning it's a waste of time trying to find a replacement",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790791200000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Abodi: &#8216;Italy project not in question&#8217; even if FIGC President removed",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/abodi-italy-project-not-in-question-if-figc/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
+      "summary": "Minister for Sport Andrea Abodi insists the Roberto Mancini project with Italy is ‘not in...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790790698000
+    },
+    {
+      "competition": "men",
+      "title": "Jurgen Klopp gives verdict on Man City being stripped of titles to give them to Liverpool",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jurgen-klopp-man-city-charges-34697632",
+      "image": "https://i2-prod.football.london/incoming/article34697640.ece/ALTERNATES/s615/0_Germany-Training-Session-And-Press-Conference.jpg",
+      "summary": "Former Liverpool manager Jurgen Klopp has given his view after Manchester City were found guilty of 114 of the 115 charges",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790789733000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790789423000
+    },
+    {
+      "competition": "bbc",
+      "title": "Haaland 'no different' following Man City verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckge43e8nqdwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e2/live/02f13b20-bcf1-11f1-8ce2-417f8f7cb095.jpg",
+      "summary": "Norway colleagues say the striker has been unaffected by the headlines around the Premier League club ahead of the Nations League game with Wales",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790789184000
+    },
+    {
+      "competition": "mirror",
+      "title": "Jurgen Klopp performs huge Man City U-turn after speaking out on guilty verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-liverpool-klopp-guardiola-37720737",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37720734.ece/ALTERNATES/s615/0_GettyImages-2297914109.jpg",
+      "summary": "Jurgen Klopp was a direct rival to both Manchester City and Pep Guardiola before deciding to leave Liverpool in 2024 and he has now offered a fresh take on their guilty Premier League verdict",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790788910000
+    },
+    {
+      "competition": "guardian",
+      "title": "Craig Bellamy urges Wales improvement but wary of Norway’s threat",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/craig-bellamy-wales-norway-nations-league-erling-haaland-manchester-city",
+      "image": "https://i.guim.co.uk/img/media/91f0e16375659d20df525b7087856a962d841651/407_0_4050_3240/master/4050.jpg?width=140&quality=85&auto=format&fit=max&s=94d559a0f57ffdaaf404bc7ec4d950ad",
+      "summary": "Wales ‘unrecognisable’ in defeat against DenmarkHaaland ‘exactly the same’ after Manchester City verdictCraig Bellamy has said Wales must improve against Norway on Thursday after appearing unrecognisable in defeat…",
+      "teams": [
+        "norway",
+        "wales"
+      ],
+      "publishedAt": 1790788297000
+    },
     {
       "competition": "men",
       "title": "Man City icon sends defiant message after charges verdict - but makes 'asterisk' admission",
@@ -61,30 +159,6 @@
         "manutd"
       ],
       "publishedAt": 1790787600000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790787330000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790787311000
     },
     {
       "competition": "fitalia",
@@ -257,18 +331,6 @@
         "mancity"
       ],
       "publishedAt": 1790783326000
-    },
-    {
-      "competition": "bbc",
-      "title": "What will new call-ups bring to Northern Ireland?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8353/live/12a4d200-bcda-11f1-a64c-550be9e3c66b.png",
-      "summary": "Before the upcoming 2027 Women's World Cup play-off with Portugal, what will the five new faces bring to Northern Ireland?",
-      "teams": [
-        "nireland"
-      ],
-      "publishedAt": 1790782852000
     },
     {
       "competition": "bbc",
@@ -686,69 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1790774218000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Baldini discusses Italy U21s’ EUROs qualification chances: ‘We have to be ourselves’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/baldini-discusses-italy-u21s-euros-chances/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/10/Italy-U21-team-Armenia.jpg",
-      "summary": "Silvio Baldini has discussed his side’s chances of qualifying for the 2027 European Championships, as...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790772671000
-    },
-    {
-      "competition": "metro",
-      "title": "Pep Guardiola breaks silence after Man City found guilty of financial breaches",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/30/pep-guardiola-breaks-silence-man-city-found-guilty-financial-breaches-29667029/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_300047020-d26f.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790772620000
-    },
-    {
-      "competition": "bundes",
-      "title": "Cologne’s Mikey Moore leading by example for England U20s",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/cologne-mikey-moore-england-u20s-captain-france-italy-39391",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083489341h.jpg?crop=0px%2C45px%2C3000px%2C1687px",
-      "summary": "Less than a month after arriving at Cologne on loan from Tottenham Hotspur, Mikey Moore’s sharp upward trajectory has continued with a maiden England U20 call up - and the 19 year old was entrusted with the captaincy…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790772266000
-    },
-    {
-      "competition": "echo",
-      "title": "Pep Guardiola breaks silence on Man City 115 charges verdict as Liverpool impact clear",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/breaking-pep-guardiola-man-city-34695410",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34695493.ece/ALTERNATES/s615/0_SOCCER_Man_City_13303998JPG.jpg",
-      "summary": "Former Manchester City boss Pep Guardiola has broken his silence on the club after they were found guilty of breaching all financial charges by an independent commission",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790771956000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Pep Guardiola drops statement on Man City charges verdict as Arsenal, Chelsea and Spurs watch on",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/guardiola-man-city-charges-arsenal-34695419",
-      "image": "https://i2-prod.football.london/incoming/article34695446.ece/ALTERNATES/s615/0_Pep-Guardiola.jpg",
-      "summary": "Former Manchester City boss Pep Guardiola has responded to the club's 114 financial charges as Premier League rivals watch on",
-      "teams": [
-        "mancity",
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790771848000
     }
   ]
 }
