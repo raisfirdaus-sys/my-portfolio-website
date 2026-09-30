@@ -1,17 +1,187 @@
 {
-  "generatedAt": 1790764796075,
+  "generatedAt": 1790768460576,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1542,
-    "tagged": 820,
-    "droppedKeyword": 28,
-    "droppedOtherSport": 0,
-    "droppedFeed": 9,
+    "tagged": 814,
+    "droppedKeyword": 27,
+    "droppedOtherSport": 1,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "Thomas Tuchel says he hasn’t spoken to England’s Man City contingent about bombshell verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/thomas-tuchel-england-man-city-verdict-guehi-anderson-oreilly-b3058764.html",
+      "image": "https://static.independent.co.uk/2026/09/30/12/2297756347..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Man City were found guilty of breaching Premier League financial rules just hours before the win in Czechia",
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790767934000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Newspaper names 37 Italy youngsters to bring back major tournament success",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/newspaper-names-37-italy-youngsters/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Silvio-Baldini-CU.jpg",
+      "summary": "Michael Kayode impressed on his first appearance for the Italy national team earlier this week,...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790767747000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Premier League statement, potential punishments and Ferran Soriano speaks out",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790767345000
+    },
+    {
+      "competition": "mirror",
+      "title": "The truth behind Man City CEO not blinking for 3 minutes in 'unusual' announcement video",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-ferran-soriano-37718041",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37718769.ece/ALTERNATES/s615/1_Ferran-Soriano-grab.jpg",
+      "summary": "Manchester City CEO Ferran Soriano addressed staff in a new video, and his body language was very telling",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790767028000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Punishment latest, board to told to resign, Ferran Soriano video",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790766807000
+    },
+    {
+      "competition": "mirror",
+      "title": "Cristiano Ronaldo set for emergency Portugal meeting after 'broken promise' from manager",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/cristiano-ronaldo-portugal-jorge-jesus-37717823",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37718494.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "Cristiano Ronaldo watched the entirety of Portugal's 2-1 victory over Norway from the bench, going straight down the tunnel at full-time and not acknowledging their travelling fans",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1790766773000
+    },
+    {
+      "competition": "metro",
+      "title": "Ireland make decision on playing second fixture against Israel",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/30/ireland-make-decision-playing-second-fixture-israel-29666454/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314689727-ec42.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790766491000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ferran Soriano's desperate video misses the point - nobody will ever believe Man City again",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-ferran-soriano-message-37718645",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37715927.ece/ALTERNATES/s615/0_GettyImages-2276195662.jpg",
+      "summary": "Manchester City Chief Executive Ferran Soriano released a video to staff shortly after the Premier League's bombshell and explosive ruling - maintaining their innocence",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790766470000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City news: Ferran Soriano video, club statement and charges punishment verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-ferran-soriano-37717797",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37718318.ece/ALTERNATES/s615/0_Haaland-Foden.jpg",
+      "summary": "Manchester City have released several statements in the wake of the Premier League announcing their 115 financial charges verdict",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790766033000
+    },
+    {
+      "competition": "mirror",
+      "title": "Every Man City player Roy Keane wants to throw out medals after damning 115 charges verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37717359",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37717457.ece/ALTERNATES/s615/0_GettyImages-2297536213-copy.jpg",
+      "summary": "Manchester City are at the heart of a huge storm after being found guilty of breaching Premier League financial rules and Roy Keane has not held back",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790766000000
+    },
+    {
+      "competition": "echo",
+      "title": "'Stick medals in bin' - Pundits slam Man City 'cheats' after guilty verdict as Liverpool watch on",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/stick-medals-bin-pundits-slam-34694133",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34694088.ece/ALTERNATES/s615/0_GettyImages-2297544273.jpg",
+      "summary": "English football's leading pundits have all had their say after Man City were found guilty of breaching Premier League financial regulations",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790765878000
+    },
+    {
+      "competition": "metro",
+      "title": "Thomas Tuchel left with &#8216;bad conscience&#8217; over how he treated Man City players",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/09/30/thomas-tuchel-left-bad-conscience-treated-man-city-players-29666132/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314612414-2e53.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790765687000
+    },
+    {
+      "competition": "indy",
+      "title": "The unhinged Manchester City response that reveals how far their war with the Premier League will go",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/manchester-city-psychopath-premier-league-report-b3058937.html",
+      "image": "https://static.independent.co.uk/2026/09/30/10/05/GettyImages-2276049133.jpg?width=1200&auto=webp&trim=0%2C109%2C0%2C109",
+      "summary": "City cooked the books and then set about discrediting those who challenged them. Now the damning verdict is in but their war against the Premier League goes on",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790765302000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Juventus, Inter and Premier League clubs already approached Romano",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/juventus-inter-premier-league-clubs-romano/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Alessandro-Romano-Mechele-414x276.jpg",
+      "summary": "Tuttosport reports that Juventus, Inter and some Premier League clubs have already made preliminary approaches...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790765045000
+    },
     {
       "competition": "indy",
       "title": "Ireland boss confirms second match against Israel will go ahead as he vows to ‘focus on football’",
@@ -23,6 +193,18 @@
         "israel"
       ],
       "publishedAt": 1790764447000
+    },
+    {
+      "competition": "fitalia",
+      "title": "De Gea sends four-word message after Manchester City statement",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/de-gea-sends-four-word-message-city-statement/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/manchester-city-fc-v-ipswich-tow.jpg",
+      "summary": "Fiorentina and former Manchester United goalkeeper David De Gea continues to poke fun at his...",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790764310000
     },
     {
       "competition": "footlondon",
@@ -49,30 +231,6 @@
         "chelsea"
       ],
       "publishedAt": 1790764242000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Premier League statement, potential punishments and Ferran Soriano speaks out",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790764241000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Punishment latest, board to told to resign, Ferran Soriano video",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790764142000
     },
     {
       "competition": "chronicle",
@@ -191,7 +349,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/30/throw-your-medals-in-the-bin-roy-keane-tells-manchester-city-players",
       "image": "https://i.guim.co.uk/img/media/8530df70ae05276925cd86f4886187e3caa00928/1162_84_4066_3255/master/4066.jpg?width=140&quality=85&auto=format&fit=max&s=3b1853bc04a3fd85857f021917bcf087",
-      "summary": "‘They won the titles because cheating was going on’Micah Richards says he is ‘devastated and heartbroken’Former Manchester United captain Roy Keane said he would throw the “medals in the bin” if he were a Manchester…",
+      "summary": "‘They won the titles because cheating was going on’Micah Richards says he is ‘devastated and heartbroken’The former Manchester United captain Roy Keane said he would throw the “medals in the bin” if he were a Manchester…",
       "teams": [
         "mancity"
       ],
@@ -582,163 +740,6 @@
         "mancity"
       ],
       "publishedAt": 1790748000000
-    },
-    {
-      "competition": "mirror",
-      "title": "PFA chief picks sides in Thomas Tuchel and Cole Palmer’s England row",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-tuchel-cole-palmer-row-37716091",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716074.ece/ALTERNATES/s615/0_GettyImages-2296030864.jpg",
-      "summary": "Cole Palmer pulled out of international duty this month despite having been called up by boss Thomas Tuchel but the Chelsea playmaker has received backing from PFA chief executive Maheta Molango",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790748000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal boss Mikel Arteta handed triple boost on top of frustrating injury blow",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-viktor-gyokeres-christos-tzolis-34690674",
-      "image": "https://i2-prod.football.london/incoming/article34690670.ece/ALTERNATES/s615/0_GettyImages-2296497533.jpg",
-      "summary": "So far, the extended three-week international break has actually been kind to Arsenal and head coach Mikel Arteta as much as it has been cruel",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790748000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Five injury boosts and £75m Chelsea star dropped in Xabi Alonso's dream line-up for Bournemouth",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/five-injury-boosts-75m-chelsea-34689390",
-      "image": "https://i2-prod.football.london/incoming/article34624914.ece/ALTERNATES/s615/0_GettyImages-2294366061.jpg",
-      "summary": "While a big chunk of his Chelsea players are out on international duty, manager Xabi Alonso will be working behind the scenes to prepare for the Bournemouth game next month",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790748000000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool Champions League winner plays one final match as he hangs up boots aged 44",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/milan-baros-liverpool-champions-league-34687636",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34688210.ece/ALTERNATES/s615/0_GettyImages-1224903390.jpg",
-      "summary": "A former Liverpool star and Champions League winner has hung up his boots for good",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790748000000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Matthias Jaissle reveals fan gesture that blew his mind and new Newcastle United blueprint",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-reveals-fan-gesture-34689590",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676320.ece/ALTERNATES/s615/0_Jaissle.jpg",
-      "summary": "Matthias Jaissle talks about the \"ideal world\" that could be hard to deliver, but speaks openly about why Newcastle wanted to sign him up",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790748000000
-    },
-    {
-      "competition": "indy",
-      "title": "How Trent Alexander-Arnold showed his value in England’s win over the Czech Republic",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-result-score-nations-league-b3058564.html",
-      "image": "https://static.independent.co.uk/2026/09/29/21/01M3QC3WA42CT1C8VPB8D5PQZJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Czech Republic 0-2 England: Goals from Anthony Gordon and Harry Kane helped Thomas Tuchel’s side to victory over their 10-man hosts – with their right-back laying on a trademark assist",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790746690000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa's comeback king tells Harvey Elliott he can feel the love in Spain",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-liverpool-harvey-elliott-34691373",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article33329513.ece/ALTERNATES/s615/0_Aston-Villa-FC-v-FC-Salzburg-UEFA-Europa-League-202526-League-Phase-MD8.jpg",
-      "summary": "The Liverpool man had a tough time on loan with Aston Villa but can recover his form in Spain",
-      "teams": [
-        "astonvilla",
-        "spain"
-      ],
-      "publishedAt": 1790745720000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Bradley Barcola comment could land him in trouble as wonderkid transfer 'eyed'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfers-bradley-barcola-scotti-34690291",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34690289.ece/ALTERNATES/s615/0_Belgium-v-France-UEFA-Nations-League-202627-Group-A1-MD2.jpg",
-      "summary": "There has been plenty of Liverpool interest during the international break while transfer chatter has also continued",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790744400000
-    },
-    {
-      "competition": "echo",
-      "title": "My 25 most memorable moments covering Everton for the ECHO",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/25-most-memorable-moments-covering-34691369",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34554193.ece/ALTERNATES/s615/0_GettyImages-2252886230.jpg",
-      "summary": "On his final day as the Liverpool ECHO's Everton FC correspondent, Joe Thomas reflects on his time covering the Blues",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790744400000
-    },
-    {
-      "competition": "echo",
-      "title": "Thierry Henry sends Bradley Barcola Liverpool warning and makes surprise claim about Jeremy Jacquet",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/thierry-henry-sends-bradley-barcola-34691492",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34686661.ece/ALTERNATES/s615/1_Thierry-Henry-file-photo.jpg",
-      "summary": "Thierry Henry has had his say on Bradley Barcola and Jeremy Jacquet's starts to their Liverpool careers",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790744400000
-    },
-    {
-      "competition": "chronicle",
-      "title": "The 10 transfers Newcastle United missed out on this summer and how they're getting on",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-transfer-targets-munoz-palhinha-34682854",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34683554.ece/ALTERNATES/s615/0_GettyImages-2295431709.jpg",
-      "summary": "Newcastle endured a rollercoaster of a summer transfer window with several players, and Eddie Howe, heading out the St James' Park exit door",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790744400000
-    },
-    {
-      "competition": "men",
-      "title": "Man United latest: Sir Alex Ferguson meeting comes to light as JJ Gabriel U-turns on ban",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-ferguson-34690562",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34690773.ece/ALTERNATES/s615/0_GettyImages-2296243527.jpg",
-      "summary": "Michael Carrick's Manchester United side won't play a game for another 10 days as we remain in the midst of the extended international break",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790742600000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Anthony Gordon reveals the part of Newcastle he's missed after England reunion",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/gordon-england-lewis-hall-newcastle-34692509",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34692512.ece/ALTERNATES/s615/0_GettyImages-2297767776.jpg",
-      "summary": "Anthony Gordon left Newcastle United in the summer to join Barcelona, but has found some familiar faces during the first international break of the season",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790742600000
     }
   ]
 }
