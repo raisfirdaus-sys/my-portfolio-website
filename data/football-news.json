@@ -1,17 +1,150 @@
 {
-  "generatedAt": 1790742388096,
+  "generatedAt": 1790747244807,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1532,
-    "tagged": 824,
+    "raw": 1530,
+    "tagged": 816,
     "droppedKeyword": 23,
     "droppedOtherSport": 0,
-    "droppedFeed": 12,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 53
+    "withImage": 47
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790747114000
+    },
+    {
+      "competition": "indy",
+      "title": "How Trent Alexander-Arnold showed his value in England’s win over the Czech Republic",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-result-score-nations-league-b3058564.html",
+      "image": "https://static.independent.co.uk/2026/09/29/21/01M3QC3WA42CT1C8VPB8D5PQZJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Czech Republic 0-2 England: Goals from Anthony Gordon and Harry Kane helped Thomas Tuchel’s side to victory over their 10-man hosts – with their right-back laying on a trademark assist",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790746690000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790746023000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Aston Villa's comeback king tells Harvey Elliott he can feel the love in Spain",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/aston-villa-liverpool-harvey-elliott-34691373",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article33329513.ece/ALTERNATES/s615/0_Aston-Villa-FC-v-FC-Salzburg-UEFA-Europa-League-202526-League-Phase-MD8.jpg",
+      "summary": "The Liverpool man had a tough time on loan with Aston Villa but can recover his form in Spain",
+      "teams": [
+        "astonvilla",
+        "spain"
+      ],
+      "publishedAt": 1790745720000
+    },
+    {
+      "competition": "guardian",
+      "title": "A-Leagues launch clouded by Manchester City cheating scandal as APL vows to review findings",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/a-league-launch-clouded-by-manchester-city-cheating-scandal-apl",
+      "image": "https://i.guim.co.uk/img/media/7373bff0056399afc1e44e630fd0b48d090bf45f/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=4f258443dddd2fcee2cca8a40615e247",
+      "summary": "Australia’s football season to begin under a pall as Melbourne City shares owners with the Premier League giant found guilty of unprecedented breaches The Premier League’s finding that Manchester City is guilty of…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790745326000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool latest: Bradley Barcola comment could land him in trouble as wonderkid transfer 'eyed'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfers-bradley-barcola-scotti-34690291",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34690289.ece/ALTERNATES/s615/0_Belgium-v-France-UEFA-Nations-League-202627-Group-A1-MD2.jpg",
+      "summary": "There has been plenty of Liverpool interest during the international break while transfer chatter has also continued",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790744400000
+    },
+    {
+      "competition": "echo",
+      "title": "Thierry Henry sends Bradley Barcola Liverpool warning and makes surprise claim about Jeremy Jacquet",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/thierry-henry-sends-bradley-barcola-34691492",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34686661.ece/ALTERNATES/s615/1_Thierry-Henry-file-photo.jpg",
+      "summary": "Thierry Henry has had his say on Bradley Barcola and Jeremy Jacquet's starts to their Liverpool careers",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790744400000
+    },
+    {
+      "competition": "echo",
+      "title": "My 25 most memorable moments covering Everton for the ECHO",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/25-most-memorable-moments-covering-34691369",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34554193.ece/ALTERNATES/s615/0_GettyImages-2252886230.jpg",
+      "summary": "On his final day as the Liverpool ECHO's Everton FC correspondent, Joe Thomas reflects on his time covering the Blues",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790744400000
+    },
+    {
+      "competition": "chronicle",
+      "title": "The 10 transfers Newcastle United missed out on this summer and how they're getting on",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-transfer-targets-munoz-palhinha-34682854",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34683554.ece/ALTERNATES/s615/0_GettyImages-2295431709.jpg",
+      "summary": "Newcastle endured a rollercoaster of a summer transfer window with several players, and Eddie Howe, heading out the St James' Park exit door",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790744400000
+    },
+    {
+      "competition": "men",
+      "title": "Man United latest: Sir Alex Ferguson meeting comes to light as JJ Gabriel U-turns on ban",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-ferguson-34690562",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34690773.ece/ALTERNATES/s615/0_GettyImages-2296243527.jpg",
+      "summary": "Michael Carrick's Manchester United side won't play a game for another 10 days as we remain in the midst of the extended international break",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790742600000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Anthony Gordon reveals the part of Newcastle he's missed after England reunion",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/gordon-england-lewis-hall-newcastle-34692509",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34692512.ece/ALTERNATES/s615/0_GettyImages-2297767776.jpg",
+      "summary": "Anthony Gordon left Newcastle United in the summer to join Barcelona, but has found some familiar faces during the first international break of the season",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790742600000
+    },
     {
       "competition": "mirror",
       "title": "Liverpool news: Reds 'following' wonderkid winger as Bradley Barcola risks punishment",
@@ -98,18 +231,6 @@
       "publishedAt": 1790737200000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790734233000
-    },
-    {
       "competition": "echo",
       "title": "Liverpool coach tipped to become manager after 'soaking up' Anfield experience - 'I would expect that'",
       "publisher": "Liverpool Echo",
@@ -184,18 +305,6 @@
       "publishedAt": 1790719571000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Premier League's damning statement, 'sham' contracts, City respond",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790718901000
-    },
-    {
       "competition": "guardian",
       "title": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
       "publisher": "The Guardian",
@@ -231,6 +340,41 @@
         "realmadrid"
       ],
       "publishedAt": 1790718055000
+    },
+    {
+      "competition": "unl-a",
+      "title": "UEFA Nations League: Kane starts as England look to bounce back in Czechia",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObUQ4N2I1NFV3Sk0yV2IyejFFV0RWVkotOXRDNTBtYWV2SU0wNXlUcDl2RUp0UXY1WGdLaS1KRFh6YjVpbURESHloa2pRV2c5X09aVnJ2TjN0OXoza1pWcTlXYXg2Qjk0TENXMDFHZnB6UXBxUzNGN1BCZVNDSE16YUhBSzJjc3FfWHhWNjBTc1FoS1lWWkFZMEVjRmtYU1J6ZUFrNEFROTEyWDFNU3NXMG9HYU8?oc=5",
+      "teams": [
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790746817000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "'One of the best in the world' - Lucy Bronze relishing Chelsea's Champions League test against Lyon",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV3p1SjlSVzVLcGI5VVpEZzJEWHBjYmNqcFE3Qm5pX1hDX0Zoa1h0akxVeEFua3JiV01BMnI2NHJRaGNuNDZvT25mamZ6Y1VwbS1McXZ6RWNWVFBHQXZCdklJdk9DcTdiTUFQbFp4dnFfUHlpZ1hJOXNKemhveFdoTk84N0dzeUlZd2lneW9YelgzT0RnRWREVFYwckdrUWFRcHJR?oc=5",
+      "teams": [
+        "chelsea",
+        "lyon"
+      ],
+      "publishedAt": 1790746673000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "Manchester City have become ‘Sham FC’. They deserve the heaviest punishment",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ0VsZFJVdzhkWWc1cFZBV2NGcVhlRVBUVi1FYUs4NHFPQ3VXRGlPdDRORFVQeVdGZ3RFZkp4ZThac3UyOWs0amhOSGlXN0ZxelVwaEg2NEFvQUpUOHREWGNtNjI3UktxYzd3cDVOc2NreHI5cEw0MzhqVlNSSllWVmZrTDV6Xy1hRXpBSk9wYnYxMVZYc2Yza3NWWThVUWNLS01wdQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790746027000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -269,6 +413,17 @@
       "publishedAt": 1790717134000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City have become ‘Scam FC’. They deserve the heaviest punishment",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ1ZMVEs3NVc0R0xZY1RlQWFBeWszSzROSE9EZkh3S0pVa2RfcFFMRXFDeEp5ZnJoaUxwYzFKa1E4dWctTUp1QjI1UEZtWnB3amZZeFl4ME1kOFBwcjZSbUNCQ25jUVE5S3JnYjdJNWpMVDNEbHUtUHBNVlFuVEFDUmxJN3RSU1h6SDNJMFBxQUwyNFVsTHV4bkpwMlpyWFpFZm5MdA?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790745861000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Trent Alexander-Arnold makes ideal return to England starting line-up with Anthony Gordon link",
       "publisher": "Liverpool Echo",
@@ -303,6 +458,40 @@
         "england"
       ],
       "publishedAt": 1790716395000
+    },
+    {
+      "competition": "epl",
+      "title": "Man City scandal: What to know about the controversy surrounding the Premier League soccer team",
+      "publisher": "Rutland Herald",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbjlMdE1Xa2J2LU5XVDVHRHQtNWZ2ZDNGdXJXUzlLOHMtaE5Ya2t0WEdjZzlWREdxYTlTdlltN1ZUdFB0TnNoMFROaXVxWFhUbWhNWmJPNUs0cnFNTnZRMDZjSHM2YVlXM29LRnhQLUZYNXJDTEJZVTE2bXM3UmppS05WU3dDQ1VhenE5U09IcnB1ZjRvWncyQldaVHpGcUxpS25naHRMY2M4UXNwcVJVVTdtX2I4ZnpUVkZrT2ZiWUtBT2VmblEyaGlUdEt6bVJPNGdsVElSQ2llYTc1R1lxNVJvT1h0T3VhaF9QOENPQ3pQZ1ZMaFJXUUJIdnZ3MU0tS0k5ZElfYV94UFZDNDVGNi11TDU0T1A4VjZjY3Q1cDk2RXZ2WV8zcw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790744695000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man City charges: Key findings from independent commission analysed",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPREFQdnpWaG9pWjFxbVJ0dGg4cWhTbHhFdHl0N2pZVHR0UVpiWTJ5RHZLc0JFWkQ3aVkyNFdpOG1OYTJRSjE3dGphXzNmNXYzRWNEZFlKN2ZYcUgxMWdJVHdONDEyejNtRHR4RVNma2d6N2lqdGZ4M3dTYW1GN05jbzZJRy1KZllfeHFkNUQ1N0hUQVphTXdIeEtOM19xMzFnSHJjMmJrRTV1OUFjRUxTa0laVWdOYzY4UUE?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790744625000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "‘Every time they speak, they attack Barcelona’ - Joan Laporta takes aim at Real Madrid",
+      "publisher": "Barca Blaugranes",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzBYRkZhRGNWXzdnWGVoczhXNW1DYVE0Z1pycm5KQTFoaU1xNDNKclpfV3lqUEc4OHlYQTRvU29oM1B4bDlwN0xFNXRrVk9YdGg2RjBzUkEyY0JHNm02LUlPXzZuS2F1OWxBNzliNU92Qy1Zbk9CTkM3b1dIWkJyOFNleUZWaHRNT3QyU3Y0VC05VHZjcE1zcDFtUDJpQ3V4ckMxQ29mOVRQdHRzRm9yWTFua3ctelRLcHc?oc=5",
+      "teams": [
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790744400000,
+      "image": null
     },
     {
       "competition": "guardian",
@@ -368,6 +557,17 @@
       "publishedAt": 1790715420000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City guilty of financial breaches worth Rs 11,420 crore: Could it be relegated from EPL?",
+      "publisher": "firstpost.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcEhBT1pYSFJGODl4MnhqRzhodmdkSERkNTFrWmF6RVhyd0dvMmhNcDV6Rlg1VDZteFhuNnVfSHJDb0xrbC1aZWJyT0lYaXFKVGE2bVNlaWgzakplTnE5TEZsdzh3cWxBYmJIWjlaM2lNbkx6STlnY2dxeHFaUEYySmZFYW1qN1NUUllfOEtDaVh2SnBqSUh6MXJKTnNMcVpEaWVMN25ZUmhyU1Rqb1VsVkZoQUh1NDB0bk9SUW1XUURDWnFxZXZFc9IBzgFBVV95cUxOMGZlS1ZNd1ZJUmwwdW82U0hsRDA5VXRYS0RDNnhHQk54OUFRS0VlN09zWWFRNjBoa2Q3UDdrR0hJS2J0aWNRcmc4VFBGblMzYjZhcVFQUGZkdzNrR0ZEZWEtZHhsLUJPdEZfWkR6NTlvYlBhUXNoeDRuaEYzRXBhSzFrT0wwQVdRamI5dG1zaE1DeEpXY01uQkdJRXdleUVZd2NrYUlSMTJ6UE1Vbm5nbTZlRU9nX0MtdUs0RGlNQnQ1TzlqMy0xeGFqY3JRZw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790744131000,
+      "image": null
+    },
+    {
       "competition": "guardian",
       "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
       "publisher": "The Guardian",
@@ -379,18 +579,6 @@
         "scotland"
       ],
       "publishedAt": 1790715107000
-    },
-    {
-      "competition": "indy",
-      "title": "How Trent Alexander-Arnold showed his value in England’s win over the Czech Republic",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-result-score-nations-league-b3058564.html",
-      "image": "https://static.independent.co.uk/2026/09/29/21/01M3QC3WA42CT1C8VPB8D5PQZJ.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Czech Republic 0-2 England: Goals from Anthony Gordon and Harry Kane helped Thomas Tuchel’s side to victory over their 10-man hosts – with their right-back laying on a trademark assist",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790714898000
     },
     {
       "competition": "footlondon",
@@ -417,6 +605,18 @@
       "publishedAt": 1790714386000
     },
     {
+      "competition": "ucl",
+      "title": "Manchester City’s wrongdoing hurts Liverpool most of all. Nothing can truly compensate them",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb3dxR2pVaFp2SEZaZjd1RHVDTzdaUFFISk1NYmRhS2hEeGVvczU4N2I0cVZuY1lWV2lEMmtLNElCZnlOaWZjak1jc0pnaXoyaWJkeVYzUFFwTzlHRVd5Z0t6NHVCeG9pbUtXYmw2Z05OLTJvU2pjVXc0Tjc2bGRvQU1iaGJfSjBZOWpLMDUxT28wdE8zYTFTNUNiQXM?oc=5",
+      "teams": [
+        "mancity",
+        "liverpool"
+      ],
+      "publishedAt": 1790743144000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "England player ratings vs Czech Republic as Anthony Gordon and 7/10 stars send message to Thomas Tuchel",
       "publisher": "Mirror Football",
@@ -439,6 +639,17 @@
         "england"
       ],
       "publishedAt": 1790714247000
+    },
+    {
+      "competition": "ucl",
+      "title": "VIP Champions League tickets for Man Utd vs Roma start at £249",
+      "publisher": "nationalworld.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaUkzeDdfVWw4N0NnbW15YXFzbDFaS19QVFRHRGktS1FPa0VIVmRIdDJHRkVrODhhaDQyYzMyZnJ5NTBUUWNtRXFSam0tUnpmXzNkRFJoQS1pVUNKNHY2VGVvWXhQM2JST3Z0TlNpb21aX1FpV05XT0RNYWI1RnZCazJXX2ROdThWd0Y0ckhCUUxYWl9mVWpEVUwwaXFiWGRGbmdIeTQ2ZUZnQXA5bTdmNHFqMzRZOFRvQURMWVpUWlB3bkZ4UWdCZ2xKWG0?oc=5",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790742781000,
+      "image": null
     },
     {
       "competition": "men",
@@ -525,220 +736,6 @@
         "mancity"
       ],
       "publishedAt": 1790711358000
-    },
-    {
-      "competition": "bbc",
-      "title": "Premier League confirm Man City guilty of all charges - 5 Live reaction",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pd2w9y?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
-      "summary": "Kelly Somers is joined by Dale Johnson, Kieran Maguire, John Murray and Paul Robinson",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790710200000
-    },
-    {
-      "competition": "epl",
-      "title": "Premier League Finds Manchester City Guilty Of Financial Breaches Over Nearly A Decade",
-      "publisher": "Rediff",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRk1HWXdsMk1wWGd0T2dHcTRvRWtCSFdqZDhSb0FSb3RMUThZa2ctWWpoQ25FcVNCSlFwaXpyZHVjbmhjZ3F3dHpJeEh0TXhySjN2ODQydVFkeEhIRnBvdEt4amlxV2hnZW9LdHJyVkQ3NXhDRnpQdUpfRGJHMDlBU2hfcEQ3Qy1RM056UWFEemxYc3o3WUNmSGJQeWFSTmxIV0x0RDZNTzB0M09rXzF3RGpqdHc4N0xwcVNURWJxbHZ5RWdTNkstNDlBTDd2MUxTcmw0WVpVUdIB2gFBVV95cUxOWU1NbGJ4bXpHd2xEZG9RdEtIcGw0dFktWkhQRWR4ckJYM3A2Y3J0OXZrZGJVZUpZMUc1dmlDbjFRalpMRDJfbS1LX2dvVWRfZ1pZNTd5QzZnWmZEVTlCSF93WGRnLWlKLUxxY3VwNTNqcmo3ZmdHZXVScXpFZExzQkxzQk5EM1lFX2RPWWxXWjVRWmt1NUdSV3NMZGF6cEVkS3FxWDh2bEgwOWVIVngwcXFvd0ZiOFhabTdEeklZV1FJMVJmaXo0bUxfVVVqLTE3RExLYzhnSkQ1Zw?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790738931000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus plan €250m capital increase with Exor to inject €60m immediately",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-plan-e250m-capital-increase/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-v-nec-nijmegen-uefa-europa-league-2026-27-league-phase-md1-1-414x276.jpg",
-      "summary": "Juventus have proposed a share capital increase of up to €250m, with majority shareholder Exor...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790709900000
-    },
-    {
-      "competition": "indy",
-      "title": "Why was Pavel Sulc sent off for the Czech Republic against England?",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/pavel-sulc-red-card-czech-republic-england-b3058569.html",
-      "image": "https://static.independent.co.uk/2026/09/29/20/2297759955..?width=1200&auto=webp&trim=45%2C0%2C45%2C0",
-      "summary": "The hosts were reduced to 10 men during the first half of the clash in Prague",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790709604000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ian Wright demands 'unprecedented' Man City punishment after Premier League statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-ian-wright-37716154",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716204.ece/ALTERNATES/s615/0_Wright.jpg",
-      "summary": "Former Arsenal star Ian Wright has given his verdict on the charges that have been brought against Manchester City after the Premier League's statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790709377000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Czechia 0-2 England",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTkNMNnhxSGdWejh4MEhCNTRaREhFRlJScnlpVkZPamRyQ1pvcnNLNnRYQTZvRC1IUURzREdySzRZQzk1WTFPQ01RUUc1aDVELUdEcWQ0OVp4bm80dnJFXzl5Mi1DMVp1Z2NmRGNiMkNNZTRCM2Jmcm42aFkxdmZyWlRzcnd5RVF1eGJYcWlESlA1V0trZ0pPNjhEU1BUWjY4QjNfTnJnTW0wQWwtMWhlNUQ4U0k0cXdPX2FrVWxTYmlkc2NES1JJYldBdmI4UHYtNUh5TklR?oc=5",
-      "teams": [
-        "czechia",
-        "england"
-      ],
-      "publishedAt": 1790737803000,
-      "image": null
-    },
-    {
-      "competition": "men",
-      "title": "Man United suffer yet another injury blow with seventh concern in past week",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-mazraoui-injury-latest-34691441",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34691731.ece/ALTERNATES/s615/0_JS417585371.jpg",
-      "summary": "Manchester United defender Noussair Mazraoui has emerged as a fresh injury concern during the international break",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790708872000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus confirm €66m loss but cut operating costs by €42m",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-confirm-66m-loss-cut-operating-costs/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2024/11/f1-grand-prix-of-belgium-john-elkann-414x276.jpg",
-      "summary": "Juventus have approved their financial statements for the year ending 30 June 2026, reporting a...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790708100000
-    },
-    {
-      "competition": "indy",
-      "title": "Ian Wright criticises Man City for ‘cheating on an industrial scale’ and calls for ‘unprecedented punishment’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ian-wright-roy-keane-manchester-city-charges-verdict-punishment-reaction-b3058542.html",
-      "image": "https://static.independent.co.uk/2026/05/06/07/2268737629.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Fellow football pundit Roy Keane called the news of Man City breaking the Premier League financial rules as bittersweet due to the damage it will do to the league",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790706730000
-    },
-    {
-      "competition": "ucl",
-      "title": "Real Madrid in the picture: Roma club officially apologises to Messi",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORDlYZndmV0NrNjQyWXJWRUhGcjZiSVk4VDlKcEZSOVdDbXJ4bGNnMVhGREFrMy1EWG1kZ2dWWl9kaHp3a1d5S1YzVlg0TklMcTRpLWhIa0VpbS1KdTMtRTZjVXJHRkE3YkhLNzUwTVlzckplWl9EMlZyMkF6WUFWQjJvQXZpUGg1RXU3am5zeF9JYjdCRm55UGZKODhMT3l2UDQ2N19SMUFGRnBId1JGS2ZqRGN5cWM?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790735386000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Shameless Man City cheated us all - Prem titles are now worthless and must be stripped",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37716072",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37715925.ece/ALTERNATES/s615/0_GettyImages-2211480090.jpg",
-      "summary": "The Premier League's statement condemning Manchester City following the investigation into the 115 charges against them is so damning surely there is no way back for the club's current ownership",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790706404000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Viviano on Milan forward Ramos: &#8216;At Juventus he&#8217;d have 5 goals by now&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/viviano-on-milan-forward-ramos-at-juventus/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Goncalo-Ramos-414x278.jpg",
-      "summary": "Emiliano Viviano believes Goncalo Ramos is being underserved by the way Milan play, and that...",
-      "teams": [
-        "juventus",
-        "acmilan"
-      ],
-      "publishedAt": 1790705721000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City guilty of 'sham' contracts and £830m 'disguised funding scheme'",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c63reg93xwzro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d913/live/0bfbf2c0-bc2c-11f1-a430-4d16ee157c41.jpg",
-      "summary": "The Premier League confirms that Manchester City have been found guilty of all charges related to breaches of Premier League financial rules between 2009-10 and 2017-18.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790705553000
-    },
-    {
-      "competition": "bbc",
-      "title": "What have Man City been found guilty of doing?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm1j46n74ke6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7698/live/b00e4a00-bc2e-11f1-bd21-bdf910f2cec6.jpg",
-      "summary": "Manchester City are found guilty of all charges related to breaches of Premier League financial rules between the 2009-10 and 2017-18 seasons. BBC sports editor Dan Roan explains what it means for the club and the…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790705374000
-    },
-    {
-      "competition": "men",
-      "title": "Redactions and £830m reveal - Everything you need to know about the Man City 115 charges decision",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-guilty-guardiola-34692136",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34692437.ece/ALTERNATES/s615/0_Manchester-City.jpg",
-      "summary": "Manchester City have been found guilty of all but one of their alleged 115 charges in their battle with the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790705273000
-    },
-    {
-      "competition": "epl",
-      "title": "Man City guilty of almost all the 115 financial charges, Premier League says in explosive verdict",
-      "publisher": "AP News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY0hVWFNkVHRlbXNpNFk3UVlWUXZiaUVKaC1VUzFJbHF5RDN5dkZia3l1WUxObHZtc0VVZ3Y2MlN6MUNnM3dxcWJ6NTIxcXZQVmFoeWViVUNXRVJUUm1uN1BUeC1GMWtaMUJsam5KSXVnTC1XM0Z1SmFuNTI5T3RySDlzZVRQNU5tWWV1SUxLZlpRTG1KZEhxalIzNUxGem5sa0gtRzlLR0x5QXYt?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790733480000,
-      "image": null
-    },
-    {
-      "competition": "men",
-      "title": "Every word from Ferran Soriano message to Man City staff over Premier League 'conspiracy'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/every-word-ferran-soriano-message-34692125",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article31894551.ece/ALTERNATES/s615/0_Ferran-Soriano-is-proud-to-see-Manchester-City-playing-at-the-Club-World-Cup-Mike-EgertonPA.jpg",
-      "summary": "Manchester City CEO Ferran Soriano released a message sent to staff after the Premier League confirmed their guilty verdict over 115",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790704162000
-    },
-    {
-      "competition": "metro",
-      "title": "Teenage tears show it’s fans that suffer, but punishing Manchester City might be impossible",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/09/29/teenage-tears-show-fans-suffer-punishing-manchester-city-might-impossible-29663609/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314556360-ddef.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790703783000
     }
   ]
 }
