@@ -1,149 +1,149 @@
 {
-  "updatedAt": "2026-09-30T18:25:23.068Z",
+  "updatedAt": "2026-09-30T22:36:15.386Z",
   "items": [
     {
+      "ticker": "MSFT",
+      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/958fb542-74b3-3d16-bde8-baba1e31461e/dow-jones-futures%3A-micron.html",
+      "image": "https://media.zenfs.com/en/ibd.com/2b18bc6a2254941f70591a54e89a49b0.jpg",
+      "publishedAt": 1790806766000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "A Tech-Fueled Stock Market Powers Through, but Limps Into the Fourth Quarter",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/39c33298-f2a7-373d-a538-2ab63c3be697/a-tech-fueled-stock-market.html",
+      "image": "https://media.zenfs.com/en/wsj.com/53dca559451112e2a17977cbc0f5415c.jpg",
+      "publishedAt": 1790804220000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "JPMorgan sends a strong message to Mag-7 stock investors",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sends-strong-message-mag-213300645.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/d1bc362e4d61a91ead7d1f64691340fb.jpg",
+      "publishedAt": 1790803980000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Patriot Consulting Launches Free ISOC Cost Evaluation and Agentic MXDR365 Operations for Microsoft's New Integrated Security Operations Center",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/patriot-consulting-launches-free-isoc-213100395.html",
+      "image": "https://media.zenfs.com/en/prnewswire.com/a99c7cd568dca3f81fa38d4d1bbb6a6a.jpg",
+      "publishedAt": 1790803860000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google Stock Rises On Gemini 4 Argon Release After New AI Model Delays",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/2b96bff5-d86a-36dc-9e88-284c6d61328e/google-stock-rises-on-gemini.html",
+      "image": "https://media.zenfs.com/en/ibd.com/080219718a07c1e7ff188c1ba5d412d2.jpg",
+      "publishedAt": 1790802266000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Take-Two Interactive Software Enters License Deal With Microsoft for Xbox Devices",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-enters-license-210314306.html",
+      "image": null,
+      "publishedAt": 1790802194000
+    },
+    {
       "ticker": "AMZN",
-      "title": "Amazon Makes $1 Billion Bet on Next-Generation Chips",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/amazon-makes-1-billion-bet-180921416.html",
-      "image": null,
-      "publishedAt": 1790791761000
+      "title": "Constellation Stock Rises as Amazon Backs Nuclear Plant Expansion",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/f0c82482-0f3a-3f10-8519-420d85cb460f/constellation-stock-rises-as.html",
+      "image": "https://media.zenfs.com/en/Barrons.com/4f2ada209443c95da9471e0ddd3c0912.jpg",
+      "publishedAt": 1790802120000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Morningstar To Relocate Global HQ To Renovated Thompson Center",
-      "publisher": "Bisnow",
-      "link": "https://finance.yahoo.com/real-estate/articles/morningstar-relocate-global-hq-renovated-180817670.html",
-      "image": "https://media.zenfs.com/en/bisnow_994/e0ee40184daf20a175db8f8475571f8d.jpg",
-      "publishedAt": 1790791697000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "OpenAI Faces Stunning Lawsuit Over Rogue AI Agent",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-faces-stunning-lawsuit-over-180543065.html",
-      "image": null,
-      "publishedAt": 1790791543000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Anthropic IPO Reveals Unexpected AI Industry Problem",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-reveals-unexpected-ai-180156165.html",
-      "image": null,
-      "publishedAt": 1790791316000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Bill Gates Sends Stark AI Warning to All Americans",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bill-gates-sends-stark-ai-175910675.html",
-      "image": null,
-      "publishedAt": 1790791150000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google asks EU court to suspend order to share search data with AI rivals",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/google-asks-eu-court-suspend-175843460.html",
-      "image": null,
-      "publishedAt": 1790791123000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Apple, Alphabet, Nvidia Lead Powerful Tech Rally as Rate Fears Fade",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-nvidia-lead-powerful-175803008.html",
-      "image": null,
-      "publishedAt": 1790791083000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Amazon, Google Make $23 Million Education Pledge",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-google-23-million-education-175540352.html",
-      "image": null,
-      "publishedAt": 1790790940000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Michael Burry Buys Put Options on Nvidia, Micron, and Palantir as \"The Big Short\" Investor Predicts a 1987-Style Market Crash",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/options/articles/michael-burry-buys-put-options-175000972.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/94c9a93be6b9347012fadb4ff1381ce7.jpg",
-      "publishedAt": 1790790600000
+      "ticker": "GILD",
+      "title": "Gilead Sciences (GILD) Declines More Than Market: Some Information for Investors",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gilead-sciences-gild-declines-more-210004893.html",
+      "image": "https://media.zenfs.com/en/zacks.com/023168c7ea091c342492be3899b280af.jpg",
+      "publishedAt": 1790802004000
     },
     {
       "ticker": "MA",
-      "title": "Stripe's Bridge Launches OUSD, the Stablecoin That Pays Its Distributors",
-      "publisher": "Bankless",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/stripes-bridge-launches-ousd-stablecoin-174557737.html",
-      "image": "https://media.zenfs.com/en/bankless_325/ed7ff94a2ee747af865c2ae898662385.png",
-      "publishedAt": 1790790357000
+      "title": "Why MasterCard (MA) Dipped More Than Broader Market Today",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mastercard-ma-dipped-more-205004819.html",
+      "image": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9.jpg",
+      "publishedAt": 1790801404000
     },
     {
-      "ticker": "MSFT",
-      "title": "OpenAI Says Moonshot AI Individuals Linked to Model Distillation Campaign",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-says-moonshot-ai-individuals-174438158.html",
-      "image": null,
-      "publishedAt": 1790790278000
+      "ticker": "GOOGL",
+      "title": "Stocks making big moves yesterday: FuelCell Energy, Carnival, Warby Parker, Fair Isaac Corporation, and monday.com",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-204513397.html",
+      "image": "https://media.zenfs.com/en/stockstory_922/96c1c6cf8bd19a7d989ac698680914c5.jpg",
+      "publishedAt": 1790801113000
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog (DDOG) Increases Despite Market Slip: Here's What You Need to Know",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-increases-despite-market-204507094.html",
+      "image": "https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4.jpg",
+      "publishedAt": 1790801107000
     },
     {
       "ticker": "V",
-      "title": "Visa Stocks Fall as Open Cyber Defense Answers Agentic Threats",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/visa-stocks-fall-open-cyber-174330545.html",
-      "image": null,
-      "publishedAt": 1790790210000
+      "title": "Visa (V) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-falls-more-steeply-204506783.html",
+      "image": "https://media.zenfs.com/en/zacks.com/023168c7ea091c342492be3899b280af.jpg",
+      "publishedAt": 1790801106000
     },
     {
-      "ticker": "MA",
-      "title": "Mastercard Stocks Fall as AI Transactions Gain a Probability Score",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stocks-fall-ai-transactions-174200368.html",
-      "image": null,
-      "publishedAt": 1790790120000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-wednesday-173409625.html",
-      "image": null,
-      "publishedAt": 1790789649000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Chevron Has More Going for It Than Higher Oil Prices",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/energy/articles/chevron-more-going-higher-oil-173020419.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/14dbd4ecd05f9991f8319192b1dd7b76.jpg",
-      "publishedAt": 1790789420000
+      "ticker": "GOOGL",
+      "title": "Why the Market Dipped But Alphabet Inc. (GOOG) Gained Today",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-alphabet-inc-204503207.html",
+      "image": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c.jpg",
+      "publishedAt": 1790801103000
     },
     {
       "ticker": "AMZN",
-      "title": "How Much Upside Is Left In Microsoft Stock?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/much-upside-left-microsoft-stock-172650952.html",
-      "image": "https://media.zenfs.com/en/trefis_142/006a41f0afe5e5a832d7e7d9e9067f82.jpg",
-      "publishedAt": 1790789210000
-    },
-    {
-      "ticker": "MA",
-      "title": "Open Standard issues dollar stablecoin backed by Visa, Stripe, and Mastercard",
+      "title": "Constellation Energy stock climbs on Amazon nuclear power deal",
       "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/open-standard-issues-dollar-stablecoin-165442644.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-stock-climbs-amazon-204446267.html",
       "image": null,
-      "publishedAt": 1790787282000
+      "publishedAt": 1790801086000
     },
     {
-      "ticker": "ABBV",
-      "title": "AbbVie Stock: Buy, Sell, or Hold in October?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stock-buy-sell-hold-165000695.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/9aead114228fad2372dff0b82f4b4dbc.jpg",
-      "publishedAt": 1790787000000
+      "ticker": "PLTR",
+      "title": "Palantir CEO Karp drops \"Warfighter\" hot take before super intelligence meeting at White House",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-karp-drops-warfighter-203300433.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/c3d65ee92c5e1036a9dfb070965ca138.jpg",
+      "publishedAt": 1790800380000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Constellation Energy, Amazon Sign Long-Term Deal to Expand Maryland Nuclear Plant",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/constellation-energy-amazon-sign-long-203019838.html",
+      "image": null,
+      "publishedAt": 1790800219000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Tries to Boost Nuclear Power in Maryland After Scrapping Data Center Deal",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/3119fd93-e37b-32c4-afc8-6958e5198235/amazon-tries-to-boost-nuclear.html",
+      "image": "https://media.zenfs.com/en/wsj.com/e7ec5cf2438b16e6c95cf6f40d1cdaf0.jpg",
+      "publishedAt": 1790798400000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Was There Any Sign Palantir Stock Would Run?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sign-palantir-stock-run-192331535.html",
+      "image": "https://media.zenfs.com/en/trefis_142/7116cf92bafd825a9028e5304aff67fb.jpg",
+      "publishedAt": 1790796211000
     }
   ]
 }
