@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790726016246,
+  "generatedAt": 1790727324683,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1531,
-    "tagged": 823,
+    "tagged": 824,
     "droppedKeyword": 20,
     "droppedOtherSport": 0,
-    "droppedFeed": 12,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Liverpool coach tipped to become manager after 'soaking up' Anfield experience - 'I would expect that'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-coach-tipped-become-manager-34690643",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34691106.ece/ALTERNATES/s615/0_GettyImages-2296361737.jpg",
+      "summary": "Liverpool first-team coach Tommy Elphick has been tipped to break into management in the future by one of his former team-mates",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790726400000
+    },
     {
       "competition": "men",
       "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
@@ -732,18 +744,6 @@
         "mancity"
       ],
       "publishedAt": 1790700992000
-    },
-    {
-      "competition": "men",
-      "title": "Man City hit back at Premier League guilty verdict with fiery statement - 'clear material errors'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-hit-back-premier-34691952",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34678824.ece/ALTERNATES/s615/0_JS315909739.jpg",
-      "summary": "Manchester City released a strongly worded statement in response to the Premier League finding the club guilt of all charges in the long-running case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790700890000
     }
   ]
 }
