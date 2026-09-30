@@ -1,17 +1,42 @@
 {
-  "generatedAt": 1790802977267,
+  "generatedAt": 1790803760017,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1534,
-    "tagged": 830,
-    "droppedKeyword": 31,
+    "raw": 590,
+    "tagged": 381,
+    "droppedKeyword": 4,
     "droppedOtherSport": 1,
-    "droppedFeed": 12,
+    "droppedFeed": 0,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Harry Kane gives verdict on Man City charges hours after explosive Premier League statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-man-city-charges-37721190",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721222.ece/ALTERNATES/s615/0_Screenshot-2026-09-30-220324.jpg",
+      "summary": "Three Man City players are part of the England squad for the current international break with the club having been found guilty of breaches of financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790803196000
+    },
+    {
+      "competition": "bbc",
+      "title": "Late drama as Chelsea draw away at Lyon",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cr86x8n80572o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ed8/live/d625e7c0-bd14-11f1-a64c-550be9e3c66b.jpg",
+      "summary": "Chelsea have a penalty overturned by VAR, while Lauren James and Maika Hamano come close to scoring a winner during their 0-0 draw away at Lyon in the Champions League.",
+      "teams": [
+        "chelsea",
+        "lyon"
+      ],
+      "publishedAt": 1790803022000
+    },
     {
       "competition": "men",
       "title": "Man City charges LIVE: Jurgen Klopp verdict after Pep Guardiola releases statement",
@@ -171,6 +196,32 @@
       "publishedAt": 1790796787000
     },
     {
+      "competition": "guardian",
+      "title": "Leah Williamson blunder gifts Paris FC a point as Arsenal’s struggles continue",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/sep/30/paris-fc-arsenal-womens-champions-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/ce46cb33caad8aec4178b9a74ca0826840e8d0d6/238_0_2658_2126/master/2658.jpg?width=140&quality=85&auto=format&fit=max&s=818a48c50ee432a3227abfec0e824bb5",
+      "summary": "Renée Slegers did not attend the post‑match press conference, the manager understood to have been too furious after Arsenal threw away a two-goal lead in their draw with Paris FC on Wednesday night.The assistant coach…",
+      "teams": [
+        "parisfc",
+        "arsenal"
+      ],
+      "publishedAt": 1790796697000
+    },
+    {
+      "competition": "indy",
+      "title": "Leah Williamson concedes bizarre penalty as Arsenal gift Paris FC late equaliser",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/leah-williamson-arsenal-paris-fc-champions-league-b3059320.html",
+      "image": "https://static.independent.co.uk/2026/09/30/20/2296734268..?width=1200&auto=webp&trim=168%2C0%2C2742%2C0",
+      "summary": "Paris FC 2-2 Arsenal: Williamson was deemed to have handled a goal kick from Misa Rodriguez as the visitors let two points slip",
+      "teams": [
+        "parisfc",
+        "arsenal"
+      ],
+      "publishedAt": 1790796544000
+    },
+    {
       "competition": "fitalia",
       "title": "McTominay back in training with Napoli after heart surgery",
       "publisher": "Football Italia",
@@ -259,7 +310,7 @@
       "title": "Arsenal let two-goal lead slip to draw with Paris FC",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/videos/cwzdz9mzd3mvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c14/live/6e99d120-bd00-11f1-bc2e-018d645d8d21.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/742d/live/996238b0-bd15-11f1-bc2e-018d645d8d21.jpg",
       "summary": "A miscommunication between Arsenal goalkeeper Misa Rodriguez and England captain Leah Williamson gifts Paris FC a late equaliser as the sides draw 2-2 in the Women's Champions League.",
       "teams": [
         "parisfc",
@@ -375,6 +426,18 @@
         "mancity"
       ],
       "publishedAt": 1790789733000
+    },
+    {
+      "competition": "bbc",
+      "title": "Haaland 'no different' following Man City verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckge43e8nqdwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e2/live/02f13b20-bcf1-11f1-8ce2-417f8f7cb095.jpg",
+      "summary": "Norway colleagues say the striker has been unaffected by the headlines around the Premier League club ahead of the Nations League game with Wales",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790789184000
     },
     {
       "competition": "mirror",
@@ -625,6 +688,18 @@
     },
     {
       "competition": "bbc",
+      "title": "What will new call-ups bring to Northern Ireland?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8353/live/12a4d200-bcda-11f1-a64c-550be9e3c66b.png",
+      "summary": "Before the upcoming 2027 Women's World Cup play-off with Portugal, what will the five new faces bring to Northern Ireland?",
+      "teams": [
+        "nireland"
+      ],
+      "publishedAt": 1790782852000
+    },
+    {
+      "competition": "bbc",
       "title": "Questions about Wales form not unfair - Bellamy",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c50m3d789j74o?at_medium=RSS&at_campaign=rss",
@@ -671,80 +746,6 @@
         "bologna"
       ],
       "publishedAt": 1790782078000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Kone: &#8216;An important match for Italy against France, a complicated period for them&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/kone-an-important-match-for-italy-vs-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/07/france-v-italy-uefa-nations-league-2024-25-league-a-group-a2-1.jpg",
-      "summary": "Roma and France midfielder Manu Kone has revealed what has surprised him most after getting...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790781364000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges timeline amid £830m 'sham', double appeal and Premier League uncertainty",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-timeline-34695051",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34695927.ece/ALTERNATES/s615/0_GettyImages-2297312114.jpg",
-      "summary": "Manchester City are set to appeal the verdict against them in the Premier League 115 charges case with the process set to continue",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790780400000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City 'sham' denied Jurgen Klopp his true Liverpool legacy - but his day is coming",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-sham-denied-jurgen-34695774",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34696803.ece/ALTERNATES/s615/0_GettyImages-1076891760.jpg",
-      "summary": "Paul Gorst writes after Manchester City, fierce rivals to Jurgen Klopp during his time in charge of Liverpool, were found guilty of all charges related to breaches of the Premier League's financial rules.",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790780354000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 'discover date for punishment' as Premier League rivals set to get their wish",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-premier-league-punishment-34696602",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34696721.ece/ALTERNATES/s615/0_GettyImages-2295223449.jpg",
-      "summary": "Manchester City plan to appeal their guilty verdict, but the timeline for when they could discover a punishment may have already been laid out by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790780310000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso 'leading transfer charge' for £55.5m star who agreed to join Arsenal",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-transfer-jarrell-quansah-alonso-34696479",
-      "image": "https://i2-prod.football.london/chelsea-fc/news/article34696490.ece/ALTERNATES/s615/0_JS418456603.jpg",
-      "summary": "Chelsea will reportedly face competition from Arsenal to sign the defender",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790780278000
-    },
-    {
-      "competition": "guardian",
-      "title": "Football Daily | The big story is of course … Scotland fans pining for another home run",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/30/football-daily-newsletter-the-big-story-is-of-course-scotland",
-      "image": "https://i.guim.co.uk/img/media/7a399b6f518d1b39c65e82816bc49351a138c5e6/0_0_5581_4466/master/5581.jpg?width=140&quality=85&auto=format&fit=max&s=68001d4a172eb86d3e2fee2b33fc0766",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now!In the four matches they’ve sat through since their unconvincing Geopolitics World Cup win over Haiti, it must rankle among diehard conscripts of the Tartan Army that…",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790780242000
     }
   ]
 }
