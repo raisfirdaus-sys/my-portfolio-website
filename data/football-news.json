@@ -1,17 +1,66 @@
 {
-  "generatedAt": 1790772087355,
+  "generatedAt": 1790773206306,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1543,
-    "tagged": 819,
-    "droppedKeyword": 28,
+    "raw": 1539,
+    "tagged": 814,
+    "droppedKeyword": 29,
     "droppedOtherSport": 1,
-    "droppedFeed": 10,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790772281000
+    },
+    {
+      "competition": "indy",
+      "title": "Pep Guardiola breaks silence on Man City’s guilty verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/pep-guardiola-man-city-guilty-charges-punishment-latest-b3059026.html",
+      "image": "https://static.independent.co.uk/2026/09/30/13/01M3PYV1GDE9PNG8VX4F023024.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Guardiola has given his backing to the owners and the board after the club were found guilty of overstating their income by over £830m across eight seasons",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790772126000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790772046000
+    },
+    {
+      "competition": "echo",
+      "title": "Pep Guardiola breaks silence on Man City 115 charges verdict as Liverpool impact clear",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/breaking-pep-guardiola-man-city-34695410",
+      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34695493.ece/ALTERNATES/s615/0_SOCCER_Man_City_13303998JPG.jpg",
+      "summary": "Former Manchester City boss Pep Guardiola has broken his silence on the club after they were found guilty of breaching all financial charges by an independent commission",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790771956000
+    },
     {
       "competition": "footlondon",
       "title": "Pep Guardiola drops statement on Man City charges verdict as Arsenal, Chelsea and Spurs watch on",
@@ -37,30 +86,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790771837000
-    },
-    {
-      "competition": "indy",
-      "title": "Pep Guardiola breaks silence on Man City’s guilty verdict",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/pep-guardiola-man-city-guilty-charges-punishment-latest-b3059026.html",
-      "image": "https://static.independent.co.uk/2026/09/30/13/01M3PYV1GDE9PNG8VX4F023024.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Guardiola has given his backing to the owners and the board after the club were found guilty of overstating their income by over £830m across eight seasons",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771675000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Pep Guardiola statement, punishment latest, dressing room leak",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790771561000
     },
     {
       "competition": "echo",
@@ -92,7 +117,7 @@
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/jose-mourinho-explosive-man-city-34694431",
       "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34694605.ece/ALTERNATES/s615/0_GettyImages-2258134191.jpg",
-      "summary": "Jose Mourinho led Man City to a second-placed finish in the Premier League in 2017/2018, finishing behind Manchester City - he's likely to have plenty to say about their 'sham' finances",
+      "summary": "Jose Mourinho led Man United to a second-placed finish in the Premier League in 2017/2018, finishing behind Manchester City - he's likely to have plenty to say about their 'sham' finances",
       "teams": [
         "manutd",
         "mancity"
@@ -135,18 +160,6 @@
         "mancity"
       ],
       "publishedAt": 1790771047000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790770855000
     },
     {
       "competition": "fitalia",
@@ -736,18 +749,6 @@
         "brentford"
       ],
       "publishedAt": 1790759746000
-    },
-    {
-      "competition": "bbc",
-      "title": "Elmore and Grant named in Northern Ireland squad",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8eec/live/28680050-bcab-11f1-a3e9-bbda6f9b9e25.jpg",
-      "summary": "Sparta Prague forward Kess Elmore is a surprise first call-up for Northern Ireland's 2027 Women's World Cup play-off with Portugal.",
-      "teams": [
-        "nireland"
-      ],
-      "publishedAt": 1790758466000
     }
   ]
 }
