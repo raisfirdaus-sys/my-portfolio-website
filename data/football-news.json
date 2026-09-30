@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790747244807,
+  "generatedAt": 1790747722063,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1530,
     "tagged": 816,
-    "droppedKeyword": 23,
+    "droppedKeyword": 25,
     "droppedOtherSport": 0,
-    "droppedFeed": 14,
+    "droppedFeed": 15,
     "blocklistDistrusted": false,
-    "withImage": 47
+    "withImage": 49
   },
   "items": [
     {
@@ -25,6 +25,18 @@
       "publishedAt": 1790747114000
     },
     {
+      "competition": "men",
+      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790747023000
+    },
+    {
       "competition": "indy",
       "title": "How Trent Alexander-Arnold showed his value in England’s win over the Czech Republic",
       "publisher": "The Independent",
@@ -35,18 +47,6 @@
         "england"
       ],
       "publishedAt": 1790746690000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE updates: Premier League statement, £830m scheme, verdict confirmed",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "Live updates as Manchester City and the Premier League release statements with the club found guilty",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790746023000
     },
     {
       "competition": "birmingham",
@@ -354,19 +354,7 @@
       "image": null
     },
     {
-      "competition": "ucl",
-      "title": "'One of the best in the world' - Lucy Bronze relishing Chelsea's Champions League test against Lyon",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV3p1SjlSVzVLcGI5VVpEZzJEWHBjYmNqcFE3Qm5pX1hDX0Zoa1h0akxVeEFua3JiV01BMnI2NHJRaGNuNDZvT25mamZ6Y1VwbS1McXZ6RWNWVFBHQXZCdklJdk9DcTdiTUFQbFp4dnFfUHlpZ1hJOXNKemhveFdoTk84N0dzeUlZd2lneW9YelgzT0RnRWREVFYwckdrUWFRcHJR?oc=5",
-      "teams": [
-        "chelsea",
-        "lyon"
-      ],
-      "publishedAt": 1790746673000,
-      "image": null
-    },
-    {
-      "competition": "ucl",
+      "competition": "epl",
       "title": "Manchester City have become ‘Sham FC’. They deserve the heaviest punishment",
       "publisher": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ0VsZFJVdzhkWWc1cFZBV2NGcVhlRVBUVi1FYUs4NHFPQ3VXRGlPdDRORFVQeVdGZ3RFZkp4ZThac3UyOWs0amhOSGlXN0ZxelVwaEg2NEFvQUpUOHREWGNtNjI3UktxYzd3cDVOc2NreHI5cEw0MzhqVlNSSllWVmZrTDV6Xy1hRXpBSk9wYnYxMVZYc2Yza3NWWThVUWNLS01wdQ?oc=5",
@@ -411,17 +399,6 @@
         "mancity"
       ],
       "publishedAt": 1790717134000
-    },
-    {
-      "competition": "epl",
-      "title": "Manchester City have become ‘Scam FC’. They deserve the heaviest punishment",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ1ZMVEs3NVc0R0xZY1RlQWFBeWszSzROSE9EZkh3S0pVa2RfcFFMRXFDeEp5ZnJoaUxwYzFKa1E4dWctTUp1QjI1UEZtWnB3amZZeFl4ME1kOFBwcjZSbUNCQ25jUVE5S3JnYjdJNWpMVDNEbHUtUHBNVlFuVEFDUmxJN3RSU1h6SDNJMFBxQUwyNFVsTHV4bkpwMlpyWFpFZm5MdA?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790745861000,
-      "image": null
     },
     {
       "competition": "echo",
@@ -557,17 +534,6 @@
       "publishedAt": 1790715420000
     },
     {
-      "competition": "epl",
-      "title": "Manchester City guilty of financial breaches worth Rs 11,420 crore: Could it be relegated from EPL?",
-      "publisher": "firstpost.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcEhBT1pYSFJGODl4MnhqRzhodmdkSERkNTFrWmF6RVhyd0dvMmhNcDV6Rlg1VDZteFhuNnVfSHJDb0xrbC1aZWJyT0lYaXFKVGE2bVNlaWgzakplTnE5TEZsdzh3cWxBYmJIWjlaM2lNbkx6STlnY2dxeHFaUEYySmZFYW1qN1NUUllfOEtDaVh2SnBqSUh6MXJKTnNMcVpEaWVMN25ZUmhyU1Rqb1VsVkZoQUh1NDB0bk9SUW1XUURDWnFxZXZFc9IBzgFBVV95cUxOMGZlS1ZNd1ZJUmwwdW82U0hsRDA5VXRYS0RDNnhHQk54OUFRS0VlN09zWWFRNjBoa2Q3UDdrR0hJS2J0aWNRcmc4VFBGblMzYjZhcVFQUGZkdzNrR0ZEZWEtZHhsLUJPdEZfWkR6NTlvYlBhUXNoeDRuaEYzRXBhSzFrT0wwQVdRamI5dG1zaE1DeEpXY01uQkdJRXdleUVZd2NrYUlSMTJ6UE1Vbm5nbTZlRU9nX0MtdUs0RGlNQnQ1TzlqMy0xeGFqY3JRZw?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790744131000,
-      "image": null
-    },
-    {
       "competition": "guardian",
       "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
       "publisher": "The Guardian",
@@ -643,7 +609,7 @@
     {
       "competition": "ucl",
       "title": "VIP Champions League tickets for Man Utd vs Roma start at £249",
-      "publisher": "nationalworld.com",
+      "publisher": "NationalWorld",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaUkzeDdfVWw4N0NnbW15YXFzbDFaS19QVFRHRGktS1FPa0VIVmRIdDJHRkVrODhhaDQyYzMyZnJ5NTBUUWNtRXFSam0tUnpmXzNkRFJoQS1pVUNKNHY2VGVvWXhQM2JST3Z0TlNpb21aX1FpV05XT0RNYWI1RnZCazJXX2ROdThWd0Y0ckhCUUxYWl9mVWpEVUwwaXFiWGRGbmdIeTQ2ZUZnQXA5bTdmNHFqMzRZOFRvQURMWVpUWlB3bkZ4UWdCZ2xKWG0?oc=5",
       "teams": [
         "manutd"
@@ -736,6 +702,41 @@
         "mancity"
       ],
       "publishedAt": 1790711358000
+    },
+    {
+      "competition": "bbc",
+      "title": "Premier League confirm Man City guilty of all charges - 5 Live reaction",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pd2w9y?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
+      "summary": "Kelly Somers is joined by Dale Johnson, Kieran Maguire, John Murray and Paul Robinson",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790710200000
+    },
+    {
+      "competition": "epl",
+      "title": "Premier League Finds Manchester City Guilty Of Financial Breaches Over Nearly A Decade",
+      "publisher": "Rediff",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRk1HWXdsMk1wWGd0T2dHcTRvRWtCSFdqZDhSb0FSb3RMUThZa2ctWWpoQ25FcVNCSlFwaXpyZHVjbmhjZ3F3dHpJeEh0TXhySjN2ODQydVFkeEhIRnBvdEt4amlxV2hnZW9LdHJyVkQ3NXhDRnpQdUpfRGJHMDlBU2hfcEQ3Qy1RM056UWFEemxYc3o3WUNmSGJQeWFSTmxIV0x0RDZNTzB0M09rXzF3RGpqdHc4N0xwcVNURWJxbHZ5RWdTNkstNDlBTDd2MUxTcmw0WVpVUdIB2gFBVV95cUxOWU1NbGJ4bXpHd2xEZG9RdEtIcGw0dFktWkhQRWR4ckJYM3A2Y3J0OXZrZGJVZUpZMUc1dmlDbjFRalpMRDJfbS1LX2dvVWRfZ1pZNTd5QzZnWmZEVTlCSF93WGRnLWlKLUxxY3VwNTNqcmo3ZmdHZXVScXpFZExzQkxzQk5EM1lFX2RPWWxXWjVRWmt1NUdSV3NMZGF6cEVkS3FxWDh2bEgwOWVIVngwcXFvd0ZiOFhabTdEeklZV1FJMVJmaXo0bUxfVVVqLTE3RExLYzhnSkQ1Zw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790738931000,
+      "image": null
+    },
+    {
+      "competition": "fitalia",
+      "title": "Juventus plan €250m capital increase with Exor to inject €60m immediately",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/juventus-plan-e250m-capital-increase/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-v-nec-nijmegen-uefa-europa-league-2026-27-league-phase-md1-1-414x276.jpg",
+      "summary": "Juventus have proposed a share capital increase of up to €250m, with majority shareholder Exor...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790709900000
     }
   ]
 }
