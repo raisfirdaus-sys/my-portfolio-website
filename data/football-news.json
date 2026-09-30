@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790791610011,
+  "generatedAt": 1790791758847,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1535,
-    "tagged": 844,
+    "raw": 1538,
+    "tagged": 843,
     "droppedKeyword": 31,
     "droppedOtherSport": 1,
-    "droppedFeed": 9,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -35,6 +35,30 @@
         "england"
       ],
       "publishedAt": 1790791200000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Anthony Gordon has 'taken game to another level' after quitting Newcastle United",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/anthony-gordon-taken-game-another-34696417",
+      "image": "https://i2-prod.chroniclelive.co.uk/sport/football/football-news/article34678225.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
+      "summary": "The £69m summer move to Barcelona has given Gordon a new lease of life",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790791200000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United can put their faith in flop who is now 'important figure'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-can-put-faith-34689653",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34691482.ece/ALTERNATES/s615/0_GettyImages-2238334439.jpg",
+      "summary": "Former Newcastle star Chris Waddle believes his old side have two great wingers on their hands",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790791020000
     },
     {
       "competition": "fitalia",
@@ -724,30 +748,6 @@
         "manutd"
       ],
       "publishedAt": 1790774274000
-    },
-    {
-      "competition": "bbc",
-      "title": "Criminal investigation? Relegation or expulsion? The key Man City questions",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9y7zr4l6de1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff90/live/6abf4e50-bcb9-11f1-a52f-e7c9a7884cfa.jpg",
-      "summary": "BBC Sport takes a look at the key questions following the guilty verdicts handed down to Manchester City.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790774264000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City set to be punished THIS SEASON as 'Premier League rivals get wish'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-points-premier-league-37719003",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37719251.ece/ALTERNATES/s615/0_GettyImages-2297131363.jpg",
-      "summary": "Manchester City have been found guilty by the Independent Commission and now await their punishment while they make their appeal over the ruling",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790774218000
     }
   ]
 }
