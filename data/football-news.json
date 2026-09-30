@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790747722063,
+  "generatedAt": 1790748100877,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1530,
-    "tagged": 816,
+    "raw": 1534,
+    "tagged": 815,
     "droppedKeyword": 25,
     "droppedOtherSport": 0,
     "droppedFeed": 15,
@@ -13,16 +13,28 @@
   },
   "items": [
     {
+      "competition": "chronicle",
+      "title": "Matthias Jaissle reveals fan gesture that blew his mind and new Newcastle United blueprint",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-reveals-fan-gesture-34689590",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34676320.ece/ALTERNATES/s615/0_Jaissle.jpg",
+      "summary": "Matthias Jaissle talks about the \"ideal world\" that could be hard to deliver, but speaks openly about why Newcastle wanted to sign him up",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790748000000
+    },
+    {
       "competition": "mirror",
       "title": "Man City charges LIVE: CEO speaks out on verdict, Erling Haaland wish granted, punishment latest",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-115-charges-live-37706564",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37712621.ece/ALTERNATES/s615/1_Untitled-1.jpg",
       "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790747114000
+      "publishedAt": 1790747637000
     },
     {
       "competition": "men",
@@ -34,7 +46,7 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790747023000
+      "publishedAt": 1790747595000
     },
     {
       "competition": "indy",
@@ -439,8 +451,8 @@
     {
       "competition": "epl",
       "title": "Man City scandal: What to know about the controversy surrounding the Premier League soccer team",
-      "publisher": "Rutland Herald",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbjlMdE1Xa2J2LU5XVDVHRHQtNWZ2ZDNGdXJXUzlLOHMtaE5Ya2t0WEdjZzlWREdxYTlTdlltN1ZUdFB0TnNoMFROaXVxWFhUbWhNWmJPNUs0cnFNTnZRMDZjSHM2YVlXM29LRnhQLUZYNXJDTEJZVTE2bXM3UmppS05WU3dDQ1VhenE5U09IcnB1ZjRvWncyQldaVHpGcUxpS25naHRMY2M4UXNwcVJVVTdtX2I4ZnpUVkZrT2ZiWUtBT2VmblEyaGlUdEt6bVJPNGdsVElSQ2llYTc1R1lxNVJvT1h0T3VhaF9QOENPQ3pQZ1ZMaFJXUUJIdnZ3MU0tS0k5ZElfYV94UFZDNDVGNi11TDU0T1A4VjZjY3Q1cDk2RXZ2WV8zcw?oc=5",
+      "publisher": "Union-Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQakNtQ1pRZnBLNUtYbERoNW8yN3RRRjdiRmg4dEFCSU1sMzNZN3JzcVdIRVJ2N2JVZmVKNjhEQkU0OUkzS1F5bkRQOHp3LWJILV9uZk5XYmpORENqNnNPREUwSkhoZTdYamJ0VEJVMWhCekJKOEdPWDZGNHJkYTZCeTYzQkl1bW1HSDkwYkpVWUJNaWVWUlhQWHNQMmtDX0VTQzAyQWVBWkFOMklsM2hnRXZIUm55OU1RYlliNWt4T2Etekcwak93QXpiM1VnejhfUlhhcnUzSERxSlc4RHBOQXNRUHY4bXY4TVk2dkltLW5lZnZRZHM5LUU1NVFocmFydWRBeFVWNThBZlB1T3VxV1JEc2x0bmMt?oc=5",
       "teams": [
         "mancity"
       ],
@@ -725,18 +737,6 @@
       ],
       "publishedAt": 1790738931000,
       "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Juventus plan €250m capital increase with Exor to inject €60m immediately",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-plan-e250m-capital-increase/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/juventus-v-nec-nijmegen-uefa-europa-league-2026-27-league-phase-md1-1-414x276.jpg",
-      "summary": "Juventus have proposed a share capital increase of up to €250m, with majority shareholder Exor...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790709900000
     }
   ]
 }
