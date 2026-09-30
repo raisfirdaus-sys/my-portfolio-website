@@ -1,17 +1,178 @@
 {
-  "generatedAt": 1790768460576,
+  "generatedAt": 1790771227745,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1542,
-    "tagged": 814,
-    "droppedKeyword": 27,
+    "raw": 1538,
+    "tagged": 811,
+    "droppedKeyword": 28,
     "droppedOtherSport": 1,
-    "droppedFeed": 10,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Pep Guardiola breaks silence on Man City guilty verdict - 'behind my club'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/pep-guardiola-breaks-silence-man-34695313",
+      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article34689235.ece/ALTERNATES/s615/0_Manchester-City-v-West-Ham-United-Premier-League.jpg",
+      "summary": "Pep Guardiola has released a message of support for Manchester City on social media",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790771047000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Pep Guardiola breaks silence on Premier League bombshell",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
+      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790770855000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Highlights: Turkiye 1-4 Italy, exciting Nations League victory",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/highlights-turkiye-1-4-italy-nations-league/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-celebrate-Bastoni-414x276.jpg",
+      "summary": "Watch the highlights from Italy’s entertaining 4-1 Nations League victory in Turkyie, with goals from...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790770691000
+    },
+    {
+      "competition": "men",
+      "title": "'Strong together' - Man City fan groups react to 115 guilty verdicts",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/strong-together-man-city-fan-34695127",
+      "image": "https://i2-prod.liverpool.com/incoming/article34689820.ece/ALTERNATES/s615/0_Man-City.jpg",
+      "summary": "Manchester City fans are starting to react to the latest development after a withering verdict from the independent panel",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790770558000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Which changes Italy could make for France after encouraging 4-1 Turkiye victory",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/which-changes-could-italy-make-for-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-Sandro-Tonali-celebrate.jpg",
+      "summary": "A 4-1 victory away against Turkiye gave Italy and returning head coach Roberto Mancini a...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790770258000
+    },
+    {
+      "competition": "indy",
+      "title": "The Project Longbow revelations buried in Man City’s 40-page verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-project-longbow-premier-league-investigation-b3059007.html",
+      "image": "https://static.independent.co.uk/2026/09/29/17/01M3PYVXK86KCP0BNDF6R8KCA5.jpg?width=1200&auto=webp&trim=18%2C0%2C18%2C0",
+      "summary": "The club are set to appeal having been found guilty on almost every charge",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790769706000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Punishment latest, board to told to resign, Ferran Soriano video",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790769634000
+    },
+    {
+      "competition": "men",
+      "title": "Omar Berrada, 'breadcrumbs' and the Manchester United staff who used to work at Man City",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/omar-berrada-breadcrumbs-manchester-united-34693071",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34695140.ece/ALTERNATES/s615/0_premium-canvas-1790769351813.png",
+      "summary": "Manchester United have employed a handful of former Man City staff members over the last few years - as things stand, none are implicated in the City fiasco.",
+      "teams": [
+        "manutd",
+        "mancity"
+      ],
+      "publishedAt": 1790769600000
+    },
+    {
+      "competition": "indy",
+      "title": "Jamie Carragher says Man City should be stripped of titles and have owners removed",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-punishment-latest-premier-league-b3058999.html",
+      "image": "https://static.independent.co.uk/2026/09/30/12/2213090721..?width=1200&auto=webp&trim=10%2C0%2C10%2C0",
+      "summary": "City have been found guilty on the majority of their 115 charges, the Premier League confirmed on Tuesday",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790769538000
+    },
+    {
+      "competition": "guardian",
+      "title": "The Premier League v Manchester City and England beat Czechia – Football Weekly",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/video/2026/sep/30/the-premier-league-v-manchester-city-and-england-beat-czechia-football-weekly",
+      "image": "https://i.guim.co.uk/img/media/2503d2d52035a01f92e54921f81cb0630790b4e3/285_0_1646_1317/master/1646.jpg?width=140&quality=85&auto=format&fit=max&s=27ceeda6ee3b9c5479ed72bb7ed1f8e5",
+      "summary": "Max Rushden is joined by Barry Glendenning, George Elek and Dan Bardell as the Premier League release their verdict on Manchester City and England win 2-0 in Prague Continue reading...",
+      "teams": [
+        "mancity",
+        "czechia",
+        "england"
+      ],
+      "publishedAt": 1790769520000
+    },
+    {
+      "competition": "echo",
+      "title": "Jamie Carragher dismisses Man City medals gesture after guilty verdict - 'Doesn't mean anything'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-dismisses-man-city-34693883",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34693864.ece/ALTERNATES/s615/0_carra2.png",
+      "summary": "Jamie Carragher has his say on claims of redistributing Manchester City's medals won between 2009 and 2018 - the period where they have been found guilty of breaking Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790769480000
+    },
+    {
+      "competition": "bbc",
+      "title": "Republic of Ireland will play second Israel game - Hallgrimsson",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqd081x1mlvdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0163/live/d6a1b2a0-bcc0-11f1-810a-9579202680fa.jpg",
+      "summary": "Republic of Ireland head coach Heimir Hallgrimsson says the team's second Uefa Nations League game against Israel will go ahead as planned.",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1790769159000
+    },
+    {
+      "competition": "men",
+      "title": "Micah Richards 'devastated' after Roy Keane message - pundits speak out on Man City verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34694335",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34694429.ece/ALTERNATES/s615/0_Micah-Richards_Keane_main.jpg",
+      "summary": "Manchester City have been found guilty of breaking Premier League financial rules and pundits including Jamie Carragher and Micah Richards have been sharing their emotional reactions to the verdict",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790768694000
+    },
     {
       "competition": "indy",
       "title": "Thomas Tuchel says he hasn’t spoken to England’s Man City contingent about bombshell verdict",
@@ -38,18 +199,6 @@
       "publishedAt": 1790767747000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Premier League statement, potential punishments and Ferran Soriano speaks out",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-sanctions-34691802",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34676210.ece/ALTERNATES/s615/1_Etihad-Stadium.jpg",
-      "summary": "All the latest news and updates on Manchester City's financial charges guilty verdict after the Premier League released a statement",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790767345000
-    },
-    {
       "competition": "mirror",
       "title": "The truth behind Man City CEO not blinking for 3 minutes in 'unusual' announcement video",
       "publisher": "Mirror Football",
@@ -60,18 +209,6 @@
         "mancity"
       ],
       "publishedAt": 1790767028000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Punishment latest, board to told to resign, Ferran Soriano video",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-charges-verdict-live-37706564",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716893.ece/ALTERNATES/s615/1_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City's charges after the club were found guilty of alleged breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790766807000
     },
     {
       "competition": "mirror",
@@ -288,7 +425,7 @@
       "title": "Richards 'devastated' by Man City guilty verdicts",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/ckrerg4n2v82o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f029/live/85ca6660-bcb6-11f1-a3e9-bbda6f9b9e25.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e16e/live/78af58e0-bcc6-11f1-ae14-0b840f99ba59.jpg",
       "summary": "Former Manchester City defender Micah Richards felt \"absolutely devastated\" after reading the Premier League's \"damning\" verdict on the club's financial charges.",
       "teams": [
         "mancity"
@@ -348,7 +485,7 @@
       "title": "‘Throw your medals in the bin,’ Roy Keane tells Manchester City players",
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/sep/30/throw-your-medals-in-the-bin-roy-keane-tells-manchester-city-players",
-      "image": "https://i.guim.co.uk/img/media/8530df70ae05276925cd86f4886187e3caa00928/1162_84_4066_3255/master/4066.jpg?width=140&quality=85&auto=format&fit=max&s=3b1853bc04a3fd85857f021917bcf087",
+      "image": "https://i.guim.co.uk/img/media/bbbea72166af3bcd2f1e849afc85f51b3156866c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=60bbd0ec664efa8671603a3fcfa0316e",
       "summary": "‘They won the titles because cheating was going on’Micah Richards says he is ‘devastated and heartbroken’The former Manchester United captain Roy Keane said he would throw the “medals in the bin” if he were a Manchester…",
       "teams": [
         "mancity"
@@ -489,6 +626,18 @@
       "publishedAt": 1790759746000
     },
     {
+      "competition": "bbc",
+      "title": "Elmore and Grant named in Northern Ireland squad",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8eec/live/28680050-bcab-11f1-a3e9-bbda6f9b9e25.jpg",
+      "summary": "Sparta Prague forward Kess Elmore is a surprise first call-up for Northern Ireland's 2027 Women's World Cup play-off with Portugal.",
+      "teams": [
+        "nireland"
+      ],
+      "publishedAt": 1790758466000
+    },
+    {
       "competition": "chronicle",
       "title": "Newcastle United's 'cartel' outrage at Man City sham verdict as Bruno Guimaraes impact clear",
       "publisher": "Chronicle Live",
@@ -596,150 +745,6 @@
         "mancity"
       ],
       "publishedAt": 1790755512000
-    },
-    {
-      "competition": "echo",
-      "title": "Jamie Carragher challenges Man City owners in response to 115 charges verdict - 'Put it out there'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-manchester-city-premier-league-34692998",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34692967.ece/ALTERNATES/s615/0_Jamie-Carragher.jpg",
-      "summary": "Manchester City have been found guilty of the majority of charges the Premier League put to them and ex-Liverpool star Jamie Carragher has questioned whether the owners can continue with the club",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790755168000
-    },
-    {
-      "competition": "bundes",
-      "title": "Borussia Dortmund's Mathis Albert makes history as USA's youngest ever goalscorer",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/mathis-albert-borussia-dortmund-usa-peru-international-instant-impact-39364",
-      "image": "https://assets.bundesliga.com/contender/2026/8/imago1083977262h.jpg?crop=0px%2C571px%2C6848px%2C3859px",
-      "summary": "Having starred on his debut for the USMNT days ago, Mathis Albert etched his name in the history books on Tuesday. The 17-year-old Borussia Dortmund forward became the youngest player to ever score for the US National…",
-      "teams": [
-        "dortmund"
-      ],
-      "publishedAt": 1790754530000
-    },
-    {
-      "competition": "indy",
-      "title": "Manchester City CEO calls verdict a ‘Premier League conspiracy theory’ in leaked video",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-ceo-premier-league-charges-conspiracy-theory-b3058761.html",
-      "image": "https://static.independent.co.uk/2026/09/30/08/2026-09-29T172305Z_882575863_RC2HSNAZFCMK_RTRMADP_3_SOCCER-ENGLAND-MCI.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "City have until this Friday to appeal the damning judgement handed down by an independent commission",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790754426000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Today&#8217;s Papers &#8211; Juventus capital injection, generation Kayode",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/todays-papers-juventus-capital-kayode/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/la-gazzetta-dello-sport-032338u15ar2x-414x599.webp",
-      "summary": "La Gazzetta dello Sport Generation Kayode The full-back who moved to England and the new...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790753742000
-    },
-    {
-      "competition": "men",
-      "title": "Fernandes, Dorgu, Mazraoui - Man United latest injury news and return dates",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-injury-latest-fernandes-34692555",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34692574.ece/ALTERNATES/s615/0_JS418748884.jpg",
-      "summary": "Manchester United are dealing with several injury concerns with the international break ongoing",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790751818000
-    },
-    {
-      "competition": "indy",
-      "title": "Thomas Tuchel says Jude Bellingham can be England captain one day",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/thomas-tuchel-jude-bellingham-england-anthony-gordon-harry-kane-b3058630.html",
-      "image": "https://static.independent.co.uk/2026/09/29/23/e80654480d0f5162ae5eb2e584f756faY29udGVudHNlYXJjaGFwaSwxNzkwODA1NTg4-2.86018163.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Bellingham finished the game with the armband for the second time in four days with the national team",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790750786000
-    },
-    {
-      "competition": "indy",
-      "title": "Roy Keane says ‘I’d stick medals in the bin’ after Manchester City charges verdict",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/roy-keane-man-city-medals-bin-premier-league-charges-b3058728.html",
-      "image": "https://static.independent.co.uk/2026/09/29/19/2026-09-26T183129Z_617393112_UP1EM9Q1FGGT0_RTRMADP_3_SOCCER-UEFANATIONS-ENG-ESP.JPG?width=1200&auto=webp&trim=105%2C0%2C105%2C0",
-      "summary": "The former Manchester United captain said the medals had been won by ‘cheating’",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790750055000
-    },
-    {
-      "competition": "bbc",
-      "title": "£1.2bn on transfers with £830m inflated in sponsorships - Man City's 'asterisk era'",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9lyk46gekkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/311a/live/b24e22b0-bc40-11f1-8666-b5dc4bdc94cb.jpg",
-      "summary": "BBC Sport analyses Manchester City's dominance of English football during the period in which they were breaching financial rules.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790749594000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City rivals' private thoughts on vote to expel club from Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-charges-37716857",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716871.ece/ALTERNATES/s615/0_GettyImages-2291153863.jpg",
-      "summary": "The Premier League confirmed on Tuesday evening that Manchester City have been found guilty of 114 charges of breaching its financial rules over a nine-year period",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790749514000
-    },
-    {
-      "competition": "indy",
-      "title": "Czech Republic v England LIVE: Anthony Gordon and Harry Kane goals sink 10-man hosts in Nations League",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/czech-republic-england-live-stream-score-result-nations-league-b3058330.html",
-      "image": "https://static.independent.co.uk/2026/09/29/21/2297770727..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Czech Republic 0-2 England: England bounced back from defeat to Spain to get their Nations League campaign back on track",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790748683000
-    },
-    {
-      "competition": "indy",
-      "title": "The staggering scale of Manchester City’s rule-breaking leaves the Premier League with only one option",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-city-premier-league-punishment-guilty-charges-expulsion-points-deduction-b3058512.html",
-      "image": "https://static.independent.co.uk/2026/09/29/18/955340208..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Found guilty on all but one of more than 100 charges, the club’s behaviour casts doubt over an entire era of football. How, Miguel Delaney asks, can they be allowed to remain in the top flight?",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790748180000
-    },
-    {
-      "competition": "mirror",
-      "title": "Every Premier League table with Man City results removed as Tottenham the biggest losers",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-results-removed-table-37713282",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37713470.ece/ALTERNATES/s615/0_GettyImages-618396620.jpg",
-      "summary": "Manchester City have been charged with 114 offences but are yet to learn their punishment",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790748000000
     }
   ]
 }
