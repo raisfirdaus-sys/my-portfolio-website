@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-29T21:22:24.653Z",
+  "updatedAt": "2026-09-30T00:45:04.662Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "S&P 500 investors may have more tech exposure than they think: Here's how one wealth manager mitigates concentration risk",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-may-more-002107367.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/c6b81ac66a899f5f39d275235e3f4f1d.jpg",
+      "publishedAt": 1790727667000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-000002404.html",
+      "image": "https://media.zenfs.com/en/stockstory_922/d0c508e063f679ea538d34e866cf1d98.jpg",
+      "publishedAt": 1790726402000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Apple is betting $1,999 that consumers are ready for this shift",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/articles/apple-betting-1-999-consumers-233700549.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/3ef128095112036c631e8285b3121575.jpg",
+      "publishedAt": 1790725020000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Why Is Warby Parker (WRBY) Stock Soaring Today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-warby-parker-wrby-stock-225602768.html",
+      "image": "https://media.zenfs.com/en/stockstory_922/f1715d00f95a7647f43171679977a063.jpg",
+      "publishedAt": 1790722562000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Trump, AI CEOs sign voluntary safety pact, back data center expansion",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/news/trump-host-zuckerberg-anthropics-amodei-100709180.html",
+      "image": "https://media.zenfs.com/en/reuters.com/b603ad7494789bf7b96223fa4dceed13.jpg",
+      "publishedAt": 1790721934000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Bot Traffic Will Be “1000X” Bigger Than Human Traffic in Just Five Years, According to Cloudflare CEO",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/technology/articles/bot-traffic-1000x-bigger-human-221740295.html",
+      "image": "https://media.zenfs.com/en/tikr_258/1bb4a1c13f78457d42ef12727899b7e0.png",
+      "publishedAt": 1790720260000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "6 Ways to Protect Yourself From an AI Blowup—Without Giving Up Gains",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/9de13adc-6537-3f8e-9043-2d9325d2a932/6-ways-to-protect-yourself.html",
+      "image": "https://media.zenfs.com/en/Barrons.com/34ad04201e7a5e33581bc44dd5f92aca.jpg",
+      "publishedAt": 1790719560000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Should You Buy The Dip In MongoDB Stock?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-mongodb-stock-215931106.html",
+      "image": "https://media.zenfs.com/en/trefis_142/b5e443eabe013632b8862e966ecebd58.jpg",
+      "publishedAt": 1790719171000
+    },
     {
       "ticker": "AMZN",
       "title": "Amazon appears to be mystery tenant at Galleria North Tower in Dallas",
@@ -8,14 +72,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/amazon-appears-mystery-tenant-galleria-211013513.html",
       "image": "https://media.zenfs.com/en/the_real_deal_435/20b72e2ff47bfb38b4e483423a8c3512.jpg",
       "publishedAt": 1790716213000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Okta (OKTA) Added An Alphabet Executive To Its Board",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-added-alphabet-executive-210648850.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/44525c174d97ebe37fab75bc64158db1.jpg",
-      "publishedAt": 1790716008000
     },
     {
       "ticker": "MSFT",
@@ -42,6 +98,22 @@
       "publishedAt": 1790714951000
     },
     {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-falls-more-steeply-204505527.html",
+      "image": "https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b.jpg",
+      "publishedAt": 1790714705000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Johnson & Johnson (JNJ) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-sees-more-204504518.html",
+      "image": "https://media.zenfs.com/en/zacks.com/d7dcbe11345e3f8e5e71e6827fe3c4c9.jpg",
+      "publishedAt": 1790714704000
+    },
+    {
       "ticker": "MSFT",
       "title": "Microsoft Brings OpenAI’s Autonomous ‘Dots’ AI Workers Into the Enterprise",
       "publisher": "Benzinga Prediction Markets",
@@ -50,7 +122,7 @@
       "publishedAt": 1790713974000
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AMZN",
       "title": "Has MSFT Stock Run Out Of Steam?",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-run-steam-203217202.html",
@@ -66,84 +138,12 @@
       "publishedAt": 1790713380000
     },
     {
-      "ticker": "GOOGL",
-      "title": "Should You Trim Or Add To Your Aurora Innovation Position Now?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/trim-add-aurora-innovation-position-201851176.html",
-      "image": "https://media.zenfs.com/en/trefis_142/66e79461ed506322a1cf71a95243e227.jpg",
-      "publishedAt": 1790713131000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Trump considers creating committee to oversee AI sector",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/news/trump-host-zuckerberg-anthropics-amodei-100709180.html",
-      "image": "https://media.zenfs.com/en/reuters.com/422cd28ffc46859908e9965bde7e9d66.jpg",
-      "publishedAt": 1790712867000
-    },
-    {
       "ticker": "MA",
       "title": "Mastercard Board of Directors Announces Quarterly Dividend",
       "publisher": "Business Wire",
       "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-board-directors-announces-quarterly-201000216.html",
       "image": "https://media.zenfs.com/en/business-wire.com/d55a84aed195a0f8c3676a24bdfa18d3.jpg",
       "publishedAt": 1790712600000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "6 Ways to Protect Your Portfolio From AI Concentration Risk—Without Giving Up Gains",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/9de13adc-6537-3f8e-9043-2d9325d2a932/6-ways-to-protect-your.html",
-      "image": "https://media.zenfs.com/en/Barrons.com/34ad04201e7a5e33581bc44dd5f92aca.jpg",
-      "publishedAt": 1790712540000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google's fix for locked Pixel phones wipes your photos and apps",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/technology/articles/googles-fix-locked-pixel-phones-200700614.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/d8bf1d3869b80cd09346247a112e8189.jpg",
-      "publishedAt": 1790712420000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Sector Update: Tech Stocks Rise Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195526408.html",
-      "image": null,
-      "publishedAt": 1790711726000
-    },
-    {
-      "ticker": "MA",
-      "title": "Market Chatter: Apple Pay to Launch in India Tuesday With Axis Bank",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-apple-pay-launch-195143721.html",
-      "image": null,
-      "publishedAt": 1790711503000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "I've Covered Palantir for 5 Years. Here's How to Know if the Artificial Intelligence (AI) Stock Is Overvalued.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ive-covered-palantir-5-years-194700845.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/ee3aa56c676ec7ed08d6656e4ba8e702.jpg",
-      "publishedAt": 1790711220000
-    },
-    {
-      "ticker": "V",
-      "title": "Top Stock Reports for Visa, Intuitive Surgical & Williams Companies",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-visa-intuitive-193800600.html",
-      "image": "https://media.zenfs.com/en/zacks.com/acf2a8bf4684a9e9c21ea0abd0d10c6e.jpg",
-      "publishedAt": 1790710680000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Do You Really Understand ISRG Stock's Risk?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/really-understand-isrg-stocks-risk-192658023.html",
-      "image": "https://media.zenfs.com/en/trefis_142/050c9ac64ba8bb42801f95e84345e905.jpg",
-      "publishedAt": 1790710018000
     }
   ]
 }
