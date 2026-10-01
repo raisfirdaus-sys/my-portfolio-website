@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790868246694,
+  "generatedAt": 1790868311520,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1518,
-    "tagged": 780,
+    "tagged": 781,
     "droppedKeyword": 46,
     "droppedOtherSport": 3,
-    "droppedFeed": 16,
+    "droppedFeed": 15,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "Man City appeal lawyers to claim sponsor money paid by Abu Dhabi government",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-city-charges-appeal-sponsorship-abu-dhabi-government-b3059891.html",
+      "image": "https://static.independent.co.uk/2026/10/01/15/3cf496d4671534276933a4cc9be30b31Y29udGVudHNlYXJjaGFwaSwxNzkwOTUwNTYz-2.82556068.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Manchester City are expected to lodge their appeal after being found guilty of all financial charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790868253000
+    },
     {
       "competition": "fitalia",
       "title": "Pulisic: &#8216;I&#8217;m very happy at Milan and want to continue here&#8217;",
@@ -736,19 +748,6 @@
         "italy"
       ],
       "publishedAt": 1790857506000
-    },
-    {
-      "competition": "metro",
-      "title": "Rio Ferdinand tells Man Utd to sign former Real Madrid star on free transfer",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/01/rio-ferdinand-tells-man-utd-sign-former-real-madrid-star-free-transfer-29670128/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_253570495-892f.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "realmadrid",
-        "manutd"
-      ],
-      "publishedAt": 1790857024000
     }
   ]
 }
