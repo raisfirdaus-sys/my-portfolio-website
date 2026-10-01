@@ -1,45 +1,109 @@
 {
-  "updatedAt": "2026-10-01T15:24:46.557Z",
+  "updatedAt": "2026-10-01T20:28:58.833Z",
   "items": [
     {
-      "ticker": "MSFT",
-      "title": "Wall Street Sees 40% Upside For Microsoft as AI Monetization Finally Pays Off",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-sees-40-upside-151543665.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/2735f2220d54d5fc5123c2555af0ab20.jpg",
-      "publishedAt": 1790867743000
-    },
-    {
       "ticker": "GOOGL",
-      "title": "Broadcom's $42 Billion Anthropic Bet Adds a New Layer of AI Risk",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/broadcoms-42-billion-anthropic-bet-151531027.html",
+      "title": "Sector Update: Tech Stocks Gain Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195143826.html",
       "image": null,
-      "publishedAt": 1790867731000
+      "publishedAt": 1790884303000
     },
     {
       "ticker": "GOOGL",
-      "title": "Stock Market Today: Dow Sinks As Yields Surge; Accenture Vaults On Earnings Beat (Live Coverage)",
+      "title": "Rankings.io Acquires Wildfire Video, Launches Rankings Video Marketing",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/rankings-io-acquires-wildfire-video-195000573.html",
+      "image": "https://media.zenfs.com/en/globenewswire.com/4415e5bba0961c870e6d4ad6b31edd75.png",
+      "publishedAt": 1790884200000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Sector Update: Tech",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-192610550.html",
+      "image": null,
+      "publishedAt": 1790882770000
+    },
+    {
+      "ticker": "MA",
+      "title": "What Could Derail PayPal Stock?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-derail-paypal-stock-191600787.html",
+      "image": "https://media.zenfs.com/en/trefis_142/f1bf9e9d653dacbddb0b24dcbe7b840e.png",
+      "publishedAt": 1790882160000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "Bristol-Myers Squibb vs. Johnson & Johnson: Comparing Quarterly Revenue Scale",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/healthcare/articles/bristol-myers-squibb-vs-johnson-191502494.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/c2fbeb4360aedc7b8dd71f2c022f81b7.png",
+      "publishedAt": 1790882102000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Stock Market Today: Nasdaq Gains As Micron Reverses Higher; This Retail Name Breaks Out (Live Coverage)",
       "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/5f6e8554-d4a8-3f1c-bce8-2f5074e2e587/stock-market-today%3A-dow-sinks.html",
+      "link": "https://finance.yahoo.com/m/5f6e8554-d4a8-3f1c-bce8-2f5074e2e587/stock-market-today%3A-nasdaq.html",
       "image": "https://media.zenfs.com/en/ibd.com/af3d8bf275f34dd771b1551f1766e265.jpg",
-      "publishedAt": 1790866975000
+      "publishedAt": 1790882085000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google Could Face $3.2B In Damages Over Ad-Tech Monopoly, Federal Judge Rules",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/media-advertising/articles/google-could-face-3-2b-191307968.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/a72a136ae532916e4842d01cc7871002.jpg",
+      "publishedAt": 1790881987000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Anthropic and Broadcom Are Becoming More Intertwined. What It Means for Broadcom Stock.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/ea49aba6-700c-36b3-aecb-a1ee3f6dbcd8/anthropic-and-broadcom-are.html",
+      "image": "https://media.zenfs.com/en/Barrons.com/f29a8acdf8f028f70f5530e1fd5f9909.jpg",
+      "publishedAt": 1790881980000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Top Research Reports for Cisco, Shopify & Starbucks",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-cisco-shopify-191100361.html",
+      "image": "https://media.zenfs.com/en/zacks.com/5b0a70110c7ea58e29e9651caf429484.jpg",
+      "publishedAt": 1790881860000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "NexusTek Announces a New AI Strategy Assessment to Close the Gap Between AI Ideas and Actionable Investments",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nexustek-announces-ai-strategy-assessment-190800902.html",
+      "image": "https://media.zenfs.com/en/globenewswire.com/fcdbecb104a3189efdc265a29f9c9743.png",
+      "publishedAt": 1790881680000
     },
     {
       "ticker": "AMZN",
-      "title": "Why Amazon’s (AMZN) Infrastructure Investment Sets Up Record Downstream FCF",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-amzn-infrastructure-investment-145348361.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/200db36b3627d8c0741a12874b6a7da4.jpg",
-      "publishedAt": 1790866428000
+      "title": "Belden Introduces New Factory Insights Offering",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/technology/articles/belden-introduces-factory-insights-offering-190450503.html",
+      "image": null,
+      "publishedAt": 1790881490000
     },
     {
       "ticker": "AMZN",
-      "title": "Broadcom to lend Anthropic up to $42 billion to lease chips, in latest circular investing deal",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/article/broadcom-to-lend-anthropic-up-to-42-billion-to-lease-chips-in-latest-circular-investing-deal-121617505.html",
-      "image": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/cd6d153b-ae9f-4d29-a697-a59b1c7093d2_f84368ace62bf60ff4f0a4816ed75864419a6808a2a8938a30f6c6b41a94a6cb.jpg",
-      "publishedAt": 1790865452000
+      "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
+      "publisher": "ESG Dive",
+      "link": "https://finance.yahoo.com/energy/articles/amazon-constellation-sign-20-ppa-185507722.html",
+      "image": "https://media.zenfs.com/en/esg_dive_474/c08c5d0a3bacfd113996aa6fdc38f0f4",
+      "publishedAt": 1790880907000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Where Will Palantir Stock Be in 5 Years?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/where-palantir-stock-5-years-185100693.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/6ce82136f3d1e3f16d730c62bb89e633.png",
+      "publishedAt": 1790880660000
     },
     {
       "ticker": "GOOGL",
@@ -47,7 +111,23 @@
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/2b96bff5-d86a-36dc-9e88-284c6d61328e/will-google-turn-the-tables.html",
       "image": "https://media.zenfs.com/en/ibd.com/080219718a07c1e7ff188c1ba5d412d2.jpg",
-      "publishedAt": 1790865185000
+      "publishedAt": 1790880611000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Are Retail-Wholesale Stocks Lagging  BJ's Restaurants (BJRI) This Year?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/retail-wholesale-stocks-lagging-bjs-183934848.html",
+      "image": "https://media.zenfs.com/en/zacks.com/105b2acef7bf0873f24b78932b1fdc3c.jpg",
+      "publishedAt": 1790879974000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "National retailer files Chapter 11 after 80 stores closed in 2026",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/small-business/articles/national-retailer-files-chapter-11-183415917.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/99910f2e8d462d699db323d0237eaa18.jpg",
+      "publishedAt": 1790879655000
     },
     {
       "ticker": "AMZN",
@@ -55,95 +135,15 @@
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/c06fb1de-c01e-34de-8e4f-2e66a1459c7c/synopsys-is-the-top-stock-in.html",
       "image": "https://media.zenfs.com/en/Barrons.com/3883b099a1981aac2ea818fc1341559f.jpg",
-      "publishedAt": 1790865180000
+      "publishedAt": 1790879520000
     },
     {
       "ticker": "MSFT",
-      "title": "Market Chatter: SpaceX's AI Unit in Talks to Lease Compute Capacity to Microsoft",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-spacex-apos-ai-143144517.html",
-      "image": null,
-      "publishedAt": 1790865104000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why Fixing Social Security With Tax Hikes Could Backfire — New Wharton Study",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/economy/policy/articles/why-fixing-social-security-tax-143000340.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/59612624882992d8a9e6472ec581f47a.jpg",
-      "publishedAt": 1790865000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Nuke Deal Fuels Constellation Energy After Axed Data Center",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/6ad28dfb-804b-333d-a5b3-29677462fc2b/amazon-nuke-deal-fuels.html",
-      "image": "https://media.zenfs.com/en/ibd.com/379de946820595ab4dd559a01c995ba2.jpg",
-      "publishedAt": 1790864905000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon.com Launches New Kindle Lineup",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/amazon-com-launches-kindle-lineup-142753900.html",
-      "image": null,
-      "publishedAt": 1790864873000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Accenture, IBM, Micron, Google, Synopsys,  Constellation Energy, and More Stocks That Explain Today’s Market",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/ff733662-6b3b-3329-895d-f9bd4d70a5b2/accenture%2C-ibm%2C-micron%2C.html",
-      "image": "https://media.zenfs.com/en/Barrons.com/56a218e7a2e35d74a3f2850511459533.jpg",
-      "publishedAt": 1790864640000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks Faces Shareholder Pressure to Restore Labor Relations Oversight Committee",
-      "publisher": "TIKR",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-faces-shareholder-pressure-restore-141332506.html",
-      "image": "https://media.zenfs.com/en/tikr_258/f67da48768e37cc447f1f8202c0db093",
-      "publishedAt": 1790864012000
-    },
-    {
-      "ticker": "KO",
-      "title": "2 Consumer Stocks with Promising Prospects and 1 We Turn Down",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-consumer-stocks-promising-prospects-140507816.html",
-      "image": "https://media.zenfs.com/en/stockstory_922/526d094939f809a3fffab8ca704747b4.jpg",
-      "publishedAt": 1790863507000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie Presents Long-Term RINVOQ® (upadacitinib) Data Showing Continued Repigmentation in Non-Segmental Vitiligo",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-presents-long-term-rinvoq-140000095.html",
-      "image": "https://media.zenfs.com/en/prnewswire.com/15f341d47565e63eb6d1e49cfe7b90a5.png",
-      "publishedAt": 1790863200000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "10-Year Treasury yield touches highest level since 2002: AlphaCheck",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-touches-highest-level-since-2002-alphacheck-135255038.html",
-      "image": "https://d29szjachogqwa.cloudfront.net/images/2026-10/447033c0-01f8-44ee-a28c-cb859c28f649",
-      "publishedAt": 1790863186000
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Inside Applegreen’s first Colorado travel plaza",
-      "publisher": "C-Store Dive",
-      "link": "https://finance.yahoo.com/small-business/articles/inside-applegreen-first-colorado-travel-134942082.html",
-      "image": "https://media.zenfs.com/en/c_store_dive_342/7ea6dfb71771ad6635e1a8c28a06cf0d.jpg",
-      "publishedAt": 1790862582000
-    },
-    {
-      "ticker": "MA",
-      "title": "Bank of Montreal, Mastercard Enable Embedded Virtual Card Payments in Enterprise Software",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/technology/articles/bank-montreal-mastercard-enable-embedded-134815022.html",
-      "image": null,
-      "publishedAt": 1790862495000
+      "title": "MSFT’s LinkedIn Chief Ryan Roslansky To Exit As AI Leadership Shake-Up Continues",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/technology/ai/articles/msft-linkedin-chief-ryan-roslansky-181543135.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/1befa8e368bf9b5d02192388528874ae.jpg",
+      "publishedAt": 1790878543000
     }
   ]
 }
