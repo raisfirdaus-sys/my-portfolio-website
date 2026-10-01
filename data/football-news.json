@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790864207797,
+  "generatedAt": 1790865123840,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1515,
-    "tagged": 783,
-    "droppedKeyword": 45,
-    "droppedOtherSport": 3,
+    "raw": 1511,
+    "tagged": 775,
+    "droppedKeyword": 46,
+    "droppedOtherSport": 2,
     "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "metro",
+      "title": "Vitaliy Mykolenko injury concern as Ukraine manager speaks out on issue",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/01/vitaliy-mykolenko-injury-concern-ukraine-manager-speaks-issue-29670694/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_312208285-2ad4.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "ukraine"
+      ],
+      "publishedAt": 1790864505000
+    },
     {
       "competition": "indy",
       "title": "Jurgen Klopp speaks out on Man City guilty verdict as he addresses Liverpool ‘parade’ comments",
@@ -224,7 +236,7 @@
     },
     {
       "competition": "men",
-      "title": "Man City's ‘irrefutable evidence to clear name revealed' as 115 charges saga takes new twist",
+      "title": "Man City's 'irrefutable evidence to clear name revealed' as 115 charges saga takes new twist",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-verdict-evidence-34701889",
       "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34701795.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
@@ -730,18 +742,6 @@
         "mancity"
       ],
       "publishedAt": 1790854028000
-    },
-    {
-      "competition": "men",
-      "title": "Everything that has been said about Man City verdict as Government weigh in on charges decision",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-premier-league-34699416",
-      "image": "https://i2-prod.coventrytelegraph.net/incoming/article34699992.ece/ALTERNATES/s615/0_Manchester-City-breaches.jpg",
-      "summary": "Manchester City are at the centre of a huge storm as they look to defend themselves after being found guilty of all Premier League financial charges against them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790853436000
     }
   ]
 }
