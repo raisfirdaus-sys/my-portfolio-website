@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790838939178,
+  "generatedAt": 1790839482119,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1506,
-    "tagged": 792,
-    "droppedKeyword": 38,
+    "tagged": 789,
+    "droppedKeyword": 39,
     "droppedOtherSport": 1,
-    "droppedFeed": 15,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 38
+    "withImage": 40
   },
   "items": [
     {
@@ -22,7 +22,31 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790838050000
+      "publishedAt": 1790839301000
+    },
+    {
+      "competition": "indy",
+      "title": "Etihad Airways to consider legal options against Premier League after Man City verdict",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/etihad-airways-manchester-city-premier-league-legal-options-b3059486.html",
+      "image": "https://static.independent.co.uk/2026/10/01/07/89056184..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Etihad Airways have been Manchester City’s main sponsor since 2009 and says it is seeking legal advice against the Premier League following City being found guilty of seriously breaching financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790839172000
+    },
+    {
+      "competition": "bbc",
+      "title": "Podcast: What's really happening at Celtic and do Scotland have a goalkeeping problem?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pdbfhp?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pdbfn2.jpg",
+      "summary": "Do Scotland have a goalkeeping problem and Celtic's manager wait.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790838000000
     },
     {
       "competition": "bbc",
@@ -366,7 +390,7 @@
     {
       "competition": "unl-a",
       "title": "Malta vs Gibraltar: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
+      "publisher": "bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03MDlYcklqLVVmRDFuTXRPbjJ1bWdrcnVwTm9LNHFlZDZDRzFwanY3V2QzSkRKc2lsbWdoRWFBUi1YX1g3b2s0VkJwb1VsU1RfTm0yaGVxb2N0OWlLc2g3RXZPRQ?oc=5",
       "teams": [
         "malta"
@@ -377,24 +401,13 @@
     {
       "competition": "unl-a",
       "title": "Croatia vs England UEFA Nations League preview: Everything you need to know",
-      "publisher": "goal.com",
+      "publisher": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGZFeDNVMTRlLTM2cWZIWll6Q0ZVZldjajRLd201RmZOa3c0U3Y1RFZvYUlLZ3I1S3ptNDhSeFZmV0hPeF9OdFhhd1l1RjNFRFpIRE5jaVJoenVEYVE4bzNDaDcxdVhQd2FkTnRFZGw5UE81Y0Fha2QySnVoem53cklqdE1yekw2Y0k3ZE5XLWRLcUd4TGZr?oc=5",
       "teams": [
         "croatia",
         "england"
       ],
       "publishedAt": 1790838523000,
-      "image": null
-    },
-    {
-      "competition": "seriea",
-      "title": "Endrick’s Real Madrid nightmare continues! Brazilian starlet considers January loan exit to Serie A giants after Jose Mourinho snub",
-      "publisher": "goal.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjZlZjgxOUxhMXZmQ01PRnhqWUdaSWJyUGNPYTFIOXExSXl1UURXTWZ4bkUzaWl1eEhsQTVxc0lfaC02SS1aVGhDVDFzSjFKWWJLNk5jTkMwMlFMMHlfSnBfRnJaUEFxQS1QdXBDZnB4WERUM1dLZEhXNGRZS1lKN3pWR0JzaTlCZlQwTnJGVFVhTy1LbW9VTEZ2cmVxVjlvUC16a1FpMUJNV1NfelE?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790838404000,
       "image": null
     },
     {
@@ -418,13 +431,25 @@
         "germany",
         "serbia"
       ],
-      "publishedAt": 1790837700000,
+      "publishedAt": 1790838241000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Germany manager Jürgen Klopp reveals family connection to Augsburg",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcEd4dHBnSmRQX3FaVEtDbHplUkNzYkw0OWFaTTBZbG9UclpNd19aY1dEVjdqTzIwVWszUHYzUlViQm9pdnA2SlpqdDRaRnRUYlZUVzFlNkNQZExOWkdVNG0tcjJ4elpOOUJlbGE3M0xiQXZvZ2JGUWc1bzZjak9LeXZkYw?oc=5",
+      "teams": [
+        "augsburg",
+        "germany"
+      ],
+      "publishedAt": 1790838000000,
       "image": null
     },
     {
       "competition": "unl-a",
       "title": "Azerbaijan vs Liechtenstein: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
+      "publisher": "bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPMUM5YzhFa1FXY3RtWEtGQjZoSXJJc1VLY1V0LWZYM1c1YzBqdTV6MjRIVEktMTB4U24xbDI0al94RkE0TjhuN0g4Z1Q4c19IWm02c0hhNm1yeGNiRGlKNmNpRQ?oc=5",
       "teams": [
         "liechtenstein"
@@ -435,7 +460,7 @@
     {
       "competition": "unl-a",
       "title": "Azerbaijan vs Liechtenstein live stream, TV channel and kick-off time | UEFA Nations League D | Goal.com US",
-      "publisher": "goal.com",
+      "publisher": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ3hYd1p0ZUI5bXJEeGZyZC1uRGxTZmdwM015cXNXbWpHb0VKcEhQWXRXUnBfMFRkdGZRTVZVX2UxSGsyUW9XZG1IYVNjNFhBQ280eHJ4eDUzaEFnOHhNYUFlTS1Id0ZzeExFQjVRRG15NEI5T0paMFJjVGtwLWJQV2E0Rml0ejVaQTB1T0Z4Qi1LX0VHTHhvbzJMODZrcVVkdE5BU0hxYXZJNF9IMm92WGZQVUE?oc=5",
       "teams": [
         "liechtenstein"
@@ -455,20 +480,9 @@
       "image": null
     },
     {
-      "competition": "laliga",
-      "title": "Former Real Madrid defender names surprise Spanish pick over Lamine Yamal for Ballon d’Or: ‘All got their merits’",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWkxoVU9OSjFMcXRYYWt5bzlYbzExYzF2WEFURDRhamFhcnFsZW84MVFKM1dzYUYtYmx6VjZPektMdVQ2QWw0WjBUNDFnQzRWWldxTEJEUHBZQld6cmdTNjdRY05WN1R4TDQzVFBUdU9EMkg0UDlsb1h1cnpKWXcySFhQcmVwYzBaclE?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790835600000,
-      "image": null
-    },
-    {
       "competition": "unl-a",
       "title": "Israel vs Kosovo: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
+      "publisher": "bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQ1l6elBIdXhvN2xvVzU4aGNob3FuRElXYkNPbkRVYWdHVmtOSlNOOXJKTU5fcW5WaHMwQnFsTVlNd1dqSlpOcjl1dmM2bWhKamZBVXpGdEpybnZPYVJzMl9lWQ?oc=5",
       "teams": [
         "israel",
@@ -492,7 +506,7 @@
     {
       "competition": "unl-a",
       "title": "Denmark vs Portugal: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
+      "publisher": "bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwcmFrTGx2TURIQnBWckVwWkJGd2JfMXgxNFpXbGRWOW83UmdhYjdxcnVCdF9OX2RxbVlDNEZ3c3JXbS1wOERyNlcyeUhOcnlYa1dVNzVXak1nVmNvQU1EdWdLdw?oc=5",
       "teams": [
         "portugal",
@@ -574,9 +588,20 @@
       "publishedAt": 1790803022000
     },
     {
+      "competition": "seriea",
+      "title": "Endrick’s Real Madrid nightmare continues! Brazilian starlet considers January loan exit to Serie A giants after Jose Mourinho snub",
+      "publisher": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGZVbVVXYkpkM0JWS2pCQ0JSSmplZGdZWkFGd3BxUnNtM3BoQ3Fic29NY2pEZ1lNWEYyaTZOWVh3LVFrS3E2ZXlueGg1RkdhODg4Y1A4UjVKa0gtQmlNT1hxRTlMeTRlbHZPV1Q0RFhoQmEyc1g4S3JTZmRFdFFrSDBkNERQV21YMVJ4a282dk8?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790831160000,
+      "image": null
+    },
+    {
       "competition": "bundesliga",
       "title": "Bayern Munich, Michael Olise met to discuss public persona per report",
-      "publisher": "Bavarian Football Works",
+      "publisher": "bavarianfootballworks.com",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWVc3SW9QcWFDcFFhb2RkSTJlZzlpSUQ4QWYxV1ljbG83UU80MGtvLU9vN1c3dXprUFZQNGZEdFVFWTRrRWlWNkNjZW1QQzJuazg4NkR5ZElOd1lFeklGNEpsdlNrSGtjbHk2RldQOW9VeUtEdE1pRlFRQWZ6dWhGcmFRT0Q3MnFhSnNmRk1MMk0ydjhoTXliTkhoWUE1SzFIVHExVkZjNXZaNXJScEFvb2JVb0RaSFd1dmFJVFdScmktUGh4eVd0ZUZLNC1QeWxQZWNxZA?oc=5",
       "teams": [
         "bayern"
@@ -611,7 +636,7 @@
     {
       "competition": "unl-a",
       "title": "Germany vs Serbia: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
+      "publisher": "bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PazB0NUNpeUVjX3hieGNQdE04Q0h6V0E4bkE1MDBNaTZEdjVBMzIzMzFXSXZ3UllvQURBd1BvbUxuUk5GR2JfaVVmUGctcmZIY19VZWRxZjhjVmkySjNNQ2JnUQ?oc=5",
       "teams": [
         "germany",
@@ -693,35 +718,13 @@
     {
       "competition": "bundesliga",
       "title": "He is still under contract at Bayern Munich: Bayern flop could also have joined Barca",
-      "publisher": "goal.com",
+      "publisher": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdC1fUDNlRHFwV0VQSi1TYTN4RXNXc2drSXB2Vml1eGY2VDBWYURqa1JHZE1QNS00Tlh1ckk3N2hReU5nS2ZLOUhaMzVyQUV5bE1TbTFxR05GYldHZkp5LWhuRzhVQ2lSS1RzWFlBUEFVemtDd2UyaU5aYkItM0FnWmFibVlFTE5vWEw2M29WekFjRGdLQnBrNy1pOEIzOGxGMWlLMkIzcHhDb2dDbFlpcE1aSFV0MnJrNjk5Qm5adVNCN3hnMFhHbXpwbFNhdw?oc=5",
       "teams": [
         "bayern",
         "barcelona"
       ],
       "publishedAt": 1790827914000,
-      "image": null
-    },
-    {
-      "competition": "bundesliga",
-      "title": "BVB, news: Dortmund star only on the bench against Germany after Kovac call?",
-      "publisher": "goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaWx1NTdlTUhoeXVJbnU4T1o2UDBoU09JZl9sT2xqMHcxTF9OOTRBWE1yT1dUeVE0LXZsbnZscWd5RUFOQTlLcEF2WEY0SURJM0Y2RlVib21KUnlyRVdWTE5Zc1pHN0daUzNyRWI4TEV3ZGhzblgxV0ZKOVVfVWhYNVpIOVEwVlJKTG5PRno0V18wamk3bFF4MFRXeG5fbDEwc1E4NTZUdTBCLTd4QlVqb2ZxWlUwMm4xdHgwT29jRktIdlNqRkdtOHhHMDJRcW5aMW1Eb0hUS0RjTVNwSFVyOQ?oc=5",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790827766000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Explained: The political backdrop to Ireland vs Israel and fallout from the first game",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYmVXbnFaVEM2V1JOZ01qSWxnNy1uMGRDNWZHWjJlQVpkWXRHU0daalkyRmlaNVRTUVBiQmstV1EyQUdyX0h3Nm81UlJ4dzhzVkZiV3RoZll4cHVfNldfRDRDLUxNak9CYlNmX3FaeVVfWDFKVHZjYlhTUHlVa25uZjNPQmJiWXRjdFQydkhFLTJkOFVZVmw0?oc=5",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790827500000,
       "image": null
     }
   ]
