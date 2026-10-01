@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790837778925,
+  "generatedAt": 1790838939178,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1506,
-    "tagged": 794,
-    "droppedKeyword": 37,
+    "tagged": 792,
+    "droppedKeyword": 38,
     "droppedOtherSport": 1,
-    "droppedFeed": 16,
+    "droppedFeed": 15,
     "blocklistDistrusted": false,
     "withImage": 38
   },
@@ -17,12 +17,24 @@
       "title": "Man City charges LIVE: Chairman granted 'immunity', punishment update and Andy Burnham statement",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37713784.ece/ALTERNATES/s615/0_GettyImages-2291178828.jpg",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
       "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790837457000
+      "publishedAt": 1790838050000
+    },
+    {
+      "competition": "bbc",
+      "title": "Inside Northern Ireland's football conveyor belt",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crpd0ww7z7n9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf8f/live/c79fcbd0-bd14-11f1-80fb-f1c05882e774.jpg",
+      "summary": "BBC Sport NI spends the day at the IFA JD Academy Residential at Campbell College where Northern Ireland manager Michael O'Neill catches up with the young players hoping to graduate to a full-time career.",
+      "teams": [
+        "nireland"
+      ],
+      "publishedAt": 1790837627000
     },
     {
       "competition": "chronicle",
@@ -353,6 +365,75 @@
     },
     {
       "competition": "unl-a",
+      "title": "Malta vs Gibraltar: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03MDlYcklqLVVmRDFuTXRPbjJ1bWdrcnVwTm9LNHFlZDZDRzFwanY3V2QzSkRKc2lsbWdoRWFBUi1YX1g3b2s0VkJwb1VsU1RfTm0yaGVxb2N0OWlLc2g3RXZPRQ?oc=5",
+      "teams": [
+        "malta"
+      ],
+      "publishedAt": 1790838605000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Croatia vs England UEFA Nations League preview: Everything you need to know",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGZFeDNVMTRlLTM2cWZIWll6Q0ZVZldjajRLd201RmZOa3c0U3Y1RFZvYUlLZ3I1S3ptNDhSeFZmV0hPeF9OdFhhd1l1RjNFRFpIRE5jaVJoenVEYVE4bzNDaDcxdVhQd2FkTnRFZGw5UE81Y0Fha2QySnVoem53cklqdE1yekw2Y0k3ZE5XLWRLcUd4TGZr?oc=5",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1790838523000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Endrick’s Real Madrid nightmare continues! Brazilian starlet considers January loan exit to Serie A giants after Jose Mourinho snub",
+      "publisher": "goal.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjZlZjgxOUxhMXZmQ01PRnhqWUdaSWJyUGNPYTFIOXExSXl1UURXTWZ4bkUzaWl1eEhsQTVxc0lfaC02SS1aVGhDVDFzSjFKWWJLNk5jTkMwMlFMMHlfSnBfRnJaUEFxQS1QdXBDZnB4WERUM1dLZEhXNGRZS1lKN3pWR0JzaTlCZlQwTnJGVFVhTy1LbW9VTEZ2cmVxVjlvUC16a1FpMUJNV1NfelE?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790838404000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Denmark vs. Portugal 2026 livestream: How to watch Nations League for free",
+      "publisher": "Mashable",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGg2R0pGSENmcFJMR2Q2RTJLNzgyZ2R5ZDNocl9fMmRMNnM4NTlOVnZtRURjVFMtUmpLV1lDblR2VDJZNUl1QUUycXJYWjdxaWdIX283MW9HOFFWcTF0VmRlZlIxRlpZNkpEbVNURllsdFVwTzZOeEhwLWJWV3ZuSFA2dXZib1dXa1E5b2UyZXB0MEZPRmI4?oc=5",
+      "teams": [
+        "portugal",
+        "denmark"
+      ],
+      "publishedAt": 1790838257000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "2026 UEFA Nations League | Predicted Germany XI vs Serbia- Can Germany get its first win under Klopp?",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzJrY0Z0RVRoOUtPVlJFUUNveFAtd1RVVnZZRjNhQW9SNllOSzhOYlRFOHkwTUIxazNxV2xRQjIwZ0ZVNEpQUzBobjNlbTE0MXhxZkJWM0FqSXFzQlg2alJEblBQajJkcFFhbms0Q2NVcnJ3eUV2SHN1WGxpRG9YVDVueGFQUTdCdVMw?oc=5",
+      "teams": [
+        "germany",
+        "serbia"
+      ],
+      "publishedAt": 1790837700000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Azerbaijan vs Liechtenstein: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPMUM5YzhFa1FXY3RtWEtGQjZoSXJJc1VLY1V0LWZYM1c1YzBqdTV6MjRIVEktMTB4U24xbDI0al94RkE0TjhuN0g4Z1Q4c19IWm02c0hhNm1yeGNiRGlKNmNpRQ?oc=5",
+      "teams": [
+        "liechtenstein"
+      ],
+      "publishedAt": 1790837317000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
       "title": "Azerbaijan vs Liechtenstein live stream, TV channel and kick-off time | UEFA Nations League D | Goal.com US",
       "publisher": "goal.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ3hYd1p0ZUI5bXJEeGZyZC1uRGxTZmdwM015cXNXbWpHb0VKcEhQWXRXUnBfMFRkdGZRTVZVX2UxSGsyUW9XZG1IYVNjNFhBQ280eHJ4eDUzaEFnOHhNYUFlTS1Id0ZzeExFQjVRRG15NEI5T0paMFJjVGtwLWJQV2E0Rml0ejVaQTB1T0Z4Qi1LX0VHTHhvbzJMODZrcVVkdE5BU0hxYXZJNF9IMm92WGZQVUE?oc=5",
@@ -371,30 +452,6 @@
         "napoli"
       ],
       "publishedAt": 1790836125000,
-      "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Brentford transfer rumours: Kevin Schade, Liverpool, Man Utd",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaTIwbGotVzg5aDZES2E5a2tFWkNlXzVGS290dUNTQ0xsME1mY1dSdl9kVlVyZHJsSVpNT21zZjVTLWJocVZiQVF5aXhiY3BUaFpYc3I3cVljMkFfX08teVhXSU5Hak1XVk1iVkxyVFBmMWl3Vl9vSHZsR0VZN0FWcEpZTDhXSFpvRFQ0ejA3WGl5ei02N3FyQnRlV2JWbmxKS0htUzd5N2dVeld4d2VYdUw4dVYwX05US3B4NEh3bUlQU2QzdXhhSUJ1QzYxWHlseUF5dnIzU2UweTk2eGowR2ozdXBEd3hIRU1ISm9PYUFBdw?oc=5",
-      "teams": [
-        "brentford",
-        "liverpool",
-        "manutd"
-      ],
-      "publishedAt": 1790836094000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Azerbaijan vs Liechtenstein: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPMUM5YzhFa1FXY3RtWEtGQjZoSXJJc1VLY1V0LWZYM1c1YzBqdTV6MjRIVEktMTB4U24xbDI0al94RkE0TjhuN0g4Z1Q4c19IWm02c0hhNm1yeGNiRGlKNmNpRQ?oc=5",
-      "teams": [
-        "liechtenstein"
-      ],
-      "publishedAt": 1790835952000,
       "image": null
     },
     {
@@ -469,14 +526,14 @@
       "publishedAt": 1790805004000
     },
     {
-      "competition": "epl",
-      "title": "Liverpool told what it will take to sign 'outstanding' star from arch-rivals",
+      "competition": "seriea",
+      "title": "☀️ Juve keen on Solet, Pulisic renewal, Taylor off? Morning news",
       "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0cyaTZBblFMZUlKOGpGZVlJTDcyMzJlaVUzT2toUmJTY2I4b3drY3JKd3U5MEg0WFBYUFUzd0NkX3hJblBJOE9kUGlRZGYzUlRXMFdjbUxHVHlkX1JmLW5EbVdMLURic0hiQ0ZCMUp4dXpBUklVanlXSUFqVlotcHY4M0wzb1JmWE83S2tB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeHF2ajJWOXJzMVNGYW9kWk5JeUpTcnFia2E0bHJLaE5YRGszQ3dTSy1wdjkyZUg1YUFVNVAyNVVuekplZm1nQjZLOWRuSmhIak9KWjB6OHVzTUZsVnA4SktWRDluR0d1RzR1T0x2aDBKSlpWZ295algtWDdrcjg1SEwxWFQ4V2s?oc=5",
       "teams": [
-        "liverpool"
+        "juventus"
       ],
-      "publishedAt": 1790832900000,
+      "publishedAt": 1790833080000,
       "image": null
     },
     {
@@ -553,18 +610,6 @@
     },
     {
       "competition": "unl-a",
-      "title": "Portugal XI vs Denmark – Predicted lineup and team news",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONWk4MHJxcWRjazRlSUtTYTFSYl9MRDA5cXp1Q1ZmZFRhd0I2ZUdhWHl1UUpUSTRjVmFHQmpnMnFqUk1VcFF4VXVxeXVBb2tfcUFUdEJ1TTJJWDQ2Nm43R2pKQjhobnFzei1YdkpzSFdGaTR1OVF2dmMwOHVMSy04X3U2VjJtLTR4?oc=5",
-      "teams": [
-        "portugal",
-        "denmark"
-      ],
-      "publishedAt": 1790830500000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
       "title": "Germany vs Serbia: UEFA Nations League stats & head-to-head",
       "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PazB0NUNpeUVjX3hieGNQdE04Q0h6V0E4bkE1MDBNaTZEdjVBMzIzMzFXSXZ3UllvQURBd1BvbUxuUk5GR2JfaVVmUGctcmZIY19VZWRxZjhjVmkySjNNQ2JnUQ?oc=5",
@@ -608,18 +653,6 @@
         "brighton"
       ],
       "publishedAt": 1790828858000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Greece vs Netherlands: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fS1JMYlFjLWx6NGZTN3l3TDl4UE1zWk9ucE5aZ3JYMndfSXdSdDI1V01raTl5ZHBlOHRwLVBqR2I4Z1VZVTllaVRCaDVrYzFUMk0wb3owOVZSTFNFV0N4MDEzdw?oc=5",
-      "teams": [
-        "netherlands",
-        "greece"
-      ],
-      "publishedAt": 1790828706000,
       "image": null
     },
     {
@@ -690,41 +723,6 @@
       ],
       "publishedAt": 1790827500000,
       "image": null
-    },
-    {
-      "competition": "epl",
-      "title": "Manchester City chair shielded by diplomatic immunity",
-      "publisher": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVZaVzBlODhtSWdXMXl6NUQ5Zkd6LWhORmZRSFA5Vy1XbGpTWUwtLUVubTlrdmxOMVJpX0x0aVltRW9EVjFaazFGeXQ3YU0xR0UtSkpGQUpsR2JFTTN1cFBwdW1LQkxuTk50bjRzYUlQYnhzN2pxaTdqX3Q1ZHN1OXBuVXI?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790827224000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "France vs Italy: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAybHFVQy00OGJmQXdKSXBOWlg0R2oyUDhVX3FxN1hyTHlBanE2NjIxNWNZZG55Wi1TN2M2UGxLak13RHZXUnJuYWZUYjBJRGRjWmJMVEZOdEtGOWtwSEJEVDJISQ?oc=5",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790826975000,
-      "image": null
-    },
-    {
-      "competition": "guardian",
-      "title": "Cristiano Ronaldo walks out on Portugal after being dropped from starting lineup",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/30/cristiano-ronaldo-misses-portugal-training-jorge-jesus-denmark",
-      "image": "https://i.guim.co.uk/img/media/c0a5d4d913d66f04d737bc7cc19938cada7c0017/1045_251_4834_3868/master/4834.jpg?width=140&quality=85&auto=format&fit=max&s=b2ecfd2eaf85d923dcd00e47be0d9b58",
-      "summary": "Jorge Jesus earlier said captain would again be a subThe 41-year-old has trained alone in gym since weekendThe Portugal captain, Cristiano Ronaldo, announced on Wednesday that he had left the team’s training camp in…",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1790798155000
     }
   ]
 }
