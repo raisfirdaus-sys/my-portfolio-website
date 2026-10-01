@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790898227324,
+  "generatedAt": 1790898930063,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 803,
-    "droppedKeyword": 47,
+    "raw": 1524,
+    "tagged": 806,
+    "droppedKeyword": 48,
     "droppedOtherSport": 1,
-    "droppedFeed": 10,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 57
   },
@@ -18,7 +18,7 @@
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6zxzx1d484zo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee14/live/a0756920-bddc-11f1-88d5-b903d805bdb1.jpg",
-      "summary": "Wales head coach Craig Bellamy says he has been through a \"really difficult\" spell because of the \"abuse\" received during Wales' winless run.",
+      "summary": "Head coach Craig Bellamy says he has been through a \"really difficult\" spell because of criticism aimed in his direction during Wales' winless run.",
       "teams": [
         "norway",
         "wales"
@@ -274,7 +274,7 @@
     },
     {
       "competition": "bbc",
-      "title": "Man City plan appeal as HMRC urged to examine tax implications",
+      "title": "Man City appeal plan emerges as HMRC urged to look at tax implications",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda1/live/922cde20-bdaa-11f1-8373-27235719cf2a.jpg",
