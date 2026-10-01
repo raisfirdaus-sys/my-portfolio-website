@@ -1,13 +1,85 @@
 {
-  "updatedAt": "2026-10-01T01:32:43.639Z",
+  "updatedAt": "2026-10-01T07:46:36.756Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Most S&P 500 Stocks Sank In September — But Retail Traders Didn't Flee",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/most-p-500-stocks-sank-072701358.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/c7634fde93d5659b1c214c18c765f895.jpg",
+      "publishedAt": 1790839621000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Amazon Stock Pays $0 in Dividends. Here's Why Long-Term Investors Should Own It Anyway.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-pays-0-dividends-065000015.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/df2daea5c622fa09a18206f2ee3f95a0.png",
+      "publishedAt": 1790837400000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-micron-063000600.html",
+      "image": "https://media.zenfs.com/en/zacks.com/8f2cfa2b27eda152a197ae1b4f3dccdf.jpg",
+      "publishedAt": 1790836200000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon Signs 20-Year Nuclear Power Deal With Constellation, Unlocking $3 Billion Investment to Fuel AI-Induced Electricity Demand",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/energy/articles/amazon-signs-20-nuclear-power-052003956.html",
+      "image": "https://media.zenfs.com/en/Benzinga/8d436d6dfd1bc466d74c6fa9b152f858.jpg",
+      "publishedAt": 1790832003000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Trump Losing Midterms Could Be the 'Trigger' that Pops AI Bubble, Says Market Analyst — Here's What Crypto Punters Think",
+      "publisher": "Benzinga Prediction Markets",
+      "link": "https://finance.yahoo.com/technology/ai/articles/trump-losing-midterms-could-trigger-033222678.html",
+      "image": "https://media.zenfs.com/en/benzinga_prediction_markets_613/bc066ce93b444df347dd2066dd2adef4.jpg",
+      "publishedAt": 1790825542000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "EQ Resources (ASX:EQR) Is Down 11.6% After Swinging Back To Full-Year Profitability – What's Changed",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/eq-resources-asx-eqr-down-031459466.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/b2fc1054c8c4ceaedb1eb91bb340fb9b.jpg",
+      "publishedAt": 1790824499000
+    },
+    {
+      "ticker": "KO",
+      "title": "Coca Cola (KO) Keeps Raising Its Outlook After Consecutive Earnings Beats",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-keeps-raising-031426556.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/71e11254e29213fe4e4e37c45c1fc2ce.jpg",
+      "publishedAt": 1790824466000
+    },
     {
       "ticker": "MSFT",
       "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/958fb542-74b3-3d16-bde8-baba1e31461e/dow-jones-futures%3A-micron.html",
       "image": "https://media.zenfs.com/en/ibd.com/2b18bc6a2254941f70591a54e89a49b0.jpg",
-      "publishedAt": 1790817874000
+      "publishedAt": 1790823850000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Popular energy drink brand discontinues 12 flavors",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/energy/articles/popular-energy-drink-brand-discontinues-015857513.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/36f3b6dfa50ab488af7560c3b7ae6470.jpg",
+      "publishedAt": 1790819937000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Nokia (HLSE:NOKIA) Stock May Be Below Fair Value On AI Partnership Expansion",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nokia-hlse-nokia-stock-may-012301609.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/3c6ff8aabba9d6021dd61ad640943b86.jpg",
+      "publishedAt": 1790817781000
     },
     {
       "ticker": "AMZN",
@@ -34,6 +106,14 @@
       "publishedAt": 1790813559000
     },
     {
+      "ticker": "PLTR",
+      "title": "OpenAI President Backs Out of Pledged $25 Million Donation to AI Super PAC",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/457012e7-73f5-35ae-99c2-a506afef84f5/openai-president-backs-out-of.html",
+      "image": "https://media.zenfs.com/en/wsj.com/3b9da2fcf5640a59279f394ca55f2609.jpg",
+      "publishedAt": 1790813520000
+    },
+    {
       "ticker": "MSFT",
       "title": "Did Santa Cruz’s Updated 24-Year Mine Plan and 18.7% IRR Just Shift Ivanhoe Electric’s (IE) Investment Narrative?",
       "publisher": "Simply Wall St.",
@@ -58,92 +138,12 @@
       "publishedAt": 1790812505000
     },
     {
-      "ticker": "GOOGL",
-      "title": "VIG Cannot Own Meta’s or Alphabet’s Dividends Until 2035 at the Earliest: The 10-Year Rule Written Into Its Index",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/vig-cannot-own-meta-alphabet-223521135.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/051d3ecca2f5c6083875c1040728d981.jpg",
-      "publishedAt": 1790807721000
-    },
-    {
       "ticker": "MSFT",
       "title": "A Tech-Fueled Stock Market Powers Through, but Limps Into the Fourth Quarter",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/39c33298-f2a7-373d-a538-2ab63c3be697/a-tech-fueled-stock-market.html",
       "image": "https://media.zenfs.com/en/wsj.com/53dca559451112e2a17977cbc0f5415c.jpg",
       "publishedAt": 1790804220000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/e687f8eb-c924-3e55-bec6-30e840903e06/google-unveils-new-ai-model.html",
-      "image": "https://media.zenfs.com/en/Barrons.com/aaacdba3bb4a8c89c02c41578b3be815.jpg",
-      "publishedAt": 1790804100000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "JPMorgan sends a strong message to Mag-7 stock investors",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sends-strong-message-mag-213300645.html",
-      "image": "https://media.zenfs.com/en/thestreet_881/d1bc362e4d61a91ead7d1f64691340fb.jpg",
-      "publishedAt": 1790803980000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Patriot Consulting Launches Free ISOC Cost Evaluation and Agentic MXDR365 Operations for Microsoft's New Integrated Security Operations Center",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/patriot-consulting-launches-free-isoc-213100395.html",
-      "image": "https://media.zenfs.com/en/prnewswire.com/a99c7cd568dca3f81fa38d4d1bbb6a6a.jpg",
-      "publishedAt": 1790803860000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Constellation Stock Rises as Amazon Backs Nuclear Plant Expansion",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/f0c82482-0f3a-3f10-8519-420d85cb460f/constellation-stock-rises-as.html",
-      "image": "https://media.zenfs.com/en/Barrons.com/4f2ada209443c95da9471e0ddd3c0912.jpg",
-      "publishedAt": 1790802120000
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead Sciences (GILD) Declines More Than Market: Some Information for Investors",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/gilead-sciences-gild-declines-more-210004893.html",
-      "image": "https://media.zenfs.com/en/zacks.com/023168c7ea091c342492be3899b280af.jpg",
-      "publishedAt": 1790802004000
-    },
-    {
-      "ticker": "MA",
-      "title": "Why MasterCard (MA) Dipped More Than Broader Market Today",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mastercard-ma-dipped-more-205004819.html",
-      "image": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9.jpg",
-      "publishedAt": 1790801404000
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog (DDOG) Increases Despite Market Slip: Here's What You Need to Know",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-increases-despite-market-204507094.html",
-      "image": "https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4.jpg",
-      "publishedAt": 1790801107000
-    },
-    {
-      "ticker": "V",
-      "title": "Visa (V) Falls More Steeply Than Broader Market: What Investors Need to Know",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-falls-more-steeply-204506783.html",
-      "image": "https://media.zenfs.com/en/zacks.com/023168c7ea091c342492be3899b280af.jpg",
-      "publishedAt": 1790801106000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Constellation Energy stock climbs on Amazon nuclear power deal",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-stock-climbs-amazon-204446267.html",
-      "image": null,
-      "publishedAt": 1790801086000
     }
   ]
 }
