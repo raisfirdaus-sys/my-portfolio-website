@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790840704143,
+  "generatedAt": 1790840815956,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1508,
-    "tagged": 791,
+    "raw": 1504,
+    "tagged": 789,
     "droppedKeyword": 38,
     "droppedOtherSport": 1,
-    "droppedFeed": 15,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 39
   },
@@ -458,6 +458,18 @@
     },
     {
       "competition": "unl-a",
+      "title": "Denmark vs Portugal: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwcmFrTGx2TURIQnBWckVwWkJGd2JfMXgxNFpXbGRWOW83UmdhYjdxcnVCdF9OX2RxbVlDNEZ3c3JXbS1wOERyNlcyeUhOcnlYa1dVNzVXak1nVmNvQU1EdWdLdw?oc=5",
+      "teams": [
+        "portugal",
+        "denmark"
+      ],
+      "publishedAt": 1790839733000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
       "title": "Greece vs Netherlands: UEFA Nations League stats & head-to-head",
       "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fS1JMYlFjLWx6NGZTN3l3TDl4UE1zWk9ucE5aZ3JYMndfSXdSdDI1V01raTl5ZHBlOHRwLVBqR2I4Z1VZVTllaVRCaDVrYzFUMk0wb3owOVZSTFNFV0N4MDEzdw?oc=5",
@@ -504,18 +516,6 @@
     },
     {
       "competition": "unl-a",
-      "title": "Croatia vs England UEFA Nations League preview: Everything you need to know",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGZFeDNVMTRlLTM2cWZIWll6Q0ZVZldjajRLd201RmZOa3c0U3Y1RFZvYUlLZ3I1S3ptNDhSeFZmV0hPeF9OdFhhd1l1RjNFRFpIRE5jaVJoenVEYVE4bzNDaDcxdVhQd2FkTnRFZGw5UE81Y0Fha2QySnVoem53cklqdE1yekw2Y0k3ZE5XLWRLcUd4TGZr?oc=5",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1790838523000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
       "title": "Denmark vs. Portugal 2026 livestream: How to watch Nations League for free",
       "publisher": "Mashable",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGg2R0pGSENmcFJMR2Q2RTJLNzgyZ2R5ZDNocl9fMmRMNnM4NTlOVnZtRURjVFMtUmpLV1lDblR2VDJZNUl1QUUycXJYWjdxaWdIX283MW9HOFFWcTF0VmRlZlIxRlpZNkpEbVNURllsdFVwTzZOeEhwLWJWV3ZuSFA2dXZib1dXa1E5b2UyZXB0MEZPRmI4?oc=5",
@@ -529,7 +529,7 @@
     {
       "competition": "unl-a",
       "title": "2026 UEFA Nations League | Predicted Germany XI vs Serbia- Can Germany get its first win under Klopp?",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzJrY0Z0RVRoOUtPVlJFUUNveFAtd1RVVnZZRjNhQW9SNllOSzhOYlRFOHkwTUIxazNxV2xRQjIwZ0ZVNEpQUzBobjNlbTE0MXhxZkJWM0FqSXFzQlg2alJEblBQajJkcFFhbms0Q2NVcnJ3eUV2SHN1WGxpRG9YVDVueGFQUTdCdVMw?oc=5",
       "teams": [
         "germany",
@@ -541,7 +541,7 @@
     {
       "competition": "unl-a",
       "title": "Germany manager Jürgen Klopp reveals family connection to Augsburg",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcEd4dHBnSmRQX3FaVEtDbHplUkNzYkw0OWFaTTBZbG9UclpNd19aY1dEVjdqTzIwVWszUHYzUlViQm9pdnA2SlpqdDRaRnRUYlZUVzFlNkNQZExOWkdVNG0tcjJ4elpOOUJlbGE3M0xiQXZvZ2JGUWc1bzZjak9LeXZkYw?oc=5",
       "teams": [
         "augsburg",
@@ -645,7 +645,7 @@
     {
       "competition": "seriea",
       "title": "☀️ Juve keen on Solet, Pulisic renewal, Taylor off? Morning news",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeHF2ajJWOXJzMVNGYW9kWk5JeUpTcnFia2E0bHJLaE5YRGszQ3dTSy1wdjkyZUg1YUFVNVAyNVVuekplZm1nQjZLOWRuSmhIak9KWjB6OHVzTUZsVnA4SktWRDluR0d1RzR1T0x2aDBKSlpWZ295algtWDdrcjg1SEwxWFQ4V2s?oc=5",
       "teams": [
         "juventus"
@@ -704,7 +704,7 @@
     {
       "competition": "unl-a",
       "title": "Denmark vs Portugal – Match preview and team news",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMm92TXJ0ZW9uaktocnlpNkg0RWtGTWh5OFhVWUljZUpzSUpmaWNpeW5oMUlwY1lyOFUxZ0ZxbXdpQTk4REpXYU9zaVgyY0RHM0VrTUExVHlrYXpsdG53WjdvMGpyS19CTDhDNlIyVU5KNnVfcDJ0d1F0ODh6eV9TN2R3RnM2UGFwdkE?oc=5",
       "teams": [
         "portugal",
@@ -716,7 +716,7 @@
     {
       "competition": "unl-a",
       "title": "Germany vs Serbia – Predicted lineup and team news",
-      "publisher": "Yahoo Sports",
+      "publisher": "sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdEEzTndLUkpUWktDdVZwZXRnVUZ0a0FRTGtCSkVCMS1MOHZiX212YzY2SGV6d2xLU1lGcVMzeHhyc3pCbVZXZDA3cVhCQmNfTklkRDAySTJkcm44c1ZRcnRNSW50bEFNcF9URzhaVGpIQWtwSy1UelFtdzhjMDB5Z0dMSktqSmRQZlB3?oc=5",
       "teams": [
         "germany",
