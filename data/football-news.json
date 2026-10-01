@@ -1,17 +1,30 @@
 {
-  "generatedAt": 1790807793522,
+  "generatedAt": 1790815390057,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1535,
-    "tagged": 833,
-    "droppedKeyword": 36,
+    "raw": 1524,
+    "tagged": 815,
+    "droppedKeyword": 41,
     "droppedOtherSport": 1,
-    "droppedFeed": 13,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 56
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Man City robbed Jurgen Klopp of first Liverpool trophy years before Premier League heartbreak",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-robbed-jurgen-klopp-34695154",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34695224.ece/ALTERNATES/s615/0_GettyImages-512850180.jpg",
+      "summary": "Jurgen Klopp's Liverpool lost to Man City in the 2016 League Cup final with it one of the prizes won at a time when the club were breaching the Premier League's financial regulations",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790812800000
+    },
     {
       "competition": "mirror",
       "title": "Man City charges LIVE: Jurgen Klopp speaks, Pep Guardiola statement, punishment latest",
@@ -90,7 +103,7 @@
       "title": "Punish Man City this season, say other club chiefs",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6vgyg3zv3kwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad93/live/d0252160-bd00-11f1-babe-4199b0e7ccea.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebff/live/69ca0bb0-bd23-11f1-b3b7-a16fdfb382f9.jpg",
       "summary": "Manchester City's punishment for breaching Premier League rules should be handed down before the end of this season, senior football figures tell BBC Sport.",
       "teams": [
         "mancity"
@@ -551,6 +564,17 @@
       "publishedAt": 1790785820000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City's main sponsor threatened the Premier League with legal action",
+      "publisher": "Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFVSUU5yZmdUcW5QaXhCdS1yVjJXMlUtVGJlZWJ0UGdydXYxMzNyeUhEUDZuci1ROHhialVzdTZhYXROSFhIN1F5dWJMZFpjNUpfV0ZtNUtBYS1nUUtmLUN5bkt6X1hkYjRCVXBmRUZhMW1VakRQTXAyOXh6S2pKV0c5VWVNNEttbUs1ZkpTTlhscTB2YVZFcnl5aFJvMDA4ZFHSAaABQVVfeXFMT3FnRkxpUF9vYlBBX0JORUNNRFBscnpmelJ4ekk4OTY4aTVfWkN4YVlWUDZsVjBwM3YwXzBFMHBfV29uWFVISFVvQjBqLV9fcUEyMTl5OXc3a3RFbFE3YzUxWDZFbWNrQlRrY1g3WEI5WGkydURldFpZRmpuZGs2V1lrRzZ0V2lWWHJOdWxic1Z0Wm9xa3hUclNva3h3ZFUwZw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790814322000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Kick them out - only a double Man City demotion would give Newcastle United any justice",
       "publisher": "Chronicle Live",
@@ -574,6 +598,18 @@
         "lazio"
       ],
       "publishedAt": 1790784677000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Israel vs Kosovo: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQ1l6elBIdXhvN2xvVzU4aGNob3FuRElXYkNPbkRVYWdHVmtOSlNOOXJKTU5fcW5WaHMwQnFsTVlNd1dqSlpOcjl1dmM2bWhKamZBVXpGdEpybnZPYVJzMl9lWQ?oc=5",
+      "teams": [
+        "israel",
+        "kosovo"
+      ],
+      "publishedAt": 1790813319000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -673,6 +709,29 @@
       "publishedAt": 1790783326000
     },
     {
+      "competition": "bundesliga",
+      "title": "Bayern Munich, Michael Olise met to discuss public persona per report",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWVc3SW9QcWFDcFFhb2RkSTJlZzlpSUQ4QWYxV1ljbG83UU80MGtvLU9vN1c3dXprUFZQNGZEdFVFWTRrRWlWNkNjZW1QQzJuazg4NkR5ZElOd1lFeklGNEpsdlNrSGtjbHk2RldQOW9VeUtEdE1pRlFRQWZ6dWhGcmFRT0Q3MnFhSnNmRk1MMk0ydjhoTXliTkhoWUE1SzFIVHExVkZjNXZaNXJScEFvb2JVb0RaSFd1dmFJVFdScmktUGh4eVd0ZUZLNC1QeWxQZWNxZA?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1790811900000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "LaLiga EA Sports salary limits: Real Madrid ahead of Barcelona and Atlético",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDA1WU9sSmJ6ZThFMTdKN2dlVVQ1eEZ1blNPTmk5NFFFZ1pmdEtBSFdHb1ZTQ3RnWFNncG5ZaGVyQXBuRG5qVzV0ZkZUdzduejJxMVdOSVJvdmhLcWFJRWRKQ0tUbk5UdVBSaEFNUlNXNVY1TzlSQmlBTjV0ZFc3RlBQakIxLUtoa052ZmV6eDdIQlRxZ2Z6eHVrYWQ2R3l0Q0VSSFNEX3dlT1cwNjBwam1GeTVOUQ?oc=5",
+      "teams": [
+        "realmadrid",
+        "barcelona"
+      ],
+      "publishedAt": 1790811323000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Questions about Wales form not unfair - Bellamy",
       "publisher": "BBC Sport",
@@ -683,68 +742,6 @@
         "wales"
       ],
       "publishedAt": 1790782502000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United star drops injury hint as Michael Carrick set for timely boost",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/amad-man-united-injury-news-34696973",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34383393.ece/ALTERNATES/s615/1_GettyImages-2273908475.jpg",
-      "summary": "The winger is yet to make an appearance for Manchester United so far this season",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790782444000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Norway boss issues new Martin Odegaard injury update as doubts over Arsenal star emerge",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-martin-odegaard-injury-update-34697031",
-      "image": "https://i2-prod.football.london/incoming/article34697028.ece/ALTERNATES/s615/0_GettyImages-2296985982.jpg",
-      "summary": "Norway have been left sweating over the fitness of Arsenal captain Martin Odegaard ahead of their Nations League clash against Wales",
-      "teams": [
-        "arsenal",
-        "norway"
-      ],
-      "publishedAt": 1790782350000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Bologna and Hellas Verona present new stadium projects for EURO 2032",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/bologna-hellas-verona-new-stadium-projects/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/04/Bologna-Aston-Villa-fans-414x286.jpg",
-      "summary": "Bologna and Hellas Verona have release plans for new stadium projects, with both hoping to...",
-      "teams": [
-        "bologna"
-      ],
-      "publishedAt": 1790782078000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Kone: &#8216;An important match for Italy against France, a complicated period for them&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/kone-an-important-match-for-italy-vs-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/07/france-v-italy-uefa-nations-league-2024-25-league-a-group-a2-1.jpg",
-      "summary": "Roma and France midfielder Manu Kone has revealed what has surprised him most after getting...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790781364000
-    },
-    {
-      "competition": "men",
-      "title": "Man City 115 charges timeline amid £830m 'sham', double appeal and Premier League uncertainty",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-115-charges-timeline-34695051",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34695927.ece/ALTERNATES/s615/0_GettyImages-2297312114.jpg",
-      "summary": "Manchester City are set to appeal the verdict against them in the Premier League 115 charges case with the process set to continue",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790780400000
     }
   ]
 }
