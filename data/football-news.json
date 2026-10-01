@@ -1,17 +1,140 @@
 {
-  "generatedAt": 1790865671459,
+  "generatedAt": 1790868246694,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1512,
-    "tagged": 775,
+    "raw": 1518,
+    "tagged": 780,
     "droppedKeyword": 46,
-    "droppedOtherSport": 2,
-    "droppedFeed": 14,
+    "droppedOtherSport": 3,
+    "droppedFeed": 16,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Pulisic: &#8216;I&#8217;m very happy at Milan and want to continue here&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/pulisic-very-happy-milan-want-to-continue-here/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Christian-Pulisic-control-Jamil-Siebert-414x281.jpg",
+      "summary": "Christian Pulisic assures he is ‘very happy at Milan and want to continue here’ while...",
+      "teams": [
+        "acmilan"
+      ],
+      "publishedAt": 1790867916000
+    },
+    {
+      "competition": "birmingham",
+      "title": "How £830m Man City bombshell could impact Aston Villa and Champions League future",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/how-830m-man-city-bombshell-34702711",
+      "image": "https://i2-prod.football.london/incoming/article34695670.ece/ALTERNATES/s615/0_GettyImages-2153734886.jpg",
+      "summary": "Aston Villa could be impacted after Manchester City were found guilty of all charges related to serious breaches of the Premier League's financial rules",
+      "teams": [
+        "astonvilla",
+        "mancity"
+      ],
+      "publishedAt": 1790867717000
+    },
+    {
+      "competition": "mirror",
+      "title": "England confirm injury blow as star becomes sixth player to withdraw from squad",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-nico-oreilly-injury-update-37724440",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37724612.ece/ALTERNATES/s615/0_GettyImages-2296754621.jpg",
+      "summary": "Thomas Tuchel has now seen six players withdraw from his original squad which he assembled last month, with England currently midway through the international window",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790867699000
+    },
+    {
+      "competition": "indy",
+      "title": "Pro-Palestine protesters gather in Dublin to urge Ireland to boycott Israel game",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/ireland-israel-palestine-protest-dublin-nations-league-b3059887.html",
+      "image": "https://static.independent.co.uk/2026/10/01/16/01M3VYCX6CM69H6P3XV7HE1XX2.jpg?width=1200&auto=webp&trim=65%2C0%2C65%2C0",
+      "summary": "Republic of Ireland faced Israel last weekend and are due to play them again on Sunday",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1790867505000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Man City cheating 'costs Tottenham stars £200m' as players miss out on huge payday",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/man-city-charges-tottenham-200m-34702173",
+      "image": "https://i2-prod.football.london/incoming/article34702714.ece/ALTERNATES/s615/0_Man-City-Spurs.jpg",
+      "summary": "Manchester City could have had a significant impact on Tottenham and their players during the seasons in which they breached financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790867366000
+    },
+    {
+      "competition": "echo",
+      "title": "Inside Hugo Ekitike's Liverpool recovery - US trips, squad hint and new 'return date'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/inside-hugo-ekitikes-liverpool-recovery-34702315",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702783.ece/ALTERNATES/s615/1_premium-canvas-1790866577445.png",
+      "summary": "Paul Gorst takes a closer look at Hugo Ekitike's current situation after reports the Liverpool forward is targeting a November return to training",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790867181000
+    },
+    {
+      "competition": "guardian",
+      "title": "Cristiano Ronaldo’s Portugal walkout divides a nation as Jorge Jesus asserts control",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/01/cristiano-ronaldos-portugal-walkout-divides-a-nation-as-jorge-jesus-asserts-control",
+      "image": "https://i.guim.co.uk/img/media/41fcb5e4ba4fdb8a7c3c5970a6b6499af7b46e04/379_31_2464_1971/master/2464.jpg?width=140&quality=85&auto=format&fit=max&s=0109fca1d7f2d2b46170397fe8a3823f",
+      "summary": "Row sparked by head coach’s decision to leave the 41-year-old on the bench has left a great international career at risk of ending in acrimonyThe drama surrounding Cristiano Ronaldo and the national team has naturally…",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1790867051000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Liverpool hero causes stir as Arsenal's Martin Odegaard mocked after Bernardo Silva incident",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-odegaard-bernardo-silva-34702802",
+      "image": "https://i2-prod.football.london/incoming/article34702787.ece/ALTERNATES/s615/0_GettyImages-2297136925.jpg",
+      "summary": "Bernardo Silva left his mark on Martin Odegaard in controversial fashion last Sunday in a heated Nations League clash between Norway and Portugal in Oslo",
+      "teams": [
+        "liverpool",
+        "arsenal"
+      ],
+      "publishedAt": 1790866556000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: New 'evidence' to appeal guilty verdict as chairman granted 'immunity'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790866064000
+    },
+    {
+      "competition": "men",
+      "title": "Man City's Nico O'Reilly sent home from England international duty as statement issued",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-citys-nico-oreilly-34702622",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34702628.ece/ALTERNATES/s615/0_Nico-OReilly.jpg",
+      "summary": "The Manchester City left-back started for England in the 3-2 defeat against Spain",
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790865810000
+    },
     {
       "competition": "bbc",
       "title": "Injured O'Reilly withdraws from England squad",
@@ -172,18 +295,6 @@
         "manutd"
       ],
       "publishedAt": 1790863248000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: New 'evidence' to appeal guilty verdict as chairman granted 'immunity'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790863222000
     },
     {
       "competition": "bundes",
@@ -638,114 +749,6 @@
         "manutd"
       ],
       "publishedAt": 1790857024000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City scandal latest as Pep Guardiola speaks | Football Weekly – video",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/video/2026/oct/01/manchester-city-scandal-latest-as-pep-guardiola-speaks-football-weekly-video",
-      "image": "https://i.guim.co.uk/img/media/f8fa995ecebcbe4e037f107533da18371e1d2409/1171_0_3822_3058/master/3822.jpg?width=140&quality=85&auto=format&fit=max&s=51e6e811690a99b8ae4463c28bde7499",
-      "summary": "Max Rushden is joined by Barry Glendenning, Philippe Auclair and Ali Maxwell as the Manchester City story rumbles with Pep Guardiola speaking for the first time Continue reading...",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790856599000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal receive clear response over double January transfer as Xabi Alonso gets same message",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/transfer-news/arsenal-chelsea-transfer-scott-kroupi-34700563",
-      "image": "https://i2-prod.football.london/incoming/article34700824.ece/ALTERNATES/s615/0_JS406596163.jpg",
-      "summary": "Arsenal and Chelsea have been sent a clear transfer message from Bournemouth about two of their star players",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790856403000
-    },
-    {
-      "competition": "bbc",
-      "title": "Second Hull City player crashes near training ground",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/news/articles/cm89j90gv57vo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e204/live/e4b301c0-bd86-11f1-ab03-fd866f8788d0.png",
-      "summary": "The crash, involving Lucas Gourna-Douath, follows a similar incident involving Sorba Thomas.",
-      "teams": [
-        "hullcity"
-      ],
-      "publishedAt": 1790856140000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Jarell Quansah to Chelsea transfer agreement reached as Xabi Alonso plots January swoop",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/jarell-quansah-chelsea-transfer-agreement-34699023",
-      "image": "https://i2-prod.football.london/incoming/article34700003.ece/ALTERNATES/s615/0_GettyImages-2297387236.jpg",
-      "summary": "Jarell Quansah has emerged as a potential target for Chelsea ahead of the January transfer window as Xabi Alonso looks to bolster his backline.",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790856000000
-    },
-    {
-      "competition": "men",
-      "title": "Erling Haaland legal battle breaks out as Man City star gets court date",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/erling-haaland-legal-court-date-34700482",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34700481.ece/ALTERNATES/s615/0_Erling-Braut-Haaland-Norway-seen-during-UEFA-Nations.jpg",
-      "summary": "Manchester City star Erling Haaland is involved in a legal case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790855972000
-    },
-    {
-      "competition": "mirror",
-      "title": "'I regret how quickly I left Man Utd after making my debut - now I work in a shop'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/richard-eckersley-man-utd-debut-37723046",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37723075.ece/ALTERNATES/s615/0_GettyImages-73986045.jpg",
-      "summary": "The former Manchester United academy graduate has opened up about his decision to depart Old Trafford",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790855858000
-    },
-    {
-      "competition": "bundes",
-      "title": "Bayern Munich's Harry Kane thanks club for support as he awaits 2026 Ballon d’Or awards ceremony",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/harry-kane-bayern-munich-england-ballon-dor-michael-owen-39397",
-      "image": "https://cdn.jwplayer.com/previews/7J9oEgX6",
-      "summary": "Harry Kane’s 2025/26 campaign saw him score 61 goals in Bayern Munich colours, a tally that fired his side to a league and DFB Cup double and a UEFA Champions League semi-final, and could yet fire him to even more…",
-      "teams": [
-        "bayern"
-      ],
-      "publishedAt": 1790855727000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League handed Man City punishment verdict as MEN readers have their say",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-premier-league-verdict-34700385",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34693174.ece/ALTERNATES/s615/0_GettyImages-2235892533.jpg",
-      "summary": "Manchester City have been found guilty of breaches of the Premier League's financial rules, with MEN readers having their say on what punishment the club should see as a result",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790855673000
-    },
-    {
-      "competition": "echo",
-      "title": "Everton fan reaction to Friedkins and Tommy Fleetwood photo speaks volumes",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/everton-fan-reaction-friedkins-tommy-34699111",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34699886.ece/ALTERNATES/s615/0_GettyImages-2297910520.jpg",
-      "summary": "Golfer Tommy Fleetwood was photographed with Everton chairman Dan Friedkin and his son Ryan at The Old Course, St Andrews",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790855625000
     }
   ]
 }
