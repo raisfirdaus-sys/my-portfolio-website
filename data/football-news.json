@@ -1,17 +1,41 @@
 {
-  "generatedAt": 1790839482119,
+  "generatedAt": 1790840704143,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1506,
-    "tagged": 789,
-    "droppedKeyword": 39,
+    "raw": 1508,
+    "tagged": 791,
+    "droppedKeyword": 38,
     "droppedOtherSport": 1,
-    "droppedFeed": 14,
+    "droppedFeed": 15,
     "blocklistDistrusted": false,
-    "withImage": 40
+    "withImage": 39
   },
   "items": [
+    {
+      "competition": "bbc",
+      "title": "Robertson set to hit 100 Scotland caps - but who else makes top 10?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck3reg92815ro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035e/live/8596bf90-bc2f-11f1-bc1f-3f186ca4140c.png",
+      "summary": "We want you to name the 10 most capped Scotland men's players of all time, with current captain Andy Robertson set to make his 100th national team appearance against North Macedonia on Saturday.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1790840110000
+    },
+    {
+      "competition": "metro",
+      "title": "Arsenal cult hero speaks out after joining bottom-of-the-table minnows",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/01/arsenal-cult-hero-speaks-joining-bottom-of-the-table-minnows-29668683/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_139801909-8b4d.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790839851000
+    },
     {
       "competition": "mirror",
       "title": "Man City charges LIVE: Chairman granted 'immunity', punishment update and Andy Burnham statement",
@@ -22,7 +46,19 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790839301000
+      "publishedAt": 1790839831000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool handed Hugo Ekitike injury boost as striker sets return timeline",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/hugo-ekitike-injury-update-liverpool-34698346",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34698628.ece/ALTERNATES/s615/0_JS395724309.jpg",
+      "summary": "Hugo Ekitike is still recovering from an Achilles injury that the Liverpool striker suffered back in April",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790839693000
     },
     {
       "competition": "indy",
@@ -34,7 +70,7 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790839172000
+      "publishedAt": 1790839303000
     },
     {
       "competition": "bbc",
@@ -195,13 +231,13 @@
     },
     {
       "competition": "echo",
-      "title": "Wayne Rooney and Coleen reveal heartbreaking moment son was let go by Everton",
+      "title": "Liverpool latest: Jarell Quansah update as Bradley Barcola issued message by Thierry Henry",
       "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/wayne-coleen-rooney-everton-cass-34694213",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34695002.ece/ALTERNATES/s615/0_Echo-copy.jpg",
-      "summary": "Wayne and Coleen Rooney have opened up on the devastating moment that their son, Cass, was released by Everton",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-bradley-barcola-real-madrid-34696552",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34696551.ece/ALTERNATES/s615/0_JS416684362.jpg",
+      "summary": "The latest Liverpool news sees new signing Bradley Barcola sent a message over his start to life at Anfield",
       "teams": [
-        "everton"
+        "liverpool"
       ],
       "publishedAt": 1790830800000
     },
@@ -219,23 +255,23 @@
     },
     {
       "competition": "echo",
-      "title": "Liverpool latest: Jarell Quansah update as Bradley Barcola issued message by Thierry Henry",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-bradley-barcola-real-madrid-34696552",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34696551.ece/ALTERNATES/s615/0_JS416684362.jpg",
-      "summary": "The latest Liverpool news sees new signing Bradley Barcola sent a message over his start to life at Anfield",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790830800000
-    },
-    {
-      "competition": "echo",
       "title": "Wayne Rooney's forgotten first Everton goal as he 'blitzed' Sir Alex Ferguson's son and broke record",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/wayne-rooneys-forgotten-first-everton-34696473",
       "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article25136675.ece/ALTERNATES/s615/0_GettyImages-1440617.jpg",
       "summary": "Wayne Rooney broke a record that had stood since 1937 to become Everton's youngest-ever goalscorer on this day in 2002",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790830800000
+    },
+    {
+      "competition": "echo",
+      "title": "Wayne Rooney and Coleen reveal heartbreaking moment son was let go by Everton",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/wayne-coleen-rooney-everton-cass-34694213",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34695002.ece/ALTERNATES/s615/0_Echo-copy.jpg",
+      "summary": "Wayne and Coleen Rooney have opened up on the devastating moment that their son, Cass, was released by Everton",
       "teams": [
         "everton"
       ],
@@ -328,18 +364,6 @@
     },
     {
       "competition": "echo",
-      "title": "Jurgen Klopp hints at decision leaving Liverpool midfielder Florian Wirtz denied",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-florian-wirtz-34698219",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34698193.ece/ALTERNATES/s615/0_JS419766114.jpg",
-      "summary": "Former Liverpool boss Jurgen Klopp is now Florian Wirtz's international manager with Germany",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790827200000
-    },
-    {
-      "competition": "echo",
       "title": "Christian Norgaard set to fight for Everton midfield place as David Moyes faces tough calls",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/christian-norgaard-set-fight-everton-34696500",
@@ -347,6 +371,18 @@
       "summary": "The ECHO's Everton writers consider where Christian Norgaard, once fit, would fit into their plans",
       "teams": [
         "everton"
+      ],
+      "publishedAt": 1790827200000
+    },
+    {
+      "competition": "echo",
+      "title": "Jurgen Klopp hints at decision leaving Liverpool midfielder Florian Wirtz denied",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-florian-wirtz-34698219",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34698193.ece/ALTERNATES/s615/0_JS419766114.jpg",
+      "summary": "Former Liverpool boss Jurgen Klopp is now Florian Wirtz's international manager with Germany",
+      "teams": [
+        "liverpool"
       ],
       "publishedAt": 1790827200000
     },
@@ -388,9 +424,77 @@
       "publishedAt": 1790812800000
     },
     {
+      "competition": "transfer",
+      "title": "Arsenal transfer rumours today: £38.5m deal 'quoted' as Haaland 'makes decision'",
+      "publisher": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNXzhsakZleTFVMjZPaER2NmRVRXlkTjUyTllYQWE2NFFuR1VBT1lVWDlmZTBHdmkxcG9ZY18yX1pmY1JaUWNCN2d6R2d0QTlyQ29rSXl2Ym53emZfR0tRd0hLV2Q5Sy1CWG12clFuZTVacW9Vc0IzWkY4V3lvRVA4OU5SM2E4V0VObWR0MjNTZGF6MlRNT21OWmU0dTBIdU5KaDR0RDl3?oc=5",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790840508000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Ex-Chelsea keeper joins Bellingham, Yamal in European team of the season so far",
+      "publisher": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUi1xMDV1Zk5ydWg4X0hkbzUzcUR5aERPWW1YQmRWOWlra1oyY3JLUEJTSUVESVVGNkx5dlppcmxqcXVBU1k1b3I1aFI4NUxWR0lrR29LRmVMZDZULWpNVFNEOGpPUnJmMUVnTnRUUXdfNUJXWDBabmp3VmR4dG1kZnQ3akowRi1Vc2FWbDZjUmdUTWh4NmZ5TFEyZ3BzUFVobFhJMG9WWUdSVElhZnJ1WS1PdHJFV2lEc1E?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790839978000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Etihad Airways statement in full as Premier League could face legal action over Man City ruling",
+      "publisher": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWmZ3VkhYWGhuTFhXQlkyY0RndE8tVzFMUV9SZ2VsbWRkNHZhcHZXOFBNVTdzZG82U1V0dHdmb0YwZndFcDNiLTdCQmV5bkctUGtidl9KUERXMGpMMFFoSlBfMS1md1BQWHBFUjZOc19aSFpuN0V1akFXSXdmUk43b3Fib2JGNXFtZ1ZHOTdB?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790839812000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Greece vs Netherlands: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fS1JMYlFjLWx6NGZTN3l3TDl4UE1zWk9ucE5aZ3JYMndfSXdSdDI1V01raTl5ZHBlOHRwLVBqR2I4Z1VZVTllaVRCaDVrYzFUMk0wb3owOVZSTFNFV0N4MDEzdw?oc=5",
+      "teams": [
+        "netherlands",
+        "greece"
+      ],
+      "publishedAt": 1790839562000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Endrick’s Real Madrid nightmare continues! Brazilian starlet considers January loan exit to Serie A giants after Jose Mourinho snub",
+      "publisher": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONUxCUmZTSWxXY0VzS0JRZEtTX1R2U056VG1rRVo5ZHhEcFJjd3pQd2d2SXQ0elJGQW1KRV85clgtUmhPMTllUElFSDB2eEVnWDZ5Q2JlME5CMUROWExSSWdyQ1dlUllyUXRPSFlkUm1paWhYUUZvRnotQUVTUGFwSkM3X2RGU1M2YmRpSDdrMHp0bW5hek90WUEtWjVWb2pXRnd0MlR1ZlZ2NnJMMXBEak4tS1REdGRYZ2pUNlN0TTFyZkFoWmlTc3pXT3FTbHAwRGFybDVlOF9yUVc2eEhySWRuTWxiMUJOMUpsbWJRanJnNE5IdW5JcWZreGYxaDJCc2VrV0toeXJISVl5aXFkSE8xaw?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790839147000,
+      "image": null
+    },
+    {
+      "competition": "transfer",
+      "title": "Transfer rumors, news: Real Madrid eye former Liverpool defender Quansah",
+      "publisher": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1ZjdmlSZzU0UXVFS25SWUxWV3Q2a3VXZnh2X25kcy04VmZyb2lkVUV0Z0dKWjB3RmZmRUFuOGdlNUI3cW04SERuUm8zWXR0alZCdFVIc0lLRklla3YwZXA0Q2ZaMWV6SEpVcVRtdThjWENIcEZ1ME45aFdEa2xtRGJ1cGc1cEJGbkNuZDRBdEE3WjRqV2poSko3cWNEWnhoU1NXcUVwLXY0dUg1YlFPbGZXNnR6UVZDcUFJR3Nuekc?oc=5",
+      "teams": [
+        "realmadrid",
+        "liverpool"
+      ],
+      "publishedAt": 1790838667000,
+      "image": null
+    },
+    {
       "competition": "unl-a",
       "title": "Malta vs Gibraltar: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
+      "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03MDlYcklqLVVmRDFuTXRPbjJ1bWdrcnVwTm9LNHFlZDZDRzFwanY3V2QzSkRKc2lsbWdoRWFBUi1YX1g3b2s0VkJwb1VsU1RfTm0yaGVxb2N0OWlLc2g3RXZPRQ?oc=5",
       "teams": [
         "malta"
@@ -449,7 +553,7 @@
     {
       "competition": "unl-a",
       "title": "Azerbaijan vs Liechtenstein: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
+      "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPMUM5YzhFa1FXY3RtWEtGQjZoSXJJc1VLY1V0LWZYM1c1YzBqdTV6MjRIVEktMTB4U24xbDI0al94RkE0TjhuN0g4Z1Q4c19IWm02c0hhNm1yeGNiRGlKNmNpRQ?oc=5",
       "teams": [
         "liechtenstein"
@@ -482,7 +586,7 @@
     {
       "competition": "unl-a",
       "title": "Israel vs Kosovo: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
+      "publisher": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQ1l6elBIdXhvN2xvVzU4aGNob3FuRElXYkNPbkRVYWdHVmtOSlNOOXJKTU5fcW5WaHMwQnFsTVlNd1dqSlpOcjl1dmM2bWhKamZBVXpGdEpybnZPYVJzMl9lWQ?oc=5",
       "teams": [
         "israel",
@@ -504,15 +608,14 @@
       "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "Denmark vs Portugal: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwcmFrTGx2TURIQnBWckVwWkJGd2JfMXgxNFpXbGRWOW83UmdhYjdxcnVCdF9OX2RxbVlDNEZ3c3JXbS1wOERyNlcyeUhOcnlYa1dVNzVXak1nVmNvQU1EdWdLdw?oc=5",
+      "competition": "ligue1",
+      "title": "Marseille in meltdown: Inside OM's historically bad start to the season after chaotic summer of discontent",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM0VLeVVXempyTHMtampsWHhOQkp1b2FsNnkteXJEX2NxMmg4WVpCc1dMeER5OEZ0R05CSVBJV28tVEluRXl1dXppcS1nb2o3ZUtJNFI2UFhZaDBnb3pMVlBQazlqU0U1N3Y2YTBnTVRTU1kxeF9LNGFUaGd6OHFDbHFqbTE0WWd6S1BKMXZHSGctNGlaOHczUmh0T0R2b1hyc05wUlNlQTd0cXU2U05tamxSOGd3N0huZldNbE5Heng?oc=5",
       "teams": [
-        "portugal",
-        "denmark"
+        "marseille"
       ],
-      "publishedAt": 1790834070000,
+      "publishedAt": 1790834400000,
       "image": null
     },
     {
@@ -588,20 +691,9 @@
       "publishedAt": 1790803022000
     },
     {
-      "competition": "seriea",
-      "title": "Endrick’s Real Madrid nightmare continues! Brazilian starlet considers January loan exit to Serie A giants after Jose Mourinho snub",
-      "publisher": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGZVbVVXYkpkM0JWS2pCQ0JSSmplZGdZWkFGd3BxUnNtM3BoQ3Fic29NY2pEZ1lNWEYyaTZOWVh3LVFrS3E2ZXlueGg1RkdhODg4Y1A4UjVKa0gtQmlNT1hxRTlMeTRlbHZPV1Q0RFhoQmEyc1g4S3JTZmRFdFFrSDBkNERQV21YMVJ4a282dk8?oc=5",
-      "teams": [
-        "realmadrid"
-      ],
-      "publishedAt": 1790831160000,
-      "image": null
-    },
-    {
       "competition": "bundesliga",
       "title": "Bayern Munich, Michael Olise met to discuss public persona per report",
-      "publisher": "bavarianfootballworks.com",
+      "publisher": "Bavarian Football Works",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWVc3SW9QcWFDcFFhb2RkSTJlZzlpSUQ4QWYxV1ljbG83UU80MGtvLU9vN1c3dXprUFZQNGZEdFVFWTRrRWlWNkNjZW1QQzJuazg4NkR5ZElOd1lFeklGNEpsdlNrSGtjbHk2RldQOW9VeUtEdE1pRlFRQWZ6dWhGcmFRT0Q3MnFhSnNmRk1MMk0ydjhoTXliTkhoWUE1SzFIVHExVkZjNXZaNXJScEFvb2JVb0RaSFd1dmFJVFdScmktUGh4eVd0ZUZLNC1QeWxQZWNxZA?oc=5",
       "teams": [
         "bayern"
@@ -631,100 +723,6 @@
         "serbia"
       ],
       "publishedAt": 1790830500000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Germany vs Serbia: UEFA Nations League stats & head-to-head",
-      "publisher": "bbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PazB0NUNpeUVjX3hieGNQdE04Q0h6V0E4bkE1MDBNaTZEdjVBMzIzMzFXSXZ3UllvQURBd1BvbUxuUk5GR2JfaVVmUGctcmZIY19VZWRxZjhjVmkySjNNQ2JnUQ?oc=5",
-      "teams": [
-        "germany",
-        "serbia"
-      ],
-      "publishedAt": 1790830381000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Punish Man City this season, say other club chiefs",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgyg3zv3kwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebff/live/69ca0bb0-bd23-11f1-b3b7-a16fdfb382f9.jpg",
-      "summary": "Manchester City's punishment for breaching Premier League rules should be handed down before the end of this season, senior football figures tell BBC Sport.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790800702000
-    },
-    {
-      "competition": "men",
-      "title": "Bold Erling Haaland prediction made by boss amid Man City charges - 'that ain't stopping'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-erling-haaland-34698149",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34698164.ece/ALTERNATES/s615/0_Norway-v-Denmark-UEFA-Nations-League-202627-Group-A4-MD1.jpg",
-      "summary": "Manchester City being found guilty of all charges related to serious breaches of the Premier League’s financial rules could now have an impact on Erling Haaland",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790800616000
-    },
-    {
-      "competition": "epl",
-      "title": "How Brighton became the Premier League’s set-piece kings",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONGJ2ZDBtbTRoME9pRTdIdGozTl9qcXpfQ2Z4ZnpiSzlVUWFORVdhblZUTDd5TFEtTHZDbXRBcXBPQUpiMlpoRGg2WGtpTmVyaTVreXNESmpYZ2IzUmhWaXRwMGF1V091QUV3RXA4aUl5ckwxTl9vOVZYOWwwRVVDSTln?oc=5",
-      "teams": [
-        "brighton"
-      ],
-      "publishedAt": 1790828858000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City sponsor threatens Premier League with legal action as row escalates further",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-guilty-etihad-statement-37721082",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37721076.ece/ALTERNATES/s615/0_GettyImages-2153746517.jpg",
-      "summary": "Manchester City are at the heart of the biggest scandal the Premier League has ever seen and one of their main sponsors has now released a scathing response following their guilty verdict",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790799836000
-    },
-    {
-      "competition": "bbc",
-      "title": "Liverpool contenders for Schade - Thursday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3ew9vv7444xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d297/live/e5e71cc0-bd09-11f1-a64c-550be9e3c66b.png",
-      "summary": "Germany forward Kevin Schade is wanted by Liverpool, Erling Haaland and Phil Foden are among the Manchester City players drawing interest from Europe's top clubs, plus more.",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790799363000
-    },
-    {
-      "competition": "epl",
-      "title": "How are Manchester City fans supposed to feel? By one of them",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTVNQOVYwTjhMQlZId0dUeGRmZ0toYzdVazUtUTE1SE85VEpDYTVxQUtqWDBaM2xDU3l0VVU5TFYtRFhSV2RycUdvVlcyZWFLZzN3QlpBOWJSRGN6c2FSU3RXU0lyRmxxWHk5RzVya0Z3dEZJYTk5ZEF2dl9kWWlybk14WkhPRmJIekt4Vk5MaC1wTk9TWHpOQjBacWd4MFUwUjNnY3pOZw?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790827974000,
-      "image": null
-    },
-    {
-      "competition": "bundesliga",
-      "title": "He is still under contract at Bayern Munich: Bayern flop could also have joined Barca",
-      "publisher": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdC1fUDNlRHFwV0VQSi1TYTN4RXNXc2drSXB2Vml1eGY2VDBWYURqa1JHZE1QNS00Tlh1ckk3N2hReU5nS2ZLOUhaMzVyQUV5bE1TbTFxR05GYldHZkp5LWhuRzhVQ2lSS1RzWFlBUEFVemtDd2UyaU5aYkItM0FnWmFibVlFTE5vWEw2M29WekFjRGdLQnBrNy1pOEIzOGxGMWlLMkIzcHhDb2dDbFlpcE1aSFV0MnJrNjk5Qm5adVNCN3hnMFhHbXpwbFNhdw?oc=5",
-      "teams": [
-        "bayern",
-        "barcelona"
-      ],
-      "publishedAt": 1790827914000,
       "image": null
     }
   ]
