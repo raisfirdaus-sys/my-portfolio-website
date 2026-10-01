@@ -1,30 +1,177 @@
 {
-  "generatedAt": 1790886563836,
+  "generatedAt": 1790898227324,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1512,
-    "tagged": 787,
-    "droppedKeyword": 45,
-    "droppedOtherSport": 2,
-    "droppedFeed": 8,
+    "raw": 1520,
+    "tagged": 803,
+    "droppedKeyword": 47,
+    "droppedOtherSport": 1,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 57
   },
   "items": [
     {
+      "competition": "bbc",
+      "title": "Bellamy says Wales 'stick' hurt as Norway win lifts mood",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6zxzx1d484zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee14/live/a0756920-bddc-11f1-88d5-b903d805bdb1.jpg",
+      "summary": "Wales head coach Craig Bellamy says he has been through a \"really difficult\" spell because of the \"abuse\" received during Wales' winless run.",
+      "teams": [
+        "norway",
+        "wales"
+      ],
+      "publishedAt": 1790895369000
+    },
+    {
+      "competition": "bbc",
+      "title": "Why Burnham's about-turn on Manchester City matters",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/news/articles/c5kg0gwwpyx8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd64/live/f7c74c30-bde5-11f1-9358-01e3cd30f9bf.jpg",
+      "summary": "The prime minister's comments on Man City were revealing on several levels - and leapt on by many in football, the BBC's political editor writes.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790893363000
+    },
+    {
       "competition": "guardian",
-      "title": "Ireland game interrupted by Palestine protests, Wales v Norway, Denmark v Portugal: Nations League – live",
+      "title": "Nations League: Ronaldo-less Portugal prosper while Klopp gets first win as Germany coach",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/01/wales-norway-denmark-portugal-germany-serbia-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/37d91a77b9dec6dee85b5cb4664de9bb08ee936d/220_50_4371_3497/master/4371.jpg?width=140&quality=85&auto=format&fit=max&s=63949cd633066f8468f543a5d8258211",
-      "summary": "All the latest news from the 7.45pm BST kick-offsLive scores | Nations League tables | Email MichaelWe are underway in all of the 7.45pm BST kick-offs!Republic of Ireland (3-4-2-1): Kelleher, Scales, O’Shea, Egan,…",
+      "link": "https://www.theguardian.com/football/2026/oct/01/nations-league-portugal-denmark-germany-serbia",
+      "image": "https://i.guim.co.uk/img/media/80c87ff430ba3b9a748471b0f522f7d088e7bff3/1220_315_4930_3944/master/4930.jpg?width=140&quality=85&auto=format&fit=max&s=55bcc3da855993c8cfe9ce7be49d8741",
+      "summary": "Portugal pull away to 4-2 win in DenmarkJürgen Klopp’s Germany beat Serbia 2-0Portugal maintained their perfect start to Nations League Group A4 as Jorge Jesus’s squad showed little signs of missing Cristiano Ronaldo…",
       "teams": [
         "portugal",
-        "denmark",
-        "norway"
+        "germany"
       ],
-      "publishedAt": 1790885549000
+      "publishedAt": 1790892050000
+    },
+    {
+      "competition": "bbc",
+      "title": "Real submit 'substantial' dossier in Barca payments case",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwddvdq3pzego?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8dfe/live/d7b03ef0-bddd-11f1-88d5-b903d805bdb1.jpg",
+      "summary": "Real Madrid have sent Uefa \"evidence of extraordinary gravity\" relating to payments made by Barcelona to a former vice-president of Spain's referees' committee.",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1790892042000
+    },
+    {
+      "competition": "guardian",
+      "title": "Pro-Palestine protests interrupt game as Ireland pass up 2-0 lead in draw against Austria",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/01/pro-palestine-protests-interrupt-game-ireland-draw-austria-nations-league",
+      "image": "https://i.guim.co.uk/img/media/dba0cafaeef415877e09a5357fdc2be6222c49ae/1077_0_5525_4419/master/5525.jpg?width=140&quality=85&auto=format&fit=max&s=dd1e65d34999c643e0706e3636fa4ee7",
+      "summary": "Protests halted events in Dublin twice before the Republic of Ireland were forced to settle for a 2-2 draw after Austria came back in the second half of their Nations League encounter at the Aviva Stadium.Despite a…",
+      "teams": [
+        "austria"
+      ],
+      "publishedAt": 1790891995000
+    },
+    {
+      "competition": "echo",
+      "title": "Jurgen Klopp's moment with Florian Wirtz as Liverpool star gets exactly what he needs",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-jurgen-klopp-34704571",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34704582.ece/ALTERNATES/s615/0_KloppWirtz.jpg",
+      "summary": "Liverpool star Florian Wirtz enjoyed his best performance for club and country in Jurgen Klopp's first win as Germany manager",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790891374000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Alejandro Garnacho sent another harsh verdict after worst-case Chelsea transfer scenario emerges",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/alejandro-garnacho-chelsea-transfer-villa-34704523",
+      "image": "https://i2-prod.football.london/incoming/article34704563.ece/ALTERNATES/s615/0_Alejandro-Garnacho.jpg",
+      "summary": "Chelsea loan star Alejandro Garnacho is in the midst of another tough period with the Blues unable to impact his temporary spell at Aston Villa",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790890729000
+    },
+    {
+      "competition": "bbc",
+      "title": "Highlights: Wales 2-1 Norway",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckwyzyx5qd49o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2da7/live/7319b510-bdde-11f1-bc2e-018d645d8d21.png",
+      "summary": "Watch the best of the action as Wales come from behind to beat Norway 2-1 in the Nations League.",
+      "teams": [
+        "norway",
+        "wales"
+      ],
+      "publishedAt": 1790889967000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City hold on to claim draw against Real Madrid",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmj4j4zyrg90o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/deda/live/648b1500-bddb-11f1-babe-4199b0e7ccea.jpg",
+      "summary": "Khadija Shaw scores a superb equaliser before Real Madrid have a late goal chalked off as the sides play out an entertaining 1-1 draw at the Joie Stadium.",
+      "teams": [
+        "realmadrid",
+        "mancity"
+      ],
+      "publishedAt": 1790889116000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea handed major update on Alex Scott January transfer as £64m deal timeline locked in",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/alex-scott-chelsea-transfer-news-34704514",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34704534.ece/ALTERNATES/s615/0_Czechia-v-England-UEFA-Nations-League-202627-Group-A3-MD2.jpg",
+      "summary": "Bournemouth and England midfielder Alex Scott is attracting suitors across the Premier League with Chelsea chief among them",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790888801000
+    },
+    {
+      "competition": "guardian",
+      "title": "Neco Williams fires revitalised Wales to fightback win against 10-man Norway",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/01/wales-norway-nations-league-league-a-group-4-match-report",
+      "image": "https://i.guim.co.uk/img/media/2fcb9e598ed8d830a776bd51b1ba06bb769714d7/279_0_2883_2306/master/2883.jpg?width=140&quality=85&auto=format&fit=max&s=3b429a36f29ce78113723396efe9c069",
+      "summary": "On a night when Erling Haaland moped around the pitch, dragging his hulking frame across the Cardiff turf, Wales registered a welcome victory over 10-man Norway and their first this year. Was this just one of those…",
+      "teams": [
+        "norway",
+        "wales"
+      ],
+      "publishedAt": 1790888287000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham's new statement and 'evidence' to appeal guilty verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790888287000
+    },
+    {
+      "competition": "mirror",
+      "title": "Alejandro Garnacho decision slammed after £43m Chelsea transfer details come to light",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/alejandro-garnacho-aston-villa-chelsea-37725456",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37725624.ece/ALTERNATES/s615/0_Garnacho.jpg",
+      "summary": "Manchester United and Chelsea outcast Alejandro Garnacho has had a tough start to life at Aston Villa with criticism continuing to be issued to the winger",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790886977000
     },
     {
       "competition": "mirror",
@@ -103,18 +250,6 @@
     },
     {
       "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham's new statement and 'evidence' to appeal guilty verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790881001000
-    },
-    {
-      "competition": "mirror",
       "title": "No.10 issues statement after Andy Burnham slammed for 'backing' Man City owners",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/andy-burnham-manchester-city-owners-37725284",
@@ -139,7 +274,7 @@
     },
     {
       "competition": "bbc",
-      "title": "HMRC urged to scrutinise tax implications of Man City case",
+      "title": "Man City plan appeal as HMRC urged to examine tax implications",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda1/live/922cde20-bdaa-11f1-8373-27235719cf2a.jpg",
@@ -372,19 +507,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Germany vs Serbia – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/germany-serbia-tv-channel-stream-37717642",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37706227.ece/ALTERNATES/s615/1_JS419131518.jpg",
-      "summary": "Germany take on Serbia at the Allianz Arena",
-      "teams": [
-        "germany",
-        "serbia"
-      ],
-      "publishedAt": 1790872200000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Greece vs Netherlands – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/greece-netherlands-nations-league-tv-37717946",
@@ -393,6 +515,19 @@
       "teams": [
         "netherlands",
         "greece"
+      ],
+      "publishedAt": 1790872200000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Germany vs Serbia – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/germany-serbia-tv-channel-stream-37717642",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37706227.ece/ALTERNATES/s615/1_JS419131518.jpg",
+      "summary": "Germany take on Serbia at the Allianz Arena",
+      "teams": [
+        "germany",
+        "serbia"
       ],
       "publishedAt": 1790872200000
     },
@@ -483,6 +618,18 @@
         "manutd"
       ],
       "publishedAt": 1790870178000
+    },
+    {
+      "competition": "ucl",
+      "title": "UEFA Nations League Matchday 3 highlights: Portugal soar clear, Jürgen Klopp gets first Germany win",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNVdlNV9QTVlaX2JYU3dsSm5qUXU2NEY1RzlSOUprOHJ6U0FJQXdVdmRveUUyNkhBeFB0OGh2OGtVZHZpNzNnbXN6N0xjYkRQVmhKY1UwcGwtYW9zNERhXzF3ZG5iX1dMOTFxWjJ4Y3pOcU5xdHJlaW5CUm9HQldEMlRXUzY4eExUSjY4Q280c2lBbTdLUDRFNnVnUWtuNlhLOGhaRjN5eENMUUlDR1c5eTQ5ZjhFU3FaZ3laVHRmZG0yUVptVnFxcHNMM3VVSWhqSHBXSmFn?oc=5",
+      "teams": [
+        "portugal",
+        "germany"
+      ],
+      "publishedAt": 1790898035000,
+      "image": null
     },
     {
       "competition": "indy",
@@ -583,178 +730,27 @@
       "publishedAt": 1790867699000
     },
     {
-      "competition": "indy",
-      "title": "Pro-Palestine protesters gather in Dublin to urge Ireland to boycott Israel game",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/ireland-israel-palestine-protest-dublin-nations-league-b3059887.html",
-      "image": "https://static.independent.co.uk/2026/10/01/16/01M3VYCX6CM69H6P3XV7HE1XX2.jpg?width=1200&auto=webp&trim=65%2C0%2C65%2C0",
-      "summary": "Republic of Ireland faced Israel last weekend and are due to play them again on Sunday",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1790867505000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Man City cheating 'costs Tottenham stars £200m' as players miss out on huge payday",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/man-city-charges-tottenham-200m-34702173",
-      "image": "https://i2-prod.football.london/incoming/article34702714.ece/ALTERNATES/s615/0_Man-City-Spurs.jpg",
-      "summary": "Manchester City could have had a significant impact on Tottenham and their players during the seasons in which they breached financial rules",
+      "competition": "epl",
+      "title": "Possible Departures? Manchester City Players Take Precautions Amid Potential Premier League Punishment",
+      "publisher": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQZGVuNVlsRnRIbzF3WFFRamVnZ3ZDODVHcFZwWGVwTERCWFRuWFQ0c19lODNackFqbnJia3JKQTdaLXJSSkpGdVBXLTV0WWZ6cS0xRW5mRmJ1Mmowc3FzcUZpdWpBMTR6dkt3cklVcTVYQnk3WVlBamdzVFQ2Tkh3bU1VN0s0ek00VGMwR3NEZ2VJajhDZWJOSFV2cmtHTnloT05keGhQQnVpaXItUjVHal8yUzlJM24wR3lNSmZfY2JfTE5Bakphb1I2YVJydUx1ZVlfZnItbW5Bc09PbnZCTUNzTHd2NmotdXEwLWdDem16XzF3aHUzVWpHcVI1U3ZlTDFEb19KTQ?oc=5",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790867366000
+      "publishedAt": 1790896333000,
+      "image": null
     },
     {
-      "competition": "echo",
-      "title": "Inside Hugo Ekitike's Liverpool recovery - US trips, squad hint and new 'return date'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/inside-hugo-ekitikes-liverpool-recovery-34702315",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702783.ece/ALTERNATES/s615/1_premium-canvas-1790866577445.png",
-      "summary": "Paul Gorst takes a closer look at Hugo Ekitike's current situation after reports the Liverpool forward is targeting a November return to training",
+      "competition": "unl-a",
+      "title": "Nations League highlights: Wales 2-1 Norway",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcklwUnoyMkhxaWZmcl9Id1c3U1hXeTYxZEV4TEx2TVlBWWdmZ2dqejNmR2ppdmtLZWZLd3ZXbTY3YzJhVkdoa21NTm1zMTVmZWlvUXJNT1pibnlNYzFXbGdlY0JCa1JMTEtWdzNNejEyX1pLdEJLLUpVSFF6RGd3T3ZGd2xzM3VZZTVFX2JfZVAzUzFUcEtNRmZ2SGg0MHFxZUFaeGl5aGxpcXFLU1pXOVZTVkdONUVxd0w4eDdkV2NnczdCd01oUGVDY1RydW0wWmc?oc=5",
       "teams": [
-        "liverpool"
+        "norway",
+        "wales"
       ],
-      "publishedAt": 1790867181000
-    },
-    {
-      "competition": "guardian",
-      "title": "Cristiano Ronaldo’s Portugal walkout divides a nation as Jorge Jesus asserts control",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/01/cristiano-ronaldos-portugal-walkout-divides-a-nation-as-jorge-jesus-asserts-control",
-      "image": "https://i.guim.co.uk/img/media/41fcb5e4ba4fdb8a7c3c5970a6b6499af7b46e04/379_31_2464_1971/master/2464.jpg?width=140&quality=85&auto=format&fit=max&s=0109fca1d7f2d2b46170397fe8a3823f",
-      "summary": "Row sparked by head coach’s decision to leave the 41-year-old on the bench has left a great international career at risk of ending in acrimonyThe drama surrounding Cristiano Ronaldo and the national team has naturally…",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1790867051000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Liverpool hero causes stir as Arsenal's Martin Odegaard mocked after Bernardo Silva incident",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-odegaard-bernardo-silva-34702802",
-      "image": "https://i2-prod.football.london/incoming/article34702787.ece/ALTERNATES/s615/0_GettyImages-2297136925.jpg",
-      "summary": "Bernardo Silva left his mark on Martin Odegaard in controversial fashion last Sunday in a heated Nations League clash between Norway and Portugal in Oslo",
-      "teams": [
-        "liverpool",
-        "arsenal"
-      ],
-      "publishedAt": 1790866556000
-    },
-    {
-      "competition": "men",
-      "title": "Man City's Nico O'Reilly sent home from England international duty as statement issued",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/breaking-man-citys-nico-oreilly-34702622",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34702628.ece/ALTERNATES/s615/0_Nico-OReilly.jpg",
-      "summary": "The Manchester City left-back started for England in the 3-2 defeat against Spain",
-      "teams": [
-        "mancity",
-        "england"
-      ],
-      "publishedAt": 1790865810000
-    },
-    {
-      "competition": "bbc",
-      "title": "Injured O'Reilly withdraws from England squad",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6kg0gkjngzmo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f07b/live/12df77b0-bda3-11f1-8373-27235719cf2a.jpg",
-      "summary": "Nico O'Reilly withdraws from the England squad for their final two Nations League games of the international break because of injury.",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790865372000
-    },
-    {
-      "competition": "metro",
-      "title": "Chelsea legend John Terry makes &#8216;unfortunate&#8217; Arsenal title claim",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/01/chelsea-legend-john-terry-makes-unfortunate-arsenal-title-claim-29670343/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_312580451-a1ea.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790865332000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City facing £800m-plus bill as Arsenal, Man Utd, Liverpool and Spurs to SUE rivals",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-premier-league-damages-37724291",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37724387.ece/ALTERNATES/s615/1_GettyImages-2298054401.jpg",
-      "summary": "Manchester City are already set to face sanctions from the Premier League pending an appeal, but it appears that a number of rival clubs are readying legal action against them",
-      "teams": [
-        "liverpool",
-        "mancity",
-        "arsenal"
-      ],
-      "publishedAt": 1790864947000
-    },
-    {
-      "competition": "echo",
-      "title": "Add the ECHO to your Google preferred sources to see more of the best Everton FC content",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/add-echo-your-google-preferred-34702466",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702490.ece/ALTERNATES/s615/0_GettyImages-2295530009-1.jpg",
-      "summary": "Beat the algorithms and ensure you get your favourite Everton FC content from the ECHO at the top of your Google news feed by selecting us as a preferred source",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790864929000
-    },
-    {
-      "competition": "echo",
-      "title": "Man City dealt injury blow ahead of Liverpool as Rio Ngumoha and Trey Nyoni given selection boost",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-dealt-injury-blow-34702009",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702081.ece/ALTERNATES/s615/0_Nico-OReilly-Semenyo-Ngumoha-and-Nyoni.jpg",
-      "summary": "Manchester City have been handed an injury scare ahead of facing Liverpool while Trey Nyoni has been promoted to the England Under-21s squad",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790864880000
-    },
-    {
-      "competition": "echo",
-      "title": "Add the ECHO to your Google preferred sources to see more of the best Liverpool FC content",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/add-echo-your-google-preferred-34702405",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702440.ece/ALTERNATES/s615/0_GettyImages-2296423129.jpg",
-      "summary": "Beat the algorithms and ensure you get your favourite Liverpool FC content from the ECHO at the top of your Google news feed by selecting us as a preferred source",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790864643000
-    },
-    {
-      "competition": "echo",
-      "title": "Jamie Carragher gets Erling Haaland to Liverpool free transfer response from lawyer",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/carragher-man-city-haaland-liverpool-34701470",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34701476.ece/ALTERNATES/s615/0_Screenshot_83.png",
-      "summary": "Barrister Paul Gilroy KC says Manchester City players could arguably have grounds to terminate their contracts after the club were found guilty of financial breaches",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790864557000
-    },
-    {
-      "competition": "metro",
-      "title": "Vitaliy Mykolenko injury concern as Ukraine manager speaks out on issue",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/01/vitaliy-mykolenko-injury-concern-ukraine-manager-speaks-issue-29670694/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_312208285-2ad4.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "ukraine"
-      ],
-      "publishedAt": 1790864505000
+      "publishedAt": 1790896321000,
+      "image": null
     }
   ]
 }
