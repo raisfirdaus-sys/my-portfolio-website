@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790816265249,
+  "generatedAt": 1790817629033,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 590,
-    "tagged": 380,
-    "droppedKeyword": 4,
+    "raw": 1526,
+    "tagged": 820,
+    "droppedKeyword": 41,
     "droppedOtherSport": 1,
-    "droppedFeed": 0,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 55
   },
   "items": [
     {
@@ -233,32 +233,6 @@
       "publishedAt": 1790796787000
     },
     {
-      "competition": "guardian",
-      "title": "Leah Williamson blunder gifts Paris FC a point as Arsenal’s struggles continue",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/sep/30/paris-fc-arsenal-womens-champions-league-match-report",
-      "image": "https://i.guim.co.uk/img/media/ce46cb33caad8aec4178b9a74ca0826840e8d0d6/238_0_2658_2126/master/2658.jpg?width=140&quality=85&auto=format&fit=max&s=818a48c50ee432a3227abfec0e824bb5",
-      "summary": "Renée Slegers did not attend the post‑match press conference, the manager understood to have been too furious after Arsenal threw away a two-goal lead in their draw with Paris FC on Wednesday night.The assistant coach…",
-      "teams": [
-        "parisfc",
-        "arsenal"
-      ],
-      "publishedAt": 1790796697000
-    },
-    {
-      "competition": "indy",
-      "title": "Leah Williamson concedes bizarre penalty as Arsenal gift Paris FC late equaliser",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/leah-williamson-arsenal-paris-fc-champions-league-b3059320.html",
-      "image": "https://static.independent.co.uk/2026/09/30/20/2296734268..?width=1200&auto=webp&trim=168%2C0%2C2742%2C0",
-      "summary": "Paris FC 2-2 Arsenal: Williamson was deemed to have handled a goal kick from Misa Rodriguez as the visitors let two points slip",
-      "teams": [
-        "parisfc",
-        "arsenal"
-      ],
-      "publishedAt": 1790796544000
-    },
-    {
       "competition": "fitalia",
       "title": "McTominay back in training with Napoli after heart surgery",
       "publisher": "Football Italia",
@@ -465,18 +439,6 @@
       "publishedAt": 1790789733000
     },
     {
-      "competition": "bbc",
-      "title": "Haaland 'no different' following Man City verdict",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckge43e8nqdwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e2/live/02f13b20-bcf1-11f1-8ce2-417f8f7cb095.jpg",
-      "summary": "Norway colleagues say the striker has been unaffected by the headlines around the Premier League club ahead of the Nations League game with Wales",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790789184000
-    },
-    {
       "competition": "mirror",
       "title": "Jurgen Klopp performs huge Man City U-turn after speaking out on guilty verdict",
       "publisher": "Mirror Football",
@@ -602,6 +564,17 @@
       "publishedAt": 1790785820000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City's main sponsor threatened the Premier League with legal action",
+      "publisher": "unn.ua",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFVSUU5yZmdUcW5QaXhCdS1yVjJXMlUtVGJlZWJ0UGdydXYxMzNyeUhEUDZuci1ROHhialVzdTZhYXROSFhIN1F5dWJMZFpjNUpfV0ZtNUtBYS1nUUtmLUN5bkt6X1hkYjRCVXBmRUZhMW1VakRQTXAyOXh6S2pKV0c5VWVNNEttbUs1ZkpTTlhscTB2YVZFcnl5aFJvMDA4ZFHSAaABQVVfeXFMT3FnRkxpUF9vYlBBX0JORUNNRFBscnpmelJ4ekk4OTY4aTVfWkN4YVlWUDZsVjBwM3YwXzBFMHBfV29uWFVISFVvQjBqLV9fcUEyMTl5OXc3a3RFbFE3YzUxWDZFbWNrQlRrY1g3WEI5WGkydURldFpZRmpuZGs2V1lrRzZ0V2lWWHJOdWxic1Z0Wm9xa3hUclNva3h3ZFUwZw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790814322000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "Kick them out - only a double Man City demotion would give Newcastle United any justice",
       "publisher": "Chronicle Live",
@@ -615,6 +588,17 @@
       "publishedAt": 1790785442000
     },
     {
+      "competition": "injury",
+      "title": "Georgia Football Injury Report: Key Bulldog trio listed 'questionable'",
+      "publisher": "On3",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb25WNHNjVkpMbWFYMjhLSGdkZU52MHJ1WnhSSGhmaUtuSjJDbExPYk5MWVJuVk1pSEREOGZCdWNpR3JLVk5Va1RoWkoyaGRDb3RXVVE3WWNYb2hEU19pYTFSdTRmQWJEcjFlc09mNE0wQ2FyOUM2S2pkOWhGei1sdzVPZ21PMmZnYzVTRklfcjdUMTFrYmxqejhPNnlicW5hUE1hWDhGYVZaazdyZ2tZZ0pVa1ZPNTg?oc=5",
+      "teams": [
+        "georgia"
+      ],
+      "publishedAt": 1790813846000,
+      "image": null
+    },
+    {
       "competition": "fitalia",
       "title": "Lazio confirm Gudmundsson dislocated shoulder on international duty",
       "publisher": "Football Italia",
@@ -625,6 +609,18 @@
         "lazio"
       ],
       "publishedAt": 1790784677000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Israel vs Kosovo: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQ1l6elBIdXhvN2xvVzU4aGNob3FuRElXYkNPbkRVYWdHVmtOSlNOOXJKTU5fcW5WaHMwQnFsTVlNd1dqSlpOcjl1dmM2bWhKamZBVXpGdEpybnZPYVJzMl9lWQ?oc=5",
+      "teams": [
+        "israel",
+        "kosovo"
+      ],
+      "publishedAt": 1790813319000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -724,28 +720,27 @@
       "publishedAt": 1790783326000
     },
     {
-      "competition": "bbc",
-      "title": "What will new call-ups bring to Northern Ireland?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8353/live/12a4d200-bcda-11f1-a64c-550be9e3c66b.png",
-      "summary": "Before the upcoming 2027 Women's World Cup play-off with Portugal, what will the five new faces bring to Northern Ireland?",
+      "competition": "bundesliga",
+      "title": "Bayern Munich, Michael Olise met to discuss public persona per report",
+      "publisher": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWVc3SW9QcWFDcFFhb2RkSTJlZzlpSUQ4QWYxV1ljbG83UU80MGtvLU9vN1c3dXprUFZQNGZEdFVFWTRrRWlWNkNjZW1QQzJuazg4NkR5ZElOd1lFeklGNEpsdlNrSGtjbHk2RldQOW9VeUtEdE1pRlFRQWZ6dWhGcmFRT0Q3MnFhSnNmRk1MMk0ydjhoTXliTkhoWUE1SzFIVHExVkZjNXZaNXJScEFvb2JVb0RaSFd1dmFJVFdScmktUGh4eVd0ZUZLNC1QeWxQZWNxZA?oc=5",
       "teams": [
-        "nireland"
+        "bayern"
       ],
-      "publishedAt": 1790782852000
+      "publishedAt": 1790811900000,
+      "image": null
     },
     {
-      "competition": "bbc",
-      "title": "Questions about Wales form not unfair - Bellamy",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c50m3d789j74o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0050/live/a567ac90-bcba-11f1-b3b2-8f83c947a78c.jpg",
-      "summary": "Head coach Craig Bellamy accepts that questions will be asked over Wales' form as they prepare for Thursday's Nations League meeting with Norway in Cardiff.",
+      "competition": "laliga",
+      "title": "LaLiga EA Sports salary limits: Real Madrid ahead of Barcelona and Atlético",
+      "publisher": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDA1WU9sSmJ6ZThFMTdKN2dlVVQ1eEZ1blNPTmk5NFFFZ1pmdEtBSFdHb1ZTQ3RnWFNncG5ZaGVyQXBuRG5qVzV0ZkZUdzduejJxMVdOSVJvdmhLcWFJRWRKQ0tUbk5UdVBSaEFNUlNXNVY1TzlSQmlBTjV0ZFc3RlBQakIxLUtoa052ZmV6eDdIQlRxZ2Z6eHVrYWQ2R3l0Q0VSSFNEX3dlT1cwNjBwam1GeTVOUQ?oc=5",
       "teams": [
-        "wales"
+        "realmadrid",
+        "barcelona"
       ],
-      "publishedAt": 1790782502000
+      "publishedAt": 1790811323000,
+      "image": null
     }
   ]
 }
