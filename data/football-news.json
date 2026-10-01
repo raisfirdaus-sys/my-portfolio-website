@@ -1,17 +1,44 @@
 {
-  "generatedAt": 1790884860191,
+  "generatedAt": 1790886532169,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1522,
-    "tagged": 794,
-    "droppedKeyword": 44,
+    "raw": 1512,
+    "tagged": 786,
+    "droppedKeyword": 45,
     "droppedOtherSport": 2,
-    "droppedFeed": 10,
+    "droppedFeed": 8,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "Ireland game interrupted by Palestine protests, Wales v Norway, Denmark v Portugal: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/01/wales-norway-denmark-portugal-germany-serbia-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/37d91a77b9dec6dee85b5cb4664de9bb08ee936d/220_50_4371_3497/master/4371.jpg?width=140&quality=85&auto=format&fit=max&s=63949cd633066f8468f543a5d8258211",
+      "summary": "All the latest news from the 7.45pm BST kick-offsLive scores | Nations League tables | Email MichaelWe are underway in all of the 7.45pm BST kick-offs!Republic of Ireland (3-4-2-1): Kelleher, Scales, O’Shea, Egan,…",
+      "teams": [
+        "portugal",
+        "denmark",
+        "norway"
+      ],
+      "publishedAt": 1790885549000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ireland vs Austria match suddenly halted as furious supporters stage Israel protest",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ireland-vs-austria-israel-protest-37725582",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37725581.ece/ALTERNATES/s615/0_Republic-of-Ireland-v-Austria-UEFA-Nations-League-202627-Group-B3-MD3.jpg",
+      "summary": "Ireland's Nations League clash with Austria at the Aviva Stadium was disrupted twice by protest, with tennis balls bearing the Palestine flag thrown onto the pitch in the 20th minute",
+      "teams": [
+        "austria",
+        "israel"
+      ],
+      "publishedAt": 1790884873000
+    },
     {
       "competition": "fitalia",
       "title": "Probable line-ups: France vs. Italy with big names returning",
@@ -48,20 +75,6 @@
         "mancity"
       ],
       "publishedAt": 1790883867000
-    },
-    {
-      "competition": "guardian",
-      "title": "Wales v Norway, Denmark v Portugal, Germany v Serbia: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/01/wales-norway-denmark-portugal-germany-serbia-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/fc5b47815ee51df1b9a1bbb7602e7841b5ae602c/297_0_2263_1812/master/2263.jpg?width=140&quality=85&auto=format&fit=max&s=e99ae2155673793a88e618eb203ad2d4",
-      "summary": "All the latest news from the 7.45pm BST kick-offsLive scores | Nations League tables | Email MichaelWe are underway in all of the 7.45pm BST kick-offs!Republic of Ireland (3-4-2-1): Kelleher, Scales, O’Shea, Egan,…",
-      "teams": [
-        "portugal",
-        "germany",
-        "denmark"
-      ],
-      "publishedAt": 1790883665000
     },
     {
       "competition": "fitalia",
@@ -346,6 +359,19 @@
     },
     {
       "competition": "mirror",
+      "title": "How to watch Denmark vs Portugal – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/denmark-portugal-tv-channel-stream-37711337",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37711342.ece/ALTERNATES/s615/1_GettyImages-2296891850.jpg",
+      "summary": "Denmark host Portugal in the Nations League on Thursday night",
+      "teams": [
+        "portugal",
+        "denmark"
+      ],
+      "publishedAt": 1790872200000
+    },
+    {
+      "competition": "mirror",
       "title": "How to watch Germany vs Serbia – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/germany-serbia-tv-channel-stream-37717642",
@@ -367,19 +393,6 @@
       "teams": [
         "netherlands",
         "greece"
-      ],
-      "publishedAt": 1790872200000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Denmark vs Portugal – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/denmark-portugal-tv-channel-stream-37711337",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37711342.ece/ALTERNATES/s615/1_GettyImages-2296891850.jpg",
-      "summary": "Denmark host Portugal in the Nations League on Thursday night",
-      "teams": [
-        "portugal",
-        "denmark"
       ],
       "publishedAt": 1790872200000
     },
@@ -742,19 +755,6 @@
         "ukraine"
       ],
       "publishedAt": 1790864505000
-    },
-    {
-      "competition": "indy",
-      "title": "Jurgen Klopp speaks out on Man City guilty verdict as he addresses Liverpool ‘parade’ comments",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/jurgen-klopp-man-city-guilty-verdict-liverpool-parade-b3059678.html",
-      "image": "https://static.independent.co.uk/2026/10/01/11/2026-09-30T162443Z_1773177027_UP1EM9U19L6A8_RTRMADP_3_SOCCER-UEFANATIONS-GER-SRB-PREVIEW-1.JPG?width=1200&auto=webp&trim=0%2C82%2C0%2C82",
-      "summary": "Jurgen Klopp’s Liverpool were involved in multiple Premier League title battles with Pep Guardiola’s Manchester City",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790863957000
     }
   ]
 }
