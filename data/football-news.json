@@ -1,9 +1,9 @@
 {
-  "generatedAt": 1790865123840,
+  "generatedAt": 1790865671459,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1511,
+    "raw": 1512,
     "tagged": 775,
     "droppedKeyword": 46,
     "droppedOtherSport": 2,
@@ -12,6 +12,94 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "bbc",
+      "title": "Injured O'Reilly withdraws from England squad",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6kg0gkjngzmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f07b/live/12df77b0-bda3-11f1-8373-27235719cf2a.jpg",
+      "summary": "Nico O'Reilly withdraws from the England squad for their final two Nations League games of the international break because of injury.",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790865372000
+    },
+    {
+      "competition": "metro",
+      "title": "Chelsea legend John Terry makes &#8216;unfortunate&#8217; Arsenal title claim",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/01/chelsea-legend-john-terry-makes-unfortunate-arsenal-title-claim-29670343/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_312580451-a1ea.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1790865332000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City facing £800m-plus bill as Arsenal, Man Utd, Liverpool and Spurs to SUE rivals",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-premier-league-damages-37724291",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37724387.ece/ALTERNATES/s615/0_GettyImages-2298054401.jpg",
+      "summary": "Manchester City are already set to face sanctions from the Premier League pending an appeal, but it appears that a number of rival clubs are readying legal action against them",
+      "teams": [
+        "liverpool",
+        "mancity",
+        "arsenal"
+      ],
+      "publishedAt": 1790864947000
+    },
+    {
+      "competition": "echo",
+      "title": "Add the ECHO to your Google preferred sources to see more of the best Everton FC content",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/add-echo-your-google-preferred-34702466",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702490.ece/ALTERNATES/s615/0_GettyImages-2295530009-1.jpg",
+      "summary": "Beat the algorithms and ensure you get your favourite Everton FC content from the ECHO at the top of your Google news feed by selecting us as a preferred source",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790864929000
+    },
+    {
+      "competition": "echo",
+      "title": "Man City dealt injury blow ahead of Liverpool as Rio Ngumoha and Trey Nyoni given selection boost",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-city-dealt-injury-blow-34702009",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702081.ece/ALTERNATES/s615/0_Nico-OReilly-Semenyo-Ngumoha-and-Nyoni.jpg",
+      "summary": "Manchester City have been handed an injury scare ahead of facing Liverpool while Trey Nyoni has been promoted to the England Under-21s squad",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790864880000
+    },
+    {
+      "competition": "echo",
+      "title": "Add the ECHO to your Google preferred sources to see more of the best Liverpool FC content",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/add-echo-your-google-preferred-34702405",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702440.ece/ALTERNATES/s615/0_GettyImages-2296423129.jpg",
+      "summary": "Beat the algorithms and ensure you get your favourite Liverpool FC content from the ECHO at the top of your Google news feed by selecting us as a preferred source",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790864643000
+    },
+    {
+      "competition": "echo",
+      "title": "Jamie Carragher gets Erling Haaland to Liverpool free transfer response from lawyer",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/carragher-man-city-haaland-liverpool-34701470",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34701476.ece/ALTERNATES/s615/0_Screenshot_83.png",
+      "summary": "Barrister Paul Gilroy KC says Manchester City players could arguably have grounds to terminate their contracts after the club were found guilty of financial breaches",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790864557000
+    },
     {
       "competition": "metro",
       "title": "Vitaliy Mykolenko injury concern as Ukraine manager speaks out on issue",
@@ -658,90 +746,6 @@
         "everton"
       ],
       "publishedAt": 1790855625000
-    },
-    {
-      "competition": "guardian",
-      "title": "England forward Ivan Toney pleads not guilty to Soho nightclub assault",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/01/ivan-toney-pleads-not-guilty-to-soho-nightclub-assault",
-      "image": "https://i.guim.co.uk/img/media/77e0e5f557df54958ea9b839a5408507e81cccaf/441_34_2259_1807/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=5a156a3ef4dd0d728fb48581fd0910f2",
-      "summary": "Striker accused of head-butting and punching manElected for crown court trial in front of judge and juryIvan Toney has pleaded not guilty to assault after being accused of head-butting and punching a member of the…",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790855405000
-    },
-    {
-      "competition": "men",
-      "title": "Every player Man City signed during era of rule-breaking rated and slated as £1.2bn spent",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-signings-rated-34700260",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34700414.ece/ALTERNATES/s615/0_GettyImages-955325066.jpg",
-      "summary": "Many of the most influential players in Manchester City's history, plus a few flops, arrived at the club between 2009 and 2018",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790855188000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United season ratings so far with 9/10 hero and four stars drop to 5",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-season-ratings-far-34687165",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34427721.ece/ALTERNATES/s615/0_Valencia-CF-v-Newcastle-United-Trofeu-Taronja.jpg",
-      "summary": "It's time to pause and reflect during the international break as we take a look through Newcastle United's player ratings so far",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790854537000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Saliba, Rice, Odegaard, Havertz, Hincapie - Arsenal injury updates and return dates",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-injury-news-saliba-update-34700613",
-      "image": "https://i2-prod.football.london/incoming/article34700657.ece/ALTERNATES/s615/0_GettyImages-2291472060.jpg",
-      "summary": "football.london is on hand to provide injury updates on eight Arsenal players as the Gunners prepare to return to action on October 10 when Leeds United visit the Emirates Stadium in the lunchtime kick-off",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790854512000
-    },
-    {
-      "competition": "mirror",
-      "title": "Erling Haaland and Man City players told they can RIP UP contracts as lawyer weighs in",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-haaland-contract-37722800",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37723078.ece/ALTERNATES/s615/0_JS419845210.jpg",
-      "summary": "Manchester City were found guilty of all but one of the 115 charges brought against them by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790854120000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea no closer to new stadium confirmation almost 10 years on from Roman Abramovich decision",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/chelsea-no-closer-new-stadium-34699915",
-      "image": "https://i2-prod.football.london/incoming/article24087830.ece/ALTERNATES/s615/2_GettyImages-1320981745.jpg",
-      "summary": "There is still plenty of debate and division amongst the Chelsea fan base regarding the new stadium situation with the Blues handed a blow earlier this week",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790854090000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City receive Premier League expulsion update as two top club chiefs make feelings clear",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-premier-league-verdict-37721808",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37723271.ece/ALTERNATES/s615/0_Manchester-City-6.jpg",
-      "summary": "Manchester City have been found guilty of all charges relating to breaches of the Premier League financial regulations during a nine-year period between 2009 and 2018",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790854028000
     }
   ]
 }
