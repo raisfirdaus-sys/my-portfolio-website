@@ -1,17 +1,54 @@
 {
-  "generatedAt": 1790883758560,
+  "generatedAt": 1790884371352,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1530,
-    "tagged": 802,
-    "droppedKeyword": 46,
+    "raw": 1526,
+    "tagged": 804,
+    "droppedKeyword": 45,
     "droppedOtherSport": 2,
-    "droppedFeed": 12,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Probable line-ups: France vs. Italy with big names returning",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/probable-line-ups-france-vs-italy-big-names/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Francesco-Pio-Esposito-and-Sebastiano-Esposito-celebrate-for-Italy-414x276.jpg",
+      "summary": "Italy are expected to start the Esposito brothers together again with Moise Kean not fully...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790884242000
+    },
+    {
+      "competition": "bbc",
+      "title": "Real Madrid keen on Quansah - Friday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw8r6r0pdkyzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/75ef/live/6b7db870-bdce-11f1-bc2e-018d645d8d21.png",
+      "summary": "Real Madrid are keen on Bayer Leverkusen's Jarell Quansah, Liverpool are monitoring Club Tijuana's teenage midfielder Giberto Mora, plus more.",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1790883916000
+    },
+    {
+      "competition": "men",
+      "title": "Premier League get answer on giving £4.5bn 'refunds' after Man City charges update",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34704235",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34704293.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "The Premier League looks set to avoid paying billions in broadcaster refunds after Manchester City were found guilty of 114 out of 115 financial rule breaches",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790883867000
+    },
     {
       "competition": "guardian",
       "title": "Wales v Norway, Denmark v Portugal, Germany v Serbia: Nations League – live",
@@ -24,7 +61,7 @@
         "germany",
         "denmark"
       ],
-      "publishedAt": 1790882964000
+      "publishedAt": 1790883665000
     },
     {
       "competition": "fitalia",
@@ -718,42 +755,6 @@
         "mancity"
       ],
       "publishedAt": 1790863957000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Inside Italy&#8217;s training: We saw Mancini&#8217;s potential XI as 9 players dropped",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/inside-italy-training-potential-mancini-xi-9/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-01-at-10-414x276.jpg",
-      "summary": "Football Italia attended Italy s final training session ahead of tomorrow s away clash with France. Click...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790863873000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Official: Supercoppa Italiana Inter vs. Lazio set for December 22",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/supercoppa-italiana-inter-vs-lazio-dec-22/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/12/Supercoppa-Italiana-logo-414x276.jpg",
-      "summary": "It is now official that the Supercoppa Italiana will be played on Tuesday December 22...",
-      "teams": [
-        "lazio"
-      ],
-      "publishedAt": 1790863659000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City fans are right to feel angry – now they need to direct it at the owners | Will Unwin",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/01/manchester-city-premier-league-financial-rule-breaches-fans-anger-owners",
-      "image": "https://i.guim.co.uk/img/media/ff57625f54c149248f38a61994c78470502058c9/276_0_3038_2430/master/3038.jpg?width=140&quality=85&auto=format&fit=max&s=2498cbeab40bca5cb174d99dd8ee851f",
-      "summary": "Success under the Abu Dhabi regime made supporters feel proud, but they can only really get those feelings back under new custodiansAmid the hundreds of thousands of words written and spoken about Manchester City being…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790863447000
     }
   ]
 }
