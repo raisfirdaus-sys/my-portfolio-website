@@ -1,17 +1,42 @@
 {
-  "generatedAt": 1790958709431,
+  "generatedAt": 1790959758984,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1541,
-    "tagged": 850,
-    "droppedKeyword": 39,
+    "raw": 1547,
+    "tagged": 847,
+    "droppedKeyword": 38,
     "droppedOtherSport": 2,
     "droppedFeed": 13,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Neto: &#8216;Juventus changed a lot, positive Spalletti impact&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/neto-juventus-changed-a-lot-positive-spalletti/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Neto-thumbs-Juventus-414x276.jpg",
+      "summary": "Neto admits Juventus has ‘changed a lot’ since he last played there in 2017, but...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1790959060000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Belgium vs Turkey – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/belgium-turkey-tv-channel-stream-37722133",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37722146.ece/ALTERNATES/s615/1_Italy-v-Belgium-Nations-League-Football-Stadio-Olimpico-Rome-25-Sep-2026.jpg",
+      "summary": "Belgium will seek to get back to winning ways when they host Turkey in the Nations League",
+      "teams": [
+        "belgium",
+        "turkey"
+      ],
+      "publishedAt": 1790958600000
+    },
     {
       "competition": "men",
       "title": "Carlos Baleba takes major Manchester United step in friendly with Lausanne",
@@ -23,6 +48,18 @@
         "manutd"
       ],
       "publishedAt": 1790958478000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City lodge appeal as FA warns of major implications for integrity of game: football news – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/02/manchester-city-appeal-deadline-nations-league-news-and-more-football-live",
+      "image": "https://i.guim.co.uk/img/media/bc693bbcd858d84e4c8c2298ae659c2aee140d92/355_291_3570_2856/master/3570.jpg?width=140&quality=85&auto=format&fit=max&s=72b76a43336590fc717878eb2a81333c",
+      "summary": "Updates on Manchester City and Nations League newsFixtures | Get Football Daily | And you can email JohnThat’s it from me for now. Luke McLaughlin is here to take over.Manchester City: Andy Burnham’s intervention in the…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790958181000
     },
     {
       "competition": "men",
@@ -76,19 +113,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch Ukraine v Northern Ireland for free – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ukraine-northern-ireland-channel-stream-37721893",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721900.ece/ALTERNATES/s615/1_Georgia-v-Northern-Ireland-UEFA-Nations-League-202627-Group-B2-MD1.jpg",
-      "summary": "Northern Ireland will look to continue their unbeaten start in the Nations League when taking on Ukraine",
-      "teams": [
-        "nireland",
-        "ukraine"
-      ],
-      "publishedAt": 1790956800000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch France vs Italy – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/france-italy-nations-league-tv-37719182",
@@ -101,16 +125,17 @@
       "publishedAt": 1790956800000
     },
     {
-      "competition": "guardian",
-      "title": "Manchester City lodge appeal as FA warns of major implications for integrity of game: football news – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/02/manchester-city-appeal-deadline-nations-league-news-and-more-football-live",
-      "image": "https://i.guim.co.uk/img/media/bc693bbcd858d84e4c8c2298ae659c2aee140d92/355_291_3570_2856/master/3570.jpg?width=140&quality=85&auto=format&fit=max&s=72b76a43336590fc717878eb2a81333c",
-      "summary": "Updates on Manchester City and Nations League newsFixtures | Get Football Daily | And you can email JohnThat’s it from me for now. Luke McLaughlin is here to take over.Manchester City: Andy Burnham’s intervention in the…",
+      "competition": "mirror",
+      "title": "How to watch Ukraine v Northern Ireland for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ukraine-northern-ireland-channel-stream-37721893",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721900.ece/ALTERNATES/s615/1_Georgia-v-Northern-Ireland-UEFA-Nations-League-202627-Group-B2-MD1.jpg",
+      "summary": "Northern Ireland will look to continue their unbeaten start in the Nations League when taking on Ukraine",
       "teams": [
-        "mancity"
+        "nireland",
+        "ukraine"
       ],
-      "publishedAt": 1790956682000
+      "publishedAt": 1790956800000
     },
     {
       "competition": "fitalia",
@@ -730,30 +755,6 @@
         "mancity"
       ],
       "publishedAt": 1790942400000
-    },
-    {
-      "competition": "men",
-      "title": "Erling Haaland 'not interested' after Man City charges verdict as misery compounded",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/erling-haaland-man-city-charges-34706595",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34706511.ece/ALTERNATES/s615/0_Erling-Haaland.jpg",
-      "summary": "Manchester City forward Erling Haaland has been told he was \"not interested\" after struggling in Norway's defeat to Wales in the Nations League on Thursday",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790941504000
-    },
-    {
-      "competition": "bbc",
-      "title": "Robertson's Scotland career in numbers as 100th cap looms",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8a5/live/99c8f0b0-bd8c-11f1-a64c-550be9e3c66b.jpg",
-      "summary": "Andy Robertson is poised to become only the second man ever to play 100 times for Scotland. BBC Sport Scotland charts his international career in numbers.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1790941392000
     }
   ]
 }
