@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790920623494,
+  "generatedAt": 1790921255019,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1538,
-    "tagged": 813,
+    "tagged": 814,
     "droppedKeyword": 51,
     "droppedOtherSport": 2,
-    "droppedFeed": 11,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
-    "withImage": 44
+    "withImage": 40
   },
   "items": [
+    {
+      "competition": "chronicle",
+      "title": "Matthias Jaissle lifts lid on 'crazy' aspect of his Newcastle United experience so far",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-lifts-lid-crazy-34701752",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34588094.ece/ALTERNATES/s615/0_GettyImages-2293695915.jpg",
+      "summary": "The Newcastle head coach has quickly noticed the passion for football on Tyneside, and that there is no escape from results good or bad!",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790920800000
+    },
     {
       "competition": "mirror",
       "title": "Man City charges LIVE: Appeal deadline, HMRC investigation, £800m bill",
@@ -22,7 +34,7 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790919831000
+      "publishedAt": 1790920416000
     },
     {
       "competition": "footlondon",
@@ -333,9 +345,20 @@
       "publishedAt": 1790891995000
     },
     {
+      "competition": "ligue1",
+      "title": "Liverpool consider January move for 23-year-old Ligue 1 rising star",
+      "publisher": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSmEzWmI5TGdPZlFabFlmNmczbmktNGdlVHlFLVNibWxwSURJWHo4TkNoV3U4RFpFSzgxQml6bmVDQjFuVlZiMWdpTmxXX1k3VjdDSlFiSll0S0l2NjFaWU1DNk9VcnNnMWp5cGZ5Z2o1bVc2aF84Tkg0TERFdllSLWhxYVZ0ajQyenpVX19COGZJU0h1c01EN25jenFkY2ZTdi05Zkl2TnF1Tkc2UFpaUVk4bnd5dW90YnF6dGtyUXJqSDBPQWdWRTJ3V0s4dWNpdTRHRXItaw?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790920793000,
+      "image": null
+    },
+    {
       "competition": "unl-a",
       "title": "Sports - Nations League: Zidane returns to face Italy and the Stade de France",
-      "publisher": "France 24",
+      "publisher": "france24.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNnpQaGY5X3pER0xpRkJRRDRSWnpZdFkyQ2lqempHVE9qaWJuUHdienVkQXYyXzBMUEtmcFRMYms0TTF2akJlU1RZR0VPTWhDTE1Dd2lCMUtQQnVKRE9KUm9ETVFidkpmeC1EdzBIdllnamhQbTRRZ2x3dnhlRHpwaERLVHo1Z3FKOVBNY1JDWEtMZkkxYnJQYWRGS19TMlFzRFctREh6c0NvWWlOUW8yZFVwQ3J0bF9SVVRtTQ?oc=5",
       "teams": [
         "france",
@@ -371,12 +394,12 @@
     {
       "competition": "seriea",
       "title": "EXCLUSIVE: Eljif Elmas on Scudetto triumph, working under Conte & Atalanta loan move",
-      "publisher": "Flashscore.co.za",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcTYwamZGWXc0c3pMVHhsM09KR2FtdGs2VGhpeVdaMXNmUUtVZ0hKYnlaY0toSWpoQzJRTmhYenVpdWN1UVhWbFVKay1zSGN1TV9JWnVBNWNkY25GT3dZRkNidEhZSW5oOGQ3MFZlRnFJSTVma2NOMXdxLTZaOS1kMkdBSGdyZHJQOW5rb01lN1NzVXVFM0QzTTNoWXNUQXEyU0hJZmFrc1BiMVVUeHNyYmJGVWdsdjlHb1hqaDVHeVpkcm1HbUEwQ2wySEhVdmFhbXlBQnpB?oc=5",
+      "publisher": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWxyNUQzbzBuU0VncU5mekp5VGhHR0hNWTdOT0hLYXlBTjhlOWJtNUZhU0ZJWDB5LW1odVlBVWd1ZG1yZnZFLXlYZDBSaVc0QWlOeElKT21kSEhBOU9uYjYwTGNNa1JoTHgyeTVfaXRlc0RkNVVuRVI5QVZVM0J3dXE0a1ltU01GdldraDFmLUpnNE9LUTJ5azZMQ1RZN2xicXhSSTc5RXZTdG16TmlhWFowY2lOWW5US3lOakp3WlZjSmIya2U5OWhtcW01X0FWdkpJ?oc=5",
       "teams": [
         "atalanta"
       ],
-      "publishedAt": 1790919486000,
+      "publishedAt": 1790919113000,
       "image": null
     },
     {
@@ -416,6 +439,17 @@
       "publishedAt": 1790889967000
     },
     {
+      "competition": "epl",
+      "title": "Arne Slot to Tottenham? Ex-Liverpool boss lined up for SHOCK Premier League return",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWTM4R21MZWsyM0VLVHhRZ3pPR1Z3VFRWY1V6YmJraURCWmhjV0V4enJRZzJ5OUlVdVQ0dmVQMGM4cmticzRKRERzV29rdElYSVRMS0R4YWM1Z3J3SDVmZ1hZdWZSaGVYRjdGRWlCd0E2dTV1UU1PQmF1RUI3SUxWZDVqWWNtc2x4UkxWQ0FpOGFSc3hJazNxZUFiYTRHMGktbmRR?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790918290000,
+      "image": null
+    },
+    {
       "competition": "unl-a",
       "title": "UEFA Nations League 2026/27 League A: Germany vs. Serbia",
       "publisher": "Xinhua",
@@ -450,6 +484,18 @@
         "mancity"
       ],
       "publishedAt": 1790889116000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Germany-Serbia | UEFA Nations League 2027",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Tb2dVVk5ZUVFiZXYtOWt3RVkyVzFuaGV6Ql9nLXZPWEE3ZTZvNldqYTR6Rnh4bUM0Y2JCTnY3VVZsRTFDNHJIV2FUaGFSN3pwUXBXRlNLTDdpUkFXaW5aNjNtY0J3LVpPbU9pSVZWb3FoS25rNW55a2k3TDA?oc=5",
+      "teams": [
+        "germany",
+        "serbia"
+      ],
+      "publishedAt": 1790917809000,
+      "image": null
     },
     {
       "competition": "footlondon",
@@ -502,7 +548,7 @@
     {
       "competition": "unl-a",
       "title": "Nations League highlights: Germany 2-0 Serbia",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS2tkTl9aZDJEMkZvUTdzQmVlcEpMa3RVVVBmNEtlLXRRLVMtd0xIUVRIQUNaaGVrdlhGc3VHRFVsZDJORDNiSjhJaVlUWVJwY01TcXprdmgxVk1CVXl2dE1ueEV5dmdNRmVxU09zRG9teFVaVnJCZ1lNNS1mV2Q4Xy1hNTJoOEJScS03dDhPVE1kWXZtTDRZOHdTRkZvQy1vXzRvb1FGSjJMbEJDX1l0OGktRmNfUHNlLVRRc2QzcDVUT1JWTlJkc1VUMGlNLXZjYnVORg?oc=5",
       "teams": [
         "germany",
@@ -579,6 +625,17 @@
         "israel"
       ],
       "publishedAt": 1790884873000
+    },
+    {
+      "competition": "unl-a",
+      "title": "Bosnia-Herzegovina vs Sweden: UEFA Nations League stats & head-to-head",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXR29HT0Y5NE5YdVJmN2J2OW92WGNVX0U5T2RjTENpcXJQTk81THQ1a04wVU9hNGJTaEZpSWFIYkRyRnVFMGgway1BSHNmLUtXSzlBZ2dyNDBWUUQ3QlVnQXZpWQ?oc=5",
+      "teams": [
+        "sweden"
+      ],
+      "publishedAt": 1790913498000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -675,66 +732,6 @@
       ],
       "publishedAt": 1790910171000,
       "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "No.10 issues statement after Andy Burnham slammed for 'backing' Man City owners",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/andy-burnham-manchester-city-owners-37725284",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725379.ece/ALTERNATES/s615/1_GettyImages-2297505803.jpg",
-      "summary": "Andy Burnham has been criticised for saying that he'd be 'really concerned' if Manchester City's owners sold the club after they were found guilty of breaching Premier League rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790880364000
-    },
-    {
-      "competition": "guardian",
-      "title": "Criminal or saviour? Rui Pinto abandoned by Portuguese authorities after Manchester City leaks",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/01/fears-manchester-city-whistleblower-rui-pinto-loses-protected-witness-status",
-      "image": "https://i.guim.co.uk/img/media/51cebfa32dd4d9c6494c19a29656442e5ae5ff18/378_0_2267_1814/master/2267.jpg?width=140&quality=85&auto=format&fit=max&s=c5380ea98f80eb63d0ce4ce17aedefc8",
-      "summary": "Man whose leaks of private documents prompted the investigation into City has been advised not to return home, contact family members or visit crowded placesMore than a decade after Rui Pinto set up the Football Leaks…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790880017000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City appeal plan emerges as HMRC urged to examine case findings",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda1/live/922cde20-bdaa-11f1-8373-27235719cf2a.jpg",
-      "summary": "The Treasury Committee, which is responsible for overseeing HMRC, has urged the body to scrutinise tax implications of the Manchester City verdict.",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790878882000
-    },
-    {
-      "competition": "echo",
-      "title": "Jurgen Klopp rages over 'complete nonsense' as ex-Liverpool boss stunned in press conference",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-germany-jurgen-klopp-news-34704072",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34704071.ece/ALTERNATES/s615/0_Germany-Training-Session-And-Press-Conference.jpg",
-      "summary": "Former Liverpool boss and Germany manager Jurgen Klopp has labelled the debate over his squad's diversity as 'idiocy' ahead of his team's match with Serbia",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790878715000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League to avoid £4.5bn 'refunds' over Man City verdict after discount talks",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-punishment-premier-league-37725234",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article36777665.ece/ALTERNATES/s615/2_Manchester-City-v-Huddersfield-Town-Premier-League.jpg",
-      "summary": "Manchester City were found guilty of 114 of their 115 Premier League financial breaches, leading to concerns that the Premier League's broadcast partners could take action",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790878272000
     }
   ]
 }
