@@ -1,17 +1,93 @@
 {
-  "generatedAt": 1790974512488,
+  "generatedAt": 1790975889558,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1535,
-    "tagged": 834,
-    "droppedKeyword": 36,
+    "raw": 1528,
+    "tagged": 827,
+    "droppedKeyword": 37,
     "droppedOtherSport": 2,
-    "droppedFeed": 13,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Donnarumma: &#8216;Italy had attitude of a great team&#8217; in 1-1 with France",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/donnarumma-italy-had-attitude-of-a-great-team/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Italy-XI-in-France-414x276.jpg",
+      "summary": "Gianluigi Donnarumma insists ‘not everyone can come here and put in such a good performance’...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790975864000
+    },
+    {
+      "competition": "bbc",
+      "title": "Chiesa eyes Liverpool exit - Saturday's gossip",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq70p3w936w9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab9f/live/9478d6d0-bea3-11f1-a22a-011993fe1af2.png",
+      "summary": "Liverpool forward Federico Chiesa is on the radar of a trio of Serie A clubs, Man City striker Erling Haaland is more likely to head to Barcelona than Arsenal if he leaves the club, Brentford's Michael Kayode is wanted…",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790975672000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Bastoni: &#8216;If Italy can play like this with France, we can do it against anyone&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/bastoni-if-italy-play-like-this-with-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Alessandro-Bastoni-celebrate-France-Italy-414x276.jpg",
+      "summary": "Alessandro Bastoni admits he ‘didn’t expect to score two goals’ in two Nations League games,...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790974962000
+    },
+    {
+      "competition": "bbc",
+      "title": "Why Aston Villa played Sevilla for a trophy you haven't heard of",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crvg6xd6p9n5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d027/live/d34d3b10-be6e-11f1-8a45-cd59664d243b.jpg",
+      "summary": "Aston Villa beat Sevilla in the Antonio Puerta Trophy, named in memory of one of the Spanish club's former players.",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790974943000
+    },
+    {
+      "competition": "guardian",
+      "title": "France 1-1 Italy: Nations League football – live reaction",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/c4e32500b40bea8f75133de54178b9a1f4f434bd/243_159_2248_1798/master/2248.jpg?width=140&quality=85&auto=format&fit=max&s=005407c70addf8bf840c7c7dfa5d83a1",
+      "summary": "Alessandro Bastoni cancelled out Michael Olise’s goal to give Italy a precious point in Paris3 min A strong start from France, who have barely permitted Italy a kick.1 min Peep peep! France kick off from left to right…",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790974652000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Italy played as a team, another step forward&#8217; with 1-1 in France",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-italy-played-as-a-team-a-step-forward/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Pio-Espositoand-Roberto-Mancini-414x276.jpg",
+      "summary": "Roberto Mancini is glad Italy ‘played as a team’ throughout in their 1-1 draw with...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790974526000
+    },
     {
       "competition": "men",
       "title": "UAE tell Andy Burnham ‘billions’ will be pulled out of the UK in threat over Man City charges",
@@ -25,17 +101,16 @@
       "publishedAt": 1790974343000
     },
     {
-      "competition": "guardian",
-      "title": "France 1-1 Italy: Nations League football – live reaction",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/c4e32500b40bea8f75133de54178b9a1f4f434bd/243_159_2248_1798/master/2248.jpg?width=140&quality=85&auto=format&fit=max&s=005407c70addf8bf840c7c7dfa5d83a1",
-      "summary": "⚽ Nations League updates from the 7.45pm BST kick-off⚽ Live scores | Nations League tables | Read Football Daily3 min A strong start from France, who have barely permitted Italy a kick.1 min Peep peep! France kick off…",
+      "competition": "mirror",
+      "title": "UAE make threat to pull 'billions out of UK' to Andy Burnham over Man City charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-andy-burnham-uae-37729906",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37729904.ece/ALTERNATES/s615/0_Labour-Party-conference-2026.jpg",
+      "summary": "Manchester City being found guilty of all charges related to serious breaches of the Premier League’s financial rules now reportedly has the United Arab Emirates retaliating against the United Kingdom",
       "teams": [
-        "france",
-        "italy"
+        "mancity"
       ],
-      "publishedAt": 1790973767000
+      "publishedAt": 1790973954000
     },
     {
       "competition": "fitalia",
@@ -260,11 +335,11 @@
     },
     {
       "competition": "mirror",
-      "title": "Thomas Tuchel gives Trent Alexander-Arnold a challenge after standout England display",
+      "title": "Harry Kane set to equal England record as Thomas Tuchel warns of burnout risk",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-trent-alexander-arnold-england-37729472",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729475.ece/ALTERNATES/s615/0_GettyImages-2297261285.jpg",
-      "summary": "Trent Alexander-Arnold caught the eye for England in their comfortable win over Czech Republic, but Thomas Tuchel wants more from the Real Madrid right-back after bringing him back",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-tuchel-england-record-37729546",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37719593.ece/ALTERNATES/s615/0_GettyImages-2297771097.jpg",
+      "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
       "teams": [
         "england"
       ],
@@ -272,11 +347,11 @@
     },
     {
       "competition": "mirror",
-      "title": "Harry Kane set to equal England record as Thomas Tuchel warns of burnout risk",
+      "title": "Thomas Tuchel gives Trent Alexander-Arnold a challenge after standout England display",
       "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-tuchel-england-record-37729546",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37719593.ece/ALTERNATES/s615/0_GettyImages-2297771097.jpg",
-      "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
+      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-trent-alexander-arnold-england-37729472",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729475.ece/ALTERNATES/s615/0_GettyImages-2297261285.jpg",
+      "summary": "Trent Alexander-Arnold caught the eye for England in their comfortable win over Czech Republic, but Thomas Tuchel wants more from the Real Madrid right-back after bringing him back",
       "teams": [
         "england"
       ],
@@ -494,19 +569,6 @@
     },
     {
       "competition": "mirror",
-      "title": "How to watch France vs Italy – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/france-italy-nations-league-tv-37719182",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37719311.ece/ALTERNATES/s615/0_GettyImages-2297741585.jpg",
-      "summary": "France host Italy in their third Nations League fixture on Friday night",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790956800000
-    },
-    {
-      "competition": "mirror",
       "title": "How to watch Ukraine v Northern Ireland for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/ukraine-northern-ireland-channel-stream-37721893",
@@ -515,6 +577,19 @@
       "teams": [
         "nireland",
         "ukraine"
+      ],
+      "publishedAt": 1790956800000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch France vs Italy – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/france-italy-nations-league-tv-37719182",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37719311.ece/ALTERNATES/s615/0_GettyImages-2297741585.jpg",
+      "summary": "France host Italy in their third Nations League fixture on Friday night",
+      "teams": [
+        "france",
+        "italy"
       ],
       "publishedAt": 1790956800000
     },
@@ -645,18 +720,6 @@
       "publishedAt": 1790953635000
     },
     {
-      "competition": "bbc",
-      "title": "Why Aston Villa are playing Sevilla for a trophy you haven't heard of",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crvg6xd6p9n5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d027/live/d34d3b10-be6e-11f1-8a45-cd59664d243b.jpg",
-      "summary": "Aston Villa are set to take on Sevilla in the Antonio Puerta Trophy, named in memory of one of the Spanish club's former players.",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790953618000
-    },
-    {
       "competition": "echo",
       "title": "Julian Ward's first task as new Liverpool sporting director clear as contract issue returns",
       "publisher": "Liverpool Echo",
@@ -692,66 +755,6 @@
         "greece"
       ],
       "publishedAt": 1790953234000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Sandro Tonali's agent reveals extremely difficult Newcastle United decision - 'I saw him sad'",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/sandro-tonalis-agent-reveals-extremely-34708676",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article27787520.ece/ALTERNATES/s615/0_Ac-Milan-Newcastle-United-Fc-Stadio-Giuseppe-Meazza-Milano-Italy-19-Sep-2023.jpg",
-      "summary": "Beppe Rossi has looked back on Sandro Tonali's decision to leave Italy for Newcastle United",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1790952934000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Rivera: ‘I didn’t agree when Italy called Malagò, even less when Mancini came back’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/rivera-i-didnt-agree-when-italy-called-malago/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/07/Paolo-Maldini-Leonardo-Giovanni-Malago-Ezio-Simonelli.jpg",
-      "summary": "Milan and Italy legend Gianni Rivera says that he did not agree with the decision...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790952406000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal make huge Emirates Stadium expansion decision as plans for future revealed",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-make-huge-emirates-stadium-34707471",
-      "image": "https://i2-prod.football.london/incoming/article34708606.ece/ALTERNATES/s615/0_GettyImages-2290172566.jpg",
-      "summary": "Arsenal co-chairman Josh Kroenke and chief executive officer Richard Garlick have outlined the club's future plans for the Emirates Stadium",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790951611000
-    },
-    {
-      "competition": "mirror",
-      "title": "'I had to leave Man Utd because I wasn't wanted - it wasn't good for me'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-premier-league-37727038",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37728297.ece/ALTERNATES/s615/0_Manchester-United-v-West-Ham-United-Premier-League.jpg",
-      "summary": "A former Manchester United star lambasted the club for their treatment of him",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790951400000
-    },
-    {
-      "competition": "mirror",
-      "title": "Rui Pinto: The Man City whistleblower still fearing attacks 10 years after breaking scandal",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-rui-pinto-37728229",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37728365.ece/ALTERNATES/s615/0_premium-canvas-1790947799316.png",
-      "summary": "Rui Pinto is the man who set the ball rolling on the Manchester City financial revelations - now the Football Leaks founder is fearing for his safety after losing his state protection",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790951194000
     }
   ]
 }
