@@ -55,6 +55,9 @@ node scripts/test-board-moves.mjs
 printf '=== test-h2h ===\n'
 node scripts/test-h2h.mjs
 
+printf '=== test-sportmonks ===\n'
+node scripts/test-sportmonks.mjs
+
 printf '=== test-brand ===\n'
 node scripts/test-brand.mjs
 

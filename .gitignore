@@ -9,3 +9,6 @@
 secrets.json
 api-keys.json
 node_modules/
+
+# Raw Sportmonks responses: private, never committed (see scripts/fetch-sportmonks.mjs).
+.sportmonks-raw/
