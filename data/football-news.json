@@ -1,17 +1,29 @@
 {
-  "generatedAt": 1790919926967,
+  "generatedAt": 1790920623494,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1534,
-    "tagged": 812,
-    "droppedKeyword": 52,
+    "raw": 1538,
+    "tagged": 813,
+    "droppedKeyword": 51,
     "droppedOtherSport": 2,
     "droppedFeed": 11,
     "blocklistDistrusted": false,
-    "withImage": 45
+    "withImage": 44
   },
   "items": [
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Appeal deadline, HMRC investigation, £800m bill",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37725945.ece/ALTERNATES/s615/0_GettyImages-2293702322.jpg",
+      "summary": "Manchester City's appeal deadline is today after the club were found guilty of 114 breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790919831000
+    },
     {
       "competition": "footlondon",
       "title": "How Arsenal could line up vs Leeds with enforced changes after eight-player injury update",
@@ -321,6 +333,18 @@
       "publishedAt": 1790891995000
     },
     {
+      "competition": "unl-a",
+      "title": "Sports - Nations League: Zidane returns to face Italy and the Stade de France",
+      "publisher": "France 24",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNnpQaGY5X3pER0xpRkJRRDRSWnpZdFkyQ2lqempHVE9qaWJuUHdienVkQXYyXzBMUEtmcFRMYms0TTF2akJlU1RZR0VPTWhDTE1Dd2lCMUtQQnVKRE9KUm9ETVFidkpmeC1EdzBIdllnamhQbTRRZ2x3dnhlRHpwaERLVHo1Z3FKOVBNY1JDWEtMZkkxYnJQYWRGS19TMlFzRFctREh6c0NvWWlOUW8yZFVwQ3J0bF9SVVRtTQ?oc=5",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790920184000,
+      "image": null
+    },
+    {
       "competition": "echo",
       "title": "Jurgen Klopp's moment with Florian Wirtz as Liverpool star gets exactly what he needs",
       "publisher": "Liverpool Echo",
@@ -347,18 +371,18 @@
     {
       "competition": "seriea",
       "title": "EXCLUSIVE: Eljif Elmas on Scudetto triumph, working under Conte & Atalanta loan move",
-      "publisher": "Flashscore.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWxyNUQzbzBuU0VncU5mekp5VGhHR0hNWTdOT0hLYXlBTjhlOWJtNUZhU0ZJWDB5LW1odVlBVWd1ZG1yZnZFLXlYZDBSaVc0QWlOeElKT21kSEhBOU9uYjYwTGNNa1JoTHgyeTVfaXRlc0RkNVVuRVI5QVZVM0J3dXE0a1ltU01GdldraDFmLUpnNE9LUTJ5azZMQ1RZN2xicXhSSTc5RXZTdG16TmlhWFowY2lOWW5US3lOakp3WlZjSmIya2U5OWhtcW01X0FWdkpJ?oc=5",
+      "publisher": "Flashscore.co.za",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcTYwamZGWXc0c3pMVHhsM09KR2FtdGs2VGhpeVdaMXNmUUtVZ0hKYnlaY0toSWpoQzJRTmhYenVpdWN1UVhWbFVKay1zSGN1TV9JWnVBNWNkY25GT3dZRkNidEhZSW5oOGQ3MFZlRnFJSTVma2NOMXdxLTZaOS1kMkdBSGdyZHJQOW5rb01lN1NzVXVFM0QzTTNoWXNUQXEyU0hJZmFrc1BiMVVUeHNyYmJGVWdsdjlHb1hqaDVHeVpkcm1HbUEwQ2wySEhVdmFhbXlBQnpB?oc=5",
       "teams": [
         "atalanta"
       ],
-      "publishedAt": 1790919113000,
+      "publishedAt": 1790919486000,
       "image": null
     },
     {
       "competition": "unl-a",
       "title": "Watch: Wales vs Norway Highlights ⚽ UEFA Nations League",
-      "publisher": "yardbarker.com",
+      "publisher": "Yardbarker",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVExKUWI1OEZhX2o4OTZaZ3pvdkprZ3FsWjNLcXRCT0hTcndreW5EM0lrcUlPOXVKejNhMDl2YWdmRU9yZkktZjNpM3VyZ1B6RFRjdy1KZDk2ZXBRUVdvYlh3LVFmdXN4WGpwX3l3Ql9hTnFOTTZkbDU4NzV3S19QLVJWVkVvZ0puN0kyclA4emZ2S0dLVUQ3emN4R05uaEkwdHc3anJXbHdKTTkzel9zSTVMZw?oc=5",
       "teams": [
         "norway",
@@ -473,6 +497,18 @@
         "denmark"
       ],
       "publishedAt": 1790916347000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Germany 2-0 Serbia",
+      "publisher": "uefa.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS2tkTl9aZDJEMkZvUTdzQmVlcEpMa3RVVVBmNEtlLXRRLVMtd0xIUVRIQUNaaGVrdlhGc3VHRFVsZDJORDNiSjhJaVlUWVJwY01TcXprdmgxVk1CVXl2dE1ueEV5dmdNRmVxU09zRG9teFVaVnJCZ1lNNS1mV2Q4Xy1hNTJoOEJScS03dDhPVE1kWXZtTDRZOHdTRkZvQy1vXzRvb1FGSjJMbEJDX1l0OGktRmNfUHNlLVRRc2QzcDVUT1JWTlJkc1VUMGlNLXZjYnVORg?oc=5",
+      "teams": [
+        "germany",
+        "serbia"
+      ],
+      "publishedAt": 1790916062000,
       "image": null
     },
     {
@@ -641,18 +677,6 @@
       "image": null
     },
     {
-      "competition": "unl-a",
-      "title": "Belgium vs Turkey: UEFA Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGWHJ6U2k5SVA0UDRpM193cDExaHhfZzNqV0xCX0V1dWNtWmRlbXNWTlhZZkg0Y0tMOUJ3SXFtRGFvZlVLT0pDTlFWakN4RDRXaFY3YjI4cTdnR0JTREt0cWY5OA?oc=5",
-      "teams": [
-        "belgium",
-        "turkey"
-      ],
-      "publishedAt": 1790909208000,
-      "image": null
-    },
-    {
       "competition": "mirror",
       "title": "No.10 issues statement after Andy Burnham slammed for 'backing' Man City owners",
       "publisher": "Mirror Football",
@@ -711,31 +735,6 @@
         "mancity"
       ],
       "publishedAt": 1790878272000
-    },
-    {
-      "competition": "guardian",
-      "title": "Andy Burnham’s Manchester City comments stir fresh tensions with Premier League",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/01/andy-burnhams-manchester-city-comments-stir-fresh-tensions-with-premier-league",
-      "image": "https://i.guim.co.uk/img/media/a152c3623ce8ee75501f12b728be3fc569a2fdf4/256_78_1196_957/master/1196.jpg?width=140&quality=85&auto=format&fit=max&s=68364b9f61f11f42c3d7d8c597129bcd",
-      "summary": "Government said to be unhappy at lack of warningTreasury committee chair wants HMRC involved in City caseAndy Burnham’s intervention in the Manchester City debate has revived tensions between the Premier League and the…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790878238000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Italy always play to win, even against top team like France&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-always-play-to-win-top-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-celebration-Frattesi-goal-414x276.jpg",
-      "summary": "Roberto Mancini assures Italy ‘must always play looking for the victory’ even in tomorrow’s Nations...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790877967000
     }
   ]
 }
