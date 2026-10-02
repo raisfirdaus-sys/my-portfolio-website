@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790899771027,
+  "generatedAt": 1790899904485,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1515,
-    "tagged": 803,
+    "raw": 1518,
+    "tagged": 806,
     "droppedKeyword": 48,
     "droppedOtherSport": 1,
     "droppedFeed": 10,
@@ -12,6 +12,19 @@
     "withImage": 58
   },
   "items": [
+    {
+      "competition": "echo",
+      "title": "Cody Gakpo had lucky escape as Man City 'fear' emerges before Liverpool clash",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-lucky-escape-man-34703355",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34703377.ece/ALTERNATES/s615/0_GettyImages-2295760841-1.jpg",
+      "summary": "Cody Gakpo has been given extra reason to be glad a transfer from Liverpool to Man City collapsed after the Premier League leaders were confirmed to have been found guilty of breaching financial regulations",
+      "teams": [
+        "liverpool",
+        "mancity"
+      ],
+      "publishedAt": 1790899200000
+    },
     {
       "competition": "bbc",
       "title": "Bellamy says Wales 'stick' hurt as Norway win lifts mood",
@@ -274,7 +287,7 @@
     },
     {
       "competition": "bbc",
-      "title": "Man City appeal plan emerges as HMRC urged to look at tax implications",
+      "title": "Man City appeal plan emerges as HMRC urged to examine case findings",
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda1/live/922cde20-bdaa-11f1-8373-27235719cf2a.jpg",
@@ -739,18 +752,6 @@
         "mancity"
       ],
       "publishedAt": 1790867717000
-    },
-    {
-      "competition": "mirror",
-      "title": "England confirm injury blow as star becomes sixth player to withdraw from squad",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-nico-oreilly-injury-update-37724440",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37724612.ece/ALTERNATES/s615/0_GettyImages-2296754621.jpg",
-      "summary": "Thomas Tuchel has now seen six players withdraw from his original squad which he assembled last month, with England currently midway through the international window",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790867699000
     }
   ]
 }
