@@ -1,17 +1,189 @@
 {
-  "generatedAt": 1790966416033,
+  "generatedAt": 1790974512488,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1533,
+    "raw": 1535,
     "tagged": 834,
-    "droppedKeyword": 35,
+    "droppedKeyword": 36,
     "droppedOtherSport": 2,
-    "droppedFeed": 12,
+    "droppedFeed": 13,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "UAE tell Andy Burnham ‘billions’ will be pulled out of the UK in threat over Man City charges",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-andy-burnham-34710410",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707948.ece/ALTERNATES/s615/2_JS417249074.jpg",
+      "summary": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790974343000
+    },
+    {
+      "competition": "guardian",
+      "title": "France 1-1 Italy: Nations League football – live reaction",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/c4e32500b40bea8f75133de54178b9a1f4f434bd/243_159_2248_1798/master/2248.jpg?width=140&quality=85&auto=format&fit=max&s=005407c70addf8bf840c7c7dfa5d83a1",
+      "summary": "⚽ Nations League updates from the 7.45pm BST kick-off⚽ Live scores | Nations League tables | Read Football Daily3 min A strong start from France, who have barely permitted Italy a kick.1 min Peep peep! France kick off…",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790973767000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Nations League &#124; France 1-1 Italy: Bastoni seals impressive result in Paris",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/nations-league-france-1-1-italy-bastoni-paris/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Mike-Maignan-France-Italy-414x276.jpg",
+      "summary": "Italy earned a prestigious 1-1 draw away to Zinedine Zidane’s France, as Alessandro Bastoni cancelled...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790973664000
+    },
+    {
+      "competition": "men",
+      "title": "Man United told latest announcement has cost them £40m - 'A massive increase'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-anthony-joshua-fury-34710272",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34651178.ece/ALTERNATES/s615/2_Michael-Carrick.jpg",
+      "summary": "Anthony Joshua will take on Tyson Fury in a blockbuster all-British clash in Cardiff later this year",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790972930000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini&#8217;s reaction to Olise goal vs. Italy revealed: &#8216;Nothing else you can do&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-reaction-olise-goal-france-italy-else/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
+      "summary": "Roberto Mancini and his staff threw their hands up after seeing France star Michael Olise...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790972565000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Appeal confirmed in new statement as Andy Burnham threatened by UAE",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
+      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790972037000
+    },
+    {
+      "competition": "guardian",
+      "title": "Arsenal shelve plans for major expansion of Emirates Stadium",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/arsenal-shelve-plans-for-major-expansion-of-emirates-stadium",
+      "image": "https://i.guim.co.uk/img/media/386c7dab46c6ed906a5dd2e80431ea75b8dc001a/446_0_4890_3910/master/4890.jpg?width=140&quality=85&auto=format&fit=max&s=2b41b4fa72d5f530d79acaba81d2015e",
+      "summary": "Club opt for improvements in hospitality and retailAn increase to 60,704 capacity had been consideredArsenal have shelved plans for a major expansion of the Emirates Stadium, opting for a programme of smaller…",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790971812000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd get ideal Carlos Baleba boost ahead of vital Tottenham clash",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/baleba-injury-update-man-utd-37729780",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37729802.ece/ALTERNATES/s615/0_JS418700579.jpg",
+      "summary": "Carlos Baleba has moved a step closer to making his official debut for Manchester United after his arrival in the summer",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790971397000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790970998000
+    },
+    {
+      "competition": "indy",
+      "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/manchester-city-guilty-england-tuchel-b3060634.html",
+      "image": "https://static.independent.co.uk/2026/10/02/15/43bd8b520a71d40b796b83f5f5dfa56eY29udGVudHNlYXJjaGFwaSwxNzkxMDM2Nzg4-2.86051392.jpg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "The situation has been developing throughout the international window where City players Marc Guehi, Elliot Anderson and Nico O’Reilly have been part of the England squad",
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790970484000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/manchester-city-whistleblower-rui-pinto-leave-portugal-over-safety-fears",
+      "image": "https://i.guim.co.uk/img/media/d54beac4807b69bc9cbd57da11cb7793ea0d116a/1361_0_6831_5464/master/6831.jpg?width=140&quality=85&auto=format&fit=max&s=8f54b3b761edc946cc8187018353b1e8",
+      "summary": "Pinto has witness protection status removedHis lawyers will appeal and say his situation is ‘critical’Rui Pinto has revealed he is preparing to leave Portugal because he fears for his safety after being informed that…",
+      "teams": [
+        "mancity",
+        "portugal"
+      ],
+      "publishedAt": 1790970239000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City face HMRC pressure as MPs make decision after Premier League verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-verdict-hmrc-mp-37729654",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37729742.ece/ALTERNATES/s615/0_JS419959262.jpg",
+      "summary": "Man City submitted an appeal after being found guilty of all but one of the 115 charges that had been brought against the club by the Premier League",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790969941000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City whistleblower set to lose protection amid fears for life",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c09c/live/ec8c2630-be8d-11f1-888b-4d28ea12c7e2.jpg",
+      "summary": "Portuguese computer hacker who released documents which led to the Premier League investigation into Manchester City set to lose his witness protection despite fears for his life.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790969173000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thierry Henry launches Bradley Barcola defence after slow start to Liverpool career",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/liverpool-bradley-barcola-thierry-henry-37729365",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37317665.ece/ALTERNATES/s615/1_msemail_Screenshot_2026-06-18_093354jpg-JS1089252539.jpg",
+      "summary": "Bradley Barcola is yet to find form in a Liverpool shirt and now Thierry Henry has had his say on the French forward",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790967016000
+    },
     {
       "competition": "men",
       "title": "Man United considering JJ Gabriel legal action if teen star leaves club",
@@ -25,18 +197,6 @@
       "publishedAt": 1790965757000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790965579000
-    },
-    {
       "competition": "fitalia",
       "title": "Gasperini on Roma revival: &#8216;Dybala is a poet, Aston Villa didn&#8217;t understand Malen&#8217;",
       "publisher": "Football Italia",
@@ -47,19 +207,6 @@
         "astonvilla"
       ],
       "publishedAt": 1790965168000
-    },
-    {
-      "competition": "guardian",
-      "title": "France v Italy: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/3c6e94b1bcd6bae6082b9edf23e9e0afa1162111/887_0_4466_3573/master/4466.jpg?width=140&quality=85&auto=format&fit=max&s=ecb57ee33e906a39b6ae84d39ba099b9",
-      "summary": "⚽ Nations League updates from the 7.45pm BST kick-off⚽ Live scores | Nations League tables | Read Football Daily“Is Marco Materazzi in the house?” asks Peter Oh. “Given the primacy of gestures in today’s world, a…",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790964424000
     },
     {
       "competition": "guardian",
@@ -101,6 +248,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Thomas Tuchel WOULD pick Man City players if they were relegated to the Championship",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-england-man-city-championship-37729414",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729418.ece/ALTERNATES/s615/0_GettyImages-2298229939.jpg",
+      "summary": "England's Nations League campaign has been overshadowed by the bombshell verdict against Manchester City, with Marc Guehi and Elliot Anderson fielding a lot of questions from teammates",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "mirror",
       "title": "Thomas Tuchel gives Trent Alexander-Arnold a challenge after standout England display",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/tuchel-trent-alexander-arnold-england-37729472",
@@ -120,18 +279,6 @@
       "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
       "teams": [
         "england"
-      ],
-      "publishedAt": 1790964000000
-    },
-    {
-      "competition": "mirror",
-      "title": "Thomas Tuchel WOULD pick Man City players if they were relegated to the Championship",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-england-man-city-championship-37729414",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729418.ece/ALTERNATES/s615/0_GettyImages-2298229939.jpg",
-      "summary": "England's Nations League campaign has been overshadowed by the bombshell verdict against Manchester City, with Marc Guehi and Elliot Anderson fielding a lot of questions from teammates",
-      "teams": [
-        "mancity"
       ],
       "publishedAt": 1790964000000
     },
@@ -207,18 +354,6 @@
         "mancity"
       ],
       "publishedAt": 1790963028000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Appeal lodged, FA break silence, Premier League fear",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790962797000
     },
     {
       "competition": "fitalia",
@@ -617,144 +752,6 @@
         "mancity"
       ],
       "publishedAt": 1790951194000
-    },
-    {
-      "competition": "guardian",
-      "title": "Football Daily | Manchester City lace up their gloves ready for another round. Bring your dinner",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/02/manchester-city-football-daily-newsletter",
-      "image": "https://i.guim.co.uk/img/media/583718b87b653686e1a6092fb7bcff8caacfbece/316_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=352ac2f7285f28b4205718addaf53e36",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now!Seven days after leaking out, the Manchester City saga has become a flood. Peace in our time has disappeared into the distance as football jurisprudence’s…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790951027000
-    },
-    {
-      "competition": "echo",
-      "title": "Trent Alexander-Arnold has last laugh about Man City after Erling Haaland hit out at Liverpool claim",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-last-laugh-34702482",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702542.ece/ALTERNATES/s615/0_Haaland-and-Trent.jpg",
-      "summary": "Trent Alexander-Arnold previously claiming the trophies he won with Liverpool meant more than Man City's own honours during the same period",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790950048000
-    },
-    {
-      "competition": "footlondon",
-      "title": "BBC remove Chelsea player from Match of the Day in brutal cut",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/bbc-remove-chelsea-player-match-34707907",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707921.ece/ALTERNATES/s615/0_Liverpool-v-Chelsea-Premier-League.jpg",
-      "summary": "Match of the Day editors have been forced to make a change because of a Chelsea player",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790949892000
-    },
-    {
-      "competition": "men",
-      "title": "Sheikh Mansour hint adds to Man City appeal intrigue for 115 verdicts",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/sheikh-mansour-hint-adds-man-34705484",
-      "image": "https://i2-prod.football.london/incoming/article30371574.ece/ALTERNATES/s615/0_GettyImages-1258589995.jpg",
-      "summary": "Manchester City have been found overwhelmingly guilty by an independent panel, but are intent on appealing with their evidence",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790949600000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Como talent Jesus Rodriguez sent off for foolish slap while 12-0 up with Spain U21s",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/jesus-rodriguez-sent-off-spain-u21-slap/",
-      "image": "https://s.w.org/images/core/emoji/15.0.3/72x72/1f4fa.png",
-      "summary": "Como talent Jesus Rodriguez has been criticised on social media after earning a foolish red...",
-      "teams": [
-        "spain",
-        "como"
-      ],
-      "publishedAt": 1790949205000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Aston Villa boss Unai Emery makes huge FFP claim after Man City guilty verdict",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/unai-emery-manchester-city-charges-34707982",
-      "image": "https://i2-prod.birminghammail.co.uk/sport/football/football-news/article34707980.ece/ALTERNATES/s615/0_Hull-City-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "Manchester City have launched an appeal after being found guilty of Premier League financial breaches, with Unai Emery having his say on matters",
-      "teams": [
-        "astonvilla",
-        "mancity"
-      ],
-      "publishedAt": 1790948660000
-    },
-    {
-      "competition": "mirror",
-      "title": "Erling Haaland branded 'shocking' and striker 'not interested' after Man City bombshell",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-norway-37728170",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37728237.ece/ALTERNATES/s615/0_Erling-Haaland.jpg",
-      "summary": "Manchester City forward Erling Haaland has been told he was \"not interested\" after struggling in Norway's defeat to Wales in the Nations League on Thursday",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790948367000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool could sign 3 Man City players if Enzo Maresca’s side kicked out of Premier League",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-manchester-city-charges-iraola-34707416",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34707502.ece/ALTERNATES/s615/0_GettyImages-2295736538.jpg",
-      "summary": "Manchester City have appealed after being found guilty of financial breaches but if this fails and they are sanctioned, Liverpool could stand to benefit",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1790948295000
-    },
-    {
-      "competition": "indy",
-      "title": "Thomas Tuchel reveals stance on picking Man City players for England if club relegated",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/thomas-tuchel-england-man-city-guilty-relegated-b3060425.html",
-      "image": "https://static.independent.co.uk/2026/10/02/14/01M3YAK82CAWN9HTWDTPQ4WQJ0.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "City could be expelled from the Premier League or handed a massive points deduction after being found guilty of financial breaches",
-      "teams": [
-        "mancity",
-        "england"
-      ],
-      "publishedAt": 1790947771000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Three remaining Italy doubts as Kean tipped for starting opportunity vs. France",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/three-italy-line-up-doubts-kean-vs-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench.jpg",
-      "summary": "There are three main doubts over Roberto Mancini’s personnel for Friday evening’s Nations League match...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790947578000
-    },
-    {
-      "competition": "mirror",
-      "title": "Premier League appeal deadline could change after Man City tear into 'unsafe' verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/premier-league-city-charges-appeal-37728217",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37728215.ece/ALTERNATES/s615/0_Manchester-City-v-Real-Madrid-CF-UEFA-Womens-Champions-League-202627-League-Phase-MD2.jpg",
-      "summary": "Manchester City have appealed a guilty verdict regarding breaches of the Premier League's financial rules, with officials now working to conclude the case",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790947534000
     }
   ]
 }
