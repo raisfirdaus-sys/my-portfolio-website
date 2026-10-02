@@ -1,6 +1,134 @@
 {
-  "updatedAt": "2026-10-02T00:11:25.469Z",
+  "updatedAt": "2026-10-02T05:36:31.837Z",
   "items": [
+    {
+      "ticker": "GOOGL",
+      "title": "Broadcom starts amassing $60 bln to fund chips for Anthropic- Bloomberg",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-starts-amassing-60-bln-050839573.html",
+      "image": null,
+      "publishedAt": 1790917719000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon seeks to offload $8 bln of Nvidia chips to investors- FT",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-seeks-offload-8-bln-044847290.html",
+      "image": null,
+      "publishedAt": 1790916527000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-billionaire-peter-thiel-42-042000104.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/db26151d5c9593705326b6643a6bdb56.jpg",
+      "publishedAt": 1790914800000
+    },
+    {
+      "ticker": "PLTR",
+      "title": "PLTR Stock Rally Intact After Best Quarter In A Year — Retail Watches Cautiously As Palantir Adds Data Center Partner",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pltr-stock-rally-intact-best-033407550.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/25e95d0aeed1d52d9828e6c2a577916f",
+      "publishedAt": 1790912047000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Did Amazon’s AI Chip and Nuclear Power Deals Just Shift Amazon.com's (AMZN) Investment Narrative?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/did-amazon-ai-chip-nuclear-031018695.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/2292b802eaf1e7d4ac12a1e00159451c.jpg",
+      "publishedAt": 1790910618000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Synopsys (SNPS) Bags New Multi-Billion Dollar Deals, Shares Spike",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-bags-multi-billion-030302988.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/5b7cdd089f48375d3d2705c3f95c7f1c.jpg",
+      "publishedAt": 1790910182000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-only-magnificent-seven-stock-025701571.html",
+      "image": "https://media.zenfs.com/en/motleyfool.com/f53aa2927168a15597302adba3ae272d.jpg",
+      "publishedAt": 1790909821000
+    },
+    {
+      "ticker": "GILD",
+      "title": "More Upside Awaits for Gilead Sciences Stock. Stay Invested.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/681b7c5e-869b-3392-9263-15a8e8eae447/more-upside-awaits-for-gilead.html",
+      "image": "https://media.zenfs.com/en/Barrons.com/8c6009f2728bd20737c898ecc660e729.jpg",
+      "publishedAt": 1790907900000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "OceanBase and MB Bank Enter into Strategic MOU to Accelerate Database Modernization and Infrastructure Resilience",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/technology/articles/oceanbase-mb-bank-enter-strategic-020000379.html",
+      "image": "https://media.zenfs.com/en/prnewswire.com/2379be71205b27ce4b58644a9d6c6e39.png",
+      "publishedAt": 1790906400000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Google Just Sent Its AI Chips Into Space — Now Comes The Hard Part",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-just-sent-ai-chips-015807413.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/9f57cefe70318551cc66b409bd44e128.jpg",
+      "publishedAt": 1790906287000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "ASTS Stock Rises Overnight: New Commercial Chief Brings Google Fi, SiriusXM Chops While Retail Weighs Big 3 Satellite JV",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/asts-stock-rises-overnight-commercial-015213483.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/794bff55b3884766a214ff50fa460d20.jpg",
+      "publishedAt": 1790905933000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Is Microsoft (MSFT) Joining An AI Data Center Coalition Now?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-microsoft-msft-joining-ai-010803701.html",
+      "image": "https://media.zenfs.com/en/simply_wall_st__316/2fb89ed01f3911d46e18d848163ce4ef.jpg",
+      "publishedAt": 1790903283000
+    },
+    {
+      "ticker": "JNJ",
+      "title": "BofA thinks Wall Street is underestimating one J&J drug",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/healthcare/articles/bofa-thinks-wall-street-underestimating-010300862.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/825f9d8d4ece13fb035033bdbabcbc26.jpg",
+      "publishedAt": 1790902980000
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet (GOOGL) Challenges EU Orders to Open Up to AI and Search Rivals",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-challenges-eu-orders-005428714.html",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/f2bc799b7e78718a08f74696ea1fcc21.jpg",
+      "publishedAt": 1790902468000
+    },
+    {
+      "ticker": "AMZN",
+      "title": "How Risky Is Home Depot Stock?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/risky-home-depot-stock-005108710.html",
+      "image": "https://media.zenfs.com/en/trefis_142/faf8a0c6bfeef3257266f056aa5e762a.jpg",
+      "publishedAt": 1790902268000
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Rezolve AI Highlights Agentic Commerce Strategy, 2026 Revenue Growth at Lytham Conference",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/technology/ai/articles/rezolve-ai-highlights-agentic-commerce-000224355.html",
+      "image": "https://media.zenfs.com/en/marketbeat_955/9fa15b1543c38a5ba3b54cefcf428d2d.png",
+      "publishedAt": 1790899344000
+    },
     {
       "ticker": "MA",
       "title": "Apple Stocks Fall as India Payments Launch Meets UPI Dominance",
@@ -16,134 +144,6 @@
       "link": "https://finance.yahoo.com/technology/ai/articles/visa-stocks-move-lower-open-235800118.html",
       "image": null,
       "publishedAt": 1790899080000
-    },
-    {
-      "ticker": "MA",
-      "title": "Mastercard Stocks Moves Lower as Agent Pay Adds Fraud Context",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stocks-moves-lower-agent-235754220.html",
-      "image": null,
-      "publishedAt": 1790899074000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Stocks Rise as GPT-6.1 Sol Tests Cloud Price Elasticity",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-rise-gpt-6-235740326.html",
-      "image": null,
-      "publishedAt": 1790899060000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-232759547.html",
-      "image": "https://media.zenfs.com/en/stocktwits_383/73b13a7b5a368f6966892a89ec902d51",
-      "publishedAt": 1790897279000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Planet Launches Suncatcher, Tanager-2, and 18 SuperDove Satellites",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/articles/planet-launches-suncatcher-tanager-2-224200368.html",
-      "image": "https://media.zenfs.com/en/business-wire.com/bcc3d399efd56e525895291b035e80ac.jpg",
-      "publishedAt": 1790894520000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-bristol-myers-squibb-224102838.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/1c1aefc0787053027d428c725e185484.png",
-      "publishedAt": 1790894462000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Johnson & Johnson vs. Eli Lilly: Which Pharma Stock Can Make Your Portfolio Healthier in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-vs-eli-lilly-221301822.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/c8a12b310311b5cefb46ed67e02c2172.png",
-      "publishedAt": 1790892781000
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir and Armada Partner to Accelerate Sovereign AI Infrastructure",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-armada-partner-accelerate-sovereign-220000900.html",
-      "image": "https://media.zenfs.com/en/business-wire.com/d74fc9f2bcd1a329f5eb808ec4b25e32.jpg",
-      "publishedAt": 1790892000000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon Signs 20 Year Nuclear Power Deal. That's Great News for This Nuclear Stock",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/energy/articles/amazon-signs-20-nuclear-power-215743195.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/fd8717ea3b55226dba4f901d9ad4009d.png",
-      "publishedAt": 1790891863000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Can Reality Labs Ever Earn Enough to Justify Meta’s Spending?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/reality-labs-ever-earn-enough-213913507.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/f6f178ce5932ec386ee19c63f9fc1947.jpg",
-      "publishedAt": 1790890753000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Better Quantum Computing Stock: IonQ vs. D-Wave",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/better-quantum-computing-stock-ionq-213500639.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/05faffe41873a08b05fcd85d38560e8c.png",
-      "publishedAt": 1790890500000
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Senator Rick Scott Hails Jobless Claims Near 57-Year Low, Urges Congress to ‘Get Out Of Small Businesses’ Way’ — ‘Jobs Are the Key to Living the American Dream’",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/economy/policy/articles/senator-rick-scott-hails-jobless-213026523.html",
-      "image": "https://media.zenfs.com/en/benzinga_79/50e85defd4aca6ab76be7d7c59ba2d05.jpg",
-      "publishedAt": 1790890226000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "IonQ vs. SoundHound AI: Which Tech Stock Is a Better Buy in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ionq-vs-soundhound-ai-tech-212433346.html",
-      "image": "https://media.zenfs.com/en/motleyfool.com/f7a65c96d166faf21aac2b3268722093.png",
-      "publishedAt": 1790889873000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "BAG Ventures Closes $11.3M Fund With Support From Google, Amazon, And More",
-      "publisher": "AfroTech",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bag-ventures-closes-11-3m-211808316.html",
-      "image": "https://media.zenfs.com/en/afrotech_articles_589/02d3c3229f8321dcbdeb92368dc425d3.jpg",
-      "publishedAt": 1790889488000
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "How Much Must Google Cloud Be Worth to Justify Alphabet’s Valuation?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/much-must-google-cloud-worth-211643123.html",
-      "image": "https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c.jpg",
-      "publishedAt": 1790889403000
-    },
-    {
-      "ticker": "MA",
-      "title": "Why Is Mastercard (MA) Buying Stablecoin Infrastructure And Building AI Commerce Safeguards?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mastercard-ma-buying-stablecoin-210922519.html",
-      "image": "https://media.zenfs.com/en/simply_wall_st__316/2812f5a1ac00d6190c7ae7ee28a57bfd.jpg",
-      "publishedAt": 1790888962000
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Zuckerberg’s Free AI Agent Hit 5 Million Downloads And Google Still Has Its Own Locked Behind A Paywall",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/zuckerberg-free-ai-agent-hit-210343856.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/021a7deda1f930f12eb66406a1a1d7a0.jpg",
-      "publishedAt": 1790888623000
     }
   ]
 }
