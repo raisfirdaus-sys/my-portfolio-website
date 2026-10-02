@@ -1,17 +1,286 @@
 {
-  "generatedAt": 1790959846629,
+  "generatedAt": 1790966076263,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1548,
-    "tagged": 845,
-    "droppedKeyword": 40,
+    "raw": 1533,
+    "tagged": 833,
+    "droppedKeyword": 35,
     "droppedOtherSport": 2,
-    "droppedFeed": 13,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man United considering JJ Gabriel legal action if teen star leaves club",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-utd-transfer-jj-gabriel-34710053",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34710081.ece/ALTERNATES/s615/0_JS403301570.jpg",
+      "summary": "Manchester United are reportedly considering legal action if JJ Gabriel leaves the club",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790965757000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Gasperini on Roma revival: &#8216;Dybala is a poet, Aston Villa didn&#8217;t understand Malen&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/gasperini-roma-dybala-poet-aston-villa-malen/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Gian-Piero-Gasperini-glare-414x276.jpg",
+      "summary": "Gian Piero Gasperini reveals how he helped Paulo Dybala put Roma injuries behind him and...",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1790965168000
+    },
+    {
+      "competition": "guardian",
+      "title": "France v Italy: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/3c6e94b1bcd6bae6082b9edf23e9e0afa1162111/887_0_4466_3573/master/4466.jpg?width=140&quality=85&auto=format&fit=max&s=ecb57ee33e906a39b6ae84d39ba099b9",
+      "summary": "⚽ Nations League updates from the 7.45pm BST kick-off⚽ Live scores | Nations League tables | Read Football Daily“Is Marco Materazzi in the house?” asks Peter Oh. “Given the primacy of gestures in today’s world, a…",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790964424000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City’s England players are worried about their futures, admits Tuchel",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/manchester-citys-england-players-are-worried-about-their-futures-admits-tuchel",
+      "image": "https://i.guim.co.uk/img/media/4101ab63d8b82a6b2dededc9afbd7267680599cf/230_0_2700_2159/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=b59e4fa10f2e47fa4879a94567792054",
+      "summary": "‘It is of course a topic and we speak about it at dinner’Head coach has right-back dilemma for game in CroatiaThomas Tuchel has suggested Manchester City’s England contingent are worried about the club being found…",
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790964371000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini: &#8216;Italy lack world class players, so have to build a team that works&#8217;",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/mancini-italy-lack-world-class-players-team/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-glance-414x276.jpg",
+      "summary": "Roberto Mancini warns Italy ‘don’t have world class players, so we have to build a...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790964268000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane set to equal England record as Thomas Tuchel warns of burnout risk",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-tuchel-england-record-37729546",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37719593.ece/ALTERNATES/s615/0_GettyImages-2297771097.jpg",
+      "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel gives Trent Alexander-Arnold a challenge after standout England display",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-trent-alexander-arnold-england-37729472",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729475.ece/ALTERNATES/s615/0_GettyImages-2297261285.jpg",
+      "summary": "Trent Alexander-Arnold caught the eye for England in their comfortable win over Czech Republic, but Thomas Tuchel wants more from the Real Madrid right-back after bringing him back",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Thomas Tuchel WOULD pick Man City players if they were relegated to the Championship",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/tuchel-england-man-city-championship-37729414",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729418.ece/ALTERNATES/s615/0_GettyImages-2298229939.jpg",
+      "summary": "England's Nations League campaign has been overshadowed by the bombshell verdict against Manchester City, with Marc Guehi and Elliot Anderson fielding a lot of questions from teammates",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "men",
+      "title": "Man City dressing room view on charges emerges - 'a lot of messages'",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-dressing-room-view-34709282",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34709454.ece/ALTERNATES/s615/0_GettyImages-2283649829.jpg",
+      "summary": "England boss Thomas Tuchel has offered some insight into how the Three Lions Manchester City players have reacted to the news of the 115 case this week",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "guardian",
+      "title": "Etihad’s statements on funding appear to contradict Manchester City’s defence",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/manchester-city-fa-guilty-verdict-premier-league-appeal",
+      "image": "https://i.guim.co.uk/img/media/db7f45adfadc9cfa0f3a066188bc7f6b87caa1ca/336_0_3341_2674/master/3341.jpg?width=140&quality=85&auto=format&fit=max&s=c0d94998b9fe697fe835bf8894d23339",
+      "summary": "Airline denied links to Abu Dhabi government in 2015FA confirms it has powers to take disciplinary actionManchester City’s defence in their appeal against the independent commission’s guilty verdict in more than 100…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790963900000
+    },
+    {
+      "competition": "metro",
+      "title": "Gus Poyet: &#8216;There are too many coincidences with Man City guilty verdict&#8217;",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/02/gus-poyet-there-many-coincidences-man-city-guilty-verdict-29671396/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_160934551-d7b5.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790963349000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Bonucci: &#8216;Italy want to attack France wings&#8217; with surprising formation",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/bonucci-italy-want-to-attack-france-wings/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Leonardo-Bonucci-Italy-staff-414x276.jpg",
+      "summary": "Leonardo Bonucci explains Italy’s forward-thinking formation against France in the Nations League, with quite a...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790963349000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Tottenham 'miss out on £40m' after latest decision - and it's nothing to do with Man City",
+      "publisher": "football.london",
+      "link": "https://www.football.london/tottenham-hotspur-fc/news/man-city-spurs-tottenham-hotspur-34710015",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34710005.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Everton-Premier-League-Tottenham-Hotspur-Stadium.jpg",
+      "summary": "Tottenham Hotspur have missed out financially on as much as £40million a day before reports first emerged about Manchester City being found guilty of 100+ charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790963059000
+    },
+    {
+      "competition": "bbc",
+      "title": "Man City confirm appeal against guilty verdict",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/250e/live/77b09c80-be45-11f1-a64c-550be9e3c66b.jpg",
+      "summary": "The club's statement says the ruling contains \"clear material errors, of law, principle and fact, and is unsafe\".",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790963028000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Appeal lodged, FA break silence, Premier League fear",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790962797000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Nations League official line-ups: France vs. Italy",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/nations-league-official-line-ups-france-italy/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
+      "summary": "Italy go all attack with the Esposito brothers and Moise Kean, confirming Michael Kayode at...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790962421000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
+      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790960712000
+    },
+    {
+      "competition": "metro",
+      "title": "Thomas Tuchel&#8217;s stance on picking Man City stars for England if club are relegated",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/02/thomas-tuchels-stance-picking-man-city-stars-england-club-relegated-29675158/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2298221645-b6e8.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1790960611000
+    },
+    {
+      "competition": "chronicle",
+      "title": "I'm not convinced by Matthias Jaissle and Newcastle United - it can't continue",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/im-not-convinced-matthias-jaissle-34686822",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34573365.ece/ALTERNATES/s615/0_Newcastle-United-v-AFC-Bournemouth-Premier-League-202627.jpg",
+      "summary": "Newcastle United's brand of football under their new coach has split opinion - but it's early days",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790960400000
+    },
+    {
+      "competition": "echo",
+      "title": "Trent Alexander-Arnold may be replaced by teammate with Liverpool clause in transfer blow",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-alexander-arnold-quansah-34709563",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34709803.ece/ALTERNATES/s615/0_JS419746303.jpg",
+      "summary": "Trent Alexander-Arnold faces an uncertain future at Real Madrid just over a year after leaving Liverpool",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790960194000
+    },
+    {
+      "competition": "indy",
+      "title": "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/who-is-rui-pinto-man-city-leaks-whistleblower-b3060514.html",
+      "image": "https://static.independent.co.uk/2026/10/02/16/2193106835..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Pinto, the hacker who first revealed Man City’s financial cheating, has discovered he will lose his witness protection",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790959646000
+    },
+    {
+      "competition": "men",
+      "title": "Man City whistleblower's lawyers issue protection appeal days after Premier League verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-34709685",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34709684.ece/ALTERNATES/s615/0_FRANCE-PORTUGAL-FBL-INVESTIGATION-LEAKS.jpg",
+      "summary": "Four lawyers representing whistleblower Rui Pinto claim are now filing an appeal days after Manchester City were found guilty of 100-plus Premier League charges",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790959430000
+    },
     {
       "competition": "fitalia",
       "title": "Neto: &#8216;Juventus changed a lot, positive Spalletti impact&#8217;",
@@ -50,30 +319,6 @@
       "publishedAt": 1790958478000
     },
     {
-      "competition": "guardian",
-      "title": "Manchester City lodge appeal as FA warns of major implications for integrity of game: football news – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/02/manchester-city-appeal-deadline-nations-league-news-and-more-football-live",
-      "image": "https://i.guim.co.uk/img/media/bc693bbcd858d84e4c8c2298ae659c2aee140d92/355_291_3570_2856/master/3570.jpg?width=140&quality=85&auto=format&fit=max&s=72b76a43336590fc717878eb2a81333c",
-      "summary": "Updates on Manchester City and Nations League newsFixtures | Get Football Daily | And you can email JohnThat’s it from me for now. Luke McLaughlin is here to take over.Manchester City: Andy Burnham’s intervention in the…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790958181000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Appeal lodged, FA break silence, Premier League fear",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790958067000
-    },
-    {
       "competition": "footlondon",
       "title": "Arsenal get official Christos Tzolis injury update as statement released",
       "publisher": "football.london",
@@ -84,18 +329,6 @@
         "arsenal"
       ],
       "publishedAt": 1790957454000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790957289000
     },
     {
       "competition": "mirror",
@@ -198,18 +431,6 @@
         "england"
       ],
       "publishedAt": 1790955682000
-    },
-    {
-      "competition": "indy",
-      "title": "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/who-is-rui-pinto-man-city-leaks-whistleblower-b3060514.html",
-      "image": "https://static.independent.co.uk/2026/10/02/16/2193106835..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Pinto, the hacker who first revealed Man City’s financial cheating, has discovered he will lose his witness protection",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790955226000
     },
     {
       "competition": "fitalia",
@@ -535,226 +756,6 @@
         "england"
       ],
       "publishedAt": 1790947249000
-    },
-    {
-      "competition": "bbc",
-      "title": "How Gordon became one of England's main men",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f014/live/cd024a60-bdac-11f1-8373-27235719cf2a.jpg",
-      "summary": "Anthony Gordon has been England's in-form player since the World Cup knockout stage - is the Barcelona forward now undroppable?",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790946944000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Strong Juventus side defeated 1-0 by Cremonese in training ground friendly",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/juventus-0-1-cremonese-training-friendly/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/norway-v-portugal-uefa-nations-l.jpg",
-      "summary": "A strong Juventus side featuring the likes of Gleison Bremer, Weston McKennie and Randal Kolo...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790946452000
-    },
-    {
-      "competition": "echo",
-      "title": "Giovanni Leoni looks so different one year on as Liverpool star out to make up for lost time",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/giovanni-leoni-looks-different-one-34707322",
-      "image": "https://i2-prod.liverpool.com/incoming/article34705466.ece/ALTERNATES/s615/0_GettyImages-2286085908-1.jpg",
-      "summary": "Giovanni Leoni is closing in on a return to Liverpool training, 12 months after suffering an ACL injury",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790946358000
-    },
-    {
-      "competition": "guardian",
-      "title": "Andy Burnham urged by Lib Dems to reveal all meetings with owners of Manchester City",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/02/andy-burnham-meetings-manchester-city-owners-lib-dems",
-      "image": "https://i.guim.co.uk/img/media/fd3ee7dbfcac0e363e95944184077c580e25af3d/557_869_2524_2018/master/2524.jpg?width=140&quality=85&auto=format&fit=max&s=e28c663f4603c146b6e34583a2066b72",
-      "summary": "Burnham should also declare City hospitality, party saysPM said he would be concerned if owners forced to sellAndy Burnham is facing calls from the Liberal Democrats to publish details of all his meetings with…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790946013000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Viktor Gyokeres' awkward reaction as Graham Potter cracks Man City 115 charges joke",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/viktor-gyokeres-awkward-reaction-graham-34707210",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707418.ece/ALTERNATES/s615/0_potter2.png",
-      "summary": "Graham Potter couldn't resist a little jibe at Manchester City while sitting next to Arsenal's Viktor Gyokeres",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790945596000
-    },
-    {
-      "competition": "men",
-      "title": "Premier League deadline for Man City verdict after appeal confirmed - and why it could change",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-appeal-34707147",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34707312.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City have lodged an appeal against the Premier League's guilty verdict on financial breaches, with officials now working to conclude the case once and for all",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790944914000
-    },
-    {
-      "competition": "men",
-      "title": "Senne Lammens responds to Roy Keane and Paul Scholes after Manchester United criticism",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/senne-lammens-responds-roy-keane-34707254",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34707283.ece/ALTERNATES/s615/0_GettyImages-2297483843.jpg",
-      "summary": "Goalkeeper Senne Lammens has established himself as Man Utd No. 1 but he has come in for some stick from club legends recently.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790944848000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Why Italy have left Inacio out of all three matchday squads this international break",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/why-italy-have-left-inacio-out-three-squads/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/arsenal-fc-v-borussia-dortmund-p-1.jpg",
-      "summary": "There was a lot of excitement when 18-year-old Samuele Inacio was called up to the...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790944769000
-    },
-    {
-      "competition": "mirror",
-      "title": "Unai Emery makes bombshell claim about Premier League rivals after Man City verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/unai-emery-man-city-charges-37727853",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37727868.ece/ALTERNATES/s615/0_GettyImages-2296071710.jpg",
-      "summary": "Manchester City have launched an appeal after being found guilty of serious financial breaches, including 'sham' sponsorship deals, and Unai Emery has given a worrying response",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790944751000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Xabi Alonso has made feelings on Chelsea wonderkid clear ahead of 'secret' friendly opportunity",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/xabi-alonso-made-feelings-chelsea-34706819",
-      "image": "https://i2-prod.football.london/incoming/article34707363.ece/ALTERNATES/s615/0_GettyImages-2291874223.jpg",
-      "summary": "Chelsea will play a behind-closed-doors friendly this weekend and a few youngsters are likely to be given the opportunity to impress manager Xabi Alonso",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1790944733000
-    },
-    {
-      "competition": "metro",
-      "title": "Thierry Henry responds to criticism over Arsenal playing style and Mikel Arteta",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/02/thierry-henry-responds-criticism-arsenal-playing-style-mikel-arteta-29672988/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/Thierry-Henry-2b2e.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790944356000
-    },
-    {
-      "competition": "birmingham",
-      "title": "How to watch Sevilla vs Aston Villa - live stream and TV channel details for friendly",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/how-watch-sevilla-vs-aston-34707381",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707410.ece/ALTERNATES/s615/0_Aston-Villa.jpg",
-      "summary": "Unai Emery's side will take on Sevilla in the Antonio Puerta Trophy on Friday night",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790944316000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City's 'irrefutable evidence' and brutal reality in bid to appeal Premier League verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-premier-league-37726212",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725201.ece/ALTERNATES/s615/1_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have today launched an appeal after being found guilty of all but one of the charges brought against them by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790943129000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal get Christos Tzolis injury timeframe update after Greece medical tests",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-christos-tzolis-injury-news-34707162",
-      "image": "https://i2-prod.football.london/incoming/article34707157.ece/ALTERNATES/s615/0_GettyImages-2297619034.jpg",
-      "summary": "Arsenal winger Christos Tzolis was forced off for Greece on Thursday evening in their 2-2 Nations League draw against the Netherlands in Thessaloniki",
-      "teams": [
-        "arsenal",
-        "greece"
-      ],
-      "publishedAt": 1790942876000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Fagioli handed Italy no.10 shirt as Mancini confirms squad numbers for France",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/fagioli-handed-italy-no-10-shirt-vs-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Francesco-Pio-Esposito-and-Sebastiano-Esposito-celebrate-for-Italy.jpg",
-      "summary": "The squad numbers for Italy’s upcoming Nations League test away against France have been confirmed,...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790942768000
-    },
-    {
-      "competition": "indy",
-      "title": "What is the Negreira case? Real Madrid send ‘50,000-page’ dossier to Uefa over alleged Barcelona corruption",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/what-is-negreira-case-barcelona-real-madrid-uefa-corruption-b3060376.html",
-      "image": "https://static.independent.co.uk/2026/10/02/11/06/GettyImages-1482780894.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Real Madrid are ramping up their involvement in the sports corruption investigation concerning Barcelona after sending a ‘50,000-page’ dossier to Uefa",
-      "teams": [
-        "realmadrid",
-        "barcelona"
-      ],
-      "publishedAt": 1790942501000
-    },
-    {
-      "competition": "echo",
-      "title": "Christian Norgaard joins in as 10 Everton players put in extra work at Finch Farm",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/gallery/christian-norgaard-joins-10-everton-34705702",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34706014.ece/ALTERNATES/s615/0_GettyImages-2298086561.jpg",
-      "summary": "Everton have released photographs that show Christian Norgaard joining in training at Finch Farm this week",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1790942479000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United 'owed' £27m after Manchester City guilty verdict",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-owed-27m-after-34705729",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article33551308.ece/ALTERNATES/s615/0_GettyImages-2265301534.jpg",
-      "summary": "The Magpies and their Premier League rivals potentially missed out on merit payment cash due to City's inflated status",
-      "teams": [
-        "newcastle",
-        "mancity"
-      ],
-      "publishedAt": 1790942400000
     }
   ]
 }
