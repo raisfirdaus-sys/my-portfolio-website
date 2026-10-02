@@ -1,28 +1,28 @@
 {
-  "generatedAt": 1790945828338,
+  "generatedAt": 1790946393179,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1541,
-    "tagged": 843,
-    "droppedKeyword": 41,
+    "raw": 1533,
+    "tagged": 835,
+    "droppedKeyword": 39,
     "droppedOtherSport": 2,
-    "droppedFeed": 12,
+    "droppedFeed": 13,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "men",
-      "title": "Premier League deadline for Man City verdict after appeal confirmed - and why it could change",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-appeal-34707147",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34707312.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
-      "summary": "Manchester City have lodged an appeal against the Premier League's guilty verdict on financial breaches, with officials now working to conclude the case once and for all",
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
+      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790944914000
+      "publishedAt": 1790945996000
     },
     {
       "competition": "guardian",
@@ -34,7 +34,31 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1790944858000
+      "publishedAt": 1790945669000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Viktor Gyokeres' awkward reaction as Graham Potter cracks Man City 115 charges joke",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/viktor-gyokeres-awkward-reaction-graham-34707210",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707418.ece/ALTERNATES/s615/0_potter2.png",
+      "summary": "Graham Potter couldn't resist a little jibe at Manchester City while sitting next to Arsenal's Viktor Gyokeres",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790945596000
+    },
+    {
+      "competition": "men",
+      "title": "Premier League deadline for Man City verdict after appeal confirmed - and why it could change",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-appeal-34707147",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34707312.ece/ALTERNATES/s615/0_Man-City-breaches.jpg",
+      "summary": "Manchester City have lodged an appeal against the Premier League's guilty verdict on financial breaches, with officials now working to conclude the case once and for all",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790944914000
     },
     {
       "competition": "men",
@@ -131,18 +155,6 @@
         "mancity"
       ],
       "publishedAt": 1790943129000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790942901000
     },
     {
       "competition": "footlondon",
@@ -731,18 +743,6 @@
         "arsenal"
       ],
       "publishedAt": 1790931130000
-    },
-    {
-      "competition": "bbc",
-      "title": "Man City confirm appeal against guilty verdict",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/250e/live/77b09c80-be45-11f1-a64c-550be9e3c66b.jpg",
-      "summary": "The club's statement says the ruling contains \"clear material errors, of law, principle and fact, and is unsafe\".",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790931024000
     }
   ]
 }
