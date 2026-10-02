@@ -1,17 +1,101 @@
 {
-  "generatedAt": 1790915385677,
+  "generatedAt": 1790919411186,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1535,
-    "tagged": 811,
-    "droppedKeyword": 50,
-    "droppedOtherSport": 1,
-    "droppedFeed": 12,
+    "raw": 1536,
+    "tagged": 812,
+    "droppedKeyword": 51,
+    "droppedOtherSport": 2,
+    "droppedFeed": 13,
     "blocklistDistrusted": false,
-    "withImage": 54
+    "withImage": 46
   },
   "items": [
+    {
+      "competition": "footlondon",
+      "title": "How Arsenal could line up vs Leeds with enforced changes after eight-player injury update",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-lineup-leeds-injury-news-34703284",
+      "image": "https://i2-prod.football.london/incoming/article34703312.ece/ALTERNATES/s615/0_GettyImages-2294130580.jpg",
+      "summary": "Arsenal return to Premier League action on October 10 as they look to issue a response to the 3-0 defeat to Brighton when they face Leeds",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1790919000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham's new statement and 'evidence' to appeal guilty verdict",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
+      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790917779000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool squad isn't where it should be but Reds have talent who is 'way ahead of everyone'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-squad-isnt-should-reds-34699965",
+      "image": "https://i2-prod.liverpool.com/incoming/article34679732.ece/ALTERNATES/s615/0_GettyImages-2294157870.jpg",
+      "summary": "Former Liverpool striker Emile Heskey gives his verdict on Andoni Iraola's start at Anfield and highlights the development of Trey Nyoni",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790917200000
+    },
+    {
+      "competition": "echo",
+      "title": "I overheard four words that proved I got Everton's Hill Dickinson Stadium design right",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/overheard-four-words-proved-evertons-34702727",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34702803.ece/ALTERNATES/s615/0_Dan-Meis-Exclusive-Everton-Podcast.png",
+      "summary": "EXCLUSIVE: Architect Dan Meis has been reflecting on Everton's first year at Hill Dickinson Stadium",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1790917200000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool latest: Alexander Isak claim made as Jurgen Klopp issues Pep Guardiola comment",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alexander-isak-jurgen-klopp-34701670",
+      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34698193.ece/ALTERNATES/s615/1_JS419766114.jpg",
+      "summary": "Jurgen Klopp had his say following Manchester City's guilty verdict",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790917200000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United put on red alert as former transfer target opens up on future - 'one day'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/transfer-news/newcastle-united-put-red-alert-34701644",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34392357.ece/ALTERNATES/s615/0_Scal1-Copy.jpg",
+      "summary": "Newcastle are likely to be in the market to sign a new centre-half next summer",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790917200000
+    },
+    {
+      "competition": "men",
+      "title": "Man United latest: Marcus Rashford 'issue' emerges as free agent told he could solve problem",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfers-marcus-rashford-34702589",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34702588.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
+      "summary": "Marcus Rashford has starred for Manchester United this season and the club has received a transfer instruction",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790915400000
+    },
     {
       "competition": "mirror",
       "title": "Liverpool news: Jurgen Klopp comments on Man City's 115 charges as Alexander Isak gets message",
@@ -22,18 +106,6 @@
       "teams": [
         "liverpool",
         "mancity"
-      ],
-      "publishedAt": 1790913600000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal latest: Erling Haaland transfer chatter begins as £9m offer considered",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-erling-haaland-transfer-34703465",
-      "image": "https://i2-prod.football.london/incoming/article34703584.ece/ALTERNATES/s615/0_GettyImages-2296952536.jpg",
-      "summary": "All the latest Arsenal headlines coming out of the Emirates Stadium",
-      "teams": [
-        "arsenal"
       ],
       "publishedAt": 1790913600000
     },
@@ -51,14 +123,14 @@
       "publishedAt": 1790913600000
     },
     {
-      "competition": "men",
-      "title": "I swore at Man United chief when he blocked my exit - my wife wanted me to leave",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfer-exit-france-34692795",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34692965.ece/ALTERNATES/s615/0_GettyImages-85991211.jpg",
-      "summary": "The ex-Manchester United star left the club in contentious circumstances",
+      "competition": "footlondon",
+      "title": "Arsenal latest: Erling Haaland transfer chatter begins as £9m offer considered",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-latest-erling-haaland-transfer-34703465",
+      "image": "https://i2-prod.football.london/incoming/article34703584.ece/ALTERNATES/s615/0_GettyImages-2296952536.jpg",
+      "summary": "All the latest Arsenal headlines coming out of the Emirates Stadium",
       "teams": [
-        "manutd"
+        "arsenal"
       ],
       "publishedAt": 1790913600000
     },
@@ -75,13 +147,39 @@
       "publishedAt": 1790913600000
     },
     {
-      "competition": "echo",
-      "title": "Joining Liverpool was the worst mistake of my life – I didn't get on well with Jurgen Klopp",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-jurgen-klopp-italy-34690063",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article32040321.ece/ALTERNATES/s615/1_Liverpool-Players-Return-for-Pre-Season.jpg",
-      "summary": "The former Liverpool star didn't mince words about his ill-fated move to Anfield",
+      "competition": "men",
+      "title": "I swore at Man United chief when he blocked my exit - my wife wanted me to leave",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-transfer-exit-france-34692795",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34692965.ece/ALTERNATES/s615/0_GettyImages-85991211.jpg",
+      "summary": "The ex-Manchester United star left the club in contentious circumstances",
       "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1790913600000
+    },
+    {
+      "competition": "echo",
+      "title": "Everton get surprising Jordan Pickford verdict as Premier League sent fresh Man City message",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jordan-pickford-england-everton-tuchel-34701501",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34701633.ece/ALTERNATES/s615/0_GettyImages-2269286587.jpg",
+      "summary": "Our Everton jury return to have their say on the international break and Thomas Tuchel's decision not to play Jordan Pickford in England's games against Spain and the Czech Republic",
+      "teams": [
+        "mancity",
+        "everton"
+      ],
+      "publishedAt": 1790913600000
+    },
+    {
+      "competition": "echo",
+      "title": "Manchester City can't take the pride and joy we felt watching Liverpool win it all",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/manchester-city-cant-take-pride-34703510",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34703502.ece/ALTERNATES/s615/0_GettyImages-941999568.jpg",
+      "summary": "After Manchester City were found guilty of 114 of 115 charges by the Premier League, our Liverpool Jury take stock of what that means for the Reds",
+      "teams": [
+        "mancity",
         "liverpool"
       ],
       "publishedAt": 1790913600000
@@ -101,27 +199,13 @@
     },
     {
       "competition": "echo",
-      "title": "Manchester City can't take the pride and joy we felt watching Liverpool win it all",
+      "title": "Joining Liverpool was the worst mistake of my life – I didn't get on well with Jurgen Klopp",
       "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/manchester-city-cant-take-pride-34703510",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34703502.ece/ALTERNATES/s615/0_GettyImages-941999568.jpg",
-      "summary": "After Manchester City were found guilty of 114 of 115 charges by the Premier League, our Liverpool Jury take stock of what that means for the Reds",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-jurgen-klopp-italy-34690063",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/transfer-news/article32040321.ece/ALTERNATES/s615/1_Liverpool-Players-Return-for-Pre-Season.jpg",
+      "summary": "The former Liverpool star didn't mince words about his ill-fated move to Anfield",
       "teams": [
-        "mancity",
         "liverpool"
-      ],
-      "publishedAt": 1790913600000
-    },
-    {
-      "competition": "echo",
-      "title": "Everton get surprising Jordan Pickford verdict as Premier League sent fresh Man City message",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/jordan-pickford-england-everton-tuchel-34701501",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34701633.ece/ALTERNATES/s615/0_GettyImages-2269286587.jpg",
-      "summary": "Our Everton jury return to have their say on the international break and Thomas Tuchel's decision not to play Jordan Pickford in England's games against Spain and the Czech Republic",
-      "teams": [
-        "mancity",
-        "everton"
       ],
       "publishedAt": 1790913600000
     },
@@ -261,6 +345,28 @@
       "publishedAt": 1790890729000
     },
     {
+      "competition": "seriea",
+      "title": "EXCLUSIVE: Eljif Elmas on Scudetto triumph, working under Conte & Atalanta loan move",
+      "publisher": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWxyNUQzbzBuU0VncU5mekp5VGhHR0hNWTdOT0hLYXlBTjhlOWJtNUZhU0ZJWDB5LW1odVlBVWd1ZG1yZnZFLXlYZDBSaVc0QWlOeElKT21kSEhBOU9uYjYwTGNNa1JoTHgyeTVfaXRlc0RkNVVuRVI5QVZVM0J3dXE0a1ltU01GdldraDFmLUpnNE9LUTJ5azZMQ1RZN2xicXhSSTc5RXZTdG16TmlhWFowY2lOWW5US3lOakp3WlZjSmIya2U5OWhtcW01X0FWdkpJ?oc=5",
+      "teams": [
+        "atalanta"
+      ],
+      "publishedAt": 1790919261000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man City charges: Premier League players and agents to explore compensation claims if club fail to overturn guilty verdict",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdnhKdnZTZVlJRF9WazhiQm9IQmJMN0sxRk9peWhyWFpyU01YcWlGYW1TblVacEM2SXZ2Ym9KazZsR2lZanVXQVUxQXFGTDZOSWFqbkkyUnZoeXV0SGZIWlJSRV85dHUtZVJUUlNMUUpYdU5hcmhlOVkta09jV1JPZThmN1RwM2FBQjJzQlphRDdNVGdKdHVuNjFxYWo2bUxraTN3WTkydGVzZXZncGxsY3BQSGt6UV9kb0FPN3dKc21IbUE3aWZWeV9JcXNwSTlEWm4yU3dXeUtRUUppZXF4MUlOQWFFVEhWTGhQcFVsR0x4R3RWSEdVSHN6X0JzSk0?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790918775000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Highlights: Wales 2-1 Norway",
       "publisher": "BBC Sport",
@@ -272,6 +378,40 @@
         "wales"
       ],
       "publishedAt": 1790889967000
+    },
+    {
+      "competition": "epl",
+      "title": "Arne Slot to Tottenham? Ex-Liverpool boss lined up for SHOCK Premier League return",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQUFKLThNTU85UTF1MlRkenZVWVNISFFiSC1TMHhjX1J6N3UtZzdzY3dFeEhzcDJUa0wzM1hlTkUxNWc3X1Vzb3RFeEM0UjhGU21Oc0w0UkwwR2E3VlZEVVhvbVlYYkpaNlpTaDBvSVI0LWxSOWR4OXlSYVhVTC1lT0ZtOWFpREZuVF9XZ19ka2IxNW8xeHIwTjIzbmhFUGdFUmpfNWM5RQ?oc=5",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1790918380000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "UEFA Nations League 2026/27 League A: Germany vs. Serbia",
+      "publisher": "Xinhua",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CN2pJUGtXaG95RWEtQm9EdFFxTDBHcFZMQWlTV1V2TXFKc3BYV2pGdXR2V0JoWklac1V0ZmhUZnhMQ1RYSC1xTXZPR3FzV0xzLTA0MU84eWQ3NUhCTjNGSkJsVUxCRVI3b3hENjZ1MzFQeDB3ekRiR09LRQ?oc=5",
+      "teams": [
+        "germany",
+        "serbia"
+      ],
+      "publishedAt": 1790918123000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man City charges: Club sponsor Etihad Airways considering legal action against Premier League",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd1hhOEVtdDcwcHItUFFRRzZ3SWNQMmRnTlBIUG1jb2t1Z3JfZ25pQi1xNlBacExYaTA5NWdWeURvS19kRkRfMTlzNmRaT3BSdzktODExWGg1TnMwN21TNlg3eVRUN1YyVHRUZmtodHdVSzRVdlVGMlR0X2ExUXhaM1ctbkJOTFQ5UFdFaDBmN1haUWNXdHBCdHRMLV8tNnFtMzY5RThyRkNCN3VJdXlQQWh6Y3FTeHJxYVdRNGxuRXY5R0FYc0RTVjlyc0kxenV6SWdOUUxhV2I?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790917930000,
+      "image": null
     },
     {
       "competition": "bbc",
@@ -299,6 +439,17 @@
       "publishedAt": 1790888801000
     },
     {
+      "competition": "epl",
+      "title": "Manchester City have the full set: 3 top Premier League dribblers now under the Etihad roof",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ280Y19GOThSYTNRVG55WnRZZ2kyR1pjbktfTjlTLUpiM2NtUnBUaDc1QzQ5elduLU52TGxRb2VEN0NHTUE5QzFGNmRlVTljNDNQZFA5cXpWT2puSkpGWHh6eEFJMkc4RDJ3R0xrdkZNTVh2TExFSk94V01rQW1mcw?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790917200000,
+      "image": null
+    },
+    {
       "competition": "guardian",
       "title": "Neco Williams fires revitalised Wales to fightback win against 10-man Norway",
       "publisher": "The Guardian",
@@ -312,16 +463,16 @@
       "publishedAt": 1790888287000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham's new statement and 'evidence' to appeal guilty verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37721452",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37721553.ece/ALTERNATES/s615/0_Untitled-1.jpg",
-      "summary": "The latest news on Manchester City after the club were found guilty of 114 breaches of Premier League financial rules, as the deadline to appeal the decision moves ever closer",
+      "competition": "unl-a",
+      "title": "Portugal overcome Ronaldo controversy to beat Denmark in Nations League",
+      "publisher": "thenationalnews.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLWNJRjdOUk9sbHJIY08ybDBpSVVSMVBIMFZZWk1YcUFUaUJpZmZiV3I4ZE9EVmtnQ1EtOFV5bU1vc3NtLVY4cjM1MjdWZmJEQTdUUC1xaGQ5OThfcEtEUTI1V2pSUDdEU3lGVHlZQ243Tnk4Nk5zVWg3U005VmpnX0dDbVhYa2l4LTBudFNUSHN2eGszckMweHdNSmZTak9oME95bXdUQnZZWUZZeGd6dlJmZHVVYlg4LWtZOS1MUDBLZFdYYncxdnVn?oc=5",
       "teams": [
-        "mancity"
+        "portugal",
+        "denmark"
       ],
-      "publishedAt": 1790888287000
+      "publishedAt": 1790916347000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -334,6 +485,50 @@
         "chelsea"
       ],
       "publishedAt": 1790886977000
+    },
+    {
+      "competition": "ucl",
+      "title": "Chelsea’s set-piece problems remain, despite Austin MacPhee’s arrival. We look at why",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSGtFSlpVa0dpUGNueDIxTFI3N3p2TmVfa3NXbmQzTkhYTk9LdTVXdFFPaWZmMzhRSGpRV3haMnp0aFhwbVBtel9Hak8tWmp6eGJ0ci1ZTFhaVEpQM0FPOGh4VVNiZzlaNW12OTB2Q2c1cDF2bWU2WWVUY2RRQlYtdXZRWVJNOHNXTzJJWFJhZ0VLcmVwWXgzNXZtTkU2ODdXTkxFRUh6T3Z5RTR1ZFctZ0ZyRXZNbjBSMTdEdnZaMy02X0xTYWdrZ01iMGpXNXc?oc=5",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1790914609000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "Zinedine Zidane is back, and France cannot wait to acclaim him",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMmotYXU0ZXozTUtGd0wtZXBkWnhsbFgtTjBEdy1NdkdrVVZHdF92NGJkdzlsNnpNOUxuWlZXLVFWOW04ZTBHNDdJclBYVjJZVFdKSmJwUGdIdUJHRHdkM3ZDTlJaUjRkVzlkTjVPUDBZeVBpcURQMWRxTHpnaGxpR3lEMGF3Mi1Qajd1NWx1U0hjc0ls?oc=5",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790914497000,
+      "image": null
+    },
+    {
+      "competition": "ucl",
+      "title": "What signings did Manchester City make between 2009-18 – and who had the biggest impact?",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2pERjZNNlhFM0phbUllbHd5cjk3TFBOWjRFVWI2VlUwNFNFMXV4ejJjSnZrSHl6YjRwMGJxZEtDMUt2UVFSMS1nUkZ5QzF2M1BFa1V2S1FBcV94TzdlMmM3SjBZaHh0WnItZjFZYzRQTXVPbE5saU9ua1UzNHUzU1B4VTVyekdvLXdWUFVEc2xBQQ?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790914102000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "The Prospects: Michael Mills, Newcastle United",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWExSSXV0YTU5VnJwN0hGdFJuWFpqTGd2RnZsWW5uNTRGV0ZzY1A0NGZTSndvUTlESUo3amFHM3VtcVRoZFllWHBzMGZud2VGV2NvRTRKVW1IUWs3WmtEdGNJQ3FvZk9kSFFTZDBRWFBhbVlCVExBUV92ekRnZmtyVHE5d3JhV1d4MmxBNEtRQ1dtcFp0dVZjUG1n?oc=5",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1790913927000,
+      "image": null
     },
     {
       "competition": "mirror",
@@ -517,18 +712,6 @@
       "publishedAt": 1790878238000
     },
     {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Germany 2-0 Serbia",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS2tkTl9aZDJEMkZvUTdzQmVlcEpMa3RVVVBmNEtlLXRRLVMtd0xIUVRIQUNaaGVrdlhGc3VHRFVsZDJORDNiSjhJaVlUWVJwY01TcXprdmgxVk1CVXl2dE1ueEV5dmdNRmVxU09zRG9teFVaVnJCZ1lNNS1mV2Q4Xy1hNTJoOEJScS03dDhPVE1kWXZtTDRZOHdTRkZvQy1vXzRvb1FGSjJMbEJDX1l0OGktRmNfUHNlLVRRc2QzcDVUT1JWTlJkc1VUMGlNLXZjYnVORg?oc=5",
-      "teams": [
-        "germany",
-        "serbia"
-      ],
-      "publishedAt": 1790906984000,
-      "image": null
-    },
-    {
       "competition": "fitalia",
       "title": "Mancini: &#8216;Italy always play to win, even against top team like France&#8217;",
       "publisher": "Football Italia",
@@ -552,203 +735,6 @@
         "mancity"
       ],
       "publishedAt": 1790877963000
-    },
-    {
-      "competition": "indy",
-      "title": "Downing Street clarifies Andy Burnham’s contentious comments on Man City case",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/andy-burnham-man-city-case-guilty-owners-latest-b3059996.html",
-      "image": "https://static.independent.co.uk/2026/09/30/13/2297311136..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Burnham said he would be “really concerned” if City’s Abu Dhabi owners sold the club in the wake of being found to have breached the Premier League’s financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790877437000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Bastoni: &#8216;Italy good at seeing negative aspects, Mancini working on self-esteem&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/bastoni-italy-good-at-seeing-negative-mancini/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Italy-celebrate-Bastoni-414x276.jpg",
-      "summary": "Alessandro Bastoni claims Italy ‘are very good at focusing on the negatives’ and Roberto Mancini...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790877435000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Tonali &#8216;was sad in first weeks&#8217; at Newcastle United after leaving Milan",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/tonali-was-sad-in-first-weeks-newcastle-united/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/03/newcastle-united-v-everton-premi-1-414x276.jpg",
-      "summary": "Sandro Tonali ‘was sad’ for the first few weeks when he first left Milan for...",
-      "teams": [
-        "newcastle",
-        "acmilan"
-      ],
-      "publishedAt": 1790876619000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jurgen Klopp erupts over 'complete nonsense' as ex-Liverpool boss left raging",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/jurgen-klopp-germany-manager-liverpool-37725215",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725114.ece/ALTERNATES/s615/0_GettyImages-2297912973.jpg",
-      "summary": "Germany boss Jurgen Klopp has furiously criticised criticism of his national side by far-right politicians ahead of their match with Serbia in the Nations League",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790876446000
-    },
-    {
-      "competition": "men",
-      "title": "Downing Street issues new Man City charges statement in Andy Burnham U-turn",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/downing-street-man-city-charges-34703894",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34703913.ece/ALTERNATES/s615/0_Andy-Burnham.jpg",
-      "summary": "Downing Street have confirmed their position on the Manchester City charges case after controversial comments from Prime Minister Andy Burnham",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790875817000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Wales-Norway | UEFA Nations League 2027",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtZjBmc3E0azRoRFU1WTF4V0UxTWlvT2lTUmZXTWNRTlhRWW55cUYtZmhXb2k5VjYxblBGR29vbExhV2g5aFVSN1FlcXRfcG94eWNUQ1hXXzRlOG9RZldod3phYkN5eHAwcWd5WndvazFSeE1PLS1acUlR?oc=5",
-      "teams": [
-        "norway",
-        "wales"
-      ],
-      "publishedAt": 1790904392000,
-      "image": null
-    },
-    {
-      "competition": "echo",
-      "title": "Rio Ngumoha backed to leave as Liverpool icon claims he's looking at one club",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-ngumoha-transfer-bayern-munich-34703475",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34703839.ece/ALTERNATES/s615/0_Rio-Ngumoha.jpg",
-      "summary": "Rio Ngumoha has been sent a transfer message with the Liverpool winger told that one European club would be a great fit for him",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790875459000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Four Observations from Germany’s 2-0 victory over Serbia in the UEFA Nations League",
-      "publisher": "bavarianfootballworks.com",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcm1IeExtNzd0dnNTMWtBWVFQR05Fb0RLcWpqUU5wWi1jYTBIQ0ZDenpjeXRLNmpYT09LYWQ5WTU4Rk9YVkVpQWEzMFBNLTBQNWpwald5eW5MVnZLMlRiaU1Kcm11R21UT2s1dExuU2xwTHVqOHZHZ2tsYVFpTjBCRnE5azFIRXlVSmNPRGhyU3Nzc2JraXVwem4xRmdoOTBaY2hDUGwwTmRDTl9Fanp4WVBoRF9Ud1RCVWRneFA3ZlF5S0cyUm9iQ05ZRmVjTERMQlpIZzlYQUZSMHFRUnBNQk9pWDhac3V0OVkyaUM0U2l1VjZHYjR4X0lRYTFxYXh6dUEwVzBn?oc=5",
-      "teams": [
-        "germany",
-        "serbia"
-      ],
-      "publishedAt": 1790903700000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City appeal could force case to drag on until 2027 as Premier League feud intensifies",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-appeal-charges-update-37725167",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725192.ece/ALTERNATES/s615/0_GettyImages-2254602336.jpg",
-      "summary": "Manchester City have until Friday to submit their appeal after an independent commission found the club guilty of 114 breaches of the Premier League's financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790874564000
-    },
-    {
-      "competition": "indy",
-      "title": "Jurgen Klopp disgusted by claim Germany squad ‘not white enough’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/jurgen-klopp-germany-white-players-afd-b3059972.html",
-      "image": "https://static.independent.co.uk/2026/10/01/17/2297913655..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Klopp previously said he wants to ‘reclaim the flag’ in a rebuke to the growing far-right in Germany",
-      "teams": [
-        "germany"
-      ],
-      "publishedAt": 1790874030000
-    },
-    {
-      "competition": "bbc",
-      "title": "Why is Croatia v England behind closed doors?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck0e3edj2l4zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8871/live/1c7974f0-bdb8-11f1-b7d8-31573a2bd831.jpg",
-      "summary": "BBC Sport's Ask Me Anything team explains why England's Nations League match in Croatia is being played in front of a reduced capacity.",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1790873948000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Carnevali: &#8216;Juventus bloodbath without Champions League, extraordinary Spalletti&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/carnevali-juventus-bloodbath-champions-league/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Giovanni-Carnevali-wave-414x276.jpg",
-      "summary": "Juventus CEO Giovanni Carnevali admits missing Champions League qualification is ‘a bloodbath’, stands up for...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1790873310000
-    },
-    {
-      "competition": "mirror",
-      "title": "7 future England stars aiming to prove Thomas Tuchel wrong and become the next Harry Kane",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/thomas-tuchel-harry-kane-england-37724863",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725096.ece/ALTERNATES/s615/2_premium-canvas-1790872567617.jpg",
-      "summary": "Thomas Tuchel has claimed that England will never find another Harry Kane, but that won't stop the country's next generation from attempting to step up to the mantle",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790873263000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United star injured in training with France U21s and sent for scan",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/ewen-jaouen-injury-newcastle-united-34700368",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34420129.ece/ALTERNATES/s615/0_Newcastle-United-Training-Session.jpg",
-      "summary": "Newcastle have received news of a second injured star in the space of a few hours",
-      "teams": [
-        "newcastle",
-        "france"
-      ],
-      "publishedAt": 1790872244000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Germany vs Serbia – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/germany-serbia-tv-channel-stream-37717642",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37706227.ece/ALTERNATES/s615/1_JS419131518.jpg",
-      "summary": "Germany take on Serbia at the Allianz Arena",
-      "teams": [
-        "germany",
-        "serbia"
-      ],
-      "publishedAt": 1790872200000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Greece vs Netherlands – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/greece-netherlands-nations-league-tv-37717946",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37717964.ece/ALTERNATES/s615/1_GettyImages-2233058310.jpg",
-      "summary": "The Nations League continues with Greece vs Netherlands on Thursday evening",
-      "teams": [
-        "netherlands",
-        "greece"
-      ],
-      "publishedAt": 1790872200000
     }
   ]
 }
