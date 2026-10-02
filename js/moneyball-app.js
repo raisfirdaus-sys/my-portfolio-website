@@ -168,6 +168,10 @@
     var ov = STATE.overrides[key];
     if (ov && ov[field] != null) return true;
     var base = DATA.teams[key];
+    /* An xG worked out from shots, for a plan that carries no xG, is used
+       by the model but is not a measurement, so it never ranks on the
+       real-data boards. */
+    if (field === 'xgF' && base && base.xgEstimated) return false;
     return !!(base && base.measured && base[field] != null);
   }
 

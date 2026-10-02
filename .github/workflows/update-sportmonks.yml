@@ -1,0 +1,94 @@
+name: Update Sportmonks statistics
+
+# Press "Run workflow" on the Actions tab to pull everything the plan allows,
+# right now. While a subscription is live it also tries once a day - GitHub
+# drops many scheduled runs on this repository (see update-football-news.yml),
+# so the button is the dependable way.
+#
+# Needs one secret: SPORTMONKS_TOKEN, under Settings > Secrets and variables >
+# Actions. Without it the run does nothing and changes nothing.
+#
+# After a subscription ends the token is refused and the run fails: the
+# statistics already published stay exactly as they are. Disable this
+# workflow (Actions > Update Sportmonks statistics > ... > Disable workflow)
+# to stop the daily attempt.
+
+on:
+  workflow_dispatch:
+    inputs:
+      days_ahead:
+        description: "Days of upcoming fixtures to archive"
+        default: "14"
+  schedule:
+    - cron: "17 2 * * *"
+
+concurrency:
+  group: update-sportmonks
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: claude/stock-portfolio-website-2ulin2
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull from Sportmonks
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+          SPORTMONKS_RAW_DIR: ${{ runner.temp }}/sportmonks-raw
+          DAYS_AHEAD: ${{ inputs.days_ahead || '14' }}
+        run: node scripts/fetch-sportmonks.mjs
+
+      # The full raw responses. Kept private, as a download on this run's
+      # page for 90 days - never committed, because this repository is public
+      # and republishing the raw feed is not something the licence allows.
+      - name: Keep the raw responses (private, 90 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sportmonks-raw-${{ github.run_id }}
+          path: ${{ runner.temp }}/sportmonks-raw
+          retention-days: 90
+          if-no-files-found: ignore
+
+      - name: Commit and push if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/moneyball-fixtures.json data/sportmonks/last-run.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes, skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git commit -m "Update team statistics from Sportmonks"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5) - rebasing onto latest and retrying..."
+            git fetch origin claude/stock-portfolio-website-2ulin2
+            git rebase origin/claude/stock-portfolio-website-2ulin2
+          done
+          echo "Push still failing after 5 attempts."
+          exit 1
+
+      - name: Trigger Pages redeploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref claude/stock-portfolio-website-2ulin2

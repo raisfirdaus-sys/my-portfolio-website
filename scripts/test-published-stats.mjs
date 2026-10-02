@@ -40,6 +40,14 @@ PUBLISHED.forEach((k, i) => {
     fouls: 11, tackles: 16, yellow: 1.9, red: 0.07
   });
 });
+/* A fifth team pulled from a plan with no xG: its xG is an estimate from
+   shots, high enough that it would top the xG board if it were counted. */
+const ESTIMATED = "leeds";
+Object.assign(fixtures.teams[ESTIMATED], {
+  measured: true, measuredAt: "2026-10-02", statsMissing: false, source: "sportmonks",
+  matches: 7, xgF: 3.9, xgEstimated: true, goals: 3.5, shots: 13.5, sot: 4.6,
+  fouls: 11, tackles: 16, yellow: 1.9, red: 0.07
+});
 
 async function open(store) {
   const dom = await JSDOM.fromFile(path.join(ROOT, "moneyball.html"), {
@@ -68,7 +76,7 @@ const visitor = await open({});
 const doc = visitor.window.document;
 
 const sub = (doc.getElementById("tt-sub") || {}).textContent || "";
-say(/^4 teams with real data/.test(sub), `a visitor sees the published teams (got "${sub}")`);
+say(/^5 teams with real data/.test(sub), `a visitor sees the published teams (got "${sub}")`);
 say(!/your data/.test(sub), 'it no longer calls them "your data" to someone who entered nothing');
 
 const cards = [...doc.querySelectorAll(".tt-card")];
@@ -76,6 +84,16 @@ say(cards.length >= 8, `the leaderboards render for a visitor (${cards.length})`
 const boardText = cards.map((c) => c.textContent).join(" ");
 PUBLISHED.forEach((k) => say(boardText.includes(fixtures.teams[k].name),
   `${fixtures.teams[k].name} is on the boards with no localStorage`));
+
+const boardNamed = (t) => {
+  const c = cards.find((x) => (x.querySelector("h4") || {}).textContent === t);
+  return c ? c.textContent : "";
+};
+const estName = fixtures.teams[ESTIMATED].name;
+say(!boardNamed("xG created").includes(estName),
+  "an xG estimated from shots never ranks on the xG created board");
+say(boardNamed("Goals per match").includes(estName),
+  "while the same team's measured figures still rank on theirs");
 
 say(!/Only 0 teams have real data/.test(doc.body.textContent),
   "the empty-state warning is gone for a visitor");
