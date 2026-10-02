@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1790966076263,
+  "generatedAt": 1790966416033,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1533,
-    "tagged": 833,
+    "tagged": 834,
     "droppedKeyword": 35,
     "droppedOtherSport": 2,
     "droppedFeed": 12,
@@ -23,6 +23,18 @@
         "manutd"
       ],
       "publishedAt": 1790965757000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
+      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790965579000
     },
     {
       "competition": "fitalia",
@@ -75,16 +87,17 @@
       "publishedAt": 1790964268000
     },
     {
-      "competition": "mirror",
-      "title": "Harry Kane set to equal England record as Thomas Tuchel warns of burnout risk",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-tuchel-england-record-37729546",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37719593.ece/ALTERNATES/s615/0_GettyImages-2297771097.jpg",
-      "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
+      "competition": "guardian",
+      "title": "Pickford in spotlight against Croatia with England position under threat from Trafford",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/jordan-pickford-england-croatia-nations-league-james-trafford",
+      "image": "https://i.guim.co.uk/img/media/017521a8bb29b5be4694ec9b84896cff9244934d/306_0_4880_3905/master/4880.jpg?width=140&quality=85&auto=format&fit=max&s=fd135ae95693b60f64fe2a9e61ac4d7d",
+      "summary": "Goalkeeper returns for Saturday’s Nations League match but is under pressure to respond with strength of competition growingFor England’s first meeting with Luka Modric you have to go back 20 years. Croatia were managed…",
       "teams": [
+        "croatia",
         "england"
       ],
-      "publishedAt": 1790964000000
+      "publishedAt": 1790964036000
     },
     {
       "competition": "mirror",
@@ -93,6 +106,18 @@
       "link": "https://www.mirror.co.uk/sport/football/news/tuchel-trent-alexander-arnold-england-37729472",
       "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37729475.ece/ALTERNATES/s615/0_GettyImages-2297261285.jpg",
       "summary": "Trent Alexander-Arnold caught the eye for England in their comfortable win over Czech Republic, but Thomas Tuchel wants more from the Real Madrid right-back after bringing him back",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1790964000000
+    },
+    {
+      "competition": "mirror",
+      "title": "Harry Kane set to equal England record as Thomas Tuchel warns of burnout risk",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/harry-kane-tuchel-england-record-37729546",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37719593.ece/ALTERNATES/s615/0_GettyImages-2297771097.jpg",
+      "summary": "England captain Harry Kane is within touching distance of Peter Shilton's cap record, but manager Thomas Tuchel remains wary of overworking the Bayern Munich goal machine",
       "teams": [
         "england"
       ],
@@ -207,18 +232,6 @@
         "italy"
       ],
       "publishedAt": 1790962421000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Appeal confirmed in new statement taking aim at the Premier League",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790960712000
     },
     {
       "competition": "metro",
@@ -388,7 +401,7 @@
       "title": "Everton play out six-goal thriller with Blackburn in behind closed doors game as 16-year-old scores",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/everton-play-out-six-goal-34709203",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34709225.ece/ALTERNATES/s615/0_9a382700-be6d-11f1-8472-775382b59daf.jpg",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710218.ece/ALTERNATES/s615/0_Blackburn-BCD-024jpgjpeg.jpg",
       "summary": "Everton drew 3-3 with Blackburn Rovers in a behind closed doors friendly at Hill Dickinson Stadium on Friday",
       "teams": [
         "everton"
@@ -742,20 +755,6 @@
         "mancity"
       ],
       "publishedAt": 1790947534000
-    },
-    {
-      "competition": "metro",
-      "title": "Thomas Tuchel gives injury update on Arsenal star ahead of England vs Croatia",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/02/thomas-tuchel-gives-injury-update-arsenal-star-ahead-england-vs-croatia-29674299/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2298229939-4ee9.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal",
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1790947249000
     }
   ]
 }
