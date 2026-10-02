@@ -1,17 +1,115 @@
 {
-  "generatedAt": 1790976057399,
+  "generatedAt": 1790980993350,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 825,
-    "droppedKeyword": 36,
+    "raw": 1527,
+    "tagged": 827,
+    "droppedKeyword": 38,
     "droppedOtherSport": 2,
     "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "bbc",
+      "title": "Which clubs did Man City's 'inflated' money flow to in transfer market?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmew9w451vx8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b049/live/fcba9170-bdbd-11f1-b7d8-31573a2bd831.jpg",
+      "summary": "BBC Sport follows the trail of transfer money flowing to other clubs during Manchester City's period of financial rule-breaking.",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790980224000
+    },
+    {
+      "competition": "indy",
+      "title": "How Donnarumma’s excellence denied Zidane win in first home game as France boss",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/france-italy-result-score-zidane-donnarumma-olise-b3060681.html",
+      "image": "https://static.independent.co.uk/2026/10/02/22/download..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "summary": "France 1-1 Italy: French fans were treated to an exciting game at Stade de France but did not get the result they expected, mainly because of the Manchester City goalkeeper’s display",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1790979209000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790978173000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Rabiot impressed with Italy spirit and &#8216;extraordinary&#8217; Donnarumma",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/rabiot-impress-italy-extraordinary-donnarumma/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Gianluigi-Donnarumma-save-France-Italy-414x276.jpg",
+      "summary": "Adrien Rabiot hails ‘extraordinary’ Gianluigi Donnarumma after France’s 1-1 draw with Italy and was impressed...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1790977842000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool's Milos Kerkez has perfect response to media critics as Hungary bounce back",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/kerkez-goal-celebration-hungary-liverpool-34710398",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710518.ece/ALTERNATES/s615/0_JS419563294.jpg",
+      "summary": "Liverpool defender Milos Kerkez was in action for Hungary as they faced Georgia in the Nations League on Friday night",
+      "teams": [
+        "liverpool",
+        "hungary"
+      ],
+      "publishedAt": 1790977762000
+    },
+    {
+      "competition": "bbc",
+      "title": "Who has 'no ceiling' as Northern Ireland shine in Nations League?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwjdmk3j5xleo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a472/live/b51a26e0-bea4-11f1-a22a-011993fe1af2.jpg",
+      "summary": "After an impressive 3-0 victory over Ukraine in the Nations League, Northern Ireland manager Michael O'Neill was impressed with his young side.",
+      "teams": [
+        "nireland"
+      ],
+      "publishedAt": 1790977734000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Vergara &#8216;so happy with Italy debut, but we wanted the win&#8217; in France",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/vergara-so-happy-italy-debut-wanted-win-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Italy-warm-up-France-414x276.jpg",
+      "summary": "Napoli winger Antonio Vergara is ‘so happy’ to make his Italy debut in a 1-1...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1790976763000
+    },
+    {
+      "competition": "men",
+      "title": "Man City face HMRC scrutiny as MPs act after Premier League verdict",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-hmrc-verdict-34710418",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34710434.ece/ALTERNATES/s615/0_JS419959229.jpg",
+      "summary": "Manchester City were found guilty of 114 of the 115 financial charges brought against them by the Premier League earlier this week",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790976172000
+    },
     {
       "competition": "fitalia",
       "title": "Donnarumma: &#8216;Italy had attitude of a great team&#8217; in 1-1 with France",
@@ -36,6 +134,20 @@
         "liverpool"
       ],
       "publishedAt": 1790975672000
+    },
+    {
+      "competition": "guardian",
+      "title": "Nations League: Italy earn draw against 10-man France, Northern Ireland stun Ukraine",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/02/nations-league-roundup-france-italy-northern-ireland-ukraine-belgium",
+      "image": "https://i.guim.co.uk/img/media/c2a8cf61c75a6bbb9d374405386713fb380614df/257_0_2345_1876/master/2345.jpg?width=140&quality=85&auto=format&fit=max&s=fbc176fe98027b66850a1e47f091e13e",
+      "summary": "League A: France 1-1 Italy, Belgium 3-0 TurkeyNorthern Ireland boost promotion bid with 3-0 winZinedine Zidane’s first home game in charge of France ended with a 1-1 draw against Italy in the Nations League on Friday.…",
+      "teams": [
+        "nireland",
+        "ukraine",
+        "france"
+      ],
+      "publishedAt": 1790975475000
     },
     {
       "competition": "fitalia",
@@ -63,19 +175,6 @@
       "publishedAt": 1790974943000
     },
     {
-      "competition": "guardian",
-      "title": "France 1-1 Italy: Nations League football – live reaction",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/02/france-v-italy-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/c4e32500b40bea8f75133de54178b9a1f4f434bd/243_159_2248_1798/master/2248.jpg?width=140&quality=85&auto=format&fit=max&s=005407c70addf8bf840c7c7dfa5d83a1",
-      "summary": "Alessandro Bastoni cancelled out Michael Olise’s goal to give Italy a precious point in Paris3 min A strong start from France, who have barely permitted Italy a kick.1 min Peep peep! France kick off from left to right…",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790974652000
-    },
-    {
       "competition": "fitalia",
       "title": "Mancini: &#8216;Italy played as a team, another step forward&#8217; with 1-1 in France",
       "publisher": "Football Italia",
@@ -90,7 +189,7 @@
     },
     {
       "competition": "men",
-      "title": "UAE tell Andy Burnham ‘billions’ will be pulled out of the UK in threat over Man City charges",
+      "title": "Andy Burnham told billions will be pulled out of the UK in threat over Man City charges",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-andy-burnham-34710410",
       "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707948.ece/ALTERNATES/s615/2_JS417249074.jpg",
@@ -186,18 +285,6 @@
       "publishedAt": 1790971397000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790970998000
-    },
-    {
       "competition": "indy",
       "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
       "publisher": "The Independent",
@@ -241,7 +328,7 @@
       "publisher": "BBC Sport",
       "link": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c09c/live/ec8c2630-be8d-11f1-888b-4d28ea12c7e2.jpg",
-      "summary": "Portuguese computer hacker who released documents which led to the Premier League investigation into Manchester City set to lose his witness protection despite fears for his life.",
+      "summary": "Portuguese computer hacker who released documents which helped trigger the Premier League investigation into Manchester City set to lose his witness protection despite fears for his life.",
       "teams": [
         "mancity"
       ],
@@ -666,95 +753,6 @@
         "italy"
       ],
       "publishedAt": 1790955110000
-    },
-    {
-      "competition": "mirror",
-      "title": "Pep Guardiola planning shock Man City return to show support after guilty verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-pep-guardiola-return-37728966",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716872.ece/ALTERNATES/s615/2_GettyImages-2153875498.jpg",
-      "summary": "Pep Guardiola handed over the reins to Enzo Maresca as manager of Manchester City this summer, but the Catalan boss is planning to be present at their next home game",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790954263000
-    },
-    {
-      "competition": "bundes",
-      "title": "On the rise: Tom Bischof's early season from proves that he can be a key man for Bayern Munich and Germany",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/tom-bischof-bayern-munich-germany-juergen-klopp-39410",
-      "image": "https://assets.bundesliga.com/contender/2026/9/imago1084020984h.jpg?crop=0px%2C155px%2C4000px%2C2250px",
-      "summary": "Tom Bischof scored Germany’s first goal in their 2-0 win over Serbia on Thursday night, with his close range finish the highlight of a superb individual performance from midfield.",
-      "teams": [
-        "bayern",
-        "germany"
-      ],
-      "publishedAt": 1790954042000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal given Ezri Konsa injury update after England injury blow",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-news-ezri-konsa-england-34708626",
-      "image": "https://i2-prod.football.london/incoming/article34682402.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
-      "summary": "Arsenal star Ezri Konsa has been an injury worry for Mikel Arteta after picking up a problem during the international break",
-      "teams": [
-        "arsenal",
-        "england"
-      ],
-      "publishedAt": 1790953759000
-    },
-    {
-      "competition": "metro",
-      "title": "Arsenal star&#8217;s awkward reaction as former Chelsea boss jokes about Man City charges",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/02/arsenal-star-tries-not-laugh-former-chelsea-boss-jokes-man-city-charges-29674168/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2296497324-3bdf.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity",
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1790953635000
-    },
-    {
-      "competition": "echo",
-      "title": "Julian Ward's first task as new Liverpool sporting director clear as contract issue returns",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/julian-wards-first-task-new-34708270",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34708939.ece/ALTERNATES/s615/0_premium-canvas-1790953361415.png",
-      "summary": "This week's Blood Red column assesses the return to the sporting director role of Julian Ward",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790953569000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Italy talent Cisse claims ‘I’ve only shown 70% of my capabilities&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-talent-cisse-only-shown-70-percent/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2025/10/italy-u19-v-spain-u19-internatio.jpg",
-      "summary": "Milan and Italy talent Alphadjo Cisse claims that he has only shown ‘70%’ of his...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790953418000
-    },
-    {
-      "competition": "metro",
-      "title": "Arsenal issued new Christos Tzolis injury update after tests with Greece",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/02/arsenal-issued-new-christos-tzolis-injury-update-tests-greece-29674639/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314962566-f187.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal",
-        "greece"
-      ],
-      "publishedAt": 1790953234000
     }
   ]
 }
