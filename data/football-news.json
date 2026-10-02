@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790899195129,
+  "generatedAt": 1790899771027,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1521,
-    "tagged": 809,
+    "raw": 1515,
+    "tagged": 803,
     "droppedKeyword": 48,
     "droppedOtherSport": 1,
     "droppedFeed": 10,
     "blocklistDistrusted": false,
-    "withImage": 57
+    "withImage": 58
   },
   "items": [
     {
@@ -307,6 +307,18 @@
         "mancity"
       ],
       "publishedAt": 1790878272000
+    },
+    {
+      "competition": "guardian",
+      "title": "Andy Burnham’s Manchester City comments stir fresh tensions with Premier League",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/01/andy-burnhams-manchester-city-comments-stir-fresh-tensions-with-premier-league",
+      "image": "https://i.guim.co.uk/img/media/a152c3623ce8ee75501f12b728be3fc569a2fdf4/256_78_1196_957/master/1196.jpg?width=140&quality=85&auto=format&fit=max&s=68364b9f61f11f42c3d7d8c597129bcd",
+      "summary": "Government said to be unhappy at lack of warningTreasury committee chair wants HMRC involved in City caseAndy Burnham’s intervention in the Manchester City debate has revived tensions between the Premier League and the…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1790878238000
     },
     {
       "competition": "fitalia",
@@ -620,9 +632,20 @@
       "publishedAt": 1790870178000
     },
     {
+      "competition": "seriea",
+      "title": "Inter Midfielder Calhanoglu Tops Fan Vote With Monza Opener",
+      "publisher": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmswTW1FUWZaYTVnQ0RBdk1ScExOdFVjekM2QTRrWVFtc0FVRzQyZmlCUDVDYUFyXzJzYTB6ZmhhT3IxeFhibmZ0SDNSZi1DMFpORGl5c3NZeVNWQ3ZiTWgyZVVEN01EZzRxeUtaX1NIYm43UEMzM2dIbGlaLUdTY0J6LTJyWC1VZ29aRjFnM2VVMW1TdjQxSWFSOEtsdkpvNTBLRVFTZkozNFFYY2tRU2FKT0k2eTRUd0g0MTFDUGc?oc=5",
+      "teams": [
+        "monza"
+      ],
+      "publishedAt": 1790898643000,
+      "image": null
+    },
+    {
       "competition": "ucl",
       "title": "UEFA Nations League Matchday 3 highlights: Portugal soar clear, Jürgen Klopp gets first Germany win",
-      "publisher": "uefa.com",
+      "publisher": "UEFA.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNVdlNV9QTVlaX2JYU3dsSm5qUXU2NEY1RzlSOUprOHJ6U0FJQXdVdmRveUUyNkhBeFB0OGh2OGtVZHZpNzNnbXN6N0xjYkRQVmhKY1UwcGwtYW9zNERhXzF3ZG5iX1dMOTFxWjJ4Y3pOcU5xdHJlaW5CUm9HQldEMlRXUzY4eExUSjY4Q280c2lBbTdLUDRFNnVnUWtuNlhLOGhaRjN5eENMUUlDR1c5eTQ5ZjhFU3FaZ3laVHRmZG0yUVptVnFxcHNMM3VVSWhqSHBXSmFn?oc=5",
       "teams": [
         "portugal",
@@ -728,29 +751,6 @@
         "england"
       ],
       "publishedAt": 1790867699000
-    },
-    {
-      "competition": "epl",
-      "title": "Possible Departures? Manchester City Players Take Precautions Amid Potential Premier League Punishment",
-      "publisher": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQZGVuNVlsRnRIbzF3WFFRamVnZ3ZDODVHcFZwWGVwTERCWFRuWFQ0c19lODNackFqbnJia3JKQTdaLXJSSkpGdVBXLTV0WWZ6cS0xRW5mRmJ1Mmowc3FzcUZpdWpBMTR6dkt3cklVcTVYQnk3WVlBamdzVFQ2Tkh3bU1VN0s0ek00VGMwR3NEZ2VJajhDZWJOSFV2cmtHTnloT05keGhQQnVpaXItUjVHal8yUzlJM24wR3lNSmZfY2JfTE5Bakphb1I2YVJydUx1ZVlfZnItbW5Bc09PbnZCTUNzTHd2NmotdXEwLWdDem16XzF3aHUzVWpHcVI1U3ZlTDFEb19KTQ?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790896333000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Wales 2-1 Norway",
-      "publisher": "uefa.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcklwUnoyMkhxaWZmcl9Id1c3U1hXeTYxZEV4TEx2TVlBWWdmZ2dqejNmR2ppdmtLZWZLd3ZXbTY3YzJhVkdoa21NTm1zMTVmZWlvUXJNT1pibnlNYzFXbGdlY0JCa1JMTEtWdzNNejEyX1pLdEJLLUpVSFF6RGd3T3ZGd2xzM3VZZTVFX2JfZVAzUzFUcEtNRmZ2SGg0MHFxZUFaeGl5aGxpcXFLU1pXOVZTVkdONUVxd0w4eDdkV2NnczdCd01oUGVDY1RydW0wWmc?oc=5",
-      "teams": [
-        "norway",
-        "wales"
-      ],
-      "publishedAt": 1790896321000,
-      "image": null
     }
   ]
 }
