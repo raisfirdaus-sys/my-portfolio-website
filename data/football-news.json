@@ -1,17 +1,142 @@
 {
-  "generatedAt": 1791028823343,
+  "generatedAt": 1791031218643,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 830,
+    "raw": 1516,
+    "tagged": 821,
     "droppedKeyword": 31,
     "droppedOtherSport": 2,
-    "droppedFeed": 11,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "fitalia",
+      "title": "Italy beat 10-year statistic in first-half performance in 1-1 draw away against France",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italy-beat-10-year-stat-away-against-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Sandro-Tonali-and-Roberto-Mancini.jpg",
+      "summary": "Italy picked up an encouraging 1-1 draw away against France on Friday evening, and in...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1791030666000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791030161000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791030107000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ireland boss warns second Israel clash will ‘not be a friendly’ after ‘hate’ comment",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ireland-boss-warns-second-israel-37730840",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730827.ece/ALTERNATES/s615/0_GettyImages-2297533302.jpg",
+      "summary": "The Republic of Ireland are set to take on Israel for the second time during the international break with tensions having seemingly boiled over ahead of their rematch in Serbia",
+      "teams": [
+        "israel"
+      ],
+      "publishedAt": 1791029706000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man Utd and players could be due millions as 'review' held after Man City charges",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-man-city-charges-37730757",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37730755.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
+      "summary": "Manchester United are conducting an internal review of the financial impact of Manchester City's Premier League charges, and their players could claim millions",
+      "teams": [
+        "mancity",
+        "manutd"
+      ],
+      "publishedAt": 1791029538000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Nicolas Jackson value rockets after Aston Villa transfer in huge boost for NSWE",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/nicolas-jackson-value-rockets-after-34711741",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644377.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
+      "summary": "The Senegal international striker moved to Villa Park from Chelsea in the summer in a deal worth £65m to become Villa’s record signing",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1791029229000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Mancini&#8217;s full-time reaction shows Italy weren’t happy to settle for a draw vs. France",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/italy-werent-happy-settle-for-a-draw-vs-france/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Alessandro-Bastoni-celebrate-France-Italy.jpg",
+      "summary": "Italy supporters have taken positively to Roberto Mancini’s frustrated full-time reaction after Friday night’s 1-1...",
+      "teams": [
+        "france",
+        "italy"
+      ],
+      "publishedAt": 1791029194000
+    },
+    {
+      "competition": "birmingham",
+      "title": "Unai Emery has former players all saying same thing as Aston Villa boss returns to old club",
+      "publisher": "Birmingham Live",
+      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-unai-emery-sevilla-34711130",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34711268.ece/ALTERNATES/s615/0_GettyImages-2216994012.jpg",
+      "summary": "Unai Emery led Aston Villa against Sevilla in a memorial game on Friday and three of his former players had something to say",
+      "teams": [
+        "astonvilla"
+      ],
+      "publishedAt": 1791029123000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England to be mainly full despite fan ban; Manchester City latest – matchday live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
+      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
+      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
+      "teams": [
+        "mancity",
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791029008000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Four ways Arsenal can solve Christos Tzolis injury puzzle as Mikel Arteta dealt huge blow",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/four-ways-arsenal-can-solve-34711380",
+      "image": "https://i2-prod.football.london/incoming/article34711630.ece/ALTERNATES/s615/0_GettyImages-2293835309.jpg",
+      "summary": "Mikel Arteta has less than a week to work out how to replace Christos Tzolis in the Arsenal starting lineup.",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791028800000
+    },
     {
       "competition": "fitalia",
       "title": "Real Madrid talent Endrick emerges as Roma priority for January window",
@@ -38,20 +163,6 @@
       "publishedAt": 1791028482000
     },
     {
-      "competition": "guardian",
-      "title": "Croatia v England to be mainly full despite fan ban; Manchester City latest – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
-      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
-      "teams": [
-        "mancity",
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791028206000
-    },
-    {
       "competition": "chronicle",
       "title": "The 24 hardest players ever to play for Newcastle United",
       "publisher": "Chronicle Live",
@@ -62,18 +173,6 @@
         "newcastle"
       ],
       "publishedAt": 1791027000000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791026895000
     },
     {
       "competition": "footlondon",
@@ -196,18 +295,6 @@
         "italy"
       ],
       "publishedAt": 1791023580000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791023506000
     },
     {
       "competition": "men",
@@ -658,92 +745,6 @@
         "arsenal"
       ],
       "publishedAt": 1791010800000
-    },
-    {
-      "competition": "men",
-      "title": "JJ Gabriel reverses ban, Barcelona latest and Man United timeline",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-barcelona-34706925",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34706923.ece/ALTERNATES/s615/0_Manchester-United-U21-v-Leicester-City-U21-U21-Premier-League.jpg",
-      "summary": "JJ Gabriel's future has captured attention since the Manchester United teenager requested to leave Old Trafford",
-      "teams": [
-        "manutd",
-        "barcelona"
-      ],
-      "publishedAt": 1791009000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal star Viktor Gyokeres breaks UEFA record as clear message sent to Mikel Arteta",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-viktor-gyokeres-mikel-arteta-34710523",
-      "image": "https://i2-prod.football.london/incoming/article34710552.ece/ALTERNATES/s615/0_JS419573543.jpg",
-      "summary": "Viktor Gyokeres broke a Nations League record as the Arsenal star continued to enjoy his time with Sweden during the international break",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791008858000
-    },
-    {
-      "competition": "indy",
-      "title": "How Gianluigi Donnarumma’s excellence denied Zinedine Zidane win in first home game as France boss",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/france-italy-result-score-zidane-donnarumma-olise-b3060681.html",
-      "image": "https://static.independent.co.uk/2026/10/02/22/download..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "summary": "France 1-1 Italy: French fans were treated to an exciting game at Stade de France but did not get the result they expected, mainly because of the Manchester City goalkeeper’s display",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1791007470000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch Croatia vs England for free – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-croatia-nations-league-stream-37722474",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37716510.ece/ALTERNATES/s615/1_GettyImages-2297767776.jpg",
-      "summary": "England visits Croatia in the UEFA Nations League on Saturday seeking a second straight win",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Thierry Henry launches staunch defence of Mikel Arteta in Arsenal rant about style of play",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-launches-staunch-defence-34707938",
-      "image": "https://i2-prod.football.london/incoming/article34708447.ece/ALTERNATES/s615/0_Screenshot-2026-10-02-145035.png",
-      "summary": "Mikel Arteta has been accused of being over-reliant on set-pieces over the years, but Thierry Henry has set the record straight.",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea set for long-awaited £47m injury boost in behind-closed-doors friendly",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/chelsea-set-long-awaited-47m-34707843",
-      "image": "https://i2-prod.football.london/incoming/article34708194.ece/ALTERNATES/s615/0_GettyImages-2288357982.jpg",
-      "summary": "Chelsea are set to be in action behind closed doors over the weekend and Xabi Alonso will be hoping to give some players in particular much-needed minutes on the pitch",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "men",
-      "title": "Man United fans snap up official £28 Christmas jumper for £12 in over half price deal",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-fans-snap-up-34681974",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34681989.ece/ALTERNATES/s615/1_Untitled-September-25-2026-at-134102-3jpeg.jpg",
-      "summary": "Manchester United fans can get a head start on their Christmas shopping with a clever deal that knocks 55% off an official festive jumper",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791007200000
     }
   ]
 }
