@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790981789218,
+  "generatedAt": 1790986312728,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1527,
-    "tagged": 826,
-    "droppedKeyword": 38,
-    "droppedOtherSport": 2,
+    "raw": 1531,
+    "tagged": 825,
+    "droppedKeyword": 39,
+    "droppedOtherSport": 1,
     "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 60
+    "withImage": 59
   },
   "items": [
     {
@@ -655,6 +655,18 @@
       "publishedAt": 1790956979000
     },
     {
+      "competition": "unl-a",
+      "title": "Croatia vs. England—Nations League: Preview, Predictions and Lineups",
+      "publisher": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDFObS1ZdS1YZEI5U0Zpd2dFMHhGZElfcG9mUmdjVWJGTjdBLXd5ZV9kanhNY3RrUnlvclpWd3kwVUR4UGFsTkxCM2RzQ0J2b2lJZ0pFbEdOaGluVmFvdjlvM3ktMW04ZnByakZzOS1TQmNoNTE3eGJ1SzFvWGdXRDlzQTRJOGJNcnlnTFRlR3FYWVZrY09aUnVzbw?oc=5",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1790985601000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "How to watch Ukraine v Northern Ireland for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
@@ -741,18 +753,6 @@
         "england"
       ],
       "publishedAt": 1790955682000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Bierhoff: ‘Changes won’t happen for Italy in 2 or 3 years, I saw Maldini’s determination’",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/bierhoff-italy-change-wont-happen-in-two-years/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/germany-press-conference-fifa-wo.jpg",
-      "summary": "Oliver Bierhoff has warned that it will take longer than just two or three years...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790955110000
     }
   ]
 }
