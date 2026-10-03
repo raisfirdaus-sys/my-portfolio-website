@@ -1,28 +1,41 @@
 {
-  "generatedAt": 1791026069784,
+  "generatedAt": 1791028823343,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1531,
-    "tagged": 829,
+    "raw": 1525,
+    "tagged": 830,
     "droppedKeyword": 31,
     "droppedOtherSport": 2,
-    "droppedFeed": 10,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "competition": "fitalia",
+      "title": "Real Madrid talent Endrick emerges as Roma priority for January window",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/real-madrid-talent-endrick-roma-priority/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Endrick-friendly-Real-Madrid-414x276.jpg",
+      "summary": "According to Il Corriere dello Sport, Roma remain interested in Endrick, with the Real Madrid...",
       "teams": [
-        "mancity"
+        "realmadrid",
+        "roma"
       ],
-      "publishedAt": 1791025713000
+      "publishedAt": 1791028515000
+    },
+    {
+      "competition": "men",
+      "title": "Manchester United's forgotten man is about to give Michael Carrick a huge boost",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-uniteds-forgotten-man-give-34711251",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34711279.ece/ALTERNATES/s615/0_GettyImages-2295624357.jpg",
+      "summary": "Man Utd defender Matthijs de Ligt is almost at full fitness after recovering from surgery for a back injury.",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791028482000
     },
     {
       "competition": "guardian",
@@ -36,7 +49,67 @@
         "croatia",
         "england"
       ],
-      "publishedAt": 1791025398000
+      "publishedAt": 1791028206000
+    },
+    {
+      "competition": "chronicle",
+      "title": "The 24 hardest players ever to play for Newcastle United",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/gallery/newcastle-united-premier-league-hardmen-34707451",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article1384826.ece/ALTERNATES/s615/alan-smith-941465098.jpg",
+      "summary": "Some of the toughest players to wear the black-and-white stripes int the club's history",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1791027000000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791026895000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea turn green with envy as £60m 'monster' twists the knife after transfer hijack",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-transfer-news-jeremy-jacquet-34711183",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711182.ece/ALTERNATES/s615/0_France-v-Italy-UEFA-Nations-League-202627-Group-A1-MD3.jpg",
+      "summary": "Chelsea were pipped to the post for a £60million sensation, who has since gone on to make a huge splash in the Premier League and on the international stage",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1791026530000
+    },
+    {
+      "competition": "echo",
+      "title": "Rio Ngumoha explains what Mohamed Salah has told him to help 'reach the top' at Liverpool",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-explains-what-mohamed-34711306",
+      "image": "https://i2-prod.liverpool.com/incoming/article34711047.ece/ALTERNATES/s615/1_IMG_8073.jpg",
+      "summary": "Rio Ngumoha opens up on the advice given to him by Mohamed Salah before the Liverpool legend left the club",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791026228000
+    },
+    {
+      "competition": "guardian",
+      "title": "Manchester City whistleblower ready to help UK authorities in return for protection",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/03/manchester-city-whistleblower-rui-pinto-ready-to-help-uk-authorities-in-return-for-protection",
+      "image": "https://i.guim.co.uk/img/media/f6b8ee9f00cd4faa4c11211cd6e8002adeda65f1/898_0_3887_3113/master/3887.jpg?width=140&quality=85&auto=format&fit=max&s=bdeb90009851d0f9af8ced30049832c1",
+      "summary": "Rui Pinto faces loss of witness safeguarding in PortugalMore documents over City affairs may be made availableRui Pinto, whose leaks helped to trigger the Premier League’s investigation into Manchester City’s financial…",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791025968000
     },
     {
       "competition": "fitalia",
@@ -638,18 +711,6 @@
     },
     {
       "competition": "footlondon",
-      "title": "Chelsea set for long-awaited £47m injury boost in behind-closed-doors friendly",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/chelsea-set-long-awaited-47m-34707843",
-      "image": "https://i2-prod.football.london/incoming/article34708194.ece/ALTERNATES/s615/0_GettyImages-2288357982.jpg",
-      "summary": "Chelsea are set to be in action behind closed doors over the weekend and Xabi Alonso will be hoping to give some players in particular much-needed minutes on the pitch",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "footlondon",
       "title": "Thierry Henry launches staunch defence of Mikel Arteta in Arsenal rant about style of play",
       "publisher": "football.london",
       "link": "https://www.football.london/arsenal-fc/news/thierry-henry-launches-staunch-defence-34707938",
@@ -657,6 +718,18 @@
       "summary": "Mikel Arteta has been accused of being over-reliant on set-pieces over the years, but Thierry Henry has set the record straight.",
       "teams": [
         "arsenal"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea set for long-awaited £47m injury boost in behind-closed-doors friendly",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/chelsea-set-long-awaited-47m-34707843",
+      "image": "https://i2-prod.football.london/incoming/article34708194.ece/ALTERNATES/s615/0_GettyImages-2288357982.jpg",
+      "summary": "Chelsea are set to be in action behind closed doors over the weekend and Xabi Alonso will be hoping to give some players in particular much-needed minutes on the pitch",
+      "teams": [
+        "chelsea"
       ],
       "publishedAt": 1791007200000
     },
@@ -671,79 +744,6 @@
         "manutd"
       ],
       "publishedAt": 1791007200000
-    },
-    {
-      "competition": "men",
-      "title": "I never played for England again after snubbing call-up – but I don’t regret my decision",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/england-international-career-micah-richards-34689675",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34689694.ece/ALTERNATES/s615/1_England-v-Netherlands-International-Friendly.jpg",
-      "summary": "The former Three Lions star realised his dream after rejecting the possibility of playing for England",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "echo",
-      "title": "I was so disappointed when Liverpool's transfer offer was rejected - I got chills at Anfield",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-bid-rejected-disappointed-34699037",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34699084.ece/ALTERNATES/s615/0_GettyImages-606506216.jpg",
-      "summary": "A former Liverpool star shared his frustration after initially being denied a move to Anfield",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "mirror",
-      "title": "What's happening with JJ Gabriel? U-turn on ban, Barcelona hint, Man Utd deadline",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-jj-gabriel-barcelona-37727133",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37727157.ece/ALTERNATES/s615/0_GettyImages-2291884469-2.jpg",
-      "summary": "JJ Gabriel's future has been widely discussed since the teenager requested to leave Manchester United",
-      "teams": [
-        "barcelona",
-        "manutd"
-      ],
-      "publishedAt": 1791005400000
-    },
-    {
-      "competition": "men",
-      "title": "Wayne Rooney's sons' footballing careers with two at Man United and another axed by club",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/wayne-rooney-sons-man-united-34708714",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34708709.ece/ALTERNATES/s615/0_image-2367735jfif.jpg",
-      "summary": "Wayne and Coleen Rooney have four boys who've all taken strides into football to varying degrees of success",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791005400000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool star Rio Ngumoha named among European football's most valuable teenage players",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-rio-ngumoha-value-transfer-34691489",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34691485.ece/ALTERNATES/s615/0_FBL-ENG-PR-LIVERPOOL-FULHAM.jpg",
-      "summary": "Where Rio Ngumoha stands in a list of the most highly valued players in European football",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791005400000
-    },
-    {
-      "competition": "mirror",
-      "title": "'I don't regret turning down England even though I never got called up again'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/england-call-up-euros-olympics-37713376",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37713627.ece/ALTERNATES/s615/5_England-v-Netherlands-International-Friendly.jpg",
-      "summary": "The former England star had no qualms about rejecting the Three Lions to pursue his dream",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1791003600000
     }
   ]
 }
