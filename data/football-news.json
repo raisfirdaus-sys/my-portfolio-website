@@ -1,42 +1,205 @@
 {
-  "generatedAt": 1791048890921,
+  "generatedAt": 1791052933704,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1510,
-    "tagged": 789,
-    "droppedKeyword": 31,
+    "raw": 1520,
+    "tagged": 795,
+    "droppedKeyword": 32,
     "droppedOtherSport": 2,
-    "droppedFeed": 11,
+    "droppedFeed": 13,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "indy",
-      "title": "England v Croatia LIVE: Three Lions gifted a sixth in destructive Nations League performance",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/03/18/2026-10-03T171837Z_2123307095_UP1EMA31C2ZDU_RTRMADP_3_SOCCER-UEFANATIONS-CRO-ENG.JPG?width=1200&auto=webp&trim=63%2C0%2C63%2C0",
-      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
       "teams": [
-        "croatia",
-        "england"
+        "mancity"
       ],
-      "publishedAt": 1791048590000
+      "publishedAt": 1791052502000
     },
     {
       "competition": "guardian",
-      "title": "Croatia v England: Nations League football – live",
+      "title": "North Macedonia v Scotland, Spain v Czechia, and more: Nations League – live",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/3363563f71c4937ad126e394f4e33c6eed48f556/259_0_2733_2186/master/2733.jpg?width=140&quality=85&auto=format&fit=max&s=6985065c126a90d0fd9f0a5f51e34196",
-      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/north-macedonia-v-scotland-spain-v-czechia-and-more-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/1bc0d61630e06cead461b73f241238f1bccac235/873_119_3500_2799/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=591d91038c5135177084f418adb83c80",
+      "summary": "Nations League updates from the 7.45pm BST kick-offsLive scores | Get the Football Daily newsletter | Mail LukeSpain: Raya; Fresneda, Le Normand, Laporte, García; Rodri, Pedri; Lamine Yamal, Olmo, Baena;…",
+      "teams": [
+        "nmacedonia",
+        "scotland",
+        "czechia"
+      ],
+      "publishedAt": 1791052217000
+    },
+    {
+      "competition": "tele",
+      "title": "Sublime England thrash Croatia in best performance for a decade",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
+      "summary": "Sublime England thrash Croatia in best performance for a decade",
       "teams": [
         "croatia",
         "england"
       ],
-      "publishedAt": 1791048551000
+      "publishedAt": 1791051980000
+    },
+    {
+      "competition": "metro",
+      "title": "Theo Walcott says one thing could stop Arsenal from winning the Premier League",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/theo-walcott-says-one-thing-stop-arsenal-winning-premier-league-29676419/",
+      "image": "https://metro.co.uk/wp-content/uploads/2025/04/theo-walcott-b5ba_cf77bb-091e.png?w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791051738000
+    },
+    {
+      "competition": "indy",
+      "title": "England v Croatia LIVE: Three Lions hit seven to inflict humiliating Nations League defeat on hosts",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
+      "image": "https://static.independent.co.uk/2026/10/03/18/01M41DEYEBYWKS0BG7RWDDQJ87.jpg?width=1200&auto=webp&trim=33%2C0%2C33%2C0",
+      "summary": "Croatia 0-7 England: Thomas Tuchel’s side dealt Croatia their heaviest ever defeat in Rijeka",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791051651000
+    },
+    {
+      "competition": "indy",
+      "title": "England put seven past shambolic Croatia to show secret to success under Thomas Tuchel",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/england-croatia-score-result-kane-saka-tuchel-nations-league-b3060899.html",
+      "image": "https://static.independent.co.uk/2026/10/03/19/2298415119..?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Croatia 0-7 England: Tuchel’s side never let up on their shambolic opponents to take a huge step towards Nations League qualification",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791051264000
+    },
+    {
+      "competition": "mirror",
+      "title": "Unstoppable Jude Bellingham is a future Ballon d'Or winner and can be England's best ever",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/unstoppable-jude-bellingham-future-ballon-37731693",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731696.ece/ALTERNATES/s615/0_GettyImages-2298414923.jpg",
+      "summary": "England faced off against a player who has already been crowned the world's best player, but in Jude Bellingham, the Three Lions have a player ready to take the crown",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1791051227000
+    },
+    {
+      "competition": "guardian",
+      "title": "Kane and Saka double up as England school Croatia in historic Nations League rout",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/03/croatia-england-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/90c7fa175ef88fafa729a5d329fd7f789dc658b7/452_0_3084_2469/master/3084.jpg?width=140&quality=85&auto=format&fit=max&s=c5c4459f7d6ce9522ebb1cf66da10b36",
+      "summary": "It had all the edge of a pop concert in the stands but England looked ready to steal candy from a baby. The 6,200 Croatian under-14s allowed inside Stadion HNK Rijeka were invited free of charge and this was a priceless…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791050642000
+    },
+    {
+      "competition": "bbc",
+      "title": "Who was the best player on the pitch? - England player ratings",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq4g1x8znyd0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d1/live/36cf3a10-bf52-11f1-a84d-81c67bc2828e.jpg",
+      "summary": "England produce one of their best performances in recent times as they thump Croatia 6-0 in Rijeka. How did our report rate the players' performances?",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1791050293000
+    },
+    {
+      "competition": "echo",
+      "title": "Luis Diaz 'thankful' mega-money Liverpool transfer never materialised",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/luis-diaz-liverpool-transfer-olise-34712834",
+      "image": "https://i2-prod.football.london/incoming/article34712850.ece/ALTERNATES/s615/0_FC-Bayern-Mnchen-v-1-FC-Union-Berlin-Bundesliga-202627.jpg",
+      "summary": "Liverpool were linked with an interest in Michael Olise ahead of the summer transfer window",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791050116000
+    },
+    {
+      "competition": "mirror",
+      "title": "England player ratings as brilliant 9/10 star leads the way in Croatia thrashing",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/croatia-vs-england-player-ratings-37731574",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731586.ece/ALTERNATES/s615/0_GettyImages-2298407274.jpg",
+      "summary": "CROATIA 0-7 ENGLAND: Thomas Tuchel's side recorded an historic win in Rijeka as they thrashed their hosts to make it back-to-back away wins in the Nations League",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791049962000
+    },
+    {
+      "competition": "mirror",
+      "title": "England batter Croatia as Harry Kane underlines Ballon d'Or credentials - 5 talking points",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/match-reports/england-croatia-goals-talking-points-37731504",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37731654.ece/ALTERNATES/s615/0_GettyImages-2298403410.jpg",
+      "summary": "CROATIA 0-7 ENGLAND: Thomas Tuchel's side show no mercy as the fabulous front four of Harry Kane, Jude Bellingham, Anthony Gordon and Bukayo Saka make hay in Rijeka",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791049960000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Juventus want Leoni and Palmisani to rebuild Italian core in 2027",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/juventus-want-leoni-palmisani-italian-core/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Guglielmo-Vicario.jpg",
+      "summary": "Saturday’s reports claim that Liverpool’s Giovanni Leooni and Frosinone goalkeeper Lorenzo Palmisani are among the...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1791049817000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal look to RB Leipzig transfer plan after Christos Tzolis injury blow",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-transfer-nusa-tzolis-injury-34712823",
+      "image": "https://i2-prod.football.london/incoming/article34712935.ece/ALTERNATES/s615/0_JS419469142.jpg",
+      "summary": "RB Leipzig star and Norway international Antonio Nusa has been linked with a move to Arsenal ahead of the January transfer window",
+      "teams": [
+        "leipzig",
+        "arsenal"
+      ],
+      "publishedAt": 1791049547000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791048702000
     },
     {
       "competition": "mirror",
@@ -49,18 +212,6 @@
         "arsenal"
       ],
       "publishedAt": 1791046966000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791046856000
     },
     {
       "competition": "chronicle",
@@ -140,7 +291,7 @@
       "competition": "footlondon",
       "title": "Tottenham have transfer edge over Barcelona as '£85m goal machine dreaming of move'",
       "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/spurs-transfer-barcelona-latest-pavlidis-34712592",
+      "link": "https://www.football.london/tottenham-hotspur-fc/transfer-news/spurs-transfer-barcelona-latest-pavlidis-34712592",
       "image": "https://i2-prod.football.london/incoming/article34712689.ece/ALTERNATES/s615/0_JS368516046.jpg",
       "summary": "Tottenham Hotspur could have an advantage over Barcelona in the battle to sign Benfica star Vangelis Pavlidis",
       "teams": [
@@ -173,16 +324,17 @@
       "publishedAt": 1791043910000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "competition": "mirror",
+      "title": "How to watch North Macedonia vs Scotland for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/scotland-north-macedonia-stream-channel-37724502",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690097.ece/ALTERNATES/s615/1_Scotland-v-Brazil-2026-FIFA-World-Cup-Group-C-Football-Miami-Stadium-Miami-Florida-USA-24-J.jpg",
+      "summary": "Sebastien Pocognoli is still seeking his first win as Scotland manager as they travel to North Macedonia in the UEFA Nations League",
       "teams": [
-        "mancity"
+        "nmacedonia",
+        "scotland"
       ],
-      "publishedAt": 1791043666000
+      "publishedAt": 1791043200000
     },
     {
       "competition": "mirror",
@@ -193,19 +345,6 @@
       "summary": "Clashing heads with the manager resulted in the striker being punished",
       "teams": [
         "croatia"
-      ],
-      "publishedAt": 1791043200000
-    },
-    {
-      "competition": "mirror",
-      "title": "How to watch North Macedonia vs Scotland for free – TV channel, streaming, kick-off time",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/scotland-north-macedonia-stream-channel-37724502",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37690097.ece/ALTERNATES/s615/1_Scotland-v-Brazil-2026-FIFA-World-Cup-Group-C-Football-Miami-Stadium-Miami-Florida-USA-24-J.jpg",
-      "summary": "Sebastien Pocognoli is still seeking his first win as Scotland manager as they travel to North Macedonia in the UEFA Nations League",
-      "teams": [
-        "nmacedonia",
-        "scotland"
       ],
       "publishedAt": 1791043200000
     },
@@ -348,7 +487,7 @@
       "publisher": "The Guardian",
       "link": "https://www.theguardian.com/football/2026/oct/03/ireland-cut-short-news-conference-israel-nations-league-football",
       "image": "https://i.guim.co.uk/img/media/926e7622d214ccc74e63083c8ae8e7aac0ec8f12/1685_794_3673_2939/master/3673.jpg?width=140&quality=85&auto=format&fit=max&s=7add9a7c807a8d73eca58e17bdcba1c0",
-      "summary": "Irish manager Hallgrimsson calls for ‘cool heads’Accusations of racism dismissed as ‘completely untrue’The Republic of Ireland’s press conference on the eve of their second Nations League match against Israel in Serbia…",
+      "summary": "Ireland manager Hallgrímsson calls for ‘cool heads’Accusations of racism dismissed as ‘completely untrue’The Republic of Ireland’s press conference on the eve of their second Nations League match against Israel in…",
       "teams": [
         "israel"
       ],
@@ -601,19 +740,6 @@
       "publishedAt": 1791030775000
     },
     {
-      "competition": "fitalia",
-      "title": "Italy beat 10-year statistic in first-half performance in 1-1 draw away against France",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-beat-10-year-stat-away-against-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Sandro-Tonali-and-Roberto-Mancini.jpg",
-      "summary": "Italy picked up an encouraging 1-1 draw away against France on Friday evening, and in...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1791030666000
-    },
-    {
       "competition": "mirror",
       "title": "Ireland boss warns Israel clash will ‘not be a friendly’ as press conference descends into chaos",
       "publisher": "Mirror Football",
@@ -624,130 +750,6 @@
         "israel"
       ],
       "publishedAt": 1791029706000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd and players could be due millions as 'review' held after Man City charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-utd-man-city-charges-37730757",
-      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37730755.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
-      "summary": "Manchester United are conducting an internal review of the financial impact of Manchester City's Premier League charges, and their players could claim millions",
-      "teams": [
-        "mancity",
-        "manutd"
-      ],
-      "publishedAt": 1791029538000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Nicolas Jackson value rockets after Aston Villa transfer in huge boost for NSWE",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/transfer-news/nicolas-jackson-value-rockets-after-34711741",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34644377.ece/ALTERNATES/s615/0_Tottenham-Hotspur-v-Aston-Villa-FC-Premier-League-202627.jpg",
-      "summary": "The Senegal international striker moved to Villa Park from Chelsea in the summer in a deal worth £65m to become Villa’s record signing",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1791029229000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini&#8217;s full-time reaction shows Italy weren’t happy to settle for a draw vs. France",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/italy-werent-happy-settle-for-a-draw-vs-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Alessandro-Bastoni-celebrate-France-Italy.jpg",
-      "summary": "Italy supporters have taken positively to Roberto Mancini’s frustrated full-time reaction after Friday night’s 1-1...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1791029194000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Unai Emery has former players all saying same thing as Aston Villa boss returns to old club",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-unai-emery-sevilla-34711130",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34711268.ece/ALTERNATES/s615/0_GettyImages-2216994012.jpg",
-      "summary": "Unai Emery led Aston Villa against Sevilla in a memorial game on Friday and three of his former players had something to say",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1791029123000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Four ways Arsenal can solve Christos Tzolis injury puzzle as Mikel Arteta dealt huge blow",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/four-ways-arsenal-can-solve-34711380",
-      "image": "https://i2-prod.football.london/incoming/article34711630.ece/ALTERNATES/s615/0_GettyImages-2293835309.jpg",
-      "summary": "Mikel Arteta has less than a week to work out how to replace Christos Tzolis in the Arsenal starting lineup.",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791028800000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Real Madrid talent Endrick emerges as Roma priority for January window",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/real-madrid-talent-endrick-roma-priority/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Endrick-friendly-Real-Madrid-414x276.jpg",
-      "summary": "According to Il Corriere dello Sport, Roma remain interested in Endrick, with the Real Madrid...",
-      "teams": [
-        "realmadrid",
-        "roma"
-      ],
-      "publishedAt": 1791028515000
-    },
-    {
-      "competition": "men",
-      "title": "Manchester United's forgotten man is about to give Michael Carrick a huge boost",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/manchester-uniteds-forgotten-man-give-34711251",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34711279.ece/ALTERNATES/s615/0_GettyImages-2295624357.jpg",
-      "summary": "Man Utd defender Matthijs de Ligt is almost at full fitness after recovering from surgery for a back injury.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791028482000
-    },
-    {
-      "competition": "bundes",
-      "title": "Serge Gnabry leaves Germany camp to return to Bayern Munich",
-      "publisher": "Bundesliga",
-      "link": "https://www.bundesliga.com/en/bundesliga/news/serge-gnabry-leaves-germany-camp-bayern-munich-return-39412",
-      "image": "https://assets.bundesliga.com/contender/2026/9/imago1084016817h.jpg?crop=0px%2C45px%2C3000px%2C1687px",
-      "summary": "Serge Gnabry has returned to Bayern Munich after departing the Germany camp ahead of Die Nationalelf's final fixture of the international break, the DFB have confirmed.",
-      "teams": [
-        "bayern",
-        "germany"
-      ],
-      "publishedAt": 1791027427000
-    },
-    {
-      "competition": "chronicle",
-      "title": "The 24 hardest players ever to play for Newcastle United",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/gallery/newcastle-united-premier-league-hardmen-34707451",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article1384826.ece/ALTERNATES/s615/alan-smith-941465098.jpg",
-      "summary": "Some of the toughest players to wear the black-and-white stripes int the club's history",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1791027000000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Chelsea turn green with envy as £60m 'monster' twists the knife after transfer hijack",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/transfer-news/chelsea-transfer-news-jeremy-jacquet-34711183",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711182.ece/ALTERNATES/s615/0_France-v-Italy-UEFA-Nations-League-202627-Group-A1-MD3.jpg",
-      "summary": "Chelsea were pipped to the post for a £60million sensation, who has since gone on to make a huge splash in the Premier League and on the international stage",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1791026530000
     }
   ]
 }
