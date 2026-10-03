@@ -1,29 +1,128 @@
 {
-  "generatedAt": 1791039417871,
+  "generatedAt": 1791040312350,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1523,
-    "tagged": 818,
-    "droppedKeyword": 29,
+    "tagged": 821,
+    "droppedKeyword": 30,
     "droppedOtherSport": 2,
-    "droppedFeed": 11,
+    "droppedFeed": 9,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
+      "competition": "metro",
+      "title": "Zlatan Ibrahimovic snubs Arsenal as he makes Premier League title prediction",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/zlatan-ibrahimovic-snubs-arsenal-makes-premier-league-title-prediction-29676220/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_159081832-cafc.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791040139000
+    },
+    {
+      "competition": "metro",
+      "title": "UAE threatens to stop billions of UK investments after Manchester City guilty verdict",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/uae-threatens-stop-billions-uk-investments-man-city-guilty-verdict-29676257/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_314969240-eb67.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791039904000
+    },
+    {
+      "competition": "bbc",
+      "title": "Back-to-back wins for Man Utd as they see off Liverpool",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqx2z9gmjn7yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ac8/live/5d39bc00-bf36-11f1-bc2e-018d645d8d21.jpg",
+      "summary": "Manchester United celebrate their 250th game in the club's history with a narrow victory over Liverpool in the Women's Super League.",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1791039894000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791039665000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges appeal timeline - startling delay warning issued as Premier League timescale set",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-appeal-timeline-34711940",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34712417.ece/ALTERNATES/s615/0_GettyImages-2297626130.jpg",
+      "summary": "Manchester City have confirmed they will appeal the Premier League's guilty verdict in the 115 charges case and a leading barrister has warned it could be years before a conclusion",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791039483000
+    },
+    {
       "competition": "indy",
       "title": "England v Croatia LIVE: Quansah starts ahead of Alexander-Arnold in Nations League clash",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/03/15/2297380617..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "image": "https://static.independent.co.uk/2026/10/03/15/2026-10-03T144653Z_1775081073_UP1EMA315238R_RTRMADP_3_SOCCER-UEFANATIONS-CRO-ENG.JPG?width=1200&auto=webp&trim=0%2C80%2C0%2C80",
       "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
       "teams": [
         "croatia",
         "england"
       ],
-      "publishedAt": 1791039135000
+      "publishedAt": 1791039390000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/5ed1feaea8f8f74c31fc451fcf050f31a2d1dd7e/4095_2490_4088_3270/master/4088.jpg?width=140&quality=85&auto=format&fit=max&s=c2a175343d0864d8f01855e2a76848fa",
+      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottTrent Alexander-Arnold may have impressed against the Czechs, but he loses his place to former Liverpool…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791039331000
+    },
+    {
+      "competition": "men",
+      "title": "Paul Scholes disagrees with Wayne Rooney in X-rated message on Man City players' medals",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-rooney-scholes-city-34712313",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34712395.ece/ALTERNATES/s615/0_JS417743599.jpg",
+      "summary": "Manchester United legend Paul Scholes has disagreed with Wayne Rooney with their view on Man City's medals",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791039140000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Jurrien Timber provides Arsenal fitness update as Netherlands boss calms Mikel Arteta nerves",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/jurrien-timber-provides-arsenal-fitness-34712201",
+      "image": "https://i2-prod.football.london/incoming/article34712418.ece/ALTERNATES/s615/0_GettyImages-2298128533.jpg",
+      "summary": "Mikel Arteta has already lost two Arsenal players to injury, so no doubt he'll be watching the Netherlands' clash against Serbia from behind his sofa on Sunday evening.",
+      "teams": [
+        "netherlands",
+        "arsenal"
+      ],
+      "publishedAt": 1791039085000
     },
     {
       "competition": "men",
@@ -49,31 +148,6 @@
         "liverpool"
       ],
       "publishedAt": 1791038350000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791038043000
-    },
-    {
-      "competition": "guardian",
-      "title": "Croatia v England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/5ed1feaea8f8f74c31fc451fcf050f31a2d1dd7e/4095_2490_4088_3270/master/4088.jpg?width=140&quality=85&auto=format&fit=max&s=c2a175343d0864d8f01855e2a76848fa",
-      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottWelcome to the rematch of the 2018 World Cup semi-final. Yes, England have won their last three games…",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791037801000
     },
     {
       "competition": "fitalia",
@@ -679,79 +753,6 @@
         "mancity"
       ],
       "publishedAt": 1791019359000
-    },
-    {
-      "competition": "mirror",
-      "title": "Jack Wilshere offers honest Max Dowman verdict with Arsenal open to loan exit",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-max-dowman-wilshere-arteta-37730418",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730402.ece/ALTERNATES/s615/0_GettyImages-2295558796-1.jpg",
-      "summary": "Max Dowman is one of the most promising young players to come out of Arsenal’s academy over recent years, with former midfielder Jack Wilshere a huge fan of his talent",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791019302000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Hojlund sparks controversy over Ronaldo celebration and push on Portugal coach",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/hojlund-controversy-ronaldo-push-portugal/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/portugal-v-uzbekistan-group-k-fi-414x276.jpg",
-      "summary": "Napoli striker Rasmus Hojlund sparked controversy by celebrating like his idol, Cristiano Ronaldo, during a...",
-      "teams": [
-        "portugal"
-      ],
-      "publishedAt": 1791018942000
-    },
-    {
-      "competition": "echo",
-      "title": "Who is 16-year-old Everton scorer Jonathan Nsangou as Christian Norgaard makes debut",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/gallery/who-16-year-old-scorer-34710855",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710874.ece/ALTERNATES/s615/0_GettyImages-2298247954.jpg",
-      "summary": "Jonathan Nsangou, 16, scored a late equaliser for Everton to secure a 3-3 draw in their behind closed doors friendly against Blackburn Rovers at Hill Dickinson Stadium",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1791018595000
-    },
-    {
-      "competition": "bbc",
-      "title": "Why beating Denmark matters to Wales' Euro 2028 hopes",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck1wv77v9y3wo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b19c/live/8c0378e0-be8d-11f1-888b-4d28ea12c7e2.jpg",
-      "summary": "Avoiding finishing bottom of their Nations League group is a major aim for Wales following a win over Erling Haaland's Norway.",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1791018544000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Swedish media echo thoughts of Arsenal fans as Viktor Gyokeres breaks record",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/swedish-media-echo-thoughts-arsenal-34710710",
-      "image": "https://i2-prod.football.london/incoming/article34710921.ece/ALTERNATES/s615/0_GettyImages-2296497324.jpg",
-      "summary": "Arsenal striker Viktor Gyokeres was the centre of attention for Sweden once again on Friday night as he bagged yet another goal",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791018503000
-    },
-    {
-      "competition": "bbc",
-      "title": "Second Israel game won't be a friendly - Hallgrimsson",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq77075x5xv7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c42/live/deaffb90-bded-11f1-8307-556ed6258238.jpg",
-      "summary": "Republic of Ireland head coach Heimir Hallgrimsson admits Sunday's second game against Israel is \"not going to be a friendly\" following comments from the latter's camp after last week's match in Hungary.",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1791018255000
     }
   ]
 }
