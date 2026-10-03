@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1791046500549,
+  "generatedAt": 1791048890921,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1511,
-    "tagged": 795,
-    "droppedKeyword": 32,
+    "raw": 1510,
+    "tagged": 789,
+    "droppedKeyword": 31,
     "droppedOtherSport": 2,
     "droppedFeed": 11,
     "blocklistDistrusted": false,
@@ -14,16 +14,65 @@
   "items": [
     {
       "competition": "indy",
-      "title": "England v Croatia LIVE: Bukayo Saka makes it four inside first half as visitors run riot",
+      "title": "England v Croatia LIVE: Three Lions gifted a sixth in destructive Nations League performance",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/03/17/2298407540..?width=1200&auto=webp&crop=3%3A2",
+      "image": "https://static.independent.co.uk/2026/10/03/18/2026-10-03T171837Z_2123307095_UP1EMA31C2ZDU_RTRMADP_3_SOCCER-UEFANATIONS-CRO-ENG.JPG?width=1200&auto=webp&trim=63%2C0%2C63%2C0",
       "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
       "teams": [
         "croatia",
         "england"
       ],
-      "publishedAt": 1791046449000
+      "publishedAt": 1791048590000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/3363563f71c4937ad126e394f4e33c6eed48f556/259_0_2733_2186/master/2733.jpg?width=140&quality=85&auto=format&fit=max&s=6985065c126a90d0fd9f0a5f51e34196",
+      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791048551000
+    },
+    {
+      "competition": "mirror",
+      "title": "Mikel Arteta given triple Arsenal injury boost as three stars return to training",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsenal-injury-mosquera-white-hincapie-37731484",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731588.ece/ALTERNATES/s615/0_Screenshot-2026-10-03-at-174959.jpg",
+      "summary": "A group of Arsenal players who weren't selected by their countries during the international break are training at London Colney, including three Gunners stars who've been injured",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791046966000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791046856000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United under Keegan was a family - but Andy Cole felt the pressure",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-under-keegan-family-34711287",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article7641546.ece/ALTERNATES/s615/0_JS38408690.jpg",
+      "summary": "Alex Mathie recalls how Andy Cole found constant fan attention difficult at Newcastle United in the 1990s. He also remembers Kevin Keegan encouraging team nights out, buying beer and wine after wins in London, and fish…",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1791046800000
     },
     {
       "competition": "men",
@@ -36,19 +85,6 @@
         "arsenal"
       ],
       "publishedAt": 1791046373000
-    },
-    {
-      "competition": "guardian",
-      "title": "Croatia v England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/9114209d2b6603a768761f674136c5097d6e69ad/120_180_3291_2633/master/3291.jpg?width=140&quality=85&auto=format&fit=max&s=f4f0e43d8b2cb252d38cec1ff3224b89",
-      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791045560000
     },
     {
       "competition": "mirror",
@@ -74,18 +110,6 @@
         "england"
       ],
       "publishedAt": 1791045311000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791045037000
     },
     {
       "competition": "fitalia",
@@ -137,6 +161,18 @@
       "publishedAt": 1791044118000
     },
     {
+      "competition": "bbc",
+      "title": "Group has 'exploded' after Wales win - Bellamy",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgewx77521o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d544/live/cd3b0f80-bf1e-11f1-9b47-174f268aae1d.jpg",
+      "summary": "Craig Bellamy says Wales' win over Norway has \"thrown a hand grenade\" into their Nations League group as they go in search of another victory against Denmark in Cardiff on Sunday.",
+      "teams": [
+        "wales"
+      ],
+      "publishedAt": 1791043910000
+    },
+    {
       "competition": "men",
       "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
       "publisher": "Manchester Evening News",
@@ -150,6 +186,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Croatia boss sent striker home from international duty after he refused to come on",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/croatia-england-nations-league-match-37721603",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721607.ece/ALTERNATES/s615/1_Croatia-team-group-of-back-row-L-to-R-Ma.jpg",
+      "summary": "Clashing heads with the manager resulted in the striker being punished",
+      "teams": [
+        "croatia"
+      ],
+      "publishedAt": 1791043200000
+    },
+    {
+      "competition": "mirror",
       "title": "How to watch North Macedonia vs Scotland for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/scotland-north-macedonia-stream-channel-37724502",
@@ -158,18 +206,6 @@
       "teams": [
         "nmacedonia",
         "scotland"
-      ],
-      "publishedAt": 1791043200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Croatia boss sent striker home from international duty after he refused to come on",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/croatia-england-nations-league-match-37721603",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721607.ece/ALTERNATES/s615/1_Croatia-team-group-of-back-row-L-to-R-Ma.jpg",
-      "summary": "Clashing heads with the manager resulted in the striker being punished",
-      "teams": [
-        "croatia"
       ],
       "publishedAt": 1791043200000
     },
@@ -439,19 +475,6 @@
         "liverpool"
       ],
       "publishedAt": 1791033892000
-    },
-    {
-      "competition": "indy",
-      "title": "Republic of Ireland press conference cut short after clashes ahead of Israel rematch",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-israel-press-conference-b3060807.html",
-      "image": "https://static.independent.co.uk/2026/10/03/13/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "There have been protests in Ireland over the decision to fulfil two Nations League fixtures",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1791033793000
     },
     {
       "competition": "mirror",
@@ -725,30 +748,6 @@
         "chelsea"
       ],
       "publishedAt": 1791026530000
-    },
-    {
-      "competition": "echo",
-      "title": "Rio Ngumoha explains what Mohamed Salah has told him to help 'reach the top' at Liverpool",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-explains-what-mohamed-34711306",
-      "image": "https://i2-prod.liverpool.com/incoming/article34711047.ece/ALTERNATES/s615/1_IMG_8073.jpg",
-      "summary": "Rio Ngumoha opens up on the advice given to him by Mohamed Salah before the Liverpool legend left the club",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791026228000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City whistleblower ready to help UK authorities in return for protection",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/03/manchester-city-whistleblower-rui-pinto-ready-to-help-uk-authorities-in-return-for-protection",
-      "image": "https://i.guim.co.uk/img/media/f6b8ee9f00cd4faa4c11211cd6e8002adeda65f1/898_0_3887_3113/master/3887.jpg?width=140&quality=85&auto=format&fit=max&s=bdeb90009851d0f9af8ced30049832c1",
-      "summary": "Rui Pinto faces loss of witness safeguarding in PortugalMore documents over City affairs may be made availableRui Pinto, whose leaks helped to trigger the Premier League’s investigation into Manchester City’s financial…",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791025968000
     }
   ]
 }
