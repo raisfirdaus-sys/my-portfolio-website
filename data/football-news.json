@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1791052933704,
+  "generatedAt": 1791053231970,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 795,
+    "raw": 1518,
+    "tagged": 797,
     "droppedKeyword": 32,
     "droppedOtherSport": 2,
     "droppedFeed": 13,
@@ -12,6 +12,19 @@
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "tele",
+      "title": "Sublime England thrash Croatia in best performance for a decade",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
+      "summary": "Sublime England thrash Croatia in best performance for a decade",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791053173000
+    },
     {
       "competition": "mirror",
       "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
@@ -37,19 +50,6 @@
         "czechia"
       ],
       "publishedAt": 1791052217000
-    },
-    {
-      "competition": "tele",
-      "title": "Sublime England thrash Croatia in best performance for a decade",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
-      "summary": "Sublime England thrash Croatia in best performance for a decade",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791051980000
     },
     {
       "competition": "metro",
