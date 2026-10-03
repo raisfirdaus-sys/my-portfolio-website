@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1791056532037,
+  "generatedAt": 1791058291656,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1520,
-    "tagged": 798,
+    "raw": 1524,
+    "tagged": 807,
     "droppedKeyword": 33,
     "droppedOtherSport": 2,
-    "droppedFeed": 15,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 60
   },
@@ -24,7 +24,58 @@
         "scotland",
         "czechia"
       ],
-      "publishedAt": 1791055785000
+      "publishedAt": 1791057565000
+    },
+    {
+      "competition": "tele",
+      "title": "Sublime England thrash Croatia in best performance for a decade",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqMZtamUIhDzO2Boxg9bbC8Y-COCp_eIoGLxUemgm8_v8.jpeg",
+      "summary": "Sublime England thrash Croatia in best performance for a decade",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791056915000
+    },
+    {
+      "competition": "mirror",
+      "title": "Bruno Fernandes sends message to Cristiano Ronaldo as Man Utd star picks side in Portugal row",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/bruno-fernandes-cristiano-ronaldo-portugal-37731818",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37731828.ece/ALTERNATES/s615/0_GettyImages-2296571732-copy.jpg",
+      "summary": "Cristiano Ronaldo dramatically quit the Portugal national team this week after falling out with manager Jorge Jesus and Bruno Fernandes has now responded to the saga",
+      "teams": [
+        "portugal",
+        "manutd"
+      ],
+      "publishedAt": 1791056814000
+    },
+    {
+      "competition": "echo",
+      "title": "Man Utd legend backs Liverpool star as Premier League's best and predicts surprise award win",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alexander-isak-man-utd-34713204",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34713206.ece/ALTERNATES/s615/0_JS418677774.jpg",
+      "summary": "Liverpool star Alexander Isak has been tipped to beat Manchester City striker Erling Haaland to a Premier Legaue award",
+      "teams": [
+        "liverpool",
+        "manutd"
+      ],
+      "publishedAt": 1791056512000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791056231000
     },
     {
       "competition": "bbc",
@@ -88,18 +139,6 @@
       "publishedAt": 1791054146000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791054029000
-    },
-    {
       "competition": "guardian",
       "title": "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
       "publisher": "The Guardian",
@@ -135,19 +174,6 @@
         "england"
       ],
       "publishedAt": 1791053786000
-    },
-    {
-      "competition": "tele",
-      "title": "Sublime England thrash Croatia in best performance for a decade",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqMZtamUIhDzO2Boxg9bbC8Y-COCp_eIoGLxUemgm8_v8.jpeg",
-      "summary": "Sublime England thrash Croatia in best performance for a decade",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791053707000
     },
     {
       "competition": "metro",
@@ -724,30 +750,6 @@
         "chelsea"
       ],
       "publishedAt": 1791033440000
-    },
-    {
-      "competition": "mirror",
-      "title": "Mikel Arteta forces Arsenal chiefs into U-turn on Emirates Stadium redevelopment",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/mikel-arteta-arsenal-emirates-capacity-37730616",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730777.ece/ALTERNATES/s615/0_GettyImages-2293846830.jpg",
-      "summary": "Arsenal drew up plans to increase the capacity of the Emirates Stadium to 80,000, but the development would've required Mikel Arteta's side to play at a temporary home",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791032679000
-    },
-    {
-      "competition": "bbc",
-      "title": "Republic of Ireland news conference ends abruptly amid accusations",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm78p5x6xqq7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eee/live/4c3aab70-bf23-11f1-bacc-0989b00347ed.jpg",
-      "summary": "Republic of Ireland manager Heimir Hallgrimsson's pre-match news conference ends abruptly as accusations are levelled at his players.",
-      "teams": [
-        "ireland"
-      ],
-      "publishedAt": 1791032531000
     }
   ]
 }
