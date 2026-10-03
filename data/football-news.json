@@ -1,17 +1,190 @@
 {
-  "generatedAt": 1791033532600,
+  "generatedAt": 1791039417871,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1523,
-    "tagged": 823,
-    "droppedKeyword": 31,
+    "tagged": 818,
+    "droppedKeyword": 29,
     "droppedOtherSport": 2,
     "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "England v Croatia LIVE: Quansah starts ahead of Alexander-Arnold in Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
+      "image": "https://static.independent.co.uk/2026/10/03/15/2297380617..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791039135000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791038983000
+    },
+    {
+      "competition": "indy",
+      "title": "Manchester United capitalise on Khiara Keating error to celebrate 250th game with win over Liverpool",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/man-united-liverpool-result-score-wsl-b3060835.html",
+      "image": "https://static.independent.co.uk/2026/10/03/15/2298375240..?width=1200&auto=webp&trim=16%2C0%2C16%2C0",
+      "summary": "Manchester United 1-0 Liverpool: The goalkeeper’s underhit pass allowed Julia Zigiotti Olme to lob home the only goal of the game",
+      "teams": [
+        "manutd",
+        "liverpool"
+      ],
+      "publishedAt": 1791038350000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791038043000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/5ed1feaea8f8f74c31fc451fcf050f31a2d1dd7e/4095_2490_4088_3270/master/4088.jpg?width=140&quality=85&auto=format&fit=max&s=c2a175343d0864d8f01855e2a76848fa",
+      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottWelcome to the rematch of the 2018 World Cup semi-final. Yes, England have won their last three games…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791037801000
+    },
+    {
+      "competition": "fitalia",
+      "title": "De Bruyne suspended for final Nations League fixture but early Napoli return undecided",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/de-bruyne-suspended-final-nations-league-game/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Kevin-De-Bruyne-bench.jpg",
+      "summary": "Kevin De Bruyne will not be able to feature in Belgium’s final Nations League fixture...",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1791037359000
+    },
+    {
+      "competition": "mirror",
+      "title": "Why are there so many children at Croatia vs England? Full punishment explained",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-croatia-no-fans-reason-37721608",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37721691.ece/ALTERNATES/s615/0_GettyImages-2279438068.jpg",
+      "summary": "The reason why limited fans will be in attendance for England's game against Croatia on Saturday",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791036000000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Viktor Gyokeres set for important Arsenal role as Mikel Arteta faces Kai Havertz injury headache",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/viktor-gyokeres-set-important-arsenal-34706019",
+      "image": "https://i2-prod.football.london/incoming/article34706731.ece/ALTERNATES/s615/0_GettyImages-2296497324.jpg",
+      "summary": "Viktor Gyokeres could make his first start of the Premier League season immediately after the international break.",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791036000000
+    },
+    {
+      "competition": "metro",
+      "title": "Fred savages former Manchester United boss: &#8216;He was a piece of crap&#8217;",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/fred-savages-former-manchester-united-boss-he-a-piece-crap-29676103/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_167311507-a03e.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791035915000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Ezri Konsa fitness update as 'Morgan Rogers axed' in England team news leak",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/konsa-rogers-england-team-news-34712096",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711976.ece/ALTERNATES/s615/0_England-v-Spain-UEFA-Nations-League-202627-Group-A3-MD1.jpg",
+      "summary": "England face Croatia in their penultimate Nations League game of the international break on Saturday evening, with Thomas Tuchel's team news being leaked ahead of time",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1791034537000
+    },
+    {
+      "competition": "echo",
+      "title": "Hill Dickinson Stadium expansion 'not impossible' as Everton architect provides update",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/hill-dickinson-stadium-expansion-not-34711760",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34712017.ece/ALTERNATES/s615/0_GettyImages-2296210810.jpg",
+      "summary": "Architect Dan Meis was asked about the possibility of increasing the capacity at Everton's Hill Dickinson Stadium",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1791034094000
+    },
+    {
+      "competition": "mirror",
+      "title": "Rio Ngumoha reveals what Mohamed Salah told him before leaving Liverpool",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/rio-ngumoha-reveals-what-mohamed-37730983",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731077.ece/ALTERNATES/s615/0_GettyImages-2262965861.jpg",
+      "summary": "Liverpool star Rio Ngumoha could make his third appearance for England against Croatia on Saturday evening and will hope to harness some valuable advice from former teammate Mohamed Salah",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791033892000
+    },
+    {
+      "competition": "indy",
+      "title": "Republic of Ireland press conference cut short after clashes ahead of Israel rematch",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-israel-press-conference-b3060807.html",
+      "image": "https://static.independent.co.uk/2026/10/03/13/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "There have been protests in Ireland over the decision to fulfil two Nations League fixtures",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1791033793000
+    },
+    {
+      "competition": "mirror",
+      "title": "Ballon d'Or winner's son joins non-league side after Chelsea and Tottenham exits",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/ballon-dor-winner-andriy-shevchenko-37730926",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37731018.ece/ALTERNATES/s615/0_GettyImages-2239354489.jpg",
+      "summary": "The Ballon d'Or winner's son will be hoping he can cut his cloth in English football after leaving Chelsea and Tottenham",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1791033440000
+    },
     {
       "competition": "indy",
       "title": "Are England fans allowed to attend the Nations League match in Croatia?",
@@ -24,19 +197,6 @@
         "england"
       ],
       "publishedAt": 1791033043000
-    },
-    {
-      "competition": "indy",
-      "title": "England v Croatia LIVE: Team news and latest updates with fans banned from Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/02/14/2297880771..?width=1200&auto=webp&trim=20%2C0%2C20%2C0",
-      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791032826000
     },
     {
       "competition": "mirror",
@@ -101,18 +261,6 @@
       "publishedAt": 1791032396000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791032363000
-    },
-    {
       "competition": "metro",
       "title": "Former Chelsea striker defends Arsenal star who has &#8216;become a scapegoat&#8217;",
       "publisher": "Metro",
@@ -124,18 +272,6 @@
         "chelsea"
       ],
       "publishedAt": 1791032319000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791032316000
     },
     {
       "competition": "fitalia",
@@ -151,20 +287,6 @@
       "publishedAt": 1791032213000
     },
     {
-      "competition": "guardian",
-      "title": "Croatia v England buildup; tempers flare at Ireland v Israel press conference – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
-      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
-      "teams": [
-        "croatia",
-        "england",
-        "israel"
-      ],
-      "publishedAt": 1791031526000
-    },
-    {
       "competition": "mirror",
       "title": "Man City defence could be in tatters as claim about 'sham deals' was DENIED by Etihad",
       "publisher": "Mirror Football",
@@ -175,19 +297,6 @@
         "mancity"
       ],
       "publishedAt": 1791031385000
-    },
-    {
-      "competition": "indy",
-      "title": "Republic of Ireland press conference cut short after clashes ahead of Israel rematch",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-israel-press-conference-b3060807.html",
-      "image": "https://static.independent.co.uk/2026/10/03/13/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "There have been protests in Ireland over the decision to fulfil two Nations League fixtures",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1791031247000
     },
     {
       "competition": "mirror",
@@ -216,7 +325,7 @@
     },
     {
       "competition": "mirror",
-      "title": "Ireland boss warns second Israel clash will ‘not be a friendly’ after ‘hate’ comment",
+      "title": "Ireland boss warns Israel clash will ‘not be a friendly’ as press conference descends into chaos",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/ireland-boss-warns-second-israel-37730840",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37730827.ece/ALTERNATES/s615/0_GettyImages-2297533302.jpg",
@@ -643,115 +752,6 @@
         "israel"
       ],
       "publishedAt": 1791018255000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Lewis Miley gets return date after injury scare as Newcastle United team-mate undergoes MRI scan",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/lewis-miley-gets-return-date-34710850",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711079.ece/ALTERNATES/s615/0_Note1.png",
-      "summary": "The international window has not been short of injury concerns for Newcastle United but better news is on the horizon",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1791017625000
-    },
-    {
-      "competition": "men",
-      "title": "How midfielder sold by Manchester United this summer is doing - 'makes all the difference'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/how-midfielder-sold-manchester-united-34710789",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34710813.ece/ALTERNATES/s615/0_GettyImages-2296120361.jpg",
-      "summary": "Man United sold academy graduate Toby Collyer in the summer transfer window, with the midfielder signing for West Brom.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791017282000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Thomas Tuchel gives Raheem Sterling verdict with former Arsenal and Chelsea ace without club",
-      "publisher": "football.london",
-      "link": "https://www.football.london/chelsea-fc/news/thomas-tuchel-gives-raheem-sterling-34710981",
-      "image": "https://i2-prod.football.london/incoming/article32852777.ece/ALTERNATES/s615/0_Raheem-Sterling.jpg",
-      "summary": "Raheem Sterling is currently without a club despite dazzling for Liverpool, Man City, Chelsea and Arsenal throughout his career",
-      "teams": [
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1791016735000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Turkiye lose Arda Guler for Italy clash",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/turkiye-lose-arda-guler-for-italy-clash/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-Arda-Guler-414x285.jpg",
-      "summary": "Vincenzo Montella s Turkiye haven t only lost all their opening three Nations League games, but will...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1791016597000
-    },
-    {
-      "competition": "men",
-      "title": "Fred tears apart Man United boss hired by the Glazers - 'He'd argue with everyone'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-ten-hag-glazers-34710837",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34710902.ece/ALTERNATES/s615/0_Manchester-United-v-Tottenham-Hotspur-Premier-League.jpg",
-      "summary": "Ex-Manchester United midfielder Fred has not pulled any punches as he laid into the shortcomings of a boss hired by the Glazers",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791016396000
-    },
-    {
-      "competition": "echo",
-      "title": "Dominik Szoboszlai sparks Liverpool fitness concern as Jeremy Jacquet impresses again",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-sparks-liverpool-fitness-34710899",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710977.ece/ALTERNATES/s615/0_GettyImages-2297727007-1.jpg",
-      "summary": "A round-up of Friday's international fixtures involving Liverpool players",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791016389000
-    },
-    {
-      "competition": "echo",
-      "title": "Jeremy Jacquet can't hide feelings as Liverpool star informed of Zinedine Zidane comments",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jeremy-jacquet-zinedine-zidane-34710824",
-      "image": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34710809.ece/ALTERNATES/s615/0_Screenshot-2026-10-03-084228.png",
-      "summary": "The young defender has made a huge impression since his move to Liverpool - and Zinedine Zidane has made it clear what he feels about him",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791015698000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Alejandro Garnacho tipped for Aston Villa 'revival' after 'Man of the Match' display",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/alejandro-garnacho-aston-villa-revival-34710875",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34710919.ece/ALTERNATES/s615/0_GettyImages-2297756898.jpg",
-      "summary": "Alejandro Garnacho has showed plenty of potential during the international break",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1791015443000
-    },
-    {
-      "competition": "men",
-      "title": "Belgian media all reach same Senne Lammens verdict after Man United star hit back at club icon",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-senne-lammens-belgium-34710723",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34710738.ece/ALTERNATES/s615/0_GettyImages-2297484135.jpg",
-      "summary": "Manchester United goalkeeper Senne Lammens clapped back at criticism ahead of Belgium's clash with Turkey before his football did some more talking",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791015030000
     }
   ]
 }
