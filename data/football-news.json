@@ -1,29 +1,79 @@
 {
-  "generatedAt": 1791053231970,
+  "generatedAt": 1791055417548,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1518,
-    "tagged": 797,
-    "droppedKeyword": 32,
+    "raw": 1520,
+    "tagged": 800,
+    "droppedKeyword": 33,
     "droppedOtherSport": 2,
-    "droppedFeed": 13,
+    "droppedFeed": 16,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
     {
-      "competition": "tele",
-      "title": "Sublime England thrash Croatia in best performance for a decade",
-      "publisher": "The Telegraph",
-      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
-      "summary": "Sublime England thrash Croatia in best performance for a decade",
+      "competition": "bbc",
+      "title": "Robertson's Scotland career in numbers as he wins 100th cap",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8a5/live/99c8f0b0-bd8c-11f1-a64c-550be9e3c66b.jpg",
+      "summary": "Andy Robertson has become only the second man ever to play 100 times for Scotland. BBC Sport Scotland charts his international career in numbers.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1791055365000
+    },
+    {
+      "competition": "mirror",
+      "title": "Roy Keane makes huge 'greatest of all time' prediction on England star after Croatia masterclass",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/roy-keane-england-jude-bellingham-37731718",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731753.ece/ALTERNATES/s615/0_Screenshot-2026-10-03-194331.jpg",
+      "summary": "Jude Bellingham starred for England against Croatia as they ran out 7-0 winners.",
       "teams": [
         "croatia",
         "england"
       ],
-      "publishedAt": 1791053173000
+      "publishedAt": 1791055112000
+    },
+    {
+      "competition": "guardian",
+      "title": "North Macedonia v Scotland, Spain v Czechia, and more: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/north-macedonia-v-scotland-spain-v-czechia-and-more-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/57091e219c0b67e52b7112da3c8504d0da5c1f9f/0_0_4158_3327/master/4158.jpg?width=140&quality=85&auto=format&fit=max&s=04aedd103d14bc51736ff32d29251199",
+      "summary": "Nations League updates from the 7.45pm BST kick-offsLive scores | Get the Football Daily newsletter | Mail LukeSpain: Raya; Fresneda, Le Normand, Laporte, García; Rodri, Pedri; Lamine Yamal, Olmo, Baena;…",
+      "teams": [
+        "nmacedonia",
+        "scotland",
+        "czechia"
+      ],
+      "publishedAt": 1791054846000
+    },
+    {
+      "competition": "mirror",
+      "title": "Arsenal injury blow prompts £34m January transfer plan with bid prepared",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/transfer-news/arsenal-transfer-nusa-tzolis-injury-37731722",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731727.ece/ALTERNATES/s615/0_JS418098434.jpg",
+      "summary": "Arsenal are reportedly preparing an opening bid to try and sign RB Leipzig forward Antonio Nusa",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791054666000
+    },
+    {
+      "competition": "guardian",
+      "title": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league",
+      "image": "https://i.guim.co.uk/img/media/f710f3a60d8570ab7a597aec7cd6245a3d27674d/208_1_2794_2236/master/2794.jpg?width=140&quality=85&auto=format&fit=max&s=51be8f237402a592bb7d9d8d823b6d53",
+      "summary": "Fernandes: ‘there are no divisions in the national team’Ronaldo left team camp last week in selection rowBruno Fernandes has said Cristiano Ronaldo remains “the greatest symbol” of the Portugal team, despite his…",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1791054146000
     },
     {
       "competition": "mirror",
@@ -35,21 +85,57 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1791052502000
+      "publishedAt": 1791054029000
     },
     {
       "competition": "guardian",
-      "title": "North Macedonia v Scotland, Spain v Czechia, and more: Nations League – live",
+      "title": "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
       "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/north-macedonia-v-scotland-spain-v-czechia-and-more-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/1bc0d61630e06cead461b73f241238f1bccac235/873_119_3500_2799/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=591d91038c5135177084f418adb83c80",
-      "summary": "Nations League updates from the 7.45pm BST kick-offsLive scores | Get the Football Daily newsletter | Mail LukeSpain: Raya; Fresneda, Le Normand, Laporte, García; Rodri, Pedri; Lamine Yamal, Olmo, Baena;…",
+      "link": "https://www.theguardian.com/football/2026/oct/03/blank-instead-manchester-city-name-trophies-premier-league",
+      "image": "https://i.guim.co.uk/img/media/cf4bbf1472e23618e18462482e3df24b8968025c/781_0_2665_2131/master/2665.jpg?width=140&quality=85&auto=format&fit=max&s=7901046ccd2612d3c9714595b2ca3688",
+      "summary": "The spaces can stand both as a rebuke to an era of greed but also a tribute to the Premier League’s hunt for justiceAt half-time in the 2014 League Cup final, Sunderland led Manchester City 1-0. Yaya Touré equalised…",
       "teams": [
-        "nmacedonia",
-        "scotland",
-        "czechia"
+        "mancity"
       ],
-      "publishedAt": 1791052217000
+      "publishedAt": 1791054008000
+    },
+    {
+      "competition": "bbc",
+      "title": "Ronaldo still 'greatest symbol' of Portugal -  Fernandes",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckq5nd1g14v4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8140/live/6ff772e0-bf51-11f1-a84d-81c67bc2828e.jpg",
+      "summary": "Portugal midfielder Bruno Fernandes says Cristiano Ronaldo remains the country's greatest footballing figure despite leaving the squad this week after finding out he would not start a match.",
+      "teams": [
+        "portugal"
+      ],
+      "publishedAt": 1791053870000
+    },
+    {
+      "competition": "metro",
+      "title": "Roy Keane makes bold Jude Bellingham claim after England thrash Croatia",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/roy-keane-makes-bold-jude-bellingham-claim-england-thrash-croatia-29676482/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315163729-2570.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791053786000
+    },
+    {
+      "competition": "tele",
+      "title": "Sublime England thrash Croatia in best performance for a decade",
+      "publisher": "The Telegraph",
+      "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
+      "summary": "Sublime England thrash Croatia in best performance for a decade",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791053707000
     },
     {
       "competition": "metro",
@@ -325,6 +411,18 @@
     },
     {
       "competition": "mirror",
+      "title": "Croatia boss sent striker home from international duty after he refused to come on",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/croatia-england-nations-league-match-37721603",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721607.ece/ALTERNATES/s615/1_Croatia-team-group-of-back-row-L-to-R-Ma.jpg",
+      "summary": "Clashing heads with the manager resulted in the striker being punished",
+      "teams": [
+        "croatia"
+      ],
+      "publishedAt": 1791043200000
+    },
+    {
+      "competition": "mirror",
       "title": "How to watch North Macedonia vs Scotland for free – TV channel, streaming, kick-off time",
       "publisher": "Mirror Football",
       "link": "https://www.mirror.co.uk/sport/football/news/scotland-north-macedonia-stream-channel-37724502",
@@ -333,18 +431,6 @@
       "teams": [
         "nmacedonia",
         "scotland"
-      ],
-      "publishedAt": 1791043200000
-    },
-    {
-      "competition": "mirror",
-      "title": "Croatia boss sent striker home from international duty after he refused to come on",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/croatia-england-nations-league-match-37721603",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721607.ece/ALTERNATES/s615/1_Croatia-team-group-of-back-row-L-to-R-Ma.jpg",
-      "summary": "Clashing heads with the manager resulted in the striker being punished",
-      "teams": [
-        "croatia"
       ],
       "publishedAt": 1791043200000
     },
@@ -662,94 +748,6 @@
         "mancity"
       ],
       "publishedAt": 1791032485000
-    },
-    {
-      "competition": "men",
-      "title": "What TV channel is Croatia v England on? Kick-off time and live stream details",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/croatia-england-tv-channel-stream-34700756",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34701051.ece/ALTERNATES/s615/0_Czechia-v-England-UEFA-Nations-League-202627-Group-A3-MD2.jpg",
-      "summary": "Manchester City have a number of stars in line to feature for England as they face a crunch UEFA Nations League clash in Croatia",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791032400000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool sent Virgil van Dijk warning over Real Madrid transfer interest - 'head's turned'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-sent-virgil-van-dijk-34711798",
-      "image": "https://i2-prod.liverpool.com/incoming/article34709825.ece/ALTERNATES/s615/0_GettyImages-2295474765.jpg",
-      "summary": "Former Liverpool striker Emile Heskey on Virgil van Dijk, Real Madrid interest and Dominik Szoboszlai",
-      "teams": [
-        "realmadrid",
-        "liverpool"
-      ],
-      "publishedAt": 1791032396000
-    },
-    {
-      "competition": "metro",
-      "title": "Former Chelsea striker defends Arsenal star who has &#8216;become a scapegoat&#8217;",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/03/former-chelsea-striker-defends-arsenal-star-become-a-scapegoat-29675976/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2295029975-8a9d.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal",
-        "chelsea"
-      ],
-      "publishedAt": 1791032319000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Referee selected for next Italy match against Turkey on October 5",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/referee-selected-for-next-italy-match-turkey/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-cross.jpg",
-      "summary": "Polish referee Szymon Marciniak has been selected as the referee for the upcoming Nations League...",
-      "teams": [
-        "turkey",
-        "italy"
-      ],
-      "publishedAt": 1791032213000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City defence could be in tatters as claim about 'sham deals' was DENIED by Etihad",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-premier-league-etihad-37730733",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37725945.ece/ALTERNATES/s615/0_GettyImages-2293702322.jpg",
-      "summary": "Manchester City have appealed the Premier League's guilty verdict regarding breaches of financial rules, although their defence could be undermind by their own title sponsor",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791031385000
-    },
-    {
-      "competition": "mirror",
-      "title": "Arsene Wenger was right to be fuming about Man City - now football owes him an apology",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/arsene-wenger-man-city-charges-37730897",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730908.ece/ALTERNATES/s615/1_premium-canvas-1791030038437.png",
-      "summary": "OPINION: Arsene Wenger was unable to hide his frustrations surrounding Manchester City's spending power during his final years at Arsenal, with this week's verdict showing he had a point",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791030775000
-    },
-    {
-      "competition": "mirror",
-      "title": "Ireland boss warns Israel clash will ‘not be a friendly’ as press conference descends into chaos",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/ireland-boss-warns-second-israel-37730840",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730827.ece/ALTERNATES/s615/0_GettyImages-2297533302.jpg",
-      "summary": "The Republic of Ireland are set to take on Israel for the second time during the international break with tensions having seemingly boiled over ahead of their rematch in Serbia",
-      "teams": [
-        "israel"
-      ],
-      "publishedAt": 1791029706000
     }
   ]
 }
