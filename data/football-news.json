@@ -1,17 +1,104 @@
 {
-  "generatedAt": 1791024045125,
+  "generatedAt": 1791026069784,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1528,
-    "tagged": 823,
+    "raw": 1531,
+    "tagged": 829,
     "droppedKeyword": 31,
     "droppedOtherSport": 2,
-    "droppedFeed": 11,
+    "droppedFeed": 10,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791025713000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England to be mainly full despite fan ban; Manchester City latest – matchday live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
+      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
+      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
+      "teams": [
+        "mancity",
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791025398000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Spalletti tests new Juventus role for Cambiaso in 1-0 loss to Cremonese",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/spalletti-new-juventus-role-cambiaso-1-0-cremo/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Andrea-Cambiaso-yes-414x276.jpg",
+      "summary": "Andrea Cambiaso returned to action for Juventus in a 1-0 friendly loss to Cremonese on...",
+      "teams": [
+        "juventus"
+      ],
+      "publishedAt": 1791025229000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Thierry Henry approves £45m Arsenal transfer decision as Max Dowman point made",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-approves-45m-arsenal-34699282",
+      "image": "https://i2-prod.football.london/incoming/article34699367.ece/ALTERNATES/s615/0_GettyImages-2278307191.jpg",
+      "summary": "Arsenal legend Thierry Henry has spoken about the club's academy and offered his feelings on Myles Lewis-Skelly",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791025200000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United to ditch barcode kit design with date named for new crest's 'home debut'",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-ditch-barcode-kit-34711375",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34572778.ece/ALTERNATES/s615/0_Newcastle-United-v-AFC-Bournemouth-Premier-League-Football-Football-St-James-Park-Newcastle-UK.jpg",
+      "summary": "The Magpies changed the club crest for the first time since 1988 this week in what has been deemed an exciting new era at St James' Park",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1791025200000
+    },
+    {
+      "competition": "indy",
+      "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/manchester-city-guilty-england-tuchel-b3060634.html",
+      "image": "https://static.independent.co.uk/2026/09/26/22/2297300635..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "The situation has been developing throughout the international window where City players Marc Guehi, Elliot Anderson and Nico O’Reilly have been part of the England squad",
+      "teams": [
+        "mancity",
+        "england"
+      ],
+      "publishedAt": 1791024694000
+    },
+    {
+      "competition": "chronicle",
+      "title": "Newcastle United star courted again as defiant club chief doubles down after £17m collapse",
+      "publisher": "Chronicle Live",
+      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-joe-willock-besiktas-34711325",
+      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711462.ece/ALTERNATES/s615/0_GettyImages-2296070915.jpg",
+      "summary": "Newcastle United star Joe Willock has been linked with a move away from St. James' Park, with his contract set to expire soon",
+      "teams": [
+        "newcastle"
+      ],
+      "publishedAt": 1791024129000
+    },
     {
       "competition": "indy",
       "title": "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
@@ -75,20 +162,6 @@
       "publishedAt": 1791023185000
     },
     {
-      "competition": "guardian",
-      "title": "Croatia v England to be mainly full despite fan ban; Manchester City latest – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
-      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
-      "teams": [
-        "mancity",
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791023055000
-    },
-    {
       "competition": "mirror",
       "title": "Zinedine Zidane gives three-word Jeremy Jacquet verdict that Liverpool fans will love",
       "publisher": "Mirror Football",
@@ -112,31 +185,6 @@
         "england"
       ],
       "publishedAt": 1791021815000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791021663000
-    },
-    {
-      "competition": "indy",
-      "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/manchester-city-guilty-england-tuchel-b3060634.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/2297300635..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The situation has been developing throughout the international window where City players Marc Guehi, Elliot Anderson and Nico O’Reilly have been part of the England squad",
-      "teams": [
-        "mancity",
-        "england"
-      ],
-      "publishedAt": 1791021555000
     },
     {
       "competition": "footlondon",
@@ -532,7 +580,7 @@
       "publisher": "football.london",
       "link": "https://www.football.london/arsenal-fc/news/arsenal-mikel-arteta-martin-odegaard-34708825",
       "image": "https://i2-prod.football.london/incoming/article34708802.ece/ALTERNATES/s615/0_GettyImages-2290849135.jpg",
-      "summary": "Over the past few years, Mikel Arteta has certainly had no problems speaking his mind when it comes to how games are officiated.",
+      "summary": "Players are already at risk of injury due to the jam-packed schedule and they require all the protection they can get, writes Ryan Taylor",
       "teams": [
         "arsenal"
       ],
@@ -590,18 +638,6 @@
     },
     {
       "competition": "footlondon",
-      "title": "Thierry Henry launches staunch defence of Mikel Arteta in Arsenal rant about style of play",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-launches-staunch-defence-34707938",
-      "image": "https://i2-prod.football.london/incoming/article34708447.ece/ALTERNATES/s615/0_Screenshot-2026-10-02-145035.png",
-      "summary": "Mikel Arteta has been accused of being over-reliant on set-pieces over the years, but Thierry Henry has set the record straight.",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791007200000
-    },
-    {
-      "competition": "footlondon",
       "title": "Chelsea set for long-awaited £47m injury boost in behind-closed-doors friendly",
       "publisher": "football.london",
       "link": "https://www.football.london/chelsea-fc/news/chelsea-set-long-awaited-47m-34707843",
@@ -609,6 +645,18 @@
       "summary": "Chelsea are set to be in action behind closed doors over the weekend and Xabi Alonso will be hoping to give some players in particular much-needed minutes on the pitch",
       "teams": [
         "chelsea"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Thierry Henry launches staunch defence of Mikel Arteta in Arsenal rant about style of play",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-launches-staunch-defence-34707938",
+      "image": "https://i2-prod.football.london/incoming/article34708447.ece/ALTERNATES/s615/0_Screenshot-2026-10-02-145035.png",
+      "summary": "Mikel Arteta has been accused of being over-reliant on set-pieces over the years, but Thierry Henry has set the record straight.",
+      "teams": [
+        "arsenal"
       ],
       "publishedAt": 1791007200000
     },
@@ -694,55 +742,6 @@
       "summary": "The former England star had no qualms about rejecting the Three Lions to pursue his dream",
       "teams": [
         "england"
-      ],
-      "publishedAt": 1791003600000
-    },
-    {
-      "competition": "men",
-      "title": "Coleen Rooney had doubts about Kai following in Wayne's Man United footsteps after on-pitch act",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/kai-rooney-career-wayne-coleen-34707405",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34641323.ece/ALTERNATES/s615/1_Manchester-United-v-Derby-County-FA-Youth-Cup.jpg",
-      "summary": "Kai Rooney is currently playing for Manchester United's Under-18s and hoping to follow in dad Wayne's footsteps - but mum Coleen once questioned his football future",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791003600000
-    },
-    {
-      "competition": "echo",
-      "title": "10 times Man City beat Liverpool to transfers while breaking Premier League financial rules",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/10-times-man-city-beat-34708798",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34708932.ece/ALTERNATES/s615/0_GettyImages-1044550506.jpg",
-      "summary": "Liverpool were left disappointed in the pursuit of a number of players who went on to join Man City while they were breaching the Premier League's financial regulations",
-      "teams": [
-        "liverpool",
-        "mancity"
-      ],
-      "publishedAt": 1791003600000
-    },
-    {
-      "competition": "echo",
-      "title": "Ex-Everton manager Sean Dyche drops hint over return despite 'heavy lifting'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-everton-manager-sean-dyche-34709464",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article31543679.ece/ALTERNATES/s615/0_Z9B_1056JPG.jpg",
-      "summary": "Former Everton manager Sean Dyche has been speaking about the prospect of returning to the dugout",
-      "teams": [
-        "everton"
-      ],
-      "publishedAt": 1791003600000
-    },
-    {
-      "competition": "echo",
-      "title": "Liverpool latest: Florian Wirtz makes demands clear as Reds star shows big ambition",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-rio-ngumoha-jurgen-klopp-34708530",
-      "image": "https://i2-prod.liverpool.com/incoming/article34704951.ece/ALTERNATES/s615/0_GettyImages-2297559743.jpg",
-      "summary": "Liverpool had cause to celebrate during the international break",
-      "teams": [
-        "liverpool"
       ],
       "publishedAt": 1791003600000
     }
