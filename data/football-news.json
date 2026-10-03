@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1791043980568,
+  "generatedAt": 1791046500549,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1514,
-    "tagged": 800,
+    "raw": 1511,
+    "tagged": 795,
     "droppedKeyword": 32,
     "droppedOtherSport": 2,
     "droppedFeed": 11,
@@ -14,16 +14,66 @@
   "items": [
     {
       "competition": "indy",
-      "title": "England v Croatia LIVE: Quansah starts ahead of Alexander-Arnold in Nations League clash",
+      "title": "England v Croatia LIVE: Bukayo Saka makes it four inside first half as visitors run riot",
       "publisher": "The Independent",
       "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/03/17/2298402844..?width=1200&auto=webp&trim=0%2C38%2C0%2C38",
+      "image": "https://static.independent.co.uk/2026/10/03/17/2298407540..?width=1200&auto=webp&crop=3%3A2",
       "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
       "teams": [
         "croatia",
         "england"
       ],
-      "publishedAt": 1791043803000
+      "publishedAt": 1791046449000
+    },
+    {
+      "competition": "men",
+      "title": "Riyad Mahrez set to join former Arsenal star as transfer agreed for Saudi exit",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/riyad-mahrez-transfer-city-arsenal-34712707",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34712790.ece/ALTERNATES/s615/0_JS411415641.jpg",
+      "summary": "Royad Mahrez could be about to join a new club more than three years after leaving Manchester City to move to the Saudi Pro League",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791046373000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/9114209d2b6603a768761f674136c5097d6e69ad/120_180_3291_2633/master/3291.jpg?width=140&quality=85&auto=format&fit=max&s=f4f0e43d8b2cb252d38cec1ff3224b89",
+      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791045560000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City whistleblower 'fearing for life' ready to make offer to help UK authorities",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-punishment-rui-pinto-37731530",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37728233.ece/ALTERNATES/s615/0_GettyImages-1128742687.jpg",
+      "summary": "Rui Pinto, who sparked the investigation into Manchester City's alleged financial misdemeanours, is set to lose his witness protection rights in Portugal",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791045432000
+    },
+    {
+      "competition": "indy",
+      "title": "Are England fans allowed to attend the Nations League match in Croatia?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-fans-schoolchildren-behind-closed-doors-stadium-b3060810.html",
+      "image": "https://static.independent.co.uk/2025/12/13/13/04/SEI277746421.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "Thousands of Croatian schoolchildren are in the crowd for the Nations League clash",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791045311000
     },
     {
       "competition": "mirror",
@@ -35,7 +85,68 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1791043451000
+      "publishedAt": 1791045037000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Milan eyeing move for Brighton midfielder Ayari to replace Modric",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/milan-eyeing-move-brighton-midfielder-ayari/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Luka-Modric-warming-up.jpg",
+      "summary": "Reports in Italy claim that Milan are eyeing a future move for Brighton Hove...",
+      "teams": [
+        "brighton",
+        "acmilan"
+      ],
+      "publishedAt": 1791044698000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea transfer priority becomes crystal clear as Estevao Willian sends Xabi Alonso reminder",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/chelsea-transfer-priority-becomes-crystal-34712432",
+      "image": "https://i2-prod.football.london/incoming/article34712690.ece/ALTERNATES/s615/0_GettyImages-2297802259.jpg",
+      "summary": "Estevao Willian was at the heart of the action when Brazil enjoyed a 4-0 win over India at the Salt Lake Stadium in Calcutta on Saturday.",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1791044518000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Tottenham have transfer edge over Barcelona as '£85m goal machine dreaming of move'",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/spurs-transfer-barcelona-latest-pavlidis-34712592",
+      "image": "https://i2-prod.football.london/incoming/article34712689.ece/ALTERNATES/s615/0_JS368516046.jpg",
+      "summary": "Tottenham Hotspur could have an advantage over Barcelona in the battle to sign Benfica star Vangelis Pavlidis",
+      "teams": [
+        "barcelona"
+      ],
+      "publishedAt": 1791044417000
+    },
+    {
+      "competition": "men",
+      "title": "Baleba, Sesko, Dorgu - Man United injury latest as Michael Carrick handed boost",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-injury-news-baleba-34712654",
+      "image": "https://i2-prod.football.london/incoming/article34712677.ece/ALTERNATES/s615/0_Manchester-United-v-Lausanne-Friendly.jpg",
+      "summary": "Manchester United have been handed an injury boost ahead of the return of the Premier League following the international break",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791044118000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791043666000
     },
     {
       "competition": "mirror",
@@ -73,19 +184,6 @@
         "mancity"
       ],
       "publishedAt": 1791043200000
-    },
-    {
-      "competition": "guardian",
-      "title": "Croatia v England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/8f740664484b5441cbff07279483ee055f79d43f/105_0_3582_2866/master/3582.jpg?width=140&quality=85&auto=format&fit=max&s=151abd85062754225657968e95309261",
-      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791042829000
     },
     {
       "competition": "fitalia",
@@ -258,18 +356,6 @@
       "publishedAt": 1791039085000
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791038983000
-    },
-    {
       "competition": "fitalia",
       "title": "De Bruyne suspended for final Nations League fixture but early Napoli return undecided",
       "publisher": "Football Italia",
@@ -378,19 +464,6 @@
         "chelsea"
       ],
       "publishedAt": 1791033440000
-    },
-    {
-      "competition": "indy",
-      "title": "Are England fans allowed to attend the Nations League match in Croatia?",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/croatia-england-fans-schoolchildren-behind-closed-doors-stadium-b3060810.html",
-      "image": "https://static.independent.co.uk/2025/12/13/13/04/SEI277746421.jpeg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "England have been drawn alongside Croatia, Spain and Czech Republic in the Nations League",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791033043000
     },
     {
       "competition": "mirror",
@@ -676,79 +749,6 @@
         "mancity"
       ],
       "publishedAt": 1791025968000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Spalletti tests new Juventus role for Cambiaso in 1-0 loss to Cremonese",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/spalletti-new-juventus-role-cambiaso-1-0-cremo/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/06/Andrea-Cambiaso-yes-414x276.jpg",
-      "summary": "Andrea Cambiaso returned to action for Juventus in a 1-0 friendly loss to Cremonese on...",
-      "teams": [
-        "juventus"
-      ],
-      "publishedAt": 1791025229000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Thierry Henry approves £45m Arsenal transfer decision as Max Dowman point made",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-approves-45m-arsenal-34699282",
-      "image": "https://i2-prod.football.london/incoming/article34699367.ece/ALTERNATES/s615/0_GettyImages-2278307191.jpg",
-      "summary": "Arsenal legend Thierry Henry has spoken about the club's academy and offered his feelings on Myles Lewis-Skelly",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791025200000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United to ditch barcode kit design with date named for new crest's 'home debut'",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-ditch-barcode-kit-34711375",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34572778.ece/ALTERNATES/s615/0_Newcastle-United-v-AFC-Bournemouth-Premier-League-Football-Football-St-James-Park-Newcastle-UK.jpg",
-      "summary": "The Magpies changed the club crest for the first time since 1988 this week in what has been deemed an exciting new era at St James' Park",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1791025200000
-    },
-    {
-      "competition": "indy",
-      "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/manchester-city-guilty-england-tuchel-b3060634.html",
-      "image": "https://static.independent.co.uk/2026/09/26/22/2297300635..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "The situation has been developing throughout the international window where City players Marc Guehi, Elliot Anderson and Nico O’Reilly have been part of the England squad",
-      "teams": [
-        "mancity",
-        "england"
-      ],
-      "publishedAt": 1791024694000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Newcastle United star courted again as defiant club chief doubles down after £17m collapse",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/newcastle-united-joe-willock-besiktas-34711325",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34711462.ece/ALTERNATES/s615/0_GettyImages-2296070915.jpg",
-      "summary": "Newcastle United star Joe Willock has been linked with a move away from St. James' Park, with his contract set to expire soon",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1791024129000
-    },
-    {
-      "competition": "indy",
-      "title": "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/who-is-rui-pinto-man-city-leaks-whistleblower-b3060514.html",
-      "image": "https://static.independent.co.uk/2026/10/02/16/2193106835..?width=1200&auto=webp&crop=3%3A2",
-      "summary": "Pinto, the hacker who first revealed Man City’s financial cheating, has discovered he will lose his witness protection",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791023713000
     }
   ]
 }
