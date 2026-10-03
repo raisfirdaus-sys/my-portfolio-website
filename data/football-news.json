@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1791008803350,
+  "generatedAt": 1791012173161,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1525,
-    "tagged": 820,
+    "raw": 1528,
+    "tagged": 824,
     "droppedKeyword": 34,
     "droppedOtherSport": 1,
     "droppedFeed": 12,
     "blocklistDistrusted": false,
-    "withImage": 50
+    "withImage": 48
   },
   "items": [
     {
@@ -22,7 +22,116 @@
       "teams": [
         "mancity"
       ],
-      "publishedAt": 1791008591000
+      "publishedAt": 1791011618000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791011369000
+    },
+    {
+      "competition": "bbc",
+      "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ad7/live/f03cb6d0-bea8-11f1-a22a-011993fe1af2.jpg",
+      "summary": "Fifth in the all-time scoring chart for Scotland and closing in on 100 caps, John McGinn could do with finding his best stuff again, writes Tom English.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1791011117000
+    },
+    {
+      "competition": "mirror",
+      "title": "Liverpool FC's world famous Kop stand, where 'the city found it's voice'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/news/uk-news/brian-reade-the-kop-liverpool-37723544",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37724165.ece/ALTERNATES/s615/1_Liverpool-v-HJK-Helsinki-European-Cup-2nd-Round-2nd-Leg.jpg",
+      "summary": "To mark 120 years of Liverpool FC’s world-famous Kop, Mirror columnist Brian Reade chronicles its iconic history. In an exclusive excerpt from his book, The Kop, he highlights the cultural power and legacy of the stand",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791011004000
+    },
+    {
+      "competition": "guardian",
+      "title": "Thrown in with Giggs and Beckham: how Manchester United tried to get Billy Kenny",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/03/billy-kenny-ryan-giggs-david-beckham-manchester-united-autobiography",
+      "image": "https://i.guim.co.uk/img/media/f4a286df811f62f6bf154d9e2432026c62bc3a66/651_0_4108_3286/master/4108.jpg?width=140&quality=85&auto=format&fit=max&s=bf5e8c9ab55817f292ae663bb6d6c6a3",
+      "summary": "Former Everton midfielder, known as the ‘Goodison Gazza’, recalls being made to feel special by Alex Ferguson in this autobiography extract “So this is the scouser ya been goin’ on aboot then …” My face turned…",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791010853000
+    },
+    {
+      "competition": "mirror",
+      "title": "The 50 hardest Manchester United players to ever walk out at Old Trafford",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/gallery/manchester-united-hardest-players-keane-37725975",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article2235275.ece/ALTERNATES/s615/1_Paul-McGrath.jpg",
+      "summary": "Manchester United have produced their fair share of hardmen over the years... here are 50 of the fiercest",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791010800000
+    },
+    {
+      "competition": "metro",
+      "title": "Thomas Tuchel&#8217;s treatment of Trent reveals the England fear that led to World Cup failure",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/thomas-tuchels-trent-alexander-arnold-treatment-reveals-england-fear-led-world-cup-failure-29670750/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/03/SEI_290759015-7085.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1791010800000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal boss Mikel Arteta must pull no punches after fresh Martin Odegaard incident",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-mikel-arteta-martin-odegaard-34708825",
+      "image": "https://i2-prod.football.london/incoming/article34708802.ece/ALTERNATES/s615/0_GettyImages-2290849135.jpg",
+      "summary": "Over the past few years, Mikel Arteta has certainly had no problems speaking his mind when it comes to how games are officiated.",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791010800000
+    },
+    {
+      "competition": "men",
+      "title": "JJ Gabriel reverses ban, Barcelona latest and Man United timeline",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-jj-gabriel-barcelona-34706925",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34706923.ece/ALTERNATES/s615/0_Manchester-United-U21-v-Leicester-City-U21-U21-Premier-League.jpg",
+      "summary": "JJ Gabriel's future has captured attention since the Manchester United teenager requested to leave Old Trafford",
+      "teams": [
+        "manutd",
+        "barcelona"
+      ],
+      "publishedAt": 1791009000000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Arsenal star Viktor Gyokeres breaks UEFA record as clear message sent to Mikel Arteta",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-viktor-gyokeres-mikel-arteta-34710523",
+      "image": "https://i2-prod.football.london/incoming/article34710552.ece/ALTERNATES/s615/0_JS419573543.jpg",
+      "summary": "Viktor Gyokeres broke a Nations League record as the Arsenal star continued to enjoy his time with Sweden during the international break",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791008858000
     },
     {
       "competition": "indy",
@@ -295,18 +404,6 @@
     },
     {
       "competition": "men",
-      "title": "De Ligt absence, Baleba debut and Berrada intrigue - Manchester United Notebook",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/de-ligt-absence-baleba-debut-34700401",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34708256.ece/ALTERNATES/s615/0_premium-canvas-1790949270291.png",
-      "summary": "This week's Man Utd Notebook looks at a couple of players on their way back from injury and how events at the Etihad could have an impact at Old Trafford.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791000000000
-    },
-    {
-      "competition": "men",
       "title": "'Got to believe' - Man City Wembley hero speaks on guilty verdicts",
       "publisher": "Manchester Evening News",
       "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/got-believe-man-city-wembley-34707686",
@@ -314,6 +411,18 @@
       "summary": "Former Manchester City striker Paul Dickov visited a number of supporter club branches this week with OSC general secretary Kevin Parker",
       "teams": [
         "mancity"
+      ],
+      "publishedAt": 1791000000000
+    },
+    {
+      "competition": "men",
+      "title": "De Ligt absence, Baleba debut and Berrada intrigue - Manchester United Notebook",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/de-ligt-absence-baleba-debut-34700401",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34708256.ece/ALTERNATES/s615/0_premium-canvas-1790949270291.png",
+      "summary": "This week's Man Utd Notebook looks at a couple of players on their way back from injury and how events at the Etihad could have an impact at Old Trafford.",
+      "teams": [
+        "manutd"
       ],
       "publishedAt": 1791000000000
     },
@@ -404,6 +513,39 @@
       "publishedAt": 1790994600000
     },
     {
+      "competition": "bundesliga",
+      "title": "Harry Kane 8th: The top 100 most valuable Bundesliga stars as Bayern Munich dominate",
+      "publisher": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQREVjQVFtcmhIcXVFaHlZNmxrdk5sa2xBeEFyc3pkXzV6a2N6V0NVODJ0S25PeEZKdmJtZHNSOVh1OEFSWkZJbURodkVabDBUZEZuVWp1OFBmcjhONlJoekVFN1dxSlRBcFJCUnNNZk5tUEFyTTRlNVJjSzJubGxWcnAyZUFsRHZnalgtRXh5Zjg2VHRqcmxJMl93QzBkQUJnRDBrV01MQzNKM1ZCMEtnR2hMWXFRNVdTN3JtbzdMdXYxenFrUU80VVV3?oc=5",
+      "teams": [
+        "bayern"
+      ],
+      "publishedAt": 1791011417000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Depleted Napoli slump to 2-0 friendly defeat against Alessandro Nesta's Avellino",
+      "publisher": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYTVJaWlQcUV1d3JQRmFFT0pnV3hBalktbWNhUkRydy05MjRtYnFBMHBoWDdyandreXFUVVZUVnhiSHpqV1dyTHZlaGQwYVowbzNHRHlIbE9VaGJ2c2FER1hVTjFwSFVtZmppNVVzMDdIX1JsUUpzZUVncm92Nk5JZXVheGxKWkppekw4dW54ZURLOWdEOElPaENtWHdzcjVsb3JpTGFqWGFmX2pGVTJ1RDItaHJfRHRYdmVHbTZYYjY3MmFNdUhGV2pfVU1kcVQtYmc?oc=5",
+      "teams": [
+        "napoli"
+      ],
+      "publishedAt": 1791011322000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Man City appeal: Club's strategy brought into question by 2015 statement main sponsor Etihad Airways submitted to US government",
+      "publisher": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZXVFcWprVFdMQ2xwb1hCQTlTTHdmMGJaUmEzYXpVRVhUNzB3alliQU8zdGNhN2RPMEhMd0t0MFJaakxzdmRqYXRmY1dpYjh2eUpDNnl5ZE9zRWRUSFFjbm4yc21mUWlDaVZQTERVOUZwQndob193U1RZMldTalBjSFd0YTJCZm5TS3pENzJwS2g2d1NEOFdRQVJUMmVjTU1OLVpTcDI1dXplbjBQYklUOVl2dndDVzFKbmpoNWUtRzhSdjU5bWE0M05mUENQalJZbzFFakhtWnJzQllUUjNUeFlKOUJDMHpHZE5IY0hRLUpXYkUzZWRwTkxPbjNmY1VkdXVGSg?oc=5",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791009549000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Which clubs did Man City's 'inflated' money flow to in transfer market?",
       "publisher": "BBC Sport",
@@ -450,6 +592,18 @@
       "image": null
     },
     {
+      "competition": "epl",
+      "title": "Everton to be 'most aggrieved club' as Man City battle with Premier League rumbles on",
+      "publisher": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZkJaTzgyaEpteFdqenBSMVd5bzctd3J6M19SNVRnMVRNN18yeFMwcU1fUElrOXpiR004Y3V1bG4tZjBfSXVYbUZHbTFkdVRpWlFTSmpxWlNIOEgyQ0k4aDY0RnM0VGJyWW85UG90bEhEV1o5UjJGUDBXUUhzbVZuckVNZUZ4Zw?oc=5",
+      "teams": [
+        "mancity",
+        "everton"
+      ],
+      "publishedAt": 1791007800000,
+      "image": null
+    },
+    {
       "competition": "seriea",
       "title": "Juventus keeping tabs on Brentford defender Michael Kayode",
       "publisher": "Yahoo Sports",
@@ -474,12 +628,24 @@
       "image": null
     },
     {
-      "competition": "epl",
-      "title": "RBM Roundtable: Everton’s best players so far this season",
+      "competition": "laliga",
+      "title": "Barcelona secure La Masia midfield gem on new contract until 2030",
       "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY3lNNnhYejFicHBXNzRKVDFnNGhGTi0yYWJVdzNybTVDNEp3a0szRUh3RFBPUnJPd3Y4eGFKcDBMNXBDNDNDUkJWNTk2UGxnRWx3cWE3WTJhZG5NRnlKMnFGU0VCZTRCRXpUeWRtWEtfTW12U0ZQUzJTblhKemQzeFhfV1RfTFc4aVBEWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTlQxU25xMFZMWTUwX2hCeVJXWTNHdmxOc1FEd0ZrZlZpd1d5QXkxWVEyeDJXTnpQZzdpUE9qNW5fNTJnclNSRzBkZjZvRlU1ejF3US1BX1JCRUFtUVJEMkJrV3R0Q2Z5N3ZmUlVsdjdLbzRsdDNaNDQ4NndGZTJoRnVYbDRldU1KMXA0?oc=5",
       "teams": [
-        "everton"
+        "barcelona"
+      ],
+      "publishedAt": 1791007200000,
+      "image": null
+    },
+    {
+      "competition": "unl-a",
+      "title": "How to watch Croatia vs England: TV channel and live stream for Nations League today",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONFRtT25GSUhBSjhvLU41Z3ViOVFjYWd1cG91NTlDZERHVF9SSm1ybk1SZ2g3ZHdHZ095WFZqWWNDTlhaUmlHYWVueEZuZ2VWVW5BbEpaUVkwcFg4WXVtWnF2M2pmcm9feUFmal92VldfekkycFVjc2U3SjBRZ0FkY3dR?oc=5",
+      "teams": [
+        "croatia",
+        "england"
       ],
       "publishedAt": 1791007200000,
       "image": null
@@ -569,177 +735,6 @@
         "poland"
       ],
       "publishedAt": 1791004606000,
-      "image": null
-    },
-    {
-      "competition": "bbc",
-      "title": "Chiesa eyes Liverpool exit - Saturday's gossip",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq70p3w936w9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab9f/live/9478d6d0-bea3-11f1-a22a-011993fe1af2.png",
-      "summary": "Liverpool forward Federico Chiesa is on the radar of a trio of Serie A clubs, Man City striker Erling Haaland is more likely to head to Barcelona than Arsenal if he leaves the club, Brentford's Michael Kayode is wanted…",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1790975672000
-    },
-    {
-      "competition": "guardian",
-      "title": "Nations League: Italy earn draw against 10-man France, Northern Ireland stun Ukraine",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/02/nations-league-roundup-france-italy-northern-ireland-ukraine-belgium",
-      "image": "https://i.guim.co.uk/img/media/c2a8cf61c75a6bbb9d374405386713fb380614df/257_0_2345_1876/master/2345.jpg?width=140&quality=85&auto=format&fit=max&s=fbc176fe98027b66850a1e47f091e13e",
-      "summary": "League A: France 1-1 Italy, Belgium 3-0 TurkeyNorthern Ireland boost promotion bid with 3-0 winZinedine Zidane’s first home game in charge of France ended with a 1-1 draw against Italy in the Nations League on Friday.…",
-      "teams": [
-        "nireland",
-        "ukraine",
-        "france"
-      ],
-      "publishedAt": 1790975475000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Spain vs Czechia – Predicted lineup and team news",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTVhGZ0ZBNjdveWF5ZVhQbTVfaXV5QVRxMmxaY0FQTzhEWnRlN1B2dl9qbTZIdVBMbERJQXhhMzVwbkFLZExkS05KUG9CRnN5ekdfazJZZzBmVDg3ZDJoREpobFZ3VnU2TWktSnVLb3NyXzJGSUg1aENMbkduU3ZrYmEtN1ZEQm5veHc?oc=5",
-      "teams": [
-        "czechia",
-        "spain"
-      ],
-      "publishedAt": 1791004200000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Bastoni: &#8216;If Italy can play like this with France, we can do it against anyone&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/bastoni-if-italy-play-like-this-with-france/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Alessandro-Bastoni-celebrate-France-Italy-414x276.jpg",
-      "summary": "Alessandro Bastoni admits he ‘didn’t expect to score two goals’ in two Nations League games,...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790974962000
-    },
-    {
-      "competition": "bbc",
-      "title": "Why Aston Villa played Sevilla for a trophy you haven't heard of",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crvg6xd6p9n5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d027/live/d34d3b10-be6e-11f1-8a45-cd59664d243b.jpg",
-      "summary": "Aston Villa beat Sevilla in the Antonio Puerta Trophy, named in memory of one of the Spanish club's former players.",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1790974943000
-    },
-    {
-      "competition": "championship",
-      "title": "Ranking Sunderland’s Top Ten Greatest Managers Of All Time",
-      "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzdaRDZqVGxMTzFITnVmZnF0ZHlCbDVMYzRqcUsyTGotcXNjODk3NmxxN0JYVkRHQmQ1bzFGWlJFbmF0bjlNdXh4ekxQRUdSams3R1oxdkJ4cDN0TTBIa0ZuWUZaWVQ5a1Vwd0dfMlR0dEZsQTJsWXB0Tk8tZ283emdHWU1QSEg2cDFpWQ?oc=5",
-      "teams": [
-        "sunderland"
-      ],
-      "publishedAt": 1791003600000,
-      "image": null
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini: &#8216;Italy played as a team, another step forward&#8217; with 1-1 in France",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-italy-played-as-a-team-a-step-forward/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Pio-Espositoand-Roberto-Mancini-414x276.jpg",
-      "summary": "Roberto Mancini is glad Italy ‘played as a team’ throughout in their 1-1 draw with...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790974526000
-    },
-    {
-      "competition": "men",
-      "title": "Andy Burnham told billions will be pulled out of the UK in threat over Man City charges",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-andy-burnham-34710410",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34707948.ece/ALTERNATES/s615/2_JS417249074.jpg",
-      "summary": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790974343000
-    },
-    {
-      "competition": "mirror",
-      "title": "UAE make threat to pull 'billions out of UK' to Andy Burnham over Man City charges",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-andy-burnham-uae-37729906",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37729904.ece/ALTERNATES/s615/0_Labour-Party-conference-2026.jpg",
-      "summary": "Manchester City being found guilty of all charges related to serious breaches of the Premier League’s financial rules now reportedly has the United Arab Emirates retaliating against the United Kingdom",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790973954000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Nations League &#124; France 1-1 Italy: Bastoni seals impressive result in Paris",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/nations-league-france-1-1-italy-bastoni-paris/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Mike-Maignan-France-Italy-414x276.jpg",
-      "summary": "Italy earned a prestigious 1-1 draw away to Zinedine Zidane’s France, as Alessandro Bastoni cancelled...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790973664000
-    },
-    {
-      "competition": "men",
-      "title": "Man United told latest announcement has cost them £40m - 'A massive increase'",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-anthony-joshua-fury-34710272",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34651178.ece/ALTERNATES/s615/2_Michael-Carrick.jpg",
-      "summary": "Anthony Joshua will take on Tyson Fury in a blockbuster all-British clash in Cardiff later this year",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790972930000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Mancini&#8217;s reaction to Olise goal vs. Italy revealed: &#8216;Nothing else you can do&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/mancini-reaction-olise-goal-france-italy-else/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Roberto-Mancini-bench-414x276.jpg",
-      "summary": "Roberto Mancini and his staff threw their hands up after seeing France star Michael Olise...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1790972565000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Appeal confirmed in new statement as Andy Burnham threatened by UAE",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37725936",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37726059.ece/ALTERNATES/s615/0_General-Views-Of-Etihad-Stadium.jpg",
-      "summary": "Manchester City have formally confirmed they have launched an appeal after being found guilty of 114 breaches of Premier League financial rules",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790972037000
-    },
-    {
-      "competition": "epl",
-      "title": "Man City’s 2009-18 signings changed the fate of their Premier League rivals. No wonder they’re angry",
-      "publisher": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNklWclZ1dERUS0l0eGs2dEdfbGd2Wk01NW9QUkNEcnpMaDlUcU8wbTM0VldfVTFleEZNY3BnR2lOWjh3LTFrTlo1YVZTNVZPS2lGZEM1YmhOUy1FWVNDN05tYVVxZkllb3V5MDFqMklXSVVPYXVWSjlPdmh5S1UwQ0V1VmRlbG1DaXBvbnYwd0VTM0gtT2RaRDhpNU53RklSeFE?oc=5",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791000758000,
       "image": null
     }
   ]
