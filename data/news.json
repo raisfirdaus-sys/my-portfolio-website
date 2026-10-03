@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-10-03T00:43:14.244Z",
+  "updatedAt": "2026-10-03T06:26:26.752Z",
   "items": [
+    {
+      "ticker": "MSFT",
+      "title": "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/technology/ai/articles/mag-7-voices-huang-defends-020135909.html",
+      "image": "https://media.zenfs.com/en/stocktwits_383/414f816b9cb2db61a9e3b57e6f0e1b33.jpg",
+      "publishedAt": 1790992895000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "The Las Vegas Strip has a visitor problem",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/real-estate/articles/las-vegas-strip-visitor-problem-011700895.html",
+      "image": "https://media.zenfs.com/en/thestreet_881/e3195a0f4b0b1e1ba3b948822457b1e1.jpg",
+      "publishedAt": 1790990220000
+    },
     {
       "ticker": "GOOGL",
       "title": "Planet Labs (PL) Shares Skyrocket, What You Need To Know",
@@ -8,6 +24,14 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-pl-shares-skyrocket-231803075.html",
       "image": "https://media.zenfs.com/en/stockstory_922/30104a88e94a31c1e7f64e916f8565be.jpg",
       "publishedAt": 1790983083000
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Nike vs. Starbucks: One Beaten-Down Icon Is Primed for an Explosive Rebound",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-vs-starbucks-one-beaten-230002066.html",
+      "image": "https://media.zenfs.com/en/barchart_com_477/cc1d8b601e25f5ee672f7de1a803cb94.jpg",
+      "publishedAt": 1790982002000
     },
     {
       "ticker": "AMZN",
@@ -98,14 +122,6 @@
       "publishedAt": 1790971514000
     },
     {
-      "ticker": "GOOGL",
-      "title": "SPCX Stock Climbs As Three Thursday Launches Meet Start Of Google’s $920 Million AI Pact",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spcx-stock-climbs-three-thursday-200238930.html",
-      "image": "https://media.zenfs.com/en/stocktwits_383/69cdd4a186a4af341f77bf26fecf22bd.jpg",
-      "publishedAt": 1790971358000
-    },
-    {
       "ticker": "MA",
       "title": "Mastercard Stocks Edge Up as AI Targets Supplier Payments",
       "publisher": "GuruFocus.com",
@@ -128,22 +144,6 @@
       "link": "https://finance.yahoo.com/small-business/articles/no-longer-complacent-carter-finds-194939238.html",
       "image": "https://media.zenfs.com/en/wwd_409/792e56b38dd4d88ea4248b6314215338.jpg",
       "publishedAt": 1790970579000
-    },
-    {
-      "ticker": "ABBV",
-      "title": "How Much Does a 58-Year-Old Need Invested to Replace a $160,000 Salary With Dividends?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/much-does-58-old-invested-193956064.html",
-      "image": "https://media.zenfs.com/en/24_7_wall_st__718/81a58ae9105c5011955095b326c39edc.jpg",
-      "publishedAt": 1790969996000
-    },
-    {
-      "ticker": "JNJ",
-      "title": "Sector Update: Healthcare",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-193200017.html",
-      "image": null,
-      "publishedAt": 1790969520000
     }
   ]
 }
