@@ -1,17 +1,176 @@
 {
-  "generatedAt": 1791040312350,
+  "generatedAt": 1791043980568,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1523,
-    "tagged": 821,
-    "droppedKeyword": 30,
+    "raw": 1514,
+    "tagged": 800,
+    "droppedKeyword": 32,
     "droppedOtherSport": 2,
-    "droppedFeed": 9,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "England v Croatia LIVE: Quansah starts ahead of Alexander-Arnold in Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
+      "image": "https://static.independent.co.uk/2026/10/03/17/2298402844..?width=1200&auto=webp&trim=0%2C38%2C0%2C38",
+      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791043803000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791043451000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch North Macedonia vs Scotland for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/scotland-north-macedonia-stream-channel-37724502",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37690097.ece/ALTERNATES/s615/1_Scotland-v-Brazil-2026-FIFA-World-Cup-Group-C-Football-Miami-Stadium-Miami-Florida-USA-24-J.jpg",
+      "summary": "Sebastien Pocognoli is still seeking his first win as Scotland manager as they travel to North Macedonia in the UEFA Nations League",
+      "teams": [
+        "nmacedonia",
+        "scotland"
+      ],
+      "publishedAt": 1791043200000
+    },
+    {
+      "competition": "mirror",
+      "title": "Croatia boss sent striker home from international duty after he refused to come on",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/croatia-england-nations-league-match-37721603",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37721607.ece/ALTERNATES/s615/1_Croatia-team-group-of-back-row-L-to-R-Ma.jpg",
+      "summary": "Clashing heads with the manager resulted in the striker being punished",
+      "teams": [
+        "croatia"
+      ],
+      "publishedAt": 1791043200000
+    },
+    {
+      "competition": "men",
+      "title": "Man City have 115 charges safety net after £1billion spend and strategy call",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-115-charges-safety-34712361",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34712368.ece/ALTERNATES/s615/0_GettyImages-2296039308.jpg",
+      "summary": "Manchester City were found guilty by the Premier League of almost all the charges levied against them in the 115 case",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791043200000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England: Nations League football – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
+      "image": "https://i.guim.co.uk/img/media/8f740664484b5441cbff07279483ee055f79d43f/105_0_3582_2866/master/3582.jpg?width=140&quality=85&auto=format&fit=max&s=151abd85062754225657968e95309261",
+      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottThomas Tuchel speaks to ITV. “[Being in Rijeka on the sunny Adriatic coast] has helped us to unwind and…",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791042829000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Vergara becomes Italy’s latest debutant: All 64 players to receive first caps from Mancini",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/vergara-becomes-italys-latest-debutant-all-64/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-slide.jpg",
+      "summary": "Antonio Vergara became the latest player to make their debut for the Italy national team...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1791042772000
+    },
+    {
+      "competition": "mirror",
+      "title": "Michael Carrick's son Jacey, 16, makes Man Utd first team debut in secret friendly",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/michael-carrick-son-jacey-debut-37731253",
+      "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37731262.ece/ALTERNATES/s615/0_GettyImages-2298264089.jpg",
+      "summary": "Jacey Carrick made his first appearance for the Manchester United senior team on Friday, with his father Michael overseeing a behind-closed-doors friendly against Lausanne",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791042449000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Jack Wilshere's dad's brutal five-word comment to Arsenal icon after watching Max Dowman",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/arsenal-jack-wilshere-max-dowman-34712477",
+      "image": "https://i2-prod.football.london/incoming/article34712580.ece/ALTERNATES/s615/0_JS418869920.jpg",
+      "summary": "Former Arsenal star Jack Wilshere has recalled a story about Max Dowman and what his dad said about the Gunners teenager",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791042115000
+    },
+    {
+      "competition": "metro",
+      "title": "Son of ex-Chelsea star and Ballon d&#8217;Or winner signs for non-league club",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/son-ex-chelsea-star-ballon-dor-winner-signs-non-league-club-29676273/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/DSC02713-fb39.webp?w=646",
+      "summary": null,
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1791041963000
+    },
+    {
+      "competition": "mirror",
+      "title": "Paul Scholes disagrees with Wayne Rooney in Man Utd debate - 'Greedy b******'",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/scholes-manchester-city-charges-titles-37731146",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37731308.ece/ALTERNATES/s615/2_Screenshot-2026-10-03-at-160437.jpg",
+      "summary": "Manchester City could be stripped of their titles after being found guilty of breaking financial rules, and bitter rivals Manchester United would be in line to benefit",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791041085000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Five outfield players from Mancini’s 34-man Italy squad still waiting for first chances",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/five-italy-outfielders-waiting-first-chance/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Michael-Kayode-Adrien-Rabiot.jpg",
+      "summary": "Italy are three games into their 2026-27 Nations League campaign, but five outfield players from...",
+      "teams": [
+        "italy"
+      ],
+      "publishedAt": 1791040590000
+    },
+    {
+      "competition": "echo",
+      "title": "Ronald Araujo emerges as Liverpool's unlikely hero to quickly raise £47m question",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-emerges-liverpools-unlikely-34712404",
+      "image": "https://i2-prod.liverpool.com/incoming/article34682073.ece/ALTERNATES/s615/0_Ronald-Araujo.jpg",
+      "summary": "Ronald Araujo joined the Reds on loan from Barcelona in August and has been impressing with his defensive displays for Andoni Iraola's unbeaten side",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791040141000
+    },
     {
       "competition": "metro",
       "title": "Zlatan Ibrahimovic snubs Arsenal as he makes Premier League title prediction",
@@ -50,16 +209,16 @@
       "publishedAt": 1791039894000
     },
     {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: Andy Burnham comments, Rui Pinto latest, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "competition": "guardian",
+      "title": "Ireland cut short news conference as mood darkens further before Israel game",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/2026/oct/03/ireland-cut-short-news-conference-israel-nations-league-football",
+      "image": "https://i.guim.co.uk/img/media/926e7622d214ccc74e63083c8ae8e7aac0ec8f12/1685_794_3673_2939/master/3673.jpg?width=140&quality=85&auto=format&fit=max&s=7add9a7c807a8d73eca58e17bdcba1c0",
+      "summary": "Irish manager Hallgrimsson calls for ‘cool heads’Accusations of racism dismissed as ‘completely untrue’The Republic of Ireland’s press conference on the eve of their second Nations League match against Israel in Serbia…",
       "teams": [
-        "mancity"
+        "israel"
       ],
-      "publishedAt": 1791039665000
+      "publishedAt": 1791039758000
     },
     {
       "competition": "men",
@@ -72,32 +231,6 @@
         "mancity"
       ],
       "publishedAt": 1791039483000
-    },
-    {
-      "competition": "indy",
-      "title": "England v Croatia LIVE: Quansah starts ahead of Alexander-Arnold in Nations League clash",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
-      "image": "https://static.independent.co.uk/2026/10/03/15/2026-10-03T144653Z_1775081073_UP1EMA315238R_RTRMADP_3_SOCCER-UEFANATIONS-CRO-ENG.JPG?width=1200&auto=webp&trim=0%2C80%2C0%2C80",
-      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791039390000
-    },
-    {
-      "competition": "guardian",
-      "title": "Croatia v England: Nations League football – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/croatia-v-england-nations-league-football-live-score-updates",
-      "image": "https://i.guim.co.uk/img/media/5ed1feaea8f8f74c31fc451fcf050f31a2d1dd7e/4095_2490_4088_3270/master/4088.jpg?width=140&quality=85&auto=format&fit=max&s=c2a175343d0864d8f01855e2a76848fa",
-      "summary": "Nations League updates, 5pm BST kick-off (6pm local)Live scores | Get the Football Daily newsletter | Mail ScottTrent Alexander-Arnold may have impressed against the Czechs, but he loses his place to former Liverpool…",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791039331000
     },
     {
       "competition": "men",
@@ -135,19 +268,6 @@
         "mancity"
       ],
       "publishedAt": 1791038983000
-    },
-    {
-      "competition": "indy",
-      "title": "Manchester United capitalise on Khiara Keating error to celebrate 250th game with win over Liverpool",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/man-united-liverpool-result-score-wsl-b3060835.html",
-      "image": "https://static.independent.co.uk/2026/10/03/15/2298375240..?width=1200&auto=webp&trim=16%2C0%2C16%2C0",
-      "summary": "Manchester United 1-0 Liverpool: The goalkeeper’s underhit pass allowed Julia Zigiotti Olme to lob home the only goal of the game",
-      "teams": [
-        "manutd",
-        "liverpool"
-      ],
-      "publishedAt": 1791038350000
     },
     {
       "competition": "fitalia",
@@ -629,130 +749,6 @@
         "mancity"
       ],
       "publishedAt": 1791023713000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Frattesi sends two-word message to Tonali after France 1-1 Italy",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/frattesi-2-word-message-tonali-france-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Davide-Frattesi-France-Italy-414x276.jpg",
-      "summary": "Davide Frattesi took to social media after Italy s 1-1 draw against France, sending a cryptic...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1791023580000
-    },
-    {
-      "competition": "men",
-      "title": "Man United 'conduct review' as players could claim millions after Man City charges",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-man-city-charges-34711282",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34686840.ece/ALTERNATES/s615/0_Manchester-United-v-Nottingham-Forest-Premier-League.jpg",
-      "summary": "Manchester United players could have claims against Manchester City as well as the club reserving their right to seek damages alongside Arsenal, Liverpool and Tottenham Hotspur",
-      "teams": [
-        "manutd",
-        "mancity"
-      ],
-      "publishedAt": 1791023394000
-    },
-    {
-      "competition": "men",
-      "title": "Michael Carrick's son makes Manchester United first-team appearance",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/michael-carricks-son-makes-manchester-34711314",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34711316.ece/ALTERNATES/s615/1_Screenshot-2026-10-03-105718.png",
-      "summary": "Man Utd's first-team played Lausanne Sport in a behind-closed-doors friendly at Carrington on Friday afternoon.",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791023185000
-    },
-    {
-      "competition": "mirror",
-      "title": "Zinedine Zidane gives three-word Jeremy Jacquet verdict that Liverpool fans will love",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/zinedine-zidane-jeremy-jacquet-liverpool-37730463",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730554.ece/ALTERNATES/s615/1_France-v-Italy-UEFA-Nations-League-202627-Group-A1-MD3.jpg",
-      "summary": "Jeremy Jacquet only made his debut for France this week but Zinedine Zidane is already a big fan of the Liverpool defender, who helped his country draw 1-1 with Italy on Friday",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791023027000
-    },
-    {
-      "competition": "echo",
-      "title": "Former England stars expect response from Everton's Jordan Pickford after being 'dropped'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/former-england-stars-expect-response-34711027",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34711049.ece/ALTERNATES/s615/0_GettyImages-2298271695.jpg",
-      "summary": "Everton goalkeeper Jordan Pickford has been backed to retain his position as England number one",
-      "teams": [
-        "everton",
-        "england"
-      ],
-      "publishedAt": 1791021815000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Man Utd get £70m injury boost ahead of Tottenham as behind-closed-doors friendly result confirmed",
-      "publisher": "football.london",
-      "link": "https://www.football.london/tottenham-hotspur-fc/news/man-utd-70m-injury-boost-34711113",
-      "image": "https://i2-prod.football.london/incoming/article34711299.ece/ALTERNATES/s615/0_GettyImages-2296544207.jpg",
-      "summary": "Michael Carrick and Manchester United have been handed a welcome boost ahead of the Premier League fixture with Tottenham",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791021526000
-    },
-    {
-      "competition": "metro",
-      "title": "Arsenal star &#8216;sour&#8217; despite breaking Man Utd star&#8217;s Nations League record",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/03/arsenal-star-sour-despite-breaking-man-utd-stars-nations-league-record-29675748/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2297723620-0a7e.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "arsenal",
-        "manutd"
-      ],
-      "publishedAt": 1791021095000
-    },
-    {
-      "competition": "echo",
-      "title": "'I would expel Manchester City to non league - they need to give the money back'",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/i-would-expel-manchester-city-34711105",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34711234.ece/ALTERNATES/s615/0_GettyImages-2290369048.jpg",
-      "summary": "Former Liverpool striker Stan Collymore believes Manchester City should be expelled to the bottom of the football pyramid",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791020640000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Amorim: Milan still have ‘many things’ to improve, two things concern me",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/amorim-milan-many-things-improve-2-things/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/08/Ruben-Amorim-hmm-414x276.jpg",
-      "summary": "Milan coach Ruben Amorim says he s more worried about the packed schedule in the coming...",
-      "teams": [
-        "acmilan"
-      ],
-      "publishedAt": 1791020638000
-    },
-    {
-      "competition": "metro",
-      "title": "Pep Guardiola plans surprise Manchester City return after Premier League verdict",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/03/pep-guardiola-plans-surprise-man-city-return-premier-league-verdict-29675732/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_293831758-0980.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791019359000
     }
   ]
 }
