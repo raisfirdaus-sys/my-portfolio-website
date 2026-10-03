@@ -1,17 +1,114 @@
 {
-  "generatedAt": 1791006534492,
+  "generatedAt": 1791008803350,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1534,
-    "tagged": 828,
+    "raw": 1525,
+    "tagged": 820,
     "droppedKeyword": 34,
     "droppedOtherSport": 1,
-    "droppedFeed": 14,
+    "droppedFeed": 12,
     "blocklistDistrusted": false,
-    "withImage": 49
+    "withImage": 50
   },
   "items": [
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791008591000
+    },
+    {
+      "competition": "indy",
+      "title": "How Gianluigi Donnarumma’s excellence denied Zinedine Zidane win in first home game as France boss",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/france-italy-result-score-zidane-donnarumma-olise-b3060681.html",
+      "image": "https://static.independent.co.uk/2026/10/02/22/download..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "summary": "France 1-1 Italy: French fans were treated to an exciting game at Stade de France but did not get the result they expected, mainly because of the Manchester City goalkeeper’s display",
+      "teams": [
+        "france"
+      ],
+      "publishedAt": 1791007470000
+    },
+    {
+      "competition": "mirror",
+      "title": "How to watch Croatia vs England for free – TV channel, streaming, kick-off time",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/england-croatia-nations-league-stream-37722474",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37716510.ece/ALTERNATES/s615/1_GettyImages-2297767776.jpg",
+      "summary": "England visits Croatia in the UEFA Nations League on Saturday seeking a second straight win",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Thierry Henry launches staunch defence of Mikel Arteta in Arsenal rant about style of play",
+      "publisher": "football.london",
+      "link": "https://www.football.london/arsenal-fc/news/thierry-henry-launches-staunch-defence-34707938",
+      "image": "https://i2-prod.football.london/incoming/article34708447.ece/ALTERNATES/s615/0_Screenshot-2026-10-02-145035.png",
+      "summary": "Mikel Arteta has been accused of being over-reliant on set-pieces over the years, but Thierry Henry has set the record straight.",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "footlondon",
+      "title": "Chelsea set for long-awaited £47m injury boost in behind-closed-doors friendly",
+      "publisher": "football.london",
+      "link": "https://www.football.london/chelsea-fc/news/chelsea-set-long-awaited-47m-34707843",
+      "image": "https://i2-prod.football.london/incoming/article34708194.ece/ALTERNATES/s615/0_GettyImages-2288357982.jpg",
+      "summary": "Chelsea are set to be in action behind closed doors over the weekend and Xabi Alonso will be hoping to give some players in particular much-needed minutes on the pitch",
+      "teams": [
+        "chelsea"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "men",
+      "title": "I never played for England again after snubbing call-up – but I don’t regret my decision",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/england-international-career-micah-richards-34689675",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34689694.ece/ALTERNATES/s615/1_England-v-Netherlands-International-Friendly.jpg",
+      "summary": "The former Three Lions star realised his dream after rejecting the possibility of playing for England",
+      "teams": [
+        "england"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "men",
+      "title": "Man United fans snap up official £28 Christmas jumper for £12 in over half price deal",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-fans-snap-up-34681974",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34681989.ece/ALTERNATES/s615/1_Untitled-September-25-2026-at-134102-3jpeg.jpg",
+      "summary": "Manchester United fans can get a head start on their Christmas shopping with a clever deal that knocks 55% off an official festive jumper",
+      "teams": [
+        "manutd"
+      ],
+      "publishedAt": 1791007200000
+    },
+    {
+      "competition": "echo",
+      "title": "I was so disappointed when Liverpool's transfer offer was rejected - I got chills at Anfield",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-bid-rejected-disappointed-34699037",
+      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34699084.ece/ALTERNATES/s615/0_GettyImages-606506216.jpg",
+      "summary": "A former Liverpool star shared his frustration after initially being denied a move to Anfield",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791007200000
+    },
     {
       "competition": "mirror",
       "title": "What's happening with JJ Gabriel? U-turn on ban, Barcelona hint, Man Utd deadline",
@@ -222,6 +319,18 @@
     },
     {
       "competition": "echo",
+      "title": "Mo Salah was gutted when his best friend left Liverpool and Jurgen Klopp was worried",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-mo-salah-jurgen-klopp-34698452",
+      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article33980930.ece/ALTERNATES/s615/1_GettyImages-2091764960.jpg",
+      "summary": "Jurgen Klopp once revealed his concern for Mohamed Salah when a certain player departed the Reds",
+      "teams": [
+        "liverpool"
+      ],
+      "publishedAt": 1791000000000
+    },
+    {
+      "competition": "echo",
       "title": "I rejected Liverpool transfer to sign for Man City - I couldn't say no but I made a mistake",
       "publisher": "Liverpool Echo",
       "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/rejected-liverpool-transfer-sign-man-34706010",
@@ -242,18 +351,6 @@
       "summary": "In this week's Royal Blue column, Christopher Beesley compares the approaches of Dan Friedkin and Dan Meis to Everton's Hill Dickinson Stadium",
       "teams": [
         "everton"
-      ],
-      "publishedAt": 1791000000000
-    },
-    {
-      "competition": "echo",
-      "title": "Mo Salah was gutted when his best friend left Liverpool and Jurgen Klopp was worried",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-mo-salah-jurgen-klopp-34698452",
-      "image": "https://i2-prod.liverpool.com/liverpool-fc-news/features/article33980930.ece/ALTERNATES/s615/1_GettyImages-2091764960.jpg",
-      "summary": "Jurgen Klopp once revealed his concern for Mohamed Salah when a certain player departed the Reds",
-      "teams": [
-        "liverpool"
       ],
       "publishedAt": 1791000000000
     },
@@ -319,28 +416,73 @@
       "publishedAt": 1790980224000
     },
     {
-      "competition": "indy",
-      "title": "How Gianluigi Donnarumma’s excellence denied Zinedine Zidane win in first home game as France boss",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/france-italy-result-score-zidane-donnarumma-olise-b3060681.html",
-      "image": "https://static.independent.co.uk/2026/10/02/22/download..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "summary": "France 1-1 Italy: French fans were treated to an exciting game at Stade de France but did not get the result they expected, mainly because of the Manchester City goalkeeper’s display",
+      "competition": "laliga",
+      "title": "Hansi Flick ready to shake up Barcelona squad after international break amid fixture overload",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNG03Ym5wNl9xSHlJdFpGMW41NHUtT2Jra0Y1VnF4QjZrRTViRXc0N0pwXzhSd0VsT05ZRXh6VllWY3JlczgyYl9BUmpRaWFVb2lWR01ORFA1MTR2c1VkRlY0WmEzYl9KN1lndi1QSDRLd0lUaDlpT0piLUFpNWVaRXdLWE85cTZtbHc?oc=5",
       "teams": [
-        "france"
+        "barcelona"
       ],
-      "publishedAt": 1790979209000
+      "publishedAt": 1791008400000,
+      "image": null
     },
     {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "competition": "unl-a",
+      "title": "UEFA Nations League 2026/27 League A: France vs. Italy-Xinhua",
+      "publisher": "新华网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPejZYMHpVWi1TZEpXcjVOTkVucDBjSng4MXFFZklpbW0zMGJUVUxxYUpfYjdMVEh2a0V4ZGlZcUpkX3I2WUw4TF9SQVF5c2pGR3pxNlBBdlh3VFA0azZLMkFaanEya1pmaFl2aTFVLU0zMVNkMlJvTGxzUk9HUWxLTlEtUzFOWkdw?oc=5",
       "teams": [
-        "mancity"
+        "france",
+        "italy"
       ],
-      "publishedAt": 1790978173000
+      "publishedAt": 1791007867000,
+      "image": null
+    },
+    {
+      "competition": "laliga",
+      "title": "'It’s all a process' - Marc Cucurella defends Jose Mourinho’s rocky Real Madrid start after €55m summer move",
+      "publisher": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbTJFWFl5cnkxZDRkOG5EVnVjV2VGaDdTYVdma2ZOUHY2NGo1ZFB3bW8wNVFxYnFEZ2RiMXFTMnI0MS1jSURMdlhmSS1tdkpLTHZoT0s2ZlBWcFdTeWt3X1R2NDNWT0JXd0MwbElQaGJuYWs5ZnRJc21Ma2dQc01qc2gtZkgtQWthbjM3ZXVWMGZPSjY1eDRhZUJBSEU?oc=5",
+      "teams": [
+        "realmadrid"
+      ],
+      "publishedAt": 1791007830000,
+      "image": null
+    },
+    {
+      "competition": "seriea",
+      "title": "Juventus keeping tabs on Brentford defender Michael Kayode",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUEFNUlE3emNDdXhacjIyOERtamVQd3B4ZU5TZmJ1dlR4cm9lel95S3h5Qm1SY2lTODhTRk45SFhrRjhsNFRrT1Y1ZDVXd1pYaVd1YWpmWmg0Wml3dFUzRUQzNDV5WF83N2xqWGt3anpXWE5jZm43a1FxbkZYMTdOd0VWRHRTZzRZNjhnZGlseVNQTms?oc=5",
+      "teams": [
+        "brentford",
+        "juventus"
+      ],
+      "publishedAt": 1791007500000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "Jeremy Jacquet is taking everything in his stride for Liverpool and France. Just ask Zinedine Zidane",
+      "publisher": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMm9UeVMyLU81OXhmUG02U25VYnduVHVSUUtQclBJMWV3YmlQbU5OeTZWR0VEZGw3aEx6d1RFZmROdWY0VjcxejNfVmlvMVl0TkxOZUtqVThXSS00Tk5sZUl5ZG5YVWZNN2FRbFRvQXJ4U0RNOVlEV3oxdHR3RUlVZ0g4N1J3WUxBcnpWa2E5U2xIalMzM0E?oc=5",
+      "teams": [
+        "liverpool",
+        "france"
+      ],
+      "publishedAt": 1791007401000,
+      "image": null
+    },
+    {
+      "competition": "epl",
+      "title": "RBM Roundtable: Everton’s best players so far this season",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY3lNNnhYejFicHBXNzRKVDFnNGhGTi0yYWJVdzNybTVDNEp3a0szRUh3RFBPUnJPd3Y4eGFKcDBMNXBDNDNDUkJWNTk2UGxnRWx3cWE3WTJhZG5NRnlKMnFGU0VCZTRCRXpUeWRtWEtfTW12U0ZQUzJTblhKemQzeFhfV1RfTFc4aVBEWQ?oc=5",
+      "teams": [
+        "everton"
+      ],
+      "publishedAt": 1791007200000,
+      "image": null
     },
     {
       "competition": "fitalia",
@@ -418,6 +560,18 @@
       "publishedAt": 1790975864000
     },
     {
+      "competition": "unl-a",
+      "title": "Nations League highlights: Poland 6-0 Romania",
+      "publisher": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMldEZ2UyMzNYLVptSlQzWHN4QXJKWU9wNGlmUVNudXY0LTVyQmwxbmpnR2Zpd1pVNzFRXzBJdGlWTXlDOVc3b05uZ0pTVTdkOEtxUHNfMjg4X3k2d2F6aWZxZFdCeF9hLVlUNjdmUURCRjJvVG5sVWRjZWNEZmtTYWE4WmFyaU5WZUhfOGZDV0g0ZW9aTFB4eThTTTdHWGswMHRmMzdZeTJoSE9PRnZndDVFU3RiSkJKUDl4Mm4weWUxNVZqYmc2Ry02UU1GazRIcWYxYw?oc=5",
+      "teams": [
+        "romania",
+        "poland"
+      ],
+      "publishedAt": 1791004606000,
+      "image": null
+    },
+    {
       "competition": "bbc",
       "title": "Chiesa eyes Liverpool exit - Saturday's gossip",
       "publisher": "BBC Sport",
@@ -445,26 +599,14 @@
     },
     {
       "competition": "unl-a",
-      "title": "North Macedonia vs Scotland – Match preview and team news",
+      "title": "Spain vs Czechia – Predicted lineup and team news",
       "publisher": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWjBLXzhzZWwzcGRqNjBPejJRRTRHNXBmc3hSSFctdzd2ZlZwZDlxZE4yUTY0V1c0ZGpyWlpWTFpjQkZwdXFpUE4tSXVVRGJaUFhVUnZiWGRiR0ZnLWZsZFBXbFN3ekM1VTU0bXJ2Qi1OOGg5ekhQeTg0cXdnUHhRNDV0Q3ZUc3Izc1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTVhGZ0ZBNjdveWF5ZVhQbTVfaXV5QVRxMmxaY0FQTzhEWnRlN1B2dl9qbTZIdVBMbERJQXhhMzVwbkFLZExkS05KUG9CRnN5ekdfazJZZzBmVDg3ZDJoREpobFZ3VnU2TWktSnVLb3NyXzJGSUg1aENMbkduU3ZrYmEtN1ZEQm5veHc?oc=5",
       "teams": [
-        "nmacedonia",
-        "scotland"
+        "czechia",
+        "spain"
       ],
       "publishedAt": 1791004200000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Bosnia and Herzegovina 1-1 Sweden",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcGhLckNpN2xfUnZQbTZ2aTQwLWRZVm9Ddl9GalFCS0dIZHUxdWhpYjFfMEJmZG81ZVhkX0hobXpGVkRtMXZmTkRPQWV4T0l1NThaNnBkT3ZneVZPckhnT0RnUWpVZUY0cUtCZ2xNU0lyc3gxX0dVTDFaeUE5VUI2NFdoNF80ZXNESWU3Mmg4ejExaE5XcFFBX0dNSDVrZkFwYWF0dDFZUk9yY2F4X2lJZ3NNOS1mQ2hmazA1Zk1lRTNIWGR4RmVMN1VDeDRsNWVtYTZGeldpdG9PY1lwYVV5RkJrM1JZSTRW?oc=5",
-      "teams": [
-        "bosnia",
-        "sweden"
-      ],
-      "publishedAt": 1791003996000,
       "image": null
     },
     {
@@ -495,24 +637,12 @@
     {
       "competition": "championship",
       "title": "Ranking Sunderland’s Top Ten Greatest Managers Of All Time",
-      "publisher": "Roker Report",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT1dBU2hDZ1d5dE00b3BHUGFFUHZlM2lZazBDRk1ORXp1TDIybFNKZGZESm1remp0SHUwWDRhclJGNmpRbDBxTHFoSGdIa2VSdTc4TENXV2F6QUNPTnBCNl9JQ1Y4OFY2QUhVVEUyZmFRYzE3MDFER192dFNaVFYxOEJ2d2VGVWZCNjMtRUt1WUlVWnRDb2hlSWRXS01sQ2tITEpJcTlhOFQ?oc=5",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzdaRDZqVGxMTzFITnVmZnF0ZHlCbDVMYzRqcUsyTGotcXNjODk3NmxxN0JYVkRHQmQ1bzFGWlJFbmF0bjlNdXh4ekxQRUdSams3R1oxdkJ4cDN0TTBIa0ZuWUZaWVQ5a1Vwd0dfMlR0dEZsQTJsWXB0Tk8tZ283emdHWU1QSEg2cDFpWQ?oc=5",
       "teams": [
         "sunderland"
       ],
       "publishedAt": 1791003600000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Poland 6-0 Romania",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMldEZ2UyMzNYLVptSlQzWHN4QXJKWU9wNGlmUVNudXY0LTVyQmwxbmpnR2Zpd1pVNzFRXzBJdGlWTXlDOVc3b05uZ0pTVTdkOEtxUHNfMjg4X3k2d2F6aWZxZFdCeF9hLVlUNjdmUURCRjJvVG5sVWRjZWNEZmtTYWE4WmFyaU5WZUhfOGZDV0g0ZW9aTFB4eThTTTdHWGswMHRmMzdZeTJoSE9PRnZndDVFU3RiSkJKUDl4Mm4weWUxNVZqYmc2Ry02UU1GazRIcWYxYw?oc=5",
-      "teams": [
-        "romania",
-        "poland"
-      ],
-      "publishedAt": 1791003336000,
       "image": null
     },
     {
@@ -539,17 +669,6 @@
         "mancity"
       ],
       "publishedAt": 1790974343000
-    },
-    {
-      "competition": "ucl",
-      "title": "Highlights: Blues at Stars (10/2) Stream of National Hockey League",
-      "publisher": "CBS Sports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX0Y3YUFIdnBOVzhmS2YzTlVmM3JIX3RRN2xZdUVPbm5LbjAzT0NpSVk3ampFRk9aSHE2cnVjQnhuU29QYmRTXzMxX2dNNmM2bVJnd0lQcTZ1ZmFyQnRva2ZJMEczMVZyZVlMUUZ4bU8xWVRNa19rVFF6YU5TaTJHbQ?oc=5",
-      "teams": [
-        "chelsea"
-      ],
-      "publishedAt": 1791003110000,
-      "image": null
     },
     {
       "competition": "mirror",
@@ -621,127 +740,6 @@
         "mancity"
       ],
       "publishedAt": 1791000758000,
-      "image": null
-    },
-    {
-      "competition": "guardian",
-      "title": "Arsenal shelve plans for major expansion of Emirates Stadium",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/02/arsenal-shelve-plans-for-major-expansion-of-emirates-stadium",
-      "image": "https://i.guim.co.uk/img/media/386c7dab46c6ed906a5dd2e80431ea75b8dc001a/446_0_4890_3910/master/4890.jpg?width=140&quality=85&auto=format&fit=max&s=2b41b4fa72d5f530d79acaba81d2015e",
-      "summary": "Club opt for improvements in hospitality and retailAn increase to 60,704 capacity had been consideredArsenal have shelved plans for a major expansion of the Emirates Stadium, opting for a programme of smaller…",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1790971812000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man Utd get ideal Carlos Baleba boost ahead of vital Tottenham clash",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/baleba-injury-update-man-utd-37729780",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37729802.ece/ALTERNATES/s615/0_JS418700579.jpg",
-      "summary": "Carlos Baleba has moved a step closer to making his official debut for Manchester United after his arrival in the summer",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1790971397000
-    },
-    {
-      "competition": "ucl",
-      "title": "France vs. Italy UEFA Nations League Preview Stream of Soccer",
-      "publisher": "CBS Sports",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVA3NThsakJwNnd4eC1NNFRudVRrMWN6bzZBNFdJVk10MkZ4ME1WdS1tV2hxa3Ztclhibi13bFIya2cweXR2aC1uU0ZkX2FqTWU2MG44eExtaW0xWk0xR1ZDejdWSXhLRW52LXV4QzdEWWZhbHRtVktlNmRQRXAzRlpLZUx2bkFCdWp0S0FLaGtzUQ?oc=5",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1791000157000,
-      "image": null
-    },
-    {
-      "competition": "indy",
-      "title": "England’s Manchester City players worried about future after club’s guilty verdict, Thomas Tuchel says",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/manchester-city-guilty-england-tuchel-b3060634.html",
-      "image": "https://static.independent.co.uk/2026/10/02/15/43bd8b520a71d40b796b83f5f5dfa56eY29udGVudHNlYXJjaGFwaSwxNzkxMDM2Nzg4-2.86051392.jpg?width=1200&auto=webp&crop=3%3A2",
-      "summary": "The situation has been developing throughout the international window where City players Marc Guehi, Elliot Anderson and Nico O’Reilly have been part of the England squad",
-      "teams": [
-        "mancity",
-        "england"
-      ],
-      "publishedAt": 1790970484000
-    },
-    {
-      "competition": "guardian",
-      "title": "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/02/manchester-city-whistleblower-rui-pinto-leave-portugal-over-safety-fears",
-      "image": "https://i.guim.co.uk/img/media/d54beac4807b69bc9cbd57da11cb7793ea0d116a/1361_0_6831_5464/master/6831.jpg?width=140&quality=85&auto=format&fit=max&s=8f54b3b761edc946cc8187018353b1e8",
-      "summary": "Pinto has witness protection status removedHis lawyers will appeal and say his situation is ‘critical’Rui Pinto has revealed he is preparing to leave Portugal because he fears for his safety after being informed that…",
-      "teams": [
-        "mancity",
-        "portugal"
-      ],
-      "publishedAt": 1790970239000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Republic of Ireland vs Israel: UEFA Nations League",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80Q1RqaUNaOWtWdVVTeFg1QW1zYXBhVE82S2pJRk44eFNRdl9yVGV0T0I3UG5TaGcxaVRaQjh1ejNtdDM3UTNiWjQtWW9ZaEl6eHJ6YU1NM2o1Z3Z3b3d2Mi1hdw?oc=5",
-      "teams": [
-        "ireland",
-        "israel"
-      ],
-      "publishedAt": 1790998870000,
-      "image": null
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City face HMRC pressure as MPs make decision after Premier League verdict",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-verdict-hmrc-mp-37729654",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37729742.ece/ALTERNATES/s615/0_JS419959262.jpg",
-      "summary": "Man City submitted an appeal after being found guilty of all but one of the 115 charges that had been brought against the club by the Premier League",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1790969941000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Wales vs Denmark: Uefa Nations League stats & head-to-head",
-      "publisher": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1bkVEMFNmb0dxVjFTc1VDdWI1aTl1UVpxMHFJTGRsb2gwdHNRdVZKTFB4RndHX3Q5SmQ5YzlWQVlHcjVTYzVvRGRGcFctNy01QXlrM2VKbE95UlpSa3EtcGpqZw?oc=5",
-      "teams": [
-        "denmark",
-        "wales"
-      ],
-      "publishedAt": 1790998428000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: Belgium 3-0 Türkiye",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdTRtSW9wa2lQSDloclJjVzgtUUpWN3BIZ2pGWVdHb0JoN3I1VXNhX1VQbHVhWlBaVUZ4QTVNZS1LYTNLbnRCdDVLUFVpWkFrVGo4XzlVMXdoc3EzUlhQaUlaejZJNnQwTVVZLS1KQ2l1VVpYZl9KOG9raEl1ZV9uYklyYzdmV3dXVGJZNVhWbzYxSWNNZ2s3bW9mWGFNVVVzRjlCT3B0SS1FdWFaeEt3bk1KWGx2MXpPY0F5bjA2eko4eVNjUEFyb2ZmU1RsRHBRb2pyOVNn?oc=5",
-      "teams": [
-        "belgium"
-      ],
-      "publishedAt": 1790998357000,
-      "image": null
-    },
-    {
-      "competition": "unl-a",
-      "title": "Nations League highlights: France 1-1 Italy",
-      "publisher": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0YtZWlSY0x1X3NtUmZjQ2xFa25aQm9tMndmdGxfWDVkQjFvYVhOX0NrVWpocmNDeGtwME8yUG5LR3BqVzl5WEpRR0lrMU10cnhXa0FETE1rNXplTGk4Y3Y2RlFyV3RJbEtZbTdzNjFRWms2dTRERnpERzJ0X2pwa01LTWoyX0h1NXJHZVpZTkNxeVQ1N0JBTDFlOFJFUEhwT09JZWgtaHd5VWRCaWRvTHBSQUJNZ0FGVEdxNllGS0RhbGhvekh5cUs4b241NVlVemc?oc=5",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1790998357000,
       "image": null
     }
   ]
