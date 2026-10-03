@@ -1,17 +1,206 @@
 {
-  "generatedAt": 1791031218643,
+  "generatedAt": 1791033532600,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1516,
-    "tagged": 821,
+    "raw": 1523,
+    "tagged": 823,
     "droppedKeyword": 31,
     "droppedOtherSport": 2,
-    "droppedFeed": 10,
+    "droppedFeed": 11,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "indy",
+      "title": "Are England fans allowed to attend the Nations League match in Croatia?",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-fans-schoolchildren-behind-closed-doors-stadium-b3060810.html",
+      "image": "https://static.independent.co.uk/2025/12/13/13/04/SEI277746421.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "summary": "England have been drawn alongside Croatia, Spain and Czech Republic in the Nations League",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791033043000
+    },
+    {
+      "competition": "indy",
+      "title": "England v Croatia LIVE: Team news and latest updates with fans banned from Nations League clash",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/croatia-england-live-score-result-nations-league-b3060437.html",
+      "image": "https://static.independent.co.uk/2026/10/02/14/2297880771..?width=1200&auto=webp&trim=20%2C0%2C20%2C0",
+      "summary": "Can England build on a promising performance as they face Slaven Bilic’s hosts?",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791032826000
+    },
+    {
+      "competition": "mirror",
+      "title": "Mikel Arteta forces Arsenal chiefs into U-turn on Emirates Stadium redevelopment",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/mikel-arteta-arsenal-emirates-capacity-37730616",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730777.ece/ALTERNATES/s615/0_GettyImages-2293846830.jpg",
+      "summary": "Arsenal drew up plans to increase the capacity of the Emirates Stadium to 80,000, but the development would've required Mikel Arteta's side to play at a temporary home",
+      "teams": [
+        "arsenal"
+      ],
+      "publishedAt": 1791032679000
+    },
+    {
+      "competition": "bbc",
+      "title": "Republic of Ireland news conference ends abruptly amid accusations",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm78p5x6xqq7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eee/live/4c3aab70-bf23-11f1-bacc-0989b00347ed.jpg",
+      "summary": "Republic of Ireland manager Heimir Hallgrimsson's pre-match news conference ends abruptly as accusations are levelled at his players.",
+      "teams": [
+        "ireland"
+      ],
+      "publishedAt": 1791032531000
+    },
+    {
+      "competition": "men",
+      "title": "Man City latest: Damning evidence against 115 charges appeal as whistleblower goes into hiding",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-premier-league-34711603",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34711679.ece/ALTERNATES/s615/0_JS419954157.jpg",
+      "summary": "Manchester City have appealed the guilty verdict delivered by the independent commission - but a key part of their defence may be in tatters",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791032485000
+    },
+    {
+      "competition": "men",
+      "title": "What TV channel is Croatia v England on? Kick-off time and live stream details",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/croatia-england-tv-channel-stream-34700756",
+      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34701051.ece/ALTERNATES/s615/0_Czechia-v-England-UEFA-Nations-League-202627-Group-A3-MD2.jpg",
+      "summary": "Manchester City have a number of stars in line to feature for England as they face a crunch UEFA Nations League clash in Croatia",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1791032400000
+    },
+    {
+      "competition": "echo",
+      "title": "Liverpool sent Virgil van Dijk warning over Real Madrid transfer interest - 'head's turned'",
+      "publisher": "Liverpool Echo",
+      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-sent-virgil-van-dijk-34711798",
+      "image": "https://i2-prod.liverpool.com/incoming/article34709825.ece/ALTERNATES/s615/0_GettyImages-2295474765.jpg",
+      "summary": "Former Liverpool striker Emile Heskey on Virgil van Dijk, Real Madrid interest and Dominik Szoboszlai",
+      "teams": [
+        "realmadrid",
+        "liverpool"
+      ],
+      "publishedAt": 1791032396000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
+      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791032363000
+    },
+    {
+      "competition": "metro",
+      "title": "Former Chelsea striker defends Arsenal star who has &#8216;become a scapegoat&#8217;",
+      "publisher": "Metro",
+      "link": "https://metro.co.uk/2026/10/03/former-chelsea-striker-defends-arsenal-star-become-a-scapegoat-29675976/",
+      "image": "https://metro.co.uk/wp-content/uploads/2026/10/GettyImages-2295029975-8a9d.jpg?quality=90&strip=all&w=646",
+      "summary": null,
+      "teams": [
+        "arsenal",
+        "chelsea"
+      ],
+      "publishedAt": 1791032319000
+    },
+    {
+      "competition": "men",
+      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
+      "publisher": "Manchester Evening News",
+      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
+      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
+      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791032316000
+    },
+    {
+      "competition": "fitalia",
+      "title": "Referee selected for next Italy match against Turkey on October 5",
+      "publisher": "Football Italia",
+      "link": "https://football-italia.net/referee-selected-for-next-italy-match-turkey/",
+      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/09/Michael-Kayode-cross.jpg",
+      "summary": "Polish referee Szymon Marciniak has been selected as the referee for the upcoming Nations League...",
+      "teams": [
+        "turkey",
+        "italy"
+      ],
+      "publishedAt": 1791032213000
+    },
+    {
+      "competition": "guardian",
+      "title": "Croatia v England buildup; tempers flare at Ireland v Israel press conference – matchday live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
+      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
+      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
+      "teams": [
+        "croatia",
+        "england",
+        "israel"
+      ],
+      "publishedAt": 1791031526000
+    },
+    {
+      "competition": "mirror",
+      "title": "Man City defence could be in tatters as claim about 'sham deals' was DENIED by Etihad",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/manchester-city-premier-league-etihad-37730733",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37725945.ece/ALTERNATES/s615/0_GettyImages-2293702322.jpg",
+      "summary": "Manchester City have appealed the Premier League's guilty verdict regarding breaches of financial rules, although their defence could be undermind by their own title sponsor",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791031385000
+    },
+    {
+      "competition": "indy",
+      "title": "Republic of Ireland press conference cut short after clashes ahead of Israel rematch",
+      "publisher": "The Independent",
+      "link": "https://www.independent.co.uk/sport/football/republic-of-ireland-israel-press-conference-b3060807.html",
+      "image": "https://static.independent.co.uk/2026/10/03/13/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "summary": "There have been protests in Ireland over the decision to fulfil two Nations League fixtures",
+      "teams": [
+        "ireland",
+        "israel"
+      ],
+      "publishedAt": 1791031247000
+    },
+    {
+      "competition": "mirror",
+      "title": "Arsene Wenger was right to be fuming about Man City - now football owes him an apology",
+      "publisher": "Mirror Football",
+      "link": "https://www.mirror.co.uk/sport/football/news/arsene-wenger-man-city-charges-37730897",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37730908.ece/ALTERNATES/s615/1_premium-canvas-1791030038437.png",
+      "summary": "OPINION: Arsene Wenger was unable to hide his frustrations surrounding Manchester City's spending power during his final years at Arsenal, with this week's verdict showing he had a point",
+      "teams": [
+        "mancity"
+      ],
+      "publishedAt": 1791030775000
+    },
     {
       "competition": "fitalia",
       "title": "Italy beat 10-year statistic in first-half performance in 1-1 draw away against France",
@@ -24,30 +213,6 @@
         "italy"
       ],
       "publishedAt": 1791030666000
-    },
-    {
-      "competition": "mirror",
-      "title": "Man City charges LIVE: UAE threaten Andy Burnham, Rui Pinto goes into hiding, appeal statement",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/man-city-charges-live-burnham-37730123",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37730156.ece/ALTERNATES/s615/1_Manchester-City-breaches.jpg",
-      "summary": "The latest news and opinion on the Manchester City charges after the club officially appealed the guilty verdict on all but one of the 115 charges levelled at them",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791030161000
-    },
-    {
-      "competition": "men",
-      "title": "Man City charges LIVE: Andy Burnham threatened, appeal lodged, FA break silence",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-live-updates-34705003",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34705020.ece/ALTERNATES/s615/0_City.jpg",
-      "summary": "The latest news and updates as Manchester City's dramatic charges saga continues, including potential punishments, an important deadline and much more",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791030107000
     },
     {
       "competition": "mirror",
@@ -112,20 +277,6 @@
       "publishedAt": 1791029123000
     },
     {
-      "competition": "guardian",
-      "title": "Croatia v England to be mainly full despite fan ban; Manchester City latest – matchday live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/england-scotland-nations-league-action-manchester-city-latest-matchday-live",
-      "image": "https://i.guim.co.uk/img/media/a90cb911c72e31f9a3e4c28cbf2e43ee0c37023b/313_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ea3b8d47019ddf43cc45d7cd5935aeab",
-      "summary": "All the latest before Saturday’s Nations League actionToday’s fixtures | Latest tables | And you can mail usA morning quiz question: which Spurs player has the most goals this season?The answer is Oliver Irow, on loan…",
-      "teams": [
-        "mancity",
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1791029008000
-    },
-    {
       "competition": "footlondon",
       "title": "Four ways Arsenal can solve Christos Tzolis injury puzzle as Mikel Arteta dealt huge blow",
       "publisher": "football.london",
@@ -161,6 +312,19 @@
         "manutd"
       ],
       "publishedAt": 1791028482000
+    },
+    {
+      "competition": "bundes",
+      "title": "Serge Gnabry leaves Germany camp to return to Bayern Munich",
+      "publisher": "Bundesliga",
+      "link": "https://www.bundesliga.com/en/bundesliga/news/serge-gnabry-leaves-germany-camp-bayern-munich-return-39412",
+      "image": "https://assets.bundesliga.com/contender/2026/9/imago1084016817h.jpg?crop=0px%2C45px%2C3000px%2C1687px",
+      "summary": "Serge Gnabry has returned to Bayern Munich after departing the Germany camp ahead of Die Nationalelf's final fixture of the international break, the DFB have confirmed.",
+      "teams": [
+        "bayern",
+        "germany"
+      ],
+      "publishedAt": 1791027427000
     },
     {
       "competition": "chronicle",
@@ -588,163 +752,6 @@
         "manutd"
       ],
       "publishedAt": 1791015030000
-    },
-    {
-      "competition": "echo",
-      "title": "Hungarian media give Liverpool boost as Szoboszlai thrives in new position and Kerkez scores",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-kerkez-liverpool-hungary-34710645",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710668.ece/ALTERNATES/s615/1_GettyImages-2297740514.jpg",
-      "summary": "Liverpool players Dominik Szoboszlai and Milos Kerkez were in fine form as Hungary beat Georgia on Friday evening",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791014631000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Zidane: France &#8216;deserved more&#8217;, Italy &#8216;defended well&#8217;",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/zidane-france-deserved-more-italy-defend-well/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/Zinedine-Zidane-side-414x276.jpg",
-      "summary": "France coach Zinedine Zidane insists Les Blues deserved more in a home game against Italy:...",
-      "teams": [
-        "france",
-        "italy"
-      ],
-      "publishedAt": 1791014280000
-    },
-    {
-      "competition": "echo",
-      "title": "French media heap praise on 'monstrous' Jeremy Jacquet for 'true leader' France performance",
-      "publisher": "Liverpool Echo",
-      "link": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jeremy-jacquet-france-italy-34710707",
-      "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article34710712.ece/ALTERNATES/s615/0_GettyImages-2297710891.jpg",
-      "summary": "Liverpool's young defender Jeremy Jacquet has been stealing the show while on international duty",
-      "teams": [
-        "france"
-      ],
-      "publishedAt": 1791013160000
-    },
-    {
-      "competition": "bbc",
-      "title": "Lewandowski, 38, hits hat-trick in 6-0 Poland win",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgxe0yxpn8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ec0/live/311aa970-bef2-11f1-babe-4199b0e7ccea.jpg",
-      "summary": "Robert Lewandowski, 38, scores a hat-trick in the Nations League and Edin Dzeko plays his final game for Bosnia-Herzegovina.",
-      "teams": [
-        "poland"
-      ],
-      "publishedAt": 1791013058000
-    },
-    {
-      "competition": "chronicle",
-      "title": "Leaving Newcastle United took the pressure off - now the sky's the limit",
-      "publisher": "Chronicle Live",
-      "link": "https://www.chroniclelive.co.uk/sport/football/football-news/leaving-newcastle-united-took-pressure-34710708",
-      "image": "https://i2-prod.chroniclelive.co.uk/incoming/article34710716.ece/ALTERNATES/s615/0_Josh2.jpg",
-      "summary": "Former Magpies academy star Josh Nicholson is pursuing a new career after his footballing days ended",
-      "teams": [
-        "newcastle"
-      ],
-      "publishedAt": 1791012870000
-    },
-    {
-      "competition": "fitalia",
-      "title": "Today&#8217;s Papers &#8211; Bastoni responds to Olise, this is Italy",
-      "publisher": "Football Italia",
-      "link": "https://football-italia.net/todays-papers-bastoni-responds-olise-italy/",
-      "image": "https://icdn.football-italia.net/wp-content/uploads/2026/10/la-gazzetta-dello-sport-032008w3l2lhz-414x579.webp",
-      "summary": "La Gazzetta dello Sport The vote on Malagò, Buonfiglio s risks Azzurri play on par against...",
-      "teams": [
-        "italy"
-      ],
-      "publishedAt": 1791012763000
-    },
-    {
-      "competition": "birmingham",
-      "title": "Alejandro Garnacho sends Unai Emery Aston Villa message after Sevilla goal",
-      "publisher": "Birmingham Live",
-      "link": "https://www.birminghammail.co.uk/sport/football/football-news/alejandro-garnacho-aston-villa-message-34710692",
-      "image": "https://i2-prod.birminghammail.co.uk/incoming/article34710686.ece/ALTERNATES/s615/0_GettyImages-2298291317.jpg",
-      "summary": "Alejandro Garnacho helped Aston Villa beat Sevilla on Friday night",
-      "teams": [
-        "astonvilla"
-      ],
-      "publishedAt": 1791012333000
-    },
-    {
-      "competition": "bbc",
-      "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
-      "publisher": "BBC Sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ad7/live/f03cb6d0-bea8-11f1-a22a-011993fe1af2.jpg",
-      "summary": "Fifth in the all-time scoring chart for Scotland and closing in on 100 caps, John McGinn could do with finding his best stuff again, writes Tom English.",
-      "teams": [
-        "scotland"
-      ],
-      "publishedAt": 1791011117000
-    },
-    {
-      "competition": "mirror",
-      "title": "Liverpool FC's world famous Kop stand, where 'the city found it's voice'",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/news/uk-news/brian-reade-the-kop-liverpool-37723544",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37724165.ece/ALTERNATES/s615/1_Liverpool-v-HJK-Helsinki-European-Cup-2nd-Round-2nd-Leg.jpg",
-      "summary": "To mark 120 years of Liverpool FC’s world-famous Kop, Mirror columnist Brian Reade chronicles its iconic history. In an exclusive excerpt from his book, The Kop, he highlights the cultural power and legacy of the stand",
-      "teams": [
-        "liverpool"
-      ],
-      "publishedAt": 1791011004000
-    },
-    {
-      "competition": "guardian",
-      "title": "Thrown in with Giggs and Beckham: how Manchester United tried to get Billy Kenny",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/2026/oct/03/billy-kenny-ryan-giggs-david-beckham-manchester-united-autobiography",
-      "image": "https://i.guim.co.uk/img/media/f4a286df811f62f6bf154d9e2432026c62bc3a66/651_0_4108_3286/master/4108.jpg?width=140&quality=85&auto=format&fit=max&s=bf5e8c9ab55817f292ae663bb6d6c6a3",
-      "summary": "Former Everton midfielder, known as the ‘Goodison Gazza’, recalls being made to feel special by Alex Ferguson in this autobiography extract “So this is the scouser ya been goin’ on aboot then …” My face turned…",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791010853000
-    },
-    {
-      "competition": "mirror",
-      "title": "The 50 hardest Manchester United players to ever walk out at Old Trafford",
-      "publisher": "Mirror Football",
-      "link": "https://www.mirror.co.uk/sport/football/news/gallery/manchester-united-hardest-players-keane-37725975",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article2235275.ece/ALTERNATES/s615/1_Paul-McGrath.jpg",
-      "summary": "Manchester United have produced their fair share of hardmen over the years... here are 50 of the fiercest",
-      "teams": [
-        "manutd"
-      ],
-      "publishedAt": 1791010800000
-    },
-    {
-      "competition": "metro",
-      "title": "Thomas Tuchel&#8217;s treatment of Trent reveals the England fear that led to World Cup failure",
-      "publisher": "Metro",
-      "link": "https://metro.co.uk/2026/10/03/thomas-tuchels-trent-alexander-arnold-treatment-reveals-england-fear-led-world-cup-failure-29670750/",
-      "image": "https://metro.co.uk/wp-content/uploads/2026/03/SEI_290759015-7085.jpg?quality=90&strip=all&w=646",
-      "summary": null,
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1791010800000
-    },
-    {
-      "competition": "footlondon",
-      "title": "Arsenal boss Mikel Arteta must pull no punches after fresh Martin Odegaard incident",
-      "publisher": "football.london",
-      "link": "https://www.football.london/arsenal-fc/news/arsenal-mikel-arteta-martin-odegaard-34708825",
-      "image": "https://i2-prod.football.london/incoming/article34708802.ece/ALTERNATES/s615/0_GettyImages-2290849135.jpg",
-      "summary": "Players are already at risk of injury due to the jam-packed schedule and they require all the protection they can get, writes Ryan Taylor",
-      "teams": [
-        "arsenal"
-      ],
-      "publishedAt": 1791010800000
     }
   ]
 }
