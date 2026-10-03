@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1790991368820,
+  "generatedAt": 1790992372635,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1526,
-    "tagged": 832,
+    "raw": 1528,
+    "tagged": 834,
     "droppedKeyword": 36,
     "droppedOtherSport": 1,
     "droppedFeed": 14,
     "blocklistDistrusted": false,
-    "withImage": 59
+    "withImage": 58
   },
   "items": [
     {
@@ -653,6 +653,19 @@
       "publishedAt": 1790957454000
     },
     {
+      "competition": "epl",
+      "title": "How every Premier League table looks with Man City results void as Liverpool and Everton wronged",
+      "publisher": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSDNraC1kTjNlcEN2VFZEN1AxT0c2SmVUdFFQM2o4eUx4b3JjMkNlc2hwd3Q1M0hJVjl4NlFaRjhuLUJXZkZKbU1sYlBxN1BJRFM4NDFFVldyVWtMWTJsRXcyUFBiZW8ydkthWjV4N2Jrbnp6bmRoNFdhdDk4WEdRLWRhUW1BTEwtY25EOEQ4V1FwdjZBOW93VG1mVElGWXRUU2JGbHpn?oc=5",
+      "teams": [
+        "liverpool",
+        "mancity",
+        "everton"
+      ],
+      "publishedAt": 1790986162000,
+      "image": null
+    },
+    {
       "competition": "mirror",
       "title": "Man Utd eye JJ Gabriel legal action if teenager leaves amid Barcelona and Real Madrid interest",
       "publisher": "Mirror Football",
@@ -741,18 +754,6 @@
         "mancity"
       ],
       "publishedAt": 1790955732000
-    },
-    {
-      "competition": "indy",
-      "title": "Jordan Pickford defiant amid threat to England No 1 spot: ‘I’m only getting better’",
-      "publisher": "The Independent",
-      "link": "https://www.independent.co.uk/sport/football/jordan-pickford-thomas-tuchel-james-trafford-england-nations-league-b3060522.html",
-      "image": "https://static.independent.co.uk/2026/10/02/16/01M3YCNNJX21H2KPT5HXAJS88A.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "summary": "Pickford’s position as England number one is under threat for the first time amid the rise of James Trafford",
-      "teams": [
-        "england"
-      ],
-      "publishedAt": 1790955682000
     }
   ]
 }
