@@ -1,17 +1,43 @@
 {
-  "generatedAt": 1791055417548,
+  "generatedAt": 1791056532037,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
     "raw": 1520,
-    "tagged": 800,
+    "tagged": 798,
     "droppedKeyword": 33,
     "droppedOtherSport": 2,
-    "droppedFeed": 16,
+    "droppedFeed": 15,
     "blocklistDistrusted": false,
     "withImage": 60
   },
   "items": [
+    {
+      "competition": "guardian",
+      "title": "North Macedonia v Scotland, Spain v Czechia, and more: Nations League – live",
+      "publisher": "The Guardian",
+      "link": "https://www.theguardian.com/football/live/2026/oct/03/north-macedonia-v-scotland-spain-v-czechia-and-more-nations-league-live",
+      "image": "https://i.guim.co.uk/img/media/57091e219c0b67e52b7112da3c8504d0da5c1f9f/0_0_4158_3327/master/4158.jpg?width=140&quality=85&auto=format&fit=max&s=04aedd103d14bc51736ff32d29251199",
+      "summary": "Nations League updates from the 7.45pm BST kick-offsLive scores | Get the Football Daily newsletter | Mail LukeSpain: Raya; Fresneda, Le Normand, Laporte, García; Rodri, Pedri; Lamine Yamal, Olmo, Baena;…",
+      "teams": [
+        "nmacedonia",
+        "scotland",
+        "czechia"
+      ],
+      "publishedAt": 1791055785000
+    },
+    {
+      "competition": "bbc",
+      "title": "Robertson hits 100 Scotland caps - but who else makes top 10?",
+      "publisher": "BBC Sport",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck3reg92815ro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035e/live/8596bf90-bc2f-11f1-bc1f-3f186ca4140c.png",
+      "summary": "We want you to name the 10 most capped Scotland men's players of all time, after current captain Andy Robertson makes his 100th national team appearance against North Macedonia on Saturday.",
+      "teams": [
+        "scotland"
+      ],
+      "publishedAt": 1791055444000
+    },
     {
       "competition": "bbc",
       "title": "Robertson's Scotland career in numbers as he wins 100th cap",
@@ -36,20 +62,6 @@
         "england"
       ],
       "publishedAt": 1791055112000
-    },
-    {
-      "competition": "guardian",
-      "title": "North Macedonia v Scotland, Spain v Czechia, and more: Nations League – live",
-      "publisher": "The Guardian",
-      "link": "https://www.theguardian.com/football/live/2026/oct/03/north-macedonia-v-scotland-spain-v-czechia-and-more-nations-league-live",
-      "image": "https://i.guim.co.uk/img/media/57091e219c0b67e52b7112da3c8504d0da5c1f9f/0_0_4158_3327/master/4158.jpg?width=140&quality=85&auto=format&fit=max&s=04aedd103d14bc51736ff32d29251199",
-      "summary": "Nations League updates from the 7.45pm BST kick-offsLive scores | Get the Football Daily newsletter | Mail LukeSpain: Raya; Fresneda, Le Normand, Laporte, García; Rodri, Pedri; Lamine Yamal, Olmo, Baena;…",
-      "teams": [
-        "nmacedonia",
-        "scotland",
-        "czechia"
-      ],
-      "publishedAt": 1791054846000
     },
     {
       "competition": "mirror",
@@ -129,7 +141,7 @@
       "title": "Sublime England thrash Croatia in best performance for a decade",
       "publisher": "The Telegraph",
       "link": "https://www.telegraph.co.uk/football/2026/10/03/croatia-vs-england-live-score-latest-nations-league-updates/",
-      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqedA4kygIe6vqv6EOMEWOUiRHZo78xN-_lDwBlZbqBfg.jpeg",
+      "image": "https://www.telegraph.co.uk/content/dam/football/2026/10/03/TELEMMGLPICT000505853278_17910509788300_trans_NvBQzQNjv4BqMZtamUIhDzO2Boxg9bbC8Y-COCp_eIoGLxUemgm8_v8.jpeg",
       "summary": "Sublime England thrash Croatia in best performance for a decade",
       "teams": [
         "croatia",
@@ -736,18 +748,6 @@
         "ireland"
       ],
       "publishedAt": 1791032531000
-    },
-    {
-      "competition": "men",
-      "title": "Man City latest: Damning evidence against 115 charges appeal as whistleblower goes into hiding",
-      "publisher": "Manchester Evening News",
-      "link": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-charges-premier-league-34711603",
-      "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article34711679.ece/ALTERNATES/s615/0_JS419954157.jpg",
-      "summary": "Manchester City have appealed the guilty verdict delivered by the independent commission - but a key part of their defence may be in tatters",
-      "teams": [
-        "mancity"
-      ],
-      "publishedAt": 1791032485000
     }
   ]
 }
