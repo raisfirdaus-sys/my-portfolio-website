@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1790988501283,
+  "generatedAt": 1790991368820,
   "source": "Google News RSS",
   "teamsKnown": 146,
   "counts": {
-    "raw": 1533,
+    "raw": 1526,
     "tagged": 832,
-    "droppedKeyword": 38,
+    "droppedKeyword": 36,
     "droppedOtherSport": 1,
-    "droppedFeed": 15,
+    "droppedFeed": 14,
     "blocklistDistrusted": false,
     "withImage": 59
   },
@@ -544,6 +544,18 @@
       "publishedAt": 1790960611000
     },
     {
+      "competition": "unl-a",
+      "title": "Thomas Tuchel confirms Harry Kane will play for England vs. Croatia",
+      "publisher": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUWJtY0FIVklRYmVYOXpXTE4xU1RPb3p6czFjMmNncF83eFBZU0lvVk1LR2VpNWxHQTVrWTktSUJNYWs1NnJTSjEyakt1dU9kZlJuQ1cyY1U5R01vajFpWm9hemdIM0dMbmx4TW5SRnpQNmh3U0k4QjdyZHBEeTZWTmpMV21BemtaYnc?oc=5",
+      "teams": [
+        "croatia",
+        "england"
+      ],
+      "publishedAt": 1790989200000,
+      "image": null
+    },
+    {
       "competition": "chronicle",
       "title": "I'm not convinced by Matthias Jaissle and Newcastle United - it can't continue",
       "publisher": "Chronicle Live",
@@ -653,18 +665,6 @@
         "manutd"
       ],
       "publishedAt": 1790956979000
-    },
-    {
-      "competition": "unl-a",
-      "title": "Croatia vs. England—Nations League: Preview, Predictions and Lineups",
-      "publisher": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDFObS1ZdS1YZEI5U0Zpd2dFMHhGZElfcG9mUmdjVWJGTjdBLXd5ZV9kanhNY3RrUnlvclpWd3kwVUR4UGFsTkxCM2RzQ0J2b2lJZ0pFbEdOaGluVmFvdjlvM3ktMW04ZnByakZzOS1TQmNoNTE3eGJ1SzFvWGdXRDlzQTRJOGJNcnlnTFRlR3FYWVZrY09aUnVzbw?oc=5",
-      "teams": [
-        "croatia",
-        "england"
-      ],
-      "publishedAt": 1790985601000,
-      "image": null
     },
     {
       "competition": "mirror",
